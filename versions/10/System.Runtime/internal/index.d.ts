@@ -17,27 +17,27 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
 export enum GCLargeObjectHeapCompactionMode {
-    default = 1,
-    compactOnce = 2
+    Default = 1,
+    CompactOnce = 2
 }
 
 
 export enum GCLatencyMode {
-    batch = 0,
-    interactive = 1,
-    lowLatency = 2,
-    sustainedLowLatency = 3,
-    noGCRegion = 4
+    Batch = 0,
+    Interactive = 1,
+    LowLatency = 2,
+    SustainedLowLatency = 3,
+    NoGCRegion = 4
 }
 
 
 export interface DependentHandle$instance {
-    get dependent(): unknown | undefined;
-    set dependent(value: unknown);
-    readonly isAllocated: boolean;
-    target: unknown;
-    readonly targetAndDependent: ValueTuple_2<unknown, unknown>;
-    dispose(): void;
+    get Dependent(): unknown | undefined;
+    set Dependent(value: unknown);
+    readonly IsAllocated: boolean;
+    Target: unknown;
+    readonly TargetAndDependent: ValueTuple_2<unknown, unknown>;
+    Dispose(): void;
 }
 
 
@@ -56,7 +56,7 @@ export type DependentHandle = DependentHandle$instance & __DependentHandle$views
 
 
 export interface AmbiguousImplementationException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -75,7 +75,7 @@ export type AmbiguousImplementationException = AmbiguousImplementationException$
 
 
 export interface AssemblyTargetedPatchBandAttribute$instance extends Attribute {
-    readonly targetedPatchBand: string;
+    readonly TargetedPatchBand: string;
 }
 
 
@@ -87,7 +87,7 @@ export const AssemblyTargetedPatchBandAttribute: {
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
 export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
-    dispose(): void;
+    Dispose(): void;
 }
 
 
@@ -106,7 +106,7 @@ export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views
 
 
 export interface TargetedPatchingOptOutAttribute$instance extends Attribute {
-    readonly reason: string;
+    readonly Reason: string;
 }
 
 
@@ -118,33 +118,33 @@ export const TargetedPatchingOptOutAttribute: {
 export type TargetedPatchingOptOutAttribute = TargetedPatchingOptOutAttribute$instance;
 
 export abstract class ControlledExecution$instance {
-    static run(action: Action, cancellationToken: CancellationToken): void;
+    static Run(action: Action, cancellationToken: CancellationToken): void;
 }
 
 
 export type ControlledExecution = ControlledExecution$instance;
 
 export abstract class GCSettings$instance {
-    static readonly isServerGC: boolean;
-    static latencyMode: GCLatencyMode;
-    static largeObjectHeapCompactionMode: GCLargeObjectHeapCompactionMode;
+    static readonly IsServerGC: boolean;
+    static LatencyMode: GCLatencyMode;
+    static LargeObjectHeapCompactionMode: GCLargeObjectHeapCompactionMode;
 }
 
 
 export type GCSettings = GCSettings$instance;
 
 export abstract class JitInfo$instance {
-    static getCompilationTime(currentThread?: boolean): TimeSpan;
-    static getCompiledILBytes(currentThread?: boolean): long;
-    static getCompiledMethodCount(currentThread?: boolean): long;
+    static GetCompilationTime(currentThread?: boolean): TimeSpan;
+    static GetCompiledILBytes(currentThread?: boolean): long;
+    static GetCompiledMethodCount(currentThread?: boolean): long;
 }
 
 
 export type JitInfo = JitInfo$instance;
 
 export abstract class ProfileOptimization$instance {
-    static setProfileRoot(directoryPath: string): void;
-    static startProfile(profile: string): void;
+    static SetProfileRoot(directoryPath: string): void;
+    static StartProfile(profile: string): void;
 }
 
 

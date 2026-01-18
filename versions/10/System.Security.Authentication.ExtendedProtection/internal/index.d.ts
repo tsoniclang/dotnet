@@ -19,28 +19,28 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum ChannelBindingKind {
-    unknown = 0,
-    unique = 25,
-    endpoint = 26
+    Unknown = 0,
+    Unique = 25,
+    Endpoint = 26
 }
 
 
 export enum PolicyEnforcement {
-    never = 0,
-    whenSupported = 1,
-    always = 2
+    Never = 0,
+    WhenSupported = 1,
+    Always = 2
 }
 
 
 export enum ProtectionScenario {
-    transportSelected = 0,
-    trustedProxy = 1
+    TransportSelected = 0,
+    TrustedProxy = 1
 }
 
 
 export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
-    readonly size: int;
-    dispose(): void;
+    readonly Size: int;
+    Dispose(): void;
 }
 
 
@@ -56,11 +56,11 @@ export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
 export interface ExtendedProtectionPolicy$instance {
-    readonly customChannelBinding: ChannelBinding | undefined;
-    readonly customServiceNames: ServiceNameCollection | undefined;
-    readonly policyEnforcement: PolicyEnforcement;
-    readonly protectionScenario: ProtectionScenario;
-    toString(): string;
+    readonly CustomChannelBinding: ChannelBinding | undefined;
+    readonly CustomServiceNames: ServiceNameCollection | undefined;
+    readonly PolicyEnforcement: PolicyEnforcement;
+    readonly ProtectionScenario: ProtectionScenario;
+    ToString(): string;
 }
 
 
@@ -69,7 +69,7 @@ export const ExtendedProtectionPolicy: {
     new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
-    readonly osSupportsExtendedProtection: boolean;
+    readonly OSSupportsExtendedProtection: boolean;
 };
 
 
@@ -83,10 +83,10 @@ export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __Ext
 
 
 export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
 }
 
 
@@ -98,11 +98,11 @@ export const ExtendedProtectionPolicyTypeConverter: {
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
 export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
-    contains(searchServiceName: string): boolean;
-    copyTo(array: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator;
-    merge(serviceName: string): ServiceNameCollection;
-    merge(serviceNames: IEnumerable): ServiceNameCollection;
+    Contains(searchServiceName: string): boolean;
+    CopyTo(array: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator;
+    Merge(serviceName: string): ServiceNameCollection;
+    Merge(serviceNames: IEnumerable): ServiceNameCollection;
 }
 
 

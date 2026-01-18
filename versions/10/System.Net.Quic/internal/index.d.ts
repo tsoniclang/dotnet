@@ -23,37 +23,37 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum QuicAbortDirection {
-    read = 1,
-    write = 2,
-    both = 3
+    Read = 1,
+    Write = 2,
+    Both = 3
 }
 
 
 export enum QuicError {
-    success = 0,
-    internalError = 1,
-    connectionAborted = 2,
-    streamAborted = 3,
-    connectionTimeout = 6,
-    connectionRefused = 8,
-    versionNegotiationError = 9,
-    connectionIdle = 10,
-    operationAborted = 12,
-    alpnInUse = 13,
-    transportError = 14,
-    callbackError = 15
+    Success = 0,
+    InternalError = 1,
+    ConnectionAborted = 2,
+    StreamAborted = 3,
+    ConnectionTimeout = 6,
+    ConnectionRefused = 8,
+    VersionNegotiationError = 9,
+    ConnectionIdle = 10,
+    OperationAborted = 12,
+    AlpnInUse = 13,
+    TransportError = 14,
+    CallbackError = 15
 }
 
 
 export enum QuicStreamType {
-    unidirectional = 0,
-    bidirectional = 1
+    Unidirectional = 0,
+    Bidirectional = 1
 }
 
 
 export interface QuicStreamCapacityChangedArgs$instance {
-    bidirectionalIncrement: int;
-    unidirectionalIncrement: int;
+    BidirectionalIncrement: int;
+    UnidirectionalIncrement: int;
 }
 
 
@@ -65,9 +65,9 @@ export const QuicStreamCapacityChangedArgs: {
 export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instance;
 
 export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions {
-    clientAuthenticationOptions: SslClientAuthenticationOptions;
-    localEndPoint: IPEndPoint;
-    remoteEndPoint: EndPoint;
+    ClientAuthenticationOptions: SslClientAuthenticationOptions;
+    LocalEndPoint: IPEndPoint;
+    RemoteEndPoint: EndPoint;
 }
 
 
@@ -79,25 +79,25 @@ export const QuicClientConnectionOptions: {
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
 export interface QuicConnection$instance {
-    readonly localEndPoint: IPEndPoint;
-    readonly negotiatedApplicationProtocol: SslApplicationProtocol;
-    readonly negotiatedCipherSuite: TlsCipherSuite;
-    readonly remoteCertificate: X509Certificate | undefined;
-    readonly remoteEndPoint: IPEndPoint;
-    readonly sslProtocol: SslProtocols;
-    readonly targetHostName: string;
-    acceptInboundStreamAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
-    closeAsync(errorCode: long, cancellationToken?: CancellationToken): ValueTask;
-    disposeAsync(): ValueTask;
-    openOutboundStreamAsync(type: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
-    toString(): string;
+    readonly LocalEndPoint: IPEndPoint;
+    readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
+    readonly NegotiatedCipherSuite: TlsCipherSuite;
+    readonly RemoteCertificate: X509Certificate | undefined;
+    readonly RemoteEndPoint: IPEndPoint;
+    readonly SslProtocol: SslProtocols;
+    readonly TargetHostName: string;
+    AcceptInboundStreamAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
+    CloseAsync(errorCode: long, cancellationToken?: CancellationToken): ValueTask;
+    DisposeAsync(): ValueTask;
+    OpenOutboundStreamAsync(type: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
+    ToString(): string;
 }
 
 
 export const QuicConnection: {
     new(): QuicConnection;
-    readonly isSupported: boolean;
-    connectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
+    readonly IsSupported: boolean;
+    ConnectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
 };
 
 
@@ -111,16 +111,16 @@ export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
 
 export interface QuicConnectionOptions$instance {
-    defaultCloseErrorCode: long;
-    defaultStreamErrorCode: long;
-    handshakeTimeout: TimeSpan;
-    idleTimeout: TimeSpan;
-    initialReceiveWindowSizes: QuicReceiveWindowSizes;
-    keepAliveInterval: TimeSpan;
-    maxInboundBidirectionalStreams: int;
-    maxInboundUnidirectionalStreams: int;
-    get streamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
-    set streamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>);
+    DefaultCloseErrorCode: long;
+    DefaultStreamErrorCode: long;
+    HandshakeTimeout: TimeSpan;
+    IdleTimeout: TimeSpan;
+    InitialReceiveWindowSizes: QuicReceiveWindowSizes;
+    KeepAliveInterval: TimeSpan;
+    MaxInboundBidirectionalStreams: int;
+    MaxInboundUnidirectionalStreams: int;
+    get StreamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
+    set StreamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>);
 }
 
 
@@ -131,10 +131,10 @@ export const QuicConnectionOptions: {
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
 export interface QuicException$instance extends IOException {
-    readonly applicationErrorCode: Nullable_1<System_Internal.Int64>;
-    readonly quicError: QuicError;
-    readonly transportErrorCode: Nullable_1<System_Internal.Int64>;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly ApplicationErrorCode: Nullable_1<System_Internal.Int64>;
+    readonly QuicError: QuicError;
+    readonly TransportErrorCode: Nullable_1<System_Internal.Int64>;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -151,17 +151,17 @@ export type QuicException = QuicException$instance & __QuicException$views;
 
 
 export interface QuicListener$instance {
-    readonly localEndPoint: IPEndPoint;
-    acceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
-    disposeAsync(): ValueTask;
-    toString(): string;
+    readonly LocalEndPoint: IPEndPoint;
+    AcceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
+    DisposeAsync(): ValueTask;
+    ToString(): string;
 }
 
 
 export const QuicListener: {
     new(): QuicListener;
-    readonly isSupported: boolean;
-    listenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
+    readonly IsSupported: boolean;
+    ListenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
 };
 
 
@@ -175,10 +175,10 @@ export type QuicListener = QuicListener$instance & __QuicListener$views;
 
 
 export interface QuicListenerOptions$instance {
-    applicationProtocols: List_1<SslApplicationProtocol>;
-    connectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
-    listenBacklog: int;
-    listenEndPoint: IPEndPoint;
+    ApplicationProtocols: List_1<SslApplicationProtocol>;
+    ConnectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
+    ListenBacklog: int;
+    ListenEndPoint: IPEndPoint;
 }
 
 
@@ -190,10 +190,10 @@ export const QuicListenerOptions: {
 export type QuicListenerOptions = QuicListenerOptions$instance;
 
 export interface QuicReceiveWindowSizes$instance {
-    connection: int;
-    locallyInitiatedBidirectionalStream: int;
-    remotelyInitiatedBidirectionalStream: int;
-    unidirectionalStream: int;
+    Connection: int;
+    LocallyInitiatedBidirectionalStream: int;
+    RemotelyInitiatedBidirectionalStream: int;
+    UnidirectionalStream: int;
 }
 
 
@@ -205,7 +205,7 @@ export const QuicReceiveWindowSizes: {
 export type QuicReceiveWindowSizes = QuicReceiveWindowSizes$instance;
 
 export interface QuicServerConnectionOptions$instance extends QuicConnectionOptions {
-    serverAuthenticationOptions: SslServerAuthenticationOptions;
+    ServerAuthenticationOptions: SslServerAuthenticationOptions;
 }
 
 
@@ -217,49 +217,49 @@ export const QuicServerConnectionOptions: {
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
 export interface QuicStream$instance extends Stream {
-    readonly canRead: boolean;
-    readonly canSeek: boolean;
-    readonly canTimeout: boolean;
-    readonly canWrite: boolean;
-    readonly id: long;
-    readonly length: long;
-    position: long;
-    readonly readsClosed: Task;
-    readTimeout: int;
-    readonly type: QuicStreamType;
-    readonly writesClosed: Task;
-    writeTimeout: int;
-    abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    completeWrites(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    endRead(asyncResult: IAsyncResult): int;
-    endWrite(asyncResult: IAsyncResult): void;
-    flush(): void;
-    flushAsync(cancellationToken?: CancellationToken): Task;
-    flushAsync(): Task;
-    read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<System_Internal.Byte>): int;
-    read(buffer: Span_1<System_Internal.Byte>): int;
-    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    readByte(): int;
-    seek(offset: long, origin: SeekOrigin): long;
-    setLength(value: long): void;
-    toString(): string;
-    write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
-    writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    writeByte(value: byte): void;
+    readonly CanRead: boolean;
+    readonly CanSeek: boolean;
+    readonly CanTimeout: boolean;
+    readonly CanWrite: boolean;
+    readonly Id: long;
+    readonly Length: long;
+    Position: long;
+    readonly ReadsClosed: Task;
+    ReadTimeout: int;
+    readonly Type: QuicStreamType;
+    readonly WritesClosed: Task;
+    WriteTimeout: int;
+    Abort(abortDirection: QuicAbortDirection, errorCode: long): void;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    CompleteWrites(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    EndRead(asyncResult: IAsyncResult): int;
+    EndWrite(asyncResult: IAsyncResult): void;
+    Flush(): void;
+    FlushAsync(cancellationToken?: CancellationToken): Task;
+    FlushAsync(): Task;
+    Read(buffer: byte[], offset: int, count: int): int;
+    Read(buffer: Span_1<System_Internal.Byte>): int;
+    Read(buffer: Span_1<System_Internal.Byte>): int;
+    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
+    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    ReadByte(): int;
+    Seek(offset: long, origin: SeekOrigin): long;
+    SetLength(value: long): void;
+    ToString(): string;
+    Write(buffer: byte[], offset: int, count: int): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
+    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
+    WriteAsync(buffer: byte[], offset: int, count: int): Task;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
+    WriteByte(value: byte): void;
 }
 
 

@@ -13,7 +13,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface AssemblyLoadContext_ContextualReflectionScope$instance {
-    dispose(): void;
+    Dispose(): void;
 }
 
 
@@ -32,8 +32,8 @@ export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_
 
 
 export interface AssemblyDependencyResolver$instance {
-    resolveAssemblyToPath(assemblyName: AssemblyName): string | undefined;
-    resolveUnmanagedDllToPath(unmanagedDllName: string): string | undefined;
+    ResolveAssemblyToPath(assemblyName: AssemblyName): string | undefined;
+    ResolveUnmanagedDllToPath(unmanagedDllName: string): string | undefined;
 }
 
 
@@ -45,30 +45,30 @@ export const AssemblyDependencyResolver: {
 export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
 export interface AssemblyLoadContext$instance {
-    readonly assemblies: IEnumerable_1<Assembly>;
-    readonly isCollectible: boolean;
-    readonly name: string;
-    enterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
-    loadFromAssemblyName(assemblyName: AssemblyName): Assembly;
-    loadFromAssemblyPath(assemblyPath: string): Assembly;
-    loadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
-    loadFromStream(assembly: Stream): Assembly;
-    loadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
-    setProfileOptimizationRoot(directoryPath: string): void;
-    startProfileOptimization(profile: string): void;
-    toString(): string;
-    unload(): void;
+    readonly Assemblies: IEnumerable_1<Assembly>;
+    readonly IsCollectible: boolean;
+    readonly Name: string;
+    EnterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
+    LoadFromAssemblyName(assemblyName: AssemblyName): Assembly;
+    LoadFromAssemblyPath(assemblyPath: string): Assembly;
+    LoadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
+    LoadFromStream(assembly: Stream): Assembly;
+    LoadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
+    SetProfileOptimizationRoot(directoryPath: string): void;
+    StartProfileOptimization(profile: string): void;
+    ToString(): string;
+    Unload(): void;
 }
 
 
 export const AssemblyLoadContext: {
     new(name: string, isCollectible: boolean): AssemblyLoadContext;
-    readonly default: AssemblyLoadContext;
-    readonly all: IEnumerable_1<AssemblyLoadContext>;
-    readonly currentContextualReflectionContext: AssemblyLoadContext | undefined;
-    enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
-    getAssemblyName(assemblyPath: string): AssemblyName;
-    getLoadContext(assembly: Assembly): AssemblyLoadContext | undefined;
+    readonly Default: AssemblyLoadContext;
+    readonly All: IEnumerable_1<AssemblyLoadContext>;
+    readonly CurrentContextualReflectionContext: AssemblyLoadContext | undefined;
+    EnterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
+    GetAssemblyName(assemblyPath: string): AssemblyName;
+    GetLoadContext(assembly: Assembly): AssemblyLoadContext | undefined;
 };
 
 

@@ -14,91 +14,91 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Guid, Int16, Int32, Int64, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, TimeSpan, Type, UInt16, UInt32, UInt64 } from "../../System/internal/index.js";
 
 export abstract class Base64$instance {
-    static decodeFromUtf8(utf8: ReadOnlySpan_1<System_Internal.Byte>, bytes: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static decodeFromUtf8InPlace(buffer: Span_1<System_Internal.Byte>, bytesWritten: int): OperationStatus;
-    static encodeToUtf8(bytes: ReadOnlySpan_1<System_Internal.Byte>, utf8: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static encodeToUtf8InPlace(buffer: Span_1<System_Internal.Byte>, dataLength: int, bytesWritten: int): OperationStatus;
-    static getMaxDecodedFromUtf8Length(length: int): int;
-    static getMaxEncodedToUtf8Length(length: int): int;
-    static isValid(base64TextUtf8: ReadOnlySpan_1<System_Internal.Byte>, decodedLength: int): boolean;
-    static isValid(base64TextUtf8: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    static isValid(base64Text: ReadOnlySpan_1<System_Internal.Char>, decodedLength: int): boolean;
-    static isValid(base64Text: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    static DecodeFromUtf8(utf8: ReadOnlySpan_1<System_Internal.Byte>, bytes: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static DecodeFromUtf8InPlace(buffer: Span_1<System_Internal.Byte>, bytesWritten: int): OperationStatus;
+    static EncodeToUtf8(bytes: ReadOnlySpan_1<System_Internal.Byte>, utf8: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static EncodeToUtf8InPlace(buffer: Span_1<System_Internal.Byte>, dataLength: int, bytesWritten: int): OperationStatus;
+    static GetMaxDecodedFromUtf8Length(length: int): int;
+    static GetMaxEncodedToUtf8Length(length: int): int;
+    static IsValid(base64TextUtf8: ReadOnlySpan_1<System_Internal.Byte>, decodedLength: int): boolean;
+    static IsValid(base64TextUtf8: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    static IsValid(base64Text: ReadOnlySpan_1<System_Internal.Char>, decodedLength: int): boolean;
+    static IsValid(base64Text: ReadOnlySpan_1<System_Internal.Char>): boolean;
 }
 
 
 export type Base64 = Base64$instance;
 
 export abstract class Base64Url$instance {
-    static decodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, charsConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static decodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>): int;
-    static decodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>): byte[];
-    static decodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static decodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    static decodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>): byte[];
-    static decodeFromUtf8InPlace(buffer: Span_1<System_Internal.Byte>): int;
-    static encodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, bytesConsumed: int, charsWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static encodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>): int;
-    static encodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>): char[];
-    static encodeToString(source: ReadOnlySpan_1<System_Internal.Byte>): string;
-    static encodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    static encodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    static encodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>): byte[];
-    static getEncodedLength(bytesLength: int): int;
-    static getMaxDecodedLength(base64Length: int): int;
-    static isValid(utf8Base64UrlText: ReadOnlySpan_1<System_Internal.Byte>, decodedLength: int): boolean;
-    static isValid(utf8Base64UrlText: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    static isValid(base64UrlText: ReadOnlySpan_1<System_Internal.Char>, decodedLength: int): boolean;
-    static isValid(base64UrlText: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    static tryDecodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    static tryDecodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    static tryEncodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
-    static tryEncodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    static tryEncodeToUtf8InPlace(buffer: Span_1<System_Internal.Byte>, dataLength: int, bytesWritten: int): boolean;
+    static DecodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, charsConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static DecodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>): int;
+    static DecodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>): byte[];
+    static DecodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static DecodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
+    static DecodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>): byte[];
+    static DecodeFromUtf8InPlace(buffer: Span_1<System_Internal.Byte>): int;
+    static EncodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, bytesConsumed: int, charsWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static EncodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>): int;
+    static EncodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>): char[];
+    static EncodeToString(source: ReadOnlySpan_1<System_Internal.Byte>): string;
+    static EncodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    static EncodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
+    static EncodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>): byte[];
+    static GetEncodedLength(bytesLength: int): int;
+    static GetMaxDecodedLength(base64Length: int): int;
+    static IsValid(utf8Base64UrlText: ReadOnlySpan_1<System_Internal.Byte>, decodedLength: int): boolean;
+    static IsValid(utf8Base64UrlText: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    static IsValid(base64UrlText: ReadOnlySpan_1<System_Internal.Char>, decodedLength: int): boolean;
+    static IsValid(base64UrlText: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    static TryDecodeFromChars(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    static TryDecodeFromUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    static TryEncodeToChars(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
+    static TryEncodeToUtf8(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    static TryEncodeToUtf8InPlace(buffer: Span_1<System_Internal.Byte>, dataLength: int, bytesWritten: int): boolean;
 }
 
 
 export type Base64Url = Base64Url$instance;
 
 export abstract class Utf8Formatter$instance {
-    static tryFormat(value: boolean, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: byte, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: DateTime, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: DateTimeOffset, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: decimal, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: double, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: Guid, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: short, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: int, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: long, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: sbyte, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: float, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: TimeSpan, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: ushort, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: uint, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
-    static tryFormat(value: ulong, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: boolean, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: byte, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: DateTime, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: DateTimeOffset, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: decimal, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: double, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: Guid, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: short, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: int, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: long, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: sbyte, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: float, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: TimeSpan, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: ushort, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: uint, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
+    static TryFormat(value: ulong, destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: StandardFormat): boolean;
 }
 
 
 export type Utf8Formatter = Utf8Formatter$instance;
 
 export abstract class Utf8Parser$instance {
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: boolean, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: byte, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: DateTime, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: DateTimeOffset, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: decimal, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: double, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: Guid, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: short, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: int, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: long, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: sbyte, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: float, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: TimeSpan, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: ushort, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: uint, bytesConsumed: int, standardFormat?: char): boolean;
-    static tryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: ulong, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: boolean, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: byte, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: DateTime, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: DateTimeOffset, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: decimal, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: double, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: Guid, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: short, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: int, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: long, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: sbyte, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: float, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: TimeSpan, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: ushort, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: uint, bytesConsumed: int, standardFormat?: char): boolean;
+    static TryParse(source: ReadOnlySpan_1<System_Internal.Byte>, value: ulong, bytesConsumed: int, standardFormat?: char): boolean;
 }
 
 

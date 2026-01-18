@@ -10,26 +10,26 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Version } from "../../System/internal/index.js";
 
 export enum ComponentGuaranteesOptions {
-    none = 0,
-    exchange = 1,
-    stable = 2,
-    sideBySide = 4
+    None = 0,
+    Exchange = 1,
+    Stable = 2,
+    SideBySide = 4
 }
 
 
 export enum ResourceScope {
-    none = 0,
-    machine = 1,
-    process = 2,
-    appDomain = 4,
-    library = 8,
-    private = 16,
-    assembly = 32
+    None = 0,
+    Machine = 1,
+    Process = 2,
+    AppDomain = 4,
+    Library = 8,
+    Private = 16,
+    Assembly = 32
 }
 
 
 export interface ComponentGuaranteesAttribute$instance extends Attribute {
-    readonly guarantees: ComponentGuaranteesOptions;
+    readonly Guarantees: ComponentGuaranteesOptions;
 }
 
 
@@ -41,14 +41,14 @@ export const ComponentGuaranteesAttribute: {
 export type ComponentGuaranteesAttribute = ComponentGuaranteesAttribute$instance;
 
 export interface FrameworkName$instance {
-    readonly fullName: string;
-    readonly identifier: string;
-    readonly profile: string;
-    readonly version: Version;
-    equals(obj: unknown): boolean;
-    equals(other: FrameworkName): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly FullName: string;
+    readonly Identifier: string;
+    readonly Profile: string;
+    readonly Version: Version;
+    Equals(obj: unknown): boolean;
+    Equals(other: FrameworkName): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -63,16 +63,16 @@ export interface __FrameworkName$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<FrameworkName>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: FrameworkName): boolean;
+    Equals(other: FrameworkName): boolean;
 }
 
 export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 
 export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
-    readonly message: string;
-    get url(): string | undefined;
-    set url(value: string);
+    readonly Message: string;
+    get Url(): string | undefined;
+    set Url(value: string);
 }
 
 
@@ -85,7 +85,7 @@ export const ObsoletedOSPlatformAttribute: {
 export type ObsoletedOSPlatformAttribute = ObsoletedOSPlatformAttribute$instance;
 
 export interface OSPlatformAttribute$instance extends Attribute {
-    readonly platformName: string;
+    readonly PlatformName: string;
 }
 
 
@@ -96,9 +96,9 @@ export const OSPlatformAttribute: {
 export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
 export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
-    readonly message: string;
-    get url(): string | undefined;
-    set url(value: string);
+    readonly Message: string;
+    get Url(): string | undefined;
+    set Url(value: string);
 }
 
 
@@ -111,8 +111,8 @@ export const RequiresPreviewFeaturesAttribute: {
 export type RequiresPreviewFeaturesAttribute = RequiresPreviewFeaturesAttribute$instance;
 
 export interface ResourceConsumptionAttribute$instance extends Attribute {
-    readonly consumptionScope: ResourceScope;
-    readonly resourceScope: ResourceScope;
+    readonly ConsumptionScope: ResourceScope;
+    readonly ResourceScope: ResourceScope;
 }
 
 
@@ -125,7 +125,7 @@ export const ResourceConsumptionAttribute: {
 export type ResourceConsumptionAttribute = ResourceConsumptionAttribute$instance;
 
 export interface ResourceExposureAttribute$instance extends Attribute {
-    readonly resourceExposureLevel: ResourceScope;
+    readonly ResourceExposureLevel: ResourceScope;
 }
 
 
@@ -159,9 +159,9 @@ export const SupportedOSPlatformGuardAttribute: {
 export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribute$instance;
 
 export interface TargetFrameworkAttribute$instance extends Attribute {
-    get frameworkDisplayName(): string | undefined;
-    set frameworkDisplayName(value: string);
-    readonly frameworkName: string;
+    get FrameworkDisplayName(): string | undefined;
+    set FrameworkDisplayName(value: string);
+    readonly FrameworkName: string;
 }
 
 
@@ -184,7 +184,7 @@ export const TargetPlatformAttribute: {
 export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 
 export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
-    readonly message: string;
+    readonly Message: string;
 }
 
 
@@ -208,8 +208,8 @@ export const UnsupportedOSPlatformGuardAttribute: {
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static makeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope, type: Type): string;
-    static makeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope): string;
+    static MakeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope, type: Type): string;
+    static MakeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope): string;
 }
 
 

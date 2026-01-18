@@ -28,153 +28,153 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Delegate, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, Uri, Void } from "../../System/internal/index.js";
 
 export enum ConformanceLevel {
-    auto = 0,
-    fragment = 1,
-    document = 2
+    Auto = 0,
+    Fragment = 1,
+    Document = 2
 }
 
 
 export enum DtdProcessing {
-    prohibit = 0,
-    ignore = 1,
-    parse = 2
+    Prohibit = 0,
+    Ignore = 1,
+    Parse = 2
 }
 
 
 export enum EntityHandling {
-    expandEntities = 1,
-    expandCharEntities = 2
+    ExpandEntities = 1,
+    ExpandCharEntities = 2
 }
 
 
 export enum Formatting {
-    none = 0,
-    indented = 1
+    None = 0,
+    Indented = 1
 }
 
 
 export enum NamespaceHandling {
-    default = 0,
-    omitDuplicates = 1
+    Default = 0,
+    OmitDuplicates = 1
 }
 
 
 export enum NewLineHandling {
-    replace = 0,
-    entitize = 1,
-    none = 2
+    Replace = 0,
+    Entitize = 1,
+    None = 2
 }
 
 
 export enum ReadState {
-    initial = 0,
-    interactive = 1,
-    error = 2,
-    endOfFile = 3,
-    closed = 4
+    Initial = 0,
+    Interactive = 1,
+    Error = 2,
+    EndOfFile = 3,
+    Closed = 4
 }
 
 
 export enum ValidationType {
-    none = 0,
-    auto = 1,
+    None = 0,
+    Auto = 1,
     DTD = 2,
     XDR = 3,
-    schema = 4
+    Schema = 4
 }
 
 
 export enum WhitespaceHandling {
-    all = 0,
-    significant = 1,
-    none = 2
+    All = 0,
+    Significant = 1,
+    None = 2
 }
 
 
 export enum WriteState {
-    start = 0,
-    prolog = 1,
-    element = 2,
-    attribute = 3,
-    content = 4,
-    closed = 5,
-    error = 6
+    Start = 0,
+    Prolog = 1,
+    Element = 2,
+    Attribute = 3,
+    Content = 4,
+    Closed = 5,
+    Error = 6
 }
 
 
 export enum XmlDateTimeSerializationMode {
-    local = 0,
-    utc = 1,
-    unspecified = 2,
-    roundtripKind = 3
+    Local = 0,
+    Utc = 1,
+    Unspecified = 2,
+    RoundtripKind = 3
 }
 
 
 export enum XmlDictionaryReaderQuotaTypes {
-    maxDepth = 1,
-    maxStringContentLength = 2,
-    maxArrayLength = 4,
-    maxBytesPerRead = 8,
-    maxNameTableCharCount = 16
+    MaxDepth = 1,
+    MaxStringContentLength = 2,
+    MaxArrayLength = 4,
+    MaxBytesPerRead = 8,
+    MaxNameTableCharCount = 16
 }
 
 
 export enum XmlNamespaceScope {
-    all = 0,
-    excludeXml = 1,
-    local = 2
+    All = 0,
+    ExcludeXml = 1,
+    Local = 2
 }
 
 
 export enum XmlNodeChangedAction {
-    insert = 0,
-    remove = 1,
-    change = 2
+    Insert = 0,
+    Remove = 1,
+    Change = 2
 }
 
 
 export enum XmlNodeOrder {
-    before = 0,
-    after = 1,
-    same = 2,
-    unknown = 3
+    Before = 0,
+    After = 1,
+    Same = 2,
+    Unknown = 3
 }
 
 
 export enum XmlNodeType {
-    none = 0,
-    element = 1,
-    attribute = 2,
-    text = 3,
+    None = 0,
+    Element = 1,
+    Attribute = 2,
+    Text = 3,
     CDATA = 4,
-    entityReference = 5,
-    entity = 6,
-    processingInstruction = 7,
-    comment = 8,
-    document = 9,
-    documentType = 10,
-    documentFragment = 11,
-    notation = 12,
-    whitespace = 13,
-    significantWhitespace = 14,
-    endElement = 15,
-    endEntity = 16,
-    xmlDeclaration = 17
+    EntityReference = 5,
+    Entity = 6,
+    ProcessingInstruction = 7,
+    Comment = 8,
+    Document = 9,
+    DocumentType = 10,
+    DocumentFragment = 11,
+    Notation = 12,
+    Whitespace = 13,
+    SignificantWhitespace = 14,
+    EndElement = 15,
+    EndEntity = 16,
+    XmlDeclaration = 17
 }
 
 
 export enum XmlOutputMethod {
-    xml = 0,
-    html = 1,
-    text = 2,
-    autoDetect = 3
+    Xml = 0,
+    Html = 1,
+    Text = 2,
+    AutoDetect = 3
 }
 
 
 export enum XmlSpace {
-    none = 0,
-    default = 1,
-    preserve = 2
+    None = 0,
+    Default = 1,
+    Preserve = 2
 }
 
 
@@ -189,9 +189,9 @@ export enum XmlTokenizedType {
     NMTOKENS = 7,
     NOTATION = 8,
     ENUMERATION = 9,
-    qName = 10,
-    ncName = 11,
-    none = 12
+    QName = 10,
+    NCName = 11,
+    None = 12
 }
 
 
@@ -202,98 +202,98 @@ export type XmlNodeChangedEventHandler = (sender: unknown, e: XmlNodeChangedEven
 
 
 export interface IApplicationResourceStreamResolver$instance {
-    getApplicationResourceStream(relativeUri: Uri): Stream;
+    GetApplicationResourceStream(relativeUri: Uri): Stream;
 }
 
 
 export type IApplicationResourceStreamResolver = IApplicationResourceStreamResolver$instance;
 
 export interface IFragmentCapableXmlDictionaryWriter$instance {
-    readonly canFragment: boolean;
-    endFragment(): void;
-    startFragment(stream: Stream, generateSelfContainedTextFragment: boolean): void;
-    writeFragment(buffer: byte[], offset: int, count: int): void;
+    readonly CanFragment: boolean;
+    EndFragment(): void;
+    StartFragment(stream: Stream, generateSelfContainedTextFragment: boolean): void;
+    WriteFragment(buffer: byte[], offset: int, count: int): void;
 }
 
 
 export type IFragmentCapableXmlDictionaryWriter = IFragmentCapableXmlDictionaryWriter$instance;
 
 export interface IHasXmlNode$instance {
-    getNode(): XmlNode;
+    GetNode(): XmlNode;
 }
 
 
 export type IHasXmlNode = IHasXmlNode$instance;
 
 export interface IStreamProvider$instance {
-    getStream(): Stream;
-    releaseStream(stream: Stream): void;
+    GetStream(): Stream;
+    ReleaseStream(stream: Stream): void;
 }
 
 
 export type IStreamProvider = IStreamProvider$instance;
 
 export interface IXmlBinaryReaderInitializer$instance {
-    setInput(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
-    setInput(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
 }
 
 
 export type IXmlBinaryReaderInitializer = IXmlBinaryReaderInitializer$instance;
 
 export interface IXmlBinaryWriterInitializer$instance {
-    setOutput(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): void;
+    SetOutput(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): void;
 }
 
 
 export type IXmlBinaryWriterInitializer = IXmlBinaryWriterInitializer$instance;
 
 export interface IXmlDictionary$instance {
-    tryLookup(key: int, result: XmlDictionaryString): boolean;
-    tryLookup(value: string, result: XmlDictionaryString): boolean;
-    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
+    TryLookup(key: int, result: XmlDictionaryString): boolean;
+    TryLookup(value: string, result: XmlDictionaryString): boolean;
+    TryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
 export type IXmlDictionary = IXmlDictionary$instance;
 
 export interface IXmlLineInfo$instance {
-    readonly lineNumber: int;
-    readonly linePosition: int;
-    hasLineInfo(): boolean;
+    readonly LineNumber: int;
+    readonly LinePosition: int;
+    HasLineInfo(): boolean;
 }
 
 
 export type IXmlLineInfo = IXmlLineInfo$instance;
 
 export interface IXmlNamespaceResolver$instance {
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
-    lookupNamespace(prefix: string): string | undefined;
+    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
+    LookupNamespace(prefix: string): string | undefined;
 }
 
 
 export type IXmlNamespaceResolver = IXmlNamespaceResolver$instance;
 
 export interface IXmlTextReaderInitializer$instance {
-    setInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
-    setInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
 }
 
 
 export type IXmlTextReaderInitializer = IXmlTextReaderInitializer$instance;
 
 export interface IXmlTextWriterInitializer$instance {
-    setOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
+    SetOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
 }
 
 
 export type IXmlTextWriterInitializer = IXmlTextWriterInitializer$instance;
 
 export interface NameTable$instance extends XmlNameTable {
-    add(key: string): string;
-    add(key: char[], start: int, len: int): string;
-    get(value: string): string | undefined;
-    get(key: char[], start: int, len: int): string | undefined;
+    Add(key: string): string;
+    Add(key: char[], start: int, len: int): string;
+    Get(value: string): string | undefined;
+    Get(key: char[], start: int, len: int): string | undefined;
 }
 
 
@@ -305,14 +305,14 @@ export const NameTable: {
 export type NameTable = NameTable$instance;
 
 export interface UniqueId$instance {
-    readonly charArrayLength: int;
-    readonly isGuid: boolean;
-    equals(obj: unknown): boolean;
-    getHashCode(): int;
-    toCharArray(chars: char[], offset: int): int;
-    toString(): string;
-    tryGetGuid(guid: Guid): boolean;
-    tryGetGuid(buffer: byte[], offset: int): boolean;
+    readonly CharArrayLength: int;
+    readonly IsGuid: boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToCharArray(chars: char[], offset: int): int;
+    ToString(): string;
+    TryGetGuid(guid: Guid): boolean;
+    TryGetGuid(buffer: byte[], offset: int): boolean;
 }
 
 
@@ -329,33 +329,33 @@ export const UniqueId: {
 export type UniqueId = UniqueId$instance;
 
 export interface XmlAttribute$instance extends XmlNode$instance {
-    readonly baseURI: string;
-    innerText: string;
-    innerXml: string;
-    readonly localName: string;
-    readonly name: string;
-    readonly namespaceURI: string;
-    readonly nodeType: XmlNodeType;
-    readonly ownerDocument: XmlDocument | XmlDocument | undefined;
-    readonly ownerElement: XmlElement | undefined;
-    readonly parentNode: XmlNode | undefined;
-    prefix: string;
-    readonly schemaInfo: IXmlSchemaInfo;
-    readonly specified: boolean;
-    value: string;
-    appendChild(newChild: XmlNode): XmlNode | undefined;
-    clone(): XmlNode;
-    clone(): unknown;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    insertAfter(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
-    insertBefore(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
-    prependChild(newChild: XmlNode): XmlNode | undefined;
-    removeChild(oldChild: XmlNode): XmlNode;
-    replaceChild(newChild: XmlNode, oldChild: XmlNode): XmlNode;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly BaseURI: string;
+    InnerText: string;
+    InnerXml: string;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NamespaceURI: string;
+    readonly NodeType: XmlNodeType;
+    readonly OwnerDocument: XmlDocument | XmlDocument | undefined;
+    readonly OwnerElement: XmlElement | undefined;
+    readonly ParentNode: XmlNode | undefined;
+    Prefix: string;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly Specified: boolean;
+    Value: string;
+    AppendChild(newChild: XmlNode): XmlNode | undefined;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    InsertAfter(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
+    InsertBefore(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
+    PrependChild(newChild: XmlNode): XmlNode | undefined;
+    RemoveChild(oldChild: XmlNode): XmlNode;
+    ReplaceChild(newChild: XmlNode, oldChild: XmlNode): XmlNode;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -374,19 +374,19 @@ export type XmlAttribute = XmlAttribute$instance & __XmlAttribute$views;
 
 
 export interface XmlAttributeCollection$instance extends XmlNamedNodeMap$instance {
-    append(node: XmlAttribute): XmlAttribute;
-    copyTo(array: XmlAttribute[], index: int): void;
+    Append(node: XmlAttribute): XmlAttribute;
+    CopyTo(array: XmlAttribute[], index: int): void;
     get_Item(i: int): XmlAttribute;
     get_Item(name: string): XmlAttribute;
     get_Item(localName: string, namespaceURI: string): XmlAttribute | undefined;
-    getEnumerator(): IEnumerator;
-    insertAfter(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
-    insertBefore(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
-    prepend(node: XmlAttribute): XmlAttribute;
-    remove(node: XmlAttribute): XmlAttribute | undefined;
-    removeAll(): void;
-    removeAt(i: int): XmlAttribute;
-    setNamedItem(node: XmlNode): XmlNode | undefined;
+    GetEnumerator(): IEnumerator;
+    InsertAfter(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
+    InsertBefore(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
+    Prepend(node: XmlAttribute): XmlAttribute;
+    Remove(node: XmlAttribute): XmlAttribute | undefined;
+    RemoveAll(): void;
+    RemoveAt(i: int): XmlAttribute;
+    SetNamedItem(node: XmlNode): XmlNode | undefined;
 }
 
 
@@ -404,11 +404,11 @@ export type XmlAttributeCollection = XmlAttributeCollection$instance & __XmlAttr
 
 
 export interface XmlBinaryReaderSession$instance {
-    add(id: int, value: string): XmlDictionaryString;
-    clear(): void;
-    tryLookup(key: int, result: XmlDictionaryString): boolean;
-    tryLookup(value: string, result: XmlDictionaryString): boolean;
-    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
+    Add(id: int, value: string): XmlDictionaryString;
+    Clear(): void;
+    TryLookup(key: int, result: XmlDictionaryString): boolean;
+    TryLookup(value: string, result: XmlDictionaryString): boolean;
+    TryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
@@ -425,8 +425,8 @@ export type XmlBinaryReaderSession = XmlBinaryReaderSession$instance & __XmlBina
 
 
 export interface XmlBinaryWriterSession$instance {
-    reset(): void;
-    tryAdd(value: XmlDictionaryString, key: int): boolean;
+    Reset(): void;
+    TryAdd(value: XmlDictionaryString, key: int): boolean;
 }
 
 
@@ -438,18 +438,18 @@ export const XmlBinaryWriterSession: {
 export type XmlBinaryWriterSession = XmlBinaryWriterSession$instance;
 
 export interface XmlCDataSection$instance extends XmlCharacterData$instance {
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly parentNode: XmlNode | undefined;
-    readonly previousText: XmlNode | undefined;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly ParentNode: XmlNode | undefined;
+    readonly PreviousText: XmlNode | undefined;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -468,19 +468,19 @@ export type XmlCDataSection = XmlCDataSection$instance & __XmlCDataSection$views
 
 
 export interface XmlCharacterData$instance extends XmlLinkedNode$instance {
-    data: string;
-    innerText: string;
-    readonly length: int;
-    value: string;
-    appendData(strData: string): void;
-    clone(): unknown;
-    clone(): XmlNode;
-    createNavigator(): XPathNavigator;
-    deleteData(offset: int, count: int): void;
-    getEnumerator(): IEnumerator;
-    insertData(offset: int, strData: string): void;
-    replaceData(offset: int, count: int, strData: string): void;
-    substring(offset: int, count: int): string;
+    Data: string;
+    InnerText: string;
+    readonly Length: int;
+    Value: string;
+    AppendData(strData: string): void;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    DeleteData(offset: int, count: int): void;
+    GetEnumerator(): IEnumerator;
+    InsertData(offset: int, strData: string): void;
+    ReplaceData(offset: int, count: int, strData: string): void;
+    Substring(offset: int, count: int): string;
 }
 
 
@@ -498,16 +498,16 @@ export type XmlCharacterData = XmlCharacterData$instance & __XmlCharacterData$vi
 
 
 export interface XmlComment$instance extends XmlCharacterData$instance {
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -531,90 +531,90 @@ export interface XmlConvert$instance {
 
 export const XmlConvert: {
     new(): XmlConvert;
-    decodeName(name: string): string | undefined;
-    encodeLocalName(name: string): string | undefined;
-    encodeName(name: string): string | undefined;
-    encodeNmToken(name: string): string | undefined;
-    isNCNameChar(ch: char): boolean;
-    isPublicIdChar(ch: char): boolean;
-    isStartNCNameChar(ch: char): boolean;
-    isWhitespaceChar(ch: char): boolean;
-    isXmlChar(ch: char): boolean;
-    isXmlSurrogatePair(lowChar: char, highChar: char): boolean;
-    toBoolean(s: string): boolean;
-    toByte(s: string): byte;
-    toChar(s: string): char;
-    toDateTime(s: string, format: string): DateTime;
-    toDateTime(s: string, formats: string[]): DateTime;
-    toDateTime(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
-    toDateTime(s: string): DateTime;
-    toDateTimeOffset(s: string, format: string): DateTimeOffset;
-    toDateTimeOffset(s: string, formats: string[]): DateTimeOffset;
-    toDateTimeOffset(s: string): DateTimeOffset;
-    toDecimal(s: string): decimal;
-    toDouble(s: string): double;
-    toGuid(s: string): Guid;
-    toInt16(s: string): short;
-    toInt32(s: string): int;
-    toInt64(s: string): long;
-    toSByte(s: string): sbyte;
-    toSingle(s: string): float;
-    toString(value: boolean): string;
-    toString(value: byte): string;
-    toString(value: char): string;
-    toString(value: DateTime, format: string): string;
-    toString(value: DateTime, dateTimeOption: XmlDateTimeSerializationMode): string;
-    toString(value: DateTime): string;
-    toString(value: DateTimeOffset, format: string): string;
-    toString(value: DateTimeOffset): string;
-    toString(value: decimal): string;
-    toString(value: double): string;
-    toString(value: Guid): string;
-    toString(value: short): string;
-    toString(value: int): string;
-    toString(value: long): string;
-    toString(value: sbyte): string;
-    toString(value: float): string;
-    toString(value: TimeSpan): string;
-    toString(value: ushort): string;
-    toString(value: uint): string;
-    toString(value: ulong): string;
-    toTimeSpan(s: string): TimeSpan;
-    toUInt16(s: string): ushort;
-    toUInt32(s: string): uint;
-    toUInt64(s: string): ulong;
-    verifyName(name: string): string;
-    verifyNCName(name: string): string;
-    verifyNMTOKEN(name: string): string;
-    verifyPublicId(publicId: string): string;
-    verifyTOKEN(token: string): string | undefined;
-    verifyWhitespace(content: string): string;
-    verifyXmlChars(content: string): string;
+    DecodeName(name: string): string | undefined;
+    EncodeLocalName(name: string): string | undefined;
+    EncodeName(name: string): string | undefined;
+    EncodeNmToken(name: string): string | undefined;
+    IsNCNameChar(ch: char): boolean;
+    IsPublicIdChar(ch: char): boolean;
+    IsStartNCNameChar(ch: char): boolean;
+    IsWhitespaceChar(ch: char): boolean;
+    IsXmlChar(ch: char): boolean;
+    IsXmlSurrogatePair(lowChar: char, highChar: char): boolean;
+    ToBoolean(s: string): boolean;
+    ToByte(s: string): byte;
+    ToChar(s: string): char;
+    ToDateTime(s: string, format: string): DateTime;
+    ToDateTime(s: string, formats: string[]): DateTime;
+    ToDateTime(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
+    ToDateTime(s: string): DateTime;
+    ToDateTimeOffset(s: string, format: string): DateTimeOffset;
+    ToDateTimeOffset(s: string, formats: string[]): DateTimeOffset;
+    ToDateTimeOffset(s: string): DateTimeOffset;
+    ToDecimal(s: string): decimal;
+    ToDouble(s: string): double;
+    ToGuid(s: string): Guid;
+    ToInt16(s: string): short;
+    ToInt32(s: string): int;
+    ToInt64(s: string): long;
+    ToSByte(s: string): sbyte;
+    ToSingle(s: string): float;
+    ToString(value: boolean): string;
+    ToString(value: byte): string;
+    ToString(value: char): string;
+    ToString(value: DateTime, format: string): string;
+    ToString(value: DateTime, dateTimeOption: XmlDateTimeSerializationMode): string;
+    ToString(value: DateTime): string;
+    ToString(value: DateTimeOffset, format: string): string;
+    ToString(value: DateTimeOffset): string;
+    ToString(value: decimal): string;
+    ToString(value: double): string;
+    ToString(value: Guid): string;
+    ToString(value: short): string;
+    ToString(value: int): string;
+    ToString(value: long): string;
+    ToString(value: sbyte): string;
+    ToString(value: float): string;
+    ToString(value: TimeSpan): string;
+    ToString(value: ushort): string;
+    ToString(value: uint): string;
+    ToString(value: ulong): string;
+    ToTimeSpan(s: string): TimeSpan;
+    ToUInt16(s: string): ushort;
+    ToUInt32(s: string): uint;
+    ToUInt64(s: string): ulong;
+    VerifyName(name: string): string;
+    VerifyNCName(name: string): string;
+    VerifyNMTOKEN(name: string): string;
+    VerifyPublicId(publicId: string): string;
+    VerifyTOKEN(token: string): string | undefined;
+    VerifyWhitespace(content: string): string;
+    VerifyXmlChars(content: string): string;
 };
 
 
 export type XmlConvert = XmlConvert$instance;
 
 export interface XmlDataDocument$instance extends XmlDocument$instance {
-    readonly dataSet: DataSet;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
-    createElement(name: string): XmlElement;
-    createElement(qualifiedName: string, namespaceURI: string): XmlElement;
-    createEntityReference(name: string): XmlEntityReference;
-    createNavigator(): XPathNavigator;
-    getElementById(elemId: string): XmlElement | undefined;
-    getElementFromRow(r: DataRow): XmlElement;
-    getElementsByTagName(name: string): XmlNodeList;
-    getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    getEnumerator(): IEnumerator;
-    getRowFromElement(e: XmlElement): DataRow | undefined;
-    load(filename: string): void;
-    load(inStream: Stream): void;
-    load(txtReader: TextReader): void;
-    load(reader: XmlReader): void;
+    readonly DataSet: DataSet;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
+    CreateElement(name: string): XmlElement;
+    CreateElement(qualifiedName: string, namespaceURI: string): XmlElement;
+    CreateEntityReference(name: string): XmlEntityReference;
+    CreateNavigator(): XPathNavigator;
+    GetElementById(elemId: string): XmlElement | undefined;
+    GetElementFromRow(r: DataRow): XmlElement;
+    GetElementsByTagName(name: string): XmlNodeList;
+    GetElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
+    GetEnumerator(): IEnumerator;
+    GetRowFromElement(e: XmlElement): DataRow | undefined;
+    Load(filename: string): void;
+    Load(inStream: Stream): void;
+    Load(txtReader: TextReader): void;
+    Load(reader: XmlReader): void;
 }
 
 
@@ -634,21 +634,21 @@ export type XmlDataDocument = XmlDataDocument$instance & __XmlDataDocument$views
 
 
 export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
-    encoding: string;
-    innerText: string;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    standalone: string;
-    value: string;
-    readonly version: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    Encoding: string;
+    InnerText: string;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    Standalone: string;
+    Value: string;
+    readonly Version: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -667,17 +667,17 @@ export type XmlDeclaration = XmlDeclaration$instance & __XmlDeclaration$views;
 
 
 export interface XmlDictionary$instance {
-    add(value: string): XmlDictionaryString;
-    tryLookup(value: string, result: XmlDictionaryString): boolean;
-    tryLookup(key: int, result: XmlDictionaryString): boolean;
-    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
+    Add(value: string): XmlDictionaryString;
+    TryLookup(value: string, result: XmlDictionaryString): boolean;
+    TryLookup(key: int, result: XmlDictionaryString): boolean;
+    TryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
 export const XmlDictionary: {
     new(): XmlDictionary;
     new(capacity: int): XmlDictionary;
-    readonly empty: IXmlDictionary;
+    readonly Empty: IXmlDictionary;
 };
 
 
@@ -689,143 +689,143 @@ export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 
 
 export interface XmlDictionaryReader$instance extends XmlReader$instance {
-    readonly canCanonicalize: boolean;
-    readonly quotas: XmlDictionaryReaderQuotas;
-    dispose(): void;
-    endCanonicalization(): void;
-    getAttribute(name: string): string;
-    getAttribute(name: string, namespaceURI: string): string;
-    getAttribute(i: int): string;
-    getNonAtomizedNames(localName: string, namespaceUri: string): void;
-    indexOfLocalName(localNames: string[], namespaceUri: string): int;
-    indexOfLocalName(localNames: XmlDictionaryString[], namespaceUri: XmlDictionaryString): int;
-    isLocalName(localName: string): boolean;
-    isLocalName(localName: XmlDictionaryString): boolean;
-    isNamespaceUri(namespaceUri: string): boolean;
-    isNamespaceUri(namespaceUri: XmlDictionaryString): boolean;
-    isStartArray(type: Type): boolean;
-    isStartElement(): boolean;
-    isStartElement(name: string): boolean;
-    isStartElement(localname: string, ns: string): boolean;
-    moveToStartElement(): void;
-    moveToStartElement(name: string): void;
-    moveToStartElement(localName: string, namespaceUri: string): void;
-    moveToStartElement(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): void;
-    readArray(localName: string, namespaceUri: string, array: boolean[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: boolean[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: short[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: short[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: int[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: int[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: long[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: long[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: float[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: float[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: double[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: double[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: decimal[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: decimal[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: DateTime[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: DateTime[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: Guid[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: Guid[], offset: int, count: int): int;
-    readArray(localName: string, namespaceUri: string, array: TimeSpan[], offset: int, count: int): int;
-    readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): int;
-    readBooleanArray(localName: string, namespaceUri: string): boolean[];
-    readBooleanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): boolean[];
-    readContentAs(type: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
-    readContentAsBase642(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readContentAsChars(chars: char[], offset: int, count: int): int;
-    readContentAsDecimal(): decimal;
-    readContentAsFloat(): float;
-    readContentAsGuid(): Guid;
-    readContentAsQualifiedName(localName: string, namespaceUri: string): void;
-    readContentAsString(): string;
-    readContentAsString(strings: XmlDictionaryString[], index: int): string;
-    readContentAsTimeSpan(): TimeSpan;
-    readContentAsUniqueId(): UniqueId;
-    readDateTimeArray(localName: string, namespaceUri: string): DateTime[];
-    readDateTimeArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): DateTime[];
-    readDecimalArray(localName: string, namespaceUri: string): decimal[];
-    readDecimalArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): decimal[];
-    readDoubleArray(localName: string, namespaceUri: string): double[];
-    readDoubleArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): double[];
-    readElementContentAsBase642(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBoolean(): boolean;
-    readElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
-    readElementContentAsDateTime(): DateTime;
-    readElementContentAsDateTime(localName: string, namespaceURI: string): DateTime;
-    readElementContentAsDecimal(): decimal;
-    readElementContentAsDecimal(localName: string, namespaceURI: string): decimal;
-    readElementContentAsDouble(): double;
-    readElementContentAsDouble(localName: string, namespaceURI: string): double;
-    readElementContentAsFloat(): float;
-    readElementContentAsFloat(localName: string, namespaceURI: string): float;
-    readElementContentAsGuid(): Guid;
-    readElementContentAsInt(): int;
-    readElementContentAsInt(localName: string, namespaceURI: string): int;
-    readElementContentAsLong(): long;
-    readElementContentAsLong(localName: string, namespaceURI: string): long;
-    readElementContentAsString(): string;
-    readElementContentAsString(localName: string, namespaceURI: string): string;
-    readElementContentAsTimeSpan(): TimeSpan;
-    readElementContentAsUniqueId(): UniqueId;
-    readFullStartElement(): void;
-    readFullStartElement(name: string): void;
-    readFullStartElement(localName: string, namespaceUri: string): void;
-    readFullStartElement(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): void;
-    readGuidArray(localName: string, namespaceUri: string): Guid[];
-    readGuidArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): Guid[];
-    readInt16Array(localName: string, namespaceUri: string): short[];
-    readInt16Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): short[];
-    readInt32Array(localName: string, namespaceUri: string): int[];
-    readInt32Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): int[];
-    readInt64Array(localName: string, namespaceUri: string): long[];
-    readInt64Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): long[];
-    readSingleArray(localName: string, namespaceUri: string): float[];
-    readSingleArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): float[];
-    readStartElement(): void;
-    readStartElement(name: string): void;
-    readStartElement(localname: string, ns: string): void;
-    readString(): string;
-    readTimeSpanArray(localName: string, namespaceUri: string): TimeSpan[];
-    readTimeSpanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): TimeSpan[];
-    readValueAsBase64(buffer: byte[], offset: int, count: int): int;
-    startCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
-    tryGetArrayLength(count: int): boolean;
-    tryGetBase64ContentLength(length: int): boolean;
-    tryGetLocalNameAsDictionaryString(localName: XmlDictionaryString): boolean;
-    tryGetNamespaceUriAsDictionaryString(namespaceUri: XmlDictionaryString): boolean;
-    tryGetValueAsDictionaryString(value: XmlDictionaryString): boolean;
+    readonly CanCanonicalize: boolean;
+    readonly Quotas: XmlDictionaryReaderQuotas;
+    Dispose(): void;
+    EndCanonicalization(): void;
+    GetAttribute(name: string): string;
+    GetAttribute(name: string, namespaceURI: string): string;
+    GetAttribute(i: int): string;
+    GetNonAtomizedNames(localName: string, namespaceUri: string): void;
+    IndexOfLocalName(localNames: string[], namespaceUri: string): int;
+    IndexOfLocalName(localNames: XmlDictionaryString[], namespaceUri: XmlDictionaryString): int;
+    IsLocalName(localName: string): boolean;
+    IsLocalName(localName: XmlDictionaryString): boolean;
+    IsNamespaceUri(namespaceUri: string): boolean;
+    IsNamespaceUri(namespaceUri: XmlDictionaryString): boolean;
+    IsStartArray(type: Type): boolean;
+    IsStartElement(): boolean;
+    IsStartElement(name: string): boolean;
+    IsStartElement(localname: string, ns: string): boolean;
+    MoveToStartElement(): void;
+    MoveToStartElement(name: string): void;
+    MoveToStartElement(localName: string, namespaceUri: string): void;
+    MoveToStartElement(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): void;
+    ReadArray(localName: string, namespaceUri: string, array: boolean[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: boolean[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: short[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: short[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: int[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: int[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: long[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: long[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: float[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: float[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: double[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: double[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: decimal[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: decimal[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: DateTime[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: DateTime[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: Guid[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: Guid[], offset: int, count: int): int;
+    ReadArray(localName: string, namespaceUri: string, array: TimeSpan[], offset: int, count: int): int;
+    ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): int;
+    ReadBooleanArray(localName: string, namespaceUri: string): boolean[];
+    ReadBooleanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): boolean[];
+    ReadContentAs(type: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    ReadContentAsBase642(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadContentAsChars(chars: char[], offset: int, count: int): int;
+    ReadContentAsDecimal(): decimal;
+    ReadContentAsFloat(): float;
+    ReadContentAsGuid(): Guid;
+    ReadContentAsQualifiedName(localName: string, namespaceUri: string): void;
+    ReadContentAsString(): string;
+    ReadContentAsString(strings: XmlDictionaryString[], index: int): string;
+    ReadContentAsTimeSpan(): TimeSpan;
+    ReadContentAsUniqueId(): UniqueId;
+    ReadDateTimeArray(localName: string, namespaceUri: string): DateTime[];
+    ReadDateTimeArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): DateTime[];
+    ReadDecimalArray(localName: string, namespaceUri: string): decimal[];
+    ReadDecimalArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): decimal[];
+    ReadDoubleArray(localName: string, namespaceUri: string): double[];
+    ReadDoubleArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): double[];
+    ReadElementContentAsBase642(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBoolean(): boolean;
+    ReadElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
+    ReadElementContentAsDateTime(): DateTime;
+    ReadElementContentAsDateTime(localName: string, namespaceURI: string): DateTime;
+    ReadElementContentAsDecimal(): decimal;
+    ReadElementContentAsDecimal(localName: string, namespaceURI: string): decimal;
+    ReadElementContentAsDouble(): double;
+    ReadElementContentAsDouble(localName: string, namespaceURI: string): double;
+    ReadElementContentAsFloat(): float;
+    ReadElementContentAsFloat(localName: string, namespaceURI: string): float;
+    ReadElementContentAsGuid(): Guid;
+    ReadElementContentAsInt(): int;
+    ReadElementContentAsInt(localName: string, namespaceURI: string): int;
+    ReadElementContentAsLong(): long;
+    ReadElementContentAsLong(localName: string, namespaceURI: string): long;
+    ReadElementContentAsString(): string;
+    ReadElementContentAsString(localName: string, namespaceURI: string): string;
+    ReadElementContentAsTimeSpan(): TimeSpan;
+    ReadElementContentAsUniqueId(): UniqueId;
+    ReadFullStartElement(): void;
+    ReadFullStartElement(name: string): void;
+    ReadFullStartElement(localName: string, namespaceUri: string): void;
+    ReadFullStartElement(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): void;
+    ReadGuidArray(localName: string, namespaceUri: string): Guid[];
+    ReadGuidArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): Guid[];
+    ReadInt16Array(localName: string, namespaceUri: string): short[];
+    ReadInt16Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): short[];
+    ReadInt32Array(localName: string, namespaceUri: string): int[];
+    ReadInt32Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): int[];
+    ReadInt64Array(localName: string, namespaceUri: string): long[];
+    ReadInt64Array(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): long[];
+    ReadSingleArray(localName: string, namespaceUri: string): float[];
+    ReadSingleArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): float[];
+    ReadStartElement(): void;
+    ReadStartElement(name: string): void;
+    ReadStartElement(localname: string, ns: string): void;
+    ReadString(): string;
+    ReadTimeSpanArray(localName: string, namespaceUri: string): TimeSpan[];
+    ReadTimeSpanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): TimeSpan[];
+    ReadValueAsBase64(buffer: byte[], offset: int, count: int): int;
+    StartCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
+    TryGetArrayLength(count: int): boolean;
+    TryGetBase64ContentLength(length: int): boolean;
+    TryGetLocalNameAsDictionaryString(localName: XmlDictionaryString): boolean;
+    TryGetNamespaceUriAsDictionaryString(namespaceUri: XmlDictionaryString): boolean;
+    TryGetValueAsDictionaryString(value: XmlDictionaryString): boolean;
 }
 
 
 export const XmlDictionaryReader: {
-    createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createBinaryReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createBinaryReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createBinaryReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createDictionaryReader(reader: XmlReader): XmlDictionaryReader;
-    createMtomReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createMtomReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createMtomReader(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createTextReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createTextReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createTextReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    createTextReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    createTextReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateBinaryReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateBinaryReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    CreateBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateBinaryReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateDictionaryReader(reader: XmlReader): XmlDictionaryReader;
+    CreateMtomReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateMtomReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateMtomReader(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateTextReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateTextReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateTextReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    CreateTextReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    CreateTextReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
 };
 
 
@@ -837,117 +837,117 @@ export type XmlDictionaryReader = XmlDictionaryReader$instance & __XmlDictionary
 
 
 export interface XmlDictionaryReaderQuotas$instance {
-    maxArrayLength: int;
-    maxBytesPerRead: int;
-    maxDepth: int;
-    maxNameTableCharCount: int;
-    maxStringContentLength: int;
-    readonly modifiedQuotas: XmlDictionaryReaderQuotaTypes;
-    copyTo(quotas: XmlDictionaryReaderQuotas): void;
+    MaxArrayLength: int;
+    MaxBytesPerRead: int;
+    MaxDepth: int;
+    MaxNameTableCharCount: int;
+    MaxStringContentLength: int;
+    readonly ModifiedQuotas: XmlDictionaryReaderQuotaTypes;
+    CopyTo(quotas: XmlDictionaryReaderQuotas): void;
 }
 
 
 export const XmlDictionaryReaderQuotas: {
     new(): XmlDictionaryReaderQuotas;
-    readonly max: XmlDictionaryReaderQuotas;
+    readonly Max: XmlDictionaryReaderQuotas;
 };
 
 
 export type XmlDictionaryReaderQuotas = XmlDictionaryReaderQuotas$instance;
 
 export interface XmlDictionaryString$instance {
-    readonly dictionary: IXmlDictionary;
-    readonly key: int;
-    readonly value: string;
-    toString(): string;
+    readonly Dictionary: IXmlDictionary;
+    readonly Key: int;
+    readonly Value: string;
+    ToString(): string;
 }
 
 
 export const XmlDictionaryString: {
     new(dictionary: IXmlDictionary, value: string, key: int): XmlDictionaryString;
-    readonly empty: XmlDictionaryString;
+    readonly Empty: XmlDictionaryString;
 };
 
 
 export type XmlDictionaryString = XmlDictionaryString$instance;
 
 export interface XmlDictionaryWriter$instance extends XmlWriter$instance {
-    readonly canCanonicalize: boolean;
-    close(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    endCanonicalization(): void;
-    startCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: boolean[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: boolean[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: short[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: short[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: int[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: int[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: long[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: long[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: float[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: float[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: double[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: double[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: decimal[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: decimal[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: DateTime[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: DateTime[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: Guid[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: Guid[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: string, namespaceUri: string, array: TimeSpan[], offset: int, count: int): void;
-    writeArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): void;
-    writeAttributeString(localName: string, ns: string, value: string): void;
-    writeAttributeString(localName: string, value: string): void;
-    writeAttributeString(prefix: string, localName: string, ns: string, value: string): void;
-    writeBase64Async(buffer: byte[], index: int, count: int): Task;
-    writeElementString(localName: string, value: string): void;
-    writeElementString(localName: string, ns: string, value: string): void;
-    writeElementString(prefix: string, localName: string, ns: string, value: string): void;
-    writeNode(reader: XmlReader, defattr: boolean): void;
-    writeNode(navigator: XPathNavigator, defattr: boolean): void;
-    writeQualifiedName(localName: string, ns: string): void;
-    writeStartAttribute(localName: string, ns: string): void;
-    writeStartAttribute(prefix: string, localName: string, ns: string): void;
-    writeStartAttribute(localName: string): void;
-    writeStartElement(localName: string, ns: string): void;
-    writeStartElement(prefix: string, localName: string, ns: string): void;
-    writeStartElement(localName: string): void;
-    writeString(text: string): void;
-    writeValue(value: XmlDictionaryString): void;
-    writeValue(value: UniqueId): void;
-    writeValue(value: TimeSpan): void;
-    writeValue(value: IStreamProvider): void;
-    writeValue(value: unknown): void;
-    writeValue(value: string): void;
-    writeValue(value: boolean): void;
-    writeValue(value: DateTime): void;
-    writeValue(value: DateTimeOffset): void;
-    writeValue(value: double): void;
-    writeValue(value: float): void;
-    writeValue(value: decimal): void;
-    writeValue(value: int): void;
-    writeValue(value: long): void;
-    writeValueAsync(value: IStreamProvider): Task;
-    writeXmlAttribute(localName: string, value: string): void;
-    writeXmlAttribute(localName: XmlDictionaryString, value: XmlDictionaryString): void;
-    writeXmlnsAttribute(prefix: string, namespaceUri: string): void;
-    writeXmlnsAttribute(prefix: string, namespaceUri: XmlDictionaryString): void;
+    readonly CanCanonicalize: boolean;
+    Close(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    EndCanonicalization(): void;
+    StartCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: boolean[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: boolean[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: short[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: short[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: int[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: int[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: long[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: long[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: float[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: float[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: double[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: double[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: decimal[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: decimal[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: DateTime[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: DateTime[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: Guid[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: Guid[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: string, namespaceUri: string, array: TimeSpan[], offset: int, count: int): void;
+    WriteArray(prefix: string, localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): void;
+    WriteAttributeString(localName: string, ns: string, value: string): void;
+    WriteAttributeString(localName: string, value: string): void;
+    WriteAttributeString(prefix: string, localName: string, ns: string, value: string): void;
+    WriteBase64Async(buffer: byte[], index: int, count: int): Task;
+    WriteElementString(localName: string, value: string): void;
+    WriteElementString(localName: string, ns: string, value: string): void;
+    WriteElementString(prefix: string, localName: string, ns: string, value: string): void;
+    WriteNode(reader: XmlReader, defattr: boolean): void;
+    WriteNode(navigator: XPathNavigator, defattr: boolean): void;
+    WriteQualifiedName(localName: string, ns: string): void;
+    WriteStartAttribute(localName: string, ns: string): void;
+    WriteStartAttribute(prefix: string, localName: string, ns: string): void;
+    WriteStartAttribute(localName: string): void;
+    WriteStartElement(localName: string, ns: string): void;
+    WriteStartElement(prefix: string, localName: string, ns: string): void;
+    WriteStartElement(localName: string): void;
+    WriteString(text: string): void;
+    WriteValue(value: XmlDictionaryString): void;
+    WriteValue(value: UniqueId): void;
+    WriteValue(value: TimeSpan): void;
+    WriteValue(value: IStreamProvider): void;
+    WriteValue(value: unknown): void;
+    WriteValue(value: string): void;
+    WriteValue(value: boolean): void;
+    WriteValue(value: DateTime): void;
+    WriteValue(value: DateTimeOffset): void;
+    WriteValue(value: double): void;
+    WriteValue(value: float): void;
+    WriteValue(value: decimal): void;
+    WriteValue(value: int): void;
+    WriteValue(value: long): void;
+    WriteValueAsync(value: IStreamProvider): Task;
+    WriteXmlAttribute(localName: string, value: string): void;
+    WriteXmlAttribute(localName: XmlDictionaryString, value: XmlDictionaryString): void;
+    WriteXmlnsAttribute(prefix: string, namespaceUri: string): void;
+    WriteXmlnsAttribute(prefix: string, namespaceUri: XmlDictionaryString): void;
 }
 
 
 export const XmlDictionaryWriter: {
-    createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
-    createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
-    createBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
-    createBinaryWriter(stream: Stream): XmlDictionaryWriter;
-    createDictionaryWriter(writer: XmlWriter): XmlDictionaryWriter;
-    createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
-    createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
-    createTextWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
-    createTextWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
-    createTextWriter(stream: Stream): XmlDictionaryWriter;
+    CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
+    CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
+    CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
+    CreateBinaryWriter(stream: Stream): XmlDictionaryWriter;
+    CreateDictionaryWriter(writer: XmlWriter): XmlDictionaryWriter;
+    CreateMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
+    CreateMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
+    CreateTextWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
+    CreateTextWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
+    CreateTextWriter(stream: Stream): XmlDictionaryWriter;
 };
 
 
@@ -960,65 +960,65 @@ export type XmlDictionaryWriter = XmlDictionaryWriter$instance & __XmlDictionary
 
 
 export interface XmlDocument$instance extends XmlNode$instance {
-    readonly baseURI: string;
-    readonly documentElement: XmlElement | undefined;
-    readonly documentType: XmlDocumentType | undefined;
-    readonly implementation: XmlImplementation;
-    innerText: string;
-    innerXml: string;
-    readonly isReadOnly: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly nameTable: XmlNameTable;
-    readonly nodeType: XmlNodeType;
-    readonly ownerDocument: XmlDocument | undefined;
-    readonly parentNode: XmlNode | undefined;
-    preserveWhitespace: boolean;
-    readonly schemaInfo: IXmlSchemaInfo;
-    schemas: XmlSchemaSet;
-    xmlResolver: XmlResolver;
-    clone(): XmlNode;
-    clone(): unknown;
-    cloneNode(deep: boolean): XmlNode;
-    createAttribute(name: string): XmlAttribute;
-    createAttribute(qualifiedName: string, namespaceURI: string): XmlAttribute;
-    createAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
-    createCDataSection(data: string): XmlCDataSection;
-    createComment(data: string): XmlComment;
-    createDocumentFragment(): XmlDocumentFragment;
-    createDocumentType(name: string, publicId: string, systemId: string, internalSubset: string): XmlDocumentType;
-    createElement(name: string): XmlElement;
-    createElement(qualifiedName: string, namespaceURI: string): XmlElement;
-    createElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
-    createEntityReference(name: string): XmlEntityReference;
-    createNavigator(): XPathNavigator;
-    createNode(type: XmlNodeType, prefix: string, name: string, namespaceURI: string): XmlNode;
-    createNode(nodeTypeString: string, name: string, namespaceURI: string): XmlNode;
-    createNode(type: XmlNodeType, name: string, namespaceURI: string): XmlNode;
-    createProcessingInstruction(target: string, data: string): XmlProcessingInstruction;
-    createSignificantWhitespace(text: string): XmlSignificantWhitespace;
-    createTextNode(text: string): XmlText;
-    createWhitespace(text: string): XmlWhitespace;
-    createXmlDeclaration(version: string, encoding: string, standalone: string): XmlDeclaration;
-    getElementById(elementId: string): XmlElement | undefined;
-    getElementsByTagName(name: string): XmlNodeList;
-    getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    getEnumerator(): IEnumerator;
-    importNode(node: XmlNode, deep: boolean): XmlNode;
-    load(filename: string): void;
-    load(inStream: Stream): void;
-    load(txtReader: TextReader): void;
-    load(reader: XmlReader): void;
-    loadXml(xml: string): void;
-    readNode(reader: XmlReader): XmlNode | undefined;
-    save(filename: string): void;
-    save(outStream: Stream): void;
-    save(writer: TextWriter): void;
-    save(w: XmlWriter): void;
-    validate(validationEventHandler: ValidationEventHandler): void;
-    validate(validationEventHandler: ValidationEventHandler, nodeToValidate: XmlNode): void;
-    writeContentTo(xw: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly BaseURI: string;
+    readonly DocumentElement: XmlElement | undefined;
+    readonly DocumentType: XmlDocumentType | undefined;
+    readonly Implementation: XmlImplementation;
+    InnerText: string;
+    InnerXml: string;
+    readonly IsReadOnly: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NameTable: XmlNameTable;
+    readonly NodeType: XmlNodeType;
+    readonly OwnerDocument: XmlDocument | undefined;
+    readonly ParentNode: XmlNode | undefined;
+    PreserveWhitespace: boolean;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    Schemas: XmlSchemaSet;
+    XmlResolver: XmlResolver;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CloneNode(deep: boolean): XmlNode;
+    CreateAttribute(name: string): XmlAttribute;
+    CreateAttribute(qualifiedName: string, namespaceURI: string): XmlAttribute;
+    CreateAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
+    CreateCDataSection(data: string): XmlCDataSection;
+    CreateComment(data: string): XmlComment;
+    CreateDocumentFragment(): XmlDocumentFragment;
+    CreateDocumentType(name: string, publicId: string, systemId: string, internalSubset: string): XmlDocumentType;
+    CreateElement(name: string): XmlElement;
+    CreateElement(qualifiedName: string, namespaceURI: string): XmlElement;
+    CreateElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
+    CreateEntityReference(name: string): XmlEntityReference;
+    CreateNavigator(): XPathNavigator;
+    CreateNode(type: XmlNodeType, prefix: string, name: string, namespaceURI: string): XmlNode;
+    CreateNode(nodeTypeString: string, name: string, namespaceURI: string): XmlNode;
+    CreateNode(type: XmlNodeType, name: string, namespaceURI: string): XmlNode;
+    CreateProcessingInstruction(target: string, data: string): XmlProcessingInstruction;
+    CreateSignificantWhitespace(text: string): XmlSignificantWhitespace;
+    CreateTextNode(text: string): XmlText;
+    CreateWhitespace(text: string): XmlWhitespace;
+    CreateXmlDeclaration(version: string, encoding: string, standalone: string): XmlDeclaration;
+    GetElementById(elementId: string): XmlElement | undefined;
+    GetElementsByTagName(name: string): XmlNodeList;
+    GetElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
+    GetEnumerator(): IEnumerator;
+    ImportNode(node: XmlNode, deep: boolean): XmlNode;
+    Load(filename: string): void;
+    Load(inStream: Stream): void;
+    Load(txtReader: TextReader): void;
+    Load(reader: XmlReader): void;
+    LoadXml(xml: string): void;
+    ReadNode(reader: XmlReader): XmlNode | undefined;
+    Save(filename: string): void;
+    Save(outStream: Stream): void;
+    Save(writer: TextWriter): void;
+    Save(w: XmlWriter): void;
+    Validate(validationEventHandler: ValidationEventHandler): void;
+    Validate(validationEventHandler: ValidationEventHandler, nodeToValidate: XmlNode): void;
+    WriteContentTo(xw: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1038,19 +1038,19 @@ export type XmlDocument = XmlDocument$instance & __XmlDocument$views;
 
 
 export interface XmlDocumentFragment$instance extends XmlNode$instance {
-    innerXml: string;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly ownerDocument: XmlDocument | XmlDocument | undefined;
-    readonly parentNode: XmlNode | undefined;
-    clone(): XmlNode;
-    clone(): unknown;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    InnerXml: string;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly OwnerDocument: XmlDocument | XmlDocument | undefined;
+    readonly ParentNode: XmlNode | undefined;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1069,22 +1069,22 @@ export type XmlDocumentFragment = XmlDocumentFragment$instance & __XmlDocumentFr
 
 
 export interface XmlDocumentType$instance extends XmlLinkedNode$instance {
-    readonly entities: XmlNamedNodeMap;
-    readonly internalSubset: string;
-    readonly isReadOnly: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly notations: XmlNamedNodeMap;
-    readonly publicId: string;
-    readonly systemId: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly Entities: XmlNamedNodeMap;
+    readonly InternalSubset: string;
+    readonly IsReadOnly: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly Notations: XmlNamedNodeMap;
+    readonly PublicId: string;
+    readonly SystemId: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1103,46 +1103,46 @@ export type XmlDocumentType = XmlDocumentType$instance & __XmlDocumentType$views
 
 
 export interface XmlElement$instance extends XmlLinkedNode$instance {
-    readonly attributes: XmlAttributeCollection;
-    readonly hasAttributes: boolean;
-    innerText: string;
-    innerXml: string;
-    isEmpty: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly namespaceURI: string;
-    readonly nextSibling: XmlNode | undefined;
-    readonly nodeType: XmlNodeType;
-    readonly ownerDocument: XmlDocument | XmlDocument | undefined;
-    readonly parentNode: XmlNode | undefined;
-    prefix: string;
-    readonly schemaInfo: IXmlSchemaInfo;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getAttribute(name: string): string;
-    getAttribute(localName: string, namespaceURI: string): string;
-    getAttributeNode(name: string): XmlAttribute | undefined;
-    getAttributeNode(localName: string, namespaceURI: string): XmlAttribute | undefined;
-    getElementsByTagName(name: string): XmlNodeList;
-    getElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
-    getEnumerator(): IEnumerator;
-    hasAttribute(name: string): boolean;
-    hasAttribute(localName: string, namespaceURI: string): boolean;
-    removeAll(): void;
-    removeAllAttributes(): void;
-    removeAttribute(name: string): void;
-    removeAttribute(localName: string, namespaceURI: string): void;
-    removeAttributeAt(i: int): XmlNode | undefined;
-    removeAttributeNode(oldAttr: XmlAttribute): XmlAttribute | undefined;
-    removeAttributeNode(localName: string, namespaceURI: string): XmlAttribute | undefined;
-    setAttribute(name: string, value: string): void;
-    setAttribute(localName: string, namespaceURI: string, value: string): string | undefined;
-    setAttributeNode(newAttr: XmlAttribute): XmlAttribute | undefined;
-    setAttributeNode(localName: string, namespaceURI: string): XmlAttribute;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly Attributes: XmlAttributeCollection;
+    readonly HasAttributes: boolean;
+    InnerText: string;
+    InnerXml: string;
+    IsEmpty: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NamespaceURI: string;
+    readonly NextSibling: XmlNode | undefined;
+    readonly NodeType: XmlNodeType;
+    readonly OwnerDocument: XmlDocument | XmlDocument | undefined;
+    readonly ParentNode: XmlNode | undefined;
+    Prefix: string;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetAttribute(name: string): string;
+    GetAttribute(localName: string, namespaceURI: string): string;
+    GetAttributeNode(name: string): XmlAttribute | undefined;
+    GetAttributeNode(localName: string, namespaceURI: string): XmlAttribute | undefined;
+    GetElementsByTagName(name: string): XmlNodeList;
+    GetElementsByTagName(localName: string, namespaceURI: string): XmlNodeList;
+    GetEnumerator(): IEnumerator;
+    HasAttribute(name: string): boolean;
+    HasAttribute(localName: string, namespaceURI: string): boolean;
+    RemoveAll(): void;
+    RemoveAllAttributes(): void;
+    RemoveAttribute(name: string): void;
+    RemoveAttribute(localName: string, namespaceURI: string): void;
+    RemoveAttributeAt(i: int): XmlNode | undefined;
+    RemoveAttributeNode(oldAttr: XmlAttribute): XmlAttribute | undefined;
+    RemoveAttributeNode(localName: string, namespaceURI: string): XmlAttribute | undefined;
+    SetAttribute(name: string, value: string): void;
+    SetAttribute(localName: string, namespaceURI: string, value: string): string | undefined;
+    SetAttributeNode(newAttr: XmlAttribute): XmlAttribute | undefined;
+    SetAttributeNode(localName: string, namespaceURI: string): XmlAttribute;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1161,24 +1161,24 @@ export type XmlElement = XmlElement$instance & __XmlElement$views;
 
 
 export interface XmlEntity$instance extends XmlNode$instance {
-    readonly baseURI: string;
-    innerText: string;
-    innerXml: string;
-    readonly isReadOnly: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly notationName: string | undefined;
-    readonly outerXml: string;
-    readonly publicId: string;
-    readonly systemId: string;
-    clone(): XmlNode;
-    clone(): unknown;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly BaseURI: string;
+    InnerText: string;
+    InnerXml: string;
+    readonly IsReadOnly: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly NotationName: string | undefined;
+    readonly OuterXml: string;
+    readonly PublicId: string;
+    readonly SystemId: string;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1197,19 +1197,19 @@ export type XmlEntity = XmlEntity$instance & __XmlEntity$views;
 
 
 export interface XmlEntityReference$instance extends XmlLinkedNode$instance {
-    readonly baseURI: string;
-    readonly isReadOnly: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    value: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly BaseURI: string;
+    readonly IsReadOnly: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    Value: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1228,11 +1228,11 @@ export type XmlEntityReference = XmlEntityReference$instance & __XmlEntityRefere
 
 
 export interface XmlException$instance extends SystemException {
-    readonly lineNumber: int;
-    readonly linePosition: int;
-    readonly message: string;
-    readonly sourceUri: string | undefined;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly LineNumber: int;
+    readonly LinePosition: int;
+    readonly Message: string;
+    readonly SourceUri: string | undefined;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1252,8 +1252,8 @@ export type XmlException = XmlException$instance & __XmlException$views;
 
 
 export interface XmlImplementation$instance {
-    createDocument(): XmlDocument;
-    hasFeature(strFeature: string, strVersion: string): boolean;
+    CreateDocument(): XmlDocument;
+    HasFeature(strFeature: string, strVersion: string): boolean;
 }
 
 
@@ -1266,12 +1266,12 @@ export const XmlImplementation: {
 export type XmlImplementation = XmlImplementation$instance;
 
 export interface XmlLinkedNode$instance extends XmlNode$instance {
-    readonly nextSibling: XmlNode | undefined;
-    readonly previousSibling: XmlNode | undefined;
-    clone(): XmlNode;
-    clone(): unknown;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
+    readonly NextSibling: XmlNode | undefined;
+    readonly PreviousSibling: XmlNode | undefined;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -1289,14 +1289,14 @@ export type XmlLinkedNode = XmlLinkedNode$instance & __XmlLinkedNode$views;
 
 
 export interface XmlNamedNodeMap$instance {
-    readonly count: int;
-    getEnumerator(): IEnumerator;
-    getNamedItem(name: string): XmlNode | undefined;
-    getNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
-    item(index: int): XmlNode | undefined;
-    removeNamedItem(name: string): XmlNode | undefined;
-    removeNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
-    setNamedItem(node: XmlNode): XmlNode | undefined;
+    readonly Count: int;
+    GetEnumerator(): IEnumerator;
+    GetNamedItem(name: string): XmlNode | undefined;
+    GetNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
+    Item(index: int): XmlNode | undefined;
+    RemoveNamedItem(name: string): XmlNode | undefined;
+    RemoveNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
+    SetNamedItem(node: XmlNode): XmlNode | undefined;
 }
 
 
@@ -1315,17 +1315,17 @@ export type XmlNamedNodeMap = XmlNamedNodeMap$instance & __XmlNamedNodeMap$views
 
 
 export interface XmlNamespaceManager$instance {
-    readonly defaultNamespace: string;
-    readonly nameTable: XmlNameTable;
-    addNamespace(prefix: string, uri: string): void;
-    getEnumerator(): IEnumerator;
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
-    hasNamespace(prefix: string): boolean;
-    lookupNamespace(prefix: string): string | undefined;
-    lookupPrefix(uri: string): string | undefined;
-    popScope(): boolean;
-    pushScope(): void;
-    removeNamespace(prefix: string, uri: string): void;
+    readonly DefaultNamespace: string;
+    readonly NameTable: XmlNameTable;
+    AddNamespace(prefix: string, uri: string): void;
+    GetEnumerator(): IEnumerator;
+    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
+    HasNamespace(prefix: string): boolean;
+    LookupNamespace(prefix: string): string | undefined;
+    LookupPrefix(uri: string): string | undefined;
+    PopScope(): boolean;
+    PushScope(): void;
+    RemoveNamespace(prefix: string, uri: string): void;
 }
 
 
@@ -1345,10 +1345,10 @@ export type XmlNamespaceManager = XmlNamespaceManager$instance & __XmlNamespaceM
 
 
 export interface XmlNameTable$instance {
-    add(array: char[], offset: int, length: int): string;
-    add(array: string): string;
-    get(array: char[], offset: int, length: int): string | undefined;
-    get(array: string): string | undefined;
+    Add(array: char[], offset: int, length: int): string;
+    Add(array: string): string;
+    Get(array: char[], offset: int, length: int): string | undefined;
+    Get(array: string): string | undefined;
 }
 
 
@@ -1359,51 +1359,51 @@ export const XmlNameTable: {
 export type XmlNameTable = XmlNameTable$instance;
 
 export interface XmlNode$instance {
-    readonly attributes: XmlAttributeCollection;
-    readonly baseURI: string;
-    readonly childNodes: XmlNodeList;
-    readonly firstChild: XmlNode | undefined;
-    readonly hasChildNodes: boolean;
-    innerText: string;
-    innerXml: string;
-    readonly isReadOnly: boolean;
-    readonly lastChild: XmlNode | undefined;
-    readonly localName: string;
-    readonly name: string;
-    readonly namespaceURI: string;
-    readonly nextSibling: XmlNode | undefined;
-    readonly nodeType: XmlNodeType;
-    readonly outerXml: string;
-    readonly ownerDocument: XmlDocument | XmlDocument | undefined;
-    readonly parentNode: XmlNode | undefined;
-    prefix: string;
-    readonly previousSibling: XmlNode | undefined;
-    readonly previousText: XmlNode | undefined;
-    readonly schemaInfo: IXmlSchemaInfo;
-    value: string;
-    appendChild(newChild: XmlNode): XmlNode | undefined;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
+    readonly Attributes: XmlAttributeCollection;
+    readonly BaseURI: string;
+    readonly ChildNodes: XmlNodeList;
+    readonly FirstChild: XmlNode | undefined;
+    readonly HasChildNodes: boolean;
+    InnerText: string;
+    InnerXml: string;
+    readonly IsReadOnly: boolean;
+    readonly LastChild: XmlNode | undefined;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NamespaceURI: string;
+    readonly NextSibling: XmlNode | undefined;
+    readonly NodeType: XmlNodeType;
+    readonly OuterXml: string;
+    readonly OwnerDocument: XmlDocument | XmlDocument | undefined;
+    readonly ParentNode: XmlNode | undefined;
+    Prefix: string;
+    readonly PreviousSibling: XmlNode | undefined;
+    readonly PreviousText: XmlNode | undefined;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    Value: string;
+    AppendChild(newChild: XmlNode): XmlNode | undefined;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
     get_Item(name: string): XmlElement;
     get_Item(localname: string, ns: string): XmlElement | undefined;
-    getEnumerator(): IEnumerator;
-    getNamespaceOfPrefix(prefix: string): string;
-    getPrefixOfNamespace(namespaceURI: string): string;
-    insertAfter(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
-    insertBefore(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
-    normalize(): void;
-    prependChild(newChild: XmlNode): XmlNode | undefined;
-    removeAll(): void;
-    removeChild(oldChild: XmlNode): XmlNode;
-    replaceChild(newChild: XmlNode, oldChild: XmlNode): XmlNode;
-    selectNodes(xpath: string): XmlNodeList | undefined;
-    selectNodes(xpath: string, nsmgr: XmlNamespaceManager): XmlNodeList | undefined;
-    selectSingleNode(xpath: string): XmlNode | undefined;
-    selectSingleNode(xpath: string, nsmgr: XmlNamespaceManager): XmlNode | undefined;
-    supports(feature: string, version: string): boolean;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    GetEnumerator(): IEnumerator;
+    GetNamespaceOfPrefix(prefix: string): string;
+    GetPrefixOfNamespace(namespaceURI: string): string;
+    InsertAfter(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
+    InsertBefore(newChild: XmlNode, refChild: XmlNode): XmlNode | undefined;
+    Normalize(): void;
+    PrependChild(newChild: XmlNode): XmlNode | undefined;
+    RemoveAll(): void;
+    RemoveChild(oldChild: XmlNode): XmlNode;
+    ReplaceChild(newChild: XmlNode, oldChild: XmlNode): XmlNode;
+    SelectNodes(xpath: string): XmlNodeList | undefined;
+    SelectNodes(xpath: string, nsmgr: XmlNamespaceManager): XmlNodeList | undefined;
+    SelectSingleNode(xpath: string): XmlNode | undefined;
+    SelectSingleNode(xpath: string, nsmgr: XmlNamespaceManager): XmlNode | undefined;
+    Supports(feature: string, version: string): boolean;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1423,12 +1423,12 @@ export type XmlNode = XmlNode$instance & __XmlNode$views;
 
 
 export interface XmlNodeChangedEventArgs$instance extends EventArgs {
-    readonly action: XmlNodeChangedAction;
-    readonly newParent: XmlNode | undefined;
-    readonly newValue: string | undefined;
-    readonly node: XmlNode | undefined;
-    readonly oldParent: XmlNode | undefined;
-    readonly oldValue: string | undefined;
+    readonly Action: XmlNodeChangedAction;
+    readonly NewParent: XmlNode | undefined;
+    readonly NewValue: string | undefined;
+    readonly Node: XmlNode | undefined;
+    readonly OldParent: XmlNode | undefined;
+    readonly OldValue: string | undefined;
 }
 
 
@@ -1440,10 +1440,10 @@ export const XmlNodeChangedEventArgs: {
 export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
 export interface XmlNodeList$instance {
-    readonly count: int;
-    readonly itemOf: XmlNode | undefined;
-    getEnumerator(): IEnumerator;
-    item(index: int): XmlNode | undefined;
+    readonly Count: int;
+    readonly ItemOf: XmlNode | undefined;
+    GetEnumerator(): IEnumerator;
+    Item(index: int): XmlNode | undefined;
 }
 
 
@@ -1462,48 +1462,48 @@ export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
 
 
 export interface XmlNodeReader$instance extends XmlReader$instance {
-    readonly attributeCount: int;
-    readonly baseURI: string;
-    readonly canReadBinaryContent: boolean;
-    readonly canResolveEntity: boolean;
-    readonly depth: int;
+    readonly AttributeCount: int;
+    readonly BaseURI: string;
+    readonly CanReadBinaryContent: boolean;
+    readonly CanResolveEntity: boolean;
+    readonly Depth: int;
     readonly EOF: boolean;
-    readonly hasAttributes: boolean;
-    readonly hasValue: boolean;
-    readonly isDefault: boolean;
-    readonly isEmptyElement: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly namespaceURI: string;
-    readonly nameTable: XmlNameTable;
-    readonly nodeType: XmlNodeType;
-    readonly prefix: string;
-    readonly readState: ReadState;
-    readonly schemaInfo: IXmlSchemaInfo;
-    readonly value: string;
-    readonly xmlLang: string;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
-    getAttribute(name: string): string;
-    getAttribute(name: string, namespaceURI: string): string;
-    getAttribute(attributeIndex: int): string;
-    lookupNamespace(prefix: string): string | undefined;
-    moveToAttribute(name: string): boolean;
-    moveToAttribute(name: string, namespaceURI: string): boolean;
-    moveToAttribute(attributeIndex: int): void;
-    moveToElement(): boolean;
-    moveToFirstAttribute(): boolean;
-    moveToNextAttribute(): boolean;
-    read(): boolean;
-    readAttributeValue(): boolean;
-    readContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readString(): string;
-    resolveEntity(): void;
-    skip(): void;
+    readonly HasAttributes: boolean;
+    readonly HasValue: boolean;
+    readonly IsDefault: boolean;
+    readonly IsEmptyElement: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NamespaceURI: string;
+    readonly NameTable: XmlNameTable;
+    readonly NodeType: XmlNodeType;
+    readonly Prefix: string;
+    readonly ReadState: ReadState;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly Value: string;
+    readonly XmlLang: string;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
+    GetAttribute(name: string): string;
+    GetAttribute(name: string, namespaceURI: string): string;
+    GetAttribute(attributeIndex: int): string;
+    LookupNamespace(prefix: string): string | undefined;
+    MoveToAttribute(name: string): boolean;
+    MoveToAttribute(name: string, namespaceURI: string): boolean;
+    MoveToAttribute(attributeIndex: int): void;
+    MoveToElement(): boolean;
+    MoveToFirstAttribute(): boolean;
+    MoveToNextAttribute(): boolean;
+    Read(): boolean;
+    ReadAttributeValue(): boolean;
+    ReadContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadString(): string;
+    ResolveEntity(): void;
+    Skip(): void;
 }
 
 
@@ -1521,21 +1521,21 @@ export type XmlNodeReader = XmlNodeReader$instance & __XmlNodeReader$views;
 
 
 export interface XmlNotation$instance extends XmlNode$instance {
-    innerXml: string;
-    readonly isReadOnly: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly outerXml: string;
-    readonly publicId: string;
-    readonly systemId: string;
-    clone(): XmlNode;
-    clone(): unknown;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    InnerXml: string;
+    readonly IsReadOnly: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly OuterXml: string;
+    readonly PublicId: string;
+    readonly SystemId: string;
+    Clone(): XmlNode;
+    Clone(): unknown;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1554,17 +1554,17 @@ export type XmlNotation = XmlNotation$instance & __XmlNotation$views;
 
 
 export interface XmlParserContext$instance {
-    baseURI: string;
-    docTypeName: string;
-    encoding: Encoding;
-    internalSubset: string;
-    get namespaceManager(): XmlNamespaceManager | undefined;
-    set namespaceManager(value: XmlNamespaceManager);
-    nameTable: XmlNameTable;
-    publicId: string;
-    systemId: string;
-    xmlLang: string;
-    xmlSpace: XmlSpace;
+    BaseURI: string;
+    DocTypeName: string;
+    Encoding: Encoding;
+    InternalSubset: string;
+    get NamespaceManager(): XmlNamespaceManager | undefined;
+    set NamespaceManager(value: XmlNamespaceManager);
+    NameTable: XmlNameTable;
+    PublicId: string;
+    SystemId: string;
+    XmlLang: string;
+    XmlSpace: XmlSpace;
 }
 
 
@@ -1579,20 +1579,20 @@ export const XmlParserContext: {
 export type XmlParserContext = XmlParserContext$instance;
 
 export interface XmlProcessingInstruction$instance extends XmlLinkedNode$instance {
-    data: string;
-    innerText: string;
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly target: string;
-    value: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    Data: string;
+    InnerText: string;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly Target: string;
+    Value: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1611,12 +1611,12 @@ export type XmlProcessingInstruction = XmlProcessingInstruction$instance & __Xml
 
 
 export interface XmlQualifiedName$instance {
-    readonly isEmpty: boolean;
-    readonly name: string;
-    readonly namespace: string;
-    equals(other: unknown): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly IsEmpty: boolean;
+    readonly Name: string;
+    readonly Namespace: string;
+    Equals(other: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -1624,150 +1624,150 @@ export const XmlQualifiedName: {
     new(): XmlQualifiedName;
     new(name: string): XmlQualifiedName;
     new(name: string, ns: string): XmlQualifiedName;
-    readonly empty: XmlQualifiedName;
-    toString(name: string, ns: string): string;
+    readonly Empty: XmlQualifiedName;
+    ToString(name: string, ns: string): string;
 };
 
 
 export type XmlQualifiedName = XmlQualifiedName$instance;
 
 export interface XmlReader$instance {
-    readonly attributeCount: int;
-    readonly baseURI: string;
-    readonly canReadBinaryContent: boolean;
-    readonly canReadValueChunk: boolean;
-    readonly canResolveEntity: boolean;
-    readonly depth: int;
+    readonly AttributeCount: int;
+    readonly BaseURI: string;
+    readonly CanReadBinaryContent: boolean;
+    readonly CanReadValueChunk: boolean;
+    readonly CanResolveEntity: boolean;
+    readonly Depth: int;
     readonly EOF: boolean;
-    readonly hasAttributes: boolean;
-    readonly hasValue: boolean;
-    readonly isDefault: boolean;
-    readonly isEmptyElement: boolean;
-    readonly localName: string;
-    readonly name: string;
-    readonly namespaceURI: string;
-    readonly nameTable: XmlNameTable;
-    readonly nodeType: XmlNodeType;
-    readonly prefix: string;
-    readonly quoteChar: char;
-    readonly readState: ReadState;
-    readonly schemaInfo: IXmlSchemaInfo;
-    readonly settings: XmlReaderSettings | undefined;
-    readonly value: string;
-    readonly valueType: Type;
-    readonly xmlLang: string;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
+    readonly HasAttributes: boolean;
+    readonly HasValue: boolean;
+    readonly IsDefault: boolean;
+    readonly IsEmptyElement: boolean;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NamespaceURI: string;
+    readonly NameTable: XmlNameTable;
+    readonly NodeType: XmlNodeType;
+    readonly Prefix: string;
+    readonly QuoteChar: char;
+    readonly ReadState: ReadState;
+    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly Settings: XmlReaderSettings | undefined;
+    readonly Value: string;
+    readonly ValueType: Type;
+    readonly XmlLang: string;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
     get_Item(i: int): string;
     get_Item(name: string): string;
     get_Item(name: string, namespaceURI: string): string | undefined;
-    getAttribute(name: string): string;
-    getAttribute(name: string, namespaceURI: string): string;
-    getAttribute(i: int): string;
-    getValueAsync(): Task_1<System_Internal.String>;
-    isStartElement(): boolean;
-    isStartElement(name: string): boolean;
-    isStartElement(localname: string, ns: string): boolean;
-    lookupNamespace(prefix: string): string | undefined;
-    moveToAttribute(name: string): boolean;
-    moveToAttribute(name: string, ns: string): boolean;
-    moveToAttribute(i: int): void;
-    moveToContent(): XmlNodeType;
-    moveToContentAsync(): Task_1<XmlNodeType>;
-    moveToElement(): boolean;
-    moveToFirstAttribute(): boolean;
-    moveToNextAttribute(): boolean;
-    read(): boolean;
-    readAsync(): Task_1<System_Internal.Boolean>;
-    readAttributeValue(): boolean;
-    readContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
-    readContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
-    readContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
-    readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
-    readContentAsBoolean(): boolean;
-    readContentAsDateTime(): DateTime;
-    readContentAsDateTimeOffset(): DateTimeOffset;
-    readContentAsDecimal(): decimal;
-    readContentAsDouble(): double;
-    readContentAsFloat(): float;
-    readContentAsInt(): int;
-    readContentAsLong(): long;
-    readContentAsObject(): unknown;
-    readContentAsObjectAsync(): Task_1<unknown>;
-    readContentAsString(): string;
-    readContentAsStringAsync(): Task_1<System_Internal.String>;
-    readElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
-    readElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver, localName: string, namespaceURI: string): unknown;
-    readElementContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
-    readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
-    readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
-    readElementContentAsBoolean(): boolean;
-    readElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
-    readElementContentAsDateTime(): DateTime;
-    readElementContentAsDateTime(localName: string, namespaceURI: string): DateTime;
-    readElementContentAsDecimal(): decimal;
-    readElementContentAsDecimal(localName: string, namespaceURI: string): decimal;
-    readElementContentAsDouble(): double;
-    readElementContentAsDouble(localName: string, namespaceURI: string): double;
-    readElementContentAsFloat(): float;
-    readElementContentAsFloat(localName: string, namespaceURI: string): float;
-    readElementContentAsInt(): int;
-    readElementContentAsInt(localName: string, namespaceURI: string): int;
-    readElementContentAsLong(): long;
-    readElementContentAsLong(localName: string, namespaceURI: string): long;
-    readElementContentAsObject(): unknown;
-    readElementContentAsObject(localName: string, namespaceURI: string): unknown;
-    readElementContentAsObjectAsync(): Task_1<unknown>;
-    readElementContentAsString(): string;
-    readElementContentAsString(localName: string, namespaceURI: string): string;
-    readElementContentAsStringAsync(): Task_1<System_Internal.String>;
-    readElementString(): string;
-    readElementString(name: string): string;
-    readElementString(localname: string, ns: string): string;
-    readEndElement(): void;
-    readInnerXml(): string;
-    readInnerXmlAsync(): Task_1<System_Internal.String>;
-    readOuterXml(): string;
-    readOuterXmlAsync(): Task_1<System_Internal.String>;
-    readStartElement(): void;
-    readStartElement(name: string): void;
-    readStartElement(localname: string, ns: string): void;
-    readString(): string;
-    readSubtree(): XmlReader;
-    readToDescendant(name: string): boolean;
-    readToDescendant(localName: string, namespaceURI: string): boolean;
-    readToFollowing(name: string): boolean;
-    readToFollowing(localName: string, namespaceURI: string): boolean;
-    readToNextSibling(name: string): boolean;
-    readToNextSibling(localName: string, namespaceURI: string): boolean;
-    readValueChunk(buffer: char[], index: int, count: int): int;
-    readValueChunkAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
-    resolveEntity(): void;
-    skip(): void;
-    skipAsync(): Task;
+    GetAttribute(name: string): string;
+    GetAttribute(name: string, namespaceURI: string): string;
+    GetAttribute(i: int): string;
+    GetValueAsync(): Task_1<System_Internal.String>;
+    IsStartElement(): boolean;
+    IsStartElement(name: string): boolean;
+    IsStartElement(localname: string, ns: string): boolean;
+    LookupNamespace(prefix: string): string | undefined;
+    MoveToAttribute(name: string): boolean;
+    MoveToAttribute(name: string, ns: string): boolean;
+    MoveToAttribute(i: int): void;
+    MoveToContent(): XmlNodeType;
+    MoveToContentAsync(): Task_1<XmlNodeType>;
+    MoveToElement(): boolean;
+    MoveToFirstAttribute(): boolean;
+    MoveToNextAttribute(): boolean;
+    Read(): boolean;
+    ReadAsync(): Task_1<System_Internal.Boolean>;
+    ReadAttributeValue(): boolean;
+    ReadContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    ReadContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
+    ReadContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ReadContentAsBoolean(): boolean;
+    ReadContentAsDateTime(): DateTime;
+    ReadContentAsDateTimeOffset(): DateTimeOffset;
+    ReadContentAsDecimal(): decimal;
+    ReadContentAsDouble(): double;
+    ReadContentAsFloat(): float;
+    ReadContentAsInt(): int;
+    ReadContentAsLong(): long;
+    ReadContentAsObject(): unknown;
+    ReadContentAsObjectAsync(): Task_1<unknown>;
+    ReadContentAsString(): string;
+    ReadContentAsStringAsync(): Task_1<System_Internal.String>;
+    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver, localName: string, namespaceURI: string): unknown;
+    ReadElementContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
+    ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ReadElementContentAsBoolean(): boolean;
+    ReadElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
+    ReadElementContentAsDateTime(): DateTime;
+    ReadElementContentAsDateTime(localName: string, namespaceURI: string): DateTime;
+    ReadElementContentAsDecimal(): decimal;
+    ReadElementContentAsDecimal(localName: string, namespaceURI: string): decimal;
+    ReadElementContentAsDouble(): double;
+    ReadElementContentAsDouble(localName: string, namespaceURI: string): double;
+    ReadElementContentAsFloat(): float;
+    ReadElementContentAsFloat(localName: string, namespaceURI: string): float;
+    ReadElementContentAsInt(): int;
+    ReadElementContentAsInt(localName: string, namespaceURI: string): int;
+    ReadElementContentAsLong(): long;
+    ReadElementContentAsLong(localName: string, namespaceURI: string): long;
+    ReadElementContentAsObject(): unknown;
+    ReadElementContentAsObject(localName: string, namespaceURI: string): unknown;
+    ReadElementContentAsObjectAsync(): Task_1<unknown>;
+    ReadElementContentAsString(): string;
+    ReadElementContentAsString(localName: string, namespaceURI: string): string;
+    ReadElementContentAsStringAsync(): Task_1<System_Internal.String>;
+    ReadElementString(): string;
+    ReadElementString(name: string): string;
+    ReadElementString(localname: string, ns: string): string;
+    ReadEndElement(): void;
+    ReadInnerXml(): string;
+    ReadInnerXmlAsync(): Task_1<System_Internal.String>;
+    ReadOuterXml(): string;
+    ReadOuterXmlAsync(): Task_1<System_Internal.String>;
+    ReadStartElement(): void;
+    ReadStartElement(name: string): void;
+    ReadStartElement(localname: string, ns: string): void;
+    ReadString(): string;
+    ReadSubtree(): XmlReader;
+    ReadToDescendant(name: string): boolean;
+    ReadToDescendant(localName: string, namespaceURI: string): boolean;
+    ReadToFollowing(name: string): boolean;
+    ReadToFollowing(localName: string, namespaceURI: string): boolean;
+    ReadToNextSibling(name: string): boolean;
+    ReadToNextSibling(localName: string, namespaceURI: string): boolean;
+    ReadValueChunk(buffer: char[], index: int, count: int): int;
+    ReadValueChunkAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ResolveEntity(): void;
+    Skip(): void;
+    SkipAsync(): Task;
 }
 
 
 export const XmlReader: {
-    create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    create(input: Stream, settings: XmlReaderSettings): XmlReader;
-    create(input: Stream): XmlReader;
-    create(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    create(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    create(input: TextReader, settings: XmlReaderSettings): XmlReader;
-    create(input: TextReader): XmlReader;
-    create(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    create(inputUri: string, settings: XmlReaderSettings): XmlReader;
-    create(inputUri: string): XmlReader;
-    create(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
-    isName(str: string): boolean;
-    isNameToken(str: string): boolean;
+    Create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    Create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    Create(input: Stream, settings: XmlReaderSettings): XmlReader;
+    Create(input: Stream): XmlReader;
+    Create(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    Create(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    Create(input: TextReader, settings: XmlReaderSettings): XmlReader;
+    Create(input: TextReader): XmlReader;
+    Create(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    Create(inputUri: string, settings: XmlReaderSettings): XmlReader;
+    Create(inputUri: string): XmlReader;
+    Create(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
+    IsName(str: string): boolean;
+    IsNameToken(str: string): boolean;
 };
 
 
@@ -1781,26 +1781,26 @@ export type XmlReader = XmlReader$instance & __XmlReader$views;
 
 
 export interface XmlReaderSettings$instance {
-    async: boolean;
-    checkCharacters: boolean;
-    closeInput: boolean;
-    conformanceLevel: ConformanceLevel;
-    dtdProcessing: DtdProcessing;
-    ignoreComments: boolean;
-    ignoreProcessingInstructions: boolean;
-    ignoreWhitespace: boolean;
-    lineNumberOffset: int;
-    linePositionOffset: int;
-    maxCharactersFromEntities: long;
-    maxCharactersInDocument: long;
-    nameTable: XmlNameTable;
-    prohibitDtd: boolean;
-    schemas: XmlSchemaSet;
-    validationFlags: XmlSchemaValidationFlags;
-    validationType: ValidationType;
-    xmlResolver: XmlResolver;
-    clone(): XmlReaderSettings;
-    reset(): void;
+    Async: boolean;
+    CheckCharacters: boolean;
+    CloseInput: boolean;
+    ConformanceLevel: ConformanceLevel;
+    DtdProcessing: DtdProcessing;
+    IgnoreComments: boolean;
+    IgnoreProcessingInstructions: boolean;
+    IgnoreWhitespace: boolean;
+    LineNumberOffset: int;
+    LinePositionOffset: int;
+    MaxCharactersFromEntities: long;
+    MaxCharactersInDocument: long;
+    NameTable: XmlNameTable;
+    ProhibitDtd: boolean;
+    Schemas: XmlSchemaSet;
+    ValidationFlags: XmlSchemaValidationFlags;
+    ValidationType: ValidationType;
+    XmlResolver: XmlResolver;
+    Clone(): XmlReaderSettings;
+    Reset(): void;
 }
 
 
@@ -1812,28 +1812,28 @@ export const XmlReaderSettings: {
 export type XmlReaderSettings = XmlReaderSettings$instance;
 
 export interface XmlResolver$instance {
-    credentials: ICredentials;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
-    supportsType(absoluteUri: Uri, type: Type): boolean;
+    Credentials: ICredentials;
+    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
+    SupportsType(absoluteUri: Uri, type: Type): boolean;
 }
 
 
 export const XmlResolver: {
-    readonly fileSystemResolver: XmlResolver;
-    readonly throwingResolver: XmlResolver;
+    readonly FileSystemResolver: XmlResolver;
+    readonly ThrowingResolver: XmlResolver;
 };
 
 
 export type XmlResolver = XmlResolver$instance;
 
 export interface XmlSecureResolver$instance extends XmlResolver {
-    credentials: ICredentials;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
+    Credentials: ICredentials;
+    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
 }
 
 
@@ -1845,19 +1845,19 @@ export const XmlSecureResolver: {
 export type XmlSecureResolver = XmlSecureResolver$instance;
 
 export interface XmlSignificantWhitespace$instance extends XmlCharacterData$instance {
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly parentNode: XmlNode | undefined;
-    readonly previousText: XmlNode | undefined;
-    value: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly ParentNode: XmlNode | undefined;
+    readonly PreviousText: XmlNode | undefined;
+    Value: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1876,20 +1876,20 @@ export type XmlSignificantWhitespace = XmlSignificantWhitespace$instance & __Xml
 
 
 export interface XmlText$instance extends XmlCharacterData$instance {
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly parentNode: XmlNode | undefined;
-    readonly previousText: XmlNode | undefined;
-    value: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    splitText(offset: int): XmlText;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly ParentNode: XmlNode | undefined;
+    readonly PreviousText: XmlNode | undefined;
+    Value: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    SplitText(offset: int): XmlText;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -1908,65 +1908,65 @@ export type XmlText = XmlText$instance & __XmlText$views;
 
 
 export interface XmlTextReader$instance extends XmlReader$instance {
-    readonly attributeCount: int;
-    readonly baseURI: string;
-    readonly canReadBinaryContent: boolean;
-    readonly canReadValueChunk: boolean;
-    readonly canResolveEntity: boolean;
-    readonly depth: int;
-    dtdProcessing: DtdProcessing;
-    readonly encoding: Encoding;
-    entityHandling: EntityHandling;
+    readonly AttributeCount: int;
+    readonly BaseURI: string;
+    readonly CanReadBinaryContent: boolean;
+    readonly CanReadValueChunk: boolean;
+    readonly CanResolveEntity: boolean;
+    readonly Depth: int;
+    DtdProcessing: DtdProcessing;
+    readonly Encoding: Encoding;
+    EntityHandling: EntityHandling;
     readonly EOF: boolean;
-    readonly hasValue: boolean;
-    readonly isDefault: boolean;
-    readonly isEmptyElement: boolean;
-    readonly lineNumber: int;
-    readonly linePosition: int;
-    readonly localName: string;
-    readonly name: string;
-    namespaces: boolean;
-    readonly namespaceURI: string;
-    readonly nameTable: XmlNameTable;
-    readonly nodeType: XmlNodeType;
-    normalization: boolean;
-    readonly prefix: string;
-    prohibitDtd: boolean;
-    readonly quoteChar: char;
-    readonly readState: ReadState;
-    readonly value: string;
-    whitespaceHandling: WhitespaceHandling;
-    readonly xmlLang: string;
-    xmlResolver: XmlResolver;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
-    getAttribute(name: string): string;
-    getAttribute(localName: string, namespaceURI: string): string;
-    getAttribute(i: int): string;
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
-    getRemainder(): TextReader;
-    hasLineInfo(): boolean;
-    lookupNamespace(prefix: string): string | undefined;
-    moveToAttribute(name: string): boolean;
-    moveToAttribute(localName: string, namespaceURI: string): boolean;
-    moveToAttribute(i: int): void;
-    moveToElement(): boolean;
-    moveToFirstAttribute(): boolean;
-    moveToNextAttribute(): boolean;
-    read(): boolean;
-    readAttributeValue(): boolean;
-    readBase64(array: byte[], offset: int, len: int): int;
-    readBinHex(array: byte[], offset: int, len: int): int;
-    readChars(buffer: char[], index: int, count: int): int;
-    readContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readString(): string;
-    resetState(): void;
-    resolveEntity(): void;
-    skip(): void;
+    readonly HasValue: boolean;
+    readonly IsDefault: boolean;
+    readonly IsEmptyElement: boolean;
+    readonly LineNumber: int;
+    readonly LinePosition: int;
+    readonly LocalName: string;
+    readonly Name: string;
+    Namespaces: boolean;
+    readonly NamespaceURI: string;
+    readonly NameTable: XmlNameTable;
+    readonly NodeType: XmlNodeType;
+    Normalization: boolean;
+    readonly Prefix: string;
+    ProhibitDtd: boolean;
+    readonly QuoteChar: char;
+    readonly ReadState: ReadState;
+    readonly Value: string;
+    WhitespaceHandling: WhitespaceHandling;
+    readonly XmlLang: string;
+    XmlResolver: XmlResolver;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
+    GetAttribute(name: string): string;
+    GetAttribute(localName: string, namespaceURI: string): string;
+    GetAttribute(i: int): string;
+    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
+    GetRemainder(): TextReader;
+    HasLineInfo(): boolean;
+    LookupNamespace(prefix: string): string | undefined;
+    MoveToAttribute(name: string): boolean;
+    MoveToAttribute(localName: string, namespaceURI: string): boolean;
+    MoveToAttribute(i: int): void;
+    MoveToElement(): boolean;
+    MoveToFirstAttribute(): boolean;
+    MoveToNextAttribute(): boolean;
+    Read(): boolean;
+    ReadAttributeValue(): boolean;
+    ReadBase64(array: byte[], offset: int, len: int): int;
+    ReadBinHex(array: byte[], offset: int, len: int): int;
+    ReadChars(buffer: char[], index: int, count: int): int;
+    ReadContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadString(): string;
+    ResetState(): void;
+    ResolveEntity(): void;
+    Skip(): void;
 }
 
 
@@ -1998,49 +1998,49 @@ export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
 
 export interface XmlTextWriter$instance extends XmlWriter$instance {
-    readonly baseStream: Stream;
-    formatting: Formatting;
-    indentation: int;
-    indentChar: char;
-    namespaces: boolean;
-    quoteChar: char;
-    readonly writeState: WriteState;
-    readonly xmlLang: string;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    flush(): void;
-    lookupPrefix(ns: string): string | undefined;
-    writeBase64(buffer: byte[], index: int, count: int): void;
-    writeBinHex(buffer: byte[], index: int, count: int): void;
-    writeCData(text: string): void;
-    writeCharEntity(ch: char): void;
-    writeChars(buffer: char[], index: int, count: int): void;
-    writeComment(text: string): void;
-    writeDocType(name: string, pubid: string, sysid: string, subset: string): void;
-    writeEndAttribute(): void;
-    writeEndDocument(): void;
-    writeEndElement(): void;
-    writeEntityRef(name: string): void;
-    writeFullEndElement(): void;
-    writeName(name: string): void;
-    writeNmToken(name: string): void;
-    writeProcessingInstruction(name: string, text: string): void;
-    writeQualifiedName(localName: string, ns: string): void;
-    writeRaw(buffer: char[], index: int, count: int): void;
-    writeRaw(data: string): void;
-    writeStartAttribute(prefix: string, localName: string, ns: string): void;
-    writeStartAttribute(localName: string, ns: string): void;
-    writeStartAttribute(localName: string): void;
-    writeStartDocument(): void;
-    writeStartDocument(standalone: boolean): void;
-    writeStartElement(prefix: string, localName: string, ns: string): void;
-    writeStartElement(localName: string, ns: string): void;
-    writeStartElement(localName: string): void;
-    writeString(text: string): void;
-    writeSurrogateCharEntity(lowChar: char, highChar: char): void;
-    writeWhitespace(ws: string): void;
+    readonly BaseStream: Stream;
+    Formatting: Formatting;
+    Indentation: int;
+    IndentChar: char;
+    Namespaces: boolean;
+    QuoteChar: char;
+    readonly WriteState: WriteState;
+    readonly XmlLang: string;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    Flush(): void;
+    LookupPrefix(ns: string): string | undefined;
+    WriteBase64(buffer: byte[], index: int, count: int): void;
+    WriteBinHex(buffer: byte[], index: int, count: int): void;
+    WriteCData(text: string): void;
+    WriteCharEntity(ch: char): void;
+    WriteChars(buffer: char[], index: int, count: int): void;
+    WriteComment(text: string): void;
+    WriteDocType(name: string, pubid: string, sysid: string, subset: string): void;
+    WriteEndAttribute(): void;
+    WriteEndDocument(): void;
+    WriteEndElement(): void;
+    WriteEntityRef(name: string): void;
+    WriteFullEndElement(): void;
+    WriteName(name: string): void;
+    WriteNmToken(name: string): void;
+    WriteProcessingInstruction(name: string, text: string): void;
+    WriteQualifiedName(localName: string, ns: string): void;
+    WriteRaw(buffer: char[], index: int, count: int): void;
+    WriteRaw(data: string): void;
+    WriteStartAttribute(prefix: string, localName: string, ns: string): void;
+    WriteStartAttribute(localName: string, ns: string): void;
+    WriteStartAttribute(localName: string): void;
+    WriteStartDocument(): void;
+    WriteStartDocument(standalone: boolean): void;
+    WriteStartElement(prefix: string, localName: string, ns: string): void;
+    WriteStartElement(localName: string, ns: string): void;
+    WriteStartElement(localName: string): void;
+    WriteString(text: string): void;
+    WriteSurrogateCharEntity(lowChar: char, highChar: char): void;
+    WriteWhitespace(ws: string): void;
 }
 
 
@@ -2060,13 +2060,13 @@ export type XmlTextWriter = XmlTextWriter$instance & __XmlTextWriter$views;
 
 
 export interface XmlUrlResolver$instance extends XmlResolver {
-    cachePolicy: RequestCachePolicy;
-    credentials: ICredentials;
-    proxy: IWebProxy | undefined;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
+    CachePolicy: RequestCachePolicy;
+    Credentials: ICredentials;
+    Proxy: IWebProxy | undefined;
+    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
 }
 
 
@@ -2078,58 +2078,58 @@ export const XmlUrlResolver: {
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
 export interface XmlValidatingReader$instance extends XmlReader$instance {
-    readonly attributeCount: int;
-    readonly baseURI: string;
-    readonly canReadBinaryContent: boolean;
-    readonly canResolveEntity: boolean;
-    readonly depth: int;
-    readonly encoding: Encoding;
-    entityHandling: EntityHandling;
+    readonly AttributeCount: int;
+    readonly BaseURI: string;
+    readonly CanReadBinaryContent: boolean;
+    readonly CanResolveEntity: boolean;
+    readonly Depth: int;
+    readonly Encoding: Encoding;
+    EntityHandling: EntityHandling;
     readonly EOF: boolean;
-    readonly hasValue: boolean;
-    readonly isDefault: boolean;
-    readonly isEmptyElement: boolean;
-    readonly lineNumber: int;
-    readonly linePosition: int;
-    readonly localName: string;
-    readonly name: string;
-    namespaces: boolean;
-    readonly namespaceURI: string;
-    readonly nameTable: XmlNameTable;
-    readonly nodeType: XmlNodeType;
-    readonly prefix: string;
-    readonly quoteChar: char;
-    readonly reader: XmlReader;
-    readonly readState: ReadState;
-    readonly schemas: XmlSchemaCollection;
-    readonly schemaType: unknown | undefined;
-    validationType: ValidationType;
-    readonly value: string;
-    readonly xmlLang: string;
-    xmlResolver: XmlResolver;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
-    getAttribute(name: string): string;
-    getAttribute(localName: string, namespaceURI: string): string;
-    getAttribute(i: int): string;
-    hasLineInfo(): boolean;
-    lookupNamespace(prefix: string): string | undefined;
-    moveToAttribute(name: string): boolean;
-    moveToAttribute(localName: string, namespaceURI: string): boolean;
-    moveToAttribute(i: int): void;
-    moveToElement(): boolean;
-    moveToFirstAttribute(): boolean;
-    moveToNextAttribute(): boolean;
-    read(): boolean;
-    readAttributeValue(): boolean;
-    readContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readString(): string;
-    readTypedValue(): unknown | undefined;
-    resolveEntity(): void;
+    readonly HasValue: boolean;
+    readonly IsDefault: boolean;
+    readonly IsEmptyElement: boolean;
+    readonly LineNumber: int;
+    readonly LinePosition: int;
+    readonly LocalName: string;
+    readonly Name: string;
+    Namespaces: boolean;
+    readonly NamespaceURI: string;
+    readonly NameTable: XmlNameTable;
+    readonly NodeType: XmlNodeType;
+    readonly Prefix: string;
+    readonly QuoteChar: char;
+    readonly Reader: XmlReader;
+    readonly ReadState: ReadState;
+    readonly Schemas: XmlSchemaCollection;
+    readonly SchemaType: unknown | undefined;
+    ValidationType: ValidationType;
+    readonly Value: string;
+    readonly XmlLang: string;
+    XmlResolver: XmlResolver;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
+    GetAttribute(name: string): string;
+    GetAttribute(localName: string, namespaceURI: string): string;
+    GetAttribute(i: int): string;
+    HasLineInfo(): boolean;
+    LookupNamespace(prefix: string): string | undefined;
+    MoveToAttribute(name: string): boolean;
+    MoveToAttribute(localName: string, namespaceURI: string): boolean;
+    MoveToAttribute(i: int): void;
+    MoveToElement(): boolean;
+    MoveToFirstAttribute(): boolean;
+    MoveToNextAttribute(): boolean;
+    Read(): boolean;
+    ReadAttributeValue(): boolean;
+    ReadContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
+    ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
+    ReadString(): string;
+    ReadTypedValue(): unknown | undefined;
+    ResolveEntity(): void;
 }
 
 
@@ -2152,19 +2152,19 @@ export type XmlValidatingReader = XmlValidatingReader$instance & __XmlValidating
 
 
 export interface XmlWhitespace$instance extends XmlCharacterData$instance {
-    readonly localName: string;
-    readonly name: string;
-    readonly nodeType: XmlNodeType;
-    readonly parentNode: XmlNode | undefined;
-    readonly previousText: XmlNode | undefined;
-    value: string;
-    clone(): unknown;
-    clone(): XmlNode;
-    cloneNode(deep: boolean): XmlNode;
-    createNavigator(): XPathNavigator;
-    getEnumerator(): IEnumerator;
-    writeContentTo(w: XmlWriter): void;
-    writeTo(w: XmlWriter): void;
+    readonly LocalName: string;
+    readonly Name: string;
+    readonly NodeType: XmlNodeType;
+    readonly ParentNode: XmlNode | undefined;
+    readonly PreviousText: XmlNode | undefined;
+    Value: string;
+    Clone(): unknown;
+    Clone(): XmlNode;
+    CloneNode(deep: boolean): XmlNode;
+    CreateNavigator(): XPathNavigator;
+    GetEnumerator(): IEnumerator;
+    WriteContentTo(w: XmlWriter): void;
+    WriteTo(w: XmlWriter): void;
 }
 
 
@@ -2183,106 +2183,106 @@ export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
 
 export interface XmlWriter$instance {
-    readonly settings: XmlWriterSettings | undefined;
-    readonly writeState: WriteState;
-    readonly xmlLang: string;
-    readonly xmlSpace: XmlSpace;
-    close(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    flush(): void;
-    flushAsync(): Task;
-    lookupPrefix(ns: string): string | undefined;
-    writeAttributes(reader: XmlReader, defattr: boolean): void;
-    writeAttributesAsync(reader: XmlReader, defattr: boolean): Task;
-    writeAttributeString(localName: string, ns: string, value: string): void;
-    writeAttributeString(localName: string, value: string): void;
-    writeAttributeString(prefix: string, localName: string, ns: string, value: string): void;
-    writeAttributeStringAsync(prefix: string, localName: string, ns: string, value: string): Task;
-    writeBase64(buffer: byte[], index: int, count: int): void;
-    writeBase64Async(buffer: byte[], index: int, count: int): Task;
-    writeBinHex(buffer: byte[], index: int, count: int): void;
-    writeBinHexAsync(buffer: byte[], index: int, count: int): Task;
-    writeCData(text: string): void;
-    writeCDataAsync(text: string): Task;
-    writeCharEntity(ch: char): void;
-    writeCharEntityAsync(ch: char): Task;
-    writeChars(buffer: char[], index: int, count: int): void;
-    writeCharsAsync(buffer: char[], index: int, count: int): Task;
-    writeComment(text: string): void;
-    writeCommentAsync(text: string): Task;
-    writeDocType(name: string, pubid: string, sysid: string, subset: string): void;
-    writeDocTypeAsync(name: string, pubid: string, sysid: string, subset: string): Task;
-    writeElementString(localName: string, value: string): void;
-    writeElementString(localName: string, ns: string, value: string): void;
-    writeElementString(prefix: string, localName: string, ns: string, value: string): void;
-    writeElementStringAsync(prefix: string, localName: string, ns: string, value: string): Task;
-    writeEndAttribute(): void;
-    writeEndDocument(): void;
-    writeEndDocumentAsync(): Task;
-    writeEndElement(): void;
-    writeEndElementAsync(): Task;
-    writeEntityRef(name: string): void;
-    writeEntityRefAsync(name: string): Task;
-    writeFullEndElement(): void;
-    writeFullEndElementAsync(): Task;
-    writeName(name: string): void;
-    writeNameAsync(name: string): Task;
-    writeNmToken(name: string): void;
-    writeNmTokenAsync(name: string): Task;
-    writeNode(reader: XmlReader, defattr: boolean): void;
-    writeNode(navigator: XPathNavigator, defattr: boolean): void;
-    writeNodeAsync(reader: XmlReader, defattr: boolean): Task;
-    writeNodeAsync(navigator: XPathNavigator, defattr: boolean): Task;
-    writeProcessingInstruction(name: string, text: string): void;
-    writeProcessingInstructionAsync(name: string, text: string): Task;
-    writeQualifiedName(localName: string, ns: string): void;
-    writeQualifiedNameAsync(localName: string, ns: string): Task;
-    writeRaw(buffer: char[], index: int, count: int): void;
-    writeRaw(data: string): void;
-    writeRawAsync(buffer: char[], index: int, count: int): Task;
-    writeRawAsync(data: string): Task;
-    writeStartAttribute(localName: string, ns: string): void;
-    writeStartAttribute(prefix: string, localName: string, ns: string): void;
-    writeStartAttribute(localName: string): void;
-    writeStartDocument(): void;
-    writeStartDocument(standalone: boolean): void;
-    writeStartDocumentAsync(): Task;
-    writeStartDocumentAsync(standalone: boolean): Task;
-    writeStartElement(localName: string, ns: string): void;
-    writeStartElement(prefix: string, localName: string, ns: string): void;
-    writeStartElement(localName: string): void;
-    writeStartElementAsync(prefix: string, localName: string, ns: string): Task;
-    writeString(text: string): void;
-    writeStringAsync(text: string): Task;
-    writeSurrogateCharEntity(lowChar: char, highChar: char): void;
-    writeSurrogateCharEntityAsync(lowChar: char, highChar: char): Task;
-    writeValue(value: unknown): void;
-    writeValue(value: string): void;
-    writeValue(value: boolean): void;
-    writeValue(value: DateTime): void;
-    writeValue(value: DateTimeOffset): void;
-    writeValue(value: double): void;
-    writeValue(value: float): void;
-    writeValue(value: decimal): void;
-    writeValue(value: int): void;
-    writeValue(value: long): void;
-    writeWhitespace(ws: string): void;
-    writeWhitespaceAsync(ws: string): Task;
+    readonly Settings: XmlWriterSettings | undefined;
+    readonly WriteState: WriteState;
+    readonly XmlLang: string;
+    readonly XmlSpace: XmlSpace;
+    Close(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    Flush(): void;
+    FlushAsync(): Task;
+    LookupPrefix(ns: string): string | undefined;
+    WriteAttributes(reader: XmlReader, defattr: boolean): void;
+    WriteAttributesAsync(reader: XmlReader, defattr: boolean): Task;
+    WriteAttributeString(localName: string, ns: string, value: string): void;
+    WriteAttributeString(localName: string, value: string): void;
+    WriteAttributeString(prefix: string, localName: string, ns: string, value: string): void;
+    WriteAttributeStringAsync(prefix: string, localName: string, ns: string, value: string): Task;
+    WriteBase64(buffer: byte[], index: int, count: int): void;
+    WriteBase64Async(buffer: byte[], index: int, count: int): Task;
+    WriteBinHex(buffer: byte[], index: int, count: int): void;
+    WriteBinHexAsync(buffer: byte[], index: int, count: int): Task;
+    WriteCData(text: string): void;
+    WriteCDataAsync(text: string): Task;
+    WriteCharEntity(ch: char): void;
+    WriteCharEntityAsync(ch: char): Task;
+    WriteChars(buffer: char[], index: int, count: int): void;
+    WriteCharsAsync(buffer: char[], index: int, count: int): Task;
+    WriteComment(text: string): void;
+    WriteCommentAsync(text: string): Task;
+    WriteDocType(name: string, pubid: string, sysid: string, subset: string): void;
+    WriteDocTypeAsync(name: string, pubid: string, sysid: string, subset: string): Task;
+    WriteElementString(localName: string, value: string): void;
+    WriteElementString(localName: string, ns: string, value: string): void;
+    WriteElementString(prefix: string, localName: string, ns: string, value: string): void;
+    WriteElementStringAsync(prefix: string, localName: string, ns: string, value: string): Task;
+    WriteEndAttribute(): void;
+    WriteEndDocument(): void;
+    WriteEndDocumentAsync(): Task;
+    WriteEndElement(): void;
+    WriteEndElementAsync(): Task;
+    WriteEntityRef(name: string): void;
+    WriteEntityRefAsync(name: string): Task;
+    WriteFullEndElement(): void;
+    WriteFullEndElementAsync(): Task;
+    WriteName(name: string): void;
+    WriteNameAsync(name: string): Task;
+    WriteNmToken(name: string): void;
+    WriteNmTokenAsync(name: string): Task;
+    WriteNode(reader: XmlReader, defattr: boolean): void;
+    WriteNode(navigator: XPathNavigator, defattr: boolean): void;
+    WriteNodeAsync(reader: XmlReader, defattr: boolean): Task;
+    WriteNodeAsync(navigator: XPathNavigator, defattr: boolean): Task;
+    WriteProcessingInstruction(name: string, text: string): void;
+    WriteProcessingInstructionAsync(name: string, text: string): Task;
+    WriteQualifiedName(localName: string, ns: string): void;
+    WriteQualifiedNameAsync(localName: string, ns: string): Task;
+    WriteRaw(buffer: char[], index: int, count: int): void;
+    WriteRaw(data: string): void;
+    WriteRawAsync(buffer: char[], index: int, count: int): Task;
+    WriteRawAsync(data: string): Task;
+    WriteStartAttribute(localName: string, ns: string): void;
+    WriteStartAttribute(prefix: string, localName: string, ns: string): void;
+    WriteStartAttribute(localName: string): void;
+    WriteStartDocument(): void;
+    WriteStartDocument(standalone: boolean): void;
+    WriteStartDocumentAsync(): Task;
+    WriteStartDocumentAsync(standalone: boolean): Task;
+    WriteStartElement(localName: string, ns: string): void;
+    WriteStartElement(prefix: string, localName: string, ns: string): void;
+    WriteStartElement(localName: string): void;
+    WriteStartElementAsync(prefix: string, localName: string, ns: string): Task;
+    WriteString(text: string): void;
+    WriteStringAsync(text: string): Task;
+    WriteSurrogateCharEntity(lowChar: char, highChar: char): void;
+    WriteSurrogateCharEntityAsync(lowChar: char, highChar: char): Task;
+    WriteValue(value: unknown): void;
+    WriteValue(value: string): void;
+    WriteValue(value: boolean): void;
+    WriteValue(value: DateTime): void;
+    WriteValue(value: DateTimeOffset): void;
+    WriteValue(value: double): void;
+    WriteValue(value: float): void;
+    WriteValue(value: decimal): void;
+    WriteValue(value: int): void;
+    WriteValue(value: long): void;
+    WriteWhitespace(ws: string): void;
+    WriteWhitespaceAsync(ws: string): Task;
 }
 
 
 export const XmlWriter: {
-    create(output: Stream, settings: XmlWriterSettings): XmlWriter;
-    create(output: Stream): XmlWriter;
-    create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
-    create(output: TextWriter): XmlWriter;
-    create(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
-    create(outputFileName: string): XmlWriter;
-    create(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
-    create(output: StringBuilder): XmlWriter;
-    create(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
-    create(output: XmlWriter): XmlWriter;
+    Create(output: Stream, settings: XmlWriterSettings): XmlWriter;
+    Create(output: Stream): XmlWriter;
+    Create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
+    Create(output: TextWriter): XmlWriter;
+    Create(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
+    Create(outputFileName: string): XmlWriter;
+    Create(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
+    Create(output: StringBuilder): XmlWriter;
+    Create(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
+    Create(output: XmlWriter): XmlWriter;
 };
 
 
@@ -2297,23 +2297,23 @@ export type XmlWriter = XmlWriter$instance & __XmlWriter$views;
 
 
 export interface XmlWriterSettings$instance {
-    async: boolean;
-    checkCharacters: boolean;
-    closeOutput: boolean;
-    conformanceLevel: ConformanceLevel;
-    doNotEscapeUriAttributes: boolean;
-    encoding: Encoding;
-    indent: boolean;
-    indentChars: string;
-    namespaceHandling: NamespaceHandling;
-    newLineChars: string;
-    newLineHandling: NewLineHandling;
-    newLineOnAttributes: boolean;
-    omitXmlDeclaration: boolean;
-    readonly outputMethod: XmlOutputMethod;
-    writeEndDocumentOnClose: boolean;
-    clone(): XmlWriterSettings;
-    reset(): void;
+    Async: boolean;
+    CheckCharacters: boolean;
+    CloseOutput: boolean;
+    ConformanceLevel: ConformanceLevel;
+    DoNotEscapeUriAttributes: boolean;
+    Encoding: Encoding;
+    Indent: boolean;
+    IndentChars: string;
+    NamespaceHandling: NamespaceHandling;
+    NewLineChars: string;
+    NewLineHandling: NewLineHandling;
+    NewLineOnAttributes: boolean;
+    OmitXmlDeclaration: boolean;
+    readonly OutputMethod: XmlOutputMethod;
+    WriteEndDocumentOnClose: boolean;
+    Clone(): XmlWriterSettings;
+    Reset(): void;
 }
 
 

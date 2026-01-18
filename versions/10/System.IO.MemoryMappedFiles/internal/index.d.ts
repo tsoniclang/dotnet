@@ -15,68 +15,68 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export enum MemoryMappedFileAccess {
-    readWrite = 0,
-    read = 1,
-    write = 2,
-    copyOnWrite = 3,
-    readExecute = 4,
-    readWriteExecute = 5
+    ReadWrite = 0,
+    Read = 1,
+    Write = 2,
+    CopyOnWrite = 3,
+    ReadExecute = 4,
+    ReadWriteExecute = 5
 }
 
 
 export enum MemoryMappedFileOptions {
-    none = 0,
-    delayAllocatePages = 67108864
+    None = 0,
+    DelayAllocatePages = 67108864
 }
 
 
 export enum MemoryMappedFileRights {
-    copyOnWrite = 1,
-    write = 2,
-    read = 4,
-    execute = 8,
-    delete = 65536,
-    readPermissions = 131072,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    readWrite = 6,
-    readExecute = 12,
-    readWriteExecute = 14,
-    fullControl = 983055,
-    accessSystemSecurity = 16777216
+    CopyOnWrite = 1,
+    Write = 2,
+    Read = 4,
+    Execute = 8,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    ReadWrite = 6,
+    ReadExecute = 12,
+    ReadWriteExecute = 14,
+    FullControl = 983055,
+    AccessSystemSecurity = 16777216
 }
 
 
 export interface MemoryMappedFile$instance {
-    readonly safeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
-    createViewAccessor(): MemoryMappedViewAccessor;
-    createViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
-    createViewAccessor(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewAccessor;
-    createViewStream(): MemoryMappedViewStream;
-    createViewStream(offset: long, size: long): MemoryMappedViewStream;
-    createViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
-    dispose(): void;
+    readonly SafeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
+    CreateViewAccessor(): MemoryMappedViewAccessor;
+    CreateViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
+    CreateViewAccessor(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewAccessor;
+    CreateViewStream(): MemoryMappedViewStream;
+    CreateViewStream(offset: long, size: long): MemoryMappedViewStream;
+    CreateViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
+    Dispose(): void;
 }
 
 
 export const MemoryMappedFile: {
     new(): MemoryMappedFile;
-    createFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    createFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    createFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    createFromFile(path: string, mode: FileMode, mapName: string, capacity: long): MemoryMappedFile;
-    createFromFile(path: string, mode: FileMode, mapName: string): MemoryMappedFile;
-    createFromFile(path: string, mode: FileMode): MemoryMappedFile;
-    createFromFile(path: string): MemoryMappedFile;
-    createNew(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
-    createNew(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    createNew(mapName: string, capacity: long): MemoryMappedFile;
-    createOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
-    createOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    createOrOpen(mapName: string, capacity: long): MemoryMappedFile;
-    openExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights, inheritability: HandleInheritability): MemoryMappedFile;
-    openExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights): MemoryMappedFile;
-    openExisting(mapName: string): MemoryMappedFile;
+    CreateFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    CreateFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode): MemoryMappedFile;
+    CreateFromFile(path: string): MemoryMappedFile;
+    CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
+    CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    CreateNew(mapName: string, capacity: long): MemoryMappedFile;
+    CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
+    CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    CreateOrOpen(mapName: string, capacity: long): MemoryMappedFile;
+    OpenExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights, inheritability: HandleInheritability): MemoryMappedFile;
+    OpenExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights): MemoryMappedFile;
+    OpenExisting(mapName: string): MemoryMappedFile;
 };
 
 
@@ -90,10 +90,10 @@ export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$vi
 
 
 export interface MemoryMappedViewAccessor$instance extends UnmanagedMemoryAccessor {
-    readonly pointerOffset: long;
-    readonly safeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    dispose(): void;
-    flush(): void;
+    readonly PointerOffset: long;
+    readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(): void;
+    Flush(): void;
 }
 
 
@@ -110,12 +110,12 @@ export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __Mem
 
 
 export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
-    readonly pointerOffset: long;
-    readonly safeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    flush(): void;
-    setLength(value: long): void;
+    readonly PointerOffset: long;
+    readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    Flush(): void;
+    SetLength(value: long): void;
 }
 
 

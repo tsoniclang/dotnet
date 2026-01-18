@@ -11,41 +11,41 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum PermissionState {
-    none = 0,
-    unrestricted = 1
+    None = 0,
+    Unrestricted = 1
 }
 
 
 export enum SecurityAction {
-    assert = 3,
-    demand = 2,
-    deny = 4,
-    inheritanceDemand = 7,
-    linkDemand = 6,
-    permitOnly = 5,
-    requestMinimum = 8,
-    requestOptional = 9,
-    requestRefuse = 10
+    Assert = 3,
+    Demand = 2,
+    Deny = 4,
+    InheritanceDemand = 7,
+    LinkDemand = 6,
+    PermitOnly = 5,
+    RequestMinimum = 8,
+    RequestOptional = 9,
+    RequestRefuse = 10
 }
 
 
 export enum SecurityPermissionFlag {
-    allFlags = 16383,
-    assertion = 1,
-    bindingRedirects = 8192,
-    controlAppDomain = 1024,
-    controlDomainPolicy = 256,
-    controlEvidence = 32,
-    controlPolicy = 64,
-    controlPrincipal = 512,
-    controlThread = 16,
-    execution = 8,
-    infrastructure = 4096,
-    noFlags = 0,
-    remotingConfiguration = 2048,
-    serializationFormatter = 128,
-    skipVerification = 4,
-    unmanagedCode = 2
+    AllFlags = 16383,
+    Assertion = 1,
+    BindingRedirects = 8192,
+    ControlAppDomain = 1024,
+    ControlDomainPolicy = 256,
+    ControlEvidence = 32,
+    ControlPolicy = 64,
+    ControlPrincipal = 512,
+    ControlThread = 16,
+    Execution = 8,
+    Infrastructure = 4096,
+    NoFlags = 0,
+    RemotingConfiguration = 2048,
+    SerializationFormatter = 128,
+    SkipVerification = 4,
+    UnmanagedCode = 2
 }
 
 
@@ -60,9 +60,9 @@ export const CodeAccessSecurityAttribute: {
 export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 
 export interface SecurityAttribute$instance extends Attribute {
-    action: SecurityAction;
-    unrestricted: boolean;
-    createPermission(): IPermission | undefined;
+    Action: SecurityAction;
+    Unrestricted: boolean;
+    CreatePermission(): IPermission | undefined;
 }
 
 
@@ -73,22 +73,22 @@ export const SecurityAttribute: {
 export type SecurityAttribute = SecurityAttribute$instance;
 
 export interface SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute {
-    assertion: boolean;
-    bindingRedirects: boolean;
-    controlAppDomain: boolean;
-    controlDomainPolicy: boolean;
-    controlEvidence: boolean;
-    controlPolicy: boolean;
-    controlPrincipal: boolean;
-    controlThread: boolean;
-    execution: boolean;
-    flags: SecurityPermissionFlag;
-    infrastructure: boolean;
-    remotingConfiguration: boolean;
-    serializationFormatter: boolean;
-    skipVerification: boolean;
-    unmanagedCode: boolean;
-    createPermission(): IPermission | undefined;
+    Assertion: boolean;
+    BindingRedirects: boolean;
+    ControlAppDomain: boolean;
+    ControlDomainPolicy: boolean;
+    ControlEvidence: boolean;
+    ControlPolicy: boolean;
+    ControlPrincipal: boolean;
+    ControlThread: boolean;
+    Execution: boolean;
+    Flags: SecurityPermissionFlag;
+    Infrastructure: boolean;
+    RemotingConfiguration: boolean;
+    SerializationFormatter: boolean;
+    SkipVerification: boolean;
+    UnmanagedCode: boolean;
+    CreatePermission(): IPermission | undefined;
 }
 
 

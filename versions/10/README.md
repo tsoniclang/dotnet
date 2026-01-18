@@ -2,6 +2,14 @@
 
 TypeScript type definitions for .NET 10 BCL (Base Class Library).
 
+## Versioning
+
+This repo is versioned by **.NET major**:
+
+- **.NET 10** → `versions/10/` → npm: `@tsonic/dotnet@10.x`
+
+When publishing, run: `npm publish versions/10 --access public`
+
 ## Features
 
 - ✅ **Complete .NET 10 BCL coverage** - 130 namespaces, 4,296 types, 50,675 members

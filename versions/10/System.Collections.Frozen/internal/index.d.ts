@@ -18,10 +18,10 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
-    readonly dictionary: FrozenDictionary_2<TKey, TValue>;
-    readonly item: TValue;
-    containsKey(key: TAlternateKey): boolean;
-    tryGetValue(key: TAlternateKey, value: TValue): boolean;
+    readonly Dictionary: FrozenDictionary_2<TKey, TValue>;
+    readonly Item: TValue;
+    ContainsKey(key: TAlternateKey): boolean;
+    TryGetValue(key: TAlternateKey, value: TValue): boolean;
 }
 
 
@@ -33,9 +33,9 @@ export const FrozenDictionary_2_AlternateLookup_1: {
 export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
-    readonly current: KeyValuePair_2<TKey, TValue>;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: KeyValuePair_2<TKey, TValue>;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -53,9 +53,9 @@ export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enu
 
 
 export interface FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
-    readonly set: FrozenSet_1<T>;
-    contains(item: TAlternate): boolean;
-    tryGetValue(equalValue: TAlternate, actualValue: T): boolean;
+    readonly Set: FrozenSet_1<T>;
+    Contains(item: TAlternate): boolean;
+    TryGetValue(equalValue: TAlternate, actualValue: T): boolean;
 }
 
 
@@ -67,9 +67,9 @@ export const FrozenSet_1_AlternateLookup_1: {
 export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export interface FrozenSet_1_Enumerator$instance<T> {
-    readonly current: T;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: T;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -87,24 +87,24 @@ export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __F
 
 
 export interface FrozenDictionary_2$instance<TKey, TValue> {
-    readonly comparer: IEqualityComparer_1<TKey>;
-    readonly count: int;
-    readonly item: TValue;
-    readonly keys: ImmutableArray_1<TKey>;
-    readonly values: ImmutableArray_1<TValue>;
-    containsKey(key: TKey): boolean;
-    copyTo(destination: KeyValuePair_2<TKey, TValue>[], destinationIndex: int): void;
-    copyTo(destination: Span_1<KeyValuePair_2<TKey, TValue>>): void;
-    getAlternateLookup<TAlternateKey>(): FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-    getEnumerator(): FrozenDictionary_2_Enumerator<TKey, TValue>;
-    getValueRefOrNullRef(key: TKey): TValue;
-    tryGetAlternateLookup<TAlternateKey>(lookup: FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
-    tryGetValue(key: TKey, value: TValue): boolean;
+    readonly Comparer: IEqualityComparer_1<TKey>;
+    readonly Count: int;
+    readonly Item: TValue;
+    readonly Keys: ImmutableArray_1<TKey>;
+    readonly Values: ImmutableArray_1<TValue>;
+    ContainsKey(key: TKey): boolean;
+    CopyTo(destination: KeyValuePair_2<TKey, TValue>[], destinationIndex: int): void;
+    CopyTo(destination: Span_1<KeyValuePair_2<TKey, TValue>>): void;
+    GetAlternateLookup<TAlternateKey>(): FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    GetEnumerator(): FrozenDictionary_2_Enumerator<TKey, TValue>;
+    GetValueRefOrNullRef(key: TKey): TValue;
+    TryGetAlternateLookup<TAlternateKey>(lookup: FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
+    TryGetValue(key: TKey, value: TValue): boolean;
 }
 
 
 export const FrozenDictionary_2: {
-    readonly empty: unknown;
+    readonly Empty: unknown;
 };
 
 
@@ -123,27 +123,27 @@ export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey,
 
 
 export interface FrozenSet_1$instance<T> {
-    readonly comparer: IEqualityComparer_1<T>;
-    readonly count: int;
-    readonly items: ImmutableArray_1<T>;
-    contains(item: T): boolean;
-    copyTo(destination: T[], destinationIndex: int): void;
-    copyTo(destination: Span_1<T>): void;
-    getAlternateLookup<TAlternate>(): FrozenSet_1_AlternateLookup_1<T, TAlternate>;
-    getEnumerator(): FrozenSet_1_Enumerator<T>;
-    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    isProperSupersetOf(other: IEnumerable_1<T>): boolean;
-    isSubsetOf(other: IEnumerable_1<T>): boolean;
-    isSupersetOf(other: IEnumerable_1<T>): boolean;
-    overlaps(other: IEnumerable_1<T>): boolean;
-    setEquals(other: IEnumerable_1<T>): boolean;
-    tryGetAlternateLookup<TAlternate>(lookup: FrozenSet_1_AlternateLookup_1<T, TAlternate>): boolean;
-    tryGetValue(equalValue: T, actualValue: T): boolean;
+    readonly Comparer: IEqualityComparer_1<T>;
+    readonly Count: int;
+    readonly Items: ImmutableArray_1<T>;
+    Contains(item: T): boolean;
+    CopyTo(destination: T[], destinationIndex: int): void;
+    CopyTo(destination: Span_1<T>): void;
+    GetAlternateLookup<TAlternate>(): FrozenSet_1_AlternateLookup_1<T, TAlternate>;
+    GetEnumerator(): FrozenSet_1_Enumerator<T>;
+    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
+    IsSubsetOf(other: IEnumerable_1<T>): boolean;
+    IsSupersetOf(other: IEnumerable_1<T>): boolean;
+    Overlaps(other: IEnumerable_1<T>): boolean;
+    SetEquals(other: IEnumerable_1<T>): boolean;
+    TryGetAlternateLookup<TAlternate>(lookup: FrozenSet_1_AlternateLookup_1<T, TAlternate>): boolean;
+    TryGetValue(equalValue: T, actualValue: T): boolean;
 }
 
 
 export const FrozenSet_1: {
-    readonly empty: unknown;
+    readonly Empty: unknown;
 };
 
 
@@ -161,20 +161,20 @@ export type FrozenSet_1<T> = FrozenSet_1$instance<T> & __FrozenSet_1$views<T>;
 
 
 export abstract class FrozenDictionary$instance {
-    static create<TKey, TValue>(comparer: IEqualityComparer_1<TKey>, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
-    static create<TKey, TValue>(source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
-    static toFrozenDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TElement>;
-    static toFrozenDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TSource>;
-    static toFrozenDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TValue>;
+    static Create<TKey, TValue>(comparer: IEqualityComparer_1<TKey>, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
+    static Create<TKey, TValue>(source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
+    static ToFrozenDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TElement>;
+    static ToFrozenDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TSource>;
+    static ToFrozenDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TValue>;
 }
 
 
 export type FrozenDictionary = FrozenDictionary$instance;
 
 export abstract class FrozenSet$instance {
-    static create<T>(equalityComparer: IEqualityComparer_1<T>, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
-    static create<T>(source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
-    static toFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T>): FrozenSet_1<T>;
+    static Create<T>(equalityComparer: IEqualityComparer_1<T>, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
+    static Create<T>(source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
+    static ToFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T>): FrozenSet_1<T>;
 }
 
 

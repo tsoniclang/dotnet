@@ -13,7 +13,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface IHtmlString$instance {
-    toHtmlString(): string | undefined;
+    ToHtmlString(): string | undefined;
 }
 
 
@@ -25,36 +25,36 @@ export interface HttpUtility$instance {
 
 export const HttpUtility: {
     new(): HttpUtility;
-    htmlAttributeEncode(s: string, output: TextWriter): void;
-    htmlAttributeEncode(s: string): string | undefined;
-    htmlDecode(s: string, output: TextWriter): void;
-    htmlDecode(s: string): string | undefined;
-    htmlEncode(value: unknown): string | undefined;
-    htmlEncode(s: string, output: TextWriter): void;
-    htmlEncode(s: string): string | undefined;
-    javaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
-    javaScriptStringEncode(value: string): string;
-    parseQueryString(query: string, encoding: Encoding): NameValueCollection;
-    parseQueryString(query: string): NameValueCollection;
-    urlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string | undefined;
-    urlDecode(bytes: byte[], e: Encoding): string | undefined;
-    urlDecode(str: string, e: Encoding): string | undefined;
-    urlDecode(str: string): string | undefined;
-    urlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
-    urlDecodeToBytes(bytes: byte[]): byte[] | undefined;
-    urlDecodeToBytes(str: string, e: Encoding): byte[] | undefined;
-    urlDecodeToBytes(str: string): byte[] | undefined;
-    urlEncode(bytes: byte[], offset: int, count: int): string | undefined;
-    urlEncode(bytes: byte[]): string | undefined;
-    urlEncode(str: string, e: Encoding): string | undefined;
-    urlEncode(str: string): string | undefined;
-    urlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
-    urlEncodeToBytes(bytes: byte[]): byte[] | undefined;
-    urlEncodeToBytes(str: string, e: Encoding): byte[] | undefined;
-    urlEncodeToBytes(str: string): byte[] | undefined;
-    urlEncodeUnicode(str: string): string | undefined;
-    urlEncodeUnicodeToBytes(str: string): byte[] | undefined;
-    urlPathEncode(str: string): string | undefined;
+    HtmlAttributeEncode(s: string, output: TextWriter): void;
+    HtmlAttributeEncode(s: string): string | undefined;
+    HtmlDecode(s: string, output: TextWriter): void;
+    HtmlDecode(s: string): string | undefined;
+    HtmlEncode(value: unknown): string | undefined;
+    HtmlEncode(s: string, output: TextWriter): void;
+    HtmlEncode(s: string): string | undefined;
+    JavaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
+    JavaScriptStringEncode(value: string): string;
+    ParseQueryString(query: string, encoding: Encoding): NameValueCollection;
+    ParseQueryString(query: string): NameValueCollection;
+    UrlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string | undefined;
+    UrlDecode(bytes: byte[], e: Encoding): string | undefined;
+    UrlDecode(str: string, e: Encoding): string | undefined;
+    UrlDecode(str: string): string | undefined;
+    UrlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
+    UrlDecodeToBytes(bytes: byte[]): byte[] | undefined;
+    UrlDecodeToBytes(str: string, e: Encoding): byte[] | undefined;
+    UrlDecodeToBytes(str: string): byte[] | undefined;
+    UrlEncode(bytes: byte[], offset: int, count: int): string | undefined;
+    UrlEncode(bytes: byte[]): string | undefined;
+    UrlEncode(str: string, e: Encoding): string | undefined;
+    UrlEncode(str: string): string | undefined;
+    UrlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
+    UrlEncodeToBytes(bytes: byte[]): byte[] | undefined;
+    UrlEncodeToBytes(str: string, e: Encoding): byte[] | undefined;
+    UrlEncodeToBytes(str: string): byte[] | undefined;
+    UrlEncodeUnicode(str: string): string | undefined;
+    UrlEncodeUnicodeToBytes(str: string): byte[] | undefined;
+    UrlPathEncode(str: string): string | undefined;
 };
 
 

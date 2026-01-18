@@ -16,95 +16,95 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Char, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum JsonIgnoreCondition {
-    never = 0,
-    always = 1,
-    whenWritingDefault = 2,
-    whenWritingNull = 3,
-    whenWriting = 4,
-    whenReading = 5
+    Never = 0,
+    Always = 1,
+    WhenWritingDefault = 2,
+    WhenWritingNull = 3,
+    WhenWriting = 4,
+    WhenReading = 5
 }
 
 
 export enum JsonKnownNamingPolicy {
-    unspecified = 0,
-    camelCase = 1,
-    snakeCaseLower = 2,
-    snakeCaseUpper = 3,
-    kebabCaseLower = 4,
-    kebabCaseUpper = 5
+    Unspecified = 0,
+    CamelCase = 1,
+    SnakeCaseLower = 2,
+    SnakeCaseUpper = 3,
+    KebabCaseLower = 4,
+    KebabCaseUpper = 5
 }
 
 
 export enum JsonKnownReferenceHandler {
-    unspecified = 0,
-    preserve = 1,
-    ignoreCycles = 2
+    Unspecified = 0,
+    Preserve = 1,
+    IgnoreCycles = 2
 }
 
 
 export enum JsonNumberHandling {
-    strict = 0,
-    allowReadingFromString = 1,
-    writeAsString = 2,
-    allowNamedFloatingPointLiterals = 4
+    Strict = 0,
+    AllowReadingFromString = 1,
+    WriteAsString = 2,
+    AllowNamedFloatingPointLiterals = 4
 }
 
 
 export enum JsonObjectCreationHandling {
-    replace = 0,
-    populate = 1
+    Replace = 0,
+    Populate = 1
 }
 
 
 export enum JsonSourceGenerationMode {
-    default = 0,
-    metadata = 1,
-    serialization = 2
+    Default = 0,
+    Metadata = 1,
+    Serialization = 2
 }
 
 
 export enum JsonUnknownDerivedTypeHandling {
-    failSerialization = 0,
-    fallBackToBaseType = 1,
-    fallBackToNearestAncestor = 2
+    FailSerialization = 0,
+    FallBackToBaseType = 1,
+    FallBackToNearestAncestor = 2
 }
 
 
 export enum JsonUnknownTypeHandling {
-    jsonElement = 0,
-    jsonNode = 1
+    JsonElement = 0,
+    JsonNode = 1
 }
 
 
 export enum JsonUnmappedMemberHandling {
-    skip = 0,
-    disallow = 1
+    Skip = 0,
+    Disallow = 1
 }
 
 
 export interface IJsonOnDeserialized$instance {
-    onDeserialized(): void;
+    OnDeserialized(): void;
 }
 
 
 export type IJsonOnDeserialized = IJsonOnDeserialized$instance;
 
 export interface IJsonOnDeserializing$instance {
-    onDeserializing(): void;
+    OnDeserializing(): void;
 }
 
 
 export type IJsonOnDeserializing = IJsonOnDeserializing$instance;
 
 export interface IJsonOnSerialized$instance {
-    onSerialized(): void;
+    OnSerialized(): void;
 }
 
 
 export type IJsonOnSerialized = IJsonOnSerialized$instance;
 
 export interface IJsonOnSerializing$instance {
-    onSerializing(): void;
+    OnSerializing(): void;
 }
 
 
@@ -132,8 +132,8 @@ export const JsonConstructorAttribute: {
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
 export interface JsonConverter$instance {
-    readonly type: Type;
-    canConvert(typeToConvert: Type): boolean;
+    readonly Type: Type;
+    CanConvert(typeToConvert: Type): boolean;
 }
 
 
@@ -144,13 +144,13 @@ export const JsonConverter: {
 export type JsonConverter = JsonConverter$instance;
 
 export interface JsonConverter_1$instance<T> extends JsonConverter {
-    readonly handleNull: boolean;
-    readonly type: Type;
-    canConvert(typeToConvert: Type): boolean;
-    read(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T | undefined;
-    readAsPropertyName(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T;
-    write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
-    writeAsPropertyName(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
+    readonly HandleNull: boolean;
+    readonly Type: Type;
+    CanConvert(typeToConvert: Type): boolean;
+    Read(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T | undefined;
+    ReadAsPropertyName(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T;
+    Write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
+    WriteAsPropertyName(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
 }
 
 
@@ -161,8 +161,8 @@ export const JsonConverter_1: {
 export type JsonConverter_1<T> = JsonConverter_1$instance<T>;
 
 export interface JsonConverterAttribute$instance extends JsonAttribute {
-    readonly converterType: Type | undefined;
-    createConverter(typeToConvert: Type): JsonConverter | undefined;
+    readonly ConverterType: Type | undefined;
+    CreateConverter(typeToConvert: Type): JsonConverter | undefined;
 }
 
 
@@ -174,8 +174,8 @@ export const JsonConverterAttribute: {
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
 export interface JsonConverterFactory$instance extends JsonConverter {
-    readonly type: Type;
-    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
+    readonly Type: Type;
+    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
 
 
@@ -186,8 +186,8 @@ export const JsonConverterFactory: {
 export type JsonConverterFactory = JsonConverterFactory$instance;
 
 export interface JsonDerivedTypeAttribute$instance extends JsonAttribute {
-    readonly derivedType: Type;
-    readonly typeDiscriminator: unknown | undefined;
+    readonly DerivedType: Type;
+    readonly TypeDiscriminator: unknown | undefined;
 }
 
 
@@ -212,7 +212,7 @@ export const JsonExtensionDataAttribute: {
 export type JsonExtensionDataAttribute = JsonExtensionDataAttribute$instance;
 
 export interface JsonIgnoreAttribute$instance extends JsonAttribute {
-    condition: JsonIgnoreCondition;
+    Condition: JsonIgnoreCondition;
 }
 
 
@@ -235,8 +235,8 @@ export const JsonIncludeAttribute: {
 export type JsonIncludeAttribute = JsonIncludeAttribute$instance;
 
 export interface JsonNumberEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
-    canConvert(typeToConvert: Type): boolean;
-    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
+    CanConvert(typeToConvert: Type): boolean;
+    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
 
 
@@ -248,7 +248,7 @@ export const JsonNumberEnumConverter_1: {
 export type JsonNumberEnumConverter_1<TEnum extends number> = JsonNumberEnumConverter_1$instance<TEnum>;
 
 export interface JsonNumberHandlingAttribute$instance extends JsonAttribute {
-    readonly handling: JsonNumberHandling;
+    readonly Handling: JsonNumberHandling;
 }
 
 
@@ -260,7 +260,7 @@ export const JsonNumberHandlingAttribute: {
 export type JsonNumberHandlingAttribute = JsonNumberHandlingAttribute$instance;
 
 export interface JsonObjectCreationHandlingAttribute$instance extends JsonAttribute {
-    readonly handling: JsonObjectCreationHandling;
+    readonly Handling: JsonObjectCreationHandling;
 }
 
 
@@ -272,9 +272,9 @@ export const JsonObjectCreationHandlingAttribute: {
 export type JsonObjectCreationHandlingAttribute = JsonObjectCreationHandlingAttribute$instance;
 
 export interface JsonPolymorphicAttribute$instance extends JsonAttribute {
-    ignoreUnrecognizedTypeDiscriminators: boolean;
-    typeDiscriminatorPropertyName: string;
-    unknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
+    IgnoreUnrecognizedTypeDiscriminators: boolean;
+    TypeDiscriminatorPropertyName: string;
+    UnknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
 }
 
 
@@ -286,7 +286,7 @@ export const JsonPolymorphicAttribute: {
 export type JsonPolymorphicAttribute = JsonPolymorphicAttribute$instance;
 
 export interface JsonPropertyNameAttribute$instance extends JsonAttribute {
-    readonly name: string;
+    readonly Name: string;
 }
 
 
@@ -298,7 +298,7 @@ export const JsonPropertyNameAttribute: {
 export type JsonPropertyNameAttribute = JsonPropertyNameAttribute$instance;
 
 export interface JsonPropertyOrderAttribute$instance extends JsonAttribute {
-    readonly order: int;
+    readonly Order: int;
 }
 
 
@@ -321,9 +321,9 @@ export const JsonRequiredAttribute: {
 export type JsonRequiredAttribute = JsonRequiredAttribute$instance;
 
 export interface JsonSerializableAttribute$instance extends JsonAttribute {
-    generationMode: JsonSourceGenerationMode;
-    get typeInfoPropertyName(): string | undefined;
-    set typeInfoPropertyName(value: string);
+    GenerationMode: JsonSourceGenerationMode;
+    get TypeInfoPropertyName(): string | undefined;
+    set TypeInfoPropertyName(value: string);
 }
 
 
@@ -335,8 +335,8 @@ export const JsonSerializableAttribute: {
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
 export interface JsonSerializerContext$instance {
-    readonly options: JsonSerializerOptions;
-    getTypeInfo(type: Type): JsonTypeInfo;
+    readonly Options: JsonSerializerOptions;
+    GetTypeInfo(type: Type): JsonTypeInfo;
 }
 
 
@@ -352,33 +352,33 @@ export type JsonSerializerContext = JsonSerializerContext$instance & __JsonSeria
 
 
 export interface JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute {
-    allowDuplicateProperties: boolean;
-    allowOutOfOrderMetadataProperties: boolean;
-    allowTrailingCommas: boolean;
-    converters: Type[];
-    defaultBufferSize: int;
-    defaultIgnoreCondition: JsonIgnoreCondition;
-    dictionaryKeyPolicy: JsonKnownNamingPolicy;
-    generationMode: JsonSourceGenerationMode;
-    ignoreReadOnlyFields: boolean;
-    ignoreReadOnlyProperties: boolean;
-    includeFields: boolean;
-    indentCharacter: char;
-    indentSize: int;
-    maxDepth: int;
-    newLine: string;
-    numberHandling: JsonNumberHandling;
-    preferredObjectCreationHandling: JsonObjectCreationHandling;
-    propertyNameCaseInsensitive: boolean;
-    propertyNamingPolicy: JsonKnownNamingPolicy;
-    readCommentHandling: JsonCommentHandling;
-    referenceHandler: JsonKnownReferenceHandler;
-    respectNullableAnnotations: boolean;
-    respectRequiredConstructorParameters: boolean;
-    unknownTypeHandling: JsonUnknownTypeHandling;
-    unmappedMemberHandling: JsonUnmappedMemberHandling;
-    useStringEnumConverter: boolean;
-    writeIndented: boolean;
+    AllowDuplicateProperties: boolean;
+    AllowOutOfOrderMetadataProperties: boolean;
+    AllowTrailingCommas: boolean;
+    Converters: Type[];
+    DefaultBufferSize: int;
+    DefaultIgnoreCondition: JsonIgnoreCondition;
+    DictionaryKeyPolicy: JsonKnownNamingPolicy;
+    GenerationMode: JsonSourceGenerationMode;
+    IgnoreReadOnlyFields: boolean;
+    IgnoreReadOnlyProperties: boolean;
+    IncludeFields: boolean;
+    IndentCharacter: char;
+    IndentSize: int;
+    MaxDepth: int;
+    NewLine: string;
+    NumberHandling: JsonNumberHandling;
+    PreferredObjectCreationHandling: JsonObjectCreationHandling;
+    PropertyNameCaseInsensitive: boolean;
+    PropertyNamingPolicy: JsonKnownNamingPolicy;
+    ReadCommentHandling: JsonCommentHandling;
+    ReferenceHandler: JsonKnownReferenceHandler;
+    RespectNullableAnnotations: boolean;
+    RespectRequiredConstructorParameters: boolean;
+    UnknownTypeHandling: JsonUnknownTypeHandling;
+    UnmappedMemberHandling: JsonUnmappedMemberHandling;
+    UseStringEnumConverter: boolean;
+    WriteIndented: boolean;
 }
 
 
@@ -391,8 +391,8 @@ export const JsonSourceGenerationOptionsAttribute: {
 export type JsonSourceGenerationOptionsAttribute = JsonSourceGenerationOptionsAttribute$instance;
 
 export interface JsonStringEnumConverter$instance extends JsonConverterFactory {
-    canConvert(typeToConvert: Type): boolean;
-    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    CanConvert(typeToConvert: Type): boolean;
+    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
@@ -405,8 +405,8 @@ export const JsonStringEnumConverter: {
 export type JsonStringEnumConverter = JsonStringEnumConverter$instance;
 
 export interface JsonStringEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
-    canConvert(typeToConvert: Type): boolean;
-    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
+    CanConvert(typeToConvert: Type): boolean;
+    CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
 
 
@@ -419,7 +419,7 @@ export const JsonStringEnumConverter_1: {
 export type JsonStringEnumConverter_1<TEnum extends number> = JsonStringEnumConverter_1$instance<TEnum>;
 
 export interface JsonStringEnumMemberNameAttribute$instance extends Attribute {
-    readonly name: string;
+    readonly Name: string;
 }
 
 
@@ -431,7 +431,7 @@ export const JsonStringEnumMemberNameAttribute: {
 export type JsonStringEnumMemberNameAttribute = JsonStringEnumMemberNameAttribute$instance;
 
 export interface JsonUnmappedMemberHandlingAttribute$instance extends JsonAttribute {
-    readonly unmappedMemberHandling: JsonUnmappedMemberHandling;
+    readonly UnmappedMemberHandling: JsonUnmappedMemberHandling;
 }
 
 
@@ -443,20 +443,20 @@ export const JsonUnmappedMemberHandlingAttribute: {
 export type JsonUnmappedMemberHandlingAttribute = JsonUnmappedMemberHandlingAttribute$instance;
 
 export interface ReferenceHandler$instance {
-    createResolver(): ReferenceResolver;
+    CreateResolver(): ReferenceResolver;
 }
 
 
 export const ReferenceHandler: {
-    readonly preserve: ReferenceHandler;
-    readonly ignoreCycles: ReferenceHandler;
+    readonly Preserve: ReferenceHandler;
+    readonly IgnoreCycles: ReferenceHandler;
 };
 
 
 export type ReferenceHandler = ReferenceHandler$instance;
 
 export interface ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler {
-    createResolver(): ReferenceResolver;
+    CreateResolver(): ReferenceResolver;
 }
 
 
@@ -468,9 +468,9 @@ export const ReferenceHandler_1: {
 export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
 export interface ReferenceResolver$instance {
-    addReference(referenceId: string, value: unknown): void;
-    getReference(value: unknown, alreadyExists: boolean): string;
-    resolveReference(referenceId: string): unknown;
+    AddReference(referenceId: string, value: unknown): void;
+    GetReference(value: unknown, alreadyExists: boolean): string;
+    ResolveReference(referenceId: string): unknown;
 }
 
 

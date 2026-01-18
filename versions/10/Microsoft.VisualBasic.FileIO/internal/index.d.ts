@@ -17,38 +17,38 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum DeleteDirectoryOption {
-    throwIfDirectoryNonEmpty = 4,
-    deleteAllContents = 5
+    ThrowIfDirectoryNonEmpty = 4,
+    DeleteAllContents = 5
 }
 
 
 export enum FieldType {
-    delimited = 0,
-    fixedWidth = 1
+    Delimited = 0,
+    FixedWidth = 1
 }
 
 
 export enum RecycleOption {
-    deletePermanently = 2,
-    sendToRecycleBin = 3
+    DeletePermanently = 2,
+    SendToRecycleBin = 3
 }
 
 
 export enum SearchOption {
-    searchTopLevelOnly = 2,
-    searchAllSubDirectories = 3
+    SearchTopLevelOnly = 2,
+    SearchAllSubDirectories = 3
 }
 
 
 export enum UICancelOption {
-    doNothing = 2,
-    throwException = 3
+    DoNothing = 2,
+    ThrowException = 3
 }
 
 
 export enum UIOption {
-    onlyErrorDialogs = 2,
-    allDialogs = 3
+    OnlyErrorDialogs = 2,
+    AllDialogs = 3
 }
 
 
@@ -58,70 +58,70 @@ export interface FileSystem$instance {
 
 export const FileSystem: {
     new(): FileSystem;
-    readonly drives: ReadOnlyCollection_1<DriveInfo>;
-    currentDirectory: string;
-    combinePath(baseDirectory: string, relativePath: string): string;
-    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    copyFile(sourceFileName: string, destinationFileName: string): void;
-    createDirectory(directory: string): void;
-    deleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
-    deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
-    deleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    deleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
-    deleteFile(file: string): void;
-    directoryExists(directory: string): boolean;
-    fileExists(file: string): boolean;
-    findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, ...fileWildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
-    findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<System_Internal.String>;
-    getDirectories(directory: string, searchType: SearchOption, ...wildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
-    getDirectories(directory: string): ReadOnlyCollection_1<System_Internal.String>;
-    getDirectoryInfo(directory: string): DirectoryInfo;
-    getDriveInfo(drive: string): DriveInfo;
-    getFileInfo(file: string): FileInfo;
-    getFiles(directory: string, searchType: SearchOption, ...wildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
-    getFiles(directory: string): ReadOnlyCollection_1<System_Internal.String>;
-    getName(path: string): string;
-    getParentPath(path: string): string;
-    getTempFileName(): string;
-    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    moveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    moveFile(sourceFileName: string, destinationFileName: string): void;
-    openTextFieldParser(file: string, ...fieldWidths: int[]): TextFieldParser;
-    openTextFieldParser(file: string, ...delimiters: string[]): TextFieldParser;
-    openTextFieldParser(file: string): TextFieldParser;
-    openTextFileReader(file: string, encoding: Encoding): StreamReader;
-    openTextFileReader(file: string): StreamReader;
-    openTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
-    openTextFileWriter(file: string, append: boolean): StreamWriter;
-    readAllBytes(file: string): byte[];
-    readAllText(file: string, encoding: Encoding): string;
-    readAllText(file: string): string;
-    renameDirectory(directory: string, newName: string): void;
-    renameFile(file: string, newName: string): void;
-    writeAllBytes(file: string, data: byte[], append: boolean): void;
-    writeAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
-    writeAllText(file: string, text: string, append: boolean): void;
+    readonly Drives: ReadOnlyCollection_1<DriveInfo>;
+    CurrentDirectory: string;
+    CombinePath(baseDirectory: string, relativePath: string): string;
+    CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    CopyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    CopyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    CopyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    CopyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    CopyFile(sourceFileName: string, destinationFileName: string): void;
+    CreateDirectory(directory: string): void;
+    DeleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
+    DeleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    DeleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
+    DeleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    DeleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
+    DeleteFile(file: string): void;
+    DirectoryExists(directory: string): boolean;
+    FileExists(file: string): boolean;
+    FindInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, ...fileWildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
+    FindInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<System_Internal.String>;
+    GetDirectories(directory: string, searchType: SearchOption, ...wildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
+    GetDirectories(directory: string): ReadOnlyCollection_1<System_Internal.String>;
+    GetDirectoryInfo(directory: string): DirectoryInfo;
+    GetDriveInfo(drive: string): DriveInfo;
+    GetFileInfo(file: string): FileInfo;
+    GetFiles(directory: string, searchType: SearchOption, ...wildcards: string[]): ReadOnlyCollection_1<System_Internal.String>;
+    GetFiles(directory: string): ReadOnlyCollection_1<System_Internal.String>;
+    GetName(path: string): string;
+    GetParentPath(path: string): string;
+    GetTempFileName(): string;
+    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    MoveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    MoveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    MoveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    MoveFile(sourceFileName: string, destinationFileName: string): void;
+    OpenTextFieldParser(file: string, ...fieldWidths: int[]): TextFieldParser;
+    OpenTextFieldParser(file: string, ...delimiters: string[]): TextFieldParser;
+    OpenTextFieldParser(file: string): TextFieldParser;
+    OpenTextFileReader(file: string, encoding: Encoding): StreamReader;
+    OpenTextFileReader(file: string): StreamReader;
+    OpenTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
+    OpenTextFileWriter(file: string, append: boolean): StreamWriter;
+    ReadAllBytes(file: string): byte[];
+    ReadAllText(file: string, encoding: Encoding): string;
+    ReadAllText(file: string): string;
+    RenameDirectory(directory: string, newName: string): void;
+    RenameFile(file: string, newName: string): void;
+    WriteAllBytes(file: string, data: byte[], append: boolean): void;
+    WriteAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
+    WriteAllText(file: string, text: string, append: boolean): void;
 };
 
 
 export type FileSystem = FileSystem$instance;
 
 export interface MalformedLineException$instance extends Exception {
-    lineNumber: long;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    LineNumber: long;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    ToString(): string;
 }
 
 
@@ -147,39 +147,39 @@ export interface SpecialDirectories$instance {
 
 export const SpecialDirectories: {
     new(): SpecialDirectories;
-    readonly myDocuments: string;
-    readonly myMusic: string;
-    readonly myPictures: string;
-    readonly desktop: string;
-    readonly programs: string;
-    readonly programFiles: string;
-    readonly temp: string;
-    readonly currentUserApplicationData: string;
-    readonly allUsersApplicationData: string;
+    readonly MyDocuments: string;
+    readonly MyMusic: string;
+    readonly MyPictures: string;
+    readonly Desktop: string;
+    readonly Programs: string;
+    readonly ProgramFiles: string;
+    readonly Temp: string;
+    readonly CurrentUserApplicationData: string;
+    readonly AllUsersApplicationData: string;
 };
 
 
 export type SpecialDirectories = SpecialDirectories$instance;
 
 export interface TextFieldParser$instance {
-    commentTokens: string[];
-    delimiters: string[];
-    readonly endOfData: boolean;
-    readonly errorLine: string;
-    readonly errorLineNumber: long;
-    fieldWidths: int[];
-    hasFieldsEnclosedInQuotes: boolean;
-    readonly lineNumber: long;
-    textFieldType: FieldType;
-    trimWhiteSpace: boolean;
-    close(): void;
-    dispose(): void;
-    peekChars(numberOfChars: int): string;
-    readFields(): string[];
-    readLine(): string | undefined;
-    readToEnd(): string;
-    setDelimiters(...delimiters: string[]): void;
-    setFieldWidths(...fieldWidths: int[]): void;
+    CommentTokens: string[];
+    Delimiters: string[];
+    readonly EndOfData: boolean;
+    readonly ErrorLine: string;
+    readonly ErrorLineNumber: long;
+    FieldWidths: int[];
+    HasFieldsEnclosedInQuotes: boolean;
+    readonly LineNumber: long;
+    TextFieldType: FieldType;
+    TrimWhiteSpace: boolean;
+    Close(): void;
+    Dispose(): void;
+    PeekChars(numberOfChars: int): string;
+    ReadFields(): string[];
+    ReadLine(): string | undefined;
+    ReadToEnd(): string;
+    SetDelimiters(...delimiters: string[]): void;
+    SetFieldWidths(...fieldWidths: int[]): void;
 }
 
 

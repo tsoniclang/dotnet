@@ -11,28 +11,28 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum SymAddressKind {
-    ilOffset = 1,
-    nativeRVA = 2,
-    nativeRegister = 3,
-    nativeRegisterRelative = 4,
-    nativeOffset = 5,
-    nativeRegisterRegister = 6,
-    nativeRegisterStack = 7,
-    nativeStackRegister = 8,
-    bitField = 9,
-    nativeSectionOffset = 10
+    ILOffset = 1,
+    NativeRVA = 2,
+    NativeRegister = 3,
+    NativeRegisterRelative = 4,
+    NativeOffset = 5,
+    NativeRegisterRegister = 6,
+    NativeRegisterStack = 7,
+    NativeStackRegister = 8,
+    BitField = 9,
+    NativeSectionOffset = 10
 }
 
 
 export interface ISymbolBinder$instance {
-    getReader(importer: int, filename: string, searchPath: string): ISymbolReader | undefined;
+    GetReader(importer: int, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
 
 export type ISymbolBinder = ISymbolBinder$instance;
 
 export interface ISymbolBinder1$instance {
-    getReader(importer: nint, filename: string, searchPath: string): ISymbolReader | undefined;
+    GetReader(importer: nint, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
 
@@ -40,124 +40,124 @@ export type ISymbolBinder1 = ISymbolBinder1$instance;
 
 export interface ISymbolDocument$instance {
     readonly URL: string;
-    readonly documentType: Guid;
-    readonly language: Guid;
-    readonly languageVendor: Guid;
-    readonly checkSumAlgorithmId: Guid;
-    readonly hasEmbeddedSource: boolean;
-    readonly sourceLength: int;
-    findClosestLine(line: int): int;
-    getCheckSum(): byte[];
-    getSourceRange(startLine: int, startColumn: int, endLine: int, endColumn: int): byte[];
+    readonly DocumentType: Guid;
+    readonly Language: Guid;
+    readonly LanguageVendor: Guid;
+    readonly CheckSumAlgorithmId: Guid;
+    readonly HasEmbeddedSource: boolean;
+    readonly SourceLength: int;
+    FindClosestLine(line: int): int;
+    GetCheckSum(): byte[];
+    GetSourceRange(startLine: int, startColumn: int, endLine: int, endColumn: int): byte[];
 }
 
 
 export type ISymbolDocument = ISymbolDocument$instance;
 
 export interface ISymbolDocumentWriter$instance {
-    setCheckSum(algorithmId: Guid, checkSum: byte[]): void;
-    setSource(source: byte[]): void;
+    SetCheckSum(algorithmId: Guid, checkSum: byte[]): void;
+    SetSource(source: byte[]): void;
 }
 
 
 export type ISymbolDocumentWriter = ISymbolDocumentWriter$instance;
 
 export interface ISymbolMethod$instance {
-    readonly token: SymbolToken;
-    readonly sequencePointCount: int;
-    readonly rootScope: ISymbolScope;
-    getNamespace(): ISymbolNamespace;
-    getOffset(document: ISymbolDocument, line: int, column: int): int;
-    getParameters(): ISymbolVariable[];
-    getRanges(document: ISymbolDocument, line: int, column: int): int[];
-    getScope(offset: int): ISymbolScope;
-    getSequencePoints(offsets: int[], documents: ISymbolDocument[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
-    getSourceStartEnd(docs: ISymbolDocument[], lines: int[], columns: int[]): boolean;
+    readonly Token: SymbolToken;
+    readonly SequencePointCount: int;
+    readonly RootScope: ISymbolScope;
+    GetNamespace(): ISymbolNamespace;
+    GetOffset(document: ISymbolDocument, line: int, column: int): int;
+    GetParameters(): ISymbolVariable[];
+    GetRanges(document: ISymbolDocument, line: int, column: int): int[];
+    GetScope(offset: int): ISymbolScope;
+    GetSequencePoints(offsets: int[], documents: ISymbolDocument[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
+    GetSourceStartEnd(docs: ISymbolDocument[], lines: int[], columns: int[]): boolean;
 }
 
 
 export type ISymbolMethod = ISymbolMethod$instance;
 
 export interface ISymbolNamespace$instance {
-    readonly name: string;
-    getNamespaces(): ISymbolNamespace[];
-    getVariables(): ISymbolVariable[];
+    readonly Name: string;
+    GetNamespaces(): ISymbolNamespace[];
+    GetVariables(): ISymbolVariable[];
 }
 
 
 export type ISymbolNamespace = ISymbolNamespace$instance;
 
 export interface ISymbolReader$instance {
-    readonly userEntryPoint: SymbolToken;
-    getDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | undefined;
-    getDocuments(): ISymbolDocument[];
-    getGlobalVariables(): ISymbolVariable[];
-    getMethod(method: SymbolToken, version: int): ISymbolMethod | undefined;
-    getMethod(method: SymbolToken): ISymbolMethod | undefined;
-    getMethodFromDocumentPosition(document: ISymbolDocument, line: int, column: int): ISymbolMethod;
-    getNamespaces(): ISymbolNamespace[];
-    getSymAttribute(parent: SymbolToken, name: string): byte[];
-    getVariables(parent: SymbolToken): ISymbolVariable[];
+    readonly UserEntryPoint: SymbolToken;
+    GetDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | undefined;
+    GetDocuments(): ISymbolDocument[];
+    GetGlobalVariables(): ISymbolVariable[];
+    GetMethod(method: SymbolToken, version: int): ISymbolMethod | undefined;
+    GetMethod(method: SymbolToken): ISymbolMethod | undefined;
+    GetMethodFromDocumentPosition(document: ISymbolDocument, line: int, column: int): ISymbolMethod;
+    GetNamespaces(): ISymbolNamespace[];
+    GetSymAttribute(parent: SymbolToken, name: string): byte[];
+    GetVariables(parent: SymbolToken): ISymbolVariable[];
 }
 
 
 export type ISymbolReader = ISymbolReader$instance;
 
 export interface ISymbolScope$instance {
-    readonly method: ISymbolMethod;
-    readonly parent: ISymbolScope;
-    readonly startOffset: int;
-    readonly endOffset: int;
-    getChildren(): ISymbolScope[];
-    getLocals(): ISymbolVariable[];
-    getNamespaces(): ISymbolNamespace[];
+    readonly Method: ISymbolMethod;
+    readonly Parent: ISymbolScope;
+    readonly StartOffset: int;
+    readonly EndOffset: int;
+    GetChildren(): ISymbolScope[];
+    GetLocals(): ISymbolVariable[];
+    GetNamespaces(): ISymbolNamespace[];
 }
 
 
 export type ISymbolScope = ISymbolScope$instance;
 
 export interface ISymbolVariable$instance {
-    readonly name: string;
-    readonly attributes: unknown;
-    readonly addressKind: SymAddressKind;
-    readonly addressField1: int;
-    readonly addressField2: int;
-    readonly addressField3: int;
-    readonly startOffset: int;
-    readonly endOffset: int;
-    getSignature(): byte[];
+    readonly Name: string;
+    readonly Attributes: unknown;
+    readonly AddressKind: SymAddressKind;
+    readonly AddressField1: int;
+    readonly AddressField2: int;
+    readonly AddressField3: int;
+    readonly StartOffset: int;
+    readonly EndOffset: int;
+    GetSignature(): byte[];
 }
 
 
 export type ISymbolVariable = ISymbolVariable$instance;
 
 export interface ISymbolWriter$instance {
-    closeMethod(): void;
-    closeScope(endOffset: int): void;
-    defineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
-    defineField(parent: SymbolToken, name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
-    defineGlobalVariable(name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
-    defineLocalVariable(name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int, startOffset: int, endOffset: int): void;
-    defineParameter(name: string, attributes: ParameterAttributes, sequence: int, addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
-    defineSequencePoints(document: ISymbolDocumentWriter, offsets: int[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
-    initialize(emitter: nint, filename: string, fFullBuild: boolean): void;
-    openNamespace(name: string): void;
-    openScope(startOffset: int): int;
-    setMethodSourceRange(startDoc: ISymbolDocumentWriter, startLine: int, startColumn: int, endDoc: ISymbolDocumentWriter, endLine: int, endColumn: int): void;
-    setScopeRange(scopeID: int, startOffset: int, endOffset: int): void;
-    setSymAttribute(parent: SymbolToken, name: string, data: byte[]): void;
-    setUnderlyingWriter(underlyingWriter: nint): void;
-    setUserEntryPoint(entryMethod: SymbolToken): void;
+    CloseMethod(): void;
+    CloseScope(endOffset: int): void;
+    DefineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
+    DefineField(parent: SymbolToken, name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
+    DefineGlobalVariable(name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
+    DefineLocalVariable(name: string, attributes: FieldAttributes, signature: byte[], addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int, startOffset: int, endOffset: int): void;
+    DefineParameter(name: string, attributes: ParameterAttributes, sequence: int, addrKind: SymAddressKind, addr1: int, addr2: int, addr3: int): void;
+    DefineSequencePoints(document: ISymbolDocumentWriter, offsets: int[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
+    Initialize(emitter: nint, filename: string, fFullBuild: boolean): void;
+    OpenNamespace(name: string): void;
+    OpenScope(startOffset: int): int;
+    SetMethodSourceRange(startDoc: ISymbolDocumentWriter, startLine: int, startColumn: int, endDoc: ISymbolDocumentWriter, endLine: int, endColumn: int): void;
+    SetScopeRange(scopeID: int, startOffset: int, endOffset: int): void;
+    SetSymAttribute(parent: SymbolToken, name: string, data: byte[]): void;
+    SetUnderlyingWriter(underlyingWriter: nint): void;
+    SetUserEntryPoint(entryMethod: SymbolToken): void;
 }
 
 
 export type ISymbolWriter = ISymbolWriter$instance;
 
 export interface SymbolToken$instance {
-    equals(obj: unknown): boolean;
-    equals(obj: SymbolToken): boolean;
-    getHashCode(): int;
-    getToken(): int;
+    Equals(obj: unknown): boolean;
+    Equals(obj: SymbolToken): boolean;
+    GetHashCode(): int;
+    GetToken(): int;
 }
 
 
@@ -170,7 +170,7 @@ export interface __SymbolToken$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<SymbolToken>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: SymbolToken): boolean;
+    Equals(other: SymbolToken): boolean;
 }
 
 export type SymbolToken = SymbolToken$instance & __SymbolToken$views;
@@ -182,7 +182,7 @@ export interface SymDocumentType$instance {
 
 export const SymDocumentType: {
     new(): SymDocumentType;
-    readonly text: Guid;
+    readonly Text: Guid;
 };
 
 
@@ -195,16 +195,16 @@ export interface SymLanguageType$instance {
 export const SymLanguageType: {
     new(): SymLanguageType;
     readonly C: Guid;
-    readonly cPlusPlus: Guid;
-    readonly cSharp: Guid;
-    readonly basic: Guid;
-    readonly java: Guid;
-    readonly cobol: Guid;
-    readonly pascal: Guid;
-    readonly ilAssembly: Guid;
-    readonly jScript: Guid;
+    readonly CPlusPlus: Guid;
+    readonly CSharp: Guid;
+    readonly Basic: Guid;
+    readonly Java: Guid;
+    readonly Cobol: Guid;
+    readonly Pascal: Guid;
+    readonly ILAssembly: Guid;
+    readonly JScript: Guid;
     readonly SMC: Guid;
-    readonly mcPlusPlus: Guid;
+    readonly MCPlusPlus: Guid;
 };
 
 
@@ -216,7 +216,7 @@ export interface SymLanguageVendor$instance {
 
 export const SymLanguageVendor: {
     new(): SymLanguageVendor;
-    readonly microsoft: Guid;
+    readonly Microsoft: Guid;
 };
 
 

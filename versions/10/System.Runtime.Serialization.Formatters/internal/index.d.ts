@@ -10,29 +10,29 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum FormatterAssemblyStyle {
-    simple = 0,
-    full = 1
+    Simple = 0,
+    Full = 1
 }
 
 
 export enum FormatterTypeStyle {
-    typesWhenNeeded = 0,
-    typesAlways = 1,
-    xsdString = 2
+    TypesWhenNeeded = 0,
+    TypesAlways = 1,
+    XsdString = 2
 }
 
 
 export enum TypeFilterLevel {
-    low = 2,
-    full = 3
+    Low = 2,
+    Full = 3
 }
 
 
 export interface IFieldInfo$instance {
-    get fieldNames(): string[] | undefined;
-    set fieldNames(value: string[]);
-    get fieldTypes(): Type[] | undefined;
-    set fieldTypes(value: Type[]);
+    get FieldNames(): string[] | undefined;
+    set FieldNames(value: string[]);
+    get FieldTypes(): Type[] | undefined;
+    set FieldTypes(value: Type[]);
 }
 
 

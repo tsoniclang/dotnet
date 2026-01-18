@@ -21,11 +21,11 @@ export type SseItemParser_1<T> = (eventType: string, data: ReadOnlySpan_1<System
 
 
 export interface SseItem_1$instance<T> {
-    readonly data: T;
-    get eventId(): string | undefined;
-    set eventId(value: string);
-    readonly eventType: string;
-    reconnectionInterval: Nullable_1<TimeSpan>;
+    readonly Data: T;
+    get EventId(): string | undefined;
+    set EventId(value: string);
+    readonly EventType: string;
+    ReconnectionInterval: Nullable_1<TimeSpan>;
 }
 
 
@@ -37,10 +37,10 @@ export const SseItem_1: {
 export type SseItem_1<T> = SseItem_1$instance<T>;
 
 export interface SseParser_1$instance<T> {
-    readonly lastEventId: string;
-    readonly reconnectionInterval: TimeSpan;
-    enumerate(): IEnumerable_1<SseItem_1<T>>;
-    enumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
+    readonly LastEventId: string;
+    readonly ReconnectionInterval: TimeSpan;
+    Enumerate(): IEnumerable_1<SseItem_1<T>>;
+    EnumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }
 
 
@@ -52,17 +52,17 @@ export const SseParser_1: {
 export type SseParser_1<T> = SseParser_1$instance<T>;
 
 export abstract class SseFormatter$instance {
-    static writeAsync<T>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<System_Internal.Byte>>, cancellationToken?: CancellationToken): Task;
-    static writeAsync(source: IAsyncEnumerable_1<SseItem_1<System_Internal.String>>, destination: Stream, cancellationToken?: CancellationToken): Task;
+    static WriteAsync<T>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<System_Internal.Byte>>, cancellationToken?: CancellationToken): Task;
+    static WriteAsync(source: IAsyncEnumerable_1<SseItem_1<System_Internal.String>>, destination: Stream, cancellationToken?: CancellationToken): Task;
 }
 
 
 export type SseFormatter = SseFormatter$instance;
 
 export abstract class SseParser$instance {
-    static readonly eventTypeDefault: string;
-    static create<T>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
-    static create(sseStream: Stream): SseParser_1<System_Internal.String>;
+    static readonly EventTypeDefault: string;
+    static Create<T>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
+    static Create(sseStream: Stream): SseParser_1<System_Internal.String>;
 }
 
 

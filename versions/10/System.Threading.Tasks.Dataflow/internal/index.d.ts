@@ -17,62 +17,62 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum DataflowMessageStatus {
-    accepted = 0,
-    declined = 1,
-    postponed = 2,
-    notAvailable = 3,
-    decliningPermanently = 4
+    Accepted = 0,
+    Declined = 1,
+    Postponed = 2,
+    NotAvailable = 3,
+    DecliningPermanently = 4
 }
 
 
 export interface IDataflowBlock$instance {
-    readonly completion: Task;
-    complete(): void;
-    fault(exception: Exception): void;
+    readonly Completion: Task;
+    Complete(): void;
+    Fault(exception: Exception): void;
 }
 
 
 export type IDataflowBlock = IDataflowBlock$instance;
 
 export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlock_1<TInput>, IDataflowBlock, ISourceBlock_1<TOutput> {
-    readonly completion: Task;
-    complete(): void;
-    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
-    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
-    fault(exception: Exception): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    offerMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
-    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
+    Fault(exception: Exception): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
 }
 
 
 export type IPropagatorBlock_2<TInput, TOutput> = IPropagatorBlock_2$instance<TInput, TOutput>;
 
 export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock_1<TOutput>, IDataflowBlock {
-    readonly completion: Task;
-    complete(): void;
-    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
-    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
-    fault(exception: Exception): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
-    tryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    tryReceiveAll(items: IList_1<TOutput>): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
+    Fault(exception: Exception): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput>): boolean;
 }
 
 
 export type IReceivableSourceBlock_1<TOutput> = IReceivableSourceBlock_1$instance<TOutput>;
 
 export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock {
-    readonly completion: Task;
-    complete(): void;
-    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
-    fault(exception: Exception): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    Fault(exception: Exception): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
 }
 
 
@@ -81,10 +81,10 @@ export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock$instanc
 export type ISourceBlock_1<TOutput> = ISourceBlock_1$instance<TOutput>;
 
 export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock {
-    readonly completion: Task;
-    complete(): void;
-    fault(exception: Exception): void;
-    offerMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+    readonly Completion: Task;
+    Complete(): void;
+    Fault(exception: Exception): void;
+    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
 }
 
 
@@ -93,11 +93,11 @@ export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock$instance
 export type ITargetBlock_1<TInput> = ITargetBlock_1$instance<TInput>;
 
 export interface DataflowMessageHeader$instance {
-    readonly id: long;
-    readonly isValid: boolean;
-    equals(other: DataflowMessageHeader): boolean;
-    equals(obj: unknown): boolean;
-    getHashCode(): int;
+    readonly Id: long;
+    readonly IsValid: boolean;
+    Equals(other: DataflowMessageHeader): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -110,18 +110,18 @@ export interface __DataflowMessageHeader$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<DataflowMessageHeader>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: DataflowMessageHeader): boolean;
+    Equals(other: DataflowMessageHeader): boolean;
 }
 
 export type DataflowMessageHeader = DataflowMessageHeader$instance & __DataflowMessageHeader$views;
 
 
 export interface ActionBlock_1$instance<TInput> {
-    readonly completion: Task;
-    readonly inputCount: int;
-    complete(): void;
-    post(item: TInput): boolean;
-    toString(): string;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    Complete(): void;
+    Post(item: TInput): boolean;
+    ToString(): string;
 }
 
 
@@ -142,15 +142,15 @@ export type ActionBlock_1<TInput> = ActionBlock_1$instance<TInput> & __ActionBlo
 
 
 export interface BatchBlock_1$instance<T> {
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T[]>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    triggerBatch(): void;
-    tryReceive(filter: Predicate_1<T[]>, item: T[]): boolean;
-    tryReceiveAll(items: IList_1<T[]>): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T[]>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TriggerBatch(): void;
+    TryReceive(filter: Predicate_1<T[]>, item: T[]): boolean;
+    TryReceiveAll(items: IList_1<T[]>): boolean;
 }
 
 
@@ -171,16 +171,16 @@ export type BatchBlock_1<T> = BatchBlock_1$instance<T> & __BatchBlock_1$views<T>
 
 
 export interface BatchedJoinBlock_2$instance<T1, T2> {
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, item: Tuple_2<IList_1<T1>, IList_1<T2>>): boolean;
-    tryReceiveAll(items: IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>>): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, item: Tuple_2<IList_1<T1>, IList_1<T2>>): boolean;
+    TryReceiveAll(items: IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>>): boolean;
 }
 
 
@@ -200,17 +200,17 @@ export type BatchedJoinBlock_2<T1, T2> = BatchedJoinBlock_2$instance<T1, T2> & _
 
 
 export interface BatchedJoinBlock_3$instance<T1, T2, T3> {
-    readonly batchSize: int;
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    readonly target3: ITargetBlock_1<T3>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, item: Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>): boolean;
-    tryReceiveAll(items: IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>): boolean;
+    readonly BatchSize: int;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    readonly Target3: ITargetBlock_1<T3>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, item: Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>): boolean;
+    TryReceiveAll(items: IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>): boolean;
 }
 
 
@@ -230,11 +230,11 @@ export type BatchedJoinBlock_3<T1, T2, T3> = BatchedJoinBlock_3$instance<T1, T2,
 
 
 export interface BroadcastBlock_1$instance<T> {
-    readonly completion: Task;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: T): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: T): boolean;
 }
 
 
@@ -255,13 +255,13 @@ export type BroadcastBlock_1<T> = BroadcastBlock_1$instance<T> & __BroadcastBloc
 
 
 export interface BufferBlock_1$instance<T> {
-    readonly completion: Task;
-    readonly count: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: T): boolean;
-    tryReceiveAll(items: IList_1<T>): boolean;
+    readonly Completion: Task;
+    readonly Count: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: T): boolean;
+    TryReceiveAll(items: IList_1<T>): boolean;
 }
 
 
@@ -282,27 +282,27 @@ export type BufferBlock_1<T> = BufferBlock_1$instance<T> & __BufferBlock_1$views
 
 
 export interface DataflowBlockOptions$instance {
-    boundedCapacity: int;
-    cancellationToken: CancellationToken;
-    ensureOrdered: boolean;
-    maxMessagesPerTask: int;
-    nameFormat: string;
-    taskScheduler: TaskScheduler;
+    BoundedCapacity: int;
+    CancellationToken: CancellationToken;
+    EnsureOrdered: boolean;
+    MaxMessagesPerTask: int;
+    NameFormat: string;
+    TaskScheduler: TaskScheduler;
 }
 
 
 export const DataflowBlockOptions: {
     new(): DataflowBlockOptions;
-    readonly unbounded: int;
+    readonly Unbounded: int;
 };
 
 
 export type DataflowBlockOptions = DataflowBlockOptions$instance;
 
 export interface DataflowLinkOptions$instance {
-    append: boolean;
-    maxMessages: int;
-    propagateCompletion: boolean;
+    Append: boolean;
+    MaxMessages: int;
+    PropagateCompletion: boolean;
 }
 
 
@@ -314,8 +314,8 @@ export const DataflowLinkOptions: {
 export type DataflowLinkOptions = DataflowLinkOptions$instance;
 
 export interface ExecutionDataflowBlockOptions$instance extends DataflowBlockOptions {
-    maxDegreeOfParallelism: int;
-    singleProducerConstrained: boolean;
+    MaxDegreeOfParallelism: int;
+    SingleProducerConstrained: boolean;
 }
 
 
@@ -327,8 +327,8 @@ export const ExecutionDataflowBlockOptions: {
 export type ExecutionDataflowBlockOptions = ExecutionDataflowBlockOptions$instance;
 
 export interface GroupingDataflowBlockOptions$instance extends DataflowBlockOptions {
-    greedy: boolean;
-    maxNumberOfGroups: long;
+    Greedy: boolean;
+    MaxNumberOfGroups: long;
 }
 
 
@@ -340,15 +340,15 @@ export const GroupingDataflowBlockOptions: {
 export type GroupingDataflowBlockOptions = GroupingDataflowBlockOptions$instance;
 
 export interface JoinBlock_2$instance<T1, T2> {
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_2<T1, T2>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_2<T1, T2>>, item: Tuple_2<T1, T2>): boolean;
-    tryReceiveAll(items: IList_1<Tuple_2<T1, T2>>): boolean;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_2<T1, T2>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_2<T1, T2>>, item: Tuple_2<T1, T2>): boolean;
+    TryReceiveAll(items: IList_1<Tuple_2<T1, T2>>): boolean;
 }
 
 
@@ -368,16 +368,16 @@ export type JoinBlock_2<T1, T2> = JoinBlock_2$instance<T1, T2> & __JoinBlock_2$v
 
 
 export interface JoinBlock_3$instance<T1, T2, T3> {
-    readonly completion: Task;
-    readonly outputCount: int;
-    readonly target1: ITargetBlock_1<T1>;
-    readonly target2: ITargetBlock_1<T2>;
-    readonly target3: ITargetBlock_1<T3>;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<Tuple_3<T1, T2, T3>>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>>, item: Tuple_3<T1, T2, T3>): boolean;
-    tryReceiveAll(items: IList_1<Tuple_3<T1, T2, T3>>): boolean;
+    readonly Completion: Task;
+    readonly OutputCount: int;
+    readonly Target1: ITargetBlock_1<T1>;
+    readonly Target2: ITargetBlock_1<T2>;
+    readonly Target3: ITargetBlock_1<T3>;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<Tuple_3<T1, T2, T3>>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>>, item: Tuple_3<T1, T2, T3>): boolean;
+    TryReceiveAll(items: IList_1<Tuple_3<T1, T2, T3>>): boolean;
 }
 
 
@@ -397,14 +397,14 @@ export type JoinBlock_3<T1, T2, T3> = JoinBlock_3$instance<T1, T2, T3> & __JoinB
 
 
 export interface TransformBlock_2$instance<TInput, TOutput> {
-    readonly completion: Task;
-    readonly inputCount: int;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    tryReceiveAll(items: IList_1<TOutput>): boolean;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput>): boolean;
 }
 
 
@@ -425,14 +425,14 @@ export type TransformBlock_2<TInput, TOutput> = TransformBlock_2$instance<TInput
 
 
 export interface TransformManyBlock_2$instance<TInput, TOutput> {
-    readonly completion: Task;
-    readonly inputCount: int;
-    readonly outputCount: int;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    tryReceiveAll(items: IList_1<TOutput>): boolean;
+    readonly Completion: Task;
+    readonly InputCount: int;
+    readonly OutputCount: int;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput>): boolean;
 }
 
 
@@ -453,11 +453,11 @@ export type TransformManyBlock_2<TInput, TOutput> = TransformManyBlock_2$instanc
 
 
 export interface WriteOnceBlock_1$instance<T> {
-    readonly completion: Task;
-    complete(): void;
-    linkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
-    toString(): string;
-    tryReceive(filter: Predicate_1<T>, item: T): boolean;
+    readonly Completion: Task;
+    Complete(): void;
+    LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
+    ToString(): string;
+    TryReceive(filter: Predicate_1<T>, item: T): boolean;
 }
 
 
@@ -478,32 +478,32 @@ export type WriteOnceBlock_1<T> = WriteOnceBlock_1$instance<T> & __WriteOnceBloc
 
 
 export abstract class DataflowBlock$instance {
-    static asObservable<TOutput>(source: ISourceBlock_1<TOutput>): IObservable_1<TOutput>;
-    static asObserver<TInput>(target: ITargetBlock_1<TInput>): IObserver_1<TInput>;
-    static choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<System_Internal.Int32>;
-    static choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<System_Internal.Int32>;
-    static choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<System_Internal.Int32>;
-    static choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<System_Internal.Int32>;
-    static encapsulate<TInput, TOutput>(target: ITargetBlock_1<TInput>, source: ISourceBlock_1<TOutput>): IPropagatorBlock_2<TInput, TOutput>;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
-    static linkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
-    static nullTarget<TInput>(): ITargetBlock_1<TInput>;
-    static outputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
-    static outputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<System_Internal.Boolean>;
-    static post<TInput>(target: ITargetBlock_1<TInput>, item: TInput): boolean;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
-    static receive<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
-    static receiveAllAsync<TOutput>(source: IReceivableSourceBlock_1<TOutput>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
-    static receiveAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
-    static sendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
-    static sendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<System_Internal.Boolean>;
-    static tryReceive<TOutput>(source: IReceivableSourceBlock_1<TOutput>, item: TOutput): boolean;
+    static AsObservable<TOutput>(source: ISourceBlock_1<TOutput>): IObservable_1<TOutput>;
+    static AsObserver<TInput>(target: ITargetBlock_1<TInput>): IObserver_1<TInput>;
+    static Choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<System_Internal.Int32>;
+    static Choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<System_Internal.Int32>;
+    static Choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<System_Internal.Int32>;
+    static Choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<System_Internal.Int32>;
+    static Encapsulate<TInput, TOutput>(target: ITargetBlock_1<TInput>, source: ISourceBlock_1<TOutput>): IPropagatorBlock_2<TInput, TOutput>;
+    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
+    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
+    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
+    static NullTarget<TInput>(): ITargetBlock_1<TInput>;
+    static OutputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
+    static OutputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<System_Internal.Boolean>;
+    static Post<TInput>(target: ITargetBlock_1<TInput>, item: TInput): boolean;
+    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
+    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
+    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
+    static Receive<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
+    static ReceiveAllAsync<TOutput>(source: IReceivableSourceBlock_1<TOutput>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TOutput>;
+    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
+    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
+    static SendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
+    static SendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<System_Internal.Boolean>;
+    static TryReceive<TOutput>(source: IReceivableSourceBlock_1<TOutput>, item: TOutput): boolean;
 }
 
 

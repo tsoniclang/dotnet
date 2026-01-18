@@ -11,16 +11,16 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Exception, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface HttpMetricsEnrichmentContext$instance {
-    readonly exception: Exception;
-    readonly request: HttpRequestMessage;
-    readonly response: HttpResponseMessage;
-    addCustomTag(name: string, value: unknown): void;
+    readonly Exception: Exception;
+    readonly Request: HttpRequestMessage;
+    readonly Response: HttpResponseMessage;
+    AddCustomTag(name: string, value: unknown): void;
 }
 
 
 export const HttpMetricsEnrichmentContext: {
     new(): HttpMetricsEnrichmentContext;
-    addCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
+    AddCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
 };
 
 

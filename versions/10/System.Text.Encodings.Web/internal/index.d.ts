@@ -21,9 +21,9 @@ export interface HtmlEncoder$instance extends TextEncoder {
 
 
 export const HtmlEncoder: {
-    readonly default: HtmlEncoder;
-    create(settings: TextEncoderSettings): HtmlEncoder;
-    create(...allowedRanges: UnicodeRange[]): HtmlEncoder;
+    readonly Default: HtmlEncoder;
+    Create(settings: TextEncoderSettings): HtmlEncoder;
+    Create(...allowedRanges: UnicodeRange[]): HtmlEncoder;
 };
 
 
@@ -34,27 +34,27 @@ export interface JavaScriptEncoder$instance extends TextEncoder {
 
 
 export const JavaScriptEncoder: {
-    readonly default: JavaScriptEncoder;
-    readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
-    create(settings: TextEncoderSettings): JavaScriptEncoder;
-    create(...allowedRanges: UnicodeRange[]): JavaScriptEncoder;
+    readonly Default: JavaScriptEncoder;
+    readonly UnsafeRelaxedJsonEscaping: JavaScriptEncoder;
+    Create(settings: TextEncoderSettings): JavaScriptEncoder;
+    Create(...allowedRanges: UnicodeRange[]): JavaScriptEncoder;
 };
 
 
 export type JavaScriptEncoder = JavaScriptEncoder$instance;
 
 export interface TextEncoder$instance {
-    readonly maxOutputCharactersPerInputCharacter: int;
-    encode(value: string): string;
-    encode(output: TextWriter, value: string): void;
-    encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
-    encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
-    encode(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Char>, charsConsumed: int, charsWritten: int, isFinalBlock?: boolean): OperationStatus;
-    encodeUtf8(utf8Source: ReadOnlySpan_1<System_Internal.Byte>, utf8Destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
-    findFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
-    findFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): int;
-    tryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: int): boolean;
-    willEncode(unicodeScalar: int): boolean;
+    readonly MaxOutputCharactersPerInputCharacter: int;
+    Encode(value: string): string;
+    Encode(output: TextWriter, value: string): void;
+    Encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
+    Encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
+    Encode(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Char>, charsConsumed: int, charsWritten: int, isFinalBlock?: boolean): OperationStatus;
+    EncodeUtf8(utf8Source: ReadOnlySpan_1<System_Internal.Byte>, utf8Destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
+    FindFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
+    FindFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): int;
+    TryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: int): boolean;
+    WillEncode(unicodeScalar: int): boolean;
 }
 
 
@@ -65,17 +65,17 @@ export const TextEncoder: {
 export type TextEncoder = TextEncoder$instance;
 
 export interface TextEncoderSettings$instance {
-    allowCharacter(character: char): void;
-    allowCharacters(...characters: char[]): void;
-    allowCodePoints(codePoints: IEnumerable_1<System_Internal.Int32>): void;
-    allowRange(range: UnicodeRange): void;
-    allowRanges(...ranges: UnicodeRange[]): void;
-    clear(): void;
-    forbidCharacter(character: char): void;
-    forbidCharacters(...characters: char[]): void;
-    forbidRange(range: UnicodeRange): void;
-    forbidRanges(...ranges: UnicodeRange[]): void;
-    getAllowedCodePoints(): IEnumerable_1<System_Internal.Int32>;
+    AllowCharacter(character: char): void;
+    AllowCharacters(...characters: char[]): void;
+    AllowCodePoints(codePoints: IEnumerable_1<System_Internal.Int32>): void;
+    AllowRange(range: UnicodeRange): void;
+    AllowRanges(...ranges: UnicodeRange[]): void;
+    Clear(): void;
+    ForbidCharacter(character: char): void;
+    ForbidCharacters(...characters: char[]): void;
+    ForbidRange(range: UnicodeRange): void;
+    ForbidRanges(...ranges: UnicodeRange[]): void;
+    GetAllowedCodePoints(): IEnumerable_1<System_Internal.Int32>;
 }
 
 
@@ -93,9 +93,9 @@ export interface UrlEncoder$instance extends TextEncoder {
 
 
 export const UrlEncoder: {
-    readonly default: UrlEncoder;
-    create(settings: TextEncoderSettings): UrlEncoder;
-    create(...allowedRanges: UnicodeRange[]): UrlEncoder;
+    readonly Default: UrlEncoder;
+    Create(settings: TextEncoderSettings): UrlEncoder;
+    Create(...allowedRanges: UnicodeRange[]): UrlEncoder;
 };
 
 

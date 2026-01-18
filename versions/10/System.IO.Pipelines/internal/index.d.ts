@@ -18,16 +18,16 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Exception, Int32, Int64, Memory_1, Object as ClrObject, ReadOnlyMemory_1, SequencePosition, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface IDuplexPipe$instance {
-    readonly input: PipeReader;
-    readonly output: PipeWriter;
+    readonly Input: PipeReader;
+    readonly Output: PipeWriter;
 }
 
 
 export type IDuplexPipe = IDuplexPipe$instance;
 
 export interface FlushResult$instance {
-    readonly isCanceled: boolean;
-    readonly isCompleted: boolean;
+    readonly IsCanceled: boolean;
+    readonly IsCompleted: boolean;
 }
 
 
@@ -39,9 +39,9 @@ export const FlushResult: {
 export type FlushResult = FlushResult$instance;
 
 export interface ReadResult$instance {
-    readonly buffer: ReadOnlySequence_1<System_Internal.Byte>;
-    readonly isCanceled: boolean;
-    readonly isCompleted: boolean;
+    readonly Buffer: ReadOnlySequence_1<System_Internal.Byte>;
+    readonly IsCanceled: boolean;
+    readonly IsCompleted: boolean;
 }
 
 
@@ -53,9 +53,9 @@ export const ReadResult: {
 export type ReadResult = ReadResult$instance;
 
 export interface Pipe$instance {
-    readonly reader: PipeReader;
-    readonly writer: PipeWriter;
-    reset(): void;
+    readonly Reader: PipeReader;
+    readonly Writer: PipeWriter;
+    Reset(): void;
 }
 
 
@@ -68,79 +68,79 @@ export const Pipe: {
 export type Pipe = Pipe$instance;
 
 export interface PipeOptions$instance {
-    readonly minimumSegmentSize: int;
-    readonly pauseWriterThreshold: long;
-    readonly pool: MemoryPool_1<System_Internal.Byte>;
-    readonly readerScheduler: PipeScheduler;
-    readonly resumeWriterThreshold: long;
-    readonly useSynchronizationContext: boolean;
-    readonly writerScheduler: PipeScheduler;
+    readonly MinimumSegmentSize: int;
+    readonly PauseWriterThreshold: long;
+    readonly Pool: MemoryPool_1<System_Internal.Byte>;
+    readonly ReaderScheduler: PipeScheduler;
+    readonly ResumeWriterThreshold: long;
+    readonly UseSynchronizationContext: boolean;
+    readonly WriterScheduler: PipeScheduler;
 }
 
 
 export const PipeOptions: {
     new(pool: MemoryPool_1<System_Internal.Byte>, readerScheduler: PipeScheduler, writerScheduler: PipeScheduler, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean): PipeOptions;
-    readonly default: PipeOptions;
+    readonly Default: PipeOptions;
 };
 
 
 export type PipeOptions = PipeOptions$instance;
 
 export interface PipeReader$instance {
-    advanceTo(consumed: SequencePosition): void;
-    advanceTo(consumed: SequencePosition, examined: SequencePosition): void;
-    asStream(leaveOpen?: boolean): Stream;
-    cancelPendingRead(): void;
-    complete(exception?: Exception): void;
-    completeAsync(exception?: Exception): ValueTask;
-    copyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
-    copyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
-    onWriterCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
-    readAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
-    readAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
-    tryRead(result: ReadResult): boolean;
+    AdvanceTo(consumed: SequencePosition): void;
+    AdvanceTo(consumed: SequencePosition, examined: SequencePosition): void;
+    AsStream(leaveOpen?: boolean): Stream;
+    CancelPendingRead(): void;
+    Complete(exception?: Exception): void;
+    CompleteAsync(exception?: Exception): ValueTask;
+    CopyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
+    CopyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
+    OnWriterCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
+    ReadAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
+    ReadAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
+    TryRead(result: ReadResult): boolean;
 }
 
 
 export const PipeReader: {
-    create(sequence: ReadOnlySequence_1<System_Internal.Byte>): PipeReader;
-    create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+    Create(sequence: ReadOnlySequence_1<System_Internal.Byte>): PipeReader;
+    Create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
 };
 
 
 export type PipeReader = PipeReader$instance;
 
 export interface PipeScheduler$instance {
-    schedule(action: Action_1<unknown>, state: unknown): void;
+    Schedule(action: Action_1<unknown>, state: unknown): void;
 }
 
 
 export const PipeScheduler: {
-    readonly threadPool: PipeScheduler;
-    readonly inline: PipeScheduler;
+    readonly ThreadPool: PipeScheduler;
+    readonly Inline: PipeScheduler;
 };
 
 
 export type PipeScheduler = PipeScheduler$instance;
 
 export interface PipeWriter$instance {
-    readonly canGetUnflushedBytes: boolean;
-    readonly unflushedBytes: long;
-    advance(bytes: int): void;
-    asStream(leaveOpen?: boolean): Stream;
-    cancelPendingFlush(): void;
-    complete(exception?: Exception): void;
-    completeAsync(exception?: Exception): ValueTask;
-    flushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
-    getMemory(sizeHint?: int): Memory_1<System_Internal.Byte>;
-    getSpan(sizeHint?: int): Span_1<System_Internal.Byte>;
-    onReaderCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
-    writeAsync(source: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
+    readonly CanGetUnflushedBytes: boolean;
+    readonly UnflushedBytes: long;
+    Advance(bytes: int): void;
+    AsStream(leaveOpen?: boolean): Stream;
+    CancelPendingFlush(): void;
+    Complete(exception?: Exception): void;
+    CompleteAsync(exception?: Exception): ValueTask;
+    FlushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
+    GetMemory(sizeHint?: int): Memory_1<System_Internal.Byte>;
+    GetSpan(sizeHint?: int): Span_1<System_Internal.Byte>;
+    OnReaderCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
+    WriteAsync(source: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
 }
 
 
 export const PipeWriter: {
-    create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
+    Create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
 };
 
 
@@ -154,11 +154,11 @@ export type PipeWriter = PipeWriter$instance & __PipeWriter$views;
 
 
 export interface StreamPipeReaderOptions$instance {
-    readonly bufferSize: int;
-    readonly leaveOpen: boolean;
-    readonly minimumReadSize: int;
-    readonly pool: MemoryPool_1<System_Internal.Byte>;
-    readonly useZeroByteReads: boolean;
+    readonly BufferSize: int;
+    readonly LeaveOpen: boolean;
+    readonly MinimumReadSize: int;
+    readonly Pool: MemoryPool_1<System_Internal.Byte>;
+    readonly UseZeroByteReads: boolean;
 }
 
 
@@ -171,9 +171,9 @@ export const StreamPipeReaderOptions: {
 export type StreamPipeReaderOptions = StreamPipeReaderOptions$instance;
 
 export interface StreamPipeWriterOptions$instance {
-    readonly leaveOpen: boolean;
-    readonly minimumBufferSize: int;
-    readonly pool: MemoryPool_1<System_Internal.Byte>;
+    readonly LeaveOpen: boolean;
+    readonly MinimumBufferSize: int;
+    readonly Pool: MemoryPool_1<System_Internal.Byte>;
 }
 
 
@@ -185,7 +185,7 @@ export const StreamPipeWriterOptions: {
 export type StreamPipeWriterOptions = StreamPipeWriterOptions$instance;
 
 export abstract class StreamPipeExtensions$instance {
-    static copyToAsync(source: Stream, destination: PipeWriter, cancellationToken?: CancellationToken): Task;
+    static CopyToAsync(source: Stream, destination: PipeWriter, cancellationToken?: CancellationToken): Task;
 }
 
 

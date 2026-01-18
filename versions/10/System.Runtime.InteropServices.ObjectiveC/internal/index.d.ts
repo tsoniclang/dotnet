@@ -17,11 +17,11 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, RuntimeMethodHandle, Span_1, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum ObjectiveCMarshal_MessageSendFunction {
-    msgSend = 0,
-    msgSendFpret = 1,
-    msgSendStret = 2,
-    msgSendSuper = 3,
-    msgSendSuperStret = 4
+    MsgSend = 0,
+    MsgSendFpret = 1,
+    MsgSendStret = 2,
+    MsgSendSuper = 3,
+    MsgSendSuperStret = 4
 }
 
 
@@ -40,10 +40,10 @@ export const ObjectiveCTrackedTypeAttribute: {
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static createReferenceTrackingHandle(obj: unknown, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
-    static initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
-    static setMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
-    static setMessageSendPendingException(exception: Exception): void;
+    static CreateReferenceTrackingHandle(obj: unknown, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
+    static Initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
+    static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
+    static SetMessageSendPendingException(exception: Exception): void;
 }
 
 

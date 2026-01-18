@@ -18,7 +18,7 @@ export type ElapsedEventHandler = (sender: unknown, e: ElapsedEventArgs) => void
 
 
 export interface ElapsedEventArgs$instance extends EventArgs {
-    readonly signalTime: DateTime;
+    readonly SignalTime: DateTime;
 }
 
 
@@ -30,19 +30,19 @@ export const ElapsedEventArgs: {
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export interface Timer$instance extends Component {
-    autoReset: boolean;
-    enabled: boolean;
-    interval: double;
-    get site(): ISite | undefined;
-    set site(value: ISite);
-    get synchronizingObject(): ISynchronizeInvoke | undefined;
-    set synchronizingObject(value: ISynchronizeInvoke);
-    beginInit(): void;
-    close(): void;
-    dispose(): void;
-    endInit(): void;
-    start(): void;
-    stop(): void;
+    AutoReset: boolean;
+    Enabled: boolean;
+    Interval: double;
+    get Site(): ISite | undefined;
+    set Site(value: ISite);
+    get SynchronizingObject(): ISynchronizeInvoke | undefined;
+    set SynchronizingObject(value: ISynchronizeInvoke);
+    BeginInit(): void;
+    Close(): void;
+    Dispose(): void;
+    EndInit(): void;
+    Start(): void;
+    Stop(): void;
 }
 
 
@@ -65,7 +65,7 @@ export type Timer = Timer$instance & __Timer$views;
 
 
 export interface TimersDescriptionAttribute$instance extends DescriptionAttribute {
-    readonly description: string;
+    readonly Description: string;
 }
 
 

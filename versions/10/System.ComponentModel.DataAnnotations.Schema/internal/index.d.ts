@@ -10,16 +10,16 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum DatabaseGeneratedOption {
-    none = 0,
-    identity = 1,
-    computed = 2
+    None = 0,
+    Identity = 1,
+    Computed = 2
 }
 
 
 export interface ColumnAttribute$instance extends Attribute {
-    readonly name: string;
-    order: int;
-    typeName: string;
+    readonly Name: string;
+    Order: int;
+    TypeName: string;
 }
 
 
@@ -43,7 +43,7 @@ export const ComplexTypeAttribute: {
 export type ComplexTypeAttribute = ComplexTypeAttribute$instance;
 
 export interface DatabaseGeneratedAttribute$instance extends Attribute {
-    readonly databaseGeneratedOption: DatabaseGeneratedOption;
+    readonly DatabaseGeneratedOption: DatabaseGeneratedOption;
 }
 
 
@@ -55,7 +55,7 @@ export const DatabaseGeneratedAttribute: {
 export type DatabaseGeneratedAttribute = DatabaseGeneratedAttribute$instance;
 
 export interface ForeignKeyAttribute$instance extends Attribute {
-    readonly name: string;
+    readonly Name: string;
 }
 
 
@@ -67,7 +67,7 @@ export const ForeignKeyAttribute: {
 export type ForeignKeyAttribute = ForeignKeyAttribute$instance;
 
 export interface InversePropertyAttribute$instance extends Attribute {
-    readonly property: string;
+    readonly Property: string;
 }
 
 
@@ -90,9 +90,9 @@ export const NotMappedAttribute: {
 export type NotMappedAttribute = NotMappedAttribute$instance;
 
 export interface TableAttribute$instance extends Attribute {
-    readonly name: string;
-    get schema(): string | undefined;
-    set schema(value: string);
+    readonly Name: string;
+    get Schema(): string | undefined;
+    set Schema(value: string);
 }
 
 

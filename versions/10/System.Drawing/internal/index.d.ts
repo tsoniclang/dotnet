@@ -15,181 +15,181 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Byte, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum KnownColor {
-    activeBorder = 1,
-    activeCaption = 2,
-    activeCaptionText = 3,
-    appWorkspace = 4,
-    control = 5,
-    controlDark = 6,
-    controlDarkDark = 7,
-    controlLight = 8,
-    controlLightLight = 9,
-    controlText = 10,
-    desktop = 11,
-    grayText = 12,
-    highlight = 13,
-    highlightText = 14,
-    hotTrack = 15,
-    inactiveBorder = 16,
-    inactiveCaption = 17,
-    inactiveCaptionText = 18,
-    info = 19,
-    infoText = 20,
-    menu = 21,
-    menuText = 22,
-    scrollBar = 23,
-    window = 24,
-    windowFrame = 25,
-    windowText = 26,
-    transparent = 27,
-    aliceBlue = 28,
-    antiqueWhite = 29,
-    aqua = 30,
-    aquamarine = 31,
-    azure = 32,
-    beige = 33,
-    bisque = 34,
-    black = 35,
-    blanchedAlmond = 36,
-    blue = 37,
-    blueViolet = 38,
-    brown = 39,
-    burlyWood = 40,
-    cadetBlue = 41,
-    chartreuse = 42,
-    chocolate = 43,
-    coral = 44,
-    cornflowerBlue = 45,
-    cornsilk = 46,
-    crimson = 47,
-    cyan = 48,
-    darkBlue = 49,
-    darkCyan = 50,
-    darkGoldenrod = 51,
-    darkGray = 52,
-    darkGreen = 53,
-    darkKhaki = 54,
-    darkMagenta = 55,
-    darkOliveGreen = 56,
-    darkOrange = 57,
-    darkOrchid = 58,
-    darkRed = 59,
-    darkSalmon = 60,
-    darkSeaGreen = 61,
-    darkSlateBlue = 62,
-    darkSlateGray = 63,
-    darkTurquoise = 64,
-    darkViolet = 65,
-    deepPink = 66,
-    deepSkyBlue = 67,
-    dimGray = 68,
-    dodgerBlue = 69,
-    firebrick = 70,
-    floralWhite = 71,
-    forestGreen = 72,
-    fuchsia = 73,
-    gainsboro = 74,
-    ghostWhite = 75,
-    gold = 76,
-    goldenrod = 77,
-    gray = 78,
-    green = 79,
-    greenYellow = 80,
-    honeydew = 81,
-    hotPink = 82,
-    indianRed = 83,
-    indigo = 84,
-    ivory = 85,
-    khaki = 86,
-    lavender = 87,
-    lavenderBlush = 88,
-    lawnGreen = 89,
-    lemonChiffon = 90,
-    lightBlue = 91,
-    lightCoral = 92,
-    lightCyan = 93,
-    lightGoldenrodYellow = 94,
-    lightGray = 95,
-    lightGreen = 96,
-    lightPink = 97,
-    lightSalmon = 98,
-    lightSeaGreen = 99,
-    lightSkyBlue = 100,
-    lightSlateGray = 101,
-    lightSteelBlue = 102,
-    lightYellow = 103,
-    lime = 104,
-    limeGreen = 105,
-    linen = 106,
-    magenta = 107,
-    maroon = 108,
-    mediumAquamarine = 109,
-    mediumBlue = 110,
-    mediumOrchid = 111,
-    mediumPurple = 112,
-    mediumSeaGreen = 113,
-    mediumSlateBlue = 114,
-    mediumSpringGreen = 115,
-    mediumTurquoise = 116,
-    mediumVioletRed = 117,
-    midnightBlue = 118,
-    mintCream = 119,
-    mistyRose = 120,
-    moccasin = 121,
-    navajoWhite = 122,
-    navy = 123,
-    oldLace = 124,
-    olive = 125,
-    oliveDrab = 126,
-    orange = 127,
-    orangeRed = 128,
-    orchid = 129,
-    paleGoldenrod = 130,
-    paleGreen = 131,
-    paleTurquoise = 132,
-    paleVioletRed = 133,
-    papayaWhip = 134,
-    peachPuff = 135,
-    peru = 136,
-    pink = 137,
-    plum = 138,
-    powderBlue = 139,
-    purple = 140,
-    red = 141,
-    rosyBrown = 142,
-    royalBlue = 143,
-    saddleBrown = 144,
-    salmon = 145,
-    sandyBrown = 146,
-    seaGreen = 147,
-    seaShell = 148,
-    sienna = 149,
-    silver = 150,
-    skyBlue = 151,
-    slateBlue = 152,
-    slateGray = 153,
-    snow = 154,
-    springGreen = 155,
-    steelBlue = 156,
-    tan = 157,
-    teal = 158,
-    thistle = 159,
-    tomato = 160,
-    turquoise = 161,
-    violet = 162,
-    wheat = 163,
-    white = 164,
-    whiteSmoke = 165,
-    yellow = 166,
-    yellowGreen = 167,
-    buttonFace = 168,
-    buttonHighlight = 169,
-    buttonShadow = 170,
-    gradientActiveCaption = 171,
-    gradientInactiveCaption = 172,
-    menuBar = 173,
-    menuHighlight = 174,
-    rebeccaPurple = 175
+    ActiveBorder = 1,
+    ActiveCaption = 2,
+    ActiveCaptionText = 3,
+    AppWorkspace = 4,
+    Control = 5,
+    ControlDark = 6,
+    ControlDarkDark = 7,
+    ControlLight = 8,
+    ControlLightLight = 9,
+    ControlText = 10,
+    Desktop = 11,
+    GrayText = 12,
+    Highlight = 13,
+    HighlightText = 14,
+    HotTrack = 15,
+    InactiveBorder = 16,
+    InactiveCaption = 17,
+    InactiveCaptionText = 18,
+    Info = 19,
+    InfoText = 20,
+    Menu = 21,
+    MenuText = 22,
+    ScrollBar = 23,
+    Window = 24,
+    WindowFrame = 25,
+    WindowText = 26,
+    Transparent = 27,
+    AliceBlue = 28,
+    AntiqueWhite = 29,
+    Aqua = 30,
+    Aquamarine = 31,
+    Azure = 32,
+    Beige = 33,
+    Bisque = 34,
+    Black = 35,
+    BlanchedAlmond = 36,
+    Blue = 37,
+    BlueViolet = 38,
+    Brown = 39,
+    BurlyWood = 40,
+    CadetBlue = 41,
+    Chartreuse = 42,
+    Chocolate = 43,
+    Coral = 44,
+    CornflowerBlue = 45,
+    Cornsilk = 46,
+    Crimson = 47,
+    Cyan = 48,
+    DarkBlue = 49,
+    DarkCyan = 50,
+    DarkGoldenrod = 51,
+    DarkGray = 52,
+    DarkGreen = 53,
+    DarkKhaki = 54,
+    DarkMagenta = 55,
+    DarkOliveGreen = 56,
+    DarkOrange = 57,
+    DarkOrchid = 58,
+    DarkRed = 59,
+    DarkSalmon = 60,
+    DarkSeaGreen = 61,
+    DarkSlateBlue = 62,
+    DarkSlateGray = 63,
+    DarkTurquoise = 64,
+    DarkViolet = 65,
+    DeepPink = 66,
+    DeepSkyBlue = 67,
+    DimGray = 68,
+    DodgerBlue = 69,
+    Firebrick = 70,
+    FloralWhite = 71,
+    ForestGreen = 72,
+    Fuchsia = 73,
+    Gainsboro = 74,
+    GhostWhite = 75,
+    Gold = 76,
+    Goldenrod = 77,
+    Gray = 78,
+    Green = 79,
+    GreenYellow = 80,
+    Honeydew = 81,
+    HotPink = 82,
+    IndianRed = 83,
+    Indigo = 84,
+    Ivory = 85,
+    Khaki = 86,
+    Lavender = 87,
+    LavenderBlush = 88,
+    LawnGreen = 89,
+    LemonChiffon = 90,
+    LightBlue = 91,
+    LightCoral = 92,
+    LightCyan = 93,
+    LightGoldenrodYellow = 94,
+    LightGray = 95,
+    LightGreen = 96,
+    LightPink = 97,
+    LightSalmon = 98,
+    LightSeaGreen = 99,
+    LightSkyBlue = 100,
+    LightSlateGray = 101,
+    LightSteelBlue = 102,
+    LightYellow = 103,
+    Lime = 104,
+    LimeGreen = 105,
+    Linen = 106,
+    Magenta = 107,
+    Maroon = 108,
+    MediumAquamarine = 109,
+    MediumBlue = 110,
+    MediumOrchid = 111,
+    MediumPurple = 112,
+    MediumSeaGreen = 113,
+    MediumSlateBlue = 114,
+    MediumSpringGreen = 115,
+    MediumTurquoise = 116,
+    MediumVioletRed = 117,
+    MidnightBlue = 118,
+    MintCream = 119,
+    MistyRose = 120,
+    Moccasin = 121,
+    NavajoWhite = 122,
+    Navy = 123,
+    OldLace = 124,
+    Olive = 125,
+    OliveDrab = 126,
+    Orange = 127,
+    OrangeRed = 128,
+    Orchid = 129,
+    PaleGoldenrod = 130,
+    PaleGreen = 131,
+    PaleTurquoise = 132,
+    PaleVioletRed = 133,
+    PapayaWhip = 134,
+    PeachPuff = 135,
+    Peru = 136,
+    Pink = 137,
+    Plum = 138,
+    PowderBlue = 139,
+    Purple = 140,
+    Red = 141,
+    RosyBrown = 142,
+    RoyalBlue = 143,
+    SaddleBrown = 144,
+    Salmon = 145,
+    SandyBrown = 146,
+    SeaGreen = 147,
+    SeaShell = 148,
+    Sienna = 149,
+    Silver = 150,
+    SkyBlue = 151,
+    SlateBlue = 152,
+    SlateGray = 153,
+    Snow = 154,
+    SpringGreen = 155,
+    SteelBlue = 156,
+    Tan = 157,
+    Teal = 158,
+    Thistle = 159,
+    Tomato = 160,
+    Turquoise = 161,
+    Violet = 162,
+    Wheat = 163,
+    White = 164,
+    WhiteSmoke = 165,
+    Yellow = 166,
+    YellowGreen = 167,
+    ButtonFace = 168,
+    ButtonHighlight = 169,
+    ButtonShadow = 170,
+    GradientActiveCaption = 171,
+    GradientInactiveCaption = 172,
+    MenuBar = 173,
+    MenuHighlight = 174,
+    RebeccaPurple = 175
 }
 
 
@@ -197,175 +197,175 @@ export interface Color$instance {
     readonly A: byte;
     readonly B: byte;
     readonly G: byte;
-    readonly isEmpty: boolean;
-    readonly isKnownColor: boolean;
-    readonly isNamedColor: boolean;
-    readonly isSystemColor: boolean;
-    readonly name: string;
+    readonly IsEmpty: boolean;
+    readonly IsKnownColor: boolean;
+    readonly IsNamedColor: boolean;
+    readonly IsSystemColor: boolean;
+    readonly Name: string;
     readonly R: byte;
-    equals(obj: unknown): boolean;
-    equals(other: Color): boolean;
-    getBrightness(): float;
-    getHashCode(): int;
-    getHue(): float;
-    getSaturation(): float;
-    toArgb(): int;
-    toKnownColor(): KnownColor;
-    toString(): string;
+    Equals(obj: unknown): boolean;
+    Equals(other: Color): boolean;
+    GetBrightness(): float;
+    GetHashCode(): int;
+    GetHue(): float;
+    GetSaturation(): float;
+    ToArgb(): int;
+    ToKnownColor(): KnownColor;
+    ToString(): string;
 }
 
 
 export const Color: {
     new(): Color;
-    readonly empty: Color;
-    readonly transparent: Color;
-    readonly aliceBlue: Color;
-    readonly antiqueWhite: Color;
-    readonly aqua: Color;
-    readonly aquamarine: Color;
-    readonly azure: Color;
-    readonly beige: Color;
-    readonly bisque: Color;
-    readonly black: Color;
-    readonly blanchedAlmond: Color;
-    readonly blue: Color;
-    readonly blueViolet: Color;
-    readonly brown: Color;
-    readonly burlyWood: Color;
-    readonly cadetBlue: Color;
-    readonly chartreuse: Color;
-    readonly chocolate: Color;
-    readonly coral: Color;
-    readonly cornflowerBlue: Color;
-    readonly cornsilk: Color;
-    readonly crimson: Color;
-    readonly cyan: Color;
-    readonly darkBlue: Color;
-    readonly darkCyan: Color;
-    readonly darkGoldenrod: Color;
-    readonly darkGray: Color;
-    readonly darkGreen: Color;
-    readonly darkKhaki: Color;
-    readonly darkMagenta: Color;
-    readonly darkOliveGreen: Color;
-    readonly darkOrange: Color;
-    readonly darkOrchid: Color;
-    readonly darkRed: Color;
-    readonly darkSalmon: Color;
-    readonly darkSeaGreen: Color;
-    readonly darkSlateBlue: Color;
-    readonly darkSlateGray: Color;
-    readonly darkTurquoise: Color;
-    readonly darkViolet: Color;
-    readonly deepPink: Color;
-    readonly deepSkyBlue: Color;
-    readonly dimGray: Color;
-    readonly dodgerBlue: Color;
-    readonly firebrick: Color;
-    readonly floralWhite: Color;
-    readonly forestGreen: Color;
-    readonly fuchsia: Color;
-    readonly gainsboro: Color;
-    readonly ghostWhite: Color;
-    readonly gold: Color;
-    readonly goldenrod: Color;
-    readonly gray: Color;
-    readonly green: Color;
-    readonly greenYellow: Color;
-    readonly honeydew: Color;
-    readonly hotPink: Color;
-    readonly indianRed: Color;
-    readonly indigo: Color;
-    readonly ivory: Color;
-    readonly khaki: Color;
-    readonly lavender: Color;
-    readonly lavenderBlush: Color;
-    readonly lawnGreen: Color;
-    readonly lemonChiffon: Color;
-    readonly lightBlue: Color;
-    readonly lightCoral: Color;
-    readonly lightCyan: Color;
-    readonly lightGoldenrodYellow: Color;
-    readonly lightGreen: Color;
-    readonly lightGray: Color;
-    readonly lightPink: Color;
-    readonly lightSalmon: Color;
-    readonly lightSeaGreen: Color;
-    readonly lightSkyBlue: Color;
-    readonly lightSlateGray: Color;
-    readonly lightSteelBlue: Color;
-    readonly lightYellow: Color;
-    readonly lime: Color;
-    readonly limeGreen: Color;
-    readonly linen: Color;
-    readonly magenta: Color;
-    readonly maroon: Color;
-    readonly mediumAquamarine: Color;
-    readonly mediumBlue: Color;
-    readonly mediumOrchid: Color;
-    readonly mediumPurple: Color;
-    readonly mediumSeaGreen: Color;
-    readonly mediumSlateBlue: Color;
-    readonly mediumSpringGreen: Color;
-    readonly mediumTurquoise: Color;
-    readonly mediumVioletRed: Color;
-    readonly midnightBlue: Color;
-    readonly mintCream: Color;
-    readonly mistyRose: Color;
-    readonly moccasin: Color;
-    readonly navajoWhite: Color;
-    readonly navy: Color;
-    readonly oldLace: Color;
-    readonly olive: Color;
-    readonly oliveDrab: Color;
-    readonly orange: Color;
-    readonly orangeRed: Color;
-    readonly orchid: Color;
-    readonly paleGoldenrod: Color;
-    readonly paleGreen: Color;
-    readonly paleTurquoise: Color;
-    readonly paleVioletRed: Color;
-    readonly papayaWhip: Color;
-    readonly peachPuff: Color;
-    readonly peru: Color;
-    readonly pink: Color;
-    readonly plum: Color;
-    readonly powderBlue: Color;
-    readonly purple: Color;
-    readonly rebeccaPurple: Color;
-    readonly red: Color;
-    readonly rosyBrown: Color;
-    readonly royalBlue: Color;
-    readonly saddleBrown: Color;
-    readonly salmon: Color;
-    readonly sandyBrown: Color;
-    readonly seaGreen: Color;
-    readonly seaShell: Color;
-    readonly sienna: Color;
-    readonly silver: Color;
-    readonly skyBlue: Color;
-    readonly slateBlue: Color;
-    readonly slateGray: Color;
-    readonly snow: Color;
-    readonly springGreen: Color;
-    readonly steelBlue: Color;
-    readonly tan: Color;
-    readonly teal: Color;
-    readonly thistle: Color;
-    readonly tomato: Color;
-    readonly turquoise: Color;
-    readonly violet: Color;
-    readonly wheat: Color;
-    readonly white: Color;
-    readonly whiteSmoke: Color;
-    readonly yellow: Color;
-    readonly yellowGreen: Color;
-    fromArgb(alpha: int, baseColor: Color): Color;
-    fromArgb(alpha: int, red: int, green: int, blue: int): Color;
-    fromArgb(red: int, green: int, blue: int): Color;
-    fromArgb(argb: int): Color;
-    fromKnownColor(color: KnownColor): Color;
-    fromName(name: string): Color;
+    readonly Empty: Color;
+    readonly Transparent: Color;
+    readonly AliceBlue: Color;
+    readonly AntiqueWhite: Color;
+    readonly Aqua: Color;
+    readonly Aquamarine: Color;
+    readonly Azure: Color;
+    readonly Beige: Color;
+    readonly Bisque: Color;
+    readonly Black: Color;
+    readonly BlanchedAlmond: Color;
+    readonly Blue: Color;
+    readonly BlueViolet: Color;
+    readonly Brown: Color;
+    readonly BurlyWood: Color;
+    readonly CadetBlue: Color;
+    readonly Chartreuse: Color;
+    readonly Chocolate: Color;
+    readonly Coral: Color;
+    readonly CornflowerBlue: Color;
+    readonly Cornsilk: Color;
+    readonly Crimson: Color;
+    readonly Cyan: Color;
+    readonly DarkBlue: Color;
+    readonly DarkCyan: Color;
+    readonly DarkGoldenrod: Color;
+    readonly DarkGray: Color;
+    readonly DarkGreen: Color;
+    readonly DarkKhaki: Color;
+    readonly DarkMagenta: Color;
+    readonly DarkOliveGreen: Color;
+    readonly DarkOrange: Color;
+    readonly DarkOrchid: Color;
+    readonly DarkRed: Color;
+    readonly DarkSalmon: Color;
+    readonly DarkSeaGreen: Color;
+    readonly DarkSlateBlue: Color;
+    readonly DarkSlateGray: Color;
+    readonly DarkTurquoise: Color;
+    readonly DarkViolet: Color;
+    readonly DeepPink: Color;
+    readonly DeepSkyBlue: Color;
+    readonly DimGray: Color;
+    readonly DodgerBlue: Color;
+    readonly Firebrick: Color;
+    readonly FloralWhite: Color;
+    readonly ForestGreen: Color;
+    readonly Fuchsia: Color;
+    readonly Gainsboro: Color;
+    readonly GhostWhite: Color;
+    readonly Gold: Color;
+    readonly Goldenrod: Color;
+    readonly Gray: Color;
+    readonly Green: Color;
+    readonly GreenYellow: Color;
+    readonly Honeydew: Color;
+    readonly HotPink: Color;
+    readonly IndianRed: Color;
+    readonly Indigo: Color;
+    readonly Ivory: Color;
+    readonly Khaki: Color;
+    readonly Lavender: Color;
+    readonly LavenderBlush: Color;
+    readonly LawnGreen: Color;
+    readonly LemonChiffon: Color;
+    readonly LightBlue: Color;
+    readonly LightCoral: Color;
+    readonly LightCyan: Color;
+    readonly LightGoldenrodYellow: Color;
+    readonly LightGreen: Color;
+    readonly LightGray: Color;
+    readonly LightPink: Color;
+    readonly LightSalmon: Color;
+    readonly LightSeaGreen: Color;
+    readonly LightSkyBlue: Color;
+    readonly LightSlateGray: Color;
+    readonly LightSteelBlue: Color;
+    readonly LightYellow: Color;
+    readonly Lime: Color;
+    readonly LimeGreen: Color;
+    readonly Linen: Color;
+    readonly Magenta: Color;
+    readonly Maroon: Color;
+    readonly MediumAquamarine: Color;
+    readonly MediumBlue: Color;
+    readonly MediumOrchid: Color;
+    readonly MediumPurple: Color;
+    readonly MediumSeaGreen: Color;
+    readonly MediumSlateBlue: Color;
+    readonly MediumSpringGreen: Color;
+    readonly MediumTurquoise: Color;
+    readonly MediumVioletRed: Color;
+    readonly MidnightBlue: Color;
+    readonly MintCream: Color;
+    readonly MistyRose: Color;
+    readonly Moccasin: Color;
+    readonly NavajoWhite: Color;
+    readonly Navy: Color;
+    readonly OldLace: Color;
+    readonly Olive: Color;
+    readonly OliveDrab: Color;
+    readonly Orange: Color;
+    readonly OrangeRed: Color;
+    readonly Orchid: Color;
+    readonly PaleGoldenrod: Color;
+    readonly PaleGreen: Color;
+    readonly PaleTurquoise: Color;
+    readonly PaleVioletRed: Color;
+    readonly PapayaWhip: Color;
+    readonly PeachPuff: Color;
+    readonly Peru: Color;
+    readonly Pink: Color;
+    readonly Plum: Color;
+    readonly PowderBlue: Color;
+    readonly Purple: Color;
+    readonly RebeccaPurple: Color;
+    readonly Red: Color;
+    readonly RosyBrown: Color;
+    readonly RoyalBlue: Color;
+    readonly SaddleBrown: Color;
+    readonly Salmon: Color;
+    readonly SandyBrown: Color;
+    readonly SeaGreen: Color;
+    readonly SeaShell: Color;
+    readonly Sienna: Color;
+    readonly Silver: Color;
+    readonly SkyBlue: Color;
+    readonly SlateBlue: Color;
+    readonly SlateGray: Color;
+    readonly Snow: Color;
+    readonly SpringGreen: Color;
+    readonly SteelBlue: Color;
+    readonly Tan: Color;
+    readonly Teal: Color;
+    readonly Thistle: Color;
+    readonly Tomato: Color;
+    readonly Turquoise: Color;
+    readonly Violet: Color;
+    readonly Wheat: Color;
+    readonly White: Color;
+    readonly WhiteSmoke: Color;
+    readonly Yellow: Color;
+    readonly YellowGreen: Color;
+    FromArgb(alpha: int, baseColor: Color): Color;
+    FromArgb(alpha: int, red: int, green: int, blue: int): Color;
+    FromArgb(red: int, green: int, blue: int): Color;
+    FromArgb(argb: int): Color;
+    FromKnownColor(color: KnownColor): Color;
+    FromName(name: string): Color;
 };
 
 
@@ -373,22 +373,22 @@ export interface __Color$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Color>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: Color): boolean;
+    Equals(other: Color): boolean;
 }
 
 export type Color = Color$instance & __Color$views;
 
 
 export interface Point$instance {
-    readonly isEmpty: boolean;
+    readonly IsEmpty: boolean;
     X: int;
     Y: int;
-    equals(obj: unknown): boolean;
-    equals(other: Point): boolean;
-    getHashCode(): int;
-    offset(dx: int, dy: int): void;
-    offset(p: Point): void;
-    toString(): string;
+    Equals(obj: unknown): boolean;
+    Equals(other: Point): boolean;
+    GetHashCode(): int;
+    Offset(dx: int, dy: int): void;
+    Offset(p: Point): void;
+    ToString(): string;
 }
 
 
@@ -396,12 +396,12 @@ export const Point: {
     new(x: int, y: int): Point;
     new(sz: Size): Point;
     new(dw: int): Point;
-    readonly empty: Point;
-    add(pt: Point, sz: Size): Point;
-    ceiling(value: PointF): Point;
-    round(value: PointF): Point;
-    subtract(pt: Point, sz: Size): Point;
-    truncate(value: PointF): Point;
+    readonly Empty: Point;
+    Add(pt: Point, sz: Size): Point;
+    Ceiling(value: PointF): Point;
+    Round(value: PointF): Point;
+    Subtract(pt: Point, sz: Size): Point;
+    Truncate(value: PointF): Point;
 };
 
 
@@ -409,32 +409,32 @@ export interface __Point$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Point>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: Point): boolean;
+    Equals(other: Point): boolean;
 }
 
 export type Point = Point$instance & __Point$views;
 
 
 export interface PointF$instance {
-    readonly isEmpty: boolean;
+    readonly IsEmpty: boolean;
     X: float;
     Y: float;
-    equals(obj: unknown): boolean;
-    equals(other: PointF): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toVector2(): Vector2;
+    Equals(obj: unknown): boolean;
+    Equals(other: PointF): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToVector2(): Vector2;
 }
 
 
 export const PointF: {
     new(x: float, y: float): PointF;
     new(vector: Vector2): PointF;
-    readonly empty: PointF;
-    add(pt: PointF, sz: Size): PointF;
-    add(pt: PointF, sz: SizeF): PointF;
-    subtract(pt: PointF, sz: Size): PointF;
-    subtract(pt: PointF, sz: SizeF): PointF;
+    readonly Empty: PointF;
+    Add(pt: PointF, sz: Size): PointF;
+    Add(pt: PointF, sz: SizeF): PointF;
+    Subtract(pt: PointF, sz: Size): PointF;
+    Subtract(pt: PointF, sz: SizeF): PointF;
 };
 
 
@@ -442,51 +442,51 @@ export interface __PointF$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<PointF>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: PointF): boolean;
+    Equals(other: PointF): boolean;
 }
 
 export type PointF = PointF$instance & __PointF$views;
 
 
 export interface Rectangle$instance {
-    readonly bottom: int;
-    height: int;
-    readonly isEmpty: boolean;
-    readonly left: int;
-    location: Point;
-    readonly right: int;
-    size: Size;
-    readonly top: int;
-    width: int;
+    readonly Bottom: int;
+    Height: int;
+    readonly IsEmpty: boolean;
+    readonly Left: int;
+    Location: Point;
+    readonly Right: int;
+    Size: Size;
+    readonly Top: int;
+    Width: int;
     X: int;
     Y: int;
-    contains(x: int, y: int): boolean;
-    contains(pt: Point): boolean;
-    contains(rect: Rectangle): boolean;
-    equals(obj: unknown): boolean;
-    equals(other: Rectangle): boolean;
-    getHashCode(): int;
-    inflate(width: int, height: int): void;
-    inflate(size: Size): void;
-    intersect(rect: Rectangle): void;
-    intersectsWith(rect: Rectangle): boolean;
-    offset(pos: Point): void;
-    offset(x: int, y: int): void;
-    toString(): string;
+    Contains(x: int, y: int): boolean;
+    Contains(pt: Point): boolean;
+    Contains(rect: Rectangle): boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: Rectangle): boolean;
+    GetHashCode(): int;
+    Inflate(width: int, height: int): void;
+    Inflate(size: Size): void;
+    Intersect(rect: Rectangle): void;
+    IntersectsWith(rect: Rectangle): boolean;
+    Offset(pos: Point): void;
+    Offset(x: int, y: int): void;
+    ToString(): string;
 }
 
 
 export const Rectangle: {
     new(x: int, y: int, width: int, height: int): Rectangle;
     new(location: Point, size: Size): Rectangle;
-    readonly empty: Rectangle;
-    ceiling(value: RectangleF): Rectangle;
-    fromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
-    inflate(rect: Rectangle, x: int, y: int): Rectangle;
-    intersect(a: Rectangle, b: Rectangle): Rectangle;
-    round(value: RectangleF): Rectangle;
-    truncate(value: RectangleF): Rectangle;
-    union(a: Rectangle, b: Rectangle): Rectangle;
+    readonly Empty: Rectangle;
+    Ceiling(value: RectangleF): Rectangle;
+    FromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
+    Inflate(rect: Rectangle, x: int, y: int): Rectangle;
+    Intersect(a: Rectangle, b: Rectangle): Rectangle;
+    Round(value: RectangleF): Rectangle;
+    Truncate(value: RectangleF): Rectangle;
+    Union(a: Rectangle, b: Rectangle): Rectangle;
 };
 
 
@@ -494,38 +494,38 @@ export interface __Rectangle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Rectangle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: Rectangle): boolean;
+    Equals(other: Rectangle): boolean;
 }
 
 export type Rectangle = Rectangle$instance & __Rectangle$views;
 
 
 export interface RectangleF$instance {
-    readonly bottom: float;
-    height: float;
-    readonly isEmpty: boolean;
-    readonly left: float;
-    location: PointF;
-    readonly right: float;
-    size: SizeF;
-    readonly top: float;
-    width: float;
+    readonly Bottom: float;
+    Height: float;
+    readonly IsEmpty: boolean;
+    readonly Left: float;
+    Location: PointF;
+    readonly Right: float;
+    Size: SizeF;
+    readonly Top: float;
+    Width: float;
     X: float;
     Y: float;
-    contains(x: float, y: float): boolean;
-    contains(pt: PointF): boolean;
-    contains(rect: RectangleF): boolean;
-    equals(obj: unknown): boolean;
-    equals(other: RectangleF): boolean;
-    getHashCode(): int;
-    inflate(x: float, y: float): void;
-    inflate(size: SizeF): void;
-    intersect(rect: RectangleF): void;
-    intersectsWith(rect: RectangleF): boolean;
-    offset(pos: PointF): void;
-    offset(x: float, y: float): void;
-    toString(): string;
-    toVector4(): Vector4;
+    Contains(x: float, y: float): boolean;
+    Contains(pt: PointF): boolean;
+    Contains(rect: RectangleF): boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: RectangleF): boolean;
+    GetHashCode(): int;
+    Inflate(x: float, y: float): void;
+    Inflate(size: SizeF): void;
+    Intersect(rect: RectangleF): void;
+    IntersectsWith(rect: RectangleF): boolean;
+    Offset(pos: PointF): void;
+    Offset(x: float, y: float): void;
+    ToString(): string;
+    ToVector4(): Vector4;
 }
 
 
@@ -533,11 +533,11 @@ export const RectangleF: {
     new(x: float, y: float, width: float, height: float): RectangleF;
     new(location: PointF, size: SizeF): RectangleF;
     new(vector: Vector4): RectangleF;
-    readonly empty: RectangleF;
-    fromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
-    inflate(rect: RectangleF, x: float, y: float): RectangleF;
-    intersect(a: RectangleF, b: RectangleF): RectangleF;
-    union(a: RectangleF, b: RectangleF): RectangleF;
+    readonly Empty: RectangleF;
+    FromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
+    Inflate(rect: RectangleF, x: float, y: float): RectangleF;
+    Intersect(a: RectangleF, b: RectangleF): RectangleF;
+    Union(a: RectangleF, b: RectangleF): RectangleF;
 };
 
 
@@ -545,32 +545,32 @@ export interface __RectangleF$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<RectangleF>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: RectangleF): boolean;
+    Equals(other: RectangleF): boolean;
 }
 
 export type RectangleF = RectangleF$instance & __RectangleF$views;
 
 
 export interface Size$instance {
-    height: int;
-    readonly isEmpty: boolean;
-    width: int;
-    equals(obj: unknown): boolean;
-    equals(other: Size): boolean;
-    getHashCode(): int;
-    toString(): string;
+    Height: int;
+    readonly IsEmpty: boolean;
+    Width: int;
+    Equals(obj: unknown): boolean;
+    Equals(other: Size): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export const Size: {
     new(pt: Point): Size;
     new(width: int, height: int): Size;
-    readonly empty: Size;
-    add(sz1: Size, sz2: Size): Size;
-    ceiling(value: SizeF): Size;
-    round(value: SizeF): Size;
-    subtract(sz1: Size, sz2: Size): Size;
-    truncate(value: SizeF): Size;
+    readonly Empty: Size;
+    Add(sz1: Size, sz2: Size): Size;
+    Ceiling(value: SizeF): Size;
+    Round(value: SizeF): Size;
+    Subtract(sz1: Size, sz2: Size): Size;
+    Truncate(value: SizeF): Size;
 };
 
 
@@ -578,23 +578,23 @@ export interface __Size$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Size>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: Size): boolean;
+    Equals(other: Size): boolean;
 }
 
 export type Size = Size$instance & __Size$views;
 
 
 export interface SizeF$instance {
-    height: float;
-    readonly isEmpty: boolean;
-    width: float;
-    equals(obj: unknown): boolean;
-    equals(other: SizeF): boolean;
-    getHashCode(): int;
-    toPointF(): PointF;
-    toSize(): Size;
-    toString(): string;
-    toVector2(): Vector2;
+    Height: float;
+    readonly IsEmpty: boolean;
+    Width: float;
+    Equals(obj: unknown): boolean;
+    Equals(other: SizeF): boolean;
+    GetHashCode(): int;
+    ToPointF(): PointF;
+    ToSize(): Size;
+    ToString(): string;
+    ToVector2(): Vector2;
 }
 
 
@@ -603,9 +603,9 @@ export const SizeF: {
     new(pt: PointF): SizeF;
     new(vector: Vector2): SizeF;
     new(width: float, height: float): SizeF;
-    readonly empty: SizeF;
-    add(sz1: SizeF, sz2: SizeF): SizeF;
-    subtract(sz1: SizeF, sz2: SizeF): SizeF;
+    readonly Empty: SizeF;
+    Add(sz1: SizeF, sz2: SizeF): SizeF;
+    Subtract(sz1: SizeF, sz2: SizeF): SizeF;
 };
 
 
@@ -613,25 +613,25 @@ export interface __SizeF$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<SizeF>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: SizeF): boolean;
+    Equals(other: SizeF): boolean;
 }
 
 export type SizeF = SizeF$instance & __SizeF$views;
 
 
 export interface ColorConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
-    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    getStandardValues(): ICollection | undefined;
-    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    getStandardValuesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
+    ConvertFrom(value: unknown): unknown | undefined;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    GetStandardValues(): ICollection | undefined;
+    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    GetStandardValuesSupported(): boolean;
 }
 
 
@@ -643,23 +643,23 @@ export const ColorConverter: {
 export type ColorConverter = ColorConverter$instance;
 
 export interface PointConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    createInstance(propertyValues: IDictionary): unknown | undefined;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
+    ConvertFrom(value: unknown): unknown | undefined;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    CreateInstance(propertyValues: IDictionary): unknown | undefined;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
+    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -671,23 +671,23 @@ export const PointConverter: {
 export type PointConverter = PointConverter$instance;
 
 export interface RectangleConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    createInstance(propertyValues: IDictionary): unknown | undefined;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
+    ConvertFrom(value: unknown): unknown | undefined;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    CreateInstance(propertyValues: IDictionary): unknown | undefined;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
+    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -699,23 +699,23 @@ export const RectangleConverter: {
 export type RectangleConverter = RectangleConverter$instance;
 
 export interface SizeConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    createInstance(propertyValues: IDictionary): unknown | undefined;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
+    ConvertFrom(value: unknown): unknown | undefined;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    CreateInstance(propertyValues: IDictionary): unknown | undefined;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
+    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -727,23 +727,23 @@ export const SizeConverter: {
 export type SizeConverter = SizeConverter$instance;
 
 export interface SizeFConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    convertTo(value: unknown, destinationType: Type): unknown | undefined;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    createInstance(propertyValues: IDictionary): unknown | undefined;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
+    ConvertFrom(value: unknown): unknown | undefined;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
+    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    CreateInstance(propertyValues: IDictionary): unknown | undefined;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
+    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -755,52 +755,52 @@ export const SizeFConverter: {
 export type SizeFConverter = SizeFConverter$instance;
 
 export abstract class ColorTranslator$instance {
-    static fromHtml(htmlColor: string): Color;
-    static fromOle(oleColor: int): Color;
-    static fromWin32(win32Color: int): Color;
-    static toHtml(c: Color): string;
-    static toOle(c: Color): int;
-    static toWin32(c: Color): int;
+    static FromHtml(htmlColor: string): Color;
+    static FromOle(oleColor: int): Color;
+    static FromWin32(win32Color: int): Color;
+    static ToHtml(c: Color): string;
+    static ToOle(c: Color): int;
+    static ToWin32(c: Color): int;
 }
 
 
 export type ColorTranslator = ColorTranslator$instance;
 
 export abstract class SystemColors$instance {
-    static readonly activeBorder: Color;
-    static readonly activeCaption: Color;
-    static readonly activeCaptionText: Color;
-    static readonly appWorkspace: Color;
-    static readonly buttonFace: Color;
-    static readonly buttonHighlight: Color;
-    static readonly buttonShadow: Color;
-    static readonly control: Color;
-    static readonly controlDark: Color;
-    static readonly controlDarkDark: Color;
-    static readonly controlLight: Color;
-    static readonly controlLightLight: Color;
-    static readonly controlText: Color;
-    static readonly desktop: Color;
-    static readonly gradientActiveCaption: Color;
-    static readonly gradientInactiveCaption: Color;
-    static readonly grayText: Color;
-    static readonly highlight: Color;
-    static readonly highlightText: Color;
-    static readonly hotTrack: Color;
-    static readonly inactiveBorder: Color;
-    static readonly inactiveCaption: Color;
-    static readonly inactiveCaptionText: Color;
-    static readonly info: Color;
-    static readonly infoText: Color;
-    static readonly menu: Color;
-    static readonly menuBar: Color;
-    static readonly menuHighlight: Color;
-    static readonly menuText: Color;
-    static readonly scrollBar: Color;
-    static readonly window: Color;
-    static readonly windowFrame: Color;
-    static readonly windowText: Color;
-    static useAlternativeColorSet: boolean;
+    static readonly ActiveBorder: Color;
+    static readonly ActiveCaption: Color;
+    static readonly ActiveCaptionText: Color;
+    static readonly AppWorkspace: Color;
+    static readonly ButtonFace: Color;
+    static readonly ButtonHighlight: Color;
+    static readonly ButtonShadow: Color;
+    static readonly Control: Color;
+    static readonly ControlDark: Color;
+    static readonly ControlDarkDark: Color;
+    static readonly ControlLight: Color;
+    static readonly ControlLightLight: Color;
+    static readonly ControlText: Color;
+    static readonly Desktop: Color;
+    static readonly GradientActiveCaption: Color;
+    static readonly GradientInactiveCaption: Color;
+    static readonly GrayText: Color;
+    static readonly Highlight: Color;
+    static readonly HighlightText: Color;
+    static readonly HotTrack: Color;
+    static readonly InactiveBorder: Color;
+    static readonly InactiveCaption: Color;
+    static readonly InactiveCaptionText: Color;
+    static readonly Info: Color;
+    static readonly InfoText: Color;
+    static readonly Menu: Color;
+    static readonly MenuBar: Color;
+    static readonly MenuHighlight: Color;
+    static readonly MenuText: Color;
+    static readonly ScrollBar: Color;
+    static readonly Window: Color;
+    static readonly WindowFrame: Color;
+    static readonly WindowText: Color;
+    static UseAlternativeColorSet: boolean;
 }
 
 

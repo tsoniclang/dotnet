@@ -20,16 +20,16 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, InvalidOperationException, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum BoundedChannelFullMode {
-    wait = 0,
-    dropNewest = 1,
-    dropOldest = 2,
-    dropWrite = 3
+    Wait = 0,
+    DropNewest = 1,
+    DropOldest = 2,
+    DropWrite = 3
 }
 
 
 export interface BoundedChannelOptions$instance extends ChannelOptions {
-    capacity: int;
-    fullMode: BoundedChannelFullMode;
+    Capacity: int;
+    FullMode: BoundedChannelFullMode;
 }
 
 
@@ -51,8 +51,8 @@ export const Channel_1: {
 export type Channel_1<T> = Channel_1$instance<T>;
 
 export interface Channel_2$instance<TWrite, TRead> {
-    readonly reader: ChannelReader_1<TRead>;
-    readonly writer: ChannelWriter_1<TWrite>;
+    readonly Reader: ChannelReader_1<TRead>;
+    readonly Writer: ChannelWriter_1<TWrite>;
 }
 
 
@@ -63,7 +63,7 @@ export const Channel_2: {
 export type Channel_2<TWrite, TRead> = Channel_2$instance<TWrite, TRead>;
 
 export interface ChannelClosedException$instance extends InvalidOperationException {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -83,9 +83,9 @@ export type ChannelClosedException = ChannelClosedException$instance & __Channel
 
 
 export interface ChannelOptions$instance {
-    allowSynchronousContinuations: boolean;
-    singleReader: boolean;
-    singleWriter: boolean;
+    AllowSynchronousContinuations: boolean;
+    SingleReader: boolean;
+    SingleWriter: boolean;
 }
 
 
@@ -96,15 +96,15 @@ export const ChannelOptions: {
 export type ChannelOptions = ChannelOptions$instance;
 
 export interface ChannelReader_1$instance<T> {
-    readonly canCount: boolean;
-    readonly canPeek: boolean;
-    readonly completion: Task;
-    readonly count: int;
-    readAllAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<T>;
-    readAsync(cancellationToken?: CancellationToken): ValueTask_1<T>;
-    tryPeek(item: T): boolean;
-    tryRead(item: T): boolean;
-    waitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    readonly CanCount: boolean;
+    readonly CanPeek: boolean;
+    readonly Completion: Task;
+    readonly Count: int;
+    ReadAllAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<T>;
+    ReadAsync(cancellationToken?: CancellationToken): ValueTask_1<T>;
+    TryPeek(item: T): boolean;
+    TryRead(item: T): boolean;
+    WaitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
 }
 
 
@@ -115,11 +115,11 @@ export const ChannelReader_1: {
 export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 
 export interface ChannelWriter_1$instance<T> {
-    complete(error?: Exception): void;
-    tryComplete(error?: Exception): boolean;
-    tryWrite(item: T): boolean;
-    waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    writeAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
+    Complete(error?: Exception): void;
+    TryComplete(error?: Exception): boolean;
+    TryWrite(item: T): boolean;
+    WaitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    WriteAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -141,7 +141,7 @@ export const UnboundedChannelOptions: {
 export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
 export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
-    comparer: IComparer_1<T>;
+    Comparer: IComparer_1<T>;
 }
 
 
@@ -153,13 +153,13 @@ export const UnboundedPrioritizedChannelOptions_1: {
 export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChannelOptions_1$instance<T>;
 
 export abstract class Channel$instance {
-    static createBounded<T>(capacity: int): Channel_1<T>;
-    static createBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
-    static createBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
-    static createUnbounded<T>(): Channel_1<T>;
-    static createUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;
-    static createUnboundedPrioritized<T>(): Channel_1<T>;
-    static createUnboundedPrioritized<T>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
+    static CreateBounded<T>(capacity: int): Channel_1<T>;
+    static CreateBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
+    static CreateBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
+    static CreateUnbounded<T>(): Channel_1<T>;
+    static CreateUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;
+    static CreateUnboundedPrioritized<T>(): Channel_1<T>;
+    static CreateUnboundedPrioritized<T>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
 }
 
 

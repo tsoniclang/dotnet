@@ -21,53 +21,53 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, Range, ReadOnlySpan_1, String as ClrString, TimeoutException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum RegexOptions {
-    none = 0,
-    ignoreCase = 1,
-    multiline = 2,
-    explicitCapture = 4,
-    compiled = 8,
-    singleline = 16,
-    ignorePatternWhitespace = 32,
-    rightToLeft = 64,
-    ecmaScript = 256,
-    cultureInvariant = 512,
-    nonBacktracking = 1024
+    None = 0,
+    IgnoreCase = 1,
+    Multiline = 2,
+    ExplicitCapture = 4,
+    Compiled = 8,
+    Singleline = 16,
+    IgnorePatternWhitespace = 32,
+    RightToLeft = 64,
+    ECMAScript = 256,
+    CultureInvariant = 512,
+    NonBacktracking = 1024
 }
 
 
 export enum RegexParseError {
-    unknown = 0,
-    alternationHasTooManyConditions = 1,
-    alternationHasMalformedCondition = 2,
-    invalidUnicodePropertyEscape = 3,
-    malformedUnicodePropertyEscape = 4,
-    unrecognizedEscape = 5,
-    unrecognizedControlCharacter = 6,
-    missingControlCharacter = 7,
-    insufficientOrInvalidHexDigits = 8,
-    quantifierOrCaptureGroupOutOfRange = 9,
-    undefinedNamedReference = 10,
-    undefinedNumberedReference = 11,
-    malformedNamedReference = 12,
-    unescapedEndingBackslash = 13,
-    unterminatedComment = 14,
-    invalidGroupingConstruct = 15,
-    alternationHasNamedCapture = 16,
-    alternationHasComment = 17,
-    alternationHasMalformedReference = 18,
-    alternationHasUndefinedReference = 19,
-    captureGroupNameInvalid = 20,
-    captureGroupOfZero = 21,
-    unterminatedBracket = 22,
-    exclusionGroupNotLast = 23,
-    reversedCharacterRange = 24,
-    shorthandClassInCharacterRange = 25,
-    insufficientClosingParentheses = 26,
-    reversedQuantifierRange = 27,
-    nestedQuantifiersNotParenthesized = 28,
-    quantifierAfterNothing = 29,
-    insufficientOpeningParentheses = 30,
-    unrecognizedUnicodeProperty = 31
+    Unknown = 0,
+    AlternationHasTooManyConditions = 1,
+    AlternationHasMalformedCondition = 2,
+    InvalidUnicodePropertyEscape = 3,
+    MalformedUnicodePropertyEscape = 4,
+    UnrecognizedEscape = 5,
+    UnrecognizedControlCharacter = 6,
+    MissingControlCharacter = 7,
+    InsufficientOrInvalidHexDigits = 8,
+    QuantifierOrCaptureGroupOutOfRange = 9,
+    UndefinedNamedReference = 10,
+    UndefinedNumberedReference = 11,
+    MalformedNamedReference = 12,
+    UnescapedEndingBackslash = 13,
+    UnterminatedComment = 14,
+    InvalidGroupingConstruct = 15,
+    AlternationHasNamedCapture = 16,
+    AlternationHasComment = 17,
+    AlternationHasMalformedReference = 18,
+    AlternationHasUndefinedReference = 19,
+    CaptureGroupNameInvalid = 20,
+    CaptureGroupOfZero = 21,
+    UnterminatedBracket = 22,
+    ExclusionGroupNotLast = 23,
+    ReversedCharacterRange = 24,
+    ShorthandClassInCharacterRange = 25,
+    InsufficientClosingParentheses = 26,
+    ReversedQuantifierRange = 27,
+    NestedQuantifiersNotParenthesized = 28,
+    QuantifierAfterNothing = 29,
+    InsufficientOpeningParentheses = 30,
+    UnrecognizedUnicodeProperty = 31
 }
 
 
@@ -75,10 +75,10 @@ export type MatchEvaluator = (match: Match) => string;
 
 
 export interface Regex_ValueMatchEnumerator$instance {
-    readonly current: ValueMatch;
-    getEnumerator(): Regex_ValueMatchEnumerator;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ValueMatch;
+    GetEnumerator(): Regex_ValueMatchEnumerator;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -96,10 +96,10 @@ export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance & _
 
 
 export interface Regex_ValueSplitEnumerator$instance {
-    readonly current: Range;
-    getEnumerator(): Regex_ValueSplitEnumerator;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: Range;
+    GetEnumerator(): Regex_ValueSplitEnumerator;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -117,8 +117,8 @@ export type Regex_ValueSplitEnumerator = Regex_ValueSplitEnumerator$instance & _
 
 
 export interface ValueMatch$instance {
-    readonly index: int;
-    readonly length: int;
+    readonly Index: int;
+    readonly Length: int;
 }
 
 
@@ -130,11 +130,11 @@ export const ValueMatch: {
 export type ValueMatch = ValueMatch$instance;
 
 export interface Capture$instance {
-    readonly index: int;
-    readonly length: int;
-    readonly value: string;
-    readonly valueSpan: ReadOnlySpan_1<System_Internal.Char>;
-    toString(): string;
+    readonly Index: int;
+    readonly Length: int;
+    readonly Value: string;
+    readonly ValueSpan: ReadOnlySpan_1<System_Internal.Char>;
+    ToString(): string;
 }
 
 
@@ -146,14 +146,14 @@ export const Capture: {
 export type Capture = Capture$instance;
 
 export interface CaptureCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly item: Capture;
-    readonly syncRoot: unknown;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Capture[], arrayIndex: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Item: Capture;
+    readonly SyncRoot: unknown;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Capture[], arrayIndex: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -176,10 +176,10 @@ export type CaptureCollection = CaptureCollection$instance & __CaptureCollection
 
 
 export interface GeneratedRegexAttribute$instance extends Attribute {
-    readonly cultureName: string;
-    readonly matchTimeoutMilliseconds: int;
-    readonly options: RegexOptions;
-    readonly pattern: string;
+    readonly CultureName: string;
+    readonly MatchTimeoutMilliseconds: int;
+    readonly Options: RegexOptions;
+    readonly Pattern: string;
 }
 
 
@@ -195,34 +195,34 @@ export const GeneratedRegexAttribute: {
 export type GeneratedRegexAttribute = GeneratedRegexAttribute$instance;
 
 export interface Group$instance extends Capture {
-    readonly captures: CaptureCollection;
-    readonly name: string;
-    readonly success: boolean;
+    readonly Captures: CaptureCollection;
+    readonly Name: string;
+    readonly Success: boolean;
 }
 
 
 export const Group: {
     new(): Group;
-    synchronized(inner: Group): Group;
+    Synchronized(inner: Group): Group;
 };
 
 
 export type Group = Group$instance;
 
 export interface GroupCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly keys: IEnumerable_1<System_Internal.String>;
-    readonly syncRoot: unknown;
-    readonly values: IEnumerable_1<Group>;
-    containsKey(key: string): boolean;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Group[], arrayIndex: int): void;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Keys: IEnumerable_1<System_Internal.String>;
+    readonly SyncRoot: unknown;
+    readonly Values: IEnumerable_1<Group>;
+    ContainsKey(key: string): boolean;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Group[], arrayIndex: int): void;
     get_Item(groupnum: int): Group;
     get_Item(groupname: string): Group;
-    getEnumerator(): IEnumerator;
-    tryGetValue(key: string, value: Group): boolean;
+    GetEnumerator(): IEnumerator;
+    TryGetValue(key: string, value: Group): boolean;
 }
 
 
@@ -246,29 +246,29 @@ export type GroupCollection = GroupCollection$instance & __GroupCollection$views
 
 
 export interface Match$instance extends Group {
-    readonly groups: GroupCollection;
-    nextMatch(): Match;
-    result(replacement: string): string;
+    readonly Groups: GroupCollection;
+    NextMatch(): Match;
+    Result(replacement: string): string;
 }
 
 
 export const Match: {
     new(): Match;
-    readonly empty: Match;
+    readonly Empty: Match;
 };
 
 
 export type Match = Match$instance;
 
 export interface MatchCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly item: Match;
-    readonly syncRoot: unknown;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    copyTo(array: Match[], arrayIndex: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly Item: Match;
+    readonly SyncRoot: unknown;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    CopyTo(array: Match[], arrayIndex: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -291,40 +291,40 @@ export type MatchCollection = MatchCollection$instance & __MatchCollection$views
 
 
 export interface Regex$instance {
-    readonly matchTimeout: TimeSpan;
-    readonly options: RegexOptions;
-    readonly rightToLeft: boolean;
-    count(input: string): int;
-    count(input: ReadOnlySpan_1<System_Internal.Char>): int;
-    count(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): int;
-    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): Regex_ValueMatchEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int, startat: int): Regex_ValueSplitEnumerator;
-    getGroupNames(): string[];
-    getGroupNumbers(): int[];
-    groupNameFromNumber(i: int): string;
-    groupNumberFromName(name: string): int;
-    isMatch(input: string): boolean;
-    isMatch(input: string, startat: int): boolean;
-    isMatch(input: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): boolean;
-    match(input: string): Match;
-    match(input: string, startat: int): Match;
-    match(input: string, beginning: int, length: int): Match;
-    matches(input: string): MatchCollection;
-    matches(input: string, startat: int): MatchCollection;
-    replace(input: string, replacement: string): string;
-    replace(input: string, replacement: string, count: int): string;
-    replace(input: string, replacement: string, count: int, startat: int): string;
-    replace(input: string, evaluator: MatchEvaluator): string;
-    replace(input: string, evaluator: MatchEvaluator, count: int): string;
-    replace(input: string, evaluator: MatchEvaluator, count: int, startat: int): string;
-    split(input: string): string[];
-    split(input: string, count: int): string[];
-    split(input: string, count: int, startat: int): string[];
-    toString(): string;
+    readonly MatchTimeout: TimeSpan;
+    readonly Options: RegexOptions;
+    readonly RightToLeft: boolean;
+    Count(input: string): int;
+    Count(input: ReadOnlySpan_1<System_Internal.Char>): int;
+    Count(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): int;
+    EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueMatchEnumerator;
+    EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): Regex_ValueMatchEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int, startat: int): Regex_ValueSplitEnumerator;
+    GetGroupNames(): string[];
+    GetGroupNumbers(): int[];
+    GroupNameFromNumber(i: int): string;
+    GroupNumberFromName(name: string): int;
+    IsMatch(input: string): boolean;
+    IsMatch(input: string, startat: int): boolean;
+    IsMatch(input: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    IsMatch(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): boolean;
+    Match(input: string): Match;
+    Match(input: string, startat: int): Match;
+    Match(input: string, beginning: int, length: int): Match;
+    Matches(input: string): MatchCollection;
+    Matches(input: string, startat: int): MatchCollection;
+    Replace(input: string, replacement: string): string;
+    Replace(input: string, replacement: string, count: int): string;
+    Replace(input: string, replacement: string, count: int, startat: int): string;
+    Replace(input: string, evaluator: MatchEvaluator): string;
+    Replace(input: string, evaluator: MatchEvaluator, count: int): string;
+    Replace(input: string, evaluator: MatchEvaluator, count: int, startat: int): string;
+    Split(input: string): string[];
+    Split(input: string, count: int): string[];
+    Split(input: string, count: int, startat: int): string[];
+    ToString(): string;
 }
 
 
@@ -332,46 +332,46 @@ export const Regex: {
     new(pattern: string): Regex;
     new(pattern: string, options: RegexOptions): Regex;
     new(pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex;
-    readonly infiniteMatchTimeout: TimeSpan;
-    cacheSize: int;
-    compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
-    compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
-    compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
-    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): int;
-    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): int;
-    count(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    count(input: string, pattern: string, options: RegexOptions): int;
-    count(input: string, pattern: string): int;
-    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueMatchEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueSplitEnumerator;
-    escape(str: string): string;
-    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): boolean;
-    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): boolean;
-    isMatch(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    isMatch(input: string, pattern: string, options: RegexOptions): boolean;
-    isMatch(input: string, pattern: string): boolean;
-    match(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Match;
-    match(input: string, pattern: string, options: RegexOptions): Match;
-    match(input: string, pattern: string): Match;
-    matches(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): MatchCollection;
-    matches(input: string, pattern: string, options: RegexOptions): MatchCollection;
-    matches(input: string, pattern: string): MatchCollection;
-    replace(input: string, pattern: string, replacement: string, options: RegexOptions, matchTimeout: TimeSpan): string;
-    replace(input: string, pattern: string, replacement: string, options: RegexOptions): string;
-    replace(input: string, pattern: string, replacement: string): string;
-    replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions, matchTimeout: TimeSpan): string;
-    replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions): string;
-    replace(input: string, pattern: string, evaluator: MatchEvaluator): string;
-    split(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): string[];
-    split(input: string, pattern: string, options: RegexOptions): string[];
-    split(input: string, pattern: string): string[];
-    unescape(str: string): string;
+    readonly InfiniteMatchTimeout: TimeSpan;
+    CacheSize: int;
+    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
+    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
+    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
+    Count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    Count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): int;
+    Count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): int;
+    Count(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    Count(input: string, pattern: string, options: RegexOptions): int;
+    Count(input: string, pattern: string): int;
+    EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
+    EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
+    EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueMatchEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
+    EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueSplitEnumerator;
+    Escape(str: string): string;
+    IsMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    IsMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): boolean;
+    IsMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): boolean;
+    IsMatch(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    IsMatch(input: string, pattern: string, options: RegexOptions): boolean;
+    IsMatch(input: string, pattern: string): boolean;
+    Match(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Match;
+    Match(input: string, pattern: string, options: RegexOptions): Match;
+    Match(input: string, pattern: string): Match;
+    Matches(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): MatchCollection;
+    Matches(input: string, pattern: string, options: RegexOptions): MatchCollection;
+    Matches(input: string, pattern: string): MatchCollection;
+    Replace(input: string, pattern: string, replacement: string, options: RegexOptions, matchTimeout: TimeSpan): string;
+    Replace(input: string, pattern: string, replacement: string, options: RegexOptions): string;
+    Replace(input: string, pattern: string, replacement: string): string;
+    Replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions, matchTimeout: TimeSpan): string;
+    Replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions): string;
+    Replace(input: string, pattern: string, evaluator: MatchEvaluator): string;
+    Split(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): string[];
+    Split(input: string, pattern: string, options: RegexOptions): string[];
+    Split(input: string, pattern: string): string[];
+    Unescape(str: string): string;
 };
 
 
@@ -385,12 +385,12 @@ export type Regex = Regex$instance & __Regex$views;
 
 
 export interface RegexCompilationInfo$instance {
-    isPublic: boolean;
-    matchTimeout: TimeSpan;
-    name: string;
-    namespace: string;
-    options: RegexOptions;
-    pattern: string;
+    IsPublic: boolean;
+    MatchTimeout: TimeSpan;
+    Name: string;
+    Namespace: string;
+    Options: RegexOptions;
+    Pattern: string;
 }
 
 
@@ -403,10 +403,10 @@ export const RegexCompilationInfo: {
 export type RegexCompilationInfo = RegexCompilationInfo$instance;
 
 export interface RegexMatchTimeoutException$instance extends TimeoutException {
-    readonly input: string;
-    readonly matchTimeout: TimeSpan;
-    readonly pattern: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Input: string;
+    readonly MatchTimeout: TimeSpan;
+    readonly Pattern: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -426,9 +426,9 @@ export type RegexMatchTimeoutException = RegexMatchTimeoutException$instance & _
 
 
 export interface RegexParseException$instance extends ArgumentException {
-    readonly error: RegexParseError;
-    readonly offset: int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Error: RegexParseError;
+    readonly Offset: int;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -449,7 +449,7 @@ export interface RegexRunner$instance {
 
 
 export const RegexRunner: {
-    charInClass(ch: char, charClass: string): boolean;
+    CharInClass(ch: char, charClass: string): boolean;
 };
 
 

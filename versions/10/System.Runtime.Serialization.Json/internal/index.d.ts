@@ -17,46 +17,46 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface IXmlJsonReaderInitializer$instance {
-    setInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
-    setInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
+    SetInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
 }
 
 
 export type IXmlJsonReaderInitializer = IXmlJsonReaderInitializer$instance;
 
 export interface IXmlJsonWriterInitializer$instance {
-    setOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
+    SetOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
 }
 
 
 export type IXmlJsonWriterInitializer = IXmlJsonWriterInitializer$instance;
 
 export interface DataContractJsonSerializer$instance extends XmlObjectSerializer {
-    readonly dateTimeFormat: DateTimeFormat;
-    readonly emitTypeInformation: EmitTypeInformation;
-    readonly ignoreExtensionDataObject: boolean;
-    readonly knownTypes: ReadOnlyCollection_1<Type>;
-    readonly maxItemsInObjectGraph: int;
-    readonly serializeReadOnlyTypes: boolean;
-    readonly useSimpleDictionaryFormat: boolean;
-    getSerializationSurrogateProvider(): ISerializationSurrogateProvider | undefined;
-    isStartObject(reader: XmlReader): boolean;
-    isStartObject(reader: XmlDictionaryReader): boolean;
-    readObject(stream: Stream): unknown | undefined;
-    readObject(reader: XmlReader): unknown | undefined;
-    readObject(reader: XmlReader, verifyObjectName: boolean): unknown | undefined;
-    readObject(reader: XmlDictionaryReader): unknown | undefined;
-    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | undefined;
-    setSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
-    writeEndObject(writer: XmlWriter): void;
-    writeEndObject(writer: XmlDictionaryWriter): void;
-    writeObject(stream: Stream, graph: unknown): void;
-    writeObject(writer: XmlWriter, graph: unknown): void;
-    writeObject(writer: XmlDictionaryWriter, graph: unknown): void;
-    writeObjectContent(writer: XmlWriter, graph: unknown): void;
-    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
-    writeStartObject(writer: XmlWriter, graph: unknown): void;
-    writeStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    readonly DateTimeFormat: DateTimeFormat;
+    readonly EmitTypeInformation: EmitTypeInformation;
+    readonly IgnoreExtensionDataObject: boolean;
+    readonly KnownTypes: ReadOnlyCollection_1<Type>;
+    readonly MaxItemsInObjectGraph: int;
+    readonly SerializeReadOnlyTypes: boolean;
+    readonly UseSimpleDictionaryFormat: boolean;
+    GetSerializationSurrogateProvider(): ISerializationSurrogateProvider | undefined;
+    IsStartObject(reader: XmlReader): boolean;
+    IsStartObject(reader: XmlDictionaryReader): boolean;
+    ReadObject(stream: Stream): unknown | undefined;
+    ReadObject(reader: XmlReader): unknown | undefined;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | undefined;
+    ReadObject(reader: XmlDictionaryReader): unknown | undefined;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | undefined;
+    SetSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
+    WriteEndObject(writer: XmlWriter): void;
+    WriteEndObject(writer: XmlDictionaryWriter): void;
+    WriteObject(stream: Stream, graph: unknown): void;
+    WriteObject(writer: XmlWriter, graph: unknown): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    WriteObjectContent(writer: XmlWriter, graph: unknown): void;
+    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
+    WriteStartObject(writer: XmlWriter, graph: unknown): void;
+    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
 }
 
 
@@ -74,15 +74,15 @@ export const DataContractJsonSerializer: {
 export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
 export interface DataContractJsonSerializerSettings$instance {
-    dateTimeFormat: DateTimeFormat;
-    emitTypeInformation: EmitTypeInformation;
-    ignoreExtensionDataObject: boolean;
-    knownTypes: IEnumerable_1<Type>;
-    maxItemsInObjectGraph: int;
-    get rootName(): string | undefined;
-    set rootName(value: string);
-    serializeReadOnlyTypes: boolean;
-    useSimpleDictionaryFormat: boolean;
+    DateTimeFormat: DateTimeFormat;
+    EmitTypeInformation: EmitTypeInformation;
+    IgnoreExtensionDataObject: boolean;
+    KnownTypes: IEnumerable_1<Type>;
+    MaxItemsInObjectGraph: int;
+    get RootName(): string | undefined;
+    set RootName(value: string);
+    SerializeReadOnlyTypes: boolean;
+    UseSimpleDictionaryFormat: boolean;
 }
 
 
@@ -94,24 +94,24 @@ export const DataContractJsonSerializerSettings: {
 export type DataContractJsonSerializerSettings = DataContractJsonSerializerSettings$instance;
 
 export abstract class DataContractJsonSerializerExtensions$instance {
-    static getSerializationSurrogateProvider(serializer: DataContractJsonSerializer): ISerializationSurrogateProvider | undefined;
-    static setSerializationSurrogateProvider(serializer: DataContractJsonSerializer, provider: ISerializationSurrogateProvider): void;
+    static GetSerializationSurrogateProvider(serializer: DataContractJsonSerializer): ISerializationSurrogateProvider | undefined;
+    static SetSerializationSurrogateProvider(serializer: DataContractJsonSerializer, provider: ISerializationSurrogateProvider): void;
 }
 
 
 export type DataContractJsonSerializerExtensions = DataContractJsonSerializerExtensions$instance;
 
 export abstract class JsonReaderWriterFactory$instance {
-    static createJsonReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createJsonReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createJsonReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean, indentChars: string): XmlDictionaryWriter;
-    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean): XmlDictionaryWriter;
-    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
-    static createJsonWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
-    static createJsonWriter(stream: Stream): XmlDictionaryWriter;
+    static CreateJsonReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static CreateJsonReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static CreateJsonReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static CreateJsonReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static CreateJsonReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static CreateJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean, indentChars: string): XmlDictionaryWriter;
+    static CreateJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean): XmlDictionaryWriter;
+    static CreateJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
+    static CreateJsonWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
+    static CreateJsonWriter(stream: Stream): XmlDictionaryWriter;
 }
 
 

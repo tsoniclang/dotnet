@@ -29,20 +29,20 @@ export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEn
 
 
 export interface FileSystemEntry$instance {
-    readonly attributes: FileAttributes;
-    readonly creationTimeUtc: DateTimeOffset;
-    readonly directory: ReadOnlySpan_1<System_Internal.Char>;
-    readonly fileName: ReadOnlySpan_1<System_Internal.Char>;
-    readonly isDirectory: boolean;
-    readonly isHidden: boolean;
-    readonly lastAccessTimeUtc: DateTimeOffset;
-    readonly lastWriteTimeUtc: DateTimeOffset;
-    readonly length: long;
-    readonly originalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
-    readonly rootDirectory: ReadOnlySpan_1<System_Internal.Char>;
-    toFileSystemInfo(): FileSystemInfo;
-    toFullPath(): string;
-    toSpecifiedFullPath(): string;
+    readonly Attributes: FileAttributes;
+    readonly CreationTimeUtc: DateTimeOffset;
+    readonly Directory: ReadOnlySpan_1<System_Internal.Char>;
+    readonly FileName: ReadOnlySpan_1<System_Internal.Char>;
+    readonly IsDirectory: boolean;
+    readonly IsHidden: boolean;
+    readonly LastAccessTimeUtc: DateTimeOffset;
+    readonly LastWriteTimeUtc: DateTimeOffset;
+    readonly Length: long;
+    readonly OriginalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    readonly RootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    ToFileSystemInfo(): FileSystemInfo;
+    ToFullPath(): string;
+    ToSpecifiedFullPath(): string;
 }
 
 
@@ -54,11 +54,11 @@ export const FileSystemEntry: {
 export type FileSystemEntry = FileSystemEntry$instance;
 
 export interface FileSystemEnumerable_1$instance<TResult> {
-    get shouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set shouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
-    get shouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set shouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
-    getEnumerator(): IEnumerator_1<TResult>;
+    get ShouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
+    set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
+    get ShouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
+    set ShouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
+    GetEnumerator(): IEnumerator_1<TResult>;
 }
 
 
@@ -76,10 +76,10 @@ export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TR
 
 
 export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
-    readonly current: TResult;
-    dispose(): void;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: TResult;
+    Dispose(): void;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -97,9 +97,9 @@ export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TR
 
 
 export abstract class FileSystemName$instance {
-    static matchesSimpleExpression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
-    static matchesWin32Expression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
-    static translateWin32Expression(expression: string): string;
+    static MatchesSimpleExpression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
+    static MatchesWin32Expression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
+    static TranslateWin32Expression(expression: string): string;
 }
 
 

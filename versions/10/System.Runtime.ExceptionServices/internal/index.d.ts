@@ -10,24 +10,24 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, EventArgs, Exception, Func_2, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface ExceptionDispatchInfo$instance {
-    readonly sourceException: Exception;
-    throw(): void;
+    readonly SourceException: Exception;
+    Throw(): void;
 }
 
 
 export const ExceptionDispatchInfo: {
     new(): ExceptionDispatchInfo;
-    capture(source: Exception): ExceptionDispatchInfo;
-    setCurrentStackTrace(source: Exception): Exception;
-    setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    throw(source: Exception): void;
+    Capture(source: Exception): ExceptionDispatchInfo;
+    SetCurrentStackTrace(source: Exception): Exception;
+    SetRemoteStackTrace(source: Exception, stackTrace: string): Exception;
+    Throw(source: Exception): void;
 };
 
 
 export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
 export interface FirstChanceExceptionEventArgs$instance extends EventArgs {
-    readonly exception: Exception;
+    readonly Exception: Exception;
 }
 
 
@@ -50,8 +50,8 @@ export const HandleProcessCorruptedStateExceptionsAttribute: {
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;
 
 export abstract class ExceptionHandling$instance {
-    static raiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
-    static setUnhandledExceptionHandler(handler: Func_2<Exception, System_Internal.Boolean>): void;
+    static RaiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
+    static SetUnhandledExceptionHandler(handler: Func_2<Exception, System_Internal.Boolean>): void;
 }
 
 

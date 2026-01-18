@@ -12,25 +12,25 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface Evidence$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    locked: boolean;
-    readonly syncRoot: unknown;
-    addAssembly(id: unknown): void;
-    addAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
-    addHost(id: unknown): void;
-    addHostEvidence<T extends EvidenceBase>(evidence: T): void;
-    clear(): void;
-    clone(): Evidence;
-    copyTo(array: ClrArray, index: int): void;
-    getAssemblyEnumerator(): IEnumerator;
-    getAssemblyEvidence<T extends EvidenceBase>(): T | undefined;
-    getEnumerator(): IEnumerator;
-    getHostEnumerator(): IEnumerator;
-    getHostEvidence<T extends EvidenceBase>(): T | undefined;
-    merge(evidence: Evidence): void;
-    removeType(t: Type): void;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    Locked: boolean;
+    readonly SyncRoot: unknown;
+    AddAssembly(id: unknown): void;
+    AddAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
+    AddHost(id: unknown): void;
+    AddHostEvidence<T extends EvidenceBase>(evidence: T): void;
+    Clear(): void;
+    Clone(): Evidence;
+    CopyTo(array: ClrArray, index: int): void;
+    GetAssemblyEnumerator(): IEnumerator;
+    GetAssemblyEvidence<T extends EvidenceBase>(): T | undefined;
+    GetEnumerator(): IEnumerator;
+    GetHostEnumerator(): IEnumerator;
+    GetHostEvidence<T extends EvidenceBase>(): T | undefined;
+    Merge(evidence: Evidence): void;
+    RemoveType(t: Type): void;
 }
 
 
@@ -51,7 +51,7 @@ export type Evidence = Evidence$instance & __Evidence$views;
 
 
 export interface EvidenceBase$instance {
-    clone(): EvidenceBase;
+    Clone(): EvidenceBase;
 }
 
 

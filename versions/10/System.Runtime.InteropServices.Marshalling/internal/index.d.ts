@@ -16,23 +16,23 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, RuntimeTypeHandle, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
 
 export enum ComInterfaceOptions {
-    none = 0,
-    managedObjectWrapper = 1,
-    comObjectWrapper = 2
+    None = 0,
+    ManagedObjectWrapper = 1,
+    ComObjectWrapper = 2
 }
 
 
 export enum MarshalMode {
-    default = 0,
-    managedToUnmanagedIn = 1,
-    managedToUnmanagedRef = 2,
-    managedToUnmanagedOut = 3,
-    unmanagedToManagedIn = 4,
-    unmanagedToManagedRef = 5,
-    unmanagedToManagedOut = 6,
-    elementIn = 7,
-    elementRef = 8,
-    elementOut = 9
+    Default = 0,
+    ManagedToUnmanagedIn = 1,
+    ManagedToUnmanagedRef = 2,
+    ManagedToUnmanagedOut = 3,
+    UnmanagedToManagedIn = 4,
+    UnmanagedToManagedRef = 5,
+    UnmanagedToManagedOut = 6,
+    ElementIn = 7,
+    ElementRef = 8,
+    ElementOut = 9
 }
 
 
@@ -43,34 +43,34 @@ export interface IComExposedClass$instance {
 export type IComExposedClass = IComExposedClass$instance;
 
 export interface IComExposedDetails$instance {
-    getComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
 }
 
 
 export type IComExposedDetails = IComExposedDetails$instance;
 
 export interface IIUnknownCacheStrategy$instance {
-    clear(unknownStrategy: IIUnknownStrategy): void;
-    constructTableInfo(handle: RuntimeTypeHandle, interfaceDetails: IIUnknownDerivedDetails, ptr: ptr<void>): IIUnknownCacheStrategy_TableInfo;
-    tryGetTableInfo(handle: RuntimeTypeHandle, info: IIUnknownCacheStrategy_TableInfo): boolean;
-    trySetTableInfo(handle: RuntimeTypeHandle, info: IIUnknownCacheStrategy_TableInfo): boolean;
+    Clear(unknownStrategy: IIUnknownStrategy): void;
+    ConstructTableInfo(handle: RuntimeTypeHandle, interfaceDetails: IIUnknownDerivedDetails, ptr: ptr<void>): IIUnknownCacheStrategy_TableInfo;
+    TryGetTableInfo(handle: RuntimeTypeHandle, info: IIUnknownCacheStrategy_TableInfo): boolean;
+    TrySetTableInfo(handle: RuntimeTypeHandle, info: IIUnknownCacheStrategy_TableInfo): boolean;
 }
 
 
 export type IIUnknownCacheStrategy = IIUnknownCacheStrategy$instance;
 
 export interface IIUnknownDerivedDetails$instance {
-    readonly iid: Guid;
-    readonly implementation: Type;
-    readonly managedVirtualMethodTable: ptr<void>;
+    readonly Iid: Guid;
+    readonly Implementation: Type;
+    readonly ManagedVirtualMethodTable: ptr<void>;
 }
 
 
 export type IIUnknownDerivedDetails = IIUnknownDerivedDetails$instance;
 
 export interface IIUnknownInterfaceDetailsStrategy$instance {
-    getComExposedTypeDetails(type: RuntimeTypeHandle): IComExposedDetails | undefined;
-    getIUnknownDerivedDetails(type: RuntimeTypeHandle): IIUnknownDerivedDetails | undefined;
+    GetComExposedTypeDetails(type: RuntimeTypeHandle): IComExposedDetails | undefined;
+    GetIUnknownDerivedDetails(type: RuntimeTypeHandle): IIUnknownDerivedDetails | undefined;
 }
 
 
@@ -83,83 +83,83 @@ export interface IIUnknownInterfaceType$instance {
 export type IIUnknownInterfaceType = IIUnknownInterfaceType$instance;
 
 export interface IIUnknownStrategy$instance {
-    createInstancePointer(unknown: ptr<void>): ptr<void>;
-    queryInterface(instancePtr: ptr<void>, iid: Guid, ppObj: ptr<void>): int;
-    release(instancePtr: ptr<void>): int;
+    CreateInstancePointer(unknown: ptr<void>): ptr<void>;
+    QueryInterface(instancePtr: ptr<void>, iid: Guid, ppObj: ptr<void>): int;
+    Release(instancePtr: ptr<void>): int;
 }
 
 
 export type IIUnknownStrategy = IIUnknownStrategy$instance;
 
 export interface IUnmanagedVirtualMethodTableProvider$instance {
-    getVirtualMethodTableInfoForKey(type: Type): VirtualMethodTableInfo;
+    GetVirtualMethodTableInfoForKey(type: Type): VirtualMethodTableInfo;
 }
 
 
 export type IUnmanagedVirtualMethodTableProvider = IUnmanagedVirtualMethodTableProvider$instance;
 
 export interface AnsiStringMarshaller_ManagedToUnmanagedIn$instance {
-    free(): void;
-    fromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
-    toUnmanaged(): ptr<byte>;
+    Free(): void;
+    FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
+    ToUnmanaged(): ptr<byte>;
 }
 
 
 export const AnsiStringMarshaller_ManagedToUnmanagedIn: {
     new(): AnsiStringMarshaller_ManagedToUnmanagedIn;
-    readonly bufferSize: int;
+    readonly BufferSize: int;
 };
 
 
 export type AnsiStringMarshaller_ManagedToUnmanagedIn = AnsiStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
-    free(): void;
-    fromManaged(array: T[], buffer: Span_1<TUnmanagedElement>): void;
-    getManagedValuesSource(): ReadOnlySpan_1<T>;
-    getPinnableReference(): TUnmanagedElement;
-    getUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
-    toUnmanaged(): ptr<TUnmanagedElement>;
+    Free(): void;
+    FromManaged(array: T[], buffer: Span_1<TUnmanagedElement>): void;
+    GetManagedValuesSource(): ReadOnlySpan_1<T>;
+    GetPinnableReference(): TUnmanagedElement;
+    GetUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
+    ToUnmanaged(): ptr<TUnmanagedElement>;
 }
 
 
 export const ArrayMarshaller_2_ManagedToUnmanagedIn: {
     new<T, TUnmanagedElement extends unknown>(): ArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement>;
-    readonly bufferSize: int;
-    getPinnableReference<T, TUnmanagedElement extends unknown>(array: T[]): T;
+    readonly BufferSize: int;
+    GetPinnableReference<T, TUnmanagedElement extends unknown>(array: T[]): T;
 };
 
 
 export type ArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = ArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface BStrStringMarshaller_ManagedToUnmanagedIn$instance {
-    free(): void;
-    fromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
-    toUnmanaged(): ptr<ushort>;
+    Free(): void;
+    FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
+    ToUnmanaged(): ptr<ushort>;
 }
 
 
 export const BStrStringMarshaller_ManagedToUnmanagedIn: {
     new(): BStrStringMarshaller_ManagedToUnmanagedIn;
-    readonly bufferSize: int;
+    readonly BufferSize: int;
 };
 
 
 export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ComVariant$instance {
-    readonly varType: VarEnum;
-    as<T>(): T | undefined;
-    dispose(): void;
-    getRawDataRef<T extends unknown>(): T;
+    readonly VarType: VarEnum;
+    As<T>(): T | undefined;
+    Dispose(): void;
+    GetRawDataRef<T extends unknown>(): T;
 }
 
 
 export const ComVariant: {
     new(): ComVariant;
-    readonly null: ComVariant;
-    create<T>(value: T): ComVariant;
-    createRaw<T extends unknown>(vt: VarEnum, rawValue: T): ComVariant;
+    readonly Null: ComVariant;
+    Create<T>(value: T): ComVariant;
+    CreateRaw<T extends unknown>(vt: VarEnum, rawValue: T): ComVariant;
 };
 
 
@@ -173,11 +173,11 @@ export type ComVariant = ComVariant$instance & __ComVariant$views;
 
 
 export interface ComVariantMarshaller_RefPropagate$instance {
-    free(): void;
-    fromManaged(managed: unknown): void;
-    fromUnmanaged(unmanaged: ComVariant): void;
-    toManaged(): unknown;
-    toUnmanaged(): ComVariant;
+    Free(): void;
+    FromManaged(managed: unknown): void;
+    FromUnmanaged(unmanaged: ComVariant): void;
+    ToManaged(): unknown;
+    ToUnmanaged(): ComVariant;
 }
 
 
@@ -200,9 +200,9 @@ export const CustomMarshallerAttribute_GenericPlaceholder: {
 export type CustomMarshallerAttribute_GenericPlaceholder = CustomMarshallerAttribute_GenericPlaceholder$instance;
 
 export interface IIUnknownCacheStrategy_TableInfo$instance {
-    managedType: RuntimeTypeHandle;
-    table: ptr<void>;
-    thisPtr: ptr<void>;
+    ManagedType: RuntimeTypeHandle;
+    Table: ptr<void>;
+    ThisPtr: ptr<void>;
 }
 
 
@@ -214,49 +214,49 @@ export const IIUnknownCacheStrategy_TableInfo: {
 export type IIUnknownCacheStrategy_TableInfo = IIUnknownCacheStrategy_TableInfo$instance;
 
 export interface PointerArrayMarshaller_2_ManagedToUnmanagedIn$instance<T extends unknown, TUnmanagedElement extends unknown> {
-    free(): void;
-    fromManaged(array: ptr<T>[], buffer: Span_1<TUnmanagedElement>): void;
-    getManagedValuesSource(): ReadOnlySpan_1<System_Internal.IntPtr>;
-    getPinnableReference(): TUnmanagedElement;
-    getUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
-    toUnmanaged(): ptr<TUnmanagedElement>;
+    Free(): void;
+    FromManaged(array: ptr<T>[], buffer: Span_1<TUnmanagedElement>): void;
+    GetManagedValuesSource(): ReadOnlySpan_1<System_Internal.IntPtr>;
+    GetPinnableReference(): TUnmanagedElement;
+    GetUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
+    ToUnmanaged(): ptr<TUnmanagedElement>;
 }
 
 
 export const PointerArrayMarshaller_2_ManagedToUnmanagedIn: {
     new<T extends unknown, TUnmanagedElement extends unknown>(): PointerArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement>;
-    readonly bufferSize: int;
-    getPinnableReference<T extends unknown, TUnmanagedElement extends unknown>(array: ptr<T>[]): byte;
+    readonly BufferSize: int;
+    GetPinnableReference<T extends unknown, TUnmanagedElement extends unknown>(array: ptr<T>[]): byte;
 };
 
 
 export type PointerArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = PointerArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
-    free(): void;
-    fromManaged(managed: ReadOnlySpan_1<T>, buffer: Span_1<TUnmanagedElement>): void;
-    getManagedValuesSource(): ReadOnlySpan_1<T>;
-    getPinnableReference(): TUnmanagedElement;
-    getUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
-    toUnmanaged(): ptr<TUnmanagedElement>;
+    Free(): void;
+    FromManaged(managed: ReadOnlySpan_1<T>, buffer: Span_1<TUnmanagedElement>): void;
+    GetManagedValuesSource(): ReadOnlySpan_1<T>;
+    GetPinnableReference(): TUnmanagedElement;
+    GetUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
+    ToUnmanaged(): ptr<TUnmanagedElement>;
 }
 
 
 export const ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn: {
     new<T, TUnmanagedElement extends unknown>(): ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement>;
-    readonly bufferSize: int;
-    getPinnableReference<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>): T;
+    readonly BufferSize: int;
+    GetPinnableReference<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>): T;
 };
 
 
 export type ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut$instance<T, TUnmanagedElement extends unknown> {
-    free(): void;
-    fromUnmanaged(unmanaged: ptr<TUnmanagedElement>): void;
-    getManagedValuesDestination(numElements: int): Span_1<T>;
-    getUnmanagedValuesSource(numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
-    toManaged(): ReadOnlySpan_1<T>;
+    Free(): void;
+    FromUnmanaged(unmanaged: ptr<TUnmanagedElement>): void;
+    GetManagedValuesDestination(numElements: int): Span_1<T>;
+    GetUnmanagedValuesSource(numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
+    ToManaged(): ReadOnlySpan_1<T>;
 }
 
 
@@ -268,9 +268,9 @@ export const ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut: {
 export type ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut<T, TUnmanagedElement> = ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut$instance<T, TUnmanagedElement>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedIn$instance<T extends SafeHandle> {
-    free(): void;
-    fromManaged(handle: T): void;
-    toUnmanaged(): nint;
+    Free(): void;
+    FromManaged(handle: T): void;
+    ToUnmanaged(): nint;
 }
 
 
@@ -282,9 +282,9 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedIn: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedIn<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedIn$instance<T>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedOut$instance<T extends SafeHandle> {
-    free(): void;
-    fromUnmanaged(value: nint): void;
-    toManaged(): T;
+    Free(): void;
+    FromUnmanaged(value: nint): void;
+    ToManaged(): T;
 }
 
 
@@ -296,12 +296,12 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedOut: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedOut<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedOut$instance<T>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedRef$instance<T extends SafeHandle> {
-    free(): void;
-    fromManaged(handle: T): void;
-    fromUnmanaged(value: nint): void;
-    onInvoked(): void;
-    toManagedFinally(): T;
-    toUnmanaged(): nint;
+    Free(): void;
+    FromManaged(handle: T): void;
+    FromUnmanaged(value: nint): void;
+    OnInvoked(): void;
+    ToManagedFinally(): T;
+    ToUnmanaged(): nint;
 }
 
 
@@ -313,43 +313,43 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedRef: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedRef<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedRef$instance<T>;
 
 export interface SpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
-    free(): void;
-    fromManaged(managed: Span_1<T>, buffer: Span_1<TUnmanagedElement>): void;
-    getManagedValuesSource(): ReadOnlySpan_1<T>;
-    getPinnableReference(): TUnmanagedElement;
-    getUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
-    toUnmanaged(): ptr<TUnmanagedElement>;
+    Free(): void;
+    FromManaged(managed: Span_1<T>, buffer: Span_1<TUnmanagedElement>): void;
+    GetManagedValuesSource(): ReadOnlySpan_1<T>;
+    GetPinnableReference(): TUnmanagedElement;
+    GetUnmanagedValuesDestination(): Span_1<TUnmanagedElement>;
+    ToUnmanaged(): ptr<TUnmanagedElement>;
 }
 
 
 export const SpanMarshaller_2_ManagedToUnmanagedIn: {
     new<T, TUnmanagedElement extends unknown>(): SpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement>;
-    readonly bufferSize: int;
-    getPinnableReference<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): T;
+    readonly BufferSize: int;
+    GetPinnableReference<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): T;
 };
 
 
 export type SpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = SpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface Utf8StringMarshaller_ManagedToUnmanagedIn$instance {
-    free(): void;
-    fromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
-    toUnmanaged(): ptr<byte>;
+    Free(): void;
+    FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
+    ToUnmanaged(): ptr<byte>;
 }
 
 
 export const Utf8StringMarshaller_ManagedToUnmanagedIn: {
     new(): Utf8StringMarshaller_ManagedToUnmanagedIn;
-    readonly bufferSize: int;
+    readonly BufferSize: int;
 };
 
 
 export type Utf8StringMarshaller_ManagedToUnmanagedIn = Utf8StringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface VirtualMethodTableInfo$instance {
-    readonly thisPointer: ptr<void>;
-    readonly virtualMethodTable: ptr<void>;
-    deconstruct(thisPointer: ptr<void>, virtualMethodTable: ptr<void>): void;
+    readonly ThisPointer: ptr<void>;
+    readonly VirtualMethodTable: ptr<void>;
+    Deconstruct(thisPointer: ptr<void>, virtualMethodTable: ptr<void>): void;
 }
 
 
@@ -361,7 +361,7 @@ export const VirtualMethodTableInfo: {
 export type VirtualMethodTableInfo = VirtualMethodTableInfo$instance;
 
 export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends Attribute {
-    getComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
 }
 
 
@@ -380,7 +380,7 @@ export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedC
 
 
 export interface ComObject$instance {
-    finalRelease(): void;
+    FinalRelease(): void;
 }
 
 
@@ -411,9 +411,9 @@ export const ContiguousCollectionMarshallerAttribute: {
 export type ContiguousCollectionMarshallerAttribute = ContiguousCollectionMarshallerAttribute$instance;
 
 export interface CustomMarshallerAttribute$instance extends Attribute {
-    readonly managedType: Type;
-    readonly marshallerType: Type;
-    readonly marshalMode: MarshalMode;
+    readonly ManagedType: Type;
+    readonly MarshallerType: Type;
+    readonly MarshalMode: MarshalMode;
 }
 
 
@@ -436,12 +436,12 @@ export const GeneratedComClassAttribute: {
 export type GeneratedComClassAttribute = GeneratedComClassAttribute$instance;
 
 export interface GeneratedComInterfaceAttribute$instance extends Attribute {
-    get exceptionToUnmanagedMarshaller(): Type | undefined;
-    set exceptionToUnmanagedMarshaller(value: Type);
-    options: ComInterfaceOptions;
-    stringMarshalling: StringMarshalling;
-    get stringMarshallingCustomType(): Type | undefined;
-    set stringMarshallingCustomType(value: Type);
+    get ExceptionToUnmanagedMarshaller(): Type | undefined;
+    set ExceptionToUnmanagedMarshaller(value: Type);
+    Options: ComInterfaceOptions;
+    StringMarshalling: StringMarshalling;
+    get StringMarshallingCustomType(): Type | undefined;
+    set StringMarshallingCustomType(value: Type);
 }
 
 
@@ -453,9 +453,9 @@ export const GeneratedComInterfaceAttribute: {
 export type GeneratedComInterfaceAttribute = GeneratedComInterfaceAttribute$instance;
 
 export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends Attribute {
-    readonly iid: Guid;
-    readonly implementation: Type;
-    readonly managedVirtualMethodTable: ptr<void>;
+    readonly Iid: Guid;
+    readonly Implementation: Type;
+    readonly ManagedVirtualMethodTable: ptr<void>;
 }
 
 
@@ -474,24 +474,24 @@ export type IUnknownDerivedAttribute_2<T extends IIUnknownInterfaceType, TImpl> 
 
 
 export interface MarshalUsingAttribute$instance extends Attribute {
-    constantElementCount: int;
-    countElementName: string;
-    elementIndirectionDepth: int;
-    readonly nativeType: Type;
+    ConstantElementCount: int;
+    CountElementName: string;
+    ElementIndirectionDepth: int;
+    readonly NativeType: Type;
 }
 
 
 export const MarshalUsingAttribute: {
     new(): MarshalUsingAttribute;
     new(nativeType: Type): MarshalUsingAttribute;
-    readonly returnsCountValue: string;
+    readonly ReturnsCountValue: string;
 };
 
 
 export type MarshalUsingAttribute = MarshalUsingAttribute$instance;
 
 export interface NativeMarshallingAttribute$instance extends Attribute {
-    readonly nativeType: Type;
+    readonly NativeType: Type;
 }
 
 
@@ -508,88 +508,88 @@ export interface StrategyBasedComWrappers$instance extends ComWrappers {
 
 export const StrategyBasedComWrappers: {
     new(): StrategyBasedComWrappers;
-    readonly defaultIUnknownInterfaceDetailsStrategy: IIUnknownInterfaceDetailsStrategy;
-    readonly defaultIUnknownStrategy: IIUnknownStrategy;
+    readonly DefaultIUnknownInterfaceDetailsStrategy: IIUnknownInterfaceDetailsStrategy;
+    readonly DefaultIUnknownStrategy: IIUnknownStrategy;
 };
 
 
 export type StrategyBasedComWrappers = StrategyBasedComWrappers$instance;
 
 export abstract class AnsiStringMarshaller$instance {
-    static convertToManaged(unmanaged: ptr<byte>): string | undefined;
-    static convertToUnmanaged(managed: string): ptr<byte>;
-    static free(unmanaged: ptr<byte>): void;
+    static ConvertToManaged(unmanaged: ptr<byte>): string | undefined;
+    static ConvertToUnmanaged(managed: string): ptr<byte>;
+    static Free(unmanaged: ptr<byte>): void;
 }
 
 
 export type AnsiStringMarshaller = AnsiStringMarshaller$instance;
 
 export abstract class ArrayMarshaller_2$instance {
-    static allocateContainerForManagedElements<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): T[] | undefined;
-    static allocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: T[], numElements: int): ptr<TUnmanagedElement>;
-    static free<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
-    static getManagedValuesDestination<T, TUnmanagedElement extends unknown>(managed: T[]): Span_1<T>;
-    static getManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: T[]): ReadOnlySpan_1<T>;
-    static getUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
-    static getUnmanagedValuesSource<T, TUnmanagedElement extends unknown>(unmanagedValue: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
+    static AllocateContainerForManagedElements<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): T[] | undefined;
+    static AllocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: T[], numElements: int): ptr<TUnmanagedElement>;
+    static Free<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
+    static GetManagedValuesDestination<T, TUnmanagedElement extends unknown>(managed: T[]): Span_1<T>;
+    static GetManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: T[]): ReadOnlySpan_1<T>;
+    static GetUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
+    static GetUnmanagedValuesSource<T, TUnmanagedElement extends unknown>(unmanagedValue: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
 }
 
 
 export abstract class BStrStringMarshaller$instance {
-    static convertToManaged(unmanaged: ptr<ushort>): string | undefined;
-    static convertToUnmanaged(managed: string): ptr<ushort>;
-    static free(unmanaged: ptr<ushort>): void;
+    static ConvertToManaged(unmanaged: ptr<ushort>): string | undefined;
+    static ConvertToUnmanaged(managed: string): ptr<ushort>;
+    static Free(unmanaged: ptr<ushort>): void;
 }
 
 
 export type BStrStringMarshaller = BStrStringMarshaller$instance;
 
 export abstract class ComInterfaceMarshaller_1$instance {
-    static convertToManaged<T>(unmanaged: ptr<void>): T | undefined;
-    static convertToUnmanaged<T>(managed: T): ptr<void>;
-    static free<T>(unmanaged: ptr<void>): void;
+    static ConvertToManaged<T>(unmanaged: ptr<void>): T | undefined;
+    static ConvertToUnmanaged<T>(managed: T): ptr<void>;
+    static Free<T>(unmanaged: ptr<void>): void;
 }
 
 
 export abstract class ComVariantMarshaller$instance {
-    static convertToManaged(unmanaged: ComVariant): unknown | undefined;
-    static convertToUnmanaged(managed: unknown): ComVariant;
-    static free(unmanaged: ComVariant): void;
+    static ConvertToManaged(unmanaged: ComVariant): unknown | undefined;
+    static ConvertToUnmanaged(managed: unknown): ComVariant;
+    static Free(unmanaged: ComVariant): void;
 }
 
 
 export type ComVariantMarshaller = ComVariantMarshaller$instance;
 
 export abstract class ExceptionAsDefaultMarshaller_1$instance {
-    static convertToUnmanaged<T extends unknown>(e: Exception): T;
+    static ConvertToUnmanaged<T extends unknown>(e: Exception): T;
 }
 
 
 export abstract class ExceptionAsHResultMarshaller_1$instance {
-    static convertToUnmanaged<T extends INumber_1<T>>(e: Exception): T;
+    static ConvertToUnmanaged<T extends INumber_1<T>>(e: Exception): T;
 }
 
 
 export abstract class ExceptionAsNaNMarshaller_1$instance {
-    static convertToUnmanaged<T extends IFloatingPointIeee754_1<T>>(e: Exception): T;
+    static ConvertToUnmanaged<T extends IFloatingPointIeee754_1<T>>(e: Exception): T;
 }
 
 
 export abstract class ExceptionAsVoidMarshaller$instance {
-    static convertToUnmanaged(e: Exception): void;
+    static ConvertToUnmanaged(e: Exception): void;
 }
 
 
 export type ExceptionAsVoidMarshaller = ExceptionAsVoidMarshaller$instance;
 
 export abstract class PointerArrayMarshaller_2$instance {
-    static allocateContainerForManagedElements<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): ptr<T>[] | undefined;
-    static allocateContainerForUnmanagedElements<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[], numElements: int): ptr<TUnmanagedElement>;
-    static free<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
-    static getManagedValuesDestination<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[]): Span_1<System_Internal.IntPtr>;
-    static getManagedValuesSource<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[]): ReadOnlySpan_1<System_Internal.IntPtr>;
-    static getUnmanagedValuesDestination<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
-    static getUnmanagedValuesSource<T extends unknown, TUnmanagedElement extends unknown>(unmanagedValue: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
+    static AllocateContainerForManagedElements<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): ptr<T>[] | undefined;
+    static AllocateContainerForUnmanagedElements<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[], numElements: int): ptr<TUnmanagedElement>;
+    static Free<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
+    static GetManagedValuesDestination<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[]): Span_1<System_Internal.IntPtr>;
+    static GetManagedValuesSource<T extends unknown, TUnmanagedElement extends unknown>(managed: ptr<T>[]): ReadOnlySpan_1<System_Internal.IntPtr>;
+    static GetUnmanagedValuesDestination<T extends unknown, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
+    static GetUnmanagedValuesSource<T extends unknown, TUnmanagedElement extends unknown>(unmanagedValue: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
 }
 
 
@@ -598,9 +598,9 @@ export abstract class ReadOnlySpanMarshaller_2$instance {
 
 
 export abstract class ReadOnlySpanMarshaller_2_UnmanagedToManagedOut$instance {
-    static allocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>, numElements: int): ptr<TUnmanagedElement>;
-    static getManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
-    static getUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
+    static AllocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>, numElements: int): ptr<TUnmanagedElement>;
+    static GetManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
+    static GetUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
 }
 
 
@@ -609,37 +609,37 @@ export abstract class SafeHandleMarshaller_1$instance {
 
 
 export abstract class SpanMarshaller_2$instance {
-    static allocateContainerForManagedElements<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<T>;
-    static allocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: Span_1<T>, numElements: int): ptr<TUnmanagedElement>;
-    static free<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
-    static getManagedValuesDestination<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): Span_1<T>;
-    static getManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): ReadOnlySpan_1<T>;
-    static getUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
-    static getUnmanagedValuesSource<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
+    static AllocateContainerForManagedElements<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<T>;
+    static AllocateContainerForUnmanagedElements<T, TUnmanagedElement extends unknown>(managed: Span_1<T>, numElements: int): ptr<TUnmanagedElement>;
+    static Free<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>): void;
+    static GetManagedValuesDestination<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): Span_1<T>;
+    static GetManagedValuesSource<T, TUnmanagedElement extends unknown>(managed: Span_1<T>): ReadOnlySpan_1<T>;
+    static GetUnmanagedValuesDestination<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): Span_1<TUnmanagedElement>;
+    static GetUnmanagedValuesSource<T, TUnmanagedElement extends unknown>(unmanaged: ptr<TUnmanagedElement>, numElements: int): ReadOnlySpan_1<TUnmanagedElement>;
 }
 
 
 export abstract class UniqueComInterfaceMarshaller_1$instance {
-    static convertToManaged<T>(unmanaged: ptr<void>): T | undefined;
-    static convertToUnmanaged<T>(managed: T): ptr<void>;
-    static free<T>(unmanaged: ptr<void>): void;
+    static ConvertToManaged<T>(unmanaged: ptr<void>): T | undefined;
+    static ConvertToUnmanaged<T>(managed: T): ptr<void>;
+    static Free<T>(unmanaged: ptr<void>): void;
 }
 
 
 export abstract class Utf16StringMarshaller$instance {
-    static convertToManaged(unmanaged: ptr<ushort>): string | undefined;
-    static convertToUnmanaged(managed: string): ptr<ushort>;
-    static free(unmanaged: ptr<ushort>): void;
-    static getPinnableReference(str: string): char;
+    static ConvertToManaged(unmanaged: ptr<ushort>): string | undefined;
+    static ConvertToUnmanaged(managed: string): ptr<ushort>;
+    static Free(unmanaged: ptr<ushort>): void;
+    static GetPinnableReference(str: string): char;
 }
 
 
 export type Utf16StringMarshaller = Utf16StringMarshaller$instance;
 
 export abstract class Utf8StringMarshaller$instance {
-    static convertToManaged(unmanaged: ptr<byte>): string | undefined;
-    static convertToUnmanaged(managed: string): ptr<byte>;
-    static free(unmanaged: ptr<byte>): void;
+    static ConvertToManaged(unmanaged: ptr<byte>): string | undefined;
+    static ConvertToUnmanaged(managed: string): ptr<byte>;
+    static Free(unmanaged: ptr<byte>): void;
 }
 
 

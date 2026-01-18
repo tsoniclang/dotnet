@@ -16,26 +16,26 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from "../../System/internal/index.js";
 
 export enum XmlKnownDtds {
-    none = 0,
-    xhtml10 = 1,
-    rss091 = 2,
-    all = 65535
+    None = 0,
+    Xhtml10 = 1,
+    Rss091 = 2,
+    All = 65535
 }
 
 
 export interface XmlPreloadedResolver$instance extends XmlResolver {
-    credentials: ICredentials;
-    readonly preloadedUris: IEnumerable_1<Uri>;
-    add(uri: Uri, value: byte[]): void;
-    add(uri: Uri, value: byte[], offset: int, count: int): void;
-    add(uri: Uri, value: Stream): void;
-    add(uri: Uri, value: string): void;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
-    remove(uri: Uri): void;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
-    supportsType(absoluteUri: Uri, type: Type): boolean;
+    Credentials: ICredentials;
+    readonly PreloadedUris: IEnumerable_1<Uri>;
+    Add(uri: Uri, value: byte[]): void;
+    Add(uri: Uri, value: byte[], offset: int, count: int): void;
+    Add(uri: Uri, value: Stream): void;
+    Add(uri: Uri, value: string): void;
+    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    Remove(uri: Uri): void;
+    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
+    SupportsType(absoluteUri: Uri, type: Type): boolean;
 }
 
 

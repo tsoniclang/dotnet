@@ -19,190 +19,190 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DayOfWeek, Double, Enum, Exception, Guid, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, StringComparer, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum CalendarAlgorithmType {
-    unknown = 0,
-    solarCalendar = 1,
-    lunarCalendar = 2,
-    lunisolarCalendar = 3
+    Unknown = 0,
+    SolarCalendar = 1,
+    LunarCalendar = 2,
+    LunisolarCalendar = 3
 }
 
 
 export enum CalendarWeekRule {
-    firstDay = 0,
-    firstFullWeek = 1,
-    firstFourDayWeek = 2
+    FirstDay = 0,
+    FirstFullWeek = 1,
+    FirstFourDayWeek = 2
 }
 
 
 export enum CompareOptions {
-    none = 0,
-    ignoreCase = 1,
-    ignoreNonSpace = 2,
-    ignoreSymbols = 4,
-    ignoreKanaType = 8,
-    ignoreWidth = 16,
-    numericOrdering = 32,
-    ordinalIgnoreCase = 268435456,
-    stringSort = 536870912,
-    ordinal = 1073741824
+    None = 0,
+    IgnoreCase = 1,
+    IgnoreNonSpace = 2,
+    IgnoreSymbols = 4,
+    IgnoreKanaType = 8,
+    IgnoreWidth = 16,
+    NumericOrdering = 32,
+    OrdinalIgnoreCase = 268435456,
+    StringSort = 536870912,
+    Ordinal = 1073741824
 }
 
 
 export enum CultureTypes {
-    neutralCultures = 1,
-    specificCultures = 2,
-    installedWin32Cultures = 4,
-    allCultures = 7,
-    userCustomCulture = 8,
-    replacementCultures = 16,
-    windowsOnlyCultures = 32,
-    frameworkCultures = 64
+    NeutralCultures = 1,
+    SpecificCultures = 2,
+    InstalledWin32Cultures = 4,
+    AllCultures = 7,
+    UserCustomCulture = 8,
+    ReplacementCultures = 16,
+    WindowsOnlyCultures = 32,
+    FrameworkCultures = 64
 }
 
 
 export enum DateTimeStyles {
-    none = 0,
-    allowLeadingWhite = 1,
-    allowTrailingWhite = 2,
-    allowInnerWhite = 4,
-    allowWhiteSpaces = 7,
-    noCurrentDateDefault = 8,
-    adjustToUniversal = 16,
-    assumeLocal = 32,
-    assumeUniversal = 64,
-    roundtripKind = 128
+    None = 0,
+    AllowLeadingWhite = 1,
+    AllowTrailingWhite = 2,
+    AllowInnerWhite = 4,
+    AllowWhiteSpaces = 7,
+    NoCurrentDateDefault = 8,
+    AdjustToUniversal = 16,
+    AssumeLocal = 32,
+    AssumeUniversal = 64,
+    RoundtripKind = 128
 }
 
 
 export enum DigitShapes {
-    context = 0,
-    none = 1,
-    nativeNational = 2
+    Context = 0,
+    None = 1,
+    NativeNational = 2
 }
 
 
 export enum GregorianCalendarTypes {
-    localized = 1,
-    usEnglish = 2,
-    middleEastFrench = 9,
-    arabic = 10,
-    transliteratedEnglish = 11,
-    transliteratedFrench = 12
+    Localized = 1,
+    USEnglish = 2,
+    MiddleEastFrench = 9,
+    Arabic = 10,
+    TransliteratedEnglish = 11,
+    TransliteratedFrench = 12
 }
 
 
 export enum NumberStyles {
-    none = 0,
-    allowLeadingWhite = 1,
-    allowTrailingWhite = 2,
-    allowLeadingSign = 4,
-    allowTrailingSign = 8,
-    allowParentheses = 16,
-    allowDecimalPoint = 32,
-    allowThousands = 64,
-    allowExponent = 128,
-    allowCurrencySymbol = 256,
-    allowHexSpecifier = 512,
-    allowBinarySpecifier = 1024,
-    integer = 7,
-    hexNumber = 515,
-    binaryNumber = 1027,
-    number = 111,
-    float = 167,
-    currency = 383,
-    any = 511
+    None = 0,
+    AllowLeadingWhite = 1,
+    AllowTrailingWhite = 2,
+    AllowLeadingSign = 4,
+    AllowTrailingSign = 8,
+    AllowParentheses = 16,
+    AllowDecimalPoint = 32,
+    AllowThousands = 64,
+    AllowExponent = 128,
+    AllowCurrencySymbol = 256,
+    AllowHexSpecifier = 512,
+    AllowBinarySpecifier = 1024,
+    Integer = 7,
+    HexNumber = 515,
+    BinaryNumber = 1027,
+    Number = 111,
+    Float = 167,
+    Currency = 383,
+    Any = 511
 }
 
 
 export enum TimeSpanStyles {
-    none = 0,
-    assumeNegative = 1
+    None = 0,
+    AssumeNegative = 1
 }
 
 
 export enum UnicodeCategory {
-    uppercaseLetter = 0,
-    lowercaseLetter = 1,
-    titlecaseLetter = 2,
-    modifierLetter = 3,
-    otherLetter = 4,
-    nonSpacingMark = 5,
-    spacingCombiningMark = 6,
-    enclosingMark = 7,
-    decimalDigitNumber = 8,
-    letterNumber = 9,
-    otherNumber = 10,
-    spaceSeparator = 11,
-    lineSeparator = 12,
-    paragraphSeparator = 13,
-    control = 14,
-    format = 15,
-    surrogate = 16,
-    privateUse = 17,
-    connectorPunctuation = 18,
-    dashPunctuation = 19,
-    openPunctuation = 20,
-    closePunctuation = 21,
-    initialQuotePunctuation = 22,
-    finalQuotePunctuation = 23,
-    otherPunctuation = 24,
-    mathSymbol = 25,
-    currencySymbol = 26,
-    modifierSymbol = 27,
-    otherSymbol = 28,
-    otherNotAssigned = 29
+    UppercaseLetter = 0,
+    LowercaseLetter = 1,
+    TitlecaseLetter = 2,
+    ModifierLetter = 3,
+    OtherLetter = 4,
+    NonSpacingMark = 5,
+    SpacingCombiningMark = 6,
+    EnclosingMark = 7,
+    DecimalDigitNumber = 8,
+    LetterNumber = 9,
+    OtherNumber = 10,
+    SpaceSeparator = 11,
+    LineSeparator = 12,
+    ParagraphSeparator = 13,
+    Control = 14,
+    Format = 15,
+    Surrogate = 16,
+    PrivateUse = 17,
+    ConnectorPunctuation = 18,
+    DashPunctuation = 19,
+    OpenPunctuation = 20,
+    ClosePunctuation = 21,
+    InitialQuotePunctuation = 22,
+    FinalQuotePunctuation = 23,
+    OtherPunctuation = 24,
+    MathSymbol = 25,
+    CurrencySymbol = 26,
+    ModifierSymbol = 27,
+    OtherSymbol = 28,
+    OtherNotAssigned = 29
 }
 
 
 export interface Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly isReadOnly: boolean;
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addDays(time: DateTime, days: int): DateTime;
-    addHours(time: DateTime, hours: int): DateTime;
-    addMilliseconds(time: DateTime, milliseconds: double): DateTime;
-    addMinutes(time: DateTime, minutes: int): DateTime;
-    addMonths(time: DateTime, months: int): DateTime;
-    addSeconds(time: DateTime, seconds: int): DateTime;
-    addWeeks(time: DateTime, weeks: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getEra(time: DateTime): int;
-    getHour(time: DateTime): int;
-    getLeapMonth(year: int): int;
-    getLeapMonth(year: int, era: int): int;
-    getMilliseconds(time: DateTime): double;
-    getMinute(time: DateTime): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int): int;
-    getMonthsInYear(year: int, era: int): int;
-    getSecond(time: DateTime): int;
-    getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly IsReadOnly: boolean;
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddDays(time: DateTime, days: int): DateTime;
+    AddHours(time: DateTime, hours: int): DateTime;
+    AddMilliseconds(time: DateTime, milliseconds: double): DateTime;
+    AddMinutes(time: DateTime, minutes: int): DateTime;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddSeconds(time: DateTime, seconds: int): DateTime;
+    AddWeeks(time: DateTime, weeks: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetEra(time: DateTime): int;
+    GetHour(time: DateTime): int;
+    GetLeapMonth(year: int): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetMilliseconds(time: DateTime): double;
+    GetMinute(time: DateTime): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetSecond(time: DateTime): int;
+    GetWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const Calendar: {
-    readonly currentEra: int;
-    readOnly(calendar: Calendar): Calendar;
+    readonly CurrentEra: int;
+    ReadOnly(calendar: Calendar): Calendar;
 };
 
 
@@ -216,17 +216,17 @@ export type Calendar = Calendar$instance & __Calendar$views;
 
 
 export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    clone(): unknown;
-    getEra(time: DateTime): int;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    Clone(): unknown;
+    GetEra(time: DateTime): int;
 }
 
 
 export const ChineseLunisolarCalendar: {
     new(): ChineseLunisolarCalendar;
-    readonly chineseEra: int;
+    readonly ChineseEra: int;
 };
 
 
@@ -239,75 +239,75 @@ export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __Chi
 
 export interface CompareInfo$instance {
     readonly LCID: int;
-    readonly name: string;
-    readonly version: SortVersion;
-    compare(string1: string, string2: string): int;
-    compare(string1: string, string2: string, options: CompareOptions): int;
-    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int): int;
-    compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
-    compare(string1: string, offset1: int, string2: string, offset2: int): int;
-    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
-    compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    equals(value: unknown): boolean;
-    getHashCode(): int;
-    getHashCode(source: string, options: CompareOptions): int;
-    getHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
-    getSortKey(source: string, options: CompareOptions): SortKey;
-    getSortKey(source: string): SortKey;
-    getSortKey(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, options?: CompareOptions): int;
-    getSortKeyLength(source: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    indexOf(source: string, value: char): int;
-    indexOf(source: string, value: string): int;
-    indexOf(source: string, value: char, options: CompareOptions): int;
-    indexOf(source: string, value: string, options: CompareOptions): int;
-    indexOf(source: string, value: char, startIndex: int): int;
-    indexOf(source: string, value: string, startIndex: int): int;
-    indexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
-    indexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
-    indexOf(source: string, value: char, startIndex: int, count: int): int;
-    indexOf(source: string, value: string, startIndex: int, count: int): int;
-    indexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
-    indexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
-    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
-    isPrefix(source: string, prefix: string, options: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
-    isPrefix(source: string, prefix: string): boolean;
-    isSuffix(source: string, suffix: string, options: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
-    isSuffix(source: string, suffix: string): boolean;
-    lastIndexOf(source: string, value: char): int;
-    lastIndexOf(source: string, value: string): int;
-    lastIndexOf(source: string, value: char, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, options: CompareOptions): int;
-    lastIndexOf(source: string, value: char, startIndex: int): int;
-    lastIndexOf(source: string, value: string, startIndex: int): int;
-    lastIndexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
-    lastIndexOf(source: string, value: char, startIndex: int, count: int): int;
-    lastIndexOf(source: string, value: string, startIndex: int, count: int): int;
-    lastIndexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
-    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
-    toString(): string;
+    readonly Name: string;
+    readonly Version: SortVersion;
+    Compare(string1: string, string2: string): int;
+    Compare(string1: string, string2: string, options: CompareOptions): int;
+    Compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int): int;
+    Compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
+    Compare(string1: string, offset1: int, string2: string, offset2: int): int;
+    Compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
+    Compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    GetHashCode(source: string, options: CompareOptions): int;
+    GetHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
+    GetSortKey(source: string, options: CompareOptions): SortKey;
+    GetSortKey(source: string): SortKey;
+    GetSortKey(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, options?: CompareOptions): int;
+    GetSortKeyLength(source: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    IndexOf(source: string, value: char): int;
+    IndexOf(source: string, value: string): int;
+    IndexOf(source: string, value: char, options: CompareOptions): int;
+    IndexOf(source: string, value: string, options: CompareOptions): int;
+    IndexOf(source: string, value: char, startIndex: int): int;
+    IndexOf(source: string, value: string, startIndex: int): int;
+    IndexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
+    IndexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
+    IndexOf(source: string, value: char, startIndex: int, count: int): int;
+    IndexOf(source: string, value: string, startIndex: int, count: int): int;
+    IndexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
+    IndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
+    IndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    IndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
+    IndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
+    IsPrefix(source: string, prefix: string, options: CompareOptions): boolean;
+    IsPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
+    IsPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
+    IsPrefix(source: string, prefix: string): boolean;
+    IsSuffix(source: string, suffix: string, options: CompareOptions): boolean;
+    IsSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
+    IsSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
+    IsSuffix(source: string, suffix: string): boolean;
+    LastIndexOf(source: string, value: char): int;
+    LastIndexOf(source: string, value: string): int;
+    LastIndexOf(source: string, value: char, options: CompareOptions): int;
+    LastIndexOf(source: string, value: string, options: CompareOptions): int;
+    LastIndexOf(source: string, value: char, startIndex: int): int;
+    LastIndexOf(source: string, value: string, startIndex: int): int;
+    LastIndexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
+    LastIndexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
+    LastIndexOf(source: string, value: char, startIndex: int, count: int): int;
+    LastIndexOf(source: string, value: string, startIndex: int, count: int): int;
+    LastIndexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
+    LastIndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
+    LastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    LastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
+    LastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
+    ToString(): string;
 }
 
 
 export const CompareInfo: {
     new(): CompareInfo;
-    getCompareInfo(culture: int, assembly: Assembly): CompareInfo;
-    getCompareInfo(culture: int): CompareInfo;
-    getCompareInfo(name: string, assembly: Assembly): CompareInfo;
-    getCompareInfo(name: string): CompareInfo;
-    isSortable(ch: char): boolean;
-    isSortable(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    isSortable(text: string): boolean;
-    isSortable(value: Rune): boolean;
+    GetCompareInfo(culture: int, assembly: Assembly): CompareInfo;
+    GetCompareInfo(culture: int): CompareInfo;
+    GetCompareInfo(name: string, assembly: Assembly): CompareInfo;
+    GetCompareInfo(name: string): CompareInfo;
+    IsSortable(ch: char): boolean;
+    IsSortable(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    IsSortable(text: string): boolean;
+    IsSortable(value: Rune): boolean;
 };
 
 
@@ -321,34 +321,34 @@ export type CompareInfo = CompareInfo$instance & __CompareInfo$views;
 
 
 export interface CultureInfo$instance {
-    readonly calendar: Calendar;
-    readonly compareInfo: CompareInfo;
-    readonly cultureTypes: CultureTypes;
-    dateTimeFormat: DateTimeFormatInfo;
-    readonly displayName: string;
-    readonly englishName: string;
-    readonly ietfLanguageTag: string;
-    readonly isNeutralCulture: boolean;
-    readonly isReadOnly: boolean;
-    readonly keyboardLayoutId: int;
+    readonly Calendar: Calendar;
+    readonly CompareInfo: CompareInfo;
+    readonly CultureTypes: CultureTypes;
+    DateTimeFormat: DateTimeFormatInfo;
+    readonly DisplayName: string;
+    readonly EnglishName: string;
+    readonly IetfLanguageTag: string;
+    readonly IsNeutralCulture: boolean;
+    readonly IsReadOnly: boolean;
+    readonly KeyboardLayoutId: int;
     readonly LCID: int;
-    readonly name: string;
-    readonly nativeName: string;
-    numberFormat: NumberFormatInfo;
-    readonly optionalCalendars: Calendar[];
-    readonly parent: CultureInfo;
-    readonly textInfo: TextInfo;
-    readonly threeLetterISOLanguageName: string;
-    readonly threeLetterWindowsLanguageName: string;
-    readonly twoLetterISOLanguageName: string;
-    readonly useUserOverride: boolean;
-    clearCachedData(): void;
-    clone(): unknown;
-    equals(value: unknown): boolean;
-    getConsoleFallbackUICulture(): CultureInfo;
-    getFormat(formatType: Type): unknown | undefined;
-    getHashCode(): int;
-    toString(): string;
+    readonly Name: string;
+    readonly NativeName: string;
+    NumberFormat: NumberFormatInfo;
+    readonly OptionalCalendars: Calendar[];
+    readonly Parent: CultureInfo;
+    readonly TextInfo: TextInfo;
+    readonly ThreeLetterISOLanguageName: string;
+    readonly ThreeLetterWindowsLanguageName: string;
+    readonly TwoLetterISOLanguageName: string;
+    readonly UseUserOverride: boolean;
+    ClearCachedData(): void;
+    Clone(): unknown;
+    Equals(value: unknown): boolean;
+    GetConsoleFallbackUICulture(): CultureInfo;
+    GetFormat(formatType: Type): unknown | undefined;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -357,22 +357,22 @@ export const CultureInfo: {
     new(name: string, useUserOverride: boolean): CultureInfo;
     new(culture: int): CultureInfo;
     new(culture: int, useUserOverride: boolean): CultureInfo;
-    currentCulture: CultureInfo;
-    currentUICulture: CultureInfo;
-    readonly installedUICulture: CultureInfo;
-    get defaultThreadCurrentCulture(): CultureInfo | undefined;
-    set defaultThreadCurrentCulture(value: CultureInfo);
-    get defaultThreadCurrentUICulture(): CultureInfo | undefined;
-    set defaultThreadCurrentUICulture(value: CultureInfo);
-    readonly invariantCulture: CultureInfo;
-    createSpecificCulture(name: string): CultureInfo;
-    getCultureInfo(culture: int): CultureInfo;
-    getCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
-    getCultureInfo(name: string, altName: string): CultureInfo;
-    getCultureInfo(name: string): CultureInfo;
-    getCultureInfoByIetfLanguageTag(name: string): CultureInfo;
-    getCultures(types: CultureTypes): CultureInfo[];
-    readOnly(ci: CultureInfo): CultureInfo;
+    CurrentCulture: CultureInfo;
+    CurrentUICulture: CultureInfo;
+    readonly InstalledUICulture: CultureInfo;
+    get DefaultThreadCurrentCulture(): CultureInfo | undefined;
+    set DefaultThreadCurrentCulture(value: CultureInfo);
+    get DefaultThreadCurrentUICulture(): CultureInfo | undefined;
+    set DefaultThreadCurrentUICulture(value: CultureInfo);
+    readonly InvariantCulture: CultureInfo;
+    CreateSpecificCulture(name: string): CultureInfo;
+    GetCultureInfo(culture: int): CultureInfo;
+    GetCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
+    GetCultureInfo(name: string, altName: string): CultureInfo;
+    GetCultureInfo(name: string): CultureInfo;
+    GetCultureInfoByIetfLanguageTag(name: string): CultureInfo;
+    GetCultures(types: CultureTypes): CultureInfo[];
+    ReadOnly(ci: CultureInfo): CultureInfo;
 };
 
 
@@ -387,10 +387,10 @@ export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
 export interface CultureNotFoundException$instance extends ArgumentException {
-    readonly invalidCultureId: Nullable_1<System_Internal.Int32>;
-    readonly invalidCultureName: string | undefined;
-    readonly message: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly InvalidCultureId: Nullable_1<System_Internal.Int32>;
+    readonly InvalidCultureName: string | undefined;
+    readonly Message: string;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -414,54 +414,54 @@ export type CultureNotFoundException = CultureNotFoundException$instance & __Cul
 
 
 export interface DateTimeFormatInfo$instance {
-    abbreviatedDayNames: string[];
-    abbreviatedMonthGenitiveNames: string[];
-    abbreviatedMonthNames: string[];
-    amDesignator: string;
-    calendar: Calendar;
-    calendarWeekRule: CalendarWeekRule;
-    dateSeparator: string;
-    dayNames: string[];
-    firstDayOfWeek: DayOfWeek;
-    fullDateTimePattern: string;
-    readonly isReadOnly: boolean;
-    longDatePattern: string;
-    longTimePattern: string;
-    monthDayPattern: string;
-    monthGenitiveNames: string[];
-    monthNames: string[];
-    readonly nativeCalendarName: string;
-    pmDesignator: string;
-    readonly rfC1123Pattern: string;
-    shortDatePattern: string;
-    shortestDayNames: string[];
-    shortTimePattern: string;
-    readonly sortableDateTimePattern: string;
-    timeSeparator: string;
-    readonly universalSortableDateTimePattern: string;
-    yearMonthPattern: string;
-    clone(): unknown;
-    getAbbreviatedDayName(dayofweek: DayOfWeek): string;
-    getAbbreviatedEraName(era: int): string;
-    getAbbreviatedMonthName(month: int): string;
-    getAllDateTimePatterns(): string[];
-    getAllDateTimePatterns(format: char): string[];
-    getDayName(dayofweek: DayOfWeek): string;
-    getEra(eraName: string): int;
-    getEraName(era: int): string;
-    getFormat(formatType: Type): unknown | undefined;
-    getMonthName(month: int): string;
-    getShortestDayName(dayOfWeek: DayOfWeek): string;
-    setAllDateTimePatterns(patterns: string[], format: char): void;
+    AbbreviatedDayNames: string[];
+    AbbreviatedMonthGenitiveNames: string[];
+    AbbreviatedMonthNames: string[];
+    AMDesignator: string;
+    Calendar: Calendar;
+    CalendarWeekRule: CalendarWeekRule;
+    DateSeparator: string;
+    DayNames: string[];
+    FirstDayOfWeek: DayOfWeek;
+    FullDateTimePattern: string;
+    readonly IsReadOnly: boolean;
+    LongDatePattern: string;
+    LongTimePattern: string;
+    MonthDayPattern: string;
+    MonthGenitiveNames: string[];
+    MonthNames: string[];
+    readonly NativeCalendarName: string;
+    PMDesignator: string;
+    readonly RFC1123Pattern: string;
+    ShortDatePattern: string;
+    ShortestDayNames: string[];
+    ShortTimePattern: string;
+    readonly SortableDateTimePattern: string;
+    TimeSeparator: string;
+    readonly UniversalSortableDateTimePattern: string;
+    YearMonthPattern: string;
+    Clone(): unknown;
+    GetAbbreviatedDayName(dayofweek: DayOfWeek): string;
+    GetAbbreviatedEraName(era: int): string;
+    GetAbbreviatedMonthName(month: int): string;
+    GetAllDateTimePatterns(): string[];
+    GetAllDateTimePatterns(format: char): string[];
+    GetDayName(dayofweek: DayOfWeek): string;
+    GetEra(eraName: string): int;
+    GetEraName(era: int): string;
+    GetFormat(formatType: Type): unknown | undefined;
+    GetMonthName(month: int): string;
+    GetShortestDayName(dayOfWeek: DayOfWeek): string;
+    SetAllDateTimePatterns(patterns: string[], format: char): void;
 }
 
 
 export const DateTimeFormatInfo: {
     new(): DateTimeFormatInfo;
-    readonly invariantInfo: DateTimeFormatInfo;
-    readonly currentInfo: DateTimeFormatInfo;
-    getInstance(provider: IFormatProvider): DateTimeFormatInfo;
-    readOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
+    readonly InvariantInfo: DateTimeFormatInfo;
+    readonly CurrentInfo: DateTimeFormatInfo;
+    GetInstance(provider: IFormatProvider): DateTimeFormatInfo;
+    ReadOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
 };
 
 
@@ -476,9 +476,9 @@ export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatI
 
 
 export interface DaylightTime$instance {
-    readonly delta: TimeSpan;
-    readonly end: DateTime;
-    readonly start: DateTime;
+    readonly Delta: TimeSpan;
+    readonly End: DateTime;
+    readonly Start: DateTime;
 }
 
 
@@ -490,36 +490,36 @@ export const DaylightTime: {
 export type DaylightTime = DaylightTime$instance;
 
 export interface EastAsianLunisolarCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getCelestialStem(sexagenaryYear: int): int;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getSexagenaryYear(time: DateTime): int;
-    getTerrestrialBranch(sexagenaryYear: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetCelestialStem(sexagenaryYear: int): int;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetSexagenaryYear(time: DateTime): int;
+    GetTerrestrialBranch(sexagenaryYear: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
@@ -535,45 +535,45 @@ export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & _
 
 
 export interface GregorianCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    calendarType: GregorianCalendarTypes;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    CalendarType: GregorianCalendarTypes;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const GregorianCalendar: {
     new(): GregorianCalendar;
     new(type: GregorianCalendarTypes): GregorianCalendar;
-    readonly adEra: int;
+    readonly ADEra: int;
 };
 
 
@@ -585,43 +585,43 @@ export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar
 
 
 export interface HebrewCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const HebrewCalendar: {
     new(): HebrewCalendar;
-    readonly hebrewEra: int;
+    readonly HebrewEra: int;
 };
 
 
@@ -633,44 +633,44 @@ export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
 
 export interface HijriCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    hijriAdjustment: int;
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    HijriAdjustment: int;
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const HijriCalendar: {
     new(): HijriCalendar;
-    readonly hijriEra: int;
+    readonly HijriEra: int;
 };
 
 
@@ -682,16 +682,16 @@ export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 
 
 export interface IdnMapping$instance {
-    allowUnassigned: boolean;
-    useStd3AsciiRules: boolean;
-    equals(obj: unknown): boolean;
-    getAscii(unicode: string): string;
-    getAscii(unicode: string, index: int): string;
-    getAscii(unicode: string, index: int, count: int): string;
-    getHashCode(): int;
-    getUnicode(ascii: string): string;
-    getUnicode(ascii: string, index: int): string;
-    getUnicode(ascii: string, index: int, count: int): string;
+    AllowUnassigned: boolean;
+    UseStd3AsciiRules: boolean;
+    Equals(obj: unknown): boolean;
+    GetAscii(unicode: string): string;
+    GetAscii(unicode: string, index: int): string;
+    GetAscii(unicode: string, index: int, count: int): string;
+    GetHashCode(): int;
+    GetUnicode(ascii: string): string;
+    GetUnicode(ascii: string, index: int): string;
+    GetUnicode(ascii: string, index: int, count: int): string;
 }
 
 
@@ -703,38 +703,38 @@ export const IdnMapping: {
 export type IdnMapping = IdnMapping$instance;
 
 export interface JapaneseCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
@@ -751,17 +751,17 @@ export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$vi
 
 
 export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    clone(): unknown;
-    getEra(time: DateTime): int;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    Clone(): unknown;
+    GetEra(time: DateTime): int;
 }
 
 
 export const JapaneseLunisolarCalendar: {
     new(): JapaneseLunisolarCalendar;
-    readonly japaneseEra: int;
+    readonly JapaneseEra: int;
 };
 
 
@@ -773,43 +773,43 @@ export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __J
 
 
 export interface JulianCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const JulianCalendar: {
     new(): JulianCalendar;
-    readonly julianEra: int;
+    readonly JulianEra: int;
 };
 
 
@@ -821,44 +821,44 @@ export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
 
 
 export interface KoreanCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const KoreanCalendar: {
     new(): KoreanCalendar;
-    readonly koreanEra: int;
+    readonly KoreanEra: int;
 };
 
 
@@ -870,17 +870,17 @@ export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
 export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    clone(): unknown;
-    getEra(time: DateTime): int;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    Clone(): unknown;
+    GetEra(time: DateTime): int;
 }
 
 
 export const KoreanLunisolarCalendar: {
     new(): KoreanLunisolarCalendar;
-    readonly gregorianEra: int;
+    readonly GregorianEra: int;
 };
 
 
@@ -892,45 +892,45 @@ export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __Korea
 
 
 export interface NumberFormatInfo$instance {
-    currencyDecimalDigits: int;
-    currencyDecimalSeparator: string;
-    currencyGroupSeparator: string;
-    currencyGroupSizes: int[];
-    currencyNegativePattern: int;
-    currencyPositivePattern: int;
-    currencySymbol: string;
-    digitSubstitution: DigitShapes;
-    readonly isReadOnly: boolean;
-    naNSymbol: string;
-    nativeDigits: string[];
-    negativeInfinitySymbol: string;
-    negativeSign: string;
-    numberDecimalDigits: int;
-    numberDecimalSeparator: string;
-    numberGroupSeparator: string;
-    numberGroupSizes: int[];
-    numberNegativePattern: int;
-    percentDecimalDigits: int;
-    percentDecimalSeparator: string;
-    percentGroupSeparator: string;
-    percentGroupSizes: int[];
-    percentNegativePattern: int;
-    percentPositivePattern: int;
-    percentSymbol: string;
-    perMilleSymbol: string;
-    positiveInfinitySymbol: string;
-    positiveSign: string;
-    clone(): unknown;
-    getFormat(formatType: Type): unknown | undefined;
+    CurrencyDecimalDigits: int;
+    CurrencyDecimalSeparator: string;
+    CurrencyGroupSeparator: string;
+    CurrencyGroupSizes: int[];
+    CurrencyNegativePattern: int;
+    CurrencyPositivePattern: int;
+    CurrencySymbol: string;
+    DigitSubstitution: DigitShapes;
+    readonly IsReadOnly: boolean;
+    NaNSymbol: string;
+    NativeDigits: string[];
+    NegativeInfinitySymbol: string;
+    NegativeSign: string;
+    NumberDecimalDigits: int;
+    NumberDecimalSeparator: string;
+    NumberGroupSeparator: string;
+    NumberGroupSizes: int[];
+    NumberNegativePattern: int;
+    PercentDecimalDigits: int;
+    PercentDecimalSeparator: string;
+    PercentGroupSeparator: string;
+    PercentGroupSizes: int[];
+    PercentNegativePattern: int;
+    PercentPositivePattern: int;
+    PercentSymbol: string;
+    PerMilleSymbol: string;
+    PositiveInfinitySymbol: string;
+    PositiveSign: string;
+    Clone(): unknown;
+    GetFormat(formatType: Type): unknown | undefined;
 }
 
 
 export const NumberFormatInfo: {
     new(): NumberFormatInfo;
-    readonly invariantInfo: NumberFormatInfo;
-    readonly currentInfo: NumberFormatInfo;
-    getInstance(formatProvider: IFormatProvider): NumberFormatInfo;
-    readOnly(nfi: NumberFormatInfo): NumberFormatInfo;
+    readonly InvariantInfo: NumberFormatInfo;
+    readonly CurrentInfo: NumberFormatInfo;
+    GetInstance(formatProvider: IFormatProvider): NumberFormatInfo;
+    ReadOnly(nfi: NumberFormatInfo): NumberFormatInfo;
 };
 
 
@@ -945,43 +945,43 @@ export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$vi
 
 
 export interface PersianCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const PersianCalendar: {
     new(): PersianCalendar;
-    readonly persianEra: int;
+    readonly PersianEra: int;
 };
 
 
@@ -993,57 +993,57 @@ export type PersianCalendar = PersianCalendar$instance & __PersianCalendar$views
 
 
 export interface RegionInfo$instance {
-    readonly currencyEnglishName: string;
-    readonly currencyNativeName: string;
-    readonly currencySymbol: string;
-    readonly displayName: string;
-    readonly englishName: string;
-    readonly geoId: int;
-    readonly isMetric: boolean;
-    readonly isoCurrencySymbol: string;
-    readonly name: string;
-    readonly nativeName: string;
-    readonly threeLetterISORegionName: string;
-    readonly threeLetterWindowsRegionName: string;
-    readonly twoLetterISORegionName: string;
-    equals(value: unknown): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly CurrencyEnglishName: string;
+    readonly CurrencyNativeName: string;
+    readonly CurrencySymbol: string;
+    readonly DisplayName: string;
+    readonly EnglishName: string;
+    readonly GeoId: int;
+    readonly IsMetric: boolean;
+    readonly ISOCurrencySymbol: string;
+    readonly Name: string;
+    readonly NativeName: string;
+    readonly ThreeLetterISORegionName: string;
+    readonly ThreeLetterWindowsRegionName: string;
+    readonly TwoLetterISORegionName: string;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export const RegionInfo: {
     new(name: string): RegionInfo;
     new(culture: int): RegionInfo;
-    readonly currentRegion: RegionInfo;
+    readonly CurrentRegion: RegionInfo;
 };
 
 
 export type RegionInfo = RegionInfo$instance;
 
 export interface SortKey$instance {
-    readonly keyData: byte[];
-    readonly originalString: string;
-    equals(value: unknown): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly KeyData: byte[];
+    readonly OriginalString: string;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export const SortKey: {
     new(): SortKey;
-    compare(sortkey1: SortKey, sortkey2: SortKey): int;
+    Compare(sortkey1: SortKey, sortkey2: SortKey): int;
 };
 
 
 export type SortKey = SortKey$instance;
 
 export interface SortVersion$instance {
-    readonly fullVersion: int;
-    readonly sortId: Guid;
-    equals(obj: unknown): boolean;
-    equals(other: SortVersion): boolean;
-    getHashCode(): int;
+    readonly FullVersion: int;
+    readonly SortId: Guid;
+    Equals(obj: unknown): boolean;
+    Equals(other: SortVersion): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1056,71 +1056,71 @@ export interface __SortVersion$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<SortVersion>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: SortVersion): boolean;
+    Equals(other: SortVersion): boolean;
 }
 
 export type SortVersion = SortVersion$instance & __SortVersion$views;
 
 
 export interface StringInfo$instance {
-    readonly lengthInTextElements: int;
-    string: string;
-    equals(value: unknown): boolean;
-    getHashCode(): int;
-    substringByTextElements(startingTextElement: int): string;
-    substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
+    readonly LengthInTextElements: int;
+    String: string;
+    Equals(value: unknown): boolean;
+    GetHashCode(): int;
+    SubstringByTextElements(startingTextElement: int): string;
+    SubstringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
 }
 
 
 export const StringInfo: {
     new(): StringInfo;
     new(value: string): StringInfo;
-    getNextTextElement(str: string, index: int): string;
-    getNextTextElement(str: string): string;
-    getNextTextElementLength(str: ReadOnlySpan_1<System_Internal.Char>): int;
-    getNextTextElementLength(str: string, index: int): int;
-    getNextTextElementLength(str: string): int;
-    getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
-    getTextElementEnumerator(str: string): TextElementEnumerator;
-    parseCombiningCharacters(str: string): int[];
+    GetNextTextElement(str: string, index: int): string;
+    GetNextTextElement(str: string): string;
+    GetNextTextElementLength(str: ReadOnlySpan_1<System_Internal.Char>): int;
+    GetNextTextElementLength(str: string, index: int): int;
+    GetNextTextElementLength(str: string): int;
+    GetTextElementEnumerator(str: string, index: int): TextElementEnumerator;
+    GetTextElementEnumerator(str: string): TextElementEnumerator;
+    ParseCombiningCharacters(str: string): int[];
 };
 
 
 export type StringInfo = StringInfo$instance;
 
 export interface TaiwanCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
@@ -1137,11 +1137,11 @@ export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
 
 export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    clone(): unknown;
-    getEra(time: DateTime): int;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    Clone(): unknown;
+    GetEra(time: DateTime): int;
 }
 
 
@@ -1158,11 +1158,11 @@ export type TaiwanLunisolarCalendar = TaiwanLunisolarCalendar$instance & __Taiwa
 
 
 export interface TextElementEnumerator$instance {
-    readonly current: unknown;
-    readonly elementIndex: int;
-    getTextElement(): string;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: unknown;
+    readonly ElementIndex: int;
+    GetTextElement(): string;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1181,30 +1181,30 @@ export type TextElementEnumerator = TextElementEnumerator$instance & __TextEleme
 
 
 export interface TextInfo$instance {
-    readonly ansiCodePage: int;
-    readonly cultureName: string;
-    readonly ebcdicCodePage: int;
-    readonly isReadOnly: boolean;
-    readonly isRightToLeft: boolean;
+    readonly ANSICodePage: int;
+    readonly CultureName: string;
+    readonly EBCDICCodePage: int;
+    readonly IsReadOnly: boolean;
+    readonly IsRightToLeft: boolean;
     readonly LCID: int;
-    listSeparator: string;
-    readonly macCodePage: int;
-    readonly oemCodePage: int;
-    clone(): unknown;
-    equals(obj: unknown): boolean;
-    getHashCode(): int;
-    toLower(c: char): char;
-    toLower(str: string): string;
-    toString(): string;
-    toTitleCase(str: string): string;
-    toUpper(c: char): char;
-    toUpper(str: string): string;
+    ListSeparator: string;
+    readonly MacCodePage: int;
+    readonly OEMCodePage: int;
+    Clone(): unknown;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    ToLower(c: char): char;
+    ToLower(str: string): string;
+    ToString(): string;
+    ToTitleCase(str: string): string;
+    ToUpper(c: char): char;
+    ToUpper(str: string): string;
 }
 
 
 export const TextInfo: {
     new(): TextInfo;
-    readOnly(textInfo: TextInfo): TextInfo;
+    ReadOnly(textInfo: TextInfo): TextInfo;
 };
 
 
@@ -1219,44 +1219,44 @@ export type TextInfo = TextInfo$instance & __TextInfo$views;
 
 
 export interface ThaiBuddhistCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const ThaiBuddhistCalendar: {
     new(): ThaiBuddhistCalendar;
-    readonly thaiBuddhistEra: int;
+    readonly ThaiBuddhistEra: int;
 };
 
 
@@ -1268,43 +1268,43 @@ export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhis
 
 
 export interface UmAlQuraCalendar$instance extends Calendar$instance {
-    readonly algorithmType: CalendarAlgorithmType;
-    readonly eras: int[];
-    readonly maxSupportedDateTime: DateTime;
-    readonly minSupportedDateTime: DateTime;
-    twoDigitYearMax: int;
-    addMonths(time: DateTime, months: int): DateTime;
-    addYears(time: DateTime, years: int): DateTime;
-    clone(): unknown;
-    getDayOfMonth(time: DateTime): int;
-    getDayOfWeek(time: DateTime): DayOfWeek;
-    getDayOfYear(time: DateTime): int;
-    getDaysInMonth(year: int, month: int, era: int): int;
-    getDaysInMonth(year: int, month: int): int;
-    getDaysInYear(year: int, era: int): int;
-    getDaysInYear(year: int): int;
-    getEra(time: DateTime): int;
-    getLeapMonth(year: int, era: int): int;
-    getLeapMonth(year: int): int;
-    getMonth(time: DateTime): int;
-    getMonthsInYear(year: int, era: int): int;
-    getMonthsInYear(year: int): int;
-    getYear(time: DateTime): int;
-    isLeapDay(year: int, month: int, day: int, era: int): boolean;
-    isLeapDay(year: int, month: int, day: int): boolean;
-    isLeapMonth(year: int, month: int, era: int): boolean;
-    isLeapMonth(year: int, month: int): boolean;
-    isLeapYear(year: int, era: int): boolean;
-    isLeapYear(year: int): boolean;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
-    toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
-    toFourDigitYear(year: int): int;
+    readonly AlgorithmType: CalendarAlgorithmType;
+    readonly Eras: int[];
+    readonly MaxSupportedDateTime: DateTime;
+    readonly MinSupportedDateTime: DateTime;
+    TwoDigitYearMax: int;
+    AddMonths(time: DateTime, months: int): DateTime;
+    AddYears(time: DateTime, years: int): DateTime;
+    Clone(): unknown;
+    GetDayOfMonth(time: DateTime): int;
+    GetDayOfWeek(time: DateTime): DayOfWeek;
+    GetDayOfYear(time: DateTime): int;
+    GetDaysInMonth(year: int, month: int, era: int): int;
+    GetDaysInMonth(year: int, month: int): int;
+    GetDaysInYear(year: int, era: int): int;
+    GetDaysInYear(year: int): int;
+    GetEra(time: DateTime): int;
+    GetLeapMonth(year: int, era: int): int;
+    GetLeapMonth(year: int): int;
+    GetMonth(time: DateTime): int;
+    GetMonthsInYear(year: int, era: int): int;
+    GetMonthsInYear(year: int): int;
+    GetYear(time: DateTime): int;
+    IsLeapDay(year: int, month: int, day: int, era: int): boolean;
+    IsLeapDay(year: int, month: int, day: int): boolean;
+    IsLeapMonth(year: int, month: int, era: int): boolean;
+    IsLeapMonth(year: int, month: int): boolean;
+    IsLeapYear(year: int, era: int): boolean;
+    IsLeapYear(year: int): boolean;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
+    ToDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
+    ToFourDigitYear(year: int): int;
 }
 
 
 export const UmAlQuraCalendar: {
     new(): UmAlQuraCalendar;
-    readonly umAlQuraEra: int;
+    readonly UmAlQuraEra: int;
 };
 
 
@@ -1316,37 +1316,37 @@ export type UmAlQuraCalendar = UmAlQuraCalendar$instance & __UmAlQuraCalendar$vi
 
 
 export abstract class CharUnicodeInfo$instance {
-    static getDecimalDigitValue(ch: char): int;
-    static getDecimalDigitValue(s: string, index: int): int;
-    static getDigitValue(ch: char): int;
-    static getDigitValue(s: string, index: int): int;
-    static getNumericValue(ch: char): double;
-    static getNumericValue(s: string, index: int): double;
-    static getUnicodeCategory(ch: char): UnicodeCategory;
-    static getUnicodeCategory(codePoint: int): UnicodeCategory;
-    static getUnicodeCategory(s: string, index: int): UnicodeCategory;
+    static GetDecimalDigitValue(ch: char): int;
+    static GetDecimalDigitValue(s: string, index: int): int;
+    static GetDigitValue(ch: char): int;
+    static GetDigitValue(s: string, index: int): int;
+    static GetNumericValue(ch: char): double;
+    static GetNumericValue(s: string, index: int): double;
+    static GetUnicodeCategory(ch: char): UnicodeCategory;
+    static GetUnicodeCategory(codePoint: int): UnicodeCategory;
+    static GetUnicodeCategory(s: string, index: int): UnicodeCategory;
 }
 
 
 export type CharUnicodeInfo = CharUnicodeInfo$instance;
 
 export abstract class GlobalizationExtensions$instance {
-    static getStringComparer(compareInfo: CompareInfo, options: CompareOptions): StringComparer;
+    static GetStringComparer(compareInfo: CompareInfo, options: CompareOptions): StringComparer;
 }
 
 
 export type GlobalizationExtensions = GlobalizationExtensions$instance;
 
 export abstract class ISOWeek$instance {
-    static getWeekOfYear(date: DateOnly): int;
-    static getWeekOfYear(date: DateTime): int;
-    static getWeeksInYear(year: int): int;
-    static getYear(date: DateOnly): int;
-    static getYear(date: DateTime): int;
-    static getYearEnd(year: int): DateTime;
-    static getYearStart(year: int): DateTime;
-    static toDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;
-    static toDateTime(year: int, week: int, dayOfWeek: DayOfWeek): DateTime;
+    static GetWeekOfYear(date: DateOnly): int;
+    static GetWeekOfYear(date: DateTime): int;
+    static GetWeeksInYear(year: int): int;
+    static GetYear(date: DateOnly): int;
+    static GetYear(date: DateTime): int;
+    static GetYearEnd(year: int): DateTime;
+    static GetYearStart(year: int): DateTime;
+    static ToDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;
+    static ToDateTime(year: int, week: int, dayOfWeek: DayOfWeek): DateTime;
 }
 
 

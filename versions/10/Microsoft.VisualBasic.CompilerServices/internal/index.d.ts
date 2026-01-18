@@ -24,8 +24,8 @@ export interface BooleanType$instance {
 
 export const BooleanType: {
     new(): BooleanType;
-    fromObject(Value: unknown): boolean;
-    fromString(Value: string): boolean;
+    FromObject(Value: unknown): boolean;
+    FromString(Value: string): boolean;
 };
 
 
@@ -37,8 +37,8 @@ export interface ByteType$instance {
 
 export const ByteType: {
     new(): ByteType;
-    fromObject(Value: unknown): byte;
-    fromString(Value: string): byte;
+    FromObject(Value: unknown): byte;
+    FromString(Value: string): byte;
 };
 
 
@@ -50,8 +50,8 @@ export interface CharArrayType$instance {
 
 export const CharArrayType: {
     new(): CharArrayType;
-    fromObject(Value: unknown): char[];
-    fromString(Value: string): char[];
+    FromObject(Value: unknown): char[];
+    FromString(Value: string): char[];
 };
 
 
@@ -63,8 +63,8 @@ export interface CharType$instance {
 
 export const CharType: {
     new(): CharType;
-    fromObject(Value: unknown): char;
-    fromString(Value: string): char;
+    FromObject(Value: unknown): char;
+    FromString(Value: string): char;
 };
 
 
@@ -76,59 +76,59 @@ export interface Conversions$instance {
 
 export const Conversions: {
     new(): Conversions;
-    changeType(Expression: unknown, TargetType: Type): unknown;
-    fallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
-    fromCharAndCount(Value: char, Count: int): string;
-    fromCharArray(Value: char[]): string;
-    fromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
-    toBoolean(Value: unknown): boolean;
-    toBoolean(Value: string): boolean;
-    toByte(Value: unknown): byte;
-    toByte(Value: string): byte;
-    toChar(Value: unknown): char;
-    toChar(Value: string): char;
-    toCharArrayRankOne(Value: unknown): char[];
-    toCharArrayRankOne(Value: string): char[];
-    toDate(Value: unknown): DateTime;
-    toDate(Value: string): DateTime;
-    toDecimal(Value: boolean): decimal;
-    toDecimal(Value: unknown): decimal;
-    toDecimal(Value: string): decimal;
-    toDouble(Value: unknown): double;
-    toDouble(Value: string): double;
-    toGenericParameter<T>(Value: unknown): T;
-    toInteger(Value: unknown): int;
-    toInteger(Value: string): int;
-    toLong(Value: unknown): long;
-    toLong(Value: string): long;
-    toSByte(Value: unknown): sbyte;
-    toSByte(Value: string): sbyte;
-    toShort(Value: unknown): short;
-    toShort(Value: string): short;
-    toSingle(Value: unknown): float;
-    toSingle(Value: string): float;
-    toString(Value: boolean): string;
-    toString(Value: byte): string;
-    toString(Value: char): string;
-    toString(Value: DateTime): string;
-    toString(Value: decimal, NumberFormat: NumberFormatInfo): string;
-    toString(Value: decimal): string;
-    toString(Value: double, NumberFormat: NumberFormatInfo): string;
-    toString(Value: double): string;
-    toString(Value: short): string;
-    toString(Value: int): string;
-    toString(Value: long): string;
-    toString(Value: unknown): string;
-    toString(Value: float, NumberFormat: NumberFormatInfo): string;
-    toString(Value: float): string;
-    toString(Value: uint): string;
-    toString(Value: ulong): string;
-    toUInteger(Value: unknown): uint;
-    toUInteger(Value: string): uint;
-    toULong(Value: unknown): ulong;
-    toULong(Value: string): ulong;
-    toUShort(Value: unknown): ushort;
-    toUShort(Value: string): ushort;
+    ChangeType(Expression: unknown, TargetType: Type): unknown;
+    FallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
+    FromCharAndCount(Value: char, Count: int): string;
+    FromCharArray(Value: char[]): string;
+    FromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
+    ToBoolean(Value: unknown): boolean;
+    ToBoolean(Value: string): boolean;
+    ToByte(Value: unknown): byte;
+    ToByte(Value: string): byte;
+    ToChar(Value: unknown): char;
+    ToChar(Value: string): char;
+    ToCharArrayRankOne(Value: unknown): char[];
+    ToCharArrayRankOne(Value: string): char[];
+    ToDate(Value: unknown): DateTime;
+    ToDate(Value: string): DateTime;
+    ToDecimal(Value: boolean): decimal;
+    ToDecimal(Value: unknown): decimal;
+    ToDecimal(Value: string): decimal;
+    ToDouble(Value: unknown): double;
+    ToDouble(Value: string): double;
+    ToGenericParameter<T>(Value: unknown): T;
+    ToInteger(Value: unknown): int;
+    ToInteger(Value: string): int;
+    ToLong(Value: unknown): long;
+    ToLong(Value: string): long;
+    ToSByte(Value: unknown): sbyte;
+    ToSByte(Value: string): sbyte;
+    ToShort(Value: unknown): short;
+    ToShort(Value: string): short;
+    ToSingle(Value: unknown): float;
+    ToSingle(Value: string): float;
+    ToString(Value: boolean): string;
+    ToString(Value: byte): string;
+    ToString(Value: char): string;
+    ToString(Value: DateTime): string;
+    ToString(Value: decimal, NumberFormat: NumberFormatInfo): string;
+    ToString(Value: decimal): string;
+    ToString(Value: double, NumberFormat: NumberFormatInfo): string;
+    ToString(Value: double): string;
+    ToString(Value: short): string;
+    ToString(Value: int): string;
+    ToString(Value: long): string;
+    ToString(Value: unknown): string;
+    ToString(Value: float, NumberFormat: NumberFormatInfo): string;
+    ToString(Value: float): string;
+    ToString(Value: uint): string;
+    ToString(Value: ulong): string;
+    ToUInteger(Value: unknown): uint;
+    ToUInteger(Value: string): uint;
+    ToULong(Value: unknown): ulong;
+    ToULong(Value: string): ulong;
+    ToUShort(Value: unknown): ushort;
+    ToUShort(Value: string): ushort;
 };
 
 
@@ -140,9 +140,9 @@ export interface DateType$instance {
 
 export const DateType: {
     new(): DateType;
-    fromObject(Value: unknown): DateTime;
-    fromString(Value: string, culture: CultureInfo): DateTime;
-    fromString(Value: string): DateTime;
+    FromObject(Value: unknown): DateTime;
+    FromString(Value: string, culture: CultureInfo): DateTime;
+    FromString(Value: string): DateTime;
 };
 
 
@@ -154,12 +154,12 @@ export interface DecimalType$instance {
 
 export const DecimalType: {
     new(): DecimalType;
-    fromBoolean(Value: boolean): decimal;
-    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
-    fromObject(Value: unknown): decimal;
-    fromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
-    fromString(Value: string): decimal;
-    parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
+    FromBoolean(Value: boolean): decimal;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
+    FromObject(Value: unknown): decimal;
+    FromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
+    FromString(Value: string): decimal;
+    Parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
 };
 
 
@@ -182,19 +182,19 @@ export interface DoubleType$instance {
 
 export const DoubleType: {
     new(): DoubleType;
-    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
-    fromObject(Value: unknown): double;
-    fromString(Value: string, NumberFormat: NumberFormatInfo): double;
-    fromString(Value: string): double;
-    parse(Value: string, NumberFormat: NumberFormatInfo): double;
-    parse(Value: string): double;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
+    FromObject(Value: unknown): double;
+    FromString(Value: string, NumberFormat: NumberFormatInfo): double;
+    FromString(Value: string): double;
+    Parse(Value: string, NumberFormat: NumberFormatInfo): double;
+    Parse(Value: string): double;
 };
 
 
 export type DoubleType = DoubleType$instance;
 
 export interface IncompleteInitialization$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -216,8 +216,8 @@ export interface IntegerType$instance {
 
 export const IntegerType: {
     new(): IntegerType;
-    fromObject(Value: unknown): int;
-    fromString(Value: string): int;
+    FromObject(Value: unknown): int;
+    FromString(Value: string): int;
 };
 
 
@@ -229,13 +229,13 @@ export interface LateBinding$instance {
 
 export const LateBinding: {
     new(): LateBinding;
-    lateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
-    lateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
-    lateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
-    lateIndexSet(o: unknown, args: unknown[], paramnames: string[]): void;
-    lateIndexSetComplex(o: unknown, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    lateSet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[]): void;
-    lateSetComplex(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
+    LateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
+    LateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
+    LateIndexSet(o: unknown, args: unknown[], paramnames: string[]): void;
+    LateIndexSetComplex(o: unknown, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateSet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[]): void;
+    LateSetComplex(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
 };
 
 
@@ -247,8 +247,8 @@ export interface LikeOperator$instance {
 
 export const LikeOperator: {
     new(): LikeOperator;
-    likeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
-    likeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
+    LikeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
+    LikeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
 };
 
 
@@ -260,8 +260,8 @@ export interface LongType$instance {
 
 export const LongType: {
     new(): LongType;
-    fromObject(Value: unknown): long;
-    fromString(Value: string): long;
+    FromObject(Value: unknown): long;
+    FromString(Value: string): long;
 };
 
 
@@ -273,24 +273,24 @@ export interface NewLateBinding$instance {
 
 export const NewLateBinding: {
     new(): NewLateBinding;
-    fallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
-    fallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
-    fallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
-    fallbackIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    fallbackInvokeDefault1(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    fallbackInvokeDefault2(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    fallbackSet(Instance: unknown, MemberName: string, Arguments: unknown[]): void;
-    fallbackSetComplex(Instance: unknown, MemberName: string, Arguments: unknown[], OptimisticSet: boolean, RValueBase: boolean): void;
-    lateCall(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): unknown;
-    lateCallInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    lateGet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): unknown;
-    lateGetInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    lateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
-    lateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
-    lateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
-    lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
-    lateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
+    FallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
+    FallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    FallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    FallbackIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    FallbackInvokeDefault1(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    FallbackInvokeDefault2(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    FallbackSet(Instance: unknown, MemberName: string, Arguments: unknown[]): void;
+    FallbackSetComplex(Instance: unknown, MemberName: string, Arguments: unknown[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateCall(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): unknown;
+    LateCallInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    LateGet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): unknown;
+    LateGetInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    LateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    LateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    LateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
+    LateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
+    LateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
 };
 
 
@@ -302,7 +302,7 @@ export interface ObjectFlowControl$instance {
 
 export const ObjectFlowControl: {
     new(): ObjectFlowControl;
-    checkForSyncLockOnValueType(Expression: unknown): void;
+    CheckForSyncLockOnValueType(Expression: unknown): void;
 };
 
 
@@ -314,11 +314,11 @@ export interface ObjectFlowControl_ForLoopControl$instance {
 
 export const ObjectFlowControl_ForLoopControl: {
     new(): ObjectFlowControl_ForLoopControl;
-    forLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: unknown, CounterResult: unknown): boolean;
-    forNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
-    forNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: unknown): boolean;
-    forNextCheckR4(count: float, limit: float, StepValue: float): boolean;
-    forNextCheckR8(count: double, limit: double, StepValue: double): boolean;
+    ForLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: unknown, CounterResult: unknown): boolean;
+    ForNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
+    ForNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: unknown): boolean;
+    ForNextCheckR4(count: float, limit: float, StepValue: float): boolean;
+    ForNextCheckR8(count: double, limit: double, StepValue: double): boolean;
 };
 
 
@@ -330,26 +330,26 @@ export interface ObjectType$instance {
 
 export const ObjectType: {
     new(): ObjectType;
-    addObj(o1: unknown, o2: unknown): unknown;
-    bitAndObj(obj1: unknown, obj2: unknown): unknown;
-    bitOrObj(obj1: unknown, obj2: unknown): unknown;
-    bitXorObj(obj1: unknown, obj2: unknown): unknown;
-    divObj(o1: unknown, o2: unknown): unknown;
-    getObjectValuePrimitive(o: unknown): unknown;
-    iDivObj(o1: unknown, o2: unknown): unknown;
-    likeObj(vLeft: unknown, vRight: unknown, CompareOption: CompareMethod): boolean;
-    modObj(o1: unknown, o2: unknown): unknown;
-    mulObj(o1: unknown, o2: unknown): unknown;
-    negObj(obj: unknown): unknown;
-    notObj(obj: unknown): unknown;
-    objTst(o1: unknown, o2: unknown, TextCompare: boolean): int;
-    plusObj(obj: unknown): unknown;
-    powObj(obj1: unknown, obj2: unknown): unknown;
-    shiftLeftObj(o1: unknown, amount: int): unknown;
-    shiftRightObj(o1: unknown, amount: int): unknown;
-    strCatObj(vLeft: unknown, vRight: unknown): unknown;
-    subObj(o1: unknown, o2: unknown): unknown;
-    xorObj(obj1: unknown, obj2: unknown): unknown;
+    AddObj(o1: unknown, o2: unknown): unknown;
+    BitAndObj(obj1: unknown, obj2: unknown): unknown;
+    BitOrObj(obj1: unknown, obj2: unknown): unknown;
+    BitXorObj(obj1: unknown, obj2: unknown): unknown;
+    DivObj(o1: unknown, o2: unknown): unknown;
+    GetObjectValuePrimitive(o: unknown): unknown;
+    IDivObj(o1: unknown, o2: unknown): unknown;
+    LikeObj(vLeft: unknown, vRight: unknown, CompareOption: CompareMethod): boolean;
+    ModObj(o1: unknown, o2: unknown): unknown;
+    MulObj(o1: unknown, o2: unknown): unknown;
+    NegObj(obj: unknown): unknown;
+    NotObj(obj: unknown): unknown;
+    ObjTst(o1: unknown, o2: unknown, TextCompare: boolean): int;
+    PlusObj(obj: unknown): unknown;
+    PowObj(obj1: unknown, obj2: unknown): unknown;
+    ShiftLeftObj(o1: unknown, amount: int): unknown;
+    ShiftRightObj(o1: unknown, amount: int): unknown;
+    StrCatObj(vLeft: unknown, vRight: unknown): unknown;
+    SubObj(o1: unknown, o2: unknown): unknown;
+    XorObj(obj1: unknown, obj2: unknown): unknown;
 };
 
 
@@ -361,36 +361,36 @@ export interface Operators$instance {
 
 export const Operators: {
     new(): Operators;
-    addObject(Left: unknown, Right: unknown): unknown;
-    andObject(Left: unknown, Right: unknown): unknown;
-    compareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    compareString(Left: string, Right: string, TextCompare: boolean): int;
-    concatenateObject(Left: unknown, Right: unknown): unknown;
-    conditionalCompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    conditionalCompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    conditionalCompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    conditionalCompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    conditionalCompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    conditionalCompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    divideObject(Left: unknown, Right: unknown): unknown;
-    exponentObject(Left: unknown, Right: unknown): unknown;
-    fallbackInvokeUserDefinedOperator(vbOp: unknown, arguments: unknown[]): unknown;
-    intDivideObject(Left: unknown, Right: unknown): unknown;
-    leftShiftObject(Operand: unknown, Amount: unknown): unknown;
-    modObject(Left: unknown, Right: unknown): unknown;
-    multiplyObject(Left: unknown, Right: unknown): unknown;
-    negateObject(Operand: unknown): unknown;
-    notObject(Operand: unknown): unknown;
-    orObject(Left: unknown, Right: unknown): unknown;
-    plusObject(Operand: unknown): unknown;
-    rightShiftObject(Operand: unknown, Amount: unknown): unknown;
-    subtractObject(Left: unknown, Right: unknown): unknown;
-    xorObject(Left: unknown, Right: unknown): unknown;
+    AddObject(Left: unknown, Right: unknown): unknown;
+    AndObject(Left: unknown, Right: unknown): unknown;
+    CompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareString(Left: string, Right: string, TextCompare: boolean): int;
+    ConcatenateObject(Left: unknown, Right: unknown): unknown;
+    ConditionalCompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    DivideObject(Left: unknown, Right: unknown): unknown;
+    ExponentObject(Left: unknown, Right: unknown): unknown;
+    FallbackInvokeUserDefinedOperator(vbOp: unknown, arguments: unknown[]): unknown;
+    IntDivideObject(Left: unknown, Right: unknown): unknown;
+    LeftShiftObject(Operand: unknown, Amount: unknown): unknown;
+    ModObject(Left: unknown, Right: unknown): unknown;
+    MultiplyObject(Left: unknown, Right: unknown): unknown;
+    NegateObject(Operand: unknown): unknown;
+    NotObject(Operand: unknown): unknown;
+    OrObject(Left: unknown, Right: unknown): unknown;
+    PlusObject(Operand: unknown): unknown;
+    RightShiftObject(Operand: unknown, Amount: unknown): unknown;
+    SubtractObject(Left: unknown, Right: unknown): unknown;
+    XorObject(Left: unknown, Right: unknown): unknown;
 };
 
 
@@ -424,11 +424,11 @@ export interface ProjectData$instance {
 
 export const ProjectData: {
     new(): ProjectData;
-    clearProjectError(): void;
-    createProjectError(hr: int): Exception;
-    endApp(): void;
-    setProjectError(ex: Exception, lErl: int): void;
-    setProjectError(ex: Exception): void;
+    ClearProjectError(): void;
+    CreateProjectError(hr: int): Exception;
+    EndApp(): void;
+    SetProjectError(ex: Exception, lErl: int): void;
+    SetProjectError(ex: Exception): void;
 };
 
 
@@ -440,8 +440,8 @@ export interface ShortType$instance {
 
 export const ShortType: {
     new(): ShortType;
-    fromObject(Value: unknown): short;
-    fromString(Value: string): short;
+    FromObject(Value: unknown): short;
+    FromString(Value: string): short;
 };
 
 
@@ -453,10 +453,10 @@ export interface SingleType$instance {
 
 export const SingleType: {
     new(): SingleType;
-    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
-    fromObject(Value: unknown): float;
-    fromString(Value: string, NumberFormat: NumberFormatInfo): float;
-    fromString(Value: string): float;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
+    FromObject(Value: unknown): float;
+    FromString(Value: string, NumberFormat: NumberFormatInfo): float;
+    FromString(Value: string): float;
 };
 
 
@@ -474,7 +474,7 @@ export const StandardModuleAttribute: {
 export type StandardModuleAttribute = StandardModuleAttribute$instance;
 
 export interface StaticLocalInitFlag$instance {
-    state: short;
+    State: short;
 }
 
 
@@ -491,25 +491,25 @@ export interface StringType$instance {
 
 export const StringType: {
     new(): StringType;
-    fromBoolean(Value: boolean): string;
-    fromByte(Value: byte): string;
-    fromChar(Value: char): string;
-    fromDate(Value: DateTime): string;
-    fromDecimal(Value: decimal, NumberFormat: NumberFormatInfo): string;
-    fromDecimal(Value: decimal): string;
-    fromDouble(Value: double, NumberFormat: NumberFormatInfo): string;
-    fromDouble(Value: double): string;
-    fromInteger(Value: int): string;
-    fromLong(Value: long): string;
-    fromObject(Value: unknown): string;
-    fromShort(Value: short): string;
-    fromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
-    fromSingle(Value: float): string;
-    midStmtStr(sDest: string, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
-    strCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
-    strLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
-    strLikeBinary(Source: string, Pattern: string): boolean;
-    strLikeText(Source: string, Pattern: string): boolean;
+    FromBoolean(Value: boolean): string;
+    FromByte(Value: byte): string;
+    FromChar(Value: char): string;
+    FromDate(Value: DateTime): string;
+    FromDecimal(Value: decimal, NumberFormat: NumberFormatInfo): string;
+    FromDecimal(Value: decimal): string;
+    FromDouble(Value: double, NumberFormat: NumberFormatInfo): string;
+    FromDouble(Value: double): string;
+    FromInteger(Value: int): string;
+    FromLong(Value: long): string;
+    FromObject(Value: unknown): string;
+    FromShort(Value: short): string;
+    FromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
+    FromSingle(Value: float): string;
+    MidStmtStr(sDest: string, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
+    StrCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
+    StrLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
+    StrLikeBinary(Source: string, Pattern: string): boolean;
+    StrLikeText(Source: string, Pattern: string): boolean;
 };
 
 
@@ -521,8 +521,8 @@ export interface Utils$instance {
 
 export const Utils: {
     new(): Utils;
-    copyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
-    getResourceString(ResourceKey: string, ...Args: string[]): string;
+    CopyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
+    GetResourceString(ResourceKey: string, ...Args: string[]): string;
 };
 
 
@@ -534,11 +534,11 @@ export interface Versioned$instance {
 
 export const Versioned: {
     new(): Versioned;
-    callByName(Instance: unknown, MethodName: string, UseCallType: CallType, ...Arguments: unknown[]): unknown;
-    isNumeric(Expression: unknown): boolean;
-    systemTypeName(VbName: string): string;
-    typeName(Expression: unknown): string;
-    vbTypeName(SystemName: string): string;
+    CallByName(Instance: unknown, MethodName: string, UseCallType: CallType, ...Arguments: unknown[]): unknown;
+    IsNumeric(Expression: unknown): boolean;
+    SystemTypeName(VbName: string): string;
+    TypeName(Expression: unknown): string;
+    VbTypeName(SystemName: string): string;
 };
 
 

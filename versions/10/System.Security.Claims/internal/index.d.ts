@@ -14,17 +14,17 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from "../../System/internal/index.js";
 
 export interface Claim$instance {
-    readonly issuer: string;
-    readonly originalIssuer: string;
-    readonly properties: IDictionary_2<System_Internal.String, System_Internal.String>;
-    readonly subject: ClaimsIdentity;
-    readonly type: string;
-    readonly value: string;
-    readonly valueType: string;
-    clone(): Claim;
-    clone(identity: ClaimsIdentity): Claim;
-    toString(): string;
-    writeTo(writer: BinaryWriter): void;
+    readonly Issuer: string;
+    readonly OriginalIssuer: string;
+    readonly Properties: IDictionary_2<System_Internal.String, System_Internal.String>;
+    readonly Subject: ClaimsIdentity;
+    readonly Type: string;
+    readonly Value: string;
+    readonly ValueType: string;
+    Clone(): Claim;
+    Clone(identity: ClaimsIdentity): Claim;
+    ToString(): string;
+    WriteTo(writer: BinaryWriter): void;
 }
 
 
@@ -42,30 +42,30 @@ export const Claim: {
 export type Claim = Claim$instance;
 
 export interface ClaimsIdentity$instance {
-    get actor(): ClaimsIdentity | undefined;
-    set actor(value: ClaimsIdentity);
-    readonly authenticationType: string | string | undefined;
-    get bootstrapContext(): unknown | undefined;
-    set bootstrapContext(value: unknown);
-    readonly claims: IEnumerable_1<Claim>;
-    readonly isAuthenticated: boolean;
-    get label(): string | undefined;
-    set label(value: string);
-    readonly name: string;
-    readonly nameClaimType: string;
-    readonly roleClaimType: string;
-    addClaim(claim: Claim): void;
-    addClaims(claims: IEnumerable_1<Claim>): void;
-    clone(): ClaimsIdentity;
-    findAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
-    findAll(type: string): IEnumerable_1<Claim>;
-    findFirst(match: Predicate_1<Claim>): Claim | undefined;
-    findFirst(type: string): Claim | undefined;
-    hasClaim(match: Predicate_1<Claim>): boolean;
-    hasClaim(type: string, value: string): boolean;
-    removeClaim(claim: Claim): void;
-    tryRemoveClaim(claim: Claim): boolean;
-    writeTo(writer: BinaryWriter): void;
+    get Actor(): ClaimsIdentity | undefined;
+    set Actor(value: ClaimsIdentity);
+    readonly AuthenticationType: string | string | undefined;
+    get BootstrapContext(): unknown | undefined;
+    set BootstrapContext(value: unknown);
+    readonly Claims: IEnumerable_1<Claim>;
+    readonly IsAuthenticated: boolean;
+    get Label(): string | undefined;
+    set Label(value: string);
+    readonly Name: string;
+    readonly NameClaimType: string;
+    readonly RoleClaimType: string;
+    AddClaim(claim: Claim): void;
+    AddClaims(claims: IEnumerable_1<Claim>): void;
+    Clone(): ClaimsIdentity;
+    FindAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
+    FindAll(type: string): IEnumerable_1<Claim>;
+    FindFirst(match: Predicate_1<Claim>): Claim | undefined;
+    FindFirst(type: string): Claim | undefined;
+    HasClaim(match: Predicate_1<Claim>): boolean;
+    HasClaim(type: string, value: string): boolean;
+    RemoveClaim(claim: Claim): void;
+    TryRemoveClaim(claim: Claim): boolean;
+    WriteTo(writer: BinaryWriter): void;
 }
 
 
@@ -82,9 +82,9 @@ export const ClaimsIdentity: {
     new(reader: BinaryReader): ClaimsIdentity;
     new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity;
     new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
-    readonly defaultIssuer: string;
-    readonly defaultNameClaimType: string;
-    readonly defaultRoleClaimType: string;
+    readonly DefaultIssuer: string;
+    readonly DefaultNameClaimType: string;
+    readonly DefaultRoleClaimType: string;
 };
 
 
@@ -98,20 +98,20 @@ export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
 export interface ClaimsPrincipal$instance {
-    readonly claims: IEnumerable_1<Claim>;
-    readonly identities: IEnumerable_1<ClaimsIdentity>;
-    readonly identity: IIdentity | IIdentity | undefined;
-    addIdentities(identities: IEnumerable_1<ClaimsIdentity>): void;
-    addIdentity(identity: ClaimsIdentity): void;
-    clone(): ClaimsPrincipal;
-    findAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
-    findAll(type: string): IEnumerable_1<Claim>;
-    findFirst(match: Predicate_1<Claim>): Claim | undefined;
-    findFirst(type: string): Claim | undefined;
-    hasClaim(match: Predicate_1<Claim>): boolean;
-    hasClaim(type: string, value: string): boolean;
-    isInRole(role: string): boolean;
-    writeTo(writer: BinaryWriter): void;
+    readonly Claims: IEnumerable_1<Claim>;
+    readonly Identities: IEnumerable_1<ClaimsIdentity>;
+    readonly Identity: IIdentity | IIdentity | undefined;
+    AddIdentities(identities: IEnumerable_1<ClaimsIdentity>): void;
+    AddIdentity(identity: ClaimsIdentity): void;
+    Clone(): ClaimsPrincipal;
+    FindAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
+    FindAll(type: string): IEnumerable_1<Claim>;
+    FindFirst(match: Predicate_1<Claim>): Claim | undefined;
+    FindFirst(type: string): Claim | undefined;
+    HasClaim(match: Predicate_1<Claim>): boolean;
+    HasClaim(type: string, value: string): boolean;
+    IsInRole(role: string): boolean;
+    WriteTo(writer: BinaryWriter): void;
 }
 
 
@@ -121,10 +121,10 @@ export const ClaimsPrincipal: {
     new(identity: IIdentity): ClaimsPrincipal;
     new(principal: IPrincipal): ClaimsPrincipal;
     new(reader: BinaryReader): ClaimsPrincipal;
-    primaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity | undefined>;
-    get claimsPrincipalSelector(): Func_1<ClaimsPrincipal | undefined> | undefined;
-    set claimsPrincipalSelector(value: Func_1<ClaimsPrincipal | undefined>);
-    readonly current: ClaimsPrincipal | undefined;
+    PrimaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity | undefined>;
+    get ClaimsPrincipalSelector(): Func_1<ClaimsPrincipal | undefined> | undefined;
+    set ClaimsPrincipalSelector(value: Func_1<ClaimsPrincipal | undefined>);
+    readonly Current: ClaimsPrincipal | undefined;
 };
 
 
@@ -138,93 +138,93 @@ export type ClaimsPrincipal = ClaimsPrincipal$instance & __ClaimsPrincipal$views
 
 
 export abstract class ClaimTypes$instance {
-    static readonly authenticationInstant: string;
-    static readonly authenticationMethod: string;
-    static readonly cookiePath: string;
-    static readonly denyOnlyPrimarySid: string;
-    static readonly denyOnlyPrimaryGroupSid: string;
-    static readonly denyOnlyWindowsDeviceGroup: string;
-    static readonly dsa: string;
-    static readonly expiration: string;
-    static readonly expired: string;
-    static readonly groupSid: string;
-    static readonly isPersistent: string;
-    static readonly primaryGroupSid: string;
-    static readonly primarySid: string;
-    static readonly role: string;
-    static readonly serialNumber: string;
-    static readonly userData: string;
-    static readonly version: string;
-    static readonly windowsAccountName: string;
-    static readonly windowsDeviceClaim: string;
-    static readonly windowsDeviceGroup: string;
-    static readonly windowsUserClaim: string;
-    static readonly windowsFqbnVersion: string;
-    static readonly windowsSubAuthority: string;
-    static readonly anonymous: string;
-    static readonly authentication: string;
-    static readonly authorizationDecision: string;
-    static readonly country: string;
-    static readonly dateOfBirth: string;
-    static readonly dns: string;
-    static readonly denyOnlySid: string;
-    static readonly email: string;
-    static readonly gender: string;
-    static readonly givenName: string;
-    static readonly hash: string;
-    static readonly homePhone: string;
-    static readonly locality: string;
-    static readonly mobilePhone: string;
-    static readonly name: string;
-    static readonly nameIdentifier: string;
-    static readonly otherPhone: string;
-    static readonly postalCode: string;
-    static readonly rsa: string;
-    static readonly sid: string;
-    static readonly spn: string;
-    static readonly stateOrProvince: string;
-    static readonly streetAddress: string;
-    static readonly surname: string;
-    static readonly system: string;
-    static readonly thumbprint: string;
-    static readonly upn: string;
-    static readonly uri: string;
-    static readonly webpage: string;
-    static readonly x500DistinguishedName: string;
-    static readonly actor: string;
+    static readonly AuthenticationInstant: string;
+    static readonly AuthenticationMethod: string;
+    static readonly CookiePath: string;
+    static readonly DenyOnlyPrimarySid: string;
+    static readonly DenyOnlyPrimaryGroupSid: string;
+    static readonly DenyOnlyWindowsDeviceGroup: string;
+    static readonly Dsa: string;
+    static readonly Expiration: string;
+    static readonly Expired: string;
+    static readonly GroupSid: string;
+    static readonly IsPersistent: string;
+    static readonly PrimaryGroupSid: string;
+    static readonly PrimarySid: string;
+    static readonly Role: string;
+    static readonly SerialNumber: string;
+    static readonly UserData: string;
+    static readonly Version: string;
+    static readonly WindowsAccountName: string;
+    static readonly WindowsDeviceClaim: string;
+    static readonly WindowsDeviceGroup: string;
+    static readonly WindowsUserClaim: string;
+    static readonly WindowsFqbnVersion: string;
+    static readonly WindowsSubAuthority: string;
+    static readonly Anonymous: string;
+    static readonly Authentication: string;
+    static readonly AuthorizationDecision: string;
+    static readonly Country: string;
+    static readonly DateOfBirth: string;
+    static readonly Dns: string;
+    static readonly DenyOnlySid: string;
+    static readonly Email: string;
+    static readonly Gender: string;
+    static readonly GivenName: string;
+    static readonly Hash: string;
+    static readonly HomePhone: string;
+    static readonly Locality: string;
+    static readonly MobilePhone: string;
+    static readonly Name: string;
+    static readonly NameIdentifier: string;
+    static readonly OtherPhone: string;
+    static readonly PostalCode: string;
+    static readonly Rsa: string;
+    static readonly Sid: string;
+    static readonly Spn: string;
+    static readonly StateOrProvince: string;
+    static readonly StreetAddress: string;
+    static readonly Surname: string;
+    static readonly System: string;
+    static readonly Thumbprint: string;
+    static readonly Upn: string;
+    static readonly Uri: string;
+    static readonly Webpage: string;
+    static readonly X500DistinguishedName: string;
+    static readonly Actor: string;
 }
 
 
 export type ClaimTypes = ClaimTypes$instance;
 
 export abstract class ClaimValueTypes$instance {
-    static readonly base64Binary: string;
-    static readonly base64Octet: string;
-    static readonly boolean: string;
-    static readonly date: string;
-    static readonly dateTime: string;
-    static readonly double: string;
-    static readonly fqbn: string;
-    static readonly hexBinary: string;
-    static readonly integer: string;
-    static readonly integer32: string;
-    static readonly integer64: string;
-    static readonly sid: string;
-    static readonly string: string;
-    static readonly time: string;
-    static readonly uInteger32: string;
-    static readonly uInteger64: string;
-    static readonly dnsName: string;
-    static readonly email: string;
-    static readonly rsa: string;
-    static readonly upnName: string;
-    static readonly dsaKeyValue: string;
-    static readonly keyInfo: string;
-    static readonly rsaKeyValue: string;
-    static readonly daytimeDuration: string;
-    static readonly yearMonthDuration: string;
-    static readonly rfc822Name: string;
-    static readonly x500Name: string;
+    static readonly Base64Binary: string;
+    static readonly Base64Octet: string;
+    static readonly Boolean: string;
+    static readonly Date: string;
+    static readonly DateTime: string;
+    static readonly Double: string;
+    static readonly Fqbn: string;
+    static readonly HexBinary: string;
+    static readonly Integer: string;
+    static readonly Integer32: string;
+    static readonly Integer64: string;
+    static readonly Sid: string;
+    static readonly String: string;
+    static readonly Time: string;
+    static readonly UInteger32: string;
+    static readonly UInteger64: string;
+    static readonly DnsName: string;
+    static readonly Email: string;
+    static readonly Rsa: string;
+    static readonly UpnName: string;
+    static readonly DsaKeyValue: string;
+    static readonly KeyInfo: string;
+    static readonly RsaKeyValue: string;
+    static readonly DaytimeDuration: string;
+    static readonly YearMonthDuration: string;
+    static readonly Rfc822Name: string;
+    static readonly X500Name: string;
 }
 
 

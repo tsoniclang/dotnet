@@ -14,8 +14,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, UIntPtr, ValueType, Void } from "../../System/internal/index.js";
 
 export interface ComponentCrossReference$instance {
-    sourceGroupIndex: nuint;
-    destinationGroupIndex: nuint;
+    SourceGroupIndex: nuint;
+    DestinationGroupIndex: nuint;
 }
 
 
@@ -27,10 +27,10 @@ export const ComponentCrossReference: {
 export type ComponentCrossReference = ComponentCrossReference$instance;
 
 export interface MarkCrossReferencesArgs$instance {
-    componentCount: nuint;
-    components: ptr<StronglyConnectedComponent>;
-    crossReferenceCount: nuint;
-    crossReferences: ptr<ComponentCrossReference>;
+    ComponentCount: nuint;
+    Components: ptr<StronglyConnectedComponent>;
+    CrossReferenceCount: nuint;
+    CrossReferences: ptr<ComponentCrossReference>;
 }
 
 
@@ -42,8 +42,8 @@ export const MarkCrossReferencesArgs: {
 export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
 export interface StronglyConnectedComponent$instance {
-    count: nuint;
-    contexts: ptr<void>;
+    Count: nuint;
+    Contexts: ptr<void>;
 }
 
 
@@ -55,10 +55,10 @@ export const StronglyConnectedComponent: {
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static createReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
-    static finishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
-    static getContext(obj: GCHandle): ptr<void>;
-    static initialize(markCrossReferences: unknown): void;
+    static CreateReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
+    static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
+    static GetContext(obj: GCHandle): ptr<void>;
+    static Initialize(markCrossReferences: unknown): void;
 }
 
 

@@ -12,102 +12,102 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, MarshalByRefObject, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum RegistryHive {
-    classesRoot = -2147483648,
-    currentUser = -2147483647,
-    localMachine = -2147483646,
-    users = -2147483645,
-    performanceData = -2147483644,
-    currentConfig = -2147483643
+    ClassesRoot = -2147483648,
+    CurrentUser = -2147483647,
+    LocalMachine = -2147483646,
+    Users = -2147483645,
+    PerformanceData = -2147483644,
+    CurrentConfig = -2147483643
 }
 
 
 export enum RegistryKeyPermissionCheck {
-    default = 0,
-    readSubTree = 1,
-    readWriteSubTree = 2
+    Default = 0,
+    ReadSubTree = 1,
+    ReadWriteSubTree = 2
 }
 
 
 export enum RegistryOptions {
-    none = 0,
-    volatile = 1
+    None = 0,
+    Volatile = 1
 }
 
 
 export enum RegistryValueKind {
-    none = -1,
-    unknown = 0,
-    string = 1,
-    expandString = 2,
-    binary = 3,
-    dWord = 4,
-    multiString = 7,
-    qWord = 11
+    None = -1,
+    Unknown = 0,
+    String = 1,
+    ExpandString = 2,
+    Binary = 3,
+    DWord = 4,
+    MultiString = 7,
+    QWord = 11
 }
 
 
 export enum RegistryValueOptions {
-    none = 0,
-    doNotExpandEnvironmentNames = 1
+    None = 0,
+    DoNotExpandEnvironmentNames = 1
 }
 
 
 export enum RegistryView {
-    default = 0,
-    registry64 = 256,
-    registry32 = 512
+    Default = 0,
+    Registry64 = 256,
+    Registry32 = 512
 }
 
 
 export interface RegistryKey$instance extends MarshalByRefObject {
-    readonly handle: SafeRegistryHandle;
-    readonly name: string;
-    readonly subKeyCount: int;
-    readonly valueCount: int;
-    readonly view: RegistryView;
-    close(): void;
-    createSubKey(subkey: string): RegistryKey;
-    createSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey;
-    createSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions): RegistryKey;
-    createSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions, registrySecurity: RegistrySecurity): RegistryKey;
-    createSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registrySecurity: RegistrySecurity): RegistryKey;
-    createSubKey(subkey: string, writable: boolean): RegistryKey;
-    createSubKey(subkey: string, writable: boolean, options: RegistryOptions): RegistryKey;
-    deleteSubKey(subkey: string): void;
-    deleteSubKey(subkey: string, throwOnMissingSubKey: boolean): void;
-    deleteSubKeyTree(subkey: string): void;
-    deleteSubKeyTree(subkey: string, throwOnMissingSubKey: boolean): void;
-    deleteValue(name: string): void;
-    deleteValue(name: string, throwOnMissingValue: boolean): void;
-    dispose(): void;
-    flush(): void;
-    getAccessControl(): RegistrySecurity;
-    getAccessControl(includeSections: AccessControlSections): RegistrySecurity;
-    getSubKeyNames(): string[];
-    getValue(name: string): unknown | undefined;
-    getValue(name: string, defaultValue: unknown): unknown | undefined;
-    getValue(name: string, defaultValue: unknown, options: RegistryValueOptions): unknown | undefined;
-    getValueKind(name: string): RegistryValueKind;
-    getValueNames(): string[];
-    openSubKey(name: string): RegistryKey | undefined;
-    openSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | undefined;
-    openSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck, rights: RegistryRights): RegistryKey | undefined;
-    openSubKey(name: string, writable: boolean): RegistryKey | undefined;
-    openSubKey(name: string, rights: RegistryRights): RegistryKey | undefined;
-    setAccessControl(registrySecurity: RegistrySecurity): void;
-    setValue(name: string, value: unknown): void;
-    setValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
-    toString(): string;
+    readonly Handle: SafeRegistryHandle;
+    readonly Name: string;
+    readonly SubKeyCount: int;
+    readonly ValueCount: int;
+    readonly View: RegistryView;
+    Close(): void;
+    CreateSubKey(subkey: string): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions, registrySecurity: RegistrySecurity): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registrySecurity: RegistrySecurity): RegistryKey;
+    CreateSubKey(subkey: string, writable: boolean): RegistryKey;
+    CreateSubKey(subkey: string, writable: boolean, options: RegistryOptions): RegistryKey;
+    DeleteSubKey(subkey: string): void;
+    DeleteSubKey(subkey: string, throwOnMissingSubKey: boolean): void;
+    DeleteSubKeyTree(subkey: string): void;
+    DeleteSubKeyTree(subkey: string, throwOnMissingSubKey: boolean): void;
+    DeleteValue(name: string): void;
+    DeleteValue(name: string, throwOnMissingValue: boolean): void;
+    Dispose(): void;
+    Flush(): void;
+    GetAccessControl(): RegistrySecurity;
+    GetAccessControl(includeSections: AccessControlSections): RegistrySecurity;
+    GetSubKeyNames(): string[];
+    GetValue(name: string): unknown | undefined;
+    GetValue(name: string, defaultValue: unknown): unknown | undefined;
+    GetValue(name: string, defaultValue: unknown, options: RegistryValueOptions): unknown | undefined;
+    GetValueKind(name: string): RegistryValueKind;
+    GetValueNames(): string[];
+    OpenSubKey(name: string): RegistryKey | undefined;
+    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | undefined;
+    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck, rights: RegistryRights): RegistryKey | undefined;
+    OpenSubKey(name: string, writable: boolean): RegistryKey | undefined;
+    OpenSubKey(name: string, rights: RegistryRights): RegistryKey | undefined;
+    SetAccessControl(registrySecurity: RegistrySecurity): void;
+    SetValue(name: string, value: unknown): void;
+    SetValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
+    ToString(): string;
 }
 
 
 export const RegistryKey: {
     new(): RegistryKey;
-    fromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
-    fromHandle(handle: SafeRegistryHandle): RegistryKey;
-    openBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
-    openRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
-    openRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
+    FromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
+    FromHandle(handle: SafeRegistryHandle): RegistryKey;
+    OpenBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
+    OpenRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
+    OpenRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
 };
 
 
@@ -121,15 +121,15 @@ export type RegistryKey = RegistryKey$instance & __RegistryKey$views;
 
 
 export abstract class Registry$instance {
-    static readonly classesRoot: RegistryKey;
-    static readonly currentConfig: RegistryKey;
-    static readonly currentUser: RegistryKey;
-    static readonly localMachine: RegistryKey;
-    static readonly performanceData: RegistryKey;
-    static readonly users: RegistryKey;
-    static getValue(keyName: string, valueName: string, defaultValue: unknown): unknown | undefined;
-    static setValue(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
-    static setValue(keyName: string, valueName: string, value: unknown): void;
+    static readonly ClassesRoot: RegistryKey;
+    static readonly CurrentConfig: RegistryKey;
+    static readonly CurrentUser: RegistryKey;
+    static readonly LocalMachine: RegistryKey;
+    static readonly PerformanceData: RegistryKey;
+    static readonly Users: RegistryKey;
+    static GetValue(keyName: string, valueName: string, defaultValue: unknown): unknown | undefined;
+    static SetValue(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
+    static SetValue(keyName: string, valueName: string, value: unknown): void;
 }
 
 

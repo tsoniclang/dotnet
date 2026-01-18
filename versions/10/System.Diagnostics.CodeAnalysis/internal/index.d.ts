@@ -10,36 +10,36 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum DynamicallyAccessedMemberTypes {
-    none = 0,
-    publicParameterlessConstructor = 1,
-    publicConstructors = 3,
-    nonPublicConstructors = 4,
-    publicMethods = 8,
-    nonPublicMethods = 16,
-    publicFields = 32,
-    nonPublicFields = 64,
-    publicNestedTypes = 128,
-    nonPublicNestedTypes = 256,
-    publicProperties = 512,
-    nonPublicProperties = 1024,
-    publicEvents = 2048,
-    nonPublicEvents = 4096,
-    interfaces = 8192,
-    nonPublicConstructorsWithInherited = 16388,
-    nonPublicMethodsWithInherited = 32784,
-    nonPublicFieldsWithInherited = 65600,
-    nonPublicNestedTypesWithInherited = 131328,
-    nonPublicPropertiesWithInherited = 263168,
-    nonPublicEventsWithInherited = 528384,
-    publicConstructorsWithInherited = 1048579,
-    publicNestedTypesWithInherited = 2097280,
-    allConstructors = 1064967,
-    allMethods = 32792,
-    allFields = 65632,
-    allNestedTypes = 2228608,
-    allProperties = 263680,
-    allEvents = 530432,
-    all = -1
+    None = 0,
+    PublicParameterlessConstructor = 1,
+    PublicConstructors = 3,
+    NonPublicConstructors = 4,
+    PublicMethods = 8,
+    NonPublicMethods = 16,
+    PublicFields = 32,
+    NonPublicFields = 64,
+    PublicNestedTypes = 128,
+    NonPublicNestedTypes = 256,
+    PublicProperties = 512,
+    NonPublicProperties = 1024,
+    PublicEvents = 2048,
+    NonPublicEvents = 4096,
+    Interfaces = 8192,
+    NonPublicConstructorsWithInherited = 16388,
+    NonPublicMethodsWithInherited = 32784,
+    NonPublicFieldsWithInherited = 65600,
+    NonPublicNestedTypesWithInherited = 131328,
+    NonPublicPropertiesWithInherited = 263168,
+    NonPublicEventsWithInherited = 528384,
+    PublicConstructorsWithInherited = 1048579,
+    PublicNestedTypesWithInherited = 2097280,
+    AllConstructors = 1064967,
+    AllMethods = 32792,
+    AllFields = 65632,
+    AllNestedTypes = 2228608,
+    AllProperties = 263680,
+    AllEvents = 530432,
+    All = -1
 }
 
 
@@ -55,10 +55,10 @@ export const AllowNullAttribute: {
 export type AllowNullAttribute = AllowNullAttribute$instance;
 
 export interface ConstantExpectedAttribute$instance extends Attribute {
-    get max(): unknown | undefined;
-    set max(value: unknown);
-    get min(): unknown | undefined;
-    set min(value: unknown);
+    get Max(): unknown | undefined;
+    set Max(value: unknown);
+    get Min(): unknown | undefined;
+    set Min(value: unknown);
 }
 
 
@@ -92,7 +92,7 @@ export const DoesNotReturnAttribute: {
 export type DoesNotReturnAttribute = DoesNotReturnAttribute$instance;
 
 export interface DoesNotReturnIfAttribute$instance extends Attribute {
-    readonly parameterValue: boolean;
+    readonly ParameterValue: boolean;
 }
 
 
@@ -104,7 +104,7 @@ export const DoesNotReturnIfAttribute: {
 export type DoesNotReturnIfAttribute = DoesNotReturnIfAttribute$instance;
 
 export interface DynamicallyAccessedMembersAttribute$instance extends Attribute {
-    readonly memberTypes: DynamicallyAccessedMemberTypes;
+    readonly MemberTypes: DynamicallyAccessedMemberTypes;
 }
 
 
@@ -116,13 +116,13 @@ export const DynamicallyAccessedMembersAttribute: {
 export type DynamicallyAccessedMembersAttribute = DynamicallyAccessedMembersAttribute$instance;
 
 export interface DynamicDependencyAttribute$instance extends Attribute {
-    readonly assemblyName: string;
-    get condition(): string | undefined;
-    set condition(value: string);
-    readonly memberSignature: string | undefined;
-    readonly memberTypes: DynamicallyAccessedMemberTypes;
-    readonly type: Type;
-    readonly typeName: string;
+    readonly AssemblyName: string;
+    get Condition(): string | undefined;
+    set Condition(value: string);
+    readonly MemberSignature: string | undefined;
+    readonly MemberTypes: DynamicallyAccessedMemberTypes;
+    readonly Type: Type;
+    readonly TypeName: string;
 }
 
 
@@ -138,8 +138,8 @@ export const DynamicDependencyAttribute: {
 export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 
 export interface ExcludeFromCodeCoverageAttribute$instance extends Attribute {
-    get justification(): string | undefined;
-    set justification(value: string);
+    get Justification(): string | undefined;
+    set Justification(value: string);
 }
 
 
@@ -151,10 +151,10 @@ export const ExcludeFromCodeCoverageAttribute: {
 export type ExcludeFromCodeCoverageAttribute = ExcludeFromCodeCoverageAttribute$instance;
 
 export interface ExperimentalAttribute$instance extends Attribute {
-    readonly diagnosticId: string;
-    message: string;
-    get urlFormat(): string | undefined;
-    set urlFormat(value: string);
+    readonly DiagnosticId: string;
+    Message: string;
+    get UrlFormat(): string | undefined;
+    set UrlFormat(value: string);
 }
 
 
@@ -166,7 +166,7 @@ export const ExperimentalAttribute: {
 export type ExperimentalAttribute = ExperimentalAttribute$instance;
 
 export interface FeatureGuardAttribute$instance extends Attribute {
-    readonly featureType: Type;
+    readonly FeatureType: Type;
 }
 
 
@@ -178,7 +178,7 @@ export const FeatureGuardAttribute: {
 export type FeatureGuardAttribute = FeatureGuardAttribute$instance;
 
 export interface FeatureSwitchDefinitionAttribute$instance extends Attribute {
-    readonly switchName: string;
+    readonly SwitchName: string;
 }
 
 
@@ -201,7 +201,7 @@ export const MaybeNullAttribute: {
 export type MaybeNullAttribute = MaybeNullAttribute$instance;
 
 export interface MaybeNullWhenAttribute$instance extends Attribute {
-    readonly returnValue: boolean;
+    readonly ReturnValue: boolean;
 }
 
 
@@ -213,7 +213,7 @@ export const MaybeNullWhenAttribute: {
 export type MaybeNullWhenAttribute = MaybeNullWhenAttribute$instance;
 
 export interface MemberNotNullAttribute$instance extends Attribute {
-    readonly members: string[];
+    readonly Members: string[];
 }
 
 
@@ -226,8 +226,8 @@ export const MemberNotNullAttribute: {
 export type MemberNotNullAttribute = MemberNotNullAttribute$instance;
 
 export interface MemberNotNullWhenAttribute$instance extends Attribute {
-    readonly members: string[];
-    readonly returnValue: boolean;
+    readonly Members: string[];
+    readonly ReturnValue: boolean;
 }
 
 
@@ -251,7 +251,7 @@ export const NotNullAttribute: {
 export type NotNullAttribute = NotNullAttribute$instance;
 
 export interface NotNullIfNotNullAttribute$instance extends Attribute {
-    readonly parameterName: string;
+    readonly ParameterName: string;
 }
 
 
@@ -263,7 +263,7 @@ export const NotNullIfNotNullAttribute: {
 export type NotNullIfNotNullAttribute = NotNullIfNotNullAttribute$instance;
 
 export interface NotNullWhenAttribute$instance extends Attribute {
-    readonly returnValue: boolean;
+    readonly ReturnValue: boolean;
 }
 
 
@@ -275,9 +275,9 @@ export const NotNullWhenAttribute: {
 export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 
 export interface RequiresAssemblyFilesAttribute$instance extends Attribute {
-    readonly message: string;
-    get url(): string | undefined;
-    set url(value: string);
+    readonly Message: string;
+    get Url(): string | undefined;
+    set Url(value: string);
 }
 
 
@@ -290,10 +290,10 @@ export const RequiresAssemblyFilesAttribute: {
 export type RequiresAssemblyFilesAttribute = RequiresAssemblyFilesAttribute$instance;
 
 export interface RequiresDynamicCodeAttribute$instance extends Attribute {
-    excludeStatics: boolean;
-    readonly message: string;
-    get url(): string | undefined;
-    set url(value: string);
+    ExcludeStatics: boolean;
+    readonly Message: string;
+    get Url(): string | undefined;
+    set Url(value: string);
 }
 
 
@@ -305,10 +305,10 @@ export const RequiresDynamicCodeAttribute: {
 export type RequiresDynamicCodeAttribute = RequiresDynamicCodeAttribute$instance;
 
 export interface RequiresUnreferencedCodeAttribute$instance extends Attribute {
-    excludeStatics: boolean;
-    readonly message: string;
-    get url(): string | undefined;
-    set url(value: string);
+    ExcludeStatics: boolean;
+    readonly Message: string;
+    get Url(): string | undefined;
+    set Url(value: string);
 }
 
 
@@ -331,41 +331,41 @@ export const SetsRequiredMembersAttribute: {
 export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance;
 
 export interface StringSyntaxAttribute$instance extends Attribute {
-    readonly arguments: (unknown | undefined)[];
-    readonly syntax: string;
+    readonly Arguments: (unknown | undefined)[];
+    readonly Syntax: string;
 }
 
 
 export const StringSyntaxAttribute: {
     new(syntax: string): StringSyntaxAttribute;
     new(syntax: string, arguments: unknown[]): StringSyntaxAttribute;
-    readonly compositeFormat: string;
-    readonly dateOnlyFormat: string;
-    readonly dateTimeFormat: string;
-    readonly enumFormat: string;
-    readonly guidFormat: string;
-    readonly json: string;
-    readonly numericFormat: string;
-    readonly regex: string;
-    readonly timeOnlyFormat: string;
-    readonly timeSpanFormat: string;
-    readonly uri: string;
-    readonly xml: string;
+    readonly CompositeFormat: string;
+    readonly DateOnlyFormat: string;
+    readonly DateTimeFormat: string;
+    readonly EnumFormat: string;
+    readonly GuidFormat: string;
+    readonly Json: string;
+    readonly NumericFormat: string;
+    readonly Regex: string;
+    readonly TimeOnlyFormat: string;
+    readonly TimeSpanFormat: string;
+    readonly Uri: string;
+    readonly Xml: string;
 };
 
 
 export type StringSyntaxAttribute = StringSyntaxAttribute$instance;
 
 export interface SuppressMessageAttribute$instance extends Attribute {
-    readonly category: string;
-    readonly checkId: string;
-    get justification(): string | undefined;
-    set justification(value: string);
-    get messageId(): string | undefined;
-    set messageId(value: string);
-    get scope(): string | undefined;
-    set scope(value: string);
-    target: string;
+    readonly Category: string;
+    readonly CheckId: string;
+    get Justification(): string | undefined;
+    set Justification(value: string);
+    get MessageId(): string | undefined;
+    set MessageId(value: string);
+    get Scope(): string | undefined;
+    set Scope(value: string);
+    Target: string;
 }
 
 
@@ -377,15 +377,15 @@ export const SuppressMessageAttribute: {
 export type SuppressMessageAttribute = SuppressMessageAttribute$instance;
 
 export interface UnconditionalSuppressMessageAttribute$instance extends Attribute {
-    readonly category: string;
-    readonly checkId: string;
-    get justification(): string | undefined;
-    set justification(value: string);
-    get messageId(): string | undefined;
-    set messageId(value: string);
-    get scope(): string | undefined;
-    set scope(value: string);
-    target: string;
+    readonly Category: string;
+    readonly CheckId: string;
+    get Justification(): string | undefined;
+    set Justification(value: string);
+    get MessageId(): string | undefined;
+    set MessageId(value: string);
+    get Scope(): string | undefined;
+    set Scope(value: string);
+    Target: string;
 }
 
 

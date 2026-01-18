@@ -15,197 +15,197 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AppWinStyle {
-    hide = 0,
-    normalFocus = 1,
-    minimizedFocus = 2,
-    maximizedFocus = 3,
-    normalNoFocus = 4,
-    minimizedNoFocus = 6
+    Hide = 0,
+    NormalFocus = 1,
+    MinimizedFocus = 2,
+    MaximizedFocus = 3,
+    NormalNoFocus = 4,
+    MinimizedNoFocus = 6
 }
 
 
 export enum CallType {
-    method = 1,
-    get = 2,
-    let = 4,
-    set = 8
+    Method = 1,
+    Get = 2,
+    Let = 4,
+    Set = 8
 }
 
 
 export enum CompareMethod {
-    binary = 0,
-    text = 1
+    Binary = 0,
+    Text = 1
 }
 
 
 export enum DateFormat {
-    generalDate = 0,
-    longDate = 1,
-    shortDate = 2,
-    longTime = 3,
-    shortTime = 4
+    GeneralDate = 0,
+    LongDate = 1,
+    ShortDate = 2,
+    LongTime = 3,
+    ShortTime = 4
 }
 
 
 export enum DateInterval {
-    year = 0,
-    quarter = 1,
-    month = 2,
-    dayOfYear = 3,
-    day = 4,
-    weekOfYear = 5,
-    weekday = 6,
-    hour = 7,
-    minute = 8,
-    second = 9
+    Year = 0,
+    Quarter = 1,
+    Month = 2,
+    DayOfYear = 3,
+    Day = 4,
+    WeekOfYear = 5,
+    Weekday = 6,
+    Hour = 7,
+    Minute = 8,
+    Second = 9
 }
 
 
 export enum DueDate {
-    endOfPeriod = 0,
-    begOfPeriod = 1
+    EndOfPeriod = 0,
+    BegOfPeriod = 1
 }
 
 
 export enum FileAttribute {
-    normal = 0,
-    readOnly = 1,
-    hidden = 2,
-    system = 4,
-    volume = 8,
-    directory = 16,
-    archive = 32
+    Normal = 0,
+    ReadOnly = 1,
+    Hidden = 2,
+    System = 4,
+    Volume = 8,
+    Directory = 16,
+    Archive = 32
 }
 
 
 export enum FirstDayOfWeek {
-    system = 0,
-    sunday = 1,
-    monday = 2,
-    tuesday = 3,
-    wednesday = 4,
-    thursday = 5,
-    friday = 6,
-    saturday = 7
+    System = 0,
+    Sunday = 1,
+    Monday = 2,
+    Tuesday = 3,
+    Wednesday = 4,
+    Thursday = 5,
+    Friday = 6,
+    Saturday = 7
 }
 
 
 export enum FirstWeekOfYear {
-    system = 0,
-    jan1 = 1,
-    firstFourDays = 2,
-    firstFullWeek = 3
+    System = 0,
+    Jan1 = 1,
+    FirstFourDays = 2,
+    FirstFullWeek = 3
 }
 
 
 export enum MsgBoxResult {
-    ok = 1,
-    cancel = 2,
-    abort = 3,
-    retry = 4,
-    ignore = 5,
-    yes = 6,
-    no = 7
+    Ok = 1,
+    Cancel = 2,
+    Abort = 3,
+    Retry = 4,
+    Ignore = 5,
+    Yes = 6,
+    No = 7
 }
 
 
 export enum MsgBoxStyle {
-    okOnly = 0,
-    okCancel = 1,
-    abortRetryIgnore = 2,
-    yesNoCancel = 3,
-    yesNo = 4,
-    retryCancel = 5,
-    critical = 16,
-    question = 32,
-    exclamation = 48,
-    information = 64,
-    defaultButton1 = 0,
-    defaultButton2 = 256,
-    defaultButton3 = 512,
-    applicationModal = 0,
-    systemModal = 4096,
-    msgBoxHelp = 16384,
-    msgBoxRight = 524288,
-    msgBoxRtlReading = 1048576,
-    msgBoxSetForeground = 65536
+    OkOnly = 0,
+    OkCancel = 1,
+    AbortRetryIgnore = 2,
+    YesNoCancel = 3,
+    YesNo = 4,
+    RetryCancel = 5,
+    Critical = 16,
+    Question = 32,
+    Exclamation = 48,
+    Information = 64,
+    DefaultButton1 = 0,
+    DefaultButton2 = 256,
+    DefaultButton3 = 512,
+    ApplicationModal = 0,
+    SystemModal = 4096,
+    MsgBoxHelp = 16384,
+    MsgBoxRight = 524288,
+    MsgBoxRtlReading = 1048576,
+    MsgBoxSetForeground = 65536
 }
 
 
 export enum OpenAccess {
-    default = -1,
-    read = 1,
-    readWrite = 3,
-    write = 2
+    Default = -1,
+    Read = 1,
+    ReadWrite = 3,
+    Write = 2
 }
 
 
 export enum OpenMode {
-    input = 1,
-    output = 2,
-    random = 4,
-    append = 8,
-    binary = 32
+    Input = 1,
+    Output = 2,
+    Random = 4,
+    Append = 8,
+    Binary = 32
 }
 
 
 export enum OpenShare {
-    default = -1,
-    shared = 3,
-    lockRead = 2,
-    lockReadWrite = 0,
-    lockWrite = 1
+    Default = -1,
+    Shared = 3,
+    LockRead = 2,
+    LockReadWrite = 0,
+    LockWrite = 1
 }
 
 
 export enum TriState {
-    false = 0,
-    true = -1,
-    useDefault = -2
+    False = 0,
+    True = -1,
+    UseDefault = -2
 }
 
 
 export enum VariantType {
-    empty = 0,
-    null = 1,
-    short = 2,
-    integer = 3,
-    single = 4,
-    double = 5,
-    currency = 6,
-    date = 7,
-    string = 8,
-    object = 9,
-    error = 10,
-    boolean = 11,
-    variant = 12,
-    dataObject = 13,
-    decimal = 14,
-    byte = 17,
-    char = 18,
-    long = 20,
-    userDefinedType = 36,
-    array = 8192
+    Empty = 0,
+    Null = 1,
+    Short = 2,
+    Integer = 3,
+    Single = 4,
+    Double = 5,
+    Currency = 6,
+    Date = 7,
+    String = 8,
+    Object = 9,
+    Error = 10,
+    Boolean = 11,
+    Variant = 12,
+    DataObject = 13,
+    Decimal = 14,
+    Byte = 17,
+    Char = 18,
+    Long = 20,
+    UserDefinedType = 36,
+    Array = 8192
 }
 
 
 export enum VbStrConv {
-    none = 0,
-    uppercase = 1,
-    lowercase = 2,
-    properCase = 3,
-    wide = 4,
-    narrow = 8,
-    katakana = 16,
-    hiragana = 32,
-    simplifiedChinese = 256,
-    traditionalChinese = 512,
-    linguisticCasing = 1024
+    None = 0,
+    Uppercase = 1,
+    Lowercase = 2,
+    ProperCase = 3,
+    Wide = 4,
+    Narrow = 8,
+    Katakana = 16,
+    Hiragana = 32,
+    SimplifiedChinese = 256,
+    TraditionalChinese = 512,
+    LinguisticCasing = 1024
 }
 
 
 export interface SpcInfo$instance {
-    count: short;
+    Count: short;
 }
 
 
@@ -217,7 +217,7 @@ export const SpcInfo: {
 export type SpcInfo = SpcInfo$instance;
 
 export interface TabInfo$instance {
-    column: short;
+    Column: short;
 }
 
 
@@ -229,16 +229,16 @@ export const TabInfo: {
 export type TabInfo = TabInfo$instance;
 
 export interface Collection$instance {
-    readonly count: int;
-    add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
-    clear(): void;
-    contains(Key: string): boolean;
+    readonly Count: int;
+    Add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
+    Clear(): void;
+    Contains(Key: string): boolean;
     get_Item(Index: int): unknown;
     get_Item(Key: string): unknown;
     get_Item(Index: unknown): unknown | undefined;
-    getEnumerator(): IEnumerator;
-    remove(Key: string): void;
-    remove(Index: int): void;
+    GetEnumerator(): IEnumerator;
+    Remove(Key: string): void;
+    Remove(Index: int): void;
 }
 
 
@@ -257,10 +257,10 @@ export type Collection = Collection$instance & __Collection$views;
 
 
 export interface ComClassAttribute$instance extends Attribute {
-    readonly classID: string;
-    readonly eventID: string;
-    readonly interfaceID: string;
-    interfaceShadows: boolean;
+    readonly ClassID: string;
+    readonly EventID: string;
+    readonly InterfaceID: string;
+    InterfaceShadows: boolean;
 }
 
 
@@ -393,16 +393,16 @@ export interface ControlChars$instance {
 
 export const ControlChars: {
     new(): ControlChars;
-    readonly crLf: string;
-    readonly newLine: string;
-    readonly cr: char;
-    readonly lf: char;
-    readonly back: char;
-    readonly formFeed: char;
-    readonly tab: char;
-    readonly verticalTab: char;
-    readonly nullChar: char;
-    readonly quote: char;
+    readonly CrLf: string;
+    readonly NewLine: string;
+    readonly Cr: char;
+    readonly Lf: char;
+    readonly Back: char;
+    readonly FormFeed: char;
+    readonly Tab: char;
+    readonly VerticalTab: char;
+    readonly NullChar: char;
+    readonly Quote: char;
 };
 
 
@@ -414,46 +414,46 @@ export interface Conversion$instance {
 
 export const Conversion: {
     new(): Conversion;
-    cTypeDynamic(Expression: unknown, TargetType: Type): unknown;
-    cTypeDynamic<TargetType>(Expression: unknown): TargetType;
-    errorToString(): string;
-    errorToString(ErrorNumber: int): string;
-    fix(Number: decimal): decimal;
-    fix(Number: double): double;
-    fix(Number: short): short;
-    fix(Number: int): int;
-    fix(Number: long): long;
-    fix(Number: unknown): unknown;
-    fix(Number: float): float;
-    hex(Number: byte): string;
-    hex(Number: short): string;
-    hex(Number: int): string;
-    hex(Number: long): string;
-    hex(Number: unknown): string;
-    hex(Number: sbyte): string;
-    hex(Number: ushort): string;
-    hex(Number: uint): string;
-    hex(Number: ulong): string;
-    int(Number: decimal): decimal;
-    int(Number: double): double;
-    int(Number: short): short;
-    int(Number: int): int;
-    int(Number: long): long;
-    int(Number: unknown): unknown;
-    int(Number: float): float;
-    oct(Number: byte): string;
-    oct(Number: short): string;
-    oct(Number: int): string;
-    oct(Number: long): string;
-    oct(Number: unknown): string;
-    oct(Number: sbyte): string;
-    oct(Number: ushort): string;
-    oct(Number: uint): string;
-    oct(Number: ulong): string;
-    str(Number: unknown): string;
-    val(Expression: char): int;
-    val(Expression: unknown): double;
-    val(InputStr: string): double;
+    CTypeDynamic(Expression: unknown, TargetType: Type): unknown;
+    CTypeDynamic<TargetType>(Expression: unknown): TargetType;
+    ErrorToString(): string;
+    ErrorToString(ErrorNumber: int): string;
+    Fix(Number: decimal): decimal;
+    Fix(Number: double): double;
+    Fix(Number: short): short;
+    Fix(Number: int): int;
+    Fix(Number: long): long;
+    Fix(Number: unknown): unknown;
+    Fix(Number: float): float;
+    Hex(Number: byte): string;
+    Hex(Number: short): string;
+    Hex(Number: int): string;
+    Hex(Number: long): string;
+    Hex(Number: unknown): string;
+    Hex(Number: sbyte): string;
+    Hex(Number: ushort): string;
+    Hex(Number: uint): string;
+    Hex(Number: ulong): string;
+    Int(Number: decimal): decimal;
+    Int(Number: double): double;
+    Int(Number: short): short;
+    Int(Number: int): int;
+    Int(Number: long): long;
+    Int(Number: unknown): unknown;
+    Int(Number: float): float;
+    Oct(Number: byte): string;
+    Oct(Number: short): string;
+    Oct(Number: int): string;
+    Oct(Number: long): string;
+    Oct(Number: unknown): string;
+    Oct(Number: sbyte): string;
+    Oct(Number: ushort): string;
+    Oct(Number: uint): string;
+    Oct(Number: ulong): string;
+    Str(Number: unknown): string;
+    Val(Expression: char): int;
+    Val(Expression: unknown): double;
+    Val(InputStr: string): double;
 };
 
 
@@ -465,47 +465,47 @@ export interface DateAndTime$instance {
 
 export const DateAndTime: {
     new(): DateAndTime;
-    today: DateTime;
-    readonly now: DateTime;
-    timeOfDay: DateTime;
-    timeString: string;
-    dateString: string;
-    readonly timer: double;
-    dateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
-    dateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
-    dateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    dateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    datePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
-    datePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
-    dateSerial(Year: int, Month: int, Day: int): DateTime;
-    dateValue(StringDate: string): DateTime;
-    day(DateValue: DateTime): int;
-    hour(TimeValue: DateTime): int;
-    minute(TimeValue: DateTime): int;
-    month(DateValue: DateTime): int;
-    monthName(Month: int, Abbreviate?: boolean): string;
-    second(TimeValue: DateTime): int;
-    timeSerial(Hour: int, Minute: int, Second: int): DateTime;
-    timeValue(StringTime: string): DateTime;
-    weekday(DateValue: DateTime, DayOfWeek?: FirstDayOfWeek): int;
-    weekdayName(Weekday: int, Abbreviate?: boolean, FirstDayOfWeekValue?: FirstDayOfWeek): string;
-    year(DateValue: DateTime): int;
+    Today: DateTime;
+    readonly Now: DateTime;
+    TimeOfDay: DateTime;
+    TimeString: string;
+    DateString: string;
+    readonly Timer: double;
+    DateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
+    DateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
+    DateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    DateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    DatePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
+    DatePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
+    DateSerial(Year: int, Month: int, Day: int): DateTime;
+    DateValue(StringDate: string): DateTime;
+    Day(DateValue: DateTime): int;
+    Hour(TimeValue: DateTime): int;
+    Minute(TimeValue: DateTime): int;
+    Month(DateValue: DateTime): int;
+    MonthName(Month: int, Abbreviate?: boolean): string;
+    Second(TimeValue: DateTime): int;
+    TimeSerial(Hour: int, Minute: int, Second: int): DateTime;
+    TimeValue(StringTime: string): DateTime;
+    Weekday(DateValue: DateTime, DayOfWeek?: FirstDayOfWeek): int;
+    WeekdayName(Weekday: int, Abbreviate?: boolean, FirstDayOfWeekValue?: FirstDayOfWeek): string;
+    Year(DateValue: DateTime): int;
 };
 
 
 export type DateAndTime = DateAndTime$instance;
 
 export interface ErrObject$instance {
-    description: string;
-    readonly erl: int;
-    helpContext: int;
-    helpFile: string;
-    readonly lastDllError: int;
-    number: int;
-    source: string;
-    clear(): void;
-    getException(): Exception;
-    raise(Number: int, Source?: unknown, Description?: unknown, HelpFile?: unknown, HelpContext?: unknown): void;
+    Description: string;
+    readonly Erl: int;
+    HelpContext: int;
+    HelpFile: string;
+    readonly LastDllError: int;
+    Number: int;
+    Source: string;
+    Clear(): void;
+    GetException(): Exception;
+    Raise(Number: int, Source?: unknown, Description?: unknown, HelpFile?: unknown, HelpContext?: unknown): void;
 }
 
 
@@ -522,89 +522,89 @@ export interface FileSystem$instance {
 
 export const FileSystem: {
     new(): FileSystem;
-    chDir(Path: string): void;
-    chDrive(Drive: char): void;
-    chDrive(Drive: string): void;
-    curDir(): string;
-    curDir(Drive: char): string;
-    dir(): string;
-    dir(PathName: string, Attributes?: FileAttribute): string;
+    ChDir(Path: string): void;
+    ChDrive(Drive: char): void;
+    ChDrive(Drive: string): void;
+    CurDir(): string;
+    CurDir(Drive: char): string;
+    Dir(): string;
+    Dir(PathName: string, Attributes?: FileAttribute): string;
     EOF(FileNumber: int): boolean;
-    fileAttr(FileNumber: int): OpenMode;
-    fileClose(...FileNumbers: int[]): void;
-    fileCopy(Source: string, Destination: string): void;
-    fileDateTime(PathName: string): DateTime;
-    fileGet(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
-    fileGet(FileNumber: int, Value: boolean, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: byte, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: char, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: decimal, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: double, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: short, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: int, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: long, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: float, RecordNumber?: long): void;
-    fileGet(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    fileGet(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    fileGetObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    fileLen(PathName: string): long;
-    fileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
-    filePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
-    filePut(FileNumber: int, Value: boolean, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: byte, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: char, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: decimal, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: double, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: short, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: int, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: long, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: float, RecordNumber?: long): void;
-    filePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    filePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    filePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
-    filePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    fileWidth(FileNumber: int, RecordWidth: int): void;
-    freeFile(): int;
-    getAttr(PathName: string): FileAttribute;
-    input(FileNumber: int, Value: boolean): void;
-    input(FileNumber: int, Value: byte): void;
-    input(FileNumber: int, Value: char): void;
-    input(FileNumber: int, Value: DateTime): void;
-    input(FileNumber: int, Value: decimal): void;
-    input(FileNumber: int, Value: double): void;
-    input(FileNumber: int, Value: short): void;
-    input(FileNumber: int, Value: int): void;
-    input(FileNumber: int, Value: long): void;
-    input(FileNumber: int, Value: unknown): void;
-    input(FileNumber: int, Value: float): void;
-    input(FileNumber: int, Value: string): void;
-    inputString(FileNumber: int, CharCount: int): string;
-    kill(PathName: string): void;
-    lineInput(FileNumber: int): string;
-    loc(FileNumber: int): long;
-    lock(FileNumber: int, FromRecord: long, ToRecord: long): void;
-    lock(FileNumber: int, Record: long): void;
-    lock(FileNumber: int): void;
+    FileAttr(FileNumber: int): OpenMode;
+    FileClose(...FileNumbers: int[]): void;
+    FileCopy(Source: string, Destination: string): void;
+    FileDateTime(PathName: string): DateTime;
+    FileGet(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
+    FileGet(FileNumber: int, Value: boolean, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: byte, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: char, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: decimal, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: double, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: short, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: int, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: long, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: float, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
+    FileGet(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FileGetObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FileLen(PathName: string): long;
+    FileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
+    FilePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
+    FilePut(FileNumber: int, Value: boolean, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: byte, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: char, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: decimal, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: double, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: short, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: int, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: long, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: float, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
+    FilePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FilePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
+    FilePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FileWidth(FileNumber: int, RecordWidth: int): void;
+    FreeFile(): int;
+    GetAttr(PathName: string): FileAttribute;
+    Input(FileNumber: int, Value: boolean): void;
+    Input(FileNumber: int, Value: byte): void;
+    Input(FileNumber: int, Value: char): void;
+    Input(FileNumber: int, Value: DateTime): void;
+    Input(FileNumber: int, Value: decimal): void;
+    Input(FileNumber: int, Value: double): void;
+    Input(FileNumber: int, Value: short): void;
+    Input(FileNumber: int, Value: int): void;
+    Input(FileNumber: int, Value: long): void;
+    Input(FileNumber: int, Value: unknown): void;
+    Input(FileNumber: int, Value: float): void;
+    Input(FileNumber: int, Value: string): void;
+    InputString(FileNumber: int, CharCount: int): string;
+    Kill(PathName: string): void;
+    LineInput(FileNumber: int): string;
+    Loc(FileNumber: int): long;
+    Lock(FileNumber: int, FromRecord: long, ToRecord: long): void;
+    Lock(FileNumber: int, Record: long): void;
+    Lock(FileNumber: int): void;
     LOF(FileNumber: int): long;
-    mkDir(Path: string): void;
-    print(FileNumber: int, ...Output: unknown[]): void;
-    printLine(FileNumber: int, ...Output: unknown[]): void;
-    rename(OldPath: string, NewPath: string): void;
-    reset(): void;
-    rmDir(Path: string): void;
-    seek(FileNumber: int, Position: long): void;
-    seek(FileNumber: int): long;
-    setAttr(PathName: string, Attributes: FileAttribute): void;
+    MkDir(Path: string): void;
+    Print(FileNumber: int, ...Output: unknown[]): void;
+    PrintLine(FileNumber: int, ...Output: unknown[]): void;
+    Rename(OldPath: string, NewPath: string): void;
+    Reset(): void;
+    RmDir(Path: string): void;
+    Seek(FileNumber: int, Position: long): void;
+    Seek(FileNumber: int): long;
+    SetAttr(PathName: string, Attributes: FileAttribute): void;
     SPC(Count: short): SpcInfo;
     TAB(): TabInfo;
     TAB(Column: short): TabInfo;
-    unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
-    unlock(FileNumber: int, Record: long): void;
-    unlock(FileNumber: int): void;
-    write(FileNumber: int, ...Output: unknown[]): void;
-    writeLine(FileNumber: int, ...Output: unknown[]): void;
+    Unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
+    Unlock(FileNumber: int, Record: long): void;
+    Unlock(FileNumber: int): void;
+    Write(FileNumber: int, ...Output: unknown[]): void;
+    WriteLine(FileNumber: int, ...Output: unknown[]): void;
 };
 
 
@@ -618,15 +618,15 @@ export const Financial: {
     new(): Financial;
     DDB(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
     FV(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
-    iPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    IPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
     IRR(ValueArray: double[], Guess?: double): double;
     MIRR(ValueArray: double[], FinanceRate: double, ReinvestRate: double): double;
-    nPer(Rate: double, Pmt: double, PV: double, FV?: double, Due?: DueDate): double;
+    NPer(Rate: double, Pmt: double, PV: double, FV?: double, Due?: DueDate): double;
     NPV(Rate: double, ValueArray: double[]): double;
-    pmt(Rate: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    pPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    Pmt(Rate: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    PPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
     PV(Rate: double, NPer: double, Pmt: double, FV?: double, Due?: DueDate): double;
-    rate(NPer: double, Pmt: double, PV: double, FV?: double, Due?: DueDate, Guess?: double): double;
+    Rate(NPer: double, Pmt: double, PV: double, FV?: double, Due?: DueDate, Guess?: double): double;
     SLN(Cost: double, Salvage: double, Life: double): double;
     SYD(Cost: double, Salvage: double, Life: double, Period: double): double;
 };
@@ -651,23 +651,23 @@ export interface Information$instance {
 
 export const Information: {
     new(): Information;
-    erl(): int;
-    err(): ErrObject;
-    isArray(VarName: unknown): boolean;
-    isDate(Expression: unknown): boolean;
-    isDBNull(Expression: unknown): boolean;
-    isError(Expression: unknown): boolean;
-    isNothing(Expression: unknown): boolean;
-    isNumeric(Expression: unknown): boolean;
-    isReference(Expression: unknown): boolean;
-    lBound(Array: ClrArray, Rank?: int): int;
-    qbColor(Color: int): int;
+    Erl(): int;
+    Err(): ErrObject;
+    IsArray(VarName: unknown): boolean;
+    IsDate(Expression: unknown): boolean;
+    IsDBNull(Expression: unknown): boolean;
+    IsError(Expression: unknown): boolean;
+    IsNothing(Expression: unknown): boolean;
+    IsNumeric(Expression: unknown): boolean;
+    IsReference(Expression: unknown): boolean;
+    LBound(Array: ClrArray, Rank?: int): int;
+    QBColor(Color: int): int;
     RGB(Red: int, Green: int, Blue: int): int;
-    systemTypeName(VbName: string): string;
-    typeName(VarName: unknown): string;
-    uBound(Array: ClrArray, Rank?: int): int;
-    varType(VarName: unknown): VariantType;
-    vbTypeName(UrtName: string): string;
+    SystemTypeName(VbName: string): string;
+    TypeName(VarName: unknown): string;
+    UBound(Array: ClrArray, Rank?: int): int;
+    VarType(VarName: unknown): VariantType;
+    VbTypeName(UrtName: string): string;
 };
 
 
@@ -679,36 +679,36 @@ export interface Interaction$instance {
 
 export const Interaction: {
     new(): Interaction;
-    appActivate(ProcessId: int): void;
-    appActivate(Title: string): void;
-    beep(): void;
-    callByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, ...Args: unknown[]): unknown;
-    choose(Index: double, ...Choice: unknown[]): unknown;
-    command(): string;
-    createObject(ProgId: string, ServerName?: string): unknown;
-    deleteSetting(AppName: string, Section?: string, Key?: string): void;
-    environ(Expression: int): string;
-    environ(Expression: string): string;
-    getAllSettings(AppName: string, Section: string): Array<Array<string>>;
-    getObject(PathName?: string, Class?: string): unknown;
-    getSetting(AppName: string, Section: string, Key: string, Default?: string): string;
-    iIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
-    inputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
-    msgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
-    partition(Number: long, Start: long, Stop: long, Interval: long): string;
-    saveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
-    shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
-    switch(...VarExpr: unknown[]): unknown;
+    AppActivate(ProcessId: int): void;
+    AppActivate(Title: string): void;
+    Beep(): void;
+    CallByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, ...Args: unknown[]): unknown;
+    Choose(Index: double, ...Choice: unknown[]): unknown;
+    Command(): string;
+    CreateObject(ProgId: string, ServerName?: string): unknown;
+    DeleteSetting(AppName: string, Section?: string, Key?: string): void;
+    Environ(Expression: int): string;
+    Environ(Expression: string): string;
+    GetAllSettings(AppName: string, Section: string): Array<Array<string>>;
+    GetObject(PathName?: string, Class?: string): unknown;
+    GetSetting(AppName: string, Section: string, Key: string, Default?: string): string;
+    IIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
+    InputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
+    MsgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
+    Partition(Number: long, Start: long, Stop: long, Interval: long): string;
+    SaveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
+    Shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
+    Switch(...VarExpr: unknown[]): unknown;
 };
 
 
 export type Interaction = Interaction$instance;
 
 export interface MyGroupCollectionAttribute$instance extends Attribute {
-    readonly createMethod: string;
-    readonly defaultInstanceAlias: string;
-    readonly disposeMethod: string;
-    readonly myGroupName: string;
+    readonly CreateMethod: string;
+    readonly DefaultInstanceAlias: string;
+    readonly DisposeMethod: string;
+    readonly MyGroupName: string;
 }
 
 
@@ -725,71 +725,71 @@ export interface Strings$instance {
 
 export const Strings: {
     new(): Strings;
-    asc(String: char): int;
-    asc(String: string): int;
-    ascW(String: char): int;
-    ascW(String: string): int;
-    chr(CharCode: int): char;
-    chrW(CharCode: int): char;
-    filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    format(Expression: unknown, Style?: string): string;
-    formatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    formatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
-    formatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    formatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    getChar(str: string, Index: int): char;
-    inStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
-    inStr(String1: string, String2: string, Compare?: CompareMethod): int;
-    inStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
-    join(SourceArray: unknown[], Delimiter?: string): string;
-    join(SourceArray: string[], Delimiter?: string): string;
-    lCase(Value: char): char;
-    lCase(Value: string): string;
-    left(str: string, Length: int): string;
-    len(Expression: boolean): int;
-    len(Expression: byte): int;
-    len(Expression: char): int;
-    len(Expression: DateTime): int;
-    len(Expression: decimal): int;
-    len(Expression: double): int;
-    len(Expression: short): int;
-    len(Expression: int): int;
-    len(Expression: long): int;
-    len(Expression: unknown): int;
-    len(Expression: sbyte): int;
-    len(Expression: float): int;
-    len(Expression: string): int;
-    len(Expression: ushort): int;
-    len(Expression: uint): int;
-    len(Expression: ulong): int;
-    lSet(Source: string, Length: int): string;
-    lTrim(str: string): string;
-    mid(str: string, Start: int, Length: int): string;
-    mid(str: string, Start: int): string;
-    replace(Expression: string, Find: string, Replacement: string, Start?: int, Count?: int, Compare?: CompareMethod): string;
-    right(str: string, Length: int): string;
-    rSet(Source: string, Length: int): string;
-    rTrim(str: string): string;
-    space(Number: int): string;
-    split(Expression: string, Delimiter?: string, Limit?: int, Compare?: CompareMethod): string[];
-    strComp(String1: string, String2: string, Compare?: CompareMethod): int;
-    strConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
-    strDup(Number: int, Character: char): string;
-    strDup(Number: int, Character: unknown): unknown;
-    strDup(Number: int, Character: string): string;
-    strReverse(Expression: string): string;
-    trim(str: string): string;
-    uCase(Value: char): char;
-    uCase(Value: string): string;
+    Asc(String: char): int;
+    Asc(String: string): int;
+    AscW(String: char): int;
+    AscW(String: string): int;
+    Chr(CharCode: int): char;
+    ChrW(CharCode: int): char;
+    Filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    Filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    Format(Expression: unknown, Style?: string): string;
+    FormatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    FormatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
+    FormatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    FormatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    GetChar(str: string, Index: int): char;
+    InStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
+    InStr(String1: string, String2: string, Compare?: CompareMethod): int;
+    InStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
+    Join(SourceArray: unknown[], Delimiter?: string): string;
+    Join(SourceArray: string[], Delimiter?: string): string;
+    LCase(Value: char): char;
+    LCase(Value: string): string;
+    Left(str: string, Length: int): string;
+    Len(Expression: boolean): int;
+    Len(Expression: byte): int;
+    Len(Expression: char): int;
+    Len(Expression: DateTime): int;
+    Len(Expression: decimal): int;
+    Len(Expression: double): int;
+    Len(Expression: short): int;
+    Len(Expression: int): int;
+    Len(Expression: long): int;
+    Len(Expression: unknown): int;
+    Len(Expression: sbyte): int;
+    Len(Expression: float): int;
+    Len(Expression: string): int;
+    Len(Expression: ushort): int;
+    Len(Expression: uint): int;
+    Len(Expression: ulong): int;
+    LSet(Source: string, Length: int): string;
+    LTrim(str: string): string;
+    Mid(str: string, Start: int, Length: int): string;
+    Mid(str: string, Start: int): string;
+    Replace(Expression: string, Find: string, Replacement: string, Start?: int, Count?: int, Compare?: CompareMethod): string;
+    Right(str: string, Length: int): string;
+    RSet(Source: string, Length: int): string;
+    RTrim(str: string): string;
+    Space(Number: int): string;
+    Split(Expression: string, Delimiter?: string, Limit?: int, Compare?: CompareMethod): string[];
+    StrComp(String1: string, String2: string, Compare?: CompareMethod): int;
+    StrConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
+    StrDup(Number: int, Character: char): string;
+    StrDup(Number: int, Character: unknown): unknown;
+    StrDup(Number: int, Character: string): string;
+    StrReverse(Expression: string): string;
+    Trim(str: string): string;
+    UCase(Value: char): char;
+    UCase(Value: string): string;
 };
 
 
 export type Strings = Strings$instance;
 
 export interface VBFixedArrayAttribute$instance extends Attribute {
-    readonly bounds: int[];
-    readonly length: int;
+    readonly Bounds: int[];
+    readonly Length: int;
 }
 
 
@@ -802,7 +802,7 @@ export const VBFixedArrayAttribute: {
 export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
 export interface VBFixedStringAttribute$instance extends Attribute {
-    readonly length: int;
+    readonly Length: int;
 }
 
 
@@ -819,10 +819,10 @@ export interface VBMath$instance {
 
 export const VBMath: {
     new(): VBMath;
-    randomize(): void;
-    randomize(Number: double): void;
-    rnd(): float;
-    rnd(Number: float): float;
+    Randomize(): void;
+    Randomize(Number: double): void;
+    Rnd(): float;
+    Rnd(Number: float): float;
 };
 
 

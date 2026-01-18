@@ -13,7 +13,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface SwiftError$instance {
-    readonly value: ptr<void>;
+    readonly Value: ptr<void>;
 }
 
 
@@ -25,7 +25,7 @@ export const SwiftError: {
 export type SwiftError = SwiftError$instance;
 
 export interface SwiftIndirectResult$instance {
-    readonly value: ptr<void>;
+    readonly Value: ptr<void>;
 }
 
 
@@ -37,7 +37,7 @@ export const SwiftIndirectResult: {
 export type SwiftIndirectResult = SwiftIndirectResult$instance;
 
 export interface SwiftSelf$instance {
-    readonly value: ptr<void>;
+    readonly Value: ptr<void>;
 }
 
 
@@ -49,7 +49,7 @@ export const SwiftSelf: {
 export type SwiftSelf = SwiftSelf$instance;
 
 export interface SwiftSelf_1$instance<T extends unknown> {
-    readonly value: T;
+    readonly Value: T;
 }
 
 

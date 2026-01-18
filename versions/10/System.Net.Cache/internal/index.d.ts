@@ -10,46 +10,46 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum HttpCacheAgeControl {
-    none = 0,
-    minFresh = 1,
-    maxAge = 2,
-    maxStale = 4,
-    maxAgeAndMinFresh = 3,
-    maxAgeAndMaxStale = 6
+    None = 0,
+    MinFresh = 1,
+    MaxAge = 2,
+    MaxStale = 4,
+    MaxAgeAndMinFresh = 3,
+    MaxAgeAndMaxStale = 6
 }
 
 
 export enum HttpRequestCacheLevel {
-    default = 0,
-    bypassCache = 1,
-    cacheOnly = 2,
-    cacheIfAvailable = 3,
-    revalidate = 4,
-    reload = 5,
-    noCacheNoStore = 6,
-    cacheOrNextCacheOnly = 7,
-    refresh = 8
+    Default = 0,
+    BypassCache = 1,
+    CacheOnly = 2,
+    CacheIfAvailable = 3,
+    Revalidate = 4,
+    Reload = 5,
+    NoCacheNoStore = 6,
+    CacheOrNextCacheOnly = 7,
+    Refresh = 8
 }
 
 
 export enum RequestCacheLevel {
-    default = 0,
-    bypassCache = 1,
-    cacheOnly = 2,
-    cacheIfAvailable = 3,
-    revalidate = 4,
-    reload = 5,
-    noCacheNoStore = 6
+    Default = 0,
+    BypassCache = 1,
+    CacheOnly = 2,
+    CacheIfAvailable = 3,
+    Revalidate = 4,
+    Reload = 5,
+    NoCacheNoStore = 6
 }
 
 
 export interface HttpRequestCachePolicy$instance extends RequestCachePolicy {
-    readonly cacheSyncDate: DateTime;
-    readonly level: HttpRequestCacheLevel | RequestCacheLevel;
-    readonly maxAge: TimeSpan;
-    readonly maxStale: TimeSpan;
-    readonly minFresh: TimeSpan;
-    toString(): string;
+    readonly CacheSyncDate: DateTime;
+    readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
+    readonly MaxAge: TimeSpan;
+    readonly MaxStale: TimeSpan;
+    readonly MinFresh: TimeSpan;
+    ToString(): string;
 }
 
 
@@ -66,8 +66,8 @@ export const HttpRequestCachePolicy: {
 export type HttpRequestCachePolicy = HttpRequestCachePolicy$instance;
 
 export interface RequestCachePolicy$instance {
-    readonly level: HttpRequestCacheLevel | RequestCacheLevel;
-    toString(): string;
+    readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
+    ToString(): string;
 }
 
 

@@ -14,51 +14,51 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum CipherAlgorithmType {
-    none = 0,
-    rc2 = 26114,
-    rc4 = 26625,
-    des = 26113,
-    tripleDes = 26115,
-    aes = 26129,
-    aes128 = 26126,
-    aes192 = 26127,
-    aes256 = 26128,
-    null = 24576
+    None = 0,
+    Rc2 = 26114,
+    Rc4 = 26625,
+    Des = 26113,
+    TripleDes = 26115,
+    Aes = 26129,
+    Aes128 = 26126,
+    Aes192 = 26127,
+    Aes256 = 26128,
+    Null = 24576
 }
 
 
 export enum ExchangeAlgorithmType {
-    none = 0,
-    rsaSign = 9216,
-    rsaKeyX = 41984,
-    diffieHellman = 43522
+    None = 0,
+    RsaSign = 9216,
+    RsaKeyX = 41984,
+    DiffieHellman = 43522
 }
 
 
 export enum HashAlgorithmType {
-    none = 0,
-    md5 = 32771,
-    sha1 = 32772,
-    sha256 = 32780,
-    sha384 = 32781,
-    sha512 = 32782
+    None = 0,
+    Md5 = 32771,
+    Sha1 = 32772,
+    Sha256 = 32780,
+    Sha384 = 32781,
+    Sha512 = 32782
 }
 
 
 export enum SslProtocols {
-    none = 0,
-    ssl2 = 12,
-    ssl3 = 48,
-    tls = 192,
-    tls11 = 768,
-    tls12 = 3072,
-    tls13 = 12288,
-    default = 240
+    None = 0,
+    Ssl2 = 12,
+    Ssl3 = 48,
+    Tls = 192,
+    Tls11 = 768,
+    Tls12 = 3072,
+    Tls13 = 12288,
+    Default = 240
 }
 
 
 export interface AuthenticationException$instance extends SystemException {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -77,7 +77,7 @@ export type AuthenticationException = AuthenticationException$instance & __Authe
 
 
 export interface InvalidCredentialException$instance extends AuthenticationException$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

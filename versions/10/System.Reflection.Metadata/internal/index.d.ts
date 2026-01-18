@@ -24,82 +24,82 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from "../../System/internal/index.js";
 
 export enum ConstantTypeCode {
-    invalid = 0,
-    boolean = 2,
-    char = 3,
-    sByte = 4,
-    byte = 5,
-    int16 = 6,
-    uInt16 = 7,
-    int32 = 8,
-    uInt32 = 9,
-    int64 = 10,
-    uInt64 = 11,
-    single = 12,
-    double = 13,
-    string = 14,
-    nullReference = 18
+    Invalid = 0,
+    Boolean = 2,
+    Char = 3,
+    SByte = 4,
+    Byte = 5,
+    Int16 = 6,
+    UInt16 = 7,
+    Int32 = 8,
+    UInt32 = 9,
+    Int64 = 10,
+    UInt64 = 11,
+    Single = 12,
+    Double = 13,
+    String = 14,
+    NullReference = 18
 }
 
 
 export enum CustomAttributeNamedArgumentKind {
-    field = 83,
-    property = 84
+    Field = 83,
+    Property = 84
 }
 
 
 export enum ExceptionRegionKind {
-    catch = 0,
-    filter = 1,
-    finally = 2,
-    fault = 4
+    Catch = 0,
+    Filter = 1,
+    Finally = 2,
+    Fault = 4
 }
 
 
 export enum HandleKind {
-    moduleDefinition = 0,
-    typeReference = 1,
-    typeDefinition = 2,
-    fieldDefinition = 4,
-    methodDefinition = 6,
-    parameter = 8,
-    interfaceImplementation = 9,
-    memberReference = 10,
-    constant = 11,
-    customAttribute = 12,
-    declarativeSecurityAttribute = 14,
-    standaloneSignature = 17,
-    eventDefinition = 20,
-    propertyDefinition = 23,
-    methodImplementation = 25,
-    moduleReference = 26,
-    typeSpecification = 27,
-    assemblyDefinition = 32,
-    assemblyFile = 38,
-    assemblyReference = 35,
-    exportedType = 39,
-    genericParameter = 42,
-    methodSpecification = 43,
-    genericParameterConstraint = 44,
-    manifestResource = 40,
-    document = 48,
-    methodDebugInformation = 49,
-    localScope = 50,
-    localVariable = 51,
-    localConstant = 52,
-    importScope = 53,
-    customDebugInformation = 55,
-    namespaceDefinition = 124,
-    userString = 112,
-    string = 120,
-    blob = 113,
-    guid = 114
+    ModuleDefinition = 0,
+    TypeReference = 1,
+    TypeDefinition = 2,
+    FieldDefinition = 4,
+    MethodDefinition = 6,
+    Parameter = 8,
+    InterfaceImplementation = 9,
+    MemberReference = 10,
+    Constant = 11,
+    CustomAttribute = 12,
+    DeclarativeSecurityAttribute = 14,
+    StandaloneSignature = 17,
+    EventDefinition = 20,
+    PropertyDefinition = 23,
+    MethodImplementation = 25,
+    ModuleReference = 26,
+    TypeSpecification = 27,
+    AssemblyDefinition = 32,
+    AssemblyFile = 38,
+    AssemblyReference = 35,
+    ExportedType = 39,
+    GenericParameter = 42,
+    MethodSpecification = 43,
+    GenericParameterConstraint = 44,
+    ManifestResource = 40,
+    Document = 48,
+    MethodDebugInformation = 49,
+    LocalScope = 50,
+    LocalVariable = 51,
+    LocalConstant = 52,
+    ImportScope = 53,
+    CustomDebugInformation = 55,
+    NamespaceDefinition = 124,
+    UserString = 112,
+    String = 120,
+    Blob = 113,
+    Guid = 114
 }
 
 
 export enum ILOpCode {
-    nop = 0,
-    break = 1,
+    Nop = 0,
+    Break = 1,
     Ldarg_0 = 2,
     Ldarg_1 = 3,
     Ldarg_2 = 4,
@@ -118,7 +118,7 @@ export enum ILOpCode {
     Ldloc_s = 17,
     Ldloca_s = 18,
     Stloc_s = 19,
-    ldnull = 20,
+    Ldnull = 20,
     Ldc_i4_m1 = 21,
     Ldc_i4_0 = 22,
     Ldc_i4_1 = 23,
@@ -134,12 +134,12 @@ export enum ILOpCode {
     Ldc_i8 = 33,
     Ldc_r4 = 34,
     Ldc_r8 = 35,
-    dup = 37,
-    pop = 38,
-    jmp = 39,
-    call = 40,
-    calli = 41,
-    ret = 42,
+    Dup = 37,
+    Pop = 38,
+    Jmp = 39,
+    Call = 40,
+    Calli = 41,
+    Ret = 42,
     Br_s = 43,
     Brfalse_s = 44,
     Brtrue_s = 45,
@@ -153,20 +153,20 @@ export enum ILOpCode {
     Bgt_un_s = 53,
     Ble_un_s = 54,
     Blt_un_s = 55,
-    br = 56,
-    brfalse = 57,
-    brtrue = 58,
-    beq = 59,
-    bge = 60,
-    bgt = 61,
-    ble = 62,
-    blt = 63,
+    Br = 56,
+    Brfalse = 57,
+    Brtrue = 58,
+    Beq = 59,
+    Bge = 60,
+    Bgt = 61,
+    Ble = 62,
+    Blt = 63,
     Bne_un = 64,
     Bge_un = 65,
     Bgt_un = 66,
     Ble_un = 67,
     Blt_un = 68,
-    switch = 69,
+    Switch = 69,
     Ldind_i1 = 70,
     Ldind_u1 = 71,
     Ldind_i2 = 72,
@@ -185,21 +185,21 @@ export enum ILOpCode {
     Stind_i8 = 85,
     Stind_r4 = 86,
     Stind_r8 = 87,
-    add = 88,
-    sub = 89,
-    mul = 90,
-    div = 91,
+    Add = 88,
+    Sub = 89,
+    Mul = 90,
+    Div = 91,
     Div_un = 92,
-    rem = 93,
+    Rem = 93,
     Rem_un = 94,
-    and = 95,
-    or = 96,
-    xor = 97,
-    shl = 98,
-    shr = 99,
+    And = 95,
+    Or = 96,
+    Xor = 97,
+    Shl = 98,
+    Shr = 99,
     Shr_un = 100,
-    neg = 101,
-    not = 102,
+    Neg = 101,
+    Not = 102,
     Conv_i1 = 103,
     Conv_i2 = 104,
     Conv_i4 = 105,
@@ -208,23 +208,23 @@ export enum ILOpCode {
     Conv_r8 = 108,
     Conv_u4 = 109,
     Conv_u8 = 110,
-    callvirt = 111,
-    cpobj = 112,
-    ldobj = 113,
-    ldstr = 114,
-    newobj = 115,
-    castclass = 116,
-    isinst = 117,
+    Callvirt = 111,
+    Cpobj = 112,
+    Ldobj = 113,
+    Ldstr = 114,
+    Newobj = 115,
+    Castclass = 116,
+    Isinst = 117,
     Conv_r_un = 118,
-    unbox = 121,
-    throw = 122,
-    ldfld = 123,
-    ldflda = 124,
-    stfld = 125,
-    ldsfld = 126,
-    ldsflda = 127,
-    stsfld = 128,
-    stobj = 129,
+    Unbox = 121,
+    Throw = 122,
+    Ldfld = 123,
+    Ldflda = 124,
+    Stfld = 125,
+    Ldsfld = 126,
+    Ldsflda = 127,
+    Stsfld = 128,
+    Stobj = 129,
     Conv_ovf_i1_un = 130,
     Conv_ovf_i2_un = 131,
     Conv_ovf_i4_un = 132,
@@ -235,10 +235,10 @@ export enum ILOpCode {
     Conv_ovf_u8_un = 137,
     Conv_ovf_i_un = 138,
     Conv_ovf_u_un = 139,
-    box = 140,
-    newarr = 141,
-    ldlen = 142,
-    ldelema = 143,
+    Box = 140,
+    Newarr = 141,
+    Ldlen = 142,
+    Ldelema = 143,
     Ldelem_i1 = 144,
     Ldelem_u1 = 145,
     Ldelem_i2 = 146,
@@ -258,8 +258,8 @@ export enum ILOpCode {
     Stelem_r4 = 160,
     Stelem_r8 = 161,
     Stelem_ref = 162,
-    ldelem = 163,
-    stelem = 164,
+    Ldelem = 163,
+    Stelem = 164,
     Unbox_any = 165,
     Conv_ovf_i1 = 179,
     Conv_ovf_u1 = 180,
@@ -269,10 +269,10 @@ export enum ILOpCode {
     Conv_ovf_u4 = 184,
     Conv_ovf_i8 = 185,
     Conv_ovf_u8 = 186,
-    refanyval = 194,
-    ckfinite = 195,
-    mkrefany = 198,
-    ldtoken = 208,
+    Refanyval = 194,
+    Ckfinite = 195,
+    Mkrefany = 198,
+    Ldtoken = 208,
     Conv_u2 = 209,
     Conv_u1 = 210,
     Conv_i = 211,
@@ -284,230 +284,230 @@ export enum ILOpCode {
     Mul_ovf_un = 217,
     Sub_ovf = 218,
     Sub_ovf_un = 219,
-    endfinally = 220,
-    leave = 221,
+    Endfinally = 220,
+    Leave = 221,
     Leave_s = 222,
     Stind_i = 223,
     Conv_u = 224,
-    arglist = 65024,
-    ceq = 65025,
-    cgt = 65026,
+    Arglist = 65024,
+    Ceq = 65025,
+    Cgt = 65026,
     Cgt_un = 65027,
-    clt = 65028,
+    Clt = 65028,
     Clt_un = 65029,
-    ldftn = 65030,
-    ldvirtftn = 65031,
-    ldarg = 65033,
-    ldarga = 65034,
-    starg = 65035,
-    ldloc = 65036,
-    ldloca = 65037,
-    stloc = 65038,
-    localloc = 65039,
-    endfilter = 65041,
-    unaligned = 65042,
-    volatile = 65043,
-    tail = 65044,
-    initobj = 65045,
-    constrained = 65046,
-    cpblk = 65047,
-    initblk = 65048,
-    rethrow = 65050,
-    sizeof = 65052,
-    refanytype = 65053,
-    readonly = 65054
+    Ldftn = 65030,
+    Ldvirtftn = 65031,
+    Ldarg = 65033,
+    Ldarga = 65034,
+    Starg = 65035,
+    Ldloc = 65036,
+    Ldloca = 65037,
+    Stloc = 65038,
+    Localloc = 65039,
+    Endfilter = 65041,
+    Unaligned = 65042,
+    Volatile = 65043,
+    Tail = 65044,
+    Initobj = 65045,
+    Constrained = 65046,
+    Cpblk = 65047,
+    Initblk = 65048,
+    Rethrow = 65050,
+    Sizeof = 65052,
+    Refanytype = 65053,
+    Readonly = 65054
 }
 
 
 export enum ImportDefinitionKind {
-    importNamespace = 1,
-    importAssemblyNamespace = 2,
-    importType = 3,
-    importXmlNamespace = 4,
-    importAssemblyReferenceAlias = 5,
-    aliasAssemblyReference = 6,
-    aliasNamespace = 7,
-    aliasAssemblyNamespace = 8,
-    aliasType = 9
+    ImportNamespace = 1,
+    ImportAssemblyNamespace = 2,
+    ImportType = 3,
+    ImportXmlNamespace = 4,
+    ImportAssemblyReferenceAlias = 5,
+    AliasAssemblyReference = 6,
+    AliasNamespace = 7,
+    AliasAssemblyNamespace = 8,
+    AliasType = 9
 }
 
 
 export enum LocalVariableAttributes {
-    none = 0,
-    debuggerHidden = 1
+    None = 0,
+    DebuggerHidden = 1
 }
 
 
 export enum MemberReferenceKind {
-    method = 0,
-    field = 1
+    Method = 0,
+    Field = 1
 }
 
 
 export enum MetadataKind {
-    ecma335 = 0,
-    windowsMetadata = 1,
-    managedWindowsMetadata = 2
+    Ecma335 = 0,
+    WindowsMetadata = 1,
+    ManagedWindowsMetadata = 2
 }
 
 
 export enum MetadataReaderOptions {
-    none = 0,
-    default = 1,
-    applyWindowsRuntimeProjections = 1
+    None = 0,
+    Default = 1,
+    ApplyWindowsRuntimeProjections = 1
 }
 
 
 export enum MetadataStreamOptions {
-    default = 0,
-    leaveOpen = 1,
-    prefetchMetadata = 2
+    Default = 0,
+    LeaveOpen = 1,
+    PrefetchMetadata = 2
 }
 
 
 export enum PrimitiveSerializationTypeCode {
-    boolean = 2,
-    byte = 5,
-    sByte = 4,
-    char = 3,
-    int16 = 6,
-    uInt16 = 7,
-    int32 = 8,
-    uInt32 = 9,
-    int64 = 10,
-    uInt64 = 11,
-    single = 12,
-    double = 13,
-    string = 14
+    Boolean = 2,
+    Byte = 5,
+    SByte = 4,
+    Char = 3,
+    Int16 = 6,
+    UInt16 = 7,
+    Int32 = 8,
+    UInt32 = 9,
+    Int64 = 10,
+    UInt64 = 11,
+    Single = 12,
+    Double = 13,
+    String = 14
 }
 
 
 export enum PrimitiveTypeCode {
-    boolean = 2,
-    byte = 5,
-    sByte = 4,
-    char = 3,
-    int16 = 6,
-    uInt16 = 7,
-    int32 = 8,
-    uInt32 = 9,
-    int64 = 10,
-    uInt64 = 11,
-    single = 12,
-    double = 13,
-    intPtr = 24,
-    uIntPtr = 25,
-    object = 28,
-    string = 14,
-    typedReference = 22,
-    void = 1
+    Boolean = 2,
+    Byte = 5,
+    SByte = 4,
+    Char = 3,
+    Int16 = 6,
+    UInt16 = 7,
+    Int32 = 8,
+    UInt32 = 9,
+    Int64 = 10,
+    UInt64 = 11,
+    Single = 12,
+    Double = 13,
+    IntPtr = 24,
+    UIntPtr = 25,
+    Object = 28,
+    String = 14,
+    TypedReference = 22,
+    Void = 1
 }
 
 
 export enum SerializationTypeCode {
-    invalid = 0,
-    boolean = 2,
-    char = 3,
-    sByte = 4,
-    byte = 5,
-    int16 = 6,
-    uInt16 = 7,
-    int32 = 8,
-    uInt32 = 9,
-    int64 = 10,
-    uInt64 = 11,
-    single = 12,
-    double = 13,
-    string = 14,
-    szArray = 29,
-    type = 80,
-    taggedObject = 81,
-    enum = 85
+    Invalid = 0,
+    Boolean = 2,
+    Char = 3,
+    SByte = 4,
+    Byte = 5,
+    Int16 = 6,
+    UInt16 = 7,
+    Int32 = 8,
+    UInt32 = 9,
+    Int64 = 10,
+    UInt64 = 11,
+    Single = 12,
+    Double = 13,
+    String = 14,
+    SZArray = 29,
+    Type = 80,
+    TaggedObject = 81,
+    Enum = 85
 }
 
 
 export enum SignatureAttributes {
-    none = 0,
-    generic = 16,
-    instance = 32,
-    explicitThis = 64
+    None = 0,
+    Generic = 16,
+    Instance = 32,
+    ExplicitThis = 64
 }
 
 
 export enum SignatureCallingConvention {
-    default = 0,
-    cDecl = 1,
-    stdCall = 2,
-    thisCall = 3,
-    fastCall = 4,
-    varArgs = 5,
-    unmanaged = 9
+    Default = 0,
+    CDecl = 1,
+    StdCall = 2,
+    ThisCall = 3,
+    FastCall = 4,
+    VarArgs = 5,
+    Unmanaged = 9
 }
 
 
 export enum SignatureKind {
-    method = 0,
-    field = 6,
-    localVariables = 7,
-    property = 8,
-    methodSpecification = 10
+    Method = 0,
+    Field = 6,
+    LocalVariables = 7,
+    Property = 8,
+    MethodSpecification = 10
 }
 
 
 export enum SignatureTypeCode {
-    invalid = 0,
-    void = 1,
-    boolean = 2,
-    char = 3,
-    sByte = 4,
-    byte = 5,
-    int16 = 6,
-    uInt16 = 7,
-    int32 = 8,
-    uInt32 = 9,
-    int64 = 10,
-    uInt64 = 11,
-    single = 12,
-    double = 13,
-    string = 14,
-    pointer = 15,
-    byReference = 16,
-    genericTypeParameter = 19,
-    array = 20,
-    genericTypeInstance = 21,
-    typedReference = 22,
-    intPtr = 24,
-    uIntPtr = 25,
-    functionPointer = 27,
-    object = 28,
-    szArray = 29,
-    genericMethodParameter = 30,
-    requiredModifier = 31,
-    optionalModifier = 32,
-    typeHandle = 64,
-    sentinel = 65,
-    pinned = 69
+    Invalid = 0,
+    Void = 1,
+    Boolean = 2,
+    Char = 3,
+    SByte = 4,
+    Byte = 5,
+    Int16 = 6,
+    UInt16 = 7,
+    Int32 = 8,
+    UInt32 = 9,
+    Int64 = 10,
+    UInt64 = 11,
+    Single = 12,
+    Double = 13,
+    String = 14,
+    Pointer = 15,
+    ByReference = 16,
+    GenericTypeParameter = 19,
+    Array = 20,
+    GenericTypeInstance = 21,
+    TypedReference = 22,
+    IntPtr = 24,
+    UIntPtr = 25,
+    FunctionPointer = 27,
+    Object = 28,
+    SZArray = 29,
+    GenericMethodParameter = 30,
+    RequiredModifier = 31,
+    OptionalModifier = 32,
+    TypeHandle = 64,
+    Sentinel = 65,
+    Pinned = 69
 }
 
 
 export enum SignatureTypeKind {
-    unknown = 0,
-    class = 18,
-    valueType = 17
+    Unknown = 0,
+    Class = 18,
+    ValueType = 17
 }
 
 
 export enum StandaloneSignatureKind {
-    method = 0,
-    localVariables = 1
+    Method = 0,
+    LocalVariables = 1
 }
 
 
 export interface IConstructedTypeProvider_1$instance<TType> extends ISZArrayTypeProvider_1<TType> {
-    getArrayType(elementType: TType, shape: ArrayShape): TType;
-    getByReferenceType(elementType: TType): TType;
-    getGenericInstantiation(genericType: TType, typeArguments: ImmutableArray_1<TType>): TType;
-    getSZArrayType(elementType: TType): TType;
+    GetArrayType(elementType: TType, shape: ArrayShape): TType;
+    GetByReferenceType(elementType: TType): TType;
+    GetGenericInstantiation(genericType: TType, typeArguments: ImmutableArray_1<TType>): TType;
+    GetSZArrayType(elementType: TType): TType;
 }
 
 
@@ -516,14 +516,14 @@ export interface IConstructedTypeProvider_1$instance<TType> extends ISZArrayType
 export type IConstructedTypeProvider_1<TType> = IConstructedTypeProvider_1$instance<TType>;
 
 export interface ICustomAttributeTypeProvider_1$instance<TType> extends ISimpleTypeProvider_1<TType>, ISZArrayTypeProvider_1<TType> {
-    getPrimitiveType(typeCode: PrimitiveTypeCode): TType;
-    getSystemType(): TType;
-    getSZArrayType(elementType: TType): TType;
-    getTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
-    getTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
-    getTypeFromSerializedName(name: string): TType;
-    getUnderlyingEnumType(type: TType): PrimitiveTypeCode;
-    isSystemType(type: TType): boolean;
+    GetPrimitiveType(typeCode: PrimitiveTypeCode): TType;
+    GetSystemType(): TType;
+    GetSZArrayType(elementType: TType): TType;
+    GetTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
+    GetTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
+    GetTypeFromSerializedName(name: string): TType;
+    GetUnderlyingEnumType(type: TType): PrimitiveTypeCode;
+    IsSystemType(type: TType): boolean;
 }
 
 
@@ -532,18 +532,18 @@ export interface ICustomAttributeTypeProvider_1$instance<TType> extends ISimpleT
 export type ICustomAttributeTypeProvider_1<TType> = ICustomAttributeTypeProvider_1$instance<TType>;
 
 export interface ISignatureTypeProvider_2$instance<TType, TGenericContext> extends ISimpleTypeProvider_1<TType>, IConstructedTypeProvider_1<TType>, ISZArrayTypeProvider_1<TType> {
-    getArrayType(elementType: TType, shape: ArrayShape): TType;
-    getByReferenceType(elementType: TType): TType;
-    getFunctionPointerType(signature: MethodSignature_1<TType>): TType;
-    getGenericInstantiation(genericType: TType, typeArguments: ImmutableArray_1<TType>): TType;
-    getGenericMethodParameter(genericContext: TGenericContext, index: int): TType;
-    getModifiedType(modifier: TType, unmodifiedType: TType, isRequired: boolean): TType;
-    getPinnedType(elementType: TType): TType;
-    getPrimitiveType(typeCode: PrimitiveTypeCode): TType;
-    getTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
-    getTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
-    getTypeFromSpecification(reader: MetadataReader, genericContext: TGenericContext, handle: TypeSpecificationHandle, rawTypeKind: byte): TType;
-    getSZArrayType(elementType: TType): TType;
+    GetArrayType(elementType: TType, shape: ArrayShape): TType;
+    GetByReferenceType(elementType: TType): TType;
+    GetFunctionPointerType(signature: MethodSignature_1<TType>): TType;
+    GetGenericInstantiation(genericType: TType, typeArguments: ImmutableArray_1<TType>): TType;
+    GetGenericMethodParameter(genericContext: TGenericContext, index: int): TType;
+    GetModifiedType(modifier: TType, unmodifiedType: TType, isRequired: boolean): TType;
+    GetPinnedType(elementType: TType): TType;
+    GetPrimitiveType(typeCode: PrimitiveTypeCode): TType;
+    GetTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
+    GetTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
+    GetTypeFromSpecification(reader: MetadataReader, genericContext: TGenericContext, handle: TypeSpecificationHandle, rawTypeKind: byte): TType;
+    GetSZArrayType(elementType: TType): TType;
 }
 
 
@@ -552,25 +552,25 @@ export interface ISignatureTypeProvider_2$instance<TType, TGenericContext> exten
 export type ISignatureTypeProvider_2<TType, TGenericContext> = ISignatureTypeProvider_2$instance<TType, TGenericContext>;
 
 export interface ISimpleTypeProvider_1$instance<TType> {
-    getPrimitiveType(typeCode: PrimitiveTypeCode): TType;
-    getTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
-    getTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
+    GetPrimitiveType(typeCode: PrimitiveTypeCode): TType;
+    GetTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
+    GetTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
 }
 
 
 export type ISimpleTypeProvider_1<TType> = ISimpleTypeProvider_1$instance<TType>;
 
 export interface ISZArrayTypeProvider_1$instance<TType> {
-    getSZArrayType(elementType: TType): TType;
+    GetSZArrayType(elementType: TType): TType;
 }
 
 
 export type ISZArrayTypeProvider_1<TType> = ISZArrayTypeProvider_1$instance<TType>;
 
 export interface ArrayShape$instance {
-    readonly lowerBounds: ImmutableArray_1<System_Internal.Int32>;
-    readonly rank: int;
-    readonly sizes: ImmutableArray_1<System_Internal.Int32>;
+    readonly LowerBounds: ImmutableArray_1<System_Internal.Int32>;
+    readonly Rank: int;
+    readonly Sizes: ImmutableArray_1<System_Internal.Int32>;
 }
 
 
@@ -582,16 +582,16 @@ export const ArrayShape: {
 export type ArrayShape = ArrayShape$instance;
 
 export interface AssemblyDefinition$instance {
-    readonly culture: StringHandle;
-    readonly flags: AssemblyFlags;
-    readonly hashAlgorithm: AssemblyHashAlgorithm;
-    readonly name: StringHandle;
-    readonly publicKey: BlobHandle;
-    readonly version: Version;
-    getAssemblyName(): AssemblyName;
-    getAssemblyNameInfo(): AssemblyNameInfo;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
+    readonly Culture: StringHandle;
+    readonly Flags: AssemblyFlags;
+    readonly HashAlgorithm: AssemblyHashAlgorithm;
+    readonly Name: StringHandle;
+    readonly PublicKey: BlobHandle;
+    readonly Version: Version;
+    GetAssemblyName(): AssemblyName;
+    GetAssemblyNameInfo(): AssemblyNameInfo;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
 }
 
 
@@ -603,10 +603,10 @@ export const AssemblyDefinition: {
 export type AssemblyDefinition = AssemblyDefinition$instance;
 
 export interface AssemblyDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: AssemblyDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: AssemblyDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -619,17 +619,17 @@ export interface __AssemblyDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<AssemblyDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: AssemblyDefinitionHandle): boolean;
+    Equals(other: AssemblyDefinitionHandle): boolean;
 }
 
 export type AssemblyDefinitionHandle = AssemblyDefinitionHandle$instance & __AssemblyDefinitionHandle$views;
 
 
 export interface AssemblyFile$instance {
-    readonly containsMetadata: boolean;
-    readonly hashValue: BlobHandle;
-    readonly name: StringHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly ContainsMetadata: boolean;
+    readonly HashValue: BlobHandle;
+    readonly Name: StringHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -641,10 +641,10 @@ export const AssemblyFile: {
 export type AssemblyFile = AssemblyFile$instance;
 
 export interface AssemblyFileHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: AssemblyFileHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: AssemblyFileHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -657,15 +657,15 @@ export interface __AssemblyFileHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<AssemblyFileHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: AssemblyFileHandle): boolean;
+    Equals(other: AssemblyFileHandle): boolean;
 }
 
 export type AssemblyFileHandle = AssemblyFileHandle$instance & __AssemblyFileHandle$views;
 
 
 export interface AssemblyFileHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): AssemblyFileHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): AssemblyFileHandleCollection_Enumerator;
 }
 
 
@@ -684,9 +684,9 @@ export type AssemblyFileHandleCollection = AssemblyFileHandleCollection$instance
 
 
 export interface AssemblyFileHandleCollection_Enumerator$instance {
-    readonly current: AssemblyFileHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: AssemblyFileHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -704,15 +704,15 @@ export type AssemblyFileHandleCollection_Enumerator = AssemblyFileHandleCollecti
 
 
 export interface AssemblyReference$instance {
-    readonly culture: StringHandle;
-    readonly flags: AssemblyFlags;
-    readonly hashValue: BlobHandle;
-    readonly name: StringHandle;
-    readonly publicKeyOrToken: BlobHandle;
-    readonly version: Version;
-    getAssemblyName(): AssemblyName;
-    getAssemblyNameInfo(): AssemblyNameInfo;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Culture: StringHandle;
+    readonly Flags: AssemblyFlags;
+    readonly HashValue: BlobHandle;
+    readonly Name: StringHandle;
+    readonly PublicKeyOrToken: BlobHandle;
+    readonly Version: Version;
+    GetAssemblyName(): AssemblyName;
+    GetAssemblyNameInfo(): AssemblyNameInfo;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -724,10 +724,10 @@ export const AssemblyReference: {
 export type AssemblyReference = AssemblyReference$instance;
 
 export interface AssemblyReferenceHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: AssemblyReferenceHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: AssemblyReferenceHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -740,15 +740,15 @@ export interface __AssemblyReferenceHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<AssemblyReferenceHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: AssemblyReferenceHandle): boolean;
+    Equals(other: AssemblyReferenceHandle): boolean;
 }
 
 export type AssemblyReferenceHandle = AssemblyReferenceHandle$instance & __AssemblyReferenceHandle$views;
 
 
 export interface AssemblyReferenceHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): AssemblyReferenceHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): AssemblyReferenceHandleCollection_Enumerator;
 }
 
 
@@ -767,9 +767,9 @@ export type AssemblyReferenceHandleCollection = AssemblyReferenceHandleCollectio
 
 
 export interface AssemblyReferenceHandleCollection_Enumerator$instance {
-    readonly current: AssemblyReferenceHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: AssemblyReferenceHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -787,9 +787,9 @@ export type AssemblyReferenceHandleCollection_Enumerator = AssemblyReferenceHand
 
 
 export interface Blob$instance {
-    readonly isDefault: boolean;
-    readonly length: int;
-    getBytes(): ArraySegment_1<System_Internal.Byte>;
+    readonly IsDefault: boolean;
+    readonly Length: int;
+    GetBytes(): ArraySegment_1<System_Internal.Byte>;
 }
 
 
@@ -801,10 +801,10 @@ export const Blob: {
 export type Blob = Blob$instance;
 
 export interface BlobBuilder_Blobs$instance {
-    readonly current: Blob;
-    getEnumerator(): BlobBuilder_Blobs;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: Blob;
+    GetEnumerator(): BlobBuilder_Blobs;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -825,12 +825,12 @@ export type BlobBuilder_Blobs = BlobBuilder_Blobs$instance & __BlobBuilder_Blobs
 
 
 export interface BlobContentId$instance {
-    readonly guid: Guid;
-    readonly isDefault: boolean;
-    readonly stamp: uint;
-    equals(other: BlobContentId): boolean;
-    equals(obj: unknown): boolean;
-    getHashCode(): int;
+    readonly Guid: Guid;
+    readonly IsDefault: boolean;
+    readonly Stamp: uint;
+    Equals(other: BlobContentId): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -838,9 +838,9 @@ export const BlobContentId: {
     new(guid: Guid, stamp: uint): BlobContentId;
     new(id: ImmutableArray_1<System_Internal.Byte>): BlobContentId;
     new(id: byte[]): BlobContentId;
-    fromHash(hashCode: byte[]): BlobContentId;
-    fromHash(hashCode: ImmutableArray_1<System_Internal.Byte>): BlobContentId;
-    getTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
+    FromHash(hashCode: byte[]): BlobContentId;
+    FromHash(hashCode: ImmutableArray_1<System_Internal.Byte>): BlobContentId;
+    GetTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
 };
 
 
@@ -848,17 +848,17 @@ export interface __BlobContentId$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<BlobContentId>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: BlobContentId): boolean;
+    Equals(other: BlobContentId): boolean;
 }
 
 export type BlobContentId = BlobContentId$instance & __BlobContentId$views;
 
 
 export interface BlobHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: BlobHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: BlobHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -871,51 +871,51 @@ export interface __BlobHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<BlobHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: BlobHandle): boolean;
+    Equals(other: BlobHandle): boolean;
 }
 
 export type BlobHandle = BlobHandle$instance & __BlobHandle$views;
 
 
 export interface BlobReader$instance {
-    readonly currentPointer: ptr<byte>;
-    readonly length: int;
-    offset: int;
-    readonly remainingBytes: int;
-    readonly startPointer: ptr<byte>;
-    align(alignment: byte): void;
-    indexOf(value: byte): int;
-    readBlobHandle(): BlobHandle;
-    readBoolean(): boolean;
-    readByte(): byte;
-    readBytes(byteCount: int): byte[];
-    readBytes(byteCount: int, buffer: byte[], bufferOffset: int): void;
-    readChar(): char;
-    readCompressedInteger(): int;
-    readCompressedSignedInteger(): int;
-    readConstant(typeCode: ConstantTypeCode): unknown | undefined;
-    readDateTime(): DateTime;
-    readDecimal(): decimal;
-    readDouble(): double;
-    readGuid(): Guid;
-    readInt16(): short;
-    readInt32(): int;
-    readInt64(): long;
-    readSByte(): sbyte;
-    readSerializationTypeCode(): SerializationTypeCode;
-    readSerializedString(): string | undefined;
-    readSignatureHeader(): SignatureHeader;
-    readSignatureTypeCode(): SignatureTypeCode;
-    readSingle(): float;
-    readTypeHandle(): EntityHandle;
-    readUInt16(): ushort;
-    readUInt32(): uint;
-    readUInt64(): ulong;
-    readUTF16(byteCount: int): string;
-    readUTF8(byteCount: int): string;
-    reset(): void;
-    tryReadCompressedInteger(value: int): boolean;
-    tryReadCompressedSignedInteger(value: int): boolean;
+    readonly CurrentPointer: ptr<byte>;
+    readonly Length: int;
+    Offset: int;
+    readonly RemainingBytes: int;
+    readonly StartPointer: ptr<byte>;
+    Align(alignment: byte): void;
+    IndexOf(value: byte): int;
+    ReadBlobHandle(): BlobHandle;
+    ReadBoolean(): boolean;
+    ReadByte(): byte;
+    ReadBytes(byteCount: int): byte[];
+    ReadBytes(byteCount: int, buffer: byte[], bufferOffset: int): void;
+    ReadChar(): char;
+    ReadCompressedInteger(): int;
+    ReadCompressedSignedInteger(): int;
+    ReadConstant(typeCode: ConstantTypeCode): unknown | undefined;
+    ReadDateTime(): DateTime;
+    ReadDecimal(): decimal;
+    ReadDouble(): double;
+    ReadGuid(): Guid;
+    ReadInt16(): short;
+    ReadInt32(): int;
+    ReadInt64(): long;
+    ReadSByte(): sbyte;
+    ReadSerializationTypeCode(): SerializationTypeCode;
+    ReadSerializedString(): string | undefined;
+    ReadSignatureHeader(): SignatureHeader;
+    ReadSignatureTypeCode(): SignatureTypeCode;
+    ReadSingle(): float;
+    ReadTypeHandle(): EntityHandle;
+    ReadUInt16(): ushort;
+    ReadUInt32(): uint;
+    ReadUInt64(): ulong;
+    ReadUTF16(byteCount: int): string;
+    ReadUTF8(byteCount: int): string;
+    Reset(): void;
+    TryReadCompressedInteger(value: int): boolean;
+    TryReadCompressedSignedInteger(value: int): boolean;
 }
 
 
@@ -927,53 +927,53 @@ export const BlobReader: {
 export type BlobReader = BlobReader$instance;
 
 export interface BlobWriter$instance {
-    readonly blob: Blob;
-    readonly length: int;
-    offset: int;
-    readonly remainingBytes: int;
-    align(alignment: int): void;
-    clear(): void;
-    contentEquals(other: BlobWriter): boolean;
-    padTo(offset: int): void;
-    toArray(): byte[];
-    toArray(start: int, byteCount: int): byte[];
-    toImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
-    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
-    writeBoolean(value: boolean): void;
-    writeByte(value: byte): void;
-    writeBytes(value: byte, byteCount: int): void;
-    writeBytes(buffer: ptr<byte>, byteCount: int): void;
-    writeBytes(source: BlobBuilder): void;
-    writeBytes(source: Stream, byteCount: int): int;
-    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
-    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
-    writeBytes(buffer: byte[]): void;
-    writeBytes(buffer: byte[], start: int, byteCount: int): void;
-    writeCompressedInteger(value: int): void;
-    writeCompressedSignedInteger(value: int): void;
-    writeConstant(value: unknown): void;
-    writeDateTime(value: DateTime): void;
-    writeDecimal(value: decimal): void;
-    writeDouble(value: double): void;
-    writeGuid(value: Guid): void;
-    writeInt16(value: short): void;
-    writeInt16BE(value: short): void;
-    writeInt32(value: int): void;
-    writeInt32BE(value: int): void;
-    writeInt64(value: long): void;
-    writeReference(reference: int, isSmall: boolean): void;
-    writeSByte(value: sbyte): void;
-    writeSerializedString(str: string): void;
-    writeSingle(value: float): void;
-    writeUInt16(value: ushort): void;
-    writeUInt16BE(value: ushort): void;
-    writeUInt32(value: uint): void;
-    writeUInt32BE(value: uint): void;
-    writeUInt64(value: ulong): void;
-    writeUserString(value: string): void;
-    writeUTF16(value: char[]): void;
-    writeUTF16(value: string): void;
-    writeUTF8(value: string, allowUnpairedSurrogates: boolean): void;
+    readonly Blob: Blob;
+    readonly Length: int;
+    Offset: int;
+    readonly RemainingBytes: int;
+    Align(alignment: int): void;
+    Clear(): void;
+    ContentEquals(other: BlobWriter): boolean;
+    PadTo(offset: int): void;
+    ToArray(): byte[];
+    ToArray(start: int, byteCount: int): byte[];
+    ToImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
+    ToImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
+    WriteBoolean(value: boolean): void;
+    WriteByte(value: byte): void;
+    WriteBytes(value: byte, byteCount: int): void;
+    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
+    WriteBytes(source: BlobBuilder): void;
+    WriteBytes(source: Stream, byteCount: int): int;
+    WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
+    WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
+    WriteBytes(buffer: byte[]): void;
+    WriteBytes(buffer: byte[], start: int, byteCount: int): void;
+    WriteCompressedInteger(value: int): void;
+    WriteCompressedSignedInteger(value: int): void;
+    WriteConstant(value: unknown): void;
+    WriteDateTime(value: DateTime): void;
+    WriteDecimal(value: decimal): void;
+    WriteDouble(value: double): void;
+    WriteGuid(value: Guid): void;
+    WriteInt16(value: short): void;
+    WriteInt16BE(value: short): void;
+    WriteInt32(value: int): void;
+    WriteInt32BE(value: int): void;
+    WriteInt64(value: long): void;
+    WriteReference(reference: int, isSmall: boolean): void;
+    WriteSByte(value: sbyte): void;
+    WriteSerializedString(str: string): void;
+    WriteSingle(value: float): void;
+    WriteUInt16(value: ushort): void;
+    WriteUInt16BE(value: ushort): void;
+    WriteUInt32(value: uint): void;
+    WriteUInt32BE(value: uint): void;
+    WriteUInt64(value: ulong): void;
+    WriteUserString(value: string): void;
+    WriteUTF16(value: char[]): void;
+    WriteUTF16(value: string): void;
+    WriteUTF8(value: string, allowUnpairedSurrogates: boolean): void;
 }
 
 
@@ -988,9 +988,9 @@ export const BlobWriter: {
 export type BlobWriter = BlobWriter$instance;
 
 export interface Constant$instance {
-    readonly parent: EntityHandle;
-    readonly typeCode: ConstantTypeCode;
-    readonly value: BlobHandle;
+    readonly Parent: EntityHandle;
+    readonly TypeCode: ConstantTypeCode;
+    readonly Value: BlobHandle;
 }
 
 
@@ -1002,10 +1002,10 @@ export const Constant: {
 export type Constant = Constant$instance;
 
 export interface ConstantHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ConstantHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ConstantHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1018,17 +1018,17 @@ export interface __ConstantHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ConstantHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ConstantHandle): boolean;
+    Equals(other: ConstantHandle): boolean;
 }
 
 export type ConstantHandle = ConstantHandle$instance & __ConstantHandle$views;
 
 
 export interface CustomAttribute$instance {
-    readonly constructor: EntityHandle;
-    readonly parent: EntityHandle;
-    readonly value: BlobHandle;
-    decodeValue<TType>(provider: ICustomAttributeTypeProvider_1<TType>): CustomAttributeValue_1<TType>;
+    readonly Constructor: EntityHandle;
+    readonly Parent: EntityHandle;
+    readonly Value: BlobHandle;
+    DecodeValue<TType>(provider: ICustomAttributeTypeProvider_1<TType>): CustomAttributeValue_1<TType>;
 }
 
 
@@ -1040,10 +1040,10 @@ export const CustomAttribute: {
 export type CustomAttribute = CustomAttribute$instance;
 
 export interface CustomAttributeHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: CustomAttributeHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: CustomAttributeHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1056,15 +1056,15 @@ export interface __CustomAttributeHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<CustomAttributeHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: CustomAttributeHandle): boolean;
+    Equals(other: CustomAttributeHandle): boolean;
 }
 
 export type CustomAttributeHandle = CustomAttributeHandle$instance & __CustomAttributeHandle$views;
 
 
 export interface CustomAttributeHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): CustomAttributeHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): CustomAttributeHandleCollection_Enumerator;
 }
 
 
@@ -1083,9 +1083,9 @@ export type CustomAttributeHandleCollection = CustomAttributeHandleCollection$in
 
 
 export interface CustomAttributeHandleCollection_Enumerator$instance {
-    readonly current: CustomAttributeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: CustomAttributeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1103,10 +1103,10 @@ export type CustomAttributeHandleCollection_Enumerator = CustomAttributeHandleCo
 
 
 export interface CustomAttributeNamedArgument_1$instance<TType> {
-    readonly kind: CustomAttributeNamedArgumentKind;
-    readonly name: string;
-    readonly type: TType;
-    readonly value: unknown;
+    readonly Kind: CustomAttributeNamedArgumentKind;
+    readonly Name: string;
+    readonly Type: TType;
+    readonly Value: unknown;
 }
 
 
@@ -1118,8 +1118,8 @@ export const CustomAttributeNamedArgument_1: {
 export type CustomAttributeNamedArgument_1<TType> = CustomAttributeNamedArgument_1$instance<TType>;
 
 export interface CustomAttributeTypedArgument_1$instance<TType> {
-    readonly type: TType;
-    readonly value: unknown;
+    readonly Type: TType;
+    readonly Value: unknown;
 }
 
 
@@ -1131,8 +1131,8 @@ export const CustomAttributeTypedArgument_1: {
 export type CustomAttributeTypedArgument_1<TType> = CustomAttributeTypedArgument_1$instance<TType>;
 
 export interface CustomAttributeValue_1$instance<TType> {
-    readonly fixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>;
-    readonly namedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>;
+    readonly FixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>;
+    readonly NamedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>;
 }
 
 
@@ -1144,9 +1144,9 @@ export const CustomAttributeValue_1: {
 export type CustomAttributeValue_1<TType> = CustomAttributeValue_1$instance<TType>;
 
 export interface CustomDebugInformation$instance {
-    readonly kind: GuidHandle;
-    readonly parent: EntityHandle;
-    readonly value: BlobHandle;
+    readonly Kind: GuidHandle;
+    readonly Parent: EntityHandle;
+    readonly Value: BlobHandle;
 }
 
 
@@ -1158,10 +1158,10 @@ export const CustomDebugInformation: {
 export type CustomDebugInformation = CustomDebugInformation$instance;
 
 export interface CustomDebugInformationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: CustomDebugInformationHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: CustomDebugInformationHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1174,15 +1174,15 @@ export interface __CustomDebugInformationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<CustomDebugInformationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: CustomDebugInformationHandle): boolean;
+    Equals(other: CustomDebugInformationHandle): boolean;
 }
 
 export type CustomDebugInformationHandle = CustomDebugInformationHandle$instance & __CustomDebugInformationHandle$views;
 
 
 export interface CustomDebugInformationHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): CustomDebugInformationHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): CustomDebugInformationHandleCollection_Enumerator;
 }
 
 
@@ -1201,9 +1201,9 @@ export type CustomDebugInformationHandleCollection = CustomDebugInformationHandl
 
 
 export interface CustomDebugInformationHandleCollection_Enumerator$instance {
-    readonly current: CustomDebugInformationHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: CustomDebugInformationHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1221,9 +1221,9 @@ export type CustomDebugInformationHandleCollection_Enumerator = CustomDebugInfor
 
 
 export interface DeclarativeSecurityAttribute$instance {
-    readonly action: DeclarativeSecurityAction;
-    readonly parent: EntityHandle;
-    readonly permissionSet: BlobHandle;
+    readonly Action: DeclarativeSecurityAction;
+    readonly Parent: EntityHandle;
+    readonly PermissionSet: BlobHandle;
 }
 
 
@@ -1235,10 +1235,10 @@ export const DeclarativeSecurityAttribute: {
 export type DeclarativeSecurityAttribute = DeclarativeSecurityAttribute$instance;
 
 export interface DeclarativeSecurityAttributeHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: DeclarativeSecurityAttributeHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: DeclarativeSecurityAttributeHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1251,15 +1251,15 @@ export interface __DeclarativeSecurityAttributeHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<DeclarativeSecurityAttributeHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: DeclarativeSecurityAttributeHandle): boolean;
+    Equals(other: DeclarativeSecurityAttributeHandle): boolean;
 }
 
 export type DeclarativeSecurityAttributeHandle = DeclarativeSecurityAttributeHandle$instance & __DeclarativeSecurityAttributeHandle$views;
 
 
 export interface DeclarativeSecurityAttributeHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): DeclarativeSecurityAttributeHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): DeclarativeSecurityAttributeHandleCollection_Enumerator;
 }
 
 
@@ -1278,9 +1278,9 @@ export type DeclarativeSecurityAttributeHandleCollection = DeclarativeSecurityAt
 
 
 export interface DeclarativeSecurityAttributeHandleCollection_Enumerator$instance {
-    readonly current: DeclarativeSecurityAttributeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: DeclarativeSecurityAttributeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1298,10 +1298,10 @@ export type DeclarativeSecurityAttributeHandleCollection_Enumerator = Declarativ
 
 
 export interface Document$instance {
-    readonly hash: BlobHandle;
-    readonly hashAlgorithm: GuidHandle;
-    readonly language: GuidHandle;
-    readonly name: DocumentNameBlobHandle;
+    readonly Hash: BlobHandle;
+    readonly HashAlgorithm: GuidHandle;
+    readonly Language: GuidHandle;
+    readonly Name: DocumentNameBlobHandle;
 }
 
 
@@ -1313,10 +1313,10 @@ export const Document: {
 export type Document = Document$instance;
 
 export interface DocumentHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: DocumentHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: DocumentHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1329,15 +1329,15 @@ export interface __DocumentHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<DocumentHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: DocumentHandle): boolean;
+    Equals(other: DocumentHandle): boolean;
 }
 
 export type DocumentHandle = DocumentHandle$instance & __DocumentHandle$views;
 
 
 export interface DocumentHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): DocumentHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): DocumentHandleCollection_Enumerator;
 }
 
 
@@ -1356,9 +1356,9 @@ export type DocumentHandleCollection = DocumentHandleCollection$instance & __Doc
 
 
 export interface DocumentHandleCollection_Enumerator$instance {
-    readonly current: DocumentHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: DocumentHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1376,10 +1376,10 @@ export type DocumentHandleCollection_Enumerator = DocumentHandleCollection_Enume
 
 
 export interface DocumentNameBlobHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: DocumentNameBlobHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: DocumentNameBlobHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1392,25 +1392,25 @@ export interface __DocumentNameBlobHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<DocumentNameBlobHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: DocumentNameBlobHandle): boolean;
+    Equals(other: DocumentNameBlobHandle): boolean;
 }
 
 export type DocumentNameBlobHandle = DocumentNameBlobHandle$instance & __DocumentNameBlobHandle$views;
 
 
 export interface EntityHandle$instance {
-    readonly isNil: boolean;
-    readonly kind: HandleKind;
-    equals(obj: unknown): boolean;
-    equals(other: EntityHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    readonly Kind: HandleKind;
+    Equals(obj: unknown): boolean;
+    Equals(other: EntityHandle): boolean;
+    GetHashCode(): int;
 }
 
 
 export const EntityHandle: {
     new(): EntityHandle;
-    readonly moduleDefinition: ModuleDefinitionHandle;
-    readonly assemblyDefinition: AssemblyDefinitionHandle;
+    readonly ModuleDefinition: ModuleDefinitionHandle;
+    readonly AssemblyDefinition: AssemblyDefinitionHandle;
 };
 
 
@@ -1418,17 +1418,17 @@ export interface __EntityHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<EntityHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: EntityHandle): boolean;
+    Equals(other: EntityHandle): boolean;
 }
 
 export type EntityHandle = EntityHandle$instance & __EntityHandle$views;
 
 
 export interface EventAccessors$instance {
-    readonly adder: MethodDefinitionHandle;
-    readonly others: ImmutableArray_1<MethodDefinitionHandle>;
-    readonly raiser: MethodDefinitionHandle;
-    readonly remover: MethodDefinitionHandle;
+    readonly Adder: MethodDefinitionHandle;
+    readonly Others: ImmutableArray_1<MethodDefinitionHandle>;
+    readonly Raiser: MethodDefinitionHandle;
+    readonly Remover: MethodDefinitionHandle;
 }
 
 
@@ -1440,12 +1440,12 @@ export const EventAccessors: {
 export type EventAccessors = EventAccessors$instance;
 
 export interface EventDefinition$instance {
-    readonly attributes: EventAttributes;
-    readonly name: StringHandle;
-    readonly type: EntityHandle;
-    getAccessors(): EventAccessors;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclaringType(): TypeDefinitionHandle;
+    readonly Attributes: EventAttributes;
+    readonly Name: StringHandle;
+    readonly Type: EntityHandle;
+    GetAccessors(): EventAccessors;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclaringType(): TypeDefinitionHandle;
 }
 
 
@@ -1457,10 +1457,10 @@ export const EventDefinition: {
 export type EventDefinition = EventDefinition$instance;
 
 export interface EventDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: EventDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: EventDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1473,15 +1473,15 @@ export interface __EventDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<EventDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: EventDefinitionHandle): boolean;
+    Equals(other: EventDefinitionHandle): boolean;
 }
 
 export type EventDefinitionHandle = EventDefinitionHandle$instance & __EventDefinitionHandle$views;
 
 
 export interface EventDefinitionHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): EventDefinitionHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): EventDefinitionHandleCollection_Enumerator;
 }
 
 
@@ -1500,9 +1500,9 @@ export type EventDefinitionHandleCollection = EventDefinitionHandleCollection$in
 
 
 export interface EventDefinitionHandleCollection_Enumerator$instance {
-    readonly current: EventDefinitionHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: EventDefinitionHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1520,13 +1520,13 @@ export type EventDefinitionHandleCollection_Enumerator = EventDefinitionHandleCo
 
 
 export interface ExceptionRegion$instance {
-    readonly catchType: EntityHandle;
-    readonly filterOffset: int;
-    readonly handlerLength: int;
-    readonly handlerOffset: int;
-    readonly kind: ExceptionRegionKind;
-    readonly tryLength: int;
-    readonly tryOffset: int;
+    readonly CatchType: EntityHandle;
+    readonly FilterOffset: int;
+    readonly HandlerLength: int;
+    readonly HandlerOffset: int;
+    readonly Kind: ExceptionRegionKind;
+    readonly TryLength: int;
+    readonly TryOffset: int;
 }
 
 
@@ -1538,13 +1538,13 @@ export const ExceptionRegion: {
 export type ExceptionRegion = ExceptionRegion$instance;
 
 export interface ExportedType$instance {
-    readonly attributes: TypeAttributes;
-    readonly implementation: EntityHandle;
-    readonly isForwarder: boolean;
-    readonly name: StringHandle;
-    readonly namespace: StringHandle;
-    readonly namespaceDefinition: NamespaceDefinitionHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Attributes: TypeAttributes;
+    readonly Implementation: EntityHandle;
+    readonly IsForwarder: boolean;
+    readonly Name: StringHandle;
+    readonly Namespace: StringHandle;
+    readonly NamespaceDefinition: NamespaceDefinitionHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -1556,10 +1556,10 @@ export const ExportedType: {
 export type ExportedType = ExportedType$instance;
 
 export interface ExportedTypeHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ExportedTypeHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ExportedTypeHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1572,15 +1572,15 @@ export interface __ExportedTypeHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ExportedTypeHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ExportedTypeHandle): boolean;
+    Equals(other: ExportedTypeHandle): boolean;
 }
 
 export type ExportedTypeHandle = ExportedTypeHandle$instance & __ExportedTypeHandle$views;
 
 
 export interface ExportedTypeHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): ExportedTypeHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): ExportedTypeHandleCollection_Enumerator;
 }
 
 
@@ -1599,9 +1599,9 @@ export type ExportedTypeHandleCollection = ExportedTypeHandleCollection$instance
 
 
 export interface ExportedTypeHandleCollection_Enumerator$instance {
-    readonly current: ExportedTypeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ExportedTypeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1619,16 +1619,16 @@ export type ExportedTypeHandleCollection_Enumerator = ExportedTypeHandleCollecti
 
 
 export interface FieldDefinition$instance {
-    readonly attributes: FieldAttributes;
-    readonly name: StringHandle;
-    readonly signature: BlobHandle;
-    decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclaringType(): TypeDefinitionHandle;
-    getDefaultValue(): ConstantHandle;
-    getMarshallingDescriptor(): BlobHandle;
-    getOffset(): int;
-    getRelativeVirtualAddress(): int;
+    readonly Attributes: FieldAttributes;
+    readonly Name: StringHandle;
+    readonly Signature: BlobHandle;
+    DecodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclaringType(): TypeDefinitionHandle;
+    GetDefaultValue(): ConstantHandle;
+    GetMarshallingDescriptor(): BlobHandle;
+    GetOffset(): int;
+    GetRelativeVirtualAddress(): int;
 }
 
 
@@ -1640,10 +1640,10 @@ export const FieldDefinition: {
 export type FieldDefinition = FieldDefinition$instance;
 
 export interface FieldDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: FieldDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: FieldDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1656,15 +1656,15 @@ export interface __FieldDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<FieldDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: FieldDefinitionHandle): boolean;
+    Equals(other: FieldDefinitionHandle): boolean;
 }
 
 export type FieldDefinitionHandle = FieldDefinitionHandle$instance & __FieldDefinitionHandle$views;
 
 
 export interface FieldDefinitionHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): FieldDefinitionHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): FieldDefinitionHandleCollection_Enumerator;
 }
 
 
@@ -1683,9 +1683,9 @@ export type FieldDefinitionHandleCollection = FieldDefinitionHandleCollection$in
 
 
 export interface FieldDefinitionHandleCollection_Enumerator$instance {
-    readonly current: FieldDefinitionHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: FieldDefinitionHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1703,12 +1703,12 @@ export type FieldDefinitionHandleCollection_Enumerator = FieldDefinitionHandleCo
 
 
 export interface GenericParameter$instance {
-    readonly attributes: GenericParameterAttributes;
-    readonly index: int;
-    readonly name: StringHandle;
-    readonly parent: EntityHandle;
-    getConstraints(): GenericParameterConstraintHandleCollection;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Attributes: GenericParameterAttributes;
+    readonly Index: int;
+    readonly Name: StringHandle;
+    readonly Parent: EntityHandle;
+    GetConstraints(): GenericParameterConstraintHandleCollection;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -1720,9 +1720,9 @@ export const GenericParameter: {
 export type GenericParameter = GenericParameter$instance;
 
 export interface GenericParameterConstraint$instance {
-    readonly parameter: GenericParameterHandle;
-    readonly type: EntityHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Parameter: GenericParameterHandle;
+    readonly Type: EntityHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -1734,10 +1734,10 @@ export const GenericParameterConstraint: {
 export type GenericParameterConstraint = GenericParameterConstraint$instance;
 
 export interface GenericParameterConstraintHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: GenericParameterConstraintHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: GenericParameterConstraintHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1750,16 +1750,16 @@ export interface __GenericParameterConstraintHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<GenericParameterConstraintHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: GenericParameterConstraintHandle): boolean;
+    Equals(other: GenericParameterConstraintHandle): boolean;
 }
 
 export type GenericParameterConstraintHandle = GenericParameterConstraintHandle$instance & __GenericParameterConstraintHandle$views;
 
 
 export interface GenericParameterConstraintHandleCollection$instance {
-    readonly count: int;
-    readonly item: GenericParameterConstraintHandle;
-    getEnumerator(): GenericParameterConstraintHandleCollection_Enumerator;
+    readonly Count: int;
+    readonly Item: GenericParameterConstraintHandle;
+    GetEnumerator(): GenericParameterConstraintHandleCollection_Enumerator;
 }
 
 
@@ -1778,9 +1778,9 @@ export type GenericParameterConstraintHandleCollection = GenericParameterConstra
 
 
 export interface GenericParameterConstraintHandleCollection_Enumerator$instance {
-    readonly current: GenericParameterConstraintHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: GenericParameterConstraintHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1798,10 +1798,10 @@ export type GenericParameterConstraintHandleCollection_Enumerator = GenericParam
 
 
 export interface GenericParameterHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: GenericParameterHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: GenericParameterHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1814,16 +1814,16 @@ export interface __GenericParameterHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<GenericParameterHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: GenericParameterHandle): boolean;
+    Equals(other: GenericParameterHandle): boolean;
 }
 
 export type GenericParameterHandle = GenericParameterHandle$instance & __GenericParameterHandle$views;
 
 
 export interface GenericParameterHandleCollection$instance {
-    readonly count: int;
-    readonly item: GenericParameterHandle;
-    getEnumerator(): GenericParameterHandleCollection_Enumerator;
+    readonly Count: int;
+    readonly Item: GenericParameterHandle;
+    GetEnumerator(): GenericParameterHandleCollection_Enumerator;
 }
 
 
@@ -1842,9 +1842,9 @@ export type GenericParameterHandleCollection = GenericParameterHandleCollection$
 
 
 export interface GenericParameterHandleCollection_Enumerator$instance {
-    readonly current: GenericParameterHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: GenericParameterHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1862,10 +1862,10 @@ export type GenericParameterHandleCollection_Enumerator = GenericParameterHandle
 
 
 export interface GuidHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: GuidHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: GuidHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1878,25 +1878,25 @@ export interface __GuidHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<GuidHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: GuidHandle): boolean;
+    Equals(other: GuidHandle): boolean;
 }
 
 export type GuidHandle = GuidHandle$instance & __GuidHandle$views;
 
 
 export interface Handle$instance {
-    readonly isNil: boolean;
-    readonly kind: HandleKind;
-    equals(obj: unknown): boolean;
-    equals(other: Handle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    readonly Kind: HandleKind;
+    Equals(obj: unknown): boolean;
+    Equals(other: Handle): boolean;
+    GetHashCode(): int;
 }
 
 
 export const Handle: {
     new(): Handle;
-    readonly moduleDefinition: ModuleDefinitionHandle;
-    readonly assemblyDefinition: AssemblyDefinitionHandle;
+    readonly ModuleDefinition: ModuleDefinitionHandle;
+    readonly AssemblyDefinition: AssemblyDefinitionHandle;
 };
 
 
@@ -1904,18 +1904,18 @@ export interface __Handle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Handle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: Handle): boolean;
+    Equals(other: Handle): boolean;
 }
 
 export type Handle = Handle$instance & __Handle$views;
 
 
 export interface ImportDefinition$instance {
-    readonly alias: BlobHandle;
-    readonly kind: ImportDefinitionKind;
-    readonly targetAssembly: AssemblyReferenceHandle;
-    readonly targetNamespace: BlobHandle;
-    readonly targetType: EntityHandle;
+    readonly Alias: BlobHandle;
+    readonly Kind: ImportDefinitionKind;
+    readonly TargetAssembly: AssemblyReferenceHandle;
+    readonly TargetNamespace: BlobHandle;
+    readonly TargetType: EntityHandle;
 }
 
 
@@ -1927,7 +1927,7 @@ export const ImportDefinition: {
 export type ImportDefinition = ImportDefinition$instance;
 
 export interface ImportDefinitionCollection$instance {
-    getEnumerator(): ImportDefinitionCollection_Enumerator;
+    GetEnumerator(): ImportDefinitionCollection_Enumerator;
 }
 
 
@@ -1945,9 +1945,9 @@ export type ImportDefinitionCollection = ImportDefinitionCollection$instance & _
 
 
 export interface ImportDefinitionCollection_Enumerator$instance {
-    readonly current: ImportDefinition;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ImportDefinition;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -1966,9 +1966,9 @@ export type ImportDefinitionCollection_Enumerator = ImportDefinitionCollection_E
 
 
 export interface ImportScope$instance {
-    readonly importsBlob: BlobHandle;
-    readonly parent: ImportScopeHandle;
-    getImports(): ImportDefinitionCollection;
+    readonly ImportsBlob: BlobHandle;
+    readonly Parent: ImportScopeHandle;
+    GetImports(): ImportDefinitionCollection;
 }
 
 
@@ -1980,8 +1980,8 @@ export const ImportScope: {
 export type ImportScope = ImportScope$instance;
 
 export interface ImportScopeCollection$instance {
-    readonly count: int;
-    getEnumerator(): ImportScopeCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): ImportScopeCollection_Enumerator;
 }
 
 
@@ -2000,9 +2000,9 @@ export type ImportScopeCollection = ImportScopeCollection$instance & __ImportSco
 
 
 export interface ImportScopeCollection_Enumerator$instance {
-    readonly current: ImportScopeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ImportScopeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2020,10 +2020,10 @@ export type ImportScopeCollection_Enumerator = ImportScopeCollection_Enumerator$
 
 
 export interface ImportScopeHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ImportScopeHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ImportScopeHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2036,15 +2036,15 @@ export interface __ImportScopeHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ImportScopeHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ImportScopeHandle): boolean;
+    Equals(other: ImportScopeHandle): boolean;
 }
 
 export type ImportScopeHandle = ImportScopeHandle$instance & __ImportScopeHandle$views;
 
 
 export interface InterfaceImplementation$instance {
-    readonly interface: EntityHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Interface: EntityHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2056,10 +2056,10 @@ export const InterfaceImplementation: {
 export type InterfaceImplementation = InterfaceImplementation$instance;
 
 export interface InterfaceImplementationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: InterfaceImplementationHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: InterfaceImplementationHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2072,15 +2072,15 @@ export interface __InterfaceImplementationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<InterfaceImplementationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: InterfaceImplementationHandle): boolean;
+    Equals(other: InterfaceImplementationHandle): boolean;
 }
 
 export type InterfaceImplementationHandle = InterfaceImplementationHandle$instance & __InterfaceImplementationHandle$views;
 
 
 export interface InterfaceImplementationHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): InterfaceImplementationHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): InterfaceImplementationHandleCollection_Enumerator;
 }
 
 
@@ -2099,9 +2099,9 @@ export type InterfaceImplementationHandleCollection = InterfaceImplementationHan
 
 
 export interface InterfaceImplementationHandleCollection_Enumerator$instance {
-    readonly current: InterfaceImplementationHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: InterfaceImplementationHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2119,8 +2119,8 @@ export type InterfaceImplementationHandleCollection_Enumerator = InterfaceImplem
 
 
 export interface LocalConstant$instance {
-    readonly name: StringHandle;
-    readonly signature: BlobHandle;
+    readonly Name: StringHandle;
+    readonly Signature: BlobHandle;
 }
 
 
@@ -2132,10 +2132,10 @@ export const LocalConstant: {
 export type LocalConstant = LocalConstant$instance;
 
 export interface LocalConstantHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: LocalConstantHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: LocalConstantHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2148,15 +2148,15 @@ export interface __LocalConstantHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<LocalConstantHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: LocalConstantHandle): boolean;
+    Equals(other: LocalConstantHandle): boolean;
 }
 
 export type LocalConstantHandle = LocalConstantHandle$instance & __LocalConstantHandle$views;
 
 
 export interface LocalConstantHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): LocalConstantHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): LocalConstantHandleCollection_Enumerator;
 }
 
 
@@ -2175,9 +2175,9 @@ export type LocalConstantHandleCollection = LocalConstantHandleCollection$instan
 
 
 export interface LocalConstantHandleCollection_Enumerator$instance {
-    readonly current: LocalConstantHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: LocalConstantHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2195,14 +2195,14 @@ export type LocalConstantHandleCollection_Enumerator = LocalConstantHandleCollec
 
 
 export interface LocalScope$instance {
-    readonly endOffset: int;
-    readonly importScope: ImportScopeHandle;
-    readonly length: int;
-    readonly method: MethodDefinitionHandle;
-    readonly startOffset: int;
-    getChildren(): LocalScopeHandleCollection_ChildrenEnumerator;
-    getLocalConstants(): LocalConstantHandleCollection;
-    getLocalVariables(): LocalVariableHandleCollection;
+    readonly EndOffset: int;
+    readonly ImportScope: ImportScopeHandle;
+    readonly Length: int;
+    readonly Method: MethodDefinitionHandle;
+    readonly StartOffset: int;
+    GetChildren(): LocalScopeHandleCollection_ChildrenEnumerator;
+    GetLocalConstants(): LocalConstantHandleCollection;
+    GetLocalVariables(): LocalVariableHandleCollection;
 }
 
 
@@ -2214,10 +2214,10 @@ export const LocalScope: {
 export type LocalScope = LocalScope$instance;
 
 export interface LocalScopeHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: LocalScopeHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: LocalScopeHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2230,15 +2230,15 @@ export interface __LocalScopeHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<LocalScopeHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: LocalScopeHandle): boolean;
+    Equals(other: LocalScopeHandle): boolean;
 }
 
 export type LocalScopeHandle = LocalScopeHandle$instance & __LocalScopeHandle$views;
 
 
 export interface LocalScopeHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): LocalScopeHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): LocalScopeHandleCollection_Enumerator;
 }
 
 
@@ -2257,9 +2257,9 @@ export type LocalScopeHandleCollection = LocalScopeHandleCollection$instance & _
 
 
 export interface LocalScopeHandleCollection_ChildrenEnumerator$instance {
-    readonly current: LocalScopeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: LocalScopeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2277,9 +2277,9 @@ export type LocalScopeHandleCollection_ChildrenEnumerator = LocalScopeHandleColl
 
 
 export interface LocalScopeHandleCollection_Enumerator$instance {
-    readonly current: LocalScopeHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: LocalScopeHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2297,9 +2297,9 @@ export type LocalScopeHandleCollection_Enumerator = LocalScopeHandleCollection_E
 
 
 export interface LocalVariable$instance {
-    readonly attributes: LocalVariableAttributes;
-    readonly index: int;
-    readonly name: StringHandle;
+    readonly Attributes: LocalVariableAttributes;
+    readonly Index: int;
+    readonly Name: StringHandle;
 }
 
 
@@ -2311,10 +2311,10 @@ export const LocalVariable: {
 export type LocalVariable = LocalVariable$instance;
 
 export interface LocalVariableHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: LocalVariableHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: LocalVariableHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2327,15 +2327,15 @@ export interface __LocalVariableHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<LocalVariableHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: LocalVariableHandle): boolean;
+    Equals(other: LocalVariableHandle): boolean;
 }
 
 export type LocalVariableHandle = LocalVariableHandle$instance & __LocalVariableHandle$views;
 
 
 export interface LocalVariableHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): LocalVariableHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): LocalVariableHandleCollection_Enumerator;
 }
 
 
@@ -2354,9 +2354,9 @@ export type LocalVariableHandleCollection = LocalVariableHandleCollection$instan
 
 
 export interface LocalVariableHandleCollection_Enumerator$instance {
-    readonly current: LocalVariableHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: LocalVariableHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2374,11 +2374,11 @@ export type LocalVariableHandleCollection_Enumerator = LocalVariableHandleCollec
 
 
 export interface ManifestResource$instance {
-    readonly attributes: ManifestResourceAttributes;
-    readonly implementation: EntityHandle;
-    readonly name: StringHandle;
-    readonly offset: long;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Attributes: ManifestResourceAttributes;
+    readonly Implementation: EntityHandle;
+    readonly Name: StringHandle;
+    readonly Offset: long;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2390,10 +2390,10 @@ export const ManifestResource: {
 export type ManifestResource = ManifestResource$instance;
 
 export interface ManifestResourceHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ManifestResourceHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ManifestResourceHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2406,15 +2406,15 @@ export interface __ManifestResourceHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ManifestResourceHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ManifestResourceHandle): boolean;
+    Equals(other: ManifestResourceHandle): boolean;
 }
 
 export type ManifestResourceHandle = ManifestResourceHandle$instance & __ManifestResourceHandle$views;
 
 
 export interface ManifestResourceHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): ManifestResourceHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): ManifestResourceHandleCollection_Enumerator;
 }
 
 
@@ -2433,9 +2433,9 @@ export type ManifestResourceHandleCollection = ManifestResourceHandleCollection$
 
 
 export interface ManifestResourceHandleCollection_Enumerator$instance {
-    readonly current: ManifestResourceHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ManifestResourceHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2453,13 +2453,13 @@ export type ManifestResourceHandleCollection_Enumerator = ManifestResourceHandle
 
 
 export interface MemberReference$instance {
-    readonly name: StringHandle;
-    readonly parent: EntityHandle;
-    readonly signature: BlobHandle;
-    decodeFieldSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
-    decodeMethodSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getKind(): MemberReferenceKind;
+    readonly Name: StringHandle;
+    readonly Parent: EntityHandle;
+    readonly Signature: BlobHandle;
+    DecodeFieldSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
+    DecodeMethodSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetKind(): MemberReferenceKind;
 }
 
 
@@ -2471,10 +2471,10 @@ export const MemberReference: {
 export type MemberReference = MemberReference$instance;
 
 export interface MemberReferenceHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: MemberReferenceHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: MemberReferenceHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2487,15 +2487,15 @@ export interface __MemberReferenceHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MemberReferenceHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MemberReferenceHandle): boolean;
+    Equals(other: MemberReferenceHandle): boolean;
 }
 
 export type MemberReferenceHandle = MemberReferenceHandle$instance & __MemberReferenceHandle$views;
 
 
 export interface MemberReferenceHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): MemberReferenceHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): MemberReferenceHandleCollection_Enumerator;
 }
 
 
@@ -2514,9 +2514,9 @@ export type MemberReferenceHandleCollection = MemberReferenceHandleCollection$in
 
 
 export interface MemberReferenceHandleCollection_Enumerator$instance {
-    readonly current: MemberReferenceHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: MemberReferenceHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2534,14 +2534,14 @@ export type MemberReferenceHandleCollection_Enumerator = MemberReferenceHandleCo
 
 
 export interface MetadataStringComparer$instance {
-    equals(handle: StringHandle, value: string): boolean;
-    equals(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
-    equals(handle: NamespaceDefinitionHandle, value: string): boolean;
-    equals(handle: NamespaceDefinitionHandle, value: string, ignoreCase: boolean): boolean;
-    equals(handle: DocumentNameBlobHandle, value: string): boolean;
-    equals(handle: DocumentNameBlobHandle, value: string, ignoreCase: boolean): boolean;
-    startsWith(handle: StringHandle, value: string): boolean;
-    startsWith(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(handle: StringHandle, value: string): boolean;
+    Equals(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(handle: NamespaceDefinitionHandle, value: string): boolean;
+    Equals(handle: NamespaceDefinitionHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(handle: DocumentNameBlobHandle, value: string): boolean;
+    Equals(handle: DocumentNameBlobHandle, value: string, ignoreCase: boolean): boolean;
+    StartsWith(handle: StringHandle, value: string): boolean;
+    StartsWith(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
 }
 
 
@@ -2553,11 +2553,11 @@ export const MetadataStringComparer: {
 export type MetadataStringComparer = MetadataStringComparer$instance;
 
 export interface MethodDebugInformation$instance {
-    readonly document: DocumentHandle;
-    readonly localSignature: StandaloneSignatureHandle;
-    readonly sequencePointsBlob: BlobHandle;
-    getSequencePoints(): SequencePointCollection;
-    getStateMachineKickoffMethod(): MethodDefinitionHandle;
+    readonly Document: DocumentHandle;
+    readonly LocalSignature: StandaloneSignatureHandle;
+    readonly SequencePointsBlob: BlobHandle;
+    GetSequencePoints(): SequencePointCollection;
+    GetStateMachineKickoffMethod(): MethodDefinitionHandle;
 }
 
 
@@ -2569,11 +2569,11 @@ export const MethodDebugInformation: {
 export type MethodDebugInformation = MethodDebugInformation$instance;
 
 export interface MethodDebugInformationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: MethodDebugInformationHandle): boolean;
-    getHashCode(): int;
-    toDefinitionHandle(): MethodDefinitionHandle;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: MethodDebugInformationHandle): boolean;
+    GetHashCode(): int;
+    ToDefinitionHandle(): MethodDefinitionHandle;
 }
 
 
@@ -2586,15 +2586,15 @@ export interface __MethodDebugInformationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MethodDebugInformationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MethodDebugInformationHandle): boolean;
+    Equals(other: MethodDebugInformationHandle): boolean;
 }
 
 export type MethodDebugInformationHandle = MethodDebugInformationHandle$instance & __MethodDebugInformationHandle$views;
 
 
 export interface MethodDebugInformationHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): MethodDebugInformationHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): MethodDebugInformationHandleCollection_Enumerator;
 }
 
 
@@ -2613,9 +2613,9 @@ export type MethodDebugInformationHandleCollection = MethodDebugInformationHandl
 
 
 export interface MethodDebugInformationHandleCollection_Enumerator$instance {
-    readonly current: MethodDebugInformationHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: MethodDebugInformationHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2633,18 +2633,18 @@ export type MethodDebugInformationHandleCollection_Enumerator = MethodDebugInfor
 
 
 export interface MethodDefinition$instance {
-    readonly attributes: MethodAttributes;
-    readonly implAttributes: MethodImplAttributes;
-    readonly name: StringHandle;
-    readonly relativeVirtualAddress: int;
-    readonly signature: BlobHandle;
-    decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
-    getDeclaringType(): TypeDefinitionHandle;
-    getGenericParameters(): GenericParameterHandleCollection;
-    getImport(): MethodImport;
-    getParameters(): ParameterHandleCollection;
+    readonly Attributes: MethodAttributes;
+    readonly ImplAttributes: MethodImplAttributes;
+    readonly Name: StringHandle;
+    readonly RelativeVirtualAddress: int;
+    readonly Signature: BlobHandle;
+    DecodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
+    GetDeclaringType(): TypeDefinitionHandle;
+    GetGenericParameters(): GenericParameterHandleCollection;
+    GetImport(): MethodImport;
+    GetParameters(): ParameterHandleCollection;
 }
 
 
@@ -2656,11 +2656,11 @@ export const MethodDefinition: {
 export type MethodDefinition = MethodDefinition$instance;
 
 export interface MethodDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: MethodDefinitionHandle): boolean;
-    getHashCode(): int;
-    toDebugInformationHandle(): MethodDebugInformationHandle;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: MethodDefinitionHandle): boolean;
+    GetHashCode(): int;
+    ToDebugInformationHandle(): MethodDebugInformationHandle;
 }
 
 
@@ -2673,15 +2673,15 @@ export interface __MethodDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MethodDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MethodDefinitionHandle): boolean;
+    Equals(other: MethodDefinitionHandle): boolean;
 }
 
 export type MethodDefinitionHandle = MethodDefinitionHandle$instance & __MethodDefinitionHandle$views;
 
 
 export interface MethodDefinitionHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): MethodDefinitionHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): MethodDefinitionHandleCollection_Enumerator;
 }
 
 
@@ -2700,9 +2700,9 @@ export type MethodDefinitionHandleCollection = MethodDefinitionHandleCollection$
 
 
 export interface MethodDefinitionHandleCollection_Enumerator$instance {
-    readonly current: MethodDefinitionHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: MethodDefinitionHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2720,10 +2720,10 @@ export type MethodDefinitionHandleCollection_Enumerator = MethodDefinitionHandle
 
 
 export interface MethodImplementation$instance {
-    readonly methodBody: EntityHandle;
-    readonly methodDeclaration: EntityHandle;
-    readonly type: TypeDefinitionHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly MethodBody: EntityHandle;
+    readonly MethodDeclaration: EntityHandle;
+    readonly Type: TypeDefinitionHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2735,10 +2735,10 @@ export const MethodImplementation: {
 export type MethodImplementation = MethodImplementation$instance;
 
 export interface MethodImplementationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: MethodImplementationHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: MethodImplementationHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2751,15 +2751,15 @@ export interface __MethodImplementationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MethodImplementationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MethodImplementationHandle): boolean;
+    Equals(other: MethodImplementationHandle): boolean;
 }
 
 export type MethodImplementationHandle = MethodImplementationHandle$instance & __MethodImplementationHandle$views;
 
 
 export interface MethodImplementationHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): MethodImplementationHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): MethodImplementationHandleCollection_Enumerator;
 }
 
 
@@ -2778,9 +2778,9 @@ export type MethodImplementationHandleCollection = MethodImplementationHandleCol
 
 
 export interface MethodImplementationHandleCollection_Enumerator$instance {
-    readonly current: MethodImplementationHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: MethodImplementationHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -2798,9 +2798,9 @@ export type MethodImplementationHandleCollection_Enumerator = MethodImplementati
 
 
 export interface MethodImport$instance {
-    readonly attributes: MethodImportAttributes;
-    readonly module: ModuleReferenceHandle;
-    readonly name: StringHandle;
+    readonly Attributes: MethodImportAttributes;
+    readonly Module: ModuleReferenceHandle;
+    readonly Name: StringHandle;
 }
 
 
@@ -2812,11 +2812,11 @@ export const MethodImport: {
 export type MethodImport = MethodImport$instance;
 
 export interface MethodSignature_1$instance<TType> {
-    readonly genericParameterCount: int;
-    readonly header: SignatureHeader;
-    readonly parameterTypes: ImmutableArray_1<TType>;
-    readonly requiredParameterCount: int;
-    readonly returnType: TType;
+    readonly GenericParameterCount: int;
+    readonly Header: SignatureHeader;
+    readonly ParameterTypes: ImmutableArray_1<TType>;
+    readonly RequiredParameterCount: int;
+    readonly ReturnType: TType;
 }
 
 
@@ -2828,10 +2828,10 @@ export const MethodSignature_1: {
 export type MethodSignature_1<TType> = MethodSignature_1$instance<TType>;
 
 export interface MethodSpecification$instance {
-    readonly method: EntityHandle;
-    readonly signature: BlobHandle;
-    decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Method: EntityHandle;
+    readonly Signature: BlobHandle;
+    DecodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2843,10 +2843,10 @@ export const MethodSpecification: {
 export type MethodSpecification = MethodSpecification$instance;
 
 export interface MethodSpecificationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: MethodSpecificationHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: MethodSpecificationHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2859,19 +2859,19 @@ export interface __MethodSpecificationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MethodSpecificationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MethodSpecificationHandle): boolean;
+    Equals(other: MethodSpecificationHandle): boolean;
 }
 
 export type MethodSpecificationHandle = MethodSpecificationHandle$instance & __MethodSpecificationHandle$views;
 
 
 export interface ModuleDefinition$instance {
-    readonly baseGenerationId: GuidHandle;
-    readonly generation: int;
-    readonly generationId: GuidHandle;
-    readonly mvid: GuidHandle;
-    readonly name: StringHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly BaseGenerationId: GuidHandle;
+    readonly Generation: int;
+    readonly GenerationId: GuidHandle;
+    readonly Mvid: GuidHandle;
+    readonly Name: StringHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2883,10 +2883,10 @@ export const ModuleDefinition: {
 export type ModuleDefinition = ModuleDefinition$instance;
 
 export interface ModuleDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ModuleDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ModuleDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2899,15 +2899,15 @@ export interface __ModuleDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ModuleDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ModuleDefinitionHandle): boolean;
+    Equals(other: ModuleDefinitionHandle): boolean;
 }
 
 export type ModuleDefinitionHandle = ModuleDefinitionHandle$instance & __ModuleDefinitionHandle$views;
 
 
 export interface ModuleReference$instance {
-    readonly name: StringHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Name: StringHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -2919,10 +2919,10 @@ export const ModuleReference: {
 export type ModuleReference = ModuleReference$instance;
 
 export interface ModuleReferenceHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ModuleReferenceHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ModuleReferenceHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2935,18 +2935,18 @@ export interface __ModuleReferenceHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ModuleReferenceHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ModuleReferenceHandle): boolean;
+    Equals(other: ModuleReferenceHandle): boolean;
 }
 
 export type ModuleReferenceHandle = ModuleReferenceHandle$instance & __ModuleReferenceHandle$views;
 
 
 export interface NamespaceDefinition$instance {
-    readonly exportedTypes: ImmutableArray_1<ExportedTypeHandle>;
-    readonly name: StringHandle;
-    readonly namespaceDefinitions: ImmutableArray_1<NamespaceDefinitionHandle>;
-    readonly parent: NamespaceDefinitionHandle;
-    readonly typeDefinitions: ImmutableArray_1<TypeDefinitionHandle>;
+    readonly ExportedTypes: ImmutableArray_1<ExportedTypeHandle>;
+    readonly Name: StringHandle;
+    readonly NamespaceDefinitions: ImmutableArray_1<NamespaceDefinitionHandle>;
+    readonly Parent: NamespaceDefinitionHandle;
+    readonly TypeDefinitions: ImmutableArray_1<TypeDefinitionHandle>;
 }
 
 
@@ -2958,10 +2958,10 @@ export const NamespaceDefinition: {
 export type NamespaceDefinition = NamespaceDefinition$instance;
 
 export interface NamespaceDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: NamespaceDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: NamespaceDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -2974,19 +2974,19 @@ export interface __NamespaceDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<NamespaceDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: NamespaceDefinitionHandle): boolean;
+    Equals(other: NamespaceDefinitionHandle): boolean;
 }
 
 export type NamespaceDefinitionHandle = NamespaceDefinitionHandle$instance & __NamespaceDefinitionHandle$views;
 
 
 export interface Parameter$instance {
-    readonly attributes: ParameterAttributes;
-    readonly name: StringHandle;
-    readonly sequenceNumber: int;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDefaultValue(): ConstantHandle;
-    getMarshallingDescriptor(): BlobHandle;
+    readonly Attributes: ParameterAttributes;
+    readonly Name: StringHandle;
+    readonly SequenceNumber: int;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDefaultValue(): ConstantHandle;
+    GetMarshallingDescriptor(): BlobHandle;
 }
 
 
@@ -2998,10 +2998,10 @@ export const Parameter: {
 export type Parameter = Parameter$instance;
 
 export interface ParameterHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: ParameterHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: ParameterHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3014,15 +3014,15 @@ export interface __ParameterHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ParameterHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ParameterHandle): boolean;
+    Equals(other: ParameterHandle): boolean;
 }
 
 export type ParameterHandle = ParameterHandle$instance & __ParameterHandle$views;
 
 
 export interface ParameterHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): ParameterHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): ParameterHandleCollection_Enumerator;
 }
 
 
@@ -3041,9 +3041,9 @@ export type ParameterHandleCollection = ParameterHandleCollection$instance & __P
 
 
 export interface ParameterHandleCollection_Enumerator$instance {
-    readonly current: ParameterHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: ParameterHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -3061,9 +3061,9 @@ export type ParameterHandleCollection_Enumerator = ParameterHandleCollection_Enu
 
 
 export interface PropertyAccessors$instance {
-    readonly getter: MethodDefinitionHandle;
-    readonly others: ImmutableArray_1<MethodDefinitionHandle>;
-    readonly setter: MethodDefinitionHandle;
+    readonly Getter: MethodDefinitionHandle;
+    readonly Others: ImmutableArray_1<MethodDefinitionHandle>;
+    readonly Setter: MethodDefinitionHandle;
 }
 
 
@@ -3075,14 +3075,14 @@ export const PropertyAccessors: {
 export type PropertyAccessors = PropertyAccessors$instance;
 
 export interface PropertyDefinition$instance {
-    readonly attributes: PropertyAttributes;
-    readonly name: StringHandle;
-    readonly signature: BlobHandle;
-    decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
-    getAccessors(): PropertyAccessors;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclaringType(): TypeDefinitionHandle;
-    getDefaultValue(): ConstantHandle;
+    readonly Attributes: PropertyAttributes;
+    readonly Name: StringHandle;
+    readonly Signature: BlobHandle;
+    DecodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
+    GetAccessors(): PropertyAccessors;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclaringType(): TypeDefinitionHandle;
+    GetDefaultValue(): ConstantHandle;
 }
 
 
@@ -3094,10 +3094,10 @@ export const PropertyDefinition: {
 export type PropertyDefinition = PropertyDefinition$instance;
 
 export interface PropertyDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: PropertyDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: PropertyDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3110,15 +3110,15 @@ export interface __PropertyDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<PropertyDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: PropertyDefinitionHandle): boolean;
+    Equals(other: PropertyDefinitionHandle): boolean;
 }
 
 export type PropertyDefinitionHandle = PropertyDefinitionHandle$instance & __PropertyDefinitionHandle$views;
 
 
 export interface PropertyDefinitionHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): PropertyDefinitionHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): PropertyDefinitionHandleCollection_Enumerator;
 }
 
 
@@ -3137,9 +3137,9 @@ export type PropertyDefinitionHandleCollection = PropertyDefinitionHandleCollect
 
 
 export interface PropertyDefinitionHandleCollection_Enumerator$instance {
-    readonly current: PropertyDefinitionHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: PropertyDefinitionHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -3157,9 +3157,9 @@ export type PropertyDefinitionHandleCollection_Enumerator = PropertyDefinitionHa
 
 
 export interface ReservedBlob_1$instance<THandle extends unknown> {
-    readonly content: Blob;
-    readonly handle: THandle;
-    createWriter(): BlobWriter;
+    readonly Content: Blob;
+    readonly Handle: THandle;
+    CreateWriter(): BlobWriter;
 }
 
 
@@ -3171,22 +3171,22 @@ export const ReservedBlob_1: {
 export type ReservedBlob_1<THandle> = ReservedBlob_1$instance<THandle>;
 
 export interface SequencePoint$instance {
-    readonly document: DocumentHandle;
-    readonly endColumn: int;
-    readonly endLine: int;
-    readonly isHidden: boolean;
-    readonly offset: int;
-    readonly startColumn: int;
-    readonly startLine: int;
-    equals(obj: unknown): boolean;
-    equals(other: SequencePoint): boolean;
-    getHashCode(): int;
+    readonly Document: DocumentHandle;
+    readonly EndColumn: int;
+    readonly EndLine: int;
+    readonly IsHidden: boolean;
+    readonly Offset: int;
+    readonly StartColumn: int;
+    readonly StartLine: int;
+    Equals(obj: unknown): boolean;
+    Equals(other: SequencePoint): boolean;
+    GetHashCode(): int;
 }
 
 
 export const SequencePoint: {
     new(): SequencePoint;
-    readonly hiddenLine: int;
+    readonly HiddenLine: int;
 };
 
 
@@ -3194,14 +3194,14 @@ export interface __SequencePoint$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<SequencePoint>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: SequencePoint): boolean;
+    Equals(other: SequencePoint): boolean;
 }
 
 export type SequencePoint = SequencePoint$instance & __SequencePoint$views;
 
 
 export interface SequencePointCollection$instance {
-    getEnumerator(): SequencePointCollection_Enumerator;
+    GetEnumerator(): SequencePointCollection_Enumerator;
 }
 
 
@@ -3219,9 +3219,9 @@ export type SequencePointCollection = SequencePointCollection$instance & __Seque
 
 
 export interface SequencePointCollection_Enumerator$instance {
-    readonly current: SequencePoint;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: SequencePoint;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -3240,24 +3240,24 @@ export type SequencePointCollection_Enumerator = SequencePointCollection_Enumera
 
 
 export interface SignatureHeader$instance {
-    readonly attributes: SignatureAttributes;
-    readonly callingConvention: SignatureCallingConvention;
-    readonly hasExplicitThis: boolean;
-    readonly isGeneric: boolean;
-    readonly isInstance: boolean;
-    readonly kind: SignatureKind;
-    readonly rawValue: byte;
-    equals(obj: unknown): boolean;
-    equals(other: SignatureHeader): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly Attributes: SignatureAttributes;
+    readonly CallingConvention: SignatureCallingConvention;
+    readonly HasExplicitThis: boolean;
+    readonly IsGeneric: boolean;
+    readonly IsInstance: boolean;
+    readonly Kind: SignatureKind;
+    readonly RawValue: byte;
+    Equals(obj: unknown): boolean;
+    Equals(other: SignatureHeader): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export const SignatureHeader: {
     new(rawValue: byte): SignatureHeader;
     new(kind: SignatureKind, convention: SignatureCallingConvention, attributes: SignatureAttributes): SignatureHeader;
-    readonly callingConventionOrKindMask: byte;
+    readonly CallingConventionOrKindMask: byte;
 };
 
 
@@ -3265,18 +3265,18 @@ export interface __SignatureHeader$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<SignatureHeader>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: SignatureHeader): boolean;
+    Equals(other: SignatureHeader): boolean;
 }
 
 export type SignatureHeader = SignatureHeader$instance & __SignatureHeader$views;
 
 
 export interface StandaloneSignature$instance {
-    readonly signature: BlobHandle;
-    decodeLocalSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
-    decodeMethodSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getKind(): StandaloneSignatureKind;
+    readonly Signature: BlobHandle;
+    DecodeLocalSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
+    DecodeMethodSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetKind(): StandaloneSignatureKind;
 }
 
 
@@ -3288,10 +3288,10 @@ export const StandaloneSignature: {
 export type StandaloneSignature = StandaloneSignature$instance;
 
 export interface StandaloneSignatureHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: StandaloneSignatureHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: StandaloneSignatureHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3304,17 +3304,17 @@ export interface __StandaloneSignatureHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<StandaloneSignatureHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: StandaloneSignatureHandle): boolean;
+    Equals(other: StandaloneSignatureHandle): boolean;
 }
 
 export type StandaloneSignatureHandle = StandaloneSignatureHandle$instance & __StandaloneSignatureHandle$views;
 
 
 export interface StringHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: StringHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: StringHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3327,31 +3327,31 @@ export interface __StringHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<StringHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: StringHandle): boolean;
+    Equals(other: StringHandle): boolean;
 }
 
 export type StringHandle = StringHandle$instance & __StringHandle$views;
 
 
 export interface TypeDefinition$instance {
-    readonly attributes: TypeAttributes;
-    readonly baseType: EntityHandle;
-    readonly isNested: boolean;
-    readonly name: StringHandle;
-    readonly namespace: StringHandle;
-    readonly namespaceDefinition: NamespaceDefinitionHandle;
-    getCustomAttributes(): CustomAttributeHandleCollection;
-    getDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
-    getDeclaringType(): TypeDefinitionHandle;
-    getEvents(): EventDefinitionHandleCollection;
-    getFields(): FieldDefinitionHandleCollection;
-    getGenericParameters(): GenericParameterHandleCollection;
-    getInterfaceImplementations(): InterfaceImplementationHandleCollection;
-    getLayout(): TypeLayout;
-    getMethodImplementations(): MethodImplementationHandleCollection;
-    getMethods(): MethodDefinitionHandleCollection;
-    getNestedTypes(): ImmutableArray_1<TypeDefinitionHandle>;
-    getProperties(): PropertyDefinitionHandleCollection;
+    readonly Attributes: TypeAttributes;
+    readonly BaseType: EntityHandle;
+    readonly IsNested: boolean;
+    readonly Name: StringHandle;
+    readonly Namespace: StringHandle;
+    readonly NamespaceDefinition: NamespaceDefinitionHandle;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
+    GetDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
+    GetDeclaringType(): TypeDefinitionHandle;
+    GetEvents(): EventDefinitionHandleCollection;
+    GetFields(): FieldDefinitionHandleCollection;
+    GetGenericParameters(): GenericParameterHandleCollection;
+    GetInterfaceImplementations(): InterfaceImplementationHandleCollection;
+    GetLayout(): TypeLayout;
+    GetMethodImplementations(): MethodImplementationHandleCollection;
+    GetMethods(): MethodDefinitionHandleCollection;
+    GetNestedTypes(): ImmutableArray_1<TypeDefinitionHandle>;
+    GetProperties(): PropertyDefinitionHandleCollection;
 }
 
 
@@ -3363,10 +3363,10 @@ export const TypeDefinition: {
 export type TypeDefinition = TypeDefinition$instance;
 
 export interface TypeDefinitionHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: TypeDefinitionHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: TypeDefinitionHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3379,15 +3379,15 @@ export interface __TypeDefinitionHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<TypeDefinitionHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: TypeDefinitionHandle): boolean;
+    Equals(other: TypeDefinitionHandle): boolean;
 }
 
 export type TypeDefinitionHandle = TypeDefinitionHandle$instance & __TypeDefinitionHandle$views;
 
 
 export interface TypeDefinitionHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): TypeDefinitionHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): TypeDefinitionHandleCollection_Enumerator;
 }
 
 
@@ -3406,9 +3406,9 @@ export type TypeDefinitionHandleCollection = TypeDefinitionHandleCollection$inst
 
 
 export interface TypeDefinitionHandleCollection_Enumerator$instance {
-    readonly current: TypeDefinitionHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: TypeDefinitionHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -3426,9 +3426,9 @@ export type TypeDefinitionHandleCollection_Enumerator = TypeDefinitionHandleColl
 
 
 export interface TypeLayout$instance {
-    readonly isDefault: boolean;
-    readonly packingSize: int;
-    readonly size: int;
+    readonly IsDefault: boolean;
+    readonly PackingSize: int;
+    readonly Size: int;
 }
 
 
@@ -3440,9 +3440,9 @@ export const TypeLayout: {
 export type TypeLayout = TypeLayout$instance;
 
 export interface TypeReference$instance {
-    readonly name: StringHandle;
-    readonly namespace: StringHandle;
-    readonly resolutionScope: EntityHandle;
+    readonly Name: StringHandle;
+    readonly Namespace: StringHandle;
+    readonly ResolutionScope: EntityHandle;
 }
 
 
@@ -3454,10 +3454,10 @@ export const TypeReference: {
 export type TypeReference = TypeReference$instance;
 
 export interface TypeReferenceHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: TypeReferenceHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: TypeReferenceHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3470,15 +3470,15 @@ export interface __TypeReferenceHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<TypeReferenceHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: TypeReferenceHandle): boolean;
+    Equals(other: TypeReferenceHandle): boolean;
 }
 
 export type TypeReferenceHandle = TypeReferenceHandle$instance & __TypeReferenceHandle$views;
 
 
 export interface TypeReferenceHandleCollection$instance {
-    readonly count: int;
-    getEnumerator(): TypeReferenceHandleCollection_Enumerator;
+    readonly Count: int;
+    GetEnumerator(): TypeReferenceHandleCollection_Enumerator;
 }
 
 
@@ -3497,9 +3497,9 @@ export type TypeReferenceHandleCollection = TypeReferenceHandleCollection$instan
 
 
 export interface TypeReferenceHandleCollection_Enumerator$instance {
-    readonly current: TypeReferenceHandle;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: TypeReferenceHandle;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -3517,9 +3517,9 @@ export type TypeReferenceHandleCollection_Enumerator = TypeReferenceHandleCollec
 
 
 export interface TypeSpecification$instance {
-    readonly signature: BlobHandle;
-    decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
-    getCustomAttributes(): CustomAttributeHandleCollection;
+    readonly Signature: BlobHandle;
+    DecodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
+    GetCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
@@ -3531,10 +3531,10 @@ export const TypeSpecification: {
 export type TypeSpecification = TypeSpecification$instance;
 
 export interface TypeSpecificationHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: TypeSpecificationHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: TypeSpecificationHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3547,17 +3547,17 @@ export interface __TypeSpecificationHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<TypeSpecificationHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: TypeSpecificationHandle): boolean;
+    Equals(other: TypeSpecificationHandle): boolean;
 }
 
 export type TypeSpecificationHandle = TypeSpecificationHandle$instance & __TypeSpecificationHandle$views;
 
 
 export interface UserStringHandle$instance {
-    readonly isNil: boolean;
-    equals(obj: unknown): boolean;
-    equals(other: UserStringHandle): boolean;
-    getHashCode(): int;
+    readonly IsNil: boolean;
+    Equals(obj: unknown): boolean;
+    Equals(other: UserStringHandle): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -3570,83 +3570,83 @@ export interface __UserStringHandle$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<UserStringHandle>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: UserStringHandle): boolean;
+    Equals(other: UserStringHandle): boolean;
 }
 
 export type UserStringHandle = UserStringHandle$instance & __UserStringHandle$views;
 
 
 export interface AssemblyNameInfo$instance {
-    readonly cultureName: string;
-    readonly flags: AssemblyNameFlags;
-    readonly fullName: string;
-    readonly name: string;
-    readonly publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>;
-    readonly version: Version;
-    toAssemblyName(): AssemblyName;
+    readonly CultureName: string;
+    readonly Flags: AssemblyNameFlags;
+    readonly FullName: string;
+    readonly Name: string;
+    readonly PublicKeyOrToken: ImmutableArray_1<System_Internal.Byte>;
+    readonly Version: Version;
+    ToAssemblyName(): AssemblyName;
 }
 
 
 export const AssemblyNameInfo: {
     new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>): AssemblyNameInfo;
-    parse(assemblyName: ReadOnlySpan_1<System_Internal.Char>): AssemblyNameInfo;
-    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo): boolean;
+    Parse(assemblyName: ReadOnlySpan_1<System_Internal.Char>): AssemblyNameInfo;
+    TryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo): boolean;
 };
 
 
 export type AssemblyNameInfo = AssemblyNameInfo$instance;
 
 export interface BlobBuilder$instance {
-    readonly count: int;
-    align(alignment: int): void;
-    clear(): void;
-    contentEquals(other: BlobBuilder): boolean;
-    getBlobs(): BlobBuilder_Blobs;
-    linkPrefix(prefix: BlobBuilder): void;
-    linkSuffix(suffix: BlobBuilder): void;
-    padTo(position: int): void;
-    reserveBytes(byteCount: int): Blob;
-    toArray(): byte[];
-    toArray(start: int, byteCount: int): byte[];
-    toImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
-    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
-    tryWriteBytes(source: Stream, byteCount: int): int;
-    writeBoolean(value: boolean): void;
-    writeByte(value: byte): void;
-    writeBytes(value: byte, byteCount: int): void;
-    writeBytes(buffer: ptr<byte>, byteCount: int): void;
-    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
-    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
-    writeBytes(buffer: byte[]): void;
-    writeBytes(buffer: byte[], start: int, byteCount: int): void;
-    writeCompressedInteger(value: int): void;
-    writeCompressedSignedInteger(value: int): void;
-    writeConstant(value: unknown): void;
-    writeContentTo(destination: Stream): void;
-    writeContentTo(destination: BlobWriter): void;
-    writeContentTo(destination: BlobBuilder): void;
-    writeDateTime(value: DateTime): void;
-    writeDecimal(value: decimal): void;
-    writeDouble(value: double): void;
-    writeGuid(value: Guid): void;
-    writeInt16(value: short): void;
-    writeInt16BE(value: short): void;
-    writeInt32(value: int): void;
-    writeInt32BE(value: int): void;
-    writeInt64(value: long): void;
-    writeReference(reference: int, isSmall: boolean): void;
-    writeSByte(value: sbyte): void;
-    writeSerializedString(value: string): void;
-    writeSingle(value: float): void;
-    writeUInt16(value: ushort): void;
-    writeUInt16BE(value: ushort): void;
-    writeUInt32(value: uint): void;
-    writeUInt32BE(value: uint): void;
-    writeUInt64(value: ulong): void;
-    writeUserString(value: string): void;
-    writeUTF16(value: char[]): void;
-    writeUTF16(value: string): void;
-    writeUTF8(value: string, allowUnpairedSurrogates?: boolean): void;
+    readonly Count: int;
+    Align(alignment: int): void;
+    Clear(): void;
+    ContentEquals(other: BlobBuilder): boolean;
+    GetBlobs(): BlobBuilder_Blobs;
+    LinkPrefix(prefix: BlobBuilder): void;
+    LinkSuffix(suffix: BlobBuilder): void;
+    PadTo(position: int): void;
+    ReserveBytes(byteCount: int): Blob;
+    ToArray(): byte[];
+    ToArray(start: int, byteCount: int): byte[];
+    ToImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
+    ToImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
+    TryWriteBytes(source: Stream, byteCount: int): int;
+    WriteBoolean(value: boolean): void;
+    WriteByte(value: byte): void;
+    WriteBytes(value: byte, byteCount: int): void;
+    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
+    WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
+    WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
+    WriteBytes(buffer: byte[]): void;
+    WriteBytes(buffer: byte[], start: int, byteCount: int): void;
+    WriteCompressedInteger(value: int): void;
+    WriteCompressedSignedInteger(value: int): void;
+    WriteConstant(value: unknown): void;
+    WriteContentTo(destination: Stream): void;
+    WriteContentTo(destination: BlobWriter): void;
+    WriteContentTo(destination: BlobBuilder): void;
+    WriteDateTime(value: DateTime): void;
+    WriteDecimal(value: decimal): void;
+    WriteDouble(value: double): void;
+    WriteGuid(value: Guid): void;
+    WriteInt16(value: short): void;
+    WriteInt16BE(value: short): void;
+    WriteInt32(value: int): void;
+    WriteInt32BE(value: int): void;
+    WriteInt64(value: long): void;
+    WriteReference(reference: int, isSmall: boolean): void;
+    WriteSByte(value: sbyte): void;
+    WriteSerializedString(value: string): void;
+    WriteSingle(value: float): void;
+    WriteUInt16(value: ushort): void;
+    WriteUInt16BE(value: ushort): void;
+    WriteUInt32(value: uint): void;
+    WriteUInt32BE(value: uint): void;
+    WriteUInt64(value: ulong): void;
+    WriteUserString(value: string): void;
+    WriteUTF16(value: char[]): void;
+    WriteUTF16(value: string): void;
+    WriteUTF8(value: string, allowUnpairedSurrogates?: boolean): void;
 }
 
 
@@ -3658,9 +3658,9 @@ export const BlobBuilder: {
 export type BlobBuilder = BlobBuilder$instance;
 
 export interface DebugMetadataHeader$instance {
-    readonly entryPoint: MethodDefinitionHandle;
-    readonly id: ImmutableArray_1<System_Internal.Byte>;
-    readonly idStartOffset: int;
+    readonly EntryPoint: MethodDefinitionHandle;
+    readonly Id: ImmutableArray_1<System_Internal.Byte>;
+    readonly IdStartOffset: int;
 }
 
 
@@ -3672,18 +3672,18 @@ export const DebugMetadataHeader: {
 export type DebugMetadataHeader = DebugMetadataHeader$instance;
 
 export interface HandleComparer$instance {
-    compare(x: Handle, y: Handle): int;
-    compare(x: EntityHandle, y: EntityHandle): int;
-    equals(x: Handle, y: Handle): boolean;
-    equals(x: EntityHandle, y: EntityHandle): boolean;
-    getHashCode(obj: Handle): int;
-    getHashCode(obj: EntityHandle): int;
+    Compare(x: Handle, y: Handle): int;
+    Compare(x: EntityHandle, y: EntityHandle): int;
+    Equals(x: Handle, y: Handle): boolean;
+    Equals(x: EntityHandle, y: EntityHandle): boolean;
+    GetHashCode(obj: Handle): int;
+    GetHashCode(obj: EntityHandle): int;
 }
 
 
 export const HandleComparer: {
     new(): HandleComparer;
-    readonly default: HandleComparer;
+    readonly Default: HandleComparer;
 };
 
 
@@ -3698,7 +3698,7 @@ export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
 export interface ImageFormatLimitationException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -3717,83 +3717,83 @@ export type ImageFormatLimitationException = ImageFormatLimitationException$inst
 
 
 export interface MetadataReader$instance {
-    readonly assemblyFiles: AssemblyFileHandleCollection;
-    readonly assemblyReferences: AssemblyReferenceHandleCollection;
-    readonly customAttributes: CustomAttributeHandleCollection;
-    readonly customDebugInformation: CustomDebugInformationHandleCollection;
-    readonly debugMetadataHeader: DebugMetadataHeader | undefined;
-    readonly declarativeSecurityAttributes: DeclarativeSecurityAttributeHandleCollection;
-    readonly documents: DocumentHandleCollection;
-    readonly eventDefinitions: EventDefinitionHandleCollection;
-    readonly exportedTypes: ExportedTypeHandleCollection;
-    readonly fieldDefinitions: FieldDefinitionHandleCollection;
-    readonly importScopes: ImportScopeCollection;
-    readonly isAssembly: boolean;
-    readonly localConstants: LocalConstantHandleCollection;
-    readonly localScopes: LocalScopeHandleCollection;
-    readonly localVariables: LocalVariableHandleCollection;
-    readonly manifestResources: ManifestResourceHandleCollection;
-    readonly memberReferences: MemberReferenceHandleCollection;
-    readonly metadataKind: MetadataKind;
-    readonly metadataLength: int;
-    readonly metadataPointer: ptr<byte>;
-    readonly metadataVersion: string;
-    readonly methodDebugInformation: MethodDebugInformationHandleCollection;
-    readonly methodDefinitions: MethodDefinitionHandleCollection;
-    readonly options: MetadataReaderOptions;
-    readonly propertyDefinitions: PropertyDefinitionHandleCollection;
-    readonly stringComparer: MetadataStringComparer;
-    readonly typeDefinitions: TypeDefinitionHandleCollection;
-    readonly typeReferences: TypeReferenceHandleCollection;
-    readonly utF8Decoder: MetadataStringDecoder;
-    getAssemblyDefinition(): AssemblyDefinition;
-    getAssemblyFile(handle: AssemblyFileHandle): AssemblyFile;
-    getAssemblyReference(handle: AssemblyReferenceHandle): AssemblyReference;
-    getBlobBytes(handle: BlobHandle): byte[];
-    getBlobContent(handle: BlobHandle): ImmutableArray_1<System_Internal.Byte>;
-    getBlobReader(handle: BlobHandle): BlobReader;
-    getBlobReader(handle: StringHandle): BlobReader;
-    getConstant(handle: ConstantHandle): Constant;
-    getCustomAttribute(handle: CustomAttributeHandle): CustomAttribute;
-    getCustomAttributes(handle: EntityHandle): CustomAttributeHandleCollection;
-    getCustomDebugInformation(handle: CustomDebugInformationHandle): CustomDebugInformation;
-    getCustomDebugInformation(handle: EntityHandle): CustomDebugInformationHandleCollection;
-    getDeclarativeSecurityAttribute(handle: DeclarativeSecurityAttributeHandle): DeclarativeSecurityAttribute;
-    getDocument(handle: DocumentHandle): Document;
-    getEventDefinition(handle: EventDefinitionHandle): EventDefinition;
-    getExportedType(handle: ExportedTypeHandle): ExportedType;
-    getFieldDefinition(handle: FieldDefinitionHandle): FieldDefinition;
-    getGenericParameter(handle: GenericParameterHandle): GenericParameter;
-    getGenericParameterConstraint(handle: GenericParameterConstraintHandle): GenericParameterConstraint;
-    getGuid(handle: GuidHandle): Guid;
-    getImportScope(handle: ImportScopeHandle): ImportScope;
-    getInterfaceImplementation(handle: InterfaceImplementationHandle): InterfaceImplementation;
-    getLocalConstant(handle: LocalConstantHandle): LocalConstant;
-    getLocalScope(handle: LocalScopeHandle): LocalScope;
-    getLocalScopes(handle: MethodDefinitionHandle): LocalScopeHandleCollection;
-    getLocalScopes(handle: MethodDebugInformationHandle): LocalScopeHandleCollection;
-    getLocalVariable(handle: LocalVariableHandle): LocalVariable;
-    getManifestResource(handle: ManifestResourceHandle): ManifestResource;
-    getMemberReference(handle: MemberReferenceHandle): MemberReference;
-    getMethodDebugInformation(handle: MethodDebugInformationHandle): MethodDebugInformation;
-    getMethodDebugInformation(handle: MethodDefinitionHandle): MethodDebugInformation;
-    getMethodDefinition(handle: MethodDefinitionHandle): MethodDefinition;
-    getMethodImplementation(handle: MethodImplementationHandle): MethodImplementation;
-    getMethodSpecification(handle: MethodSpecificationHandle): MethodSpecification;
-    getModuleDefinition(): ModuleDefinition;
-    getModuleReference(handle: ModuleReferenceHandle): ModuleReference;
-    getNamespaceDefinition(handle: NamespaceDefinitionHandle): NamespaceDefinition;
-    getNamespaceDefinitionRoot(): NamespaceDefinition;
-    getParameter(handle: ParameterHandle): Parameter;
-    getPropertyDefinition(handle: PropertyDefinitionHandle): PropertyDefinition;
-    getStandaloneSignature(handle: StandaloneSignatureHandle): StandaloneSignature;
-    getString(handle: StringHandle): string;
-    getString(handle: NamespaceDefinitionHandle): string;
-    getString(handle: DocumentNameBlobHandle): string;
-    getTypeDefinition(handle: TypeDefinitionHandle): TypeDefinition;
-    getTypeReference(handle: TypeReferenceHandle): TypeReference;
-    getTypeSpecification(handle: TypeSpecificationHandle): TypeSpecification;
-    getUserString(handle: UserStringHandle): string;
+    readonly AssemblyFiles: AssemblyFileHandleCollection;
+    readonly AssemblyReferences: AssemblyReferenceHandleCollection;
+    readonly CustomAttributes: CustomAttributeHandleCollection;
+    readonly CustomDebugInformation: CustomDebugInformationHandleCollection;
+    readonly DebugMetadataHeader: DebugMetadataHeader | undefined;
+    readonly DeclarativeSecurityAttributes: DeclarativeSecurityAttributeHandleCollection;
+    readonly Documents: DocumentHandleCollection;
+    readonly EventDefinitions: EventDefinitionHandleCollection;
+    readonly ExportedTypes: ExportedTypeHandleCollection;
+    readonly FieldDefinitions: FieldDefinitionHandleCollection;
+    readonly ImportScopes: ImportScopeCollection;
+    readonly IsAssembly: boolean;
+    readonly LocalConstants: LocalConstantHandleCollection;
+    readonly LocalScopes: LocalScopeHandleCollection;
+    readonly LocalVariables: LocalVariableHandleCollection;
+    readonly ManifestResources: ManifestResourceHandleCollection;
+    readonly MemberReferences: MemberReferenceHandleCollection;
+    readonly MetadataKind: MetadataKind;
+    readonly MetadataLength: int;
+    readonly MetadataPointer: ptr<byte>;
+    readonly MetadataVersion: string;
+    readonly MethodDebugInformation: MethodDebugInformationHandleCollection;
+    readonly MethodDefinitions: MethodDefinitionHandleCollection;
+    readonly Options: MetadataReaderOptions;
+    readonly PropertyDefinitions: PropertyDefinitionHandleCollection;
+    readonly StringComparer: MetadataStringComparer;
+    readonly TypeDefinitions: TypeDefinitionHandleCollection;
+    readonly TypeReferences: TypeReferenceHandleCollection;
+    readonly UTF8Decoder: MetadataStringDecoder;
+    GetAssemblyDefinition(): AssemblyDefinition;
+    GetAssemblyFile(handle: AssemblyFileHandle): AssemblyFile;
+    GetAssemblyReference(handle: AssemblyReferenceHandle): AssemblyReference;
+    GetBlobBytes(handle: BlobHandle): byte[];
+    GetBlobContent(handle: BlobHandle): ImmutableArray_1<System_Internal.Byte>;
+    GetBlobReader(handle: BlobHandle): BlobReader;
+    GetBlobReader(handle: StringHandle): BlobReader;
+    GetConstant(handle: ConstantHandle): Constant;
+    GetCustomAttribute(handle: CustomAttributeHandle): CustomAttribute;
+    GetCustomAttributes(handle: EntityHandle): CustomAttributeHandleCollection;
+    GetCustomDebugInformation(handle: CustomDebugInformationHandle): CustomDebugInformation;
+    GetCustomDebugInformation(handle: EntityHandle): CustomDebugInformationHandleCollection;
+    GetDeclarativeSecurityAttribute(handle: DeclarativeSecurityAttributeHandle): DeclarativeSecurityAttribute;
+    GetDocument(handle: DocumentHandle): Document;
+    GetEventDefinition(handle: EventDefinitionHandle): EventDefinition;
+    GetExportedType(handle: ExportedTypeHandle): ExportedType;
+    GetFieldDefinition(handle: FieldDefinitionHandle): FieldDefinition;
+    GetGenericParameter(handle: GenericParameterHandle): GenericParameter;
+    GetGenericParameterConstraint(handle: GenericParameterConstraintHandle): GenericParameterConstraint;
+    GetGuid(handle: GuidHandle): Guid;
+    GetImportScope(handle: ImportScopeHandle): ImportScope;
+    GetInterfaceImplementation(handle: InterfaceImplementationHandle): InterfaceImplementation;
+    GetLocalConstant(handle: LocalConstantHandle): LocalConstant;
+    GetLocalScope(handle: LocalScopeHandle): LocalScope;
+    GetLocalScopes(handle: MethodDefinitionHandle): LocalScopeHandleCollection;
+    GetLocalScopes(handle: MethodDebugInformationHandle): LocalScopeHandleCollection;
+    GetLocalVariable(handle: LocalVariableHandle): LocalVariable;
+    GetManifestResource(handle: ManifestResourceHandle): ManifestResource;
+    GetMemberReference(handle: MemberReferenceHandle): MemberReference;
+    GetMethodDebugInformation(handle: MethodDebugInformationHandle): MethodDebugInformation;
+    GetMethodDebugInformation(handle: MethodDefinitionHandle): MethodDebugInformation;
+    GetMethodDefinition(handle: MethodDefinitionHandle): MethodDefinition;
+    GetMethodImplementation(handle: MethodImplementationHandle): MethodImplementation;
+    GetMethodSpecification(handle: MethodSpecificationHandle): MethodSpecification;
+    GetModuleDefinition(): ModuleDefinition;
+    GetModuleReference(handle: ModuleReferenceHandle): ModuleReference;
+    GetNamespaceDefinition(handle: NamespaceDefinitionHandle): NamespaceDefinition;
+    GetNamespaceDefinitionRoot(): NamespaceDefinition;
+    GetParameter(handle: ParameterHandle): Parameter;
+    GetPropertyDefinition(handle: PropertyDefinitionHandle): PropertyDefinition;
+    GetStandaloneSignature(handle: StandaloneSignatureHandle): StandaloneSignature;
+    GetString(handle: StringHandle): string;
+    GetString(handle: NamespaceDefinitionHandle): string;
+    GetString(handle: DocumentNameBlobHandle): string;
+    GetTypeDefinition(handle: TypeDefinitionHandle): TypeDefinition;
+    GetTypeReference(handle: TypeReferenceHandle): TypeReference;
+    GetTypeSpecification(handle: TypeSpecificationHandle): TypeSpecification;
+    GetUserString(handle: UserStringHandle): string;
 }
 
 
@@ -3801,26 +3801,26 @@ export const MetadataReader: {
     new(metadata: ptr<byte>, length: int): MetadataReader;
     new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions): MetadataReader;
     new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
-    getAssemblyName(assemblyFile: string): AssemblyName;
+    GetAssemblyName(assemblyFile: string): AssemblyName;
 };
 
 
 export type MetadataReader = MetadataReader$instance;
 
 export interface MetadataReaderProvider$instance {
-    dispose(): void;
-    getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder): MetadataReader;
+    Dispose(): void;
+    GetMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder): MetadataReader;
 }
 
 
 export const MetadataReaderProvider: {
     new(): MetadataReaderProvider;
-    fromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    fromMetadataImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
-    fromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
-    fromPortablePdbImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    fromPortablePdbImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
-    fromPortablePdbStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
+    FromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
+    FromMetadataImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
+    FromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
+    FromPortablePdbImage(start: ptr<byte>, size: int): MetadataReaderProvider;
+    FromPortablePdbImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
+    FromPortablePdbStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
 };
 
 
@@ -3834,21 +3834,21 @@ export type MetadataReaderProvider = MetadataReaderProvider$instance & __Metadat
 
 
 export interface MetadataStringDecoder$instance {
-    readonly encoding: Encoding;
-    getString(bytes: ptr<byte>, byteCount: int): string;
+    readonly Encoding: Encoding;
+    GetString(bytes: ptr<byte>, byteCount: int): string;
 }
 
 
 export const MetadataStringDecoder: {
     new(encoding: Encoding): MetadataStringDecoder;
-    readonly defaultUTF8: MetadataStringDecoder;
+    readonly DefaultUTF8: MetadataStringDecoder;
 };
 
 
 export type MetadataStringDecoder = MetadataStringDecoder$instance;
 
 export interface MetadataUpdateHandlerAttribute$instance extends Attribute {
-    readonly handlerType: Type;
+    readonly HandlerType: Type;
 }
 
 
@@ -3860,66 +3860,66 @@ export const MetadataUpdateHandlerAttribute: {
 export type MetadataUpdateHandlerAttribute = MetadataUpdateHandlerAttribute$instance;
 
 export interface MethodBodyBlock$instance {
-    readonly exceptionRegions: ImmutableArray_1<ExceptionRegion>;
-    readonly localSignature: StandaloneSignatureHandle;
-    readonly localVariablesInitialized: boolean;
-    readonly maxStack: int;
-    readonly size: int;
-    getILBytes(): byte[] | undefined;
-    getILContent(): ImmutableArray_1<System_Internal.Byte>;
-    getILReader(): BlobReader;
+    readonly ExceptionRegions: ImmutableArray_1<ExceptionRegion>;
+    readonly LocalSignature: StandaloneSignatureHandle;
+    readonly LocalVariablesInitialized: boolean;
+    readonly MaxStack: int;
+    readonly Size: int;
+    GetILBytes(): byte[] | undefined;
+    GetILContent(): ImmutableArray_1<System_Internal.Byte>;
+    GetILReader(): BlobReader;
 }
 
 
 export const MethodBodyBlock: {
     new(): MethodBodyBlock;
-    create(reader: BlobReader): MethodBodyBlock;
+    Create(reader: BlobReader): MethodBodyBlock;
 };
 
 
 export type MethodBodyBlock = MethodBodyBlock$instance;
 
 export interface TypeName$instance {
-    readonly assemblyName: AssemblyNameInfo;
-    readonly assemblyQualifiedName: string;
-    readonly declaringType: TypeName;
-    readonly fullName: string;
-    readonly isArray: boolean;
-    readonly isByRef: boolean;
-    readonly isConstructedGenericType: boolean;
-    readonly isNested: boolean;
-    readonly isPointer: boolean;
-    readonly isSimple: boolean;
-    readonly isSZArray: boolean;
-    readonly isVariableBoundArrayType: boolean;
-    readonly name: string;
-    readonly namespace: string;
-    getArrayRank(): int;
-    getElementType(): TypeName;
-    getGenericArguments(): ImmutableArray_1<TypeName>;
-    getGenericTypeDefinition(): TypeName;
-    getNodeCount(): int;
-    makeArrayTypeName(rank: int): TypeName;
-    makeByRefTypeName(): TypeName;
-    makeGenericTypeName(typeArguments: ImmutableArray_1<TypeName>): TypeName;
-    makePointerTypeName(): TypeName;
-    makeSZArrayTypeName(): TypeName;
-    withAssemblyName(assemblyName: AssemblyNameInfo): TypeName;
+    readonly AssemblyName: AssemblyNameInfo;
+    readonly AssemblyQualifiedName: string;
+    readonly DeclaringType: TypeName;
+    readonly FullName: string;
+    readonly IsArray: boolean;
+    readonly IsByRef: boolean;
+    readonly IsConstructedGenericType: boolean;
+    readonly IsNested: boolean;
+    readonly IsPointer: boolean;
+    readonly IsSimple: boolean;
+    readonly IsSZArray: boolean;
+    readonly IsVariableBoundArrayType: boolean;
+    readonly Name: string;
+    readonly Namespace: string;
+    GetArrayRank(): int;
+    GetElementType(): TypeName;
+    GetGenericArguments(): ImmutableArray_1<TypeName>;
+    GetGenericTypeDefinition(): TypeName;
+    GetNodeCount(): int;
+    MakeArrayTypeName(rank: int): TypeName;
+    MakeByRefTypeName(): TypeName;
+    MakeGenericTypeName(typeArguments: ImmutableArray_1<TypeName>): TypeName;
+    MakePointerTypeName(): TypeName;
+    MakeSZArrayTypeName(): TypeName;
+    WithAssemblyName(assemblyName: AssemblyNameInfo): TypeName;
 }
 
 
 export const TypeName: {
     new(): TypeName;
-    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
-    tryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
-    unescape(name: string): string;
+    Parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
+    TryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
+    Unescape(name: string): string;
 };
 
 
 export type TypeName = TypeName$instance;
 
 export interface TypeNameParseOptions$instance {
-    maxNodes: int;
+    MaxNodes: int;
 }
 
 
@@ -3931,35 +3931,35 @@ export const TypeNameParseOptions: {
 export type TypeNameParseOptions = TypeNameParseOptions$instance;
 
 export abstract class AssemblyExtensions$instance {
-    static tryGetRawMetadata(assembly: Assembly, blob: ptr<byte>, length: int): boolean;
+    static TryGetRawMetadata(assembly: Assembly, blob: ptr<byte>, length: int): boolean;
 }
 
 
 export type AssemblyExtensions = AssemblyExtensions$instance;
 
 export abstract class ILOpCodeExtensions$instance {
-    static getBranchOperandSize(opCode: ILOpCode): int;
-    static getLongBranch(opCode: ILOpCode): ILOpCode;
-    static getShortBranch(opCode: ILOpCode): ILOpCode;
-    static isBranch(opCode: ILOpCode): boolean;
+    static GetBranchOperandSize(opCode: ILOpCode): int;
+    static GetLongBranch(opCode: ILOpCode): ILOpCode;
+    static GetShortBranch(opCode: ILOpCode): ILOpCode;
+    static IsBranch(opCode: ILOpCode): boolean;
 }
 
 
 export type ILOpCodeExtensions = ILOpCodeExtensions$instance;
 
 export abstract class MetadataUpdater$instance {
-    static readonly isSupported: boolean;
-    static applyUpdate(assembly: Assembly, metadataDelta: ReadOnlySpan_1<System_Internal.Byte>, ilDelta: ReadOnlySpan_1<System_Internal.Byte>, pdbDelta: ReadOnlySpan_1<System_Internal.Byte>): void;
+    static readonly IsSupported: boolean;
+    static ApplyUpdate(assembly: Assembly, metadataDelta: ReadOnlySpan_1<System_Internal.Byte>, ilDelta: ReadOnlySpan_1<System_Internal.Byte>, pdbDelta: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
 export type MetadataUpdater = MetadataUpdater$instance;
 
 export abstract class PEReaderExtensions$instance {
-    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
-    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
-    static getMetadataReader(peReader: PEReader): MetadataReader;
-    static getMethodBody(peReader: PEReader, relativeVirtualAddress: int): MethodBodyBlock;
+    static GetMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
+    static GetMetadataReader(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
+    static GetMetadataReader(peReader: PEReader): MetadataReader;
+    static GetMethodBody(peReader: PEReader, relativeVirtualAddress: int): MethodBodyBlock;
 }
 
 

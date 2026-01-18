@@ -21,86 +21,86 @@ export type ResolveNameEventHandler = (sender: unknown, e: ResolveNameEventArgs)
 
 
 export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceContainer, IServiceProvider {
-    readonly loading: boolean;
-    readonly inTransaction: boolean;
-    readonly container: IContainer;
-    readonly rootComponent: IComponent;
-    readonly rootComponentClassName: string;
-    readonly transactionDescription: string;
-    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService(serviceType: Type, serviceInstance: unknown): void;
-    createComponent(componentClass: Type, name: string): IComponent;
-    createComponent(componentClass: Type): IComponent;
-    createTransaction(): DesignerTransaction;
-    createTransaction(description: string): DesignerTransaction;
-    destroyComponent(component: IComponent): void;
-    endLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
-    getDesigner(component: IComponent): IDesigner | undefined;
-    getService(serviceType: Type): unknown | undefined;
-    getType(typeName: string): Type | undefined;
-    reload(): void;
-    removeService(serviceType: Type, promote: boolean): void;
-    removeService(serviceType: Type): void;
-    activate(): void;
+    readonly Loading: boolean;
+    readonly InTransaction: boolean;
+    readonly Container: IContainer;
+    readonly RootComponent: IComponent;
+    readonly RootComponentClassName: string;
+    readonly TransactionDescription: string;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: unknown): void;
+    CreateComponent(componentClass: Type, name: string): IComponent;
+    CreateComponent(componentClass: Type): IComponent;
+    CreateTransaction(): DesignerTransaction;
+    CreateTransaction(description: string): DesignerTransaction;
+    DestroyComponent(component: IComponent): void;
+    EndLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
+    GetDesigner(component: IComponent): IDesigner | undefined;
+    GetService(serviceType: Type): unknown | undefined;
+    GetType(typeName: string): Type | undefined;
+    Reload(): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
+    RemoveService(serviceType: Type): void;
+    Activate(): void;
 }
 
 
 export type IDesignerLoaderHost = IDesignerLoaderHost$instance;
 
 export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDesignerHost, IServiceContainer, IServiceProvider {
-    ignoreErrorsDuringReload: boolean;
-    canReloadWithErrors: boolean;
-    readonly loading: boolean;
-    readonly inTransaction: boolean;
-    readonly container: IContainer;
-    readonly rootComponent: IComponent;
-    readonly rootComponentClassName: string;
-    readonly transactionDescription: string;
-    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService(serviceType: Type, serviceInstance: unknown): void;
-    createComponent(componentClass: Type, name: string): IComponent;
-    createComponent(componentClass: Type): IComponent;
-    createTransaction(): DesignerTransaction;
-    createTransaction(description: string): DesignerTransaction;
-    destroyComponent(component: IComponent): void;
-    endLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
-    getDesigner(component: IComponent): IDesigner | undefined;
-    getService(serviceType: Type): unknown | undefined;
-    getType(typeName: string): Type | undefined;
-    reload(): void;
-    removeService(serviceType: Type, promote: boolean): void;
-    removeService(serviceType: Type): void;
-    activate(): void;
+    IgnoreErrorsDuringReload: boolean;
+    CanReloadWithErrors: boolean;
+    readonly Loading: boolean;
+    readonly InTransaction: boolean;
+    readonly Container: IContainer;
+    readonly RootComponent: IComponent;
+    readonly RootComponentClassName: string;
+    readonly TransactionDescription: string;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: unknown): void;
+    CreateComponent(componentClass: Type, name: string): IComponent;
+    CreateComponent(componentClass: Type): IComponent;
+    CreateTransaction(): DesignerTransaction;
+    CreateTransaction(description: string): DesignerTransaction;
+    DestroyComponent(component: IComponent): void;
+    EndLoad(baseClassName: string, successful: boolean, errorCollection: ICollection): void;
+    GetDesigner(component: IComponent): IDesigner | undefined;
+    GetService(serviceType: Type): unknown | undefined;
+    GetType(typeName: string): Type | undefined;
+    Reload(): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
+    RemoveService(serviceType: Type): void;
+    Activate(): void;
 }
 
 
 export type IDesignerLoaderHost2 = IDesignerLoaderHost2$instance;
 
 export interface IDesignerLoaderService$instance {
-    addLoadDependency(): void;
-    dependentLoadComplete(successful: boolean, errorCollection: ICollection): void;
-    reload(): boolean;
+    AddLoadDependency(): void;
+    DependentLoadComplete(successful: boolean, errorCollection: ICollection): void;
+    Reload(): boolean;
 }
 
 
 export type IDesignerLoaderService = IDesignerLoaderService$instance;
 
 export interface IDesignerSerializationManager$instance extends IServiceProvider {
-    readonly context: ContextStack;
-    readonly properties: PropertyDescriptorCollection;
-    addSerializationProvider(provider: IDesignerSerializationProvider): void;
-    createInstance(type: Type, arguments: ICollection, name: string, addToContainer: boolean): unknown;
-    getInstance(name: string): unknown | undefined;
-    getName(value: unknown): string | undefined;
-    getSerializer(objectType: Type, serializerType: Type): unknown | undefined;
-    getService(serviceType: Type): unknown | undefined;
-    getType(typeName: string): Type | undefined;
-    reportError(errorInformation: unknown): void;
-    setName(instance: unknown, name: string): void;
+    readonly Context: ContextStack;
+    readonly Properties: PropertyDescriptorCollection;
+    AddSerializationProvider(provider: IDesignerSerializationProvider): void;
+    CreateInstance(type: Type, arguments: ICollection, name: string, addToContainer: boolean): unknown;
+    GetInstance(name: string): unknown | undefined;
+    GetName(value: unknown): string | undefined;
+    GetSerializer(objectType: Type, serializerType: Type): unknown | undefined;
+    GetService(serviceType: Type): unknown | undefined;
+    GetType(typeName: string): Type | undefined;
+    ReportError(errorInformation: unknown): void;
+    SetName(instance: unknown, name: string): void;
 }
 
 
@@ -109,42 +109,42 @@ export interface IDesignerSerializationManager$instance extends System_Internal.
 export type IDesignerSerializationManager = IDesignerSerializationManager$instance;
 
 export interface IDesignerSerializationProvider$instance {
-    getSerializer(manager: IDesignerSerializationManager, currentSerializer: unknown, objectType: Type, serializerType: Type): unknown | undefined;
+    GetSerializer(manager: IDesignerSerializationManager, currentSerializer: unknown, objectType: Type, serializerType: Type): unknown | undefined;
 }
 
 
 export type IDesignerSerializationProvider = IDesignerSerializationProvider$instance;
 
 export interface IDesignerSerializationService$instance {
-    deserialize(serializationData: unknown): ICollection;
-    serialize(objects: ICollection): unknown;
+    Deserialize(serializationData: unknown): ICollection;
+    Serialize(objects: ICollection): unknown;
 }
 
 
 export type IDesignerSerializationService = IDesignerSerializationService$instance;
 
 export interface INameCreationService$instance {
-    createName(container: IContainer, dataType: Type): string;
-    isValidName(name: string): boolean;
-    validateName(name: string): void;
+    CreateName(container: IContainer, dataType: Type): string;
+    IsValidName(name: string): boolean;
+    ValidateName(name: string): void;
 }
 
 
 export type INameCreationService = INameCreationService$instance;
 
 export interface MemberRelationship$instance {
-    readonly isEmpty: boolean;
-    readonly member: MemberDescriptor;
-    readonly owner: unknown;
-    equals(obj: unknown): boolean;
-    equals(other: MemberRelationship): boolean;
-    getHashCode(): int;
+    readonly IsEmpty: boolean;
+    readonly Member: MemberDescriptor;
+    readonly Owner: unknown;
+    Equals(obj: unknown): boolean;
+    Equals(other: MemberRelationship): boolean;
+    GetHashCode(): int;
 }
 
 
 export const MemberRelationship: {
     new(owner: unknown, member: MemberDescriptor): MemberRelationship;
-    readonly empty: MemberRelationship;
+    readonly Empty: MemberRelationship;
 };
 
 
@@ -152,24 +152,24 @@ export interface __MemberRelationship$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MemberRelationship>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: MemberRelationship): boolean;
+    Equals(other: MemberRelationship): boolean;
 }
 
 export type MemberRelationship = MemberRelationship$instance & __MemberRelationship$views;
 
 
 export interface ComponentSerializationService$instance {
-    createStore(): SerializationStore;
-    deserialize(store: SerializationStore): ICollection;
-    deserialize(store: SerializationStore, container: IContainer): ICollection;
-    deserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
-    deserializeTo(store: SerializationStore, container: IContainer): void;
-    deserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean): void;
-    loadStore(stream: Stream): SerializationStore;
-    serialize(store: SerializationStore, value: unknown): void;
-    serializeAbsolute(store: SerializationStore, value: unknown): void;
-    serializeMember(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
-    serializeMemberAbsolute(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
+    CreateStore(): SerializationStore;
+    Deserialize(store: SerializationStore): ICollection;
+    Deserialize(store: SerializationStore, container: IContainer): ICollection;
+    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
+    DeserializeTo(store: SerializationStore, container: IContainer): void;
+    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean): void;
+    LoadStore(stream: Stream): SerializationStore;
+    Serialize(store: SerializationStore, value: unknown): void;
+    SerializeAbsolute(store: SerializationStore, value: unknown): void;
+    SerializeMember(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
+    SerializeMemberAbsolute(store: SerializationStore, owningObject: unknown, member: MemberDescriptor): void;
 }
 
 
@@ -180,12 +180,12 @@ export const ComponentSerializationService: {
 export type ComponentSerializationService = ComponentSerializationService$instance;
 
 export interface ContextStack$instance {
-    readonly current: unknown;
-    append(context: unknown): void;
+    readonly Current: unknown;
+    Append(context: unknown): void;
     get_Item(level: int): unknown;
     get_Item(type: Type): unknown | undefined;
-    pop(): unknown;
-    push(context: unknown): void;
+    Pop(): unknown;
+    Push(context: unknown): void;
 }
 
 
@@ -197,7 +197,7 @@ export const ContextStack: {
 export type ContextStack = ContextStack$instance;
 
 export interface DefaultSerializationProviderAttribute$instance extends Attribute {
-    readonly providerTypeName: string;
+    readonly ProviderTypeName: string;
 }
 
 
@@ -210,10 +210,10 @@ export const DefaultSerializationProviderAttribute: {
 export type DefaultSerializationProviderAttribute = DefaultSerializationProviderAttribute$instance;
 
 export interface DesignerLoader$instance {
-    readonly loading: boolean;
-    beginLoad(host: IDesignerLoaderHost): void;
-    dispose(): void;
-    flush(): void;
+    readonly Loading: boolean;
+    BeginLoad(host: IDesignerLoaderHost): void;
+    Dispose(): void;
+    Flush(): void;
 }
 
 
@@ -224,9 +224,9 @@ export const DesignerLoader: {
 export type DesignerLoader = DesignerLoader$instance;
 
 export interface DesignerSerializerAttribute$instance extends Attribute {
-    readonly serializerBaseTypeName: string | undefined;
-    readonly serializerTypeName: string | undefined;
-    readonly typeId: unknown;
+    readonly SerializerBaseTypeName: string | undefined;
+    readonly SerializerTypeName: string | undefined;
+    readonly TypeId: unknown;
 }
 
 
@@ -240,10 +240,10 @@ export const DesignerSerializerAttribute: {
 export type DesignerSerializerAttribute = DesignerSerializerAttribute$instance;
 
 export interface InstanceDescriptor$instance {
-    readonly arguments: ICollection;
-    readonly isComplete: boolean;
-    readonly memberInfo: MemberInfo;
-    invoke(): unknown;
+    readonly Arguments: ICollection;
+    readonly IsComplete: boolean;
+    readonly MemberInfo: MemberInfo;
+    Invoke(): unknown;
 }
 
 
@@ -260,7 +260,7 @@ export interface MemberRelationshipService$instance {
     get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
     set_Item(source: MemberRelationship, value: MemberRelationship): void;
     set_Item(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
-    supportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
+    SupportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
 }
 
 
@@ -271,8 +271,8 @@ export const MemberRelationshipService: {
 export type MemberRelationshipService = MemberRelationshipService$instance;
 
 export interface ResolveNameEventArgs$instance extends EventArgs {
-    readonly name: string;
-    value: unknown;
+    readonly Name: string;
+    Value: unknown;
 }
 
 
@@ -284,10 +284,10 @@ export const ResolveNameEventArgs: {
 export type ResolveNameEventArgs = ResolveNameEventArgs$instance;
 
 export interface RootDesignerSerializerAttribute$instance extends Attribute {
-    readonly reloadable: boolean;
-    readonly serializerBaseTypeName: string | undefined;
-    readonly serializerTypeName: string | undefined;
-    readonly typeId: unknown;
+    readonly Reloadable: boolean;
+    readonly SerializerBaseTypeName: string | undefined;
+    readonly SerializerTypeName: string | undefined;
+    readonly TypeId: unknown;
 }
 
 
@@ -301,9 +301,9 @@ export const RootDesignerSerializerAttribute: {
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
 export interface SerializationStore$instance {
-    readonly errors: ICollection;
-    close(): void;
-    save(stream: Stream): void;
+    readonly Errors: ICollection;
+    Close(): void;
+    Save(stream: Stream): void;
 }
 
 

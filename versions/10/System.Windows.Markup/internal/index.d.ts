@@ -10,8 +10,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type } from "../../System/internal/index.js";
 
 export interface ValueSerializerAttribute$instance extends Attribute {
-    readonly valueSerializerType: Type;
-    readonly valueSerializerTypeName: string;
+    readonly ValueSerializerType: Type;
+    readonly ValueSerializerTypeName: string;
 }
 
 

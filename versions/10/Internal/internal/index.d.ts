@@ -10,17 +10,17 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export abstract class Console$instance {
-    static write(s: string): void;
-    static writeLine(): void;
-    static writeLine(s: string): void;
+    static Write(s: string): void;
+    static WriteLine(): void;
+    static WriteLine(s: string): void;
 }
 
 
 export type Console = Console$instance;
 
 export abstract class Console_Error$instance {
-    static write(s: string): void;
-    static writeLine(): void;
+    static Write(s: string): void;
+    static WriteLine(): void;
 }
 
 

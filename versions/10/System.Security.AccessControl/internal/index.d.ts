@@ -19,241 +19,241 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Enum, Exception, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AccessControlActions {
-    none = 0,
-    view = 1,
-    change = 2
+    None = 0,
+    View = 1,
+    Change = 2
 }
 
 
 export enum AccessControlModification {
-    add = 0,
-    set = 1,
-    reset = 2,
-    remove = 3,
-    removeAll = 4,
-    removeSpecific = 5
+    Add = 0,
+    Set = 1,
+    Reset = 2,
+    Remove = 3,
+    RemoveAll = 4,
+    RemoveSpecific = 5
 }
 
 
 export enum AccessControlSections {
-    none = 0,
-    audit = 1,
-    access = 2,
-    owner = 4,
-    group = 8,
-    all = 15
+    None = 0,
+    Audit = 1,
+    Access = 2,
+    Owner = 4,
+    Group = 8,
+    All = 15
 }
 
 
 export enum AccessControlType {
-    allow = 0,
-    deny = 1
+    Allow = 0,
+    Deny = 1
 }
 
 
 export enum AceFlags {
-    none = 0,
-    objectInherit = 1,
-    containerInherit = 2,
-    noPropagateInherit = 4,
-    inheritOnly = 8,
-    inheritanceFlags = 15,
-    inherited = 16,
-    successfulAccess = 64,
-    failedAccess = 128,
-    auditFlags = 192
+    None = 0,
+    ObjectInherit = 1,
+    ContainerInherit = 2,
+    NoPropagateInherit = 4,
+    InheritOnly = 8,
+    InheritanceFlags = 15,
+    Inherited = 16,
+    SuccessfulAccess = 64,
+    FailedAccess = 128,
+    AuditFlags = 192
 }
 
 
 export enum AceQualifier {
-    accessAllowed = 0,
-    accessDenied = 1,
-    systemAudit = 2,
-    systemAlarm = 3
+    AccessAllowed = 0,
+    AccessDenied = 1,
+    SystemAudit = 2,
+    SystemAlarm = 3
 }
 
 
 export enum AceType {
-    accessAllowed = 0,
-    accessDenied = 1,
-    systemAudit = 2,
-    systemAlarm = 3,
-    accessAllowedCompound = 4,
-    accessAllowedObject = 5,
-    accessDeniedObject = 6,
-    systemAuditObject = 7,
-    systemAlarmObject = 8,
-    accessAllowedCallback = 9,
-    accessDeniedCallback = 10,
-    accessAllowedCallbackObject = 11,
-    accessDeniedCallbackObject = 12,
-    systemAuditCallback = 13,
-    systemAlarmCallback = 14,
-    systemAuditCallbackObject = 15,
-    maxDefinedAceType = 16,
-    systemAlarmCallbackObject = 16
+    AccessAllowed = 0,
+    AccessDenied = 1,
+    SystemAudit = 2,
+    SystemAlarm = 3,
+    AccessAllowedCompound = 4,
+    AccessAllowedObject = 5,
+    AccessDeniedObject = 6,
+    SystemAuditObject = 7,
+    SystemAlarmObject = 8,
+    AccessAllowedCallback = 9,
+    AccessDeniedCallback = 10,
+    AccessAllowedCallbackObject = 11,
+    AccessDeniedCallbackObject = 12,
+    SystemAuditCallback = 13,
+    SystemAlarmCallback = 14,
+    SystemAuditCallbackObject = 15,
+    MaxDefinedAceType = 16,
+    SystemAlarmCallbackObject = 16
 }
 
 
 export enum AuditFlags {
-    none = 0,
-    success = 1,
-    failure = 2
+    None = 0,
+    Success = 1,
+    Failure = 2
 }
 
 
 export enum CompoundAceType {
-    impersonation = 1
+    Impersonation = 1
 }
 
 
 export enum ControlFlags {
-    none = 0,
-    ownerDefaulted = 1,
-    groupDefaulted = 2,
-    discretionaryAclPresent = 4,
-    discretionaryAclDefaulted = 8,
-    systemAclPresent = 16,
-    systemAclDefaulted = 32,
-    discretionaryAclUntrusted = 64,
-    serverSecurity = 128,
-    discretionaryAclAutoInheritRequired = 256,
-    systemAclAutoInheritRequired = 512,
-    discretionaryAclAutoInherited = 1024,
-    systemAclAutoInherited = 2048,
-    discretionaryAclProtected = 4096,
-    systemAclProtected = 8192,
-    rmControlValid = 16384,
-    selfRelative = 32768
+    None = 0,
+    OwnerDefaulted = 1,
+    GroupDefaulted = 2,
+    DiscretionaryAclPresent = 4,
+    DiscretionaryAclDefaulted = 8,
+    SystemAclPresent = 16,
+    SystemAclDefaulted = 32,
+    DiscretionaryAclUntrusted = 64,
+    ServerSecurity = 128,
+    DiscretionaryAclAutoInheritRequired = 256,
+    SystemAclAutoInheritRequired = 512,
+    DiscretionaryAclAutoInherited = 1024,
+    SystemAclAutoInherited = 2048,
+    DiscretionaryAclProtected = 4096,
+    SystemAclProtected = 8192,
+    RMControlValid = 16384,
+    SelfRelative = 32768
 }
 
 
 export enum EventWaitHandleRights {
-    modify = 2,
-    delete = 65536,
-    readPermissions = 131072,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    synchronize = 1048576,
-    fullControl = 2031619
+    Modify = 2,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    Synchronize = 1048576,
+    FullControl = 2031619
 }
 
 
 export enum FileSystemRights {
-    listDirectory = 1,
-    readData = 1,
-    createFiles = 2,
-    writeData = 2,
-    appendData = 4,
-    createDirectories = 4,
-    readExtendedAttributes = 8,
-    writeExtendedAttributes = 16,
-    executeFile = 32,
-    traverse = 32,
-    deleteSubdirectoriesAndFiles = 64,
-    readAttributes = 128,
-    writeAttributes = 256,
-    write = 278,
-    delete = 65536,
-    readPermissions = 131072,
-    read = 131209,
-    readAndExecute = 131241,
-    modify = 197055,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    synchronize = 1048576,
-    fullControl = 2032127
+    ListDirectory = 1,
+    ReadData = 1,
+    CreateFiles = 2,
+    WriteData = 2,
+    AppendData = 4,
+    CreateDirectories = 4,
+    ReadExtendedAttributes = 8,
+    WriteExtendedAttributes = 16,
+    ExecuteFile = 32,
+    Traverse = 32,
+    DeleteSubdirectoriesAndFiles = 64,
+    ReadAttributes = 128,
+    WriteAttributes = 256,
+    Write = 278,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    Read = 131209,
+    ReadAndExecute = 131241,
+    Modify = 197055,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    Synchronize = 1048576,
+    FullControl = 2032127
 }
 
 
 export enum InheritanceFlags {
-    none = 0,
-    containerInherit = 1,
-    objectInherit = 2
+    None = 0,
+    ContainerInherit = 1,
+    ObjectInherit = 2
 }
 
 
 export enum MutexRights {
-    modify = 1,
-    delete = 65536,
-    readPermissions = 131072,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    synchronize = 1048576,
-    fullControl = 2031617
+    Modify = 1,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    Synchronize = 1048576,
+    FullControl = 2031617
 }
 
 
 export enum ObjectAceFlags {
-    none = 0,
-    objectAceTypePresent = 1,
-    inheritedObjectAceTypePresent = 2
+    None = 0,
+    ObjectAceTypePresent = 1,
+    InheritedObjectAceTypePresent = 2
 }
 
 
 export enum PropagationFlags {
-    none = 0,
-    noPropagateInherit = 1,
-    inheritOnly = 2
+    None = 0,
+    NoPropagateInherit = 1,
+    InheritOnly = 2
 }
 
 
 export enum RegistryRights {
-    queryValues = 1,
-    setValue = 2,
-    createSubKey = 4,
-    enumerateSubKeys = 8,
-    notify = 16,
-    createLink = 32,
-    delete = 65536,
-    readPermissions = 131072,
-    writeKey = 131078,
-    executeKey = 131097,
-    readKey = 131097,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    fullControl = 983103
+    QueryValues = 1,
+    SetValue = 2,
+    CreateSubKey = 4,
+    EnumerateSubKeys = 8,
+    Notify = 16,
+    CreateLink = 32,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    WriteKey = 131078,
+    ExecuteKey = 131097,
+    ReadKey = 131097,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    FullControl = 983103
 }
 
 
 export enum ResourceType {
-    unknown = 0,
-    fileObject = 1,
-    service = 2,
-    printer = 3,
-    registryKey = 4,
-    lmShare = 5,
-    kernelObject = 6,
-    windowObject = 7,
-    dsObject = 8,
-    dsObjectAll = 9,
-    providerDefined = 10,
-    wmiGuidObject = 11,
-    registryWow6432Key = 12
+    Unknown = 0,
+    FileObject = 1,
+    Service = 2,
+    Printer = 3,
+    RegistryKey = 4,
+    LMShare = 5,
+    KernelObject = 6,
+    WindowObject = 7,
+    DSObject = 8,
+    DSObjectAll = 9,
+    ProviderDefined = 10,
+    WmiGuidObject = 11,
+    RegistryWow6432Key = 12
 }
 
 
 export enum SecurityInfos {
-    owner = 1,
-    group = 2,
-    discretionaryAcl = 4,
-    systemAcl = 8
+    Owner = 1,
+    Group = 2,
+    DiscretionaryAcl = 4,
+    SystemAcl = 8
 }
 
 
 export enum SemaphoreRights {
-    modify = 2,
-    delete = 65536,
-    readPermissions = 131072,
-    changePermissions = 262144,
-    takeOwnership = 524288,
-    synchronize = 1048576,
-    fullControl = 2031619
+    Modify = 2,
+    Delete = 65536,
+    ReadPermissions = 131072,
+    ChangePermissions = 262144,
+    TakeOwnership = 524288,
+    Synchronize = 1048576,
+    FullControl = 2031619
 }
 
 
 export interface AccessRule$instance extends AuthorizationRule {
-    readonly accessControlType: AccessControlType;
+    readonly AccessControlType: AccessControlType;
 }
 
 
@@ -264,7 +264,7 @@ export const AccessRule: {
 export type AccessRule = AccessRule$instance;
 
 export interface AccessRule_1$instance<T extends unknown> extends AccessRule {
-    readonly rights: T;
+    readonly Rights: T;
 }
 
 
@@ -279,9 +279,9 @@ export const AccessRule_1: {
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
 export interface AceEnumerator$instance {
-    readonly current: GenericAce;
-    moveNext(): boolean;
-    reset(): void;
+    readonly Current: GenericAce;
+    MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -298,7 +298,7 @@ export type AceEnumerator = AceEnumerator$instance & __AceEnumerator$views;
 
 
 export interface AuditRule$instance extends AuthorizationRule {
-    readonly auditFlags: AuditFlags;
+    readonly AuditFlags: AuditFlags;
 }
 
 
@@ -309,7 +309,7 @@ export const AuditRule: {
 export type AuditRule = AuditRule$instance;
 
 export interface AuditRule_1$instance<T extends unknown> extends AuditRule {
-    readonly rights: T;
+    readonly Rights: T;
 }
 
 
@@ -324,10 +324,10 @@ export const AuditRule_1: {
 export type AuditRule_1<T> = AuditRule_1$instance<T>;
 
 export interface AuthorizationRule$instance {
-    readonly identityReference: IdentityReference;
-    readonly inheritanceFlags: InheritanceFlags;
-    readonly isInherited: boolean;
-    readonly propagationFlags: PropagationFlags;
+    readonly IdentityReference: IdentityReference;
+    readonly InheritanceFlags: InheritanceFlags;
+    readonly IsInherited: boolean;
+    readonly PropagationFlags: PropagationFlags;
 }
 
 
@@ -338,10 +338,10 @@ export const AuthorizationRule: {
 export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
-    readonly item: AuthorizationRule;
-    addRule(rule: AuthorizationRule): void;
-    copyTo(array: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Item: AuthorizationRule;
+    AddRule(rule: AuthorizationRule): void;
+    CopyTo(array: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -361,34 +361,34 @@ export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance &
 
 
 export interface CommonAce$instance extends QualifiedAce {
-    readonly binaryLength: int;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
+    readonly BinaryLength: int;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
 }
 
 
 export const CommonAce: {
     new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]): CommonAce;
-    maxOpaqueLength(isCallback: boolean): int;
+    MaxOpaqueLength(isCallback: boolean): int;
 };
 
 
 export type CommonAce = CommonAce$instance;
 
 export interface CommonAcl$instance extends GenericAcl$instance {
-    readonly binaryLength: int;
-    readonly count: int;
-    readonly isCanonical: boolean;
-    readonly isContainer: boolean;
-    readonly isDS: boolean;
-    item: GenericAce;
-    readonly revision: byte;
-    copyTo(array: GenericAce[], index: int): void;
-    copyTo(array: ClrArray, index: int): void;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getEnumerator(): AceEnumerator;
-    getEnumerator(): IEnumerator;
-    purge(sid: SecurityIdentifier): void;
-    removeInheritedAces(): void;
+    readonly BinaryLength: int;
+    readonly Count: int;
+    readonly IsCanonical: boolean;
+    readonly IsContainer: boolean;
+    readonly IsDS: boolean;
+    Item: GenericAce;
+    readonly Revision: byte;
+    CopyTo(array: GenericAce[], index: int): void;
+    CopyTo(array: ClrArray, index: int): void;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetEnumerator(): AceEnumerator;
+    GetEnumerator(): IEnumerator;
+    Purge(sid: SecurityIdentifier): void;
+    RemoveInheritedAces(): void;
 }
 
 
@@ -405,8 +405,8 @@ export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
 
 
 export interface CommonObjectSecurity$instance extends ObjectSecurity {
-    getAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
-    getAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
 }
 
 
@@ -417,23 +417,23 @@ export const CommonObjectSecurity: {
 export type CommonObjectSecurity = CommonObjectSecurity$instance;
 
 export interface CommonSecurityDescriptor$instance extends GenericSecurityDescriptor {
-    readonly controlFlags: ControlFlags;
-    get discretionaryAcl(): DiscretionaryAcl | undefined;
-    set discretionaryAcl(value: DiscretionaryAcl);
-    group: SecurityIdentifier;
-    readonly isContainer: boolean;
-    readonly isDiscretionaryAclCanonical: boolean;
-    readonly isDS: boolean;
-    readonly isSystemAclCanonical: boolean;
-    owner: SecurityIdentifier;
-    get systemAcl(): SystemAcl | undefined;
-    set systemAcl(value: SystemAcl);
-    addDiscretionaryAcl(revision: byte, trusted: int): void;
-    addSystemAcl(revision: byte, trusted: int): void;
-    purgeAccessControl(sid: SecurityIdentifier): void;
-    purgeAudit(sid: SecurityIdentifier): void;
-    setDiscretionaryAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
-    setSystemAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
+    readonly ControlFlags: ControlFlags;
+    get DiscretionaryAcl(): DiscretionaryAcl | undefined;
+    set DiscretionaryAcl(value: DiscretionaryAcl);
+    Group: SecurityIdentifier;
+    readonly IsContainer: boolean;
+    readonly IsDiscretionaryAclCanonical: boolean;
+    readonly IsDS: boolean;
+    readonly IsSystemAclCanonical: boolean;
+    Owner: SecurityIdentifier;
+    get SystemAcl(): SystemAcl | undefined;
+    set SystemAcl(value: SystemAcl);
+    AddDiscretionaryAcl(revision: byte, trusted: int): void;
+    AddSystemAcl(revision: byte, trusted: int): void;
+    PurgeAccessControl(sid: SecurityIdentifier): void;
+    PurgeAudit(sid: SecurityIdentifier): void;
+    SetDiscretionaryAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
+    SetSystemAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
 }
 
 
@@ -448,9 +448,9 @@ export const CommonSecurityDescriptor: {
 export type CommonSecurityDescriptor = CommonSecurityDescriptor$instance;
 
 export interface CompoundAce$instance extends KnownAce {
-    readonly binaryLength: int;
-    compoundAceType: CompoundAceType;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
+    readonly BinaryLength: int;
+    CompoundAceType: CompoundAceType;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
 }
 
 
@@ -462,29 +462,29 @@ export const CompoundAce: {
 export type CompoundAce = CompoundAce$instance;
 
 export interface CustomAce$instance extends GenericAce {
-    readonly binaryLength: int;
-    readonly opaqueLength: int;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getOpaque(): byte[] | undefined;
-    setOpaque(opaque: byte[]): void;
+    readonly BinaryLength: int;
+    readonly OpaqueLength: int;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetOpaque(): byte[] | undefined;
+    SetOpaque(opaque: byte[]): void;
 }
 
 
 export const CustomAce: {
     new(type: AceType, flags: AceFlags, opaque: byte[]): CustomAce;
-    readonly maxOpaqueLength: int;
+    readonly MaxOpaqueLength: int;
 };
 
 
 export type CustomAce = CustomAce$instance;
 
 export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    getAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
-    getAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
 }
 
 
@@ -507,22 +507,22 @@ export const DirectorySecurity: {
 export type DirectorySecurity = DirectorySecurity$instance;
 
 export interface DiscretionaryAcl$instance extends CommonAcl$instance {
-    addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    addAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
-    copyTo(array: ClrArray, index: int): void;
-    copyTo(array: GenericAce[], index: int): void;
-    getEnumerator(): IEnumerator;
-    getEnumerator(): AceEnumerator;
-    removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
-    removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
-    removeAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): boolean;
-    removeAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    removeAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    removeAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
-    setAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    setAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    setAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
+    AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
+    CopyTo(array: ClrArray, index: int): void;
+    CopyTo(array: GenericAce[], index: int): void;
+    GetEnumerator(): IEnumerator;
+    GetEnumerator(): AceEnumerator;
+    RemoveAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
+    RemoveAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
+    RemoveAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): boolean;
+    RemoveAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    RemoveAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    RemoveAccessSpecific(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
+    SetAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    SetAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    SetAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
 }
 
 
@@ -542,7 +542,7 @@ export type DiscretionaryAcl = DiscretionaryAcl$instance & __DiscretionaryAcl$vi
 
 
 export interface EventWaitHandleAccessRule$instance extends AccessRule {
-    readonly eventWaitHandleRights: EventWaitHandleRights;
+    readonly EventWaitHandleRights: EventWaitHandleRights;
 }
 
 
@@ -555,7 +555,7 @@ export const EventWaitHandleAccessRule: {
 export type EventWaitHandleAccessRule = EventWaitHandleAccessRule$instance;
 
 export interface EventWaitHandleAuditRule$instance extends AuditRule {
-    readonly eventWaitHandleRights: EventWaitHandleRights;
+    readonly EventWaitHandleRights: EventWaitHandleRights;
 }
 
 
@@ -567,22 +567,22 @@ export const EventWaitHandleAuditRule: {
 export type EventWaitHandleAuditRule = EventWaitHandleAuditRule$instance;
 
 export interface EventWaitHandleSecurity$instance extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: EventWaitHandleAccessRule): void;
-    addAuditRule(rule: EventWaitHandleAuditRule): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: EventWaitHandleAccessRule): boolean;
-    removeAccessRuleAll(rule: EventWaitHandleAccessRule): void;
-    removeAccessRuleSpecific(rule: EventWaitHandleAccessRule): void;
-    removeAuditRule(rule: EventWaitHandleAuditRule): boolean;
-    removeAuditRuleAll(rule: EventWaitHandleAuditRule): void;
-    removeAuditRuleSpecific(rule: EventWaitHandleAuditRule): void;
-    resetAccessRule(rule: EventWaitHandleAccessRule): void;
-    setAccessRule(rule: EventWaitHandleAccessRule): void;
-    setAuditRule(rule: EventWaitHandleAuditRule): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: EventWaitHandleAccessRule): void;
+    AddAuditRule(rule: EventWaitHandleAuditRule): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: EventWaitHandleAccessRule): boolean;
+    RemoveAccessRuleAll(rule: EventWaitHandleAccessRule): void;
+    RemoveAccessRuleSpecific(rule: EventWaitHandleAccessRule): void;
+    RemoveAuditRule(rule: EventWaitHandleAuditRule): boolean;
+    RemoveAuditRuleAll(rule: EventWaitHandleAuditRule): void;
+    RemoveAuditRuleSpecific(rule: EventWaitHandleAuditRule): void;
+    ResetAccessRule(rule: EventWaitHandleAccessRule): void;
+    SetAccessRule(rule: EventWaitHandleAccessRule): void;
+    SetAuditRule(rule: EventWaitHandleAuditRule): void;
 }
 
 
@@ -606,7 +606,7 @@ export const FileSecurity: {
 export type FileSecurity = FileSecurity$instance;
 
 export interface FileSystemAccessRule$instance extends AccessRule {
-    readonly fileSystemRights: FileSystemRights;
+    readonly FileSystemRights: FileSystemRights;
 }
 
 
@@ -621,7 +621,7 @@ export const FileSystemAccessRule: {
 export type FileSystemAccessRule = FileSystemAccessRule$instance;
 
 export interface FileSystemAuditRule$instance extends AuditRule {
-    readonly fileSystemRights: FileSystemRights;
+    readonly FileSystemRights: FileSystemRights;
 }
 
 
@@ -636,22 +636,22 @@ export const FileSystemAuditRule: {
 export type FileSystemAuditRule = FileSystemAuditRule$instance;
 
 export interface FileSystemSecurity$instance extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: FileSystemAccessRule): void;
-    addAuditRule(rule: FileSystemAuditRule): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: FileSystemAccessRule): boolean;
-    removeAccessRuleAll(rule: FileSystemAccessRule): void;
-    removeAccessRuleSpecific(rule: FileSystemAccessRule): void;
-    removeAuditRule(rule: FileSystemAuditRule): boolean;
-    removeAuditRuleAll(rule: FileSystemAuditRule): void;
-    removeAuditRuleSpecific(rule: FileSystemAuditRule): void;
-    resetAccessRule(rule: FileSystemAccessRule): void;
-    setAccessRule(rule: FileSystemAccessRule): void;
-    setAuditRule(rule: FileSystemAuditRule): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: FileSystemAccessRule): void;
+    AddAuditRule(rule: FileSystemAuditRule): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: FileSystemAccessRule): boolean;
+    RemoveAccessRuleAll(rule: FileSystemAccessRule): void;
+    RemoveAccessRuleSpecific(rule: FileSystemAccessRule): void;
+    RemoveAuditRule(rule: FileSystemAuditRule): boolean;
+    RemoveAuditRuleAll(rule: FileSystemAuditRule): void;
+    RemoveAuditRuleSpecific(rule: FileSystemAuditRule): void;
+    ResetAccessRule(rule: FileSystemAccessRule): void;
+    SetAccessRule(rule: FileSystemAccessRule): void;
+    SetAuditRule(rule: FileSystemAuditRule): void;
 }
 
 
@@ -662,44 +662,44 @@ export const FileSystemSecurity: {
 export type FileSystemSecurity = FileSystemSecurity$instance;
 
 export interface GenericAce$instance {
-    aceFlags: AceFlags;
-    readonly aceType: AceType;
-    readonly auditFlags: AuditFlags;
-    readonly binaryLength: int;
-    readonly inheritanceFlags: InheritanceFlags;
-    readonly isInherited: boolean;
-    readonly propagationFlags: PropagationFlags;
-    copy(): GenericAce;
-    equals(o: unknown): boolean;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getHashCode(): int;
+    AceFlags: AceFlags;
+    readonly AceType: AceType;
+    readonly AuditFlags: AuditFlags;
+    readonly BinaryLength: int;
+    readonly InheritanceFlags: InheritanceFlags;
+    readonly IsInherited: boolean;
+    readonly PropagationFlags: PropagationFlags;
+    Copy(): GenericAce;
+    Equals(o: unknown): boolean;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetHashCode(): int;
 }
 
 
 export const GenericAce: {
-    createFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
+    CreateFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
 };
 
 
 export type GenericAce = GenericAce$instance;
 
 export interface GenericAcl$instance {
-    readonly binaryLength: int;
-    readonly count: int;
-    readonly isSynchronized: boolean;
-    item: GenericAce;
-    readonly revision: byte;
-    readonly syncRoot: unknown;
-    copyTo(array: GenericAce[], index: int): void;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getEnumerator(): AceEnumerator;
+    readonly BinaryLength: int;
+    readonly Count: int;
+    readonly IsSynchronized: boolean;
+    Item: GenericAce;
+    readonly Revision: byte;
+    readonly SyncRoot: unknown;
+    CopyTo(array: GenericAce[], index: int): void;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetEnumerator(): AceEnumerator;
 }
 
 
 export const GenericAcl: {
-    readonly aclRevision: byte;
-    readonly aclRevisionDS: byte;
-    readonly maxBinaryLength: int;
+    readonly AclRevision: byte;
+    readonly AclRevisionDS: byte;
+    readonly MaxBinaryLength: int;
 };
 
 
@@ -712,26 +712,26 @@ export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
 
 
 export interface GenericSecurityDescriptor$instance {
-    readonly binaryLength: int;
-    readonly controlFlags: ControlFlags;
-    group: SecurityIdentifier;
-    owner: SecurityIdentifier;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getSddlForm(includeSections: AccessControlSections): string;
+    readonly BinaryLength: int;
+    readonly ControlFlags: ControlFlags;
+    Group: SecurityIdentifier;
+    Owner: SecurityIdentifier;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetSddlForm(includeSections: AccessControlSections): string;
 }
 
 
 export const GenericSecurityDescriptor: {
-    readonly revision: byte;
-    isSddlConversionSupported(): boolean;
+    readonly Revision: byte;
+    IsSddlConversionSupported(): boolean;
 };
 
 
 export type GenericSecurityDescriptor = GenericSecurityDescriptor$instance;
 
 export interface KnownAce$instance extends GenericAce {
-    accessMask: int;
-    securityIdentifier: SecurityIdentifier;
+    AccessMask: int;
+    SecurityIdentifier: SecurityIdentifier;
 }
 
 
@@ -742,7 +742,7 @@ export const KnownAce: {
 export type KnownAce = KnownAce$instance;
 
 export interface MutexAccessRule$instance extends AccessRule {
-    readonly mutexRights: MutexRights;
+    readonly MutexRights: MutexRights;
 }
 
 
@@ -755,7 +755,7 @@ export const MutexAccessRule: {
 export type MutexAccessRule = MutexAccessRule$instance;
 
 export interface MutexAuditRule$instance extends AuditRule {
-    readonly mutexRights: MutexRights;
+    readonly MutexRights: MutexRights;
 }
 
 
@@ -767,22 +767,22 @@ export const MutexAuditRule: {
 export type MutexAuditRule = MutexAuditRule$instance;
 
 export interface MutexSecurity$instance extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: MutexAccessRule): void;
-    addAuditRule(rule: MutexAuditRule): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: MutexAccessRule): boolean;
-    removeAccessRuleAll(rule: MutexAccessRule): void;
-    removeAccessRuleSpecific(rule: MutexAccessRule): void;
-    removeAuditRule(rule: MutexAuditRule): boolean;
-    removeAuditRuleAll(rule: MutexAuditRule): void;
-    removeAuditRuleSpecific(rule: MutexAuditRule): void;
-    resetAccessRule(rule: MutexAccessRule): void;
-    setAccessRule(rule: MutexAccessRule): void;
-    setAuditRule(rule: MutexAuditRule): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: MutexAccessRule): void;
+    AddAuditRule(rule: MutexAuditRule): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: MutexAccessRule): boolean;
+    RemoveAccessRuleAll(rule: MutexAccessRule): void;
+    RemoveAccessRuleSpecific(rule: MutexAccessRule): void;
+    RemoveAuditRule(rule: MutexAuditRule): boolean;
+    RemoveAuditRuleAll(rule: MutexAuditRule): void;
+    RemoveAuditRuleSpecific(rule: MutexAuditRule): void;
+    ResetAccessRule(rule: MutexAccessRule): void;
+    SetAccessRule(rule: MutexAccessRule): void;
+    SetAuditRule(rule: MutexAuditRule): void;
 }
 
 
@@ -805,9 +805,9 @@ export const NativeObjectSecurity: {
 export type NativeObjectSecurity = NativeObjectSecurity$instance;
 
 export interface ObjectAccessRule$instance extends AccessRule {
-    readonly inheritedObjectType: Guid;
-    readonly objectFlags: ObjectAceFlags;
-    readonly objectType: Guid;
+    readonly InheritedObjectType: Guid;
+    readonly ObjectFlags: ObjectAceFlags;
+    readonly ObjectType: Guid;
 }
 
 
@@ -818,26 +818,26 @@ export const ObjectAccessRule: {
 export type ObjectAccessRule = ObjectAccessRule$instance;
 
 export interface ObjectAce$instance extends QualifiedAce {
-    readonly binaryLength: int;
-    inheritedObjectAceType: Guid;
-    objectAceFlags: ObjectAceFlags;
-    objectAceType: Guid;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
+    readonly BinaryLength: int;
+    InheritedObjectAceType: Guid;
+    ObjectAceFlags: ObjectAceFlags;
+    ObjectAceType: Guid;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
 }
 
 
 export const ObjectAce: {
     new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[]): ObjectAce;
-    maxOpaqueLength(isCallback: boolean): int;
+    MaxOpaqueLength(isCallback: boolean): int;
 };
 
 
 export type ObjectAce = ObjectAce$instance;
 
 export interface ObjectAuditRule$instance extends AuditRule {
-    readonly inheritedObjectType: Guid;
-    readonly objectFlags: ObjectAceFlags;
-    readonly objectType: Guid;
+    readonly InheritedObjectType: Guid;
+    readonly ObjectFlags: ObjectAceFlags;
+    readonly ObjectType: Guid;
 }
 
 
@@ -848,58 +848,58 @@ export const ObjectAuditRule: {
 export type ObjectAuditRule = ObjectAuditRule$instance;
 
 export interface ObjectSecurity$instance {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly areAccessRulesCanonical: boolean;
-    readonly areAccessRulesProtected: boolean;
-    readonly areAuditRulesCanonical: boolean;
-    readonly areAuditRulesProtected: boolean;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    getGroup(targetType: Type): IdentityReference | undefined;
-    getOwner(targetType: Type): IdentityReference | undefined;
-    getSecurityDescriptorBinaryForm(): byte[];
-    getSecurityDescriptorSddlForm(includeSections: AccessControlSections): string;
-    modifyAccessRule(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
-    modifyAuditRule(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
-    purgeAccessRules(identity: IdentityReference): void;
-    purgeAuditRules(identity: IdentityReference): void;
-    setAccessRuleProtection(isProtected: boolean, preserveInheritance: boolean): void;
-    setAuditRuleProtection(isProtected: boolean, preserveInheritance: boolean): void;
-    setGroup(identity: IdentityReference): void;
-    setOwner(identity: IdentityReference): void;
-    setSecurityDescriptorBinaryForm(binaryForm: byte[]): void;
-    setSecurityDescriptorBinaryForm(binaryForm: byte[], includeSections: AccessControlSections): void;
-    setSecurityDescriptorSddlForm(sddlForm: string): void;
-    setSecurityDescriptorSddlForm(sddlForm: string, includeSections: AccessControlSections): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AreAccessRulesCanonical: boolean;
+    readonly AreAccessRulesProtected: boolean;
+    readonly AreAuditRulesCanonical: boolean;
+    readonly AreAuditRulesProtected: boolean;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    GetGroup(targetType: Type): IdentityReference | undefined;
+    GetOwner(targetType: Type): IdentityReference | undefined;
+    GetSecurityDescriptorBinaryForm(): byte[];
+    GetSecurityDescriptorSddlForm(includeSections: AccessControlSections): string;
+    ModifyAccessRule(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    ModifyAuditRule(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
+    PurgeAccessRules(identity: IdentityReference): void;
+    PurgeAuditRules(identity: IdentityReference): void;
+    SetAccessRuleProtection(isProtected: boolean, preserveInheritance: boolean): void;
+    SetAuditRuleProtection(isProtected: boolean, preserveInheritance: boolean): void;
+    SetGroup(identity: IdentityReference): void;
+    SetOwner(identity: IdentityReference): void;
+    SetSecurityDescriptorBinaryForm(binaryForm: byte[]): void;
+    SetSecurityDescriptorBinaryForm(binaryForm: byte[], includeSections: AccessControlSections): void;
+    SetSecurityDescriptorSddlForm(sddlForm: string): void;
+    SetSecurityDescriptorSddlForm(sddlForm: string, includeSections: AccessControlSections): void;
 }
 
 
 export const ObjectSecurity: {
-    isSddlConversionSupported(): boolean;
+    IsSddlConversionSupported(): boolean;
 };
 
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
 export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: AccessRule_1<T>): void;
-    addAuditRule(rule: AuditRule_1<T>): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: AccessRule_1<T>): boolean;
-    removeAccessRuleAll(rule: AccessRule_1<T>): void;
-    removeAccessRuleSpecific(rule: AccessRule_1<T>): void;
-    removeAuditRule(rule: AuditRule_1<T>): boolean;
-    removeAuditRuleAll(rule: AuditRule_1<T>): void;
-    removeAuditRuleSpecific(rule: AuditRule_1<T>): void;
-    resetAccessRule(rule: AccessRule_1<T>): void;
-    setAccessRule(rule: AccessRule_1<T>): void;
-    setAuditRule(rule: AuditRule_1<T>): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: AccessRule_1<T>): void;
+    AddAuditRule(rule: AuditRule_1<T>): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: AccessRule_1<T>): boolean;
+    RemoveAccessRuleAll(rule: AccessRule_1<T>): void;
+    RemoveAccessRuleSpecific(rule: AccessRule_1<T>): void;
+    RemoveAuditRule(rule: AuditRule_1<T>): boolean;
+    RemoveAuditRuleAll(rule: AuditRule_1<T>): void;
+    RemoveAuditRuleSpecific(rule: AuditRule_1<T>): void;
+    ResetAccessRule(rule: AccessRule_1<T>): void;
+    SetAccessRule(rule: AccessRule_1<T>): void;
+    SetAuditRule(rule: AuditRule_1<T>): void;
 }
 
 
@@ -910,8 +910,8 @@ export const ObjectSecurity_1: {
 export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
 
 export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
-    readonly privilegeName: string | undefined;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly PrivilegeName: string | undefined;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -930,11 +930,11 @@ export type PrivilegeNotHeldException = PrivilegeNotHeldException$instance & __P
 
 
 export interface QualifiedAce$instance extends KnownAce {
-    readonly aceQualifier: AceQualifier;
-    readonly isCallback: boolean;
-    readonly opaqueLength: int;
-    getOpaque(): byte[] | undefined;
-    setOpaque(opaque: byte[]): void;
+    readonly AceQualifier: AceQualifier;
+    readonly IsCallback: boolean;
+    readonly OpaqueLength: int;
+    GetOpaque(): byte[] | undefined;
+    SetOpaque(opaque: byte[]): void;
 }
 
 
@@ -945,17 +945,17 @@ export const QualifiedAce: {
 export type QualifiedAce = QualifiedAce$instance;
 
 export interface RawAcl$instance extends GenericAcl$instance {
-    readonly binaryLength: int;
-    readonly count: int;
-    item: GenericAce;
-    readonly revision: byte;
-    copyTo(array: GenericAce[], index: int): void;
-    copyTo(array: ClrArray, index: int): void;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getEnumerator(): AceEnumerator;
-    getEnumerator(): IEnumerator;
-    insertAce(index: int, ace: GenericAce): void;
-    removeAce(index: int): void;
+    readonly BinaryLength: int;
+    readonly Count: int;
+    Item: GenericAce;
+    readonly Revision: byte;
+    CopyTo(array: GenericAce[], index: int): void;
+    CopyTo(array: ClrArray, index: int): void;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetEnumerator(): AceEnumerator;
+    GetEnumerator(): IEnumerator;
+    InsertAce(index: int, ace: GenericAce): void;
+    RemoveAce(index: int): void;
 }
 
 
@@ -974,15 +974,15 @@ export type RawAcl = RawAcl$instance & __RawAcl$views;
 
 
 export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {
-    readonly controlFlags: ControlFlags;
-    get discretionaryAcl(): RawAcl | undefined;
-    set discretionaryAcl(value: RawAcl);
-    group: SecurityIdentifier;
-    owner: SecurityIdentifier;
-    resourceManagerControl: byte;
-    get systemAcl(): RawAcl | undefined;
-    set systemAcl(value: RawAcl);
-    setFlags(flags: ControlFlags): void;
+    readonly ControlFlags: ControlFlags;
+    get DiscretionaryAcl(): RawAcl | undefined;
+    set DiscretionaryAcl(value: RawAcl);
+    Group: SecurityIdentifier;
+    Owner: SecurityIdentifier;
+    ResourceManagerControl: byte;
+    get SystemAcl(): RawAcl | undefined;
+    set SystemAcl(value: RawAcl);
+    SetFlags(flags: ControlFlags): void;
 }
 
 
@@ -996,7 +996,7 @@ export const RawSecurityDescriptor: {
 export type RawSecurityDescriptor = RawSecurityDescriptor$instance;
 
 export interface RegistryAccessRule$instance extends AccessRule {
-    readonly registryRights: RegistryRights;
+    readonly RegistryRights: RegistryRights;
 }
 
 
@@ -1011,7 +1011,7 @@ export const RegistryAccessRule: {
 export type RegistryAccessRule = RegistryAccessRule$instance;
 
 export interface RegistryAuditRule$instance extends AuditRule {
-    readonly registryRights: RegistryRights;
+    readonly RegistryRights: RegistryRights;
 }
 
 
@@ -1024,22 +1024,22 @@ export const RegistryAuditRule: {
 export type RegistryAuditRule = RegistryAuditRule$instance;
 
 export interface RegistrySecurity$instance extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: RegistryAccessRule): void;
-    addAuditRule(rule: RegistryAuditRule): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: RegistryAccessRule): boolean;
-    removeAccessRuleAll(rule: RegistryAccessRule): void;
-    removeAccessRuleSpecific(rule: RegistryAccessRule): void;
-    removeAuditRule(rule: RegistryAuditRule): boolean;
-    removeAuditRuleAll(rule: RegistryAuditRule): void;
-    removeAuditRuleSpecific(rule: RegistryAuditRule): void;
-    resetAccessRule(rule: RegistryAccessRule): void;
-    setAccessRule(rule: RegistryAccessRule): void;
-    setAuditRule(rule: RegistryAuditRule): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: RegistryAccessRule): void;
+    AddAuditRule(rule: RegistryAuditRule): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: RegistryAccessRule): boolean;
+    RemoveAccessRuleAll(rule: RegistryAccessRule): void;
+    RemoveAccessRuleSpecific(rule: RegistryAccessRule): void;
+    RemoveAuditRule(rule: RegistryAuditRule): boolean;
+    RemoveAuditRuleAll(rule: RegistryAuditRule): void;
+    RemoveAuditRuleSpecific(rule: RegistryAuditRule): void;
+    ResetAccessRule(rule: RegistryAccessRule): void;
+    SetAccessRule(rule: RegistryAccessRule): void;
+    SetAuditRule(rule: RegistryAuditRule): void;
 }
 
 
@@ -1051,7 +1051,7 @@ export const RegistrySecurity: {
 export type RegistrySecurity = RegistrySecurity$instance;
 
 export interface SemaphoreAccessRule$instance extends AccessRule {
-    readonly semaphoreRights: SemaphoreRights;
+    readonly SemaphoreRights: SemaphoreRights;
 }
 
 
@@ -1064,7 +1064,7 @@ export const SemaphoreAccessRule: {
 export type SemaphoreAccessRule = SemaphoreAccessRule$instance;
 
 export interface SemaphoreAuditRule$instance extends AuditRule {
-    readonly semaphoreRights: SemaphoreRights;
+    readonly SemaphoreRights: SemaphoreRights;
 }
 
 
@@ -1076,22 +1076,22 @@ export const SemaphoreAuditRule: {
 export type SemaphoreAuditRule = SemaphoreAuditRule$instance;
 
 export interface SemaphoreSecurity$instance extends NativeObjectSecurity {
-    readonly accessRightType: Type;
-    readonly accessRuleType: Type;
-    readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    addAccessRule(rule: SemaphoreAccessRule): void;
-    addAuditRule(rule: SemaphoreAuditRule): void;
-    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    removeAccessRule(rule: SemaphoreAccessRule): boolean;
-    removeAccessRuleAll(rule: SemaphoreAccessRule): void;
-    removeAccessRuleSpecific(rule: SemaphoreAccessRule): void;
-    removeAuditRule(rule: SemaphoreAuditRule): boolean;
-    removeAuditRuleAll(rule: SemaphoreAuditRule): void;
-    removeAuditRuleSpecific(rule: SemaphoreAuditRule): void;
-    resetAccessRule(rule: SemaphoreAccessRule): void;
-    setAccessRule(rule: SemaphoreAccessRule): void;
-    setAuditRule(rule: SemaphoreAuditRule): void;
+    readonly AccessRightType: Type;
+    readonly AccessRuleType: Type;
+    readonly AuditRuleType: Type;
+    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+    AddAccessRule(rule: SemaphoreAccessRule): void;
+    AddAuditRule(rule: SemaphoreAuditRule): void;
+    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    RemoveAccessRule(rule: SemaphoreAccessRule): boolean;
+    RemoveAccessRuleAll(rule: SemaphoreAccessRule): void;
+    RemoveAccessRuleSpecific(rule: SemaphoreAccessRule): void;
+    RemoveAuditRule(rule: SemaphoreAuditRule): boolean;
+    RemoveAuditRuleAll(rule: SemaphoreAuditRule): void;
+    RemoveAuditRuleSpecific(rule: SemaphoreAuditRule): void;
+    ResetAccessRule(rule: SemaphoreAccessRule): void;
+    SetAccessRule(rule: SemaphoreAccessRule): void;
+    SetAuditRule(rule: SemaphoreAuditRule): void;
 }
 
 
@@ -1104,22 +1104,22 @@ export const SemaphoreSecurity: {
 export type SemaphoreSecurity = SemaphoreSecurity$instance;
 
 export interface SystemAcl$instance extends CommonAcl$instance {
-    addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    addAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
-    copyTo(array: ClrArray, index: int): void;
-    copyTo(array: GenericAce[], index: int): void;
-    getEnumerator(): IEnumerator;
-    getEnumerator(): AceEnumerator;
-    removeAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
-    removeAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
-    removeAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): boolean;
-    removeAuditSpecific(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    removeAuditSpecific(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    removeAuditSpecific(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
-    setAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
-    setAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
-    setAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
+    AddAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    AddAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    AddAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
+    CopyTo(array: ClrArray, index: int): void;
+    CopyTo(array: GenericAce[], index: int): void;
+    GetEnumerator(): IEnumerator;
+    GetEnumerator(): AceEnumerator;
+    RemoveAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): boolean;
+    RemoveAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): boolean;
+    RemoveAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): boolean;
+    RemoveAuditSpecific(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    RemoveAuditSpecific(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    RemoveAuditSpecific(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
+    SetAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
+    SetAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
+    SetAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
 }
 
 

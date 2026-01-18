@@ -14,15 +14,15 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface BinaryFormatter$instance {
-    assemblyFormat: FormatterAssemblyStyle;
-    binder: SerializationBinder;
-    context: StreamingContext;
-    filterLevel: TypeFilterLevel;
-    get surrogateSelector(): ISurrogateSelector | undefined;
-    set surrogateSelector(value: ISurrogateSelector);
-    typeFormat: FormatterTypeStyle;
-    deserialize(serializationStream: Stream): unknown;
-    serialize(serializationStream: Stream, graph: unknown): void;
+    AssemblyFormat: FormatterAssemblyStyle;
+    Binder: SerializationBinder;
+    Context: StreamingContext;
+    FilterLevel: TypeFilterLevel;
+    get SurrogateSelector(): ISurrogateSelector | undefined;
+    set SurrogateSelector(value: ISurrogateSelector);
+    TypeFormat: FormatterTypeStyle;
+    Deserialize(serializationStream: Stream): unknown;
+    Serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 

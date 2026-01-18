@@ -20,58 +20,58 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Action_1, Action_2, Action_3, AggregateException, AsyncCallback, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, Exception, Func_1, Func_2, Func_3, Func_4, Func_5, Func_6, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, OperationCanceledException, ReadOnlySpan_1, String as ClrString, TimeProvider, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum ConfigureAwaitOptions {
-    none = 0,
-    continueOnCapturedContext = 1,
-    suppressThrowing = 2,
-    forceYielding = 4
+    None = 0,
+    ContinueOnCapturedContext = 1,
+    SuppressThrowing = 2,
+    ForceYielding = 4
 }
 
 
 export enum TaskContinuationOptions {
-    none = 0,
-    preferFairness = 1,
-    longRunning = 2,
-    attachedToParent = 4,
-    denyChildAttach = 8,
-    hideScheduler = 16,
-    lazyCancellation = 32,
-    runContinuationsAsynchronously = 64,
-    notOnRanToCompletion = 65536,
-    notOnFaulted = 131072,
-    notOnCanceled = 262144,
-    onlyOnRanToCompletion = 393216,
-    onlyOnFaulted = 327680,
-    onlyOnCanceled = 196608,
-    executeSynchronously = 524288
+    None = 0,
+    PreferFairness = 1,
+    LongRunning = 2,
+    AttachedToParent = 4,
+    DenyChildAttach = 8,
+    HideScheduler = 16,
+    LazyCancellation = 32,
+    RunContinuationsAsynchronously = 64,
+    NotOnRanToCompletion = 65536,
+    NotOnFaulted = 131072,
+    NotOnCanceled = 262144,
+    OnlyOnRanToCompletion = 393216,
+    OnlyOnFaulted = 327680,
+    OnlyOnCanceled = 196608,
+    ExecuteSynchronously = 524288
 }
 
 
 export enum TaskCreationOptions {
-    none = 0,
-    preferFairness = 1,
-    longRunning = 2,
-    attachedToParent = 4,
-    denyChildAttach = 8,
-    hideScheduler = 16,
-    runContinuationsAsynchronously = 64
+    None = 0,
+    PreferFairness = 1,
+    LongRunning = 2,
+    AttachedToParent = 4,
+    DenyChildAttach = 8,
+    HideScheduler = 16,
+    RunContinuationsAsynchronously = 64
 }
 
 
 export enum TaskStatus {
-    created = 0,
-    waitingForActivation = 1,
-    waitingToRun = 2,
-    running = 3,
-    waitingForChildrenToComplete = 4,
-    ranToCompletion = 5,
-    canceled = 6,
-    faulted = 7
+    Created = 0,
+    WaitingForActivation = 1,
+    WaitingToRun = 2,
+    Running = 3,
+    WaitingForChildrenToComplete = 4,
+    RanToCompletion = 5,
+    Canceled = 6,
+    Faulted = 7
 }
 
 
 export interface ParallelLoopResult$instance {
-    readonly isCompleted: boolean;
-    readonly lowestBreakIteration: Nullable_1<System_Internal.Int64>;
+    readonly IsCompleted: boolean;
+    readonly LowestBreakIteration: Nullable_1<System_Internal.Int64>;
 }
 
 
@@ -83,29 +83,29 @@ export const ParallelLoopResult: {
 export type ParallelLoopResult = ParallelLoopResult$instance;
 
 export interface ValueTask$instance {
-    readonly isCanceled: boolean;
-    readonly isCompleted: boolean;
-    readonly isCompletedSuccessfully: boolean;
-    readonly isFaulted: boolean;
-    asTask(): Task;
-    configureAwait(continueOnCapturedContext: boolean): ConfiguredValueTaskAwaitable;
-    equals(obj: unknown): boolean;
-    equals(other: ValueTask): boolean;
-    getAwaiter(): ValueTaskAwaiter;
-    getHashCode(): int;
-    preserve(): ValueTask;
+    readonly IsCanceled: boolean;
+    readonly IsCompleted: boolean;
+    readonly IsCompletedSuccessfully: boolean;
+    readonly IsFaulted: boolean;
+    AsTask(): Task;
+    ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredValueTaskAwaitable;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTask): boolean;
+    GetAwaiter(): ValueTaskAwaiter;
+    GetHashCode(): int;
+    Preserve(): ValueTask;
 }
 
 
 export const ValueTask: {
     new(task: Task): ValueTask;
     new(source: IValueTaskSource, token: short): ValueTask;
-    readonly completedTask: ValueTask;
-    fromCanceled(cancellationToken: CancellationToken): ValueTask;
-    fromCanceled<TResult>(cancellationToken: CancellationToken): ValueTask_1<TResult>;
-    fromException(exception: Exception): ValueTask;
-    fromException<TResult>(exception: Exception): ValueTask_1<TResult>;
-    fromResult<TResult>(result: TResult): ValueTask_1<TResult>;
+    readonly CompletedTask: ValueTask;
+    FromCanceled(cancellationToken: CancellationToken): ValueTask;
+    FromCanceled<TResult>(cancellationToken: CancellationToken): ValueTask_1<TResult>;
+    FromException(exception: Exception): ValueTask;
+    FromException<TResult>(exception: Exception): ValueTask_1<TResult>;
+    FromResult<TResult>(result: TResult): ValueTask_1<TResult>;
 };
 
 
@@ -113,26 +113,26 @@ export interface __ValueTask$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ValueTask>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ValueTask): boolean;
+    Equals(other: ValueTask): boolean;
 }
 
 export type ValueTask = ValueTask$instance & __ValueTask$views;
 
 
 export interface ValueTask_1$instance<TResult> {
-    readonly isCanceled: boolean;
-    readonly isCompleted: boolean;
-    readonly isCompletedSuccessfully: boolean;
-    readonly isFaulted: boolean;
-    readonly result: TResult;
-    asTask(): Task_1<TResult>;
-    configureAwait(continueOnCapturedContext: boolean): ConfiguredValueTaskAwaitable_1<TResult>;
-    equals(obj: unknown): boolean;
-    equals(other: ValueTask_1<TResult>): boolean;
-    getAwaiter(): ValueTaskAwaiter_1<TResult>;
-    getHashCode(): int;
-    preserve(): ValueTask_1<TResult>;
-    toString(): string | undefined;
+    readonly IsCanceled: boolean;
+    readonly IsCompleted: boolean;
+    readonly IsCompletedSuccessfully: boolean;
+    readonly IsFaulted: boolean;
+    readonly Result: TResult;
+    AsTask(): Task_1<TResult>;
+    ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredValueTaskAwaitable_1<TResult>;
+    Equals(obj: unknown): boolean;
+    Equals(other: ValueTask_1<TResult>): boolean;
+    GetAwaiter(): ValueTaskAwaiter_1<TResult>;
+    GetHashCode(): int;
+    Preserve(): ValueTask_1<TResult>;
+    ToString(): string | undefined;
 }
 
 
@@ -147,17 +147,17 @@ export interface __ValueTask_1$views<TResult> {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ValueTask_1<TResult>>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: ValueTask_1<TResult>): boolean;
+    Equals(other: ValueTask_1<TResult>): boolean;
 }
 
 export type ValueTask_1<TResult> = ValueTask_1$instance<TResult> & __ValueTask_1$views<TResult>;
 
 
 export interface ConcurrentExclusiveSchedulerPair$instance {
-    readonly completion: Task;
-    readonly concurrentScheduler: TaskScheduler;
-    readonly exclusiveScheduler: TaskScheduler;
-    complete(): void;
+    readonly Completion: Task;
+    readonly ConcurrentScheduler: TaskScheduler;
+    readonly ExclusiveScheduler: TaskScheduler;
+    Complete(): void;
 }
 
 
@@ -172,12 +172,12 @@ export const ConcurrentExclusiveSchedulerPair: {
 export type ConcurrentExclusiveSchedulerPair = ConcurrentExclusiveSchedulerPair$instance;
 
 export interface ParallelLoopState$instance {
-    readonly isExceptional: boolean;
-    readonly isStopped: boolean;
-    readonly lowestBreakIteration: Nullable_1<System_Internal.Int64>;
-    readonly shouldExitCurrentIteration: boolean;
-    break(): void;
-    stop(): void;
+    readonly IsExceptional: boolean;
+    readonly IsStopped: boolean;
+    readonly LowestBreakIteration: Nullable_1<System_Internal.Int64>;
+    readonly ShouldExitCurrentIteration: boolean;
+    Break(): void;
+    Stop(): void;
 }
 
 
@@ -189,9 +189,9 @@ export const ParallelLoopState: {
 export type ParallelLoopState = ParallelLoopState$instance;
 
 export interface ParallelOptions$instance {
-    cancellationToken: CancellationToken;
-    maxDegreeOfParallelism: int;
-    taskScheduler: TaskScheduler;
+    CancellationToken: CancellationToken;
+    MaxDegreeOfParallelism: int;
+    TaskScheduler: TaskScheduler;
 }
 
 
@@ -203,54 +203,54 @@ export const ParallelOptions: {
 export type ParallelOptions = ParallelOptions$instance;
 
 export interface Task$instance {
-    readonly asyncState: unknown | undefined;
-    readonly creationOptions: TaskCreationOptions;
-    readonly exception: AggregateException;
-    readonly id: int;
-    readonly isCanceled: boolean;
-    readonly isCompleted: boolean;
-    readonly isCompletedSuccessfully: boolean;
-    readonly isFaulted: boolean;
-    readonly status: TaskStatus;
-    configureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
-    configureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable;
-    continueWith(continuationAction: Action_1<Task>): Task;
-    continueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
-    continueWith(continuationAction: Action_1<Task>, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
-    continueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    dispose(): void;
-    getAwaiter(): TaskAwaiter;
-    runSynchronously(): void;
-    runSynchronously(scheduler: TaskScheduler): void;
-    start(): void;
-    start(scheduler: TaskScheduler): void;
-    wait(): void;
-    wait(timeout: TimeSpan): boolean;
-    wait(timeout: TimeSpan, cancellationToken: CancellationToken): boolean;
-    wait(cancellationToken: CancellationToken): void;
-    wait(millisecondsTimeout: int): boolean;
-    wait(millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    waitAsync(cancellationToken: CancellationToken): Task;
-    waitAsync(timeout: TimeSpan): Task;
-    waitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
-    waitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
-    waitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    readonly AsyncState: unknown | undefined;
+    readonly CreationOptions: TaskCreationOptions;
+    readonly Exception: AggregateException;
+    readonly Id: int;
+    readonly IsCanceled: boolean;
+    readonly IsCompleted: boolean;
+    readonly IsCompletedSuccessfully: boolean;
+    readonly IsFaulted: boolean;
+    readonly Status: TaskStatus;
+    ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
+    ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable;
+    ContinueWith(continuationAction: Action_1<Task>): Task;
+    ContinueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
+    ContinueWith(continuationAction: Action_1<Task>, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    Dispose(): void;
+    GetAwaiter(): TaskAwaiter;
+    RunSynchronously(): void;
+    RunSynchronously(scheduler: TaskScheduler): void;
+    Start(): void;
+    Start(scheduler: TaskScheduler): void;
+    Wait(): void;
+    Wait(timeout: TimeSpan): boolean;
+    Wait(timeout: TimeSpan, cancellationToken: CancellationToken): boolean;
+    Wait(cancellationToken: CancellationToken): void;
+    Wait(millisecondsTimeout: int): boolean;
+    Wait(millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    WaitAsync(cancellationToken: CancellationToken): Task;
+    WaitAsync(timeout: TimeSpan): Task;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
+    WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -263,59 +263,59 @@ export const Task: {
     new(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken): Task;
     new(action: Action_1<unknown>, state: unknown, creationOptions: TaskCreationOptions): Task;
     new(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions): Task;
-    readonly currentId: Nullable_1<System_Internal.Int32>;
-    readonly factory: TaskFactory;
-    readonly completedTask: Task;
-    delay(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
-    delay(millisecondsDelay: int): Task;
-    delay(delay: TimeSpan, cancellationToken: CancellationToken): Task;
-    delay(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    delay(delay: TimeSpan, timeProvider: TimeProvider): Task;
-    delay(delay: TimeSpan): Task;
-    fromCanceled(cancellationToken: CancellationToken): Task;
-    fromCanceled<TResult>(cancellationToken: CancellationToken): Task_1<TResult>;
-    fromException(exception: Exception): Task;
-    fromException<TResult>(exception: Exception): Task_1<TResult>;
-    fromResult<TResult>(result: TResult): Task_1<TResult>;
-    run<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    run<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
-    run(action: Action, cancellationToken: CancellationToken): Task;
-    run(action: Action): Task;
-    run(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
-    run(function_: Func_1<Task>): Task;
-    waitAll(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
-    waitAll(tasks: ReadOnlySpan_1<Task>): void;
-    waitAll(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    waitAll(tasks: Task[], millisecondsTimeout: int): boolean;
-    waitAll(tasks: Task[], cancellationToken: CancellationToken): void;
-    waitAll(tasks: Task[], timeout: TimeSpan): boolean;
-    waitAll(...tasks: Task[]): void;
-    waitAny(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    waitAny(tasks: Task[], millisecondsTimeout: int): int;
-    waitAny(tasks: Task[], cancellationToken: CancellationToken): int;
-    waitAny(tasks: Task[], timeout: TimeSpan): int;
-    waitAny(...tasks: Task[]): int;
-    whenAll<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
-    whenAll<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
-    whenAll(tasks: IEnumerable_1<Task>): Task;
-    whenAll(tasks: ReadOnlySpan_1<Task>): Task;
-    whenAll(...tasks: Task[]): Task;
-    whenAll<TResult>(...tasks: Task_1<TResult>[]): Task_1<TResult[]>;
-    whenAny<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    whenAny<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    whenAny(tasks: IEnumerable_1<Task>): Task_1<Task>;
-    whenAny(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
-    whenAny(task1: Task, task2: Task): Task_1<Task>;
-    whenAny(...tasks: Task[]): Task_1<Task>;
-    whenAny<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
-    whenAny<TResult>(...tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
-    whenEach<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    whenEach<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    whenEach(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
-    whenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
-    whenEach(...tasks: Task[]): IAsyncEnumerable_1<Task>;
-    whenEach<TResult>(...tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
-    yield(): YieldAwaitable;
+    readonly CurrentId: Nullable_1<System_Internal.Int32>;
+    readonly Factory: TaskFactory;
+    readonly CompletedTask: Task;
+    Delay(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
+    Delay(millisecondsDelay: int): Task;
+    Delay(delay: TimeSpan, cancellationToken: CancellationToken): Task;
+    Delay(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    Delay(delay: TimeSpan, timeProvider: TimeProvider): Task;
+    Delay(delay: TimeSpan): Task;
+    FromCanceled(cancellationToken: CancellationToken): Task;
+    FromCanceled<TResult>(cancellationToken: CancellationToken): Task_1<TResult>;
+    FromException(exception: Exception): Task;
+    FromException<TResult>(exception: Exception): Task_1<TResult>;
+    FromResult<TResult>(result: TResult): Task_1<TResult>;
+    Run<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    Run<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
+    Run(action: Action, cancellationToken: CancellationToken): Task;
+    Run(action: Action): Task;
+    Run(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
+    Run(function_: Func_1<Task>): Task;
+    WaitAll(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
+    WaitAll(tasks: ReadOnlySpan_1<Task>): void;
+    WaitAll(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    WaitAll(tasks: Task[], millisecondsTimeout: int): boolean;
+    WaitAll(tasks: Task[], cancellationToken: CancellationToken): void;
+    WaitAll(tasks: Task[], timeout: TimeSpan): boolean;
+    WaitAll(...tasks: Task[]): void;
+    WaitAny(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    WaitAny(tasks: Task[], millisecondsTimeout: int): int;
+    WaitAny(tasks: Task[], cancellationToken: CancellationToken): int;
+    WaitAny(tasks: Task[], timeout: TimeSpan): int;
+    WaitAny(...tasks: Task[]): int;
+    WhenAll<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
+    WhenAll<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
+    WhenAll(tasks: IEnumerable_1<Task>): Task;
+    WhenAll(tasks: ReadOnlySpan_1<Task>): Task;
+    WhenAll(...tasks: Task[]): Task;
+    WhenAll<TResult>(...tasks: Task_1<TResult>[]): Task_1<TResult[]>;
+    WhenAny<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    WhenAny<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    WhenAny(tasks: IEnumerable_1<Task>): Task_1<Task>;
+    WhenAny(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
+    WhenAny(task1: Task, task2: Task): Task_1<Task>;
+    WhenAny(...tasks: Task[]): Task_1<Task>;
+    WhenAny<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
+    WhenAny<TResult>(...tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
+    WhenEach<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    WhenEach<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    WhenEach(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
+    WhenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
+    WhenEach(...tasks: Task[]): IAsyncEnumerable_1<Task>;
+    WhenEach<TResult>(...tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
+    Yield(): YieldAwaitable;
 };
 
 
@@ -330,49 +330,49 @@ export type Task = Task$instance & __Task$views;
 
 
 export interface Task_1$instance<TResult> extends Task$instance {
-    readonly result: TResult;
-    configureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
-    configureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
-    configureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable;
-    continueWith(continuationAction: Action_1<Task_1<TResult>>, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_1<Task_1<TResult>>, continuationOptions: TaskContinuationOptions): Task;
-    continueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown): Task;
-    continueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
-    continueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, scheduler: TaskScheduler): Task_1<TNewResult>;
-    continueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
-    continueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown): Task_1<TNewResult>;
-    continueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, scheduler: TaskScheduler): Task_1<TNewResult>;
-    continueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
-    continueWith(continuationAction: Action_1<Task>): Task;
-    continueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
-    continueWith(continuationAction: Action_1<Task>, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
-    continueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, scheduler: TaskScheduler): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
-    continueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    dispose(): void;
-    getAwaiter(): TaskAwaiter;
-    waitAsync(timeout: TimeSpan): Task_1<TResult>;
-    waitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task_1<TResult>;
-    waitAsync(cancellationToken: CancellationToken): Task;
-    waitAsync(timeout: TimeSpan): Task;
-    waitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
-    waitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
-    waitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    readonly Result: TResult;
+    ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
+    ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
+    ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable;
+    ContinueWith(continuationAction: Action_1<Task_1<TResult>>, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_1<Task_1<TResult>>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown): Task;
+    ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, scheduler: TaskScheduler): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, scheduler: TaskScheduler): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
+    ContinueWith(continuationAction: Action_1<Task>): Task;
+    ContinueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
+    ContinueWith(continuationAction: Action_1<Task>, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, scheduler: TaskScheduler): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_2<Task, unknown>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    Dispose(): void;
+    GetAwaiter(): TaskAwaiter;
+    WaitAsync(timeout: TimeSpan): Task_1<TResult>;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task_1<TResult>;
+    WaitAsync(cancellationToken: CancellationToken): Task;
+    WaitAsync(timeout: TimeSpan): Task;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
+    WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
 }
 
 
@@ -399,8 +399,8 @@ export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>
 
 
 export interface TaskCanceledException$instance extends OperationCanceledException {
-    readonly task: Task;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly Task: Task;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -421,19 +421,19 @@ export type TaskCanceledException = TaskCanceledException$instance & __TaskCance
 
 
 export interface TaskCompletionSource$instance {
-    readonly task: Task;
-    setCanceled(): void;
-    setCanceled(cancellationToken: CancellationToken): void;
-    setException(exception: Exception): void;
-    setException(exceptions: IEnumerable_1<Exception>): void;
-    setFromTask(completedTask: Task): void;
-    setResult(): void;
-    trySetCanceled(): boolean;
-    trySetCanceled(cancellationToken: CancellationToken): boolean;
-    trySetException(exception: Exception): boolean;
-    trySetException(exceptions: IEnumerable_1<Exception>): boolean;
-    trySetFromTask(completedTask: Task): boolean;
-    trySetResult(): boolean;
+    readonly Task: Task;
+    SetCanceled(): void;
+    SetCanceled(cancellationToken: CancellationToken): void;
+    SetException(exception: Exception): void;
+    SetException(exceptions: IEnumerable_1<Exception>): void;
+    SetFromTask(completedTask: Task): void;
+    SetResult(): void;
+    TrySetCanceled(): boolean;
+    TrySetCanceled(cancellationToken: CancellationToken): boolean;
+    TrySetException(exception: Exception): boolean;
+    TrySetException(exceptions: IEnumerable_1<Exception>): boolean;
+    TrySetFromTask(completedTask: Task): boolean;
+    TrySetResult(): boolean;
 }
 
 
@@ -448,19 +448,19 @@ export const TaskCompletionSource: {
 export type TaskCompletionSource = TaskCompletionSource$instance;
 
 export interface TaskCompletionSource_1$instance<TResult> {
-    readonly task: Task_1<TResult>;
-    setCanceled(): void;
-    setCanceled(cancellationToken: CancellationToken): void;
-    setException(exception: Exception): void;
-    setException(exceptions: IEnumerable_1<Exception>): void;
-    setFromTask(completedTask: Task_1<TResult>): void;
-    setResult(result: TResult): void;
-    trySetCanceled(): boolean;
-    trySetCanceled(cancellationToken: CancellationToken): boolean;
-    trySetException(exception: Exception): boolean;
-    trySetException(exceptions: IEnumerable_1<Exception>): boolean;
-    trySetFromTask(completedTask: Task_1<TResult>): boolean;
-    trySetResult(result: TResult): boolean;
+    readonly Task: Task_1<TResult>;
+    SetCanceled(): void;
+    SetCanceled(cancellationToken: CancellationToken): void;
+    SetException(exception: Exception): void;
+    SetException(exceptions: IEnumerable_1<Exception>): void;
+    SetFromTask(completedTask: Task_1<TResult>): void;
+    SetResult(result: TResult): void;
+    TrySetCanceled(): boolean;
+    TrySetCanceled(cancellationToken: CancellationToken): boolean;
+    TrySetException(exception: Exception): boolean;
+    TrySetException(exceptions: IEnumerable_1<Exception>): boolean;
+    TrySetFromTask(completedTask: Task_1<TResult>): boolean;
+    TrySetResult(result: TResult): boolean;
 }
 
 
@@ -475,80 +475,80 @@ export const TaskCompletionSource_1: {
 export type TaskCompletionSource_1<TResult> = TaskCompletionSource_1$instance<TResult>;
 
 export interface TaskFactory$instance {
-    readonly cancellationToken: CancellationToken;
-    readonly continuationOptions: TaskContinuationOptions;
-    readonly creationOptions: TaskCreationOptions;
-    readonly scheduler: TaskScheduler | undefined;
-    continueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>): Task;
-    continueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, cancellationToken: CancellationToken): Task;
-    continueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, continuationOptions: TaskContinuationOptions): Task;
-    continueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>): Task;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, cancellationToken: CancellationToken): Task;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, continuationOptions: TaskContinuationOptions): Task;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>): Task_1<TResult>;
-    continueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAny(tasks: Task[], continuationAction: Action_1<Task>): Task;
-    continueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
-    continueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
-    continueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    continueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
-    continueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>): Task;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, cancellationToken: CancellationToken): Task;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, continuationOptions: TaskContinuationOptions): Task;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>): Task;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>, creationOptions: TaskCreationOptions): Task;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
-    fromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, state: unknown): Task;
-    fromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, state: unknown, creationOptions: TaskCreationOptions): Task;
-    fromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, state: unknown): Task;
-    fromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task;
-    fromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task;
-    fromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task;
-    fromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task;
-    fromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task;
-    fromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>): Task_1<TResult>;
-    fromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    fromAsync<TResult>(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown): Task_1<TResult>;
-    fromAsync<TResult>(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1, TResult>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1, TResult>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TResult>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TResult>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TArg3, TResult>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TArg3, TResult>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew(action: Action): Task;
-    startNew(action: Action, cancellationToken: CancellationToken): Task;
-    startNew(action: Action, creationOptions: TaskCreationOptions): Task;
-    startNew(action: Action, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
-    startNew(action: Action_1<unknown>, state: unknown): Task;
-    startNew(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken): Task;
-    startNew(action: Action_1<unknown>, state: unknown, creationOptions: TaskCreationOptions): Task;
-    startNew(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
-    startNew<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
-    startNew<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    startNew<TResult>(function_: Func_1<TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    startNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown): Task_1<TResult>;
-    startNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
-    startNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    readonly CancellationToken: CancellationToken;
+    readonly ContinuationOptions: TaskContinuationOptions;
+    readonly CreationOptions: TaskCreationOptions;
+    readonly Scheduler: TaskScheduler | undefined;
+    ContinueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>): Task;
+    ContinueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, cancellationToken: CancellationToken): Task;
+    ContinueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWhenAll(tasks: Task[], continuationAction: Action_1<Task[]>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>): Task;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, cancellationToken: CancellationToken): Task;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>[]>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>): Task_1<TResult>;
+    ContinueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAll<TResult>(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAny(tasks: Task[], continuationAction: Action_1<Task>): Task;
+    ContinueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
+    ContinueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWhenAny(tasks: Task[], continuationAction: Action_1<Task>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
+    ContinueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAny<TResult>(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult, TResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>): Task;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, cancellationToken: CancellationToken): Task;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationAction: Action_1<Task_1<TAntecedentResult>>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>): Task;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>, creationOptions: TaskCreationOptions): Task;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Action_1<IAsyncResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
+    FromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, state: unknown): Task;
+    FromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, state: unknown, creationOptions: TaskCreationOptions): Task;
+    FromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, state: unknown): Task;
+    FromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task;
+    FromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task;
+    FromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task;
+    FromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task;
+    FromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Action_1<IAsyncResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task;
+    FromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>): Task_1<TResult>;
+    FromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TResult>(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    FromAsync<TResult>(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown): Task_1<TResult>;
+    FromAsync<TResult>(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1, TResult>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1, TResult>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TResult>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TResult>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TArg3, TResult>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TArg3, TResult>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew(action: Action): Task;
+    StartNew(action: Action, cancellationToken: CancellationToken): Task;
+    StartNew(action: Action, creationOptions: TaskCreationOptions): Task;
+    StartNew(action: Action, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
+    StartNew(action: Action_1<unknown>, state: unknown): Task;
+    StartNew(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken): Task;
+    StartNew(action: Action_1<unknown>, state: unknown, creationOptions: TaskCreationOptions): Task;
+    StartNew(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task;
+    StartNew<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_1<TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
 }
 
 
@@ -564,45 +564,45 @@ export const TaskFactory: {
 export type TaskFactory = TaskFactory$instance;
 
 export interface TaskFactory_1$instance<TResult> {
-    readonly cancellationToken: CancellationToken;
-    readonly continuationOptions: TaskContinuationOptions;
-    readonly creationOptions: TaskCreationOptions;
-    readonly scheduler: TaskScheduler | undefined;
-    continueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>): Task_1<TResult>;
-    continueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
-    continueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
-    continueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>): Task_1<TResult>;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    fromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown): Task_1<TResult>;
-    fromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task_1<TResult>;
-    fromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew(function_: Func_1<TResult>): Task_1<TResult>;
-    startNew(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    startNew(function_: Func_1<TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    startNew(function_: Func_2<unknown, TResult>, state: unknown): Task_1<TResult>;
-    startNew(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
-    startNew(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
-    startNew(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    readonly CancellationToken: CancellationToken;
+    readonly ContinuationOptions: TaskContinuationOptions;
+    readonly CreationOptions: TaskCreationOptions;
+    readonly Scheduler: TaskScheduler | undefined;
+    ContinueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>): Task_1<TResult>;
+    ContinueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAll(tasks: Task[], continuationFunction: Func_2<Task[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAll<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>[], TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>): Task_1<TResult>;
+    ContinueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAny(tasks: Task[], continuationFunction: Func_2<Task, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
+    ContinueWhenAny<TAntecedentResult>(tasks: Task_1<TAntecedentResult>[], continuationFunction: Func_2<Task_1<TAntecedentResult>, TResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>): Task_1<TResult>;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync(asyncResult: IAsyncResult, endMethod: Func_2<IAsyncResult, TResult>, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    FromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown): Task_1<TResult>;
+    FromAsync(beginMethod: Func_3<AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1>(beginMethod: Func_4<TArg1, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1, TArg2>(beginMethod: Func_5<TArg1, TArg2, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown): Task_1<TResult>;
+    FromAsync<TArg1, TArg2, TArg3>(beginMethod: Func_6<TArg1, TArg2, TArg3, AsyncCallback, unknown, IAsyncResult>, endMethod: Func_2<IAsyncResult, TResult>, arg1: TArg1, arg2: TArg2, arg3: TArg3, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew(function_: Func_1<TResult>): Task_1<TResult>;
+    StartNew(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    StartNew(function_: Func_1<TResult>, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
+    StartNew(function_: Func_2<unknown, TResult>, state: unknown): Task_1<TResult>;
+    StartNew(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TResult>;
+    StartNew(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1<TResult>;
+    StartNew(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, scheduler: TaskScheduler): Task_1<TResult>;
 }
 
 
@@ -618,22 +618,22 @@ export const TaskFactory_1: {
 export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 
 export interface TaskScheduler$instance {
-    readonly id: int;
-    readonly maximumConcurrencyLevel: int;
+    readonly Id: int;
+    readonly MaximumConcurrencyLevel: int;
 }
 
 
 export const TaskScheduler: {
-    readonly default: TaskScheduler;
-    readonly current: TaskScheduler;
-    fromCurrentSynchronizationContext(): TaskScheduler;
+    readonly Default: TaskScheduler;
+    readonly Current: TaskScheduler;
+    FromCurrentSynchronizationContext(): TaskScheduler;
 };
 
 
 export type TaskScheduler = TaskScheduler$instance;
 
 export interface TaskSchedulerException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -653,9 +653,9 @@ export type TaskSchedulerException = TaskSchedulerException$instance & __TaskSch
 
 
 export interface UnobservedTaskExceptionEventArgs$instance extends EventArgs {
-    readonly exception: AggregateException;
-    readonly observed: boolean;
-    setObserved(): void;
+    readonly Exception: AggregateException;
+    readonly Observed: boolean;
+    SetObserved(): void;
 }
 
 
@@ -667,78 +667,78 @@ export const UnobservedTaskExceptionEventArgs: {
 export type UnobservedTaskExceptionEventArgs = UnobservedTaskExceptionEventArgs$instance;
 
 export abstract class Parallel$instance {
-    static for<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
-    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
-    static for<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
-    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
-    static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, body: Func_3<T, CancellationToken, ValueTask>): Task;
-    static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, cancellationToken: CancellationToken, body: Func_3<T, CancellationToken, ValueTask>): Task;
-    static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, parallelOptions: ParallelOptions, body: Func_3<T, CancellationToken, ValueTask>): Task;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, body: Action_1<TSource>): ParallelLoopResult;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: IEnumerable_1<TSource>, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: IEnumerable_1<TSource>, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_1<TSource>): ParallelLoopResult;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
-    static forEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource>(source: OrderablePartitioner_1<TSource>, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: OrderablePartitioner_1<TSource>, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource>(source: OrderablePartitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: OrderablePartitioner_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource>(source: Partitioner_1<TSource>, body: Action_1<TSource>): ParallelLoopResult;
-    static forEach<TSource>(source: Partitioner_1<TSource>, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: Partitioner_1<TSource>, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_1<TSource>): ParallelLoopResult;
-    static forEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
-    static forEach<TSource, TLocal>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static forEachAsync<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
-    static invoke(...actions: Action[]): void;
-    static invoke(parallelOptions: ParallelOptions, ...actions: Action[]): void;
+    static For<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static For(fromInclusive: int, toExclusive: int, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
+    static For(fromInclusive: int, toExclusive: int, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
+    static For<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static For(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
+    static For(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
+    static For<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static For(fromInclusive: long, toExclusive: long, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
+    static For(fromInclusive: long, toExclusive: long, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
+    static For<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static For(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
+    static For(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
+    static ForAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, body: Func_3<T, CancellationToken, ValueTask>): Task;
+    static ForAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, cancellationToken: CancellationToken, body: Func_3<T, CancellationToken, ValueTask>): Task;
+    static ForAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, parallelOptions: ParallelOptions, body: Func_3<T, CancellationToken, ValueTask>): Task;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, body: Action_1<TSource>): ParallelLoopResult;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: IEnumerable_1<TSource>, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: IEnumerable_1<TSource>, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_1<TSource>): ParallelLoopResult;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
+    static ForEach<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource>(source: OrderablePartitioner_1<TSource>, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: OrderablePartitioner_1<TSource>, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource>(source: OrderablePartitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_3<TSource, ParallelLoopState, System_Internal.Int64>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: OrderablePartitioner_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_5<TSource, ParallelLoopState, System_Internal.Int64, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource>(source: Partitioner_1<TSource>, body: Action_1<TSource>): ParallelLoopResult;
+    static ForEach<TSource>(source: Partitioner_1<TSource>, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: Partitioner_1<TSource>, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_1<TSource>): ParallelLoopResult;
+    static ForEach<TSource>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, body: Action_2<TSource, ParallelLoopState>): ParallelLoopResult;
+    static ForEach<TSource, TLocal>(source: Partitioner_1<TSource>, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<TSource, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static ForEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static ForEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static ForEachAsync<TSource>(source: IAsyncEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static ForEachAsync<TSource>(source: IEnumerable_1<TSource>, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static ForEachAsync<TSource>(source: IEnumerable_1<TSource>, cancellationToken: CancellationToken, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static ForEachAsync<TSource>(source: IEnumerable_1<TSource>, parallelOptions: ParallelOptions, body: Func_3<TSource, CancellationToken, ValueTask>): Task;
+    static Invoke(...actions: Action[]): void;
+    static Invoke(parallelOptions: ParallelOptions, ...actions: Action[]): void;
 }
 
 
 export type Parallel = Parallel$instance;
 
 export abstract class TaskAsyncEnumerableExtensions$instance {
-    static configureAwait<T>(source: IAsyncEnumerable_1<T>, continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
-    static configureAwait(source: IAsyncDisposable, continueOnCapturedContext: boolean): ConfiguredAsyncDisposable;
-    static toBlockingEnumerable<T>(source: IAsyncEnumerable_1<T>, cancellationToken?: CancellationToken): IEnumerable_1<T>;
-    static withCancellation<T>(source: IAsyncEnumerable_1<T>, cancellationToken: CancellationToken): ConfiguredCancelableAsyncEnumerable_1<T>;
+    static ConfigureAwait<T>(source: IAsyncEnumerable_1<T>, continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
+    static ConfigureAwait(source: IAsyncDisposable, continueOnCapturedContext: boolean): ConfiguredAsyncDisposable;
+    static ToBlockingEnumerable<T>(source: IAsyncEnumerable_1<T>, cancellationToken?: CancellationToken): IEnumerable_1<T>;
+    static WithCancellation<T>(source: IAsyncEnumerable_1<T>, cancellationToken: CancellationToken): ConfiguredCancelableAsyncEnumerable_1<T>;
 }
 
 
 export type TaskAsyncEnumerableExtensions = TaskAsyncEnumerableExtensions$instance;
 
 export abstract class TaskExtensions$instance {
-    static unwrap(task: Task_1<Task>): Task;
-    static unwrap<TResult>(task: Task_1<Task_1<TResult>>): Task_1<TResult>;
+    static Unwrap(task: Task_1<Task>): Task;
+    static Unwrap<TResult>(task: Task_1<Task_1<TResult>>): Task_1<TResult>;
 }
 
 
 export type TaskExtensions = TaskExtensions$instance;
 
 export abstract class TaskToAsyncResult$instance {
-    static begin(task: Task, callback: AsyncCallback, state: unknown): IAsyncResult;
-    static end(asyncResult: IAsyncResult): void;
-    static end<TResult>(asyncResult: IAsyncResult): TResult;
-    static unwrap(asyncResult: IAsyncResult): Task;
-    static unwrap<TResult>(asyncResult: IAsyncResult): Task_1<TResult>;
+    static Begin(task: Task, callback: AsyncCallback, state: unknown): IAsyncResult;
+    static End(asyncResult: IAsyncResult): void;
+    static End<TResult>(asyncResult: IAsyncResult): TResult;
+    static Unwrap(asyncResult: IAsyncResult): Task;
+    static Unwrap<TResult>(asyncResult: IAsyncResult): Task_1<TResult>;
 }
 
 

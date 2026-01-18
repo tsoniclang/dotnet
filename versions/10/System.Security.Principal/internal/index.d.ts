@@ -22,182 +22,182 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Boolean as ClrBoolean, Byte, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum PrincipalPolicy {
-    unauthenticatedPrincipal = 0,
-    noPrincipal = 1,
-    windowsPrincipal = 2
+    UnauthenticatedPrincipal = 0,
+    NoPrincipal = 1,
+    WindowsPrincipal = 2
 }
 
 
 export enum TokenAccessLevels {
-    assignPrimary = 1,
-    duplicate = 2,
-    impersonate = 4,
-    query = 8,
-    querySource = 16,
-    adjustPrivileges = 32,
-    adjustGroups = 64,
-    adjustDefault = 128,
-    adjustSessionId = 256,
-    read = 131080,
-    write = 131296,
-    allAccess = 983551,
-    maximumAllowed = 33554432
+    AssignPrimary = 1,
+    Duplicate = 2,
+    Impersonate = 4,
+    Query = 8,
+    QuerySource = 16,
+    AdjustPrivileges = 32,
+    AdjustGroups = 64,
+    AdjustDefault = 128,
+    AdjustSessionId = 256,
+    Read = 131080,
+    Write = 131296,
+    AllAccess = 983551,
+    MaximumAllowed = 33554432
 }
 
 
 export enum TokenImpersonationLevel {
-    none = 0,
-    anonymous = 1,
-    identification = 2,
-    impersonation = 3,
-    delegation = 4
+    None = 0,
+    Anonymous = 1,
+    Identification = 2,
+    Impersonation = 3,
+    Delegation = 4
 }
 
 
 export enum WellKnownSidType {
-    nullSid = 0,
-    worldSid = 1,
-    localSid = 2,
-    creatorOwnerSid = 3,
-    creatorGroupSid = 4,
-    creatorOwnerServerSid = 5,
-    creatorGroupServerSid = 6,
-    ntAuthoritySid = 7,
-    dialupSid = 8,
-    networkSid = 9,
-    batchSid = 10,
-    interactiveSid = 11,
-    serviceSid = 12,
-    anonymousSid = 13,
-    proxySid = 14,
-    enterpriseControllersSid = 15,
-    selfSid = 16,
-    authenticatedUserSid = 17,
-    restrictedCodeSid = 18,
-    terminalServerSid = 19,
-    remoteLogonIdSid = 20,
-    logonIdsSid = 21,
-    localSystemSid = 22,
-    localServiceSid = 23,
-    networkServiceSid = 24,
-    builtinDomainSid = 25,
-    builtinAdministratorsSid = 26,
-    builtinUsersSid = 27,
-    builtinGuestsSid = 28,
-    builtinPowerUsersSid = 29,
-    builtinAccountOperatorsSid = 30,
-    builtinSystemOperatorsSid = 31,
-    builtinPrintOperatorsSid = 32,
-    builtinBackupOperatorsSid = 33,
-    builtinReplicatorSid = 34,
-    builtinPreWindows2000CompatibleAccessSid = 35,
-    builtinRemoteDesktopUsersSid = 36,
-    builtinNetworkConfigurationOperatorsSid = 37,
-    accountAdministratorSid = 38,
-    accountGuestSid = 39,
-    accountKrbtgtSid = 40,
-    accountDomainAdminsSid = 41,
-    accountDomainUsersSid = 42,
-    accountDomainGuestsSid = 43,
-    accountComputersSid = 44,
-    accountControllersSid = 45,
-    accountCertAdminsSid = 46,
-    accountSchemaAdminsSid = 47,
-    accountEnterpriseAdminsSid = 48,
-    accountPolicyAdminsSid = 49,
-    accountRasAndIasServersSid = 50,
-    ntlmAuthenticationSid = 51,
-    digestAuthenticationSid = 52,
-    sChannelAuthenticationSid = 53,
-    thisOrganizationSid = 54,
-    otherOrganizationSid = 55,
-    builtinIncomingForestTrustBuildersSid = 56,
-    builtinPerformanceMonitoringUsersSid = 57,
-    builtinPerformanceLoggingUsersSid = 58,
-    builtinAuthorizationAccessSid = 59,
-    maxDefined = 60,
-    winBuiltinTerminalServerLicenseServersSid = 60,
-    winBuiltinDCOMUsersSid = 61,
-    winBuiltinIUsersSid = 62,
-    winIUserSid = 63,
-    winBuiltinCryptoOperatorsSid = 64,
-    winUntrustedLabelSid = 65,
-    winLowLabelSid = 66,
-    winMediumLabelSid = 67,
-    winHighLabelSid = 68,
-    winSystemLabelSid = 69,
-    winWriteRestrictedCodeSid = 70,
-    winCreatorOwnerRightsSid = 71,
-    winCacheablePrincipalsGroupSid = 72,
-    winNonCacheablePrincipalsGroupSid = 73,
-    winEnterpriseReadonlyControllersSid = 74,
-    winAccountReadonlyControllersSid = 75,
-    winBuiltinEventLogReadersGroup = 76,
-    winNewEnterpriseReadonlyControllersSid = 77,
-    winBuiltinCertSvcDComAccessGroup = 78,
-    winMediumPlusLabelSid = 79,
-    winLocalLogonSid = 80,
-    winConsoleLogonSid = 81,
-    winThisOrganizationCertificateSid = 82,
-    winApplicationPackageAuthoritySid = 83,
-    winBuiltinAnyPackageSid = 84,
-    winCapabilityInternetClientSid = 85,
-    winCapabilityInternetClientServerSid = 86,
-    winCapabilityPrivateNetworkClientServerSid = 87,
-    winCapabilityPicturesLibrarySid = 88,
-    winCapabilityVideosLibrarySid = 89,
-    winCapabilityMusicLibrarySid = 90,
-    winCapabilityDocumentsLibrarySid = 91,
-    winCapabilitySharedUserCertificatesSid = 92,
-    winCapabilityEnterpriseAuthenticationSid = 93,
-    winCapabilityRemovableStorageSid = 94
+    NullSid = 0,
+    WorldSid = 1,
+    LocalSid = 2,
+    CreatorOwnerSid = 3,
+    CreatorGroupSid = 4,
+    CreatorOwnerServerSid = 5,
+    CreatorGroupServerSid = 6,
+    NTAuthoritySid = 7,
+    DialupSid = 8,
+    NetworkSid = 9,
+    BatchSid = 10,
+    InteractiveSid = 11,
+    ServiceSid = 12,
+    AnonymousSid = 13,
+    ProxySid = 14,
+    EnterpriseControllersSid = 15,
+    SelfSid = 16,
+    AuthenticatedUserSid = 17,
+    RestrictedCodeSid = 18,
+    TerminalServerSid = 19,
+    RemoteLogonIdSid = 20,
+    LogonIdsSid = 21,
+    LocalSystemSid = 22,
+    LocalServiceSid = 23,
+    NetworkServiceSid = 24,
+    BuiltinDomainSid = 25,
+    BuiltinAdministratorsSid = 26,
+    BuiltinUsersSid = 27,
+    BuiltinGuestsSid = 28,
+    BuiltinPowerUsersSid = 29,
+    BuiltinAccountOperatorsSid = 30,
+    BuiltinSystemOperatorsSid = 31,
+    BuiltinPrintOperatorsSid = 32,
+    BuiltinBackupOperatorsSid = 33,
+    BuiltinReplicatorSid = 34,
+    BuiltinPreWindows2000CompatibleAccessSid = 35,
+    BuiltinRemoteDesktopUsersSid = 36,
+    BuiltinNetworkConfigurationOperatorsSid = 37,
+    AccountAdministratorSid = 38,
+    AccountGuestSid = 39,
+    AccountKrbtgtSid = 40,
+    AccountDomainAdminsSid = 41,
+    AccountDomainUsersSid = 42,
+    AccountDomainGuestsSid = 43,
+    AccountComputersSid = 44,
+    AccountControllersSid = 45,
+    AccountCertAdminsSid = 46,
+    AccountSchemaAdminsSid = 47,
+    AccountEnterpriseAdminsSid = 48,
+    AccountPolicyAdminsSid = 49,
+    AccountRasAndIasServersSid = 50,
+    NtlmAuthenticationSid = 51,
+    DigestAuthenticationSid = 52,
+    SChannelAuthenticationSid = 53,
+    ThisOrganizationSid = 54,
+    OtherOrganizationSid = 55,
+    BuiltinIncomingForestTrustBuildersSid = 56,
+    BuiltinPerformanceMonitoringUsersSid = 57,
+    BuiltinPerformanceLoggingUsersSid = 58,
+    BuiltinAuthorizationAccessSid = 59,
+    MaxDefined = 60,
+    WinBuiltinTerminalServerLicenseServersSid = 60,
+    WinBuiltinDCOMUsersSid = 61,
+    WinBuiltinIUsersSid = 62,
+    WinIUserSid = 63,
+    WinBuiltinCryptoOperatorsSid = 64,
+    WinUntrustedLabelSid = 65,
+    WinLowLabelSid = 66,
+    WinMediumLabelSid = 67,
+    WinHighLabelSid = 68,
+    WinSystemLabelSid = 69,
+    WinWriteRestrictedCodeSid = 70,
+    WinCreatorOwnerRightsSid = 71,
+    WinCacheablePrincipalsGroupSid = 72,
+    WinNonCacheablePrincipalsGroupSid = 73,
+    WinEnterpriseReadonlyControllersSid = 74,
+    WinAccountReadonlyControllersSid = 75,
+    WinBuiltinEventLogReadersGroup = 76,
+    WinNewEnterpriseReadonlyControllersSid = 77,
+    WinBuiltinCertSvcDComAccessGroup = 78,
+    WinMediumPlusLabelSid = 79,
+    WinLocalLogonSid = 80,
+    WinConsoleLogonSid = 81,
+    WinThisOrganizationCertificateSid = 82,
+    WinApplicationPackageAuthoritySid = 83,
+    WinBuiltinAnyPackageSid = 84,
+    WinCapabilityInternetClientSid = 85,
+    WinCapabilityInternetClientServerSid = 86,
+    WinCapabilityPrivateNetworkClientServerSid = 87,
+    WinCapabilityPicturesLibrarySid = 88,
+    WinCapabilityVideosLibrarySid = 89,
+    WinCapabilityMusicLibrarySid = 90,
+    WinCapabilityDocumentsLibrarySid = 91,
+    WinCapabilitySharedUserCertificatesSid = 92,
+    WinCapabilityEnterpriseAuthenticationSid = 93,
+    WinCapabilityRemovableStorageSid = 94
 }
 
 
 export enum WindowsAccountType {
-    normal = 0,
-    guest = 1,
-    system = 2,
-    anonymous = 3
+    Normal = 0,
+    Guest = 1,
+    System = 2,
+    Anonymous = 3
 }
 
 
 export enum WindowsBuiltInRole {
-    administrator = 544,
-    user = 545,
-    guest = 546,
-    powerUser = 547,
-    accountOperator = 548,
-    systemOperator = 549,
-    printOperator = 550,
-    backupOperator = 551,
-    replicator = 552
+    Administrator = 544,
+    User = 545,
+    Guest = 546,
+    PowerUser = 547,
+    AccountOperator = 548,
+    SystemOperator = 549,
+    PrintOperator = 550,
+    BackupOperator = 551,
+    Replicator = 552
 }
 
 
 export interface IIdentity$instance {
-    readonly name: string;
-    readonly authenticationType: string | undefined;
-    readonly isAuthenticated: boolean;
+    readonly Name: string;
+    readonly AuthenticationType: string | undefined;
+    readonly IsAuthenticated: boolean;
 }
 
 
 export type IIdentity = IIdentity$instance;
 
 export interface IPrincipal$instance {
-    readonly identity: IIdentity | undefined;
-    isInRole(role: string): boolean;
+    readonly Identity: IIdentity | undefined;
+    IsInRole(role: string): boolean;
 }
 
 
 export type IPrincipal = IPrincipal$instance;
 
 export interface GenericIdentity$instance extends ClaimsIdentity {
-    readonly authenticationType: string | string | undefined;
-    readonly claims: IEnumerable_1<Claim>;
-    readonly isAuthenticated: boolean;
-    readonly name: string;
-    clone(): ClaimsIdentity;
+    readonly AuthenticationType: string | string | undefined;
+    readonly Claims: IEnumerable_1<Claim>;
+    readonly IsAuthenticated: boolean;
+    readonly Name: string;
+    Clone(): ClaimsIdentity;
 }
 
 
@@ -215,8 +215,8 @@ export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views
 
 
 export interface GenericPrincipal$instance extends ClaimsPrincipal {
-    readonly identity: IIdentity | IIdentity | undefined;
-    isInRole(role: string): boolean;
+    readonly Identity: IIdentity | IIdentity | undefined;
+    IsInRole(role: string): boolean;
 }
 
 
@@ -233,8 +233,8 @@ export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$vi
 
 
 export interface IdentityNotMappedException$instance extends SystemException {
-    readonly unmappedIdentities: IdentityReferenceCollection;
-    getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    readonly UnmappedIdentities: IdentityReferenceCollection;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
 
@@ -253,12 +253,12 @@ export type IdentityNotMappedException = IdentityNotMappedException$instance & _
 
 
 export interface IdentityReference$instance {
-    readonly value: string;
-    equals(o: unknown): boolean;
-    getHashCode(): int;
-    isValidTargetType(targetType: Type): boolean;
-    toString(): string;
-    translate(targetType: Type): IdentityReference;
+    readonly Value: string;
+    Equals(o: unknown): boolean;
+    GetHashCode(): int;
+    IsValidTargetType(targetType: Type): boolean;
+    ToString(): string;
+    Translate(targetType: Type): IdentityReference;
 }
 
 
@@ -269,16 +269,16 @@ export const IdentityReference: {
 export type IdentityReference = IdentityReference$instance;
 
 export interface IdentityReferenceCollection$instance {
-    readonly count: int;
-    item: IdentityReference;
-    add(identity: IdentityReference): void;
-    clear(): void;
-    contains(identity: IdentityReference): boolean;
-    copyTo(array: IdentityReference[], offset: int): void;
-    getEnumerator(): IEnumerator_1<IdentityReference>;
-    remove(identity: IdentityReference): boolean;
-    translate(targetType: Type): IdentityReferenceCollection;
-    translate(targetType: Type, forceSuccess: boolean): IdentityReferenceCollection;
+    readonly Count: int;
+    Item: IdentityReference;
+    Add(identity: IdentityReference): void;
+    Clear(): void;
+    Contains(identity: IdentityReference): boolean;
+    CopyTo(array: IdentityReference[], offset: int): void;
+    GetEnumerator(): IEnumerator_1<IdentityReference>;
+    Remove(identity: IdentityReference): boolean;
+    Translate(targetType: Type): IdentityReferenceCollection;
+    Translate(targetType: Type, forceSuccess: boolean): IdentityReferenceCollection;
 }
 
 
@@ -298,12 +298,12 @@ export type IdentityReferenceCollection = IdentityReferenceCollection$instance &
 
 
 export interface NTAccount$instance extends IdentityReference {
-    readonly value: string;
-    equals(o: unknown): boolean;
-    getHashCode(): int;
-    isValidTargetType(targetType: Type): boolean;
-    toString(): string;
-    translate(targetType: Type): IdentityReference;
+    readonly Value: string;
+    Equals(o: unknown): boolean;
+    GetHashCode(): int;
+    IsValidTargetType(targetType: Type): boolean;
+    ToString(): string;
+    Translate(targetType: Type): IdentityReference;
 }
 
 
@@ -316,20 +316,20 @@ export const NTAccount: {
 export type NTAccount = NTAccount$instance;
 
 export interface SecurityIdentifier$instance extends IdentityReference {
-    readonly accountDomainSid: SecurityIdentifier | undefined;
-    readonly binaryLength: int;
-    readonly value: string;
-    compareTo(sid: SecurityIdentifier): int;
-    equals(o: unknown): boolean;
-    equals(sid: SecurityIdentifier): boolean;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getHashCode(): int;
-    isAccountSid(): boolean;
-    isEqualDomainSid(sid: SecurityIdentifier): boolean;
-    isValidTargetType(targetType: Type): boolean;
-    isWellKnown(type: WellKnownSidType): boolean;
-    toString(): string;
-    translate(targetType: Type): IdentityReference;
+    readonly AccountDomainSid: SecurityIdentifier | undefined;
+    readonly BinaryLength: int;
+    readonly Value: string;
+    CompareTo(sid: SecurityIdentifier): int;
+    Equals(o: unknown): boolean;
+    Equals(sid: SecurityIdentifier): boolean;
+    GetBinaryForm(binaryForm: byte[], offset: int): void;
+    GetHashCode(): int;
+    IsAccountSid(): boolean;
+    IsEqualDomainSid(sid: SecurityIdentifier): boolean;
+    IsValidTargetType(targetType: Type): boolean;
+    IsWellKnown(type: WellKnownSidType): boolean;
+    ToString(): string;
+    Translate(targetType: Type): IdentityReference;
 }
 
 
@@ -338,8 +338,8 @@ export const SecurityIdentifier: {
     new(binaryForm: nint): SecurityIdentifier;
     new(sidType: WellKnownSidType, domainSid: SecurityIdentifier): SecurityIdentifier;
     new(sddlForm: string): SecurityIdentifier;
-    readonly maxBinaryLength: int;
-    readonly minBinaryLength: int;
+    readonly MaxBinaryLength: int;
+    readonly MinBinaryLength: int;
 };
 
 
@@ -347,7 +347,7 @@ export interface __SecurityIdentifier$views {
     As_IComparable_1(): System_Internal.IComparable_1$instance<SecurityIdentifier>;
 
     // Structural method bridges for numeric interface constraints
-    compareTo(obj: unknown): int;
+    CompareTo(obj: unknown): int;
 }
 
 export interface SecurityIdentifier$instance extends System_Internal.IComparable_1$instance<SecurityIdentifier> {}
@@ -356,23 +356,23 @@ export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentif
 
 
 export interface WindowsIdentity$instance extends ClaimsIdentity {
-    readonly accessToken: SafeAccessTokenHandle;
-    readonly authenticationType: string | undefined;
-    readonly claims: IEnumerable_1<Claim>;
-    readonly deviceClaims: IEnumerable_1<Claim>;
-    readonly groups: IdentityReferenceCollection;
-    readonly impersonationLevel: TokenImpersonationLevel;
-    readonly isAnonymous: boolean;
-    readonly isAuthenticated: boolean;
-    readonly isGuest: boolean;
-    readonly isSystem: boolean;
-    readonly name: string;
-    readonly owner: SecurityIdentifier;
-    readonly token: nint;
-    readonly user: SecurityIdentifier;
-    readonly userClaims: IEnumerable_1<Claim>;
-    clone(): ClaimsIdentity;
-    dispose(): void;
+    readonly AccessToken: SafeAccessTokenHandle;
+    readonly AuthenticationType: string | undefined;
+    readonly Claims: IEnumerable_1<Claim>;
+    readonly DeviceClaims: IEnumerable_1<Claim>;
+    readonly Groups: IdentityReferenceCollection;
+    readonly ImpersonationLevel: TokenImpersonationLevel;
+    readonly IsAnonymous: boolean;
+    readonly IsAuthenticated: boolean;
+    readonly IsGuest: boolean;
+    readonly IsSystem: boolean;
+    readonly Name: string;
+    readonly Owner: SecurityIdentifier;
+    readonly Token: nint;
+    readonly User: SecurityIdentifier;
+    readonly UserClaims: IEnumerable_1<Claim>;
+    Clone(): ClaimsIdentity;
+    Dispose(): void;
 }
 
 
@@ -383,15 +383,15 @@ export const WindowsIdentity: {
     new(userToken: nint, type: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity;
     new(info: SerializationInfo, context: StreamingContext): WindowsIdentity;
     new(sUserPrincipalName: string): WindowsIdentity;
-    readonly defaultIssuer: string;
-    getAnonymous(): WindowsIdentity;
-    getCurrent(): WindowsIdentity;
-    getCurrent(ifImpersonating: boolean): WindowsIdentity | undefined;
-    getCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
-    runImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
-    runImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
-    runImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
-    runImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
+    readonly DefaultIssuer: string;
+    GetAnonymous(): WindowsIdentity;
+    GetCurrent(): WindowsIdentity;
+    GetCurrent(ifImpersonating: boolean): WindowsIdentity | undefined;
+    GetCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
+    RunImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
+    RunImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
+    RunImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
+    RunImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
 };
 
 
@@ -408,12 +408,12 @@ export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views
 
 
 export interface WindowsPrincipal$instance extends ClaimsPrincipal {
-    readonly deviceClaims: IEnumerable_1<Claim>;
-    readonly identity: IIdentity | IIdentity | undefined;
-    readonly userClaims: IEnumerable_1<Claim>;
-    isInRole(sid: SecurityIdentifier): boolean;
-    isInRole(role: WindowsBuiltInRole): boolean;
-    isInRole(role: string): boolean;
+    readonly DeviceClaims: IEnumerable_1<Claim>;
+    readonly Identity: IIdentity | IIdentity | undefined;
+    readonly UserClaims: IEnumerable_1<Claim>;
+    IsInRole(sid: SecurityIdentifier): boolean;
+    IsInRole(role: WindowsBuiltInRole): boolean;
+    IsInRole(role: string): boolean;
 }
 
 

@@ -19,109 +19,109 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Byte, DateTime, Double, Enum, EventArgs, EventHandler_1, Exception, Func_1, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum EventActivityOptions {
-    none = 0,
-    disable = 2,
-    recursive = 4,
-    detachable = 8
+    None = 0,
+    Disable = 2,
+    Recursive = 4,
+    Detachable = 8
 }
 
 
 export enum EventChannel {
-    none = 0,
-    admin = 16,
-    operational = 17,
-    analytic = 18,
-    debug = 19
+    None = 0,
+    Admin = 16,
+    Operational = 17,
+    Analytic = 18,
+    Debug = 19
 }
 
 
 export enum EventCommand {
-    update = 0,
-    sendManifest = -1,
-    enable = -2,
-    disable = -3
+    Update = 0,
+    SendManifest = -1,
+    Enable = -2,
+    Disable = -3
 }
 
 
 export enum EventFieldFormat {
-    default = 0,
-    string = 2,
-    boolean = 3,
-    hexadecimal = 4,
-    xml = 11,
-    json = 12,
-    hResult = 15
+    Default = 0,
+    String = 2,
+    Boolean = 3,
+    Hexadecimal = 4,
+    Xml = 11,
+    Json = 12,
+    HResult = 15
 }
 
 
 export enum EventFieldTags {
-    none = 0
+    None = 0
 }
 
 
 export enum EventKeywords {
-    none = 0,
-    all = -1,
-    microsoftTelemetry = 562949953421312,
-    wdiContext = 562949953421312,
-    wdiDiagnostic = 1125899906842624,
-    sqm = 2251799813685248,
-    auditFailure = 4503599627370496,
-    auditSuccess = 9007199254740992,
-    correlationHint = 4503599627370496,
-    eventLogClassic = 36028797018963968
+    None = 0,
+    All = -1,
+    MicrosoftTelemetry = 562949953421312,
+    WdiContext = 562949953421312,
+    WdiDiagnostic = 1125899906842624,
+    Sqm = 2251799813685248,
+    AuditFailure = 4503599627370496,
+    AuditSuccess = 9007199254740992,
+    CorrelationHint = 4503599627370496,
+    EventLogClassic = 36028797018963968
 }
 
 
 export enum EventLevel {
-    logAlways = 0,
-    critical = 1,
-    error = 2,
-    warning = 3,
-    informational = 4,
-    verbose = 5
+    LogAlways = 0,
+    Critical = 1,
+    Error = 2,
+    Warning = 3,
+    Informational = 4,
+    Verbose = 5
 }
 
 
 export enum EventManifestOptions {
-    none = 0,
-    strict = 1,
-    allCultures = 2,
-    onlyIfNeededForRegistration = 4,
-    allowEventSourceOverride = 8
+    None = 0,
+    Strict = 1,
+    AllCultures = 2,
+    OnlyIfNeededForRegistration = 4,
+    AllowEventSourceOverride = 8
 }
 
 
 export enum EventOpcode {
-    info = 0,
-    start = 1,
-    stop = 2,
-    dataCollectionStart = 3,
-    dataCollectionStop = 4,
-    extension = 5,
-    reply = 6,
-    resume = 7,
-    suspend = 8,
-    send = 9,
-    receive = 240
+    Info = 0,
+    Start = 1,
+    Stop = 2,
+    DataCollectionStart = 3,
+    DataCollectionStop = 4,
+    Extension = 5,
+    Reply = 6,
+    Resume = 7,
+    Suspend = 8,
+    Send = 9,
+    Receive = 240
 }
 
 
 export enum EventSourceSettings {
-    default = 0,
-    throwOnEventWriteErrors = 1,
-    etwManifestEventFormat = 4,
-    etwSelfDescribingEventFormat = 8
+    Default = 0,
+    ThrowOnEventWriteErrors = 1,
+    EtwManifestEventFormat = 4,
+    EtwSelfDescribingEventFormat = 8
 }
 
 
 export enum EventTags {
-    none = 0
+    None = 0
 }
 
 
 export enum EventTask {
-    none = 0
+    None = 0
 }
 
 
@@ -137,11 +137,11 @@ export const EventSource_EventSourcePrimitive: {
 export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
 
 export interface EventSourceOptions$instance {
-    activityOptions: EventActivityOptions;
-    keywords: EventKeywords;
-    level: EventLevel;
-    opcode: EventOpcode;
-    tags: EventTags;
+    ActivityOptions: EventActivityOptions;
+    Keywords: EventKeywords;
+    Level: EventLevel;
+    Opcode: EventOpcode;
+    Tags: EventTags;
 }
 
 
@@ -153,12 +153,12 @@ export const EventSourceOptions: {
 export type EventSourceOptions = EventSourceOptions$instance;
 
 export interface DiagnosticCounter$instance {
-    displayName: string;
-    displayUnits: string;
-    readonly eventSource: EventSource;
-    readonly name: string;
-    addMetadata(key: string, value: string): void;
-    dispose(): void;
+    DisplayName: string;
+    DisplayUnits: string;
+    readonly EventSource: EventSource;
+    readonly Name: string;
+    AddMetadata(key: string, value: string): void;
+    Dispose(): void;
 }
 
 
@@ -176,16 +176,16 @@ export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter
 
 
 export interface EventAttribute$instance extends Attribute {
-    activityOptions: EventActivityOptions;
-    channel: EventChannel;
-    readonly eventId: int;
-    keywords: EventKeywords;
-    level: EventLevel;
-    message: string;
-    opcode: EventOpcode;
-    tags: EventTags;
-    task: EventTask;
-    version: byte;
+    ActivityOptions: EventActivityOptions;
+    Channel: EventChannel;
+    readonly EventId: int;
+    Keywords: EventKeywords;
+    Level: EventLevel;
+    Message: string;
+    Opcode: EventOpcode;
+    Tags: EventTags;
+    Task: EventTask;
+    Version: byte;
 }
 
 
@@ -197,10 +197,10 @@ export const EventAttribute: {
 export type EventAttribute = EventAttribute$instance;
 
 export interface EventCommandEventArgs$instance extends EventArgs {
-    readonly arguments: IDictionary_2<System_Internal.String, string | undefined>;
-    readonly command: EventCommand;
-    disableEvent(eventId: int): boolean;
-    enableEvent(eventId: int): boolean;
+    readonly Arguments: IDictionary_2<System_Internal.String, string | undefined>;
+    readonly Command: EventCommand;
+    DisableEvent(eventId: int): boolean;
+    EnableEvent(eventId: int): boolean;
 }
 
 
@@ -212,10 +212,10 @@ export const EventCommandEventArgs: {
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
 export interface EventCounter$instance extends DiagnosticCounter$instance {
-    dispose(): void;
-    toString(): string;
-    writeMetric(value: float): void;
-    writeMetric(value: double): void;
+    Dispose(): void;
+    ToString(): string;
+    WriteMetric(value: float): void;
+    WriteMetric(value: double): void;
 }
 
 
@@ -232,7 +232,7 @@ export type EventCounter = EventCounter$instance & __EventCounter$views;
 
 
 export interface EventDataAttribute$instance extends Attribute {
-    name: string;
+    Name: string;
 }
 
 
@@ -244,8 +244,8 @@ export const EventDataAttribute: {
 export type EventDataAttribute = EventDataAttribute$instance;
 
 export interface EventFieldAttribute$instance extends Attribute {
-    format: EventFieldFormat;
-    tags: EventFieldTags;
+    Format: EventFieldFormat;
+    Tags: EventFieldTags;
 }
 
 
@@ -268,11 +268,11 @@ export const EventIgnoreAttribute: {
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
 export interface EventListener$instance {
-    disableEvents(eventSource: EventSource): void;
-    dispose(): void;
-    enableEvents(eventSource: EventSource, level: EventLevel): void;
-    enableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords): void;
-    enableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
+    DisableEvents(eventSource: EventSource): void;
+    Dispose(): void;
+    EnableEvents(eventSource: EventSource, level: EventLevel): void;
+    EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords): void;
+    EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
 }
 
 
@@ -290,22 +290,22 @@ export type EventListener = EventListener$instance & __EventListener$views;
 
 
 export interface EventSource$instance {
-    readonly constructionException: Exception | undefined;
-    readonly guid: Guid;
-    readonly name: string;
-    readonly settings: EventSourceSettings;
-    dispose(): void;
-    getTrait(key: string): string | undefined;
-    isEnabled(): boolean;
-    isEnabled(level: EventLevel, keywords: EventKeywords): boolean;
-    isEnabled(level: EventLevel, keywords: EventKeywords, channel: EventChannel): boolean;
-    toString(): string;
-    write(eventName: string): void;
-    write(eventName: string, options: EventSourceOptions): void;
-    write<T>(eventName: string, data: T): void;
-    write<T>(eventName: string, options: EventSourceOptions, data: T): void;
-    write<T>(eventName: string, options: EventSourceOptions, data: T): void;
-    write<T>(eventName: string, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
+    readonly ConstructionException: Exception | undefined;
+    readonly Guid: Guid;
+    readonly Name: string;
+    readonly Settings: EventSourceSettings;
+    Dispose(): void;
+    GetTrait(key: string): string | undefined;
+    IsEnabled(): boolean;
+    IsEnabled(level: EventLevel, keywords: EventKeywords): boolean;
+    IsEnabled(level: EventLevel, keywords: EventKeywords, channel: EventChannel): boolean;
+    ToString(): string;
+    Write(eventName: string): void;
+    Write(eventName: string, options: EventSourceOptions): void;
+    Write<T>(eventName: string, data: T): void;
+    Write<T>(eventName: string, options: EventSourceOptions, data: T): void;
+    Write<T>(eventName: string, options: EventSourceOptions, data: T): void;
+    Write<T>(eventName: string, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
 }
 
 
@@ -313,15 +313,15 @@ export const EventSource: {
     new(eventSourceName: string): EventSource;
     new(eventSourceName: string, config: EventSourceSettings): EventSource;
     new(eventSourceName: string, config: EventSourceSettings, traits: string[]): EventSource;
-    readonly currentThreadActivityId: Guid;
-    generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string | undefined;
-    generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string | undefined;
-    getGuid(eventSourceType: Type): Guid;
-    getName(eventSourceType: Type): string;
-    getSources(): IEnumerable_1<EventSource>;
-    sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
-    setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: Guid): void;
-    setCurrentThreadActivityId(activityId: Guid): void;
+    readonly CurrentThreadActivityId: Guid;
+    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string | undefined;
+    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string | undefined;
+    GetGuid(eventSourceType: Type): Guid;
+    GetName(eventSourceType: Type): string;
+    GetSources(): IEnumerable_1<EventSource>;
+    SendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
+    SetCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: Guid): void;
+    SetCurrentThreadActivityId(activityId: Guid): void;
 };
 
 
@@ -335,11 +335,11 @@ export type EventSource = EventSource$instance & __EventSource$views;
 
 
 export interface EventSourceAttribute$instance extends Attribute {
-    get guid(): string | undefined;
-    set guid(value: string);
-    get localizationResources(): string | undefined;
-    set localizationResources(value: string);
-    name: string;
+    get Guid(): string | undefined;
+    set Guid(value: string);
+    get LocalizationResources(): string | undefined;
+    set LocalizationResources(value: string);
+    Name: string;
 }
 
 
@@ -351,7 +351,7 @@ export const EventSourceAttribute: {
 export type EventSourceAttribute = EventSourceAttribute$instance;
 
 export interface EventSourceCreatedEventArgs$instance extends EventArgs {
-    readonly eventSource: EventSource;
+    readonly EventSource: EventSource;
 }
 
 
@@ -363,7 +363,7 @@ export const EventSourceCreatedEventArgs: {
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
 export interface EventSourceException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -382,23 +382,23 @@ export type EventSourceException = EventSourceException$instance & __EventSource
 
 
 export interface EventWrittenEventArgs$instance extends EventArgs {
-    readonly activityId: Guid;
-    readonly channel: EventChannel;
-    readonly eventId: int;
-    readonly eventName: string;
-    readonly eventSource: EventSource;
-    readonly keywords: EventKeywords;
-    readonly level: EventLevel;
-    readonly message: string;
-    readonly opcode: EventOpcode;
-    readonly osThreadId: long;
-    readonly payload: ReadOnlyCollection_1<unknown | undefined> | undefined;
-    readonly payloadNames: ReadOnlyCollection_1<System_Internal.String> | undefined;
-    readonly relatedActivityId: Guid;
-    readonly tags: EventTags;
-    readonly task: EventTask;
-    readonly timeStamp: DateTime;
-    readonly version: byte;
+    readonly ActivityId: Guid;
+    readonly Channel: EventChannel;
+    readonly EventId: int;
+    readonly EventName: string;
+    readonly EventSource: EventSource;
+    readonly Keywords: EventKeywords;
+    readonly Level: EventLevel;
+    readonly Message: string;
+    readonly Opcode: EventOpcode;
+    readonly OSThreadId: long;
+    readonly Payload: ReadOnlyCollection_1<unknown | undefined> | undefined;
+    readonly PayloadNames: ReadOnlyCollection_1<System_Internal.String> | undefined;
+    readonly RelatedActivityId: Guid;
+    readonly Tags: EventTags;
+    readonly Task: EventTask;
+    readonly TimeStamp: DateTime;
+    readonly Version: byte;
 }
 
 
@@ -410,10 +410,10 @@ export const EventWrittenEventArgs: {
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
 export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
-    displayRateTimeScale: TimeSpan;
-    dispose(): void;
-    increment(increment?: double): void;
-    toString(): string;
+    DisplayRateTimeScale: TimeSpan;
+    Dispose(): void;
+    Increment(increment?: double): void;
+    ToString(): string;
 }
 
 
@@ -430,9 +430,9 @@ export type IncrementingEventCounter = IncrementingEventCounter$instance & __Inc
 
 
 export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
-    displayRateTimeScale: TimeSpan;
-    dispose(): void;
-    toString(): string;
+    DisplayRateTimeScale: TimeSpan;
+    Dispose(): void;
+    ToString(): string;
 }
 
 
@@ -460,8 +460,8 @@ export const NonEventAttribute: {
 export type NonEventAttribute = NonEventAttribute$instance;
 
 export interface PollingCounter$instance extends DiagnosticCounter$instance {
-    dispose(): void;
-    toString(): string;
+    Dispose(): void;
+    ToString(): string;
 }
 
 

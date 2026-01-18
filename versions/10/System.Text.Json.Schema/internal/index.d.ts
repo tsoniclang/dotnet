@@ -13,10 +13,10 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType } from "../../System/internal/index.js";
 
 export interface JsonSchemaExporterContext$instance {
-    readonly baseTypeInfo: JsonTypeInfo | undefined;
-    readonly path: ReadOnlySpan_1<System_Internal.String>;
-    readonly propertyInfo: JsonPropertyInfo | undefined;
-    readonly typeInfo: JsonTypeInfo;
+    readonly BaseTypeInfo: JsonTypeInfo | undefined;
+    readonly Path: ReadOnlySpan_1<System_Internal.String>;
+    readonly PropertyInfo: JsonPropertyInfo | undefined;
+    readonly TypeInfo: JsonTypeInfo;
 }
 
 
@@ -28,23 +28,23 @@ export const JsonSchemaExporterContext: {
 export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export interface JsonSchemaExporterOptions$instance {
-    get transformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
-    set transformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>);
-    treatNullObliviousAsNonNullable: boolean;
+    get TransformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
+    set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>);
+    TreatNullObliviousAsNonNullable: boolean;
 }
 
 
 export const JsonSchemaExporterOptions: {
     new(): JsonSchemaExporterOptions;
-    readonly default: JsonSchemaExporterOptions;
+    readonly Default: JsonSchemaExporterOptions;
 };
 
 
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static getJsonSchemaAsNode(options: JsonSerializerOptions, type: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
-    static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static GetJsonSchemaAsNode(options: JsonSerializerOptions, type: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static GetJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
 }
 
 

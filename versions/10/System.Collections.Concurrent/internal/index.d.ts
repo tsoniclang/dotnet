@@ -18,37 +18,37 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum EnumerablePartitionerOptions {
-    none = 0,
-    noBuffering = 1
+    None = 0,
+    NoBuffering = 1
 }
 
 
 export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable, ICollection {
-    readonly count: int;
-    readonly syncRoot: unknown;
-    readonly isSynchronized: boolean;
-    copyTo(array: T[], index: int): void;
-    copyTo(array: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator_1<T>;
-    getEnumerator(): IEnumerator;
-    toArray(): T[];
-    tryAdd(item: T): boolean;
-    tryTake(item: T): boolean;
-    getEnumerator2(): IEnumerator;
+    readonly Count: int;
+    readonly SyncRoot: unknown;
+    readonly IsSynchronized: boolean;
+    CopyTo(array: T[], index: int): void;
+    CopyTo(array: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator_1<T>;
+    GetEnumerator(): IEnumerator;
+    ToArray(): T[];
+    TryAdd(item: T): boolean;
+    TryTake(item: T): boolean;
+    GetEnumerator2(): IEnumerator;
 }
 
 
 export type IProducerConsumerCollection_1<T> = IProducerConsumerCollection_1$instance<T>;
 
 export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
-    readonly dictionary: ConcurrentDictionary_2<TKey, TValue>;
-    item: TValue;
-    containsKey(key: TAlternateKey): boolean;
-    tryAdd(key: TAlternateKey, value: TValue): boolean;
-    tryGetValue(key: TAlternateKey, value: TValue): boolean;
-    tryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
-    tryRemove(key: TAlternateKey, value: TValue): boolean;
-    tryRemove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
+    readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
+    Item: TValue;
+    ContainsKey(key: TAlternateKey): boolean;
+    TryAdd(key: TAlternateKey, value: TValue): boolean;
+    TryGetValue(key: TAlternateKey, value: TValue): boolean;
+    TryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
+    TryRemove(key: TAlternateKey, value: TValue): boolean;
+    TryRemove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
 }
 
 
@@ -60,28 +60,28 @@ export const ConcurrentDictionary_2_AlternateLookup_1: {
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface BlockingCollection_1$instance<T> {
-    readonly boundedCapacity: int;
-    readonly count: int;
-    readonly isAddingCompleted: boolean;
-    readonly isCompleted: boolean;
-    add(item: T): void;
-    add(item: T, cancellationToken: CancellationToken): void;
-    completeAdding(): void;
-    copyTo(array: T[], index: int): void;
-    dispose(): void;
-    getConsumingEnumerable(): IEnumerable_1<T>;
-    getConsumingEnumerable(cancellationToken: CancellationToken): IEnumerable_1<T>;
-    take(): T;
-    take(cancellationToken: CancellationToken): T;
-    toArray(): T[];
-    tryAdd(item: T): boolean;
-    tryAdd(item: T, timeout: TimeSpan): boolean;
-    tryAdd(item: T, millisecondsTimeout: int): boolean;
-    tryAdd(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    tryTake(item: T): boolean;
-    tryTake(item: T, timeout: TimeSpan): boolean;
-    tryTake(item: T, millisecondsTimeout: int): boolean;
-    tryTake(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    readonly BoundedCapacity: int;
+    readonly Count: int;
+    readonly IsAddingCompleted: boolean;
+    readonly IsCompleted: boolean;
+    Add(item: T): void;
+    Add(item: T, cancellationToken: CancellationToken): void;
+    CompleteAdding(): void;
+    CopyTo(array: T[], index: int): void;
+    Dispose(): void;
+    GetConsumingEnumerable(): IEnumerable_1<T>;
+    GetConsumingEnumerable(cancellationToken: CancellationToken): IEnumerable_1<T>;
+    Take(): T;
+    Take(cancellationToken: CancellationToken): T;
+    ToArray(): T[];
+    TryAdd(item: T): boolean;
+    TryAdd(item: T, timeout: TimeSpan): boolean;
+    TryAdd(item: T, millisecondsTimeout: int): boolean;
+    TryAdd(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    TryTake(item: T): boolean;
+    TryTake(item: T, timeout: TimeSpan): boolean;
+    TryTake(item: T, millisecondsTimeout: int): boolean;
+    TryTake(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
 }
 
 
@@ -90,18 +90,18 @@ export const BlockingCollection_1: {
     new<T>(boundedCapacity: int): BlockingCollection_1<T>;
     new<T>(collection: IProducerConsumerCollection_1<T>, boundedCapacity: int): BlockingCollection_1<T>;
     new<T>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1<T>;
-    addToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    addToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    AddToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    AddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
 };
 
 
@@ -119,15 +119,15 @@ export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __Block
 
 
 export interface ConcurrentBag_1$instance<T> {
-    readonly count: int;
-    readonly isEmpty: boolean;
-    add(item: T): void;
-    clear(): void;
-    copyTo(array: T[], index: int): void;
-    getEnumerator(): IEnumerator_1<T>;
-    toArray(): T[];
-    tryPeek(result: T): boolean;
-    tryTake(result: T): boolean;
+    readonly Count: int;
+    readonly IsEmpty: boolean;
+    Add(item: T): void;
+    Clear(): void;
+    CopyTo(array: T[], index: int): void;
+    GetEnumerator(): IEnumerator_1<T>;
+    ToArray(): T[];
+    TryPeek(result: T): boolean;
+    TryTake(result: T): boolean;
 }
 
 
@@ -149,29 +149,29 @@ export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1
 
 
 export interface ConcurrentDictionary_2$instance<TKey, TValue> {
-    readonly comparer: IEqualityComparer_1<TKey>;
-    readonly count: int;
-    readonly isEmpty: boolean;
-    item: TValue;
-    readonly keys: ICollection_1<TKey>;
-    readonly values: ICollection_1<TValue>;
-    addOrUpdate<TArg>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
-    addOrUpdate(key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
-    addOrUpdate(key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
-    clear(): void;
-    containsKey(key: TKey): boolean;
-    getAlternateLookup<TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    getOrAdd(key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
-    getOrAdd<TArg>(key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
-    getOrAdd(key: TKey, value: TValue): TValue;
-    toArray(): KeyValuePair_2<TKey, TValue>[];
-    tryAdd(key: TKey, value: TValue): boolean;
-    tryGetAlternateLookup<TAlternateKey>(lookup: ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
-    tryGetValue(key: TKey, value: TValue): boolean;
-    tryRemove(key: TKey, value: TValue): boolean;
-    tryRemove(item: KeyValuePair_2<TKey, TValue>): boolean;
-    tryUpdate(key: TKey, newValue: TValue, comparisonValue: TValue): boolean;
+    readonly Comparer: IEqualityComparer_1<TKey>;
+    readonly Count: int;
+    readonly IsEmpty: boolean;
+    Item: TValue;
+    readonly Keys: ICollection_1<TKey>;
+    readonly Values: ICollection_1<TValue>;
+    AddOrUpdate<TArg>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
+    AddOrUpdate(key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    AddOrUpdate(key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    Clear(): void;
+    ContainsKey(key: TKey): boolean;
+    GetAlternateLookup<TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    GetOrAdd(key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
+    GetOrAdd<TArg>(key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
+    GetOrAdd(key: TKey, value: TValue): TValue;
+    ToArray(): KeyValuePair_2<TKey, TValue>[];
+    TryAdd(key: TKey, value: TValue): boolean;
+    TryGetAlternateLookup<TAlternateKey>(lookup: ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
+    TryGetValue(key: TKey, value: TValue): boolean;
+    TryRemove(key: TKey, value: TValue): boolean;
+    TryRemove(item: KeyValuePair_2<TKey, TValue>): boolean;
+    TryUpdate(key: TKey, newValue: TValue, comparisonValue: TValue): boolean;
 }
 
 
@@ -201,15 +201,15 @@ export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instan
 
 
 export interface ConcurrentQueue_1$instance<T> {
-    readonly count: int;
-    readonly isEmpty: boolean;
-    clear(): void;
-    copyTo(array: T[], index: int): void;
-    enqueue(item: T): void;
-    getEnumerator(): IEnumerator_1<T>;
-    toArray(): T[];
-    tryDequeue(result: T): boolean;
-    tryPeek(result: T): boolean;
+    readonly Count: int;
+    readonly IsEmpty: boolean;
+    Clear(): void;
+    CopyTo(array: T[], index: int): void;
+    Enqueue(item: T): void;
+    GetEnumerator(): IEnumerator_1<T>;
+    ToArray(): T[];
+    TryDequeue(result: T): boolean;
+    TryPeek(result: T): boolean;
 }
 
 
@@ -231,19 +231,19 @@ export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQ
 
 
 export interface ConcurrentStack_1$instance<T> {
-    readonly count: int;
-    readonly isEmpty: boolean;
-    clear(): void;
-    copyTo(array: T[], index: int): void;
-    getEnumerator(): IEnumerator_1<T>;
-    push(item: T): void;
-    pushRange(items: T[]): void;
-    pushRange(items: T[], startIndex: int, count: int): void;
-    toArray(): T[];
-    tryPeek(result: T): boolean;
-    tryPop(result: T): boolean;
-    tryPopRange(items: T[]): int;
-    tryPopRange(items: T[], startIndex: int, count: int): int;
+    readonly Count: int;
+    readonly IsEmpty: boolean;
+    Clear(): void;
+    CopyTo(array: T[], index: int): void;
+    GetEnumerator(): IEnumerator_1<T>;
+    Push(item: T): void;
+    PushRange(items: T[]): void;
+    PushRange(items: T[], startIndex: int, count: int): void;
+    ToArray(): T[];
+    TryPeek(result: T): boolean;
+    TryPop(result: T): boolean;
+    TryPopRange(items: T[]): int;
+    TryPopRange(items: T[], startIndex: int, count: int): int;
 }
 
 
@@ -265,15 +265,15 @@ export type ConcurrentStack_1<T> = ConcurrentStack_1$instance<T> & __ConcurrentS
 
 
 export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<TSource> {
-    readonly keysNormalized: boolean;
-    readonly keysOrderedAcrossPartitions: boolean;
-    readonly keysOrderedInEachPartition: boolean;
-    getDynamicPartitions(): IEnumerable_1<TSource>;
-    getDynamicPartitions(): IEnumerable_1<TSource>;
-    getOrderableDynamicPartitions(): IEnumerable_1<KeyValuePair_2<System_Internal.Int64, TSource>>;
-    getOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<System_Internal.Int64, TSource>>>;
-    getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
-    getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
+    readonly KeysNormalized: boolean;
+    readonly KeysOrderedAcrossPartitions: boolean;
+    readonly KeysOrderedInEachPartition: boolean;
+    GetDynamicPartitions(): IEnumerable_1<TSource>;
+    GetDynamicPartitions(): IEnumerable_1<TSource>;
+    GetOrderableDynamicPartitions(): IEnumerable_1<KeyValuePair_2<System_Internal.Int64, TSource>>;
+    GetOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<System_Internal.Int64, TSource>>>;
+    GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
+    GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
 }
 
 
@@ -284,9 +284,9 @@ export const OrderablePartitioner_1: {
 export type OrderablePartitioner_1<TSource> = OrderablePartitioner_1$instance<TSource>;
 
 export interface Partitioner_1$instance<TSource> {
-    readonly supportsDynamicPartitions: boolean;
-    getDynamicPartitions(): IEnumerable_1<TSource>;
-    getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
+    readonly SupportsDynamicPartitions: boolean;
+    GetDynamicPartitions(): IEnumerable_1<TSource>;
+    GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
 }
 
 
@@ -297,14 +297,14 @@ export const Partitioner_1: {
 export type Partitioner_1<TSource> = Partitioner_1$instance<TSource>;
 
 export abstract class Partitioner$instance {
-    static create<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
-    static create<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
-    static create<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
-    static create(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
-    static create(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
-    static create(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
-    static create(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
-    static create<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static Create<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
+    static Create<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
+    static Create<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static Create(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
+    static Create(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
+    static Create(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
+    static Create(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
+    static Create<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
 }
 
 

@@ -1,23 +1,40 @@
 {
   "namespace": "System.Runtime.Remoting",
+  "contributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle",
       "clrName": "System.Runtime.Remoting.ObjectHandle",
-      "tsEmitName": "ObjectHandle",
       "assemblyName": "System.Private.CoreLib",
       "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MarshalByRefObject",
+        "clrName": "System.MarshalByRefObject"
+      },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
-          "tsEmitName": "unwrap",
           "metadataToken": 100682741,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
           "emitScope": "ClassSurface",
+          "provenance": "Original",
           "arity": 0,
           "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
           "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -36,109 +53,6 @@
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "exposedMethods": [
-        {
-          "tsName": "unwrap",
-          "isStatic": false,
-          "tsSignatureId": "Unwrap|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682741
-          }
-        },
-        {
-          "tsName": "getLifetimeService",
-          "isStatic": false,
-          "tsSignatureId": "GetLifetimeService|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.MarshalByRefObject",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100669423
-          }
-        },
-        {
-          "tsName": "initializeLifetimeService",
-          "isStatic": false,
-          "tsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.MarshalByRefObject",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100669424
-          }
-        },
-        {
-          "tsName": "getType",
-          "isStatic": false,
-          "tsSignatureId": "GetType|():System.Type|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664825
-          }
-        },
-        {
-          "tsName": "toString",
-          "isStatic": false,
-          "tsSignatureId": "ToString|():System.String|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664829
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": false,
-          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664830
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": true,
-          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664831
-          }
-        },
-        {
-          "tsName": "referenceEquals",
-          "isStatic": true,
-          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664832
-          }
-        },
-        {
-          "tsName": "getHashCode",
-          "isStatic": false,
-          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664833
-          }
-        }
-      ],
-      "exposedConstructors": [
-        {
-          "isStatic": false,
-          "tsSignatureId": "constructor|(System.Object):void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682740
-          }
         }
       ]
     }

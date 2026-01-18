@@ -17,10 +17,10 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SequencePosition, Span_1, String as ClrString, StringComparison, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum OperationStatus {
-    done = 0,
-    destinationTooSmall = 1,
-    needMoreData = 2,
-    invalidData = 3
+    Done = 0,
+    DestinationTooSmall = 1,
+    NeedMoreData = 2,
+    InvalidData = 3
 }
 
 
@@ -31,17 +31,17 @@ export type SpanAction_2<T, TArg> = (span: Span_1<T>, arg: TArg) => void;
 
 
 export interface IBufferWriter_1$instance<T> {
-    advance(count: int): void;
-    getMemory(sizeHint?: int): Memory_1<T>;
-    getSpan(sizeHint?: int): Span_1<T>;
+    Advance(count: int): void;
+    GetMemory(sizeHint?: int): Memory_1<T>;
+    GetSpan(sizeHint?: int): Span_1<T>;
 }
 
 
 export type IBufferWriter_1<T> = IBufferWriter_1$instance<T>;
 
 export interface IMemoryOwner_1$instance<T> extends IDisposable {
-    readonly memory: Memory_1<T>;
-    dispose(): void;
+    readonly Memory: Memory_1<T>;
+    Dispose(): void;
 }
 
 
@@ -50,16 +50,16 @@ export interface IMemoryOwner_1$instance<T> extends System_Internal.IDisposable$
 export type IMemoryOwner_1<T> = IMemoryOwner_1$instance<T>;
 
 export interface IPinnable$instance {
-    pin(elementIndex: int): MemoryHandle;
-    unpin(): void;
+    Pin(elementIndex: int): MemoryHandle;
+    Unpin(): void;
 }
 
 
 export type IPinnable = IPinnable$instance;
 
 export interface MemoryHandle$instance {
-    readonly pointer: ptr<void>;
-    dispose(): void;
+    readonly Pointer: ptr<void>;
+    Dispose(): void;
 }
 
 
@@ -78,28 +78,28 @@ export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
 
 export interface ReadOnlySequence_1$instance<T> {
-    readonly end: SequencePosition;
-    readonly first: ReadOnlyMemory_1<T>;
-    readonly firstSpan: ReadOnlySpan_1<T>;
-    readonly isEmpty: boolean;
-    readonly isSingleSegment: boolean;
-    readonly length: long;
-    readonly start: SequencePosition;
-    getEnumerator(): ReadOnlySequence_1_Enumerator<T>;
-    getOffset(position: SequencePosition): long;
-    getPosition(offset: long): SequencePosition;
-    getPosition(offset: long, origin: SequencePosition): SequencePosition;
-    slice(start: long, length: long): ReadOnlySequence_1<T>;
-    slice(start: long, end: SequencePosition): ReadOnlySequence_1<T>;
-    slice(start: SequencePosition, length: long): ReadOnlySequence_1<T>;
-    slice(start: int, length: int): ReadOnlySequence_1<T>;
-    slice(start: int, end: SequencePosition): ReadOnlySequence_1<T>;
-    slice(start: SequencePosition, length: int): ReadOnlySequence_1<T>;
-    slice(start: SequencePosition, end: SequencePosition): ReadOnlySequence_1<T>;
-    slice(start: SequencePosition): ReadOnlySequence_1<T>;
-    slice(start: long): ReadOnlySequence_1<T>;
-    toString(): string;
-    tryGet(position: SequencePosition, memory: ReadOnlyMemory_1<T>, advance?: boolean): boolean;
+    readonly End: SequencePosition;
+    readonly First: ReadOnlyMemory_1<T>;
+    readonly FirstSpan: ReadOnlySpan_1<T>;
+    readonly IsEmpty: boolean;
+    readonly IsSingleSegment: boolean;
+    readonly Length: long;
+    readonly Start: SequencePosition;
+    GetEnumerator(): ReadOnlySequence_1_Enumerator<T>;
+    GetOffset(position: SequencePosition): long;
+    GetPosition(offset: long): SequencePosition;
+    GetPosition(offset: long, origin: SequencePosition): SequencePosition;
+    Slice(start: long, length: long): ReadOnlySequence_1<T>;
+    Slice(start: long, end: SequencePosition): ReadOnlySequence_1<T>;
+    Slice(start: SequencePosition, length: long): ReadOnlySequence_1<T>;
+    Slice(start: int, length: int): ReadOnlySequence_1<T>;
+    Slice(start: int, end: SequencePosition): ReadOnlySequence_1<T>;
+    Slice(start: SequencePosition, length: int): ReadOnlySequence_1<T>;
+    Slice(start: SequencePosition, end: SequencePosition): ReadOnlySequence_1<T>;
+    Slice(start: SequencePosition): ReadOnlySequence_1<T>;
+    Slice(start: long): ReadOnlySequence_1<T>;
+    ToString(): string;
+    TryGet(position: SequencePosition, memory: ReadOnlyMemory_1<T>, advance?: boolean): boolean;
 }
 
 
@@ -108,15 +108,15 @@ export const ReadOnlySequence_1: {
     new<T>(array: T[]): ReadOnlySequence_1<T>;
     new<T>(array: T[], start: int, length: int): ReadOnlySequence_1<T>;
     new<T>(memory: ReadOnlyMemory_1<T>): ReadOnlySequence_1<T>;
-    readonly empty: unknown;
+    readonly Empty: unknown;
 };
 
 
 export type ReadOnlySequence_1<T> = ReadOnlySequence_1$instance<T>;
 
 export interface ReadOnlySequence_1_Enumerator$instance<T> {
-    readonly current: ReadOnlyMemory_1<T>;
-    moveNext(): boolean;
+    readonly Current: ReadOnlyMemory_1<T>;
+    MoveNext(): boolean;
 }
 
 
@@ -128,41 +128,41 @@ export const ReadOnlySequence_1_Enumerator: {
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
 export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
-    readonly consumed: long;
-    readonly currentSpan: ReadOnlySpan_1<T>;
-    readonly currentSpanIndex: int;
-    readonly end: boolean;
-    readonly length: long;
-    readonly position: SequencePosition;
-    readonly remaining: long;
-    readonly sequence: ReadOnlySequence_1<T>;
-    readonly unreadSequence: ReadOnlySequence_1<T>;
-    readonly unreadSpan: ReadOnlySpan_1<T>;
-    advance(count: long): void;
-    advancePast(value: T): long;
-    advancePastAny(values: ReadOnlySpan_1<T>): long;
-    advancePastAny(value0: T, value1: T, value2: T, value3: T): long;
-    advancePastAny(value0: T, value1: T, value2: T): long;
-    advancePastAny(value0: T, value1: T): long;
-    advanceToEnd(): void;
-    isNext(next: T, advancePast?: boolean): boolean;
-    isNext(next: ReadOnlySpan_1<T>, advancePast?: boolean): boolean;
-    rewind(count: long): void;
-    tryAdvanceTo(delimiter: T, advancePastDelimiter?: boolean): boolean;
-    tryAdvanceToAny(delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    tryCopyTo(destination: Span_1<T>): boolean;
-    tryPeek(value: T): boolean;
-    tryPeek(offset: long, value: T): boolean;
-    tryRead(value: T): boolean;
-    tryReadExact(count: int, sequence: ReadOnlySequence_1<T>): boolean;
-    tryReadTo(span: ReadOnlySpan_1<T>, delimiter: T, advancePastDelimiter?: boolean): boolean;
-    tryReadTo(span: ReadOnlySpan_1<T>, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
-    tryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: T, advancePastDelimiter?: boolean): boolean;
-    tryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
-    tryReadTo(span: ReadOnlySpan_1<T>, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    tryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    tryReadToAny(span: ReadOnlySpan_1<T>, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
-    tryReadToAny(sequence: ReadOnlySequence_1<T>, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    readonly Consumed: long;
+    readonly CurrentSpan: ReadOnlySpan_1<T>;
+    readonly CurrentSpanIndex: int;
+    readonly End: boolean;
+    readonly Length: long;
+    readonly Position: SequencePosition;
+    readonly Remaining: long;
+    readonly Sequence: ReadOnlySequence_1<T>;
+    readonly UnreadSequence: ReadOnlySequence_1<T>;
+    readonly UnreadSpan: ReadOnlySpan_1<T>;
+    Advance(count: long): void;
+    AdvancePast(value: T): long;
+    AdvancePastAny(values: ReadOnlySpan_1<T>): long;
+    AdvancePastAny(value0: T, value1: T, value2: T, value3: T): long;
+    AdvancePastAny(value0: T, value1: T, value2: T): long;
+    AdvancePastAny(value0: T, value1: T): long;
+    AdvanceToEnd(): void;
+    IsNext(next: T, advancePast?: boolean): boolean;
+    IsNext(next: ReadOnlySpan_1<T>, advancePast?: boolean): boolean;
+    Rewind(count: long): void;
+    TryAdvanceTo(delimiter: T, advancePastDelimiter?: boolean): boolean;
+    TryAdvanceToAny(delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    TryCopyTo(destination: Span_1<T>): boolean;
+    TryPeek(value: T): boolean;
+    TryPeek(offset: long, value: T): boolean;
+    TryRead(value: T): boolean;
+    TryReadExact(count: int, sequence: ReadOnlySequence_1<T>): boolean;
+    TryReadTo(span: ReadOnlySpan_1<T>, delimiter: T, advancePastDelimiter?: boolean): boolean;
+    TryReadTo(span: ReadOnlySpan_1<T>, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
+    TryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: T, advancePastDelimiter?: boolean): boolean;
+    TryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: T, delimiterEscape: T, advancePastDelimiter?: boolean): boolean;
+    TryReadTo(span: ReadOnlySpan_1<T>, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    TryReadTo(sequence: ReadOnlySequence_1<T>, delimiter: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    TryReadToAny(span: ReadOnlySpan_1<T>, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
+    TryReadToAny(sequence: ReadOnlySequence_1<T>, delimiters: ReadOnlySpan_1<T>, advancePastDelimiter?: boolean): boolean;
 }
 
 
@@ -174,24 +174,24 @@ export const SequenceReader_1: {
 export type SequenceReader_1<T extends (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
 
 export interface StandardFormat$instance {
-    readonly hasPrecision: boolean;
-    readonly isDefault: boolean;
-    readonly precision: byte;
-    readonly symbol: char;
-    equals(obj: unknown): boolean;
-    equals(other: StandardFormat): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly HasPrecision: boolean;
+    readonly IsDefault: boolean;
+    readonly Precision: byte;
+    readonly Symbol: char;
+    Equals(obj: unknown): boolean;
+    Equals(other: StandardFormat): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
 export const StandardFormat: {
     new(symbol: char, precision: byte): StandardFormat;
-    readonly noPrecision: byte;
-    readonly maxPrecision: byte;
-    parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
-    parse(format: string): StandardFormat;
-    tryParse(format: ReadOnlySpan_1<System_Internal.Char>, result: StandardFormat): boolean;
+    readonly NoPrecision: byte;
+    readonly MaxPrecision: byte;
+    Parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
+    Parse(format: string): StandardFormat;
+    TryParse(format: ReadOnlySpan_1<System_Internal.Char>, result: StandardFormat): boolean;
 };
 
 
@@ -199,23 +199,23 @@ export interface __StandardFormat$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<StandardFormat>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: StandardFormat): boolean;
+    Equals(other: StandardFormat): boolean;
 }
 
 export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
 export interface ArrayBufferWriter_1$instance<T> {
-    readonly capacity: int;
-    readonly freeCapacity: int;
-    readonly writtenCount: int;
-    readonly writtenMemory: ReadOnlyMemory_1<T>;
-    readonly writtenSpan: ReadOnlySpan_1<T>;
-    advance(count: int): void;
-    clear(): void;
-    getMemory(sizeHint?: int): Memory_1<T>;
-    getSpan(sizeHint?: int): Span_1<T>;
-    resetWrittenCount(): void;
+    readonly Capacity: int;
+    readonly FreeCapacity: int;
+    readonly WrittenCount: int;
+    readonly WrittenMemory: ReadOnlyMemory_1<T>;
+    readonly WrittenSpan: ReadOnlySpan_1<T>;
+    Advance(count: int): void;
+    Clear(): void;
+    GetMemory(sizeHint?: int): Memory_1<T>;
+    GetSpan(sizeHint?: int): Span_1<T>;
+    ResetWrittenCount(): void;
 }
 
 
@@ -235,25 +235,25 @@ export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBu
 
 
 export interface ArrayPool_1$instance<T> {
-    rent(minimumLength: int): T[];
-    return(array: T[], clearArray?: boolean): void;
+    Rent(minimumLength: int): T[];
+    Return(array: T[], clearArray?: boolean): void;
 }
 
 
 export const ArrayPool_1: {
-    readonly shared: unknown;
-    create<T>(): ArrayPool_1<T>;
-    create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+    readonly Shared: unknown;
+    Create<T>(): ArrayPool_1<T>;
+    Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
 };
 
 
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
 export interface MemoryManager_1$instance<T> {
-    readonly memory: Memory_1<T>;
-    getSpan(): Span_1<T>;
-    pin(elementIndex?: int): MemoryHandle;
-    unpin(): void;
+    readonly Memory: Memory_1<T>;
+    GetSpan(): Span_1<T>;
+    Pin(elementIndex?: int): MemoryHandle;
+    Unpin(): void;
 }
 
 
@@ -273,14 +273,14 @@ export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1
 
 
 export interface MemoryPool_1$instance<T> {
-    readonly maxBufferSize: int;
-    dispose(): void;
-    rent(minBufferSize?: int): IMemoryOwner_1<T>;
+    readonly MaxBufferSize: int;
+    Dispose(): void;
+    Rent(minBufferSize?: int): IMemoryOwner_1<T>;
 }
 
 
 export const MemoryPool_1: {
-    readonly shared: unknown;
+    readonly Shared: unknown;
 };
 
 
@@ -294,9 +294,9 @@ export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>
 
 
 export interface ReadOnlySequenceSegment_1$instance<T> {
-    readonly memory: ReadOnlyMemory_1<T>;
-    readonly next: ReadOnlySequenceSegment_1<T> | undefined;
-    readonly runningIndex: long;
+    readonly Memory: ReadOnlyMemory_1<T>;
+    readonly Next: ReadOnlySequenceSegment_1<T> | undefined;
+    readonly RunningIndex: long;
 }
 
 
@@ -307,7 +307,7 @@ export const ReadOnlySequenceSegment_1: {
 export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
 
 export interface SearchValues_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
-    contains(value: T): boolean;
+    Contains(value: T): boolean;
 }
 
 
@@ -319,31 +319,31 @@ export const SearchValues_1: {
 export type SearchValues_1<T extends (IEquatable_1<T> | number | string | boolean)> = SearchValues_1$instance<T>;
 
 export abstract class BuffersExtensions$instance {
-    static copyTo<T>(source: ReadOnlySequence_1<T>, destination: Span_1<T>): void;
-    static positionOf<T extends IEquatable_1<T>>(source: ReadOnlySequence_1<T>, value: T): Nullable_1<SequencePosition>;
-    static toArray<T>(sequence: ReadOnlySequence_1<T>): T[];
-    static write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
+    static CopyTo<T>(source: ReadOnlySequence_1<T>, destination: Span_1<T>): void;
+    static PositionOf<T extends IEquatable_1<T>>(source: ReadOnlySequence_1<T>, value: T): Nullable_1<SequencePosition>;
+    static ToArray<T>(sequence: ReadOnlySequence_1<T>): T[];
+    static Write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
 }
 
 
 export type BuffersExtensions = BuffersExtensions$instance;
 
 export abstract class SearchValues$instance {
-    static create(values: ReadOnlySpan_1<System_Internal.Byte>): SearchValues_1<System_Internal.Byte>;
-    static create(values: ReadOnlySpan_1<System_Internal.Char>): SearchValues_1<System_Internal.Char>;
-    static create(values: ReadOnlySpan_1<System_Internal.String>, comparisonType: StringComparison): SearchValues_1<System_Internal.String>;
+    static Create(values: ReadOnlySpan_1<System_Internal.Byte>): SearchValues_1<System_Internal.Byte>;
+    static Create(values: ReadOnlySpan_1<System_Internal.Char>): SearchValues_1<System_Internal.Char>;
+    static Create(values: ReadOnlySpan_1<System_Internal.String>, comparisonType: StringComparison): SearchValues_1<System_Internal.String>;
 }
 
 
 export type SearchValues = SearchValues$instance;
 
 export abstract class SequenceReaderExtensions$instance {
-    static tryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: short): boolean;
-    static tryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: int): boolean;
-    static tryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: long): boolean;
-    static tryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: short): boolean;
-    static tryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: int): boolean;
-    static tryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: long): boolean;
+    static TryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: short): boolean;
+    static TryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: int): boolean;
+    static TryReadBigEndian(reader: SequenceReader_1<System_Internal.Byte>, value: long): boolean;
+    static TryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: short): boolean;
+    static TryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: int): boolean;
+    static TryReadLittleEndian(reader: SequenceReader_1<System_Internal.Byte>, value: long): boolean;
 }
 
 

@@ -15,53 +15,53 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum DependentCloneOption {
-    blockCommitUntilComplete = 0,
-    rollbackIfNotComplete = 1
+    BlockCommitUntilComplete = 0,
+    RollbackIfNotComplete = 1
 }
 
 
 export enum EnlistmentOptions {
-    none = 0,
-    enlistDuringPrepareRequired = 1
+    None = 0,
+    EnlistDuringPrepareRequired = 1
 }
 
 
 export enum EnterpriseServicesInteropOption {
-    none = 0,
-    automatic = 1,
-    full = 2
+    None = 0,
+    Automatic = 1,
+    Full = 2
 }
 
 
 export enum IsolationLevel {
-    serializable = 0,
-    repeatableRead = 1,
-    readCommitted = 2,
-    readUncommitted = 3,
-    snapshot = 4,
-    chaos = 5,
-    unspecified = 6
+    Serializable = 0,
+    RepeatableRead = 1,
+    ReadCommitted = 2,
+    ReadUncommitted = 3,
+    Snapshot = 4,
+    Chaos = 5,
+    Unspecified = 6
 }
 
 
 export enum TransactionScopeAsyncFlowOption {
-    suppress = 0,
-    enabled = 1
+    Suppress = 0,
+    Enabled = 1
 }
 
 
 export enum TransactionScopeOption {
-    required = 0,
-    requiresNew = 1,
-    suppress = 2
+    Required = 0,
+    RequiresNew = 1,
+    Suppress = 2
 }
 
 
 export enum TransactionStatus {
-    active = 0,
-    committed = 1,
-    aborted = 2,
-    inDoubt = 3
+    Active = 0,
+    Committed = 1,
+    Aborted = 2,
+    InDoubt = 3
 }
 
 
@@ -75,26 +75,26 @@ export type TransactionStartedEventHandler = (sender: unknown, e: TransactionEve
 
 
 export interface IDtcTransaction$instance {
-    abort(reason: nint, retaining: int, async: int): void;
-    commit(retaining: int, commitType: int, reserved: int): void;
-    getTransactionInfo(transactionInformation: nint): void;
+    Abort(reason: nint, retaining: int, async: int): void;
+    Commit(retaining: int, commitType: int, reserved: int): void;
+    GetTransactionInfo(transactionInformation: nint): void;
 }
 
 
 export type IDtcTransaction = IDtcTransaction$instance;
 
 export interface IEnlistmentNotification$instance {
-    commit(enlistment: Enlistment): void;
-    prepare(preparingEnlistment: PreparingEnlistment): void;
+    Commit(enlistment: Enlistment): void;
+    Prepare(preparingEnlistment: PreparingEnlistment): void;
 }
 
 
 export type IEnlistmentNotification = IEnlistmentNotification$instance;
 
 export interface IPromotableSinglePhaseNotification$instance extends ITransactionPromoter {
-    initialize(): void;
-    promote(): byte[] | undefined;
-    singlePhaseCommit(singlePhaseEnlistment: SinglePhaseEnlistment): void;
+    Initialize(): void;
+    Promote(): byte[] | undefined;
+    SinglePhaseCommit(singlePhaseEnlistment: SinglePhaseEnlistment): void;
 }
 
 
@@ -103,8 +103,8 @@ export interface IPromotableSinglePhaseNotification$instance extends ITransactio
 export type IPromotableSinglePhaseNotification = IPromotableSinglePhaseNotification$instance;
 
 export interface ISimpleTransactionSuperior$instance extends ITransactionPromoter {
-    promote(): byte[] | undefined;
-    rollback(): void;
+    Promote(): byte[] | undefined;
+    Rollback(): void;
 }
 
 
@@ -113,9 +113,9 @@ export interface ISimpleTransactionSuperior$instance extends ITransactionPromote
 export type ISimpleTransactionSuperior = ISimpleTransactionSuperior$instance;
 
 export interface ISinglePhaseNotification$instance extends IEnlistmentNotification {
-    commit(enlistment: Enlistment): void;
-    prepare(preparingEnlistment: PreparingEnlistment): void;
-    singlePhaseCommit(singlePhaseEnlistment: SinglePhaseEnlistment): void;
+    Commit(enlistment: Enlistment): void;
+    Prepare(preparingEnlistment: PreparingEnlistment): void;
+    SinglePhaseCommit(singlePhaseEnlistment: SinglePhaseEnlistment): void;
 }
 
 
@@ -124,18 +124,18 @@ export interface ISinglePhaseNotification$instance extends IEnlistmentNotificati
 export type ISinglePhaseNotification = ISinglePhaseNotification$instance;
 
 export interface ITransactionPromoter$instance {
-    promote(): byte[] | undefined;
+    Promote(): byte[] | undefined;
 }
 
 
 export type ITransactionPromoter = ITransactionPromoter$instance;
 
 export interface TransactionOptions$instance {
-    isolationLevel: IsolationLevel;
-    timeout: TimeSpan;
-    equals(obj: unknown): boolean;
-    equals(other: TransactionOptions): boolean;
-    getHashCode(): int;
+    IsolationLevel: IsolationLevel;
+    Timeout: TimeSpan;
+    Equals(obj: unknown): boolean;
+    Equals(other: TransactionOptions): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -148,18 +148,18 @@ export interface __TransactionOptions$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<TransactionOptions>;
 
     // Structural method bridges for numeric interface constraints
-    equals(other: TransactionOptions): boolean;
+    Equals(other: TransactionOptions): boolean;
 }
 
 export type TransactionOptions = TransactionOptions$instance & __TransactionOptions$views;
 
 
 export interface CommittableTransaction$instance extends Transaction$instance {
-    beginCommit(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    commit(): void;
-    dispose(): void;
-    endCommit(asyncResult: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    BeginCommit(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    Commit(): void;
+    Dispose(): void;
+    EndCommit(asyncResult: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -182,9 +182,9 @@ export type CommittableTransaction = CommittableTransaction$instance & __Committ
 
 
 export interface DependentTransaction$instance extends Transaction$instance {
-    complete(): void;
-    dispose(): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Complete(): void;
+    Dispose(): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -204,7 +204,7 @@ export type DependentTransaction = DependentTransaction$instance & __DependentTr
 
 
 export interface Enlistment$instance {
-    done(): void;
+    Done(): void;
 }
 
 
@@ -216,10 +216,10 @@ export const Enlistment: {
 export type Enlistment = Enlistment$instance;
 
 export interface PreparingEnlistment$instance extends Enlistment {
-    forceRollback(): void;
-    forceRollback(e: Exception): void;
-    prepared(): void;
-    recoveryInformation(): byte[];
+    ForceRollback(): void;
+    ForceRollback(e: Exception): void;
+    Prepared(): void;
+    RecoveryInformation(): byte[];
 }
 
 
@@ -231,11 +231,11 @@ export const PreparingEnlistment: {
 export type PreparingEnlistment = PreparingEnlistment$instance;
 
 export interface SinglePhaseEnlistment$instance extends Enlistment {
-    aborted(): void;
-    aborted(e: Exception): void;
-    committed(): void;
-    inDoubt(): void;
-    inDoubt(e: Exception): void;
+    Aborted(): void;
+    Aborted(e: Exception): void;
+    Committed(): void;
+    InDoubt(): void;
+    InDoubt(e: Exception): void;
 }
 
 
@@ -247,8 +247,8 @@ export const SinglePhaseEnlistment: {
 export type SinglePhaseEnlistment = SinglePhaseEnlistment$instance;
 
 export interface SubordinateTransaction$instance extends Transaction$instance {
-    dispose(): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Dispose(): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -268,32 +268,32 @@ export type SubordinateTransaction = SubordinateTransaction$instance & __Subordi
 
 
 export interface Transaction$instance {
-    readonly isolationLevel: IsolationLevel;
-    readonly promoterType: Guid;
-    readonly transactionInformation: TransactionInformation;
-    clone(): Transaction;
-    dependentClone(cloneOption: DependentCloneOption): DependentTransaction;
-    dispose(): void;
-    enlistDurable(resourceManagerIdentifier: Guid, enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    enlistDurable(resourceManagerIdentifier: Guid, singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    enlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification): boolean;
-    enlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification, promoterType: Guid): boolean;
-    enlistVolatile(enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    enlistVolatile(singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    equals(obj: unknown): boolean;
-    getHashCode(): int;
-    getPromotedToken(): byte[];
-    promoteAndEnlistDurable(resourceManagerIdentifier: Guid, promotableNotification: IPromotableSinglePhaseNotification, enlistmentNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    rollback(): void;
-    rollback(e: Exception): void;
-    setDistributedTransactionIdentifier(promotableNotification: IPromotableSinglePhaseNotification, distributedTransactionIdentifier: Guid): void;
+    readonly IsolationLevel: IsolationLevel;
+    readonly PromoterType: Guid;
+    readonly TransactionInformation: TransactionInformation;
+    Clone(): Transaction;
+    DependentClone(cloneOption: DependentCloneOption): DependentTransaction;
+    Dispose(): void;
+    EnlistDurable(resourceManagerIdentifier: Guid, enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
+    EnlistDurable(resourceManagerIdentifier: Guid, singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
+    EnlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification): boolean;
+    EnlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification, promoterType: Guid): boolean;
+    EnlistVolatile(enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
+    EnlistVolatile(singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
+    Equals(obj: unknown): boolean;
+    GetHashCode(): int;
+    GetPromotedToken(): byte[];
+    PromoteAndEnlistDurable(resourceManagerIdentifier: Guid, promotableNotification: IPromotableSinglePhaseNotification, enlistmentNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
+    Rollback(): void;
+    Rollback(e: Exception): void;
+    SetDistributedTransactionIdentifier(promotableNotification: IPromotableSinglePhaseNotification, distributedTransactionIdentifier: Guid): void;
 }
 
 
 export const Transaction: {
     new(): Transaction;
-    get current(): Transaction | undefined;
-    set current(value: Transaction);
+    get Current(): Transaction | undefined;
+    set Current(value: Transaction);
 };
 
 
@@ -308,7 +308,7 @@ export type Transaction = Transaction$instance & __Transaction$views;
 
 
 export interface TransactionAbortedException$instance extends TransactionException$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -327,7 +327,7 @@ export type TransactionAbortedException = TransactionAbortedException$instance &
 
 
 export interface TransactionEventArgs$instance extends EventArgs {
-    readonly transaction: Transaction | undefined;
+    readonly Transaction: Transaction | undefined;
 }
 
 
@@ -339,7 +339,7 @@ export const TransactionEventArgs: {
 export type TransactionEventArgs = TransactionEventArgs$instance;
 
 export interface TransactionException$instance extends SystemException {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -358,7 +358,7 @@ export type TransactionException = TransactionException$instance & __Transaction
 
 
 export interface TransactionInDoubtException$instance extends TransactionException$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -377,10 +377,10 @@ export type TransactionInDoubtException = TransactionInDoubtException$instance &
 
 
 export interface TransactionInformation$instance {
-    readonly creationTime: DateTime;
-    readonly distributedIdentifier: Guid;
-    readonly localIdentifier: string;
-    readonly status: TransactionStatus;
+    readonly CreationTime: DateTime;
+    readonly DistributedIdentifier: Guid;
+    readonly LocalIdentifier: string;
+    readonly Status: TransactionStatus;
 }
 
 
@@ -392,7 +392,7 @@ export const TransactionInformation: {
 export type TransactionInformation = TransactionInformation$instance;
 
 export interface TransactionManagerCommunicationException$instance extends TransactionException$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -411,7 +411,7 @@ export type TransactionManagerCommunicationException = TransactionManagerCommuni
 
 
 export interface TransactionPromotionException$instance extends TransactionException$instance {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -430,8 +430,8 @@ export type TransactionPromotionException = TransactionPromotionException$instan
 
 
 export interface TransactionScope$instance {
-    complete(): void;
-    dispose(): void;
+    Complete(): void;
+    Dispose(): void;
 }
 
 
@@ -463,27 +463,27 @@ export type TransactionScope = TransactionScope$instance & __TransactionScope$vi
 
 
 export abstract class TransactionInterop$instance {
-    static readonly promoterTypeDtc: Guid;
-    static getDtcTransaction(transaction: Transaction): IDtcTransaction;
-    static getExportCookie(transaction: Transaction, whereabouts: byte[]): byte[];
-    static getTransactionFromDtcTransaction(transactionNative: IDtcTransaction): Transaction;
-    static getTransactionFromExportCookie(cookie: byte[]): Transaction;
-    static getTransactionFromTransmitterPropagationToken(propagationToken: byte[]): Transaction;
-    static getTransmitterPropagationToken(transaction: Transaction): byte[];
-    static getWhereabouts(): byte[];
+    static readonly PromoterTypeDtc: Guid;
+    static GetDtcTransaction(transaction: Transaction): IDtcTransaction;
+    static GetExportCookie(transaction: Transaction, whereabouts: byte[]): byte[];
+    static GetTransactionFromDtcTransaction(transactionNative: IDtcTransaction): Transaction;
+    static GetTransactionFromExportCookie(cookie: byte[]): Transaction;
+    static GetTransactionFromTransmitterPropagationToken(propagationToken: byte[]): Transaction;
+    static GetTransmitterPropagationToken(transaction: Transaction): byte[];
+    static GetWhereabouts(): byte[];
 }
 
 
 export type TransactionInterop = TransactionInterop$instance;
 
 export abstract class TransactionManager$instance {
-    static get hostCurrentCallback(): HostCurrentTransactionCallback | undefined;
-    static set hostCurrentCallback(value: HostCurrentTransactionCallback);
-    static defaultTimeout: TimeSpan;
-    static maximumTimeout: TimeSpan;
-    static implicitDistributedTransactions: boolean;
-    static recoveryComplete(resourceManagerIdentifier: Guid): void;
-    static reenlist(resourceManagerIdentifier: Guid, recoveryInformation: byte[], enlistmentNotification: IEnlistmentNotification): Enlistment;
+    static get HostCurrentCallback(): HostCurrentTransactionCallback | undefined;
+    static set HostCurrentCallback(value: HostCurrentTransactionCallback);
+    static DefaultTimeout: TimeSpan;
+    static MaximumTimeout: TimeSpan;
+    static ImplicitDistributedTransactions: boolean;
+    static RecoveryComplete(resourceManagerIdentifier: Guid): void;
+    static Reenlist(resourceManagerIdentifier: Guid, recoveryInformation: byte[], enlistmentNotification: IEnlistmentNotification): Enlistment;
 }
 
 

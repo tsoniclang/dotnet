@@ -71,11 +71,10 @@ cd "$TSBINDGEN_DIR"
 dotnet build src/tsbindgen/tsbindgen.csproj -c Release --verbosity quiet
 echo "  Done"
 
-# Generate types with JavaScript-style naming (lowerFirst for PascalCase members).
+# Generate types with CLR-faithful naming (no casing transforms).
 echo "[3/3] Generating TypeScript declarations..."
 dotnet run --project src/tsbindgen/tsbindgen.csproj --no-build -c Release -- \
-    generate -d "$DOTNET_RUNTIME_PATH" -o "$OUT_DIR" \
-    --naming js
+    generate -d "$DOTNET_RUNTIME_PATH" -o "$OUT_DIR"
 
 cp -f "$PROJECT_DIR/README.md" "$OUT_DIR/README.md"
 cp -f "$PROJECT_DIR/LICENSE" "$OUT_DIR/LICENSE"

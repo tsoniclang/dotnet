@@ -19,31 +19,31 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum PartialTrustVisibilityLevel {
-    visibleToAllHosts = 0,
-    notVisibleByDefault = 1
+    VisibleToAllHosts = 0,
+    NotVisibleByDefault = 1
 }
 
 
 export enum SecurityCriticalScope {
-    explicit = 0,
-    everything = 1
+    Explicit = 0,
+    Everything = 1
 }
 
 
 export enum SecurityRuleSet {
-    none = 0,
-    level1 = 1,
-    level2 = 2
+    None = 0,
+    Level1 = 1,
+    Level2 = 2
 }
 
 
 export interface IPermission$instance extends ISecurityEncodable {
-    copy(): IPermission;
-    demand(): void;
-    fromXml(e: SecurityElement): void;
-    intersect(target: IPermission): IPermission | undefined;
-    isSubsetOf(target: IPermission): boolean;
-    toXml(): SecurityElement | undefined;
+    Copy(): IPermission;
+    Demand(): void;
+    FromXml(e: SecurityElement): void;
+    Intersect(target: IPermission): IPermission | undefined;
+    IsSubsetOf(target: IPermission): boolean;
+    ToXml(): SecurityElement | undefined;
 }
 
 
@@ -52,22 +52,22 @@ export interface IPermission$instance extends ISecurityEncodable$instance {}
 export type IPermission = IPermission$instance;
 
 export interface ISecurityEncodable$instance {
-    fromXml(e: SecurityElement): void;
-    toXml(): SecurityElement | undefined;
+    FromXml(e: SecurityElement): void;
+    ToXml(): SecurityElement | undefined;
 }
 
 
 export type ISecurityEncodable = ISecurityEncodable$instance;
 
 export interface IStackWalk$instance {
-    assert(): void;
+    Assert(): void;
 }
 
 
 export type IStackWalk = IStackWalk$instance;
 
 export interface AllowPartiallyTrustedCallersAttribute$instance extends Attribute {
-    partialTrustVisibilityLevel: PartialTrustVisibilityLevel;
+    PartialTrustVisibilityLevel: PartialTrustVisibilityLevel;
 }
 
 
@@ -79,40 +79,40 @@ export const AllowPartiallyTrustedCallersAttribute: {
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
 export interface PermissionSet$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly syncRoot: unknown;
-    addPermission(perm: IPermission): IPermission | undefined;
-    assert(): void;
-    containsNonCodeAccessPermissions(): boolean;
-    copy(): PermissionSet;
-    copyTo(array: ClrArray, index: int): void;
-    demand(): void;
-    deny(): void;
-    equals(o: unknown): boolean;
-    fromXml(et: SecurityElement): void;
-    getEnumerator(): IEnumerator;
-    getHashCode(): int;
-    getPermission(permClass: Type): IPermission | undefined;
-    intersect(other: PermissionSet): PermissionSet | undefined;
-    isEmpty(): boolean;
-    isSubsetOf(target: PermissionSet): boolean;
-    isUnrestricted(): boolean;
-    permitOnly(): void;
-    removePermission(permClass: Type): IPermission | undefined;
-    setPermission(perm: IPermission): IPermission | undefined;
-    toString(): string;
-    toXml(): SecurityElement | undefined;
-    union(other: PermissionSet): PermissionSet | undefined;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly SyncRoot: unknown;
+    AddPermission(perm: IPermission): IPermission | undefined;
+    Assert(): void;
+    ContainsNonCodeAccessPermissions(): boolean;
+    Copy(): PermissionSet;
+    CopyTo(array: ClrArray, index: int): void;
+    Demand(): void;
+    Deny(): void;
+    Equals(o: unknown): boolean;
+    FromXml(et: SecurityElement): void;
+    GetEnumerator(): IEnumerator;
+    GetHashCode(): int;
+    GetPermission(permClass: Type): IPermission | undefined;
+    Intersect(other: PermissionSet): PermissionSet | undefined;
+    IsEmpty(): boolean;
+    IsSubsetOf(target: PermissionSet): boolean;
+    IsUnrestricted(): boolean;
+    PermitOnly(): void;
+    RemovePermission(permClass: Type): IPermission | undefined;
+    SetPermission(perm: IPermission): IPermission | undefined;
+    ToString(): string;
+    ToXml(): SecurityElement | undefined;
+    Union(other: PermissionSet): PermissionSet | undefined;
 }
 
 
 export const PermissionSet: {
     new(state: PermissionState): PermissionSet;
     new(permSet: PermissionSet): PermissionSet;
-    convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
-    revertAssert(): void;
+    ConvertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
+    RevertAssert(): void;
 };
 
 
@@ -130,16 +130,16 @@ export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
 export interface SecureString$instance {
-    readonly length: int;
-    appendChar(c: char): void;
-    clear(): void;
-    copy(): SecureString;
-    dispose(): void;
-    insertAt(index: int, c: char): void;
-    isReadOnly(): boolean;
-    makeReadOnly(): void;
-    removeAt(index: int): void;
-    setAt(index: int, c: char): void;
+    readonly Length: int;
+    AppendChar(c: char): void;
+    Clear(): void;
+    Copy(): SecureString;
+    Dispose(): void;
+    InsertAt(index: int, c: char): void;
+    IsReadOnly(): boolean;
+    MakeReadOnly(): void;
+    RemoveAt(index: int): void;
+    SetAt(index: int, c: char): void;
 }
 
 
@@ -159,7 +159,7 @@ export type SecureString = SecureString$instance & __SecureString$views;
 
 
 export interface SecurityCriticalAttribute$instance extends Attribute {
-    readonly scope: SecurityCriticalScope;
+    readonly Scope: SecurityCriticalScope;
 }
 
 
@@ -172,58 +172,58 @@ export const SecurityCriticalAttribute: {
 export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 
 export interface SecurityElement$instance {
-    attributes: Hashtable;
-    get children(): ArrayList | undefined;
-    set children(value: ArrayList);
-    tag: string;
-    text: string;
-    addAttribute(name: string, value: string): void;
-    addChild(child: SecurityElement): void;
-    attribute(name: string): string | undefined;
-    copy(): SecurityElement;
-    equal(other: SecurityElement): boolean;
-    searchForChildByTag(tag: string): SecurityElement | undefined;
-    searchForTextOfTag(tag: string): string | undefined;
-    toString(): string;
+    Attributes: Hashtable;
+    get Children(): ArrayList | undefined;
+    set Children(value: ArrayList);
+    Tag: string;
+    Text: string;
+    AddAttribute(name: string, value: string): void;
+    AddChild(child: SecurityElement): void;
+    Attribute(name: string): string | undefined;
+    Copy(): SecurityElement;
+    Equal(other: SecurityElement): boolean;
+    SearchForChildByTag(tag: string): SecurityElement | undefined;
+    SearchForTextOfTag(tag: string): string | undefined;
+    ToString(): string;
 }
 
 
 export const SecurityElement: {
     new(tag: string): SecurityElement;
     new(tag: string, text: string): SecurityElement;
-    escape(str: string): string | undefined;
-    fromString(xml: string): SecurityElement | undefined;
-    isValidAttributeName(name: string): boolean;
-    isValidAttributeValue(value: string): boolean;
-    isValidTag(tag: string): boolean;
-    isValidText(text: string): boolean;
+    Escape(str: string): string | undefined;
+    FromString(xml: string): SecurityElement | undefined;
+    IsValidAttributeName(name: string): boolean;
+    IsValidAttributeValue(value: string): boolean;
+    IsValidTag(tag: string): boolean;
+    IsValidText(text: string): boolean;
 };
 
 
 export type SecurityElement = SecurityElement$instance;
 
 export interface SecurityException$instance extends SystemException {
-    get demanded(): unknown | undefined;
-    set demanded(value: unknown);
-    get denySetInstance(): unknown | undefined;
-    set denySetInstance(value: unknown);
-    get failedAssemblyInfo(): AssemblyName | undefined;
-    set failedAssemblyInfo(value: AssemblyName);
-    get grantedSet(): string | undefined;
-    set grantedSet(value: string);
-    method: MethodInfo;
-    get permissionState(): string | undefined;
-    set permissionState(value: string);
-    get permissionType(): Type | undefined;
-    set permissionType(value: Type);
-    get permitOnlySetInstance(): unknown | undefined;
-    set permitOnlySetInstance(value: unknown);
-    get refusedSet(): string | undefined;
-    set refusedSet(value: string);
-    get url(): string | undefined;
-    set url(value: string);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    get Demanded(): unknown | undefined;
+    set Demanded(value: unknown);
+    get DenySetInstance(): unknown | undefined;
+    set DenySetInstance(value: unknown);
+    get FailedAssemblyInfo(): AssemblyName | undefined;
+    set FailedAssemblyInfo(value: AssemblyName);
+    get GrantedSet(): string | undefined;
+    set GrantedSet(value: string);
+    Method: MethodInfo;
+    get PermissionState(): string | undefined;
+    set PermissionState(value: string);
+    get PermissionType(): Type | undefined;
+    set PermissionType(value: Type);
+    get PermitOnlySetInstance(): unknown | undefined;
+    set PermitOnlySetInstance(value: unknown);
+    get RefusedSet(): string | undefined;
+    set RefusedSet(value: string);
+    get Url(): string | undefined;
+    set Url(value: string);
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    ToString(): string;
 }
 
 
@@ -244,8 +244,8 @@ export type SecurityException = SecurityException$instance & __SecurityException
 
 
 export interface SecurityRulesAttribute$instance extends Attribute {
-    readonly ruleSet: SecurityRuleSet;
-    skipVerificationInFullTrust: boolean;
+    readonly RuleSet: SecurityRuleSet;
+    SkipVerificationInFullTrust: boolean;
 }
 
 
@@ -312,7 +312,7 @@ export const UnverifiableCodeAttribute: {
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
 export interface VerificationException$instance extends SystemException {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -331,10 +331,10 @@ export type VerificationException = VerificationException$instance & __Verificat
 
 
 export abstract class SecureStringMarshal$instance {
-    static secureStringToCoTaskMemAnsi(s: SecureString): nint;
-    static secureStringToCoTaskMemUnicode(s: SecureString): nint;
-    static secureStringToGlobalAllocAnsi(s: SecureString): nint;
-    static secureStringToGlobalAllocUnicode(s: SecureString): nint;
+    static SecureStringToCoTaskMemAnsi(s: SecureString): nint;
+    static SecureStringToCoTaskMemUnicode(s: SecureString): nint;
+    static SecureStringToGlobalAllocAnsi(s: SecureString): nint;
+    static SecureStringToGlobalAllocUnicode(s: SecureString): nint;
 }
 
 

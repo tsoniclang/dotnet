@@ -10,17 +10,17 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum Cer {
-    none = 0,
-    mayFail = 1,
-    success = 2
+    None = 0,
+    MayFail = 1,
+    Success = 2
 }
 
 
 export enum Consistency {
-    mayCorruptProcess = 0,
-    mayCorruptAppDomain = 1,
-    mayCorruptInstance = 2,
-    willNotCorruptState = 3
+    MayCorruptProcess = 0,
+    MayCorruptAppDomain = 1,
+    MayCorruptInstance = 2,
+    WillNotCorruptState = 3
 }
 
 
@@ -46,8 +46,8 @@ export const PrePrepareMethodAttribute: {
 export type PrePrepareMethodAttribute = PrePrepareMethodAttribute$instance;
 
 export interface ReliabilityContractAttribute$instance extends Attribute {
-    readonly cer: Cer;
-    readonly consistencyGuarantee: Consistency;
+    readonly Cer: Cer;
+    readonly ConsistencyGuarantee: Consistency;
 }
 
 

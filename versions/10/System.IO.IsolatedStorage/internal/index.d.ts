@@ -19,35 +19,35 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt64, Void } from "../../System/internal/index.js";
 
 export enum IsolatedStorageScope {
-    none = 0,
-    user = 1,
-    domain = 2,
-    assembly = 4,
-    roaming = 8,
-    machine = 16,
-    application = 32
+    None = 0,
+    User = 1,
+    Domain = 2,
+    Assembly = 4,
+    Roaming = 8,
+    Machine = 16,
+    Application = 32
 }
 
 
 export interface INormalizeForIsolatedStorage$instance {
-    normalize(): unknown;
+    Normalize(): unknown;
 }
 
 
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
 export interface IsolatedStorage$instance extends MarshalByRefObject {
-    readonly applicationIdentity: unknown;
-    readonly assemblyIdentity: unknown;
-    readonly availableFreeSpace: long;
-    readonly currentSize: ulong;
-    readonly domainIdentity: unknown;
-    readonly maximumSize: ulong;
-    readonly quota: long;
-    readonly scope: IsolatedStorageScope;
-    readonly usedSize: long;
-    increaseQuotaTo(newQuotaSize: long): boolean;
-    remove(): void;
+    readonly ApplicationIdentity: unknown;
+    readonly AssemblyIdentity: unknown;
+    readonly AvailableFreeSpace: long;
+    readonly CurrentSize: ulong;
+    readonly DomainIdentity: unknown;
+    readonly MaximumSize: ulong;
+    readonly Quota: long;
+    readonly Scope: IsolatedStorageScope;
+    readonly UsedSize: long;
+    IncreaseQuotaTo(newQuotaSize: long): boolean;
+    Remove(): void;
 }
 
 
@@ -58,7 +58,7 @@ export const IsolatedStorage: {
 export type IsolatedStorage = IsolatedStorage$instance;
 
 export interface IsolatedStorageException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -77,54 +77,54 @@ export type IsolatedStorageException = IsolatedStorageException$instance & __Iso
 
 
 export interface IsolatedStorageFile$instance extends IsolatedStorage {
-    readonly availableFreeSpace: long;
-    readonly currentSize: ulong;
-    readonly maximumSize: ulong;
-    readonly quota: long;
-    readonly usedSize: long;
-    close(): void;
-    copyFile(sourceFileName: string, destinationFileName: string): void;
-    copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    createDirectory(dir: string): void;
-    createFile(path: string): IsolatedStorageFileStream;
-    deleteDirectory(dir: string): void;
-    deleteFile(file: string): void;
-    directoryExists(path: string): boolean;
-    dispose(): void;
-    fileExists(path: string): boolean;
-    getCreationTime(path: string): DateTimeOffset;
-    getDirectoryNames(): string[];
-    getDirectoryNames(searchPattern: string): string[];
-    getFileNames(): string[];
-    getFileNames(searchPattern: string): string[];
-    getLastAccessTime(path: string): DateTimeOffset;
-    getLastWriteTime(path: string): DateTimeOffset;
-    increaseQuotaTo(newQuotaSize: long): boolean;
-    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    moveFile(sourceFileName: string, destinationFileName: string): void;
-    openFile(path: string, mode: FileMode): IsolatedStorageFileStream;
-    openFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
-    openFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
-    remove(): void;
+    readonly AvailableFreeSpace: long;
+    readonly CurrentSize: ulong;
+    readonly MaximumSize: ulong;
+    readonly Quota: long;
+    readonly UsedSize: long;
+    Close(): void;
+    CopyFile(sourceFileName: string, destinationFileName: string): void;
+    CopyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    CreateDirectory(dir: string): void;
+    CreateFile(path: string): IsolatedStorageFileStream;
+    DeleteDirectory(dir: string): void;
+    DeleteFile(file: string): void;
+    DirectoryExists(path: string): boolean;
+    Dispose(): void;
+    FileExists(path: string): boolean;
+    GetCreationTime(path: string): DateTimeOffset;
+    GetDirectoryNames(): string[];
+    GetDirectoryNames(searchPattern: string): string[];
+    GetFileNames(): string[];
+    GetFileNames(searchPattern: string): string[];
+    GetLastAccessTime(path: string): DateTimeOffset;
+    GetLastWriteTime(path: string): DateTimeOffset;
+    IncreaseQuotaTo(newQuotaSize: long): boolean;
+    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    MoveFile(sourceFileName: string, destinationFileName: string): void;
+    OpenFile(path: string, mode: FileMode): IsolatedStorageFileStream;
+    OpenFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
+    OpenFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
+    Remove(): void;
 }
 
 
 export const IsolatedStorageFile: {
     new(): IsolatedStorageFile;
-    readonly isEnabled: boolean;
-    getEnumerator(scope: IsolatedStorageScope): IEnumerator;
-    getMachineStoreForApplication(): IsolatedStorageFile;
-    getMachineStoreForAssembly(): IsolatedStorageFile;
-    getMachineStoreForDomain(): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
-    getUserStoreForApplication(): IsolatedStorageFile;
-    getUserStoreForAssembly(): IsolatedStorageFile;
-    getUserStoreForDomain(): IsolatedStorageFile;
-    getUserStoreForSite(): IsolatedStorageFile;
-    remove(scope: IsolatedStorageScope): void;
+    readonly IsEnabled: boolean;
+    GetEnumerator(scope: IsolatedStorageScope): IEnumerator;
+    GetMachineStoreForApplication(): IsolatedStorageFile;
+    GetMachineStoreForAssembly(): IsolatedStorageFile;
+    GetMachineStoreForDomain(): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
+    GetUserStoreForApplication(): IsolatedStorageFile;
+    GetUserStoreForAssembly(): IsolatedStorageFile;
+    GetUserStoreForDomain(): IsolatedStorageFile;
+    GetUserStoreForSite(): IsolatedStorageFile;
+    Remove(scope: IsolatedStorageScope): void;
 };
 
 
@@ -138,45 +138,45 @@ export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStora
 
 
 export interface IsolatedStorageFileStream$instance extends FileStream {
-    readonly canRead: boolean;
-    readonly canSeek: boolean;
-    readonly canWrite: boolean;
-    readonly handle: nint;
-    readonly isAsync: boolean;
-    readonly length: long;
-    position: long;
-    readonly safeFileHandle: SafeFileHandle;
-    beginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
-    beginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    endRead(asyncResult: IAsyncResult): int;
-    endWrite(asyncResult: IAsyncResult): void;
-    flush(): void;
-    flush(flushToDisk: boolean): void;
-    flushAsync(cancellationToken: CancellationToken): Task;
-    flushAsync(): Task;
-    lock(position: long, length: long): void;
-    read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<System_Internal.Byte>): int;
-    read(buffer: Span_1<System_Internal.Byte>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    readByte(): int;
-    seek(offset: long, origin: SeekOrigin): long;
-    setLength(value: long): void;
-    unlock(position: long, length: long): void;
-    write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask;
-    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeByte(value: byte): void;
+    readonly CanRead: boolean;
+    readonly CanSeek: boolean;
+    readonly CanWrite: boolean;
+    readonly Handle: nint;
+    readonly IsAsync: boolean;
+    readonly Length: long;
+    Position: long;
+    readonly SafeFileHandle: SafeFileHandle;
+    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
+    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    EndRead(asyncResult: IAsyncResult): int;
+    EndWrite(asyncResult: IAsyncResult): void;
+    Flush(): void;
+    Flush(flushToDisk: boolean): void;
+    FlushAsync(cancellationToken: CancellationToken): Task;
+    FlushAsync(): Task;
+    Lock(position: long, length: long): void;
+    Read(buffer: byte[], offset: int, count: int): int;
+    Read(buffer: Span_1<System_Internal.Byte>): int;
+    Read(buffer: Span_1<System_Internal.Byte>): int;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    ReadByte(): int;
+    Seek(offset: long, origin: SeekOrigin): long;
+    SetLength(value: long): void;
+    Unlock(position: long, length: long): void;
+    Write(buffer: byte[], offset: int, count: int): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
+    WriteAsync(buffer: byte[], offset: int, count: int): Task;
+    WriteByte(value: byte): void;
 }
 
 

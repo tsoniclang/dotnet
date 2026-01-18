@@ -10,7 +10,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum AssemblyHashAlgorithm {
-    none = 0,
+    None = 0,
     MD5 = 32771,
     SHA1 = 32772,
     SHA256 = 32780,
@@ -20,9 +20,9 @@ export enum AssemblyHashAlgorithm {
 
 
 export enum AssemblyVersionCompatibility {
-    sameMachine = 1,
-    sameProcess = 2,
-    sameDomain = 3
+    SameMachine = 1,
+    SameProcess = 2,
+    SameDomain = 3
 }
 
 

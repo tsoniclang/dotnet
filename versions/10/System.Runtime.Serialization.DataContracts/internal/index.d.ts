@@ -19,44 +19,44 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface DataContract$instance {
-    readonly baseContract: DataContract | undefined;
-    readonly contractType: string | undefined;
-    readonly dataMembers: ReadOnlyCollection_1<DataMember>;
-    readonly isBuiltInDataContract: boolean;
-    readonly isISerializable: boolean;
-    readonly isReference: boolean;
-    readonly isValueType: boolean;
-    readonly knownDataContracts: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    readonly originalUnderlyingType: Type;
-    readonly topLevelElementName: XmlDictionaryString | undefined;
-    readonly topLevelElementNamespace: XmlDictionaryString | undefined;
-    readonly underlyingType: Type;
-    readonly xmlName: XmlQualifiedName;
-    equals(obj: unknown): boolean;
-    getArrayTypeName(isNullable: boolean): XmlQualifiedName;
-    getHashCode(): int;
-    isDictionaryLike(keyName: string, valueName: string, itemName: string): boolean;
+    readonly BaseContract: DataContract | undefined;
+    readonly ContractType: string | undefined;
+    readonly DataMembers: ReadOnlyCollection_1<DataMember>;
+    readonly IsBuiltInDataContract: boolean;
+    readonly IsISerializable: boolean;
+    readonly IsReference: boolean;
+    readonly IsValueType: boolean;
+    readonly KnownDataContracts: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
+    readonly OriginalUnderlyingType: Type;
+    readonly TopLevelElementName: XmlDictionaryString | undefined;
+    readonly TopLevelElementNamespace: XmlDictionaryString | undefined;
+    readonly UnderlyingType: Type;
+    readonly XmlName: XmlQualifiedName;
+    Equals(obj: unknown): boolean;
+    GetArrayTypeName(isNullable: boolean): XmlQualifiedName;
+    GetHashCode(): int;
+    IsDictionaryLike(keyName: string, valueName: string, itemName: string): boolean;
 }
 
 
 export const DataContract: {
-    getBuiltInDataContract(name: string, ns: string): DataContract | undefined;
-    getXmlName(type: Type): XmlQualifiedName;
+    GetBuiltInDataContract(name: string, ns: string): DataContract | undefined;
+    GetXmlName(type: Type): XmlQualifiedName;
 };
 
 
 export type DataContract = DataContract$instance;
 
 export interface DataContractSet$instance {
-    readonly contracts: Dictionary_2<XmlQualifiedName, DataContract>;
-    readonly knownTypesForObject: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    readonly processedContracts: Dictionary_2<DataContract, unknown>;
-    readonly surrogateData: Hashtable;
-    getDataContract(type: Type): DataContract;
-    getDataContract(key: XmlQualifiedName): DataContract | undefined;
-    getReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract, genericParameters: unknown[], supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | undefined;
-    importSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName>, importXmlDataType: boolean): void;
-    importSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
+    readonly Contracts: Dictionary_2<XmlQualifiedName, DataContract>;
+    readonly KnownTypesForObject: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
+    readonly ProcessedContracts: Dictionary_2<DataContract, unknown>;
+    readonly SurrogateData: Hashtable;
+    GetDataContract(type: Type): DataContract;
+    GetDataContract(key: XmlQualifiedName): DataContract | undefined;
+    GetReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract, genericParameters: unknown[], supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | undefined;
+    ImportSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName>, importXmlDataType: boolean): void;
+    ImportSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
 }
 
 
@@ -69,12 +69,12 @@ export const DataContractSet: {
 export type DataContractSet = DataContractSet$instance;
 
 export interface DataMember$instance {
-    readonly emitDefaultValue: boolean;
-    readonly isNullable: boolean;
-    readonly isRequired: boolean;
-    readonly memberTypeContract: DataContract;
-    readonly name: string;
-    readonly order: long;
+    readonly EmitDefaultValue: boolean;
+    readonly IsNullable: boolean;
+    readonly IsRequired: boolean;
+    readonly MemberTypeContract: DataContract;
+    readonly Name: string;
+    readonly Order: long;
 }
 
 
@@ -86,17 +86,17 @@ export const DataMember: {
 export type DataMember = DataMember$instance;
 
 export interface XmlDataContract$instance extends DataContract {
-    readonly contractType: string | undefined;
-    readonly hasRoot: boolean;
-    readonly isAnonymous: boolean;
-    readonly isBuiltInDataContract: boolean;
-    readonly isTopLevelElementNullable: boolean;
-    isTypeDefinedOnImport: boolean;
-    isValueType: boolean;
-    readonly knownDataContracts: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    readonly topLevelElementName: XmlDictionaryString | undefined;
-    readonly topLevelElementNamespace: XmlDictionaryString | undefined;
-    readonly xsdType: XmlSchemaType | undefined;
+    readonly ContractType: string | undefined;
+    readonly HasRoot: boolean;
+    readonly IsAnonymous: boolean;
+    readonly IsBuiltInDataContract: boolean;
+    readonly IsTopLevelElementNullable: boolean;
+    IsTypeDefinedOnImport: boolean;
+    IsValueType: boolean;
+    readonly KnownDataContracts: Dictionary_2<XmlQualifiedName, DataContract> | undefined;
+    readonly TopLevelElementName: XmlDictionaryString | undefined;
+    readonly TopLevelElementNamespace: XmlDictionaryString | undefined;
+    readonly XsdType: XmlSchemaType | undefined;
 }
 
 
