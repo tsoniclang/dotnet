@@ -1,0 +1,3139 @@
+{
+  "namespace": "System.Text.Json.Serialization",
+  "contributingAssemblies": [
+    "System.Text.Json"
+  ],
+  "types": [
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition",
+      "clrName": "System.Text.Json.Serialization.JsonIgnoreCondition",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109505,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::NeverSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "Never",
+          "metadataToken": 67109506,
+          "normalizedSignature": "Never|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::AlwaysSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "Always",
+          "metadataToken": 67109507,
+          "normalizedSignature": "Always|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::WhenWritingDefaultSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "WhenWritingDefault",
+          "metadataToken": 67109508,
+          "normalizedSignature": "WhenWritingDefault|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::WhenWritingNullSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "WhenWritingNull",
+          "metadataToken": 67109509,
+          "normalizedSignature": "WhenWritingNull|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::WhenWritingSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "WhenWriting",
+          "metadataToken": 67109510,
+          "normalizedSignature": "WhenWriting|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::WhenReadingSystem.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "WhenReading",
+          "metadataToken": 67109511,
+          "normalizedSignature": "WhenReading|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreCondition",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy",
+      "clrName": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109512,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::UnspecifiedSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "Unspecified",
+          "metadataToken": 67109513,
+          "normalizedSignature": "Unspecified|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::CamelCaseSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "CamelCase",
+          "metadataToken": 67109514,
+          "normalizedSignature": "CamelCase|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::SnakeCaseLowerSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "SnakeCaseLower",
+          "metadataToken": 67109515,
+          "normalizedSignature": "SnakeCaseLower|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::SnakeCaseUpperSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "SnakeCaseUpper",
+          "metadataToken": 67109516,
+          "normalizedSignature": "SnakeCaseUpper|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::KebabCaseLowerSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "KebabCaseLower",
+          "metadataToken": 67109517,
+          "normalizedSignature": "KebabCaseLower|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownNamingPolicy::KebabCaseUpperSystem.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "KebabCaseUpper",
+          "metadataToken": 67109518,
+          "normalizedSignature": "KebabCaseUpper|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownReferenceHandler",
+      "clrName": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownReferenceHandler::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109519,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownReferenceHandler::UnspecifiedSystem.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "clrName": "Unspecified",
+          "metadataToken": 67109520,
+          "normalizedSignature": "Unspecified|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownReferenceHandler::PreserveSystem.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "clrName": "Preserve",
+          "metadataToken": 67109521,
+          "normalizedSignature": "Preserve|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonKnownReferenceHandler::IgnoreCyclesSystem.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "clrName": "IgnoreCycles",
+          "metadataToken": 67109522,
+          "normalizedSignature": "IgnoreCycles|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling",
+      "clrName": "System.Text.Json.Serialization.JsonNumberHandling",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109523,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling::StrictSystem.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "Strict",
+          "metadataToken": 67109524,
+          "normalizedSignature": "Strict|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling::AllowReadingFromStringSystem.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "AllowReadingFromString",
+          "metadataToken": 67109525,
+          "normalizedSignature": "AllowReadingFromString|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling::WriteAsStringSystem.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "WriteAsString",
+          "metadataToken": 67109526,
+          "normalizedSignature": "WriteAsString|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandling::AllowNamedFloatingPointLiteralsSystem.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "AllowNamedFloatingPointLiterals",
+          "metadataToken": 67109527,
+          "normalizedSignature": "AllowNamedFloatingPointLiterals|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandling",
+      "clrName": "System.Text.Json.Serialization.JsonObjectCreationHandling",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandling::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109528,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandling::ReplaceSystem.Text.Json.Serialization.JsonObjectCreationHandling",
+          "clrName": "Replace",
+          "metadataToken": 67109529,
+          "normalizedSignature": "Replace|System.Text.Json.Serialization.JsonObjectCreationHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandling::PopulateSystem.Text.Json.Serialization.JsonObjectCreationHandling",
+          "clrName": "Populate",
+          "metadataToken": 67109530,
+          "normalizedSignature": "Populate|System.Text.Json.Serialization.JsonObjectCreationHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode",
+      "clrName": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109533,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::DefaultSystem.Text.Json.Serialization.JsonSourceGenerationMode",
+          "clrName": "Default",
+          "metadataToken": 67109534,
+          "normalizedSignature": "Default|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::MetadataSystem.Text.Json.Serialization.JsonSourceGenerationMode",
+          "clrName": "Metadata",
+          "metadataToken": 67109535,
+          "normalizedSignature": "Metadata|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::SerializationSystem.Text.Json.Serialization.JsonSourceGenerationMode",
+          "clrName": "Serialization",
+          "metadataToken": 67109536,
+          "normalizedSignature": "Serialization|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+      "clrName": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109584,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling::FailSerializationSystem.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "clrName": "FailSerialization",
+          "metadataToken": 67109585,
+          "normalizedSignature": "FailSerialization|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling::FallBackToBaseTypeSystem.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "clrName": "FallBackToBaseType",
+          "metadataToken": 67109586,
+          "normalizedSignature": "FallBackToBaseType|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling::FallBackToNearestAncestorSystem.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "clrName": "FallBackToNearestAncestor",
+          "metadataToken": 67109587,
+          "normalizedSignature": "FallBackToNearestAncestor|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownTypeHandling",
+      "clrName": "System.Text.Json.Serialization.JsonUnknownTypeHandling",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownTypeHandling::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109564,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownTypeHandling::JsonElementSystem.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "clrName": "JsonElement",
+          "metadataToken": 67109565,
+          "normalizedSignature": "JsonElement|System.Text.Json.Serialization.JsonUnknownTypeHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnknownTypeHandling::JsonNodeSystem.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "clrName": "JsonNode",
+          "metadataToken": 67109566,
+          "normalizedSignature": "JsonNode|System.Text.Json.Serialization.JsonUnknownTypeHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+      "clrName": "System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandling::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67109567,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandling::SkipSystem.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "clrName": "Skip",
+          "metadataToken": 67109568,
+          "normalizedSignature": "Skip|System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandling::DisallowSystem.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "clrName": "Disallow",
+          "metadataToken": 67109569,
+          "normalizedSignature": "Disallow|System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnDeserialized",
+      "clrName": "System.Text.Json.Serialization.IJsonOnDeserialized",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnDeserialized::OnDeserialized():System.Void",
+          "clrName": "OnDeserialized",
+          "metadataToken": 100665756,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnDeserialized|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.IJsonOnDeserialized",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnDeserializing",
+      "clrName": "System.Text.Json.Serialization.IJsonOnDeserializing",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnDeserializing::OnDeserializing():System.Void",
+          "clrName": "OnDeserializing",
+          "metadataToken": 100665757,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnDeserializing|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.IJsonOnDeserializing",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnSerialized",
+      "clrName": "System.Text.Json.Serialization.IJsonOnSerialized",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnSerialized::OnSerialized():System.Void",
+          "clrName": "OnSerialized",
+          "metadataToken": 100665758,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnSerialized|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.IJsonOnSerialized",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnSerializing",
+      "clrName": "System.Text.Json.Serialization.IJsonOnSerializing",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.IJsonOnSerializing::OnSerializing():System.Void",
+          "clrName": "OnSerializing",
+          "metadataToken": 100665759,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnSerializing|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.IJsonOnSerializing",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Attribute",
+        "clrName": "System.Attribute"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConstructorAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonConstructorAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConstructorAttribute::.ctor():void",
+          "metadataToken": 100665718,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConstructorAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter",
+      "clrName": "System.Text.Json.Serialization.JsonConverter",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Object",
+        "clrName": "System.Object"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter::CanConvert(System.Type):System.Boolean",
+          "clrName": "CanConvert",
+          "metadataToken": 100665854,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter::Type:System.Type",
+          "clrName": "Type",
+          "metadataToken": 385876478,
+          "canonicalSignature": ":System.Type",
+          "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601",
+      "clrName": "System.Text.Json.Serialization.JsonConverter\u00601",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "T"
+      ],
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter",
+        "clrName": "System.Text.Json.Serialization.JsonConverter"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::CanConvert(System.Type):System.Boolean",
+          "clrName": "CanConvert",
+          "metadataToken": 100665931,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Read(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
+          "clrName": "Read",
+          "metadataToken": 100665943,
+          "canonicalSignature": "(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
+          "normalizedSignature": "Read|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Write(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
+          "clrName": "Write",
+          "metadataToken": 100665957,
+          "canonicalSignature": "(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
+          "normalizedSignature": "Write|(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::ReadAsPropertyName(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
+          "clrName": "ReadAsPropertyName",
+          "metadataToken": 100665958,
+          "canonicalSignature": "(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T",
+          "normalizedSignature": "ReadAsPropertyName|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::WriteAsPropertyName(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
+          "clrName": "WriteAsPropertyName",
+          "metadataToken": 100665960,
+          "canonicalSignature": "(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void",
+          "normalizedSignature": "WriteAsPropertyName|(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::HandleNull:System.Boolean",
+          "clrName": "HandleNull",
+          "metadataToken": 385876501,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "HandleNull|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Type:System.Type",
+          "clrName": "Type",
+          "metadataToken": 385876502,
+          "canonicalSignature": ":System.Type",
+          "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonConverterAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute::CreateConverter(System.Type):System.Text.Json.Serialization.JsonConverter",
+          "clrName": "CreateConverter",
+          "metadataToken": 100665722,
+          "canonicalSignature": "(System.Type):System.Text.Json.Serialization.JsonConverter",
+          "normalizedSignature": "CreateConverter|(System.Type):System.Text.Json.Serialization.JsonConverter|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverterAttribute",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute::ConverterType:System.Type",
+          "clrName": "ConverterType",
+          "metadataToken": 385876452,
+          "canonicalSignature": ":System.Type",
+          "normalizedSignature": "ConverterType|:System.Type|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverterAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute::.ctor(System.Type):void",
+          "metadataToken": 100665719,
+          "canonicalSignature": "(System.Type):void",
+          "normalizedSignature": "constructor|(System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverterAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory",
+      "clrName": "System.Text.Json.Serialization.JsonConverterFactory",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter",
+        "clrName": "System.Text.Json.Serialization.JsonConverter"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "clrName": "CreateConverter",
+          "metadataToken": 100665913,
+          "canonicalSignature": "(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "normalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverterFactory",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory::Type:System.Type",
+          "clrName": "Type",
+          "metadataToken": 385876500,
+          "canonicalSignature": ":System.Type",
+          "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonConverterFactory",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute::DerivedType:System.Type",
+          "clrName": "DerivedType",
+          "metadataToken": 385876453,
+          "canonicalSignature": ":System.Type",
+          "normalizedSignature": "DerivedType|:System.Type|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute::TypeDiscriminator:System.Object",
+          "clrName": "TypeDiscriminator",
+          "metadataToken": 385876454,
+          "canonicalSignature": ":System.Object",
+          "normalizedSignature": "TypeDiscriminator|:System.Object|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute::.ctor(System.Type):void",
+          "metadataToken": 100665723,
+          "canonicalSignature": "(System.Type):void",
+          "normalizedSignature": "constructor|(System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute::.ctor(System.Type,System.String):void",
+          "metadataToken": 100665724,
+          "canonicalSignature": "(System.Type,System.String):void",
+          "normalizedSignature": "constructor|(System.Type,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute::.ctor(System.Type,System.Int32):void",
+          "metadataToken": 100665725,
+          "canonicalSignature": "(System.Type,System.Int32):void",
+          "normalizedSignature": "constructor|(System.Type,System.Int32):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonExtensionDataAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonExtensionDataAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonExtensionDataAttribute::.ctor():void",
+          "metadataToken": 100665728,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonExtensionDataAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonIgnoreAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreAttribute::Condition:System.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "Condition",
+          "metadataToken": 385876455,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonIgnoreCondition",
+          "normalizedSignature": "Condition|:System.Text.Json.Serialization.JsonIgnoreCondition|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreAttribute::.ctor():void",
+          "metadataToken": 100665731,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIgnoreAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIncludeAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonIncludeAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIncludeAttribute::.ctor():void",
+          "metadataToken": 100665732,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonIncludeAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+      "clrName": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "TEnum"
+      ],
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory",
+        "clrName": "System.Text.Json.Serialization.JsonConverterFactory"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberEnumConverter\u00601::CanConvert(System.Type):System.Boolean",
+          "clrName": "CanConvert",
+          "metadataToken": 100665766,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberEnumConverter\u00601::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "clrName": "CreateConverter",
+          "metadataToken": 100665767,
+          "canonicalSignature": "(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "normalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberEnumConverter\u00601::.ctor():void",
+          "metadataToken": 100665765,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandlingAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonNumberHandlingAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandlingAttribute::Handling:System.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "Handling",
+          "metadataToken": 385876456,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonNumberHandling",
+          "normalizedSignature": "Handling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonNumberHandlingAttribute::.ctor(System.Text.Json.Serialization.JsonNumberHandling):void",
+          "metadataToken": 100665734,
+          "canonicalSignature": "(System.Text.Json.Serialization.JsonNumberHandling):void",
+          "normalizedSignature": "constructor|(System.Text.Json.Serialization.JsonNumberHandling):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonNumberHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute::Handling:System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "clrName": "Handling",
+          "metadataToken": 385876451,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "normalizedSignature": "Handling|:System.Text.Json.Serialization.JsonObjectCreationHandling|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute::.ctor(System.Text.Json.Serialization.JsonObjectCreationHandling):void",
+          "metadataToken": 100665717,
+          "canonicalSignature": "(System.Text.Json.Serialization.JsonObjectCreationHandling):void",
+          "normalizedSignature": "constructor|(System.Text.Json.Serialization.JsonObjectCreationHandling):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPolymorphicAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPolymorphicAttribute::TypeDiscriminatorPropertyName:System.String",
+          "clrName": "TypeDiscriminatorPropertyName",
+          "metadataToken": 385876457,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "TypeDiscriminatorPropertyName|:System.String|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPolymorphicAttribute::UnknownDerivedTypeHandling:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "clrName": "UnknownDerivedTypeHandling",
+          "metadataToken": 385876458,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+          "normalizedSignature": "UnknownDerivedTypeHandling|:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPolymorphicAttribute::IgnoreUnrecognizedTypeDiscriminators:System.Boolean",
+          "clrName": "IgnoreUnrecognizedTypeDiscriminators",
+          "metadataToken": 385876459,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IgnoreUnrecognizedTypeDiscriminators|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPolymorphicAttribute::.ctor():void",
+          "metadataToken": 100665741,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyNameAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyNameAttribute::Name:System.String",
+          "clrName": "Name",
+          "metadataToken": 385876460,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyNameAttribute::.ctor(System.String):void",
+          "metadataToken": 100665742,
+          "canonicalSignature": "(System.String):void",
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyOrderAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonPropertyOrderAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyOrderAttribute::Order:System.Int32",
+          "clrName": "Order",
+          "metadataToken": 385876461,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "Order|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPropertyOrderAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonPropertyOrderAttribute::.ctor(System.Int32):void",
+          "metadataToken": 100665745,
+          "canonicalSignature": "(System.Int32):void",
+          "normalizedSignature": "constructor|(System.Int32):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonPropertyOrderAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonRequiredAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonRequiredAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonRequiredAttribute::.ctor():void",
+          "metadataToken": 100665744,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonRequiredAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializableAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonSerializableAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializableAttribute::TypeInfoPropertyName:System.String",
+          "clrName": "TypeInfoPropertyName",
+          "metadataToken": 385876422,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "TypeInfoPropertyName|:System.String|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSerializableAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializableAttribute::GenerationMode:System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "clrName": "GenerationMode",
+          "metadataToken": 385876423,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "normalizedSignature": "GenerationMode|:System.Text.Json.Serialization.JsonSourceGenerationMode|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSerializableAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializableAttribute::.ctor(System.Type):void",
+          "metadataToken": 100665655,
+          "canonicalSignature": "(System.Type):void",
+          "normalizedSignature": "constructor|(System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSerializableAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializerContext",
+      "clrName": "System.Text.Json.Serialization.JsonSerializerContext",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Object",
+        "clrName": "System.Object"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
+          "clrName": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializerContext::GetTypeInfo(System.Type):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
+          "clrName": "GetTypeInfo",
+          "metadataToken": 100665773,
+          "canonicalSignature": "(System.Type):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
+          "normalizedSignature": "GetTypeInfo|(System.Type):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSerializerContext",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver::GetTypeInfo(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
+          "clrName": "GetTypeInfo",
+          "metadataToken": 100666050,
+          "canonicalSignature": "(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
+          "normalizedSignature": "GetTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false,
+          "sourceInterface": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver"
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializerContext::Options:System.Text.Json.JsonSerializerOptions",
+          "clrName": "Options",
+          "metadataToken": 385876464,
+          "canonicalSignature": ":System.Text.Json.JsonSerializerOptions",
+          "normalizedSignature": "Options|:System.Text.Json.JsonSerializerOptions|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSerializerContext",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::AllowOutOfOrderMetadataProperties:System.Boolean",
+          "clrName": "AllowOutOfOrderMetadataProperties",
+          "metadataToken": 385876424,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "AllowOutOfOrderMetadataProperties|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::AllowTrailingCommas:System.Boolean",
+          "clrName": "AllowTrailingCommas",
+          "metadataToken": 385876425,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "AllowTrailingCommas|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::Converters:System.Type[]",
+          "clrName": "Converters",
+          "metadataToken": 385876426,
+          "canonicalSignature": ":System.Type[]",
+          "normalizedSignature": "Converters|:System.Type[]|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::DefaultBufferSize:System.Int32",
+          "clrName": "DefaultBufferSize",
+          "metadataToken": 385876427,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "DefaultBufferSize|:System.Int32|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::DefaultIgnoreCondition:System.Text.Json.Serialization.JsonIgnoreCondition",
+          "clrName": "DefaultIgnoreCondition",
+          "metadataToken": 385876428,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonIgnoreCondition",
+          "normalizedSignature": "DefaultIgnoreCondition|:System.Text.Json.Serialization.JsonIgnoreCondition|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::DictionaryKeyPolicy:System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "DictionaryKeyPolicy",
+          "metadataToken": 385876429,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "normalizedSignature": "DictionaryKeyPolicy|:System.Text.Json.Serialization.JsonKnownNamingPolicy|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::IgnoreReadOnlyFields:System.Boolean",
+          "clrName": "IgnoreReadOnlyFields",
+          "metadataToken": 385876430,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IgnoreReadOnlyFields|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::IgnoreReadOnlyProperties:System.Boolean",
+          "clrName": "IgnoreReadOnlyProperties",
+          "metadataToken": 385876431,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IgnoreReadOnlyProperties|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::IncludeFields:System.Boolean",
+          "clrName": "IncludeFields",
+          "metadataToken": 385876432,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IncludeFields|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::MaxDepth:System.Int32",
+          "clrName": "MaxDepth",
+          "metadataToken": 385876433,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "MaxDepth|:System.Int32|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::NumberHandling:System.Text.Json.Serialization.JsonNumberHandling",
+          "clrName": "NumberHandling",
+          "metadataToken": 385876434,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonNumberHandling",
+          "normalizedSignature": "NumberHandling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::PreferredObjectCreationHandling:System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "clrName": "PreferredObjectCreationHandling",
+          "metadataToken": 385876435,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonObjectCreationHandling",
+          "normalizedSignature": "PreferredObjectCreationHandling|:System.Text.Json.Serialization.JsonObjectCreationHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::PropertyNameCaseInsensitive:System.Boolean",
+          "clrName": "PropertyNameCaseInsensitive",
+          "metadataToken": 385876436,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "PropertyNameCaseInsensitive|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::PropertyNamingPolicy:System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "clrName": "PropertyNamingPolicy",
+          "metadataToken": 385876437,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonKnownNamingPolicy",
+          "normalizedSignature": "PropertyNamingPolicy|:System.Text.Json.Serialization.JsonKnownNamingPolicy|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::ReadCommentHandling:System.Text.Json.JsonCommentHandling",
+          "clrName": "ReadCommentHandling",
+          "metadataToken": 385876438,
+          "canonicalSignature": ":System.Text.Json.JsonCommentHandling",
+          "normalizedSignature": "ReadCommentHandling|:System.Text.Json.JsonCommentHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::ReferenceHandler:System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "clrName": "ReferenceHandler",
+          "metadataToken": 385876439,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonKnownReferenceHandler",
+          "normalizedSignature": "ReferenceHandler|:System.Text.Json.Serialization.JsonKnownReferenceHandler|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::RespectNullableAnnotations:System.Boolean",
+          "clrName": "RespectNullableAnnotations",
+          "metadataToken": 385876440,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "RespectNullableAnnotations|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::RespectRequiredConstructorParameters:System.Boolean",
+          "clrName": "RespectRequiredConstructorParameters",
+          "metadataToken": 385876441,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "RespectRequiredConstructorParameters|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::UnknownTypeHandling:System.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "clrName": "UnknownTypeHandling",
+          "metadataToken": 385876442,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonUnknownTypeHandling",
+          "normalizedSignature": "UnknownTypeHandling|:System.Text.Json.Serialization.JsonUnknownTypeHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::UnmappedMemberHandling:System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "clrName": "UnmappedMemberHandling",
+          "metadataToken": 385876443,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "normalizedSignature": "UnmappedMemberHandling|:System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::WriteIndented:System.Boolean",
+          "clrName": "WriteIndented",
+          "metadataToken": 385876444,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "WriteIndented|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::IndentCharacter:System.Char",
+          "clrName": "IndentCharacter",
+          "metadataToken": 385876445,
+          "canonicalSignature": ":System.Char",
+          "normalizedSignature": "IndentCharacter|:System.Char|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::IndentSize:System.Int32",
+          "clrName": "IndentSize",
+          "metadataToken": 385876446,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "IndentSize|:System.Int32|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::GenerationMode:System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "clrName": "GenerationMode",
+          "metadataToken": 385876447,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonSourceGenerationMode",
+          "normalizedSignature": "GenerationMode|:System.Text.Json.Serialization.JsonSourceGenerationMode|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::UseStringEnumConverter:System.Boolean",
+          "clrName": "UseStringEnumConverter",
+          "metadataToken": 385876448,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "UseStringEnumConverter|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::NewLine:System.String",
+          "clrName": "NewLine",
+          "metadataToken": 385876449,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::AllowDuplicateProperties:System.Boolean",
+          "clrName": "AllowDuplicateProperties",
+          "metadataToken": 385876450,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "AllowDuplicateProperties|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::.ctor():void",
+          "metadataToken": 100665660,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute::.ctor(System.Text.Json.JsonSerializerDefaults):void",
+          "metadataToken": 100665661,
+          "canonicalSignature": "(System.Text.Json.JsonSerializerDefaults):void",
+          "normalizedSignature": "constructor|(System.Text.Json.JsonSerializerDefaults):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter",
+      "clrName": "System.Text.Json.Serialization.JsonStringEnumConverter",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory",
+        "clrName": "System.Text.Json.Serialization.JsonConverterFactory"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter::CanConvert(System.Type):System.Boolean",
+          "clrName": "CanConvert",
+          "metadataToken": 100665975,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "clrName": "CreateConverter",
+          "metadataToken": 100665976,
+          "canonicalSignature": "(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "normalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter::.ctor():void",
+          "metadataToken": 100665973,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter::.ctor(System.Text.Json.JsonNamingPolicy,System.Boolean):void",
+          "metadataToken": 100665974,
+          "canonicalSignature": "(System.Text.Json.JsonNamingPolicy,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Text.Json.JsonNamingPolicy,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+      "clrName": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "TEnum"
+      ],
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory",
+        "clrName": "System.Text.Json.Serialization.JsonConverterFactory"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601::CanConvert(System.Type):System.Boolean",
+          "clrName": "CanConvert",
+          "metadataToken": 100665971,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601::CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "clrName": "CreateConverter",
+          "metadataToken": 100665972,
+          "canonicalSignature": "(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter",
+          "normalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": true,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601::.ctor():void",
+          "metadataToken": 100665969,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumConverter\u00601::.ctor(System.Text.Json.JsonNamingPolicy,System.Boolean):void",
+          "metadataToken": 100665970,
+          "canonicalSignature": "(System.Text.Json.JsonNamingPolicy,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Text.Json.JsonNamingPolicy,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Attribute",
+        "clrName": "System.Attribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute::Name:System.String",
+          "clrName": "Name",
+          "metadataToken": 385876504,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute::.ctor(System.String):void",
+          "metadataToken": 100665977,
+          "canonicalSignature": "(System.String):void",
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute",
+      "clrName": "System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute",
+        "clrName": "System.Text.Json.Serialization.JsonAttribute"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute::UnmappedMemberHandling:System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "clrName": "UnmappedMemberHandling",
+          "metadataToken": 385876462,
+          "canonicalSignature": ":System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+          "normalizedSignature": "UnmappedMemberHandling|:System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute::.ctor(System.Text.Json.Serialization.JsonUnmappedMemberHandling):void",
+          "metadataToken": 100665747,
+          "canonicalSignature": "(System.Text.Json.Serialization.JsonUnmappedMemberHandling):void",
+          "normalizedSignature": "constructor|(System.Text.Json.Serialization.JsonUnmappedMemberHandling):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler",
+      "clrName": "System.Text.Json.Serialization.ReferenceHandler",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Object",
+        "clrName": "System.Object"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler::CreateResolver():System.Text.Json.Serialization.ReferenceResolver",
+          "clrName": "CreateResolver",
+          "metadataToken": 100665998,
+          "canonicalSignature": "():System.Text.Json.Serialization.ReferenceResolver",
+          "normalizedSignature": "CreateResolver|():System.Text.Json.Serialization.ReferenceResolver|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler::Preserve:System.Text.Json.Serialization.ReferenceHandler",
+          "clrName": "Preserve",
+          "metadataToken": 385876506,
+          "canonicalSignature": ":System.Text.Json.Serialization.ReferenceHandler",
+          "normalizedSignature": "Preserve|:System.Text.Json.Serialization.ReferenceHandler|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler::IgnoreCycles:System.Text.Json.Serialization.ReferenceHandler",
+          "clrName": "IgnoreCycles",
+          "metadataToken": 385876507,
+          "canonicalSignature": ":System.Text.Json.Serialization.ReferenceHandler",
+          "normalizedSignature": "IgnoreCycles|:System.Text.Json.Serialization.ReferenceHandler|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler\u00601",
+      "clrName": "System.Text.Json.Serialization.ReferenceHandler\u00601",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "T"
+      ],
+      "baseType": {
+        "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler",
+        "clrName": "System.Text.Json.Serialization.ReferenceHandler"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler\u00601::CreateResolver():System.Text.Json.Serialization.ReferenceResolver",
+          "clrName": "CreateResolver",
+          "metadataToken": 100666002,
+          "canonicalSignature": "():System.Text.Json.Serialization.ReferenceResolver",
+          "normalizedSignature": "CreateResolver|():System.Text.Json.Serialization.ReferenceResolver|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler\u00601",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler\u00601::.ctor():void",
+          "metadataToken": 100666003,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceHandler\u00601",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver",
+      "clrName": "System.Text.Json.Serialization.ReferenceResolver",
+      "assemblyName": "System.Text.Json",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Object",
+        "clrName": "System.Object"
+      },
+      "methods": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::AddReference(System.String,System.Object):System.Void",
+          "clrName": "AddReference",
+          "metadataToken": 100666004,
+          "canonicalSignature": "(System.String,System.Object):System.Void",
+          "normalizedSignature": "AddReference|(System.String,System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::GetReference(System.Object,System.Boolean\u0026):System.String",
+          "clrName": "GetReference",
+          "metadataToken": 100666005,
+          "canonicalSignature": "(System.Object,System.Boolean\u0026):System.String",
+          "normalizedSignature": "GetReference|(System.Object,System.Boolean\u0026):System.String|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::ResolveReference(System.String):System.Object",
+          "clrName": "ResolveReference",
+          "metadataToken": 100666006,
+          "canonicalSignature": "(System.String):System.Object",
+          "normalizedSignature": "ResolveReference|(System.String):System.Object|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Text.Json.Serialization.ReferenceResolver",
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    }
+  ]
+}

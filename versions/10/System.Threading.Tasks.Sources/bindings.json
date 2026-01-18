@@ -1,0 +1,516 @@
+{
+  "namespace": "System.Threading.Tasks.Sources",
+  "contributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "types": [
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+      "clrName": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67112857,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::NoneSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "clrName": "None",
+          "metadataToken": 67112858,
+          "normalizedSignature": "None|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::UseSchedulingContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "clrName": "UseSchedulingContext",
+          "metadataToken": 67112859,
+          "normalizedSignature": "UseSchedulingContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::FlowExecutionContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "clrName": "FlowExecutionContext",
+          "metadataToken": 67112860,
+          "normalizedSignature": "FlowExecutionContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+      "clrName": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67112861,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::PendingSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "Pending",
+          "metadataToken": 67112862,
+          "normalizedSignature": "Pending|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::SucceededSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "Succeeded",
+          "metadataToken": 67112863,
+          "normalizedSignature": "Succeeded|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::FaultedSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "Faulted",
+          "metadataToken": 67112864,
+          "normalizedSignature": "Faulted|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::CanceledSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "Canceled",
+          "metadataToken": 67112865,
+          "normalizedSignature": "Canceled|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource",
+      "clrName": "System.Threading.Tasks.Sources.IValueTaskSource",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "GetStatus",
+          "metadataToken": 100681154,
+          "canonicalSignature": "(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "clrName": "OnCompleted",
+          "metadataToken": 100681155,
+          "canonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::GetResult(System.Int16):System.Void",
+          "clrName": "GetResult",
+          "metadataToken": 100681156,
+          "canonicalSignature": "(System.Int16):System.Void",
+          "normalizedSignature": "GetResult|(System.Int16):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601",
+      "clrName": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "TResult"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "GetStatus",
+          "metadataToken": 100681157,
+          "canonicalSignature": "(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "clrName": "OnCompleted",
+          "metadataToken": 100681158,
+          "canonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::GetResult(System.Int16):TResult",
+          "clrName": "GetResult",
+          "metadataToken": 100681159,
+          "canonicalSignature": "(System.Int16):TResult",
+          "normalizedSignature": "GetResult|(System.Int16):TResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+      "clrName": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "typeParameters": [
+        "TResult"
+      ],
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::Reset():System.Void",
+          "clrName": "Reset",
+          "metadataToken": 100681162,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Reset|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetResult(TResult):System.Void",
+          "clrName": "SetResult",
+          "metadataToken": 100681163,
+          "canonicalSignature": "(TResult):System.Void",
+          "normalizedSignature": "SetResult|(TResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetException(System.Exception):System.Void",
+          "clrName": "SetException",
+          "metadataToken": 100681164,
+          "canonicalSignature": "(System.Exception):System.Void",
+          "normalizedSignature": "SetException|(System.Exception):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "clrName": "GetStatus",
+          "metadataToken": 100681166,
+          "canonicalSignature": "(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
+          "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetResult(System.Int16):TResult",
+          "clrName": "GetResult",
+          "metadataToken": 100681167,
+          "canonicalSignature": "(System.Int16):TResult",
+          "normalizedSignature": "GetResult|(System.Int16):TResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "clrName": "OnCompleted",
+          "metadataToken": 100681169,
+          "canonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
+          "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::RunContinuationsAsynchronously:System.Boolean",
+          "clrName": "RunContinuationsAsynchronously",
+          "metadataToken": 385879139,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "RunContinuationsAsynchronously|:System.Boolean|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::Version:System.Int16",
+          "clrName": "Version",
+          "metadataToken": 385879140,
+          "canonicalSignature": ":System.Int16",
+          "normalizedSignature": "Version|:System.Int16|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    }
+  ]
+}

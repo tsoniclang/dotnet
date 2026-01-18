@@ -1,0 +1,881 @@
+{
+  "namespace": "System.Security.Authentication.ExtendedProtection",
+  "contributingAssemblies": [
+    "System.ComponentModel.TypeConverter",
+    "System.Net.Primitives",
+    "System.Net.Security"
+  ],
+  "types": [
+    {
+      "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+      "assemblyName": "System.Net.Primitives",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67108988,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "declaringAssemblyName": "System.Net.Primitives"
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::UnknownSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "clrName": "Unknown",
+          "metadataToken": 67108989,
+          "normalizedSignature": "Unknown|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "declaringAssemblyName": "System.Net.Primitives"
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::UniqueSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "clrName": "Unique",
+          "metadataToken": 67108990,
+          "normalizedSignature": "Unique|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "declaringAssemblyName": "System.Net.Primitives"
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::EndpointSystem.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "clrName": "Endpoint",
+          "metadataToken": 67108991,
+          "normalizedSignature": "Endpoint|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
+          "declaringAssemblyName": "System.Net.Primitives"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+      "clrName": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+      "assemblyName": "System.Net.Security",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67110145,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::NeverSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "clrName": "Never",
+          "metadataToken": 67110146,
+          "normalizedSignature": "Never|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::WhenSupportedSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "clrName": "WhenSupported",
+          "metadataToken": 67110147,
+          "normalizedSignature": "WhenSupported|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::AlwaysSystem.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "clrName": "Always",
+          "metadataToken": 67110148,
+          "normalizedSignature": "Always|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "declaringAssemblyName": "System.Net.Security"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+      "assemblyName": "System.Net.Security",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67110149,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::TransportSelectedSystem.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "clrName": "TransportSelected",
+          "metadataToken": 67110150,
+          "normalizedSignature": "TransportSelected|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::TrustedProxySystem.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "clrName": "TrustedProxy",
+          "metadataToken": 67110151,
+          "normalizedSignature": "TrustedProxy|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "declaringAssemblyName": "System.Net.Security"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+      "assemblyName": "System.Net.Primitives",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
+        "clrName": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100668530,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Dispose|():System.Void|static=false",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.IDisposable",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "sourceInterface": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Dispose():System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Dispose|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Size:System.Int32",
+          "clrName": "Size",
+          "metadataToken": 385875993,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "Size|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "declaringAssemblyName": "System.Net.Primitives"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+      "assemblyName": "System.Net.Security",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Object",
+        "clrName": "System.Object"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::ToString():System.String",
+          "clrName": "ToString",
+          "metadataToken": 100664791,
+          "canonicalSignature": "():System.String",
+          "normalizedSignature": "ToString|():System.String|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "clrName": "GetObjectData",
+          "metadataToken": 100682649,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Runtime.Serialization.ISerializable",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::CustomServiceNames:System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "clrName": "CustomServiceNames",
+          "metadataToken": 385876320,
+          "canonicalSignature": ":System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "normalizedSignature": "CustomServiceNames|:System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::PolicyEnforcement:System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "clrName": "PolicyEnforcement",
+          "metadataToken": 385876321,
+          "canonicalSignature": ":System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
+          "normalizedSignature": "PolicyEnforcement|:System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::ProtectionScenario:System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "clrName": "ProtectionScenario",
+          "metadataToken": 385876322,
+          "canonicalSignature": ":System.Security.Authentication.ExtendedProtection.ProtectionScenario",
+          "normalizedSignature": "ProtectionScenario|:System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::CustomChannelBinding:System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "clrName": "CustomChannelBinding",
+          "metadataToken": 385876323,
+          "canonicalSignature": ":System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "normalizedSignature": "CustomChannelBinding|:System.Security.Authentication.ExtendedProtection.ChannelBinding|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::OSSupportsExtendedProtection:System.Boolean",
+          "clrName": "OSSupportsExtendedProtection",
+          "metadataToken": 385876324,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "OSSupportsExtendedProtection|:System.Boolean|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Security.Authentication.ExtendedProtection.ServiceNameCollection):void",
+          "metadataToken": 100664781,
+          "canonicalSignature": "(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Security.Authentication.ExtendedProtection.ServiceNameCollection):void",
+          "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Security.Authentication.ExtendedProtection.ServiceNameCollection):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Collections.ICollection):void",
+          "metadataToken": 100664782,
+          "canonicalSignature": "(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Collections.ICollection):void",
+          "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Collections.ICollection):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ChannelBinding):void",
+          "metadataToken": 100664783,
+          "canonicalSignature": "(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ChannelBinding):void",
+          "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ChannelBinding):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement):void",
+          "metadataToken": 100664784,
+          "canonicalSignature": "(System.Security.Authentication.ExtendedProtection.PolicyEnforcement):void",
+          "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        }
+      ]
+    },
+    {
+      "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+      "assemblyName": "System.ComponentModel.TypeConverter",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter",
+        "clrName": "System.ComponentModel.TypeConverter"
+      },
+      "methods": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
+          "clrName": "CanConvertTo",
+          "metadataToken": 100663395,
+          "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
+          "normalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
+          "clrName": "ConvertTo",
+          "metadataToken": 100663396,
+          "canonicalSignature": "(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
+          "normalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::CanConvertTo(System.Type):System.Boolean",
+          "clrName": "CanConvertTo",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Type):System.Boolean",
+          "normalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::ConvertTo(System.Object,System.Type):System.Object",
+          "clrName": "ConvertTo",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.Type):System.Object",
+          "normalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter::.ctor():void",
+          "metadataToken": 100663397,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+      "clrName": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+      "assemblyName": "System.Net.Security",
+      "metadataToken": 0,
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Collections.NonGeneric:System.Collections.ReadOnlyCollectionBase",
+        "clrName": "System.Collections.ReadOnlyCollectionBase"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Contains(System.String):System.Boolean",
+          "clrName": "Contains",
+          "metadataToken": 100664797,
+          "canonicalSignature": "(System.String):System.Boolean",
+          "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "clrName": "Merge",
+          "metadataToken": 100664798,
+          "canonicalSignature": "(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "normalizedSignature": "Merge|(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "clrName": "Merge",
+          "metadataToken": 100664799,
+          "canonicalSignature": "(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "normalizedSignature": "Merge|(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
+          "clrName": "CopyTo",
+          "metadataToken": 100703826,
+          "canonicalSignature": "(System.Array,System.Int32):System.Void",
+          "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Collections.ICollection",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "sourceInterface": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
+          "clrName": "GetEnumerator",
+          "metadataToken": 100703845,
+          "canonicalSignature": "():System.Collections.IEnumerator",
+          "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Collections.IEnumerable",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "sourceInterface": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::CopyTo(System.Array,System.Int32):System.Void",
+          "clrName": "CopyTo",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Array,System.Int32):System.Void",
+          "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::GetEnumerator():System.Collections.IEnumerator",
+          "clrName": "GetEnumerator",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Collections.IEnumerator",
+          "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
+          "clrName": "Count",
+          "metadataToken": 385881256,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "sourceInterface": "System.Collections.ICollection",
+          "declaringClrType": "System.Collections.ICollection",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
+          "clrName": "SyncRoot",
+          "metadataToken": 385881257,
+          "canonicalSignature": ":System.Object",
+          "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "sourceInterface": "System.Collections.ICollection",
+          "declaringClrType": "System.Collections.ICollection",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
+          "clrName": "IsSynchronized",
+          "metadataToken": 385881258,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ViewOnly",
+          "provenance": "ExplicitView",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "sourceInterface": "System.Collections.ICollection",
+          "declaringClrType": "System.Collections.ICollection",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::.ctor(System.Collections.ICollection):void",
+          "metadataToken": 100664793,
+          "canonicalSignature": "(System.Collections.ICollection):void",
+          "normalizedSignature": "constructor|(System.Collections.ICollection):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
+          "declaringAssemblyName": "System.Net.Security"
+        }
+      ]
+    }
+  ]
+}
