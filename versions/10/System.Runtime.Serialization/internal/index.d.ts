@@ -12,7 +12,7 @@ import type { ptr } from "@tsonic/core/types.js";
 import type { ICollection_1, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { Collection_1, ReadOnlyCollection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { IDictionary, IEnumerator } from "../../System.Collections/internal/index.js";
+import type { IDictionary, IEnumerator, Queue } from "../../System.Collections/internal/index.js";
 import type { DateTimeStyles } from "../../System.Globalization/internal/index.js";
 import type { Stream } from "../../System.IO/internal/index.js";
 import type { Assembly, ConstructorInfo, MemberInfo, MethodBase, MethodInfo, PropertyInfo } from "../../System.Reflection/internal/index.js";
@@ -21,7 +21,7 @@ import type { StringBuilder } from "../../System.Text/internal/index.js";
 import type { XmlSchemaSet, XmlSchemaType } from "../../System.Xml.Schema/internal/index.js";
 import type { XmlDictionaryReader, XmlDictionaryString, XmlDictionaryWriter, XmlNamespaceManager, XmlNode, XmlQualifiedName, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
 export enum EmitTypeInformation {
     AsNeeded = 0,
@@ -268,6 +268,7 @@ export interface DataContractResolver$instance {
 
 
 export const DataContractResolver: {
+    new(): DataContractResolver;
 };
 
 
@@ -405,7 +406,32 @@ export const ExtensionDataObject: {
 
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
-export interface Formatter$instance {
+export abstract class Formatter$protected {
+    protected GetNext(objID: long): unknown | undefined;
+    protected Schedule(obj: unknown): long;
+    protected abstract WriteArray(obj: unknown, name: string, memberType: Type): void;
+    protected abstract WriteBoolean(val: boolean, name: string): void;
+    protected abstract WriteByte(val: byte, name: string): void;
+    protected abstract WriteChar(val: char, name: string): void;
+    protected abstract WriteDateTime(val: DateTime, name: string): void;
+    protected abstract WriteDecimal(val: decimal, name: string): void;
+    protected abstract WriteDouble(val: double, name: string): void;
+    protected abstract WriteInt16(val: short, name: string): void;
+    protected abstract WriteInt32(val: int, name: string): void;
+    protected abstract WriteInt64(val: long, name: string): void;
+    protected WriteMember(memberName: string, data: unknown): void;
+    protected abstract WriteObjectRef(obj: unknown, name: string, memberType: Type): void;
+    protected abstract WriteSByte(val: sbyte, name: string): void;
+    protected abstract WriteSingle(val: float, name: string): void;
+    protected abstract WriteTimeSpan(val: TimeSpan, name: string): void;
+    protected abstract WriteUInt16(val: ushort, name: string): void;
+    protected abstract WriteUInt32(val: uint, name: string): void;
+    protected abstract WriteUInt64(val: ulong, name: string): void;
+    protected abstract WriteValueType(obj: unknown, name: string, memberType: Type): void;
+}
+
+
+export interface Formatter$instance extends Formatter$protected {
     Binder: SerializationBinder;
     Context: StreamingContext;
     get SurrogateSelector(): ISurrogateSelector | undefined;
@@ -416,6 +442,7 @@ export interface Formatter$instance {
 
 
 export const Formatter: {
+    new(): Formatter;
 };
 
 
@@ -481,6 +508,7 @@ export const InvalidDataContractException: {
     new(): InvalidDataContractException;
     new(message: string): InvalidDataContractException;
     new(message: string, innerException: Exception): InvalidDataContractException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidDataContractException;
 };
 
 
@@ -617,6 +645,7 @@ export interface SerializationBinder$instance {
 
 
 export const SerializationBinder: {
+    new(): SerializationBinder;
 };
 
 
@@ -631,6 +660,7 @@ export const SerializationException: {
     new(): SerializationException;
     new(message: string): SerializationException;
     new(message: string, innerException: Exception): SerializationException;
+    new(info: SerializationInfo, context: StreamingContext): SerializationException;
 };
 
 
@@ -644,8 +674,8 @@ export type SerializationException = SerializationException$instance & __Seriali
 export interface SerializationInfo$instance {
     AssemblyName: string;
     FullTypeName: string;
-    readonly IsAssemblyNameSetExplicit: boolean;
-    readonly IsFullTypeNameSetExplicit: boolean;
+    IsAssemblyNameSetExplicit: boolean;
+    IsFullTypeNameSetExplicit: boolean;
     readonly MemberCount: int;
     readonly ObjectType: Type;
     AddValue(name: string, value: unknown, type: Type): void;
@@ -784,6 +814,7 @@ export interface XmlObjectSerializer$instance {
 
 
 export const XmlObjectSerializer: {
+    new(): XmlObjectSerializer;
 };
 
 

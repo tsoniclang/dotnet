@@ -7,7 +7,7 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { ArrayList, CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
 import type { EventDescriptor, EventDescriptorCollection, IComponent, IContainer, IExtenderProvider, InheritanceAttribute, LicenseContext, LicenseUsageMode, MemberDescriptor, PropertyDescriptor, PropertyDescriptorCollection, TypeDescriptionProvider } from "../../System.ComponentModel/internal/index.js";
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
@@ -367,6 +367,7 @@ export const CheckoutException: {
     new(): CheckoutException;
     new(message: string): CheckoutException;
     new(message: string, errorCode: int): CheckoutException;
+    new(info: SerializationInfo, context: StreamingContext): CheckoutException;
     new(message: string, innerException: Exception): CheckoutException;
     readonly Canceled: CheckoutException;
 };
@@ -482,12 +483,19 @@ export const DesignerEventArgs: {
 
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
-export interface DesignerOptionService$instance {
+export abstract class DesignerOptionService$protected {
+    protected PopulateOptionCollection(options: DesignerOptionService_DesignerOptionCollection): void;
+    protected ShowDialog(options: DesignerOptionService_DesignerOptionCollection, optionObject: unknown): boolean;
+}
+
+
+export interface DesignerOptionService$instance extends DesignerOptionService$protected {
     readonly Options: DesignerOptionService_DesignerOptionCollection;
 }
 
 
 export const DesignerOptionService: {
+    new(): DesignerOptionService;
 };
 
 
@@ -528,9 +536,17 @@ export interface __DesignerOptionService_DesignerOptionCollection$views {
 export type DesignerOptionService_DesignerOptionCollection = DesignerOptionService_DesignerOptionCollection$instance & __DesignerOptionService_DesignerOptionCollection$views;
 
 
-export interface DesignerTransaction$instance {
-    readonly Canceled: boolean;
-    readonly Committed: boolean;
+export abstract class DesignerTransaction$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+    protected abstract OnCancel(): void;
+    protected abstract OnCommit(): void;
+}
+
+
+export interface DesignerTransaction$instance extends DesignerTransaction$protected {
+    Canceled: boolean;
+    Committed: boolean;
     readonly Description: string;
     Cancel(): void;
     Commit(): void;
@@ -538,14 +554,14 @@ export interface DesignerTransaction$instance {
 
 
 export const DesignerTransaction: {
+    new(): DesignerTransaction;
+    new(description: string): DesignerTransaction;
 };
 
 
 export interface __DesignerTransaction$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DesignerTransaction$instance extends System_Internal.IDisposable$instance {}
 
 export type DesignerTransaction = DesignerTransaction$instance & __DesignerTransaction$views;
 
@@ -579,7 +595,12 @@ export const DesignerVerb: {
 
 export type DesignerVerb = DesignerVerb$instance;
 
-export interface DesignerVerbCollection$instance extends CollectionBase {
+export abstract class DesignerVerbCollection$protected {
+    protected OnValidate(value: unknown): void;
+}
+
+
+export interface DesignerVerbCollection$instance extends DesignerVerbCollection$protected, CollectionBase {
     Item: DesignerVerb;
     Add(value: unknown): int;
     AddRange(value: DesignerVerb[]): void;
@@ -660,7 +681,12 @@ export const HelpKeywordAttribute: {
 
 export type HelpKeywordAttribute = HelpKeywordAttribute$instance;
 
-export interface MenuCommand$instance {
+export abstract class MenuCommand$protected {
+    protected OnCommandChanged(e: EventArgs): void;
+}
+
+
+export interface MenuCommand$instance extends MenuCommand$protected {
     Checked: boolean;
     readonly CommandID: CommandID | undefined;
     Enabled: boolean;
@@ -681,7 +707,13 @@ export const MenuCommand: {
 
 export type MenuCommand = MenuCommand$instance;
 
-export interface ServiceContainer$instance {
+export abstract class ServiceContainer$protected {
+    protected readonly DefaultServices: Type[];
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface ServiceContainer$instance extends ServiceContainer$protected {
     AddService(serviceType: Type, serviceInstance: unknown): void;
     AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
@@ -704,8 +736,6 @@ export interface __ServiceContainer$views {
     As_IServiceContainer(): IServiceContainer$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ServiceContainer$instance extends System_Internal.IDisposable$instance {}
 
 export type ServiceContainer = ServiceContainer$instance & __ServiceContainer$views;
 
@@ -802,6 +832,7 @@ export interface TypeDescriptionProviderService$instance {
 
 
 export const TypeDescriptionProviderService: {
+    new(): TypeDescriptionProviderService;
 };
 
 

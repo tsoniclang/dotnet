@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -120,6 +124,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -138,6 +143,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -156,6 +162,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -170,6 +177,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -180,6 +188,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -212,6 +221,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -249,6 +259,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -263,6 +274,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -300,6 +312,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -314,6 +327,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -351,6 +365,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -365,6 +380,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -397,6 +413,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -434,6 +451,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -452,6 +470,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -466,6 +485,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }

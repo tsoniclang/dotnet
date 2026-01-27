@@ -9,14 +9,14 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 import * as Microsoft_Win32_SafeHandles_Internal from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import type { SafeHandleZeroOrMinusOneIsInvalid } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
 import type { ITypeDescriptorContext, PropertyDescriptorCollection, TypeConverter, TypeConverter_StandardValuesCollection } from "../../System.ComponentModel/internal/index.js";
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum ChannelBindingKind {
     Unknown = 0,
@@ -38,13 +38,20 @@ export enum ProtectionScenario {
 }
 
 
-export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+export abstract class ChannelBinding$protected {
+    protected Dispose3(disposing: boolean): void;
+}
+
+
+export interface ChannelBinding$instance extends ChannelBinding$protected, SafeHandleZeroOrMinusOneIsInvalid {
     readonly Size: int;
     Dispose(): void;
 }
 
 
 export const ChannelBinding: {
+    new(): ChannelBinding;
+    new(ownsHandle: boolean): ChannelBinding;
 };
 
 
@@ -69,6 +76,7 @@ export const ExtendedProtectionPolicy: {
     new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
+    new(info: SerializationInfo, context: StreamingContext): ExtendedProtectionPolicy;
     readonly OSSupportsExtendedProtection: boolean;
 };
 

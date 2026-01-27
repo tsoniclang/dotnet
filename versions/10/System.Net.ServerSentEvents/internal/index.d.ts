@@ -37,8 +37,8 @@ export const SseItem_1: {
 export type SseItem_1<T> = SseItem_1$instance<T>;
 
 export interface SseParser_1$instance<T> {
-    readonly LastEventId: string;
-    readonly ReconnectionInterval: TimeSpan;
+    LastEventId: string;
+    ReconnectionInterval: TimeSpan;
     Enumerate(): IEnumerable_1<SseItem_1<T>>;
     EnumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }

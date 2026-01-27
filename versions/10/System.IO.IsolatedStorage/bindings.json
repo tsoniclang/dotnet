@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }
@@ -159,6 +167,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -200,6 +209,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -219,6 +229,47 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
+          "clrName": "InitStore",
+          "metadataToken": 100663457,
+          "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
+          "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
+          "clrName": "InitStore",
+          "metadataToken": 100663458,
+          "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
+          "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -240,6 +291,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -258,6 +310,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -276,6 +329,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -294,6 +348,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -312,6 +367,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -330,6 +386,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -348,6 +405,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -366,6 +424,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -374,7 +433,26 @@
           "clrName": "Scope",
           "metadataToken": 385876016,
           "canonicalSignature": ":System.IO.IsolatedStorage.IsolatedStorageScope",
-          "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=get",
+          "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
+          "declaringAssemblyName": "System.IO.IsolatedStorage"
+        },
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::SeparatorExternal:System.Char",
+          "clrName": "SeparatorExternal",
+          "metadataToken": 385876017,
+          "canonicalSignature": ":System.Char",
+          "normalizedSignature": "SeparatorExternal|:System.Char|static=false|accessor=get",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
@@ -382,15 +460,47 @@
           "hasSetter": false,
           "isStatic": false,
           "isAbstract": false,
-          "isVirtual": false,
+          "isVirtual": true,
           "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
+          "declaringAssemblyName": "System.IO.IsolatedStorage"
+        },
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::SeparatorInternal:System.Char",
+          "clrName": "SeparatorInternal",
+          "metadataToken": 385876018,
+          "canonicalSignature": ":System.Char",
+          "normalizedSignature": "SeparatorInternal|:System.Char|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::.ctor():void",
+          "metadataToken": 100663440,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
+          "declaringAssemblyName": "System.IO.IsolatedStorage"
+        }
+      ]
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException",
@@ -429,6 +539,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -449,6 +560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -465,6 +577,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -475,6 +588,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -485,6 +599,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
+          "declaringAssemblyName": "System.IO.IsolatedStorage"
+        },
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663331,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }
@@ -527,6 +653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -546,6 +673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -565,6 +693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -584,6 +713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -603,6 +733,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -622,6 +753,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -641,6 +773,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -660,6 +793,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -679,6 +813,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -698,6 +833,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -717,6 +853,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -736,6 +873,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -755,6 +893,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -774,6 +913,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -793,6 +933,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -812,6 +953,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -831,6 +973,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -850,6 +993,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -869,6 +1013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -888,6 +1033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -907,6 +1053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -926,6 +1073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -945,6 +1093,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -964,6 +1113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -983,6 +1133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1002,6 +1153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1021,6 +1173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1040,6 +1193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1059,6 +1213,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1078,6 +1233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1097,6 +1253,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1116,6 +1273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1135,6 +1293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1154,6 +1313,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1173,6 +1333,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1192,6 +1353,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1211,6 +1373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1230,6 +1393,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1252,6 +1416,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -1270,6 +1435,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -1288,6 +1454,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -1306,6 +1473,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -1324,6 +1492,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -1342,6 +1511,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }
@@ -1367,15 +1537,35 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
+        {
+          "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663415,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "isExtensionMethod": false
+        },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
@@ -1391,6 +1581,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1410,6 +1601,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1429,6 +1621,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1448,6 +1641,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1467,6 +1661,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1486,6 +1681,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1505,6 +1701,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1524,6 +1721,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1543,6 +1741,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1562,6 +1761,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1581,6 +1781,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1600,6 +1801,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1619,6 +1821,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1638,6 +1841,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1657,6 +1861,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1676,6 +1881,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1695,6 +1901,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1714,6 +1921,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1733,6 +1941,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1752,6 +1961,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1771,6 +1981,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1790,6 +2001,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1809,6 +2021,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1829,6 +2042,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1849,6 +2063,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1868,6 +2083,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1887,6 +2103,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1906,6 +2123,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1925,6 +2143,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1944,6 +2163,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1963,6 +2183,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -1982,6 +2203,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -2001,6 +2223,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
@@ -2022,6 +2245,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2040,6 +2264,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2058,6 +2283,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2076,6 +2302,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2094,6 +2321,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2112,6 +2340,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2130,6 +2359,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2148,6 +2378,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }
@@ -2162,6 +2393,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2172,6 +2404,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.IsolatedStorage.IsolatedStorageFile):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2182,6 +2415,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2192,6 +2426,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.IsolatedStorage.IsolatedStorageFile):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2202,6 +2437,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2212,6 +2448,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.IsolatedStorage.IsolatedStorageFile):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2222,6 +2459,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         },
@@ -2232,6 +2470,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.IO.IsolatedStorage.IsolatedStorageFile):void|static=false",
           "isStatic": false,
           "parameterCount": 6,
+          "visibility": "Public",
           "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "declaringAssemblyName": "System.IO.IsolatedStorage"
         }

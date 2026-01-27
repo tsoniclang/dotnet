@@ -62,6 +62,7 @@ export const RuntimeBinderException: {
     new(): RuntimeBinderException;
     new(message: string): RuntimeBinderException;
     new(message: string, innerException: Exception): RuntimeBinderException;
+    new(info: SerializationInfo, context: StreamingContext): RuntimeBinderException;
 };
 
 
@@ -81,6 +82,7 @@ export const RuntimeBinderInternalCompilerException: {
     new(): RuntimeBinderInternalCompilerException;
     new(message: string): RuntimeBinderInternalCompilerException;
     new(message: string, innerException: Exception): RuntimeBinderInternalCompilerException;
+    new(info: SerializationInfo, context: StreamingContext): RuntimeBinderInternalCompilerException;
 };
 
 

@@ -7,11 +7,11 @@ import * as Internal from './System.Security.Authentication.ExtendedProtection/i
 
 // Cross-namespace type imports for constraints
 import type { SafeHandleZeroOrMinusOneIsInvalid } from './Microsoft.Win32.SafeHandles/internal/index.js';
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
 import type { ITypeDescriptorContext, PropertyDescriptorCollection, TypeConverter, TypeConverter_StandardValuesCollection } from './System.ComponentModel/internal/index.js';
 import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
+import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ExtendedProtectionPolicyTypeConverter as ExtendedProtectionPolicyTypeConverter } from './System.Security.Authentication.ExtendedProtection/internal/index.js';

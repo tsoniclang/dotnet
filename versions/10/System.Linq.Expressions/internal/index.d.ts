@@ -14,7 +14,7 @@ import type { ReadOnlyCollection_1 } from "../../System.Collections.ObjectModel/
 import type { ConstructorInfo, FieldInfo, MemberInfo, MethodInfo, PropertyInfo } from "../../System.Reflection/internal/index.js";
 import type { CallSiteBinder, DebugInfoGenerator } from "../../System.Runtime.CompilerServices/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum ExpressionType {
     Add = 0,
@@ -141,7 +141,12 @@ export interface IDynamicExpression$instance extends IArgumentProvider$instance 
 
 export type IDynamicExpression = IDynamicExpression$instance;
 
-export interface BinaryExpression$instance extends Expression {
+export abstract class BinaryExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface BinaryExpression$instance extends BinaryExpression$protected, Expression {
     readonly CanReduce: boolean;
     readonly Conversion: LambdaExpression | undefined;
     readonly IsLifted: boolean;
@@ -161,7 +166,12 @@ export const BinaryExpression: {
 
 export type BinaryExpression = BinaryExpression$instance;
 
-export interface BlockExpression$instance extends Expression {
+export abstract class BlockExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface BlockExpression$instance extends BlockExpression$protected, Expression {
     readonly Expressions: ReadOnlyCollection_1<Expression>;
     readonly NodeType: ExpressionType;
     readonly Result: Expression;
@@ -195,7 +205,12 @@ export const CatchBlock: {
 
 export type CatchBlock = CatchBlock$instance;
 
-export interface ConditionalExpression$instance extends Expression {
+export abstract class ConditionalExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface ConditionalExpression$instance extends ConditionalExpression$protected, Expression {
     readonly IfFalse: Expression;
     readonly IfTrue: Expression;
     readonly NodeType: ExpressionType;
@@ -212,7 +227,12 @@ export const ConditionalExpression: {
 
 export type ConditionalExpression = ConditionalExpression$instance;
 
-export interface ConstantExpression$instance extends Expression {
+export abstract class ConstantExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface ConstantExpression$instance extends ConstantExpression$protected, Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
     readonly Value: unknown;
@@ -226,7 +246,12 @@ export const ConstantExpression: {
 
 export type ConstantExpression = ConstantExpression$instance;
 
-export interface DebugInfoExpression$instance extends Expression {
+export abstract class DebugInfoExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface DebugInfoExpression$instance extends DebugInfoExpression$protected, Expression {
     readonly Document: SymbolDocumentInfo;
     readonly EndColumn: int;
     readonly EndLine: int;
@@ -245,7 +270,12 @@ export const DebugInfoExpression: {
 
 export type DebugInfoExpression = DebugInfoExpression$instance;
 
-export interface DefaultExpression$instance extends Expression {
+export abstract class DefaultExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface DefaultExpression$instance extends DefaultExpression$protected, Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
 }
@@ -258,7 +288,12 @@ export const DefaultExpression: {
 
 export type DefaultExpression = DefaultExpression$instance;
 
-export interface DynamicExpression$instance extends Expression {
+export abstract class DynamicExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface DynamicExpression$instance extends DynamicExpression$protected, Expression {
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Binder: CallSiteBinder;
     readonly CanReduce: boolean;
@@ -297,7 +332,12 @@ export interface DynamicExpression$instance extends IDynamicExpression$instance 
 export type DynamicExpression = DynamicExpression$instance & __DynamicExpression$views;
 
 
-export interface DynamicExpressionVisitor$instance extends ExpressionVisitor {
+export abstract class DynamicExpressionVisitor$protected {
+    protected VisitDynamic(node: DynamicExpression): Expression;
+}
+
+
+export interface DynamicExpressionVisitor$instance extends DynamicExpressionVisitor$protected, ExpressionVisitor {
 }
 
 
@@ -332,7 +372,13 @@ export interface ElementInit$instance extends IArgumentProvider$instance {}
 export type ElementInit = ElementInit$instance & __ElementInit$views;
 
 
-export interface Expression$instance {
+export abstract class Expression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+    protected VisitChildren(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface Expression$instance extends Expression$protected {
     readonly CanReduce: boolean;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
@@ -344,6 +390,8 @@ export interface Expression$instance {
 
 
 export const Expression: {
+    new(nodeType: ExpressionType, type: Type): Expression;
+    new(): Expression;
     Add(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
     Add(left: Expression, right: Expression): BinaryExpression;
     AddAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
@@ -658,7 +706,12 @@ export const Expression: {
 
 export type Expression = Expression$instance;
 
-export interface Expression_1$instance<TDelegate> extends LambdaExpression {
+export abstract class Expression_1$protected<TDelegate> {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface Expression_1$instance<TDelegate> extends Expression_1$protected<TDelegate>, LambdaExpression {
     Compile(): TDelegate;
     Compile(preferInterpretation: boolean): TDelegate;
     Compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
@@ -676,7 +729,45 @@ export const Expression_1: {
 
 export type Expression_1<TDelegate> = TDelegate | Expression_1$instance<TDelegate>;
 
-export interface ExpressionVisitor$instance {
+export abstract class ExpressionVisitor$protected {
+    protected VisitBinary(node: BinaryExpression): Expression;
+    protected VisitBlock(node: BlockExpression): Expression;
+    protected VisitCatchBlock(node: CatchBlock): CatchBlock;
+    protected VisitConditional(node: ConditionalExpression): Expression;
+    protected VisitConstant(node: ConstantExpression): Expression;
+    protected VisitDebugInfo(node: DebugInfoExpression): Expression;
+    protected VisitDefault(node: DefaultExpression): Expression;
+    protected VisitDynamic(node: DynamicExpression): Expression;
+    protected VisitElementInit(node: ElementInit): ElementInit;
+    protected VisitExtension(node: Expression): Expression;
+    protected VisitGoto(node: GotoExpression): Expression;
+    protected VisitIndex(node: IndexExpression): Expression;
+    protected VisitInvocation(node: InvocationExpression): Expression;
+    protected VisitLabel(node: LabelExpression): Expression;
+    protected VisitLabelTarget(node: LabelTarget): LabelTarget | undefined;
+    protected VisitLambda<T>(node: Expression_1<T>): Expression;
+    protected VisitListInit(node: ListInitExpression): Expression;
+    protected VisitLoop(node: LoopExpression): Expression;
+    protected VisitMember(node: MemberExpression): Expression;
+    protected VisitMemberAssignment(node: MemberAssignment): MemberAssignment;
+    protected VisitMemberBinding(node: MemberBinding): MemberBinding;
+    protected VisitMemberInit(node: MemberInitExpression): Expression;
+    protected VisitMemberListBinding(node: MemberListBinding): MemberListBinding;
+    protected VisitMemberMemberBinding(node: MemberMemberBinding): MemberMemberBinding;
+    protected VisitMethodCall(node: MethodCallExpression): Expression;
+    protected VisitNew(node: NewExpression): Expression;
+    protected VisitNewArray(node: NewArrayExpression): Expression;
+    protected VisitParameter(node: ParameterExpression): Expression;
+    protected VisitRuntimeVariables(node: RuntimeVariablesExpression): Expression;
+    protected VisitSwitch(node: SwitchExpression): Expression;
+    protected VisitSwitchCase(node: SwitchCase): SwitchCase;
+    protected VisitTry(node: TryExpression): Expression;
+    protected VisitTypeBinary(node: TypeBinaryExpression): Expression;
+    protected VisitUnary(node: UnaryExpression): Expression;
+}
+
+
+export interface ExpressionVisitor$instance extends ExpressionVisitor$protected {
     Visit(node: Expression): Expression | undefined;
     Visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
     VisitAndConvert<T extends Expression>(node: T, callerName: string): T | undefined;
@@ -685,13 +776,19 @@ export interface ExpressionVisitor$instance {
 
 
 export const ExpressionVisitor: {
+    new(): ExpressionVisitor;
     Visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 };
 
 
 export type ExpressionVisitor = ExpressionVisitor$instance;
 
-export interface GotoExpression$instance extends Expression {
+export abstract class GotoExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface GotoExpression$instance extends GotoExpression$protected, Expression {
     readonly Kind: GotoExpressionKind;
     readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
@@ -708,7 +805,12 @@ export const GotoExpression: {
 
 export type GotoExpression = GotoExpression$instance;
 
-export interface IndexExpression$instance extends Expression {
+export abstract class IndexExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface IndexExpression$instance extends IndexExpression$protected, Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Indexer: PropertyInfo | undefined;
@@ -734,7 +836,12 @@ export interface IndexExpression$instance extends IArgumentProvider$instance {}
 export type IndexExpression = IndexExpression$instance & __IndexExpression$views;
 
 
-export interface InvocationExpression$instance extends Expression {
+export abstract class InvocationExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface InvocationExpression$instance extends InvocationExpression$protected, Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Expression: Expression;
@@ -759,7 +866,12 @@ export interface InvocationExpression$instance extends IArgumentProvider$instanc
 export type InvocationExpression = InvocationExpression$instance & __InvocationExpression$views;
 
 
-export interface LabelExpression$instance extends Expression {
+export abstract class LabelExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface LabelExpression$instance extends LabelExpression$protected, Expression {
     readonly DefaultValue: Expression;
     readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
@@ -811,7 +923,12 @@ export const LambdaExpression: {
 
 export type LambdaExpression = LambdaExpression$instance;
 
-export interface ListInitExpression$instance extends Expression {
+export abstract class ListInitExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface ListInitExpression$instance extends ListInitExpression$protected, Expression {
     readonly CanReduce: boolean;
     readonly Initializers: ReadOnlyCollection_1<ElementInit>;
     readonly NewExpression: NewExpression;
@@ -829,7 +946,12 @@ export const ListInitExpression: {
 
 export type ListInitExpression = ListInitExpression$instance;
 
-export interface LoopExpression$instance extends Expression {
+export abstract class LoopExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface LoopExpression$instance extends LoopExpression$protected, Expression {
     readonly Body: Expression;
     readonly BreakLabel: LabelTarget | undefined;
     readonly ContinueLabel: LabelTarget | undefined;
@@ -867,12 +989,18 @@ export interface MemberBinding$instance {
 
 
 export const MemberBinding: {
+    new(type: MemberBindingType, member: MemberInfo): MemberBinding;
 };
 
 
 export type MemberBinding = MemberBinding$instance;
 
-export interface MemberExpression$instance extends Expression {
+export abstract class MemberExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface MemberExpression$instance extends MemberExpression$protected, Expression {
     readonly Expression: Expression;
     readonly Member: MemberInfo;
     readonly NodeType: ExpressionType;
@@ -887,7 +1015,12 @@ export const MemberExpression: {
 
 export type MemberExpression = MemberExpression$instance;
 
-export interface MemberInitExpression$instance extends Expression {
+export abstract class MemberInitExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface MemberInitExpression$instance extends MemberInitExpression$protected, Expression {
     readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
     readonly CanReduce: boolean;
     readonly NewExpression: NewExpression;
@@ -931,7 +1064,12 @@ export const MemberMemberBinding: {
 
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
-export interface MethodCallExpression$instance extends Expression {
+export abstract class MethodCallExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface MethodCallExpression$instance extends MethodCallExpression$protected, Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Method: MethodInfo;
@@ -957,7 +1095,12 @@ export interface MethodCallExpression$instance extends IArgumentProvider$instanc
 export type MethodCallExpression = MethodCallExpression$instance & __MethodCallExpression$views;
 
 
-export interface NewArrayExpression$instance extends Expression {
+export abstract class NewArrayExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface NewArrayExpression$instance extends NewArrayExpression$protected, Expression {
     readonly Expressions: ReadOnlyCollection_1<Expression>;
     readonly Type: Type;
     Update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
@@ -971,7 +1114,12 @@ export const NewArrayExpression: {
 
 export type NewArrayExpression = NewArrayExpression$instance;
 
-export interface NewExpression$instance extends Expression {
+export abstract class NewExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface NewExpression$instance extends NewExpression$protected, Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Constructor: ConstructorInfo;
@@ -997,7 +1145,12 @@ export interface NewExpression$instance extends IArgumentProvider$instance {}
 export type NewExpression = NewExpression$instance & __NewExpression$views;
 
 
-export interface ParameterExpression$instance extends Expression {
+export abstract class ParameterExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface ParameterExpression$instance extends ParameterExpression$protected, Expression {
     readonly IsByRef: boolean;
     readonly Name: string;
     readonly NodeType: ExpressionType;
@@ -1012,7 +1165,12 @@ export const ParameterExpression: {
 
 export type ParameterExpression = ParameterExpression$instance;
 
-export interface RuntimeVariablesExpression$instance extends Expression {
+export abstract class RuntimeVariablesExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface RuntimeVariablesExpression$instance extends RuntimeVariablesExpression$protected, Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
     readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
@@ -1042,7 +1200,12 @@ export const SwitchCase: {
 
 export type SwitchCase = SwitchCase$instance;
 
-export interface SwitchExpression$instance extends Expression {
+export abstract class SwitchExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface SwitchExpression$instance extends SwitchExpression$protected, Expression {
     readonly Cases: ReadOnlyCollection_1<SwitchCase>;
     readonly Comparison: MethodInfo | undefined;
     readonly DefaultBody: Expression | undefined;
@@ -1075,7 +1238,12 @@ export const SymbolDocumentInfo: {
 
 export type SymbolDocumentInfo = SymbolDocumentInfo$instance;
 
-export interface TryExpression$instance extends Expression {
+export abstract class TryExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface TryExpression$instance extends TryExpression$protected, Expression {
     readonly Body: Expression;
     readonly Fault: Expression | undefined;
     readonly Finally: Expression | undefined;
@@ -1093,7 +1261,12 @@ export const TryExpression: {
 
 export type TryExpression = TryExpression$instance;
 
-export interface TypeBinaryExpression$instance extends Expression {
+export abstract class TypeBinaryExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface TypeBinaryExpression$instance extends TypeBinaryExpression$protected, Expression {
     readonly Expression: Expression;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
@@ -1109,7 +1282,12 @@ export const TypeBinaryExpression: {
 
 export type TypeBinaryExpression = TypeBinaryExpression$instance;
 
-export interface UnaryExpression$instance extends Expression {
+export abstract class UnaryExpression$protected {
+    protected Accept(visitor: ExpressionVisitor): Expression;
+}
+
+
+export interface UnaryExpression$instance extends UnaryExpression$protected, Expression {
     readonly CanReduce: boolean;
     readonly IsLifted: boolean;
     readonly IsLiftedToNull: boolean;

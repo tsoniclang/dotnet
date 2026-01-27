@@ -7,7 +7,7 @@ import * as Internal from './System.Text.Unicode/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { OperationStatus } from './System.Buffers/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { Utf8$instance as Utf8 } from './System.Text.Unicode/internal/index.js';

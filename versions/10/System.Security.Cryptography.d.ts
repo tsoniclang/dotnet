@@ -16,8 +16,8 @@ import type { SafeHandle } from './System.Runtime.InteropServices/internal/index
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { SecureString, SecurityElement } from './System.Security/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
-import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CryptographicException as CryptographicException } from './System.Security.Cryptography/internal/index.js';

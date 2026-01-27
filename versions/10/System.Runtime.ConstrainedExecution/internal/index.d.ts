@@ -7,7 +7,7 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum Cer {
     None = 0,
@@ -24,11 +24,17 @@ export enum Consistency {
 }
 
 
-export interface CriticalFinalizerObject$instance {
+export abstract class CriticalFinalizerObject$protected {
+    protected Finalize(): void;
+}
+
+
+export interface CriticalFinalizerObject$instance extends CriticalFinalizerObject$protected {
 }
 
 
 export const CriticalFinalizerObject: {
+    new(): CriticalFinalizerObject;
 };
 
 

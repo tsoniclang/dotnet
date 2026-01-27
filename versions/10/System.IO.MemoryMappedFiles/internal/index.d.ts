@@ -8,11 +8,12 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 // Import types from other namespaces
 import type { SafeFileHandle, SafeMemoryMappedFileHandle, SafeMemoryMappedViewHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import * as System_IO_Internal from "../../System.IO/internal/index.js";
-import type { FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from "../../System.IO/internal/index.js";
+import type { FileAccess, FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from "../../System.IO/internal/index.js";
+import type { SafeBuffer } from "../../System.Runtime.InteropServices/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export enum MemoryMappedFileAccess {
     ReadWrite = 0,
@@ -47,7 +48,12 @@ export enum MemoryMappedFileRights {
 }
 
 
-export interface MemoryMappedFile$instance {
+export abstract class MemoryMappedFile$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface MemoryMappedFile$instance extends MemoryMappedFile$protected {
     readonly SafeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
     CreateViewAccessor(): MemoryMappedViewAccessor;
     CreateViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
@@ -84,12 +90,15 @@ export interface __MemoryMappedFile$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface MemoryMappedFile$instance extends System_Internal.IDisposable$instance {}
-
 export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$views;
 
 
-export interface MemoryMappedViewAccessor$instance extends UnmanagedMemoryAccessor {
+export abstract class MemoryMappedViewAccessor$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface MemoryMappedViewAccessor$instance extends MemoryMappedViewAccessor$protected, UnmanagedMemoryAccessor {
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
     Dispose(): void;
@@ -109,7 +118,12 @@ export interface __MemoryMappedViewAccessor$views {
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
 
 
-export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
+export abstract class MemoryMappedViewStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface MemoryMappedViewStream$instance extends MemoryMappedViewStream$protected, UnmanagedMemoryStream {
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
     Dispose(): void;

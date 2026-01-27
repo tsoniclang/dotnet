@@ -20,7 +20,7 @@ import type { DefaultInterpolatedStringHandler, ITuple } from './System.Runtime.
 import type { FirstChanceExceptionEventArgs } from './System.Runtime.ExceptionServices/internal/index.js';
 import type { StructLayoutAttribute } from './System.Runtime.InteropServices/internal/index.js';
 import type { ObjectHandle } from './System.Runtime.Remoting/internal/index.js';
-import type { IDeserializationCallback, IObjectReference, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
+import type { IDeserializationCallback, IObjectReference, ISerializable, SafeSerializationEventArgs, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IPrincipal, PrincipalPolicy } from './System.Security.Principal/internal/index.js';
 import type { PermissionSet } from './System.Security/internal/index.js';
 import type { CompositeFormat, Encoding, NormalizationForm, SpanLineEnumerator, SpanRuneEnumerator, StringRuneEnumerator } from './System.Text/internal/index.js';

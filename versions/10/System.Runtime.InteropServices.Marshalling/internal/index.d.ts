@@ -9,9 +9,10 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
+import type { IEnumerable } from "../../System.Collections/internal/index.js";
 import type { IFloatingPointIeee754_1, INumber_1 } from "../../System.Numerics/internal/index.js";
 import * as System_Runtime_InteropServices_Internal from "../../System.Runtime.InteropServices/internal/index.js";
-import type { ComWrappers, ComWrappers_ComInterfaceEntry, CreateComInterfaceFlags, CreateObjectFlags, IDynamicInterfaceCastable, SafeHandle, StringMarshalling, VarEnum } from "../../System.Runtime.InteropServices/internal/index.js";
+import type { ComWrappers, ComWrappers_ComInterfaceEntry, CreateComInterfaceFlags, CreatedWrapperFlags, CreateObjectFlags, IDynamicInterfaceCastable, SafeHandle, StringMarshalling, VarEnum } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, RuntimeTypeHandle, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
 
@@ -148,7 +149,7 @@ export const BStrStringMarshaller_ManagedToUnmanagedIn: {
 export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ComVariant$instance {
-    readonly VarType: VarEnum;
+    VarType: VarEnum;
     As<T>(): T | undefined;
     Dispose(): void;
     GetRawDataRef<T extends unknown>(): T;
@@ -379,7 +380,12 @@ export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass>
 export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedClassAttribute_1$instance<T> & __ComExposedClassAttribute_1$views<T>;
 
 
-export interface ComObject$instance {
+export abstract class ComObject$protected {
+    protected Finalize(): void;
+}
+
+
+export interface ComObject$instance extends ComObject$protected {
     FinalRelease(): void;
 }
 
@@ -502,7 +508,18 @@ export const NativeMarshallingAttribute: {
 
 export type NativeMarshallingAttribute = NativeMarshallingAttribute$instance;
 
-export interface StrategyBasedComWrappers$instance extends ComWrappers {
+export abstract class StrategyBasedComWrappers$protected {
+    protected ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    protected CreateCacheStrategy(): IIUnknownCacheStrategy;
+    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown;
+    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
+    protected GetOrCreateInterfaceDetailsStrategy(): IIUnknownInterfaceDetailsStrategy;
+    protected GetOrCreateIUnknownStrategy(): IIUnknownStrategy;
+    protected ReleaseObjects(objects: IEnumerable): void;
+}
+
+
+export interface StrategyBasedComWrappers$instance extends StrategyBasedComWrappers$protected, ComWrappers {
 }
 
 
@@ -510,6 +527,7 @@ export const StrategyBasedComWrappers: {
     new(): StrategyBasedComWrappers;
     readonly DefaultIUnknownInterfaceDetailsStrategy: IIUnknownInterfaceDetailsStrategy;
     readonly DefaultIUnknownStrategy: IIUnknownStrategy;
+    CreateDefaultCacheStrategy(): IIUnknownCacheStrategy;
 };
 
 

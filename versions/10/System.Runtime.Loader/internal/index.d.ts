@@ -44,7 +44,14 @@ export const AssemblyDependencyResolver: {
 
 export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
-export interface AssemblyLoadContext$instance {
+export abstract class AssemblyLoadContext$protected {
+    protected Finalize(): void;
+    protected Load(assemblyName: AssemblyName): Assembly;
+    protected LoadUnmanagedDll(unmanagedDllName: string): nint;
+}
+
+
+export interface AssemblyLoadContext$instance extends AssemblyLoadContext$protected {
     readonly Assemblies: IEnumerable_1<Assembly>;
     readonly IsCollectible: boolean;
     readonly Name: string;
@@ -62,6 +69,8 @@ export interface AssemblyLoadContext$instance {
 
 
 export const AssemblyLoadContext: {
+    new(): AssemblyLoadContext;
+    new(isCollectible: boolean): AssemblyLoadContext;
     new(name: string, isCollectible: boolean): AssemblyLoadContext;
     readonly Default: AssemblyLoadContext;
     readonly All: IEnumerable_1<AssemblyLoadContext>;

@@ -14,7 +14,7 @@ import * as System_Collections_Generic_Internal from "../../System.Collections.G
 import type { IEnumerable_1, IEnumerator_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { Collection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { ArrayList, CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import type { UniversalTagNumber } from "../../System.Formats.Asn1/internal/index.js";
 import type { IPAddress } from "../../System.Net/internal/index.js";
 import type { BigInteger } from "../../System.Numerics/internal/index.js";
@@ -542,7 +542,12 @@ export const X509BasicConstraintsExtension: {
 
 export type X509BasicConstraintsExtension = X509BasicConstraintsExtension$instance;
 
-export interface X509Certificate$instance {
+export abstract class X509Certificate$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface X509Certificate$instance extends X509Certificate$protected {
     readonly Handle: nint;
     readonly Issuer: string;
     readonly SerialNumberBytes: ReadOnlyMemory_1<System_Internal.Byte>;
@@ -604,6 +609,7 @@ export const X509Certificate: {
     new(info: SerializationInfo, context: StreamingContext): X509Certificate;
     CreateFromCertFile(filename: string): X509Certificate;
     CreateFromSignedFile(filename: string): X509Certificate;
+    FormatDate(date: DateTime): string;
 };
 
 
@@ -613,12 +619,17 @@ export interface __X509Certificate$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface X509Certificate$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface X509Certificate$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type X509Certificate = X509Certificate$instance & __X509Certificate$views;
 
 
-export interface X509Certificate2$instance extends X509Certificate$instance {
+export abstract class X509Certificate2$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface X509Certificate2$instance extends X509Certificate2$protected, X509Certificate$instance {
     Archived: boolean;
     readonly Extensions: X509ExtensionCollection;
     FriendlyName: string;
@@ -688,6 +699,7 @@ export const X509Certificate2: {
     new(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(certificate: X509Certificate): X509Certificate2;
+    new(info: SerializationInfo, context: StreamingContext): X509Certificate2;
     CreateFromEncryptedPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>, password: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
     CreateFromEncryptedPemFile(certPemFilePath: string, password: ReadOnlySpan_1<System_Internal.Char>, keyPemFilePath?: string): X509Certificate2;
     CreateFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
@@ -795,7 +807,12 @@ export interface __X509Certificate2Enumerator$views {
 export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & __X509Certificate2Enumerator$views;
 
 
-export interface X509CertificateCollection$instance extends CollectionBase {
+export abstract class X509CertificateCollection$protected {
+    protected OnValidate(value: unknown): void;
+}
+
+
+export interface X509CertificateCollection$instance extends X509CertificateCollection$protected, CollectionBase {
     Item: X509Certificate | X509Certificate2;
     Add(value: unknown): int;
     AddRange(value: X509Certificate[]): void;
@@ -847,7 +864,12 @@ export interface __X509CertificateCollection_X509CertificateEnumerator$views {
 export type X509CertificateCollection_X509CertificateEnumerator = X509CertificateCollection_X509CertificateEnumerator$instance & __X509CertificateCollection_X509CertificateEnumerator$views;
 
 
-export interface X509Chain$instance {
+export abstract class X509Chain$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface X509Chain$instance extends X509Chain$protected {
     readonly ChainContext: nint;
     readonly ChainElements: X509ChainElementCollection;
     ChainPolicy: X509ChainPolicy;
@@ -870,8 +892,6 @@ export const X509Chain: {
 export interface __X509Chain$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface X509Chain$instance extends System_Internal.IDisposable$instance {}
 
 export type X509Chain = X509Chain$instance & __X509Chain$views;
 
@@ -982,6 +1002,7 @@ export interface X509Extension$instance extends AsnEncodedData {
 
 
 export const X509Extension: {
+    new(): X509Extension;
     new(encodedExtension: AsnEncodedData, critical: boolean): X509Extension;
     new(oid: Oid, rawData: byte[], critical: boolean): X509Extension;
     new(oid: Oid, rawData: ReadOnlySpan_1<System_Internal.Byte>, critical: boolean): X509Extension;
@@ -1054,7 +1075,12 @@ export const X509KeyUsageExtension: {
 
 export type X509KeyUsageExtension = X509KeyUsageExtension$instance;
 
-export interface X509SignatureGenerator$instance {
+export abstract class X509SignatureGenerator$protected {
+    protected abstract BuildPublicKey(): PublicKey;
+}
+
+
+export interface X509SignatureGenerator$instance extends X509SignatureGenerator$protected {
     readonly PublicKey: PublicKey;
     GetSignatureAlgorithmIdentifier(hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
@@ -1062,6 +1088,7 @@ export interface X509SignatureGenerator$instance {
 
 
 export const X509SignatureGenerator: {
+    new(): X509SignatureGenerator;
     CreateForCompositeMLDsa(key: CompositeMLDsa): X509SignatureGenerator;
     CreateForECDsa(key: ECDsa): X509SignatureGenerator;
     CreateForMLDsa(key: MLDsa): X509SignatureGenerator;

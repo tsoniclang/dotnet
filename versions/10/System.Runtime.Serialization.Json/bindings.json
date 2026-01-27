@@ -31,6 +31,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonReaderInitializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -50,6 +51,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonReaderInitializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -87,6 +89,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.IXmlJsonWriterInitializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -128,6 +131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -147,6 +151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -166,6 +171,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -185,6 +191,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -204,6 +211,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -223,6 +231,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -242,6 +251,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -261,6 +271,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -280,6 +291,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -299,6 +311,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -318,6 +331,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -337,6 +351,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -356,6 +371,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -375,6 +391,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -394,6 +411,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -413,6 +431,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -432,6 +451,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -451,6 +471,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -472,6 +493,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -490,6 +512,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -508,6 +531,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -526,6 +550,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -544,6 +569,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -562,6 +588,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -580,6 +607,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         }
@@ -594,6 +622,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -604,6 +633,7 @@
           "normalizedSignature": "constructor|(System.Type,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -614,6 +644,7 @@
           "normalizedSignature": "constructor|(System.Type,System.Xml.XmlDictionaryString):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -624,6 +655,7 @@
           "normalizedSignature": "constructor|(System.Type,System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -634,6 +666,7 @@
           "normalizedSignature": "constructor|(System.Type,System.String,System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -644,6 +677,7 @@
           "normalizedSignature": "constructor|(System.Type,System.Xml.XmlDictionaryString,System.Collections.Generic.IEnumerable_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -654,6 +688,7 @@
           "normalizedSignature": "constructor|(System.Type,System.Runtime.Serialization.Json.DataContractJsonSerializerSettings):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializer",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         }
@@ -691,6 +726,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -709,6 +745,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -727,6 +764,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -745,6 +783,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -763,6 +802,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -781,6 +821,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -799,6 +840,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         },
@@ -817,6 +859,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         }
@@ -831,6 +874,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerSettings",
           "declaringAssemblyName": "System.Private.DataContractSerialization"
         }
@@ -867,6 +911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": true
@@ -886,6 +931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.DataContractJsonSerializerExtensions",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": true
@@ -927,6 +973,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -946,6 +993,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -965,6 +1013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -984,6 +1033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1003,6 +1053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1022,6 +1073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1041,6 +1093,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1060,6 +1113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1079,6 +1133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false
@@ -1098,6 +1153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Json.JsonReaderWriterFactory",
           "declaringAssemblyName": "System.Private.DataContractSerialization",
           "isExtensionMethod": false

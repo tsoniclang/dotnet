@@ -228,6 +228,13 @@ export interface NameObjectCollectionBase$instance {
 
 
 export const NameObjectCollectionBase: {
+    new(): NameObjectCollectionBase;
+    new(equalityComparer: IEqualityComparer): NameObjectCollectionBase;
+    new(capacity: int, equalityComparer: IEqualityComparer): NameObjectCollectionBase;
+    new(hashProvider: IHashCodeProvider, comparer: IComparer): NameObjectCollectionBase;
+    new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameObjectCollectionBase;
+    new(capacity: int): NameObjectCollectionBase;
+    new(info: SerializationInfo, context: StreamingContext): NameObjectCollectionBase;
 };
 
 
@@ -296,6 +303,7 @@ export const NameValueCollection: {
     new(capacity: int, equalityComparer: IEqualityComparer): NameValueCollection;
     new(capacity: int, col: NameValueCollection): NameValueCollection;
     new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection;
+    new(info: SerializationInfo, context: StreamingContext): NameValueCollection;
 };
 
 
@@ -337,7 +345,12 @@ export const NotifyCollectionChangedEventArgs: {
 
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
-export interface OrderedDictionary$instance {
+export abstract class OrderedDictionary$protected {
+    protected OnDeserialization(sender: unknown): void;
+}
+
+
+export interface OrderedDictionary$instance extends OrderedDictionary$protected {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection;
@@ -364,6 +377,7 @@ export const OrderedDictionary: {
     new(capacity: int): OrderedDictionary;
     new(comparer: IEqualityComparer): OrderedDictionary;
     new(capacity: int, comparer: IEqualityComparer): OrderedDictionary;
+    new(info: SerializationInfo, context: StreamingContext): OrderedDictionary;
 };
 
 

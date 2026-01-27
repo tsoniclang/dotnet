@@ -9,7 +9,7 @@ import * as Internal from './System.Security.Principal/internal/index.js';
 import type { SafeAccessTokenHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { ICollection_1, IEnumerable_1, IEnumerator_1 } from './System.Collections.Generic/internal/index.js';
 import type { IDictionary, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
-import type { BinaryWriter } from './System.IO/internal/index.js';
+import type { BinaryReader, BinaryWriter } from './System.IO/internal/index.js';
 import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Claim, ClaimsIdentity, ClaimsPrincipal } from './System.Security.Claims/internal/index.js';

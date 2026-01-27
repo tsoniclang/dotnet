@@ -10,14 +10,14 @@ import type { SafeFileHandle } from './Microsoft.Win32.SafeHandles/internal/inde
 import type { IAsyncEnumerable_1, IEnumerable_1, IReadOnlyList_1 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { IDictionary } from './System.Collections/internal/index.js';
-import type { Component, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
+import type { Component, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { SafeBuffer } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { AccessControlSections, DirectorySecurity, FileSecurity, FileSystemRights } from './System.Security.AccessControl/internal/index.js';
 import type { Encoding, StringBuilder } from './System.Text/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
-import type { CancellationToken } from './System.Threading/internal/index.js';
+import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, Half, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)

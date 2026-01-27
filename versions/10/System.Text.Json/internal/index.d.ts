@@ -297,14 +297,14 @@ export interface Utf8JsonReader$instance {
     readonly BytesConsumed: long;
     readonly CurrentDepth: int;
     readonly CurrentState: JsonReaderState;
-    readonly HasValueSequence: boolean;
+    HasValueSequence: boolean;
     readonly IsFinalBlock: boolean;
     readonly Position: SequencePosition;
-    readonly TokenStartIndex: long;
+    TokenStartIndex: long;
     readonly TokenType: JsonTokenType;
-    readonly ValueIsEscaped: boolean;
-    readonly ValueSequence: ReadOnlySequence_1<System_Internal.Byte>;
-    readonly ValueSpan: ReadOnlySpan_1<System_Internal.Byte>;
+    ValueIsEscaped: boolean;
+    ValueSequence: ReadOnlySequence_1<System_Internal.Byte>;
+    ValueSpan: ReadOnlySpan_1<System_Internal.Byte>;
     CopyString(utf8Destination: Span_1<System_Internal.Byte>): int;
     CopyString(destination: Span_1<System_Internal.Char>): int;
     GetBoolean(): boolean;
@@ -389,10 +389,10 @@ export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
 export interface JsonException$instance extends Exception {
-    readonly BytePositionInLine: Nullable_1<System_Internal.Int64>;
-    readonly LineNumber: Nullable_1<System_Internal.Int64>;
+    BytePositionInLine: Nullable_1<System_Internal.Int64>;
+    LineNumber: Nullable_1<System_Internal.Int64>;
     readonly Message: string;
-    readonly Path: string;
+    Path: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -403,6 +403,7 @@ export const JsonException: {
     new(message: string, innerException: Exception): JsonException;
     new(message: string): JsonException;
     new(): JsonException;
+    new(info: SerializationInfo, context: StreamingContext): JsonException;
 };
 
 
@@ -419,6 +420,7 @@ export interface JsonNamingPolicy$instance {
 
 
 export const JsonNamingPolicy: {
+    new(): JsonNamingPolicy;
     readonly CamelCase: JsonNamingPolicy;
     readonly SnakeCaseLower: JsonNamingPolicy;
     readonly SnakeCaseUpper: JsonNamingPolicy;
@@ -487,8 +489,8 @@ export const JsonSerializerOptions: {
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
 export interface Utf8JsonWriter$instance {
-    readonly BytesCommitted: long;
-    readonly BytesPending: int;
+    BytesCommitted: long;
+    BytesPending: int;
     readonly CurrentDepth: int;
     readonly Options: JsonWriterOptions;
     Dispose(): void;

@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -109,16 +113,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,6 +136,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.SetIteratorResult",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -225,6 +235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -244,6 +255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -265,6 +277,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -304,6 +317,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -323,6 +337,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -344,6 +359,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AncestorIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -383,6 +399,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -402,6 +419,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -423,6 +441,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeContentIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -462,6 +481,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -481,6 +501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -502,6 +523,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.AttributeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -541,6 +563,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -560,6 +583,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -581,6 +605,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -620,6 +645,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -639,6 +665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -660,6 +687,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ContentMergeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -699,6 +727,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -718,6 +747,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -737,6 +767,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -756,6 +787,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -775,6 +807,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -796,6 +829,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -814,6 +848,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -832,6 +867,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -850,6 +886,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -868,6 +905,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DecimalAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -907,6 +945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -926,6 +965,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -947,6 +987,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -986,6 +1027,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1005,6 +1047,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1026,6 +1069,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DescendantMergeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1065,6 +1109,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DifferenceIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1084,6 +1129,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DifferenceIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1105,6 +1151,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DifferenceIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1144,6 +1191,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DodSequenceMerge",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1163,6 +1211,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DodSequenceMerge",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1182,6 +1231,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DodSequenceMerge",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1223,6 +1273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1242,6 +1293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1261,6 +1313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1280,6 +1333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1299,6 +1353,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1320,6 +1375,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1338,6 +1394,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1356,6 +1413,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1374,6 +1432,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1392,6 +1451,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.DoubleAggregator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1431,6 +1491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ElementContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1450,6 +1511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ElementContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1471,6 +1533,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ElementContentIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1510,6 +1573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1529,6 +1593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1550,6 +1615,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1589,6 +1655,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1608,6 +1675,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1629,6 +1697,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.FollowingSiblingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1668,6 +1737,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IdIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1687,6 +1757,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IdIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1708,6 +1779,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IdIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1747,6 +1819,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1766,6 +1839,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1785,6 +1859,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1804,6 +1879,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1823,6 +1899,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1844,6 +1921,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1862,6 +1940,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1880,6 +1959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1898,6 +1978,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -1916,6 +1997,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int32Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -1955,6 +2037,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1974,6 +2057,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -1993,6 +2077,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2012,6 +2097,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2031,6 +2117,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2052,6 +2139,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -2070,6 +2158,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -2088,6 +2177,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -2106,6 +2196,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -2124,6 +2215,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.Int64Aggregator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2163,6 +2255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IntersectIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2182,6 +2275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IntersectIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2203,6 +2297,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.IntersectIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2242,6 +2337,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NamespaceIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2261,6 +2357,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NamespaceIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2282,6 +2379,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NamespaceIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2321,6 +2419,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeKindContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2340,6 +2439,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeKindContentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2361,6 +2461,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeKindContentIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2400,6 +2501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeRangeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2419,6 +2521,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeRangeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2440,6 +2543,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.NodeRangeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2479,6 +2583,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ParentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2498,6 +2603,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ParentIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2519,6 +2625,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.ParentIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2558,6 +2665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2577,6 +2685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2598,6 +2707,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2637,6 +2747,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2656,6 +2767,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2677,6 +2789,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2716,6 +2829,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2735,6 +2849,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2756,6 +2871,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.PrecedingSiblingIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2795,6 +2911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.StringConcat",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2814,6 +2931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.StringConcat",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2833,6 +2951,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.StringConcat",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2854,6 +2973,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.StringConcat",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2893,6 +3013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.UnionIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2912,6 +3033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.UnionIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2933,6 +3055,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.UnionIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -2972,6 +3095,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -2991,6 +3115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3010,6 +3135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3029,6 +3155,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3048,6 +3175,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3067,6 +3195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3086,6 +3215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3105,6 +3235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3124,6 +3255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3145,6 +3277,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlSortKeyAccumulator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3184,6 +3317,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3203,6 +3337,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3224,6 +3359,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3263,6 +3399,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3282,6 +3419,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3303,6 +3441,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathFollowingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3342,6 +3481,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3361,6 +3501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3382,6 +3523,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingDocOrderIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3421,6 +3563,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3440,6 +3583,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3461,6 +3605,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3500,6 +3645,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3519,6 +3665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3540,6 +3687,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XPathPrecedingMergeIterator",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -3579,6 +3727,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlCollation",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3598,6 +3747,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlCollation",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3639,6 +3789,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILIndex",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3658,6 +3809,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILIndex",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3699,6 +3851,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3718,6 +3871,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3737,6 +3891,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3756,6 +3911,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3775,6 +3931,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3794,6 +3951,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3802,7 +3960,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::.ctor():void",
+          "metadataToken": 100676254,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
+          "declaringAssemblyName": "System.Private.Xml"
+        }
+      ]
     },
     {
       "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext",
@@ -3835,6 +4005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3854,6 +4025,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3873,6 +4045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3892,6 +4065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3911,6 +4085,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3930,6 +4105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -3951,6 +4127,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -3969,6 +4146,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -3987,6 +4165,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryContext",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -4015,6 +4194,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "XPathItem"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -4029,23 +4215,16 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
-          "typeArguments": [
-            "XPathItem"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList",
           "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
         }
       ],
       "methods": [
@@ -4064,6 +4243,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4083,6 +4263,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4102,6 +4283,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4121,6 +4303,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4141,6 +4324,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4161,6 +4345,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4181,6 +4366,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4201,6 +4387,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4221,6 +4408,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4241,6 +4429,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4261,6 +4450,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4281,6 +4471,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4301,6 +4492,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4321,6 +4513,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4341,6 +4534,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4361,6 +4555,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4381,6 +4576,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4401,6 +4597,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4421,6 +4618,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4441,6 +4639,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4460,6 +4659,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4479,6 +4679,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4498,6 +4699,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4517,6 +4719,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4536,6 +4739,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4555,6 +4759,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4574,6 +4779,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4593,6 +4799,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4612,6 +4819,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4631,6 +4839,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4650,6 +4859,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4669,6 +4879,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4688,6 +4899,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4707,6 +4919,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -4728,6 +4941,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4747,6 +4961,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4766,6 +4981,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4785,6 +5001,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4804,6 +5021,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4823,6 +5041,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4842,6 +5061,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4856,6 +5076,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -4869,6 +5090,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -4879,6 +5101,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -4889,6 +5112,7 @@
           "normalizedSignature": "constructor|(System.Xml.XPath.XPathItem):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -4914,10 +5138,10 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
-          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
           "typeArguments": [
-            "XPathItem"
+            "XPathNavigator"
           ]
         },
         {
@@ -4931,33 +5155,8 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
           "clrName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
-            "XPathItem"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
-          "typeArguments": [
             "XPathNavigator"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
-          "typeArguments": [
-            "XPathItem"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
-          "typeArguments": [
-            "XPathNavigator"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
@@ -4966,6 +5165,31 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList",
           "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "XPathItem"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
+          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "typeArguments": [
+            "XPathItem"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
+          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "typeArguments": [
+            "XPathItem"
+          ]
         }
       ],
       "methods": [
@@ -4984,6 +5208,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5003,6 +5228,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5022,6 +5248,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5041,6 +5268,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::OnItemsChanged():System.Void",
+          "clrName": "OnItemsChanged",
+          "metadataToken": 100676511,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnItemsChanged|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5060,6 +5308,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5080,6 +5329,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5100,6 +5350,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5120,6 +5371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5140,6 +5392,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5160,6 +5413,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5180,6 +5434,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5200,6 +5455,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5220,6 +5476,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5240,6 +5497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5260,6 +5518,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5280,6 +5539,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5300,6 +5560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5320,6 +5581,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5340,6 +5602,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5360,6 +5623,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5380,6 +5644,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5399,6 +5664,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5418,6 +5684,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5437,6 +5704,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5456,6 +5724,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5475,6 +5744,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5494,6 +5764,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5513,6 +5784,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5532,6 +5804,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5551,6 +5824,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5570,6 +5844,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5589,6 +5864,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5608,6 +5884,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5627,6 +5904,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5646,6 +5924,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5667,6 +5946,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -5685,6 +5965,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5704,6 +5985,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5723,6 +6005,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5742,6 +6025,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5761,6 +6045,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5780,6 +6065,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5799,6 +6085,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5813,6 +6100,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -5826,6 +6114,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -5836,6 +6125,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -5846,6 +6136,7 @@
           "normalizedSignature": "constructor|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -5856,6 +6147,7 @@
           "normalizedSignature": "constructor|(System.Xml.XPath.XPathNavigator[],System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -5866,6 +6158,7 @@
           "normalizedSignature": "constructor|(System.Xml.XPath.XPathNavigator):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -5888,12 +6181,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -5912,6 +6205,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5931,6 +6225,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5950,6 +6245,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5969,6 +6265,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -5988,6 +6285,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6007,6 +6305,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6026,6 +6325,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6045,6 +6345,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6064,6 +6365,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6083,6 +6385,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6102,6 +6405,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6121,6 +6425,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6140,6 +6445,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6159,6 +6465,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6178,6 +6485,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6197,6 +6505,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6216,6 +6525,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6235,6 +6545,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6254,6 +6565,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6273,6 +6585,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6292,6 +6605,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6311,6 +6625,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6330,6 +6645,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6349,6 +6665,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6368,6 +6685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6387,6 +6705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6406,6 +6725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6425,6 +6745,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6444,6 +6765,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6463,6 +6785,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6482,6 +6805,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6501,6 +6825,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6520,6 +6845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6539,6 +6865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6558,6 +6885,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6577,6 +6905,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6596,6 +6925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6615,6 +6945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6634,6 +6965,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6653,6 +6985,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6672,6 +7005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6691,6 +7025,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6710,6 +7045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6729,6 +7065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6748,6 +7085,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6767,6 +7105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6786,6 +7125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6805,6 +7145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6824,6 +7165,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6843,6 +7185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6862,6 +7205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6881,6 +7225,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6900,6 +7245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6919,6 +7265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6938,6 +7285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6957,6 +7305,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6976,6 +7325,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -6995,6 +7345,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7014,6 +7365,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7033,6 +7385,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7052,6 +7405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7071,6 +7425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7090,6 +7445,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7109,6 +7465,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7129,6 +7486,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7149,6 +7507,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7168,6 +7547,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7187,6 +7567,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7206,6 +7587,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7225,6 +7607,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7244,6 +7627,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7265,6 +7649,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -7283,6 +7668,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -7301,6 +7687,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryOutput",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -7340,6 +7727,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7359,6 +7747,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7378,6 +7767,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7397,6 +7787,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7416,6 +7807,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7435,6 +7827,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7454,6 +7847,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7473,6 +7867,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7492,6 +7887,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7511,6 +7907,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7530,6 +7927,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7549,6 +7947,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7568,6 +7967,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7587,6 +7987,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7606,6 +8007,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7625,6 +8027,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7644,6 +8047,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7663,6 +8067,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7682,6 +8087,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7701,6 +8107,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7720,6 +8127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7739,6 +8147,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7758,6 +8167,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7777,6 +8187,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7796,6 +8207,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7815,6 +8227,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7834,6 +8247,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7853,6 +8267,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -7878,6 +8293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -7897,6 +8313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -7922,6 +8339,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -7947,6 +8365,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -7972,6 +8391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -7997,6 +8417,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8016,6 +8437,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8035,6 +8457,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8054,6 +8477,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8075,6 +8499,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8093,6 +8518,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8111,6 +8537,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8129,6 +8556,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQueryRuntime",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -8148,14 +8576,18 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "T"
+          ]
+        },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
@@ -8171,24 +8603,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
-          "typeArguments": [
-            "T"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList",
           "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -8206,6 +8634,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8225,6 +8654,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8244,6 +8674,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8263,6 +8694,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8282,6 +8714,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8301,6 +8734,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8320,6 +8754,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8339,6 +8774,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8358,6 +8794,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
+          "declaringAssemblyName": "System.Private.Xml",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::OnItemsChanged():System.Void",
+          "clrName": "OnItemsChanged",
+          "metadataToken": 100676491,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnItemsChanged|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8377,6 +8834,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8397,6 +8855,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8417,6 +8876,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8437,6 +8897,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8457,6 +8918,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8477,6 +8939,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8497,6 +8960,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8517,6 +8981,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8537,6 +9002,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8557,6 +9023,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8577,6 +9044,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8597,6 +9065,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8617,6 +9086,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8637,6 +9107,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8657,6 +9128,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8677,6 +9149,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8697,6 +9170,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8719,6 +9193,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8737,6 +9212,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8755,6 +9231,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8774,6 +9251,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8793,6 +9271,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8812,6 +9291,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8831,6 +9311,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8850,6 +9331,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8869,6 +9351,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -8883,6 +9366,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -8896,6 +9380,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8906,6 +9391,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8916,6 +9402,7 @@
           "normalizedSignature": "constructor|(T[],System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -8926,6 +9413,7 @@
           "normalizedSignature": "constructor|(T):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -8962,6 +9450,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -8981,6 +9470,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9000,6 +9490,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9019,6 +9510,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9038,6 +9530,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9057,6 +9550,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9076,6 +9570,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9095,6 +9590,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9114,6 +9610,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9133,6 +9630,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9152,6 +9650,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9171,6 +9670,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9190,6 +9690,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltLibrary",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9231,6 +9732,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9250,6 +9752,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9269,6 +9772,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9288,6 +9792,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9307,6 +9812,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9326,6 +9832,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9345,6 +9852,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9364,6 +9872,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9383,6 +9892,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9402,6 +9912,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9421,6 +9932,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9440,6 +9952,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9459,6 +9972,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlILStorageConverter",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9500,6 +10014,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9519,6 +10034,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9538,6 +10054,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9557,6 +10074,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9576,6 +10094,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9595,6 +10114,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9614,6 +10134,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9633,6 +10154,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9652,6 +10174,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9671,6 +10194,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9690,6 +10214,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9709,6 +10234,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9728,6 +10254,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9747,6 +10274,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9766,6 +10294,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9785,6 +10314,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9804,6 +10334,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9823,6 +10354,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9842,6 +10374,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9861,6 +10394,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9880,6 +10414,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltConvert",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9921,6 +10456,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9940,6 +10476,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9959,6 +10496,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9978,6 +10516,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -9997,6 +10536,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10016,6 +10556,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10035,6 +10576,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10054,6 +10596,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10073,6 +10616,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10092,6 +10636,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10111,6 +10656,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10130,6 +10676,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10149,6 +10696,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10168,6 +10716,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10187,6 +10736,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10206,6 +10756,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10225,6 +10776,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10244,6 +10796,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10263,6 +10816,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -10282,6 +10836,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XsltFunctions",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false

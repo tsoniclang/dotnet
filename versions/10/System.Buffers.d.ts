@@ -9,7 +9,7 @@ import * as Internal from './System.Buffers/internal/index.js';
 import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { GCHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SequencePosition, Span_1, String as ClrString, StringComparison, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SequencePosition, Span_1, String as ClrString, StringComparison, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { BuffersExtensions$instance as BuffersExtensions } from './System.Buffers/internal/index.js';

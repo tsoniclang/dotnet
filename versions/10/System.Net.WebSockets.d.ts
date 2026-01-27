@@ -19,8 +19,8 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { X509CertificateCollection } from './System.Security.Cryptography.X509Certificates/internal/index.js';
 import type { IPrincipal } from './System.Security.Principal/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
-import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
+import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { HttpListenerWebSocketContext as HttpListenerWebSocketContext } from './System.Net.WebSockets/internal/index.js';

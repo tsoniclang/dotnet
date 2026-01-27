@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentCloneOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentCloneOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentCloneOption",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -98,16 +101,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -121,6 +124,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnlistmentOptions",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -132,6 +136,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnlistmentOptions",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnlistmentOptions",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -171,16 +177,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -194,6 +200,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -205,6 +212,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -216,6 +224,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -227,6 +236,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -255,16 +265,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -278,6 +288,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -289,6 +300,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -300,6 +312,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -311,6 +324,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -322,6 +336,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -333,6 +348,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -344,6 +360,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -355,6 +372,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IsolationLevel",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -383,16 +401,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -406,6 +424,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -417,6 +436,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -428,6 +448,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -456,16 +477,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -479,6 +500,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -490,6 +512,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -501,6 +524,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeOption",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -512,6 +536,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScopeOption",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -540,16 +565,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -563,6 +588,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStatus",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -574,6 +600,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStatus",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -585,6 +612,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStatus",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -596,6 +624,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStatus",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -607,6 +636,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStatus",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -655,6 +685,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -674,6 +705,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -693,6 +725,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -709,6 +742,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -755,6 +789,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -774,6 +809,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -793,6 +829,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -809,6 +846,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -855,6 +893,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -874,6 +913,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -893,6 +933,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -909,6 +950,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -941,6 +983,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IDtcTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -960,6 +1003,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IDtcTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -979,6 +1023,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IDtcTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1016,6 +1061,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1035,6 +1081,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1078,6 +1125,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1097,6 +1145,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1116,6 +1165,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.ITransactionPromoter",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1159,6 +1209,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.ISimpleTransactionSuperior",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1178,6 +1229,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.ITransactionPromoter",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1221,6 +1273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.ISinglePhaseNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1240,6 +1293,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1259,6 +1313,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.IEnlistmentNotification",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1296,6 +1351,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.ITransactionPromoter",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1346,6 +1402,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionOptions",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1365,6 +1422,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionOptions",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1384,6 +1442,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionOptions",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1403,6 +1462,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1425,6 +1485,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionOptions",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -1443,6 +1504,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionOptions",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -1468,16 +1530,16 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncResult",
-          "clrName": "System.IAsyncResult"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncResult",
+          "clrName": "System.IAsyncResult"
         }
       ],
       "methods": [
@@ -1496,6 +1558,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1515,6 +1578,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1534,6 +1598,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1553,6 +1618,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1573,6 +1639,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1593,6 +1660,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1612,6 +1680,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1633,6 +1702,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1652,6 +1722,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1671,6 +1742,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1690,6 +1762,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1705,6 +1778,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -1715,6 +1789,7 @@
           "normalizedSignature": "constructor|(System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -1725,6 +1800,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.CommittableTransaction",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -1771,6 +1847,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1790,6 +1867,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1810,6 +1888,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1830,6 +1909,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1849,6 +1929,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.DependentTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1890,6 +1971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Enlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1931,6 +2013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.PreparingEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1950,6 +2033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.PreparingEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1969,6 +2053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.PreparingEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -1988,6 +2073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.PreparingEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2029,6 +2115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2048,6 +2135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2067,6 +2155,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2086,6 +2175,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2105,6 +2195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2156,6 +2247,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2176,6 +2268,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2196,6 +2289,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SubordinateTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2215,6 +2309,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SubordinateTransaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2231,6 +2326,7 @@
           "normalizedSignature": "constructor|(System.Transactions.IsolationLevel,System.Transactions.ISimpleTransactionSuperior):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.SubordinateTransaction",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2277,6 +2373,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2296,6 +2393,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2315,6 +2413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2334,6 +2433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2353,6 +2453,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2372,6 +2473,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2391,6 +2493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2410,6 +2513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2429,6 +2533,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2448,6 +2553,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2467,6 +2573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2486,6 +2593,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2505,6 +2613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2524,6 +2633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2543,6 +2653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2562,6 +2673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2581,6 +2693,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2601,6 +2714,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2623,6 +2737,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2641,6 +2756,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2659,6 +2775,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2677,6 +2794,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2689,6 +2807,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "TransactionCompleted|System.Transactions.TransactionCompletedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.Transaction",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2732,6 +2851,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2752,6 +2872,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionAbortedException",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2768,6 +2889,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionAbortedException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2778,6 +2900,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionAbortedException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2788,6 +2911,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Transactions.TransactionAbortedException",
+          "declaringAssemblyName": "System.Transactions.Local"
+        },
+        {
+          "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663622,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Transactions.TransactionAbortedException",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2825,6 +2960,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionEventArgs",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2839,6 +2975,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionEventArgs",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2881,6 +3018,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2901,6 +3039,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionException",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -2917,6 +3056,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2927,6 +3067,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -2937,6 +3078,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Transactions.TransactionException",
+          "declaringAssemblyName": "System.Transactions.Local"
+        },
+        {
+          "stableId": "System.Transactions.Local:System.Transactions.TransactionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663610,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Transactions.TransactionException",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -2979,6 +3132,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2999,6 +3153,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInDoubtException",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3015,6 +3170,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInDoubtException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3025,6 +3181,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInDoubtException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3035,6 +3192,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Transactions.TransactionInDoubtException",
+          "declaringAssemblyName": "System.Transactions.Local"
+        },
+        {
+          "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663628,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Transactions.TransactionInDoubtException",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3072,6 +3241,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInformation",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3090,6 +3260,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInformation",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3108,6 +3279,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInformation",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3126,6 +3298,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInformation",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3171,6 +3344,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3191,6 +3365,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3207,6 +3382,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3217,6 +3393,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3227,6 +3404,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
+          "declaringAssemblyName": "System.Transactions.Local"
+        },
+        {
+          "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663632,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3269,6 +3458,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3289,6 +3479,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionPromotionException",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3305,6 +3496,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionPromotionException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3315,6 +3507,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionPromotionException",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3325,6 +3518,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Transactions.TransactionPromotionException",
+          "declaringAssemblyName": "System.Transactions.Local"
+        },
+        {
+          "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663636,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Transactions.TransactionPromotionException",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3367,6 +3572,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3386,6 +3592,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3405,6 +3612,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3422,6 +3630,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3432,6 +3641,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3442,6 +3652,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3452,6 +3663,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3462,6 +3674,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3472,6 +3685,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.TimeSpan,System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3482,6 +3696,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3492,6 +3707,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions,System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3502,6 +3718,7 @@
           "normalizedSignature": "constructor|(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions,System.Transactions.EnterpriseServicesInteropOption):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3512,6 +3729,7 @@
           "normalizedSignature": "constructor|(System.Transactions.Transaction):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3522,6 +3740,7 @@
           "normalizedSignature": "constructor|(System.Transactions.Transaction,System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3532,6 +3751,7 @@
           "normalizedSignature": "constructor|(System.Transactions.Transaction,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3542,6 +3762,7 @@
           "normalizedSignature": "constructor|(System.Transactions.Transaction,System.TimeSpan,System.Transactions.TransactionScopeAsyncFlowOption):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3552,6 +3773,7 @@
           "normalizedSignature": "constructor|(System.Transactions.Transaction,System.TimeSpan,System.Transactions.EnterpriseServicesInteropOption):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionScope",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3588,6 +3810,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3607,6 +3830,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3626,6 +3850,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3645,6 +3870,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3664,6 +3890,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3683,6 +3910,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3702,6 +3930,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3717,6 +3946,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionInterop",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3755,6 +3985,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3774,6 +4005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local",
           "isExtensionMethod": false
@@ -3795,6 +4027,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3813,6 +4046,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3831,6 +4065,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local"
         },
@@ -3849,6 +4084,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local"
         }
@@ -3861,6 +4097,7 @@
           "metadataToken": 335544322,
           "normalizedSignature": "DistributedTransactionStarted|System.Transactions.TransactionStartedEventHandler|static=true",
           "isStatic": true,
+          "visibility": "Public",
           "declaringClrType": "System.Transactions.TransactionManager",
           "declaringAssemblyName": "System.Transactions.Local"
         }

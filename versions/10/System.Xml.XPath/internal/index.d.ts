@@ -109,6 +109,7 @@ export interface XPathException$instance extends SystemException {
 
 
 export const XPathException: {
+    new(info: SerializationInfo, context: StreamingContext): XPathException;
     new(): XPathException;
     new(message: string): XPathException;
     new(message: string, innerException: Exception): XPathException;
@@ -158,6 +159,7 @@ export interface XPathItem$instance {
 
 
 export const XPathItem: {
+    new(): XPathItem;
 };
 
 
@@ -282,6 +284,7 @@ export interface XPathNavigator$instance extends XPathItem {
 
 
 export const XPathNavigator: {
+    new(): XPathNavigator;
     readonly NavigatorComparer: IEqualityComparer;
 };
 
@@ -308,6 +311,7 @@ export interface XPathNodeIterator$instance {
 
 
 export const XPathNodeIterator: {
+    new(): XPathNodeIterator;
 };
 
 

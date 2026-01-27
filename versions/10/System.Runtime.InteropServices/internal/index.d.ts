@@ -14,7 +14,7 @@ import type { SafeHandleZeroOrMinusOneIsInvalid } from "../../Microsoft.Win32.Sa
 import type { MemoryManager_1, ReadOnlySequence_1, ReadOnlySequenceSegment_1, SequenceReader_1 } from "../../System.Buffers/internal/index.js";
 import type { Dictionary_2, Dictionary_2_AlternateLookup_1, IEnumerable_1, IList_1, IReadOnlyDictionary_2, List_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { ImmutableArray_1, ImmutableArray_1_Builder } from "../../System.Collections.Immutable/internal/index.js";
-import type { BitArray, IDictionary } from "../../System.Collections/internal/index.js";
+import type { BitArray, IDictionary, IEnumerable } from "../../System.Collections/internal/index.js";
 import type { NumberStyles } from "../../System.Globalization/internal/index.js";
 import * as System_Numerics_Internal from "../../System.Numerics/internal/index.js";
 import type { IAdditionOperators_3, IAdditiveIdentity_2, IBinaryFloatingPointIeee754_1, IBinaryInteger_1, IBinaryNumber_1, IBitwiseOperators_3, IComparisonOperators_3, IDecrementOperators_1, IDivisionOperators_3, IEqualityOperators_3, IExponentialFunctions_1, IFloatingPoint_1, IFloatingPointConstants_1, IFloatingPointIeee754_1, IHyperbolicFunctions_1, IIncrementOperators_1, ILogarithmicFunctions_1, IMinMaxValue_1, IModulusOperators_3, IMultiplicativeIdentity_2, IMultiplyOperators_3, INumber_1, INumberBase_1, IPowerFunctions_1, IRootFunctions_1, ISignedNumber_1, ISubtractionOperators_3, ITrigonometricFunctions_1, IUnaryNegationOperators_2, IUnaryPlusOperators_2 } from "../../System.Numerics/internal/index.js";
@@ -1024,6 +1024,7 @@ export const COMException: {
     new(message: string): COMException;
     new(message: string, inner: Exception): COMException;
     new(message: string, errorCode: int): COMException;
+    new(info: SerializationInfo, context: StreamingContext): COMException;
 };
 
 
@@ -1095,7 +1096,15 @@ export const ComVisibleAttribute: {
 
 export type ComVisibleAttribute = ComVisibleAttribute$instance;
 
-export interface ComWrappers$instance {
+export abstract class ComWrappers$protected {
+    protected abstract ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    protected abstract CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown | undefined;
+    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
+    protected abstract ReleaseObjects(objects: IEnumerable): void;
+}
+
+
+export interface ComWrappers$instance extends ComWrappers$protected {
     GetOrCreateComInterfaceForObject(instance: unknown, flags: CreateComInterfaceFlags): nint;
     GetOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags): unknown;
     GetOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, userState: unknown): unknown;
@@ -1105,6 +1114,7 @@ export interface ComWrappers$instance {
 
 
 export const ComWrappers: {
+    new(): ComWrappers;
     GetIUnknownImpl(fpQueryInterface: nint, fpAddRef: nint, fpRelease: nint): void;
     RegisterForMarshalling(instance: ComWrappers): void;
     RegisterForTrackerSupport(instance: ComWrappers): void;
@@ -1115,7 +1125,14 @@ export const ComWrappers: {
 
 export type ComWrappers = ComWrappers$instance;
 
-export interface CriticalHandle$instance extends CriticalFinalizerObject {
+export abstract class CriticalHandle$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+    protected abstract ReleaseHandle(): boolean;
+}
+
+
+export interface CriticalHandle$instance extends CriticalHandle$protected, CriticalFinalizerObject {
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
@@ -1125,14 +1142,13 @@ export interface CriticalHandle$instance extends CriticalFinalizerObject {
 
 
 export const CriticalHandle: {
+    new(invalidHandleValue: nint): CriticalHandle;
 };
 
 
 export interface __CriticalHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface CriticalHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type CriticalHandle = CriticalHandle$instance & __CriticalHandle$views;
 
@@ -1267,6 +1283,7 @@ export const ExternalException: {
     new(message: string): ExternalException;
     new(message: string, inner: Exception): ExternalException;
     new(message: string, errorCode: int): ExternalException;
+    new(info: SerializationInfo, context: StreamingContext): ExternalException;
 };
 
 
@@ -1364,6 +1381,7 @@ export const InvalidComObjectException: {
     new(): InvalidComObjectException;
     new(message: string): InvalidComObjectException;
     new(message: string, inner: Exception): InvalidComObjectException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidComObjectException;
 };
 
 
@@ -1383,6 +1401,7 @@ export const InvalidOleVariantTypeException: {
     new(): InvalidOleVariantTypeException;
     new(message: string): InvalidOleVariantTypeException;
     new(message: string, inner: Exception): InvalidOleVariantTypeException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidOleVariantTypeException;
 };
 
 
@@ -1467,6 +1486,7 @@ export const MarshalDirectiveException: {
     new(): MarshalDirectiveException;
     new(message: string): MarshalDirectiveException;
     new(message: string, inner: Exception): MarshalDirectiveException;
+    new(info: SerializationInfo, context: StreamingContext): MarshalDirectiveException;
 };
 
 
@@ -1501,7 +1521,7 @@ export type OutAttribute = OutAttribute$instance;
 
 export interface PosixSignalContext$instance {
     Cancel: boolean;
-    readonly Signal: PosixSignal;
+    Signal: PosixSignal;
 }
 
 
@@ -1512,7 +1532,12 @@ export const PosixSignalContext: {
 
 export type PosixSignalContext = PosixSignalContext$instance;
 
-export interface PosixSignalRegistration$instance {
+export abstract class PosixSignalRegistration$protected {
+    protected Finalize(): void;
+}
+
+
+export interface PosixSignalRegistration$instance extends PosixSignalRegistration$protected {
     Dispose(): void;
 }
 
@@ -1577,6 +1602,7 @@ export const SafeArrayRankMismatchException: {
     new(): SafeArrayRankMismatchException;
     new(message: string): SafeArrayRankMismatchException;
     new(message: string, inner: Exception): SafeArrayRankMismatchException;
+    new(info: SerializationInfo, context: StreamingContext): SafeArrayRankMismatchException;
 };
 
 
@@ -1596,6 +1622,7 @@ export const SafeArrayTypeMismatchException: {
     new(): SafeArrayTypeMismatchException;
     new(message: string): SafeArrayTypeMismatchException;
     new(message: string, inner: Exception): SafeArrayTypeMismatchException;
+    new(info: SerializationInfo, context: StreamingContext): SafeArrayTypeMismatchException;
 };
 
 
@@ -1606,7 +1633,12 @@ export interface __SafeArrayTypeMismatchException$views {
 export type SafeArrayTypeMismatchException = SafeArrayTypeMismatchException$instance & __SafeArrayTypeMismatchException$views;
 
 
-export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+export abstract class SafeBuffer$protected {
+    protected Dispose3(disposing: boolean): void;
+}
+
+
+export interface SafeBuffer$instance extends SafeBuffer$protected, SafeHandleZeroOrMinusOneIsInvalid {
     readonly ByteLength: ulong;
     AcquirePointer(pointer: ptr<byte>): void;
     Dispose(): void;
@@ -1624,6 +1656,7 @@ export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
 
 
 export const SafeBuffer: {
+    new(ownsHandle: boolean): SafeBuffer;
 };
 
 
@@ -1634,7 +1667,14 @@ export interface __SafeBuffer$views {
 export type SafeBuffer = SafeBuffer$instance & __SafeBuffer$views;
 
 
-export interface SafeHandle$instance extends CriticalFinalizerObject {
+export abstract class SafeHandle$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+    protected abstract ReleaseHandle(): boolean;
+}
+
+
+export interface SafeHandle$instance extends SafeHandle$protected, CriticalFinalizerObject {
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
@@ -1647,14 +1687,13 @@ export interface SafeHandle$instance extends CriticalFinalizerObject {
 
 
 export const SafeHandle: {
+    new(invalidHandleValue: nint, ownsHandle: boolean): SafeHandle;
 };
 
 
 export interface __SafeHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SafeHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type SafeHandle = SafeHandle$instance & __SafeHandle$views;
 
@@ -1669,6 +1708,7 @@ export const SEHException: {
     new(): SEHException;
     new(message: string): SEHException;
     new(message: string, inner: Exception): SEHException;
+    new(info: SerializationInfo, context: StreamingContext): SEHException;
 };
 
 

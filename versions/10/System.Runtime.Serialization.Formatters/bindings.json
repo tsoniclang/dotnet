@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         }
@@ -98,16 +101,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -121,6 +124,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -132,6 +136,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         }
@@ -182,16 +189,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -205,6 +212,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -216,6 +224,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -227,6 +236,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         }
@@ -262,6 +272,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.IFieldInfo",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -280,6 +291,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.IFieldInfo",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         }

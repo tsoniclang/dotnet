@@ -12,7 +12,7 @@ import type { Encoding, StringBuilder } from "../../System.Text/internal/index.j
 import type { Task, ValueTask } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, MarshalByRefObject, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export interface GeneratedCodeAttribute$instance extends Attribute {
     readonly Tool: string | undefined;
@@ -27,13 +27,20 @@ export const GeneratedCodeAttribute: {
 
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
-export interface IndentedTextWriter$instance extends TextWriter {
+export abstract class IndentedTextWriter$protected {
+    protected Dispose(disposing: boolean): void;
+    protected OutputTabs(): void;
+    protected OutputTabsAsync(): Task;
+}
+
+
+export interface IndentedTextWriter$instance extends IndentedTextWriter$protected, TextWriter {
     readonly Encoding: Encoding;
     Indent: int;
     readonly InnerWriter: TextWriter;
     NewLine: string;
     Close(): void;
-    Dispose(): void;
+    Dispose3(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     FlushAsync(): Task;

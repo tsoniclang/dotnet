@@ -162,7 +162,8 @@ export const JsonPolymorphismOptions: {
 export type JsonPolymorphismOptions = JsonPolymorphismOptions$instance;
 
 export interface JsonPropertyInfo$instance {
-    readonly AssociatedParameter: JsonParameterInfo | undefined;
+    get AssociatedParameter(): JsonParameterInfo | undefined;
+    set AssociatedParameter(value: JsonParameterInfo);
     get AttributeProvider(): ICustomAttributeProvider | undefined;
     set AttributeProvider(value: ICustomAttributeProvider);
     get CustomConverter(): JsonConverter | undefined;
@@ -223,12 +224,13 @@ export const JsonPropertyInfoValues_1: {
 export type JsonPropertyInfoValues_1<T> = JsonPropertyInfoValues_1$instance<T>;
 
 export interface JsonTypeInfo$instance {
-    readonly ConstructorAttributeProvider: ICustomAttributeProvider | undefined;
+    get ConstructorAttributeProvider(): ICustomAttributeProvider | undefined;
+    set ConstructorAttributeProvider(value: ICustomAttributeProvider);
     readonly Converter: JsonConverter;
     get CreateObject(): Func_1<unknown> | undefined;
     set CreateObject(value: Func_1<unknown>);
     readonly ElementType: Type;
-    readonly IsReadOnly: boolean;
+    IsReadOnly: boolean;
     readonly KeyType: Type | undefined;
     readonly Kind: JsonTypeInfoKind;
     NumberHandling: Nullable_1<JsonNumberHandling>;
@@ -265,7 +267,8 @@ export type JsonTypeInfo = JsonTypeInfo$instance;
 export interface JsonTypeInfo_1$instance<T> extends JsonTypeInfo {
     get CreateObject(): Func_1<T> | undefined;
     set CreateObject(value: Func_1<T>);
-    readonly SerializeHandler: Action_2<Utf8JsonWriter, T> | undefined;
+    get SerializeHandler(): Action_2<Utf8JsonWriter, T> | undefined;
+    set SerializeHandler(value: Action_2<Utf8JsonWriter, T>);
 }
 
 

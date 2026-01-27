@@ -3596,7 +3596,13 @@ export const AssemblyNameInfo: {
 
 export type AssemblyNameInfo = AssemblyNameInfo$instance;
 
-export interface BlobBuilder$instance {
+export abstract class BlobBuilder$protected {
+    protected AllocateChunk(minimalSize: int): BlobBuilder;
+    protected FreeChunk(): void;
+}
+
+
+export interface BlobBuilder$instance extends BlobBuilder$protected {
     readonly Count: int;
     Align(alignment: int): void;
     Clear(): void;
@@ -3706,6 +3712,7 @@ export const ImageFormatLimitationException: {
     new(): ImageFormatLimitationException;
     new(message: string): ImageFormatLimitationException;
     new(message: string, innerException: Exception): ImageFormatLimitationException;
+    new(info: SerializationInfo, context: StreamingContext): ImageFormatLimitationException;
 };
 
 

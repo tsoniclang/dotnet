@@ -7,12 +7,12 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 
 // Import types from other namespaces
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MarshalByRefObject, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
 
 export type ElapsedEventHandler = (sender: unknown, e: ElapsedEventArgs) => void;
 
@@ -29,7 +29,12 @@ export const ElapsedEventArgs: {
 
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
-export interface Timer$instance extends Component {
+export abstract class Timer$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface Timer$instance extends Timer$protected, Component {
     AutoReset: boolean;
     Enabled: boolean;
     Interval: double;
@@ -59,7 +64,7 @@ export interface __Timer$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Timer$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ISupportInitialize$instance {}
+export interface Timer$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type Timer = Timer$instance & __Timer$views;
 

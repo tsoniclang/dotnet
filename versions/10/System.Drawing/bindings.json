@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -82,6 +85,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -93,6 +97,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -104,6 +109,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -115,6 +121,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -126,6 +133,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -137,6 +145,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -148,6 +157,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -159,6 +169,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -170,6 +181,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -181,6 +193,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -192,6 +205,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -203,6 +217,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -214,6 +229,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -225,6 +241,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -236,6 +253,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -247,6 +265,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -258,6 +277,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -269,6 +289,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -280,6 +301,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -291,6 +313,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -302,6 +325,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -313,6 +337,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -324,6 +349,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -335,6 +361,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -346,6 +373,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -357,6 +385,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -368,6 +397,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -379,6 +409,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -390,6 +421,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -401,6 +433,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -412,6 +445,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -423,6 +457,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -434,6 +469,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -445,6 +481,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -456,6 +493,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -467,6 +505,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -478,6 +517,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -489,6 +529,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -500,6 +541,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -511,6 +553,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -522,6 +565,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -533,6 +577,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -544,6 +589,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -555,6 +601,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -566,6 +613,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -577,6 +625,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -588,6 +637,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -599,6 +649,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -610,6 +661,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -621,6 +673,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -632,6 +685,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -643,6 +697,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -654,6 +709,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -665,6 +721,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -676,6 +733,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -687,6 +745,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -698,6 +757,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -709,6 +769,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -720,6 +781,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -731,6 +793,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -742,6 +805,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -753,6 +817,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -764,6 +829,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -775,6 +841,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -786,6 +853,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -797,6 +865,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -808,6 +877,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -819,6 +889,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -830,6 +901,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -841,6 +913,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -852,6 +925,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -863,6 +937,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -874,6 +949,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -885,6 +961,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -896,6 +973,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -907,6 +985,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -918,6 +997,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -929,6 +1009,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -940,6 +1021,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -951,6 +1033,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -962,6 +1045,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -973,6 +1057,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -984,6 +1069,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -995,6 +1081,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1006,6 +1093,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1017,6 +1105,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1028,6 +1117,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1039,6 +1129,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1050,6 +1141,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1061,6 +1153,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1072,6 +1165,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1083,6 +1177,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1094,6 +1189,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1105,6 +1201,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1116,6 +1213,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1127,6 +1225,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1138,6 +1237,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1149,6 +1249,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1160,6 +1261,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1171,6 +1273,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1182,6 +1285,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1193,6 +1297,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1204,6 +1309,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1215,6 +1321,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1226,6 +1333,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1237,6 +1345,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1248,6 +1357,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1259,6 +1369,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1270,6 +1381,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1281,6 +1393,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1292,6 +1405,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1303,6 +1417,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1314,6 +1429,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1325,6 +1441,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1336,6 +1453,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1347,6 +1465,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1358,6 +1477,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1369,6 +1489,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1380,6 +1501,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1391,6 +1513,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1402,6 +1525,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1413,6 +1537,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1424,6 +1549,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1435,6 +1561,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1446,6 +1573,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1457,6 +1585,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1468,6 +1597,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1479,6 +1609,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1490,6 +1621,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1501,6 +1633,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1512,6 +1645,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1523,6 +1657,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1534,6 +1669,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1545,6 +1681,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1556,6 +1693,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1567,6 +1705,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1578,6 +1717,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1589,6 +1729,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1600,6 +1741,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1611,6 +1753,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1622,6 +1765,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1633,6 +1777,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1644,6 +1789,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1655,6 +1801,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1666,6 +1813,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1677,6 +1825,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1688,6 +1837,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1699,6 +1849,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1710,6 +1861,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1721,6 +1873,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1732,6 +1885,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1743,6 +1897,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1754,6 +1909,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1765,6 +1921,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1776,6 +1933,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1787,6 +1945,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1798,6 +1957,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1809,6 +1969,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1820,6 +1981,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1831,6 +1993,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1842,6 +2005,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1853,6 +2017,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1864,6 +2029,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1875,6 +2041,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1886,6 +2053,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1897,6 +2065,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1908,6 +2077,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1919,6 +2089,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1930,6 +2101,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1941,6 +2113,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1952,6 +2125,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1963,6 +2137,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -1974,6 +2149,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.KnownColor",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -2021,6 +2197,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2040,6 +2217,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2059,6 +2237,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2078,6 +2257,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2097,6 +2277,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2116,6 +2297,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2135,6 +2317,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2154,6 +2337,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2173,6 +2357,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2192,6 +2377,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2211,6 +2397,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2230,6 +2417,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2249,6 +2437,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2268,6 +2457,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2287,6 +2477,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -2306,6 +2497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2328,6 +2520,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2346,6 +2539,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2364,6 +2558,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2382,6 +2577,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2400,6 +2596,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2418,6 +2615,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2436,6 +2634,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2454,6 +2653,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2472,6 +2672,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2490,6 +2691,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2508,6 +2710,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2526,6 +2729,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2544,6 +2748,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2562,6 +2767,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2580,6 +2786,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2598,6 +2805,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2616,6 +2824,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2634,6 +2843,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2652,6 +2862,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2670,6 +2881,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2688,6 +2900,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2706,6 +2919,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2724,6 +2938,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2742,6 +2957,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2760,6 +2976,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2778,6 +2995,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2796,6 +3014,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2814,6 +3033,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2832,6 +3052,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2850,6 +3071,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2868,6 +3090,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2886,6 +3109,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2904,6 +3128,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2922,6 +3147,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2940,6 +3166,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2958,6 +3185,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2976,6 +3204,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -2994,6 +3223,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3012,6 +3242,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3030,6 +3261,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3048,6 +3280,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3066,6 +3299,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3084,6 +3318,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3102,6 +3337,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3120,6 +3356,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3138,6 +3375,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3156,6 +3394,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3174,6 +3413,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3192,6 +3432,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3210,6 +3451,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3228,6 +3470,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3246,6 +3489,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3264,6 +3508,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3282,6 +3527,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3300,6 +3546,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3318,6 +3565,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3336,6 +3584,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3354,6 +3603,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3372,6 +3622,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3390,6 +3641,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3408,6 +3660,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3426,6 +3679,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3444,6 +3698,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3462,6 +3717,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3480,6 +3736,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3498,6 +3755,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3516,6 +3774,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3534,6 +3793,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3552,6 +3812,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3570,6 +3831,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3588,6 +3850,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3606,6 +3869,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3624,6 +3888,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3642,6 +3907,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3660,6 +3926,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3678,6 +3945,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3696,6 +3964,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3714,6 +3983,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3732,6 +4002,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3750,6 +4021,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3768,6 +4040,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3786,6 +4059,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3804,6 +4078,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3822,6 +4097,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3840,6 +4116,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3858,6 +4135,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3876,6 +4154,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3894,6 +4173,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3912,6 +4192,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3930,6 +4211,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3948,6 +4230,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3966,6 +4249,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -3984,6 +4268,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4002,6 +4287,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4020,6 +4306,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4038,6 +4325,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4056,6 +4344,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4074,6 +4363,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4092,6 +4382,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4110,6 +4401,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4128,6 +4420,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4146,6 +4439,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4164,6 +4458,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4182,6 +4477,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4200,6 +4496,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4218,6 +4515,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4236,6 +4534,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4254,6 +4553,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4272,6 +4572,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4290,6 +4591,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4308,6 +4610,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4326,6 +4629,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4344,6 +4648,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4362,6 +4667,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4380,6 +4686,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4398,6 +4705,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4416,6 +4724,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4434,6 +4743,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4452,6 +4762,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4470,6 +4781,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4488,6 +4800,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4506,6 +4819,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4524,6 +4838,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4542,6 +4857,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4560,6 +4876,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4578,6 +4895,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4596,6 +4914,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4614,6 +4933,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4632,6 +4952,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4650,6 +4971,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4668,6 +4990,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4686,6 +5009,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4704,6 +5028,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4722,6 +5047,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4740,6 +5066,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4758,6 +5085,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4776,6 +5104,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4794,6 +5123,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4812,6 +5142,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4830,6 +5161,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4848,6 +5180,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4866,6 +5199,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4884,6 +5218,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4902,6 +5237,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4920,6 +5256,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4938,6 +5275,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4956,6 +5294,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4974,6 +5313,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -4992,6 +5332,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5010,6 +5351,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5028,6 +5370,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5041,6 +5384,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Color",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5088,6 +5432,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5107,6 +5452,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5126,6 +5472,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5145,6 +5492,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5164,6 +5512,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5183,6 +5532,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5202,6 +5552,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5221,6 +5572,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5240,6 +5592,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5259,6 +5612,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5278,6 +5632,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5297,6 +5652,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5319,6 +5675,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5337,6 +5694,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5355,6 +5713,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5368,6 +5727,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5381,6 +5741,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5391,6 +5752,7 @@
           "normalizedSignature": "constructor|(System.Drawing.Size):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5401,6 +5763,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Point",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5446,6 +5809,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5465,6 +5829,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5484,6 +5849,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5503,6 +5869,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5522,6 +5889,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5541,6 +5909,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5560,6 +5929,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5579,6 +5949,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5598,6 +5969,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5617,6 +5989,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5639,6 +6012,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5657,6 +6031,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5675,6 +6050,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5688,6 +6064,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5701,6 +6078,7 @@
           "normalizedSignature": "constructor|(System.Single,System.Single):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -5711,6 +6089,7 @@
           "normalizedSignature": "constructor|(System.Numerics.Vector2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -5756,6 +6135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5775,6 +6155,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5794,6 +6175,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5813,6 +6195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5832,6 +6215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5851,6 +6235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5870,6 +6255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5889,6 +6275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5908,6 +6295,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5927,6 +6315,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5946,6 +6335,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5965,6 +6355,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -5984,6 +6375,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6003,6 +6395,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6022,6 +6415,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6041,6 +6435,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6060,6 +6455,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6079,6 +6475,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6098,6 +6495,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6117,6 +6515,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6136,6 +6535,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6158,6 +6558,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6176,6 +6577,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6194,6 +6596,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6212,6 +6615,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6230,6 +6634,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6248,6 +6653,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6266,6 +6672,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6284,6 +6691,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6302,6 +6710,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6320,6 +6729,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6338,6 +6748,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -6351,6 +6762,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -6364,6 +6776,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6374,6 +6787,7 @@
           "normalizedSignature": "constructor|(System.Drawing.Point,System.Drawing.Size):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Rectangle",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -6419,6 +6833,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6438,6 +6853,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6457,6 +6873,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6476,6 +6893,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6495,6 +6913,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6514,6 +6933,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6533,6 +6953,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6552,6 +6973,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6571,6 +6993,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6590,6 +7013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6609,6 +7033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6628,6 +7053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6647,6 +7073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6666,6 +7093,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6685,6 +7113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6704,6 +7133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6723,6 +7153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6742,6 +7173,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -6761,6 +7193,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6783,6 +7216,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6801,6 +7235,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6819,6 +7254,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6837,6 +7273,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6855,6 +7292,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6873,6 +7311,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6891,6 +7330,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6909,6 +7349,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6927,6 +7368,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6945,6 +7387,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6963,6 +7406,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -6976,6 +7420,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -6989,6 +7434,7 @@
           "normalizedSignature": "constructor|(System.Single,System.Single,System.Single,System.Single):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -6999,6 +7445,7 @@
           "normalizedSignature": "constructor|(System.Drawing.PointF,System.Drawing.SizeF):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7009,6 +7456,7 @@
           "normalizedSignature": "constructor|(System.Numerics.Vector4):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7054,6 +7502,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7073,6 +7522,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7092,6 +7542,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7111,6 +7562,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7130,6 +7582,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7149,6 +7602,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7168,6 +7622,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7187,6 +7642,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7206,6 +7662,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7225,6 +7682,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7247,6 +7705,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7265,6 +7724,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7283,6 +7743,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7296,6 +7757,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7309,6 +7771,7 @@
           "normalizedSignature": "constructor|(System.Drawing.Point):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7319,6 +7782,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.Size",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7364,6 +7828,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7383,6 +7848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7402,6 +7868,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7421,6 +7888,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7440,6 +7908,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7459,6 +7928,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7478,6 +7948,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7497,6 +7968,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7516,6 +7988,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -7535,6 +8008,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7557,6 +8031,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7575,6 +8050,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7593,6 +8069,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7606,6 +8083,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7619,6 +8097,7 @@
           "normalizedSignature": "constructor|(System.Drawing.SizeF):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7629,6 +8108,7 @@
           "normalizedSignature": "constructor|(System.Drawing.PointF):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7639,6 +8119,7 @@
           "normalizedSignature": "constructor|(System.Numerics.Vector2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -7649,6 +8130,7 @@
           "normalizedSignature": "constructor|(System.Single,System.Single):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeF",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }
@@ -7685,6 +8167,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7704,6 +8187,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7723,6 +8207,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7742,6 +8227,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7761,6 +8247,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7780,6 +8267,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7799,6 +8287,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7818,6 +8307,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7837,6 +8327,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7856,6 +8347,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7875,6 +8367,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7894,6 +8387,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7910,6 +8404,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7946,6 +8441,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7965,6 +8461,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7984,6 +8481,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8003,6 +8501,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8022,6 +8521,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8041,6 +8541,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8060,6 +8561,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8079,6 +8581,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8098,6 +8601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8117,6 +8621,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8136,6 +8641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8155,6 +8661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8174,6 +8681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8193,6 +8701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8212,6 +8721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8231,6 +8741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8250,6 +8761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8266,6 +8778,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.PointConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -8302,6 +8815,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8321,6 +8835,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8340,6 +8855,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8359,6 +8875,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8378,6 +8895,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8397,6 +8915,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8416,6 +8935,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8435,6 +8955,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8454,6 +8975,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8473,6 +8995,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8492,6 +9015,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8511,6 +9035,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8530,6 +9055,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8549,6 +9075,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8568,6 +9095,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8587,6 +9115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8606,6 +9135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8622,6 +9152,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.RectangleConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -8658,6 +9189,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8677,6 +9209,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8696,6 +9229,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8715,6 +9249,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8734,6 +9269,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8753,6 +9289,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8772,6 +9309,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8791,6 +9329,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8810,6 +9349,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8829,6 +9369,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8848,6 +9389,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8867,6 +9409,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8886,6 +9429,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8905,6 +9449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8924,6 +9469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8943,6 +9489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8962,6 +9509,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -8978,6 +9526,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -9014,6 +9563,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9033,6 +9583,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9052,6 +9603,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9071,6 +9623,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9090,6 +9643,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9109,6 +9663,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9128,6 +9683,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9147,6 +9703,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9166,6 +9723,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9185,6 +9743,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9204,6 +9763,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9223,6 +9783,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9242,6 +9803,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9261,6 +9823,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9280,6 +9843,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9299,6 +9863,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9318,6 +9883,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -9334,6 +9900,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SizeFConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -9370,6 +9937,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9389,6 +9957,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9408,6 +9977,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9427,6 +9997,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9446,6 +10017,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9465,6 +10037,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.ColorTranslator",
           "declaringAssemblyName": "System.Drawing.Primitives",
           "isExtensionMethod": false
@@ -9507,6 +10080,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9525,6 +10099,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9543,6 +10118,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9561,6 +10137,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9579,6 +10156,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9597,6 +10175,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9615,6 +10194,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9633,6 +10213,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9651,6 +10232,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9669,6 +10251,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9687,6 +10270,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9705,6 +10289,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9723,6 +10308,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9741,6 +10327,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9759,6 +10346,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9777,6 +10365,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9795,6 +10384,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9813,6 +10403,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9831,6 +10422,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9849,6 +10441,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9867,6 +10460,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9885,6 +10479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9903,6 +10498,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9921,6 +10517,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9939,6 +10536,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9957,6 +10555,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9975,6 +10574,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -9993,6 +10593,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10011,6 +10612,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10029,6 +10631,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10047,6 +10650,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10065,6 +10669,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10083,6 +10688,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         },
@@ -10101,6 +10707,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Drawing.SystemColors",
           "declaringAssemblyName": "System.Drawing.Primitives"
         }

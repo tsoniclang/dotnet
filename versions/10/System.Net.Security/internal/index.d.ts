@@ -23,9 +23,9 @@ import type { CipherAlgorithmType, ExchangeAlgorithmType, HashAlgorithmType, Ssl
 import type { X509Certificate, X509Certificate2, X509Certificate2Collection, X509CertificateCollection, X509Chain, X509ChainPolicy, X509RevocationMode, X509Store } from "../../System.Security.Cryptography.X509Certificates/internal/index.js";
 import type { IIdentity, TokenImpersonationLevel } from "../../System.Security.Principal/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AuthenticationLevel {
     None = 0,
@@ -470,7 +470,12 @@ export const SslClientHelloInfo: {
 
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
-export interface AuthenticatedStream$instance extends Stream {
+export abstract class AuthenticatedStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface AuthenticatedStream$instance extends AuthenticatedStream$protected, Stream {
     readonly IsAuthenticated: boolean;
     readonly IsEncrypted: boolean;
     readonly IsMutuallyAuthenticated: boolean;
@@ -483,6 +488,7 @@ export interface AuthenticatedStream$instance extends Stream {
 
 
 export const AuthenticatedStream: {
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean): AuthenticatedStream;
 };
 
 
@@ -582,7 +588,12 @@ export const NegotiateAuthenticationServerOptions: {
 
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
-export interface NegotiateStream$instance extends AuthenticatedStream$instance {
+export abstract class NegotiateStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface NegotiateStream$instance extends NegotiateStream$protected, AuthenticatedStream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -745,7 +756,13 @@ export const SslServerAuthenticationOptions: {
 
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
-export interface SslStream$instance extends AuthenticatedStream$instance {
+export abstract class SslStream$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface SslStream$instance extends SslStream$protected, AuthenticatedStream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;

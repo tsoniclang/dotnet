@@ -31,6 +31,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -69,6 +70,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.IInvokeOnGetBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -108,6 +110,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -127,6 +130,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -146,6 +150,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -165,6 +170,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -186,6 +192,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -204,13 +211,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::.ctor(System.Linq.Expressions.ExpressionType):void",
+          "metadataToken": 100667607,
+          "canonicalSignature": "(System.Linq.Expressions.ExpressionType):void",
+          "normalizedSignature": "constructor|(System.Linq.Expressions.ExpressionType):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.BinaryOperationBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions",
@@ -243,6 +263,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -262,6 +283,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -281,6 +303,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -300,6 +323,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -319,6 +343,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -338,6 +363,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -353,6 +379,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.BindingRestrictions",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -391,6 +418,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -410,6 +438,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -431,6 +460,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -449,6 +479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -463,6 +494,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.String[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -473,6 +505,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CallInfo",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -509,6 +542,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -528,6 +562,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -547,6 +582,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -566,6 +602,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -587,6 +624,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -605,6 +643,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -623,13 +662,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ConvertBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::.ctor(System.Type,System.Boolean):void",
+          "metadataToken": 100667738,
+          "canonicalSignature": "(System.Type,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Type,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.ConvertBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder",
@@ -662,6 +714,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -681,6 +734,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -700,6 +754,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -719,6 +774,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -740,6 +796,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -758,13 +815,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::.ctor(System.Dynamic.CallInfo):void",
+          "metadataToken": 100667746,
+          "canonicalSignature": "(System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.CreateInstanceBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder",
@@ -797,6 +867,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -816,6 +887,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -835,6 +907,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -854,6 +927,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -875,6 +949,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -893,13 +968,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::.ctor(System.Dynamic.CallInfo):void",
+          "metadataToken": 100667753,
+          "canonicalSignature": "(System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.DeleteIndexBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder",
@@ -932,6 +1020,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -951,6 +1040,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -970,6 +1060,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -989,6 +1080,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1010,6 +1102,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1028,6 +1121,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1046,13 +1140,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::.ctor(System.String,System.Boolean):void",
+          "metadataToken": 100667760,
+          "canonicalSignature": "(System.String,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.DeleteMemberBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject",
@@ -1085,6 +1192,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1104,6 +1212,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1123,6 +1232,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1142,6 +1252,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1161,6 +1272,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1180,6 +1292,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1199,6 +1312,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1218,6 +1332,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1237,6 +1352,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1256,6 +1372,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1275,6 +1392,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1294,6 +1412,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1313,6 +1432,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1332,6 +1452,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1353,6 +1474,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1371,6 +1493,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1389,6 +1512,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1407,6 +1531,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1425,6 +1550,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1443,6 +1569,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -1456,6 +1583,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -1469,6 +1597,7 @@
           "normalizedSignature": "constructor|(System.Linq.Expressions.Expression,System.Dynamic.BindingRestrictions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -1479,6 +1608,7 @@
           "normalizedSignature": "constructor|(System.Linq.Expressions.Expression,System.Dynamic.BindingRestrictions,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -1515,6 +1645,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1534,6 +1665,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1553,6 +1685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1572,6 +1705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1591,6 +1725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1610,6 +1745,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1631,13 +1767,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::.ctor():void",
+          "metadataToken": 100667538,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject",
@@ -1676,6 +1825,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1701,6 +1851,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1720,6 +1871,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1739,6 +1891,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1764,6 +1917,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1789,6 +1943,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1814,6 +1969,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1839,6 +1995,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1864,6 +2021,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1889,6 +2047,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1914,6 +2073,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1933,6 +2093,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1952,6 +2113,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1971,6 +2133,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.DynamicObject",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -1990,6 +2153,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -1999,7 +2163,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::.ctor():void",
+          "metadataToken": 100667768,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.DynamicObject",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.ExpandoObject",
@@ -2022,22 +2198,18 @@
           "clrName": "System.Dynamic.IDynamicMetaObjectProvider"
         },
         {
-          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
-          "clrName": "System.ComponentModel.INotifyPropertyChanged"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602",
+          "clrName": "System.Collections.Generic.IDictionary\u00602",
+          "typeArguments": [
+            "String",
+            "Object"
+          ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
             "KeyValuePair_2[[String,Object]]"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602",
-          "clrName": "System.Collections.Generic.IDictionary\u00602",
-          "typeArguments": [
-            "String",
-            "Object"
           ]
         },
         {
@@ -2050,6 +2222,10 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
+          "clrName": "System.ComponentModel.INotifyPropertyChanged"
         }
       ],
       "methods": [
@@ -2068,6 +2244,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false,
@@ -2088,6 +2265,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2108,6 +2286,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2128,6 +2307,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2154,6 +2334,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2174,6 +2355,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2194,6 +2376,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2214,6 +2397,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2234,6 +2418,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2254,6 +2439,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2276,6 +2462,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2295,6 +2482,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2314,6 +2502,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2333,6 +2522,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2348,6 +2538,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.ExpandoObject",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
@@ -2384,6 +2575,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2403,6 +2595,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2422,6 +2615,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2441,6 +2635,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2462,6 +2657,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2480,13 +2676,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::.ctor(System.Dynamic.CallInfo):void",
+          "metadataToken": 100667837,
+          "canonicalSignature": "(System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.GetIndexBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder",
@@ -2519,6 +2728,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2538,6 +2748,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2557,6 +2768,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2576,6 +2788,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2597,6 +2810,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2615,6 +2829,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2633,13 +2848,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.GetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::.ctor(System.String,System.Boolean):void",
+          "metadataToken": 100667844,
+          "canonicalSignature": "(System.String,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.GetMemberBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder",
@@ -2672,6 +2900,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2691,6 +2920,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2710,6 +2940,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2729,6 +2960,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2750,6 +2982,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2768,13 +3001,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::.ctor(System.Dynamic.CallInfo):void",
+          "metadataToken": 100667852,
+          "canonicalSignature": "(System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.InvokeBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder",
@@ -2807,6 +3053,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2826,6 +3073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2845,6 +3093,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2864,6 +3113,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2883,6 +3133,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -2904,6 +3155,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2922,6 +3174,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2940,6 +3193,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -2958,13 +3212,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::.ctor(System.String,System.Boolean,System.Dynamic.CallInfo):void",
+          "metadataToken": 100667859,
+          "canonicalSignature": "(System.String,System.Boolean,System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.String,System.Boolean,System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.InvokeMemberBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder",
@@ -2997,6 +3264,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3016,6 +3284,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3035,6 +3304,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3054,6 +3324,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3075,6 +3346,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -3093,13 +3365,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetIndexBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::.ctor(System.Dynamic.CallInfo):void",
+          "metadataToken": 100667869,
+          "canonicalSignature": "(System.Dynamic.CallInfo):void",
+          "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.SetIndexBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder",
@@ -3132,6 +3417,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3151,6 +3437,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3170,6 +3457,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3189,6 +3477,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3210,6 +3499,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -3228,6 +3518,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -3246,13 +3537,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.SetMemberBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::.ctor(System.String,System.Boolean):void",
+          "metadataToken": 100667876,
+          "canonicalSignature": "(System.String,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.SetMemberBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder",
@@ -3285,6 +3589,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3304,6 +3609,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3323,6 +3629,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3342,6 +3649,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -3363,6 +3671,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         },
@@ -3381,13 +3690,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
           "declaringAssemblyName": "System.Linq.Expressions"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::.ctor(System.Linq.Expressions.ExpressionType):void",
+          "metadataToken": 100667884,
+          "canonicalSignature": "(System.Linq.Expressions.ExpressionType):void",
+          "normalizedSignature": "constructor|(System.Linq.Expressions.ExpressionType):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Dynamic.UnaryOperationBinder",
+          "declaringAssemblyName": "System.Linq.Expressions"
+        }
+      ]
     }
   ]
 }

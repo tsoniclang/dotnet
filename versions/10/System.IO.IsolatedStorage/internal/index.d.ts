@@ -14,9 +14,9 @@ import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt64, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt64, Void } from "../../System/internal/index.js";
 
 export enum IsolatedStorageScope {
     None = 0,
@@ -36,7 +36,13 @@ export interface INormalizeForIsolatedStorage$instance {
 
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
-export interface IsolatedStorage$instance extends MarshalByRefObject {
+export abstract class IsolatedStorage$protected {
+    protected readonly SeparatorExternal: char;
+    protected readonly SeparatorInternal: char;
+}
+
+
+export interface IsolatedStorage$instance extends IsolatedStorage$protected, MarshalByRefObject {
     readonly ApplicationIdentity: unknown;
     readonly AssemblyIdentity: unknown;
     readonly AvailableFreeSpace: long;
@@ -44,7 +50,7 @@ export interface IsolatedStorage$instance extends MarshalByRefObject {
     readonly DomainIdentity: unknown;
     readonly MaximumSize: ulong;
     readonly Quota: long;
-    readonly Scope: IsolatedStorageScope;
+    Scope: IsolatedStorageScope;
     readonly UsedSize: long;
     IncreaseQuotaTo(newQuotaSize: long): boolean;
     Remove(): void;
@@ -52,6 +58,7 @@ export interface IsolatedStorage$instance extends MarshalByRefObject {
 
 
 export const IsolatedStorage: {
+    new(): IsolatedStorage;
 };
 
 
@@ -66,6 +73,7 @@ export const IsolatedStorageException: {
     new(): IsolatedStorageException;
     new(message: string): IsolatedStorageException;
     new(message: string, inner: Exception): IsolatedStorageException;
+    new(info: SerializationInfo, context: StreamingContext): IsolatedStorageException;
 };
 
 
@@ -137,7 +145,12 @@ export interface IsolatedStorageFile$instance extends System_Internal.IDisposabl
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 
 
-export interface IsolatedStorageFileStream$instance extends FileStream {
+export abstract class IsolatedStorageFileStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface IsolatedStorageFileStream$instance extends IsolatedStorageFileStream$protected, FileStream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;

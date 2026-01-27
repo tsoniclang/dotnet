@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonCommentHandling",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonCommentHandling",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonCommentHandling",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonCommentHandling",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -109,16 +113,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,6 +136,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerDefaults",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerDefaults",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerDefaults",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerDefaults",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -193,16 +201,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -216,6 +224,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -227,6 +236,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -238,6 +248,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -304,6 +320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -315,6 +332,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -348,6 +368,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonTokenType",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -376,16 +397,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -399,6 +420,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -410,6 +432,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -421,6 +444,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -432,6 +456,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -443,6 +468,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -454,6 +480,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -465,6 +492,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -476,6 +504,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -487,6 +516,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonValueKind",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -526,6 +556,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocumentOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -544,6 +575,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocumentOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -562,6 +594,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocumentOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -580,6 +613,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocumentOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -619,6 +653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -638,6 +673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -657,6 +693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -676,6 +713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -695,6 +733,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -714,6 +753,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -739,6 +779,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -764,6 +805,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -789,6 +831,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -808,6 +851,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -827,6 +871,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -852,6 +897,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -871,6 +917,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -896,6 +943,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -915,6 +963,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -940,6 +989,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -959,6 +1009,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -984,6 +1035,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1003,6 +1055,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1028,6 +1081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1047,6 +1101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1072,6 +1127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1091,6 +1147,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1116,6 +1173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1135,6 +1193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1160,6 +1219,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1179,6 +1239,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1204,6 +1265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1223,6 +1285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1248,6 +1311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1267,6 +1331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1292,6 +1357,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1311,6 +1377,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1336,6 +1403,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1355,6 +1423,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1380,6 +1449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1399,6 +1469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1424,6 +1495,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1443,6 +1515,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1468,6 +1541,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1487,6 +1561,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1506,6 +1581,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1525,6 +1601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1544,6 +1621,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1563,6 +1641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1582,6 +1661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1601,6 +1681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1620,6 +1701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1639,6 +1721,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1658,6 +1741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1677,6 +1761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1702,6 +1787,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1721,6 +1807,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1740,6 +1827,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1759,6 +1847,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -1790,6 +1879,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -1808,6 +1898,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -1840,15 +1931,15 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
           "clrName": "System.Collections.Generic.IEnumerator\u00601",
           "typeArguments": [
             "JsonElement"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
@@ -1875,6 +1966,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BArrayEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1894,6 +1986,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BArrayEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1913,6 +2006,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BArrayEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1932,6 +2026,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BArrayEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -1951,6 +2046,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1971,6 +2067,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1991,6 +2088,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2011,6 +2109,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2031,6 +2130,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2053,6 +2153,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BArrayEnumerator",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2071,6 +2172,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2090,6 +2192,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2123,15 +2226,15 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
           "clrName": "System.Collections.Generic.IEnumerator\u00601",
           "typeArguments": [
             "JsonProperty"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
@@ -2158,6 +2261,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BObjectEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2177,6 +2281,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BObjectEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2196,6 +2301,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BObjectEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2215,6 +2321,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BObjectEnumerator",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2234,6 +2341,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2254,6 +2362,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2274,6 +2383,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2294,6 +2404,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2314,6 +2425,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2336,6 +2448,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonElement\u002BObjectEnumerator",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2354,6 +2467,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2373,6 +2487,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2422,6 +2537,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2441,6 +2557,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2460,6 +2577,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2479,6 +2597,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2498,6 +2617,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2517,6 +2637,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2536,6 +2657,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2555,6 +2677,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2577,6 +2700,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2595,6 +2719,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonEncodedText",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -2634,6 +2759,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2653,6 +2779,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2672,6 +2799,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2691,6 +2819,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2710,6 +2839,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -2731,6 +2861,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2749,6 +2880,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonProperty",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -2789,6 +2921,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2807,6 +2940,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2825,6 +2959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2843,6 +2978,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -2883,6 +3019,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderState",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -2897,6 +3034,7 @@
           "normalizedSignature": "constructor|(System.Text.Json.JsonReaderOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonReaderState",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -2934,6 +3072,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2952,6 +3091,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2970,6 +3110,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -2988,6 +3129,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -3006,6 +3148,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -3024,6 +3167,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -3042,6 +3186,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonWriterOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -3081,6 +3226,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3100,6 +3246,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3119,6 +3266,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3138,6 +3286,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3157,6 +3306,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3176,6 +3326,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3195,6 +3346,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3214,6 +3366,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3233,6 +3386,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3252,6 +3406,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3271,6 +3426,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3290,6 +3446,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3309,6 +3466,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3328,6 +3486,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3347,6 +3506,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3366,6 +3526,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3385,6 +3546,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3404,6 +3566,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3423,6 +3586,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3442,6 +3606,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3461,6 +3626,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3480,6 +3646,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3499,6 +3666,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3518,6 +3686,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3537,6 +3706,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3556,6 +3726,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -3575,6 +3746,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3600,6 +3772,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3625,6 +3798,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3650,6 +3824,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3675,6 +3850,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3700,6 +3876,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3725,6 +3902,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3750,6 +3928,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3775,6 +3954,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3800,6 +3980,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3825,6 +4006,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3850,6 +4032,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3875,6 +4058,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3900,6 +4084,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3925,6 +4110,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -3942,16 +4128,17 @@
           "clrName": "ValueSpan",
           "metadataToken": 385876261,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "ValueSpan|:System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "ValueSpan|:System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -3970,6 +4157,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -3978,16 +4166,17 @@
           "clrName": "TokenStartIndex",
           "metadataToken": 385876263,
           "canonicalSignature": ":System.Int64",
-          "normalizedSignature": "TokenStartIndex|:System.Int64|static=false|accessor=get",
+          "normalizedSignature": "TokenStartIndex|:System.Int64|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4006,6 +4195,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4024,6 +4214,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4032,16 +4223,17 @@
           "clrName": "HasValueSequence",
           "metadataToken": 385876267,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "HasValueSequence|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "HasValueSequence|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4050,16 +4242,17 @@
           "clrName": "ValueIsEscaped",
           "metadataToken": 385876268,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "ValueIsEscaped|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "ValueIsEscaped|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4078,6 +4271,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4086,16 +4280,17 @@
           "clrName": "ValueSequence",
           "metadataToken": 385876270,
           "canonicalSignature": ":System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "ValueSequence|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "ValueSequence|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4114,6 +4309,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4132,6 +4328,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -4146,6 +4343,7 @@
           "normalizedSignature": "constructor|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Text.Json.JsonReaderState):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4156,6 +4354,7 @@
           "normalizedSignature": "constructor|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonReaderOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4166,6 +4365,7 @@
           "normalizedSignature": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Text.Json.JsonReaderState):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4176,6 +4376,7 @@
           "normalizedSignature": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonReaderOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonReader",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -4218,6 +4419,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4237,6 +4439,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4256,6 +4459,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4275,6 +4479,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4294,6 +4499,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4313,6 +4519,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4332,6 +4539,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4351,6 +4559,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4370,6 +4579,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -4399,6 +4609,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -4424,6 +4635,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4446,6 +4658,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonDocument",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -4491,6 +4704,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4510,6 +4724,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4522,16 +4737,17 @@
           "clrName": "LineNumber",
           "metadataToken": 385876247,
           "canonicalSignature": ":System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "LineNumber|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "LineNumber|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4540,16 +4756,17 @@
           "clrName": "BytePositionInLine",
           "metadataToken": 385876248,
           "canonicalSignature": ":System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "BytePositionInLine|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "BytePositionInLine|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4558,16 +4775,17 @@
           "clrName": "Path",
           "metadataToken": 385876249,
           "canonicalSignature": ":System.String",
-          "normalizedSignature": "Path|:System.String|static=false|accessor=get",
+          "normalizedSignature": "Path|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4586,6 +4804,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -4600,6 +4819,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4610,6 +4830,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4620,6 +4841,7 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4630,6 +4852,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4640,6 +4863,18 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.Json.JsonException",
+          "declaringAssemblyName": "System.Text.Json"
+        },
+        {
+          "stableId": "System.Text.Json:System.Text.Json.JsonException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100664119,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Text.Json.JsonException",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -4676,6 +4911,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4697,6 +4933,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4715,6 +4952,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4733,6 +4971,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4751,6 +4990,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4769,13 +5009,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonNamingPolicy",
           "declaringAssemblyName": "System.Text.Json"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Text.Json:System.Text.Json.JsonNamingPolicy::.ctor():void",
+          "metadataToken": 100663579,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.Json.JsonNamingPolicy",
+          "declaringAssemblyName": "System.Text.Json"
+        }
+      ]
     },
     {
       "stableId": "System.Text.Json:System.Text.Json.JsonSerializerOptions",
@@ -4808,6 +5061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4827,6 +5081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -4852,6 +5107,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4871,6 +5127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4890,6 +5147,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4909,6 +5167,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -4930,6 +5189,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4948,6 +5208,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4966,6 +5227,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -4984,6 +5246,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5002,6 +5265,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5020,6 +5284,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5038,6 +5303,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5056,6 +5322,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5074,6 +5341,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5092,6 +5360,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5110,6 +5379,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5128,6 +5398,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5146,6 +5417,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5164,6 +5436,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5182,6 +5455,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5200,6 +5474,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5218,6 +5493,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5236,6 +5512,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5254,6 +5531,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5272,6 +5550,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5290,6 +5569,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5308,6 +5588,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5326,6 +5607,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5344,6 +5626,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5362,6 +5645,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5380,6 +5664,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5398,6 +5683,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5416,6 +5702,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5434,6 +5721,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5452,6 +5740,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5470,6 +5759,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5488,6 +5778,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5506,6 +5797,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -5520,6 +5812,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5530,6 +5823,7 @@
           "normalizedSignature": "constructor|(System.Text.Json.JsonSerializerOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -5540,6 +5834,7 @@
           "normalizedSignature": "constructor|(System.Text.Json.JsonSerializerDefaults):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializerOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -5562,12 +5857,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -5586,6 +5881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5605,6 +5901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5624,6 +5921,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5643,6 +5941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5662,6 +5961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5681,6 +5981,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5700,6 +6001,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5719,6 +6021,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5738,6 +6041,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5757,6 +6061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5776,6 +6081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5795,6 +6101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5814,6 +6121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5833,6 +6141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5852,6 +6161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5871,6 +6181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5890,6 +6201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5909,6 +6221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5928,6 +6241,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5947,6 +6261,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5966,6 +6281,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -5985,6 +6301,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6004,6 +6321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6023,6 +6341,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6042,6 +6361,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6061,6 +6381,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6080,6 +6401,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6099,6 +6421,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6118,6 +6441,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6137,6 +6461,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6156,6 +6481,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6175,6 +6501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6194,6 +6521,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6213,6 +6541,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6232,6 +6561,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6251,6 +6581,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6270,6 +6601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6289,6 +6621,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6308,6 +6641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6327,6 +6661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6346,6 +6681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6365,6 +6701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6384,6 +6721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6403,6 +6741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6422,6 +6761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6441,6 +6781,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6460,6 +6801,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6479,6 +6821,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6498,6 +6841,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6517,6 +6861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6536,6 +6881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6555,6 +6901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6574,6 +6921,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6593,6 +6941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6612,6 +6961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6631,6 +6981,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6650,6 +7001,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6669,6 +7021,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6688,6 +7041,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6707,6 +7061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6726,6 +7081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6745,6 +7101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6764,6 +7121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6783,6 +7141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6802,6 +7161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6821,6 +7181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6840,6 +7201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6859,6 +7221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6878,6 +7241,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6897,6 +7261,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6916,6 +7281,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6935,6 +7301,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6954,6 +7321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6973,6 +7341,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -6992,6 +7361,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7011,6 +7381,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7030,6 +7401,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7049,6 +7421,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7068,6 +7441,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7087,6 +7461,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7106,6 +7481,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7125,6 +7501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7144,6 +7521,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7163,6 +7541,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7182,6 +7561,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7201,6 +7581,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7220,6 +7601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7239,6 +7621,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7258,6 +7641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7277,6 +7661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7296,6 +7681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7315,6 +7701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7334,6 +7721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7353,6 +7741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7372,6 +7761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7391,6 +7781,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7410,6 +7801,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7429,6 +7821,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7448,6 +7841,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7467,6 +7861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7486,6 +7881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7505,6 +7901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7524,6 +7921,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7543,6 +7941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7562,6 +7961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7581,6 +7981,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7600,6 +8001,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7619,6 +8021,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7638,6 +8041,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7657,6 +8061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7676,6 +8081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7695,6 +8101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7714,6 +8121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7733,6 +8141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7752,6 +8161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7771,6 +8181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7790,6 +8201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7809,6 +8221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -7828,6 +8241,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7848,6 +8262,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7860,16 +8275,17 @@
           "clrName": "BytesPending",
           "metadataToken": 385876279,
           "canonicalSignature": ":System.Int32",
-          "normalizedSignature": "BytesPending|:System.Int32|static=false|accessor=get",
+          "normalizedSignature": "BytesPending|:System.Int32|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -7878,16 +8294,17 @@
           "clrName": "BytesCommitted",
           "metadataToken": 385876280,
           "canonicalSignature": ":System.Int64",
-          "normalizedSignature": "BytesCommitted|:System.Int64|static=false|accessor=get",
+          "normalizedSignature": "BytesCommitted|:System.Int64|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -7906,6 +8323,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -7924,6 +8342,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -7938,6 +8357,7 @@
           "normalizedSignature": "constructor|(System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonWriterOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -7948,6 +8368,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Text.Json.JsonWriterOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Utf8JsonWriter",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -7984,6 +8405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8003,6 +8425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8022,6 +8445,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8041,6 +8465,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8060,6 +8485,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8079,6 +8505,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8098,6 +8525,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8117,6 +8545,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8136,6 +8565,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8155,6 +8585,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8174,6 +8605,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8193,6 +8625,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8212,6 +8645,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8231,6 +8665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8250,6 +8685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -8269,6 +8705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8288,6 +8725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8307,6 +8745,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8326,6 +8765,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8345,6 +8785,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8364,6 +8805,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8383,6 +8825,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8402,6 +8845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8421,6 +8865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8440,6 +8885,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8459,6 +8905,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8478,6 +8925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8497,6 +8945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8516,6 +8965,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8535,6 +8985,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8554,6 +9005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8573,6 +9025,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8592,6 +9045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8611,6 +9065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8630,6 +9085,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8649,6 +9105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8668,6 +9125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8687,6 +9145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8706,6 +9165,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8725,6 +9185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8744,6 +9205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8763,6 +9225,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8782,6 +9245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8801,6 +9265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8820,6 +9285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8839,6 +9305,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8858,6 +9325,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8877,6 +9345,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8896,6 +9365,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8915,6 +9385,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8934,6 +9405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8953,6 +9425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8972,6 +9445,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -8991,6 +9465,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9010,6 +9485,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9029,6 +9505,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9048,6 +9525,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9067,6 +9545,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9086,6 +9565,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9105,6 +9585,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9124,6 +9605,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9143,6 +9625,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9162,6 +9645,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9181,6 +9665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9200,6 +9685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9219,6 +9705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9238,6 +9725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9257,6 +9745,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9276,6 +9765,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -9301,6 +9791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -9326,6 +9817,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -9351,6 +9843,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -9376,6 +9869,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false,
@@ -9401,6 +9895,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9420,6 +9915,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9439,6 +9935,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9458,6 +9955,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9477,6 +9975,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9496,6 +9995,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9515,6 +10015,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9534,6 +10035,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9553,6 +10055,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9572,6 +10075,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9591,6 +10095,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9610,6 +10115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9629,6 +10135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9648,6 +10155,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9667,6 +10175,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9686,6 +10195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9705,6 +10215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9724,6 +10235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9743,6 +10255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9762,6 +10275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9781,6 +10295,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9800,6 +10315,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9819,6 +10335,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9838,6 +10355,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9857,6 +10375,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9876,6 +10395,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9895,6 +10415,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9914,6 +10435,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9933,6 +10455,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9952,6 +10475,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": false
@@ -9973,6 +10497,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.JsonSerializer",
           "declaringAssemblyName": "System.Text.Json"
         }

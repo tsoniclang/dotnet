@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryHive",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -142,16 +149,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -165,6 +172,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKeyPermissionCheck",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKeyPermissionCheck",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKeyPermissionCheck",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKeyPermissionCheck",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -226,16 +237,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -249,6 +260,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -299,16 +313,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -322,6 +336,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -333,6 +348,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -344,6 +360,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -355,6 +372,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -366,6 +384,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -377,6 +396,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -388,6 +408,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -399,6 +420,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -410,6 +432,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueKind",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -438,16 +461,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -461,6 +484,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -472,6 +496,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -483,6 +508,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryValueOptions",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -511,16 +537,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -534,6 +560,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryView",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -545,6 +572,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryView",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -556,6 +584,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryView",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -567,6 +596,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryView",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -611,6 +641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -630,6 +661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -649,6 +681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -668,6 +701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -687,6 +721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -706,6 +741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -725,6 +761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -744,6 +781,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -763,6 +801,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -782,6 +821,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -801,6 +841,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -820,6 +861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -839,6 +881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -858,6 +901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -877,6 +921,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -896,6 +941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -915,6 +961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -934,6 +981,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -953,6 +1001,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -972,6 +1021,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -991,6 +1041,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1010,6 +1061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1029,6 +1081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1048,6 +1101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1067,6 +1121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1086,6 +1141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1105,6 +1161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1124,6 +1181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1143,6 +1201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1162,6 +1221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1181,6 +1241,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1200,6 +1261,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1219,6 +1281,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1238,6 +1301,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1257,6 +1321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1276,6 +1341,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1295,6 +1361,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1314,6 +1381,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1333,6 +1401,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1355,6 +1424,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1373,6 +1443,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1391,6 +1462,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1409,6 +1481,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1427,6 +1500,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.RegistryKey",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -1466,6 +1540,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1485,6 +1560,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1504,6 +1580,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1519,6 +1596,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1530,6 +1608,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1541,6 +1620,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1552,6 +1632,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1563,6 +1644,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1574,6 +1656,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.Registry",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }

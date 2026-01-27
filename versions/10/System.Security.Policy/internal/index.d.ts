@@ -56,6 +56,7 @@ export interface EvidenceBase$instance {
 
 
 export const EvidenceBase: {
+    new(): EvidenceBase;
 };
 
 

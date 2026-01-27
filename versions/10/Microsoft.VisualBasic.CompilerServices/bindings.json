@@ -35,6 +35,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.BooleanType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -54,6 +55,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.BooleanType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -95,6 +97,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ByteType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -114,6 +117,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ByteType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -155,6 +159,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharArrayType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -174,6 +179,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharArrayType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -215,6 +221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -234,6 +241,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -275,6 +283,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -294,6 +303,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -313,6 +323,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -332,6 +343,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -351,6 +363,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -370,6 +383,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -389,6 +403,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -408,6 +423,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -427,6 +443,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -446,6 +463,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -465,6 +483,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -484,6 +503,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -503,6 +523,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -522,6 +543,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -541,6 +563,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -560,6 +583,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -579,6 +603,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -598,6 +623,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -617,6 +643,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -636,6 +663,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -655,6 +683,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -674,6 +703,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -693,6 +723,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -712,6 +743,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -731,6 +763,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -750,6 +783,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -769,6 +803,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -788,6 +823,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -807,6 +843,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -826,6 +863,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -845,6 +883,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -864,6 +903,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -883,6 +923,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -902,6 +943,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -921,6 +963,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -940,6 +983,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -959,6 +1003,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -978,6 +1023,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -997,6 +1043,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1016,6 +1063,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1035,6 +1083,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1054,6 +1103,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1073,6 +1123,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1092,6 +1143,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1111,6 +1163,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1130,6 +1183,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1149,6 +1203,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1168,6 +1223,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1187,6 +1243,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1206,6 +1263,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1225,6 +1283,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1244,6 +1303,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1263,6 +1323,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1304,6 +1365,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1323,6 +1385,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1342,6 +1405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1383,6 +1447,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1402,6 +1467,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1421,6 +1487,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1440,6 +1507,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1459,6 +1527,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1478,6 +1547,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1515,6 +1585,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DesignerGeneratedAttribute",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -1551,6 +1622,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1570,6 +1642,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1589,6 +1662,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1608,6 +1682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1627,6 +1702,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1646,6 +1722,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1693,6 +1770,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1713,6 +1791,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IncompleteInitialization",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1729,6 +1808,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IncompleteInitialization",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -1765,6 +1845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IntegerType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1784,6 +1865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IntegerType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1825,6 +1907,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1844,6 +1927,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1863,6 +1947,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1882,6 +1967,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1901,6 +1987,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1920,6 +2007,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1939,6 +2027,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1980,6 +2069,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LikeOperator",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -1999,6 +2089,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LikeOperator",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2040,6 +2131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LongType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2059,6 +2151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LongType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2100,6 +2193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2119,6 +2213,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2138,6 +2233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2157,6 +2253,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2176,6 +2273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2195,6 +2293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2214,6 +2313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2233,6 +2333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2252,6 +2353,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2271,6 +2373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2290,6 +2393,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2309,6 +2413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2328,6 +2433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2347,6 +2453,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2366,6 +2473,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2385,6 +2493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2404,6 +2513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2423,6 +2533,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2464,6 +2575,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2505,6 +2617,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false,
@@ -2534,6 +2647,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false,
@@ -2559,6 +2673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2578,6 +2693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2597,6 +2713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2638,6 +2755,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2657,6 +2775,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2676,6 +2795,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2695,6 +2815,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2714,6 +2835,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2733,6 +2855,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2752,6 +2875,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2771,6 +2895,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2790,6 +2915,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2809,6 +2935,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2828,6 +2955,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2847,6 +2975,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2866,6 +2995,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2885,6 +3015,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2904,6 +3035,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2923,6 +3055,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2942,6 +3075,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2961,6 +3095,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2980,6 +3115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -2999,6 +3135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3015,6 +3152,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -3051,6 +3189,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3070,6 +3209,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3089,6 +3229,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3108,6 +3249,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3127,6 +3269,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3146,6 +3289,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3165,6 +3309,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3184,6 +3329,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3203,6 +3349,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3222,6 +3369,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3241,6 +3389,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3260,6 +3409,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3279,6 +3429,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3298,6 +3449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3317,6 +3469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3336,6 +3489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3355,6 +3509,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3374,6 +3529,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3393,6 +3549,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3412,6 +3569,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3431,6 +3589,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3450,6 +3609,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3469,6 +3629,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3488,6 +3649,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3507,6 +3669,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3526,6 +3689,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3545,6 +3709,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3564,6 +3729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3583,6 +3749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3602,6 +3769,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3639,6 +3807,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.OptionCompareAttribute",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -3671,6 +3840,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.OptionTextAttribute",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -3707,6 +3877,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3726,6 +3897,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3745,6 +3917,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3764,6 +3937,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3783,6 +3957,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3824,6 +3999,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ShortType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3843,6 +4019,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ShortType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3884,6 +4061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3903,6 +4081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3922,6 +4101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3941,6 +4121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -3978,6 +4159,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StandardModuleAttribute",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -4009,6 +4191,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StaticLocalInitFlag",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -4022,6 +4205,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StaticLocalInitFlag",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core"
         }
@@ -4058,6 +4242,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4077,6 +4262,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4096,6 +4282,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4115,6 +4302,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4134,6 +4322,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4153,6 +4342,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4172,6 +4362,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4191,6 +4382,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4210,6 +4402,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4229,6 +4422,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4248,6 +4442,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4267,6 +4462,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4286,6 +4482,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4305,6 +4502,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4324,6 +4522,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4343,6 +4542,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4362,6 +4562,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4381,6 +4582,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4400,6 +4602,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false,
@@ -4447,6 +4650,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Utils",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4466,6 +4670,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Utils",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4507,6 +4712,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4526,6 +4732,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4545,6 +4752,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4564,6 +4772,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false
@@ -4583,6 +4792,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
           "declaringAssemblyName": "Microsoft.VisualBasic.Core",
           "isExtensionMethod": false

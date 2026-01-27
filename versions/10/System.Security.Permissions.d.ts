@@ -7,7 +7,7 @@ import * as Internal from './System.Security.Permissions/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { IPermission } from './System.Security/internal/index.js';
-import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
+import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CodeAccessSecurityAttribute as CodeAccessSecurityAttribute } from './System.Security.Permissions/internal/index.js';

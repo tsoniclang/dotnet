@@ -115,6 +115,7 @@ export interface JsonAttribute$instance extends Attribute {
 
 
 export const JsonAttribute: {
+    new(): JsonAttribute;
 };
 
 
@@ -155,6 +156,7 @@ export interface JsonConverter_1$instance<T> extends JsonConverter {
 
 
 export const JsonConverter_1: {
+    new<T>(): JsonConverter_1<T>;
 };
 
 
@@ -168,6 +170,7 @@ export interface JsonConverterAttribute$instance extends JsonAttribute {
 
 export const JsonConverterAttribute: {
     new(converterType: Type): JsonConverterAttribute;
+    new(): JsonConverterAttribute;
 };
 
 
@@ -180,6 +183,7 @@ export interface JsonConverterFactory$instance extends JsonConverter {
 
 
 export const JsonConverterFactory: {
+    new(): JsonConverterFactory;
 };
 
 
@@ -334,13 +338,19 @@ export const JsonSerializableAttribute: {
 
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
-export interface JsonSerializerContext$instance {
+export abstract class JsonSerializerContext$protected {
+    protected readonly GeneratedSerializerOptions: JsonSerializerOptions | undefined;
+}
+
+
+export interface JsonSerializerContext$instance extends JsonSerializerContext$protected {
     readonly Options: JsonSerializerOptions;
     GetTypeInfo(type: Type): JsonTypeInfo;
 }
 
 
 export const JsonSerializerContext: {
+    new(options: JsonSerializerOptions): JsonSerializerContext;
 };
 
 
@@ -448,6 +458,7 @@ export interface ReferenceHandler$instance {
 
 
 export const ReferenceHandler: {
+    new(): ReferenceHandler;
     readonly Preserve: ReferenceHandler;
     readonly IgnoreCycles: ReferenceHandler;
 };
@@ -475,6 +486,7 @@ export interface ReferenceResolver$instance {
 
 
 export const ReferenceResolver: {
+    new(): ReferenceResolver;
 };
 
 

@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -136,6 +144,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -147,6 +156,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -158,6 +168,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -169,6 +180,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -180,6 +192,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -191,6 +204,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -202,6 +216,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -213,6 +228,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -224,6 +240,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -235,6 +252,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -246,6 +264,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -257,6 +276,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -268,6 +288,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -279,6 +300,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -290,6 +312,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -301,6 +324,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -312,6 +336,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -323,6 +348,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -334,6 +360,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -345,6 +372,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -356,6 +384,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -367,6 +396,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -378,6 +408,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -412,6 +443,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -449,6 +481,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -467,6 +500,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -481,6 +515,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -513,6 +548,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -545,6 +581,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -582,6 +619,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -596,6 +634,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -633,6 +672,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -647,6 +687,7 @@
           "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -684,6 +725,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -702,6 +744,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -720,6 +763,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -738,6 +782,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -756,6 +801,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -774,6 +820,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -788,6 +835,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -798,6 +846,7 @@
           "normalizedSignature": "constructor|(System.String,System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -808,6 +857,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -818,6 +868,7 @@
           "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -828,6 +879,7 @@
           "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -865,6 +917,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -879,6 +932,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -916,6 +970,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -934,6 +989,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -952,6 +1008,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -966,6 +1023,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1003,6 +1061,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1017,6 +1076,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1054,6 +1114,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1068,6 +1129,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1100,6 +1162,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1137,6 +1200,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1151,6 +1215,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1188,6 +1253,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1202,6 +1268,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1212,6 +1279,7 @@
           "normalizedSignature": "constructor|(System.String[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1249,6 +1317,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1267,6 +1336,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1281,6 +1351,7 @@
           "normalizedSignature": "constructor|(System.Boolean,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1291,6 +1362,7 @@
           "normalizedSignature": "constructor|(System.Boolean,System.String[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1323,6 +1395,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1360,6 +1433,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1374,6 +1448,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1411,6 +1486,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1425,6 +1501,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1462,6 +1539,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1480,6 +1558,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1494,6 +1573,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1504,6 +1584,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1541,6 +1622,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1559,6 +1641,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1577,6 +1660,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1591,6 +1675,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1628,6 +1713,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1646,6 +1732,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1664,6 +1751,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1678,6 +1766,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1710,6 +1799,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1747,6 +1837,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1765,6 +1856,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1778,6 +1870,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1789,6 +1882,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1800,6 +1894,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1811,6 +1906,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1822,6 +1918,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1833,6 +1930,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1844,6 +1942,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1855,6 +1954,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1866,6 +1966,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1877,6 +1978,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1888,6 +1990,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1899,6 +2002,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1912,6 +2016,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1922,6 +2027,7 @@
           "normalizedSignature": "constructor|(System.String,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1959,6 +2065,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1977,6 +2084,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1995,6 +2103,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2013,6 +2122,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2031,6 +2141,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2049,6 +2160,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2063,6 +2175,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2100,6 +2213,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2118,6 +2232,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2136,6 +2251,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2154,6 +2270,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2172,6 +2289,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2190,6 +2308,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2204,6 +2323,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2236,6 +2356,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

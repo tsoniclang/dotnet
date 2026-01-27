@@ -7,7 +7,7 @@ import * as Internal from './System.Text.RegularExpressions/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { Hashtable, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { CustomAttributeBuilder } from './System.Reflection.Emit/internal/index.js';
 import type { AssemblyName, MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';

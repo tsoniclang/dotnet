@@ -14,7 +14,7 @@ import type { ICollection_1, IEnumerable_1, IEnumerator_1 } from "../../System.C
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { IDictionary, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AsyncCompletedEventArgs, Component, IComponent, IContainer, ISite, Win32Exception } from "../../System.ComponentModel/internal/index.js";
+import type { AsyncCompletedEventArgs, Component, EventHandlerList, IComponent, IContainer, ISite, Win32Exception } from "../../System.ComponentModel/internal/index.js";
 import * as System_Net_Internal from "../../System.Net/internal/index.js";
 import type { IPAddress, IPEndPoint } from "../../System.Net/internal/index.js";
 import type { MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
@@ -23,7 +23,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { Task_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum DuplicateAddressDetectionState {
     Invalid = 0,
@@ -183,6 +183,7 @@ export interface GatewayIPAddressInformation$instance {
 
 
 export const GatewayIPAddressInformation: {
+    new(): GatewayIPAddressInformation;
 };
 
 
@@ -246,6 +247,7 @@ export interface IcmpV4Statistics$instance {
 
 
 export const IcmpV4Statistics: {
+    new(): IcmpV4Statistics;
 };
 
 
@@ -288,6 +290,7 @@ export interface IcmpV6Statistics$instance {
 
 
 export const IcmpV6Statistics: {
+    new(): IcmpV6Statistics;
 };
 
 
@@ -328,6 +331,7 @@ export interface IPAddressInformation$instance {
 
 
 export const IPAddressInformation: {
+    new(): IPAddressInformation;
 };
 
 
@@ -385,6 +389,7 @@ export interface IPGlobalProperties$instance {
 
 
 export const IPGlobalProperties: {
+    new(): IPGlobalProperties;
     GetIPGlobalProperties(): IPGlobalProperties;
 };
 
@@ -418,6 +423,7 @@ export interface IPGlobalStatistics$instance {
 
 
 export const IPGlobalStatistics: {
+    new(): IPGlobalStatistics;
 };
 
 
@@ -440,6 +446,7 @@ export interface IPInterfaceProperties$instance {
 
 
 export const IPInterfaceProperties: {
+    new(): IPInterfaceProperties;
 };
 
 
@@ -462,6 +469,7 @@ export interface IPInterfaceStatistics$instance {
 
 
 export const IPInterfaceStatistics: {
+    new(): IPInterfaceStatistics;
 };
 
 
@@ -479,6 +487,7 @@ export interface IPv4InterfaceProperties$instance {
 
 
 export const IPv4InterfaceProperties: {
+    new(): IPv4InterfaceProperties;
 };
 
 
@@ -501,6 +510,7 @@ export interface IPv4InterfaceStatistics$instance {
 
 
 export const IPv4InterfaceStatistics: {
+    new(): IPv4InterfaceStatistics;
 };
 
 
@@ -514,6 +524,7 @@ export interface IPv6InterfaceProperties$instance {
 
 
 export const IPv6InterfaceProperties: {
+    new(): IPv6InterfaceProperties;
 };
 
 
@@ -530,6 +541,7 @@ export interface MulticastIPAddressInformation$instance extends IPAddressInforma
 
 
 export const MulticastIPAddressInformation: {
+    new(): MulticastIPAddressInformation;
 };
 
 
@@ -595,6 +607,7 @@ export interface NetworkInformationException$instance extends Win32Exception {
 export const NetworkInformationException: {
     new(): NetworkInformationException;
     new(errorCode: int): NetworkInformationException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): NetworkInformationException;
 };
 
 
@@ -623,6 +636,7 @@ export interface NetworkInterface$instance {
 
 
 export const NetworkInterface: {
+    new(): NetworkInterface;
     readonly IPv6LoopbackInterfaceIndex: int;
     readonly LoopbackInterfaceIndex: int;
     GetAllNetworkInterfaces(): NetworkInterface[];
@@ -652,7 +666,12 @@ export const PhysicalAddress: {
 
 export type PhysicalAddress = PhysicalAddress$instance;
 
-export interface Ping$instance extends Component {
+export abstract class Ping$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface Ping$instance extends Ping$protected, Component {
     Dispose(): void;
     Send(hostNameOrAddress: string): PingReply;
     Send(hostNameOrAddress: string, timeout: int): PingReply;
@@ -696,8 +715,6 @@ export interface __Ping$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Ping$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type Ping = Ping$instance & __Ping$views;
 
 
@@ -721,6 +738,7 @@ export interface PingException$instance extends InvalidOperationException {
 export const PingException: {
     new(message: string): PingException;
     new(message: string, innerException: Exception): PingException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): PingException;
 };
 
 
@@ -769,6 +787,7 @@ export interface TcpConnectionInformation$instance {
 
 
 export const TcpConnectionInformation: {
+    new(): TcpConnectionInformation;
 };
 
 
@@ -793,6 +812,7 @@ export interface TcpStatistics$instance {
 
 
 export const TcpStatistics: {
+    new(): TcpStatistics;
 };
 
 
@@ -808,6 +828,7 @@ export interface UdpStatistics$instance {
 
 
 export const UdpStatistics: {
+    new(): UdpStatistics;
 };
 
 
@@ -826,6 +847,7 @@ export interface UnicastIPAddressInformation$instance extends IPAddressInformati
 
 
 export const UnicastIPAddressInformation: {
+    new(): UnicastIPAddressInformation;
 };
 
 

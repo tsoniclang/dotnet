@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -131,6 +136,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -149,6 +155,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -163,6 +170,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -179,9 +187,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602",
         "clrName": "System.Threading.Channels.Channel\u00602",
@@ -190,11 +195,26 @@
           "T"
         ]
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00601::.ctor():void",
+          "metadataToken": 100663498,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Channels.Channel\u00601",
+          "declaringAssemblyName": "System.Threading.Channels"
+        }
+      ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602",
@@ -207,14 +227,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TWrite",
-        "TRead"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "TWrite",
+        "TRead"
+      ],
       "methods": [],
       "properties": [
         {
@@ -222,16 +242,17 @@
           "clrName": "Reader",
           "metadataToken": 385876014,
           "canonicalSignature": ":ChannelReader_1",
-          "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=get",
+          "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel\u00602",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -240,23 +261,36 @@
           "clrName": "Writer",
           "metadataToken": 385876015,
           "canonicalSignature": ":ChannelWriter_1",
-          "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=get",
+          "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel\u00602",
           "declaringAssemblyName": "System.Threading.Channels"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602::.ctor():void",
+          "metadataToken": 100663505,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Channels.Channel\u00602",
+          "declaringAssemblyName": "System.Threading.Channels"
+        }
+      ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException",
@@ -295,6 +329,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -315,6 +350,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelClosedException",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -331,6 +367,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelClosedException",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -341,6 +378,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelClosedException",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -351,6 +389,7 @@
           "normalizedSignature": "constructor|(System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelClosedException",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -361,6 +400,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
+          "declaringAssemblyName": "System.Threading.Channels"
+        },
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663433,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Channels.ChannelClosedException",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -398,6 +449,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -416,6 +468,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -434,13 +487,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::.ctor():void",
+          "metadataToken": 100663440,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Channels.ChannelOptions",
+          "declaringAssemblyName": "System.Threading.Channels"
+        }
+      ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601",
@@ -453,13 +519,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryRead(T\u0026):System.Boolean",
@@ -476,6 +542,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false,
@@ -501,6 +568,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false,
@@ -526,6 +594,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -545,6 +614,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -564,6 +634,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -585,6 +656,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -603,6 +675,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -621,6 +694,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         },
@@ -639,13 +713,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::.ctor():void",
+          "metadataToken": 100663456,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
+          "declaringAssemblyName": "System.Threading.Channels"
+        }
+      ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601",
@@ -658,13 +745,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryComplete(System.Exception):System.Boolean",
@@ -681,6 +768,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -700,6 +788,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -719,6 +808,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -738,6 +828,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -757,6 +848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -765,7 +857,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::.ctor():void",
+          "metadataToken": 100663495,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
+          "declaringAssemblyName": "System.Threading.Channels"
+        }
+      ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedChannelOptions",
@@ -794,6 +898,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.UnboundedChannelOptions",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -810,13 +915,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions",
         "clrName": "System.Threading.Channels.ChannelOptions"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [
         {
@@ -834,6 +939,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -848,6 +954,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
           "declaringAssemblyName": "System.Threading.Channels"
         }
@@ -884,6 +991,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -903,6 +1011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -922,6 +1031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -941,6 +1051,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -960,6 +1071,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -979,6 +1091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false
@@ -998,6 +1111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Channels.Channel",
           "declaringAssemblyName": "System.Threading.Channels",
           "isExtensionMethod": false

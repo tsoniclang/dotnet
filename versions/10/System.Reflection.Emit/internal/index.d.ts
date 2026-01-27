@@ -23,7 +23,7 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { SecurityRuleSet } from "../../System.Security/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, ReadOnlySpan_1, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from "../../System/internal/index.js";
 
 export enum AssemblyBuilderAccess {
     Run = 1,
@@ -184,7 +184,14 @@ export interface __OpCode$views {
 export type OpCode = OpCode$instance & __OpCode$views;
 
 
-export interface AssemblyBuilder$instance extends Assembly {
+export abstract class AssemblyBuilder$protected {
+    protected abstract DefineDynamicModuleCore(name: string): ModuleBuilder;
+    protected abstract GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+}
+
+
+export interface AssemblyBuilder$instance extends AssemblyBuilder$protected, Assembly {
     readonly CodeBase: string | undefined;
     readonly EntryPoint: MethodInfo | undefined;
     readonly IsDynamic: boolean;
@@ -209,6 +216,7 @@ export interface AssemblyBuilder$instance extends Assembly {
 
 
 export const AssemblyBuilder: {
+    new(): AssemblyBuilder;
     DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
     DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 };
@@ -222,7 +230,16 @@ export interface __AssemblyBuilder$views {
 export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views;
 
 
-export interface ConstructorBuilder$instance extends ConstructorInfo {
+export abstract class ConstructorBuilder$protected {
+    protected InitLocalsCore: boolean;
+    protected abstract DefineParameterCore(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
+    protected abstract GetILGeneratorCore(streamSize: int): ILGenerator;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetImplementationFlagsCore(attributes: MethodImplAttributes): void;
+}
+
+
+export interface ConstructorBuilder$instance extends ConstructorBuilder$protected, ConstructorInfo {
     InitLocals: boolean;
     DefineParameter(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
     GetCustomAttributes(inherit: boolean): unknown[];
@@ -237,6 +254,7 @@ export interface ConstructorBuilder$instance extends ConstructorInfo {
 
 
 export const ConstructorBuilder: {
+    new(): ConstructorBuilder;
 };
 
 
@@ -341,7 +359,15 @@ export interface __DynamicMethod$views {
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
-export interface EnumBuilder$instance extends TypeInfo {
+export abstract class EnumBuilder$protected {
+    protected readonly UnderlyingFieldCore: FieldBuilder;
+    protected abstract CreateTypeInfoCore(): TypeInfo;
+    protected abstract DefineLiteralCore(literalName: string, literalValue: unknown): FieldBuilder;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+}
+
+
+export interface EnumBuilder$instance extends EnumBuilder$protected, TypeInfo {
     readonly UnderlyingField: FieldBuilder;
     CreateType(): Type;
     CreateTypeInfo(): TypeInfo;
@@ -395,6 +421,7 @@ export interface EnumBuilder$instance extends TypeInfo {
 
 
 export const EnumBuilder: {
+    new(): EnumBuilder;
 };
 
 
@@ -409,7 +436,16 @@ export interface EnumBuilder$instance extends System_Reflection_Internal.IReflec
 export type EnumBuilder = EnumBuilder$instance & __EnumBuilder$views;
 
 
-export interface EventBuilder$instance {
+export abstract class EventBuilder$protected {
+    protected abstract AddOtherMethodCore(mdBuilder: MethodBuilder): void;
+    protected abstract SetAddOnMethodCore(mdBuilder: MethodBuilder): void;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetRaiseMethodCore(mdBuilder: MethodBuilder): void;
+    protected abstract SetRemoveOnMethodCore(mdBuilder: MethodBuilder): void;
+}
+
+
+export interface EventBuilder$instance extends EventBuilder$protected {
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     SetAddOnMethod(mdBuilder: MethodBuilder): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -420,12 +456,20 @@ export interface EventBuilder$instance {
 
 
 export const EventBuilder: {
+    new(): EventBuilder;
 };
 
 
 export type EventBuilder = EventBuilder$instance;
 
-export interface FieldBuilder$instance extends FieldInfo {
+export abstract class FieldBuilder$protected {
+    protected abstract SetConstantCore(defaultValue: unknown): void;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetOffsetCore(iOffset: int): void;
+}
+
+
+export interface FieldBuilder$instance extends FieldBuilder$protected, FieldInfo {
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
@@ -437,6 +481,7 @@ export interface FieldBuilder$instance extends FieldInfo {
 
 
 export const FieldBuilder: {
+    new(): FieldBuilder;
 };
 
 
@@ -447,7 +492,15 @@ export interface __FieldBuilder$views {
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
-export interface GenericTypeParameterBuilder$instance extends TypeInfo {
+export abstract class GenericTypeParameterBuilder$protected {
+    protected abstract SetBaseTypeConstraintCore(baseTypeConstraint: Type): void;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetGenericParameterAttributesCore(genericParameterAttributes: GenericParameterAttributes): void;
+    protected abstract SetInterfaceConstraintsCore(...interfaceConstraints: Type[]): void;
+}
+
+
+export interface GenericTypeParameterBuilder$instance extends GenericTypeParameterBuilder$protected, TypeInfo {
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetField3(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
@@ -496,6 +549,7 @@ export interface GenericTypeParameterBuilder$instance extends TypeInfo {
 
 
 export const GenericTypeParameterBuilder: {
+    new(): GenericTypeParameterBuilder;
 };
 
 
@@ -510,7 +564,12 @@ export interface GenericTypeParameterBuilder$instance extends System_Reflection_
 export type GenericTypeParameterBuilder = GenericTypeParameterBuilder$instance & __GenericTypeParameterBuilder$views;
 
 
-export interface ILGenerator$instance {
+export abstract class ILGenerator$protected {
+    protected MarkSequencePointCore(document: ISymbolDocumentWriter, startLine: int, startColumn: int, endLine: int, endColumn: int): void;
+}
+
+
+export interface ILGenerator$instance extends ILGenerator$protected {
     readonly ILOffset: int;
     BeginCatchBlock(exceptionType: Type): void;
     BeginExceptFilterBlock(): void;
@@ -554,23 +613,42 @@ export interface ILGenerator$instance {
 
 
 export const ILGenerator: {
+    new(): ILGenerator;
+    CreateLabel(id: int): Label;
 };
 
 
 export type ILGenerator = ILGenerator$instance;
 
-export interface LocalBuilder$instance extends LocalVariableInfo {
+export abstract class LocalBuilder$protected {
+    protected SetLocalSymInfoCore(name: string): void;
+}
+
+
+export interface LocalBuilder$instance extends LocalBuilder$protected, LocalVariableInfo {
     SetLocalSymInfo(name: string): void;
 }
 
 
 export const LocalBuilder: {
+    new(): LocalBuilder;
 };
 
 
 export type LocalBuilder = LocalBuilder$instance;
 
-export interface MethodBuilder$instance extends MethodInfo {
+export abstract class MethodBuilder$protected {
+    protected InitLocalsCore: boolean;
+    protected abstract DefineGenericParametersCore(...names: string[]): GenericTypeParameterBuilder[];
+    protected abstract DefineParameterCore(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
+    protected abstract GetILGeneratorCore(size: int): ILGenerator;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetImplementationFlagsCore(attributes: MethodImplAttributes): void;
+    protected abstract SetSignatureCore(returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): void;
+}
+
+
+export interface MethodBuilder$instance extends MethodBuilder$protected, MethodInfo {
     InitLocals: boolean;
     DefineGenericParameters(...names: string[]): GenericTypeParameterBuilder[];
     DefineParameter(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
@@ -589,6 +667,7 @@ export interface MethodBuilder$instance extends MethodInfo {
 
 
 export const MethodBuilder: {
+    new(): MethodBuilder;
 };
 
 
@@ -599,7 +678,21 @@ export interface __MethodBuilder$views {
 export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
-export interface ModuleBuilder$instance extends Module {
+export abstract class ModuleBuilder$protected {
+    protected abstract CreateGlobalFunctionsCore(): void;
+    protected DefineDocumentCore(url: string, language?: Guid): ISymbolDocumentWriter;
+    protected abstract DefineEnumCore(name: string, visibility: TypeAttributes, underlyingType: Type): EnumBuilder;
+    protected abstract DefineGlobalMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): MethodBuilder;
+    protected abstract DefineInitializedDataCore(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
+    protected abstract DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    protected abstract DefineTypeCore(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[], packingSize: PackingSize, typesize: int): TypeBuilder;
+    protected abstract DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
+    protected abstract GetArrayMethodCore(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+}
+
+
+export interface ModuleBuilder$instance extends ModuleBuilder$protected, Module {
     CreateGlobalFunctions(): void;
     DefineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
     DefineDocument(url: string, language?: Guid): ISymbolDocumentWriter;
@@ -635,6 +728,7 @@ export interface ModuleBuilder$instance extends Module {
 
 
 export const ModuleBuilder: {
+    new(): ModuleBuilder;
 };
 
 
@@ -884,7 +978,12 @@ export const OpCodes: {
 
 export type OpCodes = OpCodes$instance;
 
-export interface ParameterBuilder$instance {
+export abstract class ParameterBuilder$protected {
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+}
+
+
+export interface ParameterBuilder$instance extends ParameterBuilder$protected {
     readonly Attributes: int;
     readonly IsIn: boolean;
     readonly IsOptional: boolean;
@@ -898,12 +997,21 @@ export interface ParameterBuilder$instance {
 
 
 export const ParameterBuilder: {
+    new(): ParameterBuilder;
 };
 
 
 export type ParameterBuilder = ParameterBuilder$instance;
 
-export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
+export abstract class PersistedAssemblyBuilder$protected {
+    protected DefineDynamicModuleCore(name: string): ModuleBuilder;
+    protected GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
+    protected SetCustomAttributeCore2(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+}
+
+
+export interface PersistedAssemblyBuilder$instance extends PersistedAssemblyBuilder$protected, AssemblyBuilder$instance {
     readonly FullName: string;
     readonly ManifestModule: Module;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder): MetadataBuilder;
@@ -932,7 +1040,16 @@ export interface __PersistedAssemblyBuilder$views {
 export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __PersistedAssemblyBuilder$views;
 
 
-export interface PropertyBuilder$instance extends PropertyInfo {
+export abstract class PropertyBuilder$protected {
+    protected abstract AddOtherMethodCore(mdBuilder: MethodBuilder): void;
+    protected abstract SetConstantCore(defaultValue: unknown): void;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetGetMethodCore(mdBuilder: MethodBuilder): void;
+    protected abstract SetSetMethodCore(mdBuilder: MethodBuilder): void;
+}
+
+
+export interface PropertyBuilder$instance extends PropertyBuilder$protected, PropertyInfo {
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
@@ -946,6 +1063,7 @@ export interface PropertyBuilder$instance extends PropertyInfo {
 
 
 export const PropertyBuilder: {
+    new(): PropertyBuilder;
 };
 
 
@@ -985,7 +1103,31 @@ export const SignatureHelper: {
 
 export type SignatureHelper = SignatureHelper$instance;
 
-export interface TypeBuilder$instance extends TypeInfo {
+export abstract class TypeBuilder$protected {
+    protected readonly PackingSizeCore: PackingSize;
+    protected readonly SizeCore: int;
+    protected abstract AddInterfaceImplementationCore(interfaceType: Type): void;
+    protected abstract CreateTypeInfoCore(): TypeInfo;
+    protected abstract DefineConstructorCore(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): ConstructorBuilder;
+    protected abstract DefineDefaultConstructorCore(attributes: MethodAttributes): ConstructorBuilder;
+    protected abstract DefineEventCore(name: string, attributes: EventAttributes, eventtype: Type): EventBuilder;
+    protected abstract DefineFieldCore(fieldName: string, type: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[], attributes: FieldAttributes): FieldBuilder;
+    protected abstract DefineGenericParametersCore(...names: string[]): GenericTypeParameterBuilder[];
+    protected abstract DefineInitializedDataCore(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
+    protected abstract DefineMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): MethodBuilder;
+    protected abstract DefineMethodOverrideCore(methodInfoBody: MethodInfo, methodInfoDeclaration: MethodInfo): void;
+    protected abstract DefineNestedTypeCore(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[], packSize: PackingSize, typeSize: int): TypeBuilder;
+    protected abstract DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    protected abstract DefinePropertyCore(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): PropertyBuilder;
+    protected abstract DefineTypeInitializerCore(): ConstructorBuilder;
+    protected abstract DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
+    protected abstract IsCreatedCore(): boolean;
+    protected abstract SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    protected abstract SetParentCore(parent: Type): void;
+}
+
+
+export interface TypeBuilder$instance extends TypeBuilder$protected, TypeInfo {
     readonly PackingSize: PackingSize;
     readonly Size: int;
     AddInterfaceImplementation(interfaceType: Type): void;
@@ -1073,6 +1215,7 @@ export interface TypeBuilder$instance extends TypeInfo {
 
 
 export const TypeBuilder: {
+    new(): TypeBuilder;
     readonly UnspecifiedTypeSize: int;
     GetConstructor(type: Type, constructor: ConstructorInfo): ConstructorInfo;
     GetField(type: Type, field: FieldInfo): FieldInfo;

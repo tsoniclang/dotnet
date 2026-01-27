@@ -113,6 +113,9 @@ export interface Instrument$instance {
 
 
 export const Instrument: {
+    new(meter: Meter, name: string): Instrument;
+    new(meter: Meter, name: string, unit: string, description: string): Instrument;
+    new(meter: Meter, name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>): Instrument;
 };
 
 
@@ -124,6 +127,10 @@ export interface Instrument_1$instance<T extends unknown> extends Instrument {
 
 
 export const Instrument_1: {
+    new<T extends unknown>(meter: Meter, name: string): Instrument_1<T>;
+    new<T extends unknown>(meter: Meter, name: string, unit: string, description: string): Instrument_1<T>;
+    new<T extends unknown>(meter: Meter, name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>): Instrument_1<T>;
+    new<T extends unknown>(meter: Meter, name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>, advice: InstrumentAdvice_1<T>): Instrument_1<T>;
 };
 
 
@@ -142,12 +149,19 @@ export const InstrumentAdvice_1: {
 
 export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 
-export interface Meter$instance {
-    readonly Name: string;
-    readonly Scope: unknown | undefined;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
-    readonly TelemetrySchemaUrl: string | undefined;
-    readonly Version: string;
+export abstract class Meter$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface Meter$instance extends Meter$protected {
+    Name: string;
+    get Scope(): unknown | undefined;
+    set Scope(value: unknown);
+    Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    get TelemetrySchemaUrl(): string | undefined;
+    set TelemetrySchemaUrl(value: string);
+    Version: string;
     CreateCounter<T extends unknown>(name: string, unit?: string, description?: string): Counter_1<T>;
     CreateCounter<T extends unknown>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>): Counter_1<T>;
     CreateGauge<T extends unknown>(name: string): Gauge_1<T>;
@@ -179,8 +193,6 @@ export const Meter: {
 export interface __Meter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Meter$instance extends System_Internal.IDisposable$instance {}
 
 export type Meter = Meter$instance & __Meter$views;
 
@@ -231,7 +243,13 @@ export const MeterOptions: {
 
 export type MeterOptions = MeterOptions$instance;
 
-export interface ObservableCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+export abstract class ObservableCounter_1$protected<T extends unknown> {
+    protected Observe2(): IEnumerable_1<Measurement_1<T>>;
+    protected abstract Observe(): IEnumerable_1<Measurement_1<T>>;
+}
+
+
+export interface ObservableCounter_1$instance<T extends unknown> extends ObservableCounter_1$protected<T>, ObservableInstrument_1<T> {
 }
 
 
@@ -242,7 +260,13 @@ export const ObservableCounter_1: {
 
 export type ObservableCounter_1<T> = ObservableCounter_1$instance<T>;
 
-export interface ObservableGauge_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+export abstract class ObservableGauge_1$protected<T extends unknown> {
+    protected Observe2(): IEnumerable_1<Measurement_1<T>>;
+    protected abstract Observe(): IEnumerable_1<Measurement_1<T>>;
+}
+
+
+export interface ObservableGauge_1$instance<T extends unknown> extends ObservableGauge_1$protected<T>, ObservableInstrument_1<T> {
 }
 
 
@@ -253,18 +277,31 @@ export const ObservableGauge_1: {
 
 export type ObservableGauge_1<T> = ObservableGauge_1$instance<T>;
 
-export interface ObservableInstrument_1$instance<T extends unknown> extends Instrument {
+export abstract class ObservableInstrument_1$protected<T extends unknown> {
+    protected abstract Observe(): IEnumerable_1<Measurement_1<T>>;
+}
+
+
+export interface ObservableInstrument_1$instance<T extends unknown> extends ObservableInstrument_1$protected<T>, Instrument {
     readonly IsObservable: boolean;
 }
 
 
 export const ObservableInstrument_1: {
+    new<T extends unknown>(meter: Meter, name: string, unit: string, description: string): ObservableInstrument_1<T>;
+    new<T extends unknown>(meter: Meter, name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>): ObservableInstrument_1<T>;
 };
 
 
 export type ObservableInstrument_1<T> = ObservableInstrument_1$instance<T>;
 
-export interface ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+export abstract class ObservableUpDownCounter_1$protected<T extends unknown> {
+    protected Observe2(): IEnumerable_1<Measurement_1<T>>;
+    protected abstract Observe(): IEnumerable_1<Measurement_1<T>>;
+}
+
+
+export interface ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableUpDownCounter_1$protected<T>, ObservableInstrument_1<T> {
 }
 
 

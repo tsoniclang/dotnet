@@ -15,9 +15,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -31,6 +28,9 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -48,6 +48,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -73,6 +74,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -98,6 +100,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -120,6 +123,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -136,9 +140,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -152,6 +153,9 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -169,6 +173,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -198,6 +203,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -227,6 +233,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -253,6 +260,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -289,6 +297,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -308,6 +317,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -333,6 +343,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -352,6 +363,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -377,6 +389,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -396,6 +409,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -421,6 +435,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -440,6 +455,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -465,6 +481,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -484,6 +501,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -509,6 +527,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -528,6 +547,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -553,6 +573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -572,6 +593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -597,6 +619,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -616,6 +639,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -641,6 +665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -660,6 +685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -685,6 +711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -704,6 +731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -729,6 +757,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -748,6 +777,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -773,6 +803,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -792,6 +823,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -817,6 +849,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -836,6 +869,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -861,6 +895,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -880,6 +915,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -905,6 +941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -924,6 +961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -949,6 +987,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -968,6 +1007,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -993,6 +1033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1012,6 +1053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1037,6 +1079,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1056,6 +1099,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1081,6 +1125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1100,6 +1145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1125,6 +1171,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1144,6 +1191,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1169,6 +1217,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1188,6 +1237,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1213,6 +1263,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1232,6 +1283,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1257,6 +1309,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1276,6 +1329,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1301,6 +1355,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1320,6 +1375,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1345,6 +1401,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1364,6 +1421,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1389,6 +1447,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1408,6 +1467,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1433,6 +1493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1452,6 +1513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1477,6 +1539,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1496,6 +1559,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1521,6 +1585,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1540,6 +1605,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1565,6 +1631,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1584,6 +1651,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1609,6 +1677,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1628,6 +1697,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1653,6 +1723,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1672,6 +1743,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1697,6 +1769,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1716,6 +1789,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1741,6 +1815,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1760,6 +1835,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1785,6 +1861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1804,6 +1881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1829,6 +1907,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1848,6 +1927,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1873,6 +1953,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1892,6 +1973,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1917,6 +1999,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1936,6 +2019,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -1961,6 +2045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -1980,6 +2065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2005,6 +2091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2024,6 +2111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2049,6 +2137,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2068,6 +2157,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2093,6 +2183,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2112,6 +2203,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2137,6 +2229,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2156,6 +2249,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2181,6 +2275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2200,6 +2295,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2225,6 +2321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2244,6 +2341,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2269,6 +2367,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2288,6 +2387,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2313,6 +2413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2332,6 +2433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2357,6 +2459,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2376,6 +2479,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2401,6 +2505,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2420,6 +2525,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2445,6 +2551,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2464,6 +2571,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2489,6 +2597,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2508,6 +2617,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false,
@@ -2533,6 +2643,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2580,6 +2691,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2600,6 +2712,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSException",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2616,6 +2729,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSException",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -2648,6 +2762,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSExportAttribute",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -2684,6 +2799,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2703,6 +2819,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2722,6 +2839,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2764,6 +2882,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSImportAttribute",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -2782,6 +2901,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSImportAttribute",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -2796,6 +2916,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSImportAttribute",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -2806,6 +2927,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSImportAttribute",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -2822,13 +2944,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
         "clrName": "System.Attribute"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
@@ -2841,6 +2963,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalAsAttribute\u00601",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -2877,6 +3000,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2896,6 +3020,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2915,6 +3040,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2934,6 +3060,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2953,6 +3080,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2972,6 +3100,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -2991,6 +3120,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3010,6 +3140,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3029,6 +3160,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3048,6 +3180,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3067,6 +3200,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3086,6 +3220,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3105,6 +3240,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3124,6 +3260,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3145,6 +3282,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3163,6 +3301,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3181,6 +3320,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3199,6 +3339,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3217,6 +3358,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3235,6 +3377,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3253,6 +3396,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3271,6 +3415,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3289,6 +3434,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3307,6 +3453,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3325,6 +3472,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3343,6 +3491,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3361,6 +3510,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3379,6 +3529,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3397,6 +3548,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3415,6 +3567,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3433,6 +3586,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -3451,6 +3605,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -3496,6 +3651,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3515,6 +3671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3534,6 +3691,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3553,6 +3711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3572,6 +3731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3591,6 +3751,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3610,6 +3771,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3629,6 +3791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3648,6 +3811,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3667,6 +3831,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3686,6 +3851,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3705,6 +3871,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3724,6 +3891,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3743,6 +3911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3762,6 +3931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -3781,6 +3951,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3803,6 +3974,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }
@@ -3864,13 +4036,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
         "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4014,13 +4186,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
         "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4038,14 +4210,14 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "T1",
-        "T2"
-      ],
       "baseType": {
         "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
         "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
       },
+      "typeParameters": [
+        "T1",
+        "T2"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4063,15 +4235,15 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 3,
+      "baseType": {
+        "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
+        "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
+      },
       "typeParameters": [
         "T1",
         "T2",
         "T3"
       ],
-      "baseType": {
-        "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
-        "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
-      },
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4089,16 +4261,16 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 4,
+      "baseType": {
+        "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
+        "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
+      },
       "typeParameters": [
         "T1",
         "T2",
         "T3",
         "T4"
       ],
-      "baseType": {
-        "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
-        "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
-      },
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4179,13 +4351,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSType",
         "clrName": "System.Runtime.InteropServices.JavaScript.JSType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [],
       "fields": [],
@@ -4265,6 +4437,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSHost",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
           "isExtensionMethod": false
@@ -4286,6 +4459,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSHost",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         },
@@ -4304,6 +4478,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSHost",
           "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
         }

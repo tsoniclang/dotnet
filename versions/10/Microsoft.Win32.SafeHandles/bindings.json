@@ -47,6 +47,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -67,6 +68,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -88,13 +110,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid::.ctor():void",
+          "metadataToken": 100663599,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
@@ -133,6 +168,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -153,6 +189,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -174,13 +231,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid::.ctor():void",
+          "metadataToken": 100663601,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
@@ -205,6 +275,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663301,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -219,6 +309,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -239,6 +330,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
+          "declaringAssemblyName": "System.Security.Principal.Windows",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "declaringAssemblyName": "System.Security.Principal.Windows",
           "isExtensionMethod": false
@@ -260,6 +372,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "declaringAssemblyName": "System.Security.Principal.Windows"
         },
@@ -278,6 +391,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "declaringAssemblyName": "System.Security.Principal.Windows"
         }
@@ -292,6 +406,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "declaringAssemblyName": "System.Security.Principal.Windows"
         },
@@ -302,6 +417,7 @@
           "normalizedSignature": "constructor|(System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "declaringAssemblyName": "System.Security.Principal.Windows"
         }
@@ -330,6 +446,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663622,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -344,6 +480,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -364,6 +501,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -375,16 +533,17 @@
           "clrName": "IsAsync",
           "metadataToken": 385875983,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -403,6 +562,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -417,6 +577,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -427,6 +588,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeFileHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -469,6 +631,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -489,6 +652,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -510,13 +694,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::.ctor(System.Boolean):void",
+          "metadataToken": 100663603,
+          "canonicalSignature": "(System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
@@ -555,6 +752,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -575,6 +773,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -596,13 +815,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean):void",
+          "metadataToken": 100663605,
+          "canonicalSignature": "(System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
@@ -627,6 +859,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663443,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -641,6 +893,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -661,6 +914,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -682,6 +956,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -696,6 +971,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -724,6 +1000,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663447,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -738,6 +1034,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -758,6 +1055,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -774,6 +1092,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -802,6 +1121,46 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100664163,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::ReleaseNativeHandle():System.Boolean",
+          "clrName": "ReleaseNativeHandle",
+          "metadataToken": 100664164,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseNativeHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -816,6 +1175,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -836,6 +1196,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
           "declaringAssemblyName": "System.Security.Cryptography",
           "isExtensionMethod": false
@@ -844,7 +1225,30 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::.ctor():void",
+          "metadataToken": 100664161,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+          "declaringAssemblyName": "System.Security.Cryptography"
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::.ctor(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void",
+          "metadataToken": 100664162,
+          "canonicalSignature": "(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void",
+          "normalizedSignature": "constructor|(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+          "declaringAssemblyName": "System.Security.Cryptography"
+        }
+      ]
     },
     {
       "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
@@ -869,6 +1273,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle::ReleaseNativeHandle():System.Boolean",
+          "clrName": "ReleaseNativeHandle",
+          "metadataToken": 100664167,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseNativeHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -883,6 +1307,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -903,6 +1328,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
           "declaringAssemblyName": "System.Security.Cryptography",
           "isExtensionMethod": false
@@ -919,6 +1365,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
           "declaringAssemblyName": "System.Security.Cryptography"
         },
@@ -929,6 +1376,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
           "declaringAssemblyName": "System.Security.Cryptography"
         }
@@ -957,6 +1405,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle::ReleaseNativeHandle():System.Boolean",
+          "clrName": "ReleaseNativeHandle",
+          "metadataToken": 100664169,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseNativeHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -971,6 +1439,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -991,6 +1460,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
           "declaringAssemblyName": "System.Security.Cryptography",
           "isExtensionMethod": false
@@ -1007,6 +1497,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
           "declaringAssemblyName": "System.Security.Cryptography"
         }
@@ -1035,6 +1526,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle::ReleaseNativeHandle():System.Boolean",
+          "clrName": "ReleaseNativeHandle",
+          "metadataToken": 100664171,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseNativeHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1049,6 +1560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1069,6 +1581,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
           "declaringAssemblyName": "System.Security.Cryptography",
           "isExtensionMethod": false
@@ -1085,6 +1618,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
           "declaringAssemblyName": "System.Security.Cryptography"
         }
@@ -1113,6 +1647,46 @@
       ],
       "methods": [
         {
+          "stableId": "System.IO.Pipes:Microsoft.Win32.SafeHandles.SafePipeHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663556,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.Pipes:Microsoft.Win32.SafeHandles.SafePipeHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663557,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
+          "declaringAssemblyName": "System.IO.Pipes",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1127,6 +1701,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1147,6 +1722,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
           "declaringAssemblyName": "System.IO.Pipes",
           "isExtensionMethod": false
@@ -1168,6 +1744,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
           "declaringAssemblyName": "System.IO.Pipes"
         }
@@ -1182,6 +1759,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
           "declaringAssemblyName": "System.IO.Pipes"
         },
@@ -1192,6 +1770,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafePipeHandle",
           "declaringAssemblyName": "System.IO.Pipes"
         }
@@ -1220,6 +1799,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Diagnostics.Process:Microsoft.Win32.SafeHandles.SafeProcessHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663935,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
+          "declaringAssemblyName": "System.Diagnostics.Process",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1234,6 +1833,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1254,6 +1854,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
+          "declaringAssemblyName": "System.Diagnostics.Process",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Diagnostics.Process:Microsoft.Win32.SafeHandles.SafeProcessHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
           "declaringAssemblyName": "System.Diagnostics.Process",
           "isExtensionMethod": false
@@ -1270,6 +1891,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
           "declaringAssemblyName": "System.Diagnostics.Process"
         },
@@ -1280,6 +1902,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
           "declaringAssemblyName": "System.Diagnostics.Process"
         }
@@ -1308,6 +1931,26 @@
       ],
       "methods": [
         {
+          "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.SafeHandles.SafeRegistryHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663346,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1322,6 +1965,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1342,6 +1986,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.SafeHandles.SafeRegistryHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
           "declaringAssemblyName": "Microsoft.Win32.Registry",
           "isExtensionMethod": false
@@ -1358,6 +2023,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         },
@@ -1368,6 +2034,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
           "declaringAssemblyName": "Microsoft.Win32.Registry"
         }
@@ -1396,6 +2063,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeWaitHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100663652,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1410,6 +2097,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1430,6 +2118,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeWaitHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1446,6 +2155,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1456,6 +2166,7 @@
           "normalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1484,6 +2195,46 @@
       ],
       "methods": [
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeX509ChainHandle::ReleaseHandle():System.Boolean",
+          "clrName": "ReleaseHandle",
+          "metadataToken": 100664067,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "ReleaseHandle|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeX509ChainHandle::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100664068,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
+          "declaringAssemblyName": "System.Security.Cryptography",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
           "metadataToken": 100668530,
@@ -1498,6 +2249,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1518,6 +2270,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
           "declaringAssemblyName": "System.Security.Cryptography",
           "isExtensionMethod": false
@@ -1534,6 +2287,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
           "declaringAssemblyName": "System.Security.Cryptography"
         }

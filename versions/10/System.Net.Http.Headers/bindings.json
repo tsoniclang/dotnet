@@ -21,15 +21,15 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "typeArguments": [
             "String"
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
+          "clrName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
             "String"
           ]
@@ -55,6 +55,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -74,6 +75,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -93,6 +95,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -113,6 +116,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -135,6 +139,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -153,6 +158,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -210,6 +216,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -229,6 +236,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -248,6 +256,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -267,6 +276,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -287,6 +297,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -309,6 +320,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HeaderStringValues\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -327,6 +339,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -346,6 +359,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -372,20 +386,6 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[String,HeaderStringValues]]"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[String,HeaderStringValues]]"
-          ]
-        },
-        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602",
           "clrName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "typeArguments": [
@@ -394,8 +394,22 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
+          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[String,HeaderStringValues]]"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[String,HeaderStringValues]]"
+          ]
         }
       ],
       "methods": [
@@ -414,6 +428,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -433,6 +448,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -458,6 +474,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -477,6 +494,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -497,6 +515,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -523,6 +542,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -543,6 +563,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -565,6 +586,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -583,6 +605,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -601,6 +624,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -620,6 +644,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -639,6 +664,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -696,6 +722,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -715,6 +742,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -734,6 +762,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -753,6 +782,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -773,6 +803,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -795,6 +826,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -813,6 +845,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -832,6 +865,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -878,6 +912,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -897,6 +932,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -916,6 +952,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -935,6 +972,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -954,6 +992,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -979,6 +1018,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1001,6 +1041,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1019,6 +1060,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1033,6 +1075,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1043,6 +1086,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.AuthenticationHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1085,6 +1129,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1104,6 +1149,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1123,6 +1169,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1142,6 +1189,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1161,6 +1209,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -1186,6 +1235,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1208,6 +1258,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1226,6 +1277,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1244,6 +1296,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1262,6 +1315,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1280,6 +1334,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1298,6 +1353,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1316,6 +1372,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1334,6 +1391,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1352,6 +1410,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1370,6 +1429,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1388,6 +1448,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1406,6 +1467,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1424,6 +1486,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1442,6 +1505,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1460,6 +1524,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1478,6 +1543,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1492,6 +1558,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.CacheControlHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1534,6 +1601,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1553,6 +1621,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1572,6 +1641,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1591,6 +1661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1610,6 +1681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -1635,6 +1707,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1657,6 +1730,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1675,6 +1749,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1693,6 +1768,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1711,6 +1787,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1729,6 +1806,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1747,6 +1825,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1765,6 +1844,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1783,6 +1863,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1801,6 +1882,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1809,12 +1891,24 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.Net.Http.Headers.ContentDispositionHeaderValue):void",
+          "metadataToken": 100665796,
+          "canonicalSignature": "(System.Net.Http.Headers.ContentDispositionHeaderValue):void",
+          "normalizedSignature": "constructor|(System.Net.Http.Headers.ContentDispositionHeaderValue):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
+          "declaringAssemblyName": "System.Net.Http"
+        },
+        {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.String):void",
           "metadataToken": 100665797,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentDispositionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -1857,6 +1951,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1876,6 +1971,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1895,6 +1991,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1914,6 +2011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -1933,6 +2031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -1958,6 +2057,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1980,6 +2080,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -1998,6 +2099,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2016,6 +2118,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2034,6 +2137,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2052,6 +2156,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2070,6 +2175,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -2084,6 +2190,7 @@
           "normalizedSignature": "constructor|(System.Int64,System.Int64,System.Int64):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2094,6 +2201,7 @@
           "normalizedSignature": "constructor|(System.Int64):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2104,6 +2212,7 @@
           "normalizedSignature": "constructor|(System.Int64,System.Int64):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ContentRangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -2146,6 +2255,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2165,6 +2275,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2184,6 +2295,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2203,6 +2315,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2222,6 +2335,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -2247,6 +2361,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2259,16 +2374,17 @@
           "clrName": "Tag",
           "metadataToken": 385876467,
           "canonicalSignature": ":System.String",
-          "normalizedSignature": "Tag|:System.String|static=false|accessor=get",
+          "normalizedSignature": "Tag|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2277,16 +2393,17 @@
           "clrName": "IsWeak",
           "metadataToken": 385876468,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "IsWeak|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "IsWeak|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2305,6 +2422,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -2319,6 +2437,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2329,6 +2448,7 @@
           "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.EntityTagHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -2378,6 +2498,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2398,6 +2519,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2418,6 +2540,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2437,6 +2560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2458,6 +2582,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2476,6 +2601,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2494,6 +2620,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2512,6 +2639,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2530,6 +2658,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2548,6 +2677,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2566,6 +2696,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2584,6 +2715,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2602,6 +2734,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2620,6 +2753,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -2638,6 +2772,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpContentHeaders",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -2690,6 +2825,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2709,6 +2845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2728,6 +2865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2747,6 +2885,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2766,6 +2905,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2785,6 +2925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -2810,6 +2951,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2829,6 +2971,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2848,6 +2991,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2867,6 +3011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2886,6 +3031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -2905,6 +3051,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2925,6 +3072,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2947,13 +3095,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
           "declaringAssemblyName": "System.Net.Http"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::.ctor():void",
+          "metadataToken": 100665976,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
+          "declaringAssemblyName": "System.Net.Http"
+        }
+      ]
     },
     {
       "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
@@ -2966,9 +3127,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -2993,6 +3151,9 @@
           "clrName": "System.Collections.IEnumerable"
         }
       ],
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection\u00601::Add(T):System.Void",
@@ -3009,6 +3170,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3028,6 +3190,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3047,6 +3210,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3066,6 +3230,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3085,6 +3250,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3104,6 +3270,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3123,6 +3290,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3142,6 +3310,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3161,6 +3330,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3180,6 +3350,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3200,6 +3371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3220,6 +3392,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3240,6 +3413,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3260,6 +3434,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3280,6 +3455,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3302,6 +3478,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3320,6 +3497,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpHeaderValueCollection\u00601",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3338,6 +3516,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3357,6 +3536,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3410,6 +3590,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3430,6 +3611,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3450,6 +3632,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3469,6 +3652,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -3490,6 +3674,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3508,6 +3693,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3526,6 +3712,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3544,6 +3731,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3562,6 +3750,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3580,6 +3769,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3598,6 +3788,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3616,6 +3807,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3634,6 +3826,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3652,6 +3845,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3670,6 +3864,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3688,6 +3883,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3706,6 +3902,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3724,6 +3921,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3742,6 +3940,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3760,6 +3959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3778,6 +3978,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3796,6 +3997,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3814,6 +4016,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3832,6 +4035,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3850,6 +4054,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3868,6 +4073,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3886,6 +4092,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3904,6 +4111,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3922,6 +4130,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3940,6 +4149,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3958,6 +4168,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3976,6 +4187,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -3994,6 +4206,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4012,6 +4225,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4030,6 +4244,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4048,6 +4263,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpRequestHeaders",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4100,6 +4316,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4120,6 +4337,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4140,6 +4358,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4159,6 +4378,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4180,6 +4400,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4198,6 +4419,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4216,6 +4438,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4234,6 +4457,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4252,6 +4476,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4270,6 +4495,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4288,6 +4514,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4306,6 +4533,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4324,6 +4552,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4342,6 +4571,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4360,6 +4590,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4378,6 +4609,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4396,6 +4628,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4414,6 +4647,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4432,6 +4666,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4450,6 +4685,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4468,6 +4704,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4486,6 +4723,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4504,6 +4742,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4522,6 +4761,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.HttpResponseHeaders",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4567,6 +4807,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4586,6 +4827,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4605,6 +4847,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4624,6 +4867,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4643,6 +4887,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -4668,6 +4913,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4690,6 +4936,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4708,6 +4955,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4726,6 +4974,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4734,12 +4983,24 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.Net.Http.Headers.MediaTypeHeaderValue):void",
+          "metadataToken": 100666244,
+          "canonicalSignature": "(System.Net.Http.Headers.MediaTypeHeaderValue):void",
+          "normalizedSignature": "constructor|(System.Net.Http.Headers.MediaTypeHeaderValue):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
+          "declaringAssemblyName": "System.Net.Http"
+        },
+        {
           "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.String):void",
           "metadataToken": 100666245,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4750,6 +5011,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4792,6 +5054,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4811,6 +5074,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -4836,6 +5100,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4856,6 +5121,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4877,6 +5143,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4891,6 +5158,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -4901,6 +5169,7 @@
           "normalizedSignature": "constructor|(System.String,System.Double):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.MediaTypeWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -4943,6 +5212,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4962,6 +5232,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -4981,6 +5252,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5000,6 +5272,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -5025,6 +5298,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5044,6 +5318,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5066,6 +5341,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5084,6 +5360,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5098,6 +5375,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5108,6 +5386,18 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
+          "declaringAssemblyName": "System.Net.Http"
+        },
+        {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.Net.Http.Headers.NameValueHeaderValue):void",
+          "metadataToken": 100666271,
+          "canonicalSignature": "(System.Net.Http.Headers.NameValueHeaderValue):void",
+          "normalizedSignature": "constructor|(System.Net.Http.Headers.NameValueHeaderValue):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "ProtectedInternal",
           "declaringClrType": "System.Net.Http.Headers.NameValueHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5150,6 +5440,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5169,6 +5460,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5188,6 +5480,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5207,6 +5500,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5226,6 +5520,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -5251,6 +5546,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5271,6 +5567,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5292,6 +5589,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5306,6 +5604,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5316,6 +5615,18 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
+          "declaringAssemblyName": "System.Net.Http"
+        },
+        {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void",
+          "metadataToken": 100666295,
+          "canonicalSignature": "(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void",
+          "normalizedSignature": "constructor|(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5358,6 +5669,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5377,6 +5689,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5396,6 +5709,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5415,6 +5729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5434,6 +5749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -5459,6 +5775,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5481,6 +5798,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5499,6 +5817,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5513,6 +5832,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5523,6 +5843,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5565,6 +5886,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5584,6 +5906,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5603,6 +5926,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5622,6 +5946,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5641,6 +5966,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -5666,6 +5992,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5688,6 +6015,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5706,6 +6034,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5720,6 +6049,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5730,6 +6060,7 @@
           "normalizedSignature": "constructor|(System.Net.Http.Headers.ProductHeaderValue):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5740,6 +6071,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ProductInfoHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5782,6 +6114,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5801,6 +6134,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5820,6 +6154,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5839,6 +6174,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -5858,6 +6194,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -5883,6 +6220,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5905,6 +6243,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5923,6 +6262,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5937,6 +6277,7 @@
           "normalizedSignature": "constructor|(System.DateTimeOffset):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5947,6 +6288,7 @@
           "normalizedSignature": "constructor|(System.Net.Http.Headers.EntityTagHeaderValue):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -5957,6 +6299,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -5999,6 +6342,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6018,6 +6362,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6037,6 +6382,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6056,6 +6402,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6075,6 +6422,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -6100,6 +6448,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6122,6 +6471,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6140,6 +6490,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6154,6 +6505,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6164,6 +6516,7 @@
           "normalizedSignature": "constructor|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6206,6 +6559,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6225,6 +6579,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6244,6 +6599,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6263,6 +6619,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6285,6 +6642,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6303,6 +6661,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6317,6 +6676,7 @@
           "normalizedSignature": "constructor|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RangeItemHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6359,6 +6719,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6378,6 +6739,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6397,6 +6759,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6416,6 +6779,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6435,6 +6799,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -6460,6 +6825,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6482,6 +6848,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6500,6 +6867,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6514,6 +6882,7 @@
           "normalizedSignature": "constructor|(System.DateTimeOffset):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6524,6 +6893,7 @@
           "normalizedSignature": "constructor|(System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.RetryConditionHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6566,6 +6936,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6585,6 +6956,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6604,6 +6976,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6623,6 +6996,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6642,6 +7016,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -6667,6 +7042,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6689,6 +7065,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6707,6 +7084,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6721,6 +7099,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6731,6 +7110,7 @@
           "normalizedSignature": "constructor|(System.String,System.Double):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.StringWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6773,6 +7153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6792,6 +7173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -6817,6 +7199,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6836,6 +7219,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6855,6 +7239,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6874,6 +7259,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6896,6 +7282,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -6914,6 +7301,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6922,12 +7310,24 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.Net.Http.Headers.TransferCodingHeaderValue):void",
+          "metadataToken": 100666430,
+          "canonicalSignature": "(System.Net.Http.Headers.TransferCodingHeaderValue):void",
+          "normalizedSignature": "constructor|(System.Net.Http.Headers.TransferCodingHeaderValue):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
+          "declaringAssemblyName": "System.Net.Http"
+        },
+        {
           "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.String):void",
           "metadataToken": 100666431,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -6970,6 +7370,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -6989,6 +7390,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -7014,6 +7416,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7034,6 +7437,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7055,6 +7459,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -7069,6 +7474,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7079,6 +7485,7 @@
           "normalizedSignature": "constructor|(System.String,System.Double):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.TransferCodingWithQualityHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -7121,6 +7528,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7140,6 +7548,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7159,6 +7568,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7178,6 +7588,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7197,6 +7608,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -7222,6 +7634,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7244,6 +7657,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7262,6 +7676,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7280,6 +7695,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7298,6 +7714,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -7312,6 +7729,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7322,6 +7740,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7332,6 +7751,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.ViaHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -7374,6 +7794,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7393,6 +7814,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7412,6 +7834,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7431,6 +7854,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false
@@ -7450,6 +7874,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http",
           "isExtensionMethod": false,
@@ -7475,6 +7900,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ICloneable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7497,6 +7923,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7515,6 +7942,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7533,6 +7961,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7551,6 +7980,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }
@@ -7565,6 +7995,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         },
@@ -7575,6 +8006,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.String,System.String,System.DateTimeOffset):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Headers.WarningHeaderValue",
           "declaringAssemblyName": "System.Net.Http"
         }

@@ -31,6 +31,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Input.ICommand",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -50,6 +51,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Input.ICommand",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -64,6 +66,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Input.ICommand",
           "declaringAssemblyName": "System.ObjectModel"
         }

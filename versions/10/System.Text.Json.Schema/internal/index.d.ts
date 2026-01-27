@@ -10,7 +10,7 @@ import type { JsonNode } from "../../System.Text.Json.Nodes/internal/index.js";
 import type { JsonPropertyInfo, JsonTypeInfo } from "../../System.Text.Json.Serialization.Metadata/internal/index.js";
 import type { JsonSerializerOptions } from "../../System.Text.Json/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface JsonSchemaExporterContext$instance {
     readonly BaseTypeInfo: JsonTypeInfo | undefined;

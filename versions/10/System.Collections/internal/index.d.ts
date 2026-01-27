@@ -312,7 +312,20 @@ export interface __CaseInsensitiveHashCodeProvider$views {
 export type CaseInsensitiveHashCodeProvider = CaseInsensitiveHashCodeProvider$instance & __CaseInsensitiveHashCodeProvider$views;
 
 
-export interface CollectionBase$instance {
+export abstract class CollectionBase$protected {
+    protected OnClear(): void;
+    protected OnClearComplete(): void;
+    protected OnInsert(index: int, value: unknown): void;
+    protected OnInsertComplete(index: int, value: unknown): void;
+    protected OnRemove(index: int, value: unknown): void;
+    protected OnRemoveComplete(index: int, value: unknown): void;
+    protected OnSet(index: int, oldValue: unknown, newValue: unknown): void;
+    protected OnSetComplete(index: int, oldValue: unknown, newValue: unknown): void;
+    protected OnValidate(value: unknown): void;
+}
+
+
+export interface CollectionBase$instance extends CollectionBase$protected {
     Capacity: int;
     readonly Count: int;
     Clear(): void;
@@ -322,6 +335,8 @@ export interface CollectionBase$instance {
 
 
 export const CollectionBase: {
+    new(): CollectionBase;
+    new(capacity: int): CollectionBase;
 };
 
 
@@ -357,7 +372,21 @@ export interface Comparer$instance extends IComparer$instance, System_Runtime_Se
 export type Comparer = Comparer$instance & __Comparer$views;
 
 
-export interface DictionaryBase$instance {
+export abstract class DictionaryBase$protected {
+    protected OnClear(): void;
+    protected OnClearComplete(): void;
+    protected OnGet(key: unknown, currentValue: unknown): unknown | undefined;
+    protected OnInsert(key: unknown, value: unknown): void;
+    protected OnInsertComplete(key: unknown, value: unknown): void;
+    protected OnRemove(key: unknown, value: unknown): void;
+    protected OnRemoveComplete(key: unknown, value: unknown): void;
+    protected OnSet(key: unknown, oldValue: unknown, newValue: unknown): void;
+    protected OnSetComplete(key: unknown, oldValue: unknown, newValue: unknown): void;
+    protected OnValidate(key: unknown, value: unknown): void;
+}
+
+
+export interface DictionaryBase$instance extends DictionaryBase$protected {
     readonly Count: int;
     Clear(): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -366,6 +395,7 @@ export interface DictionaryBase$instance {
 
 
 export const DictionaryBase: {
+    new(): DictionaryBase;
 };
 
 
@@ -378,7 +408,13 @@ export interface __DictionaryBase$views {
 export type DictionaryBase = DictionaryBase$instance & __DictionaryBase$views;
 
 
-export interface Hashtable$instance {
+export abstract class Hashtable$protected {
+    protected GetHash(key: unknown): int;
+    protected KeyEquals(item: unknown, key: unknown): boolean;
+}
+
+
+export interface Hashtable$instance extends Hashtable$protected {
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
@@ -418,6 +454,7 @@ export const Hashtable: {
     new(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
     new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
     new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
+    new(info: SerializationInfo, context: StreamingContext): Hashtable;
     Synchronized(table: Hashtable): Hashtable;
 };
 
@@ -513,6 +550,7 @@ export interface ReadOnlyCollectionBase$instance {
 
 
 export const ReadOnlyCollectionBase: {
+    new(): ReadOnlyCollectionBase;
 };
 
 

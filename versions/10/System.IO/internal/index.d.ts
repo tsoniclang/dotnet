@@ -14,7 +14,7 @@ import type { IAsyncEnumerable_1, IEnumerable_1, IReadOnlyList_1 } from "../../S
 import type { Collection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import type { IDictionary } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import type { SafeBuffer } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -22,7 +22,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { AccessControlSections, DirectorySecurity, FileSecurity, FileSystemRights } from "../../System.Security.AccessControl/internal/index.js";
 import type { Encoding, StringBuilder } from "../../System.Text/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, Half, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
@@ -191,7 +191,13 @@ export const WaitForChangedResult: {
 
 export type WaitForChangedResult = WaitForChangedResult$instance;
 
-export interface BinaryReader$instance {
+export abstract class BinaryReader$protected {
+    protected Dispose(disposing: boolean): void;
+    protected FillBuffer(numBytes: int): void;
+}
+
+
+export interface BinaryReader$instance extends BinaryReader$protected {
     readonly BaseStream: Stream;
     Close(): void;
     Dispose(): void;
@@ -235,12 +241,15 @@ export interface __BinaryReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface BinaryReader$instance extends System_Internal.IDisposable$instance {}
-
 export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
-export interface BinaryWriter$instance {
+export abstract class BinaryWriter$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface BinaryWriter$instance extends BinaryWriter$protected {
     readonly BaseStream: Stream;
     Close(): void;
     Dispose(): void;
@@ -274,6 +283,7 @@ export interface BinaryWriter$instance {
 
 
 export const BinaryWriter: {
+    new(): BinaryWriter;
     new(output: Stream): BinaryWriter;
     new(output: Stream, encoding: Encoding): BinaryWriter;
     new(output: Stream, encoding: Encoding, leaveOpen: boolean): BinaryWriter;
@@ -286,12 +296,17 @@ export interface __BinaryWriter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
-export interface BufferedStream$instance extends Stream$instance {
+export abstract class BufferedStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface BufferedStream$instance extends BufferedStream$protected, Stream$instance {
     readonly BufferSize: int;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -408,6 +423,7 @@ export const DirectoryNotFoundException: {
     new(): DirectoryNotFoundException;
     new(message: string): DirectoryNotFoundException;
     new(message: string, innerException: Exception): DirectoryNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): DirectoryNotFoundException;
 };
 
 
@@ -456,6 +472,7 @@ export const DriveNotFoundException: {
     new(): DriveNotFoundException;
     new(message: string): DriveNotFoundException;
     new(message: string, innerException: Exception): DriveNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): DriveNotFoundException;
 };
 
 
@@ -475,6 +492,7 @@ export const EndOfStreamException: {
     new(): EndOfStreamException;
     new(message: string): EndOfStreamException;
     new(message: string, innerException: Exception): EndOfStreamException;
+    new(info: SerializationInfo, context: StreamingContext): EndOfStreamException;
 };
 
 
@@ -573,6 +591,7 @@ export const FileLoadException: {
     new(message: string, inner: Exception): FileLoadException;
     new(message: string, fileName: string): FileLoadException;
     new(message: string, fileName: string, inner: Exception): FileLoadException;
+    new(info: SerializationInfo, context: StreamingContext): FileLoadException;
 };
 
 
@@ -598,6 +617,7 @@ export const FileNotFoundException: {
     new(message: string, innerException: Exception): FileNotFoundException;
     new(message: string, fileName: string): FileNotFoundException;
     new(message: string, fileName: string, innerException: Exception): FileNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): FileNotFoundException;
 };
 
 
@@ -608,7 +628,13 @@ export interface __FileNotFoundException$views {
 export type FileNotFoundException = FileNotFoundException$instance & __FileNotFoundException$views;
 
 
-export interface FileStream$instance extends Stream$instance {
+export abstract class FileStream$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface FileStream$instance extends FileStream$protected, Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -739,6 +765,8 @@ export interface FileSystemInfo$instance extends MarshalByRefObject {
 
 
 export const FileSystemInfo: {
+    new(info: SerializationInfo, context: StreamingContext): FileSystemInfo;
+    new(): FileSystemInfo;
 };
 
 
@@ -751,7 +779,12 @@ export interface FileSystemInfo$instance extends System_Runtime_Serialization_In
 export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
-export interface FileSystemWatcher$instance extends Component {
+export abstract class FileSystemWatcher$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface FileSystemWatcher$instance extends FileSystemWatcher$protected, Component {
     EnableRaisingEvents: boolean;
     Filter: string;
     readonly Filters: Collection_1<System_Internal.String>;
@@ -785,7 +818,7 @@ export interface __FileSystemWatcher$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ISupportInitialize$instance {}
+export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher$views;
 
@@ -799,6 +832,7 @@ export const InternalBufferOverflowException: {
     new(): InternalBufferOverflowException;
     new(message: string): InternalBufferOverflowException;
     new(message: string, inner: Exception): InternalBufferOverflowException;
+    new(info: SerializationInfo, context: StreamingContext): InternalBufferOverflowException;
 };
 
 
@@ -838,6 +872,7 @@ export const IOException: {
     new(message: string): IOException;
     new(message: string, hresult: int): IOException;
     new(message: string, innerException: Exception): IOException;
+    new(info: SerializationInfo, context: StreamingContext): IOException;
 };
 
 
@@ -848,7 +883,12 @@ export interface __IOException$views {
 export type IOException = IOException$instance & __IOException$views;
 
 
-export interface MemoryStream$instance extends Stream$instance {
+export abstract class MemoryStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface MemoryStream$instance extends MemoryStream$protected, Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -920,6 +960,7 @@ export const PathTooLongException: {
     new(): PathTooLongException;
     new(message: string): PathTooLongException;
     new(message: string, innerException: Exception): PathTooLongException;
+    new(info: SerializationInfo, context: StreamingContext): PathTooLongException;
 };
 
 
@@ -943,7 +984,14 @@ export const RenamedEventArgs: {
 
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
-export interface Stream$instance extends MarshalByRefObject {
+export abstract class Stream$protected {
+    protected CreateWaitHandle(): WaitHandle;
+    protected Dispose(disposing: boolean): void;
+    protected ObjectInvariant(): void;
+}
+
+
+export interface Stream$instance extends Stream$protected, MarshalByRefObject {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -992,8 +1040,11 @@ export interface Stream$instance extends MarshalByRefObject {
 
 
 export const Stream: {
+    new(): Stream;
     readonly Null: Stream;
     Synchronized(stream: Stream): Stream;
+    ValidateBufferArguments(buffer: byte[], offset: int, count: int): void;
+    ValidateCopyToArguments(destination: Stream, bufferSize: int): void;
 };
 
 
@@ -1002,12 +1053,17 @@ export interface __Stream$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Stream$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface Stream$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type Stream = Stream$instance & __Stream$views;
 
 
-export interface StreamReader$instance extends TextReader$instance {
+export abstract class StreamReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface StreamReader$instance extends StreamReader$protected, TextReader$instance {
     readonly BaseStream: Stream;
     readonly CurrentEncoding: Encoding;
     readonly EndOfStream: boolean;
@@ -1067,7 +1123,12 @@ export interface __StreamReader$views {
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
-export interface StreamWriter$instance extends TextWriter$instance {
+export abstract class StreamWriter$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface StreamWriter$instance extends StreamWriter$protected, TextWriter$instance {
     AutoFlush: boolean;
     readonly BaseStream: Stream;
     readonly Encoding: Encoding;
@@ -1162,7 +1223,12 @@ export interface __StreamWriter$views {
 export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 
-export interface StringReader$instance extends TextReader$instance {
+export abstract class StringReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface StringReader$instance extends StringReader$protected, TextReader$instance {
     Close(): void;
     Dispose(): void;
     Peek(): int;
@@ -1206,7 +1272,12 @@ export interface __StringReader$views {
 export type StringReader = StringReader$instance & __StringReader$views;
 
 
-export interface StringWriter$instance extends TextWriter$instance {
+export abstract class StringWriter$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface StringWriter$instance extends StringWriter$protected, TextWriter$instance {
     readonly Encoding: Encoding;
     Close(): void;
     Dispose(): void;
@@ -1292,7 +1363,12 @@ export interface __StringWriter$views {
 export type StringWriter = StringWriter$instance & __StringWriter$views;
 
 
-export interface TextReader$instance extends MarshalByRefObject {
+export abstract class TextReader$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface TextReader$instance extends TextReader$protected, MarshalByRefObject {
     Close(): void;
     Dispose(): void;
     Peek(): int;
@@ -1315,6 +1391,7 @@ export interface TextReader$instance extends MarshalByRefObject {
 
 
 export const TextReader: {
+    new(): TextReader;
     readonly Null: TextReader;
     Synchronized(reader: TextReader): TextReader;
 };
@@ -1324,12 +1401,15 @@ export interface __TextReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface TextReader$instance extends System_Internal.IDisposable$instance {}
-
 export type TextReader = TextReader$instance & __TextReader$views;
 
 
-export interface TextWriter$instance extends MarshalByRefObject {
+export abstract class TextWriter$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface TextWriter$instance extends TextWriter$protected, MarshalByRefObject {
     readonly Encoding: Encoding;
     readonly FormatProvider: IFormatProvider;
     NewLine: string;
@@ -1397,6 +1477,8 @@ export interface TextWriter$instance extends MarshalByRefObject {
 
 
 export const TextWriter: {
+    new(): TextWriter;
+    new(formatProvider: IFormatProvider): TextWriter;
     readonly Null: TextWriter;
     CreateBroadcasting(...writers: TextWriter[]): TextWriter;
     Synchronized(writer: TextWriter): TextWriter;
@@ -1408,12 +1490,17 @@ export interface __TextWriter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface TextWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface TextWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type TextWriter = TextWriter$instance & __TextWriter$views;
 
 
-export interface UnmanagedMemoryAccessor$instance {
+export abstract class UnmanagedMemoryAccessor$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface UnmanagedMemoryAccessor$instance extends UnmanagedMemoryAccessor$protected {
     readonly CanRead: boolean;
     readonly CanWrite: boolean;
     readonly Capacity: long;
@@ -1452,6 +1539,7 @@ export interface UnmanagedMemoryAccessor$instance {
 
 
 export const UnmanagedMemoryAccessor: {
+    new(): UnmanagedMemoryAccessor;
     new(buffer: SafeBuffer, offset: long, capacity: long): UnmanagedMemoryAccessor;
     new(buffer: SafeBuffer, offset: long, capacity: long, access: FileAccess): UnmanagedMemoryAccessor;
 };
@@ -1461,12 +1549,15 @@ export interface __UnmanagedMemoryAccessor$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface UnmanagedMemoryAccessor$instance extends System_Internal.IDisposable$instance {}
-
 export type UnmanagedMemoryAccessor = UnmanagedMemoryAccessor$instance & __UnmanagedMemoryAccessor$views;
 
 
-export interface UnmanagedMemoryStream$instance extends Stream$instance {
+export abstract class UnmanagedMemoryStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface UnmanagedMemoryStream$instance extends UnmanagedMemoryStream$protected, Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -1502,6 +1593,7 @@ export interface UnmanagedMemoryStream$instance extends Stream$instance {
 
 
 export const UnmanagedMemoryStream: {
+    new(): UnmanagedMemoryStream;
     new(buffer: SafeBuffer, offset: long, length: long): UnmanagedMemoryStream;
     new(buffer: SafeBuffer, offset: long, length: long, access: FileAccess): UnmanagedMemoryStream;
     new(pointer: ptr<byte>, length: long): UnmanagedMemoryStream;

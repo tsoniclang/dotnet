@@ -552,6 +552,7 @@ export interface XmlSchemaContent$instance extends XmlSchemaAnnotated {
 
 
 export const XmlSchemaContent: {
+    new(): XmlSchemaContent;
 };
 
 
@@ -563,6 +564,7 @@ export interface XmlSchemaContentModel$instance extends XmlSchemaAnnotated {
 
 
 export const XmlSchemaContentModel: {
+    new(): XmlSchemaContentModel;
 };
 
 
@@ -655,6 +657,7 @@ export interface XmlSchemaException$instance extends SystemException {
 
 
 export const XmlSchemaException: {
+    new(info: SerializationInfo, context: StreamingContext): XmlSchemaException;
     new(): XmlSchemaException;
     new(message: string): XmlSchemaException;
     new(message: string, innerException: Exception): XmlSchemaException;
@@ -681,6 +684,7 @@ export interface XmlSchemaExternal$instance extends XmlSchemaObject {
 
 
 export const XmlSchemaExternal: {
+    new(): XmlSchemaExternal;
 };
 
 
@@ -693,6 +697,7 @@ export interface XmlSchemaFacet$instance extends XmlSchemaAnnotated {
 
 
 export const XmlSchemaFacet: {
+    new(): XmlSchemaFacet;
 };
 
 
@@ -812,6 +817,7 @@ export interface XmlSchemaInferenceException$instance extends XmlSchemaException
 
 
 export const XmlSchemaInferenceException: {
+    new(info: SerializationInfo, context: StreamingContext): XmlSchemaInferenceException;
     new(): XmlSchemaInferenceException;
     new(message: string): XmlSchemaInferenceException;
     new(message: string, innerException: Exception): XmlSchemaInferenceException;
@@ -975,6 +981,7 @@ export interface XmlSchemaNumericFacet$instance extends XmlSchemaFacet {
 
 
 export const XmlSchemaNumericFacet: {
+    new(): XmlSchemaNumericFacet;
 };
 
 
@@ -991,12 +998,21 @@ export interface XmlSchemaObject$instance {
 
 
 export const XmlSchemaObject: {
+    new(): XmlSchemaObject;
 };
 
 
 export type XmlSchemaObject = XmlSchemaObject$instance;
 
-export interface XmlSchemaObjectCollection$instance extends CollectionBase {
+export abstract class XmlSchemaObjectCollection$protected {
+    protected OnClear(): void;
+    protected OnInsert(index: int, item: unknown): void;
+    protected OnRemove(index: int, item: unknown): void;
+    protected OnSet(index: int, oldValue: unknown, newValue: unknown): void;
+}
+
+
+export interface XmlSchemaObjectCollection$instance extends XmlSchemaObjectCollection$protected, CollectionBase {
     Item: XmlSchemaObject;
     Add(value: unknown): int;
     Clear(): void;
@@ -1072,6 +1088,7 @@ export interface XmlSchemaParticle$instance extends XmlSchemaAnnotated {
 
 
 export const XmlSchemaParticle: {
+    new(): XmlSchemaParticle;
 };
 
 
@@ -1210,6 +1227,7 @@ export interface XmlSchemaSimpleTypeContent$instance extends XmlSchemaAnnotated 
 
 
 export const XmlSchemaSimpleTypeContent: {
+    new(): XmlSchemaSimpleTypeContent;
 };
 
 
@@ -1316,6 +1334,7 @@ export interface XmlSchemaValidationException$instance extends XmlSchemaExceptio
 
 
 export const XmlSchemaValidationException: {
+    new(info: SerializationInfo, context: StreamingContext): XmlSchemaValidationException;
     new(): XmlSchemaValidationException;
     new(message: string): XmlSchemaValidationException;
     new(message: string, innerException: Exception): XmlSchemaValidationException;

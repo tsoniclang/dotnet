@@ -202,7 +202,12 @@ export const ParallelOptions: {
 
 export type ParallelOptions = ParallelOptions$instance;
 
-export interface Task$instance {
+export abstract class Task$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface Task$instance extends Task$protected {
     readonly AsyncState: unknown | undefined;
     readonly CreationOptions: TaskCreationOptions;
     readonly Exception: AggregateException;
@@ -324,12 +329,17 @@ export interface __Task$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Task$instance extends System_Internal.IAsyncResult$instance, System_Internal.IDisposable$instance {}
+export interface Task$instance extends System_Internal.IAsyncResult$instance {}
 
 export type Task = Task$instance & __Task$views;
 
 
-export interface Task_1$instance<TResult> extends Task$instance {
+export abstract class Task_1$protected<TResult> {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface Task_1$instance<TResult> extends Task_1$protected<TResult>, Task$instance {
     readonly Result: TResult;
     ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
     ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
@@ -410,6 +420,7 @@ export const TaskCanceledException: {
     new(message: string, innerException: Exception): TaskCanceledException;
     new(message: string, innerException: Exception, token: CancellationToken): TaskCanceledException;
     new(task: Task): TaskCanceledException;
+    new(info: SerializationInfo, context: StreamingContext): TaskCanceledException;
 };
 
 
@@ -617,13 +628,22 @@ export const TaskFactory_1: {
 
 export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 
-export interface TaskScheduler$instance {
+export abstract class TaskScheduler$protected {
+    protected abstract GetScheduledTasks(): IEnumerable_1<Task> | undefined;
+    protected abstract QueueTask(task: Task): void;
+    protected TryDequeue(task: Task): boolean;
+    protected abstract TryExecuteTaskInline(task: Task, taskWasPreviouslyQueued: boolean): boolean;
+}
+
+
+export interface TaskScheduler$instance extends TaskScheduler$protected {
     readonly Id: int;
     readonly MaximumConcurrencyLevel: int;
 }
 
 
 export const TaskScheduler: {
+    new(): TaskScheduler;
     readonly Default: TaskScheduler;
     readonly Current: TaskScheduler;
     FromCurrentSynchronizationContext(): TaskScheduler;
@@ -642,6 +662,7 @@ export const TaskSchedulerException: {
     new(message: string): TaskSchedulerException;
     new(innerException: Exception): TaskSchedulerException;
     new(message: string, innerException: Exception): TaskSchedulerException;
+    new(info: SerializationInfo, context: StreamingContext): TaskSchedulerException;
 };
 
 

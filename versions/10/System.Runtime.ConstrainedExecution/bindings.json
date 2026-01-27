@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -109,16 +113,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,6 +136,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -198,11 +207,44 @@
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
-      "methods": [],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize():System.Void",
+          "clrName": "Finalize",
+          "metadataToken": 100682743,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Finalize|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor():void",
+          "metadataToken": 100682742,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
@@ -231,6 +273,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -268,6 +311,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -286,6 +330,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -300,6 +345,7 @@
           "normalizedSignature": "constructor|(System.Runtime.ConstrainedExecution.Consistency,System.Runtime.ConstrainedExecution.Cer):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

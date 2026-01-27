@@ -10,15 +10,16 @@ import type { SafePipeHandle } from "../../Microsoft.Win32.SafeHandles/internal/
 import * as System_IO_Internal from "../../System.IO/internal/index.js";
 import type { HandleInheritability, SeekOrigin, Stream } from "../../System.IO/internal/index.js";
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
+import type { SafeHandle } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Security_AccessControl_Internal from "../../System.Security.AccessControl/internal/index.js";
-import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from "../../System.Security.AccessControl/internal/index.js";
+import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, CommonSecurityDescriptor, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from "../../System.Security.AccessControl/internal/index.js";
 import type { IdentityReference, TokenImpersonationLevel } from "../../System.Security.Principal/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum PipeAccessRights {
     ReadData = 1,
@@ -66,10 +67,16 @@ export enum PipeTransmissionMode {
 export type PipeStreamImpersonationWorker = () => void;
 
 
-export interface AnonymousPipeClientStream$instance extends PipeStream$instance {
+export abstract class AnonymousPipeClientStream$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface AnonymousPipeClientStream$instance extends AnonymousPipeClientStream$protected, PipeStream$instance {
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
-    Dispose(): void;
+    Dispose5(): void;
     DisposeAsync(): ValueTask;
 }
 
@@ -89,7 +96,13 @@ export interface __AnonymousPipeClientStream$views {
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
 
 
-export interface AnonymousPipeServerStream$instance extends PipeStream$instance {
+export abstract class AnonymousPipeServerStream$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface AnonymousPipeServerStream$instance extends AnonymousPipeServerStream$protected, PipeStream$instance {
     readonly ClientSafePipeHandle: SafePipeHandle;
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
@@ -117,7 +130,14 @@ export interface __AnonymousPipeServerStream$views {
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
 
 
-export interface NamedPipeClientStream$instance extends PipeStream$instance {
+export abstract class NamedPipeClientStream$protected {
+    protected CheckPipePropertyOperations(): void;
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface NamedPipeClientStream$instance extends NamedPipeClientStream$protected, PipeStream$instance {
     readonly InBufferSize: int;
     readonly NumberOfServerInstances: int;
     readonly OutBufferSize: int;
@@ -129,7 +149,7 @@ export interface NamedPipeClientStream$instance extends PipeStream$instance {
     ConnectAsync(cancellationToken: CancellationToken): Task;
     ConnectAsync(timeout: int, cancellationToken: CancellationToken): Task;
     ConnectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
-    Dispose(): void;
+    Dispose5(): void;
     DisposeAsync(): ValueTask;
 }
 
@@ -154,12 +174,18 @@ export interface __NamedPipeClientStream$views {
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
 
 
-export interface NamedPipeServerStream$instance extends PipeStream$instance {
+export abstract class NamedPipeServerStream$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface NamedPipeServerStream$instance extends NamedPipeServerStream$protected, PipeStream$instance {
     readonly InBufferSize: int;
     readonly OutBufferSize: int;
     BeginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
     Disconnect(): void;
-    Dispose(): void;
+    Dispose5(): void;
     DisposeAsync(): ValueTask;
     EndWaitForConnection(asyncResult: IAsyncResult): void;
     GetImpersonationUserName(): string;
@@ -216,22 +242,29 @@ export const PipeAuditRule: {
 
 export type PipeAuditRule = PipeAuditRule$instance;
 
-export interface PipeSecurity$instance extends NativeObjectSecurity {
+export abstract class PipeSecurity$protected {
+    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    protected Persist7(name: string, includeSections: AccessControlSections): void;
+    protected Persist6(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+}
+
+
+export interface PipeSecurity$instance extends PipeSecurity$protected, NativeObjectSecurity {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: PipeAccessRule): void;
-    AddAuditRule(rule: PipeAuditRule): void;
+    AddAccessRule2(rule: PipeAccessRule): void;
+    AddAuditRule2(rule: PipeAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: PipeAccessRule): boolean;
-    RemoveAccessRuleSpecific(rule: PipeAccessRule): void;
-    RemoveAuditRule(rule: PipeAuditRule): boolean;
-    RemoveAuditRuleAll(rule: PipeAuditRule): void;
-    RemoveAuditRuleSpecific(rule: PipeAuditRule): void;
-    ResetAccessRule(rule: PipeAccessRule): void;
-    SetAccessRule(rule: PipeAccessRule): void;
-    SetAuditRule(rule: PipeAuditRule): void;
+    RemoveAccessRule2(rule: PipeAccessRule): boolean;
+    RemoveAccessRuleSpecific2(rule: PipeAccessRule): void;
+    RemoveAuditRule2(rule: PipeAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: PipeAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: PipeAuditRule): void;
+    ResetAccessRule2(rule: PipeAccessRule): void;
+    SetAccessRule2(rule: PipeAccessRule): void;
+    SetAuditRule2(rule: PipeAuditRule): void;
 }
 
 
@@ -242,13 +275,19 @@ export const PipeSecurity: {
 
 export type PipeSecurity = PipeSecurity$instance;
 
-export interface PipeStream$instance extends Stream {
+export abstract class PipeStream$protected {
+    protected CheckPipePropertyOperations(): void;
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface PipeStream$instance extends PipeStream$protected, Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
     readonly InBufferSize: int;
     readonly IsAsync: boolean;
-    readonly IsConnected: boolean;
+    IsConnected: boolean;
     readonly IsMessageComplete: boolean;
     readonly Length: long;
     readonly OutBufferSize: int;
@@ -289,6 +328,8 @@ export interface PipeStream$instance extends Stream {
 
 
 export const PipeStream: {
+    new(direction: PipeDirection, bufferSize: int): PipeStream;
+    new(direction: PipeDirection, transmissionMode: PipeTransmissionMode, outBufferSize: int): PipeStream;
 };
 
 

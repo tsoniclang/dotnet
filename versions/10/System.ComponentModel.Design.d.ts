@@ -6,7 +6,7 @@
 import * as Internal from './System.ComponentModel.Design/internal/index.js';
 
 // Cross-namespace type imports for constraints
-import type { CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { ArrayList, CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { EventDescriptor, EventDescriptorCollection, IComponent, IContainer, IExtenderProvider, InheritanceAttribute, LicenseContext, LicenseUsageMode, MemberDescriptor, PropertyDescriptor, PropertyDescriptorCollection, TypeDescriptionProvider } from './System.ComponentModel/internal/index.js';
 import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { Stream } from './System.IO/internal/index.js';

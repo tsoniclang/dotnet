@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryFormat",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -131,16 +137,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -154,6 +160,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -209,6 +220,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -220,6 +232,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -231,6 +244,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -242,6 +256,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -253,6 +268,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -264,6 +280,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -275,6 +292,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -286,6 +304,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -297,6 +316,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -308,6 +328,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -319,6 +340,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -330,6 +352,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -341,6 +364,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -352,6 +376,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntryType",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -391,6 +416,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.GnuTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -409,6 +435,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.GnuTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -423,6 +450,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.GnuTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -433,6 +461,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.GnuTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -470,6 +499,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -484,6 +514,7 @@
           "normalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -521,6 +552,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -535,6 +567,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -545,6 +578,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -555,6 +589,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PaxTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -592,6 +627,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PosixTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -610,6 +646,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PosixTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -628,6 +665,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PosixTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -646,6 +684,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.PosixTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -685,6 +724,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -704,6 +744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -723,12 +764,32 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
         }
       ],
       "properties": [
+        {
+          "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::FormatIsOctalOnly:System.Boolean",
+          "clrName": "FormatIsOctalOnly",
+          "metadataToken": 385876027,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "FormatIsOctalOnly|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Formats.Tar.TarEntry",
+          "declaringAssemblyName": "System.Formats.Tar"
+        },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Checksum:System.Int32",
           "clrName": "Checksum",
@@ -744,6 +805,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -762,6 +824,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -780,6 +843,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -798,6 +862,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -816,6 +881,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -834,6 +900,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -852,6 +919,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -870,6 +938,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -888,6 +957,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -906,6 +976,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -924,6 +995,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -942,6 +1014,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -967,12 +1040,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -991,6 +1064,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarReader",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1010,6 +1084,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarReader",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1029,6 +1104,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarReader",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1048,6 +1124,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarReader",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1067,6 +1144,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1087,6 +1165,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1104,6 +1183,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarReader",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -1126,12 +1206,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -1150,6 +1230,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1169,6 +1250,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1188,6 +1270,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1207,6 +1290,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1226,6 +1310,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1245,6 +1330,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1264,6 +1350,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1284,6 +1371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1306,6 +1394,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -1320,6 +1409,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -1330,6 +1420,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -1340,6 +1431,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Formats.Tar.TarEntryFormat,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarWriter",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -1372,6 +1464,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.UstarTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -1382,6 +1475,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.UstarTarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -1414,6 +1508,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.V7TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         },
@@ -1424,6 +1519,7 @@
           "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.V7TarEntry",
           "declaringAssemblyName": "System.Formats.Tar"
         }
@@ -1460,6 +1556,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1479,6 +1576,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1498,6 +1596,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1517,6 +1616,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1536,6 +1636,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1555,6 +1656,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1574,6 +1676,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false
@@ -1593,6 +1696,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Tar.TarFile",
           "declaringAssemblyName": "System.Formats.Tar",
           "isExtensionMethod": false

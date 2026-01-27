@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -136,6 +144,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -147,6 +156,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -158,6 +168,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -169,6 +180,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -180,6 +192,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -191,6 +204,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -202,6 +216,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -213,6 +228,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -224,6 +240,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -235,6 +252,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataType",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -269,6 +287,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.IValidatableObject",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -310,6 +329,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AllowedValuesAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -331,6 +371,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -345,6 +386,7 @@
           "normalizedSignature": "constructor|(System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -381,6 +423,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -400,6 +443,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -419,6 +463,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -435,6 +480,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -445,6 +491,7 @@
           "normalizedSignature": "constructor|(System.Type,System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -482,6 +529,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -500,6 +548,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -518,6 +567,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -536,6 +586,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -554,6 +605,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -572,6 +624,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -586,6 +639,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.AssociationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -622,6 +676,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.Base64StringAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Base64StringAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Base64StringAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -638,6 +713,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Base64StringAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -674,6 +750,47 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 100663413,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::IsValid(System.Object):System.Boolean",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object):System.Boolean",
+          "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -695,6 +812,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -703,16 +821,17 @@
           "clrName": "OtherPropertyDisplayName",
           "metadataToken": 385876042,
           "canonicalSignature": ":System.String",
-          "normalizedSignature": "OtherPropertyDisplayName|:System.String|static=false|accessor=get",
+          "normalizedSignature": "OtherPropertyDisplayName|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -731,6 +850,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -745,6 +865,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CompareAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -777,6 +898,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ConcurrencyCheckAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -813,6 +935,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.CreditCardAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CreditCardAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CreditCardAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -829,6 +972,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CreditCardAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -851,6 +995,26 @@
       },
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 100663423,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
           "metadataToken": 100663424,
@@ -865,6 +1029,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::IsValid(System.Object):System.Boolean",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object):System.Boolean",
+          "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -886,6 +1071,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -904,6 +1090,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -922,6 +1109,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -940,6 +1128,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -954,6 +1143,7 @@
           "normalizedSignature": "constructor|(System.Type,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -990,6 +1180,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1009,6 +1200,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1030,6 +1242,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1048,6 +1261,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1056,16 +1270,17 @@
           "clrName": "DisplayFormat",
           "metadataToken": 385876050,
           "canonicalSignature": ":System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
-          "normalizedSignature": "DisplayFormat|:System.ComponentModel.DataAnnotations.DisplayFormatAttribute|static=false|accessor=get",
+          "normalizedSignature": "DisplayFormat|:System.ComponentModel.DataAnnotations.DisplayFormatAttribute|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1080,6 +1295,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.DataAnnotations.DataType):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1090,6 +1306,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1126,6 +1343,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DeniedValuesAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1147,6 +1385,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1161,6 +1400,7 @@
           "normalizedSignature": "constructor|(System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1197,6 +1437,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1216,6 +1457,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1235,6 +1477,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1254,6 +1497,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1273,6 +1517,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1292,6 +1537,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1311,6 +1557,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1330,6 +1577,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1351,6 +1599,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1369,6 +1618,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1387,6 +1637,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1405,6 +1656,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1423,6 +1675,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1441,6 +1694,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1459,6 +1713,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1477,6 +1732,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1495,6 +1751,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1509,6 +1766,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1546,6 +1804,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1564,6 +1823,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1582,6 +1842,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1596,6 +1857,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1606,6 +1868,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1616,6 +1879,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1652,6 +1916,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1673,6 +1938,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1691,6 +1957,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1709,6 +1976,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1727,6 +1995,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1745,6 +2014,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1763,6 +2033,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1777,6 +2048,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1814,6 +2086,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EditableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -1832,6 +2105,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EditableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1846,6 +2120,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EditableAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1882,6 +2157,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.EmailAddressAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EmailAddressAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EmailAddressAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1898,6 +2194,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EmailAddressAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1934,6 +2231,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EnumDataTypeAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -1955,6 +2273,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -1969,6 +2288,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2005,6 +2325,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2024,6 +2345,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2045,6 +2387,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2059,6 +2402,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2095,6 +2439,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2114,6 +2459,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2135,6 +2481,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2153,6 +2500,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2171,6 +2519,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2185,6 +2534,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2195,6 +2545,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2205,6 +2556,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2237,6 +2589,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.KeyAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2273,6 +2626,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2292,6 +2646,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2313,6 +2688,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2331,6 +2707,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2345,6 +2722,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.LengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2381,6 +2759,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2400,6 +2779,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2421,6 +2821,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2435,6 +2836,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2445,6 +2847,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2482,6 +2885,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MetadataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2496,6 +2900,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MetadataTypeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2532,6 +2937,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2551,6 +2957,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2572,6 +2999,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2586,6 +3014,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2622,6 +3051,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.PhoneAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.PhoneAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.PhoneAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2638,6 +3088,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.PhoneAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2674,6 +3125,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2693,6 +3145,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2704,16 +3177,17 @@
           "clrName": "Minimum",
           "metadataToken": 385876092,
           "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Minimum|:System.Object|static=false|accessor=get",
+          "normalizedSignature": "Minimum|:System.Object|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2722,16 +3196,17 @@
           "clrName": "Maximum",
           "metadataToken": 385876093,
           "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Maximum|:System.Object|static=false|accessor=get",
+          "normalizedSignature": "Maximum|:System.Object|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2750,6 +3225,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2768,6 +3244,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2786,6 +3263,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2804,6 +3282,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2822,6 +3301,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2836,6 +3316,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2846,6 +3327,7 @@
           "normalizedSignature": "constructor|(System.Double,System.Double):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2856,6 +3338,7 @@
           "normalizedSignature": "constructor|(System.Type,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RangeAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2892,6 +3375,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2911,6 +3395,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -2932,6 +3437,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2950,6 +3456,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -2968,6 +3475,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -2982,6 +3490,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3018,6 +3527,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.RequiredAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RequiredAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RequiredAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3039,6 +3569,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RequiredAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3053,6 +3584,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.RequiredAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3090,6 +3622,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3104,6 +3637,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3140,6 +3674,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3159,6 +3694,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3180,6 +3736,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3198,6 +3755,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3212,6 +3770,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3244,6 +3803,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.TimestampAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3280,6 +3840,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3299,6 +3860,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3320,6 +3882,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3338,6 +3901,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3356,6 +3920,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3370,6 +3935,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3380,6 +3946,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3390,6 +3957,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UIHintAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3426,6 +3994,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.UrlAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UrlAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UrlAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3442,6 +4031,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.UrlAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3478,6 +4068,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3497,6 +4088,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "clrName": "IsValid",
+          "metadataToken": 100663687,
+          "canonicalSignature": "(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
+          "normalizedSignature": "IsValid|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3516,6 +4128,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3535,6 +4148,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3554,12 +4168,32 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
         }
       ],
       "properties": [
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::ErrorMessageString:System.String",
+          "clrName": "ErrorMessageString",
+          "metadataToken": 385876116,
+          "canonicalSignature": ":System.String",
+          "normalizedSignature": "ErrorMessageString|:System.String|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::RequiresValidationContext:System.Boolean",
           "clrName": "RequiresValidationContext",
@@ -3575,6 +4209,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3593,6 +4228,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3611,6 +4247,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3629,13 +4266,48 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::.ctor():void",
+          "metadataToken": 100663666,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::.ctor(System.String):void",
+          "metadataToken": 100663667,
+          "canonicalSignature": "(System.String):void",
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::.ctor(System.Func_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
+          "metadataToken": 100663668,
+          "canonicalSignature": "(System.Func_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
+          "normalizedSignature": "constructor|(System.Func_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        }
+      ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext",
@@ -3674,6 +4346,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3693,6 +4366,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3712,6 +4386,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IServiceProvider",
           "declaringAssemblyName": "System.ComponentModel",
           "isExtensionMethod": false,
@@ -3734,6 +4409,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3752,6 +4428,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3770,6 +4447,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3788,6 +4466,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3806,6 +4485,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3820,6 +4500,7 @@
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3830,6 +4511,7 @@
           "normalizedSignature": "constructor|(System.Object,System.Collections.Generic.IDictionary_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3840,6 +4522,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IServiceProvider,System.Collections.Generic.IDictionary_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3850,6 +4533,7 @@
           "normalizedSignature": "constructor|(System.Object,System.String,System.IServiceProvider,System.Collections.Generic.IDictionary_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationContext",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3892,6 +4576,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3912,6 +4597,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -3933,6 +4619,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3951,6 +4638,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3969,6 +4657,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -3983,6 +4672,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -3993,6 +4683,7 @@
           "normalizedSignature": "constructor|(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -4003,6 +4694,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -4013,6 +4705,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -4023,6 +4716,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663741,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationException",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -4059,6 +4764,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4080,6 +4786,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -4098,6 +4805,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -4111,6 +4819,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -4124,6 +4833,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         },
@@ -4134,6 +4844,18 @@
           "normalizedSignature": "constructor|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
+          "declaringAssemblyName": "System.ComponentModel.Annotations"
+        },
+        {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult::.ctor(System.ComponentModel.DataAnnotations.ValidationResult):void",
+          "metadataToken": 100663747,
+          "canonicalSignature": "(System.ComponentModel.DataAnnotations.ValidationResult):void",
+          "normalizedSignature": "constructor|(System.ComponentModel.DataAnnotations.ValidationResult):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.DataAnnotations.ValidationResult",
           "declaringAssemblyName": "System.ComponentModel.Annotations"
         }
@@ -4170,6 +4892,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4189,6 +4912,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4208,6 +4932,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4227,6 +4952,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4246,6 +4972,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4265,6 +4992,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4284,6 +5012,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false
@@ -4303,6 +5032,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.DataAnnotations.Validator",
           "declaringAssemblyName": "System.ComponentModel.Annotations",
           "isExtensionMethod": false

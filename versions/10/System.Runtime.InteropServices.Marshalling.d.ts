@@ -6,8 +6,9 @@
 import * as Internal from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 
 // Cross-namespace type imports for constraints
+import type { IEnumerable } from './System.Collections/internal/index.js';
 import type { IFloatingPointIeee754_1, INumber_1 } from './System.Numerics/internal/index.js';
-import type { ComWrappers, ComWrappers_ComInterfaceEntry, CreateComInterfaceFlags, CreateObjectFlags, IDynamicInterfaceCastable, SafeHandle, StringMarshalling, VarEnum } from './System.Runtime.InteropServices/internal/index.js';
+import type { ComWrappers, ComWrappers_ComInterfaceEntry, CreateComInterfaceFlags, CreatedWrapperFlags, CreateObjectFlags, IDynamicInterfaceCastable, SafeHandle, StringMarshalling, VarEnum } from './System.Runtime.InteropServices/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, RuntimeTypeHandle, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)

@@ -12,7 +12,7 @@ import type { Stream, TextWriter } from './System.IO/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IXPathNavigable, XPathNavigator, XPathResultType } from './System.Xml.XPath/internal/index.js';
-import type { IXmlNamespaceResolver, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlReader, XmlResolver, XmlWriter, XmlWriterSettings } from './System.Xml/internal/index.js';
+import type { IXmlNamespaceResolver, NameTable, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlReader, XmlResolver, XmlWriter, XmlWriterSettings } from './System.Xml/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, EventArgs, Exception, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, Type, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)

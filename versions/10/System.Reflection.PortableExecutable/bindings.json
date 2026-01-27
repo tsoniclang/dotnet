@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -136,6 +144,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -147,6 +156,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -158,6 +168,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -169,6 +180,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -180,6 +192,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -191,6 +204,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -202,6 +216,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -213,6 +228,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Characteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -241,16 +257,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -264,6 +280,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -275,6 +292,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -286,6 +304,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -297,6 +316,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -308,6 +328,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -319,6 +340,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -330,6 +352,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -341,6 +364,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorFlags",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -369,16 +393,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -392,6 +416,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -403,6 +428,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -414,6 +440,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -425,6 +452,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -436,6 +464,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -447,6 +476,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -458,6 +488,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -486,16 +517,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -509,6 +540,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -520,6 +552,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -531,6 +564,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -542,6 +576,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -553,6 +588,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -564,6 +600,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -575,6 +612,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -586,6 +624,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -597,6 +636,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -608,6 +648,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -619,6 +660,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -630,6 +672,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -641,6 +684,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -652,6 +696,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -663,6 +708,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -674,6 +720,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DllCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -702,16 +749,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -725,6 +772,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -736,6 +784,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -747,6 +796,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -758,6 +808,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -769,6 +820,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -780,6 +832,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -791,6 +844,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -802,6 +856,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -813,6 +868,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -824,6 +880,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -835,6 +892,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -846,6 +904,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -857,6 +916,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -868,6 +928,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -879,6 +940,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -890,6 +952,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -901,6 +964,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -912,6 +976,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -923,6 +988,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -934,6 +1000,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -945,6 +1012,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -956,6 +1024,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -967,6 +1036,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -978,6 +1048,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -989,6 +1060,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1000,6 +1072,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1011,6 +1084,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1022,6 +1096,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1033,6 +1108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1044,6 +1120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1055,6 +1132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Machine",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1083,16 +1161,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1106,6 +1184,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMagic",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1117,6 +1196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMagic",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1128,6 +1208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMagic",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1156,16 +1237,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1179,6 +1260,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1190,6 +1272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1201,6 +1284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1212,6 +1296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1223,6 +1308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1234,6 +1320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEStreamOptions",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1262,16 +1349,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1285,6 +1372,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1296,6 +1384,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1307,6 +1396,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1318,6 +1408,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1329,6 +1420,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1340,6 +1432,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1351,6 +1444,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1362,6 +1456,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1373,6 +1468,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1384,6 +1480,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1395,6 +1492,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1406,6 +1504,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1417,6 +1516,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1428,6 +1528,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1439,6 +1540,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1450,6 +1552,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1461,6 +1564,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1472,6 +1576,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1483,6 +1588,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1494,6 +1600,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1505,6 +1612,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1516,6 +1624,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1527,6 +1636,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1538,6 +1648,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1549,6 +1660,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1560,6 +1672,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1571,6 +1684,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1582,6 +1696,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1593,6 +1708,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1604,6 +1720,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1615,6 +1732,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1626,6 +1744,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1637,6 +1756,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1648,6 +1768,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1659,6 +1780,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1670,6 +1792,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1681,6 +1804,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1692,6 +1816,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1703,6 +1828,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1714,6 +1840,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1725,6 +1852,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1736,6 +1864,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1747,6 +1876,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1758,6 +1888,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1769,6 +1900,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1780,6 +1912,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1791,6 +1924,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionCharacteristics",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1819,16 +1953,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1842,6 +1976,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1853,6 +1988,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1864,6 +2000,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1875,6 +2012,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1886,6 +2024,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1897,6 +2036,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1908,6 +2048,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1919,6 +2060,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1930,6 +2072,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1941,6 +2084,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1952,6 +2096,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1963,6 +2108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1974,6 +2120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1985,6 +2132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1996,6 +2144,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.Subsystem",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2035,6 +2184,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CodeViewDebugDirectoryData",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2053,6 +2203,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CodeViewDebugDirectoryData",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2071,6 +2222,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CodeViewDebugDirectoryData",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2111,6 +2263,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2129,6 +2282,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2147,6 +2301,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2165,6 +2320,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2183,6 +2339,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2201,6 +2358,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2219,6 +2377,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2237,6 +2396,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2251,6 +2411,7 @@
           "normalizedSignature": "constructor|(System.UInt32,System.UInt16,System.UInt16,System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.Int32,System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 7,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2282,6 +2443,7 @@
           "isStatic": false,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2293,6 +2455,7 @@
           "isStatic": false,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2306,6 +2469,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DirectoryEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2343,6 +2507,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2361,6 +2526,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2400,6 +2566,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2419,6 +2586,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2438,6 +2606,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2457,6 +2626,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2478,6 +2648,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2496,6 +2667,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEMemoryBlock",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2536,6 +2708,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2554,6 +2727,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2572,6 +2746,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2590,6 +2765,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2608,6 +2784,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2626,6 +2803,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2644,6 +2822,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2662,6 +2841,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2680,6 +2860,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2698,6 +2879,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2738,6 +2920,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionLocation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2756,6 +2939,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionLocation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2770,6 +2954,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.SectionLocation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2807,6 +2992,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2825,6 +3011,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2843,6 +3030,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2861,6 +3049,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2879,6 +3068,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2897,6 +3087,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2915,6 +3106,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CoffHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2955,6 +3147,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2973,6 +3166,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2991,6 +3185,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3009,6 +3204,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3027,6 +3223,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3045,6 +3242,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3063,6 +3261,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3081,6 +3280,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3099,6 +3299,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3117,6 +3318,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3135,6 +3337,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.CorHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3174,6 +3377,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3193,6 +3397,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3212,6 +3417,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3231,6 +3437,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3250,6 +3457,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3269,6 +3477,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3288,6 +3497,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3304,6 +3514,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.DebugDirectoryBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3326,6 +3537,66 @@
       },
       "methods": [
         {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::CreateSections():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "clrName": "CreateSections",
+          "metadataToken": 100663571,
+          "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "normalizedSignature": "CreateSections|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::SerializeSection(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder",
+          "clrName": "SerializeSection",
+          "metadataToken": 100663572,
+          "canonicalSignature": "(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder",
+          "normalizedSignature": "SerializeSection|(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::GetDirectories():System.Reflection.PortableExecutable.PEDirectoriesBuilder",
+          "clrName": "GetDirectories",
+          "metadataToken": 100663577,
+          "canonicalSignature": "():System.Reflection.PortableExecutable.PEDirectoriesBuilder",
+          "normalizedSignature": "GetDirectories|():System.Reflection.PortableExecutable.PEDirectoriesBuilder|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::Sign(System.Reflection.Metadata.BlobBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Sign",
           "metadataToken": 100663578,
@@ -3340,6 +3611,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::CreateSections():System.Collections.Immutable.ImmutableArray_1",
+          "clrName": "CreateSections",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1",
+          "normalizedSignature": "CreateSections|():System.Collections.Immutable.ImmutableArray_1|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3355,6 +3647,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3366,6 +3659,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3379,6 +3673,7 @@
           "normalizedSignature": "constructor|(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Reflection.Metadata.Ecma335.MetadataRootBuilder,System.Reflection.Metadata.BlobBuilder,System.Reflection.Metadata.BlobBuilder,System.Reflection.Metadata.BlobBuilder,System.Reflection.PortableExecutable.ResourceSectionBuilder,System.Reflection.PortableExecutable.DebugDirectoryBuilder,System.Int32,System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.PortableExecutable.CorFlags,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
           "parameterCount": 11,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3401,6 +3696,86 @@
       },
       "methods": [
         {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::GetSections():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "clrName": "GetSections",
+          "metadataToken": 100663618,
+          "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "normalizedSignature": "GetSections|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::CreateSections():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "clrName": "CreateSections",
+          "metadataToken": 100663619,
+          "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "normalizedSignature": "CreateSections|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder\u002BSection,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::SerializeSection(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder",
+          "clrName": "SerializeSection",
+          "metadataToken": 100663620,
+          "canonicalSignature": "(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder",
+          "normalizedSignature": "SerializeSection|(System.String,System.Reflection.PortableExecutable.SectionLocation):System.Reflection.Metadata.BlobBuilder|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::GetDirectories():System.Reflection.PortableExecutable.PEDirectoriesBuilder",
+          "clrName": "GetDirectories",
+          "metadataToken": 100663621,
+          "canonicalSignature": "():System.Reflection.PortableExecutable.PEDirectoriesBuilder",
+          "normalizedSignature": "GetDirectories|():System.Reflection.PortableExecutable.PEDirectoriesBuilder|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::Serialize(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobContentId",
           "clrName": "Serialize",
           "metadataToken": 100663622,
@@ -3415,6 +3790,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3436,6 +3812,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3454,6 +3831,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3472,13 +3850,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::.ctor(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
+          "metadataToken": 100663617,
+          "canonicalSignature": "(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
+          "normalizedSignature": "constructor|(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata"
+        }
+      ]
     },
     {
       "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder",
@@ -3512,6 +3903,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3530,6 +3922,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3548,6 +3941,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3566,6 +3960,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3584,6 +3979,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3602,6 +3998,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3620,6 +4017,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3638,6 +4036,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3656,6 +4055,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3674,6 +4074,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3692,6 +4093,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3710,6 +4112,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3728,6 +4131,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3746,6 +4150,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3764,6 +4169,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3778,6 +4184,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3815,6 +4222,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3833,6 +4241,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3851,6 +4260,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3869,6 +4279,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3887,6 +4298,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3905,6 +4317,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3923,6 +4336,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3941,6 +4355,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3959,6 +4374,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3977,6 +4393,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3995,6 +4412,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4013,6 +4431,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4031,6 +4450,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4049,6 +4469,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4067,6 +4488,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4085,6 +4507,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4103,6 +4526,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4121,6 +4545,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4139,6 +4564,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4157,6 +4583,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4175,6 +4602,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4193,6 +4621,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4211,6 +4640,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4229,6 +4659,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4247,6 +4678,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4265,6 +4697,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4283,6 +4716,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4301,6 +4735,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4319,6 +4754,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4337,6 +4773,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4355,6 +4792,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4373,6 +4811,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4391,6 +4830,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4409,6 +4849,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4427,6 +4868,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4445,6 +4887,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4463,6 +4906,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4481,6 +4925,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4499,6 +4944,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4517,6 +4963,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4535,6 +4982,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4553,6 +5001,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4571,6 +5020,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4610,6 +5060,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4629,6 +5080,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4650,6 +5102,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4668,6 +5121,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4686,6 +5140,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4704,6 +5159,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4722,6 +5178,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4740,6 +5197,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4758,6 +5216,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4776,6 +5235,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4794,6 +5254,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4812,6 +5273,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4830,6 +5292,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4848,6 +5311,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4866,6 +5330,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4884,6 +5349,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4902,6 +5368,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4920,6 +5387,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4938,6 +5406,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4956,6 +5425,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4974,6 +5444,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4988,6 +5459,7 @@
           "normalizedSignature": "constructor|(System.Reflection.PortableExecutable.Machine,System.Int32,System.Int32,System.UInt64,System.Byte,System.Byte,System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.Reflection.PortableExecutable.Subsystem,System.Reflection.PortableExecutable.DllCharacteristics,System.Reflection.PortableExecutable.Characteristics,System.UInt64,System.UInt64,System.UInt64,System.UInt64):void|static=false",
           "isStatic": false,
           "parameterCount": 19,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaderBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5024,6 +5496,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -5049,6 +5522,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5070,6 +5544,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5088,6 +5563,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5106,6 +5582,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5124,6 +5601,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5142,6 +5620,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5160,6 +5639,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5178,6 +5658,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5196,6 +5677,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5214,6 +5696,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5232,6 +5715,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5250,6 +5734,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5268,6 +5753,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5286,6 +5772,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5300,6 +5787,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5310,6 +5798,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5320,6 +5809,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEHeaders",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5362,6 +5852,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5381,6 +5872,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5400,6 +5892,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5419,6 +5912,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5438,6 +5932,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5457,6 +5952,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5476,6 +5972,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5495,6 +5992,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5514,6 +6012,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -5543,6 +6042,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5562,6 +6062,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5584,6 +6085,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5602,6 +6104,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5620,6 +6123,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5638,6 +6142,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5652,6 +6157,7 @@
           "normalizedSignature": "constructor|(System.Byte*,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5662,6 +6168,7 @@
           "normalizedSignature": "constructor|(System.Byte*,System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5672,6 +6179,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5682,6 +6190,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Reflection.PortableExecutable.PEStreamOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5692,6 +6201,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Reflection.PortableExecutable.PEStreamOptions,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5702,6 +6212,7 @@
           "normalizedSignature": "constructor|(System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.PortableExecutable.PEReader",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5722,11 +6233,44 @@
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
-      "methods": [],
+      "methods": [
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ResourceSectionBuilder::Serialize(System.Reflection.Metadata.BlobBuilder,System.Reflection.PortableExecutable.SectionLocation):System.Void",
+          "clrName": "Serialize",
+          "metadataToken": 100663748,
+          "canonicalSignature": "(System.Reflection.Metadata.BlobBuilder,System.Reflection.PortableExecutable.SectionLocation):System.Void",
+          "normalizedSignature": "Serialize|(System.Reflection.Metadata.BlobBuilder,System.Reflection.PortableExecutable.SectionLocation):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Reflection.PortableExecutable.ResourceSectionBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata",
+          "isExtensionMethod": false
+        }
+      ],
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ResourceSectionBuilder::.ctor():void",
+          "metadataToken": 100663747,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Reflection.PortableExecutable.ResourceSectionBuilder",
+          "declaringAssemblyName": "System.Reflection.Metadata"
+        }
+      ]
     }
   ]
 }

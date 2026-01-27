@@ -22,9 +22,9 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { X509CertificateCollection } from "../../System.Security.Cryptography.X509Certificates/internal/index.js";
 import type { IPrincipal } from "../../System.Security.Principal/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
 
 export enum WebSocketCloseStatus {
     NormalClosure = 1000,
@@ -202,6 +202,7 @@ export interface WebSocket$instance {
 
 
 export const WebSocket: {
+    new(): WebSocket;
     readonly DefaultKeepAliveInterval: TimeSpan;
     CreateClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<System_Internal.Byte>;
     CreateClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<System_Internal.Byte>): WebSocket;
@@ -209,7 +210,9 @@ export const WebSocket: {
     CreateFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
     CreateServerBuffer(receiveBufferSize: int): ArraySegment_1<System_Internal.Byte>;
     IsApplicationTargeting45(): boolean;
+    IsStateTerminal(state: WebSocketState): boolean;
     RegisterPrefixes(): void;
+    ThrowOnInvalidState(state: WebSocketState, ...validStates: WebSocketState[]): void;
 };
 
 
@@ -239,6 +242,7 @@ export interface WebSocketContext$instance {
 
 
 export const WebSocketContext: {
+    new(): WebSocketContext;
 };
 
 
@@ -326,7 +330,12 @@ export const WebSocketReceiveResult: {
 
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
-export interface WebSocketStream$instance extends Stream {
+export abstract class WebSocketStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface WebSocketStream$instance extends WebSocketStream$protected, Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;

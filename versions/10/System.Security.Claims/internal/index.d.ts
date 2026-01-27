@@ -8,12 +8,19 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 // Import types from other namespaces
 import type { IDictionary_2, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { BinaryReader, BinaryWriter } from "../../System.IO/internal/index.js";
+import type { SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Security_Principal_Internal from "../../System.Security.Principal/internal/index.js";
 import type { IIdentity, IPrincipal } from "../../System.Security.Principal/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Byte, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from "../../System/internal/index.js";
 
-export interface Claim$instance {
+export abstract class Claim$protected {
+    protected readonly CustomSerializationData: byte[] | undefined;
+    protected WriteTo(writer: BinaryWriter, userData: byte[]): void;
+}
+
+
+export interface Claim$instance extends Claim$protected {
     readonly Issuer: string;
     readonly OriginalIssuer: string;
     readonly Properties: IDictionary_2<System_Internal.String, System_Internal.String>;
@@ -36,12 +43,22 @@ export const Claim: {
     new(type: string, value: string, valueType: string, issuer: string): Claim;
     new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
     new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
+    new(other: Claim): Claim;
+    new(other: Claim, subject: ClaimsIdentity): Claim;
 };
 
 
 export type Claim = Claim$instance;
 
-export interface ClaimsIdentity$instance {
+export abstract class ClaimsIdentity$protected {
+    protected readonly CustomSerializationData: byte[] | undefined;
+    protected CreateClaim(reader: BinaryReader): Claim;
+    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    protected WriteTo(writer: BinaryWriter, userData: byte[]): void;
+}
+
+
+export interface ClaimsIdentity$instance extends ClaimsIdentity$protected {
     get Actor(): ClaimsIdentity | undefined;
     set Actor(value: ClaimsIdentity);
     readonly AuthenticationType: string | string | undefined;
@@ -81,7 +98,11 @@ export const ClaimsIdentity: {
     new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
     new(reader: BinaryReader): ClaimsIdentity;
     new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity;
+    new(other: ClaimsIdentity): ClaimsIdentity;
+    new(other: ClaimsIdentity, stringComparison: StringComparison): ClaimsIdentity;
     new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
+    new(info: SerializationInfo, context: StreamingContext): ClaimsIdentity;
+    new(info: SerializationInfo): ClaimsIdentity;
     readonly DefaultIssuer: string;
     readonly DefaultNameClaimType: string;
     readonly DefaultRoleClaimType: string;
@@ -97,7 +118,15 @@ export interface ClaimsIdentity$instance extends System_Security_Principal_Inter
 export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
-export interface ClaimsPrincipal$instance {
+export abstract class ClaimsPrincipal$protected {
+    protected readonly CustomSerializationData: byte[] | undefined;
+    protected CreateClaimsIdentity(reader: BinaryReader): ClaimsIdentity;
+    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    protected WriteTo(writer: BinaryWriter, userData: byte[]): void;
+}
+
+
+export interface ClaimsPrincipal$instance extends ClaimsPrincipal$protected {
     readonly Claims: IEnumerable_1<Claim>;
     readonly Identities: IEnumerable_1<ClaimsIdentity>;
     readonly Identity: IIdentity | IIdentity | undefined;
@@ -116,6 +145,7 @@ export interface ClaimsPrincipal$instance {
 
 
 export const ClaimsPrincipal: {
+    new(info: SerializationInfo, context: StreamingContext): ClaimsPrincipal;
     new(): ClaimsPrincipal;
     new(identities: IEnumerable_1<ClaimsIdentity>): ClaimsPrincipal;
     new(identity: IIdentity): ClaimsPrincipal;

@@ -45,18 +45,20 @@ export interface Channel_1$instance<T> extends Channel_2<T, T> {
 
 
 export const Channel_1: {
+    new<T>(): Channel_1<T>;
 };
 
 
 export type Channel_1<T> = Channel_1$instance<T>;
 
 export interface Channel_2$instance<TWrite, TRead> {
-    readonly Reader: ChannelReader_1<TRead>;
-    readonly Writer: ChannelWriter_1<TWrite>;
+    Reader: ChannelReader_1<TRead>;
+    Writer: ChannelWriter_1<TWrite>;
 }
 
 
 export const Channel_2: {
+    new<TWrite, TRead>(): Channel_2<TWrite, TRead>;
 };
 
 
@@ -72,6 +74,7 @@ export const ChannelClosedException: {
     new(message: string): ChannelClosedException;
     new(innerException: Exception): ChannelClosedException;
     new(message: string, innerException: Exception): ChannelClosedException;
+    new(info: SerializationInfo, context: StreamingContext): ChannelClosedException;
 };
 
 
@@ -90,6 +93,7 @@ export interface ChannelOptions$instance {
 
 
 export const ChannelOptions: {
+    new(): ChannelOptions;
 };
 
 
@@ -109,6 +113,7 @@ export interface ChannelReader_1$instance<T> {
 
 
 export const ChannelReader_1: {
+    new<T>(): ChannelReader_1<T>;
 };
 
 
@@ -124,6 +129,7 @@ export interface ChannelWriter_1$instance<T> {
 
 
 export const ChannelWriter_1: {
+    new<T>(): ChannelWriter_1<T>;
 };
 
 

@@ -35,6 +35,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -54,6 +55,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -73,6 +75,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -92,6 +95,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -111,6 +115,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -130,6 +135,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -149,6 +155,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -168,6 +175,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -187,6 +195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -206,6 +215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -225,6 +235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -244,6 +255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -263,6 +275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -282,6 +295,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -307,6 +321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -332,6 +347,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -357,6 +373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -382,6 +399,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -407,6 +425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -432,6 +451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -457,6 +477,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -482,6 +503,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -507,6 +529,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -532,6 +555,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -557,6 +581,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -582,6 +607,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -607,6 +633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -626,6 +653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -645,6 +673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -664,6 +693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -683,6 +713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -702,6 +733,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -721,6 +753,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -740,6 +773,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -759,6 +793,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -778,6 +813,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -797,6 +833,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -816,6 +853,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -835,6 +873,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -854,6 +893,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -879,6 +919,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -904,6 +945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -929,6 +971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -954,6 +997,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -979,6 +1023,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1004,6 +1049,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1029,6 +1075,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1054,6 +1101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1079,6 +1127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1104,6 +1153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1129,6 +1179,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1154,6 +1205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1179,6 +1231,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1198,6 +1251,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1217,6 +1271,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1236,6 +1291,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1255,6 +1311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1274,6 +1331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1293,6 +1351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1312,6 +1371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1331,6 +1391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1350,6 +1411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1369,6 +1431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1388,6 +1451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1407,6 +1471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1426,6 +1491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1445,6 +1511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1464,6 +1531,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1483,6 +1551,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1502,6 +1571,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1521,6 +1591,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1540,6 +1611,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1559,6 +1631,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1578,6 +1651,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1597,6 +1671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1616,6 +1691,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1635,6 +1711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1654,6 +1731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1673,6 +1751,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1692,6 +1771,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1711,6 +1791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1730,6 +1811,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1749,6 +1831,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1768,6 +1851,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1787,6 +1871,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1806,6 +1891,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1825,6 +1911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1844,6 +1931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1863,6 +1951,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1882,6 +1971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1901,6 +1991,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1920,6 +2011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1939,6 +2031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1958,6 +2051,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1977,6 +2071,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1996,6 +2091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2015,6 +2111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2034,6 +2131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2053,6 +2151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2072,6 +2171,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2091,6 +2191,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2110,6 +2211,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2129,6 +2231,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2148,6 +2251,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2167,6 +2271,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2186,6 +2291,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2205,6 +2311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2224,6 +2331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2243,6 +2351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2262,6 +2371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2281,6 +2391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2300,6 +2411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2319,6 +2431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2338,6 +2451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2357,6 +2471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2376,6 +2491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2395,6 +2511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2414,6 +2531,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2433,6 +2551,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2452,6 +2571,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2471,6 +2591,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2490,6 +2611,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2509,6 +2631,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2528,6 +2651,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2547,6 +2671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2566,6 +2691,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

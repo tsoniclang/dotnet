@@ -36,6 +36,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -54,6 +55,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -72,6 +74,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -90,6 +93,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -130,6 +134,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -148,6 +153,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
           "declaringAssemblyName": "System.Text.Json"
         },
@@ -166,6 +172,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -180,6 +187,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
           "declaringAssemblyName": "System.Text.Json"
         }
@@ -216,6 +224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true
@@ -235,6 +244,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
           "declaringAssemblyName": "System.Text.Json",
           "isExtensionMethod": true

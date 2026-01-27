@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         }
@@ -153,16 +161,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -176,6 +184,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -209,6 +220,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -220,6 +232,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -231,6 +244,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -242,6 +256,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -253,6 +268,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -264,6 +280,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -275,6 +292,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -286,6 +304,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags",
           "declaringAssemblyName": "Microsoft.CSharp"
         }
@@ -324,6 +343,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -371,6 +391,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -391,6 +412,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -407,6 +429,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -417,6 +440,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -427,6 +451,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
+          "declaringAssemblyName": "Microsoft.CSharp"
+        },
+        {
+          "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663668,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
           "declaringAssemblyName": "Microsoft.CSharp"
         }
@@ -469,6 +505,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -489,6 +526,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -505,6 +543,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -515,6 +554,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
           "declaringAssemblyName": "Microsoft.CSharp"
         },
@@ -525,6 +565,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
+          "declaringAssemblyName": "Microsoft.CSharp"
+        },
+        {
+          "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663681,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
           "declaringAssemblyName": "Microsoft.CSharp"
         }
@@ -561,6 +613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -580,6 +633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -599,6 +653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -618,6 +673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -637,6 +693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -656,6 +713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -675,6 +733,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -694,6 +753,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -713,6 +773,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -732,6 +793,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false
@@ -751,6 +813,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "Microsoft.CSharp.RuntimeBinder.Binder",
           "declaringAssemblyName": "Microsoft.CSharp",
           "isExtensionMethod": false

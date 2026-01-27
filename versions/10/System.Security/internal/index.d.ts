@@ -78,7 +78,16 @@ export const AllowPartiallyTrustedCallersAttribute: {
 
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
-export interface PermissionSet$instance {
+export abstract class PermissionSet$protected {
+    protected AddPermissionImpl(perm: IPermission): IPermission | undefined;
+    protected GetEnumeratorImpl(): IEnumerator;
+    protected GetPermissionImpl(permClass: Type): IPermission | undefined;
+    protected RemovePermissionImpl(permClass: Type): IPermission | undefined;
+    protected SetPermissionImpl(perm: IPermission): IPermission | undefined;
+}
+
+
+export interface PermissionSet$instance extends PermissionSet$protected {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -233,6 +242,7 @@ export const SecurityException: {
     new(message: string, inner: Exception): SecurityException;
     new(message: string, type: Type): SecurityException;
     new(message: string, type: Type, state: string): SecurityException;
+    new(info: SerializationInfo, context: StreamingContext): SecurityException;
 };
 
 
@@ -320,6 +330,7 @@ export const VerificationException: {
     new(): VerificationException;
     new(message: string): VerificationException;
     new(message: string, innerException: Exception): VerificationException;
+    new(info: SerializationInfo, context: StreamingContext): VerificationException;
 };
 
 

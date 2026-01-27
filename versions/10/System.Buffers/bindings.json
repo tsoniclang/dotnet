@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.OperationStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.OperationStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.OperationStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -82,6 +85,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.OperationStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -93,6 +97,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.OperationStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -111,10 +116,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "T",
-        "TArg"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -128,6 +129,10 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "T",
+        "TArg"
       ],
       "methods": [
         {
@@ -145,6 +150,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -164,6 +170,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -183,6 +190,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -199,6 +207,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -215,10 +224,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "T",
-        "TArg"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -232,6 +237,10 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "T",
+        "TArg"
       ],
       "methods": [
         {
@@ -249,6 +258,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -268,6 +278,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -287,6 +298,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -303,6 +315,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SpanAction\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -338,6 +351,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -357,6 +371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -376,6 +391,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -397,14 +413,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -422,6 +438,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -443,6 +460,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IMemoryOwner\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -478,6 +496,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IPinnable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -497,6 +516,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IPinnable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -544,6 +564,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryHandle",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -563,6 +584,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -585,6 +607,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -599,6 +622,7 @@
           "normalizedSignature": "constructor|(System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -615,13 +639,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.Int64):ReadOnlySequence_1",
@@ -638,6 +662,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -657,6 +682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -676,6 +702,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -695,6 +722,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -714,6 +742,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -733,6 +762,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -752,6 +782,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -771,6 +802,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -790,6 +822,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -809,6 +842,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -828,6 +862,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -847,6 +882,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -866,6 +902,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -885,6 +922,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -904,6 +942,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -935,6 +974,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -953,6 +993,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -971,6 +1012,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -989,6 +1031,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1007,6 +1050,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1025,6 +1069,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1043,6 +1088,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1056,6 +1102,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1069,6 +1116,7 @@
           "normalizedSignature": "constructor|(ReadOnlySequenceSegment_1,System.Int32,ReadOnlySequenceSegment_1,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1079,6 +1127,7 @@
           "normalizedSignature": "constructor|(T[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1089,6 +1138,7 @@
           "normalizedSignature": "constructor|(T[],System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1099,6 +1149,7 @@
           "normalizedSignature": "constructor|(ReadOnlyMemory_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1115,13 +1166,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator::MoveNext():System.Boolean",
@@ -1138,6 +1189,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1159,6 +1211,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1173,6 +1226,7 @@
           "normalizedSignature": "constructor|(ReadOnlySequence_1\u0026):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
           "declaringAssemblyName": "System.Memory",
           "parameterModifiers": [
@@ -1195,13 +1249,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(T\u0026):System.Boolean",
@@ -1218,6 +1272,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1243,6 +1298,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1268,6 +1324,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1293,6 +1350,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1312,6 +1370,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1331,6 +1390,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1350,6 +1410,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1375,6 +1436,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1400,6 +1462,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1425,6 +1488,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1450,6 +1514,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1475,6 +1540,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1500,6 +1566,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1525,6 +1592,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1550,6 +1618,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1575,6 +1644,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1594,6 +1664,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1613,6 +1684,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1632,6 +1704,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1651,6 +1724,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1670,6 +1744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1689,6 +1764,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1708,6 +1784,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1727,6 +1804,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1746,6 +1824,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -1767,6 +1846,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1785,6 +1865,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1803,6 +1884,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1821,6 +1903,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1829,16 +1912,17 @@
           "clrName": "CurrentSpan",
           "metadataToken": 385875995,
           "canonicalSignature": ":ReadOnlySpan_1",
-          "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=get",
+          "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1847,16 +1931,17 @@
           "clrName": "CurrentSpanIndex",
           "metadataToken": 385875996,
           "canonicalSignature": ":System.Int32",
-          "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=get",
+          "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1875,6 +1960,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1883,16 +1969,17 @@
           "clrName": "Consumed",
           "metadataToken": 385875998,
           "canonicalSignature": ":System.Int64",
-          "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=get",
+          "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1911,6 +1998,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -1929,6 +2017,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1943,6 +2032,7 @@
           "normalizedSignature": "constructor|(ReadOnlySequence_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -1988,6 +2078,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2007,6 +2098,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2026,6 +2118,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2051,6 +2144,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2070,6 +2164,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2089,6 +2184,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2108,6 +2204,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2127,6 +2224,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2149,6 +2247,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2167,6 +2266,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2185,6 +2285,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2203,6 +2304,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2216,6 +2318,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2227,6 +2330,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2240,6 +2344,7 @@
           "normalizedSignature": "constructor|(System.Char,System.Byte):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.StandardFormat",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -2256,9 +2361,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -2271,6 +2373,9 @@
             "T"
           ]
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -2288,6 +2393,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2307,6 +2413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2326,6 +2433,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2345,6 +2453,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2364,6 +2473,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2383,6 +2493,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -2403,6 +2514,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -2423,6 +2535,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -2445,6 +2558,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2463,6 +2577,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2481,6 +2596,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2499,6 +2615,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2517,6 +2634,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -2531,6 +2649,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2541,6 +2660,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory"
         }
@@ -2557,13 +2677,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create():ArrayPool_1",
@@ -2580,6 +2700,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2599,6 +2720,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2618,6 +2740,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2637,6 +2760,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2658,13 +2782,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::.ctor():void",
+          "metadataToken": 100677742,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.ArrayPool\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601",
@@ -2677,9 +2814,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -2693,13 +2827,16 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Buffers.IPinnable",
-          "clrName": "System.Buffers.IPinnable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.IPinnable",
+          "clrName": "System.Buffers.IPinnable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -2717,6 +2854,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2736,6 +2874,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2755,6 +2894,93 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Buffers.MemoryManager\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::CreateMemory(System.Int32):Memory_1",
+          "clrName": "CreateMemory",
+          "metadataToken": 100677772,
+          "canonicalSignature": "(System.Int32):Memory_1",
+          "normalizedSignature": "CreateMemory|(System.Int32):Memory_1|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.MemoryManager\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::CreateMemory(System.Int32,System.Int32):Memory_1",
+          "clrName": "CreateMemory",
+          "metadataToken": 100677773,
+          "canonicalSignature": "(System.Int32,System.Int32):Memory_1",
+          "normalizedSignature": "CreateMemory|(System.Int32,System.Int32):Memory_1|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.MemoryManager\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::TryGetArray(ArraySegment_1\u0026):System.Boolean",
+          "clrName": "TryGetArray",
+          "metadataToken": 100677774,
+          "canonicalSignature": "(ArraySegment_1\u0026):System.Boolean",
+          "normalizedSignature": "TryGetArray|(ArraySegment_1\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Buffers.MemoryManager\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100677776,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2774,6 +3000,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2794,6 +3021,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IPinnable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2814,6 +3042,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IPinnable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2836,6 +3065,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -2854,6 +3084,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Buffers.IMemoryOwner\u00601",
           "declaringClrType": "System.Buffers.IMemoryOwner\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2861,7 +3092,19 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::.ctor():void",
+          "metadataToken": 100677777,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.MemoryManager\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Memory:System.Buffers.MemoryPool\u00601",
@@ -2874,9 +3117,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -2886,6 +3126,9 @@
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -2903,6 +3146,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2922,6 +3166,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Buffers.MemoryPool\u00601",
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663371,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false
@@ -2941,6 +3206,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2963,6 +3229,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -2981,13 +3248,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
           "declaringAssemblyName": "System.Memory"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::.ctor():void",
+          "metadataToken": 100663369,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.MemoryPool\u00601",
+          "declaringAssemblyName": "System.Memory"
+        }
+      ]
     },
     {
       "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601",
@@ -3000,13 +3280,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [
         {
@@ -3014,16 +3294,17 @@
           "clrName": "Memory",
           "metadataToken": 385875988,
           "canonicalSignature": ":ReadOnlyMemory_1",
-          "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=get",
+          "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -3032,16 +3313,17 @@
           "clrName": "Next",
           "metadataToken": 385875989,
           "canonicalSignature": ":ReadOnlySequenceSegment_1",
-          "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=get",
+          "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
           "declaringAssemblyName": "System.Memory"
         },
@@ -3050,23 +3332,36 @@
           "clrName": "RunningIndex",
           "metadataToken": 385875990,
           "canonicalSignature": ":System.Int64",
-          "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=get",
+          "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
           "declaringAssemblyName": "System.Memory"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::.ctor():void",
+          "metadataToken": 100663445,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
+          "declaringAssemblyName": "System.Memory"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.SearchValues\u00601",
@@ -3079,13 +3374,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues\u00601::Contains(T):System.Boolean",
@@ -3102,6 +3397,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SearchValues\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3143,6 +3439,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.BuffersExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3168,6 +3465,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.BuffersExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3193,6 +3491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.BuffersExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3218,6 +3517,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.BuffersExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true
@@ -3259,6 +3559,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SearchValues",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3278,6 +3579,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SearchValues",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3297,6 +3599,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SearchValues",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3338,6 +3641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3367,6 +3671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3396,6 +3701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3425,6 +3731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3454,6 +3761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,
@@ -3483,6 +3791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": true,

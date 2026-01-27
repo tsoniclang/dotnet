@@ -30,6 +30,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.ComponentCrossReference",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -41,6 +42,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.ComponentCrossReference",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -74,6 +76,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -85,6 +88,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -96,6 +100,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -107,6 +112,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -140,6 +146,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.StronglyConnectedComponent",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -151,6 +158,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.StronglyConnectedComponent",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -189,6 +197,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -208,6 +217,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -227,6 +237,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -246,6 +257,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

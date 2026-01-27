@@ -1013,6 +1013,7 @@ export const SqlTypeException: {
     new(): SqlTypeException;
     new(message: string): SqlTypeException;
     new(message: string, e: Exception): SqlTypeException;
+    new(si: SerializationInfo, sc: StreamingContext): SqlTypeException;
 };
 
 

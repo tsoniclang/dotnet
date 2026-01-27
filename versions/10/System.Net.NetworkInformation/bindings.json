@@ -27,16 +27,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -50,6 +50,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -61,6 +62,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -72,6 +74,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -83,6 +86,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -94,6 +98,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -105,6 +110,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.DuplicateAddressDetectionState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -133,16 +139,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -156,6 +162,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -167,6 +174,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -178,6 +186,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -189,6 +198,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -200,6 +210,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -211,6 +222,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -222,6 +234,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -233,6 +246,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -244,6 +258,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -255,6 +270,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -266,6 +282,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -277,6 +294,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -288,6 +306,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -299,6 +318,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -310,6 +330,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -321,6 +342,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -332,6 +354,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -343,6 +366,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -354,6 +378,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -365,6 +390,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -376,6 +402,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -387,6 +414,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -398,6 +426,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -409,6 +438,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -420,6 +450,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPStatus",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -448,16 +479,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -471,6 +502,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -482,6 +514,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -493,6 +526,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -504,6 +538,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -515,6 +550,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -526,6 +562,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetBiosNodeType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -554,16 +591,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -577,6 +614,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceComponent",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -588,6 +626,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceComponent",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -599,6 +638,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceComponent",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -627,16 +667,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -650,6 +690,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -661,6 +702,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -672,6 +714,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -683,6 +726,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -694,6 +738,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -705,6 +750,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -716,6 +762,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -727,6 +774,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -738,6 +786,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -749,6 +798,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -760,6 +810,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -771,6 +822,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -782,6 +834,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -793,6 +846,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -804,6 +858,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -815,6 +870,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -826,6 +882,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -837,6 +894,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -848,6 +906,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -859,6 +918,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -870,6 +930,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -881,6 +942,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -892,6 +954,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -903,6 +966,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -914,6 +978,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -925,6 +990,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -936,6 +1002,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -947,6 +1014,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -958,6 +1026,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterfaceType",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -986,16 +1055,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1009,6 +1078,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1020,6 +1090,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1031,6 +1102,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1042,6 +1114,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1053,6 +1126,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1064,6 +1138,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1075,6 +1150,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1086,6 +1162,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.OperationalStatus",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1114,16 +1191,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1137,6 +1214,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1148,6 +1226,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1159,6 +1238,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1170,6 +1250,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1181,6 +1262,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1192,6 +1274,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PrefixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1220,16 +1303,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1243,6 +1326,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1254,6 +1338,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1265,6 +1350,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1276,6 +1362,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1287,6 +1374,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1298,6 +1386,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1309,6 +1398,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1320,6 +1410,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1331,6 +1422,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.ScopeLevel",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1359,16 +1451,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1382,6 +1474,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1393,6 +1486,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1404,6 +1498,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1415,6 +1510,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1426,6 +1522,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1437,6 +1534,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1448,6 +1546,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.SuffixOrigin",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1476,16 +1575,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -1499,6 +1598,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1510,6 +1610,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1521,6 +1622,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1532,6 +1634,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1543,6 +1646,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1554,6 +1658,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1565,6 +1670,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1576,6 +1682,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1587,6 +1694,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1598,6 +1706,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1609,6 +1718,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1620,6 +1730,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1631,6 +1742,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -1642,6 +1754,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpState",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1690,6 +1803,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1709,6 +1823,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1728,6 +1843,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1744,6 +1860,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAddressChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1790,6 +1907,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1809,6 +1927,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1828,6 +1947,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -1844,6 +1964,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -1890,6 +2011,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -1909,6 +2031,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -1928,6 +2051,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -1944,6 +2068,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -1981,13 +2106,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformation::.ctor():void",
+          "metadataToken": 100663357,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformation",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
@@ -2040,6 +2178,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2059,6 +2198,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2078,6 +2218,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2097,6 +2238,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2116,6 +2258,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2135,6 +2278,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -2154,6 +2298,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2174,6 +2319,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2194,6 +2340,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2214,6 +2361,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2234,6 +2382,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2254,6 +2403,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2276,6 +2426,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2294,6 +2445,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2312,6 +2464,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2330,6 +2483,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2349,6 +2503,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2356,7 +2511,19 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::.ctor():void",
+          "metadataToken": 100663358,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV4Statistics",
@@ -2390,6 +2557,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2408,6 +2576,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2426,6 +2595,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2444,6 +2614,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2462,6 +2633,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2480,6 +2652,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2498,6 +2671,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2516,6 +2690,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2534,6 +2709,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2552,6 +2728,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2570,6 +2747,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2588,6 +2766,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2606,6 +2785,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2624,6 +2804,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2642,6 +2823,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2660,6 +2842,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2678,6 +2861,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2696,6 +2880,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2714,6 +2899,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2732,6 +2918,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2750,6 +2937,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2768,6 +2956,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2786,6 +2975,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2804,6 +2994,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2822,6 +3013,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2840,13 +3032,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV4Statistics::.ctor():void",
+          "metadataToken": 100663396,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IcmpV4Statistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV6Statistics",
@@ -2880,6 +3085,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2898,6 +3104,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2916,6 +3123,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2934,6 +3142,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2952,6 +3161,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2970,6 +3180,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -2988,6 +3199,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3006,6 +3218,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3024,6 +3237,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3042,6 +3256,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3060,6 +3275,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3078,6 +3294,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3096,6 +3313,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3114,6 +3332,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3132,6 +3351,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3150,6 +3370,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3168,6 +3389,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3186,6 +3408,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3204,6 +3427,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3222,6 +3446,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3240,6 +3465,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3258,6 +3484,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3276,6 +3503,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3294,6 +3522,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3312,6 +3541,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3330,6 +3560,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3348,6 +3579,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3366,6 +3598,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3384,6 +3617,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3402,6 +3636,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3420,6 +3655,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3438,13 +3674,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV6Statistics::.ctor():void",
+          "metadataToken": 100663429,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IcmpV6Statistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection",
@@ -3497,6 +3746,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3516,6 +3766,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3535,6 +3786,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3554,6 +3806,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3573,6 +3826,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3592,6 +3846,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -3611,6 +3866,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3631,6 +3887,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3651,6 +3908,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3671,6 +3929,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3691,6 +3950,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3711,6 +3971,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3733,6 +3994,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -3751,6 +4013,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -3769,6 +4032,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -3787,6 +4051,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3806,6 +4071,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3813,7 +4079,19 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::.ctor():void",
+          "metadataToken": 100663770,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Net.NetworkInformation.IPAddressCollection",
+          "declaringAssemblyName": "System.Net.Primitives"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformation",
@@ -3847,6 +4125,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3865,6 +4144,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -3883,13 +4163,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformation::.ctor():void",
+          "metadataToken": 100663433,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPAddressInformation",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection",
@@ -3942,6 +4235,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -3961,6 +4255,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -3980,6 +4275,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -3999,6 +4295,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4018,6 +4315,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4037,6 +4335,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4056,6 +4355,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4076,6 +4376,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4096,6 +4397,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4116,6 +4418,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4136,6 +4439,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4156,6 +4460,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4178,6 +4483,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4196,6 +4502,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4214,6 +4521,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4232,6 +4540,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4251,6 +4560,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4291,6 +4601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4310,6 +4621,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4329,6 +4641,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4348,6 +4661,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4367,6 +4681,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4386,6 +4701,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4405,6 +4721,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4424,6 +4741,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4443,6 +4761,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4462,6 +4781,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4481,6 +4801,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4500,6 +4821,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4519,6 +4841,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4538,6 +4861,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4557,6 +4881,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4576,6 +4901,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -4597,6 +4923,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4615,6 +4942,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4633,6 +4961,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4651,6 +4980,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4669,13 +4999,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::.ctor():void",
+          "metadataToken": 100663465,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPGlobalProperties",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalStatistics",
@@ -4709,6 +5052,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4727,6 +5071,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4745,6 +5090,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4763,6 +5109,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4781,6 +5128,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4799,6 +5147,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4817,6 +5166,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4835,6 +5185,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4853,6 +5204,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4871,6 +5223,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4889,6 +5242,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4907,6 +5261,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4925,6 +5280,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4943,6 +5299,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4961,6 +5318,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4979,6 +5337,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -4997,6 +5356,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5015,6 +5375,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5033,6 +5394,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5051,6 +5413,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5069,6 +5432,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5087,13 +5451,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalStatistics::.ctor():void",
+          "metadataToken": 100663488,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPGlobalStatistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceProperties",
@@ -5126,6 +5503,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -5145,6 +5523,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -5166,6 +5545,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5184,6 +5564,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5202,6 +5583,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5220,6 +5602,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5238,6 +5621,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5256,6 +5640,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5274,6 +5659,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5292,6 +5678,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5310,6 +5697,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5328,13 +5716,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceProperties::.ctor():void",
+          "metadataToken": 100663501,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPInterfaceProperties",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceStatistics",
@@ -5368,6 +5769,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5386,6 +5788,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5404,6 +5807,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5422,6 +5826,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5440,6 +5845,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5458,6 +5864,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5476,6 +5883,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5494,6 +5902,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5512,6 +5921,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5530,6 +5940,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5548,6 +5959,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5566,13 +5978,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceStatistics::.ctor():void",
+          "metadataToken": 100663514,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPInterfaceStatistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceProperties",
@@ -5606,6 +6031,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5624,6 +6050,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5642,6 +6069,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5660,6 +6088,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5678,6 +6107,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5696,6 +6126,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5714,13 +6145,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceProperties::.ctor():void",
+          "metadataToken": 100663522,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceProperties",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceStatistics",
@@ -5754,6 +6198,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5772,6 +6217,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5790,6 +6236,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5808,6 +6255,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5826,6 +6274,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5844,6 +6293,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5862,6 +6312,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5880,6 +6331,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5898,6 +6350,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5916,6 +6369,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5934,6 +6388,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -5952,13 +6407,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceStatistics::.ctor():void",
+          "metadataToken": 100663523,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv6InterfaceProperties",
@@ -5991,6 +6459,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv6InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6012,6 +6481,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv6InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6030,13 +6500,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.IPv6InterfaceProperties",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv6InterfaceProperties::.ctor():void",
+          "metadataToken": 100663539,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.IPv6InterfaceProperties",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformation",
@@ -6070,6 +6553,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6088,6 +6572,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6106,6 +6591,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6124,6 +6610,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6142,6 +6629,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6160,13 +6648,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformation::.ctor():void",
+          "metadataToken": 100663546,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformation",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
@@ -6219,6 +6720,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6238,6 +6740,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6257,6 +6760,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6276,6 +6780,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6295,6 +6800,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6314,6 +6820,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6333,6 +6840,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6353,6 +6861,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6373,6 +6882,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6393,6 +6903,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6413,6 +6924,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6433,6 +6945,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6455,6 +6968,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6473,6 +6987,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6491,6 +7006,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6509,6 +7025,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6528,6 +7045,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6535,7 +7053,19 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::.ctor():void",
+          "metadataToken": 100663547,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityEventArgs",
@@ -6569,6 +7099,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkAvailabilityEventArgs",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -6608,6 +7139,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkChange",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6622,6 +7154,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "NetworkAddressChanged|System.Net.NetworkInformation.NetworkAddressChangedEventHandler|static=true",
           "isStatic": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkChange",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6631,6 +7164,7 @@
           "metadataToken": 335544322,
           "normalizedSignature": "NetworkAvailabilityChanged|System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler|static=true",
           "isStatic": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkChange",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -6643,6 +7177,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkChange",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -6685,6 +7220,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6705,6 +7241,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6726,6 +7263,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -6740,6 +7278,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6750,6 +7289,18 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        },
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInformationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663680,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -6786,6 +7337,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6805,6 +7357,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6824,6 +7377,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6843,6 +7397,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6862,6 +7417,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6881,6 +7437,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6900,6 +7457,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -6921,6 +7479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6939,6 +7498,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6957,6 +7517,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6975,6 +7536,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -6993,6 +7555,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -7011,6 +7574,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -7029,6 +7593,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -7047,6 +7612,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -7065,6 +7631,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -7083,13 +7650,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::.ctor():void",
+          "metadataToken": 100663608,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.NetworkInterface",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress",
@@ -7122,6 +7702,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7141,6 +7722,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7160,6 +7742,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7179,6 +7762,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7198,6 +7782,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7217,6 +7802,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -7236,6 +7822,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false,
@@ -7261,6 +7848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false,
@@ -7282,6 +7870,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -7295,6 +7884,7 @@
           "normalizedSignature": "constructor|(System.Byte[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PhysicalAddress",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
@@ -7327,6 +7917,46 @@
       ],
       "methods": [
         {
+          "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663344,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.Ping",
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::OnPingCompleted(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void",
+          "clrName": "OnPingCompleted",
+          "metadataToken": 100663347,
+          "canonicalSignature": "(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void",
+          "normalizedSignature": "OnPingCompleted|(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.Ping",
+          "declaringAssemblyName": "System.Net.Ping",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
           "metadataToken": 100663348,
@@ -7341,6 +7971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7360,6 +7991,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7379,6 +8011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7398,6 +8031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7417,6 +8051,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7436,6 +8071,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7455,6 +8091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7474,6 +8111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7493,6 +8131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7512,6 +8151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7531,6 +8171,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7550,6 +8191,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7569,6 +8211,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7588,6 +8231,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7607,6 +8251,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7626,6 +8271,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7645,6 +8291,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7664,6 +8311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7683,6 +8331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7702,6 +8351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7721,6 +8371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7740,6 +8391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7759,6 +8411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7778,6 +8431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7797,6 +8451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7816,6 +8471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7835,6 +8491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7854,6 +8511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7873,6 +8531,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7892,6 +8551,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -7912,6 +8572,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -7933,6 +8594,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.ComponentModel.IComponent",
           "declaringClrType": "System.ComponentModel.IComponent",
           "declaringAssemblyName": "System.ComponentModel.Primitives"
@@ -7946,6 +8608,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "PingCompleted|System.Net.NetworkInformation.PingCompletedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -7958,6 +8621,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -7995,6 +8659,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingCompletedEventArgs",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -8040,6 +8705,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8060,6 +8726,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingException",
           "declaringAssemblyName": "System.Net.Ping",
           "isExtensionMethod": false
@@ -8076,6 +8743,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingException",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8086,6 +8754,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.NetworkInformation.PingException",
+          "declaringAssemblyName": "System.Net.Ping"
+        },
+        {
+          "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663431,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.NetworkInformation.PingException",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -8123,6 +8803,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingOptions",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8141,6 +8822,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingOptions",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -8155,6 +8837,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingOptions",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8165,6 +8848,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingOptions",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -8202,6 +8886,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingReply",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8220,6 +8905,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingReply",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8238,6 +8924,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingReply",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8256,6 +8943,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingReply",
           "declaringAssemblyName": "System.Net.Ping"
         },
@@ -8274,6 +8962,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.PingReply",
           "declaringAssemblyName": "System.Net.Ping"
         }
@@ -8314,6 +9003,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpConnectionInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8332,6 +9022,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpConnectionInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8350,13 +9041,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpConnectionInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpConnectionInformation::.ctor():void",
+          "metadataToken": 100663623,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.TcpConnectionInformation",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpStatistics",
@@ -8390,6 +9094,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8408,6 +9113,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8426,6 +9132,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8444,6 +9151,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8462,6 +9170,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8480,6 +9189,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8498,6 +9208,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8516,6 +9227,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8534,6 +9246,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8552,6 +9265,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8570,6 +9284,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8588,6 +9303,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8606,6 +9322,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8624,13 +9341,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpStatistics::.ctor():void",
+          "metadataToken": 100663638,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.TcpStatistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UdpStatistics",
@@ -8664,6 +9394,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8682,6 +9413,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8700,6 +9432,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8718,6 +9451,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8736,13 +9470,26 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UdpStatistics::.ctor():void",
+          "metadataToken": 100663644,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.UdpStatistics",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformation",
@@ -8776,6 +9523,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8794,6 +9542,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8812,6 +9561,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8830,6 +9580,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8848,6 +9599,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8866,6 +9618,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8884,6 +9637,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -8902,13 +9656,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformation::.ctor():void",
+          "metadataToken": 100663654,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformation",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     },
     {
       "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
@@ -8961,6 +9728,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -8980,6 +9748,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -8999,6 +9768,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -9018,6 +9788,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -9037,6 +9808,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -9056,6 +9828,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation",
           "isExtensionMethod": false
@@ -9075,6 +9848,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9095,6 +9869,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9115,6 +9890,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9135,6 +9911,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9155,6 +9932,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9175,6 +9953,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -9197,6 +9976,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -9215,6 +9995,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -9233,6 +10014,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
           "declaringAssemblyName": "System.Net.NetworkInformation"
         },
@@ -9251,6 +10033,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -9270,6 +10053,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -9277,7 +10061,19 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::.ctor():void",
+          "metadataToken": 100663655,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
+          "declaringAssemblyName": "System.Net.NetworkInformation"
+        }
+      ]
     }
   ]
 }

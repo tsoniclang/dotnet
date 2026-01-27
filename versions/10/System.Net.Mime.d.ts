@@ -7,7 +7,7 @@ import * as Internal from './System.Net.Mime/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { StringDictionary } from './System.Collections.Specialized/internal/index.js';
-import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { TransferEncoding as TransferEncoding } from './System.Net.Mime/internal/index.js';

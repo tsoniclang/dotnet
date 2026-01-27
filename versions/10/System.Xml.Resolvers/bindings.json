@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -130,6 +135,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -149,6 +155,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -168,6 +175,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -187,6 +195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -206,6 +215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -225,6 +235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -244,6 +255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -263,6 +275,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -282,6 +295,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -301,6 +315,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
@@ -322,6 +337,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -340,6 +356,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         }
@@ -354,6 +371,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -364,6 +382,7 @@
           "normalizedSignature": "constructor|(System.Xml.Resolvers.XmlKnownDtds):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -374,6 +393,7 @@
           "normalizedSignature": "constructor|(System.Xml.XmlResolver):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -384,6 +404,7 @@
           "normalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         },
@@ -394,6 +415,7 @@
           "normalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds,System.Collections.Generic.IEqualityComparer_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml"
         }
