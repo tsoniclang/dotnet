@@ -320,6 +320,7 @@ export interface Decoder$instance {
 
 
 export const Decoder: {
+    new(): Decoder;
 };
 
 
@@ -362,6 +363,7 @@ export interface DecoderFallback$instance {
 
 
 export const DecoderFallback: {
+    new(): DecoderFallback;
     readonly ReplacementFallback: DecoderFallback;
     readonly ExceptionFallback: DecoderFallback;
 };
@@ -379,6 +381,7 @@ export interface DecoderFallbackBuffer$instance {
 
 
 export const DecoderFallbackBuffer: {
+    new(): DecoderFallbackBuffer;
 };
 
 
@@ -457,6 +460,7 @@ export interface Encoder$instance {
 
 
 export const Encoder: {
+    new(): Encoder;
 };
 
 
@@ -500,6 +504,7 @@ export interface EncoderFallback$instance {
 
 
 export const EncoderFallback: {
+    new(): EncoderFallback;
     readonly ReplacementFallback: EncoderFallback;
     readonly ExceptionFallback: EncoderFallback;
 };
@@ -518,6 +523,7 @@ export interface EncoderFallbackBuffer$instance {
 
 
 export const EncoderFallbackBuffer: {
+    new(): EncoderFallbackBuffer;
 };
 
 
@@ -592,7 +598,7 @@ export interface Encoding$instance {
     readonly IsBrowserSave: boolean;
     readonly IsMailNewsDisplay: boolean;
     readonly IsMailNewsSave: boolean;
-    readonly IsReadOnly: boolean;
+    IsReadOnly: boolean;
     readonly IsSingleByte: boolean;
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
     readonly WebName: string;
@@ -640,6 +646,9 @@ export interface Encoding$instance {
 
 
 export const Encoding: {
+    new(): Encoding;
+    new(codePage: int): Encoding;
+    new(codePage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
     readonly Default: Encoding;
     readonly ASCII: Encoding;
     readonly Latin1: Encoding;

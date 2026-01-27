@@ -8,8 +8,9 @@ import * as Internal from './System.Security.Claims/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { IDictionary_2, IEnumerable_1 } from './System.Collections.Generic/internal/index.js';
 import type { BinaryReader, BinaryWriter } from './System.IO/internal/index.js';
+import type { SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IIdentity, IPrincipal } from './System.Security.Principal/internal/index.js';
-import type { Boolean as ClrBoolean, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { Claim as Claim } from './System.Security.Claims/internal/index.js';

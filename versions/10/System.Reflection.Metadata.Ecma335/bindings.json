@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -142,16 +149,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -165,6 +172,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FunctionPointerAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FunctionPointerAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FunctionPointerAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FunctionPointerAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -226,16 +237,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -249,6 +260,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.HeapIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.HeapIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.HeapIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.HeapIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.HeapIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -321,16 +337,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -344,6 +360,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -355,6 +372,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -366,6 +384,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyAttributes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -394,16 +413,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -417,6 +436,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -428,6 +448,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -439,6 +460,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -450,6 +472,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -461,6 +484,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -472,6 +496,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -483,6 +508,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -494,6 +520,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -505,6 +532,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -516,6 +544,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -527,6 +556,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -538,6 +568,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -549,6 +580,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -560,6 +592,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -571,6 +604,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -582,6 +616,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -593,6 +628,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -604,6 +640,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -615,6 +652,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -626,6 +664,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -637,6 +676,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -648,6 +688,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -659,6 +700,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -670,6 +712,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -681,6 +724,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -692,6 +736,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -703,6 +748,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -714,6 +760,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -725,6 +772,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -736,6 +784,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -747,6 +796,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -758,6 +808,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -769,6 +820,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -780,6 +832,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -791,6 +844,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -802,6 +856,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -813,6 +868,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -824,6 +880,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -835,6 +892,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -846,6 +904,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -857,6 +916,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -868,6 +928,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -879,6 +940,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -890,6 +952,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -901,6 +964,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -912,6 +976,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -923,6 +988,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -934,6 +1000,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -945,6 +1012,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -956,6 +1024,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -967,6 +1036,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -978,6 +1048,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -989,6 +1060,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -1000,6 +1072,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.TableIndex",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1038,6 +1111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ArrayShapeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1059,6 +1133,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ArrayShapeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1073,6 +1148,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ArrayShapeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1109,6 +1185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1128,6 +1205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1147,6 +1225,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1166,6 +1245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1185,6 +1265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1204,6 +1285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -1233,6 +1315,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1252,6 +1335,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1271,6 +1355,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1290,6 +1375,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1309,6 +1395,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1330,6 +1417,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1344,6 +1432,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.BlobEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1380,6 +1469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1399,6 +1489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1420,6 +1511,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1434,6 +1526,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1470,6 +1563,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1489,6 +1583,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1508,6 +1603,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1527,6 +1623,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1546,6 +1643,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1565,6 +1663,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1584,6 +1683,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1603,6 +1703,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1622,6 +1723,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1641,6 +1743,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1660,6 +1763,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1679,6 +1783,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1698,6 +1803,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1717,6 +1823,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1736,6 +1843,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1755,6 +1863,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1776,6 +1885,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1790,6 +1900,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1826,6 +1937,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1847,6 +1959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1861,6 +1974,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1897,6 +2011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomModifiersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1918,6 +2033,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomModifiersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1932,6 +2048,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CustomModifiersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -1977,6 +2094,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -1996,6 +2114,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2015,6 +2134,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2034,6 +2154,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2056,6 +2177,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2074,6 +2196,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2088,6 +2211,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.Ecma335.EditAndContinueOperation):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2124,6 +2248,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2143,6 +2268,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2162,6 +2288,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2181,6 +2308,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2200,6 +2328,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2219,6 +2348,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2238,6 +2368,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2259,6 +2390,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -2277,6 +2409,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2316,6 +2449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FieldTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2335,6 +2469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FieldTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2354,6 +2489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FieldTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2375,6 +2511,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FieldTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2389,6 +2526,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FieldTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2425,6 +2563,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2446,6 +2585,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2460,6 +2600,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2496,6 +2637,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2517,6 +2659,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2531,6 +2674,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -2567,6 +2711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2586,6 +2731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2605,6 +2751,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2624,6 +2771,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2643,6 +2791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2662,6 +2811,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2681,6 +2831,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2700,6 +2851,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2719,6 +2871,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2738,6 +2891,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2757,6 +2911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2776,6 +2931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2795,6 +2951,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2814,6 +2971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2833,6 +2991,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2852,6 +3011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2871,6 +3031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2890,6 +3051,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2909,6 +3071,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2928,6 +3091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2947,6 +3111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2966,6 +3131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -2985,6 +3151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3006,6 +3173,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3024,6 +3192,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3042,6 +3211,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3056,6 +3226,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder,System.Reflection.Metadata.Ecma335.ControlFlowBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.InstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3101,6 +3272,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LabelHandle",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3120,6 +3292,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LabelHandle",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3139,6 +3312,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LabelHandle",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3158,6 +3332,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3180,6 +3355,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LabelHandle",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3198,6 +3374,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LabelHandle",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3237,6 +3414,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3256,6 +3434,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -3285,6 +3464,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3304,6 +3484,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3323,6 +3504,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -3352,6 +3534,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3373,6 +3556,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3387,6 +3571,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3423,6 +3608,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3444,6 +3630,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3458,6 +3645,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LiteralsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3494,6 +3682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariablesEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3515,6 +3704,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariablesEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3529,6 +3719,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariablesEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3565,6 +3756,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3584,6 +3776,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3603,6 +3796,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3624,6 +3818,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3638,6 +3833,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3674,6 +3870,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3693,6 +3890,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3712,6 +3910,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3731,6 +3930,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3752,6 +3952,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3766,6 +3967,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3803,6 +4005,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3821,6 +4024,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3839,6 +4043,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3878,6 +4083,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -3907,6 +4113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -3928,6 +4135,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -3946,6 +4154,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3960,6 +4169,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MethodSignatureEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -3996,6 +4206,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4029,6 +4240,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4050,6 +4262,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4064,6 +4277,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4100,6 +4314,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4119,6 +4334,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4138,6 +4354,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4159,6 +4376,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4173,6 +4391,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4209,6 +4428,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NameEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4230,6 +4450,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NameEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4244,6 +4465,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.NameEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4280,6 +4502,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParametersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4299,6 +4522,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParametersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4320,6 +4544,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParametersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -4338,6 +4563,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParametersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4352,6 +4578,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParametersEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4388,6 +4615,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParameterTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4407,6 +4635,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParameterTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4426,6 +4655,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParameterTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4447,6 +4677,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParameterTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4461,6 +4692,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ParameterTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4497,6 +4729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4516,6 +4749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4537,6 +4771,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4551,6 +4786,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4587,6 +4823,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4606,6 +4843,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4625,6 +4863,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4644,6 +4883,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4665,6 +4905,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4679,6 +4920,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ReturnTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4715,6 +4957,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ScalarEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4734,6 +4977,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ScalarEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4753,6 +4997,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ScalarEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -4774,6 +5019,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ScalarEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4788,6 +5034,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ScalarEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4804,14 +5051,14 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TType",
-        "TGenericContext"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "TType",
+        "TGenericContext"
+      ],
       "methods": [
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602::DecodeType(System.Reflection.Metadata.BlobReader\u0026,System.Boolean):TType",
@@ -4828,6 +5075,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4853,6 +5101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4878,6 +5127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4903,6 +5153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4928,6 +5179,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -4950,6 +5202,7 @@
           "normalizedSignature": "constructor|(ISignatureTypeProvider_2,System.Reflection.Metadata.MetadataReader,TGenericContext):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureDecoder\u00602",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -4986,6 +5239,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5005,6 +5259,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5024,6 +5279,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5043,6 +5299,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5062,6 +5319,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5081,6 +5339,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5100,6 +5359,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5119,6 +5379,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5138,6 +5399,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5157,6 +5419,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5176,6 +5439,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5195,6 +5459,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5214,6 +5479,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5233,6 +5499,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5252,6 +5519,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5271,6 +5539,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5290,6 +5559,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5309,6 +5579,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5328,6 +5599,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -5357,6 +5629,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5376,6 +5649,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5395,6 +5669,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5414,6 +5689,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5433,6 +5709,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5452,6 +5729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5471,6 +5749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5490,6 +5769,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5509,6 +5789,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5528,6 +5809,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5549,6 +5831,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5563,6 +5846,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5599,6 +5883,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.SwitchInstructionEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5640,6 +5925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.VectorEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5661,6 +5947,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.VectorEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5675,6 +5962,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.BlobBuilder):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.VectorEncoder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5711,6 +5999,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5730,6 +6019,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5749,6 +6039,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5768,6 +6059,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5787,6 +6079,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5803,6 +6096,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ControlFlowBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5839,6 +6133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataAggregator",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -5861,6 +6156,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.MetadataReader,System.Collections.Generic.IReadOnlyList_1[[System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataAggregator",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -5871,6 +6167,7 @@
           "normalizedSignature": "constructor|(System.Collections.Generic.IReadOnlyList_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IReadOnlyList_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IReadOnlyList_1[[System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataAggregator",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -5907,6 +6204,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5926,6 +6224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5945,6 +6244,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5964,6 +6264,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -5983,6 +6284,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6002,6 +6304,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6021,6 +6324,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6040,6 +6344,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6059,6 +6364,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6078,6 +6384,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6097,6 +6404,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6116,6 +6424,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6135,6 +6444,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6154,6 +6464,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6173,6 +6484,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6192,6 +6504,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6211,6 +6524,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6230,6 +6544,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6249,6 +6564,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6268,6 +6584,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6287,6 +6604,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6306,6 +6624,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6325,6 +6644,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6344,6 +6664,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6363,6 +6684,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6382,6 +6704,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6401,6 +6724,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6420,6 +6744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6439,6 +6764,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6458,6 +6784,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6477,6 +6804,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6496,6 +6824,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6515,6 +6844,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6534,6 +6864,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6553,6 +6884,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6572,6 +6904,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6591,6 +6924,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6610,6 +6944,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6629,6 +6964,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6648,6 +6984,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6667,6 +7004,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6686,6 +7024,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6705,6 +7044,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6724,6 +7064,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6743,6 +7084,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6762,6 +7104,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6781,6 +7124,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6800,6 +7144,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6819,6 +7164,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6838,6 +7184,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6857,6 +7204,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6876,6 +7224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6895,6 +7244,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6914,6 +7264,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6933,6 +7284,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6952,6 +7304,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6971,6 +7324,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -6990,6 +7344,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7009,6 +7364,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7028,6 +7384,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7044,6 +7401,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7080,6 +7438,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataRootBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7101,6 +7460,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataRootBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7119,6 +7479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataRootBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7137,6 +7498,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataRootBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7151,6 +7513,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.Ecma335.MetadataBuilder,System.String,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataRootBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7187,6 +7550,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataSizes",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7208,6 +7572,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataSizes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7226,6 +7591,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataSizes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7244,6 +7610,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataSizes",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7283,6 +7650,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PortablePdbBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7304,6 +7672,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PortablePdbBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7322,6 +7691,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PortablePdbBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -7340,6 +7710,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PortablePdbBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7354,6 +7725,7 @@
           "normalizedSignature": "constructor|(System.Reflection.Metadata.Ecma335.MetadataBuilder,System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Reflection.Metadata.MethodDefinitionHandle,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.PortablePdbBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }
@@ -7390,6 +7762,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7409,6 +7782,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7428,6 +7802,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7447,6 +7822,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7466,6 +7842,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7485,6 +7862,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7504,6 +7882,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7523,6 +7902,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7542,6 +7922,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7561,6 +7942,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7580,6 +7962,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7599,6 +7982,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7618,6 +8002,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7637,6 +8022,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7656,6 +8042,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.CodedIndex",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -7697,6 +8084,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.ExportedTypeExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7738,6 +8126,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7757,6 +8146,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7776,6 +8166,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7795,6 +8186,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7814,6 +8206,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7833,6 +8226,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7852,6 +8246,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7871,6 +8266,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7890,6 +8286,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7909,6 +8306,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7928,6 +8326,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7947,6 +8346,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -7966,6 +8366,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataReaderExtensions",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -8007,6 +8408,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -8026,6 +8428,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -8045,6 +8448,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -8064,6 +8468,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": true
@@ -8083,6 +8488,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8102,6 +8508,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8121,6 +8528,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8140,6 +8548,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8159,6 +8568,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8178,6 +8588,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8197,6 +8608,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8216,6 +8628,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8235,6 +8648,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -8260,6 +8674,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false,
@@ -8285,6 +8700,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8304,6 +8720,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8323,6 +8740,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8342,6 +8760,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8361,6 +8780,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8380,6 +8800,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8399,6 +8820,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8418,6 +8840,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8437,6 +8860,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8456,6 +8880,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8475,6 +8900,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8494,6 +8920,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8513,6 +8940,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8532,6 +8960,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8551,6 +8980,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8570,6 +9000,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8589,6 +9020,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8608,6 +9040,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8627,6 +9060,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8646,6 +9080,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8665,6 +9100,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8684,6 +9120,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8703,6 +9140,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8722,6 +9160,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8741,6 +9180,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8760,6 +9200,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8779,6 +9220,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8798,6 +9240,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8817,6 +9260,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8836,6 +9280,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8855,6 +9300,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8874,6 +9320,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8893,6 +9340,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8912,6 +9360,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8931,6 +9380,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8950,6 +9400,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8969,6 +9420,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -8988,6 +9440,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -9007,6 +9460,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
@@ -9022,6 +9476,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata"
         },
@@ -9033,6 +9488,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Reflection.Metadata.Ecma335.MetadataTokens",
           "declaringAssemblyName": "System.Reflection.Metadata"
         }

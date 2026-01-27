@@ -10,8 +10,8 @@ import type { SafeProcessHandle } from './Microsoft.Win32.SafeHandles/internal/i
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { StringDictionary } from './System.Collections.Specialized/internal/index.js';
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from './System.Collections/internal/index.js';
-import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from './System.Collections/internal/index.js';
+import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
 import type { Stream, StreamReader, StreamWriter, TextWriter } from './System.IO/internal/index.js';
 import type { Assembly, MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';

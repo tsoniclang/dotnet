@@ -31,15 +31,15 @@ export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEn
 export interface FileSystemEntry$instance {
     readonly Attributes: FileAttributes;
     readonly CreationTimeUtc: DateTimeOffset;
-    readonly Directory: ReadOnlySpan_1<System_Internal.Char>;
+    Directory: ReadOnlySpan_1<System_Internal.Char>;
     readonly FileName: ReadOnlySpan_1<System_Internal.Char>;
     readonly IsDirectory: boolean;
     readonly IsHidden: boolean;
     readonly LastAccessTimeUtc: DateTimeOffset;
     readonly LastWriteTimeUtc: DateTimeOffset;
     readonly Length: long;
-    readonly OriginalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
-    readonly RootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    OriginalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    RootDirectory: ReadOnlySpan_1<System_Internal.Char>;
     ToFileSystemInfo(): FileSystemInfo;
     ToFullPath(): string;
     ToSpecifiedFullPath(): string;
@@ -75,7 +75,18 @@ export interface __FileSystemEnumerable_1$views<TResult> {
 export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
 
 
-export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
+export abstract class FileSystemEnumerator_1$protected<TResult> {
+    protected ContinueOnError(error: int): boolean;
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+    protected OnDirectoryFinished(directory: ReadOnlySpan_1<System_Internal.Char>): void;
+    protected ShouldIncludeEntry(entry: FileSystemEntry): boolean;
+    protected ShouldRecurseIntoEntry(entry: FileSystemEntry): boolean;
+    protected abstract TransformEntry(entry: FileSystemEntry): TResult;
+}
+
+
+export interface FileSystemEnumerator_1$instance<TResult> extends FileSystemEnumerator_1$protected<TResult>, CriticalFinalizerObject, IDisposable {
     readonly Current: TResult;
     Dispose(): void;
     MoveNext(): boolean;

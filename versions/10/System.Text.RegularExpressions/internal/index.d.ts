@@ -12,7 +12,7 @@ import type { ptr } from "@tsonic/core/types.js";
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, KeyValuePair_2 } from "../../System.Collections.Generic/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { Hashtable, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import type { CustomAttributeBuilder } from "../../System.Reflection.Emit/internal/index.js";
 import type { AssemblyName, MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -130,8 +130,8 @@ export const ValueMatch: {
 export type ValueMatch = ValueMatch$instance;
 
 export interface Capture$instance {
-    readonly Index: int;
-    readonly Length: int;
+    Index: int;
+    Length: int;
     readonly Value: string;
     readonly ValueSpan: ReadOnlySpan_1<System_Internal.Char>;
     ToString(): string;
@@ -329,9 +329,11 @@ export interface Regex$instance {
 
 
 export const Regex: {
+    new(): Regex;
     new(pattern: string): Regex;
     new(pattern: string, options: RegexOptions): Regex;
     new(pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex;
+    new(info: SerializationInfo, context: StreamingContext): Regex;
     readonly InfiniteMatchTimeout: TimeSpan;
     CacheSize: int;
     CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
@@ -372,6 +374,7 @@ export const Regex: {
     Split(input: string, pattern: string, options: RegexOptions): string[];
     Split(input: string, pattern: string): string[];
     Unescape(str: string): string;
+    ValidateMatchTimeout(matchTimeout: TimeSpan): void;
 };
 
 
@@ -415,6 +418,7 @@ export const RegexMatchTimeoutException: {
     new(): RegexMatchTimeoutException;
     new(message: string): RegexMatchTimeoutException;
     new(message: string, inner: Exception): RegexMatchTimeoutException;
+    new(info: SerializationInfo, context: StreamingContext): RegexMatchTimeoutException;
 };
 
 
@@ -444,22 +448,38 @@ export interface __RegexParseException$views {
 export type RegexParseException = RegexParseException$instance & __RegexParseException$views;
 
 
-export interface RegexRunner$instance {
+export abstract class RegexRunner$protected {
+    protected FindFirstChar(): boolean;
+    protected Go(): void;
+    protected InitTrackCount(): void;
+    protected Scan(text: ReadOnlySpan_1<System_Internal.Char>): void;
+}
+
+
+export interface RegexRunner$instance extends RegexRunner$protected {
 }
 
 
 export const RegexRunner: {
+    new(): RegexRunner;
     CharInClass(ch: char, charClass: string): boolean;
+    CharInSet(ch: char, set: string, category: string): boolean;
 };
 
 
 export type RegexRunner = RegexRunner$instance;
 
-export interface RegexRunnerFactory$instance {
+export abstract class RegexRunnerFactory$protected {
+    protected abstract CreateInstance(): RegexRunner;
+}
+
+
+export interface RegexRunnerFactory$instance extends RegexRunnerFactory$protected {
 }
 
 
 export const RegexRunnerFactory: {
+    new(): RegexRunnerFactory;
 };
 
 

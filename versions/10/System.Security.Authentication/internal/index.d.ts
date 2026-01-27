@@ -66,6 +66,7 @@ export const AuthenticationException: {
     new(): AuthenticationException;
     new(message: string): AuthenticationException;
     new(message: string, innerException: Exception): AuthenticationException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): AuthenticationException;
 };
 
 
@@ -85,6 +86,7 @@ export const InvalidCredentialException: {
     new(): InvalidCredentialException;
     new(message: string): InvalidCredentialException;
     new(message: string, innerException: Exception): InvalidCredentialException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): InvalidCredentialException;
 };
 
 

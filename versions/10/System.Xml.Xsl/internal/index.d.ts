@@ -15,7 +15,7 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { IXPathNavigable, XPathNavigator, XPathResultType } from "../../System.Xml.XPath/internal/index.js";
 import * as System_Xml_Internal from "../../System.Xml/internal/index.js";
-import type { IXmlNamespaceResolver, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlReader, XmlResolver, XmlWriter, XmlWriterSettings } from "../../System.Xml/internal/index.js";
+import type { IXmlNamespaceResolver, NameTable, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlReader, XmlResolver, XmlWriter, XmlWriterSettings } from "../../System.Xml/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, EventArgs, Exception, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, Type, Void } from "../../System/internal/index.js";
 
@@ -44,7 +44,8 @@ export interface IXsltContextVariable$instance {
 export type IXsltContextVariable = IXsltContextVariable$instance;
 
 export interface XslCompiledTransform$instance {
-    readonly OutputSettings: XmlWriterSettings | undefined;
+    get OutputSettings(): XmlWriterSettings | undefined;
+    set OutputSettings(value: XmlWriterSettings);
     Load(stylesheet: XmlReader): void;
     Load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
     Load(stylesheet: IXPathNavigable): void;
@@ -103,6 +104,7 @@ export interface XsltCompileException$instance extends XsltException$instance {
 
 
 export const XsltCompileException: {
+    new(info: SerializationInfo, context: StreamingContext): XsltCompileException;
     new(): XsltCompileException;
     new(message: string): XsltCompileException;
     new(message: string, innerException: Exception): XsltCompileException;
@@ -130,6 +132,8 @@ export interface XsltContext$instance extends XmlNamespaceManager {
 
 
 export const XsltContext: {
+    new(table: NameTable): XsltContext;
+    new(): XsltContext;
 };
 
 
@@ -151,6 +155,7 @@ export interface XsltException$instance extends SystemException {
 
 
 export const XsltException: {
+    new(info: SerializationInfo, context: StreamingContext): XsltException;
     new(): XsltException;
     new(message: string): XsltException;
     new(message: string, innerException: Exception): XsltException;
@@ -170,6 +175,7 @@ export interface XsltMessageEncounteredEventArgs$instance extends EventArgs {
 
 
 export const XsltMessageEncounteredEventArgs: {
+    new(): XsltMessageEncounteredEventArgs;
 };
 
 

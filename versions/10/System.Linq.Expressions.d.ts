@@ -10,7 +10,7 @@ import type { IEnumerable_1 } from './System.Collections.Generic/internal/index.
 import type { ReadOnlyCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { ConstructorInfo, FieldInfo, MemberInfo, MethodInfo, PropertyInfo } from './System.Reflection/internal/index.js';
 import type { CallSiteBinder, DebugInfoGenerator } from './System.Runtime.CompilerServices/internal/index.js';
-import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { BinaryExpression as BinaryExpression } from './System.Linq.Expressions/internal/index.js';

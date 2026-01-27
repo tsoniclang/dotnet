@@ -131,6 +131,7 @@ export const MalformedLineException: {
     new(message: string): MalformedLineException;
     new(message: string, lineNumber: long, innerException: Exception): MalformedLineException;
     new(message: string, innerException: Exception): MalformedLineException;
+    new(info: SerializationInfo, context: StreamingContext): MalformedLineException;
 };
 
 
@@ -161,7 +162,13 @@ export const SpecialDirectories: {
 
 export type SpecialDirectories = SpecialDirectories$instance;
 
-export interface TextFieldParser$instance {
+export abstract class TextFieldParser$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface TextFieldParser$instance extends TextFieldParser$protected {
     CommentTokens: string[];
     Delimiters: string[];
     readonly EndOfData: boolean;
@@ -198,8 +205,6 @@ export const TextFieldParser: {
 export interface __TextFieldParser$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TextFieldParser$instance extends System_Internal.IDisposable$instance {}
 
 export type TextFieldParser = TextFieldParser$instance & __TextFieldParser$views;
 

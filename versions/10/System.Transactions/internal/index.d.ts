@@ -316,6 +316,7 @@ export const TransactionAbortedException: {
     new(): TransactionAbortedException;
     new(message: string): TransactionAbortedException;
     new(message: string, innerException: Exception): TransactionAbortedException;
+    new(info: SerializationInfo, context: StreamingContext): TransactionAbortedException;
 };
 
 
@@ -347,6 +348,7 @@ export const TransactionException: {
     new(): TransactionException;
     new(message: string): TransactionException;
     new(message: string, innerException: Exception): TransactionException;
+    new(info: SerializationInfo, context: StreamingContext): TransactionException;
 };
 
 
@@ -366,6 +368,7 @@ export const TransactionInDoubtException: {
     new(): TransactionInDoubtException;
     new(message: string): TransactionInDoubtException;
     new(message: string, innerException: Exception): TransactionInDoubtException;
+    new(info: SerializationInfo, context: StreamingContext): TransactionInDoubtException;
 };
 
 
@@ -400,6 +403,7 @@ export const TransactionManagerCommunicationException: {
     new(): TransactionManagerCommunicationException;
     new(message: string): TransactionManagerCommunicationException;
     new(message: string, innerException: Exception): TransactionManagerCommunicationException;
+    new(info: SerializationInfo, context: StreamingContext): TransactionManagerCommunicationException;
 };
 
 
@@ -419,6 +423,7 @@ export const TransactionPromotionException: {
     new(): TransactionPromotionException;
     new(message: string): TransactionPromotionException;
     new(message: string, innerException: Exception): TransactionPromotionException;
+    new(info: SerializationInfo, context: StreamingContext): TransactionPromotionException;
 };
 
 

@@ -186,6 +186,7 @@ export interface ContentDispositionHeaderValue$instance {
 
 
 export const ContentDispositionHeaderValue: {
+    new(source: ContentDispositionHeaderValue): ContentDispositionHeaderValue;
     new(dispositionType: string): ContentDispositionHeaderValue;
     Parse(input: string): ContentDispositionHeaderValue;
     TryParse(input: string, parsedValue: ContentDispositionHeaderValue): boolean;
@@ -233,8 +234,8 @@ export type ContentRangeHeaderValue = ContentRangeHeaderValue$instance & __Conte
 
 
 export interface EntityTagHeaderValue$instance {
-    readonly IsWeak: boolean;
-    readonly Tag: string;
+    IsWeak: boolean;
+    Tag: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -310,6 +311,7 @@ export interface HttpHeaders$instance {
 
 
 export const HttpHeaders: {
+    new(): HttpHeaders;
 };
 
 
@@ -463,6 +465,7 @@ export interface MediaTypeHeaderValue$instance {
 
 
 export const MediaTypeHeaderValue: {
+    new(source: MediaTypeHeaderValue): MediaTypeHeaderValue;
     new(mediaType: string): MediaTypeHeaderValue;
     new(mediaType: string, charSet: string): MediaTypeHeaderValue;
     Parse(input: string): MediaTypeHeaderValue;
@@ -512,6 +515,7 @@ export interface NameValueHeaderValue$instance {
 export const NameValueHeaderValue: {
     new(name: string): NameValueHeaderValue;
     new(name: string, value: string): NameValueHeaderValue;
+    new(source: NameValueHeaderValue): NameValueHeaderValue;
     Parse(input: string): NameValueHeaderValue;
     TryParse(input: string, parsedValue: NameValueHeaderValue): boolean;
 };
@@ -538,6 +542,7 @@ export interface NameValueWithParametersHeaderValue$instance extends NameValueHe
 export const NameValueWithParametersHeaderValue: {
     new(name: string): NameValueWithParametersHeaderValue;
     new(name: string, value: string): NameValueWithParametersHeaderValue;
+    new(source: NameValueWithParametersHeaderValue): NameValueWithParametersHeaderValue;
 };
 
 
@@ -741,6 +746,7 @@ export interface TransferCodingHeaderValue$instance {
 
 
 export const TransferCodingHeaderValue: {
+    new(source: TransferCodingHeaderValue): TransferCodingHeaderValue;
     new(value: string): TransferCodingHeaderValue;
     Parse(input: string): TransferCodingHeaderValue;
     TryParse(input: string, parsedValue: TransferCodingHeaderValue): boolean;

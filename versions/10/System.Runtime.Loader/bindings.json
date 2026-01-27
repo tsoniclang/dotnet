@@ -41,6 +41,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -60,6 +61,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -102,6 +104,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -121,6 +124,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -137,6 +141,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -173,6 +178,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -192,6 +198,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -211,6 +218,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Finalize():System.Void",
+          "clrName": "Finalize",
+          "metadataToken": 100682786,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Finalize|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -230,6 +258,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -249,6 +278,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Load(System.Reflection.AssemblyName):System.Reflection.Assembly",
+          "clrName": "Load",
+          "metadataToken": 100682810,
+          "canonicalSignature": "(System.Reflection.AssemblyName):System.Reflection.Assembly",
+          "normalizedSignature": "Load|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -268,6 +318,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -287,6 +338,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -306,6 +358,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -325,6 +378,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -344,6 +398,47 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadUnmanagedDllFromPath(System.String):System.IntPtr",
+          "clrName": "LoadUnmanagedDllFromPath",
+          "metadataToken": 100682816,
+          "canonicalSignature": "(System.String):System.IntPtr",
+          "normalizedSignature": "LoadUnmanagedDllFromPath|(System.String):System.IntPtr|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadUnmanagedDll(System.String):System.IntPtr",
+          "clrName": "LoadUnmanagedDll",
+          "metadataToken": 100682817,
+          "canonicalSignature": "(System.String):System.IntPtr",
+          "normalizedSignature": "LoadUnmanagedDll|(System.String):System.IntPtr|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -363,6 +458,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -382,6 +478,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -401,6 +498,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -422,6 +520,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -440,6 +539,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -458,6 +558,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -476,6 +577,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -494,6 +596,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -512,6 +615,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -524,6 +628,7 @@
           "metadataToken": 335544338,
           "normalizedSignature": "ResolvingUnmanagedDll|System.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -533,6 +638,7 @@
           "metadataToken": 335544339,
           "normalizedSignature": "Resolving|System.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -542,11 +648,34 @@
           "metadataToken": 335544340,
           "normalizedSignature": "Unloading|System.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor():void",
+          "metadataToken": 100682782,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor(System.Boolean):void",
+          "metadataToken": 100682783,
+          "canonicalSignature": "(System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor(System.String,System.Boolean):void",
           "metadataToken": 100682784,
@@ -554,6 +683,7 @@
           "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

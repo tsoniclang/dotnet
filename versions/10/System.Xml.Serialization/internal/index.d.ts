@@ -5,21 +5,24 @@
 // Primitive type aliases from @tsonic/core
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
+// Import support types from @tsonic/core
+import type { ptr } from "@tsonic/core/types.js";
+
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
 import type { IEnumerable_1, IEnumerator_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { StringCollection } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { ArrayList, CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import type { Stream, TextReader, TextWriter } from "../../System.IO/internal/index.js";
-import type { ICustomAttributeProvider, MethodInfo } from "../../System.Reflection/internal/index.js";
+import type { Assembly, ICustomAttributeProvider, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Xml_Schema_Internal from "../../System.Xml.Schema/internal/index.js";
 import type { ValidationEventHandler, XmlSchema, XmlSchemaForm } from "../../System.Xml.Schema/internal/index.js";
-import type { WhitespaceHandling, XmlAttribute, XmlElement, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
+import type { WhitespaceHandling, XmlAttribute, XmlDocument, XmlElement, XmlNode, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, TimeOnly, Type, TypeCode, Uri, ValueType, Void } from "../../System/internal/index.js";
 
 export enum CodeGenerationOptions {
     None = 0,
@@ -858,7 +861,15 @@ export const XmlSchemaProviderAttribute: {
 
 export type XmlSchemaProviderAttribute = XmlSchemaProviderAttribute$instance;
 
-export interface XmlSchemas$instance extends CollectionBase {
+export abstract class XmlSchemas$protected {
+    protected OnClear(): void;
+    protected OnInsert(index: int, value: unknown): void;
+    protected OnRemove(index: int, value: unknown): void;
+    protected OnSet(index: int, oldValue: unknown, newValue: unknown): void;
+}
+
+
+export interface XmlSchemas$instance extends XmlSchemas$protected, CollectionBase {
     readonly IsCompiled: boolean;
     Add(schemas: XmlSchemas): void;
     Add(value: unknown): int;
@@ -902,32 +913,85 @@ export interface XmlSerializationGeneratedCode$instance {
 
 
 export const XmlSerializationGeneratedCode: {
+    new(): XmlSerializationGeneratedCode;
 };
 
 
 export type XmlSerializationGeneratedCode = XmlSerializationGeneratedCode$instance;
 
-export interface XmlSerializationReader$instance extends XmlSerializationGeneratedCode {
+export abstract class XmlSerializationReader$protected {
+    protected abstract InitCallbacks(): void;
+    protected abstract InitIDs(): void;
+}
+
+
+export interface XmlSerializationReader$instance extends XmlSerializationReader$protected, XmlSerializationGeneratedCode {
 }
 
 
 export const XmlSerializationReader: {
+    new(): XmlSerializationReader;
+    ResolveDynamicAssembly(assemblyFullName: string): Assembly | undefined;
+    ToByteArrayBase64(value: string): byte[] | undefined;
+    ToByteArrayHex(value: string): byte[] | undefined;
+    ToChar(value: string): char;
+    ToDate(value: string): DateTime;
+    ToDateOnly(value: string): DateOnly;
+    ToDateTime(value: string): DateTime;
+    ToEnum(value: string, h: Hashtable, typeName: string): long;
+    ToTime(value: string): DateTime;
+    ToTimeOnly(value: string): TimeOnly;
+    ToTimeOnlyIgnoreOffset(value: string): TimeOnly;
+    ToXmlName(value: string): string | undefined;
+    ToXmlNCName(value: string): string | undefined;
+    ToXmlNmToken(value: string): string | undefined;
+    ToXmlNmTokens(value: string): string | undefined;
 };
 
 
 export type XmlSerializationReader = XmlSerializationReader$instance;
 
-export interface XmlSerializationWriter$instance extends XmlSerializationGeneratedCode {
+export abstract class XmlSerializationWriter$protected {
+    protected abstract InitCallbacks(): void;
+}
+
+
+export interface XmlSerializationWriter$instance extends XmlSerializationWriter$protected, XmlSerializationGeneratedCode {
 }
 
 
 export const XmlSerializationWriter: {
+    new(): XmlSerializationWriter;
+    FromByteArrayBase64(value: byte[]): byte[];
+    FromByteArrayHex(value: byte[]): string | undefined;
+    FromChar(value: char): string;
+    FromDate(value: DateTime): string;
+    FromDateOnly(value: DateOnly): string;
+    FromDateTime(value: DateTime): string;
+    FromEnum(value: long, values: string[], ids: long[], typeName: string): string;
+    FromEnum(value: long, values: string[], ids: long[]): string;
+    FromTime(value: DateTime): string;
+    FromTimeOnly(value: TimeOnly): string;
+    FromTimeOnlyIgnoreOffset(value: TimeOnly): string;
+    FromXmlName(name: string): string | undefined;
+    FromXmlNCName(ncName: string): string | undefined;
+    FromXmlNmToken(nmToken: string): string | undefined;
+    FromXmlNmTokens(nmTokens: string): string | undefined;
+    ResolveDynamicAssembly(assemblyFullName: string): Assembly | undefined;
 };
 
 
 export type XmlSerializationWriter = XmlSerializationWriter$instance;
 
-export interface XmlSerializer$instance {
+export abstract class XmlSerializer$protected {
+    protected CreateReader(): XmlSerializationReader;
+    protected CreateWriter(): XmlSerializationWriter;
+    protected Deserialize(reader: XmlSerializationReader): unknown;
+    protected Serialize(o: unknown, writer: XmlSerializationWriter): void;
+}
+
+
+export interface XmlSerializer$instance extends XmlSerializer$protected {
     CanDeserialize(xmlReader: XmlReader): boolean;
     Deserialize(stream: Stream): unknown;
     Deserialize(textReader: TextReader): unknown | undefined;
@@ -947,6 +1011,7 @@ export interface XmlSerializer$instance {
 
 
 export const XmlSerializer: {
+    new(): XmlSerializer;
     new(type: Type, overrides: XmlAttributeOverrides, extraTypes: Type[], root: XmlRootAttribute, defaultNamespace: string): XmlSerializer;
     new(type: Type, root: XmlRootAttribute): XmlSerializer;
     new(type: Type, extraTypes: Type[]): XmlSerializer;
@@ -1012,6 +1077,7 @@ export interface XmlSerializerImplementation$instance {
 
 
 export const XmlSerializerImplementation: {
+    new(): XmlSerializerImplementation;
 };
 
 

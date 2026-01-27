@@ -35,6 +35,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false
@@ -54,6 +55,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
           "declaringAssemblyName": "System.Linq.Expressions",
           "isExtensionMethod": false

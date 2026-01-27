@@ -15,9 +15,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -31,6 +28,9 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "TResult"
       ],
       "methods": [
         {
@@ -48,6 +48,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -73,6 +74,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -98,6 +100,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -120,6 +123,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -136,9 +140,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -152,6 +153,9 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "TResult"
       ],
       "methods": [
         {
@@ -169,6 +173,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -194,6 +199,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -219,6 +225,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -241,6 +248,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -277,6 +285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -296,6 +305,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -315,6 +325,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -336,6 +347,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -344,16 +356,17 @@
           "clrName": "Directory",
           "metadataToken": 385880864,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "Directory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "Directory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -362,16 +375,17 @@
           "clrName": "RootDirectory",
           "metadataToken": 385880865,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "RootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "RootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -380,16 +394,17 @@
           "clrName": "OriginalRootDirectory",
           "metadataToken": 385880866,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "normalizedSignature": "OriginalRootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "normalizedSignature": "OriginalRootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -408,6 +423,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -426,6 +442,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -444,6 +461,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -462,6 +480,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -480,6 +499,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -498,6 +518,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -516,6 +537,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEntry",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -535,9 +557,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -555,6 +574,9 @@
           "clrName": "System.Collections.IEnumerable"
         }
       ],
+      "typeParameters": [
+        "TResult"
+      ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -571,6 +593,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -590,6 +613,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -610,6 +634,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -632,6 +657,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -650,6 +676,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -664,6 +691,7 @@
           "normalizedSignature": "constructor|(System.String,FindTransform,System.IO.EnumerationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -680,9 +708,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
         "clrName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject"
@@ -696,15 +721,136 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
+          "clrName": "System.Collections.IEnumerator"
         }
       ],
+      "typeParameters": [
+        "TResult"
+      ],
       "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::ShouldIncludeEntry(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "clrName": "ShouldIncludeEntry",
+          "metadataToken": 100701660,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "normalizedSignature": "ShouldIncludeEntry|(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::ShouldRecurseIntoEntry(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "clrName": "ShouldRecurseIntoEntry",
+          "metadataToken": 100701661,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "normalizedSignature": "ShouldRecurseIntoEntry|(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::TransformEntry(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
+          "clrName": "TransformEntry",
+          "metadataToken": 100701662,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
+          "normalizedSignature": "TransformEntry|(System.IO.Enumeration.FileSystemEntry\u0026):TResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::OnDirectoryFinished(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
+          "clrName": "OnDirectoryFinished",
+          "metadataToken": 100701663,
+          "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
+          "normalizedSignature": "OnDirectoryFinished|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::ContinueOnError(System.Int32):System.Boolean",
+          "clrName": "ContinueOnError",
+          "metadataToken": 100701664,
+          "canonicalSignature": "(System.Int32):System.Boolean",
+          "normalizedSignature": "ContinueOnError|(System.Int32):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
         {
           "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Reset():System.Void",
           "clrName": "Reset",
@@ -720,6 +866,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -739,6 +886,47 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100701670,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Finalize():System.Void",
+          "clrName": "Finalize",
+          "metadataToken": 100701671,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Finalize|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -758,6 +946,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -777,6 +966,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -797,6 +987,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -817,6 +1008,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -839,6 +1031,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -857,6 +1050,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -876,6 +1070,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -891,6 +1086,7 @@
           "normalizedSignature": "constructor|(System.String,System.IO.EnumerationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -927,6 +1123,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemName",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -946,6 +1143,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemName",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -965,6 +1163,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemName",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

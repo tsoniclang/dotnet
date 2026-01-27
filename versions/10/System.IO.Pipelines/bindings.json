@@ -32,6 +32,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -50,6 +51,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -90,6 +92,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.FlushResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -108,6 +111,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.FlushResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -122,6 +126,7 @@
           "normalizedSignature": "constructor|(System.Boolean,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.FlushResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -159,6 +164,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.ReadResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -177,6 +183,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.ReadResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -195,6 +202,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.ReadResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -209,6 +217,7 @@
           "normalizedSignature": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.ReadResult",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -245,6 +254,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.Pipe",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -266,6 +276,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.Pipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -284,6 +295,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.Pipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -298,6 +310,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.Pipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -308,6 +321,7 @@
           "normalizedSignature": "constructor|(System.IO.Pipelines.PipeOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.Pipe",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -345,6 +359,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -363,6 +378,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -381,6 +397,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -399,6 +416,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -417,6 +435,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -435,6 +454,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -453,6 +473,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -471,6 +492,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -485,6 +507,7 @@
           "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 7,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -521,6 +544,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false,
@@ -546,6 +570,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -565,6 +590,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAtLeastAsyncCore(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "clrName": "ReadAtLeastAsyncCore",
+          "metadataToken": 100663506,
+          "canonicalSignature": "(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "normalizedSignature": "ReadAtLeastAsyncCore|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -584,6 +630,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -603,6 +650,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -622,6 +670,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -641,6 +690,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -660,6 +710,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -679,6 +730,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -698,6 +750,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -717,6 +770,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -736,6 +790,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -755,6 +810,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -774,6 +830,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeReader",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -782,7 +839,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::.ctor():void",
+          "metadataToken": 100663519,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
+        }
+      ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler",
@@ -815,6 +884,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeScheduler",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -836,6 +906,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeScheduler",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -854,13 +925,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeScheduler",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler::.ctor():void",
+          "metadataToken": 100663569,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+          "declaringAssemblyName": "System.IO.Pipelines"
+        }
+      ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter",
@@ -902,6 +986,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -921,6 +1006,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -940,6 +1026,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -959,6 +1046,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -978,6 +1066,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -997,6 +1086,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1016,6 +1106,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1035,6 +1126,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1054,6 +1146,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1073,6 +1166,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1092,6 +1186,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CopyFromAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "clrName": "CopyFromAsync",
+          "metadataToken": 100663583,
+          "canonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "normalizedSignature": "CopyFromAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": false
@@ -1111,6 +1226,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1131,6 +1247,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1151,6 +1268,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
           "declaringAssemblyName": "System.Memory",
           "isExtensionMethod": false,
@@ -1173,6 +1291,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1191,13 +1310,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::.ctor():void",
+          "metadataToken": 100663585,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
+        }
+      ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions",
@@ -1231,6 +1363,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1249,6 +1382,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1267,6 +1401,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1285,6 +1420,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1303,6 +1439,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -1317,6 +1454,7 @@
           "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1327,6 +1465,7 @@
           "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -1364,6 +1503,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1382,6 +1522,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         },
@@ -1400,6 +1541,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -1414,6 +1556,7 @@
           "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
           "declaringAssemblyName": "System.IO.Pipelines"
         }
@@ -1450,6 +1593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
           "declaringAssemblyName": "System.IO.Pipelines",
           "isExtensionMethod": true

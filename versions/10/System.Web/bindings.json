@@ -31,6 +31,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.IHtmlString",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -72,6 +73,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -91,6 +93,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -110,6 +113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -129,6 +133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -148,6 +153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -167,6 +173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -186,6 +193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -205,6 +213,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -224,6 +233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -243,6 +253,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -262,6 +273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -281,6 +293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -300,6 +313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -319,6 +333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -338,6 +353,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -357,6 +373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -376,6 +393,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -395,6 +413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -414,6 +433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -433,6 +453,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -452,6 +473,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -471,6 +493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -490,6 +513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -509,6 +533,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -528,6 +553,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -547,6 +573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -566,6 +593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -585,6 +613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -604,6 +633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -623,6 +653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility",
           "isExtensionMethod": false
@@ -639,6 +670,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Web.HttpUtility",
           "declaringAssemblyName": "System.Web.HttpUtility"
         }

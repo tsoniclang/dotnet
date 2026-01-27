@@ -16,14 +16,18 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "T"
+          ]
+        },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
@@ -39,8 +43,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "T"
           ]
@@ -51,26 +67,10 @@
           "typeArguments": [
             "T"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "T"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -88,6 +88,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -107,6 +108,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -126,6 +128,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -145,6 +148,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -164,6 +168,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -183,6 +188,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -202,6 +208,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -221,6 +228,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -240,6 +248,87 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100703918,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100703919,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100703920,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100703921,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -259,6 +348,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -279,6 +369,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -299,6 +390,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -319,6 +411,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -339,6 +432,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -359,6 +453,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -379,6 +474,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -399,6 +495,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -419,6 +516,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -439,6 +537,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -459,6 +558,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -479,6 +579,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -499,6 +600,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -519,6 +621,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -539,6 +642,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -559,6 +663,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -581,6 +686,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601::Items:IList_1",
+          "clrName": "Items",
+          "metadataToken": 385881289,
+          "canonicalSignature": ":IList_1",
+          "normalizedSignature": "Items|:IList_1|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -599,6 +724,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -617,6 +743,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -636,6 +763,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -655,6 +783,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -674,6 +803,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -693,6 +823,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -712,6 +843,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -731,6 +863,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -750,6 +883,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -765,6 +899,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -775,6 +910,7 @@
           "normalizedSignature": "constructor|(IList_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.Collection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -791,10 +927,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TKey",
-        "TItem"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601",
         "clrName": "System.Collections.ObjectModel.Collection\u00601",
@@ -803,6 +935,13 @@
         ]
       },
       "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "TItem"
+          ]
+        },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
@@ -818,8 +957,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "TItem"
           ]
@@ -830,26 +981,11 @@
           "typeArguments": [
             "TItem"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "TItem"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TItem"
       ],
       "methods": [
         {
@@ -867,6 +1003,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -886,6 +1023,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false,
@@ -911,6 +1049,127 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::ChangeItemKey(TItem,TKey):System.Void",
+          "clrName": "ChangeItemKey",
+          "metadataToken": 100663369,
+          "canonicalSignature": "(TItem,TKey):System.Void",
+          "normalizedSignature": "ChangeItemKey|(TItem,TKey):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100663370,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::GetKeyForItem(TItem):TKey",
+          "clrName": "GetKeyForItem",
+          "metadataToken": 100663371,
+          "canonicalSignature": "(TItem):TKey",
+          "normalizedSignature": "GetKeyForItem|(TItem):TKey|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::InsertItem(System.Int32,TItem):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663372,
+          "canonicalSignature": "(System.Int32,TItem):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,TItem):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100663373,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::SetItem(System.Int32,TItem):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663374,
+          "canonicalSignature": "(System.Int32,TItem):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,TItem):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -930,6 +1189,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -950,6 +1210,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -970,6 +1231,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -990,6 +1252,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1010,6 +1273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1030,6 +1294,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1050,6 +1315,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1070,6 +1336,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1090,6 +1357,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1110,6 +1378,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1130,6 +1399,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1150,6 +1420,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1170,6 +1441,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1190,6 +1462,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1210,6 +1483,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1230,6 +1504,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1250,6 +1525,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1269,6 +1545,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1288,6 +1565,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1307,6 +1585,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1326,6 +1605,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1345,6 +1625,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1364,6 +1645,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1383,6 +1665,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1402,6 +1685,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1421,6 +1705,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1440,6 +1725,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1459,6 +1745,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1478,6 +1785,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1497,6 +1805,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1516,6 +1825,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1537,6 +1867,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -1555,6 +1886,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::Dictionary:IDictionary_2",
+          "clrName": "Dictionary",
+          "metadataToken": 385875994,
+          "canonicalSignature": ":IDictionary_2",
+          "normalizedSignature": "Dictionary|:IDictionary_2|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -1573,6 +1924,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1592,6 +1944,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1611,6 +1964,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1630,6 +1984,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1649,6 +2004,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1668,6 +2024,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1687,6 +2044,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1706,6 +2064,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1713,7 +2072,41 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::.ctor():void",
+          "metadataToken": 100663358,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::.ctor(IEqualityComparer_1):void",
+          "metadataToken": 100663359,
+          "canonicalSignature": "(IEqualityComparer_1):void",
+          "normalizedSignature": "constructor|(IEqualityComparer_1):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection\u00602::.ctor(IEqualityComparer_1,System.Int32):void",
+          "metadataToken": 100663360,
+          "canonicalSignature": "(IEqualityComparer_1,System.Int32):void",
+          "normalizedSignature": "constructor|(IEqualityComparer_1,System.Int32):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.KeyedCollection\u00602",
+          "declaringAssemblyName": "System.ObjectModel"
+        }
+      ]
     },
     {
       "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601",
@@ -1726,9 +2119,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection\u00601",
         "clrName": "System.Collections.ObjectModel.Collection\u00601",
@@ -1738,12 +2128,11 @@
       },
       "interfaces": [
         {
-          "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged",
-          "clrName": "System.Collections.Specialized.INotifyCollectionChanged"
-        },
-        {
-          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
-          "clrName": "System.ComponentModel.INotifyPropertyChanged"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "T"
+          ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
@@ -1760,8 +2149,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "T"
           ]
@@ -1774,24 +2175,16 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "T"
-          ]
+          "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged",
+          "clrName": "System.Collections.Specialized.INotifyCollectionChanged"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
+          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
+          "clrName": "System.ComponentModel.INotifyPropertyChanged"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -1809,6 +2202,187 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100663391,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100663392,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663393,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663394,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::MoveItem(System.Int32,System.Int32):System.Void",
+          "clrName": "MoveItem",
+          "metadataToken": 100663395,
+          "canonicalSignature": "(System.Int32,System.Int32):System.Void",
+          "normalizedSignature": "MoveItem|(System.Int32,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs):System.Void",
+          "clrName": "OnPropertyChanged",
+          "metadataToken": 100663396,
+          "canonicalSignature": "(System.ComponentModel.PropertyChangedEventArgs):System.Void",
+          "normalizedSignature": "OnPropertyChanged|(System.ComponentModel.PropertyChangedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void",
+          "clrName": "OnCollectionChanged",
+          "metadataToken": 100663399,
+          "canonicalSignature": "(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void",
+          "normalizedSignature": "OnCollectionChanged|(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::BlockReentrancy():System.IDisposable",
+          "clrName": "BlockReentrancy",
+          "metadataToken": 100663400,
+          "canonicalSignature": "():System.IDisposable",
+          "normalizedSignature": "BlockReentrancy|():System.IDisposable|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::CheckReentrancy():System.Void",
+          "clrName": "CheckReentrancy",
+          "metadataToken": 100663401,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "CheckReentrancy|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -1828,6 +2402,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1848,6 +2423,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1868,6 +2444,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1888,6 +2465,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1908,6 +2486,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1928,6 +2507,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1948,6 +2528,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1968,6 +2549,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1988,6 +2570,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2008,6 +2591,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2028,6 +2612,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2048,6 +2633,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2068,6 +2654,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2088,6 +2675,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2108,6 +2696,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2128,6 +2717,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2148,6 +2738,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2167,6 +2758,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2186,6 +2778,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2205,6 +2798,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2224,6 +2818,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2243,6 +2838,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2262,6 +2858,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2281,6 +2878,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2300,6 +2898,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2319,6 +2918,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2338,6 +2938,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2357,6 +2958,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2376,6 +2978,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2395,6 +2998,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2414,6 +3018,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -2435,6 +3040,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2454,6 +3060,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2473,6 +3080,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2492,6 +3100,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2511,6 +3120,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2530,6 +3140,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2549,6 +3160,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2568,6 +3180,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2581,6 +3194,17 @@
           "metadataToken": 335544326,
           "normalizedSignature": "CollectionChanged|System.Collections.Specialized.NotifyCollectionChangedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601::PropertyChangedSystem.ComponentModel.PropertyChangedEventHandler",
+          "clrName": "PropertyChanged",
+          "metadataToken": 335544327,
+          "normalizedSignature": "PropertyChanged|System.ComponentModel.PropertyChangedEventHandler|static=false",
+          "isStatic": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         }
@@ -2593,6 +3217,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -2603,6 +3228,7 @@
           "normalizedSignature": "constructor|(IEnumerable_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -2613,6 +3239,7 @@
           "normalizedSignature": "constructor|(List_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         }
@@ -2629,14 +3256,18 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "T"
+          ]
+        },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
@@ -2652,8 +3283,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "T"
           ]
@@ -2664,26 +3307,10 @@
           "typeArguments": [
             "T"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "T"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -2701,6 +3328,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2720,6 +3348,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2739,6 +3368,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2758,6 +3388,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2777,6 +3408,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2797,6 +3429,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2817,6 +3450,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2837,6 +3471,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2857,6 +3492,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2877,6 +3513,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2897,6 +3534,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2917,6 +3555,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2937,6 +3576,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2957,6 +3597,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2977,6 +3618,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2997,6 +3639,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3017,6 +3660,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3037,6 +3681,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3057,6 +3702,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3077,6 +3723,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3097,6 +3744,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3119,6 +3767,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3137,6 +3786,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3155,6 +3805,26 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyCollection\u00601::Items:IList_1",
+          "clrName": "Items",
+          "metadataToken": 385881300,
+          "canonicalSignature": ":IList_1",
+          "normalizedSignature": "Items|:IList_1|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3173,6 +3843,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3192,6 +3863,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3211,6 +3883,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3230,6 +3903,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3249,6 +3923,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3268,6 +3943,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3287,6 +3963,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3306,6 +3983,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3321,6 +3999,7 @@
           "normalizedSignature": "constructor|(IList_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -3337,28 +4016,24 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TKey",
-        "TValue"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
-          "clrName": "System.Collections.Generic.ICollection\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[TKey,TValue]]"
-          ]
-        },
-        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602",
           "clrName": "System.Collections.Generic.IDictionary\u00602",
           "typeArguments": [
             "TKey",
             "TValue"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
+          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[TKey,TValue]]"
           ]
         },
         {
@@ -3369,11 +4044,16 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[TKey,TValue]]"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary",
+          "clrName": "System.Collections.IDictionary"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602",
@@ -3384,17 +4064,16 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IDictionary",
-          "clrName": "System.Collections.IDictionary"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[TKey,TValue]]"
+          ]
         }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TValue"
       ],
       "methods": [
         {
@@ -3412,6 +4091,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3431,6 +4111,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3456,6 +4137,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3475,6 +4157,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3495,6 +4178,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3515,6 +4199,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3535,6 +4220,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3555,6 +4241,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3575,6 +4262,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3595,6 +4283,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3615,6 +4304,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3635,6 +4325,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3655,6 +4346,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3675,6 +4367,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3695,6 +4388,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3715,6 +4409,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3735,6 +4430,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3755,6 +4451,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3781,6 +4478,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3801,6 +4499,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3821,6 +4520,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3849,6 +4549,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyDictionary\u00602::Dictionary:IDictionary_2",
+          "clrName": "Dictionary",
+          "metadataToken": 385881309,
+          "canonicalSignature": ":IDictionary_2",
+          "normalizedSignature": "Dictionary|:IDictionary_2|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3867,6 +4587,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3885,6 +4606,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3903,6 +4625,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3921,6 +4644,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3939,6 +4663,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3958,6 +4683,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3977,6 +4703,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IDictionary",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3996,6 +4723,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4015,6 +4743,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4034,6 +4763,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4053,6 +4783,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4072,6 +4803,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IDictionary",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4091,6 +4823,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4110,6 +4843,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IDictionary",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4129,6 +4863,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4148,6 +4883,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4167,6 +4903,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4186,6 +4923,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4201,6 +4939,7 @@
           "normalizedSignature": "constructor|(IDictionary_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -4217,10 +4956,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TKey",
-        "TValue"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -4241,20 +4976,24 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "typeArguments": [
-            "TKey"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "typeArguments": [
+            "TKey"
+          ]
         }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TValue"
       ],
       "methods": [
         {
@@ -4272,6 +5011,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BKeyCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4291,6 +5031,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BKeyCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4310,6 +5051,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BKeyCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4329,6 +5071,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4349,6 +5092,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4369,6 +5113,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4389,6 +5134,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4409,6 +5155,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4429,6 +5176,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4449,6 +5197,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4471,6 +5220,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BKeyCollection",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -4489,6 +5239,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4508,6 +5259,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4527,6 +5279,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4546,6 +5299,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4565,6 +5319,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4584,6 +5339,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4604,10 +5360,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TKey",
-        "TValue"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
@@ -4628,20 +5380,24 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "typeArguments": [
-            "TValue"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "typeArguments": [
+            "TValue"
+          ]
         }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TValue"
       ],
       "methods": [
         {
@@ -4659,6 +5415,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BValueCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4678,6 +5435,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BValueCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4697,6 +5455,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4717,6 +5476,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4737,6 +5497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4757,6 +5518,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4777,6 +5539,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4797,6 +5560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4817,6 +5581,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4839,6 +5604,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyDictionary\u00602\u002BValueCollection",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -4857,6 +5623,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4876,6 +5643,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4895,6 +5663,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4914,6 +5683,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4933,6 +5703,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4952,6 +5723,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4972,9 +5744,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyCollection\u00601",
         "clrName": "System.Collections.ObjectModel.ReadOnlyCollection\u00601",
@@ -4984,12 +5753,11 @@
       },
       "interfaces": [
         {
-          "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged",
-          "clrName": "System.Collections.Specialized.INotifyCollectionChanged"
-        },
-        {
-          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
-          "clrName": "System.ComponentModel.INotifyPropertyChanged"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "T"
+          ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
@@ -5006,8 +5774,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "T"
           ]
@@ -5020,26 +5800,58 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "T"
-          ]
+          "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged",
+          "clrName": "System.Collections.Specialized.INotifyCollectionChanged"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
+          "stableId": "System.ObjectModel:System.ComponentModel.INotifyPropertyChanged",
+          "clrName": "System.ComponentModel.INotifyPropertyChanged"
         }
       ],
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601::OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void",
+          "clrName": "OnCollectionChanged",
+          "metadataToken": 100663420,
+          "canonicalSignature": "(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void",
+          "normalizedSignature": "OnCollectionChanged|(System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601::OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs):System.Void",
+          "clrName": "OnPropertyChanged",
+          "metadataToken": 100663425,
+          "canonicalSignature": "(System.ComponentModel.PropertyChangedEventArgs):System.Void",
+          "normalizedSignature": "OnPropertyChanged|(System.ComponentModel.PropertyChangedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel",
+          "isExtensionMethod": false
+        },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
@@ -5055,6 +5867,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5075,6 +5888,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5095,6 +5909,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5115,6 +5930,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5135,6 +5951,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5155,6 +5972,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5175,6 +5993,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5195,6 +6014,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5215,6 +6035,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5235,6 +6056,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5255,6 +6077,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5275,6 +6098,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5295,6 +6119,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5315,6 +6140,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5335,6 +6161,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5355,6 +6182,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5375,6 +6203,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5394,6 +6223,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5413,6 +6243,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5432,6 +6263,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5451,6 +6283,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5470,6 +6303,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5489,6 +6323,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5508,6 +6343,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5527,6 +6363,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5546,6 +6383,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5565,6 +6403,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5584,6 +6423,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5603,6 +6443,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5622,6 +6463,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5641,6 +6483,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel",
           "isExtensionMethod": false
@@ -5662,6 +6505,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -5680,6 +6524,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5699,6 +6544,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5718,6 +6564,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5737,6 +6584,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5756,6 +6604,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5775,6 +6624,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5794,6 +6644,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5813,13 +6664,35 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
-      "events": [],
+      "events": [
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601::CollectionChangedSystem.Collections.Specialized.NotifyCollectionChangedEventHandler",
+          "clrName": "CollectionChanged",
+          "metadataToken": 335544329,
+          "normalizedSignature": "CollectionChanged|System.Collections.Specialized.NotifyCollectionChangedEventHandler|static=false",
+          "isStatic": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "stableId": "System.ObjectModel:System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601::PropertyChangedSystem.ComponentModel.PropertyChangedEventHandler",
+          "clrName": "PropertyChanged",
+          "metadataToken": 335544331,
+          "normalizedSignature": "PropertyChanged|System.ComponentModel.PropertyChangedEventHandler|static=false",
+          "isStatic": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
+          "declaringAssemblyName": "System.ObjectModel"
+        }
+      ],
       "constructors": [
         {
           "stableId": "System.ObjectModel:System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601::.ctor(ObservableCollection_1):void",
@@ -5828,6 +6701,7 @@
           "normalizedSignature": "constructor|(ObservableCollection_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyObservableCollection\u00601",
           "declaringAssemblyName": "System.ObjectModel"
         }
@@ -5844,24 +6718,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
-          "clrName": "System.Collections.Generic.ICollection\u00601",
-          "typeArguments": [
-            "T"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlySet\u00601",
           "typeArguments": [
             "T"
           ]
@@ -5874,11 +6738,15 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlySet\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
+          "clrName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
             "T"
           ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601",
@@ -5888,13 +6756,19 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
+          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "typeArguments": [
+            "T"
+          ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -5912,6 +6786,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5931,6 +6806,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5950,6 +6826,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5969,6 +6846,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5988,6 +6866,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6007,6 +6886,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6026,6 +6906,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6045,6 +6926,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6064,6 +6946,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6084,6 +6967,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6104,6 +6988,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6124,6 +7009,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6144,6 +7030,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6164,6 +7051,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6184,6 +7072,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6204,6 +7093,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6224,6 +7114,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6244,6 +7135,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6264,6 +7156,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6284,6 +7177,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6306,6 +7200,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlySet\u00601::Set:ISet_1",
+          "clrName": "Set",
+          "metadataToken": 385881340,
+          "canonicalSignature": ":ISet_1",
+          "normalizedSignature": "Set|:ISet_1|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -6324,6 +7238,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -6342,6 +7257,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6361,6 +7277,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6380,6 +7297,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6399,6 +7317,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6418,6 +7337,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6437,6 +7357,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6452,6 +7373,7 @@
           "normalizedSignature": "constructor|(ISet_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlySet\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -6488,6 +7410,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6507,6 +7430,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ObjectModel.ReadOnlyCollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

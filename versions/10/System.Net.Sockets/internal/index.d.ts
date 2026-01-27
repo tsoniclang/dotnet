@@ -23,9 +23,9 @@ import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AddressFamily {
     Unknown = -1,
@@ -494,7 +494,13 @@ export const MulticastOption: {
 
 export type MulticastOption = MulticastOption$instance;
 
-export interface NetworkStream$instance extends Stream {
+export abstract class NetworkStream$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface NetworkStream$instance extends NetworkStream$protected, Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -554,7 +560,13 @@ export interface __NetworkStream$views {
 export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
-export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
+export abstract class SafeSocketHandle$protected {
+    protected Dispose3(disposing: boolean): void;
+    protected ReleaseHandle(): boolean;
+}
+
+
+export interface SafeSocketHandle$instance extends SafeSocketHandle$protected, SafeHandleMinusOneIsInvalid {
     readonly IsInvalid: boolean;
     Dispose(): void;
 }
@@ -574,14 +586,16 @@ export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$vi
 
 
 export interface SendPacketsElement$instance {
-    readonly Buffer: byte[];
-    readonly Count: int;
-    readonly EndOfPacket: boolean;
-    readonly FilePath: string | undefined;
-    readonly FileStream: FileStream | undefined;
-    readonly MemoryBuffer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
+    Buffer: byte[];
+    Count: int;
+    EndOfPacket: boolean;
+    get FilePath(): string | undefined;
+    set FilePath(value: string);
+    get FileStream(): FileStream | undefined;
+    set FileStream(value: FileStream);
+    MemoryBuffer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
     readonly Offset: int;
-    readonly OffsetLong: long;
+    OffsetLong: long;
 }
 
 
@@ -604,7 +618,13 @@ export const SendPacketsElement: {
 
 export type SendPacketsElement = SendPacketsElement$instance;
 
-export interface Socket$instance {
+export abstract class Socket$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface Socket$instance extends Socket$protected {
     readonly AddressFamily: AddressFamily;
     readonly Available: int;
     Blocking: boolean;
@@ -807,12 +827,16 @@ export interface __Socket$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Socket$instance extends System_Internal.IDisposable$instance {}
-
 export type Socket = Socket$instance & __Socket$views;
 
 
-export interface SocketAsyncEventArgs$instance extends EventArgs {
+export abstract class SocketAsyncEventArgs$protected {
+    protected Finalize(): void;
+    protected OnCompleted(e: SocketAsyncEventArgs): void;
+}
+
+
+export interface SocketAsyncEventArgs$instance extends SocketAsyncEventArgs$protected, EventArgs {
     get AcceptSocket(): Socket | undefined;
     set AcceptSocket(value: Socket);
     readonly Buffer: byte[];
@@ -869,6 +893,7 @@ export interface SocketException$instance extends Win32Exception {
 export const SocketException: {
     new(errorCode: int): SocketException;
     new(errorCode: int, message: string): SocketException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): SocketException;
     new(): SocketException;
 };
 
@@ -880,7 +905,13 @@ export interface __SocketException$views {
 export type SocketException = SocketException$instance & __SocketException$views;
 
 
-export interface TcpClient$instance {
+export abstract class TcpClient$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Finalize(): void;
+}
+
+
+export interface TcpClient$instance extends TcpClient$protected {
     readonly Available: int;
     Client: Socket;
     readonly Connected: boolean;
@@ -926,8 +957,6 @@ export interface __TcpClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface TcpClient$instance extends System_Internal.IDisposable$instance {}
-
 export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
@@ -971,7 +1000,12 @@ export interface TcpListener$instance extends System_Internal.IDisposable$instan
 export type TcpListener = TcpListener$instance & __TcpListener$views;
 
 
-export interface UdpClient$instance {
+export abstract class UdpClient$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface UdpClient$instance extends UdpClient$protected {
     readonly Available: int;
     Client: Socket;
     DontFragment: boolean;
@@ -1028,8 +1062,6 @@ export const UdpClient: {
 export interface __UdpClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface UdpClient$instance extends System_Internal.IDisposable$instance {}
 
 export type UdpClient = UdpClient$instance & __UdpClient$views;
 

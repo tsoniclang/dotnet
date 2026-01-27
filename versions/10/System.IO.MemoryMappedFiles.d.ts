@@ -7,10 +7,11 @@ import * as Internal from './System.IO.MemoryMappedFiles/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { SafeFileHandle, SafeMemoryMappedFileHandle, SafeMemoryMappedViewHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
-import type { FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from './System.IO/internal/index.js';
+import type { FileAccess, FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from './System.IO/internal/index.js';
+import type { SafeBuffer } from './System.Runtime.InteropServices/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
-import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';
+import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { MemoryMappedFileOptions as MemoryMappedFileOptions } from './System.IO.MemoryMappedFiles/internal/index.js';

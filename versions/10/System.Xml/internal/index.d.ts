@@ -360,7 +360,7 @@ export interface XmlAttribute$instance extends XmlNode$instance {
 
 
 export const XmlAttribute: {
-    new(): XmlAttribute;
+    new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument): XmlAttribute;
 };
 
 
@@ -454,7 +454,7 @@ export interface XmlCDataSection$instance extends XmlCharacterData$instance {
 
 
 export const XmlCDataSection: {
-    new(): XmlCDataSection;
+    new(data: string, doc: XmlDocument): XmlCDataSection;
 };
 
 
@@ -485,6 +485,7 @@ export interface XmlCharacterData$instance extends XmlLinkedNode$instance {
 
 
 export const XmlCharacterData: {
+    new(data: string, doc: XmlDocument): XmlCharacterData;
 };
 
 
@@ -512,7 +513,7 @@ export interface XmlComment$instance extends XmlCharacterData$instance {
 
 
 export const XmlComment: {
-    new(): XmlComment;
+    new(comment: string, doc: XmlDocument): XmlComment;
 };
 
 
@@ -595,7 +596,12 @@ export const XmlConvert: {
 
 export type XmlConvert = XmlConvert$instance;
 
-export interface XmlDataDocument$instance extends XmlDocument$instance {
+export abstract class XmlDataDocument$protected {
+    protected CreateNavigator2(node: XmlNode): XPathNavigator | undefined;
+}
+
+
+export interface XmlDataDocument$instance extends XmlDataDocument$protected, XmlDocument$instance {
     readonly DataSet: DataSet;
     Clone(): unknown;
     Clone(): XmlNode;
@@ -641,7 +647,7 @@ export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
     readonly NodeType: XmlNodeType;
     Standalone: string;
     Value: string;
-    readonly Version: string;
+    Version: string;
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -653,7 +659,7 @@ export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
 
 
 export const XmlDeclaration: {
-    new(): XmlDeclaration;
+    new(version: string, encoding: string, standalone: string, doc: XmlDocument): XmlDeclaration;
 };
 
 
@@ -688,7 +694,12 @@ export interface __XmlDictionary$views {
 export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 
 
-export interface XmlDictionaryReader$instance extends XmlReader$instance {
+export abstract class XmlDictionaryReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface XmlDictionaryReader$instance extends XmlDictionaryReader$protected, XmlReader$instance {
     readonly CanCanonicalize: boolean;
     readonly Quotas: XmlDictionaryReaderQuotas;
     Dispose(): void;
@@ -803,6 +814,7 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
 
 
 export const XmlDictionaryReader: {
+    new(): XmlDictionaryReader;
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
@@ -871,7 +883,13 @@ export const XmlDictionaryString: {
 
 export type XmlDictionaryString = XmlDictionaryString$instance;
 
-export interface XmlDictionaryWriter$instance extends XmlWriter$instance {
+export abstract class XmlDictionaryWriter$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected WriteTextNode(reader: XmlDictionaryReader, isAttribute: boolean): void;
+}
+
+
+export interface XmlDictionaryWriter$instance extends XmlDictionaryWriter$protected, XmlWriter$instance {
     readonly CanCanonicalize: boolean;
     Close(): void;
     Dispose(): void;
@@ -938,6 +956,7 @@ export interface XmlDictionaryWriter$instance extends XmlWriter$instance {
 
 
 export const XmlDictionaryWriter: {
+    new(): XmlDictionaryWriter;
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
@@ -959,7 +978,13 @@ export interface __XmlDictionaryWriter$views {
 export type XmlDictionaryWriter = XmlDictionaryWriter$instance & __XmlDictionaryWriter$views;
 
 
-export interface XmlDocument$instance extends XmlNode$instance {
+export abstract class XmlDocument$protected {
+    protected CreateDefaultAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
+    protected CreateNavigator(node: XmlNode): XPathNavigator | undefined;
+}
+
+
+export interface XmlDocument$instance extends XmlDocument$protected, XmlNode$instance {
     readonly BaseURI: string;
     readonly DocumentElement: XmlElement | undefined;
     readonly DocumentType: XmlDocumentType | undefined;
@@ -1025,6 +1050,7 @@ export interface XmlDocument$instance extends XmlNode$instance {
 export const XmlDocument: {
     new(): XmlDocument;
     new(nt: XmlNameTable): XmlDocument;
+    new(imp: XmlImplementation): XmlDocument;
 };
 
 
@@ -1055,7 +1081,7 @@ export interface XmlDocumentFragment$instance extends XmlNode$instance {
 
 
 export const XmlDocumentFragment: {
-    new(): XmlDocumentFragment;
+    new(ownerDocument: XmlDocument): XmlDocumentFragment;
 };
 
 
@@ -1089,7 +1115,7 @@ export interface XmlDocumentType$instance extends XmlLinkedNode$instance {
 
 
 export const XmlDocumentType: {
-    new(): XmlDocumentType;
+    new(name: string, publicId: string, systemId: string, internalSubset: string, doc: XmlDocument): XmlDocumentType;
 };
 
 
@@ -1147,7 +1173,7 @@ export interface XmlElement$instance extends XmlLinkedNode$instance {
 
 
 export const XmlElement: {
-    new(): XmlElement;
+    new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument): XmlElement;
 };
 
 
@@ -1214,7 +1240,7 @@ export interface XmlEntityReference$instance extends XmlLinkedNode$instance {
 
 
 export const XmlEntityReference: {
-    new(): XmlEntityReference;
+    new(name: string, doc: XmlDocument): XmlEntityReference;
 };
 
 
@@ -1237,6 +1263,7 @@ export interface XmlException$instance extends SystemException {
 
 
 export const XmlException: {
+    new(info: SerializationInfo, context: StreamingContext): XmlException;
     new(): XmlException;
     new(message: string): XmlException;
     new(message: string, innerException: Exception): XmlException;
@@ -1353,6 +1380,7 @@ export interface XmlNameTable$instance {
 
 
 export const XmlNameTable: {
+    new(): XmlNameTable;
 };
 
 
@@ -1439,7 +1467,12 @@ export const XmlNodeChangedEventArgs: {
 
 export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
-export interface XmlNodeList$instance {
+export abstract class XmlNodeList$protected {
+    protected PrivateDisposeNodeList(): void;
+}
+
+
+export interface XmlNodeList$instance extends XmlNodeList$protected {
     readonly Count: int;
     readonly ItemOf: XmlNode | undefined;
     GetEnumerator(): IEnumerator;
@@ -1448,6 +1481,7 @@ export interface XmlNodeList$instance {
 
 
 export const XmlNodeList: {
+    new(): XmlNodeList;
 };
 
 
@@ -1461,7 +1495,12 @@ export interface XmlNodeList$instance extends System_Collections_Internal.IEnume
 export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
 
 
-export interface XmlNodeReader$instance extends XmlReader$instance {
+export abstract class XmlNodeReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface XmlNodeReader$instance extends XmlNodeReader$protected, XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1597,7 +1636,7 @@ export interface XmlProcessingInstruction$instance extends XmlLinkedNode$instanc
 
 
 export const XmlProcessingInstruction: {
-    new(): XmlProcessingInstruction;
+    new(target: string, data: string, doc: XmlDocument): XmlProcessingInstruction;
 };
 
 
@@ -1612,8 +1651,8 @@ export type XmlProcessingInstruction = XmlProcessingInstruction$instance & __Xml
 
 export interface XmlQualifiedName$instance {
     readonly IsEmpty: boolean;
-    readonly Name: string;
-    readonly Namespace: string;
+    Name: string;
+    Namespace: string;
     Equals(other: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1631,7 +1670,12 @@ export const XmlQualifiedName: {
 
 export type XmlQualifiedName = XmlQualifiedName$instance;
 
-export interface XmlReader$instance {
+export abstract class XmlReader$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface XmlReader$instance extends XmlReader$protected {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1754,6 +1798,7 @@ export interface XmlReader$instance {
 
 
 export const XmlReader: {
+    new(): XmlReader;
     Create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
     Create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
     Create(input: Stream, settings: XmlReaderSettings): XmlReader;
@@ -1774,8 +1819,6 @@ export const XmlReader: {
 export interface __XmlReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlReader$instance extends System_Internal.IDisposable$instance {}
 
 export type XmlReader = XmlReader$instance & __XmlReader$views;
 
@@ -1821,6 +1864,7 @@ export interface XmlResolver$instance {
 
 
 export const XmlResolver: {
+    new(): XmlResolver;
     readonly FileSystemResolver: XmlResolver;
     readonly ThrowingResolver: XmlResolver;
 };
@@ -1862,7 +1906,7 @@ export interface XmlSignificantWhitespace$instance extends XmlCharacterData$inst
 
 
 export const XmlSignificantWhitespace: {
-    new(): XmlSignificantWhitespace;
+    new(strData: string, doc: XmlDocument): XmlSignificantWhitespace;
 };
 
 
@@ -1894,7 +1938,7 @@ export interface XmlText$instance extends XmlCharacterData$instance {
 
 
 export const XmlText: {
-    new(): XmlText;
+    new(strData: string, doc: XmlDocument): XmlText;
 };
 
 
@@ -1907,7 +1951,12 @@ export interface __XmlText$views {
 export type XmlText = XmlText$instance & __XmlText$views;
 
 
-export interface XmlTextReader$instance extends XmlReader$instance {
+export abstract class XmlTextReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface XmlTextReader$instance extends XmlTextReader$protected, XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1971,6 +2020,8 @@ export interface XmlTextReader$instance extends XmlReader$instance {
 
 
 export const XmlTextReader: {
+    new(): XmlTextReader;
+    new(nt: XmlNameTable): XmlTextReader;
     new(input: Stream): XmlTextReader;
     new(url: string, input: Stream): XmlTextReader;
     new(input: Stream, nt: XmlNameTable): XmlTextReader;
@@ -1997,7 +2048,12 @@ export interface XmlTextReader$instance extends IXmlLineInfo$instance {}
 export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
 
-export interface XmlTextWriter$instance extends XmlWriter$instance {
+export abstract class XmlTextWriter$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface XmlTextWriter$instance extends XmlTextWriter$protected, XmlWriter$instance {
     readonly BaseStream: Stream;
     Formatting: Formatting;
     Indentation: int;
@@ -2077,7 +2133,12 @@ export const XmlUrlResolver: {
 
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
-export interface XmlValidatingReader$instance extends XmlReader$instance {
+export abstract class XmlValidatingReader$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface XmlValidatingReader$instance extends XmlValidatingReader$protected, XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -2169,7 +2230,7 @@ export interface XmlWhitespace$instance extends XmlCharacterData$instance {
 
 
 export const XmlWhitespace: {
-    new(): XmlWhitespace;
+    new(strData: string, doc: XmlDocument): XmlWhitespace;
 };
 
 
@@ -2182,7 +2243,15 @@ export interface __XmlWhitespace$views {
 export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
 
-export interface XmlWriter$instance {
+export abstract class XmlWriter$protected {
+    protected Dispose(disposing: boolean): void;
+    protected DisposeAsyncCore(): ValueTask;
+    protected WriteEndAttributeAsync(): Task;
+    protected WriteStartAttributeAsync(prefix: string, localName: string, ns: string): Task;
+}
+
+
+export interface XmlWriter$instance extends XmlWriter$protected {
     readonly Settings: XmlWriterSettings | undefined;
     readonly WriteState: WriteState;
     readonly XmlLang: string;
@@ -2273,6 +2342,7 @@ export interface XmlWriter$instance {
 
 
 export const XmlWriter: {
+    new(): XmlWriter;
     Create(output: Stream, settings: XmlWriterSettings): XmlWriter;
     Create(output: Stream): XmlWriter;
     Create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
@@ -2291,7 +2361,7 @@ export interface __XmlWriter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface XmlWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface XmlWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type XmlWriter = XmlWriter$instance & __XmlWriter$views;
 
@@ -2310,7 +2380,7 @@ export interface XmlWriterSettings$instance {
     NewLineHandling: NewLineHandling;
     NewLineOnAttributes: boolean;
     OmitXmlDeclaration: boolean;
-    readonly OutputMethod: XmlOutputMethod;
+    OutputMethod: XmlOutputMethod;
     WriteEndDocumentOnClose: boolean;
     Clone(): XmlWriterSettings;
     Reset(): void;

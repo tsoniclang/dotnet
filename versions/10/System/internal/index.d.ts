@@ -31,7 +31,7 @@ import type { FirstChanceExceptionEventArgs } from "../../System.Runtime.Excepti
 import type { StructLayoutAttribute } from "../../System.Runtime.InteropServices/internal/index.js";
 import type { ObjectHandle } from "../../System.Runtime.Remoting/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
-import type { IDeserializationCallback, IObjectReference, ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
+import type { IDeserializationCallback, IObjectReference, ISerializable, SafeSerializationEventArgs, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { IPrincipal, PrincipalPolicy } from "../../System.Security.Principal/internal/index.js";
 import type { PermissionSet } from "../../System.Security/internal/index.js";
 import type { CompositeFormat, Encoding, NormalizationForm, SpanLineEnumerator, SpanRuneEnumerator, StringRuneEnumerator } from "../../System.Text/internal/index.js";
@@ -1814,9 +1814,9 @@ export type Double = number & Double$instance & __Double$views;
 
 
 export interface Environment_ProcessCpuUsage$instance {
-    readonly PrivilegedTime: TimeSpan;
+    PrivilegedTime: TimeSpan;
     readonly TotalTime: TimeSpan;
-    readonly UserTime: TimeSpan;
+    UserTime: TimeSpan;
 }
 
 
@@ -4492,6 +4492,7 @@ export const AccessViolationException: {
     new(): AccessViolationException;
     new(message: string): AccessViolationException;
     new(message: string, innerException: Exception): AccessViolationException;
+    new(info: SerializationInfo, context: StreamingContext): AccessViolationException;
 };
 
 
@@ -4521,6 +4522,7 @@ export const AggregateException: {
     new(innerExceptions: Exception[]): AggregateException;
     new(message: string, innerExceptions: IEnumerable_1<Exception>): AggregateException;
     new(message: string, innerExceptions: Exception[]): AggregateException;
+    new(info: SerializationInfo, context: StreamingContext): AggregateException;
 };
 
 
@@ -4623,6 +4625,7 @@ export const AppDomainUnloadedException: {
     new(): AppDomainUnloadedException;
     new(message: string): AppDomainUnloadedException;
     new(message: string, innerException: Exception): AppDomainUnloadedException;
+    new(info: SerializationInfo, context: StreamingContext): AppDomainUnloadedException;
 };
 
 
@@ -4642,6 +4645,7 @@ export const ApplicationException: {
     new(): ApplicationException;
     new(message: string): ApplicationException;
     new(message: string, innerException: Exception): ApplicationException;
+    new(info: SerializationInfo, context: StreamingContext): ApplicationException;
 };
 
 
@@ -4685,6 +4689,7 @@ export const ArgumentException: {
     new(message: string, innerException: Exception): ArgumentException;
     new(message: string, paramName: string, innerException: Exception): ArgumentException;
     new(message: string, paramName: string): ArgumentException;
+    new(info: SerializationInfo, context: StreamingContext): ArgumentException;
     ThrowIfNullOrEmpty(argument: string, paramName?: string): void;
     ThrowIfNullOrWhiteSpace(argument: string, paramName?: string): void;
 };
@@ -4707,6 +4712,7 @@ export const ArgumentNullException: {
     new(paramName: string): ArgumentNullException;
     new(message: string, innerException: Exception): ArgumentNullException;
     new(paramName: string, message: string): ArgumentNullException;
+    new(info: SerializationInfo, context: StreamingContext): ArgumentNullException;
     ThrowIfNull(argument: unknown, paramName?: string): void;
     ThrowIfNull(argument: ptr<void>, paramName?: string): void;
 };
@@ -4732,6 +4738,7 @@ export const ArgumentOutOfRangeException: {
     new(paramName: string, message: string): ArgumentOutOfRangeException;
     new(message: string, innerException: Exception): ArgumentOutOfRangeException;
     new(paramName: string, actualValue: unknown, message: string): ArgumentOutOfRangeException;
+    new(info: SerializationInfo, context: StreamingContext): ArgumentOutOfRangeException;
     ThrowIfEqual<T>(value: T, other: T, paramName?: string): void;
     ThrowIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
     ThrowIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
@@ -4760,6 +4767,7 @@ export const ArithmeticException: {
     new(): ArithmeticException;
     new(message: string): ArithmeticException;
     new(message: string, innerException: Exception): ArithmeticException;
+    new(info: SerializationInfo, context: StreamingContext): ArithmeticException;
 };
 
 
@@ -4909,6 +4917,7 @@ export const ArrayTypeMismatchException: {
     new(): ArrayTypeMismatchException;
     new(message: string): ArrayTypeMismatchException;
     new(message: string, innerException: Exception): ArrayTypeMismatchException;
+    new(info: SerializationInfo, context: StreamingContext): ArrayTypeMismatchException;
 };
 
 
@@ -4941,6 +4950,7 @@ export interface Attribute$instance {
 
 
 export const Attribute: {
+    new(): Attribute;
     GetCustomAttribute(element: Assembly, attributeType: Type, inherit: boolean): Attribute | undefined;
     GetCustomAttribute(element: Assembly, attributeType: Type): Attribute | undefined;
     GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute | undefined;
@@ -5007,6 +5017,7 @@ export const BadImageFormatException: {
     new(message: string, inner: Exception): BadImageFormatException;
     new(message: string, fileName: string): BadImageFormatException;
     new(message: string, fileName: string, inner: Exception): BadImageFormatException;
+    new(info: SerializationInfo, context: StreamingContext): BadImageFormatException;
 };
 
 
@@ -5026,6 +5037,7 @@ export const CannotUnloadAppDomainException: {
     new(): CannotUnloadAppDomainException;
     new(message: string): CannotUnloadAppDomainException;
     new(message: string, innerException: Exception): CannotUnloadAppDomainException;
+    new(info: SerializationInfo, context: StreamingContext): CannotUnloadAppDomainException;
 };
 
 
@@ -5091,6 +5103,7 @@ export interface ContextBoundObject$instance extends MarshalByRefObject {
 
 
 export const ContextBoundObject: {
+    new(): ContextBoundObject;
 };
 
 
@@ -5105,6 +5118,7 @@ export const ContextMarshalException: {
     new(): ContextMarshalException;
     new(message: string): ContextMarshalException;
     new(message: string, inner: Exception): ContextMarshalException;
+    new(info: SerializationInfo, context: StreamingContext): ContextMarshalException;
 };
 
 
@@ -5202,7 +5216,15 @@ export interface DBNull$instance extends System_Runtime_Serialization_Internal.I
 export type DBNull = DBNull$instance & __DBNull$views;
 
 
-export interface Delegate$instance {
+export abstract class Delegate$protected {
+    protected CombineImpl(d: Function): Function;
+    protected DynamicInvokeImpl(args: unknown[]): unknown | undefined;
+    protected GetMethodImpl(): MethodInfo;
+    protected RemoveImpl(d: Function): Function | undefined;
+}
+
+
+export interface Delegate$instance extends Delegate$protected {
     readonly HasSingleTarget: boolean;
     readonly Method: MethodInfo;
     readonly Target: unknown;
@@ -5216,6 +5238,8 @@ export interface Delegate$instance {
 
 
 export const Delegate: {
+    new(target: unknown, method: string): Delegate;
+    new(target: Type, method: string): Delegate;
     Combine(a: Function, b: Function): Function | undefined;
     Combine(...delegates: Function[]): Function | undefined;
     Combine(delegates: ReadOnlySpan_1<Function>): Function | undefined;
@@ -5254,6 +5278,7 @@ export const DivideByZeroException: {
     new(): DivideByZeroException;
     new(message: string): DivideByZeroException;
     new(message: string, innerException: Exception): DivideByZeroException;
+    new(info: SerializationInfo, context: StreamingContext): DivideByZeroException;
 };
 
 
@@ -5273,6 +5298,7 @@ export const DllNotFoundException: {
     new(): DllNotFoundException;
     new(message: string): DllNotFoundException;
     new(message: string, inner: Exception): DllNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): DllNotFoundException;
 };
 
 
@@ -5293,6 +5319,7 @@ export const DuplicateWaitObjectException: {
     new(parameterName: string): DuplicateWaitObjectException;
     new(parameterName: string, message: string): DuplicateWaitObjectException;
     new(message: string, innerException: Exception): DuplicateWaitObjectException;
+    new(info: SerializationInfo, context: StreamingContext): DuplicateWaitObjectException;
 };
 
 
@@ -5312,6 +5339,7 @@ export const EntryPointNotFoundException: {
     new(): EntryPointNotFoundException;
     new(message: string): EntryPointNotFoundException;
     new(message: string, inner: Exception): EntryPointNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): EntryPointNotFoundException;
 };
 
 
@@ -5336,6 +5364,7 @@ export interface Enum$instance {
 
 
 export const Enum: {
+    new(): Enum;
     Format(enumType: Type, value: unknown, format: string): string;
     GetName(enumType: Type, value: unknown): string | undefined;
     GetName<TEnum extends number>(value: TEnum): string | undefined;
@@ -5425,6 +5454,7 @@ export const Exception: {
     new(): Exception;
     new(message: string): Exception;
     new(message: string, innerException: Exception): Exception;
+    new(info: SerializationInfo, context: StreamingContext): Exception;
 };
 
 
@@ -5465,6 +5495,7 @@ export const FieldAccessException: {
     new(): FieldAccessException;
     new(message: string): FieldAccessException;
     new(message: string, inner: Exception): FieldAccessException;
+    new(info: SerializationInfo, context: StreamingContext): FieldAccessException;
 };
 
 
@@ -5506,6 +5537,7 @@ export const FormatException: {
     new(): FormatException;
     new(message: string): FormatException;
     new(message: string, innerException: Exception): FormatException;
+    new(info: SerializationInfo, context: StreamingContext): FormatException;
 };
 
 
@@ -5527,6 +5559,7 @@ export interface FormattableString$instance {
 
 
 export const FormattableString: {
+    new(): FormattableString;
     CurrentCulture(formattable: FormattableString): string;
     Invariant(formattable: FormattableString): string;
 };
@@ -5650,6 +5683,7 @@ export const InvalidCastException: {
     new(message: string): InvalidCastException;
     new(message: string, innerException: Exception): InvalidCastException;
     new(message: string, errorCode: int): InvalidCastException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidCastException;
 };
 
 
@@ -5669,6 +5703,7 @@ export const InvalidOperationException: {
     new(): InvalidOperationException;
     new(message: string): InvalidOperationException;
     new(message: string, innerException: Exception): InvalidOperationException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidOperationException;
 };
 
 
@@ -5707,6 +5742,7 @@ export const InvalidTimeZoneException: {
     new(): InvalidTimeZoneException;
     new(message: string): InvalidTimeZoneException;
     new(message: string, innerException: Exception): InvalidTimeZoneException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidTimeZoneException;
 };
 
 
@@ -5778,7 +5814,12 @@ export const LoaderOptimizationAttribute: {
 
 export type LoaderOptimizationAttribute = LoaderOptimizationAttribute$instance;
 
-export interface LocalDataStoreSlot$instance {
+export abstract class LocalDataStoreSlot$protected {
+    protected Finalize(): void;
+}
+
+
+export interface LocalDataStoreSlot$instance extends LocalDataStoreSlot$protected {
 }
 
 
@@ -5796,6 +5837,7 @@ export interface MarshalByRefObject$instance {
 
 
 export const MarshalByRefObject: {
+    new(): MarshalByRefObject;
 };
 
 
@@ -5810,6 +5852,7 @@ export const MemberAccessException: {
     new(): MemberAccessException;
     new(message: string): MemberAccessException;
     new(message: string, inner: Exception): MemberAccessException;
+    new(info: SerializationInfo, context: StreamingContext): MemberAccessException;
 };
 
 
@@ -5829,6 +5872,7 @@ export const MethodAccessException: {
     new(): MethodAccessException;
     new(message: string): MethodAccessException;
     new(message: string, inner: Exception): MethodAccessException;
+    new(info: SerializationInfo, context: StreamingContext): MethodAccessException;
 };
 
 
@@ -5850,6 +5894,7 @@ export const MissingFieldException: {
     new(message: string): MissingFieldException;
     new(message: string, inner: Exception): MissingFieldException;
     new(className: string, fieldName: string): MissingFieldException;
+    new(info: SerializationInfo, context: StreamingContext): MissingFieldException;
 };
 
 
@@ -5871,6 +5916,7 @@ export const MissingMemberException: {
     new(message: string): MissingMemberException;
     new(message: string, inner: Exception): MissingMemberException;
     new(className: string, memberName: string): MissingMemberException;
+    new(info: SerializationInfo, context: StreamingContext): MissingMemberException;
 };
 
 
@@ -5892,6 +5938,7 @@ export const MissingMethodException: {
     new(message: string): MissingMethodException;
     new(message: string, inner: Exception): MissingMethodException;
     new(className: string, methodName: string): MissingMethodException;
+    new(info: SerializationInfo, context: StreamingContext): MissingMethodException;
 };
 
 
@@ -5913,7 +5960,14 @@ export const MTAThreadAttribute: {
 
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
-export interface MulticastDelegate$instance extends Function {
+export abstract class MulticastDelegate$protected {
+    protected CombineImpl(follow: Function): Function;
+    protected GetMethodImpl(): MethodInfo;
+    protected RemoveImpl(value: Function): Function | undefined;
+}
+
+
+export interface MulticastDelegate$instance extends MulticastDelegate$protected, Function {
     Clone(): unknown;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -5923,6 +5977,8 @@ export interface MulticastDelegate$instance extends Function {
 
 
 export const MulticastDelegate: {
+    new(target: unknown, method: string): MulticastDelegate;
+    new(target: Type, method: string): MulticastDelegate;
 };
 
 
@@ -6010,6 +6066,7 @@ export const NotFiniteNumberException: {
     new(message: string, offendingNumber: double): NotFiniteNumberException;
     new(message: string, innerException: Exception): NotFiniteNumberException;
     new(message: string, offendingNumber: double, innerException: Exception): NotFiniteNumberException;
+    new(info: SerializationInfo, context: StreamingContext): NotFiniteNumberException;
 };
 
 
@@ -6029,6 +6086,7 @@ export const NotImplementedException: {
     new(): NotImplementedException;
     new(message: string): NotImplementedException;
     new(message: string, inner: Exception): NotImplementedException;
+    new(info: SerializationInfo, context: StreamingContext): NotImplementedException;
 };
 
 
@@ -6048,6 +6106,7 @@ export const NotSupportedException: {
     new(): NotSupportedException;
     new(message: string): NotSupportedException;
     new(message: string, innerException: Exception): NotSupportedException;
+    new(info: SerializationInfo, context: StreamingContext): NotSupportedException;
 };
 
 
@@ -6067,6 +6126,7 @@ export const NullReferenceException: {
     new(): NullReferenceException;
     new(message: string): NullReferenceException;
     new(message: string, innerException: Exception): NullReferenceException;
+    new(info: SerializationInfo, context: StreamingContext): NullReferenceException;
 };
 
 
@@ -6077,7 +6137,12 @@ export interface __NullReferenceException$views {
 export type NullReferenceException = NullReferenceException$instance & __NullReferenceException$views;
 
 
-export interface Object$instance {
+export abstract class Object$protected {
+    protected Finalize(): void;
+}
+
+
+export interface Object$instance extends Object$protected {
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     GetType(): Type;
@@ -6105,6 +6170,7 @@ export const ObjectDisposedException: {
     new(objectName: string): ObjectDisposedException;
     new(objectName: string, message: string): ObjectDisposedException;
     new(message: string, innerException: Exception): ObjectDisposedException;
+    new(info: SerializationInfo, context: StreamingContext): ObjectDisposedException;
     ThrowIf(condition: boolean, instance: unknown): void;
     ThrowIf(condition: boolean, type: Type): void;
 };
@@ -6183,7 +6249,7 @@ export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views
 
 
 export interface OperationCanceledException$instance extends SystemException$instance {
-    readonly CancellationToken: CancellationToken;
+    CancellationToken: CancellationToken;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6195,6 +6261,7 @@ export const OperationCanceledException: {
     new(token: CancellationToken): OperationCanceledException;
     new(message: string, token: CancellationToken): OperationCanceledException;
     new(message: string, innerException: Exception, token: CancellationToken): OperationCanceledException;
+    new(info: SerializationInfo, context: StreamingContext): OperationCanceledException;
 };
 
 
@@ -6243,6 +6310,7 @@ export const OutOfMemoryException: {
     new(): OutOfMemoryException;
     new(message: string): OutOfMemoryException;
     new(message: string, innerException: Exception): OutOfMemoryException;
+    new(info: SerializationInfo, context: StreamingContext): OutOfMemoryException;
 };
 
 
@@ -6262,6 +6330,7 @@ export const OverflowException: {
     new(): OverflowException;
     new(message: string): OverflowException;
     new(message: string, innerException: Exception): OverflowException;
+    new(info: SerializationInfo, context: StreamingContext): OverflowException;
 };
 
 
@@ -6292,6 +6361,7 @@ export const PlatformNotSupportedException: {
     new(): PlatformNotSupportedException;
     new(message: string): PlatformNotSupportedException;
     new(message: string, inner: Exception): PlatformNotSupportedException;
+    new(info: SerializationInfo, context: StreamingContext): PlatformNotSupportedException;
 };
 
 
@@ -6302,7 +6372,12 @@ export interface __PlatformNotSupportedException$views {
 export type PlatformNotSupportedException = PlatformNotSupportedException$instance & __PlatformNotSupportedException$views;
 
 
-export interface Progress_1$instance<T> {
+export abstract class Progress_1$protected<T> {
+    protected OnReport(value: T): void;
+}
+
+
+export interface Progress_1$instance<T> extends Progress_1$protected<T> {
 }
 
 
@@ -6321,7 +6396,12 @@ export interface Progress_1$instance<T> extends IProgress_1$instance<T> {}
 export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
 
 
-export interface Random$instance {
+export abstract class Random$protected {
+    protected Sample(): double;
+}
+
+
+export interface Random$instance extends Random$protected {
     GetHexString(stringLength: int, lowercase?: boolean): string;
     GetHexString(destination: Span_1<Char>, lowercase?: boolean): void;
     GetItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
@@ -6361,6 +6441,7 @@ export const RankException: {
     new(): RankException;
     new(message: string): RankException;
     new(message: string, innerException: Exception): RankException;
+    new(info: SerializationInfo, context: StreamingContext): RankException;
 };
 
 
@@ -6649,6 +6730,7 @@ export interface StringComparer$instance {
 
 
 export const StringComparer: {
+    new(): StringComparer;
     readonly InvariantCulture: StringComparer;
     readonly InvariantCultureIgnoreCase: StringComparer;
     readonly CurrentCulture: StringComparer;
@@ -6684,6 +6766,7 @@ export const SystemException: {
     new(): SystemException;
     new(message: string): SystemException;
     new(message: string, innerException: Exception): SystemException;
+    new(info: SerializationInfo, context: StreamingContext): SystemException;
 };
 
 
@@ -6714,6 +6797,7 @@ export const TimeoutException: {
     new(): TimeoutException;
     new(message: string): TimeoutException;
     new(message: string, innerException: Exception): TimeoutException;
+    new(info: SerializationInfo, context: StreamingContext): TimeoutException;
 };
 
 
@@ -6737,6 +6821,7 @@ export interface TimeProvider$instance {
 
 
 export const TimeProvider: {
+    new(): TimeProvider;
     readonly System: TimeProvider;
 };
 
@@ -6755,6 +6840,7 @@ export interface TimeZone$instance {
 
 
 export const TimeZone: {
+    new(): TimeZone;
     readonly CurrentTimeZone: TimeZone;
     IsDaylightSavingTime(time: DateTime, daylightTimes: DaylightTime): boolean;
 };
@@ -6874,6 +6960,7 @@ export const TimeZoneNotFoundException: {
     new(): TimeZoneNotFoundException;
     new(message: string): TimeZoneNotFoundException;
     new(message: string, innerException: Exception): TimeZoneNotFoundException;
+    new(info: SerializationInfo, context: StreamingContext): TimeZoneNotFoundException;
 };
 
 
@@ -7136,7 +7223,26 @@ export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends Sys
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
-export interface Type$instance extends MemberInfo {
+export abstract class Type$protected {
+    protected abstract GetAttributeFlagsImpl(): TypeAttributes;
+    protected abstract GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
+    protected abstract GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    protected GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    protected abstract GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    protected GetTypeCodeImpl(): TypeCode;
+    protected abstract HasElementTypeImpl(): boolean;
+    protected abstract IsArrayImpl(): boolean;
+    protected abstract IsByRefImpl(): boolean;
+    protected abstract IsCOMObjectImpl(): boolean;
+    protected IsContextfulImpl(): boolean;
+    protected IsMarshalByRefImpl(): boolean;
+    protected abstract IsPointerImpl(): boolean;
+    protected abstract IsPrimitiveImpl(): boolean;
+    protected IsValueTypeImpl(): boolean;
+}
+
+
+export interface Type$instance extends Type$protected, MemberInfo {
     readonly Assembly: Assembly;
     readonly AssemblyQualifiedName: string;
     readonly Attributes: TypeAttributes;
@@ -7301,6 +7407,7 @@ export interface Type$instance extends MemberInfo {
 
 
 export const Type: {
+    new(): Type;
     readonly Delimiter: char;
     readonly EmptyTypes: Type[];
     readonly Missing: unknown;
@@ -7349,6 +7456,7 @@ export const TypeAccessException: {
     new(): TypeAccessException;
     new(message: string): TypeAccessException;
     new(message: string, inner: Exception): TypeAccessException;
+    new(info: SerializationInfo, context: StreamingContext): TypeAccessException;
 };
 
 
@@ -7388,6 +7496,7 @@ export const TypeLoadException: {
     new(): TypeLoadException;
     new(message: string): TypeLoadException;
     new(message: string, inner: Exception): TypeLoadException;
+    new(info: SerializationInfo, context: StreamingContext): TypeLoadException;
 };
 
 
@@ -7407,6 +7516,7 @@ export const TypeUnloadedException: {
     new(): TypeUnloadedException;
     new(message: string): TypeUnloadedException;
     new(message: string, innerException: Exception): TypeUnloadedException;
+    new(info: SerializationInfo, context: StreamingContext): TypeUnloadedException;
 };
 
 
@@ -7426,6 +7536,7 @@ export const UnauthorizedAccessException: {
     new(): UnauthorizedAccessException;
     new(message: string): UnauthorizedAccessException;
     new(message: string, inner: Exception): UnauthorizedAccessException;
+    new(info: SerializationInfo, context: StreamingContext): UnauthorizedAccessException;
 };
 
 
@@ -7470,7 +7581,18 @@ export interface UnitySerializationHolder$instance extends System_Runtime_Serial
 export type UnitySerializationHolder = UnitySerializationHolder$instance & __UnitySerializationHolder$views;
 
 
-export interface Uri$instance {
+export abstract class Uri$protected {
+    protected Canonicalize(): void;
+    protected CheckSecurity(): void;
+    protected Escape(): void;
+    protected IsBadFileSystemCharacter(character: char): boolean;
+    protected IsReservedCharacter(character: char): boolean;
+    protected Parse(): void;
+    protected Unescape(path: string): string;
+}
+
+
+export interface Uri$instance extends Uri$protected {
     readonly AbsolutePath: string;
     readonly AbsoluteUri: string;
     readonly Authority: string;
@@ -7514,6 +7636,7 @@ export const Uri: {
     new(uriString: string, uriKind: UriKind): Uri;
     new(uriString: string, creationOptions: UriCreationOptions): Uri;
     new(baseUri: Uri, relativeUri: string): Uri;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): Uri;
     new(baseUri: Uri, relativeUri: Uri): Uri;
     readonly UriSchemeFile: string;
     readonly UriSchemeFtp: string;
@@ -7537,10 +7660,12 @@ export const Uri: {
     Compare(uri1: Uri, uri2: Uri, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
     EscapeDataString(charsToEscape: ReadOnlySpan_1<Char>): string;
     EscapeDataString(stringToEscape: string): string;
+    EscapeString(str: string): string;
     EscapeUriString(stringToEscape: string): string;
     FromHex(digit: char): int;
     HexEscape(character: char): string;
     HexUnescape(pattern: string, index: int): char;
+    IsExcludedCharacter(character: char): boolean;
     IsHexDigit(character: char): boolean;
     IsHexEncoding(pattern: string, index: int): boolean;
     IsWellFormedUriString(uriString: string, uriKind: UriKind): boolean;
@@ -7608,6 +7733,7 @@ export const UriFormatException: {
     new(): UriFormatException;
     new(textString: string): UriFormatException;
     new(textString: string, e: Exception): UriFormatException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): UriFormatException;
 };
 
 
@@ -7618,11 +7744,23 @@ export interface __UriFormatException$views {
 export type UriFormatException = UriFormatException$instance & __UriFormatException$views;
 
 
-export interface UriParser$instance {
+export abstract class UriParser$protected {
+    protected GetComponents(uri: Uri, components: UriComponents, format: UriFormat): string;
+    protected InitializeAndValidate(uri: Uri, parsingError: UriFormatException): void;
+    protected IsBaseOf(baseUri: Uri, relativeUri: Uri): boolean;
+    protected IsWellFormedOriginalString(uri: Uri): boolean;
+    protected OnNewUri(): UriParser;
+    protected OnRegister(schemeName: string, defaultPort: int): void;
+    protected Resolve(baseUri: Uri, relativeUri: Uri, parsingError: UriFormatException): string | undefined;
+}
+
+
+export interface UriParser$instance extends UriParser$protected {
 }
 
 
 export const UriParser: {
+    new(): UriParser;
     IsKnownScheme(schemeName: string): boolean;
     Register(uriParser: UriParser, schemeName: string, defaultPort: int): void;
 };
@@ -7659,6 +7797,7 @@ export interface ValueType$instance {
 
 
 export const ValueType: {
+    new(): ValueType;
 };
 
 
@@ -7722,7 +7861,12 @@ export interface Version$instance extends ICloneable$instance, IComparable$insta
 export type Version = Version$instance & __Version$views;
 
 
-export interface WeakReference$instance {
+export abstract class WeakReference$protected {
+    protected Finalize(): void;
+}
+
+
+export interface WeakReference$instance extends WeakReference$protected {
     readonly IsAlive: boolean;
     Target: unknown;
     readonly TrackResurrection: boolean;
@@ -7733,6 +7877,7 @@ export interface WeakReference$instance {
 export const WeakReference: {
     new(target: unknown): WeakReference;
     new(target: unknown, trackResurrection: boolean): WeakReference;
+    new(info: SerializationInfo, context: StreamingContext): WeakReference;
 };
 
 
@@ -7745,7 +7890,12 @@ export interface WeakReference$instance extends System_Runtime_Serialization_Int
 export type WeakReference = WeakReference$instance & __WeakReference$views;
 
 
-export interface WeakReference_1$instance<T> {
+export abstract class WeakReference_1$protected<T> {
+    protected Finalize(): void;
+}
+
+
+export interface WeakReference_1$instance<T> extends WeakReference_1$protected<T> {
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     SetTarget(target: T): void;
     TryGetTarget(target: T): boolean;

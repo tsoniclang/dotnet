@@ -17,7 +17,7 @@ import type { Assembly, MethodBase } from "../../System.Reflection/internal/inde
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Version, Void } from "../../System/internal/index.js";
 
 export enum UltimateResourceFallbackLocation {
     MainAssembly = 0,
@@ -59,6 +59,7 @@ export const MissingManifestResourceException: {
     new(): MissingManifestResourceException;
     new(message: string): MissingManifestResourceException;
     new(message: string, inner: Exception): MissingManifestResourceException;
+    new(info: SerializationInfo, context: StreamingContext): MissingManifestResourceException;
 };
 
 
@@ -80,6 +81,7 @@ export const MissingSatelliteAssemblyException: {
     new(message: string): MissingSatelliteAssemblyException;
     new(message: string, cultureName: string): MissingSatelliteAssemblyException;
     new(message: string, inner: Exception): MissingSatelliteAssemblyException;
+    new(info: SerializationInfo, context: StreamingContext): MissingSatelliteAssemblyException;
 };
 
 
@@ -104,7 +106,13 @@ export const NeutralResourcesLanguageAttribute: {
 
 export type NeutralResourcesLanguageAttribute = NeutralResourcesLanguageAttribute$instance;
 
-export interface ResourceManager$instance {
+export abstract class ResourceManager$protected {
+    protected GetResourceFileName(culture: CultureInfo): string;
+    protected InternalGetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | undefined;
+}
+
+
+export interface ResourceManager$instance extends ResourceManager$protected {
     readonly BaseName: string;
     IgnoreCase: boolean;
     readonly ResourceSetType: Type;
@@ -120,12 +128,15 @@ export interface ResourceManager$instance {
 
 
 export const ResourceManager: {
+    new(): ResourceManager;
     new(baseName: string, assembly: Assembly): ResourceManager;
     new(baseName: string, assembly: Assembly, usingResourceSet: Type): ResourceManager;
     new(resourceSource: Type): ResourceManager;
     readonly MagicNumber: int;
     readonly HeaderVersionNumber: int;
     CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
+    GetNeutralResourcesLanguage(a: Assembly): CultureInfo;
+    GetSatelliteContractVersion(a: Assembly): Version | undefined;
 };
 
 
@@ -154,7 +165,13 @@ export interface __ResourceReader$views {
 export type ResourceReader = ResourceReader$instance & __ResourceReader$views;
 
 
-export interface ResourceSet$instance {
+export abstract class ResourceSet$protected {
+    protected Dispose(disposing: boolean): void;
+    protected ReadResources(): void;
+}
+
+
+export interface ResourceSet$instance extends ResourceSet$protected {
     Close(): void;
     Dispose(): void;
     GetDefaultReader(): Type;
@@ -168,6 +185,7 @@ export interface ResourceSet$instance {
 
 
 export const ResourceSet: {
+    new(): ResourceSet;
     new(fileName: string): ResourceSet;
     new(stream: Stream): ResourceSet;
     new(reader: IResourceReader): ResourceSet;
@@ -178,8 +196,6 @@ export interface __ResourceSet$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ResourceSet$instance extends System_Internal.IDisposable$instance {}
 
 export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 

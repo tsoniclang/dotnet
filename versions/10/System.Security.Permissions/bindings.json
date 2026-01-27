@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.PermissionState",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.PermissionState",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.PermissionState",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -98,16 +101,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -121,6 +124,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -132,6 +136,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -209,6 +220,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -220,6 +232,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAction",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -248,16 +261,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -271,6 +284,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -304,6 +320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -315,6 +332,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -348,6 +368,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -359,6 +380,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -370,6 +392,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -381,6 +404,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -392,6 +416,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -403,6 +428,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -414,6 +440,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -425,6 +452,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -436,6 +464,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -447,6 +476,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -473,7 +503,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Security.Permissions.CodeAccessSecurityAttribute::.ctor(System.Security.Permissions.SecurityAction):void",
+          "metadataToken": 100674273,
+          "canonicalSignature": "(System.Security.Permissions.SecurityAction):void",
+          "normalizedSignature": "constructor|(System.Security.Permissions.SecurityAction):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Security.Permissions.CodeAccessSecurityAttribute",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute",
@@ -506,6 +548,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAttribute",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -527,6 +570,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -545,13 +589,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::.ctor(System.Security.Permissions.SecurityAction):void",
+          "metadataToken": 100674274,
+          "canonicalSignature": "(System.Security.Permissions.SecurityAction):void",
+          "normalizedSignature": "constructor|(System.Security.Permissions.SecurityAction):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Security.Permissions.SecurityAttribute",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute",
@@ -584,6 +641,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -605,6 +663,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -623,6 +682,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -641,6 +701,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -659,6 +720,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -677,6 +739,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -695,6 +758,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -713,6 +777,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -731,6 +796,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -749,6 +815,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -767,6 +834,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -785,6 +853,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -803,6 +872,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -821,6 +891,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -839,6 +910,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -857,6 +929,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -871,6 +944,7 @@
           "normalizedSignature": "constructor|(System.Security.Permissions.SecurityAction):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

@@ -86,7 +86,12 @@ export const AssemblyTargetedPatchBandAttribute: {
 
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
-export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
+export abstract class MemoryFailPoint$protected {
+    protected Finalize(): void;
+}
+
+
+export interface MemoryFailPoint$instance extends MemoryFailPoint$protected, CriticalFinalizerObject {
     Dispose(): void;
 }
 

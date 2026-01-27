@@ -9,7 +9,7 @@ import * as Internal from './System.Security.Cryptography.X509Certificates/inter
 import type { SafeX509ChainHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { IEnumerable_1, IEnumerator_1 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
-import type { CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { ArrayList, CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { UniversalTagNumber } from './System.Formats.Asn1/internal/index.js';
 import type { IPAddress } from './System.Net/internal/index.js';
 import type { BigInteger } from './System.Numerics/internal/index.js';

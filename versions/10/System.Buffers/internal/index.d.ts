@@ -14,7 +14,7 @@ import type { GCHandle } from "../../System.Runtime.InteropServices/internal/ind
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SequencePosition, Span_1, String as ClrString, StringComparison, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SequencePosition, Span_1, String as ClrString, StringComparison, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum OperationStatus {
     Done = 0,
@@ -128,9 +128,9 @@ export const ReadOnlySequence_1_Enumerator: {
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
 export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
-    readonly Consumed: long;
-    readonly CurrentSpan: ReadOnlySpan_1<T>;
-    readonly CurrentSpanIndex: int;
+    Consumed: long;
+    CurrentSpan: ReadOnlySpan_1<T>;
+    CurrentSpanIndex: int;
     readonly End: boolean;
     readonly Length: long;
     readonly Position: SequencePosition;
@@ -241,6 +241,7 @@ export interface ArrayPool_1$instance<T> {
 
 
 export const ArrayPool_1: {
+    new<T>(): ArrayPool_1<T>;
     readonly Shared: unknown;
     Create<T>(): ArrayPool_1<T>;
     Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
@@ -249,7 +250,13 @@ export const ArrayPool_1: {
 
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
-export interface MemoryManager_1$instance<T> {
+export abstract class MemoryManager_1$protected<T> {
+    protected abstract Dispose(disposing: boolean): void;
+    protected TryGetArray(segment: ArraySegment_1<T>): boolean;
+}
+
+
+export interface MemoryManager_1$instance<T> extends MemoryManager_1$protected<T> {
     readonly Memory: Memory_1<T>;
     GetSpan(): Span_1<T>;
     Pin(elementIndex?: int): MemoryHandle;
@@ -258,6 +265,7 @@ export interface MemoryManager_1$instance<T> {
 
 
 export const MemoryManager_1: {
+    new<T>(): MemoryManager_1<T>;
 };
 
 
@@ -267,12 +275,15 @@ export interface __MemoryManager_1$views<T> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface MemoryManager_1$instance<T> extends IMemoryOwner_1$instance<T> {}
-
 export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
 
 
-export interface MemoryPool_1$instance<T> {
+export abstract class MemoryPool_1$protected<T> {
+    protected abstract Dispose(disposing: boolean): void;
+}
+
+
+export interface MemoryPool_1$instance<T> extends MemoryPool_1$protected<T> {
     readonly MaxBufferSize: int;
     Dispose(): void;
     Rent(minBufferSize?: int): IMemoryOwner_1<T>;
@@ -280,6 +291,7 @@ export interface MemoryPool_1$instance<T> {
 
 
 export const MemoryPool_1: {
+    new<T>(): MemoryPool_1<T>;
     readonly Shared: unknown;
 };
 
@@ -288,19 +300,19 @@ export interface __MemoryPool_1$views<T> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface MemoryPool_1$instance<T> extends System_Internal.IDisposable$instance {}
-
 export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>;
 
 
 export interface ReadOnlySequenceSegment_1$instance<T> {
-    readonly Memory: ReadOnlyMemory_1<T>;
-    readonly Next: ReadOnlySequenceSegment_1<T> | undefined;
-    readonly RunningIndex: long;
+    Memory: ReadOnlyMemory_1<T>;
+    get Next(): ReadOnlySequenceSegment_1<T> | undefined;
+    set Next(value: ReadOnlySequenceSegment_1<T>);
+    RunningIndex: long;
 }
 
 
 export const ReadOnlySequenceSegment_1: {
+    new<T>(): ReadOnlySequenceSegment_1<T>;
 };
 
 

@@ -27,16 +27,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -50,6 +50,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -61,6 +62,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -72,6 +74,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -83,6 +86,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBindingKind",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -111,16 +115,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -134,6 +138,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -145,6 +150,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -156,6 +162,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -167,6 +174,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.PolicyEnforcement",
           "declaringAssemblyName": "System.Net.Security"
         }
@@ -195,16 +203,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -218,6 +226,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -229,6 +238,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -240,6 +250,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ProtectionScenario",
           "declaringAssemblyName": "System.Net.Security"
         }
@@ -284,6 +295,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -304,6 +316,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "declaringAssemblyName": "System.Net.Primitives",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -325,13 +358,37 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
           "declaringAssemblyName": "System.Net.Primitives"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::.ctor():void",
+          "metadataToken": 100663356,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "declaringAssemblyName": "System.Net.Primitives"
+        },
+        {
+          "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::.ctor(System.Boolean):void",
+          "metadataToken": 100663357,
+          "canonicalSignature": "(System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
+          "declaringAssemblyName": "System.Net.Primitives"
+        }
+      ]
     },
     {
       "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
@@ -370,6 +427,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -389,6 +447,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -411,6 +470,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -429,6 +489,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -447,6 +508,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -465,6 +527,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -483,6 +546,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         }
@@ -497,6 +561,7 @@
           "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Security.Authentication.ExtendedProtection.ServiceNameCollection):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -507,6 +572,7 @@
           "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ProtectionScenario,System.Collections.ICollection):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -517,6 +583,7 @@
           "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ChannelBinding):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -527,6 +594,18 @@
           "normalizedSignature": "constructor|(System.Security.Authentication.ExtendedProtection.PolicyEnforcement):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
+          "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100664785,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
           "declaringAssemblyName": "System.Net.Security"
         }
@@ -563,6 +642,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -582,6 +662,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -601,6 +682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -620,6 +702,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -636,6 +719,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -682,6 +766,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -701,6 +786,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -720,6 +806,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -739,6 +826,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -759,6 +847,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -779,6 +868,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -798,6 +888,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -819,6 +910,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -838,6 +930,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -857,6 +950,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -872,6 +966,7 @@
           "normalizedSignature": "constructor|(System.Collections.ICollection):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "declaringAssemblyName": "System.Net.Security"
         }

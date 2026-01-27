@@ -579,6 +579,7 @@ export interface Assembly$instance {
 
 
 export const Assembly: {
+    new(): Assembly;
     CreateQualifiedName(assemblyName: string, typeName: string): string;
     GetAssembly(type: Type): Assembly | undefined;
     GetCallingAssembly(): Assembly;
@@ -913,6 +914,7 @@ export interface Binder$instance {
 
 
 export const Binder: {
+    new(): Binder;
 };
 
 
@@ -931,6 +933,7 @@ export interface ConstructorInfo$instance extends MethodBase$instance {
 
 
 export const ConstructorInfo: {
+    new(): ConstructorInfo;
     readonly ConstructorName: string;
     readonly TypeConstructorName: string;
 };
@@ -990,6 +993,7 @@ export const CustomAttributeFormatException: {
     new(): CustomAttributeFormatException;
     new(message: string): CustomAttributeFormatException;
     new(message: string, inner: Exception): CustomAttributeFormatException;
+    new(info: SerializationInfo, context: StreamingContext): CustomAttributeFormatException;
 };
 
 
@@ -1012,11 +1016,17 @@ export const DefaultMemberAttribute: {
 
 export type DefaultMemberAttribute = DefaultMemberAttribute$instance;
 
-export interface DispatchProxy$instance {
+export abstract class DispatchProxy$protected {
+    protected abstract Invoke(targetMethod: MethodInfo, args: unknown[]): unknown | undefined;
+}
+
+
+export interface DispatchProxy$instance extends DispatchProxy$protected {
 }
 
 
 export const DispatchProxy: {
+    new(): DispatchProxy;
     Create<T, TProxy extends DispatchProxy>(): T;
     Create(interfaceType: Type, proxyType: Type): unknown;
 };
@@ -1052,6 +1062,7 @@ export interface EventInfo$instance extends MemberInfo$instance {
 
 
 export const EventInfo: {
+    new(): EventInfo;
 };
 
 
@@ -1119,6 +1130,7 @@ export interface FieldInfo$instance extends MemberInfo$instance {
 
 
 export const FieldInfo: {
+    new(): FieldInfo;
     GetFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
     GetFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
 };
@@ -1140,6 +1152,7 @@ export const InvalidFilterCriteriaException: {
     new(): InvalidFilterCriteriaException;
     new(message: string): InvalidFilterCriteriaException;
     new(message: string, inner: Exception): InvalidFilterCriteriaException;
+    new(info: SerializationInfo, context: StreamingContext): InvalidFilterCriteriaException;
 };
 
 
@@ -1199,6 +1212,7 @@ export interface MemberInfo$instance {
 
 
 export const MemberInfo: {
+    new(): MemberInfo;
 };
 
 
@@ -1251,6 +1265,7 @@ export interface MethodBase$instance extends MemberInfo$instance {
 
 
 export const MethodBase: {
+    new(): MethodBase;
     GetCurrentMethod(): MethodBase | undefined;
     GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase | undefined;
     GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase | undefined;
@@ -1303,6 +1318,7 @@ export interface MethodInfo$instance extends MethodBase$instance {
 
 
 export const MethodInfo: {
+    new(): MethodInfo;
 };
 
 
@@ -1350,7 +1366,12 @@ export interface Missing$instance extends System_Runtime_Serialization_Internal.
 export type Missing = Missing$instance & __Missing$views;
 
 
-export interface Module$instance {
+export abstract class Module$protected {
+    protected GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+}
+
+
+export interface Module$instance extends Module$protected {
     readonly Assembly: Assembly;
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
     readonly FullyQualifiedName: string;
@@ -1398,6 +1419,7 @@ export interface Module$instance {
 
 
 export const Module: {
+    new(): Module;
     readonly FilterTypeName: TypeFilter;
     readonly FilterTypeNameIgnoreCase: TypeFilter;
 };
@@ -1416,9 +1438,9 @@ export type Module = Module$instance & __Module$views;
 export interface NullabilityInfo$instance {
     readonly ElementType: NullabilityInfo;
     readonly GenericTypeArguments: NullabilityInfo[];
-    readonly ReadState: NullabilityState;
+    ReadState: NullabilityState;
     readonly Type: Type;
-    readonly WriteState: NullabilityState;
+    WriteState: NullabilityState;
 }
 
 
@@ -1574,6 +1596,7 @@ export interface PropertyInfo$instance extends MemberInfo$instance {
 
 
 export const PropertyInfo: {
+    new(): PropertyInfo;
 };
 
 
@@ -1592,6 +1615,7 @@ export interface ReflectionContext$instance {
 
 
 export const ReflectionContext: {
+    new(): ReflectionContext;
 };
 
 
@@ -1627,6 +1651,7 @@ export interface StrongNameKeyPair$instance {
 export const StrongNameKeyPair: {
     new(keyPairFile: FileStream): StrongNameKeyPair;
     new(keyPairArray: byte[]): StrongNameKeyPair;
+    new(info: SerializationInfo, context: StreamingContext): StrongNameKeyPair;
     new(keyPairContainer: string): StrongNameKeyPair;
 };
 
@@ -1650,6 +1675,7 @@ export const TargetException: {
     new(): TargetException;
     new(message: string): TargetException;
     new(message: string, inner: Exception): TargetException;
+    new(info: SerializationInfo, context: StreamingContext): TargetException;
 };
 
 
@@ -1697,7 +1723,23 @@ export interface __TargetParameterCountException$views {
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
 
 
-export interface TypeDelegator$instance extends TypeInfo$instance {
+export abstract class TypeDelegator$protected {
+    protected GetAttributeFlagsImpl(): TypeAttributes;
+    protected GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
+    protected GetMethodImpl2(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    protected GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    protected GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    protected HasElementTypeImpl(): boolean;
+    protected IsArrayImpl(): boolean;
+    protected IsByRefImpl(): boolean;
+    protected IsCOMObjectImpl(): boolean;
+    protected IsPointerImpl(): boolean;
+    protected IsPrimitiveImpl(): boolean;
+    protected IsValueTypeImpl(): boolean;
+}
+
+
+export interface TypeDelegator$instance extends TypeDelegator$protected, TypeInfo$instance {
     readonly Assembly: Assembly;
     readonly AssemblyQualifiedName: string;
     readonly BaseType: Type | undefined;
@@ -1784,6 +1826,7 @@ export interface TypeDelegator$instance extends TypeInfo$instance {
 
 
 export const TypeDelegator: {
+    new(): TypeDelegator;
     new(delegatingType: Type): TypeDelegator;
 };
 
@@ -1859,6 +1902,7 @@ export interface TypeInfo$instance extends Type {
 
 
 export const TypeInfo: {
+    new(): TypeInfo;
 };
 
 

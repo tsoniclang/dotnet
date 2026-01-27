@@ -166,6 +166,7 @@ export const AsnContentException: {
     new(): AsnContentException;
     new(message: string): AsnContentException;
     new(message: string, inner: Exception): AsnContentException;
+    new(info: SerializationInfo, context: StreamingContext): AsnContentException;
 };
 
 

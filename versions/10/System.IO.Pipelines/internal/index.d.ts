@@ -86,7 +86,12 @@ export const PipeOptions: {
 
 export type PipeOptions = PipeOptions$instance;
 
-export interface PipeReader$instance {
+export abstract class PipeReader$protected {
+    protected ReadAtLeastAsyncCore(minimumSize: int, cancellationToken: CancellationToken): ValueTask_1<ReadResult>;
+}
+
+
+export interface PipeReader$instance extends PipeReader$protected {
     AdvanceTo(consumed: SequencePosition): void;
     AdvanceTo(consumed: SequencePosition, examined: SequencePosition): void;
     AsStream(leaveOpen?: boolean): Stream;
@@ -103,6 +108,7 @@ export interface PipeReader$instance {
 
 
 export const PipeReader: {
+    new(): PipeReader;
     Create(sequence: ReadOnlySequence_1<System_Internal.Byte>): PipeReader;
     Create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
 };
@@ -116,6 +122,7 @@ export interface PipeScheduler$instance {
 
 
 export const PipeScheduler: {
+    new(): PipeScheduler;
     readonly ThreadPool: PipeScheduler;
     readonly Inline: PipeScheduler;
 };
@@ -123,7 +130,12 @@ export const PipeScheduler: {
 
 export type PipeScheduler = PipeScheduler$instance;
 
-export interface PipeWriter$instance {
+export abstract class PipeWriter$protected {
+    protected CopyFromAsync(source: Stream, cancellationToken?: CancellationToken): Task;
+}
+
+
+export interface PipeWriter$instance extends PipeWriter$protected {
     readonly CanGetUnflushedBytes: boolean;
     readonly UnflushedBytes: long;
     Advance(bytes: int): void;
@@ -140,6 +152,7 @@ export interface PipeWriter$instance {
 
 
 export const PipeWriter: {
+    new(): PipeWriter;
     Create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
 };
 

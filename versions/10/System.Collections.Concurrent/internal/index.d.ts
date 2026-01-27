@@ -59,7 +59,12 @@ export const ConcurrentDictionary_2_AlternateLookup_1: {
 
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export interface BlockingCollection_1$instance<T> {
+export abstract class BlockingCollection_1$protected<T> {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface BlockingCollection_1$instance<T> extends BlockingCollection_1$protected<T> {
     readonly BoundedCapacity: int;
     readonly Count: int;
     readonly IsAddingCompleted: boolean;
@@ -113,7 +118,7 @@ export interface __BlockingCollection_1$views<T> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>, System_Internal.IDisposable$instance {}
+export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {}
 
 export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
 
@@ -278,6 +283,7 @@ export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<
 
 
 export const OrderablePartitioner_1: {
+    new<TSource>(keysOrderedInEachPartition: boolean, keysOrderedAcrossPartitions: boolean, keysNormalized: boolean): OrderablePartitioner_1<TSource>;
 };
 
 
@@ -291,6 +297,7 @@ export interface Partitioner_1$instance<TSource> {
 
 
 export const Partitioner_1: {
+    new<TSource>(): Partitioner_1<TSource>;
 };
 
 

@@ -7,7 +7,7 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum HttpCacheAgeControl {
     None = 0,

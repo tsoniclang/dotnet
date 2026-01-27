@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageStatus",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -137,6 +143,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -156,6 +163,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -177,6 +185,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -196,11 +205,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TInput",
-        "TOutput"
-      ],
       "interfaces": [
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "typeArguments": [
+            "TInput"
+          ]
+        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
           "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
@@ -211,14 +223,11 @@
           "typeArguments": [
             "TOutput"
           ]
-        },
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "typeArguments": [
-            "TInput"
-          ]
         }
+      ],
+      "typeParameters": [
+        "TInput",
+        "TOutput"
       ],
       "methods": [
         {
@@ -236,6 +245,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -255,6 +265,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -274,6 +285,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -293,6 +305,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -312,6 +325,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -337,6 +351,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -356,6 +371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -377,6 +393,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -396,21 +413,21 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TOutput"
-      ],
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "typeArguments": [
             "TOutput"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "TOutput"
       ],
       "methods": [
         {
@@ -428,6 +445,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -453,6 +471,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -478,6 +497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -497,6 +517,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -522,6 +543,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -541,6 +563,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -560,6 +583,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -579,6 +603,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -600,6 +625,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -619,14 +645,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TOutput"
-      ],
       "interfaces": [
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
           "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "TOutput"
       ],
       "methods": [
         {
@@ -644,6 +670,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -663,6 +690,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -688,6 +716,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -707,6 +736,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -726,6 +756,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -745,6 +776,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -766,6 +798,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -785,14 +818,14 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TInput"
-      ],
       "interfaces": [
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
           "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "TInput"
       ],
       "methods": [
         {
@@ -810,6 +843,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -829,6 +863,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -848,6 +883,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -869,6 +905,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -917,6 +954,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -936,6 +974,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -955,6 +994,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -974,6 +1014,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -996,6 +1037,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1014,6 +1056,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -1028,6 +1071,7 @@
           "normalizedSignature": "constructor|(System.Int64):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowMessageHeader",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -1044,25 +1088,25 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TInput"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
-        {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
             "TInput"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "TInput"
       ],
       "methods": [
         {
@@ -1080,6 +1124,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1099,6 +1144,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1118,6 +1164,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1137,6 +1184,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1157,6 +1205,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1177,6 +1226,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1199,6 +1249,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1217,6 +1268,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1235,6 +1287,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -1250,6 +1303,7 @@
           "normalizedSignature": "constructor|(Action_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1260,6 +1314,7 @@
           "normalizedSignature": "constructor|(Action_1,System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1270,6 +1325,7 @@
           "normalizedSignature": "constructor|(Func_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1280,6 +1336,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ActionBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -1296,18 +1353,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -1317,11 +1367,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
-            "T[]"
+            "T"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -1331,12 +1385,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
-            "T"
+            "T[]"
           ]
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -1354,6 +1411,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1373,6 +1431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1392,6 +1451,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1411,6 +1471,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1436,6 +1497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1461,6 +1523,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1480,6 +1543,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1500,6 +1564,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1520,6 +1585,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1540,6 +1606,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1566,6 +1633,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1586,6 +1654,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1606,6 +1675,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1632,6 +1702,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1658,6 +1729,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1680,6 +1752,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1698,6 +1771,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1716,6 +1790,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1734,6 +1809,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -1749,6 +1825,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -1759,6 +1836,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -1775,19 +1853,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "T1",
-        "T2"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
@@ -1801,7 +1871,15 @@
           "typeArguments": [
             "Tuple_2[[IList_1[[T1]],IList_1[[T2]]]]"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "T1",
+        "T2"
       ],
       "methods": [
         {
@@ -1819,6 +1897,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1838,6 +1917,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1863,6 +1943,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1888,6 +1969,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1907,6 +1989,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -1926,6 +2009,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1952,6 +2036,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1978,6 +2063,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -1998,6 +2084,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2024,6 +2111,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2044,6 +2132,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2064,6 +2153,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2084,6 +2174,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2106,6 +2197,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2124,6 +2216,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2142,6 +2235,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2160,6 +2254,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2178,6 +2273,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2196,6 +2292,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -2211,6 +2308,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2221,6 +2319,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -2237,20 +2336,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 3,
-      "typeParameters": [
-        "T1",
-        "T2",
-        "T3"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
@@ -2264,7 +2354,16 @@
           "typeArguments": [
             "Tuple_3[[IList_1[[T1]],IList_1[[T2]],IList_1[[T3]]]]"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "T1",
+        "T2",
+        "T3"
       ],
       "methods": [
         {
@@ -2282,6 +2381,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2301,6 +2401,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2326,6 +2427,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2351,6 +2453,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2370,6 +2473,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2389,6 +2493,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2415,6 +2520,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2441,6 +2547,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2461,6 +2568,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2487,6 +2595,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2507,6 +2616,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2527,6 +2637,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2547,6 +2658,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2569,6 +2681,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2587,6 +2700,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2605,6 +2719,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2623,6 +2738,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2641,6 +2757,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2659,6 +2776,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2677,6 +2795,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -2692,6 +2811,7 @@
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -2702,6 +2822,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BatchedJoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -2718,18 +2839,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -2739,11 +2853,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
             "T"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -2753,12 +2871,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
             "T"
           ]
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -2776,6 +2897,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2795,6 +2917,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2814,6 +2937,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2839,6 +2963,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -2858,6 +2983,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2878,6 +3004,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2898,6 +3025,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2918,6 +3046,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2944,6 +3073,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2964,6 +3094,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -2984,6 +3115,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3010,6 +3142,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3036,6 +3169,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3058,6 +3192,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3076,6 +3211,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -3091,6 +3227,7 @@
           "normalizedSignature": "constructor|(Func_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3101,6 +3238,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.DataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BroadcastBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3117,18 +3255,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -3138,11 +3269,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
             "T"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -3152,12 +3287,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
             "T"
           ]
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -3175,6 +3313,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -3194,6 +3333,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -3213,6 +3353,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3238,6 +3379,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3263,6 +3405,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -3282,6 +3425,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3302,6 +3446,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3322,6 +3467,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3342,6 +3488,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3368,6 +3515,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3388,6 +3536,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3408,6 +3557,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3434,6 +3584,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3460,6 +3611,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -3482,6 +3634,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3500,6 +3653,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3518,6 +3672,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -3533,6 +3688,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3543,6 +3699,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Dataflow.DataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.BufferBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3580,6 +3737,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3598,6 +3756,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3616,6 +3775,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3634,6 +3794,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3652,6 +3813,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3670,6 +3832,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3683,6 +3846,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3696,6 +3860,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3733,6 +3898,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowLinkOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3751,6 +3917,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowLinkOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3769,6 +3936,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowLinkOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3783,6 +3951,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowLinkOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3820,6 +3989,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3838,6 +4008,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3852,6 +4023,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3889,6 +4061,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -3907,6 +4080,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3921,6 +4095,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -3937,19 +4112,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "T1",
-        "T2"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
@@ -3963,7 +4130,15 @@
           "typeArguments": [
             "Tuple_2[[T1,T2]]"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "T1",
+        "T2"
       ],
       "methods": [
         {
@@ -3981,6 +4156,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4000,6 +4176,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4025,6 +4202,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4050,6 +4228,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4069,6 +4248,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4088,6 +4268,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4114,6 +4295,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4140,6 +4322,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4160,6 +4343,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4186,6 +4370,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4206,6 +4391,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4226,6 +4412,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4246,6 +4433,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4268,6 +4456,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4286,6 +4475,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4304,6 +4494,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4322,6 +4513,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4340,6 +4532,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -4355,6 +4548,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4365,6 +4559,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -4381,20 +4576,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 3,
-      "typeParameters": [
-        "T1",
-        "T2",
-        "T3"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
@@ -4408,7 +4594,16 @@
           "typeArguments": [
             "Tuple_3[[T1,T2,T3]]"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         }
+      ],
+      "typeParameters": [
+        "T1",
+        "T2",
+        "T3"
       ],
       "methods": [
         {
@@ -4426,6 +4621,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4445,6 +4641,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4470,6 +4667,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4495,6 +4693,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4514,6 +4713,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4533,6 +4733,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4559,6 +4760,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4585,6 +4787,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4605,6 +4808,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4631,6 +4835,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4651,6 +4856,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4671,6 +4877,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4691,6 +4898,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4713,6 +4921,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4731,6 +4940,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4749,6 +4959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4767,6 +4978,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4785,6 +4997,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4803,6 +5016,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -4818,6 +5032,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -4828,6 +5043,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.JoinBlock\u00603",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -4844,19 +5060,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TInput",
-        "TOutput"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -4866,11 +5074,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
-            "TOutput"
+            "TInput"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -4880,12 +5092,16 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
-            "TInput"
+            "TOutput"
           ]
         }
+      ],
+      "typeParameters": [
+        "TInput",
+        "TOutput"
       ],
       "methods": [
         {
@@ -4903,6 +5119,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4922,6 +5139,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -4941,6 +5159,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4966,6 +5185,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -4991,6 +5211,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5010,6 +5231,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5030,6 +5252,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5050,6 +5273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5076,6 +5300,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5096,6 +5321,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5116,6 +5342,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5136,6 +5363,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5156,6 +5384,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5182,6 +5411,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5210,6 +5440,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5228,6 +5459,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5246,6 +5478,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5264,6 +5497,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -5279,6 +5513,7 @@
           "normalizedSignature": "constructor|(Func_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5289,6 +5524,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -5305,19 +5541,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 2,
-      "typeParameters": [
-        "TInput",
-        "TOutput"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -5327,11 +5555,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
-            "TOutput"
+            "TInput"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -5341,12 +5573,16 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
-            "TInput"
+            "TOutput"
           ]
         }
+      ],
+      "typeParameters": [
+        "TInput",
+        "TOutput"
       ],
       "methods": [
         {
@@ -5364,6 +5600,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5383,6 +5620,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5402,6 +5640,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5427,6 +5666,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5452,6 +5692,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5471,6 +5712,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5491,6 +5733,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5511,6 +5754,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5537,6 +5781,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5557,6 +5802,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5577,6 +5823,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5597,6 +5844,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5617,6 +5865,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5643,6 +5892,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5671,6 +5921,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5689,6 +5940,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5707,6 +5959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5725,6 +5978,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -5740,6 +5994,7 @@
           "normalizedSignature": "constructor|(Func_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -5750,6 +6005,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.TransformManyBlock\u00602",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -5766,18 +6022,11 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
       "interfaces": [
-        {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
-          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
-        },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
           "clrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
@@ -5787,11 +6036,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "typeArguments": [
             "T"
           ]
+        },
+        {
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IDataflowBlock",
+          "clrName": "System.Threading.Tasks.Dataflow.IDataflowBlock"
         },
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
@@ -5801,12 +6054,15 @@
           ]
         },
         {
-          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
-          "clrName": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
+          "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
+          "clrName": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "typeArguments": [
             "T"
           ]
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -5824,6 +6080,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5843,6 +6100,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5868,6 +6126,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5887,6 +6146,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -5906,6 +6166,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ITargetBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5926,6 +6187,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5946,6 +6208,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5966,6 +6229,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -5992,6 +6256,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -6012,6 +6277,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.ISourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -6032,6 +6298,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -6058,6 +6325,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IReceivableSourceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -6084,6 +6352,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false,
@@ -6106,6 +6375,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -6124,6 +6394,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringClrType": "System.Threading.Tasks.Dataflow.IDataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
@@ -6139,6 +6410,7 @@
           "normalizedSignature": "constructor|(Func_2):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         },
@@ -6149,6 +6421,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.DataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.WriteOnceBlock\u00601",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow"
         }
@@ -6185,6 +6458,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6204,6 +6478,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6223,6 +6498,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6242,6 +6518,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6261,6 +6538,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6280,6 +6558,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6299,6 +6578,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true,
@@ -6324,6 +6604,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6343,6 +6624,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6362,6 +6644,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6381,6 +6664,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6400,6 +6684,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6419,6 +6704,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6438,6 +6724,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6457,6 +6744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6476,6 +6764,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6495,6 +6784,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6514,6 +6804,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6533,6 +6824,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6552,6 +6844,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6571,6 +6864,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6590,6 +6884,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6609,6 +6904,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6628,6 +6924,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true
@@ -6647,6 +6944,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": false
@@ -6666,6 +6964,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Dataflow.DataflowBlock",
           "declaringAssemblyName": "System.Threading.Tasks.Dataflow",
           "isExtensionMethod": true

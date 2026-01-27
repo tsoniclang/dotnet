@@ -10,8 +10,9 @@ import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
 import type { MethodBase } from "../../System.Reflection/internal/index.js";
+import type { SafeHandle } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { IdentityReference, SecurityIdentifier } from "../../System.Security.Principal/internal/index.js";
@@ -258,6 +259,7 @@ export interface AccessRule$instance extends AuthorizationRule {
 
 
 export const AccessRule: {
+    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
 };
 
 
@@ -303,6 +305,7 @@ export interface AuditRule$instance extends AuthorizationRule {
 
 
 export const AuditRule: {
+    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, auditFlags: AuditFlags): AuditRule;
 };
 
 
@@ -332,6 +335,7 @@ export interface AuthorizationRule$instance {
 
 
 export const AuthorizationRule: {
+    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): AuthorizationRule;
 };
 
 
@@ -404,13 +408,20 @@ export interface __CommonAcl$views {
 export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
 
 
-export interface CommonObjectSecurity$instance extends ObjectSecurity {
+export abstract class CommonObjectSecurity$protected {
+    protected ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    protected ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
+}
+
+
+export interface CommonObjectSecurity$instance extends CommonObjectSecurity$protected, ObjectSecurity {
     GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
 }
 
 
 export const CommonObjectSecurity: {
+    new(isContainer: boolean): CommonObjectSecurity;
 };
 
 
@@ -478,7 +489,13 @@ export const CustomAce: {
 
 export type CustomAce = CustomAce$instance;
 
-export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
+export abstract class DirectoryObjectSecurity$protected {
+    protected ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    protected ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
+}
+
+
+export interface DirectoryObjectSecurity$instance extends DirectoryObjectSecurity$protected, ObjectSecurity {
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
@@ -489,6 +506,8 @@ export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
 
 
 export const DirectoryObjectSecurity: {
+    new(): DirectoryObjectSecurity;
+    new(securityDescriptor: CommonSecurityDescriptor): DirectoryObjectSecurity;
 };
 
 
@@ -571,18 +590,18 @@ export interface EventWaitHandleSecurity$instance extends NativeObjectSecurity {
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: EventWaitHandleAccessRule): void;
-    AddAuditRule(rule: EventWaitHandleAuditRule): void;
+    AddAccessRule2(rule: EventWaitHandleAccessRule): void;
+    AddAuditRule2(rule: EventWaitHandleAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: EventWaitHandleAccessRule): boolean;
-    RemoveAccessRuleAll(rule: EventWaitHandleAccessRule): void;
-    RemoveAccessRuleSpecific(rule: EventWaitHandleAccessRule): void;
-    RemoveAuditRule(rule: EventWaitHandleAuditRule): boolean;
-    RemoveAuditRuleAll(rule: EventWaitHandleAuditRule): void;
-    RemoveAuditRuleSpecific(rule: EventWaitHandleAuditRule): void;
-    ResetAccessRule(rule: EventWaitHandleAccessRule): void;
-    SetAccessRule(rule: EventWaitHandleAccessRule): void;
-    SetAuditRule(rule: EventWaitHandleAuditRule): void;
+    RemoveAccessRule2(rule: EventWaitHandleAccessRule): boolean;
+    RemoveAccessRuleAll2(rule: EventWaitHandleAccessRule): void;
+    RemoveAccessRuleSpecific2(rule: EventWaitHandleAccessRule): void;
+    RemoveAuditRule2(rule: EventWaitHandleAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: EventWaitHandleAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: EventWaitHandleAuditRule): void;
+    ResetAccessRule2(rule: EventWaitHandleAccessRule): void;
+    SetAccessRule2(rule: EventWaitHandleAccessRule): void;
+    SetAuditRule2(rule: EventWaitHandleAuditRule): void;
 }
 
 
@@ -640,18 +659,18 @@ export interface FileSystemSecurity$instance extends NativeObjectSecurity {
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: FileSystemAccessRule): void;
-    AddAuditRule(rule: FileSystemAuditRule): void;
+    AddAccessRule2(rule: FileSystemAccessRule): void;
+    AddAuditRule2(rule: FileSystemAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: FileSystemAccessRule): boolean;
-    RemoveAccessRuleAll(rule: FileSystemAccessRule): void;
-    RemoveAccessRuleSpecific(rule: FileSystemAccessRule): void;
-    RemoveAuditRule(rule: FileSystemAuditRule): boolean;
-    RemoveAuditRuleAll(rule: FileSystemAuditRule): void;
-    RemoveAuditRuleSpecific(rule: FileSystemAuditRule): void;
-    ResetAccessRule(rule: FileSystemAccessRule): void;
-    SetAccessRule(rule: FileSystemAccessRule): void;
-    SetAuditRule(rule: FileSystemAuditRule): void;
+    RemoveAccessRule2(rule: FileSystemAccessRule): boolean;
+    RemoveAccessRuleAll2(rule: FileSystemAccessRule): void;
+    RemoveAccessRuleSpecific2(rule: FileSystemAccessRule): void;
+    RemoveAuditRule2(rule: FileSystemAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: FileSystemAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: FileSystemAuditRule): void;
+    ResetAccessRule2(rule: FileSystemAccessRule): void;
+    SetAccessRule2(rule: FileSystemAccessRule): void;
+    SetAuditRule2(rule: FileSystemAuditRule): void;
 }
 
 
@@ -697,6 +716,7 @@ export interface GenericAcl$instance {
 
 
 export const GenericAcl: {
+    new(): GenericAcl;
     readonly AclRevision: byte;
     readonly AclRevisionDS: byte;
     readonly MaxBinaryLength: int;
@@ -771,18 +791,18 @@ export interface MutexSecurity$instance extends NativeObjectSecurity {
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: MutexAccessRule): void;
-    AddAuditRule(rule: MutexAuditRule): void;
+    AddAccessRule2(rule: MutexAccessRule): void;
+    AddAuditRule2(rule: MutexAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: MutexAccessRule): boolean;
-    RemoveAccessRuleAll(rule: MutexAccessRule): void;
-    RemoveAccessRuleSpecific(rule: MutexAccessRule): void;
-    RemoveAuditRule(rule: MutexAuditRule): boolean;
-    RemoveAuditRuleAll(rule: MutexAuditRule): void;
-    RemoveAuditRuleSpecific(rule: MutexAuditRule): void;
-    ResetAccessRule(rule: MutexAccessRule): void;
-    SetAccessRule(rule: MutexAccessRule): void;
-    SetAuditRule(rule: MutexAuditRule): void;
+    RemoveAccessRule2(rule: MutexAccessRule): boolean;
+    RemoveAccessRuleAll2(rule: MutexAccessRule): void;
+    RemoveAccessRuleSpecific2(rule: MutexAccessRule): void;
+    RemoveAuditRule2(rule: MutexAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: MutexAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: MutexAuditRule): void;
+    ResetAccessRule2(rule: MutexAccessRule): void;
+    SetAccessRule2(rule: MutexAccessRule): void;
+    SetAuditRule2(rule: MutexAuditRule): void;
 }
 
 
@@ -794,11 +814,24 @@ export const MutexSecurity: {
 
 export type MutexSecurity = MutexSecurity$instance;
 
-export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
+export abstract class NativeObjectSecurity$protected {
+    protected Persist2(handle: SafeHandle, includeSections: AccessControlSections): void;
+    protected Persist2(name: string, includeSections: AccessControlSections): void;
+    protected Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+}
+
+
+export interface NativeObjectSecurity$instance extends NativeObjectSecurity$protected, CommonObjectSecurity {
 }
 
 
 export const NativeObjectSecurity: {
+    new(isContainer: boolean, resourceType: ResourceType): NativeObjectSecurity;
+    new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections): NativeObjectSecurity;
+    new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
+    new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
+    new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections): NativeObjectSecurity;
+    new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
 };
 
 
@@ -812,6 +845,7 @@ export interface ObjectAccessRule$instance extends AccessRule {
 
 
 export const ObjectAccessRule: {
+    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, type: AccessControlType): ObjectAccessRule;
 };
 
 
@@ -842,12 +876,22 @@ export interface ObjectAuditRule$instance extends AuditRule {
 
 
 export const ObjectAuditRule: {
+    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, auditFlags: AuditFlags): ObjectAuditRule;
 };
 
 
 export type ObjectAuditRule = ObjectAuditRule$instance;
 
-export interface ObjectSecurity$instance {
+export abstract class ObjectSecurity$protected {
+    protected abstract ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    protected abstract ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
+    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    protected Persist(name: string, includeSections: AccessControlSections): void;
+    protected Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+}
+
+
+export interface ObjectSecurity$instance extends ObjectSecurity$protected {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AreAccessRulesCanonical: boolean;
@@ -877,33 +921,48 @@ export interface ObjectSecurity$instance {
 
 
 export const ObjectSecurity: {
+    new(): ObjectSecurity;
+    new(isContainer: boolean, isDS: boolean): ObjectSecurity;
+    new(securityDescriptor: CommonSecurityDescriptor): ObjectSecurity;
     IsSddlConversionSupported(): boolean;
 };
 
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
+export abstract class ObjectSecurity_1$protected<T extends unknown> {
+    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    protected Persist7(name: string, includeSections: AccessControlSections): void;
+    protected Persist6(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+}
+
+
+export interface ObjectSecurity_1$instance<T extends unknown> extends ObjectSecurity_1$protected<T>, NativeObjectSecurity {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: AccessRule_1<T>): void;
-    AddAuditRule(rule: AuditRule_1<T>): void;
+    AddAccessRule2(rule: AccessRule_1<T>): void;
+    AddAuditRule2(rule: AuditRule_1<T>): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: AccessRule_1<T>): boolean;
-    RemoveAccessRuleAll(rule: AccessRule_1<T>): void;
-    RemoveAccessRuleSpecific(rule: AccessRule_1<T>): void;
-    RemoveAuditRule(rule: AuditRule_1<T>): boolean;
-    RemoveAuditRuleAll(rule: AuditRule_1<T>): void;
-    RemoveAuditRuleSpecific(rule: AuditRule_1<T>): void;
-    ResetAccessRule(rule: AccessRule_1<T>): void;
-    SetAccessRule(rule: AccessRule_1<T>): void;
-    SetAuditRule(rule: AuditRule_1<T>): void;
+    RemoveAccessRule2(rule: AccessRule_1<T>): boolean;
+    RemoveAccessRuleAll2(rule: AccessRule_1<T>): void;
+    RemoveAccessRuleSpecific2(rule: AccessRule_1<T>): void;
+    RemoveAuditRule2(rule: AuditRule_1<T>): boolean;
+    RemoveAuditRuleAll2(rule: AuditRule_1<T>): void;
+    RemoveAuditRuleSpecific2(rule: AuditRule_1<T>): void;
+    ResetAccessRule2(rule: AccessRule_1<T>): void;
+    SetAccessRule2(rule: AccessRule_1<T>): void;
+    SetAuditRule2(rule: AuditRule_1<T>): void;
 }
 
 
 export const ObjectSecurity_1: {
+    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType): ObjectSecurity_1<T>;
+    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections): ObjectSecurity_1<T>;
+    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): ObjectSecurity_1<T>;
+    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections): ObjectSecurity_1<T>;
+    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): ObjectSecurity_1<T>;
 };
 
 
@@ -1028,18 +1087,18 @@ export interface RegistrySecurity$instance extends NativeObjectSecurity {
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: RegistryAccessRule): void;
-    AddAuditRule(rule: RegistryAuditRule): void;
+    AddAccessRule2(rule: RegistryAccessRule): void;
+    AddAuditRule2(rule: RegistryAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: RegistryAccessRule): boolean;
-    RemoveAccessRuleAll(rule: RegistryAccessRule): void;
-    RemoveAccessRuleSpecific(rule: RegistryAccessRule): void;
-    RemoveAuditRule(rule: RegistryAuditRule): boolean;
-    RemoveAuditRuleAll(rule: RegistryAuditRule): void;
-    RemoveAuditRuleSpecific(rule: RegistryAuditRule): void;
-    ResetAccessRule(rule: RegistryAccessRule): void;
-    SetAccessRule(rule: RegistryAccessRule): void;
-    SetAuditRule(rule: RegistryAuditRule): void;
+    RemoveAccessRule2(rule: RegistryAccessRule): boolean;
+    RemoveAccessRuleAll2(rule: RegistryAccessRule): void;
+    RemoveAccessRuleSpecific2(rule: RegistryAccessRule): void;
+    RemoveAuditRule2(rule: RegistryAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: RegistryAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: RegistryAuditRule): void;
+    ResetAccessRule2(rule: RegistryAccessRule): void;
+    SetAccessRule2(rule: RegistryAccessRule): void;
+    SetAuditRule2(rule: RegistryAuditRule): void;
 }
 
 
@@ -1080,18 +1139,18 @@ export interface SemaphoreSecurity$instance extends NativeObjectSecurity {
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule(rule: SemaphoreAccessRule): void;
-    AddAuditRule(rule: SemaphoreAuditRule): void;
+    AddAccessRule2(rule: SemaphoreAccessRule): void;
+    AddAuditRule2(rule: SemaphoreAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    RemoveAccessRule(rule: SemaphoreAccessRule): boolean;
-    RemoveAccessRuleAll(rule: SemaphoreAccessRule): void;
-    RemoveAccessRuleSpecific(rule: SemaphoreAccessRule): void;
-    RemoveAuditRule(rule: SemaphoreAuditRule): boolean;
-    RemoveAuditRuleAll(rule: SemaphoreAuditRule): void;
-    RemoveAuditRuleSpecific(rule: SemaphoreAuditRule): void;
-    ResetAccessRule(rule: SemaphoreAccessRule): void;
-    SetAccessRule(rule: SemaphoreAccessRule): void;
-    SetAuditRule(rule: SemaphoreAuditRule): void;
+    RemoveAccessRule2(rule: SemaphoreAccessRule): boolean;
+    RemoveAccessRuleAll2(rule: SemaphoreAccessRule): void;
+    RemoveAccessRuleSpecific2(rule: SemaphoreAccessRule): void;
+    RemoveAuditRule2(rule: SemaphoreAuditRule): boolean;
+    RemoveAuditRuleAll2(rule: SemaphoreAuditRule): void;
+    RemoveAuditRuleSpecific2(rule: SemaphoreAuditRule): void;
+    ResetAccessRule2(rule: SemaphoreAccessRule): void;
+    SetAccessRule2(rule: SemaphoreAccessRule): void;
+    SetAuditRule2(rule: SemaphoreAuditRule): void;
 }
 
 

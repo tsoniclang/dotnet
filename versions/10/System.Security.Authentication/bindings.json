@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -82,6 +85,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -93,6 +97,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -104,6 +109,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -115,6 +121,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -126,6 +133,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -137,6 +145,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -148,6 +157,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -159,6 +169,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.CipherAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -187,16 +198,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -210,6 +221,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExchangeAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -221,6 +233,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExchangeAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -232,6 +245,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExchangeAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -243,6 +257,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExchangeAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -254,6 +269,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.ExchangeAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -282,16 +298,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -305,6 +321,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -316,6 +333,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -327,6 +345,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -338,6 +357,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -349,6 +369,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -360,6 +381,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -371,6 +393,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.HashAlgorithmType",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -399,16 +422,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -422,6 +445,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -433,6 +457,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -444,6 +469,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -455,6 +481,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -466,6 +493,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -477,6 +505,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -488,6 +517,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -499,6 +529,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -510,6 +541,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.SslProtocols",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -554,6 +586,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -574,6 +607,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.AuthenticationException",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -590,6 +624,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.AuthenticationException",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -600,6 +635,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.AuthenticationException",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -610,6 +646,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Security.Authentication.AuthenticationException",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.AuthenticationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100664776,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Security.Authentication.AuthenticationException",
           "declaringAssemblyName": "System.Net.Security"
         }
@@ -652,6 +700,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -672,6 +721,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
           "declaringAssemblyName": "System.Net.Security",
           "isExtensionMethod": false
@@ -688,6 +738,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -698,6 +749,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
           "declaringAssemblyName": "System.Net.Security"
         },
@@ -708,6 +760,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
+          "declaringAssemblyName": "System.Net.Security"
+        },
+        {
+          "stableId": "System.Net.Security:System.Security.Authentication.InvalidCredentialException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100664780,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
           "declaringAssemblyName": "System.Net.Security"
         }

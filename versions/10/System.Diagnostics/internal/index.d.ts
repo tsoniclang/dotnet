@@ -15,9 +15,9 @@ import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IList_
 import type { Collection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import type { StringDictionary } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from "../../System.Collections/internal/index.js";
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { Stream, StreamReader, StreamWriter, TextWriter } from "../../System.IO/internal/index.js";
 import type { Assembly, MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -498,29 +498,34 @@ export interface __TagList_Enumerator$views {
 export type TagList_Enumerator = TagList_Enumerator$instance & __TagList_Enumerator$views;
 
 
-export interface Activity$instance {
+export abstract class Activity$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface Activity$instance extends Activity$protected {
     ActivityTraceFlags: ActivityTraceFlags;
     readonly Baggage: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly Context: ActivityContext;
     DisplayName: string;
-    readonly Duration: TimeSpan;
+    Duration: TimeSpan;
     readonly Events: IEnumerable_1<ActivityEvent>;
-    readonly HasRemoteParent: boolean;
+    HasRemoteParent: boolean;
     readonly Id: string;
-    readonly IdFormat: ActivityIdFormat;
+    IdFormat: ActivityIdFormat;
     IsAllDataRequested: boolean;
-    readonly IsStopped: boolean;
-    readonly Kind: ActivityKind;
+    IsStopped: boolean;
+    Kind: ActivityKind;
     readonly Links: IEnumerable_1<ActivityLink>;
     readonly OperationName: string;
-    readonly Parent: Activity;
+    Parent: Activity;
     readonly ParentId: string | undefined;
     readonly ParentSpanId: ActivitySpanId;
     readonly Recorded: boolean;
     readonly RootId: string | undefined;
-    readonly Source: ActivitySource;
+    Source: ActivitySource;
     readonly SpanId: ActivitySpanId;
-    readonly StartTimeUtc: DateTime;
+    StartTimeUtc: DateTime;
     readonly Status: ActivityStatusCode;
     readonly StatusDescription: string;
     readonly TagObjects: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
@@ -569,8 +574,6 @@ export const Activity: {
 export interface __Activity$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Activity$instance extends System_Internal.IDisposable$instance {}
 
 export type Activity = Activity$instance & __Activity$views;
 
@@ -692,7 +695,12 @@ export interface __ActivityTagsCollection$views {
 export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views;
 
 
-export interface BooleanSwitch$instance extends Switch {
+export abstract class BooleanSwitch$protected {
+    protected OnValueChanged(): void;
+}
+
+
+export interface BooleanSwitch$instance extends BooleanSwitch$protected, Switch {
     Enabled: boolean;
 }
 
@@ -717,9 +725,14 @@ export const ConditionalAttribute: {
 
 export type ConditionalAttribute = ConditionalAttribute$instance;
 
-export interface ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
+export abstract class ConsoleTraceListener$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface ConsoleTraceListener$instance extends ConsoleTraceListener$protected, TextWriterTraceListener$instance {
     Close(): void;
-    Dispose(): void;
+    Dispose5(): void;
 }
 
 
@@ -919,7 +932,12 @@ export const DebugProvider: {
 
 export type DebugProvider = DebugProvider$instance;
 
-export interface DefaultTraceListener$instance extends TraceListener$instance {
+export abstract class DefaultTraceListener$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface DefaultTraceListener$instance extends DefaultTraceListener$protected, TraceListener$instance {
     AssertUiEnabled: boolean;
     get LogFileName(): string | undefined;
     set LogFileName(value: string);
@@ -949,9 +967,15 @@ export interface __DefaultTraceListener$views {
 export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTraceListener$views;
 
 
-export interface DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
+export abstract class DelimitedListTraceListener$protected {
+    protected Dispose(disposing: boolean): void;
+    protected GetSupportedAttributes(): string[];
+}
+
+
+export interface DelimitedListTraceListener$instance extends DelimitedListTraceListener$protected, TextWriterTraceListener$instance {
     Delimiter: string;
-    Dispose(): void;
+    Dispose5(): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
     TraceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
@@ -1041,6 +1065,7 @@ export interface DiagnosticSource$instance {
 
 
 export const DiagnosticSource: {
+    new(): DiagnosticSource;
 };
 
 
@@ -1055,6 +1080,7 @@ export interface DistributedContextPropagator$instance {
 
 
 export const DistributedContextPropagator: {
+    new(): DistributedContextPropagator;
     Current: DistributedContextPropagator;
     CreateDefaultPropagator(): DistributedContextPropagator;
     CreateNoOutputPropagator(): DistributedContextPropagator;
@@ -1156,7 +1182,12 @@ export const MonitoringDescriptionAttribute: {
 
 export type MonitoringDescriptionAttribute = MonitoringDescriptionAttribute$instance;
 
-export interface Process$instance extends Component {
+export abstract class Process$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface Process$instance extends Process$protected, Component {
     readonly BasePriority: int;
     EnableRaisingEvents: boolean;
     readonly ExitCode: int;
@@ -1255,17 +1286,20 @@ export interface __Process$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Process$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type Process = Process$instance & __Process$views;
 
 
-export interface ProcessModule$instance extends Component {
-    readonly BaseAddress: nint;
-    readonly EntryPointAddress: nint;
+export abstract class ProcessModule$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface ProcessModule$instance extends ProcessModule$protected, Component {
+    BaseAddress: nint;
+    EntryPointAddress: nint;
     readonly FileName: string;
     readonly FileVersionInfo: FileVersionInfo;
-    readonly ModuleMemorySize: int;
+    ModuleMemorySize: int;
     readonly ModuleName: string;
     Dispose(): void;
     ToString(): string;
@@ -1282,8 +1316,6 @@ export interface __ProcessModule$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface ProcessModule$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
@@ -1297,6 +1329,7 @@ export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase
 
 
 export const ProcessModuleCollection: {
+    new(): ProcessModuleCollection;
     new(processModules: ProcessModule[]): ProcessModuleCollection;
 };
 
@@ -1355,7 +1388,12 @@ export const ProcessStartInfo: {
 
 export type ProcessStartInfo = ProcessStartInfo$instance;
 
-export interface ProcessThread$instance extends Component {
+export abstract class ProcessThread$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface ProcessThread$instance extends ProcessThread$protected, Component {
     readonly BasePriority: int;
     readonly CurrentPriority: int;
     readonly Id: int;
@@ -1385,8 +1423,6 @@ export interface __ProcessThread$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface ProcessThread$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
 
@@ -1403,6 +1439,7 @@ export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase
 
 
 export const ProcessThreadCollection: {
+    new(): ProcessThreadCollection;
     new(processThreads: ProcessThread[]): ProcessThreadCollection;
 };
 
@@ -1430,7 +1467,12 @@ export const SourceFilter: {
 
 export type SourceFilter = SourceFilter$instance;
 
-export interface SourceSwitch$instance extends Switch {
+export abstract class SourceSwitch$protected {
+    protected OnValueChanged(): void;
+}
+
+
+export interface SourceSwitch$instance extends SourceSwitch$protected, Switch {
     Level: SourceLevels;
     ShouldTrace(eventType: TraceEventType): boolean;
 }
@@ -1530,7 +1572,14 @@ export const Stopwatch: {
 
 export type Stopwatch = Stopwatch$instance;
 
-export interface Switch$instance {
+export abstract class Switch$protected {
+    protected GetSupportedAttributes(): string[] | undefined;
+    protected OnSwitchSettingChanged(): void;
+    protected OnValueChanged(): void;
+}
+
+
+export interface Switch$instance extends Switch$protected {
     readonly Attributes: StringDictionary;
     readonly DefaultValue: string;
     readonly Description: string;
@@ -1541,6 +1590,8 @@ export interface Switch$instance {
 
 
 export const Switch: {
+    new(displayName: string, description: string): Switch;
+    new(displayName: string, description: string, defaultSwitchValue: string): Switch;
 };
 
 
@@ -1574,7 +1625,12 @@ export const SwitchLevelAttribute: {
 
 export type SwitchLevelAttribute = SwitchLevelAttribute$instance;
 
-export interface TextWriterTraceListener$instance extends TraceListener$instance {
+export abstract class TextWriterTraceListener$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface TextWriterTraceListener$instance extends TextWriterTraceListener$protected, TraceListener$instance {
     Writer: TextWriter;
     Close(): void;
     Dispose(): void;
@@ -1680,12 +1736,20 @@ export interface TraceFilter$instance {
 
 
 export const TraceFilter: {
+    new(): TraceFilter;
 };
 
 
 export type TraceFilter = TraceFilter$instance;
 
-export interface TraceListener$instance extends MarshalByRefObject {
+export abstract class TraceListener$protected {
+    protected Dispose(disposing: boolean): void;
+    protected GetSupportedAttributes(): string[] | undefined;
+    protected WriteIndent(): void;
+}
+
+
+export interface TraceListener$instance extends TraceListener$protected, MarshalByRefObject {
     readonly Attributes: StringDictionary;
     Filter: TraceFilter;
     IndentLevel: int;
@@ -1716,14 +1780,14 @@ export interface TraceListener$instance extends MarshalByRefObject {
 
 
 export const TraceListener: {
+    new(): TraceListener;
+    new(name: string): TraceListener;
 };
 
 
 export interface __TraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TraceListener$instance extends System_Internal.IDisposable$instance {}
 
 export type TraceListener = TraceListener$instance & __TraceListener$views;
 
@@ -1762,7 +1826,12 @@ export interface __TraceListenerCollection$views {
 export type TraceListenerCollection = TraceListenerCollection$instance & __TraceListenerCollection$views;
 
 
-export interface TraceSource$instance {
+export abstract class TraceSource$protected {
+    protected GetSupportedAttributes(): string[] | undefined;
+}
+
+
+export interface TraceSource$instance extends TraceSource$protected {
     readonly Attributes: StringDictionary;
     readonly DefaultLevel: SourceLevels;
     readonly Listeners: TraceListenerCollection;
@@ -1789,7 +1858,13 @@ export const TraceSource: {
 
 export type TraceSource = TraceSource$instance;
 
-export interface TraceSwitch$instance extends Switch {
+export abstract class TraceSwitch$protected {
+    protected OnSwitchSettingChanged(): void;
+    protected OnValueChanged(): void;
+}
+
+
+export interface TraceSwitch$instance extends TraceSwitch$protected, Switch {
     Level: TraceLevel;
     readonly TraceError: boolean;
     readonly TraceInfo: boolean;
@@ -1825,9 +1900,14 @@ export interface __UnreachableException$views {
 export type UnreachableException = UnreachableException$instance & __UnreachableException$views;
 
 
-export interface XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
+export abstract class XmlWriterTraceListener$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface XmlWriterTraceListener$instance extends XmlWriterTraceListener$protected, TextWriterTraceListener$instance {
     Close(): void;
-    Dispose(): void;
+    Dispose5(): void;
     Fail(message: string, detailMessage: string): void;
     Fail(message: string): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;

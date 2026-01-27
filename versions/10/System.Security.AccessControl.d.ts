@@ -6,8 +6,9 @@
 import * as Internal from './System.Security.AccessControl/internal/index.js';
 
 // Cross-namespace type imports for constraints
-import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
+import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
 import type { MethodBase } from './System.Reflection/internal/index.js';
+import type { SafeHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IdentityReference, SecurityIdentifier } from './System.Security.Principal/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Enum, Exception, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from './System/internal/index.js';

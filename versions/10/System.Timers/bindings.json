@@ -45,6 +45,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -64,6 +65,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -83,6 +85,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -99,6 +102,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -136,6 +140,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -150,6 +155,7 @@
           "normalizedSignature": "constructor|(System.DateTime):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.ElapsedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -176,12 +182,12 @@
           "clrName": "System.ComponentModel.IComponent"
         },
         {
-          "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize",
-          "clrName": "System.ComponentModel.ISupportInitialize"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize",
+          "clrName": "System.ComponentModel.ISupportInitialize"
         }
       ],
       "methods": [
@@ -200,6 +206,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -219,6 +226,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Timers.Timer",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663485,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -238,6 +266,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -257,6 +286,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -276,6 +306,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -295,6 +326,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -315,6 +347,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.ISupportInitialize",
           "declaringAssemblyName": "System.ComponentModel.Primitives",
           "isExtensionMethod": false,
@@ -335,6 +368,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -356,6 +390,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -374,6 +409,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -392,6 +428,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -410,6 +447,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -428,6 +466,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -446,6 +485,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.ComponentModel.IComponent",
           "declaringClrType": "System.ComponentModel.IComponent",
           "declaringAssemblyName": "System.ComponentModel.Primitives"
@@ -459,6 +499,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -471,6 +512,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -481,6 +523,7 @@
           "normalizedSignature": "constructor|(System.Double):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -491,6 +534,7 @@
           "normalizedSignature": "constructor|(System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.Timer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -528,6 +572,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.TimersDescriptionAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -542,6 +587,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Timers.TimersDescriptionAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }

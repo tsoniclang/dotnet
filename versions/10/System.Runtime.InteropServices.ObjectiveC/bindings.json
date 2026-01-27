@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -151,6 +157,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -176,6 +183,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -201,6 +209,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -223,6 +232,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -255,6 +265,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -291,6 +302,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -310,6 +322,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -335,6 +348,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -354,6 +368,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

@@ -87,8 +87,21 @@ export const HttpRequestOptionsKey_1: {
 
 export type HttpRequestOptionsKey_1<TValue> = HttpRequestOptionsKey_1$instance<TValue>;
 
-export interface ByteArrayContent$instance extends HttpContent$instance {
-    Dispose(): void;
+export abstract class ByteArrayContent$protected {
+    protected CreateContentReadStream(cancellationToken: CancellationToken): Stream;
+    protected CreateContentReadStreamAsync3(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync2(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected Dispose(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected TryComputeLength(length: long): boolean;
+}
+
+
+export interface ByteArrayContent$instance extends ByteArrayContent$protected, HttpContent$instance {
+    Dispose3(): void;
 }
 
 
@@ -105,7 +118,15 @@ export interface __ByteArrayContent$views {
 export type ByteArrayContent = ByteArrayContent$instance & __ByteArrayContent$views;
 
 
-export interface DelegatingHandler$instance extends HttpMessageHandler$instance {
+export abstract class DelegatingHandler$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected SendAsync2(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    protected abstract SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+}
+
+
+export interface DelegatingHandler$instance extends DelegatingHandler$protected, HttpMessageHandler$instance {
     get InnerHandler(): HttpMessageHandler | undefined;
     set InnerHandler(value: HttpMessageHandler);
     Dispose(): void;
@@ -113,6 +134,8 @@ export interface DelegatingHandler$instance extends HttpMessageHandler$instance 
 
 
 export const DelegatingHandler: {
+    new(): DelegatingHandler;
+    new(innerHandler: HttpMessageHandler): DelegatingHandler;
 };
 
 
@@ -123,7 +146,14 @@ export interface __DelegatingHandler$views {
 export type DelegatingHandler = DelegatingHandler$instance & __DelegatingHandler$views;
 
 
-export interface FormUrlEncodedContent$instance extends ByteArrayContent$instance {
+export abstract class FormUrlEncodedContent$protected {
+    protected Dispose3(disposing: boolean): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync2(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+}
+
+
+export interface FormUrlEncodedContent$instance extends FormUrlEncodedContent$protected, ByteArrayContent$instance {
     Dispose(): void;
 }
 
@@ -140,7 +170,12 @@ export interface __FormUrlEncodedContent$views {
 export type FormUrlEncodedContent = FormUrlEncodedContent$instance & __FormUrlEncodedContent$views;
 
 
-export interface HttpClient$instance extends HttpMessageInvoker$instance {
+export abstract class HttpClient$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface HttpClient$instance extends HttpClient$protected, HttpMessageInvoker$instance {
     BaseAddress: Uri;
     readonly DefaultRequestHeaders: HttpRequestHeaders;
     DefaultRequestVersion: Version;
@@ -206,7 +241,15 @@ export interface __HttpClient$views {
 export type HttpClient = HttpClient$instance & __HttpClient$views;
 
 
-export interface HttpClientHandler$instance extends HttpMessageHandler$instance {
+export abstract class HttpClientHandler$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected SendAsync2(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    protected abstract SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+}
+
+
+export interface HttpClientHandler$instance extends HttpClientHandler$protected, HttpMessageHandler$instance {
     AllowAutoRedirect: boolean;
     AutomaticDecompression: DecompressionMethods;
     CheckCertificateRevocationList: boolean;
@@ -252,7 +295,19 @@ export interface __HttpClientHandler$views {
 export type HttpClientHandler = HttpClientHandler$instance & __HttpClientHandler$views;
 
 
-export interface HttpContent$instance {
+export abstract class HttpContent$protected {
+    protected CreateContentReadStream(cancellationToken: CancellationToken): Stream;
+    protected CreateContentReadStreamAsync(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected Dispose(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected abstract SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected abstract TryComputeLength(length: long): boolean;
+}
+
+
+export interface HttpContent$instance extends HttpContent$protected {
     readonly Headers: HttpContentHeaders;
     CopyTo(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
     CopyToAsync(stream: Stream): Task;
@@ -276,14 +331,13 @@ export interface HttpContent$instance {
 
 
 export const HttpContent: {
+    new(): HttpContent;
 };
 
 
 export interface __HttpContent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HttpContent$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpContent = HttpContent$instance & __HttpContent$views;
 
@@ -307,12 +361,20 @@ export interface __HttpIOException$views {
 export type HttpIOException = HttpIOException$instance & __HttpIOException$views;
 
 
-export interface HttpMessageHandler$instance {
+export abstract class HttpMessageHandler$protected {
+    protected Dispose(disposing: boolean): void;
+    protected Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected abstract SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+}
+
+
+export interface HttpMessageHandler$instance extends HttpMessageHandler$protected {
     Dispose(): void;
 }
 
 
 export const HttpMessageHandler: {
+    new(): HttpMessageHandler;
 };
 
 
@@ -320,12 +382,15 @@ export interface __HttpMessageHandler$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface HttpMessageHandler$instance extends System_Internal.IDisposable$instance {}
-
 export type HttpMessageHandler = HttpMessageHandler$instance & __HttpMessageHandler$views;
 
 
-export interface HttpMessageInvoker$instance {
+export abstract class HttpMessageInvoker$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface HttpMessageInvoker$instance extends HttpMessageInvoker$protected {
     Dispose(): void;
     Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
@@ -341,8 +406,6 @@ export const HttpMessageInvoker: {
 export interface __HttpMessageInvoker$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HttpMessageInvoker$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpMessageInvoker = HttpMessageInvoker$instance & __HttpMessageInvoker$views;
 
@@ -423,7 +486,12 @@ export interface __HttpRequestException$views {
 export type HttpRequestException = HttpRequestException$instance & __HttpRequestException$views;
 
 
-export interface HttpRequestMessage$instance {
+export abstract class HttpRequestMessage$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface HttpRequestMessage$instance extends HttpRequestMessage$protected {
     Content: HttpContent;
     readonly Headers: HttpRequestHeaders;
     Method: HttpMethod;
@@ -447,8 +515,6 @@ export const HttpRequestMessage: {
 export interface __HttpRequestMessage$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HttpRequestMessage$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpRequestMessage = HttpRequestMessage$instance & __HttpRequestMessage$views;
 
@@ -476,7 +542,12 @@ export interface __HttpRequestOptions$views {
 export type HttpRequestOptions = HttpRequestOptions$instance & __HttpRequestOptions$views;
 
 
-export interface HttpResponseMessage$instance {
+export abstract class HttpResponseMessage$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface HttpResponseMessage$instance extends HttpResponseMessage$protected {
     Content: HttpContent;
     readonly Headers: HttpResponseHeaders;
     readonly IsSuccessStatusCode: boolean;
@@ -503,17 +574,27 @@ export interface __HttpResponseMessage$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface HttpResponseMessage$instance extends System_Internal.IDisposable$instance {}
-
 export type HttpResponseMessage = HttpResponseMessage$instance & __HttpResponseMessage$views;
 
 
-export interface MessageProcessingHandler$instance extends DelegatingHandler$instance {
-    Dispose(): void;
+export abstract class MessageProcessingHandler$protected {
+    protected Dispose(disposing: boolean): void;
+    protected abstract ProcessRequest(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpRequestMessage;
+    protected abstract ProcessResponse(response: HttpResponseMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected SendAsync2(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    protected SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+}
+
+
+export interface MessageProcessingHandler$instance extends MessageProcessingHandler$protected, DelegatingHandler$instance {
+    Dispose5(): void;
 }
 
 
 export const MessageProcessingHandler: {
+    new(): MessageProcessingHandler;
+    new(innerHandler: HttpMessageHandler): MessageProcessingHandler;
 };
 
 
@@ -524,7 +605,21 @@ export interface __MessageProcessingHandler$views {
 export type MessageProcessingHandler = MessageProcessingHandler$instance & __MessageProcessingHandler$views;
 
 
-export interface MultipartContent$instance extends HttpContent$instance {
+export abstract class MultipartContent$protected {
+    protected CreateContentReadStream(cancellationToken: CancellationToken): Stream;
+    protected CreateContentReadStreamAsync3(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync3(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected CreateContentReadStreamAsync2(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected Dispose2(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected TryComputeLength(length: long): boolean;
+}
+
+
+export interface MultipartContent$instance extends MultipartContent$protected, HttpContent$instance {
     get HeaderEncodingSelector(): HeaderEncodingSelector_1<HttpContent> | undefined;
     set HeaderEncodingSelector(value: HeaderEncodingSelector_1<HttpContent>);
     Add(content: HttpContent): void;
@@ -549,9 +644,16 @@ export interface __MultipartContent$views {
 export type MultipartContent = MultipartContent$instance & __MultipartContent$views;
 
 
-export interface MultipartFormDataContent$instance extends MultipartContent$instance {
+export abstract class MultipartFormDataContent$protected {
+    protected Dispose(disposing: boolean): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync2(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+}
+
+
+export interface MultipartFormDataContent$instance extends MultipartFormDataContent$protected, MultipartContent$instance {
     Add(content: HttpContent): void;
-    Dispose(): void;
+    Dispose5(): void;
     GetEnumerator(): IEnumerator_1<HttpContent>;
     GetEnumerator(): IEnumerator;
 }
@@ -572,8 +674,21 @@ export interface __MultipartFormDataContent$views {
 export type MultipartFormDataContent = MultipartFormDataContent$instance & __MultipartFormDataContent$views;
 
 
-export interface ReadOnlyMemoryContent$instance extends HttpContent$instance {
-    Dispose(): void;
+export abstract class ReadOnlyMemoryContent$protected {
+    protected CreateContentReadStream(cancellationToken: CancellationToken): Stream;
+    protected CreateContentReadStreamAsync3(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync2(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected Dispose(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected TryComputeLength(length: long): boolean;
+}
+
+
+export interface ReadOnlyMemoryContent$instance extends ReadOnlyMemoryContent$protected, HttpContent$instance {
+    Dispose3(): void;
 }
 
 
@@ -602,7 +717,15 @@ export const SocketsHttpConnectionContext: {
 
 export type SocketsHttpConnectionContext = SocketsHttpConnectionContext$instance;
 
-export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance {
+export abstract class SocketsHttpHandler$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    protected SendAsync2(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    protected abstract SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+}
+
+
+export interface SocketsHttpHandler$instance extends SocketsHttpHandler$protected, HttpMessageHandler$instance {
     get ActivityHeadersPropagator(): DistributedContextPropagator | undefined;
     set ActivityHeadersPropagator(value: DistributedContextPropagator);
     AllowAutoRedirect: boolean;
@@ -674,7 +797,20 @@ export const SocketsHttpPlaintextStreamFilterContext: {
 
 export type SocketsHttpPlaintextStreamFilterContext = SocketsHttpPlaintextStreamFilterContext$instance;
 
-export interface StreamContent$instance extends HttpContent$instance {
+export abstract class StreamContent$protected {
+    protected CreateContentReadStream(cancellationToken: CancellationToken): Stream;
+    protected CreateContentReadStreamAsync3(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync(): Task_1<Stream>;
+    protected CreateContentReadStreamAsync2(cancellationToken: CancellationToken): Task_1<Stream>;
+    protected Dispose2(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected TryComputeLength(length: long): boolean;
+}
+
+
+export interface StreamContent$instance extends StreamContent$protected, HttpContent$instance {
     Dispose(): void;
 }
 
@@ -692,7 +828,14 @@ export interface __StreamContent$views {
 export type StreamContent = StreamContent$instance & __StreamContent$views;
 
 
-export interface StringContent$instance extends ByteArrayContent$instance {
+export abstract class StringContent$protected {
+    protected Dispose3(disposing: boolean): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync2(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+}
+
+
+export interface StringContent$instance extends StringContent$protected, ByteArrayContent$instance {
     Dispose(): void;
 }
 

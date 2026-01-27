@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -142,16 +149,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -165,6 +172,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -215,16 +225,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -238,6 +248,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -304,6 +320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -315,6 +332,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -348,6 +368,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -359,6 +380,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -370,6 +392,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -381,6 +404,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -425,6 +449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -444,6 +469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -463,6 +489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -482,6 +509,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -501,6 +529,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -520,6 +549,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -539,6 +569,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -558,6 +589,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -577,6 +609,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -596,6 +629,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -615,6 +649,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -634,6 +669,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -653,6 +689,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -672,6 +709,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -691,6 +729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -710,6 +749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -729,6 +769,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -748,6 +789,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -767,6 +809,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -786,6 +829,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -805,6 +849,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -824,6 +869,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -843,6 +889,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663397,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -862,6 +929,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -884,6 +952,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -915,6 +984,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663433,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Flush():System.Void",
           "clrName": "Flush",
           "metadataToken": 100663434,
@@ -929,6 +1018,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -948,6 +1038,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -968,6 +1059,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -989,6 +1081,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -1007,6 +1100,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }
@@ -1032,12 +1126,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -1056,6 +1150,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663439,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -1075,6 +1190,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -1094,6 +1210,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1114,6 +1231,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1134,6 +1252,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -1153,6 +1272,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
@@ -1174,6 +1294,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         },
@@ -1192,6 +1313,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "declaringAssemblyName": "System.IO.MemoryMappedFiles"
         }

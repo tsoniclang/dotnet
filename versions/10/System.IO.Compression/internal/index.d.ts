@@ -19,9 +19,9 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { Encoding } from "../../System.Text/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
-import type { CancellationToken } from "../../System.Threading/internal/index.js";
+import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, ValueType, Void } from "../../System/internal/index.js";
 
 export enum CompressionLevel {
     Optimal = 0,
@@ -110,7 +110,12 @@ export const BrotliCompressionOptions: {
 
 export type BrotliCompressionOptions = BrotliCompressionOptions$instance;
 
-export interface BrotliStream$instance extends Stream {
+export abstract class BrotliStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface BrotliStream$instance extends BrotliStream$protected, Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -165,7 +170,12 @@ export interface __BrotliStream$views {
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
 
-export interface DeflateStream$instance extends Stream {
+export abstract class DeflateStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface DeflateStream$instance extends DeflateStream$protected, Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -226,7 +236,12 @@ export interface __DeflateStream$views {
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
 
-export interface GZipStream$instance extends Stream {
+export abstract class GZipStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface GZipStream$instance extends GZipStream$protected, Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -287,7 +302,13 @@ export interface __GZipStream$views {
 export type GZipStream = GZipStream$instance & __GZipStream$views;
 
 
-export interface ZipArchive$instance {
+export abstract class ZipArchive$protected {
+    protected Dispose(disposing: boolean): void;
+    protected DisposeAsyncCore(): ValueTask;
+}
+
+
+export interface ZipArchive$instance extends ZipArchive$protected {
     Comment: string;
     readonly Entries: ReadOnlyCollection_1<ZipArchiveEntry>;
     readonly Mode: ZipArchiveMode;
@@ -313,7 +334,7 @@ export interface __ZipArchive$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 
@@ -324,7 +345,7 @@ export interface ZipArchiveEntry$instance {
     readonly CompressedLength: long;
     readonly Crc32: uint;
     ExternalAttributes: int;
-    readonly FullName: string;
+    FullName: string;
     readonly IsEncrypted: boolean;
     LastWriteTime: DateTimeOffset;
     readonly Length: long;
@@ -365,6 +386,7 @@ export const ZLibException: {
     new(message: string, zlibErrorContext: string, zlibErrorCode: int, zlibErrorMessage: string): ZLibException;
     new(): ZLibException;
     new(message: string, innerException: Exception): ZLibException;
+    new(info: SerializationInfo, context: StreamingContext): ZLibException;
 };
 
 
@@ -375,7 +397,12 @@ export interface __ZLibException$views {
 export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
-export interface ZLibStream$instance extends Stream {
+export abstract class ZLibStream$protected {
+    protected Dispose2(disposing: boolean): void;
+}
+
+
+export interface ZLibStream$instance extends ZLibStream$protected, Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;

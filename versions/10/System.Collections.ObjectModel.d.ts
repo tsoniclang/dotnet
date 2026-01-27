@@ -7,10 +7,10 @@ import * as Internal from './System.Collections.ObjectModel/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, IReadOnlySet_1, ISet_1, KeyValuePair_2, List_1 } from './System.Collections.Generic/internal/index.js';
-import type { INotifyCollectionChanged, NotifyCollectionChangedEventHandler } from './System.Collections.Specialized/internal/index.js';
+import type { INotifyCollectionChanged, NotifyCollectionChangedEventArgs, NotifyCollectionChangedEventHandler } from './System.Collections.Specialized/internal/index.js';
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
-import type { INotifyPropertyChanged } from './System.ComponentModel/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from './System/internal/index.js';
+import type { INotifyPropertyChanged, PropertyChangedEventArgs, PropertyChangedEventHandler } from './System.ComponentModel/internal/index.js';
+import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { KeyedCollection_2 as KeyedCollection } from './System.Collections.ObjectModel/internal/index.js';

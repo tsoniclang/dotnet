@@ -966,6 +966,7 @@ export interface CallSiteBinder$instance {
 
 
 export const CallSiteBinder: {
+    new(): CallSiteBinder;
     readonly UpdateLabel: LabelTarget;
 };
 
@@ -1118,6 +1119,7 @@ export interface CustomConstantAttribute$instance extends Attribute {
 
 
 export const CustomConstantAttribute: {
+    new(): CustomConstantAttribute;
 };
 
 
@@ -1141,6 +1143,7 @@ export interface DebugInfoGenerator$instance {
 
 
 export const DebugInfoGenerator: {
+    new(): DebugInfoGenerator;
     CreatePdbGenerator(): DebugInfoGenerator;
 };
 

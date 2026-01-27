@@ -36,6 +36,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -54,6 +55,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -68,6 +70,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -90,12 +93,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -114,6 +117,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -133,6 +137,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -152,6 +157,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -171,6 +177,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -190,6 +197,47 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::OutputTabs():System.Void",
+          "clrName": "OutputTabs",
+          "metadataToken": 100677657,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OutputTabs|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::OutputTabsAsync():System.Threading.Tasks.Task",
+          "clrName": "OutputTabsAsync",
+          "metadataToken": 100677658,
+          "canonicalSignature": "():System.Threading.Tasks.Task",
+          "normalizedSignature": "OutputTabsAsync|():System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -209,6 +257,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -228,6 +277,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -247,6 +297,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -266,6 +317,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -285,6 +337,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -304,6 +357,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -323,6 +377,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -342,6 +397,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -361,6 +417,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -380,6 +437,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -399,6 +457,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -418,6 +477,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -437,6 +497,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -456,6 +517,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -475,6 +537,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -494,6 +557,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -513,6 +577,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -532,6 +597,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -551,6 +617,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -570,6 +637,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -589,6 +657,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -608,6 +677,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -627,6 +697,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -646,6 +717,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -665,6 +737,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -684,6 +757,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -703,6 +777,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -722,6 +797,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -741,6 +817,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -760,6 +837,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -779,6 +857,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -798,6 +877,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -817,6 +897,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -836,6 +917,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -855,6 +937,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -874,6 +957,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -893,6 +977,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -912,6 +997,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -931,6 +1017,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -950,6 +1037,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -969,6 +1057,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -988,6 +1077,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1007,6 +1097,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1026,6 +1117,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1046,10 +1138,31 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Dispose():System.Void",
@@ -1066,6 +1179,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1085,6 +1199,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1104,6 +1219,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1123,6 +1239,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1142,6 +1259,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1161,6 +1279,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1180,6 +1299,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1199,6 +1319,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1218,6 +1339,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1237,6 +1359,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1256,6 +1379,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1275,6 +1399,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1294,6 +1419,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1313,6 +1439,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1332,6 +1459,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1351,6 +1479,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1370,6 +1499,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1389,6 +1519,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1410,6 +1541,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1428,6 +1560,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1446,6 +1579,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1464,6 +1598,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1477,6 +1612,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1490,6 +1626,7 @@
           "normalizedSignature": "constructor|(System.IO.TextWriter):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1500,6 +1637,7 @@
           "normalizedSignature": "constructor|(System.IO.TextWriter,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

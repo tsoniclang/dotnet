@@ -45,6 +45,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -64,6 +65,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -83,6 +85,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -102,6 +105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -121,6 +125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -140,6 +145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -159,6 +165,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -178,6 +185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -197,6 +205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -216,6 +225,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -235,6 +245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -254,6 +265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -273,6 +285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -292,6 +305,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -311,6 +325,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -331,6 +346,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -353,6 +369,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -371,6 +388,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -389,6 +407,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -407,6 +426,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -425,6 +445,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -443,6 +464,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -462,6 +484,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -481,6 +504,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -496,6 +520,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -506,6 +531,7 @@
           "normalizedSignature": "constructor|(System.Object[],System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -516,6 +542,7 @@
           "normalizedSignature": "constructor|(System.Security.Policy.Evidence):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         },
@@ -526,6 +553,7 @@
           "normalizedSignature": "constructor|(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.Evidence",
           "declaringAssemblyName": "System.Security.AccessControl"
         }
@@ -562,6 +590,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Security.Policy.EvidenceBase",
           "declaringAssemblyName": "System.Security.AccessControl",
           "isExtensionMethod": false
@@ -570,7 +599,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Security.AccessControl:System.Security.Policy.EvidenceBase::.ctor():void",
+          "metadataToken": 100663381,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Security.Policy.EvidenceBase",
+          "declaringAssemblyName": "System.Security.AccessControl"
+        }
+      ]
     }
   ]
 }

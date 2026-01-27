@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConfigureAwaitOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConfigureAwaitOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConfigureAwaitOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -82,6 +85,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConfigureAwaitOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -93,6 +97,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConfigureAwaitOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -121,16 +126,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -144,6 +149,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -155,6 +161,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -166,6 +173,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -177,6 +185,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -188,6 +197,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -199,6 +209,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -210,6 +221,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -221,6 +233,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -232,6 +245,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -243,6 +257,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -254,6 +269,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -265,6 +281,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -276,6 +293,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -287,6 +305,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -298,6 +317,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -309,6 +329,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskContinuationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -337,16 +358,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -360,6 +381,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -371,6 +393,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -382,6 +405,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -393,6 +417,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -404,6 +429,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -415,6 +441,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -426,6 +453,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -437,6 +465,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCreationOptions",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -465,16 +494,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -488,6 +517,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -499,6 +529,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -510,6 +541,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -521,6 +553,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -532,6 +565,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -543,6 +577,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -554,6 +589,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -565,6 +601,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -576,6 +613,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskStatus",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -615,6 +653,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopResult",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -633,6 +672,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopResult",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         }
@@ -681,6 +721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -700,6 +741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -719,6 +761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -738,6 +781,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -757,6 +801,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -776,6 +821,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -795,6 +841,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -814,6 +861,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -833,6 +881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -852,6 +901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -871,6 +921,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -890,6 +941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -909,6 +961,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -931,6 +984,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -949,6 +1003,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -967,6 +1022,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -985,6 +1041,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1003,6 +1060,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1017,6 +1075,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Task):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1027,6 +1086,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Sources.IValueTaskSource,System.Int16):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1043,9 +1103,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
@@ -1058,6 +1115,9 @@
             "ValueTask_1[[TResult]]"
           ]
         }
+      ],
+      "typeParameters": [
+        "TResult"
       ],
       "methods": [
         {
@@ -1075,6 +1135,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1094,6 +1155,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1113,6 +1175,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1132,6 +1195,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1151,6 +1215,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1170,6 +1235,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1189,6 +1255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1208,6 +1275,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1227,6 +1295,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1249,6 +1318,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1267,6 +1337,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1285,6 +1356,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1303,6 +1375,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1321,6 +1394,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1335,6 +1409,7 @@
           "normalizedSignature": "constructor|(TResult):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1345,6 +1420,7 @@
           "normalizedSignature": "constructor|(Task_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1355,6 +1431,7 @@
           "normalizedSignature": "constructor|(IValueTaskSource_1,System.Int16):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ValueTask\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1391,6 +1468,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1412,6 +1490,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1430,6 +1509,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1448,6 +1528,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1462,6 +1543,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1472,6 +1554,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskScheduler):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1482,6 +1565,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskScheduler,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1492,6 +1576,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskScheduler,System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1528,6 +1613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -1547,6 +1633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -1568,6 +1655,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -1586,6 +1674,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -1604,6 +1693,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -1622,6 +1712,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelLoopState",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         }
@@ -1662,6 +1753,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -1680,6 +1772,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         },
@@ -1698,6 +1791,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         }
@@ -1712,6 +1806,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.ParallelOptions",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel"
         }
@@ -1758,6 +1853,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1777,6 +1873,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1796,6 +1893,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1815,6 +1913,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1834,6 +1933,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Tasks.Task",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100680517,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1853,6 +1973,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1872,6 +1993,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1891,6 +2013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1910,6 +2033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1929,6 +2053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1948,6 +2073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1967,6 +2093,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1986,6 +2113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2005,6 +2133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2024,6 +2153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2043,6 +2173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2062,6 +2193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2081,6 +2213,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2100,6 +2233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2119,6 +2253,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2138,6 +2273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2157,6 +2293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2176,6 +2313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2195,6 +2333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2214,6 +2353,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2233,6 +2373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2252,6 +2393,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2271,6 +2413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2290,6 +2433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2309,6 +2453,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2328,6 +2473,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2347,6 +2493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2366,6 +2513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2385,6 +2533,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2404,6 +2553,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2423,6 +2573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2442,6 +2593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2461,6 +2613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2480,6 +2633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2499,6 +2653,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2518,6 +2673,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2537,6 +2693,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2556,6 +2713,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2575,6 +2733,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2594,6 +2753,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2613,6 +2773,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2632,6 +2793,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2651,6 +2813,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2670,6 +2833,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2689,6 +2853,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2708,6 +2873,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2727,6 +2893,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2746,6 +2913,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2765,6 +2933,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2784,6 +2953,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2803,6 +2973,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2822,6 +2993,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2841,6 +3013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2860,6 +3033,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2879,6 +3053,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2898,6 +3073,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2917,6 +3093,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2936,6 +3113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2955,6 +3133,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2974,6 +3153,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -2993,6 +3173,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3012,6 +3193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3031,6 +3213,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3050,6 +3233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3069,6 +3253,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3088,6 +3273,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3107,6 +3293,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3126,6 +3313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3145,6 +3333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3164,6 +3353,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3183,6 +3373,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3202,6 +3393,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3221,6 +3413,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3240,6 +3433,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3259,6 +3453,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3278,6 +3473,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3297,6 +3493,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3316,6 +3513,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3335,6 +3533,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3354,6 +3553,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3373,6 +3573,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3392,6 +3593,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3411,6 +3613,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3430,6 +3633,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3449,6 +3653,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3471,6 +3676,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3489,6 +3695,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3507,6 +3714,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3525,6 +3733,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3543,6 +3752,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3561,6 +3771,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3579,6 +3790,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3597,6 +3809,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3615,6 +3828,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3633,6 +3847,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3651,6 +3866,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3669,6 +3885,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3687,6 +3904,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3706,6 +3924,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3725,6 +3944,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3744,6 +3964,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3759,6 +3980,7 @@
           "normalizedSignature": "constructor|(System.Action):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3769,6 +3991,7 @@
           "normalizedSignature": "constructor|(System.Action,System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3779,6 +4002,7 @@
           "normalizedSignature": "constructor|(System.Action,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3789,6 +4013,7 @@
           "normalizedSignature": "constructor|(System.Action,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3799,6 +4024,7 @@
           "normalizedSignature": "constructor|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3809,6 +4035,7 @@
           "normalizedSignature": "constructor|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3819,6 +4046,7 @@
           "normalizedSignature": "constructor|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -3829,6 +4057,7 @@
           "normalizedSignature": "constructor|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -3845,9 +4074,6 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task",
         "clrName": "System.Threading.Tasks.Task"
@@ -3861,6 +4087,9 @@
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
         }
+      ],
+      "typeParameters": [
+        "TResult"
       ],
       "methods": [
         {
@@ -3878,6 +4107,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3897,6 +4127,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3916,6 +4147,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3935,6 +4167,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3954,6 +4187,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3973,6 +4207,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -3992,6 +4227,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4011,6 +4247,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4030,6 +4267,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4049,6 +4287,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4068,6 +4307,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4087,6 +4327,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4106,6 +4347,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4125,6 +4367,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4144,6 +4387,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4163,6 +4407,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4182,6 +4427,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4201,6 +4447,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4220,6 +4467,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4239,6 +4487,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4258,6 +4507,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4277,6 +4527,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4296,6 +4547,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4315,6 +4567,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4334,6 +4587,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4353,6 +4607,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4372,6 +4627,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4391,6 +4647,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4410,6 +4667,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4430,6 +4688,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4449,6 +4708,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4468,6 +4728,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4487,6 +4748,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4506,6 +4768,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4525,6 +4788,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4544,6 +4808,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4563,6 +4828,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4582,6 +4848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4601,6 +4868,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4620,6 +4888,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4639,6 +4908,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4658,6 +4928,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4677,6 +4948,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4696,6 +4968,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4715,6 +4988,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4734,6 +5008,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4753,6 +5028,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4772,6 +5048,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4791,6 +5068,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4810,6 +5088,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4829,6 +5108,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4848,6 +5128,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Tasks.Task\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4867,6 +5168,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4886,6 +5188,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4905,6 +5208,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4924,6 +5228,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4943,6 +5248,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4962,6 +5268,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -4983,6 +5290,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5001,6 +5309,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5019,6 +5328,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5038,6 +5348,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5057,6 +5368,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5076,6 +5388,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
           "declaringClrType": "System.IAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5091,6 +5404,7 @@
           "normalizedSignature": "constructor|(Func_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5101,6 +5415,7 @@
           "normalizedSignature": "constructor|(Func_1,System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5111,6 +5426,7 @@
           "normalizedSignature": "constructor|(Func_1,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5121,6 +5437,7 @@
           "normalizedSignature": "constructor|(Func_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5131,6 +5448,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5141,6 +5459,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Object,System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5151,6 +5470,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5161,6 +5481,7 @@
           "normalizedSignature": "constructor|(Func_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5203,6 +5524,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5223,6 +5545,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5244,6 +5567,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5258,6 +5582,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5268,6 +5593,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5278,6 +5604,7 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5288,6 +5615,7 @@
           "normalizedSignature": "constructor|(System.String,System.Exception,System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5298,6 +5626,18 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Task):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100680798,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Tasks.TaskCanceledException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5334,6 +5674,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5353,6 +5694,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5372,6 +5714,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5391,6 +5734,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5410,6 +5754,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5429,6 +5774,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5448,6 +5794,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5467,6 +5814,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5486,6 +5834,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5505,6 +5854,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5524,6 +5874,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5543,6 +5894,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5564,6 +5916,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5578,6 +5931,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5588,6 +5942,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5598,6 +5953,7 @@
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5608,6 +5964,7 @@
           "normalizedSignature": "constructor|(System.Object,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5624,13 +5981,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "TResult"
+      ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetException(System.Exception):System.Void",
@@ -5647,6 +6004,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5666,6 +6024,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5685,6 +6044,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5704,6 +6064,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5723,6 +6084,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5742,6 +6104,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5761,6 +6124,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5780,6 +6144,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5799,6 +6164,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5818,6 +6184,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5837,6 +6204,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5856,6 +6224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5877,6 +6246,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5891,6 +6261,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5901,6 +6272,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5911,6 +6283,7 @@
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -5921,6 +6294,7 @@
           "normalizedSignature": "constructor|(System.Object,System.Threading.Tasks.TaskCreationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskCompletionSource\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -5957,6 +6331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5976,6 +6351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -5995,6 +6371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6014,6 +6391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6033,6 +6411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6052,6 +6431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6071,6 +6451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6090,6 +6471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6109,6 +6491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6128,6 +6511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6147,6 +6531,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6166,6 +6551,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6185,6 +6571,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6204,6 +6591,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6223,6 +6611,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6242,6 +6631,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6261,6 +6651,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6280,6 +6671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6299,6 +6691,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6318,6 +6711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6337,6 +6731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6356,6 +6751,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6375,6 +6771,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6394,6 +6791,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6413,6 +6811,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6432,6 +6831,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6451,6 +6851,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6470,6 +6871,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6489,6 +6891,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6508,6 +6911,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6527,6 +6931,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6546,6 +6951,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6565,6 +6971,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6584,6 +6991,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6603,6 +7011,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6622,6 +7031,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6641,6 +7051,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6660,6 +7071,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6679,6 +7091,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6698,6 +7111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6717,6 +7131,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6736,6 +7151,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6755,6 +7171,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6774,6 +7191,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6793,6 +7211,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6812,6 +7231,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6831,6 +7251,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6850,6 +7271,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6869,6 +7291,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6888,6 +7311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6907,6 +7331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6926,6 +7351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6945,6 +7371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6964,6 +7391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -6983,6 +7411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7002,6 +7431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7021,6 +7451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7040,6 +7471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7059,6 +7491,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7078,6 +7511,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7097,6 +7531,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7116,6 +7551,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7135,6 +7571,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7154,6 +7591,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7173,6 +7611,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7192,6 +7631,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7211,6 +7651,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7230,6 +7671,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7249,6 +7691,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7268,6 +7711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7289,6 +7733,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7307,6 +7752,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7325,6 +7771,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7343,6 +7790,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -7357,6 +7805,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7367,6 +7816,7 @@
           "normalizedSignature": "constructor|(System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7377,6 +7827,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskScheduler):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7387,6 +7838,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -7397,6 +7849,7 @@
           "normalizedSignature": "constructor|(System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -7413,13 +7866,13 @@
       "isSealed": false,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "TResult"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "TResult"
+      ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_1):Task_1",
@@ -7436,6 +7889,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7455,6 +7909,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7474,6 +7929,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7493,6 +7949,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7512,6 +7969,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7531,6 +7989,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7550,6 +8009,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7569,6 +8029,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7588,6 +8049,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7607,6 +8069,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7626,6 +8089,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7645,6 +8109,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7664,6 +8129,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7683,6 +8149,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7702,6 +8169,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7721,6 +8189,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7740,6 +8209,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7759,6 +8229,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7778,6 +8249,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7797,6 +8269,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7816,6 +8289,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7835,6 +8309,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7854,6 +8329,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7873,6 +8349,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7892,6 +8369,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7911,6 +8389,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7930,6 +8409,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7949,6 +8429,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7968,6 +8449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -7987,6 +8469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8006,6 +8489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8025,6 +8509,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8044,6 +8529,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8063,6 +8549,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8082,6 +8569,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8103,6 +8591,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8121,6 +8610,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8139,6 +8629,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8157,6 +8648,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8171,6 +8663,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8181,6 +8674,7 @@
           "normalizedSignature": "constructor|(System.Threading.CancellationToken):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8191,6 +8685,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskScheduler):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8201,6 +8696,7 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8211,6 +8707,7 @@
           "normalizedSignature": "constructor|(System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskFactory\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8233,6 +8730,86 @@
       },
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::QueueTask(System.Threading.Tasks.Task):System.Void",
+          "clrName": "QueueTask",
+          "metadataToken": 100680995,
+          "canonicalSignature": "(System.Threading.Tasks.Task):System.Void",
+          "normalizedSignature": "QueueTask|(System.Threading.Tasks.Task):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::TryExecuteTaskInline(System.Threading.Tasks.Task,System.Boolean):System.Boolean",
+          "clrName": "TryExecuteTaskInline",
+          "metadataToken": 100680996,
+          "canonicalSignature": "(System.Threading.Tasks.Task,System.Boolean):System.Boolean",
+          "normalizedSignature": "TryExecuteTaskInline|(System.Threading.Tasks.Task,System.Boolean):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::GetScheduledTasks():System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "clrName": "GetScheduledTasks",
+          "metadataToken": 100680997,
+          "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "GetScheduledTasks|():System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::TryDequeue(System.Threading.Tasks.Task):System.Boolean",
+          "clrName": "TryDequeue",
+          "metadataToken": 100681000,
+          "canonicalSignature": "(System.Threading.Tasks.Task):System.Boolean",
+          "normalizedSignature": "TryDequeue|(System.Threading.Tasks.Task):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::FromCurrentSynchronizationContext():System.Threading.Tasks.TaskScheduler",
           "clrName": "FromCurrentSynchronizationContext",
           "metadataToken": 100681008,
@@ -8247,6 +8824,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::TryExecuteTask(System.Threading.Tasks.Task):System.Boolean",
+          "clrName": "TryExecuteTask",
+          "metadataToken": 100681010,
+          "canonicalSignature": "(System.Threading.Tasks.Task):System.Boolean",
+          "normalizedSignature": "TryExecuteTask|(System.Threading.Tasks.Task):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8268,6 +8866,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8286,6 +8885,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8304,6 +8904,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8322,6 +8923,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8334,11 +8936,24 @@
           "metadataToken": 335544334,
           "normalizedSignature": "UnobservedTaskException|System.EventHandler\u00601[[System.Threading.Tasks.UnobservedTaskExceptionEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "isStatic": true,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskScheduler",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::.ctor():void",
+          "metadataToken": 100681003,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Threading.Tasks.TaskScheduler",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException",
@@ -8377,6 +8992,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -8397,6 +9013,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8413,6 +9030,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8423,6 +9041,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8433,6 +9052,7 @@
           "normalizedSignature": "constructor|(System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8443,6 +9063,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100681037,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Threading.Tasks.TaskSchedulerException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8479,6 +9111,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.UnobservedTaskExceptionEventArgs",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -8500,6 +9133,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.UnobservedTaskExceptionEventArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -8518,6 +9152,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.UnobservedTaskExceptionEventArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8532,6 +9167,7 @@
           "normalizedSignature": "constructor|(System.AggregateException):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.UnobservedTaskExceptionEventArgs",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -8568,6 +9204,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8587,6 +9224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8606,6 +9244,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8625,6 +9264,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8644,6 +9284,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8663,6 +9304,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8682,6 +9324,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8701,6 +9344,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8720,6 +9364,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8739,6 +9384,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8758,6 +9404,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8777,6 +9424,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8796,6 +9444,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8815,6 +9464,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8834,6 +9484,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8853,6 +9504,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8872,6 +9524,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8891,6 +9544,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8910,6 +9564,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8929,6 +9584,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8948,6 +9604,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8967,6 +9624,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -8986,6 +9644,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9005,6 +9664,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9024,6 +9684,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9043,6 +9704,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9062,6 +9724,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9081,6 +9744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9100,6 +9764,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9119,6 +9784,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9138,6 +9804,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9157,6 +9824,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9176,6 +9844,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9195,6 +9864,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9214,6 +9884,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9233,6 +9904,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9252,6 +9924,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9271,6 +9944,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9290,6 +9964,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9309,6 +9984,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9328,6 +10004,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9347,6 +10024,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9366,6 +10044,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Parallel",
           "declaringAssemblyName": "System.Threading.Tasks.Parallel",
           "isExtensionMethod": false
@@ -9407,6 +10086,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskAsyncEnumerableExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9426,6 +10106,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskAsyncEnumerableExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9445,6 +10126,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskAsyncEnumerableExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9464,6 +10146,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskAsyncEnumerableExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9505,6 +10188,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9524,6 +10208,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskExtensions",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": true
@@ -9565,6 +10250,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskToAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -9584,6 +10270,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskToAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -9603,6 +10290,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskToAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -9622,6 +10310,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskToAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -9641,6 +10330,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.TaskToAsyncResult",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

@@ -11,7 +11,7 @@ import * as System_Collections_Generic_Internal from "../../System.Collections.G
 import type { ICollection_1, IEnumerable_1, IEnumerator_1 } from "../../System.Collections.Generic/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { IDictionary, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
-import type { BinaryWriter } from "../../System.IO/internal/index.js";
+import type { BinaryReader, BinaryWriter } from "../../System.IO/internal/index.js";
 import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
@@ -204,6 +204,7 @@ export interface GenericIdentity$instance extends ClaimsIdentity {
 export const GenericIdentity: {
     new(name: string): GenericIdentity;
     new(name: string, type: string): GenericIdentity;
+    new(identity: GenericIdentity): GenericIdentity;
 };
 
 
@@ -355,7 +356,13 @@ export interface SecurityIdentifier$instance extends System_Internal.IComparable
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export interface WindowsIdentity$instance extends ClaimsIdentity {
+export abstract class WindowsIdentity$protected {
+    protected Dispose(disposing: boolean): void;
+    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+}
+
+
+export interface WindowsIdentity$instance extends WindowsIdentity$protected, ClaimsIdentity {
     readonly AccessToken: SafeAccessTokenHandle;
     readonly AuthenticationType: string | undefined;
     readonly Claims: IEnumerable_1<Claim>;
@@ -382,6 +389,7 @@ export const WindowsIdentity: {
     new(userToken: nint, type: string, acctType: WindowsAccountType): WindowsIdentity;
     new(userToken: nint, type: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity;
     new(info: SerializationInfo, context: StreamingContext): WindowsIdentity;
+    new(identity: WindowsIdentity): WindowsIdentity;
     new(sUserPrincipalName: string): WindowsIdentity;
     readonly DefaultIssuer: string;
     GetAnonymous(): WindowsIdentity;
@@ -402,7 +410,7 @@ export interface __WindowsIdentity$views {
     As_IIdentity(): IIdentity$instance;
 }
 
-export interface WindowsIdentity$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance, IIdentity$instance {}
+export interface WindowsIdentity$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, IIdentity$instance {}
 
 export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views;
 

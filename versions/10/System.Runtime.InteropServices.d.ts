@@ -10,7 +10,7 @@ import type { SafeHandleZeroOrMinusOneIsInvalid } from './Microsoft.Win32.SafeHa
 import type { MemoryManager_1, ReadOnlySequence_1, ReadOnlySequenceSegment_1, SequenceReader_1 } from './System.Buffers/internal/index.js';
 import type { Dictionary_2, Dictionary_2_AlternateLookup_1, IEnumerable_1, IList_1, IReadOnlyDictionary_2, List_1 } from './System.Collections.Generic/internal/index.js';
 import type { ImmutableArray_1, ImmutableArray_1_Builder } from './System.Collections.Immutable/internal/index.js';
-import type { BitArray, IDictionary } from './System.Collections/internal/index.js';
+import type { BitArray, IDictionary, IEnumerable } from './System.Collections/internal/index.js';
 import type { NumberStyles } from './System.Globalization/internal/index.js';
 import type { IAdditionOperators_3, IAdditiveIdentity_2, IBinaryFloatingPointIeee754_1, IBinaryInteger_1, IBinaryNumber_1, IBitwiseOperators_3, IComparisonOperators_3, IDecrementOperators_1, IDivisionOperators_3, IEqualityOperators_3, IExponentialFunctions_1, IFloatingPoint_1, IFloatingPointConstants_1, IFloatingPointIeee754_1, IHyperbolicFunctions_1, IIncrementOperators_1, ILogarithmicFunctions_1, IMinMaxValue_1, IModulusOperators_3, IMultiplicativeIdentity_2, IMultiplyOperators_3, INumber_1, INumberBase_1, IPowerFunctions_1, IRootFunctions_1, ISignedNumber_1, ISubtractionOperators_3, ITrigonometricFunctions_1, IUnaryNegationOperators_2, IUnaryPlusOperators_2 } from './System.Numerics/internal/index.js';
 import type { Assembly, CustomAttributeData, EventAttributes, EventInfo, ICustomAttributeProvider, MemberInfo, MemberTypes, MethodBase, MethodInfo, Module } from './System.Reflection/internal/index.js';

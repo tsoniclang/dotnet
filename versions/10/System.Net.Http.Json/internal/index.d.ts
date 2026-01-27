@@ -5,6 +5,9 @@
 // Primitive type aliases from @tsonic/core
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
+// Import support types from @tsonic/core
+import type { ptr } from "@tsonic/core/types.js";
+
 // Import types from other namespaces
 import type { IAsyncEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { Stream } from "../../System.IO/internal/index.js";
@@ -20,10 +23,19 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, Int64, Object as ClrObject, String as ClrString, Type, Uri, Void } from "../../System/internal/index.js";
 
-export interface JsonContent$instance extends HttpContent {
+export abstract class JsonContent$protected {
+    protected Dispose(disposing: boolean): void;
+    protected SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
+    protected SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
+    protected TryComputeLength(length: long): boolean;
+}
+
+
+export interface JsonContent$instance extends JsonContent$protected, HttpContent {
     readonly ObjectType: Type;
     readonly Value: unknown;
-    Dispose(): void;
+    Dispose3(): void;
 }
 
 

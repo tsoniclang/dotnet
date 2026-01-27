@@ -41,6 +41,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
           "isExtensionMethod": false
@@ -60,6 +61,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
           "isExtensionMethod": false
@@ -79,6 +81,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
           "isExtensionMethod": false,
@@ -99,6 +102,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
           "isExtensionMethod": false,
@@ -121,6 +125,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -139,6 +144,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -157,6 +163,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -175,6 +182,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -193,6 +201,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -211,6 +220,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -229,6 +239,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Runtime.Serialization.IFormatter",
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
@@ -248,6 +259,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Runtime.Serialization.IFormatter",
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
@@ -267,6 +279,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Runtime.Serialization.IFormatter",
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
@@ -282,6 +295,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         },
@@ -292,6 +306,7 @@
           "normalizedSignature": "constructor|(System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
           "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
         }

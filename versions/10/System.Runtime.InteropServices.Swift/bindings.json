@@ -36,6 +36,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -50,6 +51,7 @@
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -87,6 +89,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -101,6 +104,7 @@
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -138,6 +142,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -152,6 +157,7 @@
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -168,13 +174,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [
         {
@@ -192,6 +198,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -206,6 +213,7 @@
           "normalizedSignature": "constructor|(T):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

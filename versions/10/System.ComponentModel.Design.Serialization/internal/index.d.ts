@@ -174,6 +174,7 @@ export interface ComponentSerializationService$instance {
 
 
 export const ComponentSerializationService: {
+    new(): ComponentSerializationService;
 };
 
 
@@ -218,6 +219,7 @@ export interface DesignerLoader$instance {
 
 
 export const DesignerLoader: {
+    new(): DesignerLoader;
 };
 
 
@@ -255,7 +257,13 @@ export const InstanceDescriptor: {
 
 export type InstanceDescriptor = InstanceDescriptor$instance;
 
-export interface MemberRelationshipService$instance {
+export abstract class MemberRelationshipService$protected {
+    protected GetRelationship(source: MemberRelationship): MemberRelationship;
+    protected SetRelationship(source: MemberRelationship, relationship: MemberRelationship): void;
+}
+
+
+export interface MemberRelationshipService$instance extends MemberRelationshipService$protected {
     get_Item(source: MemberRelationship): MemberRelationship;
     get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
     set_Item(source: MemberRelationship, value: MemberRelationship): void;
@@ -265,6 +273,7 @@ export interface MemberRelationshipService$instance {
 
 
 export const MemberRelationshipService: {
+    new(): MemberRelationshipService;
 };
 
 
@@ -300,7 +309,12 @@ export const RootDesignerSerializerAttribute: {
 
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
-export interface SerializationStore$instance {
+export abstract class SerializationStore$protected {
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface SerializationStore$instance extends SerializationStore$protected {
     readonly Errors: ICollection;
     Close(): void;
     Save(stream: Stream): void;
@@ -308,14 +322,13 @@ export interface SerializationStore$instance {
 
 
 export const SerializationStore: {
+    new(): SerializationStore;
 };
 
 
 export interface __SerializationStore$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SerializationStore$instance extends System_Internal.IDisposable$instance {}
 
 export type SerializationStore = SerializationStore$instance & __SerializationStore$views;
 

@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -115,6 +118,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -134,6 +138,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -153,6 +158,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -196,6 +202,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -215,6 +222,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -234,6 +242,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -253,6 +262,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -300,6 +310,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -320,6 +331,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingManifestResourceException",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -336,6 +348,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingManifestResourceException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -346,6 +359,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingManifestResourceException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -356,6 +370,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.MissingManifestResourceException",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100674354,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.MissingManifestResourceException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -398,6 +424,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -418,6 +445,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -439,6 +467,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -453,6 +482,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -463,6 +493,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -473,6 +504,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -483,6 +515,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100674359,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -520,6 +564,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -538,6 +583,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -552,6 +598,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -562,6 +609,7 @@
           "normalizedSignature": "constructor|(System.String,System.Resources.UltimateResourceFallbackLocation):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -598,6 +646,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -617,6 +666,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetResourceFileName(System.Globalization.CultureInfo):System.String",
+          "clrName": "GetResourceFileName",
+          "metadataToken": 100674388,
+          "canonicalSignature": "(System.Globalization.CultureInfo):System.String",
+          "normalizedSignature": "GetResourceFileName|(System.Globalization.CultureInfo):System.String|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -636,6 +706,67 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
+          "clrName": "InternalGetResourceSet",
+          "metadataToken": 100674391,
+          "canonicalSignature": "(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
+          "normalizedSignature": "InternalGetResourceSet|(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetSatelliteContractVersion(System.Reflection.Assembly):System.Version",
+          "clrName": "GetSatelliteContractVersion",
+          "metadataToken": 100674393,
+          "canonicalSignature": "(System.Reflection.Assembly):System.Version",
+          "normalizedSignature": "GetSatelliteContractVersion|(System.Reflection.Assembly):System.Version|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetNeutralResourcesLanguage(System.Reflection.Assembly):System.Globalization.CultureInfo",
+          "clrName": "GetNeutralResourcesLanguage",
+          "metadataToken": 100674394,
+          "canonicalSignature": "(System.Reflection.Assembly):System.Globalization.CultureInfo",
+          "normalizedSignature": "GetNeutralResourcesLanguage|(System.Reflection.Assembly):System.Globalization.CultureInfo|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -655,6 +786,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -674,6 +806,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -693,6 +826,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -712,6 +846,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -731,6 +866,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -750,6 +886,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -771,6 +908,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -789,6 +927,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -807,11 +946,55 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::FallbackLocation:System.Resources.UltimateResourceFallbackLocation",
+          "clrName": "FallbackLocation",
+          "metadataToken": 385878167,
+          "canonicalSignature": ":System.Resources.UltimateResourceFallbackLocation",
+          "normalizedSignature": "FallbackLocation|:System.Resources.UltimateResourceFallbackLocation|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
       "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::BaseNameFieldSystem.String",
+          "clrName": "BaseNameField",
+          "metadataToken": 67110801,
+          "normalizedSignature": "BaseNameField|System.String|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::MainAssemblySystem.Reflection.Assembly",
+          "clrName": "MainAssembly",
+          "metadataToken": 67110802,
+          "normalizedSignature": "MainAssembly|System.Reflection.Assembly|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::MagicNumberSystem.Int32",
           "clrName": "MagicNumber",
@@ -820,6 +1003,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -831,6 +1015,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -838,12 +1023,24 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::.ctor():void",
+          "metadataToken": 100674374,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceManager",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::.ctor(System.String,System.Reflection.Assembly):void",
           "metadataToken": 100674376,
           "canonicalSignature": "(System.String,System.Reflection.Assembly):void",
           "normalizedSignature": "constructor|(System.String,System.Reflection.Assembly):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -854,6 +1051,7 @@
           "normalizedSignature": "constructor|(System.String,System.Reflection.Assembly,System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -864,6 +1062,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceManager",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -886,16 +1085,16 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Resources.IResourceReader",
+          "clrName": "System.Resources.IResourceReader"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Resources.IResourceReader",
-          "clrName": "System.Resources.IResourceReader"
         }
       ],
       "methods": [
@@ -914,6 +1113,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -943,6 +1143,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -962,6 +1163,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -981,6 +1183,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1000,6 +1203,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1020,6 +1224,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1040,6 +1245,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1060,6 +1266,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1077,6 +1284,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1087,6 +1295,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceReader",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1109,12 +1318,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
         }
       ],
       "methods": [
@@ -1133,6 +1342,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.ResourceSet",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100674477,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1152,6 +1382,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1171,6 +1402,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1190,6 +1422,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1209,6 +1442,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1228,6 +1462,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1247,6 +1482,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1266,6 +1502,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1285,6 +1522,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Resources.ResourceSet",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::ReadResources():System.Void",
+          "clrName": "ReadResources",
+          "metadataToken": 100674488,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ReadResources|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -1304,6 +1562,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1324,6 +1583,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1331,9 +1591,33 @@
         }
       ],
       "properties": [],
-      "fields": [],
+      "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::ReaderSystem.Resources.IResourceReader",
+          "clrName": "Reader",
+          "metadataToken": 67110842,
+          "normalizedSignature": "Reader|System.Resources.IResourceReader|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceSet",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
       "events": [],
       "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::.ctor():void",
+          "metadataToken": 100674471,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Resources.ResourceSet",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::.ctor(System.String):void",
           "metadataToken": 100674473,
@@ -1341,6 +1625,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1351,6 +1636,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib"
         },
@@ -1361,6 +1647,7 @@
           "normalizedSignature": "constructor|(System.Resources.IResourceReader):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceSet",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1383,12 +1670,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        },
-        {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter",
           "clrName": "System.Resources.IResourceWriter"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
         }
       ],
       "methods": [
@@ -1407,6 +1694,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1426,6 +1714,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1445,6 +1734,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1464,6 +1754,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1483,6 +1774,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1502,6 +1794,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1521,6 +1814,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1540,6 +1834,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1559,6 +1854,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false
@@ -1578,6 +1874,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false,
@@ -1598,6 +1895,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false,
@@ -1618,6 +1916,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false,
@@ -1638,6 +1937,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.IResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer",
           "isExtensionMethod": false,
@@ -1658,6 +1958,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1680,6 +1981,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer"
         }
@@ -1694,6 +1996,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer"
         },
@@ -1704,6 +2007,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.ResourceWriter",
           "declaringAssemblyName": "System.Resources.Writer"
         }
@@ -1741,6 +2045,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.SatelliteContractVersionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
@@ -1755,6 +2060,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Resources.SatelliteContractVersionAttribute",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.DeliveryNotificationOptions",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -131,16 +137,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -154,6 +160,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailPriority",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailPriority",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailPriority",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailPriority",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -215,16 +225,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -238,6 +248,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryFormat",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryFormat",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryFormat",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -288,16 +301,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -311,6 +324,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryMethod",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -322,6 +336,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryMethod",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -333,6 +348,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryMethod",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -344,6 +360,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpDeliveryMethod",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -372,16 +389,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -395,6 +412,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -406,6 +424,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -417,6 +436,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -428,6 +448,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -439,6 +460,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -450,6 +472,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -461,6 +484,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -472,6 +496,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -483,6 +508,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -494,6 +520,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -505,6 +532,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -516,6 +544,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -527,6 +556,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -538,6 +568,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -549,6 +580,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -560,6 +592,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -571,6 +604,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -582,6 +616,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -593,6 +628,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -604,6 +640,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -615,6 +652,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -626,6 +664,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -637,6 +676,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -648,6 +688,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -659,6 +700,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -670,6 +712,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpStatusCode",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -718,6 +761,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -737,6 +781,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -756,6 +801,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -772,6 +818,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -814,6 +861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -833,6 +881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -852,6 +901,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AlternateView",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663556,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -871,6 +941,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -891,6 +962,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -912,6 +984,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -930,6 +1003,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -944,6 +1018,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -954,6 +1029,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -964,6 +1040,7 @@
           "normalizedSignature": "constructor|(System.String,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -974,6 +1051,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -984,6 +1062,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -994,6 +1073,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateView",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -1019,6 +1099,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "AlternateView"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -1033,8 +1120,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "AlternateView"
           ]
@@ -1045,25 +1144,6 @@
           "typeArguments": [
             "AlternateView"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "AlternateView"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
@@ -1086,6 +1166,87 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100663559,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100663560,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::SetItem(System.Int32,System.Net.Mail.AlternateView):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663561,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.AlternateView):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,System.Net.Mail.AlternateView):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::InsertItem(System.Int32,System.Net.Mail.AlternateView):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663562,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.AlternateView):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,System.Net.Mail.AlternateView):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1105,6 +1266,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1125,6 +1287,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1145,6 +1308,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1165,6 +1329,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1185,6 +1350,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1205,6 +1371,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1225,6 +1392,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1245,6 +1413,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1265,6 +1434,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1285,6 +1455,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1305,6 +1476,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1325,6 +1497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1345,6 +1518,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1365,6 +1539,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1385,6 +1560,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1405,6 +1581,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1425,6 +1602,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1445,6 +1623,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1464,6 +1643,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1483,6 +1663,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1502,6 +1683,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1521,6 +1703,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1540,6 +1723,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1559,6 +1743,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1578,6 +1763,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1597,6 +1783,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1616,6 +1803,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1635,6 +1823,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1654,6 +1843,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1673,6 +1883,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1692,6 +1903,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1711,6 +1923,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AlternateViewCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1732,6 +1965,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1751,6 +1985,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1770,6 +2005,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1789,6 +2025,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1808,6 +2045,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1827,6 +2065,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1846,6 +2085,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1865,6 +2105,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1911,6 +2152,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1930,6 +2172,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1949,6 +2192,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -1968,6 +2212,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1988,6 +2233,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.Attachment",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.Attachment::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2009,6 +2275,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2027,6 +2294,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2045,6 +2313,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -2059,6 +2328,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2069,6 +2339,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2079,6 +2350,7 @@
           "normalizedSignature": "constructor|(System.String,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2089,6 +2361,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2099,6 +2372,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2109,6 +2383,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.Attachment",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -2151,6 +2426,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663572,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AttachmentBase",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2170,6 +2466,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2192,6 +2489,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentBase",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2210,6 +2508,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentBase",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2228,6 +2527,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentBase",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -2246,13 +2546,81 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentBase",
           "declaringAssemblyName": "System.Net.Mail"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String):void",
+          "metadataToken": 100663564,
+          "canonicalSignature": "(System.String):void",
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String,System.String):void",
+          "metadataToken": 100663565,
+          "canonicalSignature": "(System.String,System.String):void",
+          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String,System.Net.Mime.ContentType):void",
+          "metadataToken": 100663566,
+          "canonicalSignature": "(System.String,System.Net.Mime.ContentType):void",
+          "normalizedSignature": "constructor|(System.String,System.Net.Mime.ContentType):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream):void",
+          "metadataToken": 100663567,
+          "canonicalSignature": "(System.IO.Stream):void",
+          "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream,System.String):void",
+          "metadataToken": 100663568,
+          "canonicalSignature": "(System.IO.Stream,System.String):void",
+          "normalizedSignature": "constructor|(System.IO.Stream,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream,System.Net.Mime.ContentType):void",
+          "metadataToken": 100663570,
+          "canonicalSignature": "(System.IO.Stream,System.Net.Mime.ContentType):void",
+          "normalizedSignature": "constructor|(System.IO.Stream,System.Net.Mime.ContentType):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentBase",
+          "declaringAssemblyName": "System.Net.Mail"
+        }
+      ]
     },
     {
       "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection",
@@ -2274,6 +2642,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "Attachment"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -2288,8 +2663,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "Attachment"
           ]
@@ -2300,25 +2687,6 @@
           "typeArguments": [
             "Attachment"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "Attachment"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
@@ -2341,6 +2709,87 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100663607,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100663608,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::SetItem(System.Int32,System.Net.Mail.Attachment):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663609,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.Attachment):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,System.Net.Mail.Attachment):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::InsertItem(System.Int32,System.Net.Mail.Attachment):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663610,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.Attachment):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,System.Net.Mail.Attachment):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2360,6 +2809,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2380,6 +2830,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2400,6 +2851,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2420,6 +2872,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2440,6 +2893,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2460,6 +2914,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2480,6 +2935,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2500,6 +2956,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2520,6 +2977,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2540,6 +2998,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2560,6 +3019,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2580,6 +3040,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2600,6 +3061,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2620,6 +3082,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2640,6 +3103,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2660,6 +3124,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2680,6 +3145,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2700,6 +3166,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2719,6 +3186,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2738,6 +3206,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2757,6 +3226,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2776,6 +3246,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2795,6 +3266,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2814,6 +3286,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2833,6 +3306,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2852,6 +3326,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2871,6 +3346,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2890,6 +3366,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2909,6 +3386,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2928,6 +3426,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2947,6 +3446,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2966,6 +3466,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.AttachmentCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -2987,6 +3508,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3006,6 +3528,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3025,6 +3548,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3044,6 +3568,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3063,6 +3588,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3082,6 +3608,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3101,6 +3628,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3120,6 +3648,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3166,6 +3695,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3185,6 +3715,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3204,6 +3735,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3223,6 +3755,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3243,6 +3776,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.LinkedResource",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3264,6 +3818,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -3278,6 +3833,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -3288,6 +3844,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -3298,6 +3855,7 @@
           "normalizedSignature": "constructor|(System.String,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -3308,6 +3866,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -3318,6 +3877,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -3328,6 +3888,7 @@
           "normalizedSignature": "constructor|(System.IO.Stream,System.Net.Mime.ContentType):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResource",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -3353,6 +3914,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "LinkedResource"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -3367,8 +3935,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "LinkedResource"
           ]
@@ -3379,25 +3959,6 @@
           "typeArguments": [
             "LinkedResource"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "LinkedResource"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
@@ -3420,6 +3981,87 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::RemoveItem(System.Int32):System.Void",
+          "clrName": "RemoveItem",
+          "metadataToken": 100663625,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "RemoveItem|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::ClearItems():System.Void",
+          "clrName": "ClearItems",
+          "metadataToken": 100663626,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "ClearItems|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::SetItem(System.Int32,System.Net.Mail.LinkedResource):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663627,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.LinkedResource):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,System.Net.Mail.LinkedResource):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::InsertItem(System.Int32,System.Net.Mail.LinkedResource):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663628,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.LinkedResource):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,System.Net.Mail.LinkedResource):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3439,6 +4081,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3459,6 +4102,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3479,6 +4123,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3499,6 +4144,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3519,6 +4165,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3539,6 +4186,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3559,6 +4207,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3579,6 +4228,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3599,6 +4249,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3619,6 +4270,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3639,6 +4291,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3659,6 +4312,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3679,6 +4333,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3699,6 +4354,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3719,6 +4375,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3739,6 +4396,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3759,6 +4417,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3779,6 +4438,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3798,6 +4458,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3817,6 +4478,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3836,6 +4498,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3855,6 +4518,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3874,6 +4538,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3893,6 +4558,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3912,6 +4578,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3931,6 +4598,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3950,6 +4618,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3969,6 +4638,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -3988,6 +4658,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4007,6 +4698,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4026,6 +4718,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4045,6 +4738,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4066,6 +4780,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4085,6 +4800,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4104,6 +4820,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4123,6 +4840,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4142,6 +4860,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4161,6 +4880,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4180,6 +4900,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4199,6 +4920,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4239,6 +4961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false,
@@ -4264,6 +4987,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false,
@@ -4289,6 +5013,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false,
@@ -4314,6 +5039,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4333,6 +5059,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4352,6 +5079,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4373,6 +5101,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -4391,6 +5120,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -4409,6 +5139,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -4427,6 +5158,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -4441,6 +5173,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -4451,6 +5184,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -4461,6 +5195,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Text.Encoding):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddress",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -4486,6 +5221,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "MailAddress"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -4500,8 +5242,20 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "MailAddress"
           ]
@@ -4512,25 +5266,6 @@
           "typeArguments": [
             "MailAddress"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "MailAddress"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
       ],
       "methods": [
@@ -4549,6 +5284,47 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.MailAddressCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::SetItem(System.Int32,System.Net.Mail.MailAddress):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 100663654,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.MailAddress):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,System.Net.Mail.MailAddress):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.MailAddressCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::InsertItem(System.Int32,System.Net.Mail.MailAddress):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 100663655,
+          "canonicalSignature": "(System.Int32,System.Net.Mail.MailAddress):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,System.Net.Mail.MailAddress):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4568,6 +5344,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4587,6 +5364,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4607,6 +5385,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4627,6 +5406,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4647,6 +5427,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4667,6 +5448,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4687,6 +5469,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4707,6 +5490,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4727,6 +5511,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4747,6 +5532,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4767,6 +5553,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4787,6 +5574,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4807,6 +5595,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4827,6 +5616,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4847,6 +5637,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4867,6 +5658,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4887,6 +5679,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4907,6 +5700,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4926,6 +5720,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4945,6 +5740,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4964,6 +5760,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -4983,6 +5780,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5002,6 +5800,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5021,6 +5820,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5040,6 +5840,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5059,6 +5860,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5078,6 +5880,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5097,6 +5900,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5116,6 +5920,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.MailAddressCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::InsertItem(System.Int32,T):System.Void",
+          "clrName": "InsertItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "InsertItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5135,6 +5960,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5154,6 +5980,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5173,6 +6000,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.MailAddressCollection",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::SetItem(System.Int32,T):System.Void",
+          "clrName": "SetItem",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Int32,T):System.Void",
+          "normalizedSignature": "SetItem|(System.Int32,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5194,6 +6042,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5213,6 +6062,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5232,6 +6082,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5251,6 +6102,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5270,6 +6122,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5289,6 +6142,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5308,6 +6162,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5327,6 +6182,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5342,6 +6198,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -5384,6 +6241,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.MailMessage",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663707,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5403,6 +6281,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5425,6 +6304,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5443,6 +6323,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5461,6 +6342,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5479,6 +6361,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5497,6 +6380,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5515,6 +6399,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5533,6 +6418,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5551,6 +6437,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5569,6 +6456,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5587,6 +6475,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5605,6 +6494,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5623,6 +6513,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5641,6 +6532,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5659,6 +6551,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5677,6 +6570,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5695,6 +6589,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5713,6 +6608,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5731,6 +6627,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5749,6 +6646,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -5763,6 +6661,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5773,6 +6672,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5783,6 +6683,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -5793,6 +6694,7 @@
           "normalizedSignature": "constructor|(System.Net.Mail.MailAddress,System.Net.Mail.MailAddress):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.MailMessage",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -5821,6 +6723,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::OnSendCompleted(System.ComponentModel.AsyncCompletedEventArgs):System.Void",
+          "clrName": "OnSendCompleted",
+          "metadataToken": 100663818,
+          "canonicalSignature": "(System.ComponentModel.AsyncCompletedEventArgs):System.Void",
+          "normalizedSignature": "OnSendCompleted|(System.ComponentModel.AsyncCompletedEventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Mail.SmtpClient",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "Send",
           "metadataToken": 100663819,
@@ -5835,6 +6757,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5854,6 +6777,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5873,6 +6797,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5892,6 +6817,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5911,6 +6837,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5930,6 +6857,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5949,6 +6877,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5968,6 +6897,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -5987,6 +6917,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -6006,6 +6937,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.SmtpClient",
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663835,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -6025,6 +6977,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6047,6 +7000,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6065,6 +7019,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6083,6 +7038,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6101,6 +7057,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6119,6 +7076,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6137,6 +7095,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6155,6 +7114,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6173,6 +7133,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6191,6 +7152,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6209,6 +7171,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6227,6 +7190,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6245,6 +7209,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6257,6 +7222,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "SendCompleted|System.Net.Mail.SendCompletedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6269,6 +7235,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6279,6 +7246,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6289,6 +7257,7 @@
           "normalizedSignature": "constructor|(System.String,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpClient",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6331,6 +7300,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -6350,6 +7320,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6372,6 +7343,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6386,6 +7358,7 @@
           "normalizedSignature": "constructor|(System.Net.Mail.SmtpStatusCode):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6396,6 +7369,7 @@
           "normalizedSignature": "constructor|(System.Net.Mail.SmtpStatusCode,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6406,6 +7380,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6416,6 +7391,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6426,6 +7402,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.SmtpException",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.SmtpException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663759,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.SmtpException",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6468,6 +7456,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -6487,6 +7476,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6509,6 +7499,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6523,6 +7514,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6533,6 +7525,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6543,6 +7536,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663768,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6553,6 +7558,7 @@
           "normalizedSignature": "constructor|(System.Net.Mail.SmtpStatusCode,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6563,6 +7569,7 @@
           "normalizedSignature": "constructor|(System.Net.Mail.SmtpStatusCode,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6573,6 +7580,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6615,6 +7623,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -6634,6 +7643,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -6656,6 +7666,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -6670,6 +7681,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6680,6 +7692,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6690,6 +7703,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
+          "declaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientsException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663777,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -6700,6 +7725,7 @@
           "normalizedSignature": "constructor|(System.String,System.Net.Mail.SmtpFailedRecipientException[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
           "declaringAssemblyName": "System.Net.Mail"
         }

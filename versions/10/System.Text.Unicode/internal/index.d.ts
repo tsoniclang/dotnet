@@ -11,7 +11,7 @@ import type { ptr } from "@tsonic/core/types.js";
 // Import types from other namespaces
 import type { OperationStatus } from "../../System.Buffers/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     AppendFormatted<T>(value: T): boolean;

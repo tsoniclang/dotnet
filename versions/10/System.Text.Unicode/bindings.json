@@ -36,6 +36,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -55,6 +56,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -74,6 +76,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -93,6 +96,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -112,6 +116,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -131,6 +136,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -150,6 +156,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -169,6 +176,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -188,6 +196,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -207,6 +216,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -226,6 +236,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -245,6 +256,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -261,6 +273,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "parameterModifiers": [
@@ -277,6 +290,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
           "declaringAssemblyName": "System.Private.CoreLib",
           "parameterModifiers": [
@@ -319,6 +333,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRange",
           "declaringAssemblyName": "System.Text.Encodings.Web",
           "isExtensionMethod": false
@@ -340,6 +355,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRange",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -358,6 +374,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRange",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         }
@@ -372,6 +389,7 @@
           "normalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRange",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         }
@@ -409,6 +427,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -427,6 +446,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -445,6 +465,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -463,6 +484,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -481,6 +503,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -499,6 +522,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -517,6 +541,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -535,6 +560,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -553,6 +579,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -571,6 +598,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -589,6 +617,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -607,6 +636,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -625,6 +655,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -643,6 +674,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -661,6 +693,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -679,6 +712,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -697,6 +731,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -715,6 +750,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -733,6 +769,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -751,6 +788,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -769,6 +807,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -787,6 +826,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -805,6 +845,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -823,6 +864,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -841,6 +883,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -859,6 +902,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -877,6 +921,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -895,6 +940,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -913,6 +959,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -931,6 +978,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -949,6 +997,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -967,6 +1016,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -985,6 +1035,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1003,6 +1054,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1021,6 +1073,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1039,6 +1092,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1057,6 +1111,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1075,6 +1130,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1093,6 +1149,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1111,6 +1168,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1129,6 +1187,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1147,6 +1206,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1165,6 +1225,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1183,6 +1244,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1201,6 +1263,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1219,6 +1282,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1237,6 +1301,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1255,6 +1320,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1273,6 +1339,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1291,6 +1358,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1309,6 +1377,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1327,6 +1396,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1345,6 +1415,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1363,6 +1434,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1381,6 +1453,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1399,6 +1472,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1417,6 +1491,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1435,6 +1510,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1453,6 +1529,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1471,6 +1548,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1489,6 +1567,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1507,6 +1586,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1525,6 +1605,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1543,6 +1624,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1561,6 +1643,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1579,6 +1662,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1597,6 +1681,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1615,6 +1700,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1633,6 +1719,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1651,6 +1738,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1669,6 +1757,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1687,6 +1776,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1705,6 +1795,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1723,6 +1814,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1741,6 +1833,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1759,6 +1852,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1777,6 +1871,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1795,6 +1890,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1813,6 +1909,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1831,6 +1928,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1849,6 +1947,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1867,6 +1966,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1885,6 +1985,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1903,6 +2004,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1921,6 +2023,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1939,6 +2042,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1957,6 +2061,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1975,6 +2080,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -1993,6 +2099,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2011,6 +2118,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2029,6 +2137,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2047,6 +2156,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2065,6 +2175,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2083,6 +2194,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2101,6 +2213,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2119,6 +2232,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2137,6 +2251,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2155,6 +2270,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2173,6 +2289,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2191,6 +2308,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2209,6 +2327,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2227,6 +2346,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2245,6 +2365,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2263,6 +2384,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2281,6 +2403,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2299,6 +2422,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2317,6 +2441,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2335,6 +2460,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2353,6 +2479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2371,6 +2498,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2389,6 +2517,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2407,6 +2536,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2425,6 +2555,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2443,6 +2574,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2461,6 +2593,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2479,6 +2612,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2497,6 +2631,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2515,6 +2650,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2533,6 +2669,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2551,6 +2688,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2569,6 +2707,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2587,6 +2726,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2605,6 +2745,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2623,6 +2764,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2641,6 +2783,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2659,6 +2802,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2677,6 +2821,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2695,6 +2840,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2713,6 +2859,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2731,6 +2878,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2749,6 +2897,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2767,6 +2916,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2785,6 +2935,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2803,6 +2954,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2821,6 +2973,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2839,6 +2992,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2857,6 +3011,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2875,6 +3030,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2893,6 +3049,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2911,6 +3068,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2929,6 +3087,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2947,6 +3106,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2965,6 +3125,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -2983,6 +3144,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3001,6 +3163,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3019,6 +3182,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3037,6 +3201,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3055,6 +3220,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3073,6 +3239,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3091,6 +3258,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3109,6 +3277,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3127,6 +3296,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3145,6 +3315,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3163,6 +3334,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3181,6 +3353,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3199,6 +3372,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3217,6 +3391,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3235,6 +3410,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3253,6 +3429,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3271,6 +3448,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3289,6 +3467,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         },
@@ -3307,6 +3486,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.UnicodeRanges",
           "declaringAssemblyName": "System.Text.Encodings.Web"
         }
@@ -3346,6 +3526,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3375,6 +3556,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3404,6 +3586,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3433,6 +3616,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3462,6 +3646,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.Unicode.Utf8",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false

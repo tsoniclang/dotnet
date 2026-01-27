@@ -73,7 +73,7 @@ export type JsonArray = JsonArray$instance & __JsonArray$views;
 
 export interface JsonNode$instance {
     readonly Options: Nullable_1<JsonNodeOptions>;
-    readonly Parent: JsonNode;
+    Parent: JsonNode;
     readonly Root: JsonNode;
     AsArray(): JsonArray;
     AsObject(): JsonObject;

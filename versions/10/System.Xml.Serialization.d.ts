@@ -8,13 +8,13 @@ import * as Internal from './System.Xml.Serialization/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { IEnumerable_1, IEnumerator_1 } from './System.Collections.Generic/internal/index.js';
 import type { StringCollection } from './System.Collections.Specialized/internal/index.js';
-import type { CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { ArrayList, CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { Stream, TextReader, TextWriter } from './System.IO/internal/index.js';
-import type { ICustomAttributeProvider, MethodInfo } from './System.Reflection/internal/index.js';
+import type { Assembly, ICustomAttributeProvider, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { ValidationEventHandler, XmlSchema, XmlSchemaForm } from './System.Xml.Schema/internal/index.js';
-import type { WhitespaceHandling, XmlAttribute, XmlElement, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
-import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, ValueType, Void } from './System/internal/index.js';
+import type { WhitespaceHandling, XmlAttribute, XmlDocument, XmlElement, XmlNode, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, TimeOnly, Type, TypeCode, Uri, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CodeGenerationOptions as CodeGenerationOptions } from './System.Xml.Serialization/internal/index.js';

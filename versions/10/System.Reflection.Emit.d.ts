@@ -16,7 +16,7 @@ import type { Assembly, AssemblyName, Binder, BindingFlags, CallingConventions, 
 import type { CallingConvention, CharSet, StructLayoutAttribute } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { SecurityRuleSet } from './System.Security/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from './System/internal/index.js';
+import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, ReadOnlySpan_1, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CustomAttributeBuilder as CustomAttributeBuilder } from './System.Reflection.Emit/internal/index.js';

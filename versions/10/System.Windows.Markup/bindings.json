@@ -36,6 +36,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -54,6 +55,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
           "declaringAssemblyName": "System.ObjectModel"
         }
@@ -68,6 +70,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
           "declaringAssemblyName": "System.ObjectModel"
         },
@@ -78,6 +81,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
           "declaringAssemblyName": "System.ObjectModel"
         }

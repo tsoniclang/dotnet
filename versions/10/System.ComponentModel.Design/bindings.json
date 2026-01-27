@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpContextType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpContextType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpContextType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpContextType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpContextType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -120,16 +125,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -143,6 +148,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordType",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -204,16 +213,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -227,6 +236,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -238,6 +248,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -304,6 +320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -315,6 +332,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -348,6 +368,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.SelectionTypes",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -376,16 +397,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -399,6 +420,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ViewTechnology",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -410,6 +432,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ViewTechnology",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -421,6 +444,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ViewTechnology",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -432,6 +456,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ViewTechnology",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -480,6 +505,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -499,6 +525,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -518,6 +545,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -534,6 +562,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -580,6 +609,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -599,6 +629,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -618,6 +649,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -634,6 +666,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -680,6 +713,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -699,6 +733,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -718,6 +753,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -734,6 +770,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -780,6 +817,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -799,6 +837,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -818,6 +857,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -834,6 +874,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -880,6 +921,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -899,6 +941,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -918,6 +961,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -934,6 +978,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -980,6 +1025,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -999,6 +1045,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1018,6 +1065,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1034,6 +1082,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1080,6 +1129,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1099,6 +1149,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1118,6 +1169,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1134,6 +1186,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventHandler",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1180,6 +1233,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceCreatorCallback",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1199,6 +1253,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceCreatorCallback",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1218,6 +1273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceCreatorCallback",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1234,6 +1290,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceCreatorCallback",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1266,6 +1323,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1285,6 +1343,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1299,6 +1358,7 @@
           "metadataToken": 335544336,
           "normalizedSignature": "ComponentAdded|System.ComponentModel.Design.ComponentEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1308,6 +1368,7 @@
           "metadataToken": 335544338,
           "normalizedSignature": "ComponentChanged|System.ComponentModel.Design.ComponentChangedEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1317,6 +1378,7 @@
           "metadataToken": 335544339,
           "normalizedSignature": "ComponentChanging|System.ComponentModel.Design.ComponentChangingEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1326,6 +1388,7 @@
           "metadataToken": 335544342,
           "normalizedSignature": "ComponentRename|System.ComponentModel.Design.ComponentRenameEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentChangeService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1359,6 +1422,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentDiscoveryService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1396,6 +1460,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IComponentInitializer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1439,6 +1504,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1458,6 +1524,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1479,6 +1546,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1497,6 +1565,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1533,6 +1602,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerEventService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1551,6 +1621,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerEventService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1563,6 +1634,7 @@
           "metadataToken": 335544343,
           "normalizedSignature": "ActiveDesignerChanged|System.ComponentModel.Design.ActiveDesignerEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerEventService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1572,6 +1644,7 @@
           "metadataToken": 335544344,
           "normalizedSignature": "DesignerCreated|System.ComponentModel.Design.DesignerEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerEventService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1581,6 +1654,7 @@
           "metadataToken": 335544346,
           "normalizedSignature": "SelectionChanged|System.EventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerEventService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -1614,6 +1688,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerFilter",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1637,12 +1712,12 @@
       "arity": 0,
       "interfaces": [
         {
-          "stableId": "System.ComponentModel:System.IServiceProvider",
-          "clrName": "System.IServiceProvider"
-        },
-        {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer",
           "clrName": "System.ComponentModel.Design.IServiceContainer"
+        },
+        {
+          "stableId": "System.ComponentModel:System.IServiceProvider",
+          "clrName": "System.IServiceProvider"
         }
       ],
       "methods": [
@@ -1661,6 +1736,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1680,6 +1756,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1699,6 +1776,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1718,6 +1796,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1737,6 +1816,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1756,6 +1836,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1775,6 +1856,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1794,6 +1876,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1813,6 +1896,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1832,6 +1916,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1851,6 +1936,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1870,6 +1956,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1889,6 +1976,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1908,6 +1996,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -1927,6 +2016,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IServiceProvider",
           "declaringAssemblyName": "System.ComponentModel",
           "isExtensionMethod": false
@@ -1948,6 +2038,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1966,6 +2057,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -1984,6 +2076,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -2002,6 +2095,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -2020,6 +2114,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -2038,6 +2133,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -2050,6 +2146,7 @@
           "metadataToken": 335544329,
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -2059,6 +2156,7 @@
           "metadataToken": 335544332,
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -2093,6 +2191,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerHostTransactionState",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -2128,6 +2227,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerOptionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2147,6 +2247,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerOptionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2184,6 +2285,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDictionaryService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2203,6 +2305,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDictionaryService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2240,6 +2343,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2259,6 +2363,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2278,6 +2383,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2297,6 +2403,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2316,6 +2423,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2335,6 +2443,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2354,6 +2463,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2373,6 +2483,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IEventBindingService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2410,6 +2521,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IExtenderListService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2447,6 +2559,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IExtenderProviderService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2484,6 +2597,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2503,6 +2617,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2522,6 +2637,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2541,6 +2657,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2560,6 +2677,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2579,6 +2697,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IHelpService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2616,6 +2735,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IInheritanceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2635,6 +2755,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IInheritanceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2672,6 +2793,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2691,6 +2813,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2710,6 +2833,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2729,6 +2853,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2748,6 +2873,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2769,6 +2895,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IMenuCommandService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -2804,6 +2931,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IReferenceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2823,6 +2951,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IReferenceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2842,6 +2971,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IReferenceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2861,6 +2991,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IReferenceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2880,6 +3011,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IReferenceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2917,6 +3049,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IResourceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2936,6 +3069,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IResourceService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -2983,6 +3117,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IRootDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3002,6 +3137,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3021,6 +3157,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3042,6 +3179,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IRootDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3060,6 +3198,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3078,6 +3217,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3113,6 +3253,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3132,6 +3273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3151,6 +3293,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3170,6 +3313,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3191,6 +3335,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3209,6 +3354,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3221,6 +3367,7 @@
           "metadataToken": 335544347,
           "normalizedSignature": "SelectionChanged|System.EventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ISelectionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3260,6 +3407,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3279,6 +3427,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3298,6 +3447,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3317,6 +3467,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3336,6 +3487,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3355,6 +3507,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3374,6 +3527,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IServiceProvider",
           "declaringAssemblyName": "System.ComponentModel",
           "isExtensionMethod": false
@@ -3421,6 +3575,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3440,6 +3595,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3461,6 +3617,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITreeDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3479,6 +3636,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITreeDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3497,6 +3655,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3515,6 +3674,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesigner",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3550,6 +3710,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeDescriptorFilterService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3587,6 +3748,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeDiscoveryService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3624,6 +3786,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3643,6 +3806,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3662,6 +3826,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3681,6 +3846,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3700,6 +3866,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3719,6 +3886,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3738,6 +3906,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ITypeResolutionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3780,6 +3949,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3798,6 +3968,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3812,6 +3983,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.Design.IDesignerHost,System.ComponentModel.Design.IDesignerHost):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ActiveDesignerEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3854,6 +4026,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3874,6 +4047,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3889,6 +4063,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3902,6 +4077,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3912,6 +4088,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3922,6 +4099,18 @@
           "normalizedSignature": "constructor|(System.String,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.Design.CheckoutException",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CheckoutException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100665151,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -3932,6 +4121,7 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CheckoutException",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -3968,6 +4158,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -3987,6 +4178,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4006,6 +4198,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4027,6 +4220,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4045,6 +4239,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4059,6 +4254,7 @@
           "normalizedSignature": "constructor|(System.Guid,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.CommandID",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4096,6 +4292,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4114,6 +4311,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4132,6 +4330,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4150,6 +4349,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4164,6 +4364,7 @@
           "normalizedSignature": "constructor|(System.Object,System.ComponentModel.MemberDescriptor,System.Object,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangedEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4201,6 +4402,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4219,6 +4421,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4233,6 +4436,7 @@
           "normalizedSignature": "constructor|(System.Object,System.ComponentModel.MemberDescriptor):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentChangingEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4270,6 +4474,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4284,6 +4489,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.IComponent):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4321,6 +4527,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4339,6 +4546,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4357,6 +4565,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4371,6 +4580,7 @@
           "normalizedSignature": "constructor|(System.Object,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ComponentRenameEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4417,6 +4627,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4436,6 +4647,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4456,6 +4668,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4478,6 +4691,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4496,6 +4710,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4514,6 +4729,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4533,6 +4749,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4552,6 +4769,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -4567,6 +4785,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.Design.IDesignerHost[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -4577,6 +4796,7 @@
           "normalizedSignature": "constructor|(System.Collections.IList):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4614,6 +4834,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4628,6 +4849,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.Design.IDesignerHost):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -4656,6 +4878,66 @@
       ],
       "methods": [
         {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::CreateOptionCollection(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
+          "clrName": "CreateOptionCollection",
+          "metadataToken": 100665307,
+          "canonicalSignature": "(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
+          "normalizedSignature": "CreateOptionCollection|(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerOptionService",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::PopulateOptionCollection(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection):System.Void",
+          "clrName": "PopulateOptionCollection",
+          "metadataToken": 100665309,
+          "canonicalSignature": "(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection):System.Void",
+          "normalizedSignature": "PopulateOptionCollection|(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerOptionService",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::ShowDialog(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.Object):System.Boolean",
+          "clrName": "ShowDialog",
+          "metadataToken": 100665310,
+          "canonicalSignature": "(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.Object):System.Boolean",
+          "normalizedSignature": "ShowDialog|(System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection,System.Object):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerOptionService",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerOptionService::GetOptionValue(System.String,System.String):System.Object",
           "clrName": "GetOptionValue",
           "metadataToken": 100665371,
@@ -4670,6 +4952,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerOptionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -4690,6 +4973,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IDesignerOptionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -4712,13 +4996,26 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::.ctor():void",
+          "metadataToken": 100665313,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerOptionService",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
@@ -4737,16 +5034,16 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
       ],
       "methods": [
@@ -4765,6 +5062,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4784,6 +5082,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4803,6 +5102,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4822,6 +5122,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -4841,6 +5142,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4861,6 +5163,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4881,6 +5184,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4901,6 +5205,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4921,6 +5226,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4941,6 +5247,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4961,6 +5268,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4981,6 +5289,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5001,6 +5310,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5020,6 +5330,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5041,6 +5352,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5059,6 +5371,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5077,6 +5390,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5095,6 +5409,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5113,6 +5428,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5132,6 +5448,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5151,6 +5468,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5170,6 +5488,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5189,6 +5508,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -5235,6 +5555,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5254,6 +5575,87 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::OnCancel():System.Void",
+          "clrName": "OnCancel",
+          "metadataToken": 100665243,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnCancel|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::OnCommit():System.Void",
+          "clrName": "OnCommit",
+          "metadataToken": 100665244,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "OnCommit|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Finalize():System.Void",
+          "clrName": "Finalize",
+          "metadataToken": 100665245,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Finalize|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100665247,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5273,6 +5675,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5285,16 +5688,17 @@
           "clrName": "Canceled",
           "metadataToken": 385876374,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "Canceled|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "Canceled|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5303,16 +5707,17 @@
           "clrName": "Committed",
           "metadataToken": 385876375,
           "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "Committed|:System.Boolean|static=false|accessor=get",
+          "normalizedSignature": "Committed|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5331,13 +5736,37 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::.ctor():void",
+          "metadataToken": 100665234,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::.ctor(System.String):void",
+          "metadataToken": 100665235,
+          "canonicalSignature": "(System.String):void",
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.DesignerTransaction",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
@@ -5371,6 +5800,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5389,6 +5819,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -5403,6 +5834,7 @@
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5413,6 +5845,7 @@
           "normalizedSignature": "constructor|(System.Boolean,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -5449,6 +5882,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerb",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5470,6 +5904,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerb",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5488,6 +5923,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerb",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -5502,6 +5938,7 @@
           "normalizedSignature": "constructor|(System.String,System.EventHandler):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerb",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -5512,6 +5949,7 @@
           "normalizedSignature": "constructor|(System.String,System.EventHandler,System.ComponentModel.Design.CommandID):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerb",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -5534,16 +5972,16 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
           "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
       ],
       "methods": [
@@ -5562,6 +6000,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5581,6 +6020,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5600,6 +6040,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5619,6 +6060,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5638,6 +6080,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5657,6 +6100,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5676,6 +6120,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5695,6 +6140,27 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::OnValidate(System.Object):System.Void",
+          "clrName": "OnValidate",
+          "metadataToken": 100665115,
+          "canonicalSignature": "(System.Object):System.Void",
+          "normalizedSignature": "OnValidate|(System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5714,6 +6180,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5734,6 +6201,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5754,6 +6222,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5774,6 +6243,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5794,6 +6264,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5814,6 +6285,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5834,6 +6306,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5854,6 +6327,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5874,6 +6348,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5893,6 +6368,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5912,6 +6388,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5931,6 +6408,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5950,6 +6428,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5969,6 +6448,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -5988,6 +6468,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6007,6 +6488,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6028,6 +6510,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6046,6 +6529,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6065,6 +6549,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6084,6 +6569,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6103,6 +6589,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6122,6 +6609,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -6137,6 +6625,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6147,6 +6636,7 @@
           "normalizedSignature": "constructor|(System.ComponentModel.Design.DesignerVerb[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesignerVerbCollection",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6189,6 +6679,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContext",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6208,6 +6699,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContext",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6227,6 +6719,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IServiceProvider",
           "declaringAssemblyName": "System.ComponentModel",
           "isExtensionMethod": false,
@@ -6247,6 +6740,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContext",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6268,6 +6762,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContext",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6282,6 +6777,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContext",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6318,6 +6814,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.DesigntimeLicenseContextSerializer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6359,6 +6856,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6378,6 +6876,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6397,6 +6896,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6418,6 +6918,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6431,6 +6932,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6444,6 +6946,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6454,6 +6957,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6464,6 +6968,7 @@
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.HelpKeywordAttribute",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6500,6 +7005,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6519,6 +7025,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.Design.MenuCommand",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::OnCommandChanged(System.EventArgs):System.Void",
+          "clrName": "OnCommandChanged",
+          "metadataToken": 100665140,
+          "canonicalSignature": "(System.EventArgs):System.Void",
+          "normalizedSignature": "OnCommandChanged|(System.EventArgs):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6538,6 +7065,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6559,6 +7087,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6577,6 +7106,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6595,6 +7125,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6613,6 +7144,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6631,6 +7163,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6649,6 +7182,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -6667,6 +7201,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6679,6 +7214,7 @@
           "metadataToken": 335544328,
           "normalizedSignature": "CommandChanged|System.EventHandler|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6691,6 +7227,7 @@
           "normalizedSignature": "constructor|(System.EventHandler,System.ComponentModel.Design.CommandID):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.MenuCommand",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -6713,12 +7250,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.ComponentModel:System.IServiceProvider",
-          "clrName": "System.IServiceProvider"
-        },
-        {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer",
           "clrName": "System.ComponentModel.Design.IServiceContainer"
+        },
+        {
+          "stableId": "System.ComponentModel:System.IServiceProvider",
+          "clrName": "System.IServiceProvider"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
@@ -6741,6 +7278,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6760,6 +7298,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6779,6 +7318,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6798,6 +7338,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6817,6 +7358,27 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100665463,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6836,6 +7398,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6855,6 +7418,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6874,6 +7438,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -6893,6 +7458,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -6913,6 +7479,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -6933,6 +7500,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -6953,6 +7521,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -6973,6 +7542,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -6993,6 +7563,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false,
@@ -7013,6 +7584,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IServiceProvider",
           "declaringAssemblyName": "System.ComponentModel",
           "isExtensionMethod": false,
@@ -7033,13 +7605,34 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
       ],
-      "properties": [],
+      "properties": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::DefaultServices:System.Type[]",
+          "clrName": "DefaultServices",
+          "metadataToken": 385876425,
+          "canonicalSignature": ":System.Type[]",
+          "normalizedSignature": "DefaultServices|:System.Type[]|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
       "fields": [],
       "events": [],
       "constructors": [
@@ -7050,6 +7643,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7060,6 +7654,7 @@
           "normalizedSignature": "constructor|(System.IServiceProvider):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.ServiceContainer",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7091,6 +7686,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7102,6 +7698,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7113,6 +7710,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7124,6 +7722,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7135,6 +7734,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7146,6 +7746,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7157,6 +7758,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7168,6 +7770,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7179,6 +7782,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7190,6 +7794,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7201,6 +7806,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7212,6 +7818,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7223,6 +7830,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7234,6 +7842,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7245,6 +7854,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7256,6 +7866,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7267,6 +7878,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7278,6 +7890,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7289,6 +7902,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7300,6 +7914,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7311,6 +7926,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7322,6 +7938,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7333,6 +7950,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7344,6 +7962,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7355,6 +7974,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7366,6 +7986,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7377,6 +7998,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7388,6 +8010,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7399,6 +8022,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7410,6 +8034,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7421,6 +8046,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7432,6 +8058,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7443,6 +8070,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7454,6 +8082,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7465,6 +8094,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7476,6 +8106,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7487,6 +8118,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7498,6 +8130,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7509,6 +8142,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7520,6 +8154,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7531,6 +8166,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7542,6 +8178,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7553,6 +8190,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7564,6 +8202,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7575,6 +8214,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7586,6 +8226,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7597,6 +8238,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7608,6 +8250,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7619,6 +8262,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7630,6 +8274,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7641,6 +8286,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7652,6 +8298,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7663,6 +8310,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7674,6 +8322,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7685,6 +8334,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7698,6 +8348,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardCommands",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7729,6 +8380,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7740,6 +8392,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7751,6 +8404,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7762,6 +8416,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7773,6 +8428,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7784,6 +8440,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7795,6 +8452,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         },
@@ -7806,6 +8464,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7819,6 +8478,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.StandardToolWindows",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter"
         }
@@ -7855,6 +8515,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.TypeDescriptionProviderService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7874,6 +8535,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.ComponentModel.Design.TypeDescriptionProviderService",
           "declaringAssemblyName": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
@@ -7882,7 +8544,19 @@
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.TypeDescriptionProviderService::.ctor():void",
+          "metadataToken": 100665477,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.ComponentModel.Design.TypeDescriptionProviderService",
+          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ]
     }
   ]
 }

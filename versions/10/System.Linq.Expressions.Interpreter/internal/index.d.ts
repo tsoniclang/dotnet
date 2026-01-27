@@ -7,7 +7,7 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface LightLambda$instance {
     Run(...arguments: unknown[]): unknown | undefined;

@@ -18,8 +18,8 @@ import type { CipherAlgorithmType, ExchangeAlgorithmType, HashAlgorithmType, Ssl
 import type { X509Certificate, X509Certificate2, X509Certificate2Collection, X509CertificateCollection, X509Chain, X509ChainPolicy, X509RevocationMode, X509Store } from './System.Security.Cryptography.X509Certificates/internal/index.js';
 import type { IIdentity, TokenImpersonationLevel } from './System.Security.Principal/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
-import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from './System/internal/index.js';
+import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AuthenticationLevel as AuthenticationLevel } from './System.Net.Security/internal/index.js';

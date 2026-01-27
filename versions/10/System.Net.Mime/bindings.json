@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.TransferEncoding",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -141,6 +147,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -160,6 +167,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -179,6 +187,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -200,6 +209,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -218,6 +228,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -236,6 +247,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -254,6 +266,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -272,6 +285,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -290,6 +304,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -308,6 +323,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -326,6 +342,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -340,6 +357,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -350,6 +368,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentDisposition",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -386,6 +405,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -405,6 +425,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -424,6 +445,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail",
           "isExtensionMethod": false
@@ -445,6 +467,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -463,6 +486,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -481,6 +505,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -499,6 +524,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -517,6 +543,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -531,6 +558,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -541,6 +569,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.ContentType",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -572,6 +601,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.DispositionTypeNames",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -583,6 +613,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.DispositionTypeNames",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -637,6 +668,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -648,6 +680,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -659,6 +692,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -670,6 +704,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -681,6 +716,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -692,6 +728,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -703,6 +740,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -714,6 +752,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -725,6 +764,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -736,6 +776,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -747,6 +788,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -758,6 +800,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -769,6 +812,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -780,6 +824,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -791,6 +836,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -802,6 +848,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -813,6 +860,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -824,6 +872,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -857,6 +906,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -868,6 +918,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -879,6 +930,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -890,6 +942,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -901,6 +954,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -912,6 +966,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -945,6 +1000,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -956,6 +1012,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -967,6 +1024,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -978,6 +1036,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -989,6 +1048,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1000,6 +1060,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1011,6 +1072,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1022,6 +1084,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1033,6 +1096,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -1066,6 +1130,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1077,6 +1142,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1088,6 +1154,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1099,6 +1166,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
           "declaringAssemblyName": "System.Net.Mail"
         }
@@ -1132,6 +1200,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1143,6 +1212,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1154,6 +1224,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1165,6 +1236,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1176,6 +1248,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1187,6 +1260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1198,6 +1272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1209,6 +1284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1220,6 +1296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         },
@@ -1231,6 +1308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
           "declaringAssemblyName": "System.Net.Mail"
         }

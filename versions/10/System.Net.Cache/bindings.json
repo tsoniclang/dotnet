@@ -26,16 +26,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -49,6 +49,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -60,6 +61,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -71,6 +73,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -82,6 +85,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -93,6 +97,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -104,6 +109,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -115,6 +121,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpCacheAgeControl",
           "declaringAssemblyName": "System.Net.Requests"
         }
@@ -143,16 +150,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -166,6 +173,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -177,6 +185,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -188,6 +197,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -199,6 +209,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -210,6 +221,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -221,6 +233,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -232,6 +245,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -243,6 +257,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -254,6 +269,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -265,6 +281,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCacheLevel",
           "declaringAssemblyName": "System.Net.Requests"
         }
@@ -293,16 +310,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -316,6 +333,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -327,6 +345,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -338,6 +357,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -349,6 +369,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -360,6 +381,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -371,6 +393,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -382,6 +405,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -393,6 +417,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCacheLevel",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -431,6 +456,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests",
           "isExtensionMethod": false
@@ -452,6 +478,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -470,6 +497,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -488,6 +516,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -506,6 +535,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -524,6 +554,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         }
@@ -538,6 +569,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -548,6 +580,7 @@
           "normalizedSignature": "constructor|(System.Net.Cache.HttpRequestCacheLevel):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -558,6 +591,7 @@
           "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -568,6 +602,7 @@
           "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -578,6 +613,7 @@
           "normalizedSignature": "constructor|(System.DateTime):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         },
@@ -588,6 +624,7 @@
           "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.HttpRequestCachePolicy",
           "declaringAssemblyName": "System.Net.Requests"
         }
@@ -624,6 +661,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCachePolicy",
           "declaringAssemblyName": "System.Net.Primitives",
           "isExtensionMethod": false
@@ -645,6 +683,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCachePolicy",
           "declaringAssemblyName": "System.Net.Primitives"
         }
@@ -659,6 +698,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCachePolicy",
           "declaringAssemblyName": "System.Net.Primitives"
         },
@@ -669,6 +709,7 @@
           "normalizedSignature": "constructor|(System.Net.Cache.RequestCacheLevel):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Cache.RequestCachePolicy",
           "declaringAssemblyName": "System.Net.Primitives"
         }

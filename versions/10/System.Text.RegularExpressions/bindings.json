@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -103,6 +108,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -114,6 +120,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -125,6 +132,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -136,6 +144,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -147,6 +156,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -158,6 +168,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -169,6 +180,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexOptions",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -197,16 +209,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -220,6 +232,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -231,6 +244,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -242,6 +256,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -253,6 +268,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -264,6 +280,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -275,6 +292,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -286,6 +304,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -297,6 +316,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -308,6 +328,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -319,6 +340,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -330,6 +352,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -341,6 +364,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -352,6 +376,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -363,6 +388,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -374,6 +400,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -385,6 +412,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -396,6 +424,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -407,6 +436,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -418,6 +448,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -429,6 +460,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -440,6 +472,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -451,6 +484,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -462,6 +496,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -473,6 +508,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -484,6 +520,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -495,6 +532,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -506,6 +544,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -517,6 +556,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -528,6 +568,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -539,6 +580,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -550,6 +592,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -561,6 +604,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -572,6 +616,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseError",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -620,6 +665,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -639,6 +685,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -658,6 +705,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -674,6 +722,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -727,6 +776,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -746,6 +796,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -765,6 +816,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -784,6 +836,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -804,6 +857,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -826,6 +880,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -844,6 +899,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -863,6 +919,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -920,6 +977,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -939,6 +997,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -958,6 +1017,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -977,6 +1037,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -997,6 +1058,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1019,6 +1081,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1037,6 +1100,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
           "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1056,6 +1120,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.IEnumerator",
           "declaringClrType": "System.Collections.IEnumerator",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1097,6 +1162,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.ValueMatch",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1115,6 +1181,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.ValueMatch",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -1154,6 +1221,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Capture",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -1165,16 +1233,17 @@
           "clrName": "Index",
           "metadataToken": 385876029,
           "canonicalSignature": ":System.Int32",
-          "normalizedSignature": "Index|:System.Int32|static=false|accessor=get",
+          "normalizedSignature": "Index|:System.Int32|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Capture",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1183,16 +1252,17 @@
           "clrName": "Length",
           "metadataToken": 385876030,
           "canonicalSignature": ":System.Int32",
-          "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
+          "normalizedSignature": "Length|:System.Int32|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Capture",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1211,6 +1281,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Capture",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1229,6 +1300,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Capture",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -1254,6 +1326,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "Capture"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -1268,8 +1347,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "Capture"
           ]
@@ -1282,23 +1365,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "Capture"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
       ],
       "methods": [
@@ -1317,6 +1389,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -1336,6 +1409,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -1355,6 +1429,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -1374,6 +1449,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1394,6 +1470,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1414,6 +1491,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1434,6 +1512,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1454,6 +1533,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1474,6 +1554,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1494,6 +1575,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1514,6 +1596,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1534,6 +1617,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1554,6 +1638,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1574,6 +1659,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1594,6 +1680,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1614,6 +1701,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1634,6 +1722,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1654,6 +1743,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1674,6 +1764,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1696,6 +1787,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1714,6 +1806,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1732,6 +1825,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1750,6 +1844,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1768,6 +1863,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1786,6 +1882,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1805,6 +1902,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1824,6 +1922,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1843,6 +1942,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1862,6 +1962,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1881,6 +1982,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1900,6 +2002,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1919,6 +2022,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -1960,6 +2064,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1978,6 +2083,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -1996,6 +2102,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2014,6 +2121,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -2028,6 +2136,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2038,6 +2147,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2048,6 +2158,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2058,6 +2169,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2068,6 +2180,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GeneratedRegexAttribute",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -2104,6 +2217,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Group",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2125,6 +2239,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Group",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2143,6 +2258,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Group",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2161,6 +2277,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Group",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -2186,6 +2303,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "Group"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -2200,15 +2324,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[String,Group]]"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "Group"
           ]
@@ -2221,11 +2342,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[String,Group]]"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
+          "clrName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602",
@@ -2236,23 +2358,18 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
+          "clrName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
-            "Group"
+            "KeyValuePair_2[[String,Group]]"
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[String,Group]]"
+          ]
         }
       ],
       "methods": [
@@ -2271,6 +2388,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2290,6 +2408,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2309,6 +2428,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2328,6 +2448,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false,
@@ -2353,6 +2474,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2372,6 +2494,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2392,6 +2515,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2412,6 +2536,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2432,6 +2557,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2452,6 +2578,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2472,6 +2599,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2492,6 +2620,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2512,6 +2641,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2532,6 +2662,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2552,6 +2683,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2572,6 +2704,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2592,6 +2725,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2612,6 +2746,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2632,6 +2767,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2658,6 +2794,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2678,6 +2815,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2698,6 +2836,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2718,6 +2857,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2738,6 +2878,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2757,6 +2898,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -2778,6 +2920,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2796,6 +2939,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2814,6 +2958,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2832,6 +2977,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2850,6 +2996,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2868,6 +3015,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -2886,6 +3034,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2905,6 +3054,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2924,6 +3074,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2943,6 +3094,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2962,6 +3114,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -2981,6 +3134,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3000,6 +3154,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3019,6 +3174,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3038,6 +3194,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3057,6 +3214,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3097,6 +3255,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Match",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3116,6 +3275,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Match",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3135,6 +3295,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Match",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3156,6 +3317,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Match",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3174,6 +3336,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Match",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -3199,6 +3362,13 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
+          "clrName": "System.Collections.Generic.IList\u00601",
+          "typeArguments": [
+            "Match"
+          ]
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
           "clrName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
@@ -3213,8 +3383,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601",
-          "clrName": "System.Collections.Generic.IList\u00601",
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
+          "clrName": "System.Collections.IEnumerable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
+          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
           "typeArguments": [
             "Match"
           ]
@@ -3227,23 +3401,12 @@
           ]
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyList\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "typeArguments": [
-            "Match"
-          ]
+          "stableId": "System.Private.CoreLib:System.Collections.IList",
+          "clrName": "System.Collections.IList"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
           "clrName": "System.Collections.ICollection"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IList",
-          "clrName": "System.Collections.IList"
         }
       ],
       "methods": [
@@ -3262,6 +3425,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3281,6 +3445,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3300,6 +3465,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3319,6 +3485,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3339,6 +3506,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3359,6 +3527,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IList\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3379,6 +3548,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3399,6 +3569,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3419,6 +3590,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3439,6 +3611,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3459,6 +3632,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3479,6 +3653,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3499,6 +3674,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3519,6 +3695,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3539,6 +3716,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3559,6 +3737,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEnumerable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3579,6 +3758,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3599,6 +3779,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3619,6 +3800,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3641,6 +3823,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3659,6 +3842,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3677,6 +3861,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3695,6 +3880,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3713,6 +3899,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -3731,6 +3918,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3750,6 +3938,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3769,6 +3958,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3788,6 +3978,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3807,6 +3998,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.IList",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3826,6 +4018,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3845,6 +4038,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3864,6 +4058,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
@@ -3896,6 +4091,26 @@
       ],
       "methods": [
         {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::ValidateMatchTimeout(System.TimeSpan):System.Void",
+          "clrName": "ValidateMatchTimeout",
+          "metadataToken": 100663620,
+          "canonicalSignature": "(System.TimeSpan):System.Void",
+          "normalizedSignature": "ValidateMatchTimeout|(System.TimeSpan):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName):System.Void",
           "clrName": "CompileToAssembly",
           "metadataToken": 100663628,
@@ -3910,6 +4125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3929,6 +4145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3948,6 +4165,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3967,6 +4185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -3986,6 +4205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4005,6 +4225,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4024,6 +4245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4043,6 +4265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4062,6 +4285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4081,6 +4305,67 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::InitializeReferences():System.Void",
+          "clrName": "InitializeReferences",
+          "metadataToken": 100663641,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "InitializeReferences|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::UseOptionC():System.Boolean",
+          "clrName": "UseOptionC",
+          "metadataToken": 100663649,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "UseOptionC|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::UseOptionR():System.Boolean",
+          "clrName": "UseOptionR",
+          "metadataToken": 100663650,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "UseOptionR|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4100,6 +4385,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4119,6 +4405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4138,6 +4425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4157,6 +4445,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4176,6 +4465,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4195,6 +4485,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4214,6 +4505,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4233,6 +4525,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4252,6 +4545,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4271,6 +4565,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4290,6 +4585,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4309,6 +4605,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4328,6 +4625,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4347,6 +4645,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4366,6 +4665,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4385,6 +4685,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4404,6 +4705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4423,6 +4725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4442,6 +4745,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4461,6 +4765,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4480,6 +4785,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4499,6 +4805,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4518,6 +4825,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4537,6 +4845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4556,6 +4865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4575,6 +4885,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4594,6 +4905,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4613,6 +4925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4632,6 +4945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4651,6 +4965,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4670,6 +4985,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4689,6 +5005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4708,6 +5025,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4727,6 +5045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4746,6 +5065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4765,6 +5085,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4784,6 +5105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4803,6 +5125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4822,6 +5145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4841,6 +5165,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4860,6 +5185,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4879,6 +5205,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4898,6 +5225,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4917,6 +5245,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4936,6 +5265,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4955,6 +5285,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4974,6 +5305,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -4993,6 +5325,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5012,6 +5345,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5031,6 +5365,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5050,6 +5385,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5069,6 +5405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5088,6 +5425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5107,6 +5445,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5126,6 +5465,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5145,6 +5485,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5164,6 +5505,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5183,6 +5525,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5202,6 +5545,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5221,6 +5565,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5228,6 +5573,44 @@
         }
       ],
       "properties": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Caps:System.Collections.IDictionary",
+          "clrName": "Caps",
+          "metadataToken": 385876080,
+          "canonicalSignature": ":System.Collections.IDictionary",
+          "normalizedSignature": "Caps|:System.Collections.IDictionary|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CapNames:System.Collections.IDictionary",
+          "clrName": "CapNames",
+          "metadataToken": 385876081,
+          "canonicalSignature": ":System.Collections.IDictionary",
+          "normalizedSignature": "CapNames|:System.Collections.IDictionary|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Options:System.Text.RegularExpressions.RegexOptions",
           "clrName": "Options",
@@ -5243,6 +5626,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5261,6 +5645,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5279,6 +5664,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5297,11 +5683,96 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
       ],
       "fields": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::patternSystem.String",
+          "clrName": "pattern",
+          "metadataToken": 67108964,
+          "normalizedSignature": "pattern|System.String|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::roptionsSystem.Text.RegularExpressions.RegexOptions",
+          "clrName": "roptions",
+          "metadataToken": 67108965,
+          "normalizedSignature": "roptions|System.Text.RegularExpressions.RegexOptions|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::factorySystem.Text.RegularExpressions.RegexRunnerFactory",
+          "clrName": "factory",
+          "metadataToken": 67108966,
+          "normalizedSignature": "factory|System.Text.RegularExpressions.RegexRunnerFactory|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::capsSystem.Collections.Hashtable",
+          "clrName": "caps",
+          "metadataToken": 67108967,
+          "normalizedSignature": "caps|System.Collections.Hashtable|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::capnamesSystem.Collections.Hashtable",
+          "clrName": "capnames",
+          "metadataToken": 67108968,
+          "normalizedSignature": "capnames|System.Collections.Hashtable|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::capslistSystem.String[]",
+          "clrName": "capslist",
+          "metadataToken": 67108969,
+          "normalizedSignature": "capslist|System.String[]|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::capsizeSystem.Int32",
+          "clrName": "capsize",
+          "metadataToken": 67108970,
+          "normalizedSignature": "capsize|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::InfiniteMatchTimeoutSystem.TimeSpan",
           "clrName": "InfiniteMatchTimeout",
@@ -5310,6 +5781,19 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::internalMatchTimeoutSystem.TimeSpan",
+          "clrName": "internalMatchTimeout",
+          "metadataToken": 67108975,
+          "normalizedSignature": "internalMatchTimeout|System.TimeSpan|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5317,12 +5801,24 @@
       "events": [],
       "constructors": [
         {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::.ctor():void",
+          "metadataToken": 100663611,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::.ctor(System.String):void",
           "metadataToken": 100663612,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5333,6 +5829,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5343,6 +5840,18 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663621,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Text.RegularExpressions.Regex",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5380,6 +5889,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5398,6 +5908,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5416,6 +5927,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5434,6 +5946,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5452,6 +5965,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5470,6 +5984,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5484,6 +5999,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 5,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5494,6 +6010,7 @@
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 6,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexCompilationInfo",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5536,6 +6053,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5556,6 +6074,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5577,6 +6096,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5595,6 +6115,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5613,6 +6134,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5627,6 +6149,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.TimeSpan):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5637,6 +6160,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5647,6 +6171,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5657,6 +6182,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663928,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5699,6 +6236,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseException",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
@@ -5718,6 +6256,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5740,6 +6279,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         },
@@ -5758,6 +6298,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.RegexParseException",
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
@@ -5783,6 +6324,226 @@
       },
       "methods": [
         {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
+          "clrName": "Scan",
+          "metadataToken": 100664105,
+          "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
+          "normalizedSignature": "Scan|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match",
+          "clrName": "Scan",
+          "metadataToken": 100664106,
+          "canonicalSignature": "(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match",
+          "normalizedSignature": "Scan|(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 7,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match",
+          "clrName": "Scan",
+          "metadataToken": 100664107,
+          "canonicalSignature": "(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match",
+          "normalizedSignature": "Scan|(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 8,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CheckTimeout():System.Void",
+          "clrName": "CheckTimeout",
+          "metadataToken": 100664111,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "CheckTimeout|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Go():System.Void",
+          "clrName": "Go",
+          "metadataToken": 100664112,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Go|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::FindFirstChar():System.Boolean",
+          "clrName": "FindFirstChar",
+          "metadataToken": 100664113,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "FindFirstChar|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::InitTrackCount():System.Void",
+          "clrName": "InitTrackCount",
+          "metadataToken": 100664114,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "InitTrackCount|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::EnsureStorage():System.Void",
+          "clrName": "EnsureStorage",
+          "metadataToken": 100664115,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "EnsureStorage|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsBoundary(System.Int32,System.Int32,System.Int32):System.Boolean",
+          "clrName": "IsBoundary",
+          "metadataToken": 100664116,
+          "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
+          "normalizedSignature": "IsBoundary|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsECMABoundary(System.Int32,System.Int32,System.Int32):System.Boolean",
+          "clrName": "IsECMABoundary",
+          "metadataToken": 100664121,
+          "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
+          "normalizedSignature": "IsECMABoundary|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CharInSet(System.Char,System.String,System.String):System.Boolean",
+          "clrName": "CharInSet",
+          "metadataToken": 100664123,
+          "canonicalSignature": "(System.Char,System.String,System.String):System.Boolean",
+          "normalizedSignature": "CharInSet|(System.Char,System.String,System.String):System.Boolean|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CharInClass(System.Char,System.String):System.Boolean",
           "clrName": "CharInClass",
           "metadataToken": 100664124,
@@ -5797,15 +6558,437 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleTrack():System.Void",
+          "clrName": "DoubleTrack",
+          "metadataToken": 100664125,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "DoubleTrack|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleStack():System.Void",
+          "clrName": "DoubleStack",
+          "metadataToken": 100664126,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "DoubleStack|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleCrawl():System.Void",
+          "clrName": "DoubleCrawl",
+          "metadataToken": 100664127,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "DoubleCrawl|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Crawl(System.Int32):System.Void",
+          "clrName": "Crawl",
+          "metadataToken": 100664128,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "Crawl|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Popcrawl():System.Int32",
+          "clrName": "Popcrawl",
+          "metadataToken": 100664129,
+          "canonicalSignature": "():System.Int32",
+          "normalizedSignature": "Popcrawl|():System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Crawlpos():System.Int32",
+          "clrName": "Crawlpos",
+          "metadataToken": 100664130,
+          "canonicalSignature": "():System.Int32",
+          "normalizedSignature": "Crawlpos|():System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Capture(System.Int32,System.Int32,System.Int32):System.Void",
+          "clrName": "Capture",
+          "metadataToken": 100664131,
+          "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Void",
+          "normalizedSignature": "Capture|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::TransferCapture(System.Int32,System.Int32,System.Int32,System.Int32):System.Void",
+          "clrName": "TransferCapture",
+          "metadataToken": 100664132,
+          "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Void",
+          "normalizedSignature": "TransferCapture|(System.Int32,System.Int32,System.Int32,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Uncapture():System.Void",
+          "clrName": "Uncapture",
+          "metadataToken": 100664133,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Uncapture|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsMatched(System.Int32):System.Boolean",
+          "clrName": "IsMatched",
+          "metadataToken": 100664134,
+          "canonicalSignature": "(System.Int32):System.Boolean",
+          "normalizedSignature": "IsMatched|(System.Int32):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::MatchIndex(System.Int32):System.Int32",
+          "clrName": "MatchIndex",
+          "metadataToken": 100664135,
+          "canonicalSignature": "(System.Int32):System.Int32",
+          "normalizedSignature": "MatchIndex|(System.Int32):System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::MatchLength(System.Int32):System.Int32",
+          "clrName": "MatchLength",
+          "metadataToken": 100664136,
+          "canonicalSignature": "(System.Int32):System.Int32",
+          "normalizedSignature": "MatchLength|(System.Int32):System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
         }
       ],
       "properties": [],
-      "fields": [],
+      "fields": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtextbegSystem.Int32",
+          "clrName": "runtextbeg",
+          "metadataToken": 67109293,
+          "normalizedSignature": "runtextbeg|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtextendSystem.Int32",
+          "clrName": "runtextend",
+          "metadataToken": 67109294,
+          "normalizedSignature": "runtextend|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtextstartSystem.Int32",
+          "clrName": "runtextstart",
+          "metadataToken": 67109295,
+          "normalizedSignature": "runtextstart|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtextSystem.String",
+          "clrName": "runtext",
+          "metadataToken": 67109296,
+          "normalizedSignature": "runtext|System.String|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtextposSystem.Int32",
+          "clrName": "runtextpos",
+          "metadataToken": 67109297,
+          "normalizedSignature": "runtextpos|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtrackSystem.Int32[]",
+          "clrName": "runtrack",
+          "metadataToken": 67109298,
+          "normalizedSignature": "runtrack|System.Int32[]|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtrackposSystem.Int32",
+          "clrName": "runtrackpos",
+          "metadataToken": 67109299,
+          "normalizedSignature": "runtrackpos|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runstackSystem.Int32[]",
+          "clrName": "runstack",
+          "metadataToken": 67109300,
+          "normalizedSignature": "runstack|System.Int32[]|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runstackposSystem.Int32",
+          "clrName": "runstackpos",
+          "metadataToken": 67109301,
+          "normalizedSignature": "runstackpos|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runcrawlSystem.Int32[]",
+          "clrName": "runcrawl",
+          "metadataToken": 67109302,
+          "normalizedSignature": "runcrawl|System.Int32[]|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runcrawlposSystem.Int32",
+          "clrName": "runcrawlpos",
+          "metadataToken": 67109303,
+          "normalizedSignature": "runcrawlpos|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runtrackcountSystem.Int32",
+          "clrName": "runtrackcount",
+          "metadataToken": 67109304,
+          "normalizedSignature": "runtrackcount|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runmatchSystem.Text.RegularExpressions.Match",
+          "clrName": "runmatch",
+          "metadataToken": 67109305,
+          "normalizedSignature": "runmatch|System.Text.RegularExpressions.Match|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::runregexSystem.Text.RegularExpressions.Regex",
+          "clrName": "runregex",
+          "metadataToken": 67109306,
+          "normalizedSignature": "runregex|System.Text.RegularExpressions.Regex|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        }
+      ],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::.ctor():void",
+          "metadataToken": 100664104,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        }
+      ]
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunnerFactory",
@@ -5822,11 +7005,44 @@
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
-      "methods": [],
+      "methods": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunnerFactory::CreateInstance():System.Text.RegularExpressions.RegexRunner",
+          "clrName": "CreateInstance",
+          "metadataToken": 100664140,
+          "canonicalSignature": "():System.Text.RegularExpressions.RegexRunner",
+          "normalizedSignature": "CreateInstance|():System.Text.RegularExpressions.RegexRunner|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "ProtectedInternal",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunnerFactory",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        }
+      ],
       "properties": [],
       "fields": [],
       "events": [],
-      "constructors": []
+      "constructors": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunnerFactory::.ctor():void",
+          "metadataToken": 100664139,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "visibility": "Protected",
+          "declaringClrType": "System.Text.RegularExpressions.RegexRunnerFactory",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        }
+      ]
     }
   ]
 }

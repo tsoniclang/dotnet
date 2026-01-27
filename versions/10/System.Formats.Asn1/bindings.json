@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnEncodingRules",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnEncodingRules",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnEncodingRules",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnEncodingRules",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -109,16 +113,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,6 +136,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.TagClass",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.TagClass",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.TagClass",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.TagClass",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.TagClass",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -204,16 +213,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -227,6 +236,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -238,6 +248,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -260,6 +272,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -271,6 +284,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -282,6 +296,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -293,6 +308,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -304,6 +320,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -315,6 +332,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -348,6 +368,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -359,6 +380,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -370,6 +392,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -381,6 +404,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -392,6 +416,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -403,6 +428,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -414,6 +440,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -425,6 +452,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -436,6 +464,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -447,6 +476,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -458,6 +488,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -469,6 +500,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -480,6 +512,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -491,6 +524,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -502,6 +536,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -513,6 +548,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -524,6 +560,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -535,6 +572,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -546,6 +584,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -557,6 +596,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -568,6 +608,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -579,6 +620,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -590,6 +632,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -601,6 +644,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -612,6 +656,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -623,6 +668,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -634,6 +680,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -645,6 +692,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -656,6 +704,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -667,6 +716,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -678,6 +728,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.UniversalTagNumber",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -725,6 +776,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -744,6 +796,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -763,6 +816,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -792,6 +846,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -817,6 +872,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -836,6 +892,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -861,6 +918,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -880,6 +938,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -899,6 +958,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -918,6 +978,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -937,6 +998,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -956,6 +1018,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -975,6 +1038,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -997,6 +1061,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1015,6 +1080,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1033,6 +1099,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -1046,6 +1113,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1057,6 +1125,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1068,6 +1137,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1079,6 +1149,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1090,6 +1161,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1101,6 +1173,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1112,6 +1185,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1123,6 +1197,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1134,6 +1209,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1145,6 +1221,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1156,6 +1233,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1167,6 +1245,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1178,6 +1257,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -1191,6 +1271,7 @@
           "normalizedSignature": "constructor|(System.Formats.Asn1.UniversalTagNumber,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1201,6 +1282,7 @@
           "normalizedSignature": "constructor|(System.Formats.Asn1.TagClass,System.Int32,System.Boolean):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.Asn1Tag",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -1238,6 +1320,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReaderOptions",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1256,6 +1339,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReaderOptions",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -1301,6 +1385,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter\u002BScope",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1320,6 +1405,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1368,6 +1454,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1388,6 +1475,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnContentException",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1404,6 +1492,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnContentException",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1414,6 +1503,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnContentException",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -1424,6 +1514,18 @@
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Formats.Asn1.AsnContentException",
+          "declaringAssemblyName": "System.Formats.Asn1"
+        },
+        {
+          "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnContentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "metadataToken": 100663409,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
+          "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Protected",
           "declaringClrType": "System.Formats.Asn1.AsnContentException",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -1460,6 +1562,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1479,6 +1582,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1498,6 +1602,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1517,6 +1622,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1536,6 +1642,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1555,6 +1662,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1574,6 +1682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1603,6 +1712,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1632,6 +1742,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1657,6 +1768,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1676,6 +1788,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1695,6 +1808,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1714,6 +1828,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1733,6 +1848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1752,6 +1868,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1771,6 +1888,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1790,6 +1908,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1815,6 +1934,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1840,6 +1960,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1865,6 +1986,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1890,6 +2012,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1909,6 +2032,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1928,6 +2052,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1947,6 +2072,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -1966,6 +2092,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -1991,6 +2118,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2010,6 +2138,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -2035,6 +2164,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2054,6 +2184,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2073,6 +2204,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2092,6 +2224,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2111,6 +2244,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -2136,6 +2270,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -2161,6 +2296,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -2186,6 +2322,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2205,6 +2342,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2224,6 +2362,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2245,6 +2384,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -2263,6 +2403,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -2277,6 +2418,7 @@
           "normalizedSignature": "constructor|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.AsnReaderOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnReader",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -2313,6 +2455,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2332,6 +2475,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2351,6 +2495,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -2376,6 +2521,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2395,6 +2541,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2414,6 +2561,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2433,6 +2581,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2452,6 +2601,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2471,6 +2621,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2490,6 +2641,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2509,6 +2661,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2528,6 +2681,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2547,6 +2701,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2566,6 +2721,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2585,6 +2741,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2604,6 +2761,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2623,6 +2781,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2642,6 +2801,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2661,6 +2821,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2680,6 +2841,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2699,6 +2861,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2718,6 +2881,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2737,6 +2901,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2756,6 +2921,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2775,6 +2941,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2794,6 +2961,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2813,6 +2981,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2832,6 +3001,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2851,6 +3021,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2870,6 +3041,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2889,6 +3061,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2908,6 +3081,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2927,6 +3101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2946,6 +3121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2965,6 +3141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -2984,6 +3161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -3003,6 +3181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -3022,6 +3201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -3041,6 +3221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false
@@ -3062,6 +3243,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -3076,6 +3258,7 @@
           "normalizedSignature": "constructor|(System.Formats.Asn1.AsnEncodingRules):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1"
         },
@@ -3086,6 +3269,7 @@
           "normalizedSignature": "constructor|(System.Formats.Asn1.AsnEncodingRules,System.Int32):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnWriter",
           "declaringAssemblyName": "System.Formats.Asn1"
         }
@@ -3122,6 +3306,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3159,6 +3344,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3192,6 +3378,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3217,6 +3404,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3246,6 +3434,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3279,6 +3468,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3312,6 +3502,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3341,6 +3532,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3366,6 +3558,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3391,6 +3584,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3416,6 +3610,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3441,6 +3636,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3466,6 +3662,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3491,6 +3688,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3516,6 +3714,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3545,6 +3744,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3574,6 +3774,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3603,6 +3804,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3632,6 +3834,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3657,6 +3860,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3682,6 +3886,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3707,6 +3912,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3732,6 +3938,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3761,6 +3968,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3786,6 +3994,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3815,6 +4024,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3840,6 +4050,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3873,6 +4084,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3906,6 +4118,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3935,6 +4148,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3964,6 +4178,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -3993,6 +4208,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,
@@ -4018,6 +4234,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Formats.Asn1.AsnDecoder",
           "declaringAssemblyName": "System.Formats.Asn1",
           "isExtensionMethod": false,

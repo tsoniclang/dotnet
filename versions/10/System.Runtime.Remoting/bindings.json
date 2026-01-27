@@ -35,6 +35,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -51,6 +52,7 @@
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
           "declaringAssemblyName": "System.Private.CoreLib"
         }

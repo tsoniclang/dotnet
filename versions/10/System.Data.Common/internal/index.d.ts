@@ -13,11 +13,11 @@ import * as System_Collections_Generic_Internal from "../../System.Collections.G
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { ReadOnlyCollection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { Hashtable, ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AttributeCollection, Component, EventDescriptor, EventDescriptorCollection, IComponent, IContainer, ICustomTypeDescriptor, ISite, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from "../../System.ComponentModel/internal/index.js";
+import type { AttributeCollection, Component, EventDescriptor, EventDescriptorCollection, EventHandlerList, IComponent, IContainer, ICustomTypeDescriptor, ISite, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from "../../System.ComponentModel/internal/index.js";
 import * as System_Data_Internal from "../../System.Data/internal/index.js";
-import type { CommandBehavior, CommandType, ConflictOption, ConnectionState, DataColumn, DataRow, DataRowVersion, DataSet, DataTable, DbType, FillErrorEventHandler, IColumnMapping, IColumnMappingCollection, IDataAdapter, IDataParameter, IDataParameterCollection, IDataReader, IDataRecord, IDbCommand, IDbConnection, IDbDataAdapter, IDbDataParameter, IDbTransaction, IsolationLevel, ITableMapping, ITableMappingCollection, LoadOption, MissingMappingAction, MissingSchemaAction, ParameterDirection, SchemaType, StateChangeEventHandler, StatementType, UpdateRowSource, UpdateStatus } from "../../System.Data/internal/index.js";
+import type { CommandBehavior, CommandType, ConflictOption, ConnectionState, DataColumn, DataRow, DataRowVersion, DataSet, DataTable, DbType, FillErrorEventArgs, FillErrorEventHandler, IColumnMapping, IColumnMappingCollection, IDataAdapter, IDataParameter, IDataParameterCollection, IDataReader, IDataRecord, IDbCommand, IDbConnection, IDbDataAdapter, IDbDataParameter, IDbTransaction, IsolationLevel, ITableMapping, ITableMappingCollection, LoadOption, MissingMappingAction, MissingSchemaAction, ParameterDirection, SchemaType, StateChangeEventArgs, StateChangeEventHandler, StatementType, UpdateRowSource, UpdateStatus } from "../../System.Data/internal/index.js";
 import type { Stream, TextReader } from "../../System.IO/internal/index.js";
 import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_InteropServices_Internal from "../../System.Runtime.InteropServices/internal/index.js";
@@ -69,7 +69,21 @@ export interface IDbColumnSchemaGenerator$instance {
 
 export type IDbColumnSchemaGenerator = IDbColumnSchemaGenerator$instance;
 
-export interface DataAdapter$instance extends Component {
+export abstract class DataAdapter$protected {
+    protected CloneInternals(): DataAdapter;
+    protected CreateTableMappings(): DataTableMappingCollection;
+    protected Dispose2(disposing: boolean): void;
+    protected Fill(dataTable: DataTable, dataReader: IDataReader): int;
+    protected Fill(dataTables: DataTable[], dataReader: IDataReader, startRecord: int, maxRecords: int): int;
+    protected Fill(dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int): int;
+    protected FillSchema(dataTable: DataTable, schemaType: SchemaType, dataReader: IDataReader): DataTable | undefined;
+    protected FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string, dataReader: IDataReader): DataTable[];
+    protected OnFillError(value: FillErrorEventArgs): void;
+    protected ShouldSerializeTableMappings(): boolean;
+}
+
+
+export interface DataAdapter$instance extends DataAdapter$protected, Component {
     AcceptChangesDuringFill: boolean;
     AcceptChangesDuringUpdate: boolean;
     ContinueUpdateOnError: boolean;
@@ -91,6 +105,7 @@ export interface DataAdapter$instance extends Component {
 
 export const DataAdapter: {
     new(): DataAdapter;
+    new(from: DataAdapter): DataAdapter;
 };
 
 
@@ -99,8 +114,6 @@ export interface __DataAdapter$views {
     As_IDataAdapter(): System_Data_Internal.IDataAdapter$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DataAdapter$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
@@ -249,7 +262,17 @@ export interface __DataTableMappingCollection$views {
 export type DataTableMappingCollection = DataTableMappingCollection$instance & __DataTableMappingCollection$views;
 
 
-export interface DbBatch$instance {
+export abstract class DbBatch$protected {
+    protected readonly DbBatchCommands: DbBatchCommandCollection;
+    protected DbConnection: DbConnection | undefined;
+    protected DbTransaction: DbTransaction | undefined;
+    protected abstract CreateDbBatchCommand(): DbBatchCommand;
+    protected abstract ExecuteDbDataReader(behavior: CommandBehavior): DbDataReader;
+    protected abstract ExecuteDbDataReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
+}
+
+
+export interface DbBatch$instance extends DbBatch$protected {
     readonly BatchCommands: DbBatchCommandCollection;
     Connection: DbConnection;
     Timeout: int;
@@ -272,6 +295,7 @@ export interface DbBatch$instance {
 
 
 export const DbBatch: {
+    new(): DbBatch;
 };
 
 
@@ -285,7 +309,12 @@ export interface DbBatch$instance extends System_Internal.IAsyncDisposable$insta
 export type DbBatch = DbBatch$instance & __DbBatch$views;
 
 
-export interface DbBatchCommand$instance {
+export abstract class DbBatchCommand$protected {
+    protected readonly DbParameterCollection: DbParameterCollection;
+}
+
+
+export interface DbBatchCommand$instance extends DbBatchCommand$protected {
     readonly CanCreateParameter: boolean;
     CommandText: string;
     CommandType: CommandType;
@@ -296,12 +325,19 @@ export interface DbBatchCommand$instance {
 
 
 export const DbBatchCommand: {
+    new(): DbBatchCommand;
 };
 
 
 export type DbBatchCommand = DbBatchCommand$instance;
 
-export interface DbBatchCommandCollection$instance {
+export abstract class DbBatchCommandCollection$protected {
+    protected abstract GetBatchCommand(index: int): DbBatchCommand;
+    protected abstract SetBatchCommand(index: int, batchCommand: DbBatchCommand): void;
+}
+
+
+export interface DbBatchCommandCollection$instance extends DbBatchCommandCollection$protected {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     Item: DbBatchCommand;
@@ -318,6 +354,7 @@ export interface DbBatchCommandCollection$instance {
 
 
 export const DbBatchCommandCollection: {
+    new(): DbBatchCommandCollection;
 };
 
 
@@ -332,40 +369,59 @@ export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbB
 
 
 export interface DbColumn$instance {
-    readonly AllowDBNull: Nullable_1<System_Internal.Boolean>;
-    readonly BaseCatalogName: string | undefined;
-    readonly BaseColumnName: string | undefined;
-    readonly BaseSchemaName: string | undefined;
-    readonly BaseServerName: string | undefined;
-    readonly BaseTableName: string | undefined;
-    readonly ColumnName: string;
-    readonly ColumnOrdinal: Nullable_1<System_Internal.Int32>;
-    readonly ColumnSize: Nullable_1<System_Internal.Int32>;
-    readonly DataType: Type;
-    readonly DataTypeName: string | undefined;
-    readonly IsAliased: Nullable_1<System_Internal.Boolean>;
-    readonly IsAutoIncrement: Nullable_1<System_Internal.Boolean>;
-    readonly IsExpression: Nullable_1<System_Internal.Boolean>;
-    readonly IsHidden: Nullable_1<System_Internal.Boolean>;
-    readonly IsIdentity: Nullable_1<System_Internal.Boolean>;
-    readonly IsKey: Nullable_1<System_Internal.Boolean>;
-    readonly IsLong: Nullable_1<System_Internal.Boolean>;
-    readonly IsReadOnly: Nullable_1<System_Internal.Boolean>;
-    readonly IsUnique: Nullable_1<System_Internal.Boolean>;
+    AllowDBNull: Nullable_1<System_Internal.Boolean>;
+    get BaseCatalogName(): string | undefined;
+    set BaseCatalogName(value: string);
+    get BaseColumnName(): string | undefined;
+    set BaseColumnName(value: string);
+    get BaseSchemaName(): string | undefined;
+    set BaseSchemaName(value: string);
+    get BaseServerName(): string | undefined;
+    set BaseServerName(value: string);
+    get BaseTableName(): string | undefined;
+    set BaseTableName(value: string);
+    ColumnName: string;
+    ColumnOrdinal: Nullable_1<System_Internal.Int32>;
+    ColumnSize: Nullable_1<System_Internal.Int32>;
+    DataType: Type;
+    get DataTypeName(): string | undefined;
+    set DataTypeName(value: string);
+    IsAliased: Nullable_1<System_Internal.Boolean>;
+    IsAutoIncrement: Nullable_1<System_Internal.Boolean>;
+    IsExpression: Nullable_1<System_Internal.Boolean>;
+    IsHidden: Nullable_1<System_Internal.Boolean>;
+    IsIdentity: Nullable_1<System_Internal.Boolean>;
+    IsKey: Nullable_1<System_Internal.Boolean>;
+    IsLong: Nullable_1<System_Internal.Boolean>;
+    IsReadOnly: Nullable_1<System_Internal.Boolean>;
+    IsUnique: Nullable_1<System_Internal.Boolean>;
     readonly Item: unknown;
-    readonly NumericPrecision: Nullable_1<System_Internal.Int32>;
-    readonly NumericScale: Nullable_1<System_Internal.Int32>;
-    readonly UdtAssemblyQualifiedName: string | undefined;
+    NumericPrecision: Nullable_1<System_Internal.Int32>;
+    NumericScale: Nullable_1<System_Internal.Int32>;
+    get UdtAssemblyQualifiedName(): string | undefined;
+    set UdtAssemblyQualifiedName(value: string);
 }
 
 
 export const DbColumn: {
+    new(): DbColumn;
 };
 
 
 export type DbColumn = DbColumn$instance;
 
-export interface DbCommand$instance extends Component {
+export abstract class DbCommand$protected {
+    protected DbConnection: DbConnection | undefined;
+    protected readonly DbParameterCollection: DbParameterCollection;
+    protected DbTransaction: DbTransaction | undefined;
+    protected abstract CreateDbParameter(): DbParameter;
+    protected Dispose2(disposing: boolean): void;
+    protected abstract ExecuteDbDataReader(behavior: CommandBehavior): DbDataReader;
+    protected ExecuteDbDataReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
+}
+
+
+export interface DbCommand$instance extends DbCommand$protected, Component {
     CommandText: string;
     CommandTimeout: int;
     CommandType: CommandType;
@@ -397,6 +453,7 @@ export interface DbCommand$instance extends Component {
 
 
 export const DbCommand: {
+    new(): DbCommand;
 };
 
 
@@ -407,12 +464,24 @@ export interface __DbCommand$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommand$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
+export interface DbCommand$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
-export interface DbCommandBuilder$instance extends Component {
+export abstract class DbCommandBuilder$protected {
+    protected abstract ApplyParameterInfo(parameter: DbParameter, row: DataRow, statementType: StatementType, whereClause: boolean): void;
+    protected Dispose2(disposing: boolean): void;
+    protected abstract GetParameterName(parameterOrdinal: int): string;
+    protected abstract GetParameterName(parameterName: string): string;
+    protected abstract GetParameterPlaceholder(parameterOrdinal: int): string;
+    protected GetSchemaTable(sourceCommand: DbCommand): DataTable | undefined;
+    protected InitializeCommand(command: DbCommand): DbCommand;
+    protected abstract SetRowUpdatingHandler(adapter: DbDataAdapter): void;
+}
+
+
+export interface DbCommandBuilder$instance extends DbCommandBuilder$protected, Component {
     CatalogLocation: CatalogLocation;
     CatalogSeparator: string;
     ConflictOption: ConflictOption;
@@ -436,6 +505,7 @@ export interface DbCommandBuilder$instance extends Component {
 
 
 export const DbCommandBuilder: {
+    new(): DbCommandBuilder;
 };
 
 
@@ -444,12 +514,21 @@ export interface __DbCommandBuilder$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommandBuilder$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
 
-export interface DbConnection$instance extends Component {
+export abstract class DbConnection$protected {
+    protected readonly DbProviderFactory: DbProviderFactory | undefined;
+    protected abstract BeginDbTransaction(isolationLevel: IsolationLevel): DbTransaction;
+    protected BeginDbTransactionAsync(isolationLevel: IsolationLevel, cancellationToken: CancellationToken): ValueTask_1<DbTransaction>;
+    protected CreateDbBatch(): DbBatch;
+    protected abstract CreateDbCommand(): DbCommand;
+    protected Dispose2(disposing: boolean): void;
+    protected OnStateChange(stateChange: StateChangeEventArgs): void;
+}
+
+
+export interface DbConnection$instance extends DbConnection$protected, Component {
     readonly CanCreateBatch: boolean;
     ConnectionString: string;
     readonly ConnectionTimeout: int;
@@ -483,6 +562,7 @@ export interface DbConnection$instance extends Component {
 
 
 export const DbConnection: {
+    new(): DbConnection;
 };
 
 
@@ -493,12 +573,17 @@ export interface __DbConnection$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbConnection$instance extends System_ComponentModel_Internal.IComponent$instance, System_Internal.IAsyncDisposable$instance {}
+export interface DbConnection$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbConnection = DbConnection$instance & __DbConnection$views;
 
 
-export interface DbConnectionStringBuilder$instance {
+export abstract class DbConnectionStringBuilder$protected {
+    protected GetProperties(propertyDescriptors: Hashtable): void;
+}
+
+
+export interface DbConnectionStringBuilder$instance extends DbConnectionStringBuilder$protected {
     BrowsableConnectionString: boolean;
     ConnectionString: string;
     readonly Count: int;
@@ -533,12 +618,37 @@ export interface __DbConnectionStringBuilder$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export interface DbConnectionStringBuilder$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance {}
-
 export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views;
 
 
-export interface DbDataAdapter$instance extends DataAdapter$instance {
+export abstract class DbDataAdapter$protected {
+    protected AddToBatch(command: IDbCommand): int;
+    protected ClearBatch(): void;
+    protected CreateRowUpdatedEvent(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatedEventArgs;
+    protected CreateRowUpdatingEvent(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatingEventArgs;
+    protected Dispose2(disposing: boolean): void;
+    protected ExecuteBatch(): int;
+    protected Fill2(dataTable: DataTable, dataReader: IDataReader): int;
+    protected Fill4(dataTable: DataTable, command: IDbCommand, behavior: CommandBehavior): int;
+    protected Fill3(dataTables: DataTable[], dataReader: IDataReader, startRecord: int, maxRecords: int): int;
+    protected Fill4(dataTables: DataTable[], startRecord: int, maxRecords: int, command: IDbCommand, behavior: CommandBehavior): int;
+    protected Fill(dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int): int;
+    protected Fill4(dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string, command: IDbCommand, behavior: CommandBehavior): int;
+    protected FillSchema2(dataTable: DataTable, schemaType: SchemaType, dataReader: IDataReader): DataTable | undefined;
+    protected FillSchema3(dataTable: DataTable, schemaType: SchemaType, command: IDbCommand, behavior: CommandBehavior): DataTable | undefined;
+    protected FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string, dataReader: IDataReader): DataTable[];
+    protected FillSchema3(dataSet: DataSet, schemaType: SchemaType, command: IDbCommand, srcTable: string, behavior: CommandBehavior): DataTable[];
+    protected GetBatchedParameter(commandIdentifier: int, parameterIndex: int): IDataParameter;
+    protected GetBatchedRecordsAffected(commandIdentifier: int, recordsAffected: int, error: Exception): boolean;
+    protected InitializeBatching(): void;
+    protected OnRowUpdated(value: RowUpdatedEventArgs): void;
+    protected OnRowUpdating(value: RowUpdatingEventArgs): void;
+    protected TerminateBatching(): void;
+    protected Update(dataRows: DataRow[], tableMapping: DataTableMapping): int;
+}
+
+
+export interface DbDataAdapter$instance extends DbDataAdapter$protected, DataAdapter$instance {
     get DeleteCommand(): DbCommand | undefined;
     set DeleteCommand(value: DbCommand);
     get InsertCommand(): DbCommand | undefined;
@@ -549,17 +659,21 @@ export interface DbDataAdapter$instance extends DataAdapter$instance {
     get UpdateCommand(): DbCommand | undefined;
     set UpdateCommand(value: DbCommand);
     Dispose(): void;
-    Fill(dataSet: DataSet): int;
-    Fill(dataTable: DataTable): int;
-    FillSchema(dataTable: DataTable, schemaType: SchemaType): DataTable | undefined;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    Fill4(dataSet: DataSet): int;
+    Fill4(dataTable: DataTable): int;
+    Fill4(startRecord: int, maxRecords: int, ...dataTables: DataTable[]): int;
+    FillSchema3(dataTable: DataTable, schemaType: SchemaType): DataTable | undefined;
+    FillSchema3(dataSet: DataSet, schemaType: SchemaType): DataTable[];
     GetFillParameters(): IDataParameter[];
     Update(dataSet: DataSet): int;
     Update(dataTable: DataTable): int;
+    Update(dataSet: DataSet, srcTable: string): int;
 }
 
 
 export const DbDataAdapter: {
+    new(): DbDataAdapter;
+    new(adapter: DbDataAdapter): DbDataAdapter;
     readonly DefaultSourceTableName: string;
 };
 
@@ -577,7 +691,13 @@ export interface DbDataAdapter$instance extends System_Internal.ICloneable$insta
 export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
-export interface DbDataReader$instance extends MarshalByRefObject {
+export abstract class DbDataReader$protected {
+    protected Dispose(disposing: boolean): void;
+    protected GetDbDataReader(ordinal: int): DbDataReader;
+}
+
+
+export interface DbDataReader$instance extends DbDataReader$protected, MarshalByRefObject {
     readonly Depth: int;
     readonly FieldCount: int;
     readonly HasRows: boolean;
@@ -636,6 +756,7 @@ export interface DbDataReader$instance extends MarshalByRefObject {
 
 
 export const DbDataReader: {
+    new(): DbDataReader;
 };
 
 
@@ -652,7 +773,12 @@ export interface DbDataReader$instance extends System_Collections_Internal.IEnum
 export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
-export interface DbDataRecord$instance {
+export abstract class DbDataRecord$protected {
+    protected GetDbDataReader(i: int): DbDataReader;
+}
+
+
+export interface DbDataRecord$instance extends DbDataRecord$protected {
     readonly FieldCount: int;
     get_Item(i: int): unknown;
     get_Item(name: string): unknown;
@@ -682,6 +808,7 @@ export interface DbDataRecord$instance {
 
 
 export const DbDataRecord: {
+    new(): DbDataRecord;
 };
 
 
@@ -695,7 +822,18 @@ export interface DbDataRecord$instance extends System_ComponentModel_Internal.IC
 export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
-export interface DbDataSource$instance {
+export abstract class DbDataSource$protected {
+    protected CreateDbBatch(): DbBatch;
+    protected CreateDbCommand(commandText?: string): DbCommand;
+    protected abstract CreateDbConnection(): DbConnection;
+    protected Dispose(disposing: boolean): void;
+    protected DisposeAsyncCore(): ValueTask;
+    protected OpenDbConnection(): DbConnection;
+    protected OpenDbConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbConnection>;
+}
+
+
+export interface DbDataSource$instance extends DbDataSource$protected {
     readonly ConnectionString: string;
     CreateBatch(): DbBatch;
     CreateCommand(commandText?: string): DbCommand;
@@ -708,6 +846,7 @@ export interface DbDataSource$instance {
 
 
 export const DbDataSource: {
+    new(): DbDataSource;
 };
 
 
@@ -716,7 +855,7 @@ export interface __DbDataSource$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
+export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbDataSource = DbDataSource$instance & __DbDataSource$views;
 
@@ -727,6 +866,7 @@ export interface DbDataSourceEnumerator$instance {
 
 
 export const DbDataSourceEnumerator: {
+    new(): DbDataSourceEnumerator;
 };
 
 
@@ -756,7 +896,12 @@ export interface DbEnumerator$instance extends System_Collections_Internal.IEnum
 export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
-export interface DbException$instance extends ExternalException {
+export abstract class DbException$protected {
+    protected readonly DbBatchCommand: DbBatchCommand | undefined;
+}
+
+
+export interface DbException$instance extends DbException$protected, ExternalException {
     readonly BatchCommand: DbBatchCommand | undefined;
     readonly IsTransient: boolean;
     readonly SqlState: string | undefined;
@@ -765,6 +910,11 @@ export interface DbException$instance extends ExternalException {
 
 
 export const DbException: {
+    new(): DbException;
+    new(message: string): DbException;
+    new(message: string, innerException: Exception): DbException;
+    new(message: string, errorCode: int): DbException;
+    new(info: SerializationInfo, context: StreamingContext): DbException;
 };
 
 
@@ -792,6 +942,7 @@ export interface DbParameter$instance extends MarshalByRefObject {
 
 
 export const DbParameter: {
+    new(): DbParameter;
 };
 
 
@@ -803,7 +954,15 @@ export interface __DbParameter$views {
 export type DbParameter = DbParameter$instance & __DbParameter$views;
 
 
-export interface DbParameterCollection$instance extends MarshalByRefObject {
+export abstract class DbParameterCollection$protected {
+    protected abstract GetParameter(index: int): DbParameter;
+    protected abstract GetParameter(parameterName: string): DbParameter;
+    protected abstract SetParameter(index: int, value: DbParameter): void;
+    protected abstract SetParameter(parameterName: string, value: DbParameter): void;
+}
+
+
+export interface DbParameterCollection$instance extends DbParameterCollection$protected, MarshalByRefObject {
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
@@ -830,6 +989,7 @@ export interface DbParameterCollection$instance extends MarshalByRefObject {
 
 
 export const DbParameterCollection: {
+    new(): DbParameterCollection;
 };
 
 
@@ -862,6 +1022,7 @@ export interface DbProviderFactory$instance {
 
 
 export const DbProviderFactory: {
+    new(): DbProviderFactory;
 };
 
 
@@ -879,7 +1040,13 @@ export const DbProviderSpecificTypePropertyAttribute: {
 
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
-export interface DbTransaction$instance extends MarshalByRefObject {
+export abstract class DbTransaction$protected {
+    protected readonly DbConnection: DbConnection | undefined;
+    protected Dispose(disposing: boolean): void;
+}
+
+
+export interface DbTransaction$instance extends DbTransaction$protected, MarshalByRefObject {
     readonly Connection: DbConnection;
     readonly IsolationLevel: IsolationLevel;
     readonly SupportsSavepoints: boolean;
@@ -899,6 +1066,7 @@ export interface DbTransaction$instance extends MarshalByRefObject {
 
 
 export const DbTransaction: {
+    new(): DbTransaction;
 };
 
 
@@ -934,7 +1102,12 @@ export const RowUpdatedEventArgs: {
 
 export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
-export interface RowUpdatingEventArgs$instance extends EventArgs {
+export abstract class RowUpdatingEventArgs$protected {
+    protected BaseCommand: IDbCommand | undefined;
+}
+
+
+export interface RowUpdatingEventArgs$instance extends RowUpdatingEventArgs$protected, EventArgs {
     get Command(): IDbCommand | undefined;
     set Command(value: IDbCommand);
     Errors: Exception;

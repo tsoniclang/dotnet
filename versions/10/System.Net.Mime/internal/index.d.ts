@@ -8,7 +8,7 @@ import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint12
 // Import types from other namespaces
 import type { StringDictionary } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum TransferEncoding {
     Unknown = -1,

@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.LoadOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.LoadOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.LoadOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.LoadOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -92,6 +96,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.LoadOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -120,16 +125,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -143,6 +148,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.ReaderOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.ReaderOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.ReaderOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -193,16 +201,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -216,6 +224,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.SaveOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -227,6 +236,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.SaveOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -238,6 +248,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.SaveOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -249,6 +260,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.SaveOptions",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -277,16 +289,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -300,6 +312,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChange",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -311,6 +324,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChange",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -322,6 +336,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChange",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -333,6 +348,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChange",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -344,6 +360,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChange",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -388,6 +405,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -407,6 +425,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -426,6 +445,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -445,6 +465,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -465,6 +486,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -486,6 +508,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -504,6 +527,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -522,6 +546,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -540,6 +565,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -558,6 +584,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -576,6 +603,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -594,6 +622,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -612,6 +641,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -631,6 +661,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -646,6 +677,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -656,6 +688,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XAttribute):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XAttribute",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -698,6 +731,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -717,6 +751,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -736,6 +771,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -756,6 +792,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -777,6 +814,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -795,6 +833,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -814,6 +853,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -829,6 +869,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -839,6 +880,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XCData):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XCData",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -881,6 +923,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -900,6 +943,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -919,6 +963,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -939,6 +984,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -960,6 +1006,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -978,6 +1025,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -996,6 +1044,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -1015,6 +1064,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -1030,6 +1080,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1040,6 +1091,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XComment):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XComment",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -1082,6 +1134,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1101,6 +1154,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1120,6 +1174,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1139,6 +1194,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1158,6 +1214,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1177,6 +1234,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1196,6 +1254,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1215,6 +1274,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1234,6 +1294,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1253,6 +1314,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1272,6 +1334,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1291,6 +1354,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1310,6 +1374,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1329,6 +1394,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1348,6 +1414,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1367,6 +1434,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -1387,6 +1455,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1408,6 +1477,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1426,6 +1496,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XContainer",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1444,6 +1515,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -1463,6 +1535,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -1503,6 +1576,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1524,6 +1598,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1542,6 +1617,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1560,6 +1636,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -1574,6 +1651,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -1584,6 +1662,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XDeclaration):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDeclaration",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -1626,6 +1705,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1645,6 +1725,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1664,6 +1745,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1683,6 +1765,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1702,6 +1785,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1721,6 +1805,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1740,6 +1825,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1759,6 +1845,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1778,6 +1865,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1797,6 +1885,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1816,6 +1905,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1835,6 +1925,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1854,6 +1945,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1873,6 +1965,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1892,6 +1985,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1911,6 +2005,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1930,6 +2025,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1949,6 +2045,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1968,6 +2065,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -1987,6 +2085,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2006,6 +2105,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2025,6 +2125,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2044,6 +2145,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2063,6 +2165,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2082,6 +2185,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2101,6 +2205,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -2121,6 +2226,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2142,6 +2248,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2160,6 +2267,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2178,6 +2286,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2196,6 +2305,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2214,6 +2324,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -2233,6 +2344,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -2248,6 +2360,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2258,6 +2371,7 @@
           "normalizedSignature": "constructor|(System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2268,6 +2382,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XDeclaration,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2278,6 +2393,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XDocument):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocument",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -2320,6 +2436,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2339,6 +2456,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2358,6 +2476,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -2378,6 +2497,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2399,6 +2519,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2417,6 +2538,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2435,6 +2557,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2453,6 +2576,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2471,6 +2595,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2489,6 +2614,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -2508,6 +2634,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -2523,6 +2650,7 @@
           "normalizedSignature": "constructor|(System.String,System.String,System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 4,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -2533,6 +2661,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XDocumentType):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XDocumentType",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -2579,6 +2708,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2598,6 +2728,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2617,6 +2748,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2636,6 +2768,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2655,6 +2788,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2674,6 +2808,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2693,6 +2828,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2712,6 +2848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2731,6 +2868,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2750,6 +2888,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2769,6 +2908,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2788,6 +2928,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2807,6 +2948,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2826,6 +2968,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2845,6 +2988,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2864,6 +3008,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2883,6 +3028,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2902,6 +3048,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2921,6 +3068,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2940,6 +3088,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2959,6 +3108,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2978,6 +3128,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -2997,6 +3148,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3016,6 +3168,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3035,6 +3188,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3054,6 +3208,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3073,6 +3228,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3092,6 +3248,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3111,6 +3268,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3130,6 +3288,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3149,6 +3308,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3168,6 +3328,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3187,6 +3348,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3206,6 +3368,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3225,6 +3388,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3244,6 +3408,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3263,6 +3428,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3282,6 +3448,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3301,6 +3468,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3320,6 +3488,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3339,6 +3508,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3358,6 +3528,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3377,6 +3548,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3396,6 +3568,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3415,6 +3588,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3434,6 +3608,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -3454,6 +3629,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -3474,6 +3650,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -3494,6 +3671,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -3514,6 +3692,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3535,6 +3714,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3553,6 +3733,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3571,6 +3752,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3589,6 +3771,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3607,6 +3790,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3625,6 +3809,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3643,6 +3828,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3661,6 +3847,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3679,6 +3866,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3697,6 +3885,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -3716,6 +3905,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -3731,6 +3921,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3741,6 +3932,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3751,6 +3943,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3761,6 +3954,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XElement):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3771,6 +3965,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XStreamingElement):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -3820,6 +4015,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3839,6 +4035,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3858,6 +4055,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3877,6 +4075,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3896,6 +4095,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -3915,6 +4115,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IEquatable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3935,6 +4136,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -3957,6 +4159,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3975,6 +4178,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -3993,6 +4197,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XName",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -4032,6 +4237,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4051,6 +4257,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4070,6 +4277,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4089,6 +4297,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4108,6 +4317,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4129,6 +4339,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4147,6 +4358,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4165,6 +4377,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4183,6 +4396,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNamespace",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -4228,6 +4442,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4247,6 +4462,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4266,6 +4482,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4285,6 +4502,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4304,6 +4522,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4323,6 +4542,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4342,6 +4562,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4361,6 +4582,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4380,6 +4602,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4399,6 +4622,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4418,6 +4642,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4437,6 +4662,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4456,6 +4682,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4475,6 +4702,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4494,6 +4722,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4513,6 +4742,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4532,6 +4762,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4551,6 +4782,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4570,6 +4802,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4589,6 +4822,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4608,6 +4842,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4627,6 +4862,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4646,6 +4882,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4665,6 +4902,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4684,6 +4922,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4703,6 +4942,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4722,6 +4962,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4741,6 +4982,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -4761,6 +5003,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4782,6 +5025,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4800,6 +5044,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4818,6 +5063,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4836,6 +5082,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNode",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -4854,6 +5101,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -4873,6 +5121,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -4899,15 +5148,15 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IComparer",
+          "clrName": "System.Collections.IComparer"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IComparer\u00601",
           "clrName": "System.Collections.Generic.IComparer\u00601",
           "typeArguments": [
             "XNode"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IComparer",
-          "clrName": "System.Collections.IComparer"
         }
       ],
       "methods": [
@@ -4926,6 +5175,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNodeDocumentOrderComparer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -4945,6 +5195,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IComparer\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4965,6 +5216,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IComparer",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -4982,6 +5234,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNodeDocumentOrderComparer",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5004,15 +5257,15 @@
       },
       "interfaces": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer",
+          "clrName": "System.Collections.IEqualityComparer"
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer\u00601",
           "clrName": "System.Collections.Generic.IEqualityComparer\u00601",
           "typeArguments": [
             "XNode"
           ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer",
-          "clrName": "System.Collections.IEqualityComparer"
         }
       ],
       "methods": [
@@ -5031,6 +5284,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNodeEqualityComparer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5050,6 +5304,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNodeEqualityComparer",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5069,6 +5324,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5089,6 +5345,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5109,6 +5366,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEqualityComparer",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5129,6 +5387,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Collections.IEqualityComparer",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -5146,6 +5405,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XNodeEqualityComparer",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5188,6 +5448,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5207,6 +5468,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5226,6 +5488,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5245,6 +5508,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5264,6 +5528,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5283,6 +5548,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5302,6 +5568,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5321,6 +5588,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -5343,6 +5611,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5361,6 +5630,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5379,6 +5649,7 @@
           "isAbstract": true,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5397,6 +5668,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5415,6 +5687,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -5434,6 +5707,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -5447,6 +5721,7 @@
           "metadataToken": 335544321,
           "normalizedSignature": "Changed|System.EventHandler\u00601[[System.Xml.Linq.XObjectChangeEventArgs, System.Private.Xml.Linq, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5456,6 +5731,7 @@
           "metadataToken": 335544322,
           "normalizedSignature": "Changing|System.EventHandler\u00601[[System.Xml.Linq.XObjectChangeEventArgs, System.Private.Xml.Linq, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "isStatic": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObject",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5494,6 +5770,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5507,6 +5784,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5518,6 +5796,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5529,6 +5808,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5540,6 +5820,7 @@
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5553,6 +5834,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XObjectChange):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XObjectChangeEventArgs",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5595,6 +5877,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5614,6 +5897,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5633,6 +5917,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -5653,6 +5938,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5674,6 +5960,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5692,6 +5979,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5710,6 +5998,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5728,6 +6017,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -5747,6 +6037,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -5762,6 +6053,7 @@
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -5772,6 +6064,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XProcessingInstruction):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -5808,6 +6101,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5827,6 +6121,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5846,6 +6141,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5865,6 +6161,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5884,6 +6181,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5903,6 +6201,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5922,6 +6221,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5941,6 +6241,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5960,6 +6261,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5979,6 +6281,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -5998,6 +6301,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -6017,6 +6321,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -6038,6 +6343,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -6052,6 +6358,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -6062,6 +6369,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName,System.Object):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -6072,6 +6380,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XName,System.Object[]):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XStreamingElement",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -6114,6 +6423,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -6133,6 +6443,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -6152,6 +6463,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
@@ -6172,6 +6484,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": false
@@ -6193,6 +6506,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -6211,6 +6525,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -6229,6 +6544,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -6248,6 +6564,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
+          "visibility": "Public",
           "sourceInterface": "System.Xml.IXmlLineInfo",
           "declaringClrType": "System.Xml.IXmlLineInfo",
           "declaringAssemblyName": "System.Private.Xml"
@@ -6263,6 +6580,7 @@
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         },
@@ -6273,6 +6591,7 @@
           "normalizedSignature": "constructor|(System.Xml.Linq.XText):void|static=false",
           "isStatic": false,
           "parameterCount": 1,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.XText",
           "declaringAssemblyName": "System.Private.Xml.Linq"
         }
@@ -6309,6 +6628,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6328,6 +6648,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6347,6 +6668,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6366,6 +6688,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6385,6 +6708,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6404,6 +6728,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6423,6 +6748,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6442,6 +6768,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6461,6 +6788,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6480,6 +6808,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6499,6 +6828,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6518,6 +6848,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6537,6 +6868,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6556,6 +6888,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6575,6 +6908,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6594,6 +6928,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6613,6 +6948,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true
@@ -6632,6 +6968,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Xml.Linq.Extensions",
           "declaringAssemblyName": "System.Private.Xml.Linq",
           "isExtensionMethod": true

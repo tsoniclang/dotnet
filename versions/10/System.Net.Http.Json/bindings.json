@@ -41,6 +41,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": false
@@ -60,6 +61,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": false
@@ -79,6 +81,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": false
@@ -98,6 +101,93 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Http.Json.JsonContent",
+          "declaringAssemblyName": "System.Net.Http.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task",
+          "clrName": "SerializeToStreamAsync",
+          "metadataToken": 100663450,
+          "canonicalSignature": "(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task",
+          "normalizedSignature": "SerializeToStreamAsync|(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Json.JsonContent",
+          "declaringAssemblyName": "System.Net.Http.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::TryComputeLength(System.Int64\u0026):System.Boolean",
+          "clrName": "TryComputeLength",
+          "metadataToken": 100663451,
+          "canonicalSignature": "(System.Int64\u0026):System.Boolean",
+          "normalizedSignature": "TryComputeLength|(System.Int64\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Json.JsonContent",
+          "declaringAssemblyName": "System.Net.Http.Json",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::SerializeToStream(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void",
+          "clrName": "SerializeToStream",
+          "metadataToken": 100663455,
+          "canonicalSignature": "(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void",
+          "normalizedSignature": "SerializeToStream|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Json.JsonContent",
+          "declaringAssemblyName": "System.Net.Http.Json",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "clrName": "SerializeToStreamAsync",
+          "metadataToken": 100663456,
+          "canonicalSignature": "(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "normalizedSignature": "SerializeToStreamAsync|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": false
@@ -117,10 +207,31 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "BaseOverload",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Protected",
+          "declaringClrType": "System.Net.Http.Json.JsonContent",
+          "declaringAssemblyName": "System.Net.Http.Json",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http.Json:System.Net.Http.Json.JsonContent::Dispose():System.Void",
@@ -137,6 +248,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": false
@@ -158,6 +270,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json"
         },
@@ -176,6 +289,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.JsonContent",
           "declaringAssemblyName": "System.Net.Http.Json"
         }
@@ -215,6 +329,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -234,6 +349,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -253,6 +369,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -272,6 +389,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -291,6 +409,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -310,6 +429,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -329,6 +449,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -348,6 +469,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -367,6 +489,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -386,6 +509,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -405,6 +529,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -424,6 +549,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -443,6 +569,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -462,6 +589,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -481,6 +609,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -500,6 +629,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -519,6 +649,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -538,6 +669,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -557,6 +689,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -576,6 +709,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -595,6 +729,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -614,6 +749,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -633,6 +769,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -652,6 +789,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -671,6 +809,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -690,6 +829,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -709,6 +849,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -728,6 +869,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -747,6 +889,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -766,6 +909,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -785,6 +929,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -804,6 +949,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -823,6 +969,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -842,6 +989,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -861,6 +1009,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -880,6 +1029,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -899,6 +1049,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -918,6 +1069,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -937,6 +1089,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -956,6 +1109,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -975,6 +1129,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -994,6 +1149,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1013,6 +1169,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1032,6 +1189,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1051,6 +1209,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1070,6 +1229,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1089,6 +1249,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1108,6 +1269,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1149,6 +1311,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1168,6 +1331,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1187,6 +1351,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1206,6 +1371,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1225,6 +1391,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1244,6 +1411,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1263,6 +1431,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1282,6 +1451,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true
@@ -1301,6 +1471,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
           "declaringAssemblyName": "System.Net.Http.Json",
           "isExtensionMethod": true

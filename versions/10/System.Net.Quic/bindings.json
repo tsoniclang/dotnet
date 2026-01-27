@@ -25,16 +25,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -48,6 +48,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicAbortDirection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -59,6 +60,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicAbortDirection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -70,6 +72,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicAbortDirection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -81,6 +84,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicAbortDirection",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -109,16 +113,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,6 +136,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -143,6 +148,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -154,6 +160,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -165,6 +172,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -176,6 +184,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -187,6 +196,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -198,6 +208,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -209,6 +220,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -220,6 +232,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -231,6 +244,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -242,6 +256,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -253,6 +268,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -264,6 +280,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicError",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -292,16 +309,16 @@
           "clrName": "System.IComparable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
           "clrName": "System.IFormattable"
         },
         {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -315,6 +332,7 @@
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStreamType",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -326,6 +344,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStreamType",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -337,6 +356,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStreamType",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -376,6 +396,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStreamCapacityChangedArgs",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -394,6 +415,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStreamCapacityChangedArgs",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -434,6 +456,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -452,6 +475,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -470,6 +494,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -484,6 +509,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -526,6 +552,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -545,6 +572,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -564,6 +592,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -583,6 +612,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -602,6 +632,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -621,6 +652,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -640,6 +672,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -662,6 +695,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -680,6 +714,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -698,6 +733,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -716,6 +752,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -734,6 +771,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -752,6 +790,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -770,6 +809,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -788,6 +828,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnection",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -828,6 +869,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -846,6 +888,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -864,6 +907,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -882,6 +926,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -900,6 +945,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -918,6 +964,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -936,6 +983,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -954,6 +1002,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -972,6 +1021,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1017,6 +1067,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1037,6 +1088,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicException",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1058,6 +1110,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicException",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1076,6 +1129,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicException",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1094,6 +1148,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicException",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1108,6 +1163,7 @@
           "normalizedSignature": "constructor|(System.Net.Quic.QuicError,System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 3,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicException",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1150,6 +1206,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1169,6 +1226,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1188,6 +1246,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1207,6 +1266,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1226,6 +1286,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -1248,6 +1309,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1266,6 +1328,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListener",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1306,6 +1369,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListenerOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1324,6 +1388,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListenerOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1342,6 +1407,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListenerOptions",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1360,6 +1426,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListenerOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1374,6 +1441,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicListenerOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1411,6 +1479,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1429,6 +1498,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1447,6 +1517,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -1465,6 +1536,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1479,6 +1551,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1516,6 +1589,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicServerConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1530,6 +1604,7 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicServerConnectionOptions",
           "declaringAssemblyName": "System.Net.Quic"
         }
@@ -1552,12 +1627,12 @@
       },
       "interfaces": [
         {
-          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
-        },
-        {
           "stableId": "System.Private.CoreLib:System.IDisposable",
           "clrName": "System.IDisposable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
+          "clrName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
@@ -1576,6 +1651,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1595,6 +1671,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1614,6 +1691,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1633,6 +1711,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1652,6 +1731,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1671,6 +1751,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1690,6 +1771,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1709,6 +1791,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1728,6 +1811,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1747,6 +1831,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1766,6 +1851,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1785,6 +1871,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1804,6 +1891,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1823,6 +1911,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1842,6 +1931,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1861,6 +1951,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1880,6 +1971,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1899,6 +1991,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1918,6 +2011,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1937,6 +2031,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1956,6 +2051,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1975,6 +2071,7 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -1994,6 +2091,27 @@
           "isVirtual": true,
           "isOverride": true,
           "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Net.Quic.QuicStream",
+          "declaringAssemblyName": "System.Net.Quic",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Dispose(System.Boolean):System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663911,
+          "canonicalSignature": "(System.Boolean):System.Void",
+          "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Protected",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2013,6 +2131,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2033,6 +2152,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.IAsyncDisposable",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
@@ -2053,6 +2173,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2072,6 +2193,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2091,6 +2213,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2110,6 +2233,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2129,6 +2253,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2148,6 +2273,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2167,6 +2293,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2186,6 +2313,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2205,6 +2333,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic",
           "isExtensionMethod": false
@@ -2226,6 +2355,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2244,6 +2374,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2262,6 +2393,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2280,6 +2412,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2298,6 +2431,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2316,6 +2450,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2334,6 +2469,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2352,6 +2488,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2370,6 +2507,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2388,6 +2526,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2406,6 +2545,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         },
@@ -2424,6 +2564,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.Quic.QuicStream",
           "declaringAssemblyName": "System.Net.Quic"
         }

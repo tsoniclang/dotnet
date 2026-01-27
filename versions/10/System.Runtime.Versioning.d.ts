@@ -6,7 +6,7 @@
 import * as Internal from './System.Runtime.Versioning/internal/index.js';
 
 // Cross-namespace type imports for constraints
-import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Version } from './System/internal/index.js';
+import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ComponentGuaranteesAttribute as ComponentGuaranteesAttribute } from './System.Runtime.Versioning/internal/index.js';

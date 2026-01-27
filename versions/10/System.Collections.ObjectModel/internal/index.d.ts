@@ -12,15 +12,23 @@ import type { ptr } from "@tsonic/core/types.js";
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, IReadOnlySet_1, ISet_1, KeyValuePair_2, List_1 } from "../../System.Collections.Generic/internal/index.js";
 import * as System_Collections_Specialized_Internal from "../../System.Collections.Specialized/internal/index.js";
-import type { INotifyCollectionChanged, NotifyCollectionChangedEventHandler } from "../../System.Collections.Specialized/internal/index.js";
+import type { INotifyCollectionChanged, NotifyCollectionChangedEventArgs, NotifyCollectionChangedEventHandler } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { INotifyPropertyChanged } from "../../System.ComponentModel/internal/index.js";
+import type { INotifyPropertyChanged, PropertyChangedEventArgs, PropertyChangedEventHandler } from "../../System.ComponentModel/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
-export interface Collection_1$instance<T> {
+export abstract class Collection_1$protected<T> {
+    protected ClearItems(): void;
+    protected InsertItem(index: int, item: T): void;
+    protected RemoveItem(index: int): void;
+    protected SetItem(index: int, item: T): void;
+}
+
+
+export interface Collection_1$instance<T> extends Collection_1$protected<T> {
     readonly Count: int;
     Item: T;
     Add(item: T): void;
@@ -54,7 +62,18 @@ export interface __Collection_1$views<T> {
 export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>;
 
 
-export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
+export abstract class KeyedCollection_2$protected<TKey, TItem> {
+    protected ClearItems(): void;
+    protected abstract GetKeyForItem(item: TItem): TKey;
+    protected InsertItem2(index: int, item: TItem): void;
+    protected InsertItem(index: int, item: unknown): void;
+    protected RemoveItem(index: int): void;
+    protected SetItem2(index: int, item: TItem): void;
+    protected SetItem(index: int, item: unknown): void;
+}
+
+
+export interface KeyedCollection_2$instance<TKey, TItem> extends KeyedCollection_2$protected<TKey, TItem>, Collection_1$instance<TItem> {
     readonly Comparer: IEqualityComparer_1<TKey>;
     Add(item: TItem): void;
     Add(value: unknown): int;
@@ -76,6 +95,9 @@ export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$in
 
 
 export const KeyedCollection_2: {
+    new<TKey, TItem>(): KeyedCollection_2<TKey, TItem>;
+    new<TKey, TItem>(comparer: IEqualityComparer_1<TKey>): KeyedCollection_2<TKey, TItem>;
+    new<TKey, TItem>(comparer: IEqualityComparer_1<TKey>, dictionaryCreationThreshold: int): KeyedCollection_2<TKey, TItem>;
 };
 
 
@@ -92,7 +114,18 @@ export interface __KeyedCollection_2$views<TKey, TItem> {
 export type KeyedCollection_2<TKey, TItem> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
 
 
-export interface ObservableCollection_1$instance<T> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+export abstract class ObservableCollection_1$protected<T> {
+    protected ClearItems(): void;
+    protected InsertItem(index: int, item: T): void;
+    protected MoveItem(oldIndex: int, newIndex: int): void;
+    protected OnCollectionChanged(e: NotifyCollectionChangedEventArgs): void;
+    protected OnPropertyChanged(e: PropertyChangedEventArgs): void;
+    protected RemoveItem(index: int): void;
+    protected SetItem(index: int, item: T): void;
+}
+
+
+export interface ObservableCollection_1$instance<T> extends ObservableCollection_1$protected<T>, Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
     Add(item: T): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -241,7 +274,13 @@ export interface __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue> {
 export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> & __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+export abstract class ReadOnlyObservableCollection_1$protected<T> {
+    protected OnCollectionChanged(args: NotifyCollectionChangedEventArgs): void;
+    protected OnPropertyChanged(args: PropertyChangedEventArgs): void;
+}
+
+
+export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyObservableCollection_1$protected<T>, ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
     Add(item: T): void;
     Add(value: unknown): int;
     Clear(): void;

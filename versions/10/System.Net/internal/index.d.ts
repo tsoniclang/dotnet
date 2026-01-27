@@ -16,8 +16,8 @@ import type { NameObjectCollectionBase_KeysCollection, NameValueCollection, Stri
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from "../../System.ComponentModel/internal/index.js";
-import type { BinaryWriter, Stream, TextWriter } from "../../System.IO/internal/index.js";
+import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, EventHandlerList, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from "../../System.ComponentModel/internal/index.js";
+import type { BinaryReader, BinaryWriter, Stream, TextWriter } from "../../System.IO/internal/index.js";
 import type { RequestCachePolicy } from "../../System.Net.Cache/internal/index.js";
 import type { AuthenticationLevel, EncryptionPolicy, RemoteCertificateValidationCallback } from "../../System.Net.Security/internal/index.js";
 import type { AddressFamily } from "../../System.Net.Sockets/internal/index.js";
@@ -457,7 +457,7 @@ export const AuthenticationManager: {
 export type AuthenticationManager = AuthenticationManager$instance;
 
 export interface Authorization$instance {
-    readonly Complete: boolean;
+    Complete: boolean;
     readonly ConnectionGroupId: string | undefined;
     readonly Message: string;
     MutuallyAuthenticated: boolean;
@@ -578,6 +578,7 @@ export const CookieException: {
     new(): CookieException;
     new(message: string): CookieException;
     new(message: string, innerException: Exception): CookieException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): CookieException;
 };
 
 
@@ -680,12 +681,18 @@ export interface EndPoint$instance {
 
 
 export const EndPoint: {
+    new(): EndPoint;
 };
 
 
 export type EndPoint = EndPoint$instance;
 
-export interface FileWebRequest$instance extends WebRequest$instance {
+export abstract class FileWebRequest$protected {
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface FileWebRequest$instance extends FileWebRequest$protected, WebRequest$instance {
     get ConnectionGroupName(): string | undefined;
     set ConnectionGroupName(value: string);
     ContentLength: long;
@@ -704,7 +711,6 @@ export interface FileWebRequest$instance extends WebRequest$instance {
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetRequestStream(): Stream;
     GetRequestStreamAsync(): Task_1<Stream>;
     GetRequestStreamAsync(): Task_1<Stream>;
@@ -715,7 +721,7 @@ export interface FileWebRequest$instance extends WebRequest$instance {
 
 
 export const FileWebRequest: {
-    new(): FileWebRequest;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): FileWebRequest;
 };
 
 
@@ -723,12 +729,16 @@ export interface __FileWebRequest$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FileWebRequest$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
-export interface FileWebResponse$instance extends WebResponse$instance {
+export abstract class FileWebResponse$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface FileWebResponse$instance extends FileWebResponse$protected, WebResponse$instance {
     readonly ContentLength: long;
     readonly ContentType: string;
     readonly Headers: WebHeaderCollection;
@@ -736,13 +746,12 @@ export interface FileWebResponse$instance extends WebResponse$instance {
     readonly SupportsHeaders: boolean;
     Close(): void;
     Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
 
 export const FileWebResponse: {
-    new(): FileWebResponse;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): FileWebResponse;
 };
 
 
@@ -751,12 +760,15 @@ export interface __FileWebResponse$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FileWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views;
 
 
-export interface FtpWebRequest$instance extends WebRequest$instance {
+export abstract class FtpWebRequest$protected {
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface FtpWebRequest$instance extends FtpWebRequest$protected, WebRequest$instance {
     CachePolicy: RequestCachePolicy;
     ClientCertificates: X509CertificateCollection;
     get ConnectionGroupName(): string | undefined;
@@ -786,7 +798,6 @@ export interface FtpWebRequest$instance extends WebRequest$instance {
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetRequestStream(): Stream;
     GetResponse(): WebResponse;
 }
@@ -803,12 +814,16 @@ export interface __FtpWebRequest$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FtpWebRequest$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
-export interface FtpWebResponse$instance extends WebResponse$instance {
+export abstract class FtpWebResponse$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface FtpWebResponse$instance extends FtpWebResponse$protected, WebResponse$instance {
     readonly BannerMessage: string | undefined;
     readonly ContentLength: long;
     readonly ExitMessage: string | undefined;
@@ -821,7 +836,6 @@ export interface FtpWebResponse$instance extends WebResponse$instance {
     readonly WelcomeMessage: string | undefined;
     Close(): void;
     Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
@@ -835,8 +849,6 @@ export interface __FtpWebResponse$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface FtpWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type FtpWebResponse = FtpWebResponse$instance & __FtpWebResponse$views;
 
@@ -940,6 +952,7 @@ export const HttpListenerException: {
     new(): HttpListenerException;
     new(errorCode: int): HttpListenerException;
     new(errorCode: int, message: string): HttpListenerException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpListenerException;
 };
 
 
@@ -1079,7 +1092,12 @@ export const HttpListenerTimeoutManager: {
 
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
-export interface HttpWebRequest$instance extends WebRequest$instance {
+export abstract class HttpWebRequest$protected {
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface HttpWebRequest$instance extends HttpWebRequest$protected, WebRequest$instance {
     Accept: string;
     readonly Address: Uri;
     AllowAutoRedirect: boolean;
@@ -1140,14 +1158,13 @@ export interface HttpWebRequest$instance extends WebRequest$instance {
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetRequestStream(): Stream;
     GetResponse(): WebResponse;
 }
 
 
 export const HttpWebRequest: {
-    new(): HttpWebRequest;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpWebRequest;
     DefaultMaximumResponseHeadersLength: int;
     DefaultMaximumErrorResponseLength: int;
     get DefaultCachePolicy(): RequestCachePolicy | undefined;
@@ -1159,12 +1176,16 @@ export interface __HttpWebRequest$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface HttpWebRequest$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
-export interface HttpWebResponse$instance extends WebResponse$instance {
+export abstract class HttpWebResponse$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface HttpWebResponse$instance extends HttpWebResponse$protected, WebResponse$instance {
     readonly CharacterSet: string | undefined;
     readonly ContentEncoding: string;
     readonly ContentLength: long;
@@ -1182,7 +1203,6 @@ export interface HttpWebResponse$instance extends WebResponse$instance {
     readonly SupportsHeaders: boolean;
     Close(): void;
     Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetResponseHeader(headerName: string): string;
     GetResponseStream(): Stream;
 }
@@ -1190,6 +1210,7 @@ export interface HttpWebResponse$instance extends WebResponse$instance {
 
 export const HttpWebResponse: {
     new(): HttpWebResponse;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpWebResponse;
 };
 
 
@@ -1197,8 +1218,6 @@ export interface __HttpWebResponse$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface HttpWebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views;
 
@@ -1383,6 +1402,7 @@ export interface ProtocolViolationException$instance extends InvalidOperationExc
 export const ProtocolViolationException: {
     new(): ProtocolViolationException;
     new(message: string): ProtocolViolationException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): ProtocolViolationException;
 };
 
 
@@ -1397,16 +1417,16 @@ export interface ServicePoint$instance {
     readonly Address: Uri;
     get BindIPEndPointDelegate(): BindIPEndPoint | undefined;
     set BindIPEndPointDelegate(value: BindIPEndPoint);
-    readonly Certificate: X509Certificate;
+    Certificate: X509Certificate;
     readonly ClientCertificate: X509Certificate | undefined;
     ConnectionLeaseTimeout: int;
     ConnectionLimit: int;
     readonly ConnectionName: string;
     readonly CurrentConnections: int;
     Expect100Continue: boolean;
-    readonly IdleSince: DateTime;
+    IdleSince: DateTime;
     MaxIdleTime: int;
-    readonly ProtocolVersion: Version;
+    ProtocolVersion: Version;
     ReceiveBufferSize: int;
     readonly SupportsPipelining: boolean;
     UseNagleAlgorithm: boolean;
@@ -1487,6 +1507,7 @@ export interface TransportContext$instance {
 
 
 export const TransportContext: {
+    new(): TransportContext;
 };
 
 
@@ -1555,7 +1576,27 @@ export const UploadValuesCompletedEventArgs: {
 
 export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$instance;
 
-export interface WebClient$instance extends Component {
+export abstract class WebClient$protected {
+    protected Dispose2(disposing: boolean): void;
+    protected GetWebRequest(address: Uri): WebRequest;
+    protected GetWebResponse(request: WebRequest): WebResponse;
+    protected GetWebResponse(request: WebRequest, result: IAsyncResult): WebResponse;
+    protected OnDownloadDataCompleted(e: DownloadDataCompletedEventArgs): void;
+    protected OnDownloadFileCompleted(e: AsyncCompletedEventArgs): void;
+    protected OnDownloadProgressChanged(e: DownloadProgressChangedEventArgs): void;
+    protected OnDownloadStringCompleted(e: DownloadStringCompletedEventArgs): void;
+    protected OnOpenReadCompleted(e: OpenReadCompletedEventArgs): void;
+    protected OnOpenWriteCompleted(e: OpenWriteCompletedEventArgs): void;
+    protected OnUploadDataCompleted(e: UploadDataCompletedEventArgs): void;
+    protected OnUploadFileCompleted(e: UploadFileCompletedEventArgs): void;
+    protected OnUploadProgressChanged(e: UploadProgressChangedEventArgs): void;
+    protected OnUploadStringCompleted(e: UploadStringCompletedEventArgs): void;
+    protected OnUploadValuesCompleted(e: UploadValuesCompletedEventArgs): void;
+    protected OnWriteStreamClosed(e: WriteStreamClosedEventArgs): void;
+}
+
+
+export interface WebClient$instance extends WebClient$protected, Component {
     AllowReadStreamBuffering: boolean;
     AllowWriteStreamBuffering: boolean;
     BaseAddress: string;
@@ -1663,8 +1704,6 @@ export interface __WebClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface WebClient$instance extends System_ComponentModel_Internal.IComponent$instance {}
-
 export type WebClient = WebClient$instance & __WebClient$views;
 
 
@@ -1681,6 +1720,7 @@ export const WebException: {
     new(message: string, innerException: Exception): WebException;
     new(message: string, status: WebExceptionStatus): WebException;
     new(message: string, innerException: Exception, status: WebExceptionStatus, response: WebResponse): WebException;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebException;
 };
 
 
@@ -1718,6 +1758,7 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
 
 
 export const WebHeaderCollection: {
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebHeaderCollection;
     new(): WebHeaderCollection;
     IsRestricted(headerName: string, response: boolean): boolean;
     IsRestricted(headerName: string): boolean;
@@ -1734,7 +1775,12 @@ export interface __WebHeaderCollection$views {
 export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderCollection$views;
 
 
-export interface WebProxy$instance {
+export abstract class WebProxy$protected {
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface WebProxy$instance extends WebProxy$protected {
     Address: Uri;
     readonly BypassArrayList: ArrayList;
     BypassList: string[];
@@ -1757,6 +1803,7 @@ export const WebProxy: {
     new(Address: string, BypassOnLocal: boolean): WebProxy;
     new(Address: string, BypassOnLocal: boolean, BypassList: string[]): WebProxy;
     new(Address: string, BypassOnLocal: boolean, BypassList: string[], Credentials: ICredentials): WebProxy;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebProxy;
     GetDefaultProxy(): WebProxy;
 };
 
@@ -1771,7 +1818,12 @@ export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Se
 export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
-export interface WebRequest$instance extends MarshalByRefObject {
+export abstract class WebRequest$protected {
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface WebRequest$instance extends WebRequest$protected, MarshalByRefObject {
     AuthenticationLevel: AuthenticationLevel;
     CachePolicy: RequestCachePolicy;
     get ConnectionGroupName(): string | undefined;
@@ -1801,6 +1853,8 @@ export interface WebRequest$instance extends MarshalByRefObject {
 
 
 export const WebRequest: {
+    new(): WebRequest;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebRequest;
     get DefaultCachePolicy(): RequestCachePolicy | undefined;
     set DefaultCachePolicy(value: RequestCachePolicy);
     get DefaultWebProxy(): IWebProxy | undefined;
@@ -1824,7 +1878,13 @@ export interface WebRequest$instance extends System_Runtime_Serialization_Intern
 export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
-export interface WebResponse$instance extends MarshalByRefObject {
+export abstract class WebResponse$protected {
+    protected Dispose(disposing: boolean): void;
+    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+}
+
+
+export interface WebResponse$instance extends WebResponse$protected, MarshalByRefObject {
     ContentLength: long;
     ContentType: string;
     readonly Headers: WebHeaderCollection;
@@ -1839,6 +1899,8 @@ export interface WebResponse$instance extends MarshalByRefObject {
 
 
 export const WebResponse: {
+    new(): WebResponse;
+    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebResponse;
 };
 
 
@@ -1847,7 +1909,7 @@ export interface __WebResponse$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface WebResponse$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface WebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type WebResponse = WebResponse$instance & __WebResponse$views;
 

@@ -15,9 +15,6 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
         "clrName": "System.MulticastDelegate"
@@ -31,6 +28,9 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
           "clrName": "System.Runtime.Serialization.ISerializable"
         }
+      ],
+      "typeParameters": [
+        "T"
       ],
       "methods": [
         {
@@ -48,6 +48,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -67,6 +68,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -86,6 +88,7 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -102,6 +105,7 @@
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         }
@@ -118,13 +122,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
         "clrName": "System.ValueType"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [],
       "properties": [
         {
@@ -142,6 +146,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         },
@@ -160,6 +165,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         },
@@ -178,6 +184,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         },
@@ -196,6 +203,7 @@
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         }
@@ -210,6 +218,7 @@
           "normalizedSignature": "constructor|(T,System.String):void|static=false",
           "isStatic": false,
           "parameterCount": 2,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         }
@@ -226,13 +235,13 @@
       "isSealed": true,
       "isStatic": false,
       "arity": 1,
-      "typeParameters": [
-        "T"
-      ],
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
         "clrName": "System.Object"
       },
+      "typeParameters": [
+        "T"
+      ],
       "methods": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::Enumerate():IEnumerable_1",
@@ -249,6 +258,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -268,6 +278,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -279,16 +290,17 @@
           "clrName": "LastEventId",
           "metadataToken": 385875981,
           "canonicalSignature": ":System.String",
-          "normalizedSignature": "LastEventId|:System.String|static=false|accessor=get",
+          "normalizedSignature": "LastEventId|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         },
@@ -297,16 +309,17 @@
           "clrName": "ReconnectionInterval",
           "metadataToken": 385875982,
           "canonicalSignature": ":System.TimeSpan",
-          "normalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=get",
+          "normalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=getset",
           "emitScope": "ClassSurface",
           "provenance": "Original",
           "isIndexer": false,
           "hasGetter": true,
-          "hasSetter": false,
+          "hasSetter": true,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": false,
           "isOverride": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         }
@@ -346,6 +359,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -365,6 +379,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -406,6 +421,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -425,6 +441,7 @@
           "isVirtual": false,
           "isOverride": false,
           "isSealed": false,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser",
           "declaringAssemblyName": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
@@ -440,6 +457,7 @@
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
+          "visibility": "Public",
           "declaringClrType": "System.Net.ServerSentEvents.SseParser",
           "declaringAssemblyName": "System.Net.ServerSentEvents"
         }
