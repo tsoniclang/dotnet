@@ -177,7 +177,7 @@ export interface ComVariantMarshaller_RefPropagate$instance {
     Free(): void;
     FromManaged(managed: unknown): void;
     FromUnmanaged(unmanaged: ComVariant): void;
-    ToManaged(): unknown;
+    ToManaged(): unknown | undefined;
     ToUnmanaged(): ComVariant;
 }
 
@@ -380,18 +380,13 @@ export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass>
 export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedClassAttribute_1$instance<T> & __ComExposedClassAttribute_1$views<T>;
 
 
-export abstract class ComObject$protected {
-    protected Finalize(): void;
-}
-
-
-export interface ComObject$instance extends ComObject$protected {
+export interface ComObject$instance {
+    Finalize(): void;
     FinalRelease(): void;
 }
 
 
 export const ComObject: {
-    new(): ComObject;
 };
 
 
@@ -443,11 +438,11 @@ export type GeneratedComClassAttribute = GeneratedComClassAttribute$instance;
 
 export interface GeneratedComInterfaceAttribute$instance extends Attribute {
     get ExceptionToUnmanagedMarshaller(): Type | undefined;
-    set ExceptionToUnmanagedMarshaller(value: Type);
+    set ExceptionToUnmanagedMarshaller(value: Type | undefined);
     Options: ComInterfaceOptions;
     StringMarshalling: StringMarshalling;
     get StringMarshallingCustomType(): Type | undefined;
-    set StringMarshallingCustomType(value: Type);
+    set StringMarshallingCustomType(value: Type | undefined);
 }
 
 
@@ -483,7 +478,7 @@ export interface MarshalUsingAttribute$instance extends Attribute {
     ConstantElementCount: int;
     CountElementName: string;
     ElementIndirectionDepth: int;
-    readonly NativeType: Type;
+    readonly NativeType: Type | undefined;
 }
 
 
@@ -508,18 +503,14 @@ export const NativeMarshallingAttribute: {
 
 export type NativeMarshallingAttribute = NativeMarshallingAttribute$instance;
 
-export abstract class StrategyBasedComWrappers$protected {
-    protected ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
-    protected CreateCacheStrategy(): IIUnknownCacheStrategy;
-    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown;
-    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
-    protected GetOrCreateInterfaceDetailsStrategy(): IIUnknownInterfaceDetailsStrategy;
-    protected GetOrCreateIUnknownStrategy(): IIUnknownStrategy;
-    protected ReleaseObjects(objects: IEnumerable): void;
-}
-
-
-export interface StrategyBasedComWrappers$instance extends StrategyBasedComWrappers$protected, ComWrappers {
+export interface StrategyBasedComWrappers$instance extends ComWrappers {
+    ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    CreateCacheStrategy(): IIUnknownCacheStrategy;
+    CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown;
+    CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
+    GetOrCreateInterfaceDetailsStrategy(): IIUnknownInterfaceDetailsStrategy;
+    GetOrCreateIUnknownStrategy(): IIUnknownStrategy;
+    ReleaseObjects(objects: IEnumerable): void;
 }
 
 

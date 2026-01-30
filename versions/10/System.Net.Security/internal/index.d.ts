@@ -470,25 +470,20 @@ export const SslClientHelloInfo: {
 
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
-export abstract class AuthenticatedStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface AuthenticatedStream$instance extends AuthenticatedStream$protected, Stream {
+export interface AuthenticatedStream$instance extends Stream {
     readonly IsAuthenticated: boolean;
     readonly IsEncrypted: boolean;
     readonly IsMutuallyAuthenticated: boolean;
     readonly IsServer: boolean;
     readonly IsSigned: boolean;
     readonly LeaveInnerStreamOpen: boolean;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
 }
 
 
-export const AuthenticatedStream: {
-    new(innerStream: Stream, leaveInnerStreamOpen: boolean): AuthenticatedStream;
+export const AuthenticatedStream: (abstract new(innerStream: Stream, leaveInnerStreamOpen: boolean) => AuthenticatedStream) & {
 };
 
 
@@ -552,13 +547,13 @@ export type NegotiateAuthentication = NegotiateAuthentication$instance & __Negot
 export interface NegotiateAuthenticationClientOptions$instance {
     AllowedImpersonationLevel: TokenImpersonationLevel;
     get Binding(): ChannelBinding | undefined;
-    set Binding(value: ChannelBinding);
+    set Binding(value: ChannelBinding | undefined);
     Credential: NetworkCredential;
     Package: string;
     RequiredProtectionLevel: ProtectionLevel;
     RequireMutualAuthentication: boolean;
     get TargetName(): string | undefined;
-    set TargetName(value: string);
+    set TargetName(value: string | undefined);
 }
 
 
@@ -571,11 +566,11 @@ export type NegotiateAuthenticationClientOptions = NegotiateAuthenticationClient
 
 export interface NegotiateAuthenticationServerOptions$instance {
     get Binding(): ChannelBinding | undefined;
-    set Binding(value: ChannelBinding);
+    set Binding(value: ChannelBinding | undefined);
     Credential: NetworkCredential;
     Package: string;
     get Policy(): ExtendedProtectionPolicy | undefined;
-    set Policy(value: ExtendedProtectionPolicy);
+    set Policy(value: ExtendedProtectionPolicy | undefined);
     RequiredImpersonationLevel: TokenImpersonationLevel;
     RequiredProtectionLevel: ProtectionLevel;
 }
@@ -588,12 +583,7 @@ export const NegotiateAuthenticationServerOptions: {
 
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
-export abstract class NegotiateStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface NegotiateStream$instance extends NegotiateStream$protected, AuthenticatedStream$instance {
+export interface NegotiateStream$instance extends AuthenticatedStream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -638,6 +628,7 @@ export interface NegotiateStream$instance extends NegotiateStream$protected, Aut
     BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
@@ -684,7 +675,6 @@ export interface SslCertificateTrust$instance {
 
 
 export const SslCertificateTrust: {
-    new(): SslCertificateTrust;
     CreateForX509Collection(trustList: X509Certificate2Collection, sendTrustInHandshake?: boolean): SslCertificateTrust;
     CreateForX509Store(store: X509Store, sendTrustInHandshake?: boolean): SslCertificateTrust;
 };
@@ -697,23 +687,25 @@ export interface SslClientAuthenticationOptions$instance {
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
     AllowTlsResume: boolean;
-    ApplicationProtocols: List_1<SslApplicationProtocol>;
+    get ApplicationProtocols(): List_1<SslApplicationProtocol> | undefined;
+    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | undefined);
     get CertificateChainPolicy(): X509ChainPolicy | undefined;
-    set CertificateChainPolicy(value: X509ChainPolicy);
+    set CertificateChainPolicy(value: X509ChainPolicy | undefined);
     CertificateRevocationCheckMode: X509RevocationMode;
     get CipherSuitesPolicy(): CipherSuitesPolicy | undefined;
-    set CipherSuitesPolicy(value: CipherSuitesPolicy);
+    set CipherSuitesPolicy(value: CipherSuitesPolicy | undefined);
     get ClientCertificateContext(): SslStreamCertificateContext | undefined;
-    set ClientCertificateContext(value: SslStreamCertificateContext);
-    ClientCertificates: X509CertificateCollection;
+    set ClientCertificateContext(value: SslStreamCertificateContext | undefined);
+    get ClientCertificates(): X509CertificateCollection | undefined;
+    set ClientCertificates(value: X509CertificateCollection | undefined);
     EnabledSslProtocols: SslProtocols;
     EncryptionPolicy: EncryptionPolicy;
     get LocalCertificateSelectionCallback(): LocalCertificateSelectionCallback | undefined;
-    set LocalCertificateSelectionCallback(value: LocalCertificateSelectionCallback);
+    set LocalCertificateSelectionCallback(value: LocalCertificateSelectionCallback | undefined);
     get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback);
+    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
     get TargetHost(): string | undefined;
-    set TargetHost(value: string);
+    set TargetHost(value: string | undefined);
 }
 
 
@@ -729,23 +721,24 @@ export interface SslServerAuthenticationOptions$instance {
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
     AllowTlsResume: boolean;
-    ApplicationProtocols: List_1<SslApplicationProtocol>;
+    get ApplicationProtocols(): List_1<SslApplicationProtocol> | undefined;
+    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | undefined);
     get CertificateChainPolicy(): X509ChainPolicy | undefined;
-    set CertificateChainPolicy(value: X509ChainPolicy);
+    set CertificateChainPolicy(value: X509ChainPolicy | undefined);
     CertificateRevocationCheckMode: X509RevocationMode;
     get CipherSuitesPolicy(): CipherSuitesPolicy | undefined;
-    set CipherSuitesPolicy(value: CipherSuitesPolicy);
+    set CipherSuitesPolicy(value: CipherSuitesPolicy | undefined);
     ClientCertificateRequired: boolean;
     EnabledSslProtocols: SslProtocols;
     EncryptionPolicy: EncryptionPolicy;
     get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback);
+    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
     get ServerCertificate(): X509Certificate | undefined;
-    set ServerCertificate(value: X509Certificate);
+    set ServerCertificate(value: X509Certificate | undefined);
     get ServerCertificateContext(): SslStreamCertificateContext | undefined;
-    set ServerCertificateContext(value: SslStreamCertificateContext);
+    set ServerCertificateContext(value: SslStreamCertificateContext | undefined);
     get ServerCertificateSelectionCallback(): ServerCertificateSelectionCallback | undefined;
-    set ServerCertificateSelectionCallback(value: ServerCertificateSelectionCallback);
+    set ServerCertificateSelectionCallback(value: ServerCertificateSelectionCallback | undefined);
 }
 
 
@@ -756,13 +749,7 @@ export const SslServerAuthenticationOptions: {
 
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
-export abstract class SslStream$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface SslStream$instance extends SslStream$protected, AuthenticatedStream$instance {
+export interface SslStream$instance extends AuthenticatedStream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -815,12 +802,14 @@ export interface SslStream$instance extends SslStream$protected, AuthenticatedSt
     BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
     EndAuthenticateAsServer(asyncResult: IAsyncResult): void;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
+    Finalize(): void;
     Flush(): void;
     FlushAsync(cancellationToken: CancellationToken): Task;
     FlushAsync(): Task;
@@ -873,7 +862,6 @@ export interface SslStreamCertificateContext$instance {
 
 
 export const SslStreamCertificateContext: {
-    new(): SslStreamCertificateContext;
     Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
     Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
 };

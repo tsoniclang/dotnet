@@ -781,7 +781,6 @@ export interface MetadataSizes$instance {
 
 
 export const MetadataSizes: {
-    new(): MetadataSizes;
 };
 
 

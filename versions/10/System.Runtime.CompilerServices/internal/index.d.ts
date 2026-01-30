@@ -105,7 +105,7 @@ export type INotifyCompletion = INotifyCompletion$instance;
 export interface IRuntimeVariables$instance {
     readonly Count: int;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
 }
 
 
@@ -113,7 +113,7 @@ export type IRuntimeVariables = IRuntimeVariables$instance;
 
 export interface IStrongBox$instance {
     get Value(): unknown | undefined;
-    set Value(value: unknown);
+    set Value(value: unknown | undefined);
 }
 
 
@@ -934,12 +934,11 @@ export const CallerMemberNameAttribute: {
 export type CallerMemberNameAttribute = CallerMemberNameAttribute$instance;
 
 export interface CallSite$instance {
-    readonly Binder: CallSiteBinder;
+    readonly Binder: CallSiteBinder | undefined;
 }
 
 
 export const CallSite: {
-    new(): CallSite;
     Create(delegateType: Type, binder: CallSiteBinder): CallSite;
 };
 
@@ -953,7 +952,6 @@ export interface CallSite_1$instance<T> extends CallSite {
 
 
 export const CallSite_1: {
-    new<T>(): CallSite_1<T>;
 };
 
 
@@ -965,8 +963,7 @@ export interface CallSiteBinder$instance {
 }
 
 
-export const CallSiteBinder: {
-    new(): CallSiteBinder;
+export const CallSiteBinder: (abstract new() => CallSiteBinder) & {
     readonly UpdateLabel: LabelTarget;
 };
 
@@ -1114,19 +1111,18 @@ export const CreateNewOnMetadataUpdateAttribute: {
 export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttribute$instance;
 
 export interface CustomConstantAttribute$instance extends Attribute {
-    readonly Value: unknown;
+    readonly Value: unknown | unknown | undefined;
 }
 
 
-export const CustomConstantAttribute: {
-    new(): CustomConstantAttribute;
+export const CustomConstantAttribute: (abstract new() => CustomConstantAttribute) & {
 };
 
 
 export type CustomConstantAttribute = CustomConstantAttribute$instance;
 
 export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute {
-    readonly Value: unknown;
+    readonly Value: unknown | unknown | undefined;
 }
 
 
@@ -1142,8 +1138,7 @@ export interface DebugInfoGenerator$instance {
 }
 
 
-export const DebugInfoGenerator: {
-    new(): DebugInfoGenerator;
+export const DebugInfoGenerator: (abstract new() => DebugInfoGenerator) & {
     CreatePdbGenerator(): DebugInfoGenerator;
 };
 
@@ -1304,7 +1299,7 @@ export const HasCopySemanticsAttribute: {
 export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 
 export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute {
-    readonly Value: unknown;
+    readonly Value: unknown | unknown | undefined;
 }
 
 
@@ -1420,7 +1415,7 @@ export const IteratorStateMachineAttribute: {
 export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instance;
 
 export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute {
-    readonly Value: unknown;
+    readonly Value: unknown | unknown | undefined;
 }
 
 
@@ -1602,7 +1597,7 @@ export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instanc
 
 
 export interface ReferenceAssemblyAttribute$instance extends Attribute {
-    readonly Description: string;
+    readonly Description: string | undefined;
 }
 
 
@@ -1665,7 +1660,6 @@ export interface RuleCache_1$instance<T> {
 
 
 export const RuleCache_1: {
-    new<T>(): RuleCache_1<T>;
 };
 
 
@@ -1860,7 +1854,8 @@ export type TypeForwardedToAttribute = TypeForwardedToAttribute$instance;
 
 export interface UnsafeAccessorAttribute$instance extends Attribute {
     readonly Kind: UnsafeAccessorKind;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
 }
 
 

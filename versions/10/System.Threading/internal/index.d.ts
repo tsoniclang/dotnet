@@ -340,7 +340,6 @@ export const AbandonedMutexException: {
     new(location: int, handle: WaitHandle): AbandonedMutexException;
     new(message: string, location: int, handle: WaitHandle): AbandonedMutexException;
     new(message: string, inner: Exception, location: int, handle: WaitHandle): AbandonedMutexException;
-    new(info: SerializationInfo, context: StreamingContext): AbandonedMutexException;
 };
 
 
@@ -364,13 +363,9 @@ export const AsyncLocal_1: {
 
 export type AsyncLocal_1<T> = AsyncLocal_1$instance<T>;
 
-export abstract class AutoResetEvent$protected {
-    protected Dispose3(explicitDisposing: boolean): void;
-}
-
-
-export interface AutoResetEvent$instance extends AutoResetEvent$protected, EventWaitHandle$instance {
+export interface AutoResetEvent$instance extends EventWaitHandle$instance {
     Dispose(): void;
+    Dispose(explicitDisposing: boolean): void;
 }
 
 
@@ -386,18 +381,14 @@ export interface __AutoResetEvent$views {
 export type AutoResetEvent = AutoResetEvent$instance & __AutoResetEvent$views;
 
 
-export abstract class Barrier$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface Barrier$instance extends Barrier$protected {
+export interface Barrier$instance {
     CurrentPhaseNumber: long;
     readonly ParticipantCount: int;
     readonly ParticipantsRemaining: int;
     AddParticipant(): long;
     AddParticipants(participantCount: int): long;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     RemoveParticipant(): void;
     RemoveParticipants(participantCount: int): void;
     SignalAndWait(): void;
@@ -432,7 +423,6 @@ export const BarrierPostPhaseException: {
     new(innerException: Exception): BarrierPostPhaseException;
     new(message: string): BarrierPostPhaseException;
     new(message: string, innerException: Exception): BarrierPostPhaseException;
-    new(info: SerializationInfo, context: StreamingContext): BarrierPostPhaseException;
 };
 
 
@@ -443,12 +433,7 @@ export interface __BarrierPostPhaseException$views {
 export type BarrierPostPhaseException = BarrierPostPhaseException$instance & __BarrierPostPhaseException$views;
 
 
-export abstract class CancellationTokenSource$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface CancellationTokenSource$instance extends CancellationTokenSource$protected {
+export interface CancellationTokenSource$instance {
     readonly IsCancellationRequested: boolean;
     readonly Token: CancellationToken;
     Cancel(): void;
@@ -457,6 +442,7 @@ export interface CancellationTokenSource$instance extends CancellationTokenSourc
     CancelAfter(millisecondsDelay: int): void;
     CancelAsync(): Task;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TryReset(): boolean;
 }
 
@@ -487,7 +473,6 @@ export interface CompressedStack$instance {
 
 
 export const CompressedStack: {
-    new(): CompressedStack;
     Capture(): CompressedStack;
     GetCompressedStack(): CompressedStack;
     Run(compressedStack: CompressedStack, callback: ContextCallback, state: unknown): void;
@@ -503,12 +488,7 @@ export interface CompressedStack$instance extends System_Runtime_Serialization_I
 export type CompressedStack = CompressedStack$instance & __CompressedStack$views;
 
 
-export abstract class CountdownEvent$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface CountdownEvent$instance extends CountdownEvent$protected {
+export interface CountdownEvent$instance {
     readonly CurrentCount: int;
     readonly InitialCount: int;
     readonly IsSet: boolean;
@@ -516,6 +496,7 @@ export interface CountdownEvent$instance extends CountdownEvent$protected {
     AddCount(): void;
     AddCount(signalCount: int): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Reset(): void;
     Reset(count: int): void;
     Signal(): boolean;
@@ -543,13 +524,9 @@ export interface __CountdownEvent$views {
 export type CountdownEvent = CountdownEvent$instance & __CountdownEvent$views;
 
 
-export abstract class EventWaitHandle$protected {
-    protected Dispose(explicitDisposing: boolean): void;
-}
-
-
-export interface EventWaitHandle$instance extends EventWaitHandle$protected, WaitHandle$instance {
-    Dispose3(): void;
+export interface EventWaitHandle$instance extends WaitHandle$instance {
+    Dispose(explicitDisposing: boolean): void;
+    Dispose(): void;
     Reset(): boolean;
     Set(): boolean;
 }
@@ -583,7 +560,6 @@ export interface ExecutionContext$instance {
 
 
 export const ExecutionContext: {
-    new(): ExecutionContext;
     Capture(): ExecutionContext | undefined;
     IsFlowSuppressed(): boolean;
     Restore(executionContext: ExecutionContext): void;
@@ -664,7 +640,6 @@ export const LockRecursionException: {
     new(): LockRecursionException;
     new(message: string): LockRecursionException;
     new(message: string, innerException: Exception): LockRecursionException;
-    new(info: SerializationInfo, context: StreamingContext): LockRecursionException;
 };
 
 
@@ -675,13 +650,9 @@ export interface __LockRecursionException$views {
 export type LockRecursionException = LockRecursionException$instance & __LockRecursionException$views;
 
 
-export abstract class ManualResetEvent$protected {
-    protected Dispose3(explicitDisposing: boolean): void;
-}
-
-
-export interface ManualResetEvent$instance extends ManualResetEvent$protected, EventWaitHandle$instance {
+export interface ManualResetEvent$instance extends EventWaitHandle$instance {
     Dispose(): void;
+    Dispose(explicitDisposing: boolean): void;
 }
 
 
@@ -697,16 +668,12 @@ export interface __ManualResetEvent$views {
 export type ManualResetEvent = ManualResetEvent$instance & __ManualResetEvent$views;
 
 
-export abstract class ManualResetEventSlim$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface ManualResetEventSlim$instance extends ManualResetEventSlim$protected {
+export interface ManualResetEventSlim$instance {
     IsSet: boolean;
     SpinCount: int;
     readonly WaitHandle: WaitHandle;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Reset(): void;
     Set(): void;
     Wait(): void;
@@ -732,13 +699,9 @@ export interface __ManualResetEventSlim$views {
 export type ManualResetEventSlim = ManualResetEventSlim$instance & __ManualResetEventSlim$views;
 
 
-export abstract class Mutex$protected {
-    protected Dispose(explicitDisposing: boolean): void;
-}
-
-
-export interface Mutex$instance extends Mutex$protected, WaitHandle$instance {
-    Dispose3(): void;
+export interface Mutex$instance extends WaitHandle$instance {
+    Dispose(explicitDisposing: boolean): void;
+    Dispose(): void;
     ReleaseMutex(): void;
 }
 
@@ -789,14 +752,10 @@ export const Overlapped: {
 
 export type Overlapped = Overlapped$instance;
 
-export abstract class PeriodicTimer$protected {
-    protected Finalize(): void;
-}
-
-
-export interface PeriodicTimer$instance extends PeriodicTimer$protected {
+export interface PeriodicTimer$instance {
     Period: TimeSpan;
     Dispose(): void;
+    Finalize(): void;
     WaitForNextTickAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
 }
 
@@ -911,19 +870,14 @@ export interface RegisteredWaitHandle$instance extends MarshalByRefObject {
 
 
 export const RegisteredWaitHandle: {
-    new(): RegisteredWaitHandle;
 };
 
 
 export type RegisteredWaitHandle = RegisteredWaitHandle$instance;
 
-export abstract class Semaphore$protected {
-    protected Dispose(explicitDisposing: boolean): void;
-}
-
-
-export interface Semaphore$instance extends Semaphore$protected, WaitHandle$instance {
-    Dispose3(): void;
+export interface Semaphore$instance extends WaitHandle$instance {
+    Dispose(explicitDisposing: boolean): void;
+    Dispose(): void;
     Release(): int;
     Release(releaseCount: int): int;
 }
@@ -958,7 +912,6 @@ export const SemaphoreFullException: {
     new(): SemaphoreFullException;
     new(message: string): SemaphoreFullException;
     new(message: string, innerException: Exception): SemaphoreFullException;
-    new(info: SerializationInfo, context: StreamingContext): SemaphoreFullException;
 };
 
 
@@ -969,15 +922,11 @@ export interface __SemaphoreFullException$views {
 export type SemaphoreFullException = SemaphoreFullException$instance & __SemaphoreFullException$views;
 
 
-export abstract class SemaphoreSlim$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface SemaphoreSlim$instance extends SemaphoreSlim$protected {
+export interface SemaphoreSlim$instance {
     readonly AvailableWaitHandle: WaitHandle;
     readonly CurrentCount: int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Release(): int;
     Release(releaseCount: int): int;
     Wait(): void;
@@ -1038,7 +987,6 @@ export const SynchronizationLockException: {
     new(): SynchronizationLockException;
     new(message: string): SynchronizationLockException;
     new(message: string, innerException: Exception): SynchronizationLockException;
-    new(info: SerializationInfo, context: StreamingContext): SynchronizationLockException;
 };
 
 
@@ -1049,12 +997,7 @@ export interface __SynchronizationLockException$views {
 export type SynchronizationLockException = SynchronizationLockException$instance & __SynchronizationLockException$views;
 
 
-export abstract class Thread$protected {
-    protected Finalize(): void;
-}
-
-
-export interface Thread$instance extends Thread$protected, CriticalFinalizerObject {
+export interface Thread$instance extends CriticalFinalizerObject {
     ApartmentState: ApartmentState;
     CurrentCulture: CultureInfo;
     CurrentUICulture: CultureInfo;
@@ -1063,12 +1006,14 @@ export interface Thread$instance extends Thread$protected, CriticalFinalizerObje
     IsBackground: boolean;
     IsThreadPoolThread: boolean;
     readonly ManagedThreadId: int;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     Priority: ThreadPriority;
     readonly ThreadState: ThreadState;
     Abort(): void;
     Abort(stateInfo: unknown): void;
     DisableComObjectEagerCleanup(): void;
+    Finalize(): void;
     GetApartmentState(): ApartmentState;
     GetCompressedStack(): CompressedStack;
     GetHashCode(): int;
@@ -1094,7 +1039,7 @@ export const Thread: {
     new(start: ParameterizedThreadStart): Thread;
     new(start: ParameterizedThreadStart, maxStackSize: int): Thread;
     get CurrentPrincipal(): IPrincipal | undefined;
-    set CurrentPrincipal(value: IPrincipal);
+    set CurrentPrincipal(value: IPrincipal | undefined);
     readonly CurrentThread: Thread;
     AllocateDataSlot(): LocalDataStoreSlot;
     AllocateNamedDataSlot(name: string): LocalDataStoreSlot;
@@ -1153,7 +1098,6 @@ export interface ThreadAbortException$instance extends SystemException {
 
 
 export const ThreadAbortException: {
-    new(): ThreadAbortException;
 };
 
 
@@ -1185,7 +1129,6 @@ export const ThreadInterruptedException: {
     new(): ThreadInterruptedException;
     new(message: string): ThreadInterruptedException;
     new(message: string, innerException: Exception): ThreadInterruptedException;
-    new(info: SerializationInfo, context: StreamingContext): ThreadInterruptedException;
 };
 
 
@@ -1196,17 +1139,13 @@ export interface __ThreadInterruptedException$views {
 export type ThreadInterruptedException = ThreadInterruptedException$instance & __ThreadInterruptedException$views;
 
 
-export abstract class ThreadLocal_1$protected<T> {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface ThreadLocal_1$instance<T> extends ThreadLocal_1$protected<T> {
+export interface ThreadLocal_1$instance<T> {
     readonly IsValueCreated: boolean;
     Value: T;
     readonly Values: IList_1<T>;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     ToString(): string | undefined;
 }
 
@@ -1237,7 +1176,6 @@ export interface ThreadPoolBoundHandle$instance {
 
 
 export const ThreadPoolBoundHandle: {
-    new(): ThreadPoolBoundHandle;
     BindHandle(handle: SafeHandle): ThreadPoolBoundHandle;
     GetNativeOverlappedState(overlapped: ptr<NativeOverlapped>): unknown | undefined;
 };
@@ -1258,7 +1196,6 @@ export interface ThreadStartException$instance extends SystemException {
 
 
 export const ThreadStartException: {
-    new(): ThreadStartException;
 };
 
 
@@ -1278,7 +1215,6 @@ export const ThreadStateException: {
     new(): ThreadStateException;
     new(message: string): ThreadStateException;
     new(message: string, innerException: Exception): ThreadStateException;
-    new(info: SerializationInfo, context: StreamingContext): ThreadStateException;
 };
 
 
@@ -1319,15 +1255,11 @@ export interface __Timer$views {
 export type Timer = Timer$instance & __Timer$views;
 
 
-export abstract class WaitHandle$protected {
-    protected Dispose(explicitDisposing: boolean): void;
-}
-
-
-export interface WaitHandle$instance extends WaitHandle$protected, MarshalByRefObject {
+export interface WaitHandle$instance extends MarshalByRefObject {
     Handle: nint;
     SafeWaitHandle: SafeWaitHandle;
     Close(): void;
+    Dispose(explicitDisposing: boolean): void;
     Dispose(): void;
     WaitOne(millisecondsTimeout: int): boolean;
     WaitOne(timeout: TimeSpan): boolean;
@@ -1337,8 +1269,7 @@ export interface WaitHandle$instance extends WaitHandle$protected, MarshalByRefO
 }
 
 
-export const WaitHandle: {
-    new(): WaitHandle;
+export const WaitHandle: (abstract new() => WaitHandle) & {
     readonly InvalidHandle: nint;
     readonly WaitTimeout: int;
     SignalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
@@ -1373,7 +1304,6 @@ export const WaitHandleCannotBeOpenedException: {
     new(): WaitHandleCannotBeOpenedException;
     new(message: string): WaitHandleCannotBeOpenedException;
     new(message: string, innerException: Exception): WaitHandleCannotBeOpenedException;
-    new(info: SerializationInfo, context: StreamingContext): WaitHandleCannotBeOpenedException;
 };
 
 

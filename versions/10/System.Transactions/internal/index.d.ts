@@ -65,7 +65,7 @@ export enum TransactionStatus {
 }
 
 
-export type HostCurrentTransactionCallback = () => Transaction;
+export type HostCurrentTransactionCallback = () => Transaction | undefined;
 
 
 export type TransactionCompletedEventHandler = (sender: unknown, e: TransactionEventArgs) => void;
@@ -189,7 +189,6 @@ export interface DependentTransaction$instance extends Transaction$instance {
 
 
 export const DependentTransaction: {
-    new(): DependentTransaction;
 };
 
 
@@ -209,7 +208,6 @@ export interface Enlistment$instance {
 
 
 export const Enlistment: {
-    new(): Enlistment;
 };
 
 
@@ -224,7 +222,6 @@ export interface PreparingEnlistment$instance extends Enlistment {
 
 
 export const PreparingEnlistment: {
-    new(): PreparingEnlistment;
 };
 
 
@@ -240,7 +237,6 @@ export interface SinglePhaseEnlistment$instance extends Enlistment {
 
 
 export const SinglePhaseEnlistment: {
-    new(): SinglePhaseEnlistment;
 };
 
 
@@ -291,9 +287,8 @@ export interface Transaction$instance {
 
 
 export const Transaction: {
-    new(): Transaction;
     get Current(): Transaction | undefined;
-    set Current(value: Transaction);
+    set Current(value: Transaction | undefined);
 };
 
 
@@ -316,7 +311,6 @@ export const TransactionAbortedException: {
     new(): TransactionAbortedException;
     new(message: string): TransactionAbortedException;
     new(message: string, innerException: Exception): TransactionAbortedException;
-    new(info: SerializationInfo, context: StreamingContext): TransactionAbortedException;
 };
 
 
@@ -348,7 +342,6 @@ export const TransactionException: {
     new(): TransactionException;
     new(message: string): TransactionException;
     new(message: string, innerException: Exception): TransactionException;
-    new(info: SerializationInfo, context: StreamingContext): TransactionException;
 };
 
 
@@ -368,7 +361,6 @@ export const TransactionInDoubtException: {
     new(): TransactionInDoubtException;
     new(message: string): TransactionInDoubtException;
     new(message: string, innerException: Exception): TransactionInDoubtException;
-    new(info: SerializationInfo, context: StreamingContext): TransactionInDoubtException;
 };
 
 
@@ -388,7 +380,6 @@ export interface TransactionInformation$instance {
 
 
 export const TransactionInformation: {
-    new(): TransactionInformation;
 };
 
 
@@ -403,7 +394,6 @@ export const TransactionManagerCommunicationException: {
     new(): TransactionManagerCommunicationException;
     new(message: string): TransactionManagerCommunicationException;
     new(message: string, innerException: Exception): TransactionManagerCommunicationException;
-    new(info: SerializationInfo, context: StreamingContext): TransactionManagerCommunicationException;
 };
 
 
@@ -423,7 +413,6 @@ export const TransactionPromotionException: {
     new(): TransactionPromotionException;
     new(message: string): TransactionPromotionException;
     new(message: string, innerException: Exception): TransactionPromotionException;
-    new(info: SerializationInfo, context: StreamingContext): TransactionPromotionException;
 };
 
 
@@ -483,7 +472,7 @@ export type TransactionInterop = TransactionInterop$instance;
 
 export abstract class TransactionManager$instance {
     static get HostCurrentCallback(): HostCurrentTransactionCallback | undefined;
-    static set HostCurrentCallback(value: HostCurrentTransactionCallback);
+    static set HostCurrentCallback(value: HostCurrentTransactionCallback | undefined);
     static DefaultTimeout: TimeSpan;
     static MaximumTimeout: TimeSpan;
     static ImplicitDistributedTransactions: boolean;

@@ -153,13 +153,9 @@ export enum UnicodeCategory {
 }
 
 
-export abstract class Calendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface Calendar$instance extends Calendar$protected {
+export interface Calendar$instance {
     readonly AlgorithmType: CalendarAlgorithmType;
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly IsReadOnly: boolean;
     readonly MaxSupportedDateTime: DateTime;
@@ -205,8 +201,7 @@ export interface Calendar$instance extends Calendar$protected {
 }
 
 
-export const Calendar: {
-    new(): Calendar;
+export const Calendar: (abstract new() => Calendar) & {
     readonly CurrentEra: int;
     ReadOnly(calendar: Calendar): Calendar;
 };
@@ -221,12 +216,8 @@ export interface Calendar$instance extends System_Internal.ICloneable$instance {
 export type Calendar = Calendar$instance & __Calendar$views;
 
 
-export abstract class ChineseLunisolarCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface ChineseLunisolarCalendar$instance extends ChineseLunisolarCalendar$protected, EastAsianLunisolarCalendar$instance {
+export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
@@ -310,7 +301,6 @@ export interface CompareInfo$instance {
 
 
 export const CompareInfo: {
-    new(): CompareInfo;
     GetCompareInfo(culture: int, assembly: Assembly): CompareInfo;
     GetCompareInfo(culture: int): CompareInfo;
     GetCompareInfo(name: string, assembly: Assembly): CompareInfo;
@@ -372,9 +362,9 @@ export const CultureInfo: {
     CurrentUICulture: CultureInfo;
     readonly InstalledUICulture: CultureInfo;
     get DefaultThreadCurrentCulture(): CultureInfo | undefined;
-    set DefaultThreadCurrentCulture(value: CultureInfo);
+    set DefaultThreadCurrentCulture(value: CultureInfo | undefined);
     get DefaultThreadCurrentUICulture(): CultureInfo | undefined;
-    set DefaultThreadCurrentUICulture(value: CultureInfo);
+    set DefaultThreadCurrentUICulture(value: CultureInfo | undefined);
     readonly InvariantCulture: CultureInfo;
     CreateSpecificCulture(name: string): CultureInfo;
     GetCultureInfo(culture: int): CultureInfo;
@@ -414,7 +404,6 @@ export const CultureNotFoundException: {
     new(message: string, invalidCultureName: string, innerException: Exception): CultureNotFoundException;
     new(message: string, invalidCultureId: int, innerException: Exception): CultureNotFoundException;
     new(paramName: string, invalidCultureId: int, message: string): CultureNotFoundException;
-    new(info: SerializationInfo, context: StreamingContext): CultureNotFoundException;
 };
 
 
@@ -644,13 +633,9 @@ export interface __HebrewCalendar$views {
 export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
 
-export abstract class HijriCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface HijriCalendar$instance extends HijriCalendar$protected, Calendar$instance {
+export interface HijriCalendar$instance extends Calendar$instance {
     readonly AlgorithmType: CalendarAlgorithmType;
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     HijriAdjustment: int;
     readonly MaxSupportedDateTime: DateTime;
@@ -767,12 +752,8 @@ export interface __JapaneseCalendar$views {
 export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$views;
 
 
-export abstract class JapaneseLunisolarCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface JapaneseLunisolarCalendar$instance extends JapaneseLunisolarCalendar$protected, EastAsianLunisolarCalendar$instance {
+export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
@@ -891,12 +872,8 @@ export interface __KoreanCalendar$views {
 export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
-export abstract class KoreanLunisolarCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface KoreanLunisolarCalendar$instance extends KoreanLunisolarCalendar$protected, EastAsianLunisolarCalendar$instance {
+export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
@@ -1058,7 +1035,6 @@ export interface SortKey$instance {
 
 
 export const SortKey: {
-    new(): SortKey;
     Compare(sortkey1: SortKey, sortkey2: SortKey): int;
 };
 
@@ -1163,12 +1139,8 @@ export interface __TaiwanCalendar$views {
 export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
 
-export abstract class TaiwanLunisolarCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface TaiwanLunisolarCalendar$instance extends TaiwanLunisolarCalendar$protected, EastAsianLunisolarCalendar$instance {
+export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
@@ -1199,7 +1171,6 @@ export interface TextElementEnumerator$instance {
 
 
 export const TextElementEnumerator: {
-    new(): TextElementEnumerator;
 };
 
 
@@ -1235,7 +1206,6 @@ export interface TextInfo$instance {
 
 
 export const TextInfo: {
-    new(): TextInfo;
     ReadOnly(textInfo: TextInfo): TextInfo;
 };
 
@@ -1299,13 +1269,9 @@ export interface __ThaiBuddhistCalendar$views {
 export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhistCalendar$views;
 
 
-export abstract class UmAlQuraCalendar$protected {
-    protected readonly DaysInYearBeforeMinSupportedYear: int;
-}
-
-
-export interface UmAlQuraCalendar$instance extends UmAlQuraCalendar$protected, Calendar$instance {
+export interface UmAlQuraCalendar$instance extends Calendar$instance {
     readonly AlgorithmType: CalendarAlgorithmType;
+    readonly DaysInYearBeforeMinSupportedYear: int;
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;

@@ -472,7 +472,6 @@ export interface X500RelativeDistinguishedName$instance {
 
 
 export const X500RelativeDistinguishedName: {
-    new(): X500RelativeDistinguishedName;
 };
 
 
@@ -542,17 +541,13 @@ export const X509BasicConstraintsExtension: {
 
 export type X509BasicConstraintsExtension = X509BasicConstraintsExtension$instance;
 
-export abstract class X509Certificate$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface X509Certificate$instance extends X509Certificate$protected {
+export interface X509Certificate$instance {
     readonly Handle: nint;
     readonly Issuer: string;
     readonly SerialNumberBytes: ReadOnlyMemory_1<System_Internal.Byte>;
     readonly Subject: string;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Equals(obj: unknown): boolean;
     Equals(other: X509Certificate): boolean;
     Export(contentType: X509ContentType): byte[];
@@ -624,12 +619,7 @@ export interface X509Certificate$instance extends System_Runtime_Serialization_I
 export type X509Certificate = X509Certificate$instance & __X509Certificate$views;
 
 
-export abstract class X509Certificate2$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface X509Certificate2$instance extends X509Certificate2$protected, X509Certificate$instance {
+export interface X509Certificate2$instance extends X509Certificate$instance {
     Archived: boolean;
     readonly Extensions: X509ExtensionCollection;
     FriendlyName: string;
@@ -638,7 +628,7 @@ export interface X509Certificate2$instance extends X509Certificate2$protected, X
     readonly NotAfter: DateTime;
     readonly NotBefore: DateTime;
     get PrivateKey(): AsymmetricAlgorithm | undefined;
-    set PrivateKey(value: AsymmetricAlgorithm);
+    set PrivateKey(value: AsymmetricAlgorithm | undefined);
     readonly PublicKey: PublicKey;
     readonly RawData: byte[];
     readonly RawDataMemory: ReadOnlyMemory_1<System_Internal.Byte>;
@@ -653,6 +643,7 @@ export interface X509Certificate2$instance extends X509Certificate2$protected, X
     CopyWithPrivateKey(privateKey: SlhDsa): X509Certificate2;
     CopyWithPrivateKey(privateKey: CompositeMLDsa): X509Certificate2;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportCertificatePem(): string;
     GetCompositeMLDsaPrivateKey(): CompositeMLDsa | undefined;
     GetCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
@@ -699,7 +690,6 @@ export const X509Certificate2: {
     new(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(certificate: X509Certificate): X509Certificate2;
-    new(info: SerializationInfo, context: StreamingContext): X509Certificate2;
     CreateFromEncryptedPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>, password: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
     CreateFromEncryptedPemFile(certPemFilePath: string, password: ReadOnlySpan_1<System_Internal.Char>, keyPemFilePath?: string): X509Certificate2;
     CreateFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
@@ -733,8 +723,8 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     Contains(value: unknown): boolean;
     CopyTo(array: X509Certificate[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    Export(contentType: X509ContentType): byte[];
-    Export(contentType: X509ContentType, password: string): byte[];
+    Export(contentType: X509ContentType): byte[] | undefined;
+    Export(contentType: X509ContentType, password: string): byte[] | undefined;
     ExportCertificatePems(): string;
     ExportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string): byte[];
     ExportPkcs12(exportParameters: PbeParameters, password: string): byte[];
@@ -794,7 +784,6 @@ export interface X509Certificate2Enumerator$instance {
 
 
 export const X509Certificate2Enumerator: {
-    new(): X509Certificate2Enumerator;
 };
 
 
@@ -807,12 +796,7 @@ export interface __X509Certificate2Enumerator$views {
 export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & __X509Certificate2Enumerator$views;
 
 
-export abstract class X509CertificateCollection$protected {
-    protected OnValidate(value: unknown): void;
-}
-
-
-export interface X509CertificateCollection$instance extends X509CertificateCollection$protected, CollectionBase {
+export interface X509CertificateCollection$instance extends CollectionBase {
     Item: X509Certificate | X509Certificate2;
     Add(value: unknown): int;
     AddRange(value: X509Certificate[]): void;
@@ -824,6 +808,7 @@ export interface X509CertificateCollection$instance extends X509CertificateColle
     GetHashCode(): int;
     IndexOf(value: X509Certificate): int;
     Insert(index: int, value: unknown): void;
+    OnValidate(value: unknown): void;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
 }
@@ -864,19 +849,15 @@ export interface __X509CertificateCollection_X509CertificateEnumerator$views {
 export type X509CertificateCollection_X509CertificateEnumerator = X509CertificateCollection_X509CertificateEnumerator$instance & __X509CertificateCollection_X509CertificateEnumerator$views;
 
 
-export abstract class X509Chain$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface X509Chain$instance extends X509Chain$protected {
+export interface X509Chain$instance {
     readonly ChainContext: nint;
     readonly ChainElements: X509ChainElementCollection;
     ChainPolicy: X509ChainPolicy;
     readonly ChainStatus: X509ChainStatus[];
-    readonly SafeHandle: SafeX509ChainHandle;
+    readonly SafeHandle: SafeX509ChainHandle | undefined;
     Build(certificate: X509Certificate2): boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Reset(): void;
 }
 
@@ -904,7 +885,6 @@ export interface X509ChainElement$instance {
 
 
 export const X509ChainElement: {
-    new(): X509ChainElement;
 };
 
 
@@ -921,7 +901,6 @@ export interface X509ChainElementCollection$instance {
 
 
 export const X509ChainElementCollection: {
-    new(): X509ChainElementCollection;
 };
 
 
@@ -942,7 +921,6 @@ export interface X509ChainElementEnumerator$instance {
 
 
 export const X509ChainElementEnumerator: {
-    new(): X509ChainElementEnumerator;
 };
 
 
@@ -1002,7 +980,6 @@ export interface X509Extension$instance extends AsnEncodedData {
 
 
 export const X509Extension: {
-    new(): X509Extension;
     new(encodedExtension: AsnEncodedData, critical: boolean): X509Extension;
     new(oid: Oid, rawData: byte[], critical: boolean): X509Extension;
     new(oid: Oid, rawData: ReadOnlySpan_1<System_Internal.Byte>, critical: boolean): X509Extension;
@@ -1020,7 +997,7 @@ export interface X509ExtensionCollection$instance {
     Add(extension: X509Extension): int;
     CopyTo(array: X509Extension[], index: int): void;
     get_Item(index: int): X509Extension;
-    get_Item(oid: string): X509Extension;
+    get_Item(oid: string): X509Extension | undefined;
     GetEnumerator(): X509ExtensionEnumerator;
 }
 
@@ -1047,7 +1024,6 @@ export interface X509ExtensionEnumerator$instance {
 
 
 export const X509ExtensionEnumerator: {
-    new(): X509ExtensionEnumerator;
 };
 
 
@@ -1075,20 +1051,15 @@ export const X509KeyUsageExtension: {
 
 export type X509KeyUsageExtension = X509KeyUsageExtension$instance;
 
-export abstract class X509SignatureGenerator$protected {
-    protected abstract BuildPublicKey(): PublicKey;
-}
-
-
-export interface X509SignatureGenerator$instance extends X509SignatureGenerator$protected {
+export interface X509SignatureGenerator$instance {
     readonly PublicKey: PublicKey;
+    BuildPublicKey(): PublicKey;
     GetSignatureAlgorithmIdentifier(hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
 }
 
 
-export const X509SignatureGenerator: {
-    new(): X509SignatureGenerator;
+export const X509SignatureGenerator: (abstract new() => X509SignatureGenerator) & {
     CreateForCompositeMLDsa(key: CompositeMLDsa): X509SignatureGenerator;
     CreateForECDsa(key: ECDsa): X509SignatureGenerator;
     CreateForMLDsa(key: MLDsa): X509SignatureGenerator;
@@ -1103,7 +1074,7 @@ export interface X509Store$instance {
     readonly Certificates: X509Certificate2Collection;
     readonly IsOpen: boolean;
     readonly Location: StoreLocation;
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly StoreHandle: nint;
     Add(certificate: X509Certificate2): void;
     AddRange(certificates: X509Certificate2Collection): void;

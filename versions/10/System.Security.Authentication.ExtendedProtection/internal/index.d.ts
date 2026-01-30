@@ -38,20 +38,14 @@ export enum ProtectionScenario {
 }
 
 
-export abstract class ChannelBinding$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface ChannelBinding$instance extends ChannelBinding$protected, SafeHandleZeroOrMinusOneIsInvalid {
+export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
     readonly Size: int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const ChannelBinding: {
-    new(): ChannelBinding;
-    new(ownsHandle: boolean): ChannelBinding;
+export const ChannelBinding: (abstract new() => ChannelBinding) & (abstract new(ownsHandle: boolean) => ChannelBinding) & {
 };
 
 
@@ -76,7 +70,6 @@ export const ExtendedProtectionPolicy: {
     new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
-    new(info: SerializationInfo, context: StreamingContext): ExtendedProtectionPolicy;
     readonly OSSupportsExtendedProtection: boolean;
 };
 

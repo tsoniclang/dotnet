@@ -240,8 +240,7 @@ export interface ArrayPool_1$instance<T> {
 }
 
 
-export const ArrayPool_1: {
-    new<T>(): ArrayPool_1<T>;
+export const ArrayPool_1: (abstract new<T>() => ArrayPool_1<T>) & {
     readonly Shared: unknown;
     Create<T>(): ArrayPool_1<T>;
     Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
@@ -250,22 +249,17 @@ export const ArrayPool_1: {
 
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
-export abstract class MemoryManager_1$protected<T> {
-    protected abstract Dispose(disposing: boolean): void;
-    protected TryGetArray(segment: ArraySegment_1<T>): boolean;
-}
-
-
-export interface MemoryManager_1$instance<T> extends MemoryManager_1$protected<T> {
+export interface MemoryManager_1$instance<T> {
     readonly Memory: Memory_1<T>;
+    Dispose(disposing: boolean): void;
     GetSpan(): Span_1<T>;
     Pin(elementIndex?: int): MemoryHandle;
+    TryGetArray(segment: ArraySegment_1<T>): boolean;
     Unpin(): void;
 }
 
 
-export const MemoryManager_1: {
-    new<T>(): MemoryManager_1<T>;
+export const MemoryManager_1: (abstract new<T>() => MemoryManager_1<T>) & {
 };
 
 
@@ -278,20 +272,15 @@ export interface __MemoryManager_1$views<T> {
 export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
 
 
-export abstract class MemoryPool_1$protected<T> {
-    protected abstract Dispose(disposing: boolean): void;
-}
-
-
-export interface MemoryPool_1$instance<T> extends MemoryPool_1$protected<T> {
+export interface MemoryPool_1$instance<T> {
     readonly MaxBufferSize: int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Rent(minBufferSize?: int): IMemoryOwner_1<T>;
 }
 
 
-export const MemoryPool_1: {
-    new<T>(): MemoryPool_1<T>;
+export const MemoryPool_1: (abstract new<T>() => MemoryPool_1<T>) & {
     readonly Shared: unknown;
 };
 
@@ -306,13 +295,12 @@ export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>
 export interface ReadOnlySequenceSegment_1$instance<T> {
     Memory: ReadOnlyMemory_1<T>;
     get Next(): ReadOnlySequenceSegment_1<T> | undefined;
-    set Next(value: ReadOnlySequenceSegment_1<T>);
+    set Next(value: ReadOnlySequenceSegment_1<T> | undefined);
     RunningIndex: long;
 }
 
 
-export const ReadOnlySequenceSegment_1: {
-    new<T>(): ReadOnlySequenceSegment_1<T>;
+export const ReadOnlySequenceSegment_1: (abstract new<T>() => ReadOnlySequenceSegment_1<T>) & {
 };
 
 
@@ -324,7 +312,6 @@ export interface SearchValues_1$instance<T extends (IEquatable_1<T> | number | s
 
 
 export const SearchValues_1: {
-    new<T extends (IEquatable_1<T> | number | string | boolean)>(): SearchValues_1<T>;
 };
 
 

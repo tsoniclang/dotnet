@@ -342,7 +342,7 @@ export interface XmlAttribute$instance extends XmlNode$instance {
     Prefix: string;
     readonly SchemaInfo: IXmlSchemaInfo;
     readonly Specified: boolean;
-    Value: string;
+    Value: string | string | undefined;
     AppendChild(newChild: XmlNode): XmlNode | undefined;
     Clone(): XmlNode;
     Clone(): unknown;
@@ -359,8 +359,7 @@ export interface XmlAttribute$instance extends XmlNode$instance {
 }
 
 
-export const XmlAttribute: {
-    new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument): XmlAttribute;
+export const XmlAttribute: (abstract new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument) => XmlAttribute) & {
 };
 
 
@@ -377,7 +376,7 @@ export interface XmlAttributeCollection$instance extends XmlNamedNodeMap$instanc
     Append(node: XmlAttribute): XmlAttribute;
     CopyTo(array: XmlAttribute[], index: int): void;
     get_Item(i: int): XmlAttribute;
-    get_Item(name: string): XmlAttribute;
+    get_Item(name: string): XmlAttribute | undefined;
     get_Item(localName: string, namespaceURI: string): XmlAttribute | undefined;
     GetEnumerator(): IEnumerator;
     InsertAfter(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
@@ -385,13 +384,12 @@ export interface XmlAttributeCollection$instance extends XmlNamedNodeMap$instanc
     Prepend(node: XmlAttribute): XmlAttribute;
     Remove(node: XmlAttribute): XmlAttribute | undefined;
     RemoveAll(): void;
-    RemoveAt(i: int): XmlAttribute;
+    RemoveAt(i: int): XmlAttribute | undefined;
     SetNamedItem(node: XmlNode): XmlNode | undefined;
 }
 
 
 export const XmlAttributeCollection: {
-    new(): XmlAttributeCollection;
 };
 
 
@@ -453,8 +451,7 @@ export interface XmlCDataSection$instance extends XmlCharacterData$instance {
 }
 
 
-export const XmlCDataSection: {
-    new(data: string, doc: XmlDocument): XmlCDataSection;
+export const XmlCDataSection: (abstract new(data: string, doc: XmlDocument) => XmlCDataSection) & {
 };
 
 
@@ -471,7 +468,8 @@ export interface XmlCharacterData$instance extends XmlLinkedNode$instance {
     Data: string;
     InnerText: string;
     readonly Length: int;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     AppendData(strData: string): void;
     Clone(): unknown;
     Clone(): XmlNode;
@@ -484,8 +482,7 @@ export interface XmlCharacterData$instance extends XmlLinkedNode$instance {
 }
 
 
-export const XmlCharacterData: {
-    new(data: string, doc: XmlDocument): XmlCharacterData;
+export const XmlCharacterData: (abstract new(data: string, doc: XmlDocument) => XmlCharacterData) & {
 };
 
 
@@ -512,8 +509,7 @@ export interface XmlComment$instance extends XmlCharacterData$instance {
 }
 
 
-export const XmlComment: {
-    new(comment: string, doc: XmlDocument): XmlComment;
+export const XmlComment: (abstract new(comment: string, doc: XmlDocument) => XmlComment) & {
 };
 
 
@@ -596,12 +592,7 @@ export const XmlConvert: {
 
 export type XmlConvert = XmlConvert$instance;
 
-export abstract class XmlDataDocument$protected {
-    protected CreateNavigator2(node: XmlNode): XPathNavigator | undefined;
-}
-
-
-export interface XmlDataDocument$instance extends XmlDataDocument$protected, XmlDocument$instance {
+export interface XmlDataDocument$instance extends XmlDocument$instance {
     readonly DataSet: DataSet;
     Clone(): unknown;
     Clone(): XmlNode;
@@ -610,6 +601,7 @@ export interface XmlDataDocument$instance extends XmlDataDocument$protected, Xml
     CreateElement(name: string): XmlElement;
     CreateElement(qualifiedName: string, namespaceURI: string): XmlElement;
     CreateEntityReference(name: string): XmlEntityReference;
+    CreateNavigator(node: XmlNode): XPathNavigator | undefined;
     CreateNavigator(): XPathNavigator;
     GetElementById(elemId: string): XmlElement | undefined;
     GetElementFromRow(r: DataRow): XmlElement;
@@ -646,7 +638,8 @@ export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
     readonly Name: string;
     readonly NodeType: XmlNodeType;
     Standalone: string;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Version: string;
     Clone(): unknown;
     Clone(): XmlNode;
@@ -658,8 +651,7 @@ export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
 }
 
 
-export const XmlDeclaration: {
-    new(version: string, encoding: string, standalone: string, doc: XmlDocument): XmlDeclaration;
+export const XmlDeclaration: (abstract new(version: string, encoding: string, standalone: string, doc: XmlDocument) => XmlDeclaration) & {
 };
 
 
@@ -694,18 +686,14 @@ export interface __XmlDictionary$views {
 export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 
 
-export abstract class XmlDictionaryReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlDictionaryReader$instance extends XmlDictionaryReader$protected, XmlReader$instance {
+export interface XmlDictionaryReader$instance extends XmlReader$instance {
     readonly CanCanonicalize: boolean;
     readonly Quotas: XmlDictionaryReaderQuotas;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EndCanonicalization(): void;
-    GetAttribute(name: string): string;
-    GetAttribute(name: string, namespaceURI: string): string;
+    GetAttribute(name: string): string | undefined;
+    GetAttribute(name: string, namespaceURI: string): string | undefined;
     GetAttribute(i: int): string;
     GetNonAtomizedNames(localName: string, namespaceUri: string): void;
     IndexOfLocalName(localNames: string[], namespaceUri: string): int;
@@ -813,8 +801,7 @@ export interface XmlDictionaryReader$instance extends XmlDictionaryReader$protec
 }
 
 
-export const XmlDictionaryReader: {
-    new(): XmlDictionaryReader;
+export const XmlDictionaryReader: (abstract new() => XmlDictionaryReader) & {
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
     CreateBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
@@ -883,15 +870,10 @@ export const XmlDictionaryString: {
 
 export type XmlDictionaryString = XmlDictionaryString$instance;
 
-export abstract class XmlDictionaryWriter$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected WriteTextNode(reader: XmlDictionaryReader, isAttribute: boolean): void;
-}
-
-
-export interface XmlDictionaryWriter$instance extends XmlDictionaryWriter$protected, XmlWriter$instance {
+export interface XmlDictionaryWriter$instance extends XmlWriter$instance {
     readonly CanCanonicalize: boolean;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndCanonicalization(): void;
@@ -933,6 +915,7 @@ export interface XmlDictionaryWriter$instance extends XmlDictionaryWriter$protec
     WriteStartElement(prefix: string, localName: string, ns: string): void;
     WriteStartElement(localName: string): void;
     WriteString(text: string): void;
+    WriteTextNode(reader: XmlDictionaryReader, isAttribute: boolean): void;
     WriteValue(value: XmlDictionaryString): void;
     WriteValue(value: UniqueId): void;
     WriteValue(value: TimeSpan): void;
@@ -955,8 +938,7 @@ export interface XmlDictionaryWriter$instance extends XmlDictionaryWriter$protec
 }
 
 
-export const XmlDictionaryWriter: {
-    new(): XmlDictionaryWriter;
+export const XmlDictionaryWriter: (abstract new() => XmlDictionaryWriter) & {
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
     CreateBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
@@ -978,13 +960,7 @@ export interface __XmlDictionaryWriter$views {
 export type XmlDictionaryWriter = XmlDictionaryWriter$instance & __XmlDictionaryWriter$views;
 
 
-export abstract class XmlDocument$protected {
-    protected CreateDefaultAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
-    protected CreateNavigator(node: XmlNode): XPathNavigator | undefined;
-}
-
-
-export interface XmlDocument$instance extends XmlDocument$protected, XmlNode$instance {
+export interface XmlDocument$instance extends XmlNode$instance {
     readonly BaseURI: string;
     readonly DocumentElement: XmlElement | undefined;
     readonly DocumentType: XmlDocumentType | undefined;
@@ -1001,7 +977,7 @@ export interface XmlDocument$instance extends XmlDocument$protected, XmlNode$ins
     PreserveWhitespace: boolean;
     readonly SchemaInfo: IXmlSchemaInfo;
     Schemas: XmlSchemaSet;
-    XmlResolver: XmlResolver;
+    XmlResolver: XmlResolver | undefined;
     Clone(): XmlNode;
     Clone(): unknown;
     CloneNode(deep: boolean): XmlNode;
@@ -1010,6 +986,7 @@ export interface XmlDocument$instance extends XmlDocument$protected, XmlNode$ins
     CreateAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
     CreateCDataSection(data: string): XmlCDataSection;
     CreateComment(data: string): XmlComment;
+    CreateDefaultAttribute(prefix: string, localName: string, namespaceURI: string): XmlAttribute;
     CreateDocumentFragment(): XmlDocumentFragment;
     CreateDocumentType(name: string, publicId: string, systemId: string, internalSubset: string): XmlDocumentType;
     CreateElement(name: string): XmlElement;
@@ -1050,7 +1027,6 @@ export interface XmlDocument$instance extends XmlDocument$protected, XmlNode$ins
 export const XmlDocument: {
     new(): XmlDocument;
     new(nt: XmlNameTable): XmlDocument;
-    new(imp: XmlImplementation): XmlDocument;
 };
 
 
@@ -1080,8 +1056,7 @@ export interface XmlDocumentFragment$instance extends XmlNode$instance {
 }
 
 
-export const XmlDocumentFragment: {
-    new(ownerDocument: XmlDocument): XmlDocumentFragment;
+export const XmlDocumentFragment: (abstract new(ownerDocument: XmlDocument) => XmlDocumentFragment) & {
 };
 
 
@@ -1096,14 +1071,14 @@ export type XmlDocumentFragment = XmlDocumentFragment$instance & __XmlDocumentFr
 
 export interface XmlDocumentType$instance extends XmlLinkedNode$instance {
     readonly Entities: XmlNamedNodeMap;
-    readonly InternalSubset: string;
+    readonly InternalSubset: string | undefined;
     readonly IsReadOnly: boolean;
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
     readonly Notations: XmlNamedNodeMap;
-    readonly PublicId: string;
-    readonly SystemId: string;
+    readonly PublicId: string | undefined;
+    readonly SystemId: string | undefined;
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -1114,8 +1089,7 @@ export interface XmlDocumentType$instance extends XmlLinkedNode$instance {
 }
 
 
-export const XmlDocumentType: {
-    new(name: string, publicId: string, systemId: string, internalSubset: string, doc: XmlDocument): XmlDocumentType;
+export const XmlDocumentType: (abstract new(name: string, publicId: string, systemId: string, internalSubset: string, doc: XmlDocument) => XmlDocumentType) & {
 };
 
 
@@ -1129,7 +1103,7 @@ export type XmlDocumentType = XmlDocumentType$instance & __XmlDocumentType$views
 
 
 export interface XmlElement$instance extends XmlLinkedNode$instance {
-    readonly Attributes: XmlAttributeCollection;
+    readonly Attributes: XmlAttributeCollection | XmlAttributeCollection | undefined;
     readonly HasAttributes: boolean;
     InnerText: string;
     InnerXml: string;
@@ -1172,8 +1146,7 @@ export interface XmlElement$instance extends XmlLinkedNode$instance {
 }
 
 
-export const XmlElement: {
-    new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument): XmlElement;
+export const XmlElement: (abstract new(prefix: string, localName: string, namespaceURI: string, doc: XmlDocument) => XmlElement) & {
 };
 
 
@@ -1196,8 +1169,8 @@ export interface XmlEntity$instance extends XmlNode$instance {
     readonly NodeType: XmlNodeType;
     readonly NotationName: string | undefined;
     readonly OuterXml: string;
-    readonly PublicId: string;
-    readonly SystemId: string;
+    readonly PublicId: string | undefined;
+    readonly SystemId: string | undefined;
     Clone(): XmlNode;
     Clone(): unknown;
     CloneNode(deep: boolean): XmlNode;
@@ -1209,7 +1182,6 @@ export interface XmlEntity$instance extends XmlNode$instance {
 
 
 export const XmlEntity: {
-    new(): XmlEntity;
 };
 
 
@@ -1228,7 +1200,8 @@ export interface XmlEntityReference$instance extends XmlLinkedNode$instance {
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -1239,8 +1212,7 @@ export interface XmlEntityReference$instance extends XmlLinkedNode$instance {
 }
 
 
-export const XmlEntityReference: {
-    new(name: string, doc: XmlDocument): XmlEntityReference;
+export const XmlEntityReference: (abstract new(name: string, doc: XmlDocument) => XmlEntityReference) & {
 };
 
 
@@ -1263,7 +1235,6 @@ export interface XmlException$instance extends SystemException {
 
 
 export const XmlException: {
-    new(info: SerializationInfo, context: StreamingContext): XmlException;
     new(): XmlException;
     new(message: string): XmlException;
     new(message: string, innerException: Exception): XmlException;
@@ -1328,7 +1299,6 @@ export interface XmlNamedNodeMap$instance {
 
 
 export const XmlNamedNodeMap: {
-    new(): XmlNamedNodeMap;
 };
 
 
@@ -1343,7 +1313,7 @@ export type XmlNamedNodeMap = XmlNamedNodeMap$instance & __XmlNamedNodeMap$views
 
 export interface XmlNamespaceManager$instance {
     readonly DefaultNamespace: string;
-    readonly NameTable: XmlNameTable;
+    readonly NameTable: XmlNameTable | undefined;
     AddNamespace(prefix: string, uri: string): void;
     GetEnumerator(): IEnumerator;
     GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
@@ -1379,15 +1349,14 @@ export interface XmlNameTable$instance {
 }
 
 
-export const XmlNameTable: {
-    new(): XmlNameTable;
+export const XmlNameTable: (abstract new() => XmlNameTable) & {
 };
 
 
 export type XmlNameTable = XmlNameTable$instance;
 
 export interface XmlNode$instance {
-    readonly Attributes: XmlAttributeCollection;
+    readonly Attributes: XmlAttributeCollection | XmlAttributeCollection | undefined;
     readonly BaseURI: string;
     readonly ChildNodes: XmlNodeList;
     readonly FirstChild: XmlNode | undefined;
@@ -1408,12 +1377,13 @@ export interface XmlNode$instance {
     readonly PreviousSibling: XmlNode | undefined;
     readonly PreviousText: XmlNode | undefined;
     readonly SchemaInfo: IXmlSchemaInfo;
-    Value: string;
+    get Value(): string | string | undefined;
+    set Value(value: string | string | undefined);
     AppendChild(newChild: XmlNode): XmlNode | undefined;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
     CreateNavigator(): XPathNavigator;
-    get_Item(name: string): XmlElement;
+    get_Item(name: string): XmlElement | undefined;
     get_Item(localname: string, ns: string): XmlElement | undefined;
     GetEnumerator(): IEnumerator;
     GetNamespaceOfPrefix(prefix: string): string;
@@ -1467,21 +1437,16 @@ export const XmlNodeChangedEventArgs: {
 
 export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
-export abstract class XmlNodeList$protected {
-    protected PrivateDisposeNodeList(): void;
-}
-
-
-export interface XmlNodeList$instance extends XmlNodeList$protected {
+export interface XmlNodeList$instance {
     readonly Count: int;
     readonly ItemOf: XmlNode | undefined;
     GetEnumerator(): IEnumerator;
     Item(index: int): XmlNode | undefined;
+    PrivateDisposeNodeList(): void;
 }
 
 
-export const XmlNodeList: {
-    new(): XmlNodeList;
+export const XmlNodeList: (abstract new() => XmlNodeList) & {
 };
 
 
@@ -1495,12 +1460,7 @@ export interface XmlNodeList$instance extends System_Collections_Internal.IEnume
 export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
 
 
-export abstract class XmlNodeReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlNodeReader$instance extends XmlNodeReader$protected, XmlReader$instance {
+export interface XmlNodeReader$instance extends XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1518,14 +1478,15 @@ export interface XmlNodeReader$instance extends XmlNodeReader$protected, XmlRead
     readonly NodeType: XmlNodeType;
     readonly Prefix: string;
     readonly ReadState: ReadState;
-    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly SchemaInfo: IXmlSchemaInfo | undefined;
     readonly Value: string;
     readonly XmlLang: string;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
-    GetAttribute(name: string): string;
-    GetAttribute(name: string, namespaceURI: string): string;
+    Dispose(disposing: boolean): void;
+    GetAttribute(name: string): string | undefined;
+    GetAttribute(name: string, namespaceURI: string): string | undefined;
     GetAttribute(attributeIndex: int): string;
     LookupNamespace(prefix: string): string | undefined;
     MoveToAttribute(name: string): boolean;
@@ -1566,8 +1527,8 @@ export interface XmlNotation$instance extends XmlNode$instance {
     readonly Name: string;
     readonly NodeType: XmlNodeType;
     readonly OuterXml: string;
-    readonly PublicId: string;
-    readonly SystemId: string;
+    readonly PublicId: string | undefined;
+    readonly SystemId: string | undefined;
     Clone(): XmlNode;
     Clone(): unknown;
     CloneNode(deep: boolean): XmlNode;
@@ -1579,7 +1540,6 @@ export interface XmlNotation$instance extends XmlNode$instance {
 
 
 export const XmlNotation: {
-    new(): XmlNotation;
 };
 
 
@@ -1595,11 +1555,13 @@ export type XmlNotation = XmlNotation$instance & __XmlNotation$views;
 export interface XmlParserContext$instance {
     BaseURI: string;
     DocTypeName: string;
-    Encoding: Encoding;
+    get Encoding(): Encoding | undefined;
+    set Encoding(value: Encoding | undefined);
     InternalSubset: string;
     get NamespaceManager(): XmlNamespaceManager | undefined;
-    set NamespaceManager(value: XmlNamespaceManager);
-    NameTable: XmlNameTable;
+    set NamespaceManager(value: XmlNamespaceManager | undefined);
+    get NameTable(): XmlNameTable | undefined;
+    set NameTable(value: XmlNameTable | undefined);
     PublicId: string;
     SystemId: string;
     XmlLang: string;
@@ -1624,7 +1586,7 @@ export interface XmlProcessingInstruction$instance extends XmlLinkedNode$instanc
     readonly Name: string;
     readonly NodeType: XmlNodeType;
     readonly Target: string;
-    Value: string;
+    Value: string | string | undefined;
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -1635,8 +1597,7 @@ export interface XmlProcessingInstruction$instance extends XmlLinkedNode$instanc
 }
 
 
-export const XmlProcessingInstruction: {
-    new(target: string, data: string, doc: XmlDocument): XmlProcessingInstruction;
+export const XmlProcessingInstruction: (abstract new(target: string, data: string, doc: XmlDocument) => XmlProcessingInstruction) & {
 };
 
 
@@ -1670,12 +1631,7 @@ export const XmlQualifiedName: {
 
 export type XmlQualifiedName = XmlQualifiedName$instance;
 
-export abstract class XmlReader$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface XmlReader$instance extends XmlReader$protected {
+export interface XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1695,7 +1651,7 @@ export interface XmlReader$instance extends XmlReader$protected {
     readonly Prefix: string;
     readonly QuoteChar: char;
     readonly ReadState: ReadState;
-    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly SchemaInfo: IXmlSchemaInfo | undefined;
     readonly Settings: XmlReaderSettings | undefined;
     readonly Value: string;
     readonly ValueType: Type;
@@ -1703,11 +1659,12 @@ export interface XmlReader$instance extends XmlReader$protected {
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     get_Item(i: int): string;
-    get_Item(name: string): string;
+    get_Item(name: string): string | undefined;
     get_Item(name: string, namespaceURI: string): string | undefined;
-    GetAttribute(name: string): string;
-    GetAttribute(name: string, namespaceURI: string): string;
+    GetAttribute(name: string): string | undefined;
+    GetAttribute(name: string, namespaceURI: string): string | undefined;
     GetAttribute(i: int): string;
     GetValueAsync(): Task_1<System_Internal.String>;
     IsStartElement(): boolean;
@@ -1797,8 +1754,7 @@ export interface XmlReader$instance extends XmlReader$protected {
 }
 
 
-export const XmlReader: {
-    new(): XmlReader;
+export const XmlReader: (abstract new() => XmlReader) & {
     Create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
     Create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
     Create(input: Stream, settings: XmlReaderSettings): XmlReader;
@@ -1836,12 +1792,13 @@ export interface XmlReaderSettings$instance {
     LinePositionOffset: int;
     MaxCharactersFromEntities: long;
     MaxCharactersInDocument: long;
-    NameTable: XmlNameTable;
+    get NameTable(): XmlNameTable | undefined;
+    set NameTable(value: XmlNameTable | undefined);
     ProhibitDtd: boolean;
     Schemas: XmlSchemaSet;
     ValidationFlags: XmlSchemaValidationFlags;
     ValidationType: ValidationType;
-    XmlResolver: XmlResolver;
+    XmlResolver: XmlResolver | undefined;
     Clone(): XmlReaderSettings;
     Reset(): void;
 }
@@ -1863,8 +1820,7 @@ export interface XmlResolver$instance {
 }
 
 
-export const XmlResolver: {
-    new(): XmlResolver;
+export const XmlResolver: (abstract new() => XmlResolver) & {
     readonly FileSystemResolver: XmlResolver;
     readonly ThrowingResolver: XmlResolver;
 };
@@ -1894,7 +1850,8 @@ export interface XmlSignificantWhitespace$instance extends XmlCharacterData$inst
     readonly NodeType: XmlNodeType;
     readonly ParentNode: XmlNode | undefined;
     readonly PreviousText: XmlNode | undefined;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -1905,8 +1862,7 @@ export interface XmlSignificantWhitespace$instance extends XmlCharacterData$inst
 }
 
 
-export const XmlSignificantWhitespace: {
-    new(strData: string, doc: XmlDocument): XmlSignificantWhitespace;
+export const XmlSignificantWhitespace: (abstract new(strData: string, doc: XmlDocument) => XmlSignificantWhitespace) & {
 };
 
 
@@ -1925,7 +1881,8 @@ export interface XmlText$instance extends XmlCharacterData$instance {
     readonly NodeType: XmlNodeType;
     readonly ParentNode: XmlNode | undefined;
     readonly PreviousText: XmlNode | undefined;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -1937,8 +1894,7 @@ export interface XmlText$instance extends XmlCharacterData$instance {
 }
 
 
-export const XmlText: {
-    new(strData: string, doc: XmlDocument): XmlText;
+export const XmlText: (abstract new(strData: string, doc: XmlDocument) => XmlText) & {
 };
 
 
@@ -1951,12 +1907,7 @@ export interface __XmlText$views {
 export type XmlText = XmlText$instance & __XmlText$views;
 
 
-export abstract class XmlTextReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlTextReader$instance extends XmlTextReader$protected, XmlReader$instance {
+export interface XmlTextReader$instance extends XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1964,7 +1915,7 @@ export interface XmlTextReader$instance extends XmlTextReader$protected, XmlRead
     readonly CanResolveEntity: boolean;
     readonly Depth: int;
     DtdProcessing: DtdProcessing;
-    readonly Encoding: Encoding;
+    readonly Encoding: Encoding | undefined;
     EntityHandling: EntityHandling;
     readonly EOF: boolean;
     readonly HasValue: boolean;
@@ -1986,12 +1937,13 @@ export interface XmlTextReader$instance extends XmlTextReader$protected, XmlRead
     readonly Value: string;
     WhitespaceHandling: WhitespaceHandling;
     readonly XmlLang: string;
-    XmlResolver: XmlResolver;
+    XmlResolver: XmlResolver | undefined;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
-    GetAttribute(name: string): string;
-    GetAttribute(localName: string, namespaceURI: string): string;
+    Dispose(disposing: boolean): void;
+    GetAttribute(name: string): string | undefined;
+    GetAttribute(localName: string, namespaceURI: string): string | undefined;
     GetAttribute(i: int): string;
     GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
     GetRemainder(): TextReader;
@@ -2020,8 +1972,6 @@ export interface XmlTextReader$instance extends XmlTextReader$protected, XmlRead
 
 
 export const XmlTextReader: {
-    new(): XmlTextReader;
-    new(nt: XmlNameTable): XmlTextReader;
     new(input: Stream): XmlTextReader;
     new(url: string, input: Stream): XmlTextReader;
     new(input: Stream, nt: XmlNameTable): XmlTextReader;
@@ -2048,23 +1998,19 @@ export interface XmlTextReader$instance extends IXmlLineInfo$instance {}
 export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
 
-export abstract class XmlTextWriter$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlTextWriter$instance extends XmlTextWriter$protected, XmlWriter$instance {
-    readonly BaseStream: Stream;
+export interface XmlTextWriter$instance extends XmlWriter$instance {
+    readonly BaseStream: Stream | undefined;
     Formatting: Formatting;
     Indentation: int;
     IndentChar: char;
     Namespaces: boolean;
     QuoteChar: char;
     readonly WriteState: WriteState;
-    readonly XmlLang: string;
+    readonly XmlLang: string | undefined;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     LookupPrefix(ns: string): string | undefined;
@@ -2133,18 +2079,13 @@ export const XmlUrlResolver: {
 
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
-export abstract class XmlValidatingReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlValidatingReader$instance extends XmlValidatingReader$protected, XmlReader$instance {
+export interface XmlValidatingReader$instance extends XmlReader$instance {
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
     readonly CanResolveEntity: boolean;
     readonly Depth: int;
-    readonly Encoding: Encoding;
+    readonly Encoding: Encoding | undefined;
     EntityHandling: EntityHandling;
     readonly EOF: boolean;
     readonly HasValue: boolean;
@@ -2171,8 +2112,9 @@ export interface XmlValidatingReader$instance extends XmlValidatingReader$protec
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
-    GetAttribute(name: string): string;
-    GetAttribute(localName: string, namespaceURI: string): string;
+    Dispose(disposing: boolean): void;
+    GetAttribute(name: string): string | undefined;
+    GetAttribute(localName: string, namespaceURI: string): string | undefined;
     GetAttribute(i: int): string;
     HasLineInfo(): boolean;
     LookupNamespace(prefix: string): string | undefined;
@@ -2218,7 +2160,8 @@ export interface XmlWhitespace$instance extends XmlCharacterData$instance {
     readonly NodeType: XmlNodeType;
     readonly ParentNode: XmlNode | undefined;
     readonly PreviousText: XmlNode | undefined;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Clone(): unknown;
     Clone(): XmlNode;
     CloneNode(deep: boolean): XmlNode;
@@ -2229,8 +2172,7 @@ export interface XmlWhitespace$instance extends XmlCharacterData$instance {
 }
 
 
-export const XmlWhitespace: {
-    new(strData: string, doc: XmlDocument): XmlWhitespace;
+export const XmlWhitespace: (abstract new(strData: string, doc: XmlDocument) => XmlWhitespace) & {
 };
 
 
@@ -2243,22 +2185,16 @@ export interface __XmlWhitespace$views {
 export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
 
-export abstract class XmlWriter$protected {
-    protected Dispose(disposing: boolean): void;
-    protected DisposeAsyncCore(): ValueTask;
-    protected WriteEndAttributeAsync(): Task;
-    protected WriteStartAttributeAsync(prefix: string, localName: string, ns: string): Task;
-}
-
-
-export interface XmlWriter$instance extends XmlWriter$protected {
+export interface XmlWriter$instance {
     readonly Settings: XmlWriterSettings | undefined;
     readonly WriteState: WriteState;
-    readonly XmlLang: string;
+    readonly XmlLang: string | string | undefined;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
+    DisposeAsyncCore(): ValueTask;
     Flush(): void;
     FlushAsync(): Task;
     LookupPrefix(ns: string): string | undefined;
@@ -2287,6 +2223,7 @@ export interface XmlWriter$instance extends XmlWriter$protected {
     WriteElementString(prefix: string, localName: string, ns: string, value: string): void;
     WriteElementStringAsync(prefix: string, localName: string, ns: string, value: string): Task;
     WriteEndAttribute(): void;
+    WriteEndAttributeAsync(): Task;
     WriteEndDocument(): void;
     WriteEndDocumentAsync(): Task;
     WriteEndElement(): void;
@@ -2314,6 +2251,7 @@ export interface XmlWriter$instance extends XmlWriter$protected {
     WriteStartAttribute(localName: string, ns: string): void;
     WriteStartAttribute(prefix: string, localName: string, ns: string): void;
     WriteStartAttribute(localName: string): void;
+    WriteStartAttributeAsync(prefix: string, localName: string, ns: string): Task;
     WriteStartDocument(): void;
     WriteStartDocument(standalone: boolean): void;
     WriteStartDocumentAsync(): Task;
@@ -2341,8 +2279,7 @@ export interface XmlWriter$instance extends XmlWriter$protected {
 }
 
 
-export const XmlWriter: {
-    new(): XmlWriter;
+export const XmlWriter: (abstract new() => XmlWriter) & {
     Create(output: Stream, settings: XmlWriterSettings): XmlWriter;
     Create(output: Stream): XmlWriter;
     Create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;

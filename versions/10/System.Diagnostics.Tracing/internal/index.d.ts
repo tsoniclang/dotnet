@@ -181,7 +181,8 @@ export interface EventAttribute$instance extends Attribute {
     readonly EventId: int;
     Keywords: EventKeywords;
     Level: EventLevel;
-    Message: string;
+    get Message(): string | undefined;
+    set Message(value: string | undefined);
     Opcode: EventOpcode;
     Tags: EventTags;
     Task: EventTask;
@@ -197,7 +198,8 @@ export const EventAttribute: {
 export type EventAttribute = EventAttribute$instance;
 
 export interface EventCommandEventArgs$instance extends EventArgs {
-    Arguments: IDictionary_2<System_Internal.String, string | undefined>;
+    get Arguments(): IDictionary_2<System_Internal.String, string | undefined> | undefined;
+    set Arguments(value: IDictionary_2<System_Internal.String, string | undefined> | undefined);
     Command: EventCommand;
     DisableEvent(eventId: int): boolean;
     EnableEvent(eventId: int): boolean;
@@ -205,7 +207,6 @@ export interface EventCommandEventArgs$instance extends EventArgs {
 
 
 export const EventCommandEventArgs: {
-    new(): EventCommandEventArgs;
 };
 
 
@@ -232,7 +233,8 @@ export type EventCounter = EventCounter$instance & __EventCounter$views;
 
 
 export interface EventDataAttribute$instance extends Attribute {
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
 }
 
 
@@ -267,23 +269,18 @@ export const EventIgnoreAttribute: {
 
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
-export abstract class EventListener$protected {
-    protected OnEventSourceCreated(eventSource: EventSource): void;
-    protected OnEventWritten(eventData: EventWrittenEventArgs): void;
-}
-
-
-export interface EventListener$instance extends EventListener$protected {
+export interface EventListener$instance {
     DisableEvents(eventSource: EventSource): void;
     Dispose(): void;
     EnableEvents(eventSource: EventSource, level: EventLevel): void;
     EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords): void;
     EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
+    OnEventSourceCreated(eventSource: EventSource): void;
+    OnEventWritten(eventData: EventWrittenEventArgs): void;
 }
 
 
-export const EventListener: {
-    new(): EventListener;
+export const EventListener: (abstract new() => EventListener) & {
     EventSourceIndex(eventSource: EventSource): int;
 };
 
@@ -297,23 +294,19 @@ export interface EventListener$instance extends System_Internal.IDisposable$inst
 export type EventListener = EventListener$instance & __EventListener$views;
 
 
-export abstract class EventSource$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected OnEventCommand(command: EventCommandEventArgs): void;
-}
-
-
-export interface EventSource$instance extends EventSource$protected {
+export interface EventSource$instance {
     readonly ConstructionException: Exception | undefined;
     readonly Guid: Guid;
     readonly Name: string;
     readonly Settings: EventSourceSettings;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     GetTrait(key: string): string | undefined;
     IsEnabled(): boolean;
     IsEnabled(level: EventLevel, keywords: EventKeywords): boolean;
     IsEnabled(level: EventLevel, keywords: EventKeywords, channel: EventChannel): boolean;
+    OnEventCommand(command: EventCommandEventArgs): void;
     ToString(): string;
     Write(eventName: string): void;
     Write(eventName: string, options: EventSourceOptions): void;
@@ -325,10 +318,6 @@ export interface EventSource$instance extends EventSource$protected {
 
 
 export const EventSource: {
-    new(): EventSource;
-    new(throwOnEventWriteErrors: boolean): EventSource;
-    new(settings: EventSourceSettings): EventSource;
-    new(settings: EventSourceSettings, traits: string[]): EventSource;
     new(eventSourceName: string): EventSource;
     new(eventSourceName: string, config: EventSourceSettings): EventSource;
     new(eventSourceName: string, config: EventSourceSettings, traits: string[]): EventSource;
@@ -353,10 +342,11 @@ export type EventSource = EventSource$instance & __EventSource$views;
 
 export interface EventSourceAttribute$instance extends Attribute {
     get Guid(): string | undefined;
-    set Guid(value: string);
+    set Guid(value: string | undefined);
     get LocalizationResources(): string | undefined;
-    set LocalizationResources(value: string);
-    Name: string;
+    set LocalizationResources(value: string | undefined);
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
 }
 
 
@@ -368,7 +358,8 @@ export const EventSourceAttribute: {
 export type EventSourceAttribute = EventSourceAttribute$instance;
 
 export interface EventSourceCreatedEventArgs$instance extends EventArgs {
-    EventSource: EventSource;
+    get EventSource(): EventSource | undefined;
+    set EventSource(value: EventSource | undefined);
 }
 
 
@@ -388,7 +379,6 @@ export const EventSourceException: {
     new(): EventSourceException;
     new(message: string): EventSourceException;
     new(message: string, innerException: Exception): EventSourceException;
-    new(info: SerializationInfo, context: StreamingContext): EventSourceException;
 };
 
 
@@ -403,17 +393,19 @@ export interface EventWrittenEventArgs$instance extends EventArgs {
     readonly ActivityId: Guid;
     readonly Channel: EventChannel;
     readonly EventId: int;
-    EventName: string;
+    get EventName(): string | undefined;
+    set EventName(value: string | undefined);
     readonly EventSource: EventSource;
     Keywords: EventKeywords;
     Level: EventLevel;
-    Message: string;
+    get Message(): string | undefined;
+    set Message(value: string | undefined);
     Opcode: EventOpcode;
     OSThreadId: long;
     get Payload(): ReadOnlyCollection_1<unknown | undefined> | undefined;
-    set Payload(value: ReadOnlyCollection_1<unknown | undefined>);
+    set Payload(value: ReadOnlyCollection_1<unknown | undefined> | undefined);
     get PayloadNames(): ReadOnlyCollection_1<System_Internal.String> | undefined;
-    set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String>);
+    set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String> | undefined);
     readonly RelatedActivityId: Guid;
     Tags: EventTags;
     readonly Task: EventTask;
@@ -423,7 +415,6 @@ export interface EventWrittenEventArgs$instance extends EventArgs {
 
 
 export const EventWrittenEventArgs: {
-    new(): EventWrittenEventArgs;
 };
 
 

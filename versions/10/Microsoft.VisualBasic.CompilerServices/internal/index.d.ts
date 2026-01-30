@@ -23,7 +23,6 @@ export interface BooleanType$instance {
 
 
 export const BooleanType: {
-    new(): BooleanType;
     FromObject(Value: unknown): boolean;
     FromString(Value: string): boolean;
 };
@@ -36,7 +35,6 @@ export interface ByteType$instance {
 
 
 export const ByteType: {
-    new(): ByteType;
     FromObject(Value: unknown): byte;
     FromString(Value: string): byte;
 };
@@ -49,7 +47,6 @@ export interface CharArrayType$instance {
 
 
 export const CharArrayType: {
-    new(): CharArrayType;
     FromObject(Value: unknown): char[];
     FromString(Value: string): char[];
 };
@@ -62,7 +59,6 @@ export interface CharType$instance {
 
 
 export const CharType: {
-    new(): CharType;
     FromObject(Value: unknown): char;
     FromString(Value: string): char;
 };
@@ -75,7 +71,6 @@ export interface Conversions$instance {
 
 
 export const Conversions: {
-    new(): Conversions;
     ChangeType(Expression: unknown, TargetType: Type): unknown;
     FallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
     FromCharAndCount(Value: char, Count: int): string;
@@ -139,7 +134,6 @@ export interface DateType$instance {
 
 
 export const DateType: {
-    new(): DateType;
     FromObject(Value: unknown): DateTime;
     FromString(Value: string, culture: CultureInfo): DateTime;
     FromString(Value: string): DateTime;
@@ -153,7 +147,6 @@ export interface DecimalType$instance {
 
 
 export const DecimalType: {
-    new(): DecimalType;
     FromBoolean(Value: boolean): decimal;
     FromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
     FromObject(Value: unknown): decimal;
@@ -181,7 +174,6 @@ export interface DoubleType$instance {
 
 
 export const DoubleType: {
-    new(): DoubleType;
     FromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
     FromObject(Value: unknown): double;
     FromString(Value: string, NumberFormat: NumberFormatInfo): double;
@@ -215,7 +207,6 @@ export interface IntegerType$instance {
 
 
 export const IntegerType: {
-    new(): IntegerType;
     FromObject(Value: unknown): int;
     FromString(Value: string): int;
 };
@@ -228,7 +219,6 @@ export interface LateBinding$instance {
 
 
 export const LateBinding: {
-    new(): LateBinding;
     LateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
     LateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
     LateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
@@ -246,7 +236,6 @@ export interface LikeOperator$instance {
 
 
 export const LikeOperator: {
-    new(): LikeOperator;
     LikeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
     LikeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
 };
@@ -259,7 +248,6 @@ export interface LongType$instance {
 
 
 export const LongType: {
-    new(): LongType;
     FromObject(Value: unknown): long;
     FromString(Value: string): long;
 };
@@ -272,7 +260,6 @@ export interface NewLateBinding$instance {
 
 
 export const NewLateBinding: {
-    new(): NewLateBinding;
     FallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
     FallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
     FallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
@@ -301,7 +288,6 @@ export interface ObjectFlowControl$instance {
 
 
 export const ObjectFlowControl: {
-    new(): ObjectFlowControl;
     CheckForSyncLockOnValueType(Expression: unknown): void;
 };
 
@@ -313,7 +299,6 @@ export interface ObjectFlowControl_ForLoopControl$instance {
 
 
 export const ObjectFlowControl_ForLoopControl: {
-    new(): ObjectFlowControl_ForLoopControl;
     ForLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: unknown, CounterResult: unknown): boolean;
     ForNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
     ForNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: unknown): boolean;
@@ -360,7 +345,6 @@ export interface Operators$instance {
 
 
 export const Operators: {
-    new(): Operators;
     AddObject(Left: unknown, Right: unknown): unknown;
     AndObject(Left: unknown, Right: unknown): unknown;
     CompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
@@ -423,7 +407,6 @@ export interface ProjectData$instance {
 
 
 export const ProjectData: {
-    new(): ProjectData;
     ClearProjectError(): void;
     CreateProjectError(hr: int): Exception;
     EndApp(): void;
@@ -439,7 +422,6 @@ export interface ShortType$instance {
 
 
 export const ShortType: {
-    new(): ShortType;
     FromObject(Value: unknown): short;
     FromString(Value: string): short;
 };
@@ -452,7 +434,6 @@ export interface SingleType$instance {
 
 
 export const SingleType: {
-    new(): SingleType;
     FromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
     FromObject(Value: unknown): float;
     FromString(Value: string, NumberFormat: NumberFormatInfo): float;
@@ -490,7 +471,6 @@ export interface StringType$instance {
 
 
 export const StringType: {
-    new(): StringType;
     FromBoolean(Value: boolean): string;
     FromByte(Value: byte): string;
     FromChar(Value: char): string;
@@ -520,7 +500,6 @@ export interface Utils$instance {
 
 
 export const Utils: {
-    new(): Utils;
     CopyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
     GetResourceString(ResourceKey: string, ...Args: string[]): string;
 };
@@ -533,7 +512,6 @@ export interface Versioned$instance {
 
 
 export const Versioned: {
-    new(): Versioned;
     CallByName(Instance: unknown, MethodName: string, UseCallType: CallType, ...Arguments: unknown[]): unknown;
     IsNumeric(Expression: unknown): boolean;
     SystemTypeName(VbName: string): string;

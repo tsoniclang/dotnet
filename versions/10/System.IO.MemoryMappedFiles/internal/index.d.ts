@@ -48,12 +48,7 @@ export enum MemoryMappedFileRights {
 }
 
 
-export abstract class MemoryMappedFile$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface MemoryMappedFile$instance extends MemoryMappedFile$protected {
+export interface MemoryMappedFile$instance {
     readonly SafeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
     CreateViewAccessor(): MemoryMappedViewAccessor;
     CreateViewAccessor(offset: long, size: long): MemoryMappedViewAccessor;
@@ -62,11 +57,11 @@ export interface MemoryMappedFile$instance extends MemoryMappedFile$protected {
     CreateViewStream(offset: long, size: long): MemoryMappedViewStream;
     CreateViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
 export const MemoryMappedFile: {
-    new(): MemoryMappedFile;
     CreateFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
     CreateFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
     CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
@@ -93,21 +88,16 @@ export interface __MemoryMappedFile$views {
 export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$views;
 
 
-export abstract class MemoryMappedViewAccessor$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface MemoryMappedViewAccessor$instance extends MemoryMappedViewAccessor$protected, UnmanagedMemoryAccessor {
+export interface MemoryMappedViewAccessor$instance extends UnmanagedMemoryAccessor {
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Flush(): void;
 }
 
 
 export const MemoryMappedViewAccessor: {
-    new(): MemoryMappedViewAccessor;
 };
 
 
@@ -118,14 +108,10 @@ export interface __MemoryMappedViewAccessor$views {
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
 
 
-export abstract class MemoryMappedViewStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface MemoryMappedViewStream$instance extends MemoryMappedViewStream$protected, UnmanagedMemoryStream {
+export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -134,7 +120,6 @@ export interface MemoryMappedViewStream$instance extends MemoryMappedViewStream$
 
 
 export const MemoryMappedViewStream: {
-    new(): MemoryMappedViewStream;
 };
 
 

@@ -91,14 +91,11 @@ export enum SmtpStatusCode {
 export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
 
 
-export abstract class AlternateView$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface AlternateView$instance extends AlternateView$protected, AttachmentBase$instance {
-    BaseUri: Uri;
+export interface AlternateView$instance extends AttachmentBase$instance {
+    get BaseUri(): Uri | undefined;
+    set BaseUri(value: Uri | undefined);
     readonly LinkedResources: LinkedResourceCollection;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
 }
 
@@ -123,20 +120,11 @@ export interface __AlternateView$views {
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
-export abstract class AlternateViewCollection$protected {
-    protected ClearItems(): void;
-    protected InsertItem2(index: int, item: AlternateView): void;
-    protected InsertItem(index: int, item: unknown): void;
-    protected RemoveItem(index: int): void;
-    protected SetItem2(index: int, item: AlternateView): void;
-    protected SetItem(index: int, item: unknown): void;
-}
-
-
-export interface AlternateViewCollection$instance extends AlternateViewCollection$protected, Collection_1<AlternateView> {
+export interface AlternateViewCollection$instance extends Collection_1<AlternateView> {
     Add(item: AlternateView): void;
     Add(value: unknown): int;
     Clear(): void;
+    ClearItems(): void;
     Contains(item: AlternateView): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: AlternateView[], index: int): void;
@@ -147,14 +135,16 @@ export interface AlternateViewCollection$instance extends AlternateViewCollectio
     IndexOf(item: AlternateView): int;
     Insert(index: int, item: AlternateView): void;
     Insert(index: int, value: unknown): void;
+    InsertItem(index: int, item: AlternateView): void;
     Remove(item: AlternateView): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
+    RemoveItem(index: int): void;
+    SetItem(index: int, item: AlternateView): void;
 }
 
 
 export const AlternateViewCollection: {
-    new(): AlternateViewCollection;
 };
 
 
@@ -174,17 +164,14 @@ export interface AlternateViewCollection$instance extends System_Internal.IDispo
 export type AlternateViewCollection = AlternateViewCollection$instance & __AlternateViewCollection$views;
 
 
-export abstract class Attachment$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Attachment$instance extends Attachment$protected, AttachmentBase$instance {
+export interface Attachment$instance extends AttachmentBase$instance {
     readonly ContentDisposition: ContentDisposition | undefined;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     get NameEncoding(): Encoding | undefined;
-    set NameEncoding(value: Encoding);
+    set NameEncoding(value: Encoding | undefined);
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
@@ -208,27 +195,17 @@ export interface __Attachment$views {
 export type Attachment = Attachment$instance & __Attachment$views;
 
 
-export abstract class AttachmentBase$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface AttachmentBase$instance extends AttachmentBase$protected {
+export interface AttachmentBase$instance {
     ContentId: string;
     readonly ContentStream: Stream;
     ContentType: ContentType;
     TransferEncoding: TransferEncoding;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const AttachmentBase: {
-    new(fileName: string): AttachmentBase;
-    new(fileName: string, mediaType: string): AttachmentBase;
-    new(fileName: string, contentType: ContentType): AttachmentBase;
-    new(contentStream: Stream): AttachmentBase;
-    new(contentStream: Stream, mediaType: string): AttachmentBase;
-    new(contentStream: Stream, contentType: ContentType): AttachmentBase;
+export const AttachmentBase: (abstract new(fileName: string) => AttachmentBase) & (abstract new(fileName: string, mediaType: string) => AttachmentBase) & (abstract new(fileName: string, contentType: ContentType) => AttachmentBase) & (abstract new(contentStream: Stream) => AttachmentBase) & (abstract new(contentStream: Stream, mediaType: string) => AttachmentBase) & (abstract new(contentStream: Stream, contentType: ContentType) => AttachmentBase) & {
 };
 
 
@@ -239,20 +216,11 @@ export interface __AttachmentBase$views {
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
-export abstract class AttachmentCollection$protected {
-    protected ClearItems(): void;
-    protected InsertItem2(index: int, item: Attachment): void;
-    protected InsertItem(index: int, item: unknown): void;
-    protected RemoveItem(index: int): void;
-    protected SetItem2(index: int, item: Attachment): void;
-    protected SetItem(index: int, item: unknown): void;
-}
-
-
-export interface AttachmentCollection$instance extends AttachmentCollection$protected, Collection_1<Attachment> {
+export interface AttachmentCollection$instance extends Collection_1<Attachment> {
     Add(item: Attachment): void;
     Add(value: unknown): int;
     Clear(): void;
+    ClearItems(): void;
     Contains(item: Attachment): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: Attachment[], index: int): void;
@@ -263,14 +231,16 @@ export interface AttachmentCollection$instance extends AttachmentCollection$prot
     IndexOf(item: Attachment): int;
     Insert(index: int, item: Attachment): void;
     Insert(index: int, value: unknown): void;
+    InsertItem(index: int, item: Attachment): void;
     Remove(item: Attachment): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
+    RemoveItem(index: int): void;
+    SetItem(index: int, item: Attachment): void;
 }
 
 
 export const AttachmentCollection: {
-    new(): AttachmentCollection;
 };
 
 
@@ -290,15 +260,11 @@ export interface AttachmentCollection$instance extends System_Internal.IDisposab
 export type AttachmentCollection = AttachmentCollection$instance & __AttachmentCollection$views;
 
 
-export abstract class LinkedResource$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface LinkedResource$instance extends LinkedResource$protected, AttachmentBase$instance {
+export interface LinkedResource$instance extends AttachmentBase$instance {
     get ContentLink(): Uri | undefined;
-    set ContentLink(value: Uri);
+    set ContentLink(value: Uri | undefined);
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
@@ -322,20 +288,11 @@ export interface __LinkedResource$views {
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
-export abstract class LinkedResourceCollection$protected {
-    protected ClearItems(): void;
-    protected InsertItem2(index: int, item: LinkedResource): void;
-    protected InsertItem(index: int, item: unknown): void;
-    protected RemoveItem(index: int): void;
-    protected SetItem2(index: int, item: LinkedResource): void;
-    protected SetItem(index: int, item: unknown): void;
-}
-
-
-export interface LinkedResourceCollection$instance extends LinkedResourceCollection$protected, Collection_1<LinkedResource> {
+export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> {
     Add(item: LinkedResource): void;
     Add(value: unknown): int;
     Clear(): void;
+    ClearItems(): void;
     Contains(item: LinkedResource): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: LinkedResource[], index: int): void;
@@ -346,14 +303,16 @@ export interface LinkedResourceCollection$instance extends LinkedResourceCollect
     IndexOf(item: LinkedResource): int;
     Insert(index: int, item: LinkedResource): void;
     Insert(index: int, value: unknown): void;
+    InsertItem(index: int, item: LinkedResource): void;
     Remove(item: LinkedResource): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
+    RemoveItem(index: int): void;
+    SetItem(index: int, item: LinkedResource): void;
 }
 
 
 export const LinkedResourceCollection: {
-    new(): LinkedResourceCollection;
 };
 
 
@@ -396,15 +355,7 @@ export const MailAddress: {
 
 export type MailAddress = MailAddress$instance;
 
-export abstract class MailAddressCollection$protected {
-    protected InsertItem2(index: int, item: MailAddress): void;
-    protected InsertItem(index: int, item: unknown): void;
-    protected SetItem2(index: int, item: MailAddress): void;
-    protected SetItem(index: int, item: unknown): void;
-}
-
-
-export interface MailAddressCollection$instance extends MailAddressCollection$protected, Collection_1<MailAddress> {
+export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
     Add(item: MailAddress): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -417,9 +368,11 @@ export interface MailAddressCollection$instance extends MailAddressCollection$pr
     IndexOf(item: MailAddress): int;
     Insert(index: int, item: MailAddress): void;
     Insert(index: int, value: unknown): void;
+    InsertItem(index: int, item: MailAddress): void;
     Remove(item: MailAddress): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
+    SetItem(index: int, item: MailAddress): void;
     ToString(): string;
 }
 
@@ -442,38 +395,34 @@ export interface __MailAddressCollection$views {
 export type MailAddressCollection = MailAddressCollection$instance & __MailAddressCollection$views;
 
 
-export abstract class MailMessage$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface MailMessage$instance extends MailMessage$protected {
+export interface MailMessage$instance {
     readonly AlternateViews: AlternateViewCollection;
     readonly Attachments: AttachmentCollection;
     readonly Bcc: MailAddressCollection;
     Body: string;
     get BodyEncoding(): Encoding | undefined;
-    set BodyEncoding(value: Encoding);
+    set BodyEncoding(value: Encoding | undefined);
     BodyTransferEncoding: TransferEncoding;
     readonly CC: MailAddressCollection;
     DeliveryNotificationOptions: DeliveryNotificationOptions;
     get From(): MailAddress | undefined;
-    set From(value: MailAddress);
+    set From(value: MailAddress | undefined);
     readonly Headers: NameValueCollection;
     get HeadersEncoding(): Encoding | undefined;
-    set HeadersEncoding(value: Encoding);
+    set HeadersEncoding(value: Encoding | undefined);
     IsBodyHtml: boolean;
     Priority: MailPriority;
     get ReplyTo(): MailAddress | undefined;
-    set ReplyTo(value: MailAddress);
+    set ReplyTo(value: MailAddress | undefined);
     readonly ReplyToList: MailAddressCollection;
     get Sender(): MailAddress | undefined;
-    set Sender(value: MailAddress);
+    set Sender(value: MailAddress | undefined);
     Subject: string;
     get SubjectEncoding(): Encoding | undefined;
-    set SubjectEncoding(value: Encoding);
+    set SubjectEncoding(value: Encoding | undefined);
     readonly To: MailAddressCollection;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
@@ -492,27 +441,25 @@ export interface __MailMessage$views {
 export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 
-export abstract class SmtpClient$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface SmtpClient$instance extends SmtpClient$protected {
+export interface SmtpClient$instance {
     readonly ClientCertificates: X509CertificateCollection;
-    Credentials: ICredentialsByHost;
+    get Credentials(): ICredentialsByHost | undefined;
+    set Credentials(value: ICredentialsByHost | undefined);
     DeliveryFormat: SmtpDeliveryFormat;
     DeliveryMethod: SmtpDeliveryMethod;
     EnableSsl: boolean;
-    Host: string;
+    get Host(): string | undefined;
+    set Host(value: string | undefined);
     get PickupDirectoryLocation(): string | undefined;
-    set PickupDirectoryLocation(value: string);
+    set PickupDirectoryLocation(value: string | undefined);
     Port: int;
     readonly ServicePoint: ServicePoint;
     get TargetName(): string | undefined;
-    set TargetName(value: string);
+    set TargetName(value: string | undefined);
     Timeout: int;
     UseDefaultCredentials: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Send(from: string, recipients: string, subject: string, body: string): void;
     Send(message: MailMessage): void;
     SendAsync(from: string, recipients: string, subject: string, body: string, userToken: unknown): void;
@@ -551,7 +498,6 @@ export const SmtpException: {
     new(): SmtpException;
     new(message: string): SmtpException;
     new(message: string, innerException: Exception): SmtpException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): SmtpException;
 };
 
 
@@ -572,7 +518,6 @@ export const SmtpFailedRecipientException: {
     new(): SmtpFailedRecipientException;
     new(message: string): SmtpFailedRecipientException;
     new(message: string, innerException: Exception): SmtpFailedRecipientException;
-    new(info: SerializationInfo, context: StreamingContext): SmtpFailedRecipientException;
     new(statusCode: SmtpStatusCode, failedRecipient: string): SmtpFailedRecipientException;
     new(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string): SmtpFailedRecipientException;
     new(message: string, failedRecipient: string, innerException: Exception): SmtpFailedRecipientException;
@@ -596,7 +541,6 @@ export const SmtpFailedRecipientsException: {
     new(): SmtpFailedRecipientsException;
     new(message: string): SmtpFailedRecipientsException;
     new(message: string, innerException: Exception): SmtpFailedRecipientsException;
-    new(info: SerializationInfo, context: StreamingContext): SmtpFailedRecipientsException;
     new(message: string, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException;
 };
 

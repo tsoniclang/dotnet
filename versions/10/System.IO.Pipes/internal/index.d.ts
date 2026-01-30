@@ -67,17 +67,13 @@ export enum PipeTransmissionMode {
 export type PipeStreamImpersonationWorker = () => void;
 
 
-export abstract class AnonymousPipeClientStream$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface AnonymousPipeClientStream$instance extends AnonymousPipeClientStream$protected, PipeStream$instance {
+export interface AnonymousPipeClientStream$instance extends PipeStream$instance {
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
     DisposeAsync(): ValueTask;
+    Finalize(): void;
 }
 
 
@@ -96,19 +92,15 @@ export interface __AnonymousPipeClientStream$views {
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
 
 
-export abstract class AnonymousPipeServerStream$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface AnonymousPipeServerStream$instance extends AnonymousPipeServerStream$protected, PipeStream$instance {
+export interface AnonymousPipeServerStream$instance extends PipeStream$instance {
     readonly ClientSafePipeHandle: SafePipeHandle;
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     DisposeLocalCopyOfClientHandle(): void;
+    Finalize(): void;
     GetClientHandleAsString(): string;
 }
 
@@ -130,17 +122,11 @@ export interface __AnonymousPipeServerStream$views {
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
 
 
-export abstract class NamedPipeClientStream$protected {
-    protected CheckPipePropertyOperations(): void;
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface NamedPipeClientStream$instance extends NamedPipeClientStream$protected, PipeStream$instance {
+export interface NamedPipeClientStream$instance extends PipeStream$instance {
     readonly InBufferSize: int;
     readonly NumberOfServerInstances: int;
     readonly OutBufferSize: int;
+    CheckPipePropertyOperations(): void;
     Connect(): void;
     Connect(timeout: int): void;
     Connect(timeout: TimeSpan): void;
@@ -149,8 +135,10 @@ export interface NamedPipeClientStream$instance extends NamedPipeClientStream$pr
     ConnectAsync(cancellationToken: CancellationToken): Task;
     ConnectAsync(timeout: int, cancellationToken: CancellationToken): Task;
     ConnectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
     DisposeAsync(): ValueTask;
+    Finalize(): void;
 }
 
 
@@ -174,20 +162,16 @@ export interface __NamedPipeClientStream$views {
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
 
 
-export abstract class NamedPipeServerStream$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface NamedPipeServerStream$instance extends NamedPipeServerStream$protected, PipeStream$instance {
+export interface NamedPipeServerStream$instance extends PipeStream$instance {
     readonly InBufferSize: int;
     readonly OutBufferSize: int;
     BeginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
     Disconnect(): void;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
     DisposeAsync(): ValueTask;
     EndWaitForConnection(asyncResult: IAsyncResult): void;
+    Finalize(): void;
     GetImpersonationUserName(): string;
     RunAsClient(impersonationWorker: PipeStreamImpersonationWorker): void;
     WaitForConnection(): void;
@@ -242,14 +226,7 @@ export const PipeAuditRule: {
 
 export type PipeAuditRule = PipeAuditRule$instance;
 
-export abstract class PipeSecurity$protected {
-    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
-    protected Persist7(name: string, includeSections: AccessControlSections): void;
-    protected Persist6(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
-}
-
-
-export interface PipeSecurity$instance extends PipeSecurity$protected, NativeObjectSecurity {
+export interface PipeSecurity$instance extends NativeObjectSecurity {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -257,6 +234,9 @@ export interface PipeSecurity$instance extends PipeSecurity$protected, NativeObj
     AddAccessRule2(rule: PipeAccessRule): void;
     AddAuditRule2(rule: PipeAuditRule): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    Persist(name: string, includeSections: AccessControlSections): void;
+    Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
     RemoveAccessRule2(rule: PipeAccessRule): boolean;
     RemoveAccessRuleSpecific2(rule: PipeAccessRule): void;
     RemoveAuditRule2(rule: PipeAuditRule): boolean;
@@ -275,13 +255,7 @@ export const PipeSecurity: {
 
 export type PipeSecurity = PipeSecurity$instance;
 
-export abstract class PipeStream$protected {
-    protected CheckPipePropertyOperations(): void;
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface PipeStream$instance extends PipeStream$protected, Stream {
+export interface PipeStream$instance extends Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -297,6 +271,8 @@ export interface PipeStream$instance extends PipeStream$protected, Stream {
     readonly TransmissionMode: PipeTransmissionMode;
     BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    CheckPipePropertyOperations(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -327,9 +303,7 @@ export interface PipeStream$instance extends PipeStream$protected, Stream {
 }
 
 
-export const PipeStream: {
-    new(direction: PipeDirection, bufferSize: int): PipeStream;
-    new(direction: PipeDirection, transmissionMode: PipeTransmissionMode, outBufferSize: int): PipeStream;
+export const PipeStream: (abstract new(direction: PipeDirection, bufferSize: int) => PipeStream) & (abstract new(direction: PipeDirection, transmissionMode: PipeTransmissionMode, outBufferSize: int) => PipeStream) & {
 };
 
 

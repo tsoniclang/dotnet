@@ -325,7 +325,7 @@ export const ECPoint: {
 export type ECPoint = ECPoint$instance;
 
 export interface HashAlgorithmName$instance {
-    readonly Name: string;
+    readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     Equals(other: HashAlgorithmName): boolean;
     GetHashCode(): int;
@@ -392,27 +392,22 @@ export const RSAParameters: {
 
 export type RSAParameters = RSAParameters$instance;
 
-export abstract class Aes$protected {
-    protected DecryptKeyWrapPaddedCore(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    protected Dispose2(disposing: boolean): void;
-    protected EncryptKeyWrapPaddedCore(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-}
-
-
-export interface Aes$instance extends Aes$protected, SymmetricAlgorithm$instance {
+export interface Aes$instance extends SymmetricAlgorithm$instance {
     DecryptKeyWrapPadded(ciphertext: byte[]): byte[];
     DecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     DecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
+    DecryptKeyWrapPaddedCore(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EncryptKeyWrapPadded(plaintext: byte[]): byte[];
     EncryptKeyWrapPadded(plaintext: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     EncryptKeyWrapPadded(plaintext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    EncryptKeyWrapPaddedCore(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
     TryDecryptKeyWrapPadded(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
-export const Aes: {
-    new(): Aes;
+export const Aes: (abstract new() => Aes) & {
     GetKeyWrapPaddedLength(plaintextLengthInBytes: int): int;
 };
 
@@ -451,17 +446,13 @@ export interface AesCcm$instance extends System_Internal.IDisposable$instance {}
 export type AesCcm = AesCcm$instance & __AesCcm$views;
 
 
-export abstract class AesCng$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface AesCng$instance extends AesCng$protected, Aes$instance {
+export interface AesCng$instance extends Aes$instance {
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateDecryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GenerateIV(): void;
     GenerateKey(): void;
 }
@@ -483,14 +474,7 @@ export interface __AesCng$views {
 export type AesCng = AesCng$instance & __AesCng$views;
 
 
-export abstract class AesCryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected SetKeyCore2(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-}
-
-
-export interface AesCryptoServiceProvider$instance extends AesCryptoServiceProvider$protected, Aes$instance {
+export interface AesCryptoServiceProvider$instance extends Aes$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -504,9 +488,12 @@ export interface AesCryptoServiceProvider$instance extends AesCryptoServiceProvi
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
@@ -552,14 +539,7 @@ export interface AesGcm$instance extends System_Internal.IDisposable$instance {}
 export type AesGcm = AesGcm$instance & __AesGcm$views;
 
 
-export abstract class AesManaged$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected SetKeyCore2(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-}
-
-
-export interface AesManaged$instance extends AesManaged$protected, Aes$instance {
+export interface AesManaged$instance extends Aes$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -573,9 +553,12 @@ export interface AesManaged$instance extends AesManaged$protected, Aes$instance 
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
@@ -592,7 +575,8 @@ export type AesManaged = AesManaged$instance & __AesManaged$views;
 
 
 export interface AsnEncodedData$instance {
-    Oid: Oid;
+    get Oid(): Oid | undefined;
+    set Oid(value: Oid | undefined);
     RawData: byte[];
     CopyFrom(asnEncodedData: AsnEncodedData): void;
     Format(multiLine: boolean): string;
@@ -600,7 +584,6 @@ export interface AsnEncodedData$instance {
 
 
 export const AsnEncodedData: {
-    new(): AsnEncodedData;
     new(rawData: byte[]): AsnEncodedData;
     new(rawData: ReadOnlySpan_1<System_Internal.Byte>): AsnEncodedData;
     new(asnEncodedData: AsnEncodedData): AsnEncodedData;
@@ -647,7 +630,6 @@ export interface AsnEncodedDataEnumerator$instance {
 
 
 export const AsnEncodedDataEnumerator: {
-    new(): AsnEncodedDataEnumerator;
 };
 
 
@@ -658,18 +640,14 @@ export interface __AsnEncodedDataEnumerator$views {
 export type AsnEncodedDataEnumerator = AsnEncodedDataEnumerator$instance & __AsnEncodedDataEnumerator$views;
 
 
-export abstract class AsymmetricAlgorithm$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface AsymmetricAlgorithm$instance extends AsymmetricAlgorithm$protected {
+export interface AsymmetricAlgorithm$instance {
     readonly KeyExchangeAlgorithm: string | string | undefined;
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | string | undefined;
     Clear(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKeyPem(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): string;
@@ -698,8 +676,7 @@ export interface AsymmetricAlgorithm$instance extends AsymmetricAlgorithm$protec
 }
 
 
-export const AsymmetricAlgorithm: {
-    new(): AsymmetricAlgorithm;
+export const AsymmetricAlgorithm: (abstract new() => AsymmetricAlgorithm) & {
     Create(): AsymmetricAlgorithm;
     Create(algName: string): AsymmetricAlgorithm | undefined;
 };
@@ -713,29 +690,28 @@ export type AsymmetricAlgorithm = AsymmetricAlgorithm$instance & __AsymmetricAlg
 
 
 export interface AsymmetricKeyExchangeDeformatter$instance {
-    Parameters: string;
+    get Parameters(): string | undefined;
+    set Parameters(value: string | undefined);
     DecryptKeyExchange(rgb: byte[]): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
 }
 
 
-export const AsymmetricKeyExchangeDeformatter: {
-    new(): AsymmetricKeyExchangeDeformatter;
+export const AsymmetricKeyExchangeDeformatter: (abstract new() => AsymmetricKeyExchangeDeformatter) & {
 };
 
 
 export type AsymmetricKeyExchangeDeformatter = AsymmetricKeyExchangeDeformatter$instance;
 
 export interface AsymmetricKeyExchangeFormatter$instance {
-    readonly Parameters: string;
+    readonly Parameters: string | string | undefined;
     CreateKeyExchange(data: byte[]): byte[];
     CreateKeyExchange(data: byte[], symAlgType: Type): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
 }
 
 
-export const AsymmetricKeyExchangeFormatter: {
-    new(): AsymmetricKeyExchangeFormatter;
+export const AsymmetricKeyExchangeFormatter: (abstract new() => AsymmetricKeyExchangeFormatter) & {
 };
 
 
@@ -749,8 +725,7 @@ export interface AsymmetricSignatureDeformatter$instance {
 }
 
 
-export const AsymmetricSignatureDeformatter: {
-    new(): AsymmetricSignatureDeformatter;
+export const AsymmetricSignatureDeformatter: (abstract new() => AsymmetricSignatureDeformatter) & {
 };
 
 
@@ -764,8 +739,7 @@ export interface AsymmetricSignatureFormatter$instance {
 }
 
 
-export const AsymmetricSignatureFormatter: {
-    new(): AsymmetricSignatureFormatter;
+export const AsymmetricSignatureFormatter: (abstract new() => AsymmetricSignatureFormatter) & {
 };
 
 
@@ -890,16 +864,16 @@ export type CngAlgorithmGroup = CngAlgorithmGroup$instance & __CngAlgorithmGroup
 
 export interface CngKey$instance {
     readonly Algorithm: CngAlgorithm;
-    readonly AlgorithmGroup: CngAlgorithmGroup;
+    readonly AlgorithmGroup: CngAlgorithmGroup | undefined;
     readonly ExportPolicy: CngExportPolicies;
     readonly Handle: SafeNCryptKeyHandle;
     readonly IsEphemeral: boolean;
     readonly IsMachineKey: boolean;
-    readonly KeyName: string;
+    readonly KeyName: string | undefined;
     readonly KeySize: int;
     readonly KeyUsage: CngKeyUsages;
     ParentWindowHandle: nint;
-    readonly Provider: CngProvider;
+    readonly Provider: CngProvider | undefined;
     readonly ProviderHandle: SafeNCryptProviderHandle;
     readonly UIPolicy: CngUIPolicy;
     readonly UniqueName: string | undefined;
@@ -913,7 +887,6 @@ export interface CngKey$instance {
 
 
 export const CngKey: {
-    new(): CngKey;
     Create(algorithm: CngAlgorithm, keyName: string, creationParameters: CngKeyCreationParameters): CngKey;
     Create(algorithm: CngAlgorithm, keyName: string): CngKey;
     Create(algorithm: CngAlgorithm): CngKey;
@@ -983,7 +956,8 @@ export interface CngKeyCreationParameters$instance {
     readonly Parameters: CngPropertyCollection;
     ParentWindowHandle: nint;
     Provider: CngProvider;
-    UIPolicy: CngUIPolicy;
+    get UIPolicy(): CngUIPolicy | undefined;
+    set UIPolicy(value: CngUIPolicy | undefined);
 }
 
 
@@ -1060,8 +1034,8 @@ export type CngProvider = CngProvider$instance & __CngProvider$views;
 
 export interface CngUIPolicy$instance {
     readonly CreationTitle: string | undefined;
-    readonly Description: string;
-    readonly FriendlyName: string;
+    readonly Description: string | undefined;
+    readonly FriendlyName: string | undefined;
     readonly ProtectionLevel: CngUIProtectionLevels;
     readonly UseContext: string | undefined;
 }
@@ -1078,23 +1052,16 @@ export const CngUIPolicy: {
 
 export type CngUIPolicy = CngUIPolicy$instance;
 
-export abstract class CompositeMLDsa$protected {
-    protected Dispose(disposing: boolean): void;
-    protected abstract ExportCompositeMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): int;
-    protected abstract ExportCompositeMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): int;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface CompositeMLDsa$instance extends CompositeMLDsa$protected {
+export interface CompositeMLDsa$instance {
     readonly Algorithm: CompositeMLDsaAlgorithm;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportCompositeMLDsaPrivateKey(): byte[];
     ExportCompositeMLDsaPrivateKey(destination: Span_1<System_Internal.Byte>): int;
+    ExportCompositeMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): int;
     ExportCompositeMLDsaPublicKey(): byte[];
     ExportCompositeMLDsaPublicKey(destination: Span_1<System_Internal.Byte>): int;
+    ExportCompositeMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): int;
     ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): byte[];
@@ -1107,20 +1074,22 @@ export interface CompositeMLDsa$instance extends CompositeMLDsa$protected {
     ExportSubjectPublicKeyInfoPem(): string;
     SignData(data: byte[], context?: byte[]): byte[];
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): int;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
     TryExportCompositeMLDsaPrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportCompositeMLDsaPublicKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
-export const CompositeMLDsa: {
-    new(algorithm: CompositeMLDsaAlgorithm): CompositeMLDsa;
+export const CompositeMLDsa: (abstract new(algorithm: CompositeMLDsaAlgorithm) => CompositeMLDsa) & {
     readonly IsSupported: boolean;
     GenerateKey(algorithm: CompositeMLDsaAlgorithm): CompositeMLDsa;
     ImportCompositeMLDsaPrivateKey(algorithm: CompositeMLDsaAlgorithm, source: byte[]): CompositeMLDsa;
@@ -1162,7 +1131,6 @@ export interface CompositeMLDsaAlgorithm$instance {
 
 
 export const CompositeMLDsaAlgorithm: {
-    new(): CompositeMLDsaAlgorithm;
     readonly MLDsa44WithRSA2048Pss: CompositeMLDsaAlgorithm;
     readonly MLDsa44WithRSA2048Pkcs15: CompositeMLDsaAlgorithm;
     readonly MLDsa44WithEd25519: CompositeMLDsaAlgorithm;
@@ -1194,24 +1162,15 @@ export interface __CompositeMLDsaAlgorithm$views {
 export type CompositeMLDsaAlgorithm = CompositeMLDsaAlgorithm$instance & __CompositeMLDsaAlgorithm$views;
 
 
-export abstract class CompositeMLDsaCng$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ExportCompositeMLDsaPrivateKeyCore2(destination: Span_1<System_Internal.Byte>): int;
-    protected abstract ExportCompositeMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): int;
-    protected ExportCompositeMLDsaPublicKeyCore2(destination: Span_1<System_Internal.Byte>): int;
-    protected abstract ExportCompositeMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): int;
-    protected SignDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected VerifyDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface CompositeMLDsaCng$instance extends CompositeMLDsaCng$protected, CompositeMLDsa$instance {
+export interface CompositeMLDsaCng$instance extends CompositeMLDsa$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ExportCompositeMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): int;
+    ExportCompositeMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): int;
     GetKey(): CngKey;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -1256,7 +1215,6 @@ export const CryptographicException: {
     new(message: string): CryptographicException;
     new(message: string, inner: Exception): CryptographicException;
     new(format: string, insert: string): CryptographicException;
-    new(info: SerializationInfo, context: StreamingContext): CryptographicException;
 };
 
 
@@ -1277,7 +1235,6 @@ export const CryptographicUnexpectedOperationException: {
     new(message: string): CryptographicUnexpectedOperationException;
     new(message: string, inner: Exception): CryptographicUnexpectedOperationException;
     new(format: string, insert: string): CryptographicUnexpectedOperationException;
-    new(info: SerializationInfo, context: StreamingContext): CryptographicUnexpectedOperationException;
 };
 
 
@@ -1288,12 +1245,7 @@ export interface __CryptographicUnexpectedOperationException$views {
 export type CryptographicUnexpectedOperationException = CryptographicUnexpectedOperationException$instance & __CryptographicUnexpectedOperationException$views;
 
 
-export abstract class CryptoStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface CryptoStream$instance extends CryptoStream$protected, Stream {
+export interface CryptoStream$instance extends Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -1309,6 +1261,7 @@ export interface CryptoStream$instance extends CryptoStream$protected, Stream {
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -1383,7 +1336,7 @@ export interface CspParameters$instance {
     KeyNumber: int;
     Flags: CspProviderFlags;
     get KeyPassword(): SecureString | undefined;
-    set KeyPassword(value: SecureString);
+    set KeyPassword(value: SecureString | undefined);
     ParentWindowHandle: nint;
 }
 
@@ -1398,20 +1351,15 @@ export const CspParameters: {
 
 export type CspParameters = CspParameters$instance;
 
-export abstract class DeriveBytes$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface DeriveBytes$instance extends DeriveBytes$protected {
+export interface DeriveBytes$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetBytes(cb: int): byte[];
     Reset(): void;
 }
 
 
-export const DeriveBytes: {
-    new(): DeriveBytes;
+export const DeriveBytes: (abstract new() => DeriveBytes) & {
 };
 
 
@@ -1422,19 +1370,14 @@ export interface __DeriveBytes$views {
 export type DeriveBytes = DeriveBytes$instance & __DeriveBytes$views;
 
 
-export abstract class DES$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface DES$instance extends DES$protected, SymmetricAlgorithm$instance {
+export interface DES$instance extends SymmetricAlgorithm$instance {
     Key: byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const DES: {
-    new(): DES;
+export const DES: (abstract new() => DES) & {
     IsSemiWeakKey(rgbKey: byte[]): boolean;
     IsWeakKey(rgbKey: byte[]): boolean;
 };
@@ -1447,14 +1390,7 @@ export interface __DES$views {
 export type DES = DES$instance & __DES$views;
 
 
-export abstract class DESCryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected SetKeyCore2(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-}
-
-
-export interface DESCryptoServiceProvider$instance extends DESCryptoServiceProvider$protected, DES$instance {
+export interface DESCryptoServiceProvider$instance extends DES$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -1468,9 +1404,12 @@ export interface DESCryptoServiceProvider$instance extends DESCryptoServiceProvi
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
@@ -1486,29 +1425,17 @@ export interface __DESCryptoServiceProvider$views {
 export type DESCryptoServiceProvider = DESCryptoServiceProvider$instance & __DESCryptoServiceProvider$views;
 
 
-export abstract class DSA$protected {
-    protected CreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): byte[];
-    protected Dispose2(disposing: boolean): void;
-    protected HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    protected HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    protected SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    protected SignDataCore(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    protected TryCreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
-    protected TrySignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected VerifyDataCore(data: Stream, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifySignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-}
-
-
-export interface DSA$instance extends DSA$protected, AsymmetricAlgorithm$instance {
+export interface DSA$instance extends AsymmetricAlgorithm$instance {
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    CreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportParameters(includePrivateParameters: boolean): DSAParameters;
     FromXmlString(xmlString: string): void;
     GetMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
+    HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
     ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
@@ -1528,9 +1455,12 @@ export interface DSA$instance extends DSA$protected, AsymmetricAlgorithm$instanc
     SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
     SignData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    SignDataCore(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
     ToXmlString(includePrivateParameters: boolean): string;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TryCreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
@@ -1538,8 +1468,10 @@ export interface DSA$instance extends DSA$protected, AsymmetricAlgorithm$instanc
     TryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TrySignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
@@ -1548,15 +1480,17 @@ export interface DSA$instance extends DSA$protected, AsymmetricAlgorithm$instanc
     VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
     VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    VerifyDataCore(data: Stream, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
     VerifySignature(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifySignature(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifySignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
-export const DSA: {
-    new(): DSA;
+export const DSA: (abstract new() => DSA) & {
     Create(parameters: DSAParameters): DSA;
     Create(algName: string): DSA | undefined;
 };
@@ -1569,16 +1503,12 @@ export interface __DSA$views {
 export type DSA = DSA$instance & __DSA$views;
 
 
-export abstract class DSACng$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface DSACng$instance extends DSACng$protected, DSA$instance {
+export interface DSACng$instance extends DSA$instance {
     readonly Key: CngKey;
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportParameters(includePrivateParameters: boolean): DSAParameters;
     ImportParameters(parameters: DSAParameters): void;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
@@ -1602,29 +1532,23 @@ export interface __DSACng$views {
 export type DSACng = DSACng$instance & __DSACng$views;
 
 
-export abstract class DSACryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    protected HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    protected TryHashData2(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
-    protected TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
-}
-
-
-export interface DSACryptoServiceProvider$instance extends DSACryptoServiceProvider$protected, DSA$instance {
+export interface DSACryptoServiceProvider$instance extends DSA$instance {
     readonly CspKeyContainerInfo: CspKeyContainerInfo;
     readonly KeyExchangeAlgorithm: string | undefined;
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
     PersistKeyInCsp: boolean;
     readonly PublicOnly: boolean;
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | string | undefined;
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     ExportCspBlob(includePrivateParameters: boolean): byte[];
     ExportParameters(includePrivateParameters: boolean): DSAParameters;
     FromXmlString(xmlString: string): void;
+    HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     ImportCspBlob(keyBlob: byte[]): void;
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
     ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
@@ -1642,6 +1566,8 @@ export interface DSACryptoServiceProvider$instance extends DSACryptoServiceProvi
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
+    TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
@@ -1682,20 +1608,12 @@ export interface DSACryptoServiceProvider$instance extends ICspAsymmetricAlgorit
 export type DSACryptoServiceProvider = DSACryptoServiceProvider$instance & __DSACryptoServiceProvider$views;
 
 
-export abstract class DSAOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected TryCreateSignatureCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected TryCreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected VerifySignatureCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifySignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-}
-
-
-export interface DSAOpenSsl$instance extends DSAOpenSsl$protected, DSA$instance {
+export interface DSAOpenSsl$instance extends DSA$instance {
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(rgbHash: byte[], signatureFormat: DSASignatureFormat): byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
     ExportParameters(includePrivateParameters: boolean): DSAParameters;
@@ -1706,11 +1624,15 @@ export interface DSAOpenSsl$instance extends DSAOpenSsl$protected, DSA$instance 
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryCreateSignature(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TryCreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TryCreateSignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
     VerifySignature(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
     VerifySignature(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifySignature(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifySignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifySignatureCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -1762,13 +1684,9 @@ export const DSASignatureFormatter: {
 
 export type DSASignatureFormatter = DSASignatureFormatter$instance;
 
-export abstract class ECAlgorithm$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ECAlgorithm$instance extends ECAlgorithm$protected, AsymmetricAlgorithm$instance {
+export interface ECAlgorithm$instance extends AsymmetricAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportECPrivateKey(): byte[];
     ExportECPrivateKeyPem(): string;
     ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
@@ -1800,8 +1718,7 @@ export interface ECAlgorithm$instance extends ECAlgorithm$protected, AsymmetricA
 }
 
 
-export const ECAlgorithm: {
-    new(): ECAlgorithm;
+export const ECAlgorithm: (abstract new() => ECAlgorithm) & {
 };
 
 
@@ -1812,15 +1729,10 @@ export interface __ECAlgorithm$views {
 export type ECAlgorithm = ECAlgorithm$instance & __ECAlgorithm$views;
 
 
-export abstract class ECDiffieHellman$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface ECDiffieHellman$instance extends ECDiffieHellman$protected, ECAlgorithm$instance {
+export interface ECDiffieHellman$instance extends ECAlgorithm$instance {
     readonly KeyExchangeAlgorithm: string | string | undefined;
     readonly PublicKey: ECDiffieHellmanPublicKey;
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | undefined;
     DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
     DeriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
     DeriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
@@ -1829,13 +1741,13 @@ export interface ECDiffieHellman$instance extends ECDiffieHellman$protected, ECA
     DeriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
     DeriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     FromXmlString(xmlString: string): void;
     ToXmlString(includePrivateParameters: boolean): string;
 }
 
 
-export const ECDiffieHellman: {
-    new(): ECDiffieHellman;
+export const ECDiffieHellman: (abstract new() => ECDiffieHellman) & {
     Create(): ECDiffieHellman;
     Create(curve: ECCurve): ECDiffieHellman;
     Create(parameters: ECParameters): ECDiffieHellman;
@@ -1850,31 +1762,27 @@ export interface __ECDiffieHellman$views {
 export type ECDiffieHellman = ECDiffieHellman$instance & __ECDiffieHellman$views;
 
 
-export abstract class ECDiffieHellmanCng$protected {
-    protected Dispose4(disposing: boolean): void;
-}
-
-
-export interface ECDiffieHellmanCng$instance extends ECDiffieHellmanCng$protected, ECDiffieHellman$instance {
+export interface ECDiffieHellmanCng$instance extends ECDiffieHellman$instance {
     HashAlgorithm: CngAlgorithm;
     get HmacKey(): byte[] | undefined;
-    set HmacKey(value: byte[]);
+    set HmacKey(value: byte[] | undefined);
     readonly Key: CngKey;
     KeyDerivationFunction: ECDiffieHellmanKeyDerivationFunction;
     get Label(): byte[] | undefined;
-    set Label(value: byte[]);
+    set Label(value: byte[] | undefined);
     readonly PublicKey: ECDiffieHellmanPublicKey;
     get SecretAppend(): byte[] | undefined;
-    set SecretAppend(value: byte[]);
+    set SecretAppend(value: byte[] | undefined);
     get SecretPrepend(): byte[] | undefined;
-    set SecretPrepend(value: byte[]);
+    set SecretPrepend(value: byte[] | undefined);
     get Seed(): byte[] | undefined;
-    set Seed(value: byte[]);
+    set Seed(value: byte[] | undefined);
     readonly UseSecretAgreementAsHmacKey: boolean;
     DeriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
     DeriveSecretAgreementHandle(otherPartyPublicKey: CngKey): SafeNCryptSecretHandle;
     DeriveSecretAgreementHandle(otherPartyPublicKey: ECDiffieHellmanPublicKey): SafeNCryptSecretHandle;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     FromXmlString(xmlString: string): void;
     ToXmlString(includePrivateParameters: boolean): string;
 }
@@ -1895,13 +1803,9 @@ export interface __ECDiffieHellmanCng$views {
 export type ECDiffieHellmanCng = ECDiffieHellmanCng$instance & __ECDiffieHellmanCng$views;
 
 
-export abstract class ECDiffieHellmanCngPublicKey$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanCngPublicKey$protected, ECDiffieHellmanPublicKey$instance {
+export interface ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanPublicKey$instance {
     readonly BlobFormat: CngKeyBlobFormat;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Import(): CngKey;
     ToXmlString(): string;
@@ -1909,7 +1813,6 @@ export interface ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanCng
 
 
 export const ECDiffieHellmanCngPublicKey: {
-    new(): ECDiffieHellmanCngPublicKey;
     FromByteArray(publicKeyBlob: byte[], format: CngKeyBlobFormat): ECDiffieHellmanPublicKey;
     FromXmlString(xml: string): ECDiffieHellmanCngPublicKey;
 };
@@ -1922,12 +1825,7 @@ export interface __ECDiffieHellmanCngPublicKey$views {
 export type ECDiffieHellmanCngPublicKey = ECDiffieHellmanCngPublicKey$instance & __ECDiffieHellmanCngPublicKey$views;
 
 
-export abstract class ECDiffieHellmanOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ECDiffieHellmanOpenSsl$instance extends ECDiffieHellmanOpenSsl$protected, ECDiffieHellman$instance {
+export interface ECDiffieHellmanOpenSsl$instance extends ECDiffieHellman$instance {
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
     readonly PublicKey: ECDiffieHellmanPublicKey;
@@ -1938,6 +1836,7 @@ export interface ECDiffieHellmanOpenSsl$instance extends ECDiffieHellmanOpenSsl$
     DeriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
     DeriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
     DeriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
     ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
@@ -1966,13 +1865,9 @@ export interface __ECDiffieHellmanOpenSsl$views {
 export type ECDiffieHellmanOpenSsl = ECDiffieHellmanOpenSsl$instance & __ECDiffieHellmanOpenSsl$views;
 
 
-export abstract class ECDiffieHellmanPublicKey$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface ECDiffieHellmanPublicKey$instance extends ECDiffieHellmanPublicKey$protected {
+export interface ECDiffieHellmanPublicKey$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportExplicitParameters(): ECParameters;
     ExportParameters(): ECParameters;
     ExportSubjectPublicKeyInfo(): byte[];
@@ -1982,9 +1877,7 @@ export interface ECDiffieHellmanPublicKey$instance extends ECDiffieHellmanPublic
 }
 
 
-export const ECDiffieHellmanPublicKey: {
-    new(): ECDiffieHellmanPublicKey;
-    new(keyBlob: byte[]): ECDiffieHellmanPublicKey;
+export const ECDiffieHellmanPublicKey: (abstract new() => ECDiffieHellmanPublicKey) & (abstract new(keyBlob: byte[]) => ECDiffieHellmanPublicKey) & {
 };
 
 
@@ -1995,28 +1888,15 @@ export interface __ECDiffieHellmanPublicKey$views {
 export type ECDiffieHellmanPublicKey = ECDiffieHellmanPublicKey$instance & __ECDiffieHellmanPublicKey$views;
 
 
-export abstract class ECDsa$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    protected HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    protected SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    protected SignDataCore(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
-    protected SignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): byte[];
-    protected TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
-    protected TrySignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected TrySignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifyDataCore(data: Stream, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifyHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-}
-
-
-export interface ECDsa$instance extends ECDsa$protected, ECAlgorithm$instance {
+export interface ECDsa$instance extends ECAlgorithm$instance {
     readonly KeyExchangeAlgorithm: string | undefined;
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | string | undefined;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     FromXmlString(xmlString: string): void;
     GetMaxSignatureSize(signatureFormat: DSASignatureFormat): int;
+    HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
     SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
@@ -2027,17 +1907,23 @@ export interface ECDsa$instance extends ECDsa$protected, ECAlgorithm$instance {
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): int;
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName): int;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
+    SignDataCore(data: Stream, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
     SignHash(hash: byte[], signatureFormat: DSASignatureFormat): byte[];
     SignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): byte[];
     SignHash(hash: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     SignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): int;
     SignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): int;
     SignHash(hash: byte[]): byte[];
+    SignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): byte[];
     ToXmlString(includePrivateParameters: boolean): string;
+    TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TrySignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TrySignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
@@ -2046,15 +1932,17 @@ export interface ECDsa$instance extends ECDsa$protected, ECAlgorithm$instance {
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
     VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     VerifyData(data: Stream, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
+    VerifyDataCore(data: Stream, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
     VerifyHash(hash: byte[], signature: byte[]): boolean;
     VerifyHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
     VerifyHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifyHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
-export const ECDsa: {
-    new(): ECDsa;
+export const ECDsa: (abstract new() => ECDsa) & {
     Create(): ECDsa;
     Create(curve: ECCurve): ECDsa;
     Create(parameters: ECParameters): ECDsa;
@@ -2069,15 +1957,11 @@ export interface __ECDsa$views {
 export type ECDsa = ECDsa$instance & __ECDsa$views;
 
 
-export abstract class ECDsaCng$protected {
-    protected Dispose4(disposing: boolean): void;
-}
-
-
-export interface ECDsaCng$instance extends ECDsaCng$protected, ECDsa$instance {
+export interface ECDsaCng$instance extends ECDsa$instance {
     HashAlgorithm: CngAlgorithm;
     readonly Key: CngKey;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     FromXmlString(xmlString: string): void;
     SignData(data: Stream): byte[];
     SignData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
@@ -2128,18 +2012,10 @@ export interface __ECDsaCng$views {
 export type ECDsaCng = ECDsaCng$instance & __ECDsaCng$views;
 
 
-export abstract class ECDsaOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected TrySignHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected TrySignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
-    protected VerifyHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-    protected VerifyHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
-}
-
-
-export interface ECDsaOpenSsl$instance extends ECDsaOpenSsl$protected, ECDsa$instance {
+export interface ECDsaOpenSsl$instance extends ECDsa$instance {
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
     ExportExplicitParameters(includePrivateParameters: boolean): ECParameters;
@@ -2158,11 +2034,15 @@ export interface ECDsaOpenSsl$instance extends ECDsaOpenSsl$protected, ECDsa$ins
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TrySignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
+    TrySignHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat, bytesWritten: int): boolean;
     VerifyHash(hash: byte[], signature: byte[]): boolean;
     VerifyHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyHash(hash: byte[], signature: byte[], signatureFormat: DSASignatureFormat): boolean;
     VerifyHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifyHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
+    VerifyHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, signatureFormat: DSASignatureFormat): boolean;
 }
 
 
@@ -2182,19 +2062,15 @@ export interface __ECDsaOpenSsl$views {
 export type ECDsaOpenSsl = ECDsaOpenSsl$instance & __ECDsaOpenSsl$views;
 
 
-export abstract class FromBase64Transform$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface FromBase64Transform$instance extends FromBase64Transform$protected {
+export interface FromBase64Transform$instance {
     readonly CanReuseTransform: boolean;
     readonly CanTransformMultipleBlocks: boolean;
     readonly InputBlockSize: int;
     readonly OutputBlockSize: int;
     Clear(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
@@ -2214,16 +2090,7 @@ export interface __FromBase64Transform$views {
 export type FromBase64Transform = FromBase64Transform$instance & __FromBase64Transform$views;
 
 
-export abstract class HashAlgorithm$protected {
-    protected Dispose(disposing: boolean): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected abstract HashCore(array: byte[], ibStart: int, cbSize: int): void;
-    protected abstract HashFinal(): byte[];
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HashAlgorithm$instance extends HashAlgorithm$protected {
+export interface HashAlgorithm$instance {
     readonly CanReuseTransform: boolean;
     readonly CanTransformMultipleBlocks: boolean;
     readonly Hash: byte[] | undefined;
@@ -2236,15 +2103,19 @@ export interface HashAlgorithm$instance extends HashAlgorithm$protected {
     ComputeHash(inputStream: Stream): byte[];
     ComputeHashAsync(inputStream: Stream, cancellationToken?: CancellationToken): Task_1<byte[]>;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     TryComputeHash(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
-export const HashAlgorithm: {
-    new(): HashAlgorithm;
+export const HashAlgorithm: (abstract new() => HashAlgorithm) & {
     Create(): HashAlgorithm;
     Create(hashName: string): HashAlgorithm | undefined;
 };
@@ -2258,29 +2129,24 @@ export interface __HashAlgorithm$views {
 export type HashAlgorithm = HashAlgorithm$instance & __HashAlgorithm$views;
 
 
-export abstract class HMAC$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMAC$instance extends HMAC$protected, KeyedHashAlgorithm$instance {
+export interface HMAC$instance extends KeyedHashAlgorithm$instance {
     HashName: string;
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
-export const HMAC: {
-    new(): HMAC;
+export const HMAC: (abstract new() => HMAC) & {
 };
 
 
@@ -2292,23 +2158,19 @@ export interface __HMAC$views {
 export type HMAC = HMAC$instance & __HMAC$views;
 
 
-export abstract class HMACMD5$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACMD5$instance extends HMACMD5$protected, HMAC$instance {
+export interface HMACMD5$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2338,23 +2200,19 @@ export interface __HMACMD5$views {
 export type HMACMD5 = HMACMD5$instance & __HMACMD5$views;
 
 
-export abstract class HMACSHA1$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA1$instance extends HMACSHA1$protected, HMAC$instance {
+export interface HMACSHA1$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2385,23 +2243,19 @@ export interface __HMACSHA1$views {
 export type HMACSHA1 = HMACSHA1$instance & __HMACSHA1$views;
 
 
-export abstract class HMACSHA256$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA256$instance extends HMACSHA256$protected, HMAC$instance {
+export interface HMACSHA256$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2431,23 +2285,19 @@ export interface __HMACSHA256$views {
 export type HMACSHA256 = HMACSHA256$instance & __HMACSHA256$views;
 
 
-export abstract class HMACSHA3_256$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA3_256$instance extends HMACSHA3_256$protected, HMAC$instance {
+export interface HMACSHA3_256$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2478,23 +2328,19 @@ export interface __HMACSHA3_256$views {
 export type HMACSHA3_256 = HMACSHA3_256$instance & __HMACSHA3_256$views;
 
 
-export abstract class HMACSHA3_384$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA3_384$instance extends HMACSHA3_384$protected, HMAC$instance {
+export interface HMACSHA3_384$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2525,23 +2371,19 @@ export interface __HMACSHA3_384$views {
 export type HMACSHA3_384 = HMACSHA3_384$instance & __HMACSHA3_384$views;
 
 
-export abstract class HMACSHA3_512$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA3_512$instance extends HMACSHA3_512$protected, HMAC$instance {
+export interface HMACSHA3_512$instance extends HMAC$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2572,24 +2414,20 @@ export interface __HMACSHA3_512$views {
 export type HMACSHA3_512 = HMACSHA3_512$instance & __HMACSHA3_512$views;
 
 
-export abstract class HMACSHA384$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA384$instance extends HMACSHA384$protected, HMAC$instance {
+export interface HMACSHA384$instance extends HMAC$instance {
     Key: byte[];
     ProduceLegacyHmacValues: boolean;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2619,24 +2457,20 @@ export interface __HMACSHA384$views {
 export type HMACSHA384 = HMACSHA384$instance & __HMACSHA384$views;
 
 
-export abstract class HMACSHA512$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(rgb: byte[], ib: int, cb: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface HMACSHA512$instance extends HMACSHA512$protected, HMAC$instance {
+export interface HMACSHA512$instance extends HMAC$instance {
     Key: byte[];
     ProduceLegacyHmacValues: boolean;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(rgb: byte[], ib: int, cb: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2684,7 +2518,6 @@ export interface IncrementalHash$instance {
 
 
 export const IncrementalHash: {
-    new(): IncrementalHash;
     CreateHash(hashAlgorithm: HashAlgorithmName): IncrementalHash;
     CreateHMAC(hashAlgorithm: HashAlgorithmName, key: byte[]): IncrementalHash;
     CreateHMAC(hashAlgorithm: HashAlgorithmName, key: ReadOnlySpan_1<System_Internal.Byte>): IncrementalHash;
@@ -2700,21 +2533,16 @@ export interface IncrementalHash$instance extends System_Internal.IDisposable$in
 export type IncrementalHash = IncrementalHash$instance & __IncrementalHash$views;
 
 
-export abstract class KeyedHashAlgorithm$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface KeyedHashAlgorithm$instance extends KeyedHashAlgorithm$protected, HashAlgorithm$instance {
+export interface KeyedHashAlgorithm$instance extends HashAlgorithm$instance {
     Key: byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const KeyedHashAlgorithm: {
-    new(): KeyedHashAlgorithm;
+export const KeyedHashAlgorithm: (abstract new() => KeyedHashAlgorithm) & {
 };
 
 
@@ -2893,27 +2721,21 @@ export interface MaskGenerationMethod$instance {
 }
 
 
-export const MaskGenerationMethod: {
-    new(): MaskGenerationMethod;
+export const MaskGenerationMethod: (abstract new() => MaskGenerationMethod) & {
 };
 
 
 export type MaskGenerationMethod = MaskGenerationMethod$instance;
 
-export abstract class MD5$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface MD5$instance extends MD5$protected, HashAlgorithm$instance {
+export interface MD5$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const MD5: {
-    new(): MD5;
+export const MD5: (abstract new() => MD5) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     HashData(source: byte[]): byte[];
@@ -2935,22 +2757,18 @@ export interface __MD5$views {
 export type MD5 = MD5$instance & __MD5$views;
 
 
-export abstract class MD5CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface MD5CryptoServiceProvider$instance extends MD5CryptoServiceProvider$protected, MD5$instance {
+export interface MD5CryptoServiceProvider$instance extends MD5$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -2967,24 +2785,10 @@ export interface __MD5CryptoServiceProvider$views {
 export type MD5CryptoServiceProvider = MD5CryptoServiceProvider$instance & __MD5CryptoServiceProvider$views;
 
 
-export abstract class MLDsa$protected {
-    protected Dispose(disposing: boolean): void;
-    protected abstract ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface MLDsa$instance extends MLDsa$protected {
+export interface MLDsa$instance {
     readonly Algorithm: MLDsaAlgorithm;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
@@ -2993,37 +2797,46 @@ export interface MLDsa$instance extends MLDsa$protected {
     ExportEncryptedPkcs8PrivateKeyPem(password: string, pbeParameters: PbeParameters): string;
     ExportMLDsaPrivateKey(): byte[];
     ExportMLDsaPrivateKey(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportMLDsaPrivateSeed(): byte[];
     ExportMLDsaPrivateSeed(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
     ExportMLDsaPublicKey(): byte[];
     ExportMLDsaPublicKey(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportPkcs8PrivateKey(): byte[];
     ExportPkcs8PrivateKeyPem(): string;
     ExportSubjectPublicKeyInfo(): byte[];
     ExportSubjectPublicKeyInfoPem(): string;
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
     SignData(data: byte[], context?: byte[]): byte[];
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
     SignMu(externalMu: byte[]): byte[];
     SignMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     SignMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
     SignPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
     SignPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
     TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyMu(externalMu: byte[], signature: byte[]): boolean;
     VerifyMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
-export const MLDsa: {
-    new(algorithm: MLDsaAlgorithm): MLDsa;
+export const MLDsa: (abstract new(algorithm: MLDsaAlgorithm) => MLDsa) & {
     readonly IsSupported: boolean;
     GenerateKey(algorithm: MLDsaAlgorithm): MLDsa;
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>): MLDsa;
@@ -3070,7 +2883,6 @@ export interface MLDsaAlgorithm$instance {
 
 
 export const MLDsaAlgorithm: {
-    new(): MLDsaAlgorithm;
     readonly MLDsa44: MLDsaAlgorithm;
     readonly MLDsa65: MLDsaAlgorithm;
     readonly MLDsa87: MLDsaAlgorithm;
@@ -3087,34 +2899,20 @@ export interface __MLDsaAlgorithm$views {
 export type MLDsaAlgorithm = MLDsaAlgorithm$instance & __MLDsaAlgorithm$views;
 
 
-export abstract class MLDsaCng$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ExportMLDsaPrivateKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportMLDsaPrivateSeedCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportMLDsaPublicKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected SignDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignMuCore2(mu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected VerifyDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyMuCore2(mu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface MLDsaCng$instance extends MLDsaCng$protected, MLDsa$instance {
+export interface MLDsaCng$instance extends MLDsa$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
     GetKey(): CngKey;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignMuCore(mu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyMuCore(mu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -3130,34 +2928,20 @@ export interface __MLDsaCng$views {
 export type MLDsaCng = MLDsaCng$instance & __MLDsaCng$views;
 
 
-export abstract class MLDsaOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ExportMLDsaPrivateKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportMLDsaPrivateSeedCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportMLDsaPublicKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected SignDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignMuCore2(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected VerifyDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyMuCore2(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface MLDsaOpenSsl$instance extends MLDsaOpenSsl$protected, MLDsa$instance {
+export interface MLDsaOpenSsl$instance extends MLDsa$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    ExportMLDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportMLDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyMuCore(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -3173,28 +2957,22 @@ export interface __MLDsaOpenSsl$views {
 export type MLDsaOpenSsl = MLDsaOpenSsl$instance & __MLDsaOpenSsl$views;
 
 
-export abstract class MLKem$protected {
-    protected abstract DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected Dispose(disposing: boolean): void;
-    protected abstract EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface MLKem$instance extends MLKem$protected {
+export interface MLKem$instance {
     readonly Algorithm: MLKemAlgorithm;
     Decapsulate(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
     Decapsulate(ciphertext: byte[]): byte[];
+    DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Encapsulate(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
     Encapsulate(ciphertext: byte[], sharedSecret: byte[]): void;
+    EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
     ExportDecapsulationKey(destination: Span_1<System_Internal.Byte>): void;
     ExportDecapsulationKey(): byte[];
+    ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportEncapsulationKey(destination: Span_1<System_Internal.Byte>): void;
     ExportEncapsulationKey(): byte[];
+    ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
@@ -3205,18 +2983,19 @@ export interface MLKem$instance extends MLKem$protected {
     ExportPkcs8PrivateKeyPem(): string;
     ExportPrivateSeed(destination: Span_1<System_Internal.Byte>): void;
     ExportPrivateSeed(): byte[];
+    ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
     ExportSubjectPublicKeyInfo(): byte[];
     ExportSubjectPublicKeyInfoPem(): string;
     TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
-export const MLKem: {
-    new(algorithm: MLKemAlgorithm): MLKem;
+export const MLKem: (abstract new(algorithm: MLKemAlgorithm) => MLKem) & {
     readonly IsSupported: boolean;
     GenerateKey(algorithm: MLKemAlgorithm): MLKem;
     ImportDecapsulationKey(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
@@ -3263,7 +3042,6 @@ export interface MLKemAlgorithm$instance {
 
 
 export const MLKemAlgorithm: {
-    new(): MLKemAlgorithm;
     readonly MLKem512: MLKemAlgorithm;
     readonly MLKem768: MLKemAlgorithm;
     readonly MLKem1024: MLKemAlgorithm;
@@ -3280,26 +3058,16 @@ export interface __MLKemAlgorithm$views {
 export type MLKemAlgorithm = MLKemAlgorithm$instance & __MLKemAlgorithm$views;
 
 
-export abstract class MLKemCng$protected {
-    protected DecapsulateCore2(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected abstract DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected Dispose2(disposing: boolean): void;
-    protected EncapsulateCore2(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected abstract EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected ExportDecapsulationKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportEncapsulationKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportPrivateSeedCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface MLKemCng$instance extends MLKemCng$protected, MLKem$instance {
+export interface MLKemCng$instance extends MLKem$instance {
+    DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
+    ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
     GetKey(): CngKey;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -3315,26 +3083,16 @@ export interface __MLKemCng$views {
 export type MLKemCng = MLKemCng$instance & __MLKemCng$views;
 
 
-export abstract class MLKemOpenSsl$protected {
-    protected DecapsulateCore2(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected abstract DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected Dispose2(disposing: boolean): void;
-    protected EncapsulateCore2(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected abstract EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
-    protected ExportDecapsulationKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportEncapsulationKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportPrivateSeedCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface MLKemOpenSsl$instance extends MLKemOpenSsl$protected, MLKem$instance {
+export interface MLKemOpenSsl$instance extends MLKem$instance {
+    DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    EncapsulateCore(ciphertext: Span_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
+    ExportDecapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportEncapsulationKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportPrivateSeedCore(destination: Span_1<System_Internal.Byte>): void;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -3351,8 +3109,10 @@ export type MLKemOpenSsl = MLKemOpenSsl$instance & __MLKemOpenSsl$views;
 
 
 export interface Oid$instance {
-    FriendlyName: string;
-    Value: string;
+    get FriendlyName(): string | undefined;
+    set FriendlyName(value: string | undefined);
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
 }
 
 
@@ -3375,7 +3135,7 @@ export interface OidCollection$instance {
     Add(oid: Oid): int;
     CopyTo(array: Oid[], index: int): void;
     get_Item(index: int): Oid;
-    get_Item(oid: string): Oid;
+    get_Item(oid: string): Oid | undefined;
     GetEnumerator(): OidEnumerator;
 }
 
@@ -3401,7 +3161,6 @@ export interface OidEnumerator$instance {
 
 
 export const OidEnumerator: {
-    new(): OidEnumerator;
 };
 
 
@@ -3412,16 +3171,13 @@ export interface __OidEnumerator$views {
 export type OidEnumerator = OidEnumerator$instance & __OidEnumerator$views;
 
 
-export abstract class PasswordDeriveBytes$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface PasswordDeriveBytes$instance extends PasswordDeriveBytes$protected, DeriveBytes$instance {
+export interface PasswordDeriveBytes$instance extends DeriveBytes$instance {
     HashName: string;
     IterationCount: int;
-    Salt: byte[];
+    get Salt(): byte[] | undefined;
+    set Salt(value: byte[] | undefined);
     CryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GetBytes(cb: int): byte[];
     Reset(): void;
@@ -3474,13 +3230,9 @@ export const PKCS1MaskGenerationMethod: {
 
 export type PKCS1MaskGenerationMethod = PKCS1MaskGenerationMethod$instance;
 
-export abstract class RandomNumberGenerator$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface RandomNumberGenerator$instance extends RandomNumberGenerator$protected {
+export interface RandomNumberGenerator$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetBytes(data: byte[]): void;
     GetBytes(data: byte[], offset: int, count: int): void;
     GetBytes(data: Span_1<System_Internal.Byte>): void;
@@ -3489,8 +3241,7 @@ export interface RandomNumberGenerator$instance extends RandomNumberGenerator$pr
 }
 
 
-export const RandomNumberGenerator: {
-    new(): RandomNumberGenerator;
+export const RandomNumberGenerator: (abstract new() => RandomNumberGenerator) & {
     Create(): RandomNumberGenerator;
     Create(rngName: string): RandomNumberGenerator | undefined;
     Fill(data: Span_1<System_Internal.Byte>): void;
@@ -3513,20 +3264,15 @@ export interface __RandomNumberGenerator$views {
 export type RandomNumberGenerator = RandomNumberGenerator$instance & __RandomNumberGenerator$views;
 
 
-export abstract class RC2$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface RC2$instance extends RC2$protected, SymmetricAlgorithm$instance {
+export interface RC2$instance extends SymmetricAlgorithm$instance {
     EffectiveKeySize: int;
     KeySize: int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const RC2: {
-    new(): RC2;
+export const RC2: (abstract new() => RC2) & {
 };
 
 
@@ -3537,14 +3283,7 @@ export interface __RC2$views {
 export type RC2 = RC2$instance & __RC2$views;
 
 
-export abstract class RC2CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected SetKeyCore2(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-}
-
-
-export interface RC2CryptoServiceProvider$instance extends RC2CryptoServiceProvider$protected, RC2$instance {
+export interface RC2CryptoServiceProvider$instance extends RC2$instance {
     BlockSize: int;
     EffectiveKeySize: int;
     FeedbackSize: int;
@@ -3560,9 +3299,12 @@ export interface RC2CryptoServiceProvider$instance extends RC2CryptoServiceProvi
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
@@ -3578,16 +3320,12 @@ export interface __RC2CryptoServiceProvider$views {
 export type RC2CryptoServiceProvider = RC2CryptoServiceProvider$instance & __RC2CryptoServiceProvider$views;
 
 
-export abstract class Rfc2898DeriveBytes$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Rfc2898DeriveBytes$instance extends Rfc2898DeriveBytes$protected, DeriveBytes$instance {
+export interface Rfc2898DeriveBytes$instance extends DeriveBytes$instance {
     readonly HashAlgorithm: HashAlgorithmName;
     IterationCount: int;
     Salt: byte[];
     CryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GetBytes(cb: int): byte[];
     Reset(): void;
@@ -3619,18 +3357,13 @@ export interface __Rfc2898DeriveBytes$views {
 export type Rfc2898DeriveBytes = Rfc2898DeriveBytes$instance & __Rfc2898DeriveBytes$views;
 
 
-export abstract class Rijndael$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Rijndael$instance extends Rijndael$protected, SymmetricAlgorithm$instance {
+export interface Rijndael$instance extends SymmetricAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const Rijndael: {
-    new(): Rijndael;
+export const Rijndael: (abstract new() => Rijndael) & {
 };
 
 
@@ -3641,12 +3374,7 @@ export interface __Rijndael$views {
 export type Rijndael = Rijndael$instance & __Rijndael$views;
 
 
-export abstract class RijndaelManaged$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface RijndaelManaged$instance extends RijndaelManaged$protected, Rijndael$instance {
+export interface RijndaelManaged$instance extends Rijndael$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -3659,6 +3387,7 @@ export interface RijndaelManaged$instance extends RijndaelManaged$protected, Rij
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
@@ -3677,12 +3406,8 @@ export interface __RijndaelManaged$views {
 export type RijndaelManaged = RijndaelManaged$instance & __RijndaelManaged$views;
 
 
-export abstract class RNGCryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface RNGCryptoServiceProvider$instance extends RNGCryptoServiceProvider$protected, RandomNumberGenerator$instance {
+export interface RNGCryptoServiceProvider$instance extends RandomNumberGenerator$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GetBytes(data: byte[]): void;
     GetBytes(data: byte[], offset: int, count: int): void;
@@ -3709,22 +3434,15 @@ export interface __RNGCryptoServiceProvider$views {
 export type RNGCryptoServiceProvider = RNGCryptoServiceProvider$instance & __RNGCryptoServiceProvider$views;
 
 
-export abstract class RSA$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
-    protected HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
-    protected TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
-}
-
-
-export interface RSA$instance extends RSA$protected, AsymmetricAlgorithm$instance {
+export interface RSA$instance extends AsymmetricAlgorithm$instance {
     readonly KeyExchangeAlgorithm: string | undefined;
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | string | undefined;
     Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, padding: RSAEncryptionPadding): int;
     DecryptValue(rgb: byte[]): byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     Encrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
     Encrypt(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, padding: RSAEncryptionPadding): int;
@@ -3736,6 +3454,8 @@ export interface RSA$instance extends RSA$protected, AsymmetricAlgorithm$instanc
     ExportRSAPublicKeyPem(): string;
     FromXmlString(xmlString: string): void;
     GetMaxOutputSize(): int;
+    HashData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
+    HashData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
     ImportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, bytesRead: int): void;
@@ -3773,6 +3493,7 @@ export interface RSA$instance extends RSA$protected, AsymmetricAlgorithm$instanc
     TryExportRSAPublicKeyPem(destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: int): boolean;
     VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
@@ -3784,8 +3505,7 @@ export interface RSA$instance extends RSA$protected, AsymmetricAlgorithm$instanc
 }
 
 
-export const RSA: {
-    new(): RSA;
+export const RSA: (abstract new() => RSA) & {
     Create(parameters: RSAParameters): RSA;
     Create(algName: string): RSA | undefined;
 };
@@ -3798,14 +3518,10 @@ export interface __RSA$views {
 export type RSA = RSA$instance & __RSA$views;
 
 
-export abstract class RSACng$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface RSACng$instance extends RSACng$protected, RSA$instance {
+export interface RSACng$instance extends RSA$instance {
     readonly Key: CngKey;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportParameters(includePrivateParameters: boolean): RSAParameters;
     ImportParameters(parameters: RSAParameters): void;
 }
@@ -3825,22 +3541,18 @@ export interface __RSACng$views {
 export type RSACng = RSACng$instance & __RSACng$views;
 
 
-export abstract class RSACryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface RSACryptoServiceProvider$instance extends RSACryptoServiceProvider$protected, RSA$instance {
+export interface RSACryptoServiceProvider$instance extends RSA$instance {
     readonly CspKeyContainerInfo: CspKeyContainerInfo;
     readonly KeyExchangeAlgorithm: string | undefined;
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
     PersistKeyInCsp: boolean;
     readonly PublicOnly: boolean;
-    readonly SignatureAlgorithm: string;
+    readonly SignatureAlgorithm: string | string | undefined;
     Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, padding: RSAEncryptionPadding): int;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     Encrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
@@ -3912,7 +3624,6 @@ export interface RSAEncryptionPadding$instance {
 
 
 export const RSAEncryptionPadding: {
-    new(): RSAEncryptionPadding;
     readonly Pkcs1: RSAEncryptionPadding;
     readonly OaepSHA1: RSAEncryptionPadding;
     readonly OaepSHA256: RSAEncryptionPadding;
@@ -3936,7 +3647,8 @@ export type RSAEncryptionPadding = RSAEncryptionPadding$instance & __RSAEncrypti
 
 
 export interface RSAOAEPKeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter {
-    Parameters: string;
+    get Parameters(): string | undefined;
+    set Parameters(value: string | undefined);
     DecryptKeyExchange(rgbData: byte[]): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
 }
@@ -3952,10 +3664,10 @@ export type RSAOAEPKeyExchangeDeformatter = RSAOAEPKeyExchangeDeformatter$instan
 
 export interface RSAOAEPKeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
     get Parameter(): byte[] | undefined;
-    set Parameter(value: byte[]);
-    readonly Parameters: string;
+    set Parameter(value: byte[] | undefined);
+    readonly Parameters: string | undefined;
     get Rng(): RandomNumberGenerator | undefined;
-    set Rng(value: RandomNumberGenerator);
+    set Rng(value: RandomNumberGenerator | undefined);
     CreateKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
     CreateKeyExchange(rgbData: byte[]): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
@@ -3970,17 +3682,13 @@ export const RSAOAEPKeyExchangeFormatter: {
 
 export type RSAOAEPKeyExchangeFormatter = RSAOAEPKeyExchangeFormatter$instance;
 
-export abstract class RSAOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface RSAOpenSsl$instance extends RSAOpenSsl$protected, RSA$instance {
+export interface RSAOpenSsl$instance extends RSA$instance {
     KeySize: int;
     readonly LegalKeySizes: KeySizes[];
     Decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
     Decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, padding: RSAEncryptionPadding): int;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
     Encrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
@@ -4043,9 +3751,10 @@ export type RSAOpenSsl = RSAOpenSsl$instance & __RSAOpenSsl$views;
 
 
 export interface RSAPKCS1KeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter {
-    Parameters: string;
+    get Parameters(): string | undefined;
+    set Parameters(value: string | undefined);
     get RNG(): RandomNumberGenerator | undefined;
-    set RNG(value: RandomNumberGenerator);
+    set RNG(value: RandomNumberGenerator | undefined);
     DecryptKeyExchange(rgbIn: byte[]): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
 }
@@ -4060,9 +3769,9 @@ export const RSAPKCS1KeyExchangeDeformatter: {
 export type RSAPKCS1KeyExchangeDeformatter = RSAPKCS1KeyExchangeDeformatter$instance;
 
 export interface RSAPKCS1KeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
-    readonly Parameters: string;
+    readonly Parameters: string | string | undefined;
     get Rng(): RandomNumberGenerator | undefined;
-    set Rng(value: RandomNumberGenerator);
+    set Rng(value: RandomNumberGenerator | undefined);
     CreateKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
     CreateKeyExchange(rgbData: byte[]): byte[];
     SetKey(key: AsymmetricAlgorithm): void;
@@ -4119,7 +3828,6 @@ export interface RSASignaturePadding$instance {
 
 
 export const RSASignaturePadding: {
-    new(): RSASignaturePadding;
     readonly Pkcs1: RSASignaturePadding;
     readonly Pss: RSASignaturePadding;
 };
@@ -4135,16 +3843,12 @@ export interface __RSASignaturePadding$views {
 export type RSASignaturePadding = RSASignaturePadding$instance & __RSASignaturePadding$views;
 
 
-export abstract class SafeEvpPKeyHandle$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeEvpPKeyHandle$instance extends SafeEvpPKeyHandle$protected, SafeHandle {
+export interface SafeEvpPKeyHandle$instance extends SafeHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DuplicateHandle(): SafeEvpPKeyHandle;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -4165,20 +3869,15 @@ export interface __SafeEvpPKeyHandle$views {
 export type SafeEvpPKeyHandle = SafeEvpPKeyHandle$instance & __SafeEvpPKeyHandle$views;
 
 
-export abstract class SHA1$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA1$instance extends SHA1$protected, HashAlgorithm$instance {
+export interface SHA1$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA1: {
-    new(): SHA1;
+export const SHA1: (abstract new() => SHA1) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     HashData(source: byte[]): byte[];
@@ -4200,22 +3899,18 @@ export interface __SHA1$views {
 export type SHA1 = SHA1$instance & __SHA1$views;
 
 
-export abstract class SHA1CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA1CryptoServiceProvider$instance extends SHA1CryptoServiceProvider$protected, SHA1$instance {
+export interface SHA1CryptoServiceProvider$instance extends SHA1$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4232,22 +3927,18 @@ export interface __SHA1CryptoServiceProvider$views {
 export type SHA1CryptoServiceProvider = SHA1CryptoServiceProvider$instance & __SHA1CryptoServiceProvider$views;
 
 
-export abstract class SHA1Managed$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA1Managed$instance extends SHA1Managed$protected, SHA1$instance {
+export interface SHA1Managed$instance extends SHA1$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4264,20 +3955,15 @@ export interface __SHA1Managed$views {
 export type SHA1Managed = SHA1Managed$instance & __SHA1Managed$views;
 
 
-export abstract class SHA256$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA256$instance extends SHA256$protected, HashAlgorithm$instance {
+export interface SHA256$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA256: {
-    new(): SHA256;
+export const SHA256: (abstract new() => SHA256) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     HashData(source: byte[]): byte[];
@@ -4299,22 +3985,18 @@ export interface __SHA256$views {
 export type SHA256 = SHA256$instance & __SHA256$views;
 
 
-export abstract class SHA256CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA256CryptoServiceProvider$instance extends SHA256CryptoServiceProvider$protected, SHA256$instance {
+export interface SHA256CryptoServiceProvider$instance extends SHA256$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4331,22 +4013,18 @@ export interface __SHA256CryptoServiceProvider$views {
 export type SHA256CryptoServiceProvider = SHA256CryptoServiceProvider$instance & __SHA256CryptoServiceProvider$views;
 
 
-export abstract class SHA256Managed$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA256Managed$instance extends SHA256Managed$protected, SHA256$instance {
+export interface SHA256Managed$instance extends SHA256$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4363,20 +4041,15 @@ export interface __SHA256Managed$views {
 export type SHA256Managed = SHA256Managed$instance & __SHA256Managed$views;
 
 
-export abstract class SHA3_256$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA3_256$instance extends SHA3_256$protected, HashAlgorithm$instance {
+export interface SHA3_256$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA3_256: {
-    new(): SHA3_256;
+export const SHA3_256: (abstract new() => SHA3_256) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     readonly IsSupported: boolean;
@@ -4399,20 +4072,15 @@ export interface __SHA3_256$views {
 export type SHA3_256 = SHA3_256$instance & __SHA3_256$views;
 
 
-export abstract class SHA3_384$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA3_384$instance extends SHA3_384$protected, HashAlgorithm$instance {
+export interface SHA3_384$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA3_384: {
-    new(): SHA3_384;
+export const SHA3_384: (abstract new() => SHA3_384) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     readonly IsSupported: boolean;
@@ -4435,20 +4103,15 @@ export interface __SHA3_384$views {
 export type SHA3_384 = SHA3_384$instance & __SHA3_384$views;
 
 
-export abstract class SHA3_512$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA3_512$instance extends SHA3_512$protected, HashAlgorithm$instance {
+export interface SHA3_512$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA3_512: {
-    new(): SHA3_512;
+export const SHA3_512: (abstract new() => SHA3_512) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     readonly IsSupported: boolean;
@@ -4471,20 +4134,15 @@ export interface __SHA3_512$views {
 export type SHA3_512 = SHA3_512$instance & __SHA3_512$views;
 
 
-export abstract class SHA384$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA384$instance extends SHA384$protected, HashAlgorithm$instance {
+export interface SHA384$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA384: {
-    new(): SHA384;
+export const SHA384: (abstract new() => SHA384) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     HashData(source: byte[]): byte[];
@@ -4506,22 +4164,18 @@ export interface __SHA384$views {
 export type SHA384 = SHA384$instance & __SHA384$views;
 
 
-export abstract class SHA384CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA384CryptoServiceProvider$instance extends SHA384CryptoServiceProvider$protected, SHA384$instance {
+export interface SHA384CryptoServiceProvider$instance extends SHA384$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4538,22 +4192,18 @@ export interface __SHA384CryptoServiceProvider$views {
 export type SHA384CryptoServiceProvider = SHA384CryptoServiceProvider$instance & __SHA384CryptoServiceProvider$views;
 
 
-export abstract class SHA384Managed$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA384Managed$instance extends SHA384Managed$protected, SHA384$instance {
+export interface SHA384Managed$instance extends SHA384$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4570,20 +4220,15 @@ export interface __SHA384Managed$views {
 export type SHA384Managed = SHA384Managed$instance & __SHA384Managed$views;
 
 
-export abstract class SHA512$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SHA512$instance extends SHA512$protected, HashAlgorithm$instance {
+export interface SHA512$instance extends HashAlgorithm$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
 
-export const SHA512: {
-    new(): SHA512;
+export const SHA512: (abstract new() => SHA512) & {
     readonly HashSizeInBits: int;
     readonly HashSizeInBytes: int;
     HashData(source: byte[]): byte[];
@@ -4605,22 +4250,18 @@ export interface __SHA512$views {
 export type SHA512 = SHA512$instance & __SHA512$views;
 
 
-export abstract class SHA512CryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA512CryptoServiceProvider$instance extends SHA512CryptoServiceProvider$protected, SHA512$instance {
+export interface SHA512CryptoServiceProvider$instance extends SHA512$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4637,22 +4278,18 @@ export interface __SHA512CryptoServiceProvider$views {
 export type SHA512CryptoServiceProvider = SHA512CryptoServiceProvider$instance & __SHA512CryptoServiceProvider$views;
 
 
-export abstract class SHA512Managed$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected HashCore2(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected HashCore2(array: byte[], ibStart: int, cbSize: int): void;
-    protected HashFinal(): byte[];
-    protected TryHashFinal2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-}
-
-
-export interface SHA512Managed$instance extends SHA512Managed$protected, SHA512$instance {
+export interface SHA512Managed$instance extends SHA512$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    HashCore(array: byte[], ibStart: int, cbSize: int): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashCore(source: ReadOnlySpan_1<System_Internal.Byte>): void;
+    HashFinal(): byte[];
     Initialize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryHashFinal(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
@@ -4745,13 +4382,13 @@ export type Shake256 = Shake256$instance & __Shake256$views;
 
 export interface SignatureDescription$instance {
     get DeformatterAlgorithm(): string | undefined;
-    set DeformatterAlgorithm(value: string);
+    set DeformatterAlgorithm(value: string | undefined);
     get DigestAlgorithm(): string | undefined;
-    set DigestAlgorithm(value: string);
+    set DigestAlgorithm(value: string | undefined);
     get FormatterAlgorithm(): string | undefined;
-    set FormatterAlgorithm(value: string);
+    set FormatterAlgorithm(value: string | undefined);
     get KeyAlgorithm(): string | undefined;
-    set KeyAlgorithm(value: string);
+    set KeyAlgorithm(value: string | undefined);
     CreateDeformatter(key: AsymmetricAlgorithm): AsymmetricSignatureDeformatter;
     CreateDigest(): HashAlgorithm | undefined;
     CreateFormatter(key: AsymmetricAlgorithm): AsymmetricSignatureFormatter;
@@ -4766,21 +4403,10 @@ export const SignatureDescription: {
 
 export type SignatureDescription = SignatureDescription$instance;
 
-export abstract class SlhDsa$protected {
-    protected Dispose(disposing: boolean): void;
-    protected abstract ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface SlhDsa$instance extends SlhDsa$protected {
+export interface SlhDsa$instance {
     readonly Algorithm: SlhDsaAlgorithm;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters): byte[];
     ExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters): byte[];
@@ -4791,28 +4417,34 @@ export interface SlhDsa$instance extends SlhDsa$protected {
     ExportPkcs8PrivateKeyPem(): string;
     ExportSlhDsaPrivateKey(destination: Span_1<System_Internal.Byte>): void;
     ExportSlhDsaPrivateKey(): byte[];
+    ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportSlhDsaPublicKey(destination: Span_1<System_Internal.Byte>): void;
     ExportSlhDsaPublicKey(): byte[];
+    ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
     ExportSubjectPublicKeyInfo(): byte[];
     ExportSubjectPublicKeyInfoPem(): string;
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
     SignData(data: byte[], context?: byte[]): byte[];
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
     SignPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
     SignPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
     TryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     TryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     VerifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
-export const SlhDsa: {
-    new(algorithm: SlhDsaAlgorithm): SlhDsa;
+export const SlhDsa: (abstract new(algorithm: SlhDsaAlgorithm) => SlhDsa) & {
     readonly IsSupported: boolean;
     GenerateKey(algorithm: SlhDsaAlgorithm): SlhDsa;
     ImportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>): SlhDsa;
@@ -4855,7 +4487,6 @@ export interface SlhDsaAlgorithm$instance {
 
 
 export const SlhDsaAlgorithm: {
-    new(): SlhDsaAlgorithm;
     readonly SlhDsaSha2_128s: SlhDsaAlgorithm;
     readonly SlhDsaShake128s: SlhDsaAlgorithm;
     readonly SlhDsaSha2_128f: SlhDsaAlgorithm;
@@ -4881,28 +4512,18 @@ export interface __SlhDsaAlgorithm$views {
 export type SlhDsaAlgorithm = SlhDsaAlgorithm$instance & __SlhDsaAlgorithm$views;
 
 
-export abstract class SlhDsaCng$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ExportSlhDsaPrivateKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportSlhDsaPublicKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected SignDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected TryExportPkcs8PrivateKeyCore2(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    protected VerifyDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface SlhDsaCng$instance extends SlhDsaCng$protected, SlhDsa$instance {
+export interface SlhDsaCng$instance extends SlhDsa$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
     GetKey(): CngKey;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    TryExportPkcs8PrivateKeyCore(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -4918,26 +4539,16 @@ export interface __SlhDsaCng$views {
 export type SlhDsaCng = SlhDsaCng$instance & __SlhDsaCng$views;
 
 
-export abstract class SlhDsaOpenSsl$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ExportSlhDsaPrivateKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected ExportSlhDsaPublicKeyCore2(destination: Span_1<System_Internal.Byte>): void;
-    protected abstract ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
-    protected SignDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
-    protected SignPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected abstract SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
-    protected VerifyDataCore2(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected VerifyPreHashCore2(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    protected abstract VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-}
-
-
-export interface SlhDsaOpenSsl$instance extends SlhDsaOpenSsl$protected, SlhDsa$instance {
+export interface SlhDsaOpenSsl$instance extends SlhDsa$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateKeyHandle(): SafeEvpPKeyHandle;
+    ExportSlhDsaPrivateKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    ExportSlhDsaPublicKeyCore(destination: Span_1<System_Internal.Byte>): void;
+    SignDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
+    SignPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, destination: Span_1<System_Internal.Byte>): void;
+    VerifyDataCore(data: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    VerifyPreHashCore(hash: ReadOnlySpan_1<System_Internal.Byte>, context: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -4985,19 +4596,7 @@ export interface SP800108HmacCounterKdf$instance extends System_Internal.IDispos
 export type SP800108HmacCounterKdf = SP800108HmacCounterKdf$instance & __SP800108HmacCounterKdf$views;
 
 
-export abstract class SymmetricAlgorithm$protected {
-    protected Dispose(disposing: boolean): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected TryDecryptCbcCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
-    protected TryDecryptCfbCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, feedbackSizeInBits: int, bytesWritten: int): boolean;
-    protected TryDecryptEcbCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
-    protected TryEncryptCbcCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
-    protected TryEncryptCfbCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, feedbackSizeInBits: int, bytesWritten: int): boolean;
-    protected TryEncryptEcbCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
-}
-
-
-export interface SymmetricAlgorithm$instance extends SymmetricAlgorithm$protected {
+export interface SymmetricAlgorithm$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -5022,6 +4621,7 @@ export interface SymmetricAlgorithm$instance extends SymmetricAlgorithm$protecte
     DecryptEcb(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, paddingMode: PaddingMode): byte[];
     DecryptEcb(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode): int;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EncryptCbc(plaintext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
     EncryptCbc(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, paddingMode?: PaddingMode): byte[];
     EncryptCbc(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode?: PaddingMode): int;
@@ -5037,18 +4637,24 @@ export interface SymmetricAlgorithm$instance extends SymmetricAlgorithm$protecte
     GetCiphertextLengthCfb(plaintextLength: int, paddingMode?: PaddingMode, feedbackSizeInBits?: int): int;
     GetCiphertextLengthEcb(plaintextLength: int, paddingMode: PaddingMode): int;
     SetKey(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
     TryDecryptCbc(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int, paddingMode?: PaddingMode): boolean;
+    TryDecryptCbcCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
     TryDecryptCfb(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
+    TryDecryptCfbCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, feedbackSizeInBits: int, bytesWritten: int): boolean;
     TryDecryptEcb(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
+    TryDecryptEcbCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
     TryEncryptCbc(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int, paddingMode?: PaddingMode): boolean;
+    TryEncryptCbcCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
     TryEncryptCfb(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int, paddingMode?: PaddingMode, feedbackSizeInBits?: int): boolean;
+    TryEncryptCfbCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, feedbackSizeInBits: int, bytesWritten: int): boolean;
     TryEncryptEcb(plaintext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
+    TryEncryptEcbCore(plaintext: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode: PaddingMode, bytesWritten: int): boolean;
     ValidKeySize(bitLength: int): boolean;
 }
 
 
-export const SymmetricAlgorithm: {
-    new(): SymmetricAlgorithm;
+export const SymmetricAlgorithm: (abstract new() => SymmetricAlgorithm) & {
     Create(): SymmetricAlgorithm;
     Create(algName: string): SymmetricAlgorithm | undefined;
 };
@@ -5061,19 +4667,15 @@ export interface __SymmetricAlgorithm$views {
 export type SymmetricAlgorithm = SymmetricAlgorithm$instance & __SymmetricAlgorithm$views;
 
 
-export abstract class ToBase64Transform$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface ToBase64Transform$instance extends ToBase64Transform$protected {
+export interface ToBase64Transform$instance {
     readonly CanReuseTransform: boolean;
     readonly CanTransformMultipleBlocks: boolean;
     readonly InputBlockSize: int;
     readonly OutputBlockSize: int;
     Clear(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     TransformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
     TransformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
@@ -5092,19 +4694,14 @@ export interface __ToBase64Transform$views {
 export type ToBase64Transform = ToBase64Transform$instance & __ToBase64Transform$views;
 
 
-export abstract class TripleDES$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface TripleDES$instance extends TripleDES$protected, SymmetricAlgorithm$instance {
+export interface TripleDES$instance extends SymmetricAlgorithm$instance {
     Key: byte[];
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const TripleDES: {
-    new(): TripleDES;
+export const TripleDES: (abstract new() => TripleDES) & {
     IsWeakKey(rgbKey: byte[]): boolean;
 };
 
@@ -5116,17 +4713,13 @@ export interface __TripleDES$views {
 export type TripleDES = TripleDES$instance & __TripleDES$views;
 
 
-export abstract class TripleDESCng$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface TripleDESCng$instance extends TripleDESCng$protected, TripleDES$instance {
+export interface TripleDESCng$instance extends TripleDES$instance {
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateDecryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GenerateIV(): void;
     GenerateKey(): void;
 }
@@ -5147,14 +4740,7 @@ export interface __TripleDESCng$views {
 export type TripleDESCng = TripleDESCng$instance & __TripleDESCng$views;
 
 
-export abstract class TripleDESCryptoServiceProvider$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected SetKeyCore2(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-    protected SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
-}
-
-
-export interface TripleDESCryptoServiceProvider$instance extends TripleDESCryptoServiceProvider$protected, TripleDES$instance {
+export interface TripleDESCryptoServiceProvider$instance extends TripleDES$instance {
     BlockSize: int;
     FeedbackSize: int;
     IV: byte[];
@@ -5168,9 +4754,12 @@ export interface TripleDESCryptoServiceProvider$instance extends TripleDESCrypto
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
     CreateEncryptor(): ICryptoTransform;
     CreateEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     GenerateIV(): void;
     GenerateKey(): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
+    SetKeyCore(key: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 

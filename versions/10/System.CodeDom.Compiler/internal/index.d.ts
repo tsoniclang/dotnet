@@ -16,7 +16,7 @@ import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDis
 
 export interface GeneratedCodeAttribute$instance extends Attribute {
     readonly Tool: string | undefined;
-    readonly Version: string;
+    readonly Version: string | undefined;
 }
 
 
@@ -27,24 +27,20 @@ export const GeneratedCodeAttribute: {
 
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
-export abstract class IndentedTextWriter$protected {
-    protected Dispose(disposing: boolean): void;
-    protected OutputTabs(): void;
-    protected OutputTabsAsync(): Task;
-}
-
-
-export interface IndentedTextWriter$instance extends IndentedTextWriter$protected, TextWriter {
+export interface IndentedTextWriter$instance extends TextWriter {
     readonly Encoding: Encoding;
     Indent: int;
     readonly InnerWriter: TextWriter;
     NewLine: string;
     Close(): void;
-    Dispose3(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     FlushAsync(): Task;
     FlushAsync(cancellationToken: CancellationToken): Task;
+    OutputTabs(): void;
+    OutputTabsAsync(): Task;
     Write(s: string): void;
     Write(value: boolean): void;
     Write(value: char): void;

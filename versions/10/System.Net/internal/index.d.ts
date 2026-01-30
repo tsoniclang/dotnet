@@ -369,7 +369,8 @@ export interface ICredentialsByHost$instance {
 export type ICredentialsByHost = ICredentialsByHost$instance;
 
 export interface IWebProxy$instance {
-    Credentials: ICredentials;
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     GetProxy(destination: Uri): Uri | undefined;
     IsBypassed(host: Uri): boolean;
 }
@@ -441,9 +442,8 @@ export interface AuthenticationManager$instance {
 
 
 export const AuthenticationManager: {
-    new(): AuthenticationManager;
     get CredentialPolicy(): ICredentialPolicy | undefined;
-    set CredentialPolicy(value: ICredentialPolicy);
+    set CredentialPolicy(value: ICredentialPolicy | undefined);
     readonly CustomTargetNameDictionary: StringDictionary;
     readonly RegisteredModules: IEnumerator;
     Authenticate(challenge: string, request: WebRequest, credentials: ICredentials): Authorization | undefined;
@@ -459,10 +459,10 @@ export type AuthenticationManager = AuthenticationManager$instance;
 export interface Authorization$instance {
     Complete: boolean;
     readonly ConnectionGroupId: string | undefined;
-    readonly Message: string;
+    readonly Message: string | undefined;
     MutuallyAuthenticated: boolean;
     get ProtectionRealm(): string[] | undefined;
-    set ProtectionRealm(value: string[]);
+    set ProtectionRealm(value: string[] | undefined);
 }
 
 
@@ -478,7 +478,7 @@ export type Authorization = Authorization$instance;
 export interface Cookie$instance {
     Comment: string;
     get CommentUri(): Uri | undefined;
-    set CommentUri(value: Uri);
+    set CommentUri(value: Uri | undefined);
     Discard: boolean;
     Domain: string;
     Expired: boolean;
@@ -519,7 +519,7 @@ export interface CookieCollection$instance {
     CopyTo(array: ClrArray, index: int): void;
     CopyTo(array: Cookie[], index: int): void;
     get_Item(index: int): Cookie;
-    get_Item(name: string): Cookie;
+    get_Item(name: string): Cookie | undefined;
     GetEnumerator(): IEnumerator;
     Remove(cookie: Cookie): boolean;
 }
@@ -578,7 +578,6 @@ export const CookieException: {
     new(): CookieException;
     new(message: string): CookieException;
     new(message: string, innerException: Exception): CookieException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): CookieException;
 };
 
 
@@ -642,7 +641,6 @@ export interface DownloadDataCompletedEventArgs$instance extends AsyncCompletedE
 
 
 export const DownloadDataCompletedEventArgs: {
-    new(): DownloadDataCompletedEventArgs;
 };
 
 
@@ -655,7 +653,6 @@ export interface DownloadProgressChangedEventArgs$instance extends ProgressChang
 
 
 export const DownloadProgressChangedEventArgs: {
-    new(): DownloadProgressChangedEventArgs;
 };
 
 
@@ -667,7 +664,6 @@ export interface DownloadStringCompletedEventArgs$instance extends AsyncComplete
 
 
 export const DownloadStringCompletedEventArgs: {
-    new(): DownloadStringCompletedEventArgs;
 };
 
 
@@ -680,29 +676,25 @@ export interface EndPoint$instance {
 }
 
 
-export const EndPoint: {
-    new(): EndPoint;
+export const EndPoint: (abstract new() => EndPoint) & {
 };
 
 
 export type EndPoint = EndPoint$instance;
 
-export abstract class FileWebRequest$protected {
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface FileWebRequest$instance extends FileWebRequest$protected, WebRequest$instance {
+export interface FileWebRequest$instance extends WebRequest$instance {
     get ConnectionGroupName(): string | undefined;
-    set ConnectionGroupName(value: string);
+    set ConnectionGroupName(value: string | undefined);
     ContentLength: long;
-    ContentType: string;
-    Credentials: ICredentials;
+    get ContentType(): string | undefined;
+    set ContentType(value: string | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     readonly Headers: WebHeaderCollection;
     Method: string;
     PreAuthenticate: boolean;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     readonly RequestUri: Uri;
     Timeout: int;
     UseDefaultCredentials: boolean;
@@ -711,6 +703,7 @@ export interface FileWebRequest$instance extends FileWebRequest$protected, WebRe
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetRequestStreamAsync(): Task_1<Stream>;
     GetRequestStreamAsync(): Task_1<Stream>;
@@ -720,8 +713,7 @@ export interface FileWebRequest$instance extends FileWebRequest$protected, WebRe
 }
 
 
-export const FileWebRequest: {
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): FileWebRequest;
+export const FileWebRequest: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => FileWebRequest) & {
 };
 
 
@@ -732,13 +724,7 @@ export interface __FileWebRequest$views {
 export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
-export abstract class FileWebResponse$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface FileWebResponse$instance extends FileWebResponse$protected, WebResponse$instance {
+export interface FileWebResponse$instance extends WebResponse$instance {
     readonly ContentLength: long;
     readonly ContentType: string;
     readonly Headers: WebHeaderCollection;
@@ -746,12 +732,13 @@ export interface FileWebResponse$instance extends FileWebResponse$protected, Web
     readonly SupportsHeaders: boolean;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
 
-export const FileWebResponse: {
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): FileWebResponse;
+export const FileWebResponse: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => FileWebResponse) & {
 };
 
 
@@ -763,30 +750,28 @@ export interface __FileWebResponse$views {
 export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views;
 
 
-export abstract class FtpWebRequest$protected {
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface FtpWebRequest$instance extends FtpWebRequest$protected, WebRequest$instance {
-    CachePolicy: RequestCachePolicy;
+export interface FtpWebRequest$instance extends WebRequest$instance {
+    get CachePolicy(): RequestCachePolicy | undefined;
+    set CachePolicy(value: RequestCachePolicy | undefined);
     ClientCertificates: X509CertificateCollection;
     get ConnectionGroupName(): string | undefined;
-    set ConnectionGroupName(value: string);
+    set ConnectionGroupName(value: string | undefined);
     ContentLength: long;
     ContentOffset: long;
-    ContentType: string;
-    Credentials: ICredentials;
+    get ContentType(): string | undefined;
+    set ContentType(value: string | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     EnableSsl: boolean;
     Headers: WebHeaderCollection;
     KeepAlive: boolean;
     Method: string;
     PreAuthenticate: boolean;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     ReadWriteTimeout: int;
     get RenameTo(): string | undefined;
-    set RenameTo(value: string);
+    set RenameTo(value: string | undefined);
     readonly RequestUri: Uri;
     readonly ServicePoint: ServicePoint;
     Timeout: int;
@@ -798,15 +783,15 @@ export interface FtpWebRequest$instance extends FtpWebRequest$protected, WebRequ
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetResponse(): WebResponse;
 }
 
 
 export const FtpWebRequest: {
-    new(): FtpWebRequest;
     get DefaultCachePolicy(): RequestCachePolicy | undefined;
-    set DefaultCachePolicy(value: RequestCachePolicy);
+    set DefaultCachePolicy(value: RequestCachePolicy | undefined);
 };
 
 
@@ -817,13 +802,7 @@ export interface __FtpWebRequest$views {
 export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
-export abstract class FtpWebResponse$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface FtpWebResponse$instance extends FtpWebResponse$protected, WebResponse$instance {
+export interface FtpWebResponse$instance extends WebResponse$instance {
     readonly BannerMessage: string | undefined;
     readonly ContentLength: long;
     readonly ExitMessage: string | undefined;
@@ -831,17 +810,18 @@ export interface FtpWebResponse$instance extends FtpWebResponse$protected, WebRe
     readonly LastModified: DateTime;
     readonly ResponseUri: Uri;
     readonly StatusCode: FtpStatusCode;
-    readonly StatusDescription: string;
+    readonly StatusDescription: string | undefined;
     readonly SupportsHeaders: boolean;
     readonly WelcomeMessage: string | undefined;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
 
 export const FtpWebResponse: {
-    new(): FtpWebResponse;
 };
 
 
@@ -869,16 +849,16 @@ export type GlobalProxySelection = GlobalProxySelection$instance;
 export interface HttpListener$instance {
     AuthenticationSchemes: AuthenticationSchemes;
     get AuthenticationSchemeSelectorDelegate(): AuthenticationSchemeSelector | undefined;
-    set AuthenticationSchemeSelectorDelegate(value: AuthenticationSchemeSelector);
+    set AuthenticationSchemeSelectorDelegate(value: AuthenticationSchemeSelector | undefined);
     readonly DefaultServiceNames: ServiceNameCollection;
     ExtendedProtectionPolicy: ExtendedProtectionPolicy;
     get ExtendedProtectionSelectorDelegate(): HttpListener_ExtendedProtectionSelector | undefined;
-    set ExtendedProtectionSelectorDelegate(value: HttpListener_ExtendedProtectionSelector);
+    set ExtendedProtectionSelectorDelegate(value: HttpListener_ExtendedProtectionSelector | undefined);
     IgnoreWriteExceptions: boolean;
     readonly IsListening: boolean;
     readonly Prefixes: HttpListenerPrefixCollection;
     get Realm(): string | undefined;
-    set Realm(value: string);
+    set Realm(value: string | undefined);
     readonly TimeoutManager: HttpListenerTimeoutManager;
     UnsafeConnectionNtlmAuthentication: boolean;
     Abort(): void;
@@ -927,7 +907,7 @@ export type HttpListenerBasicIdentity = HttpListenerBasicIdentity$instance & __H
 export interface HttpListenerContext$instance {
     readonly Request: HttpListenerRequest;
     readonly Response: HttpListenerResponse;
-    readonly User: IPrincipal;
+    readonly User: IPrincipal | undefined;
     AcceptWebSocketAsync(subProtocol: string): Task_1<HttpListenerWebSocketContext>;
     AcceptWebSocketAsync(subProtocol: string, keepAliveInterval: TimeSpan): Task_1<HttpListenerWebSocketContext>;
     AcceptWebSocketAsync(subProtocol: string, receiveBufferSize: int, keepAliveInterval: TimeSpan): Task_1<HttpListenerWebSocketContext>;
@@ -936,7 +916,6 @@ export interface HttpListenerContext$instance {
 
 
 export const HttpListenerContext: {
-    new(): HttpListenerContext;
 };
 
 
@@ -952,7 +931,6 @@ export const HttpListenerException: {
     new(): HttpListenerException;
     new(errorCode: int): HttpListenerException;
     new(errorCode: int, message: string): HttpListenerException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpListenerException;
 };
 
 
@@ -978,7 +956,6 @@ export interface HttpListenerPrefixCollection$instance {
 
 
 export const HttpListenerPrefixCollection: {
-    new(): HttpListenerPrefixCollection;
 };
 
 
@@ -996,7 +973,7 @@ export interface HttpListenerRequest$instance {
     readonly ClientCertificateError: int;
     readonly ContentEncoding: Encoding;
     readonly ContentLength64: long;
-    readonly ContentType: string;
+    readonly ContentType: string | undefined;
     readonly Cookies: CookieCollection;
     readonly HasEntityBody: boolean;
     readonly Headers: NameValueCollection;
@@ -1007,17 +984,17 @@ export interface HttpListenerRequest$instance {
     readonly IsSecureConnection: boolean;
     readonly IsWebSocketRequest: boolean;
     readonly KeepAlive: boolean;
-    readonly LocalEndPoint: IPEndPoint;
+    readonly LocalEndPoint: IPEndPoint | undefined;
     readonly ProtocolVersion: Version;
     readonly QueryString: NameValueCollection;
     readonly RawUrl: string | undefined;
-    readonly RemoteEndPoint: IPEndPoint;
+    readonly RemoteEndPoint: IPEndPoint | undefined;
     readonly RequestTraceIdentifier: Guid;
     readonly ServiceName: string | undefined;
     readonly TransportContext: TransportContext;
     readonly Url: Uri | undefined;
     readonly UrlReferrer: Uri | undefined;
-    readonly UserAgent: string;
+    readonly UserAgent: string | undefined;
     readonly UserHostAddress: string;
     readonly UserHostName: string;
     readonly UserLanguages: string[] | undefined;
@@ -1029,23 +1006,24 @@ export interface HttpListenerRequest$instance {
 
 
 export const HttpListenerRequest: {
-    new(): HttpListenerRequest;
 };
 
 
 export type HttpListenerRequest = HttpListenerRequest$instance;
 
 export interface HttpListenerResponse$instance {
-    ContentEncoding: Encoding;
+    get ContentEncoding(): Encoding | undefined;
+    set ContentEncoding(value: Encoding | undefined);
     ContentLength64: long;
-    ContentType: string;
+    get ContentType(): string | undefined;
+    set ContentType(value: string | undefined);
     Cookies: CookieCollection;
     Headers: WebHeaderCollection;
     KeepAlive: boolean;
     readonly OutputStream: Stream;
     ProtocolVersion: Version;
     get RedirectLocation(): string | undefined;
-    set RedirectLocation(value: string);
+    set RedirectLocation(value: string | undefined);
     SendChunked: boolean;
     StatusCode: int;
     StatusDescription: string;
@@ -1062,7 +1040,6 @@ export interface HttpListenerResponse$instance {
 
 
 export const HttpListenerResponse: {
-    new(): HttpListenerResponse;
 };
 
 
@@ -1086,37 +1063,37 @@ export interface HttpListenerTimeoutManager$instance {
 
 
 export const HttpListenerTimeoutManager: {
-    new(): HttpListenerTimeoutManager;
 };
 
 
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
-export abstract class HttpWebRequest$protected {
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface HttpWebRequest$instance extends HttpWebRequest$protected, WebRequest$instance {
-    Accept: string;
+export interface HttpWebRequest$instance extends WebRequest$instance {
+    get Accept(): string | undefined;
+    set Accept(value: string | undefined);
     readonly Address: Uri;
     AllowAutoRedirect: boolean;
     AllowReadStreamBuffering: boolean;
     AllowWriteStreamBuffering: boolean;
     AutomaticDecompression: DecompressionMethods;
     ClientCertificates: X509CertificateCollection;
-    Connection: string;
+    get Connection(): string | undefined;
+    set Connection(value: string | undefined);
     get ConnectionGroupName(): string | undefined;
-    set ConnectionGroupName(value: string);
+    set ConnectionGroupName(value: string | undefined);
     ContentLength: long;
-    ContentType: string;
+    get ContentType(): string | undefined;
+    set ContentType(value: string | undefined);
     get ContinueDelegate(): HttpContinueDelegate | undefined;
-    set ContinueDelegate(value: HttpContinueDelegate);
+    set ContinueDelegate(value: HttpContinueDelegate | undefined);
     ContinueTimeout: int;
-    CookieContainer: CookieContainer;
-    Credentials: ICredentials;
+    get CookieContainer(): CookieContainer | undefined;
+    set CookieContainer(value: CookieContainer | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     Date: DateTime;
-    Expect: string;
+    get Expect(): string | undefined;
+    set Expect(value: string | undefined);
     readonly HaveResponse: boolean;
     Headers: WebHeaderCollection;
     Host: string;
@@ -1124,27 +1101,30 @@ export interface HttpWebRequest$instance extends HttpWebRequest$protected, WebRe
     KeepAlive: boolean;
     MaximumAutomaticRedirections: int;
     MaximumResponseHeadersLength: int;
-    MediaType: string;
+    get MediaType(): string | undefined;
+    set MediaType(value: string | undefined);
     Method: string;
     Pipelined: boolean;
     PreAuthenticate: boolean;
     ProtocolVersion: Version;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     ReadWriteTimeout: int;
     get Referer(): string | undefined;
-    set Referer(value: string);
+    set Referer(value: string | undefined);
     readonly RequestUri: Uri;
     SendChunked: boolean;
     get ServerCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set ServerCertificateValidationCallback(value: RemoteCertificateValidationCallback);
+    set ServerCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
     readonly ServicePoint: ServicePoint;
     readonly SupportsCookieContainer: boolean;
     Timeout: int;
-    TransferEncoding: string;
+    get TransferEncoding(): string | undefined;
+    set TransferEncoding(value: string | undefined);
     UnsafeAuthenticatedConnectionSharing: boolean;
     UseDefaultCredentials: boolean;
-    UserAgent: string;
+    get UserAgent(): string | undefined;
+    set UserAgent(value: string | undefined);
     Abort(): void;
     AddRange(from: int, to: int): void;
     AddRange(from: long, to: long): void;
@@ -1158,17 +1138,17 @@ export interface HttpWebRequest$instance extends HttpWebRequest$protected, WebRe
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetResponse(): WebResponse;
 }
 
 
-export const HttpWebRequest: {
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpWebRequest;
+export const HttpWebRequest: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => HttpWebRequest) & {
     DefaultMaximumResponseHeadersLength: int;
     DefaultMaximumErrorResponseLength: int;
     get DefaultCachePolicy(): RequestCachePolicy | undefined;
-    set DefaultCachePolicy(value: RequestCachePolicy);
+    set DefaultCachePolicy(value: RequestCachePolicy | undefined);
 };
 
 
@@ -1179,13 +1159,7 @@ export interface __HttpWebRequest$views {
 export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
-export abstract class HttpWebResponse$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface HttpWebResponse$instance extends HttpWebResponse$protected, WebResponse$instance {
+export interface HttpWebResponse$instance extends WebResponse$instance {
     readonly CharacterSet: string | undefined;
     readonly ContentEncoding: string;
     readonly ContentLength: long;
@@ -1202,7 +1176,9 @@ export interface HttpWebResponse$instance extends HttpWebResponse$protected, Web
     readonly StatusDescription: string;
     readonly SupportsHeaders: boolean;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseHeader(headerName: string): string;
     GetResponseStream(): Stream;
 }
@@ -1210,7 +1186,6 @@ export interface HttpWebResponse$instance extends HttpWebResponse$protected, Web
 
 export const HttpWebResponse: {
     new(): HttpWebResponse;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): HttpWebResponse;
 };
 
 
@@ -1365,7 +1340,6 @@ export interface OpenReadCompletedEventArgs$instance extends AsyncCompletedEvent
 
 
 export const OpenReadCompletedEventArgs: {
-    new(): OpenReadCompletedEventArgs;
 };
 
 
@@ -1377,7 +1351,6 @@ export interface OpenWriteCompletedEventArgs$instance extends AsyncCompletedEven
 
 
 export const OpenWriteCompletedEventArgs: {
-    new(): OpenWriteCompletedEventArgs;
 };
 
 
@@ -1402,7 +1375,6 @@ export interface ProtocolViolationException$instance extends InvalidOperationExc
 export const ProtocolViolationException: {
     new(): ProtocolViolationException;
     new(message: string): ProtocolViolationException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): ProtocolViolationException;
 };
 
 
@@ -1416,8 +1388,9 @@ export type ProtocolViolationException = ProtocolViolationException$instance & _
 export interface ServicePoint$instance {
     readonly Address: Uri;
     get BindIPEndPointDelegate(): BindIPEndPoint | undefined;
-    set BindIPEndPointDelegate(value: BindIPEndPoint);
-    Certificate: X509Certificate;
+    set BindIPEndPointDelegate(value: BindIPEndPoint | undefined);
+    get Certificate(): X509Certificate | undefined;
+    set Certificate(value: X509Certificate | undefined);
     readonly ClientCertificate: X509Certificate | undefined;
     ConnectionLeaseTimeout: int;
     ConnectionLimit: int;
@@ -1436,7 +1409,6 @@ export interface ServicePoint$instance {
 
 
 export const ServicePoint: {
-    new(): ServicePoint;
 };
 
 
@@ -1447,7 +1419,6 @@ export interface ServicePointManager$instance {
 
 
 export const ServicePointManager: {
-    new(): ServicePointManager;
     readonly DefaultNonPersistentConnectionLimit: int;
     readonly DefaultPersistentConnectionLimit: int;
     SecurityProtocol: SecurityProtocolType;
@@ -1459,7 +1430,7 @@ export const ServicePointManager: {
     EnableDnsRoundRobin: boolean;
     DnsRefreshTimeout: int;
     get ServerCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set ServerCertificateValidationCallback(value: RemoteCertificateValidationCallback);
+    set ServerCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
     ReusePort: boolean;
     CheckCertificateRevocationList: boolean;
     readonly EncryptionPolicy: EncryptionPolicy;
@@ -1506,8 +1477,7 @@ export interface TransportContext$instance {
 }
 
 
-export const TransportContext: {
-    new(): TransportContext;
+export const TransportContext: (abstract new() => TransportContext) & {
 };
 
 
@@ -1519,7 +1489,6 @@ export interface UploadDataCompletedEventArgs$instance extends AsyncCompletedEve
 
 
 export const UploadDataCompletedEventArgs: {
-    new(): UploadDataCompletedEventArgs;
 };
 
 
@@ -1531,7 +1500,6 @@ export interface UploadFileCompletedEventArgs$instance extends AsyncCompletedEve
 
 
 export const UploadFileCompletedEventArgs: {
-    new(): UploadFileCompletedEventArgs;
 };
 
 
@@ -1546,7 +1514,6 @@ export interface UploadProgressChangedEventArgs$instance extends ProgressChanged
 
 
 export const UploadProgressChangedEventArgs: {
-    new(): UploadProgressChangedEventArgs;
 };
 
 
@@ -1558,7 +1525,6 @@ export interface UploadStringCompletedEventArgs$instance extends AsyncCompletedE
 
 
 export const UploadStringCompletedEventArgs: {
-    new(): UploadStringCompletedEventArgs;
 };
 
 
@@ -1570,48 +1536,30 @@ export interface UploadValuesCompletedEventArgs$instance extends AsyncCompletedE
 
 
 export const UploadValuesCompletedEventArgs: {
-    new(): UploadValuesCompletedEventArgs;
 };
 
 
 export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$instance;
 
-export abstract class WebClient$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected GetWebRequest(address: Uri): WebRequest;
-    protected GetWebResponse(request: WebRequest): WebResponse;
-    protected GetWebResponse(request: WebRequest, result: IAsyncResult): WebResponse;
-    protected OnDownloadDataCompleted(e: DownloadDataCompletedEventArgs): void;
-    protected OnDownloadFileCompleted(e: AsyncCompletedEventArgs): void;
-    protected OnDownloadProgressChanged(e: DownloadProgressChangedEventArgs): void;
-    protected OnDownloadStringCompleted(e: DownloadStringCompletedEventArgs): void;
-    protected OnOpenReadCompleted(e: OpenReadCompletedEventArgs): void;
-    protected OnOpenWriteCompleted(e: OpenWriteCompletedEventArgs): void;
-    protected OnUploadDataCompleted(e: UploadDataCompletedEventArgs): void;
-    protected OnUploadFileCompleted(e: UploadFileCompletedEventArgs): void;
-    protected OnUploadProgressChanged(e: UploadProgressChangedEventArgs): void;
-    protected OnUploadStringCompleted(e: UploadStringCompletedEventArgs): void;
-    protected OnUploadValuesCompleted(e: UploadValuesCompletedEventArgs): void;
-    protected OnWriteStreamClosed(e: WriteStreamClosedEventArgs): void;
-}
-
-
-export interface WebClient$instance extends WebClient$protected, Component {
+export interface WebClient$instance extends Component {
     AllowReadStreamBuffering: boolean;
     AllowWriteStreamBuffering: boolean;
     BaseAddress: string;
-    CachePolicy: RequestCachePolicy;
-    Credentials: ICredentials;
+    get CachePolicy(): RequestCachePolicy | undefined;
+    set CachePolicy(value: RequestCachePolicy | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     Encoding: Encoding;
     Headers: WebHeaderCollection;
     readonly IsBusy: boolean;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     QueryString: NameValueCollection;
     readonly ResponseHeaders: WebHeaderCollection | undefined;
     UseDefaultCredentials: boolean;
     CancelAsync(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DownloadData(address: string): byte[];
     DownloadData(address: Uri): byte[];
     DownloadDataAsync(address: Uri): void;
@@ -1630,6 +1578,21 @@ export interface WebClient$instance extends WebClient$protected, Component {
     DownloadStringAsync(address: Uri, userToken: unknown): void;
     DownloadStringTaskAsync(address: string): Task_1<System_Internal.String>;
     DownloadStringTaskAsync(address: Uri): Task_1<System_Internal.String>;
+    GetWebRequest(address: Uri): WebRequest;
+    GetWebResponse(request: WebRequest): WebResponse;
+    GetWebResponse(request: WebRequest, result: IAsyncResult): WebResponse;
+    OnDownloadDataCompleted(e: DownloadDataCompletedEventArgs): void;
+    OnDownloadFileCompleted(e: AsyncCompletedEventArgs): void;
+    OnDownloadProgressChanged(e: DownloadProgressChangedEventArgs): void;
+    OnDownloadStringCompleted(e: DownloadStringCompletedEventArgs): void;
+    OnOpenReadCompleted(e: OpenReadCompletedEventArgs): void;
+    OnOpenWriteCompleted(e: OpenWriteCompletedEventArgs): void;
+    OnUploadDataCompleted(e: UploadDataCompletedEventArgs): void;
+    OnUploadFileCompleted(e: UploadFileCompletedEventArgs): void;
+    OnUploadProgressChanged(e: UploadProgressChangedEventArgs): void;
+    OnUploadStringCompleted(e: UploadStringCompletedEventArgs): void;
+    OnUploadValuesCompleted(e: UploadValuesCompletedEventArgs): void;
+    OnWriteStreamClosed(e: WriteStreamClosedEventArgs): void;
     OpenRead(address: string): Stream;
     OpenRead(address: Uri): Stream;
     OpenReadAsync(address: Uri): void;
@@ -1708,7 +1671,7 @@ export type WebClient = WebClient$instance & __WebClient$views;
 
 
 export interface WebException$instance extends InvalidOperationException {
-    readonly Response: WebResponse;
+    readonly Response: WebResponse | undefined;
     readonly Status: WebExceptionStatus;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
@@ -1720,7 +1683,6 @@ export const WebException: {
     new(message: string, innerException: Exception): WebException;
     new(message: string, status: WebExceptionStatus): WebException;
     new(message: string, innerException: Exception, status: WebExceptionStatus, response: WebResponse): WebException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebException;
 };
 
 
@@ -1746,7 +1708,7 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
     GetKey(index: int): string;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetValues(index: int): string[] | undefined;
-    GetValues(header: string): string[];
+    GetValues(header: string): string[] | undefined;
     OnDeserialization(sender: unknown): void;
     Remove(header: HttpResponseHeader): void;
     Remove(name: string): void;
@@ -1758,7 +1720,6 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
 
 
 export const WebHeaderCollection: {
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebHeaderCollection;
     new(): WebHeaderCollection;
     IsRestricted(headerName: string, response: boolean): boolean;
     IsRestricted(headerName: string): boolean;
@@ -1775,18 +1736,16 @@ export interface __WebHeaderCollection$views {
 export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderCollection$views;
 
 
-export abstract class WebProxy$protected {
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface WebProxy$instance extends WebProxy$protected {
-    Address: Uri;
+export interface WebProxy$instance {
+    get Address(): Uri | undefined;
+    set Address(value: Uri | undefined);
     readonly BypassArrayList: ArrayList;
     BypassList: string[];
     BypassProxyOnLocal: boolean;
-    Credentials: ICredentials;
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     UseDefaultCredentials: boolean;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetProxy(destination: Uri): Uri | undefined;
     IsBypassed(host: Uri): boolean;
 }
@@ -1803,7 +1762,6 @@ export const WebProxy: {
     new(Address: string, BypassOnLocal: boolean): WebProxy;
     new(Address: string, BypassOnLocal: boolean, BypassList: string[]): WebProxy;
     new(Address: string, BypassOnLocal: boolean, BypassList: string[], Credentials: ICredentials): WebProxy;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebProxy;
     GetDefaultProxy(): WebProxy;
 };
 
@@ -1818,25 +1776,23 @@ export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Se
 export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
-export abstract class WebRequest$protected {
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface WebRequest$instance extends WebRequest$protected, MarshalByRefObject {
+export interface WebRequest$instance extends MarshalByRefObject {
     AuthenticationLevel: AuthenticationLevel;
-    CachePolicy: RequestCachePolicy;
+    get CachePolicy(): RequestCachePolicy | undefined;
+    set CachePolicy(value: RequestCachePolicy | undefined);
     get ConnectionGroupName(): string | undefined;
-    set ConnectionGroupName(value: string);
+    set ConnectionGroupName(value: string | undefined);
     ContentLength: long;
-    ContentType: string;
-    Credentials: ICredentials;
+    get ContentType(): string | undefined;
+    set ContentType(value: string | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     Headers: WebHeaderCollection;
     ImpersonationLevel: TokenImpersonationLevel;
     Method: string;
     PreAuthenticate: boolean;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     readonly RequestUri: Uri;
     Timeout: int;
     UseDefaultCredentials: boolean;
@@ -1845,6 +1801,7 @@ export interface WebRequest$instance extends WebRequest$protected, MarshalByRefO
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetRequestStreamAsync(): Task_1<Stream>;
     GetResponse(): WebResponse;
@@ -1852,13 +1809,11 @@ export interface WebRequest$instance extends WebRequest$protected, MarshalByRefO
 }
 
 
-export const WebRequest: {
-    new(): WebRequest;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebRequest;
+export const WebRequest: (abstract new() => WebRequest) & (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => WebRequest) & {
     get DefaultCachePolicy(): RequestCachePolicy | undefined;
-    set DefaultCachePolicy(value: RequestCachePolicy);
+    set DefaultCachePolicy(value: RequestCachePolicy | undefined);
     get DefaultWebProxy(): IWebProxy | undefined;
-    set DefaultWebProxy(value: IWebProxy);
+    set DefaultWebProxy(value: IWebProxy | undefined);
     Create(requestUriString: string): WebRequest;
     Create(requestUri: Uri): WebRequest;
     CreateDefault(requestUri: Uri): WebRequest;
@@ -1878,13 +1833,7 @@ export interface WebRequest$instance extends System_Runtime_Serialization_Intern
 export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
-export abstract class WebResponse$protected {
-    protected Dispose(disposing: boolean): void;
-    protected GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-}
-
-
-export interface WebResponse$instance extends WebResponse$protected, MarshalByRefObject {
+export interface WebResponse$instance extends MarshalByRefObject {
     ContentLength: long;
     ContentType: string;
     readonly Headers: WebHeaderCollection;
@@ -1894,13 +1843,13 @@ export interface WebResponse$instance extends WebResponse$protected, MarshalByRe
     readonly SupportsHeaders: boolean;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
 
-export const WebResponse: {
-    new(): WebResponse;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): WebResponse;
+export const WebResponse: (abstract new() => WebResponse) & (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => WebResponse) & {
 };
 
 

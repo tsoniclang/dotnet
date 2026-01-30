@@ -355,7 +355,7 @@ export interface IColumnMappingCollection$instance extends IList, ICollection, I
     Contains(sourceColumnName: string): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): unknown;
+    get_Item2(index: int): unknown | undefined;
     get_Item2(index: string): unknown;
     GetByDataSetColumn(dataSetColumnName: string): IColumnMapping;
     GetEnumerator(): IEnumerator;
@@ -390,7 +390,8 @@ export interface IDataParameter$instance {
     ParameterName: string;
     SourceColumn: string;
     SourceVersion: DataRowVersion;
-    Value: unknown;
+    get Value(): unknown | undefined;
+    set Value(value: unknown | undefined);
 }
 
 
@@ -407,7 +408,7 @@ export interface IDataParameterCollection$instance extends IList, ICollection, I
     Contains(parameterName: string): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): unknown;
+    get_Item2(index: int): unknown | undefined;
     get_Item2(parameterName: string): unknown;
     GetEnumerator(): IEnumerator;
     IndexOf(parameterName: string): int;
@@ -489,9 +490,10 @@ export interface IDataRecord$instance {
 export type IDataRecord = IDataRecord$instance;
 
 export interface IDbCommand$instance extends IDisposable {
-    Connection: IDbConnection;
+    get Connection(): IDbConnection | undefined;
+    set Connection(value: IDbConnection | undefined);
     get Transaction(): IDbTransaction | undefined;
-    set Transaction(value: IDbTransaction);
+    set Transaction(value: IDbTransaction | undefined);
     CommandText: string;
     CommandTimeout: int;
     CommandType: CommandType;
@@ -531,13 +533,13 @@ export type IDbConnection = IDbConnection$instance;
 
 export interface IDbDataAdapter$instance extends IDataAdapter {
     get SelectCommand(): IDbCommand | undefined;
-    set SelectCommand(value: IDbCommand);
+    set SelectCommand(value: IDbCommand | undefined);
     get InsertCommand(): IDbCommand | undefined;
-    set InsertCommand(value: IDbCommand);
+    set InsertCommand(value: IDbCommand | undefined);
     get UpdateCommand(): IDbCommand | undefined;
-    set UpdateCommand(value: IDbCommand);
+    set UpdateCommand(value: IDbCommand | undefined);
     get DeleteCommand(): IDbCommand | undefined;
-    set DeleteCommand(value: IDbCommand);
+    set DeleteCommand(value: IDbCommand | undefined);
     MissingMappingAction: MissingMappingAction;
     MissingSchemaAction: MissingSchemaAction;
     readonly TableMappings: ITableMappingCollection;
@@ -561,7 +563,8 @@ export interface IDbDataParameter$instance extends IDataParameter {
     ParameterName: string;
     SourceColumn: string;
     SourceVersion: DataRowVersion;
-    Value: unknown;
+    get Value(): unknown | undefined;
+    set Value(value: unknown | undefined);
 }
 
 
@@ -570,7 +573,7 @@ export interface IDbDataParameter$instance extends IDataParameter$instance {}
 export type IDbDataParameter = IDbDataParameter$instance;
 
 export interface IDbTransaction$instance extends IDisposable {
-    readonly Connection: IDbConnection;
+    readonly Connection: IDbConnection | undefined;
     readonly IsolationLevel: IsolationLevel;
     Commit(): void;
     Dispose(): void;
@@ -602,7 +605,7 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
     Contains(sourceTableName: string): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): unknown;
+    get_Item2(index: int): unknown | undefined;
     get_Item2(index: string): unknown;
     GetByDataSetTable(dataSetTableName: string): ITableMapping;
     GetEnumerator(): IEnumerator;
@@ -618,15 +621,11 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
 
 export type ITableMappingCollection = ITableMappingCollection$instance;
 
-export abstract class Constraint$protected {
-    protected readonly _DataSet: DataSet | undefined;
-}
-
-
-export interface Constraint$instance extends Constraint$protected {
+export interface Constraint$instance {
+    readonly _DataSet: DataSet | undefined;
     ConstraintName: string;
     readonly ExtendedProperties: PropertyCollection;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
     ToString(): string;
 }
 
@@ -637,12 +636,8 @@ export const Constraint: {
 
 export type Constraint = Constraint$instance;
 
-export abstract class ConstraintCollection$protected {
-    protected readonly List: ArrayList;
-}
-
-
-export interface ConstraintCollection$instance extends ConstraintCollection$protected, InternalDataCollectionBase$instance {
+export interface ConstraintCollection$instance extends InternalDataCollectionBase$instance {
+    readonly List: ArrayList;
     Add(constraint: Constraint): void;
     Add(name: string, columns: DataColumn[], primaryKey: boolean): Constraint;
     Add(name: string, column: DataColumn, primaryKey: boolean): Constraint;
@@ -654,7 +649,7 @@ export interface ConstraintCollection$instance extends ConstraintCollection$prot
     Contains(name: string): boolean;
     CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): Constraint;
-    get_Item(name: string): Constraint;
+    get_Item(name: string): Constraint | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(constraint: Constraint): int;
     IndexOf(constraintName: string): int;
@@ -665,7 +660,6 @@ export interface ConstraintCollection$instance extends ConstraintCollection$prot
 
 
 export const ConstraintCollection: {
-    new(): ConstraintCollection;
 };
 
 
@@ -683,7 +677,6 @@ export interface ConstraintException$instance extends DataException$instance {
 
 
 export const ConstraintException: {
-    new(info: SerializationInfo, context: StreamingContext): ConstraintException;
     new(): ConstraintException;
     new(s: string): ConstraintException;
     new(message: string, innerException: Exception): ConstraintException;
@@ -697,13 +690,7 @@ export interface __ConstraintException$views {
 export type ConstraintException = ConstraintException$instance & __ConstraintException$views;
 
 
-export abstract class DataColumn$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
-}
-
-
-export interface DataColumn$instance extends DataColumn$protected, MarshalByValueComponent {
+export interface DataColumn$instance extends MarshalByValueComponent {
     AllowDBNull: boolean;
     AutoIncrement: boolean;
     AutoIncrementSeed: long;
@@ -721,10 +708,12 @@ export interface DataColumn$instance extends DataColumn$protected, MarshalByValu
     readonly Ordinal: int;
     Prefix: string;
     ReadOnly: boolean;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
     Unique: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetService(service: Type): unknown | undefined;
+    OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
     SetOrdinal(ordinal: int): void;
     ToString(): string;
 }
@@ -751,7 +740,7 @@ export type DataColumn = DataColumn$instance & __DataColumn$views;
 export interface DataColumnChangeEventArgs$instance extends EventArgs {
     readonly Column: DataColumn | undefined;
     get ProposedValue(): unknown | undefined;
-    set ProposedValue(value: unknown);
+    set ProposedValue(value: unknown | undefined);
     readonly Row: DataRow;
 }
 
@@ -763,12 +752,8 @@ export const DataColumnChangeEventArgs: {
 
 export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
-export abstract class DataColumnCollection$protected {
-    protected readonly List: ArrayList;
-}
-
-
-export interface DataColumnCollection$instance extends DataColumnCollection$protected, InternalDataCollectionBase$instance {
+export interface DataColumnCollection$instance extends InternalDataCollectionBase$instance {
+    readonly List: ArrayList;
     Add(column: DataColumn): void;
     Add(columnName: string, type: Type, expression: string): DataColumn;
     Add(columnName: string, type: Type): DataColumn;
@@ -780,7 +765,7 @@ export interface DataColumnCollection$instance extends DataColumnCollection$prot
     Contains(name: string): boolean;
     CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataColumn;
-    get_Item(name: string): DataColumn;
+    get_Item(name: string): DataColumn | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(column: DataColumn): int;
     IndexOf(columnName: string): int;
@@ -791,7 +776,6 @@ export interface DataColumnCollection$instance extends DataColumnCollection$prot
 
 
 export const DataColumnCollection: {
-    new(): DataColumnCollection;
 };
 
 
@@ -809,7 +793,6 @@ export interface DataException$instance extends SystemException {
 
 
 export const DataException: {
-    new(info: SerializationInfo, context: StreamingContext): DataException;
     new(): DataException;
     new(s: string): DataException;
     new(s: string, innerException: Exception): DataException;
@@ -827,7 +810,7 @@ export interface DataRelation$instance {
     readonly ChildColumns: DataColumn[];
     readonly ChildKeyConstraint: ForeignKeyConstraint | undefined;
     readonly ChildTable: DataTable;
-    readonly DataSet: DataSet;
+    readonly DataSet: DataSet | undefined;
     readonly ExtendedProperties: PropertyCollection;
     Nested: boolean;
     readonly ParentColumns: DataColumn[];
@@ -850,16 +833,7 @@ export const DataRelation: {
 
 export type DataRelation = DataRelation$instance;
 
-export abstract class DataRelationCollection$protected {
-    protected AddCore(relation: DataRelation): void;
-    protected abstract GetDataSet(): DataSet;
-    protected OnCollectionChanged(ccevent: CollectionChangeEventArgs): void;
-    protected OnCollectionChanging(ccevent: CollectionChangeEventArgs): void;
-    protected RemoveCore(relation: DataRelation): void;
-}
-
-
-export interface DataRelationCollection$instance extends DataRelationCollection$protected, InternalDataCollectionBase$instance {
+export interface DataRelationCollection$instance extends InternalDataCollectionBase$instance {
     Add(relation: DataRelation): void;
     Add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
     Add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation;
@@ -867,24 +841,28 @@ export interface DataRelationCollection$instance extends DataRelationCollection$
     Add(name: string, parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
     Add(name: string, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation;
     Add(parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
+    AddCore(relation: DataRelation): void;
     AddRange(relations: DataRelation[]): void;
     CanRemove(relation: DataRelation): boolean;
     Clear(): void;
     Contains(name: string): boolean;
     CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataRelation;
-    get_Item(name: string): DataRelation;
+    get_Item(name: string): DataRelation | undefined;
+    GetDataSet(): DataSet;
     GetEnumerator(): IEnumerator;
     IndexOf(relation: DataRelation): int;
     IndexOf(relationName: string): int;
+    OnCollectionChanged(ccevent: CollectionChangeEventArgs): void;
+    OnCollectionChanging(ccevent: CollectionChangeEventArgs): void;
     Remove(relation: DataRelation): void;
     Remove(name: string): void;
     RemoveAt(index: int): void;
+    RemoveCore(relation: DataRelation): void;
 }
 
 
-export const DataRelationCollection: {
-    new(): DataRelationCollection;
+export const DataRelationCollection: (abstract new() => DataRelationCollection) & {
 };
 
 
@@ -949,8 +927,7 @@ export interface DataRow$instance {
 }
 
 
-export const DataRow: {
-    new(builder: DataRowBuilder): DataRow;
+export const DataRow: (abstract new(builder: DataRowBuilder) => DataRow) & {
 };
 
 
@@ -961,7 +938,6 @@ export interface DataRowBuilder$instance {
 
 
 export const DataRowBuilder: {
-    new(): DataRowBuilder;
 };
 
 
@@ -1001,7 +977,6 @@ export interface DataRowCollection$instance extends InternalDataCollectionBase$i
 
 
 export const DataRowCollection: {
-    new(): DataRowCollection;
 };
 
 
@@ -1020,7 +995,6 @@ export interface DataRowComparer_1$instance<TRow extends DataRow> {
 
 
 export const DataRowComparer_1: {
-    new<TRow extends DataRow>(): DataRowComparer_1<TRow>;
     readonly Default: unknown;
 };
 
@@ -1056,7 +1030,6 @@ export interface DataRowView$instance extends INotifyPropertyChanged {
 
 
 export const DataRowView: {
-    new(): DataRowView;
 };
 
 
@@ -1071,20 +1044,7 @@ export interface DataRowView$instance extends System_ComponentModel_Internal.ICu
 export type DataRowView = DataRowView$instance & __DataRowView$views;
 
 
-export abstract class DataSet$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected GetSchemaSerializable(): XmlSchema | undefined;
-    protected InitializeDerivedDataSet(): void;
-    protected OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
-    protected OnRemoveRelation(relation: DataRelation): void;
-    protected OnRemoveTable(table: DataTable): void;
-    protected ReadXmlSerializable(reader: XmlReader): void;
-    protected ShouldSerializeRelations(): boolean;
-    protected ShouldSerializeTables(): boolean;
-}
-
-
-export interface DataSet$instance extends DataSet$protected, MarshalByValueComponent {
+export interface DataSet$instance extends MarshalByValueComponent {
     CaseSensitive: boolean;
     DataSetName: string;
     readonly DefaultViewManager: DataViewManager;
@@ -1099,7 +1059,7 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
     RemotingFormat: SerializationFormat;
     SchemaSerializationMode: SchemaSerializationMode;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     readonly Tables: DataTableCollection;
     AcceptChanges(): void;
     BeginInit(): void;
@@ -1109,10 +1069,12 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
     CreateDataReader(): DataTableReader;
     CreateDataReader(...dataTables: DataTable[]): DataTableReader;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EndInit(): void;
     GetChanges(): DataSet | undefined;
     GetChanges(rowStates: DataRowState): DataSet | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetSchemaSerializable(): XmlSchema | undefined;
     GetService(service: Type): unknown | undefined;
     GetXml(): string;
     GetXmlSchema(): string;
@@ -1122,6 +1084,7 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
     InferXmlSchema(stream: Stream, nsArray: string[]): void;
     InferXmlSchema(reader: TextReader, nsArray: string[]): void;
     InferXmlSchema(fileName: string, nsArray: string[]): void;
+    InitializeDerivedDataSet(): void;
     Load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler, ...tables: DataTable[]): void;
     Load(reader: IDataReader, loadOption: LoadOption, ...tables: DataTable[]): void;
     Load(reader: IDataReader, loadOption: LoadOption, ...tables: string[]): void;
@@ -1132,6 +1095,9 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
     Merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
     Merge(rows: DataRow[]): void;
     Merge(rows: DataRow[], preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
+    OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
+    OnRemoveRelation(relation: DataRelation): void;
+    OnRemoveTable(table: DataTable): void;
     ReadXml(reader: XmlReader): XmlReadMode;
     ReadXml(stream: Stream): XmlReadMode;
     ReadXml(reader: TextReader): XmlReadMode;
@@ -1144,8 +1110,11 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
     ReadXmlSchema(stream: Stream): void;
     ReadXmlSchema(reader: TextReader): void;
     ReadXmlSchema(fileName: string): void;
+    ReadXmlSerializable(reader: XmlReader): void;
     RejectChanges(): void;
     Reset(): void;
+    ShouldSerializeRelations(): boolean;
+    ShouldSerializeTables(): boolean;
     WriteXml(stream: Stream): void;
     WriteXml(writer: TextWriter): void;
     WriteXml(writer: XmlWriter): void;
@@ -1168,8 +1137,6 @@ export interface DataSet$instance extends DataSet$protected, MarshalByValueCompo
 export const DataSet: {
     new(): DataSet;
     new(dataSetName: string): DataSet;
-    new(info: SerializationInfo, context: StreamingContext): DataSet;
-    new(info: SerializationInfo, context: StreamingContext, ConstructSchema: boolean): DataSet;
     GetDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 };
 
@@ -1202,33 +1169,12 @@ export const DataSysDescriptionAttribute: {
 
 export type DataSysDescriptionAttribute = DataSysDescriptionAttribute$instance;
 
-export abstract class DataTable$protected {
-    protected CreateInstance(): DataTable;
-    protected Dispose2(disposing: boolean): void;
-    protected GetRowType(): Type;
-    protected GetSchema(): XmlSchema;
-    protected NewRowFromBuilder(builder: DataRowBuilder): DataRow;
-    protected OnColumnChanged(e: DataColumnChangeEventArgs): void;
-    protected OnColumnChanging(e: DataColumnChangeEventArgs): void;
-    protected OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
-    protected OnRemoveColumn(column: DataColumn): void;
-    protected OnRowChanged(e: DataRowChangeEventArgs): void;
-    protected OnRowChanging(e: DataRowChangeEventArgs): void;
-    protected OnRowDeleted(e: DataRowChangeEventArgs): void;
-    protected OnRowDeleting(e: DataRowChangeEventArgs): void;
-    protected OnTableCleared(e: DataTableClearEventArgs): void;
-    protected OnTableClearing(e: DataTableClearEventArgs): void;
-    protected OnTableNewRow(e: DataTableNewRowEventArgs): void;
-    protected ReadXmlSerializable(reader: XmlReader): void;
-}
-
-
-export interface DataTable$instance extends DataTable$protected, MarshalByValueComponent {
+export interface DataTable$instance extends MarshalByValueComponent {
     CaseSensitive: boolean;
     readonly ChildRelations: DataRelationCollection;
     readonly Columns: DataColumnCollection;
     readonly Constraints: ConstraintCollection;
-    readonly DataSet: DataSet;
+    readonly DataSet: DataSet | undefined;
     readonly DefaultView: DataView;
     DisplayExpression: string;
     readonly ExtendedProperties: PropertyCollection;
@@ -1243,7 +1189,7 @@ export interface DataTable$instance extends DataTable$protected, MarshalByValueC
     RemotingFormat: SerializationFormat;
     readonly Rows: DataRowCollection;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     TableName: string;
     AcceptChanges(): void;
     BeginInit(): void;
@@ -1253,13 +1199,17 @@ export interface DataTable$instance extends DataTable$protected, MarshalByValueC
     Compute(expression: string, filter: string): unknown;
     Copy(): DataTable;
     CreateDataReader(): DataTableReader;
+    CreateInstance(): DataTable;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EndInit(): void;
     EndLoadData(): void;
     GetChanges(): DataTable | undefined;
     GetChanges(rowStates: DataRowState): DataTable | undefined;
     GetErrors(): DataRow[];
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetRowType(): Type;
+    GetSchema(): XmlSchema | undefined;
     GetService(service: Type): unknown | undefined;
     ImportRow(row: DataRow): void;
     Load(reader: IDataReader): void;
@@ -1271,6 +1221,18 @@ export interface DataTable$instance extends DataTable$protected, MarshalByValueC
     Merge(table: DataTable, preserveChanges: boolean): void;
     Merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
     NewRow(): DataRow;
+    NewRowFromBuilder(builder: DataRowBuilder): DataRow;
+    OnColumnChanged(e: DataColumnChangeEventArgs): void;
+    OnColumnChanging(e: DataColumnChangeEventArgs): void;
+    OnPropertyChanging(pcevent: PropertyChangedEventArgs): void;
+    OnRemoveColumn(column: DataColumn): void;
+    OnRowChanged(e: DataRowChangeEventArgs): void;
+    OnRowChanging(e: DataRowChangeEventArgs): void;
+    OnRowDeleted(e: DataRowChangeEventArgs): void;
+    OnRowDeleting(e: DataRowChangeEventArgs): void;
+    OnTableCleared(e: DataTableClearEventArgs): void;
+    OnTableClearing(e: DataTableClearEventArgs): void;
+    OnTableNewRow(e: DataTableNewRowEventArgs): void;
     ReadXml(stream: Stream): XmlReadMode;
     ReadXml(reader: TextReader): XmlReadMode;
     ReadXml(fileName: string): XmlReadMode;
@@ -1279,6 +1241,7 @@ export interface DataTable$instance extends DataTable$protected, MarshalByValueC
     ReadXmlSchema(reader: TextReader): void;
     ReadXmlSchema(fileName: string): void;
     ReadXmlSchema(reader: XmlReader): void;
+    ReadXmlSerializable(reader: XmlReader): void;
     RejectChanges(): void;
     Reset(): void;
     Select(): DataRow[];
@@ -1317,7 +1280,6 @@ export const DataTable: {
     new(): DataTable;
     new(tableName: string): DataTable;
     new(tableName: string, tableNamespace: string): DataTable;
-    new(info: SerializationInfo, context: StreamingContext): DataTable;
     GetDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 };
 
@@ -1352,12 +1314,8 @@ export const DataTableClearEventArgs: {
 
 export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
-export abstract class DataTableCollection$protected {
-    protected readonly List: ArrayList;
-}
-
-
-export interface DataTableCollection$instance extends DataTableCollection$protected, InternalDataCollectionBase$instance {
+export interface DataTableCollection$instance extends InternalDataCollectionBase$instance {
+    readonly List: ArrayList;
     Add(table: DataTable): void;
     Add(name: string): DataTable;
     Add(name: string, tableNamespace: string): DataTable;
@@ -1369,7 +1327,7 @@ export interface DataTableCollection$instance extends DataTableCollection$protec
     Contains(name: string, tableNamespace: string): boolean;
     CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataTable;
-    get_Item(name: string): DataTable;
+    get_Item(name: string): DataTable | undefined;
     get_Item(name: string, tableNamespace: string): DataTable | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(table: DataTable): int;
@@ -1383,7 +1341,6 @@ export interface DataTableCollection$instance extends DataTableCollection$protec
 
 
 export const DataTableCollection: {
-    new(): DataTableCollection;
 };
 
 
@@ -1407,12 +1364,7 @@ export const DataTableNewRowEventArgs: {
 
 export type DataTableNewRowEventArgs = DataTableNewRowEventArgs$instance;
 
-export abstract class DataTableReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface DataTableReader$instance extends DataTableReader$protected, DbDataReader {
+export interface DataTableReader$instance extends DbDataReader {
     readonly Depth: int;
     readonly FieldCount: int;
     readonly HasRows: boolean;
@@ -1420,6 +1372,7 @@ export interface DataTableReader$instance extends DataTableReader$protected, DbD
     readonly RecordsAffected: int;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     get_Item(ordinal: int): unknown;
     get_Item(name: string): unknown;
@@ -1473,16 +1426,7 @@ export interface __DataTableReader$views {
 export type DataTableReader = DataTableReader$instance & __DataTableReader$views;
 
 
-export abstract class DataView$protected {
-    protected ColumnCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
-    protected Dispose2(disposing: boolean): void;
-    protected IndexListChanged(sender: unknown, e: ListChangedEventArgs): void;
-    protected OnListChanged(e: ListChangedEventArgs): void;
-    protected UpdateIndex(force: boolean): void;
-}
-
-
-export interface DataView$instance extends DataView$protected, MarshalByValueComponent {
+export interface DataView$instance extends MarshalByValueComponent {
     AllowDelete: boolean;
     AllowEdit: boolean;
     AllowNew: boolean;
@@ -1491,14 +1435,18 @@ export interface DataView$instance extends DataView$protected, MarshalByValueCom
     readonly DataViewManager: DataViewManager | undefined;
     readonly IsInitialized: boolean;
     readonly Item: DataRowView;
-    RowFilter: string;
+    get RowFilter(): string | undefined;
+    set RowFilter(value: string | undefined);
     RowStateFilter: DataViewRowState;
     Sort: string;
-    Table: DataTable;
+    get Table(): DataTable | undefined;
+    set Table(value: DataTable | undefined);
     AddNew(): DataRowView;
     BeginInit(): void;
+    ColumnCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
     CopyTo(array: ClrArray, index: int): void;
     Delete(index: int): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     EndInit(): void;
     Equals(view: DataView): boolean;
@@ -1509,10 +1457,13 @@ export interface DataView$instance extends DataView$protected, MarshalByValueCom
     FindRows(key: unknown[]): DataRowView[];
     GetEnumerator(): IEnumerator;
     GetService(service: Type): unknown | undefined;
+    IndexListChanged(sender: unknown, e: ListChangedEventArgs): void;
+    OnListChanged(e: ListChangedEventArgs): void;
     ToTable(): DataTable;
     ToTable(tableName: string): DataTable;
     ToTable(distinct: boolean, ...columnNames: string[]): DataTable;
     ToTable(tableName: string, distinct: boolean, ...columnNames: string[]): DataTable;
+    UpdateIndex(force: boolean): void;
 }
 
 
@@ -1542,21 +1493,18 @@ export interface DataView$instance extends System_ComponentModel_Internal.ITyped
 export type DataView = DataView$instance & __DataView$views;
 
 
-export abstract class DataViewManager$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected OnListChanged(e: ListChangedEventArgs): void;
-    protected RelationCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
-    protected TableCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
-}
-
-
-export interface DataViewManager$instance extends DataViewManager$protected, MarshalByValueComponent {
-    DataSet: DataSet;
+export interface DataViewManager$instance extends MarshalByValueComponent {
+    get DataSet(): DataSet | undefined;
+    set DataSet(value: DataSet | undefined);
     DataViewSettingCollectionString: string;
     readonly DataViewSettings: DataViewSettingCollection;
     CreateDataView(table: DataTable): DataView;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetService(service: Type): unknown | undefined;
+    OnListChanged(e: ListChangedEventArgs): void;
+    RelationCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
+    TableCollectionChanged(sender: unknown, e: CollectionChangeEventArgs): void;
 }
 
 
@@ -1588,12 +1536,11 @@ export interface DataViewSetting$instance {
     RowFilter: string;
     RowStateFilter: DataViewRowState;
     Sort: string;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
 }
 
 
 export const DataViewSetting: {
-    new(): DataViewSetting;
 };
 
 
@@ -1607,8 +1554,8 @@ export interface DataViewSettingCollection$instance {
     CopyTo(ar: ClrArray, index: int): void;
     CopyTo(ar: DataViewSetting[], index: int): void;
     get_Item(table: DataTable): DataViewSetting;
-    get_Item(tableName: string): DataViewSetting;
-    get_Item(index: int): DataViewSetting;
+    get_Item(tableName: string): DataViewSetting | undefined;
+    get_Item(index: int): DataViewSetting | undefined;
     GetEnumerator(): IEnumerator;
     set_Item(table: DataTable, value: DataViewSetting): void;
     set_Item(index: int, value: DataViewSetting | undefined): void;
@@ -1616,7 +1563,6 @@ export interface DataViewSettingCollection$instance {
 
 
 export const DataViewSettingCollection: {
-    new(): DataViewSettingCollection;
 };
 
 
@@ -1629,7 +1575,8 @@ export type DataViewSettingCollection = DataViewSettingCollection$instance & __D
 
 
 export interface DBConcurrencyException$instance extends SystemException {
-    Row: DataRow;
+    get Row(): DataRow | undefined;
+    set Row(value: DataRow | undefined);
     readonly RowCount: int;
     CopyToRows(array: DataRow[]): void;
     CopyToRows(array: DataRow[], arrayIndex: int): void;
@@ -1658,7 +1605,6 @@ export interface DeletedRowInaccessibleException$instance extends DataException$
 
 
 export const DeletedRowInaccessibleException: {
-    new(info: SerializationInfo, context: StreamingContext): DeletedRowInaccessibleException;
     new(): DeletedRowInaccessibleException;
     new(s: string): DeletedRowInaccessibleException;
     new(message: string, innerException: Exception): DeletedRowInaccessibleException;
@@ -1678,7 +1624,6 @@ export interface DuplicateNameException$instance extends DataException$instance 
 
 
 export const DuplicateNameException: {
-    new(info: SerializationInfo, context: StreamingContext): DuplicateNameException;
     new(): DuplicateNameException;
     new(s: string): DuplicateNameException;
     new(message: string, innerException: Exception): DuplicateNameException;
@@ -1715,7 +1660,6 @@ export interface EnumerableRowCollection_1$instance<TRow> extends EnumerableRowC
 
 
 export const EnumerableRowCollection_1: {
-    new<TRow>(): EnumerableRowCollection_1<TRow>;
 };
 
 
@@ -1733,7 +1677,6 @@ export interface EvaluateException$instance extends InvalidExpressionException$i
 
 
 export const EvaluateException: {
-    new(info: SerializationInfo, context: StreamingContext): EvaluateException;
     new(): EvaluateException;
     new(s: string): EvaluateException;
     new(message: string, innerException: Exception): EvaluateException;
@@ -1750,7 +1693,8 @@ export type EvaluateException = EvaluateException$instance & __EvaluateException
 export interface FillErrorEventArgs$instance extends EventArgs {
     Continue: boolean;
     readonly DataTable: DataTable | undefined;
-    Errors: Exception;
+    get Errors(): Exception | undefined;
+    set Errors(value: Exception | undefined);
     readonly Values: (unknown | undefined)[];
 }
 
@@ -1768,7 +1712,7 @@ export interface ForeignKeyConstraint$instance extends Constraint {
     DeleteRule: Rule;
     readonly RelatedColumns: DataColumn[];
     readonly RelatedTable: DataTable;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
     UpdateRule: Rule;
     Equals(key: unknown): boolean;
     GetHashCode(): int;
@@ -1793,7 +1737,6 @@ export interface InRowChangingEventException$instance extends DataException$inst
 
 
 export const InRowChangingEventException: {
-    new(info: SerializationInfo, context: StreamingContext): InRowChangingEventException;
     new(): InRowChangingEventException;
     new(s: string): InRowChangingEventException;
     new(message: string, innerException: Exception): InRowChangingEventException;
@@ -1807,15 +1750,11 @@ export interface __InRowChangingEventException$views {
 export type InRowChangingEventException = InRowChangingEventException$instance & __InRowChangingEventException$views;
 
 
-export abstract class InternalDataCollectionBase$protected {
-    protected readonly List: ArrayList;
-}
-
-
-export interface InternalDataCollectionBase$instance extends InternalDataCollectionBase$protected {
+export interface InternalDataCollectionBase$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
+    readonly List: ArrayList;
     readonly SyncRoot: unknown;
     CopyTo(ar: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -1841,7 +1780,6 @@ export interface InvalidConstraintException$instance extends DataException$insta
 
 
 export const InvalidConstraintException: {
-    new(info: SerializationInfo, context: StreamingContext): InvalidConstraintException;
     new(): InvalidConstraintException;
     new(s: string): InvalidConstraintException;
     new(message: string, innerException: Exception): InvalidConstraintException;
@@ -1861,7 +1799,6 @@ export interface InvalidExpressionException$instance extends DataException$insta
 
 
 export const InvalidExpressionException: {
-    new(info: SerializationInfo, context: StreamingContext): InvalidExpressionException;
     new(): InvalidExpressionException;
     new(s: string): InvalidExpressionException;
     new(message: string, innerException: Exception): InvalidExpressionException;
@@ -1877,7 +1814,7 @@ export type InvalidExpressionException = InvalidExpressionException$instance & _
 
 export interface MergeFailedEventArgs$instance extends EventArgs {
     readonly Conflict: string;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
 }
 
 
@@ -1894,7 +1831,6 @@ export interface MissingPrimaryKeyException$instance extends DataException$insta
 
 
 export const MissingPrimaryKeyException: {
-    new(info: SerializationInfo, context: StreamingContext): MissingPrimaryKeyException;
     new(): MissingPrimaryKeyException;
     new(s: string): MissingPrimaryKeyException;
     new(message: string, innerException: Exception): MissingPrimaryKeyException;
@@ -1914,7 +1850,6 @@ export interface NoNullAllowedException$instance extends DataException$instance 
 
 
 export const NoNullAllowedException: {
-    new(info: SerializationInfo, context: StreamingContext): NoNullAllowedException;
     new(): NoNullAllowedException;
     new(s: string): NoNullAllowedException;
     new(message: string, innerException: Exception): NoNullAllowedException;
@@ -1935,7 +1870,6 @@ export interface OrderedEnumerableRowCollection_1$instance<TRow> extends Enumera
 
 
 export const OrderedEnumerableRowCollection_1: {
-    new<TRow>(): OrderedEnumerableRowCollection_1<TRow>;
 };
 
 
@@ -1963,7 +1897,6 @@ export interface PropertyCollection$instance extends Hashtable {
 
 export const PropertyCollection: {
     new(): PropertyCollection;
-    new(info: SerializationInfo, context: StreamingContext): PropertyCollection;
 };
 
 
@@ -1985,7 +1918,6 @@ export interface ReadOnlyException$instance extends DataException$instance {
 
 
 export const ReadOnlyException: {
-    new(info: SerializationInfo, context: StreamingContext): ReadOnlyException;
     new(): ReadOnlyException;
     new(s: string): ReadOnlyException;
     new(message: string, innerException: Exception): ReadOnlyException;
@@ -2005,7 +1937,6 @@ export interface RowNotInTableException$instance extends DataException$instance 
 
 
 export const RowNotInTableException: {
-    new(info: SerializationInfo, context: StreamingContext): RowNotInTableException;
     new(): RowNotInTableException;
     new(s: string): RowNotInTableException;
     new(message: string, innerException: Exception): RowNotInTableException;
@@ -2050,7 +1981,6 @@ export interface StrongTypingException$instance extends DataException$instance {
 
 
 export const StrongTypingException: {
-    new(info: SerializationInfo, context: StreamingContext): StrongTypingException;
     new(): StrongTypingException;
     new(message: string): StrongTypingException;
     new(s: string, innerException: Exception): StrongTypingException;
@@ -2070,7 +2000,6 @@ export interface SyntaxErrorException$instance extends InvalidExpressionExceptio
 
 
 export const SyntaxErrorException: {
-    new(info: SerializationInfo, context: StreamingContext): SyntaxErrorException;
     new(): SyntaxErrorException;
     new(s: string): SyntaxErrorException;
     new(message: string, innerException: Exception): SyntaxErrorException;
@@ -2084,19 +2013,15 @@ export interface __SyntaxErrorException$views {
 export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxErrorException$views;
 
 
-export abstract class TypedTableBase_1$protected<T extends DataRow> {
-    protected Dispose3(disposing: boolean): void;
-    protected GetSchema(): XmlSchema;
-}
-
-
-export interface TypedTableBase_1$instance<T extends DataRow> extends TypedTableBase_1$protected<T>, DataTable$instance {
+export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance {
     BeginInit(): void;
     Cast<TResult>(): EnumerableRowCollection_1<TResult>;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetEnumerator(): IEnumerator_1<T>;
     GetList(): IList;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetSchema(): XmlSchema | undefined;
     GetService(serviceType: Type): unknown | undefined;
     ReadXml(stream: Stream): XmlReadMode;
     ReadXml(reader: TextReader): XmlReadMode;
@@ -2122,9 +2047,7 @@ export interface TypedTableBase_1$instance<T extends DataRow> extends TypedTable
 }
 
 
-export const TypedTableBase_1: {
-    new<T extends DataRow>(): TypedTableBase_1<T>;
-    new<T extends DataRow>(info: SerializationInfo, context: StreamingContext): TypedTableBase_1<T>;
+export const TypedTableBase_1: (abstract new<T extends DataRow>() => TypedTableBase_1<T>) & (abstract new<T extends DataRow>(info: SerializationInfo, context: StreamingContext) => TypedTableBase_1<T>) & {
 };
 
 
@@ -2149,7 +2072,7 @@ export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> &
 export interface UniqueConstraint$instance extends Constraint {
     readonly Columns: DataColumn[];
     readonly IsPrimaryKey: boolean;
-    readonly Table: DataTable;
+    readonly Table: DataTable | undefined;
     Equals(key2: unknown): boolean;
     GetHashCode(): int;
 }
@@ -2176,7 +2099,6 @@ export interface VersionNotFoundException$instance extends DataException$instanc
 
 
 export const VersionNotFoundException: {
-    new(info: SerializationInfo, context: StreamingContext): VersionNotFoundException;
     new(): VersionNotFoundException;
     new(s: string): VersionNotFoundException;
     new(message: string, innerException: Exception): VersionNotFoundException;

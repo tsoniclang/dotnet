@@ -22,7 +22,8 @@ export enum TransferEncoding {
 export interface ContentDisposition$instance {
     CreationDate: DateTime;
     DispositionType: string;
-    FileName: string;
+    get FileName(): string | undefined;
+    set FileName(value: string | undefined);
     Inline: boolean;
     ModificationDate: DateTime;
     readonly Parameters: StringDictionary;
@@ -44,9 +45,9 @@ export type ContentDisposition = ContentDisposition$instance;
 
 export interface ContentType$instance {
     get Boundary(): string | undefined;
-    set Boundary(value: string);
+    set Boundary(value: string | undefined);
     get CharSet(): string | undefined;
-    set CharSet(value: string);
+    set CharSet(value: string | undefined);
     MediaType: string;
     Name: string;
     readonly Parameters: StringDictionary;

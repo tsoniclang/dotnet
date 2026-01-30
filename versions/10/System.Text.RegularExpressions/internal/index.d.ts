@@ -139,7 +139,6 @@ export interface Capture$instance {
 
 
 export const Capture: {
-    new(): Capture;
 };
 
 
@@ -158,7 +157,6 @@ export interface CaptureCollection$instance {
 
 
 export const CaptureCollection: {
-    new(): CaptureCollection;
 };
 
 
@@ -202,7 +200,6 @@ export interface Group$instance extends Capture {
 
 
 export const Group: {
-    new(): Group;
     Synchronized(inner: Group): Group;
 };
 
@@ -227,7 +224,6 @@ export interface GroupCollection$instance {
 
 
 export const GroupCollection: {
-    new(): GroupCollection;
 };
 
 
@@ -253,7 +249,6 @@ export interface Match$instance extends Group {
 
 
 export const Match: {
-    new(): Match;
     readonly Empty: Match;
 };
 
@@ -273,7 +268,6 @@ export interface MatchCollection$instance {
 
 
 export const MatchCollection: {
-    new(): MatchCollection;
 };
 
 
@@ -329,11 +323,9 @@ export interface Regex$instance {
 
 
 export const Regex: {
-    new(): Regex;
     new(pattern: string): Regex;
     new(pattern: string, options: RegexOptions): Regex;
     new(pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex;
-    new(info: SerializationInfo, context: StreamingContext): Regex;
     readonly InfiniteMatchTimeout: TimeSpan;
     CacheSize: int;
     CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
@@ -418,7 +410,6 @@ export const RegexMatchTimeoutException: {
     new(): RegexMatchTimeoutException;
     new(message: string): RegexMatchTimeoutException;
     new(message: string, inner: Exception): RegexMatchTimeoutException;
-    new(info: SerializationInfo, context: StreamingContext): RegexMatchTimeoutException;
 };
 
 
@@ -437,7 +428,6 @@ export interface RegexParseException$instance extends ArgumentException {
 
 
 export const RegexParseException: {
-    new(): RegexParseException;
 };
 
 
@@ -448,20 +438,15 @@ export interface __RegexParseException$views {
 export type RegexParseException = RegexParseException$instance & __RegexParseException$views;
 
 
-export abstract class RegexRunner$protected {
-    protected FindFirstChar(): boolean;
-    protected Go(): void;
-    protected InitTrackCount(): void;
-    protected Scan(text: ReadOnlySpan_1<System_Internal.Char>): void;
+export interface RegexRunner$instance {
+    FindFirstChar(): boolean;
+    Go(): void;
+    InitTrackCount(): void;
+    Scan(text: ReadOnlySpan_1<System_Internal.Char>): void;
 }
 
 
-export interface RegexRunner$instance extends RegexRunner$protected {
-}
-
-
-export const RegexRunner: {
-    new(): RegexRunner;
+export const RegexRunner: (abstract new() => RegexRunner) & {
     CharInClass(ch: char, charClass: string): boolean;
     CharInSet(ch: char, set: string, category: string): boolean;
 };
@@ -469,17 +454,12 @@ export const RegexRunner: {
 
 export type RegexRunner = RegexRunner$instance;
 
-export abstract class RegexRunnerFactory$protected {
-    protected abstract CreateInstance(): RegexRunner;
+export interface RegexRunnerFactory$instance {
+    CreateInstance(): RegexRunner;
 }
 
 
-export interface RegexRunnerFactory$instance extends RegexRunnerFactory$protected {
-}
-
-
-export const RegexRunnerFactory: {
-    new(): RegexRunnerFactory;
+export const RegexRunnerFactory: (abstract new() => RegexRunnerFactory) & {
 };
 
 

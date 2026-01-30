@@ -11,19 +11,14 @@ import type { CriticalHandle, SafeBuffer, SafeHandle } from "../../System.Runtim
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, IntPtr, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
-export abstract class CriticalHandleMinusOneIsInvalid$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandleMinusOneIsInvalid$protected, CriticalHandle {
+export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const CriticalHandleMinusOneIsInvalid: {
-    new(): CriticalHandleMinusOneIsInvalid;
+export const CriticalHandleMinusOneIsInvalid: (abstract new() => CriticalHandleMinusOneIsInvalid) & {
 };
 
 
@@ -34,19 +29,14 @@ export interface __CriticalHandleMinusOneIsInvalid$views {
 export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$instance & __CriticalHandleMinusOneIsInvalid$views;
 
 
-export abstract class CriticalHandleZeroOrMinusOneIsInvalid$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends CriticalHandleZeroOrMinusOneIsInvalid$protected, CriticalHandle {
+export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends CriticalHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const CriticalHandleZeroOrMinusOneIsInvalid: {
-    new(): CriticalHandleZeroOrMinusOneIsInvalid;
+export const CriticalHandleZeroOrMinusOneIsInvalid: (abstract new() => CriticalHandleZeroOrMinusOneIsInvalid) & {
 };
 
 
@@ -57,15 +47,11 @@ export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
 export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOneIsInvalid$instance & __CriticalHandleZeroOrMinusOneIsInvalid$views;
 
 
-export abstract class SafeAccessTokenHandle$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeAccessTokenHandle$instance extends SafeAccessTokenHandle$protected, SafeHandle {
+export interface SafeAccessTokenHandle$instance extends SafeHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -83,16 +69,12 @@ export interface __SafeAccessTokenHandle$views {
 export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAccessTokenHandle$views;
 
 
-export abstract class SafeFileHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeFileHandle$instance extends SafeFileHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     IsAsync: boolean;
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -109,19 +91,14 @@ export interface __SafeFileHandle$views {
 export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
-export abstract class SafeHandleMinusOneIsInvalid$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandleMinusOneIsInvalid$protected, SafeHandle {
+export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const SafeHandleMinusOneIsInvalid: {
-    new(ownsHandle: boolean): SafeHandleMinusOneIsInvalid;
+export const SafeHandleMinusOneIsInvalid: (abstract new(ownsHandle: boolean) => SafeHandleMinusOneIsInvalid) & {
 };
 
 
@@ -132,19 +109,14 @@ export interface __SafeHandleMinusOneIsInvalid$views {
 export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance & __SafeHandleMinusOneIsInvalid$views;
 
 
-export abstract class SafeHandleZeroOrMinusOneIsInvalid$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandleZeroOrMinusOneIsInvalid$protected, SafeHandle {
+export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandle {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
 }
 
 
-export const SafeHandleZeroOrMinusOneIsInvalid: {
-    new(ownsHandle: boolean): SafeHandleZeroOrMinusOneIsInvalid;
+export const SafeHandleZeroOrMinusOneIsInvalid: (abstract new(ownsHandle: boolean) => SafeHandleZeroOrMinusOneIsInvalid) & {
 };
 
 
@@ -155,15 +127,11 @@ export interface __SafeHandleZeroOrMinusOneIsInvalid$views {
 export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvalid$instance & __SafeHandleZeroOrMinusOneIsInvalid$views;
 
 
-export abstract class SafeMemoryMappedFileHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeMemoryMappedFileHandle$instance extends SafeMemoryMappedFileHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -179,14 +147,10 @@ export interface __SafeMemoryMappedFileHandle$views {
 export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & __SafeMemoryMappedFileHandle$views;
 
 
-export abstract class SafeMemoryMappedViewHandle$protected {
-    protected Dispose4(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeMemoryMappedViewHandle$instance extends SafeMemoryMappedViewHandle$protected, SafeBuffer {
+export interface SafeMemoryMappedViewHandle$instance extends SafeBuffer {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -202,21 +166,15 @@ export interface __SafeMemoryMappedViewHandle$views {
 export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & __SafeMemoryMappedViewHandle$views;
 
 
-export abstract class SafeNCryptHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-    protected abstract ReleaseNativeHandle(): boolean;
-}
-
-
-export interface SafeNCryptHandle$instance extends SafeNCryptHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
+    ReleaseNativeHandle(): boolean;
 }
 
 
-export const SafeNCryptHandle: {
-    new(): SafeNCryptHandle;
-    new(handle: nint, parentHandle: SafeHandle): SafeNCryptHandle;
+export const SafeNCryptHandle: (abstract new() => SafeNCryptHandle) & (abstract new(handle: nint, parentHandle: SafeHandle) => SafeNCryptHandle) & {
 };
 
 
@@ -227,14 +185,10 @@ export interface __SafeNCryptHandle$views {
 export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$views;
 
 
-export abstract class SafeNCryptKeyHandle$protected {
-    protected Dispose4(disposing: boolean): void;
-    protected ReleaseNativeHandle(): boolean;
-}
-
-
-export interface SafeNCryptKeyHandle$instance extends SafeNCryptKeyHandle$protected, SafeNCryptHandle$instance {
+export interface SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseNativeHandle(): boolean;
 }
 
 
@@ -251,14 +205,10 @@ export interface __SafeNCryptKeyHandle$views {
 export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKeyHandle$views;
 
 
-export abstract class SafeNCryptProviderHandle$protected {
-    protected Dispose4(disposing: boolean): void;
-    protected ReleaseNativeHandle(): boolean;
-}
-
-
-export interface SafeNCryptProviderHandle$instance extends SafeNCryptProviderHandle$protected, SafeNCryptHandle$instance {
+export interface SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseNativeHandle(): boolean;
 }
 
 
@@ -274,14 +224,10 @@ export interface __SafeNCryptProviderHandle$views {
 export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __SafeNCryptProviderHandle$views;
 
 
-export abstract class SafeNCryptSecretHandle$protected {
-    protected Dispose4(disposing: boolean): void;
-    protected ReleaseNativeHandle(): boolean;
-}
-
-
-export interface SafeNCryptSecretHandle$instance extends SafeNCryptSecretHandle$protected, SafeNCryptHandle$instance {
+export interface SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseNativeHandle(): boolean;
 }
 
 
@@ -297,15 +243,11 @@ export interface __SafeNCryptSecretHandle$views {
 export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCryptSecretHandle$views;
 
 
-export abstract class SafePipeHandle$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafePipeHandle$instance extends SafePipeHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly IsInvalid: boolean;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -322,14 +264,10 @@ export interface __SafePipeHandle$views {
 export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 
 
-export abstract class SafeProcessHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeProcessHandle$instance extends SafeProcessHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -346,14 +284,10 @@ export interface __SafeProcessHandle$views {
 export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle$views;
 
 
-export abstract class SafeRegistryHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeRegistryHandle$instance extends SafeRegistryHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -370,14 +304,10 @@ export interface __SafeRegistryHandle$views {
 export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHandle$views;
 
 
-export abstract class SafeWaitHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeWaitHandle$instance extends SafeWaitHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -394,14 +324,10 @@ export interface __SafeWaitHandle$views {
 export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 
-export abstract class SafeX509ChainHandle$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeX509ChainHandle$instance extends SafeX509ChainHandle$protected, SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    ReleaseHandle(): boolean;
 }
 
 

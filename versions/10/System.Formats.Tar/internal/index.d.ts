@@ -102,7 +102,7 @@ export interface TarEntry$instance {
     readonly Checksum: int;
     readonly DataOffset: long;
     get DataStream(): Stream | undefined;
-    set DataStream(value: Stream);
+    set DataStream(value: Stream | undefined);
     readonly EntryType: TarEntryType;
     readonly Format: TarEntryFormat;
     Gid: int;

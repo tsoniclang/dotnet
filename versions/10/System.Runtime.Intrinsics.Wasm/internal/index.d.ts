@@ -17,8 +17,7 @@ export interface PackedSimd$instance {
 }
 
 
-export const PackedSimd: {
-    new(): PackedSimd;
+export const PackedSimd: (abstract new() => PackedSimd) & {
     readonly IsSupported: boolean;
     Abs(value: Vector128_1<System_Internal.Double>): Vector128_1<System_Internal.Double>;
     Abs(value: Vector128_1<System_Internal.Int16>): Vector128_1<System_Internal.Int16>;

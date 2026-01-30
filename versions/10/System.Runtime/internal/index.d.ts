@@ -33,9 +33,10 @@ export enum GCLatencyMode {
 
 export interface DependentHandle$instance {
     get Dependent(): unknown | undefined;
-    set Dependent(value: unknown);
+    set Dependent(value: unknown | undefined);
     readonly IsAllocated: boolean;
-    Target: unknown;
+    get Target(): unknown | undefined;
+    set Target(value: unknown | undefined);
     readonly TargetAndDependent: ValueTuple_2<unknown, unknown>;
     Dispose(): void;
 }
@@ -86,13 +87,9 @@ export const AssemblyTargetedPatchBandAttribute: {
 
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
-export abstract class MemoryFailPoint$protected {
-    protected Finalize(): void;
-}
-
-
-export interface MemoryFailPoint$instance extends MemoryFailPoint$protected, CriticalFinalizerObject {
+export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
     Dispose(): void;
+    Finalize(): void;
 }
 
 

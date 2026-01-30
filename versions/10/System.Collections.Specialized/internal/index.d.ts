@@ -44,7 +44,7 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
     Clear(): void;
     Contains(key: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown;
+    get_Item(index: int): unknown | undefined;
     get_Item(key: unknown): unknown | undefined;
     GetEnumerator(): IDictionaryEnumerator;
     GetEnumerator(): IEnumerator;
@@ -140,7 +140,7 @@ export interface HybridDictionary$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -176,7 +176,7 @@ export interface ListDictionary$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -227,14 +227,7 @@ export interface NameObjectCollectionBase$instance {
 }
 
 
-export const NameObjectCollectionBase: {
-    new(): NameObjectCollectionBase;
-    new(equalityComparer: IEqualityComparer): NameObjectCollectionBase;
-    new(capacity: int, equalityComparer: IEqualityComparer): NameObjectCollectionBase;
-    new(hashProvider: IHashCodeProvider, comparer: IComparer): NameObjectCollectionBase;
-    new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameObjectCollectionBase;
-    new(capacity: int): NameObjectCollectionBase;
-    new(info: SerializationInfo, context: StreamingContext): NameObjectCollectionBase;
+export const NameObjectCollectionBase: (abstract new() => NameObjectCollectionBase) & (abstract new(equalityComparer: IEqualityComparer) => NameObjectCollectionBase) & (abstract new(capacity: int, equalityComparer: IEqualityComparer) => NameObjectCollectionBase) & (abstract new(hashProvider: IHashCodeProvider, comparer: IComparer) => NameObjectCollectionBase) & (abstract new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer) => NameObjectCollectionBase) & (abstract new(capacity: int) => NameObjectCollectionBase) & (abstract new(info: SerializationInfo, context: StreamingContext) => NameObjectCollectionBase) & {
 };
 
 
@@ -252,14 +245,13 @@ export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __Nam
 
 export interface NameObjectCollectionBase_KeysCollection$instance {
     readonly Count: int;
-    readonly Item: string;
+    readonly Item: string | undefined;
     Get(index: int): string | undefined;
     GetEnumerator(): IEnumerator;
 }
 
 
 export const NameObjectCollectionBase_KeysCollection: {
-    new(): NameObjectCollectionBase_KeysCollection;
 };
 
 
@@ -279,12 +271,12 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     CopyTo(dest: ClrArray, index: int): void;
     Get(name: string): string | undefined;
     Get(index: int): string | undefined;
-    get_Item(name: string): string;
-    get_Item(index: int): string;
+    get_Item(name: string): string | undefined;
+    get_Item(index: int): string | undefined;
     GetEnumerator(): IEnumerator;
-    GetKey(index: int): string;
+    GetKey(index: int): string | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    GetValues(name: string): string[];
+    GetValues(name: string): string[] | undefined;
     GetValues(index: int): string[] | undefined;
     HasKeys(): boolean;
     OnDeserialization(sender: unknown): void;
@@ -303,7 +295,6 @@ export const NameValueCollection: {
     new(capacity: int, equalityComparer: IEqualityComparer): NameValueCollection;
     new(capacity: int, col: NameValueCollection): NameValueCollection;
     new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection;
-    new(info: SerializationInfo, context: StreamingContext): NameValueCollection;
 };
 
 
@@ -345,12 +336,7 @@ export const NotifyCollectionChangedEventArgs: {
 
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
-export abstract class OrderedDictionary$protected {
-    protected OnDeserialization(sender: unknown): void;
-}
-
-
-export interface OrderedDictionary$instance extends OrderedDictionary$protected {
+export interface OrderedDictionary$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection;
@@ -360,11 +346,12 @@ export interface OrderedDictionary$instance extends OrderedDictionary$protected 
     Clear(): void;
     Contains(key: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown;
+    get_Item(index: int): unknown | undefined;
     get_Item(key: unknown): unknown | undefined;
     GetEnumerator(): IDictionaryEnumerator;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     Insert(index: int, key: unknown, value: unknown): void;
+    OnDeserialization(sender: unknown): void;
     Remove(key: unknown): void;
     RemoveAt(index: int): void;
     set_Item(index: int, value: unknown | undefined): void;
@@ -377,7 +364,6 @@ export const OrderedDictionary: {
     new(capacity: int): OrderedDictionary;
     new(comparer: IEqualityComparer): OrderedDictionary;
     new(capacity: int, comparer: IEqualityComparer): OrderedDictionary;
-    new(info: SerializationInfo, context: StreamingContext): OrderedDictionary;
 };
 
 
@@ -431,7 +417,8 @@ export type StringCollection = StringCollection$instance & __StringCollection$vi
 export interface StringDictionary$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    Item: string;
+    get Item(): string | undefined;
+    set Item(value: string | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -460,14 +447,13 @@ export type StringDictionary = StringDictionary$instance & __StringDictionary$vi
 
 
 export interface StringEnumerator$instance {
-    readonly Current: string;
+    readonly Current: string | undefined;
     MoveNext(): boolean;
     Reset(): void;
 }
 
 
 export const StringEnumerator: {
-    new(): StringEnumerator;
 };
 
 

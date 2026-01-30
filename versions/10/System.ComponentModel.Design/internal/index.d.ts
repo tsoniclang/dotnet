@@ -305,7 +305,7 @@ export type IServiceContainer = IServiceContainer$instance;
 
 export interface ITreeDesigner$instance extends IDesigner, IDisposable {
     readonly Children: ICollection;
-    readonly Parent: IDesigner;
+    readonly Parent: IDesigner | undefined;
     readonly Component: IComponent;
     readonly Verbs: DesignerVerbCollection | undefined;
     DoDefaultAction(): void;
@@ -367,7 +367,6 @@ export const CheckoutException: {
     new(): CheckoutException;
     new(message: string): CheckoutException;
     new(message: string, errorCode: int): CheckoutException;
-    new(info: SerializationInfo, context: StreamingContext): CheckoutException;
     new(message: string, innerException: Exception): CheckoutException;
     readonly Canceled: CheckoutException;
 };
@@ -398,7 +397,7 @@ export type CommandID = CommandID$instance;
 
 export interface ComponentChangedEventArgs$instance extends EventArgs {
     readonly Component: unknown | undefined;
-    readonly Member: MemberDescriptor;
+    readonly Member: MemberDescriptor | undefined;
     readonly NewValue: unknown | undefined;
     readonly OldValue: unknown | undefined;
 }
@@ -413,7 +412,7 @@ export type ComponentChangedEventArgs = ComponentChangedEventArgs$instance;
 
 export interface ComponentChangingEventArgs$instance extends EventArgs {
     readonly Component: unknown | undefined;
-    readonly Member: MemberDescriptor;
+    readonly Member: MemberDescriptor | undefined;
 }
 
 
@@ -452,7 +451,7 @@ export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export interface DesignerCollection$instance {
     readonly Count: int;
-    readonly Item: IDesignerHost;
+    readonly Item: IDesignerHost | undefined;
     GetEnumerator(): IEnumerator;
 }
 
@@ -483,19 +482,14 @@ export const DesignerEventArgs: {
 
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
-export abstract class DesignerOptionService$protected {
-    protected PopulateOptionCollection(options: DesignerOptionService_DesignerOptionCollection): void;
-    protected ShowDialog(options: DesignerOptionService_DesignerOptionCollection, optionObject: unknown): boolean;
-}
-
-
-export interface DesignerOptionService$instance extends DesignerOptionService$protected {
+export interface DesignerOptionService$instance {
     readonly Options: DesignerOptionService_DesignerOptionCollection;
+    PopulateOptionCollection(options: DesignerOptionService_DesignerOptionCollection): void;
+    ShowDialog(options: DesignerOptionService_DesignerOptionCollection, optionObject: unknown): boolean;
 }
 
 
-export const DesignerOptionService: {
-    new(): DesignerOptionService;
+export const DesignerOptionService: (abstract new() => DesignerOptionService) & {
 };
 
 
@@ -511,11 +505,11 @@ export type DesignerOptionService = DesignerOptionService$instance & __DesignerO
 export interface DesignerOptionService_DesignerOptionCollection$instance {
     readonly Count: int;
     readonly Name: string;
-    readonly Parent: DesignerOptionService_DesignerOptionCollection;
+    readonly Parent: DesignerOptionService_DesignerOptionCollection | undefined;
     readonly Properties: PropertyDescriptorCollection;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): DesignerOptionService_DesignerOptionCollection;
-    get_Item(name: string): DesignerOptionService_DesignerOptionCollection;
+    get_Item(index: int): DesignerOptionService_DesignerOptionCollection | undefined;
+    get_Item(name: string): DesignerOptionService_DesignerOptionCollection | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(value: DesignerOptionService_DesignerOptionCollection): int;
     ShowDialog(): boolean;
@@ -523,7 +517,6 @@ export interface DesignerOptionService_DesignerOptionCollection$instance {
 
 
 export const DesignerOptionService_DesignerOptionCollection: {
-    new(): DesignerOptionService_DesignerOptionCollection;
 };
 
 
@@ -536,26 +529,20 @@ export interface __DesignerOptionService_DesignerOptionCollection$views {
 export type DesignerOptionService_DesignerOptionCollection = DesignerOptionService_DesignerOptionCollection$instance & __DesignerOptionService_DesignerOptionCollection$views;
 
 
-export abstract class DesignerTransaction$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected abstract OnCancel(): void;
-    protected abstract OnCommit(): void;
-}
-
-
-export interface DesignerTransaction$instance extends DesignerTransaction$protected {
+export interface DesignerTransaction$instance {
     Canceled: boolean;
     Committed: boolean;
     readonly Description: string;
     Cancel(): void;
     Commit(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
+    OnCancel(): void;
+    OnCommit(): void;
 }
 
 
-export const DesignerTransaction: {
-    new(): DesignerTransaction;
-    new(description: string): DesignerTransaction;
+export const DesignerTransaction: (abstract new() => DesignerTransaction) & (abstract new(description: string) => DesignerTransaction) & {
 };
 
 
@@ -595,12 +582,7 @@ export const DesignerVerb: {
 
 export type DesignerVerb = DesignerVerb$instance;
 
-export abstract class DesignerVerbCollection$protected {
-    protected OnValidate(value: unknown): void;
-}
-
-
-export interface DesignerVerbCollection$instance extends DesignerVerbCollection$protected, CollectionBase {
+export interface DesignerVerbCollection$instance extends CollectionBase {
     Item: DesignerVerb;
     Add(value: unknown): int;
     AddRange(value: DesignerVerb[]): void;
@@ -611,6 +593,7 @@ export interface DesignerVerbCollection$instance extends DesignerVerbCollection$
     GetEnumerator(): IEnumerator;
     IndexOf(value: DesignerVerb): int;
     Insert(index: int, value: unknown): void;
+    OnValidate(value: unknown): void;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
 }
@@ -656,7 +639,6 @@ export interface DesigntimeLicenseContextSerializer$instance {
 
 
 export const DesigntimeLicenseContextSerializer: {
-    new(): DesigntimeLicenseContextSerializer;
     Serialize(o: Stream, cryptoKey: string, context: DesigntimeLicenseContext): void;
 };
 
@@ -681,12 +663,7 @@ export const HelpKeywordAttribute: {
 
 export type HelpKeywordAttribute = HelpKeywordAttribute$instance;
 
-export abstract class MenuCommand$protected {
-    protected OnCommandChanged(e: EventArgs): void;
-}
-
-
-export interface MenuCommand$instance extends MenuCommand$protected {
+export interface MenuCommand$instance {
     Checked: boolean;
     readonly CommandID: CommandID | undefined;
     Enabled: boolean;
@@ -696,6 +673,7 @@ export interface MenuCommand$instance extends MenuCommand$protected {
     Visible: boolean;
     Invoke(): void;
     Invoke(arg: unknown): void;
+    OnCommandChanged(e: EventArgs): void;
     ToString(): string;
 }
 
@@ -707,18 +685,14 @@ export const MenuCommand: {
 
 export type MenuCommand = MenuCommand$instance;
 
-export abstract class ServiceContainer$protected {
-    protected readonly DefaultServices: Type[];
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface ServiceContainer$instance extends ServiceContainer$protected {
+export interface ServiceContainer$instance {
+    readonly DefaultServices: Type[];
     AddService(serviceType: Type, serviceInstance: unknown): void;
     AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetService(serviceType: Type): unknown | undefined;
     RemoveService(serviceType: Type): void;
     RemoveService(serviceType: Type, promote: boolean): void;
@@ -831,8 +805,7 @@ export interface TypeDescriptionProviderService$instance {
 }
 
 
-export const TypeDescriptionProviderService: {
-    new(): TypeDescriptionProviderService;
+export const TypeDescriptionProviderService: (abstract new() => TypeDescriptionProviderService) & {
 };
 
 

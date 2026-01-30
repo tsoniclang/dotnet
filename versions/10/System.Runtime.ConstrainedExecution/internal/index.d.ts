@@ -24,17 +24,12 @@ export enum Consistency {
 }
 
 
-export abstract class CriticalFinalizerObject$protected {
-    protected Finalize(): void;
+export interface CriticalFinalizerObject$instance {
+    Finalize(): void;
 }
 
 
-export interface CriticalFinalizerObject$instance extends CriticalFinalizerObject$protected {
-}
-
-
-export const CriticalFinalizerObject: {
-    new(): CriticalFinalizerObject;
+export const CriticalFinalizerObject: (abstract new() => CriticalFinalizerObject) & {
 };
 
 

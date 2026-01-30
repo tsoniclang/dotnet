@@ -450,7 +450,7 @@ export type CustomAttributeNamedArgument = CustomAttributeNamedArgument$instance
 
 export interface CustomAttributeTypedArgument$instance {
     readonly ArgumentType: Type;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     Equals(obj: unknown): boolean;
     Equals(other: CustomAttributeTypedArgument): boolean;
     GetHashCode(): int;
@@ -527,7 +527,7 @@ export interface Assembly$instance {
     readonly EntryPoint: MethodInfo | undefined;
     readonly EscapedCodeBase: string;
     readonly ExportedTypes: IEnumerable_1<Type>;
-    readonly FullName: string;
+    readonly FullName: string | undefined;
     readonly GlobalAssemblyCache: boolean;
     readonly HostContext: long;
     readonly ImageRuntimeVersion: string;
@@ -578,8 +578,7 @@ export interface Assembly$instance {
 }
 
 
-export const Assembly: {
-    new(): Assembly;
+export const Assembly: (abstract new() => Assembly) & {
     CreateQualifiedName(assemblyName: string, typeName: string): string;
     GetAssembly(type: Type): Assembly | undefined;
     GetCallingAssembly(): Assembly;
@@ -773,7 +772,7 @@ export type AssemblyKeyNameAttribute = AssemblyKeyNameAttribute$instance;
 
 export interface AssemblyMetadataAttribute$instance extends Attribute {
     readonly Key: string;
-    readonly Value: string;
+    readonly Value: string | undefined;
 }
 
 
@@ -786,23 +785,27 @@ export type AssemblyMetadataAttribute = AssemblyMetadataAttribute$instance;
 
 export interface AssemblyName$instance {
     get CodeBase(): string | undefined;
-    set CodeBase(value: string);
+    set CodeBase(value: string | undefined);
     ContentType: AssemblyContentType;
-    CultureInfo: CultureInfo;
-    CultureName: string;
-    readonly EscapedCodeBase: string;
+    get CultureInfo(): CultureInfo | undefined;
+    set CultureInfo(value: CultureInfo | undefined);
+    get CultureName(): string | undefined;
+    set CultureName(value: string | undefined);
+    readonly EscapedCodeBase: string | undefined;
     Flags: AssemblyNameFlags;
     readonly FullName: string;
     HashAlgorithm: AssemblyHashAlgorithm_Assemblies;
     get KeyPair(): StrongNameKeyPair | undefined;
-    set KeyPair(value: StrongNameKeyPair);
-    Name: string;
+    set KeyPair(value: StrongNameKeyPair | undefined);
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     ProcessorArchitecture: ProcessorArchitecture;
-    Version: Version;
+    get Version(): Version | undefined;
+    set Version(value: Version | undefined);
     VersionCompatibility: AssemblyVersionCompatibility;
     Clone(): unknown;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    GetPublicKey(): byte[];
+    GetPublicKey(): byte[] | undefined;
     GetPublicKeyToken(): byte[] | undefined;
     OnDeserialization(sender: unknown): void;
     SetPublicKey(publicKey: byte[]): void;
@@ -913,8 +916,7 @@ export interface Binder$instance {
 }
 
 
-export const Binder: {
-    new(): Binder;
+export const Binder: (abstract new() => Binder) & {
 };
 
 
@@ -932,8 +934,7 @@ export interface ConstructorInfo$instance extends MethodBase$instance {
 }
 
 
-export const ConstructorInfo: {
-    new(): ConstructorInfo;
+export const ConstructorInfo: (abstract new() => ConstructorInfo) & {
     readonly ConstructorName: string;
     readonly TypeConstructorName: string;
 };
@@ -957,7 +958,6 @@ export interface ConstructorInvoker$instance {
 
 
 export const ConstructorInvoker: {
-    new(): ConstructorInvoker;
     Create(constructor: ConstructorInfo): ConstructorInvoker;
 };
 
@@ -973,8 +973,7 @@ export interface CustomAttributeData$instance {
 }
 
 
-export const CustomAttributeData: {
-    new(): CustomAttributeData;
+export const CustomAttributeData: (abstract new() => CustomAttributeData) & {
     GetCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
     GetCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
     GetCustomAttributes(target: Module): IList_1<CustomAttributeData>;
@@ -993,7 +992,6 @@ export const CustomAttributeFormatException: {
     new(): CustomAttributeFormatException;
     new(message: string): CustomAttributeFormatException;
     new(message: string, inner: Exception): CustomAttributeFormatException;
-    new(info: SerializationInfo, context: StreamingContext): CustomAttributeFormatException;
 };
 
 
@@ -1016,17 +1014,12 @@ export const DefaultMemberAttribute: {
 
 export type DefaultMemberAttribute = DefaultMemberAttribute$instance;
 
-export abstract class DispatchProxy$protected {
-    protected abstract Invoke(targetMethod: MethodInfo, args: unknown[]): unknown | undefined;
+export interface DispatchProxy$instance {
+    Invoke(targetMethod: MethodInfo, args: unknown[]): unknown | undefined;
 }
 
 
-export interface DispatchProxy$instance extends DispatchProxy$protected {
-}
-
-
-export const DispatchProxy: {
-    new(): DispatchProxy;
+export const DispatchProxy: (abstract new() => DispatchProxy) & {
     Create<T, TProxy extends DispatchProxy>(): T;
     Create(interfaceType: Type, proxyType: Type): unknown;
 };
@@ -1035,7 +1028,7 @@ export const DispatchProxy: {
 export type DispatchProxy = DispatchProxy$instance;
 
 export interface EventInfo$instance extends MemberInfo$instance {
-    readonly AddMethod: MethodInfo;
+    readonly AddMethod: MethodInfo | undefined;
     readonly Attributes: EventAttributes;
     readonly EventHandlerType: Type | undefined;
     readonly IsMulticast: boolean;
@@ -1061,8 +1054,7 @@ export interface EventInfo$instance extends MemberInfo$instance {
 }
 
 
-export const EventInfo: {
-    new(): EventInfo;
+export const EventInfo: (abstract new() => EventInfo) & {
 };
 
 
@@ -1085,8 +1077,7 @@ export interface ExceptionHandlingClause$instance {
 }
 
 
-export const ExceptionHandlingClause: {
-    new(): ExceptionHandlingClause;
+export const ExceptionHandlingClause: (abstract new() => ExceptionHandlingClause) & {
 };
 
 
@@ -1129,8 +1120,7 @@ export interface FieldInfo$instance extends MemberInfo$instance {
 }
 
 
-export const FieldInfo: {
-    new(): FieldInfo;
+export const FieldInfo: (abstract new() => FieldInfo) & {
     GetFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
     GetFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
 };
@@ -1152,7 +1142,6 @@ export const InvalidFilterCriteriaException: {
     new(): InvalidFilterCriteriaException;
     new(message: string): InvalidFilterCriteriaException;
     new(message: string, inner: Exception): InvalidFilterCriteriaException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidFilterCriteriaException;
 };
 
 
@@ -1171,15 +1160,14 @@ export interface LocalVariableInfo$instance {
 }
 
 
-export const LocalVariableInfo: {
-    new(): LocalVariableInfo;
+export const LocalVariableInfo: (abstract new() => LocalVariableInfo) & {
 };
 
 
 export type LocalVariableInfo = LocalVariableInfo$instance;
 
 export interface ManifestResourceInfo$instance {
-    readonly FileName: string;
+    readonly FileName: string | undefined;
     readonly ReferencedAssembly: Assembly | undefined;
     readonly ResourceLocation: ResourceLocation;
 }
@@ -1194,7 +1182,7 @@ export type ManifestResourceInfo = ManifestResourceInfo$instance;
 
 export interface MemberInfo$instance {
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
-    readonly DeclaringType: Type;
+    readonly DeclaringType: Type | undefined;
     readonly IsCollectible: boolean;
     readonly MemberType: MemberTypes;
     readonly MetadataToken: int;
@@ -1211,8 +1199,7 @@ export interface MemberInfo$instance {
 }
 
 
-export const MemberInfo: {
-    new(): MemberInfo;
+export const MemberInfo: (abstract new() => MemberInfo) & {
 };
 
 
@@ -1264,8 +1251,7 @@ export interface MethodBase$instance extends MemberInfo$instance {
 }
 
 
-export const MethodBase: {
-    new(): MethodBase;
+export const MethodBase: (abstract new() => MethodBase) & {
     GetCurrentMethod(): MethodBase | undefined;
     GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase | undefined;
     GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase | undefined;
@@ -1289,8 +1275,7 @@ export interface MethodBody$instance {
 }
 
 
-export const MethodBody: {
-    new(): MethodBody;
+export const MethodBody: (abstract new() => MethodBody) & {
 };
 
 
@@ -1317,8 +1302,7 @@ export interface MethodInfo$instance extends MethodBase$instance {
 }
 
 
-export const MethodInfo: {
-    new(): MethodInfo;
+export const MethodInfo: (abstract new() => MethodInfo) & {
 };
 
 
@@ -1330,17 +1314,16 @@ export type MethodInfo = MethodInfo$instance & __MethodInfo$views;
 
 
 export interface MethodInvoker$instance {
-    Invoke(obj: unknown): unknown;
-    Invoke(obj: unknown, arg1: unknown): unknown;
-    Invoke(obj: unknown, arg1: unknown, arg2: unknown): unknown;
-    Invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown): unknown;
+    Invoke(obj: unknown): unknown | undefined;
+    Invoke(obj: unknown, arg1: unknown): unknown | undefined;
+    Invoke(obj: unknown, arg1: unknown, arg2: unknown): unknown | undefined;
+    Invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown): unknown | undefined;
     Invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown | undefined;
     Invoke(obj: unknown, arguments: Span_1<unknown>): unknown | undefined;
 }
 
 
 export const MethodInvoker: {
-    new(): MethodInvoker;
     Create(method: MethodBase): MethodInvoker;
 };
 
@@ -1352,7 +1335,6 @@ export interface Missing$instance {
 
 
 export const Missing: {
-    new(): Missing;
     readonly Value: Missing;
 };
 
@@ -1366,12 +1348,7 @@ export interface Missing$instance extends System_Runtime_Serialization_Internal.
 export type Missing = Missing$instance & __Missing$views;
 
 
-export abstract class Module$protected {
-    protected GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-}
-
-
-export interface Module$instance extends Module$protected {
+export interface Module$instance {
     readonly Assembly: Assembly;
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
     readonly FullyQualifiedName: string;
@@ -1394,6 +1371,7 @@ export interface Module$instance extends Module$protected {
     GetMethod(name: string): MethodInfo | undefined;
     GetMethod(name: string, types: Type[]): MethodInfo | undefined;
     GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethods(): MethodInfo[];
     GetMethods(bindingFlags: BindingFlags): MethodInfo[];
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1418,8 +1396,7 @@ export interface Module$instance extends Module$protected {
 }
 
 
-export const Module: {
-    new(): Module;
+export const Module: (abstract new() => Module) & {
     readonly FilterTypeName: TypeFilter;
     readonly FilterTypeNameIgnoreCase: TypeFilter;
 };
@@ -1436,7 +1413,7 @@ export type Module = Module$instance & __Module$views;
 
 
 export interface NullabilityInfo$instance {
-    readonly ElementType: NullabilityInfo;
+    readonly ElementType: NullabilityInfo | undefined;
     readonly GenericTypeArguments: NullabilityInfo[];
     ReadState: NullabilityState;
     readonly Type: Type;
@@ -1445,7 +1422,6 @@ export interface NullabilityInfo$instance {
 
 
 export const NullabilityInfo: {
-    new(): NullabilityInfo;
 };
 
 
@@ -1483,7 +1459,7 @@ export interface ObfuscationAttribute$instance extends Attribute {
     ApplyToMembers: boolean;
     Exclude: boolean;
     get Feature(): string | undefined;
-    set Feature(value: string);
+    set Feature(value: string | undefined);
     StripAfterObfuscation: boolean;
 }
 
@@ -1498,7 +1474,7 @@ export type ObfuscationAttribute = ObfuscationAttribute$instance;
 export interface ParameterInfo$instance {
     readonly Attributes: ParameterAttributes;
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
-    readonly DefaultValue: unknown;
+    readonly DefaultValue: unknown | undefined;
     readonly HasDefaultValue: boolean;
     readonly IsIn: boolean;
     readonly IsLcid: boolean;
@@ -1507,7 +1483,7 @@ export interface ParameterInfo$instance {
     readonly IsRetval: boolean;
     readonly Member: MemberInfo;
     readonly MetadataToken: int;
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly ParameterType: Type;
     readonly Position: int;
     readonly RawDefaultValue: unknown | undefined;
@@ -1523,8 +1499,7 @@ export interface ParameterInfo$instance {
 }
 
 
-export const ParameterInfo: {
-    new(): ParameterInfo;
+export const ParameterInfo: (abstract new() => ParameterInfo) & {
 };
 
 
@@ -1545,7 +1520,6 @@ export interface Pointer$instance {
 
 
 export const Pointer: {
-    new(): Pointer;
     Box(ptr: ptr<void>, type: Type): unknown;
     Unbox(ptr: unknown): ptr<void>;
 };
@@ -1595,8 +1569,7 @@ export interface PropertyInfo$instance extends MemberInfo$instance {
 }
 
 
-export const PropertyInfo: {
-    new(): PropertyInfo;
+export const PropertyInfo: (abstract new() => PropertyInfo) & {
 };
 
 
@@ -1614,8 +1587,7 @@ export interface ReflectionContext$instance {
 }
 
 
-export const ReflectionContext: {
-    new(): ReflectionContext;
+export const ReflectionContext: (abstract new() => ReflectionContext) & {
 };
 
 
@@ -1651,7 +1623,6 @@ export interface StrongNameKeyPair$instance {
 export const StrongNameKeyPair: {
     new(keyPairFile: FileStream): StrongNameKeyPair;
     new(keyPairArray: byte[]): StrongNameKeyPair;
-    new(info: SerializationInfo, context: StreamingContext): StrongNameKeyPair;
     new(keyPairContainer: string): StrongNameKeyPair;
 };
 
@@ -1675,7 +1646,6 @@ export const TargetException: {
     new(): TargetException;
     new(message: string): TargetException;
     new(message: string, inner: Exception): TargetException;
-    new(info: SerializationInfo, context: StreamingContext): TargetException;
 };
 
 
@@ -1723,27 +1693,11 @@ export interface __TargetParameterCountException$views {
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
 
 
-export abstract class TypeDelegator$protected {
-    protected GetAttributeFlagsImpl(): TypeAttributes;
-    protected GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
-    protected GetMethodImpl2(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    protected GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    protected GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    protected HasElementTypeImpl(): boolean;
-    protected IsArrayImpl(): boolean;
-    protected IsByRefImpl(): boolean;
-    protected IsCOMObjectImpl(): boolean;
-    protected IsPointerImpl(): boolean;
-    protected IsPrimitiveImpl(): boolean;
-    protected IsValueTypeImpl(): boolean;
-}
-
-
-export interface TypeDelegator$instance extends TypeDelegator$protected, TypeInfo$instance {
+export interface TypeDelegator$instance extends TypeInfo$instance {
     readonly Assembly: Assembly;
-    readonly AssemblyQualifiedName: string;
+    readonly AssemblyQualifiedName: string | undefined;
     readonly BaseType: Type | undefined;
-    readonly FullName: string;
+    readonly FullName: string | undefined;
     readonly GUID: Guid;
     readonly IsByRefLike: boolean;
     readonly IsCollectible: boolean;
@@ -1758,15 +1712,17 @@ export interface TypeDelegator$instance extends TypeDelegator$protected, TypeInf
     readonly MetadataToken: int;
     readonly Module: Module;
     readonly Name: string;
-    readonly Namespace: string;
+    readonly Namespace: string | undefined;
     readonly TypeHandle: RuntimeTypeHandle;
     readonly UnderlyingSystemType: Type;
     GetArrayRank(): int;
+    GetAttributeFlagsImpl(): TypeAttributes;
+    GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
     GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
     GetConstructors(): ConstructorInfo[];
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetElementType(): Type;
+    GetElementType(): Type | undefined;
     GetEvent(name: string, bindingAttr: BindingFlags): EventInfo | undefined;
     GetEvent(name: string): EventInfo | undefined;
     GetEvents(): EventInfo[];
@@ -1800,6 +1756,8 @@ export interface TypeDelegator$instance extends TypeDelegator$protected, TypeInf
     GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
     GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethods(bindingAttr: BindingFlags): MethodInfo[];
     GetMethods(): MethodInfo[];
     GetNestedType(name: string, bindingAttr: BindingFlags): Type | undefined;
@@ -1815,18 +1773,25 @@ export interface TypeDelegator$instance extends TypeDelegator$protected, TypeInf
     GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
     GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
     GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
     GetTypeInfo(): TypeInfo;
+    HasElementTypeImpl(): boolean;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
+    IsArrayImpl(): boolean;
     IsAssignableFrom(typeInfo: TypeInfo): boolean;
     IsAssignableFrom(c: Type): boolean;
+    IsByRefImpl(): boolean;
+    IsCOMObjectImpl(): boolean;
     IsDefined(attributeType: Type, inherit: boolean): boolean;
+    IsPointerImpl(): boolean;
+    IsPrimitiveImpl(): boolean;
+    IsValueTypeImpl(): boolean;
 }
 
 
 export const TypeDelegator: {
-    new(): TypeDelegator;
     new(delegatingType: Type): TypeDelegator;
 };
 
@@ -1901,8 +1866,7 @@ export interface TypeInfo$instance extends Type {
 }
 
 
-export const TypeInfo: {
-    new(): TypeInfo;
+export const TypeInfo: (abstract new() => TypeInfo) & {
 };
 
 

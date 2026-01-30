@@ -110,12 +110,7 @@ export const BrotliCompressionOptions: {
 
 export type BrotliCompressionOptions = BrotliCompressionOptions$instance;
 
-export abstract class BrotliStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface BrotliStream$instance extends BrotliStream$protected, Stream {
+export interface BrotliStream$instance extends Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -124,6 +119,7 @@ export interface BrotliStream$instance extends BrotliStream$protected, Stream {
     Position: long;
     BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -170,12 +166,7 @@ export interface __BrotliStream$views {
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
 
-export abstract class DeflateStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface DeflateStream$instance extends DeflateStream$protected, Stream {
+export interface DeflateStream$instance extends Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -190,6 +181,7 @@ export interface DeflateStream$instance extends DeflateStream$protected, Stream 
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -236,12 +228,7 @@ export interface __DeflateStream$views {
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
 
-export abstract class GZipStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface GZipStream$instance extends GZipStream$protected, Stream {
+export interface GZipStream$instance extends Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -256,6 +243,7 @@ export interface GZipStream$instance extends GZipStream$protected, Stream {
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -302,20 +290,16 @@ export interface __GZipStream$views {
 export type GZipStream = GZipStream$instance & __GZipStream$views;
 
 
-export abstract class ZipArchive$protected {
-    protected Dispose(disposing: boolean): void;
-    protected DisposeAsyncCore(): ValueTask;
-}
-
-
-export interface ZipArchive$instance extends ZipArchive$protected {
+export interface ZipArchive$instance {
     Comment: string;
     readonly Entries: ReadOnlyCollection_1<ZipArchiveEntry>;
     readonly Mode: ZipArchiveMode;
     CreateEntry(entryName: string): ZipArchiveEntry;
     CreateEntry(entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
+    DisposeAsyncCore(): ValueTask;
     GetEntry(entryName: string): ZipArchiveEntry | undefined;
 }
 
@@ -358,7 +342,6 @@ export interface ZipArchiveEntry$instance {
 
 
 export const ZipArchiveEntry: {
-    new(): ZipArchiveEntry;
 };
 
 
@@ -386,7 +369,6 @@ export const ZLibException: {
     new(message: string, zlibErrorContext: string, zlibErrorCode: int, zlibErrorMessage: string): ZLibException;
     new(): ZLibException;
     new(message: string, innerException: Exception): ZLibException;
-    new(info: SerializationInfo, context: StreamingContext): ZLibException;
 };
 
 
@@ -397,12 +379,7 @@ export interface __ZLibException$views {
 export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
-export abstract class ZLibStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ZLibStream$instance extends ZLibStream$protected, Stream {
+export interface ZLibStream$instance extends Stream {
     readonly BaseStream: Stream;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -417,6 +394,7 @@ export interface ZLibStream$instance extends ZLibStream$protected, Stream {
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;

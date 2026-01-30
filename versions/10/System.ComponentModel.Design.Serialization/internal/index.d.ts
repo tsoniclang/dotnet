@@ -135,7 +135,7 @@ export type INameCreationService = INameCreationService$instance;
 export interface MemberRelationship$instance {
     readonly IsEmpty: boolean;
     readonly Member: MemberDescriptor;
-    readonly Owner: unknown;
+    readonly Owner: unknown | undefined;
     Equals(obj: unknown): boolean;
     Equals(other: MemberRelationship): boolean;
     GetHashCode(): int;
@@ -173,19 +173,18 @@ export interface ComponentSerializationService$instance {
 }
 
 
-export const ComponentSerializationService: {
-    new(): ComponentSerializationService;
+export const ComponentSerializationService: (abstract new() => ComponentSerializationService) & {
 };
 
 
 export type ComponentSerializationService = ComponentSerializationService$instance;
 
 export interface ContextStack$instance {
-    readonly Current: unknown;
+    readonly Current: unknown | undefined;
     Append(context: unknown): void;
-    get_Item(level: int): unknown;
+    get_Item(level: int): unknown | undefined;
     get_Item(type: Type): unknown | undefined;
-    Pop(): unknown;
+    Pop(): unknown | undefined;
     Push(context: unknown): void;
 }
 
@@ -218,8 +217,7 @@ export interface DesignerLoader$instance {
 }
 
 
-export const DesignerLoader: {
-    new(): DesignerLoader;
+export const DesignerLoader: (abstract new() => DesignerLoader) & {
 };
 
 
@@ -244,8 +242,8 @@ export type DesignerSerializerAttribute = DesignerSerializerAttribute$instance;
 export interface InstanceDescriptor$instance {
     readonly Arguments: ICollection;
     readonly IsComplete: boolean;
-    readonly MemberInfo: MemberInfo;
-    Invoke(): unknown;
+    readonly MemberInfo: MemberInfo | undefined;
+    Invoke(): unknown | undefined;
 }
 
 
@@ -257,31 +255,27 @@ export const InstanceDescriptor: {
 
 export type InstanceDescriptor = InstanceDescriptor$instance;
 
-export abstract class MemberRelationshipService$protected {
-    protected GetRelationship(source: MemberRelationship): MemberRelationship;
-    protected SetRelationship(source: MemberRelationship, relationship: MemberRelationship): void;
-}
-
-
-export interface MemberRelationshipService$instance extends MemberRelationshipService$protected {
+export interface MemberRelationshipService$instance {
     get_Item(source: MemberRelationship): MemberRelationship;
     get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
+    GetRelationship(source: MemberRelationship): MemberRelationship;
     set_Item(source: MemberRelationship, value: MemberRelationship): void;
     set_Item(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
+    SetRelationship(source: MemberRelationship, relationship: MemberRelationship): void;
     SupportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
 }
 
 
-export const MemberRelationshipService: {
-    new(): MemberRelationshipService;
+export const MemberRelationshipService: (abstract new() => MemberRelationshipService) & {
 };
 
 
 export type MemberRelationshipService = MemberRelationshipService$instance;
 
 export interface ResolveNameEventArgs$instance extends EventArgs {
-    readonly Name: string;
-    Value: unknown;
+    readonly Name: string | undefined;
+    get Value(): unknown | undefined;
+    set Value(value: unknown | undefined);
 }
 
 
@@ -309,20 +303,15 @@ export const RootDesignerSerializerAttribute: {
 
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
-export abstract class SerializationStore$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface SerializationStore$instance extends SerializationStore$protected {
+export interface SerializationStore$instance {
     readonly Errors: ICollection;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Save(stream: Stream): void;
 }
 
 
-export const SerializationStore: {
-    new(): SerializationStore;
+export const SerializationStore: (abstract new() => SerializationStore) & {
 };
 
 

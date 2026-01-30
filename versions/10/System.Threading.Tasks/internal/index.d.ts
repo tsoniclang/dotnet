@@ -182,7 +182,6 @@ export interface ParallelLoopState$instance {
 
 
 export const ParallelLoopState: {
-    new(): ParallelLoopState;
 };
 
 
@@ -191,7 +190,8 @@ export type ParallelLoopState = ParallelLoopState$instance;
 export interface ParallelOptions$instance {
     CancellationToken: CancellationToken;
     MaxDegreeOfParallelism: int;
-    TaskScheduler: TaskScheduler;
+    get TaskScheduler(): TaskScheduler | undefined;
+    set TaskScheduler(value: TaskScheduler | undefined);
 }
 
 
@@ -202,15 +202,10 @@ export const ParallelOptions: {
 
 export type ParallelOptions = ParallelOptions$instance;
 
-export abstract class Task$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface Task$instance extends Task$protected {
+export interface Task$instance {
     readonly AsyncState: unknown | undefined;
     readonly CreationOptions: TaskCreationOptions;
-    readonly Exception: AggregateException;
+    readonly Exception: AggregateException | undefined;
     readonly Id: int;
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
@@ -240,6 +235,7 @@ export interface Task$instance extends Task$protected {
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetAwaiter(): TaskAwaiter;
     RunSynchronously(): void;
     RunSynchronously(scheduler: TaskScheduler): void;
@@ -334,12 +330,7 @@ export interface Task$instance extends System_Internal.IAsyncResult$instance {}
 export type Task = Task$instance & __Task$views;
 
 
-export abstract class Task_1$protected<TResult> {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Task_1$instance<TResult> extends Task_1$protected<TResult>, Task$instance {
+export interface Task_1$instance<TResult> extends Task$instance {
     readonly Result: TResult;
     ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
     ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
@@ -375,6 +366,7 @@ export interface Task_1$instance<TResult> extends Task_1$protected<TResult>, Tas
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetAwaiter(): TaskAwaiter;
     WaitAsync(timeout: TimeSpan): Task_1<TResult>;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task_1<TResult>;
@@ -409,7 +401,7 @@ export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>
 
 
 export interface TaskCanceledException$instance extends OperationCanceledException {
-    readonly Task: Task;
+    readonly Task: Task | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -420,7 +412,6 @@ export const TaskCanceledException: {
     new(message: string, innerException: Exception): TaskCanceledException;
     new(message: string, innerException: Exception, token: CancellationToken): TaskCanceledException;
     new(task: Task): TaskCanceledException;
-    new(info: SerializationInfo, context: StreamingContext): TaskCanceledException;
 };
 
 
@@ -628,22 +619,17 @@ export const TaskFactory_1: {
 
 export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 
-export abstract class TaskScheduler$protected {
-    protected abstract GetScheduledTasks(): IEnumerable_1<Task> | undefined;
-    protected abstract QueueTask(task: Task): void;
-    protected TryDequeue(task: Task): boolean;
-    protected abstract TryExecuteTaskInline(task: Task, taskWasPreviouslyQueued: boolean): boolean;
-}
-
-
-export interface TaskScheduler$instance extends TaskScheduler$protected {
+export interface TaskScheduler$instance {
     readonly Id: int;
     readonly MaximumConcurrencyLevel: int;
+    GetScheduledTasks(): IEnumerable_1<Task> | undefined;
+    QueueTask(task: Task): void;
+    TryDequeue(task: Task): boolean;
+    TryExecuteTaskInline(task: Task, taskWasPreviouslyQueued: boolean): boolean;
 }
 
 
-export const TaskScheduler: {
-    new(): TaskScheduler;
+export const TaskScheduler: (abstract new() => TaskScheduler) & {
     readonly Default: TaskScheduler;
     readonly Current: TaskScheduler;
     FromCurrentSynchronizationContext(): TaskScheduler;
@@ -662,7 +648,6 @@ export const TaskSchedulerException: {
     new(message: string): TaskSchedulerException;
     new(innerException: Exception): TaskSchedulerException;
     new(message: string, innerException: Exception): TaskSchedulerException;
-    new(info: SerializationInfo, context: StreamingContext): TaskSchedulerException;
 };
 
 

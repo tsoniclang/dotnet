@@ -66,7 +66,8 @@ export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instan
 
 export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions {
     ClientAuthenticationOptions: SslClientAuthenticationOptions;
-    LocalEndPoint: IPEndPoint;
+    get LocalEndPoint(): IPEndPoint | undefined;
+    set LocalEndPoint(value: IPEndPoint | undefined);
     RemoteEndPoint: EndPoint;
 }
 
@@ -95,7 +96,6 @@ export interface QuicConnection$instance {
 
 
 export const QuicConnection: {
-    new(): QuicConnection;
     readonly IsSupported: boolean;
     ConnectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
 };
@@ -120,7 +120,7 @@ export interface QuicConnectionOptions$instance {
     MaxInboundBidirectionalStreams: int;
     MaxInboundUnidirectionalStreams: int;
     get StreamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
-    set StreamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>);
+    set StreamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined);
 }
 
 
@@ -159,7 +159,6 @@ export interface QuicListener$instance {
 
 
 export const QuicListener: {
-    new(): QuicListener;
     readonly IsSupported: boolean;
     ListenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
 };
@@ -216,12 +215,7 @@ export const QuicServerConnectionOptions: {
 
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
-export abstract class QuicStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface QuicStream$instance extends QuicStream$protected, Stream {
+export interface QuicStream$instance extends Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -238,6 +232,7 @@ export interface QuicStream$instance extends QuicStream$protected, Stream {
     BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     CompleteWrites(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -269,7 +264,6 @@ export interface QuicStream$instance extends QuicStream$protected, Stream {
 
 
 export const QuicStream: {
-    new(): QuicStream;
 };
 
 

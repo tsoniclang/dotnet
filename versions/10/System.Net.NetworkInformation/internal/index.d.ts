@@ -182,8 +182,7 @@ export interface GatewayIPAddressInformation$instance {
 }
 
 
-export const GatewayIPAddressInformation: {
-    new(): GatewayIPAddressInformation;
+export const GatewayIPAddressInformation: (abstract new() => GatewayIPAddressInformation) & {
 };
 
 
@@ -202,8 +201,7 @@ export interface GatewayIPAddressInformationCollection$instance {
 }
 
 
-export const GatewayIPAddressInformationCollection: {
-    new(): GatewayIPAddressInformationCollection;
+export const GatewayIPAddressInformationCollection: (abstract new() => GatewayIPAddressInformationCollection) & {
 };
 
 
@@ -246,8 +244,7 @@ export interface IcmpV4Statistics$instance {
 }
 
 
-export const IcmpV4Statistics: {
-    new(): IcmpV4Statistics;
+export const IcmpV4Statistics: (abstract new() => IcmpV4Statistics) & {
 };
 
 
@@ -289,8 +286,7 @@ export interface IcmpV6Statistics$instance {
 }
 
 
-export const IcmpV6Statistics: {
-    new(): IcmpV6Statistics;
+export const IcmpV6Statistics: (abstract new() => IcmpV6Statistics) & {
 };
 
 
@@ -309,8 +305,7 @@ export interface IPAddressCollection$instance {
 }
 
 
-export const IPAddressCollection: {
-    new(): IPAddressCollection;
+export const IPAddressCollection: (abstract new() => IPAddressCollection) & {
 };
 
 
@@ -330,8 +325,7 @@ export interface IPAddressInformation$instance {
 }
 
 
-export const IPAddressInformation: {
-    new(): IPAddressInformation;
+export const IPAddressInformation: (abstract new() => IPAddressInformation) & {
 };
 
 
@@ -351,7 +345,6 @@ export interface IPAddressInformationCollection$instance {
 
 
 export const IPAddressInformationCollection: {
-    new(): IPAddressInformationCollection;
 };
 
 
@@ -388,8 +381,7 @@ export interface IPGlobalProperties$instance {
 }
 
 
-export const IPGlobalProperties: {
-    new(): IPGlobalProperties;
+export const IPGlobalProperties: (abstract new() => IPGlobalProperties) & {
     GetIPGlobalProperties(): IPGlobalProperties;
 };
 
@@ -422,8 +414,7 @@ export interface IPGlobalStatistics$instance {
 }
 
 
-export const IPGlobalStatistics: {
-    new(): IPGlobalStatistics;
+export const IPGlobalStatistics: (abstract new() => IPGlobalStatistics) & {
 };
 
 
@@ -445,8 +436,7 @@ export interface IPInterfaceProperties$instance {
 }
 
 
-export const IPInterfaceProperties: {
-    new(): IPInterfaceProperties;
+export const IPInterfaceProperties: (abstract new() => IPInterfaceProperties) & {
 };
 
 
@@ -468,8 +458,7 @@ export interface IPInterfaceStatistics$instance {
 }
 
 
-export const IPInterfaceStatistics: {
-    new(): IPInterfaceStatistics;
+export const IPInterfaceStatistics: (abstract new() => IPInterfaceStatistics) & {
 };
 
 
@@ -486,8 +475,7 @@ export interface IPv4InterfaceProperties$instance {
 }
 
 
-export const IPv4InterfaceProperties: {
-    new(): IPv4InterfaceProperties;
+export const IPv4InterfaceProperties: (abstract new() => IPv4InterfaceProperties) & {
 };
 
 
@@ -509,8 +497,7 @@ export interface IPv4InterfaceStatistics$instance {
 }
 
 
-export const IPv4InterfaceStatistics: {
-    new(): IPv4InterfaceStatistics;
+export const IPv4InterfaceStatistics: (abstract new() => IPv4InterfaceStatistics) & {
 };
 
 
@@ -523,8 +510,7 @@ export interface IPv6InterfaceProperties$instance {
 }
 
 
-export const IPv6InterfaceProperties: {
-    new(): IPv6InterfaceProperties;
+export const IPv6InterfaceProperties: (abstract new() => IPv6InterfaceProperties) & {
 };
 
 
@@ -540,8 +526,7 @@ export interface MulticastIPAddressInformation$instance extends IPAddressInforma
 }
 
 
-export const MulticastIPAddressInformation: {
-    new(): MulticastIPAddressInformation;
+export const MulticastIPAddressInformation: (abstract new() => MulticastIPAddressInformation) & {
 };
 
 
@@ -560,8 +545,7 @@ export interface MulticastIPAddressInformationCollection$instance {
 }
 
 
-export const MulticastIPAddressInformationCollection: {
-    new(): MulticastIPAddressInformationCollection;
+export const MulticastIPAddressInformationCollection: (abstract new() => MulticastIPAddressInformationCollection) & {
 };
 
 
@@ -580,7 +564,6 @@ export interface NetworkAvailabilityEventArgs$instance extends EventArgs {
 
 
 export const NetworkAvailabilityEventArgs: {
-    new(): NetworkAvailabilityEventArgs;
 };
 
 
@@ -607,7 +590,6 @@ export interface NetworkInformationException$instance extends Win32Exception {
 export const NetworkInformationException: {
     new(): NetworkInformationException;
     new(errorCode: int): NetworkInformationException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): NetworkInformationException;
 };
 
 
@@ -635,8 +617,7 @@ export interface NetworkInterface$instance {
 }
 
 
-export const NetworkInterface: {
-    new(): NetworkInterface;
+export const NetworkInterface: (abstract new() => NetworkInterface) & {
     readonly IPv6LoopbackInterfaceIndex: int;
     readonly LoopbackInterfaceIndex: int;
     GetAllNetworkInterfaces(): NetworkInterface[];
@@ -666,12 +647,8 @@ export const PhysicalAddress: {
 
 export type PhysicalAddress = PhysicalAddress$instance;
 
-export abstract class Ping$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Ping$instance extends Ping$protected, Component {
+export interface Ping$instance extends Component {
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Send(hostNameOrAddress: string): PingReply;
     Send(hostNameOrAddress: string, timeout: int): PingReply;
@@ -724,7 +701,6 @@ export interface PingCompletedEventArgs$instance extends AsyncCompletedEventArgs
 
 
 export const PingCompletedEventArgs: {
-    new(): PingCompletedEventArgs;
 };
 
 
@@ -738,7 +714,6 @@ export interface PingException$instance extends InvalidOperationException {
 export const PingException: {
     new(message: string): PingException;
     new(message: string, innerException: Exception): PingException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): PingException;
 };
 
 
@@ -766,14 +741,13 @@ export type PingOptions = PingOptions$instance;
 export interface PingReply$instance {
     readonly Address: IPAddress;
     readonly Buffer: byte[];
-    readonly Options: PingOptions;
+    readonly Options: PingOptions | undefined;
     readonly RoundtripTime: long;
     readonly Status: IPStatus;
 }
 
 
 export const PingReply: {
-    new(): PingReply;
 };
 
 
@@ -786,8 +760,7 @@ export interface TcpConnectionInformation$instance {
 }
 
 
-export const TcpConnectionInformation: {
-    new(): TcpConnectionInformation;
+export const TcpConnectionInformation: (abstract new() => TcpConnectionInformation) & {
 };
 
 
@@ -811,8 +784,7 @@ export interface TcpStatistics$instance {
 }
 
 
-export const TcpStatistics: {
-    new(): TcpStatistics;
+export const TcpStatistics: (abstract new() => TcpStatistics) & {
 };
 
 
@@ -827,8 +799,7 @@ export interface UdpStatistics$instance {
 }
 
 
-export const UdpStatistics: {
-    new(): UdpStatistics;
+export const UdpStatistics: (abstract new() => UdpStatistics) & {
 };
 
 
@@ -846,8 +817,7 @@ export interface UnicastIPAddressInformation$instance extends IPAddressInformati
 }
 
 
-export const UnicastIPAddressInformation: {
-    new(): UnicastIPAddressInformation;
+export const UnicastIPAddressInformation: (abstract new() => UnicastIPAddressInformation) & {
 };
 
 
@@ -866,8 +836,7 @@ export interface UnicastIPAddressInformationCollection$instance {
 }
 
 
-export const UnicastIPAddressInformationCollection: {
-    new(): UnicastIPAddressInformationCollection;
+export const UnicastIPAddressInformationCollection: (abstract new() => UnicastIPAddressInformationCollection) & {
 };
 
 

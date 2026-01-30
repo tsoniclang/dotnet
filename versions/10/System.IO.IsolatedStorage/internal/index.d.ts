@@ -36,13 +36,7 @@ export interface INormalizeForIsolatedStorage$instance {
 
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
-export abstract class IsolatedStorage$protected {
-    protected readonly SeparatorExternal: char;
-    protected readonly SeparatorInternal: char;
-}
-
-
-export interface IsolatedStorage$instance extends IsolatedStorage$protected, MarshalByRefObject {
+export interface IsolatedStorage$instance extends MarshalByRefObject {
     readonly ApplicationIdentity: unknown;
     readonly AssemblyIdentity: unknown;
     readonly AvailableFreeSpace: long;
@@ -51,14 +45,15 @@ export interface IsolatedStorage$instance extends IsolatedStorage$protected, Mar
     readonly MaximumSize: ulong;
     readonly Quota: long;
     Scope: IsolatedStorageScope;
+    readonly SeparatorExternal: char;
+    readonly SeparatorInternal: char;
     readonly UsedSize: long;
     IncreaseQuotaTo(newQuotaSize: long): boolean;
     Remove(): void;
 }
 
 
-export const IsolatedStorage: {
-    new(): IsolatedStorage;
+export const IsolatedStorage: (abstract new() => IsolatedStorage) & {
 };
 
 
@@ -73,7 +68,6 @@ export const IsolatedStorageException: {
     new(): IsolatedStorageException;
     new(message: string): IsolatedStorageException;
     new(message: string, inner: Exception): IsolatedStorageException;
-    new(info: SerializationInfo, context: StreamingContext): IsolatedStorageException;
 };
 
 
@@ -118,7 +112,6 @@ export interface IsolatedStorageFile$instance extends IsolatedStorage {
 
 
 export const IsolatedStorageFile: {
-    new(): IsolatedStorageFile;
     readonly IsEnabled: boolean;
     GetEnumerator(scope: IsolatedStorageScope): IEnumerator;
     GetMachineStoreForApplication(): IsolatedStorageFile;
@@ -145,12 +138,7 @@ export interface IsolatedStorageFile$instance extends System_Internal.IDisposabl
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 
 
-export abstract class IsolatedStorageFileStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface IsolatedStorageFileStream$instance extends IsolatedStorageFileStream$protected, FileStream {
+export interface IsolatedStorageFileStream$instance extends FileStream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -161,6 +149,7 @@ export interface IsolatedStorageFileStream$instance extends IsolatedStorageFileS
     readonly SafeFileHandle: SafeFileHandle;
     BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
     BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;

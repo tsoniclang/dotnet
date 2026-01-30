@@ -44,23 +44,19 @@ export const AssemblyDependencyResolver: {
 
 export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
-export abstract class AssemblyLoadContext$protected {
-    protected Finalize(): void;
-    protected Load(assemblyName: AssemblyName): Assembly;
-    protected LoadUnmanagedDll(unmanagedDllName: string): nint;
-}
-
-
-export interface AssemblyLoadContext$instance extends AssemblyLoadContext$protected {
+export interface AssemblyLoadContext$instance {
     readonly Assemblies: IEnumerable_1<Assembly>;
     readonly IsCollectible: boolean;
-    readonly Name: string;
+    readonly Name: string | undefined;
     EnterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
+    Finalize(): void;
+    Load(assemblyName: AssemblyName): Assembly | undefined;
     LoadFromAssemblyName(assemblyName: AssemblyName): Assembly;
     LoadFromAssemblyPath(assemblyPath: string): Assembly;
     LoadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
     LoadFromStream(assembly: Stream): Assembly;
     LoadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
+    LoadUnmanagedDll(unmanagedDllName: string): nint;
     SetProfileOptimizationRoot(directoryPath: string): void;
     StartProfileOptimization(profile: string): void;
     ToString(): string;
@@ -69,8 +65,6 @@ export interface AssemblyLoadContext$instance extends AssemblyLoadContext$protec
 
 
 export const AssemblyLoadContext: {
-    new(): AssemblyLoadContext;
-    new(isCollectible: boolean): AssemblyLoadContext;
     new(name: string, isCollectible: boolean): AssemblyLoadContext;
     readonly Default: AssemblyLoadContext;
     readonly All: IEnumerable_1<AssemblyLoadContext>;

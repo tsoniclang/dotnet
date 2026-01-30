@@ -171,11 +171,13 @@ export type CacheControlHeaderValue = CacheControlHeaderValue$instance & __Cache
 export interface ContentDispositionHeaderValue$instance {
     CreationDate: Nullable_1<DateTimeOffset>;
     DispositionType: string;
-    FileName: string;
+    get FileName(): string | undefined;
+    set FileName(value: string | undefined);
     get FileNameStar(): string | undefined;
-    set FileNameStar(value: string);
+    set FileNameStar(value: string | undefined);
     ModificationDate: Nullable_1<DateTimeOffset>;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
     ReadDate: Nullable_1<DateTimeOffset>;
     Size: Nullable_1<System_Internal.Int64>;
@@ -186,7 +188,6 @@ export interface ContentDispositionHeaderValue$instance {
 
 
 export const ContentDispositionHeaderValue: {
-    new(source: ContentDispositionHeaderValue): ContentDispositionHeaderValue;
     new(dispositionType: string): ContentDispositionHeaderValue;
     Parse(input: string): ContentDispositionHeaderValue;
     TryParse(input: string, parsedValue: ContentDispositionHeaderValue): boolean;
@@ -263,17 +264,18 @@ export type EntityTagHeaderValue = EntityTagHeaderValue$instance & __EntityTagHe
 export interface HttpContentHeaders$instance extends HttpHeaders$instance {
     readonly Allow: ICollection_1<System_Internal.String>;
     get ContentDisposition(): ContentDispositionHeaderValue | undefined;
-    set ContentDisposition(value: ContentDispositionHeaderValue);
+    set ContentDisposition(value: ContentDispositionHeaderValue | undefined);
     readonly ContentEncoding: ICollection_1<System_Internal.String>;
     readonly ContentLanguage: ICollection_1<System_Internal.String>;
     ContentLength: Nullable_1<System_Internal.Int64>;
     get ContentLocation(): Uri | undefined;
-    set ContentLocation(value: Uri);
+    set ContentLocation(value: Uri | undefined);
     get ContentMD5(): byte[] | undefined;
-    set ContentMD5(value: byte[]);
+    set ContentMD5(value: byte[] | undefined);
     get ContentRange(): ContentRangeHeaderValue | undefined;
-    set ContentRange(value: ContentRangeHeaderValue);
-    ContentType: MediaTypeHeaderValue;
+    set ContentRange(value: ContentRangeHeaderValue | undefined);
+    get ContentType(): MediaTypeHeaderValue | undefined;
+    set ContentType(value: MediaTypeHeaderValue | undefined);
     Expires: Nullable_1<DateTimeOffset>;
     LastModified: Nullable_1<DateTimeOffset>;
     GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, IEnumerable_1<System_Internal.String>>>;
@@ -282,7 +284,6 @@ export interface HttpContentHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpContentHeaders: {
-    new(): HttpContentHeaders;
 };
 
 
@@ -310,8 +311,7 @@ export interface HttpHeaders$instance {
 }
 
 
-export const HttpHeaders: {
-    new(): HttpHeaders;
+export const HttpHeaders: (abstract new() => HttpHeaders) & {
 };
 
 
@@ -339,7 +339,6 @@ export interface HttpHeaderValueCollection_1$instance<T> {
 
 
 export const HttpHeaderValueCollection_1: {
-    new<T>(): HttpHeaderValueCollection_1<T>;
 };
 
 
@@ -358,33 +357,34 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     readonly AcceptEncoding: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
     readonly AcceptLanguage: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
     get Authorization(): AuthenticationHeaderValue | undefined;
-    set Authorization(value: AuthenticationHeaderValue);
+    set Authorization(value: AuthenticationHeaderValue | undefined);
     get CacheControl(): CacheControlHeaderValue | undefined;
-    set CacheControl(value: CacheControlHeaderValue);
+    set CacheControl(value: CacheControlHeaderValue | undefined);
     readonly Connection: HttpHeaderValueCollection_1<System_Internal.String>;
     ConnectionClose: Nullable_1<System_Internal.Boolean>;
     Date: Nullable_1<DateTimeOffset>;
     readonly Expect: HttpHeaderValueCollection_1<NameValueWithParametersHeaderValue>;
     ExpectContinue: Nullable_1<System_Internal.Boolean>;
     get From(): string | undefined;
-    set From(value: string);
-    Host: string;
+    set From(value: string | undefined);
+    get Host(): string | undefined;
+    set Host(value: string | undefined);
     readonly IfMatch: HttpHeaderValueCollection_1<EntityTagHeaderValue>;
     IfModifiedSince: Nullable_1<DateTimeOffset>;
     readonly IfNoneMatch: HttpHeaderValueCollection_1<EntityTagHeaderValue>;
     get IfRange(): RangeConditionHeaderValue | undefined;
-    set IfRange(value: RangeConditionHeaderValue);
+    set IfRange(value: RangeConditionHeaderValue | undefined);
     IfUnmodifiedSince: Nullable_1<DateTimeOffset>;
     MaxForwards: Nullable_1<System_Internal.Int32>;
     readonly Pragma: HttpHeaderValueCollection_1<NameValueHeaderValue>;
     get Protocol(): string | undefined;
-    set Protocol(value: string);
+    set Protocol(value: string | undefined);
     get ProxyAuthorization(): AuthenticationHeaderValue | undefined;
-    set ProxyAuthorization(value: AuthenticationHeaderValue);
+    set ProxyAuthorization(value: AuthenticationHeaderValue | undefined);
     get Range(): RangeHeaderValue | undefined;
-    set Range(value: RangeHeaderValue);
+    set Range(value: RangeHeaderValue | undefined);
     get Referrer(): Uri | undefined;
-    set Referrer(value: Uri);
+    set Referrer(value: Uri | undefined);
     readonly TE: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
     readonly Trailer: HttpHeaderValueCollection_1<System_Internal.String>;
     readonly TransferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
@@ -399,7 +399,6 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpRequestHeaders: {
-    new(): HttpRequestHeaders;
 };
 
 
@@ -415,17 +414,18 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly AcceptRanges: HttpHeaderValueCollection_1<System_Internal.String>;
     Age: Nullable_1<TimeSpan>;
     get CacheControl(): CacheControlHeaderValue | undefined;
-    set CacheControl(value: CacheControlHeaderValue);
+    set CacheControl(value: CacheControlHeaderValue | undefined);
     readonly Connection: HttpHeaderValueCollection_1<System_Internal.String>;
     ConnectionClose: Nullable_1<System_Internal.Boolean>;
     Date: Nullable_1<DateTimeOffset>;
     get ETag(): EntityTagHeaderValue | undefined;
-    set ETag(value: EntityTagHeaderValue);
-    Location: Uri;
+    set ETag(value: EntityTagHeaderValue | undefined);
+    get Location(): Uri | undefined;
+    set Location(value: Uri | undefined);
     readonly Pragma: HttpHeaderValueCollection_1<NameValueHeaderValue>;
     readonly ProxyAuthenticate: HttpHeaderValueCollection_1<AuthenticationHeaderValue>;
     get RetryAfter(): RetryConditionHeaderValue | undefined;
-    set RetryAfter(value: RetryConditionHeaderValue);
+    set RetryAfter(value: RetryConditionHeaderValue | undefined);
     readonly Server: HttpHeaderValueCollection_1<ProductInfoHeaderValue>;
     readonly Trailer: HttpHeaderValueCollection_1<System_Internal.String>;
     readonly TransferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
@@ -441,7 +441,6 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpResponseHeaders: {
-    new(): HttpResponseHeaders;
 };
 
 
@@ -455,8 +454,9 @@ export type HttpResponseHeaders = HttpResponseHeaders$instance & __HttpResponseH
 
 export interface MediaTypeHeaderValue$instance {
     get CharSet(): string | undefined;
-    set CharSet(value: string);
-    MediaType: string;
+    set CharSet(value: string | undefined);
+    get MediaType(): string | undefined;
+    set MediaType(value: string | undefined);
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -465,7 +465,6 @@ export interface MediaTypeHeaderValue$instance {
 
 
 export const MediaTypeHeaderValue: {
-    new(source: MediaTypeHeaderValue): MediaTypeHeaderValue;
     new(mediaType: string): MediaTypeHeaderValue;
     new(mediaType: string, charSet: string): MediaTypeHeaderValue;
     Parse(input: string): MediaTypeHeaderValue;
@@ -505,7 +504,8 @@ export type MediaTypeWithQualityHeaderValue = MediaTypeWithQualityHeaderValue$in
 
 export interface NameValueHeaderValue$instance {
     readonly Name: string;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -515,7 +515,6 @@ export interface NameValueHeaderValue$instance {
 export const NameValueHeaderValue: {
     new(name: string): NameValueHeaderValue;
     new(name: string, value: string): NameValueHeaderValue;
-    new(source: NameValueHeaderValue): NameValueHeaderValue;
     Parse(input: string): NameValueHeaderValue;
     TryParse(input: string, parsedValue: NameValueHeaderValue): boolean;
 };
@@ -542,7 +541,6 @@ export interface NameValueWithParametersHeaderValue$instance extends NameValueHe
 export const NameValueWithParametersHeaderValue: {
     new(name: string): NameValueWithParametersHeaderValue;
     new(name: string, value: string): NameValueWithParametersHeaderValue;
-    new(source: NameValueWithParametersHeaderValue): NameValueWithParametersHeaderValue;
 };
 
 
@@ -557,7 +555,7 @@ export type NameValueWithParametersHeaderValue = NameValueWithParametersHeaderVa
 
 export interface ProductHeaderValue$instance {
     readonly Name: string;
-    readonly Version: string;
+    readonly Version: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -582,8 +580,8 @@ export type ProductHeaderValue = ProductHeaderValue$instance & __ProductHeaderVa
 
 
 export interface ProductInfoHeaderValue$instance {
-    readonly Comment: string;
-    readonly Product: ProductHeaderValue;
+    readonly Comment: string | undefined;
+    readonly Product: ProductHeaderValue | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -746,7 +744,6 @@ export interface TransferCodingHeaderValue$instance {
 
 
 export const TransferCodingHeaderValue: {
-    new(source: TransferCodingHeaderValue): TransferCodingHeaderValue;
     new(value: string): TransferCodingHeaderValue;
     Parse(input: string): TransferCodingHeaderValue;
     TryParse(input: string, parsedValue: TransferCodingHeaderValue): boolean;
@@ -784,7 +781,7 @@ export type TransferCodingWithQualityHeaderValue = TransferCodingWithQualityHead
 
 
 export interface ViaHeaderValue$instance {
-    readonly Comment: string;
+    readonly Comment: string | undefined;
     readonly ProtocolName: string | undefined;
     readonly ProtocolVersion: string;
     readonly ReceivedBy: string;

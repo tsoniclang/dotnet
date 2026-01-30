@@ -16,7 +16,6 @@ export interface LightLambda$instance {
 
 
 export const LightLambda: {
-    new(): LightLambda;
 };
 
 
