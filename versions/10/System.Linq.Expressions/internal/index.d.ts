@@ -141,48 +141,38 @@ export interface IDynamicExpression$instance extends IArgumentProvider$instance 
 
 export type IDynamicExpression = IDynamicExpression$instance;
 
-export abstract class BinaryExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface BinaryExpression$instance extends BinaryExpression$protected, Expression {
+export interface BinaryExpression$instance extends Expression {
     readonly CanReduce: boolean;
     readonly Conversion: LambdaExpression | undefined;
     readonly IsLifted: boolean;
     readonly IsLiftedToNull: boolean;
     readonly Left: Expression;
-    readonly Method: MethodInfo;
+    readonly Method: MethodInfo | undefined;
     readonly Right: Expression;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     Update(left: Expression, conversion: LambdaExpression, right: Expression): BinaryExpression;
 }
 
 
 export const BinaryExpression: {
-    new(): BinaryExpression;
 };
 
 
 export type BinaryExpression = BinaryExpression$instance;
 
-export abstract class BlockExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface BlockExpression$instance extends BlockExpression$protected, Expression {
+export interface BlockExpression$instance extends Expression {
     readonly Expressions: ReadOnlyCollection_1<Expression>;
     readonly NodeType: ExpressionType;
     readonly Result: Expression;
     readonly Type: Type;
     readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
 }
 
 
 export const BlockExpression: {
-    new(): BlockExpression;
 };
 
 
@@ -190,7 +180,7 @@ export type BlockExpression = BlockExpression$instance;
 
 export interface CatchBlock$instance {
     readonly Body: Expression;
-    readonly Filter: Expression;
+    readonly Filter: Expression | undefined;
     readonly Test: Type;
     readonly Variable: ParameterExpression | undefined;
     ToString(): string;
@@ -199,59 +189,43 @@ export interface CatchBlock$instance {
 
 
 export const CatchBlock: {
-    new(): CatchBlock;
 };
 
 
 export type CatchBlock = CatchBlock$instance;
 
-export abstract class ConditionalExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface ConditionalExpression$instance extends ConditionalExpression$protected, Expression {
+export interface ConditionalExpression$instance extends Expression {
     readonly IfFalse: Expression;
     readonly IfTrue: Expression;
     readonly NodeType: ExpressionType;
     readonly Test: Expression;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
 }
 
 
 export const ConditionalExpression: {
-    new(): ConditionalExpression;
 };
 
 
 export type ConditionalExpression = ConditionalExpression$instance;
 
-export abstract class ConstantExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface ConstantExpression$instance extends ConstantExpression$protected, Expression {
+export interface ConstantExpression$instance extends Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
+    Accept(visitor: ExpressionVisitor): Expression;
 }
 
 
 export const ConstantExpression: {
-    new(): ConstantExpression;
 };
 
 
 export type ConstantExpression = ConstantExpression$instance;
 
-export abstract class DebugInfoExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface DebugInfoExpression$instance extends DebugInfoExpression$protected, Expression {
+export interface DebugInfoExpression$instance extends Expression {
     readonly Document: SymbolDocumentInfo;
     readonly EndColumn: int;
     readonly EndLine: int;
@@ -260,53 +234,43 @@ export interface DebugInfoExpression$instance extends DebugInfoExpression$protec
     readonly StartColumn: int;
     readonly StartLine: int;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
 }
 
 
 export const DebugInfoExpression: {
-    new(): DebugInfoExpression;
 };
 
 
 export type DebugInfoExpression = DebugInfoExpression$instance;
 
-export abstract class DefaultExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface DefaultExpression$instance extends DefaultExpression$protected, Expression {
+export interface DefaultExpression$instance extends Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
 }
 
 
 export const DefaultExpression: {
-    new(): DefaultExpression;
 };
 
 
 export type DefaultExpression = DefaultExpression$instance;
 
-export abstract class DynamicExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface DynamicExpression$instance extends DynamicExpression$protected, Expression {
+export interface DynamicExpression$instance extends Expression {
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Binder: CallSiteBinder;
     readonly CanReduce: boolean;
     readonly DelegateType: Type;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     Update(arguments: IEnumerable_1<Expression>): DynamicExpression;
 }
 
 
 export const DynamicExpression: {
-    new(): DynamicExpression;
     Dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
     Dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
     Dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
@@ -332,12 +296,8 @@ export interface DynamicExpression$instance extends IDynamicExpression$instance 
 export type DynamicExpression = DynamicExpression$instance & __DynamicExpression$views;
 
 
-export abstract class DynamicExpressionVisitor$protected {
-    protected VisitDynamic(node: DynamicExpression): Expression;
-}
-
-
-export interface DynamicExpressionVisitor$instance extends DynamicExpressionVisitor$protected, ExpressionVisitor {
+export interface DynamicExpressionVisitor$instance extends ExpressionVisitor {
+    VisitDynamic(node: DynamicExpression): Expression;
 }
 
 
@@ -359,7 +319,6 @@ export interface ElementInit$instance {
 
 
 export const ElementInit: {
-    new(): ElementInit;
 };
 
 
@@ -372,26 +331,20 @@ export interface ElementInit$instance extends IArgumentProvider$instance {}
 export type ElementInit = ElementInit$instance & __ElementInit$views;
 
 
-export abstract class Expression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-    protected VisitChildren(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface Expression$instance extends Expression$protected {
+export interface Expression$instance {
     readonly CanReduce: boolean;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     ReduceAndCheck(): Expression;
     ReduceExtensions(): Expression;
     ToString(): string;
+    VisitChildren(visitor: ExpressionVisitor): Expression;
 }
 
 
-export const Expression: {
-    new(nodeType: ExpressionType, type: Type): Expression;
-    new(): Expression;
+export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => Expression) & (abstract new() => Expression) & {
     Add(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
     Add(left: Expression, right: Expression): BinaryExpression;
     AddAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
@@ -706,12 +659,8 @@ export const Expression: {
 
 export type Expression = Expression$instance;
 
-export abstract class Expression_1$protected<TDelegate> {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface Expression_1$instance<TDelegate> extends Expression_1$protected<TDelegate>, LambdaExpression {
+export interface Expression_1$instance<TDelegate> extends LambdaExpression {
+    Accept(visitor: ExpressionVisitor): Expression;
     Compile(): TDelegate;
     Compile(preferInterpretation: boolean): TDelegate;
     Compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
@@ -723,107 +672,91 @@ export interface Expression_1$instance<TDelegate> extends Expression_1$protected
 
 
 export const Expression_1: {
-    new<TDelegate>(): Expression_1<TDelegate>;
 };
 
 
 export type Expression_1<TDelegate> = TDelegate | Expression_1$instance<TDelegate>;
 
-export abstract class ExpressionVisitor$protected {
-    protected VisitBinary(node: BinaryExpression): Expression;
-    protected VisitBlock(node: BlockExpression): Expression;
-    protected VisitCatchBlock(node: CatchBlock): CatchBlock;
-    protected VisitConditional(node: ConditionalExpression): Expression;
-    protected VisitConstant(node: ConstantExpression): Expression;
-    protected VisitDebugInfo(node: DebugInfoExpression): Expression;
-    protected VisitDefault(node: DefaultExpression): Expression;
-    protected VisitDynamic(node: DynamicExpression): Expression;
-    protected VisitElementInit(node: ElementInit): ElementInit;
-    protected VisitExtension(node: Expression): Expression;
-    protected VisitGoto(node: GotoExpression): Expression;
-    protected VisitIndex(node: IndexExpression): Expression;
-    protected VisitInvocation(node: InvocationExpression): Expression;
-    protected VisitLabel(node: LabelExpression): Expression;
-    protected VisitLabelTarget(node: LabelTarget): LabelTarget | undefined;
-    protected VisitLambda<T>(node: Expression_1<T>): Expression;
-    protected VisitListInit(node: ListInitExpression): Expression;
-    protected VisitLoop(node: LoopExpression): Expression;
-    protected VisitMember(node: MemberExpression): Expression;
-    protected VisitMemberAssignment(node: MemberAssignment): MemberAssignment;
-    protected VisitMemberBinding(node: MemberBinding): MemberBinding;
-    protected VisitMemberInit(node: MemberInitExpression): Expression;
-    protected VisitMemberListBinding(node: MemberListBinding): MemberListBinding;
-    protected VisitMemberMemberBinding(node: MemberMemberBinding): MemberMemberBinding;
-    protected VisitMethodCall(node: MethodCallExpression): Expression;
-    protected VisitNew(node: NewExpression): Expression;
-    protected VisitNewArray(node: NewArrayExpression): Expression;
-    protected VisitParameter(node: ParameterExpression): Expression;
-    protected VisitRuntimeVariables(node: RuntimeVariablesExpression): Expression;
-    protected VisitSwitch(node: SwitchExpression): Expression;
-    protected VisitSwitchCase(node: SwitchCase): SwitchCase;
-    protected VisitTry(node: TryExpression): Expression;
-    protected VisitTypeBinary(node: TypeBinaryExpression): Expression;
-    protected VisitUnary(node: UnaryExpression): Expression;
-}
-
-
-export interface ExpressionVisitor$instance extends ExpressionVisitor$protected {
+export interface ExpressionVisitor$instance {
     Visit(node: Expression): Expression | undefined;
     Visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
     VisitAndConvert<T extends Expression>(node: T, callerName: string): T | undefined;
     VisitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string): ReadOnlyCollection_1<T>;
+    VisitBinary(node: BinaryExpression): Expression;
+    VisitBlock(node: BlockExpression): Expression;
+    VisitCatchBlock(node: CatchBlock): CatchBlock;
+    VisitConditional(node: ConditionalExpression): Expression;
+    VisitConstant(node: ConstantExpression): Expression;
+    VisitDebugInfo(node: DebugInfoExpression): Expression;
+    VisitDefault(node: DefaultExpression): Expression;
+    VisitDynamic(node: DynamicExpression): Expression;
+    VisitElementInit(node: ElementInit): ElementInit;
+    VisitExtension(node: Expression): Expression;
+    VisitGoto(node: GotoExpression): Expression;
+    VisitIndex(node: IndexExpression): Expression;
+    VisitInvocation(node: InvocationExpression): Expression;
+    VisitLabel(node: LabelExpression): Expression;
+    VisitLabelTarget(node: LabelTarget): LabelTarget | undefined;
+    VisitLambda<T>(node: Expression_1<T>): Expression;
+    VisitListInit(node: ListInitExpression): Expression;
+    VisitLoop(node: LoopExpression): Expression;
+    VisitMember(node: MemberExpression): Expression;
+    VisitMemberAssignment(node: MemberAssignment): MemberAssignment;
+    VisitMemberBinding(node: MemberBinding): MemberBinding;
+    VisitMemberInit(node: MemberInitExpression): Expression;
+    VisitMemberListBinding(node: MemberListBinding): MemberListBinding;
+    VisitMemberMemberBinding(node: MemberMemberBinding): MemberMemberBinding;
+    VisitMethodCall(node: MethodCallExpression): Expression;
+    VisitNew(node: NewExpression): Expression;
+    VisitNewArray(node: NewArrayExpression): Expression;
+    VisitParameter(node: ParameterExpression): Expression;
+    VisitRuntimeVariables(node: RuntimeVariablesExpression): Expression;
+    VisitSwitch(node: SwitchExpression): Expression;
+    VisitSwitchCase(node: SwitchCase): SwitchCase;
+    VisitTry(node: TryExpression): Expression;
+    VisitTypeBinary(node: TypeBinaryExpression): Expression;
+    VisitUnary(node: UnaryExpression): Expression;
 }
 
 
-export const ExpressionVisitor: {
-    new(): ExpressionVisitor;
+export const ExpressionVisitor: (abstract new() => ExpressionVisitor) & {
     Visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 };
 
 
 export type ExpressionVisitor = ExpressionVisitor$instance;
 
-export abstract class GotoExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface GotoExpression$instance extends GotoExpression$protected, Expression {
+export interface GotoExpression$instance extends Expression {
     readonly Kind: GotoExpressionKind;
     readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
     readonly Type: Type;
-    readonly Value: Expression;
+    readonly Value: Expression | undefined;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(target: LabelTarget, value: Expression): GotoExpression;
 }
 
 
 export const GotoExpression: {
-    new(): GotoExpression;
 };
 
 
 export type GotoExpression = GotoExpression$instance;
 
-export abstract class IndexExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface IndexExpression$instance extends IndexExpression$protected, Expression {
+export interface IndexExpression$instance extends Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Indexer: PropertyInfo | undefined;
     readonly NodeType: ExpressionType;
     readonly Object: Expression | undefined;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     GetArgument(index: int): Expression;
     Update(object: Expression, arguments: IEnumerable_1<Expression>): IndexExpression;
 }
 
 
 export const IndexExpression: {
-    new(): IndexExpression;
 };
 
 
@@ -836,24 +769,19 @@ export interface IndexExpression$instance extends IArgumentProvider$instance {}
 export type IndexExpression = IndexExpression$instance & __IndexExpression$views;
 
 
-export abstract class InvocationExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface InvocationExpression$instance extends InvocationExpression$protected, Expression {
+export interface InvocationExpression$instance extends Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Expression: Expression;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     GetArgument(index: int): Expression;
     Update(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
 }
 
 
 export const InvocationExpression: {
-    new(): InvocationExpression;
 };
 
 
@@ -866,36 +794,30 @@ export interface InvocationExpression$instance extends IArgumentProvider$instanc
 export type InvocationExpression = InvocationExpression$instance & __InvocationExpression$views;
 
 
-export abstract class LabelExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface LabelExpression$instance extends LabelExpression$protected, Expression {
-    readonly DefaultValue: Expression;
+export interface LabelExpression$instance extends Expression {
+    readonly DefaultValue: Expression | undefined;
     readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(target: LabelTarget, defaultValue: Expression): LabelExpression;
 }
 
 
 export const LabelExpression: {
-    new(): LabelExpression;
 };
 
 
 export type LabelExpression = LabelExpression$instance;
 
 export interface LabelTarget$instance {
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly Type: Type;
     ToString(): string;
 }
 
 
 export const LabelTarget: {
-    new(): LabelTarget;
 };
 
 
@@ -903,7 +825,7 @@ export type LabelTarget = LabelTarget$instance;
 
 export interface LambdaExpression$instance extends Expression {
     readonly Body: Expression;
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly NodeType: ExpressionType;
     readonly Parameters: ReadOnlyCollection_1<ParameterExpression>;
     readonly ReturnType: Type;
@@ -923,46 +845,36 @@ export const LambdaExpression: {
 
 export type LambdaExpression = LambdaExpression$instance;
 
-export abstract class ListInitExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface ListInitExpression$instance extends ListInitExpression$protected, Expression {
+export interface ListInitExpression$instance extends Expression {
     readonly CanReduce: boolean;
     readonly Initializers: ReadOnlyCollection_1<ElementInit>;
     readonly NewExpression: NewExpression;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     Update(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
 }
 
 
 export const ListInitExpression: {
-    new(): ListInitExpression;
 };
 
 
 export type ListInitExpression = ListInitExpression$instance;
 
-export abstract class LoopExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface LoopExpression$instance extends LoopExpression$protected, Expression {
+export interface LoopExpression$instance extends Expression {
     readonly Body: Expression;
     readonly BreakLabel: LabelTarget | undefined;
     readonly ContinueLabel: LabelTarget | undefined;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(breakLabel: LabelTarget, continueLabel: LabelTarget, body: Expression): LoopExpression;
 }
 
 
 export const LoopExpression: {
-    new(): LoopExpression;
 };
 
 
@@ -975,7 +887,6 @@ export interface MemberAssignment$instance extends MemberBinding {
 
 
 export const MemberAssignment: {
-    new(): MemberAssignment;
 };
 
 
@@ -988,51 +899,40 @@ export interface MemberBinding$instance {
 }
 
 
-export const MemberBinding: {
-    new(type: MemberBindingType, member: MemberInfo): MemberBinding;
+export const MemberBinding: (abstract new(type: MemberBindingType, member: MemberInfo) => MemberBinding) & {
 };
 
 
 export type MemberBinding = MemberBinding$instance;
 
-export abstract class MemberExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface MemberExpression$instance extends MemberExpression$protected, Expression {
-    readonly Expression: Expression;
+export interface MemberExpression$instance extends Expression {
+    readonly Expression: Expression | undefined;
     readonly Member: MemberInfo;
     readonly NodeType: ExpressionType;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(expression: Expression): MemberExpression;
 }
 
 
 export const MemberExpression: {
-    new(): MemberExpression;
 };
 
 
 export type MemberExpression = MemberExpression$instance;
 
-export abstract class MemberInitExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface MemberInitExpression$instance extends MemberInitExpression$protected, Expression {
+export interface MemberInitExpression$instance extends Expression {
     readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
     readonly CanReduce: boolean;
     readonly NewExpression: NewExpression;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     Update(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
 }
 
 
 export const MemberInitExpression: {
-    new(): MemberInitExpression;
 };
 
 
@@ -1045,7 +945,6 @@ export interface MemberListBinding$instance extends MemberBinding {
 
 
 export const MemberListBinding: {
-    new(): MemberListBinding;
 };
 
 
@@ -1058,31 +957,25 @@ export interface MemberMemberBinding$instance extends MemberBinding {
 
 
 export const MemberMemberBinding: {
-    new(): MemberMemberBinding;
 };
 
 
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
-export abstract class MethodCallExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface MethodCallExpression$instance extends MethodCallExpression$protected, Expression {
+export interface MethodCallExpression$instance extends Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Method: MethodInfo;
     readonly NodeType: ExpressionType;
     readonly Object: Expression | undefined;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     GetArgument(index: int): Expression;
     Update(object: Expression, arguments: IEnumerable_1<Expression>): MethodCallExpression;
 }
 
 
 export const MethodCallExpression: {
-    new(): MethodCallExpression;
 };
 
 
@@ -1095,44 +988,34 @@ export interface MethodCallExpression$instance extends IArgumentProvider$instanc
 export type MethodCallExpression = MethodCallExpression$instance & __MethodCallExpression$views;
 
 
-export abstract class NewArrayExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface NewArrayExpression$instance extends NewArrayExpression$protected, Expression {
+export interface NewArrayExpression$instance extends Expression {
     readonly Expressions: ReadOnlyCollection_1<Expression>;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
 }
 
 
 export const NewArrayExpression: {
-    new(): NewArrayExpression;
 };
 
 
 export type NewArrayExpression = NewArrayExpression$instance;
 
-export abstract class NewExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface NewExpression$instance extends NewExpression$protected, Expression {
+export interface NewExpression$instance extends Expression {
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
-    readonly Constructor: ConstructorInfo;
-    readonly Members: ReadOnlyCollection_1<MemberInfo>;
+    readonly Constructor: ConstructorInfo | undefined;
+    readonly Members: ReadOnlyCollection_1<MemberInfo> | undefined;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     GetArgument(index: int): Expression;
     Update(arguments: IEnumerable_1<Expression>): NewExpression;
 }
 
 
 export const NewExpression: {
-    new(): NewExpression;
 };
 
 
@@ -1145,41 +1028,31 @@ export interface NewExpression$instance extends IArgumentProvider$instance {}
 export type NewExpression = NewExpression$instance & __NewExpression$views;
 
 
-export abstract class ParameterExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface ParameterExpression$instance extends ParameterExpression$protected, Expression {
+export interface ParameterExpression$instance extends Expression {
     readonly IsByRef: boolean;
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
 }
 
 
 export const ParameterExpression: {
-    new(): ParameterExpression;
 };
 
 
 export type ParameterExpression = ParameterExpression$instance;
 
-export abstract class RuntimeVariablesExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface RuntimeVariablesExpression$instance extends RuntimeVariablesExpression$protected, Expression {
+export interface RuntimeVariablesExpression$instance extends Expression {
     readonly NodeType: ExpressionType;
     readonly Type: Type;
     readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
 }
 
 
 export const RuntimeVariablesExpression: {
-    new(): RuntimeVariablesExpression;
 };
 
 
@@ -1194,30 +1067,24 @@ export interface SwitchCase$instance {
 
 
 export const SwitchCase: {
-    new(): SwitchCase;
 };
 
 
 export type SwitchCase = SwitchCase$instance;
 
-export abstract class SwitchExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface SwitchExpression$instance extends SwitchExpression$protected, Expression {
+export interface SwitchExpression$instance extends Expression {
     readonly Cases: ReadOnlyCollection_1<SwitchCase>;
     readonly Comparison: MethodInfo | undefined;
     readonly DefaultBody: Expression | undefined;
     readonly NodeType: ExpressionType;
     readonly SwitchValue: Expression;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(switchValue: Expression, cases: IEnumerable_1<SwitchCase>, defaultBody: Expression): SwitchExpression;
 }
 
 
 export const SwitchExpression: {
-    new(): SwitchExpression;
 };
 
 
@@ -1232,76 +1099,60 @@ export interface SymbolDocumentInfo$instance {
 
 
 export const SymbolDocumentInfo: {
-    new(): SymbolDocumentInfo;
 };
 
 
 export type SymbolDocumentInfo = SymbolDocumentInfo$instance;
 
-export abstract class TryExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface TryExpression$instance extends TryExpression$protected, Expression {
+export interface TryExpression$instance extends Expression {
     readonly Body: Expression;
     readonly Fault: Expression | undefined;
     readonly Finally: Expression | undefined;
     readonly Handlers: ReadOnlyCollection_1<CatchBlock>;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(body: Expression, handlers: IEnumerable_1<CatchBlock>, finally_: Expression, fault: Expression): TryExpression;
 }
 
 
 export const TryExpression: {
-    new(): TryExpression;
 };
 
 
 export type TryExpression = TryExpression$instance;
 
-export abstract class TypeBinaryExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface TypeBinaryExpression$instance extends TypeBinaryExpression$protected, Expression {
+export interface TypeBinaryExpression$instance extends Expression {
     readonly Expression: Expression;
     readonly NodeType: ExpressionType;
     readonly Type: Type;
     readonly TypeOperand: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Update(expression: Expression): TypeBinaryExpression;
 }
 
 
 export const TypeBinaryExpression: {
-    new(): TypeBinaryExpression;
 };
 
 
 export type TypeBinaryExpression = TypeBinaryExpression$instance;
 
-export abstract class UnaryExpression$protected {
-    protected Accept(visitor: ExpressionVisitor): Expression;
-}
-
-
-export interface UnaryExpression$instance extends UnaryExpression$protected, Expression {
+export interface UnaryExpression$instance extends Expression {
     readonly CanReduce: boolean;
     readonly IsLifted: boolean;
     readonly IsLiftedToNull: boolean;
-    readonly Method: MethodInfo;
+    readonly Method: MethodInfo | undefined;
     readonly NodeType: ExpressionType;
     readonly Operand: Expression;
     readonly Type: Type;
+    Accept(visitor: ExpressionVisitor): Expression;
     Reduce(): Expression;
     Update(operand: Expression): UnaryExpression;
 }
 
 
 export const UnaryExpression: {
-    new(): UnaryExpression;
 };
 
 

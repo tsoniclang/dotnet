@@ -37,7 +37,7 @@ export type IComparer = IComparer$instance;
 
 export interface IDictionary$instance extends ICollection, IEnumerable {
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly Values: ICollection;
     readonly IsReadOnly: boolean;
@@ -59,7 +59,7 @@ export type IDictionary = IDictionary$instance;
 
 export interface IDictionaryEnumerator$instance extends IEnumerator {
     readonly Key: unknown;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     readonly Entry: DictionaryEntry;
     readonly Current: unknown;
     MoveNext(): boolean;
@@ -139,7 +139,8 @@ export type IStructuralEquatable = IStructuralEquatable$instance;
 
 export interface DictionaryEntry$instance {
     Key: unknown;
-    Value: unknown;
+    get Value(): unknown | undefined;
+    set Value(value: unknown | undefined);
     Deconstruct(key: unknown, value: unknown): void;
     ToString(): string;
 }
@@ -312,31 +313,25 @@ export interface __CaseInsensitiveHashCodeProvider$views {
 export type CaseInsensitiveHashCodeProvider = CaseInsensitiveHashCodeProvider$instance & __CaseInsensitiveHashCodeProvider$views;
 
 
-export abstract class CollectionBase$protected {
-    protected OnClear(): void;
-    protected OnClearComplete(): void;
-    protected OnInsert(index: int, value: unknown): void;
-    protected OnInsertComplete(index: int, value: unknown): void;
-    protected OnRemove(index: int, value: unknown): void;
-    protected OnRemoveComplete(index: int, value: unknown): void;
-    protected OnSet(index: int, oldValue: unknown, newValue: unknown): void;
-    protected OnSetComplete(index: int, oldValue: unknown, newValue: unknown): void;
-    protected OnValidate(value: unknown): void;
-}
-
-
-export interface CollectionBase$instance extends CollectionBase$protected {
+export interface CollectionBase$instance {
     Capacity: int;
     readonly Count: int;
     Clear(): void;
     GetEnumerator(): IEnumerator;
+    OnClear(): void;
+    OnClearComplete(): void;
+    OnInsert(index: int, value: unknown): void;
+    OnInsertComplete(index: int, value: unknown): void;
+    OnRemove(index: int, value: unknown): void;
+    OnRemoveComplete(index: int, value: unknown): void;
+    OnSet(index: int, oldValue: unknown, newValue: unknown): void;
+    OnSetComplete(index: int, oldValue: unknown, newValue: unknown): void;
+    OnValidate(value: unknown): void;
     RemoveAt(index: int): void;
 }
 
 
-export const CollectionBase: {
-    new(): CollectionBase;
-    new(capacity: int): CollectionBase;
+export const CollectionBase: (abstract new() => CollectionBase) & (abstract new(capacity: int) => CollectionBase) & {
 };
 
 
@@ -372,30 +367,25 @@ export interface Comparer$instance extends IComparer$instance, System_Runtime_Se
 export type Comparer = Comparer$instance & __Comparer$views;
 
 
-export abstract class DictionaryBase$protected {
-    protected OnClear(): void;
-    protected OnClearComplete(): void;
-    protected OnGet(key: unknown, currentValue: unknown): unknown | undefined;
-    protected OnInsert(key: unknown, value: unknown): void;
-    protected OnInsertComplete(key: unknown, value: unknown): void;
-    protected OnRemove(key: unknown, value: unknown): void;
-    protected OnRemoveComplete(key: unknown, value: unknown): void;
-    protected OnSet(key: unknown, oldValue: unknown, newValue: unknown): void;
-    protected OnSetComplete(key: unknown, oldValue: unknown, newValue: unknown): void;
-    protected OnValidate(key: unknown, value: unknown): void;
-}
-
-
-export interface DictionaryBase$instance extends DictionaryBase$protected {
+export interface DictionaryBase$instance {
     readonly Count: int;
     Clear(): void;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IDictionaryEnumerator;
+    OnClear(): void;
+    OnClearComplete(): void;
+    OnGet(key: unknown, currentValue: unknown): unknown | undefined;
+    OnInsert(key: unknown, value: unknown): void;
+    OnInsertComplete(key: unknown, value: unknown): void;
+    OnRemove(key: unknown, value: unknown): void;
+    OnRemoveComplete(key: unknown, value: unknown): void;
+    OnSet(key: unknown, oldValue: unknown, newValue: unknown): void;
+    OnSetComplete(key: unknown, oldValue: unknown, newValue: unknown): void;
+    OnValidate(key: unknown, value: unknown): void;
 }
 
 
-export const DictionaryBase: {
-    new(): DictionaryBase;
+export const DictionaryBase: (abstract new() => DictionaryBase) & {
 };
 
 
@@ -408,19 +398,13 @@ export interface __DictionaryBase$views {
 export type DictionaryBase = DictionaryBase$instance & __DictionaryBase$views;
 
 
-export abstract class Hashtable$protected {
-    protected GetHash(key: unknown): int;
-    protected KeyEquals(item: unknown, key: unknown): boolean;
-}
-
-
-export interface Hashtable$instance extends Hashtable$protected {
+export interface Hashtable$instance {
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -432,7 +416,9 @@ export interface Hashtable$instance extends Hashtable$protected {
     ContainsValue(value: unknown): boolean;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     GetEnumerator(): IDictionaryEnumerator;
+    GetHash(key: unknown): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    KeyEquals(item: unknown, key: unknown): boolean;
     OnDeserialization(sender: unknown): void;
     Remove(key: unknown): void;
 }
@@ -454,7 +440,6 @@ export const Hashtable: {
     new(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
     new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
     new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
-    new(info: SerializationInfo, context: StreamingContext): Hashtable;
     Synchronized(table: Hashtable): Hashtable;
 };
 
@@ -479,7 +464,7 @@ export interface ListDictionaryInternal$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -514,10 +499,10 @@ export interface Queue$instance {
     Clone(): unknown;
     Contains(obj: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    Dequeue(): unknown;
+    Dequeue(): unknown | undefined;
     Enqueue(obj: unknown): void;
     GetEnumerator(): IEnumerator;
-    Peek(): unknown;
+    Peek(): unknown | undefined;
     ToArray(): (unknown | undefined)[];
     TrimToSize(): void;
 }
@@ -549,8 +534,7 @@ export interface ReadOnlyCollectionBase$instance {
 }
 
 
-export const ReadOnlyCollectionBase: {
-    new(): ReadOnlyCollectionBase;
+export const ReadOnlyCollectionBase: (abstract new() => ReadOnlyCollectionBase) & {
 };
 
 
@@ -569,7 +553,7 @@ export interface SortedList$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     get Item(): unknown | undefined;
-    set Item(value: unknown);
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -626,8 +610,8 @@ export interface Stack$instance {
     Contains(obj: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
-    Peek(): unknown;
-    Pop(): unknown;
+    Peek(): unknown | undefined;
+    Pop(): unknown | undefined;
     Push(obj: unknown): void;
     ToArray(): (unknown | undefined)[];
 }

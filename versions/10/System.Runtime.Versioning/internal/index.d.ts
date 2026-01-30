@@ -70,9 +70,9 @@ export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 
 export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
-    readonly Message: string;
+    readonly Message: string | undefined;
     get Url(): string | undefined;
-    set Url(value: string);
+    set Url(value: string | undefined);
 }
 
 
@@ -96,9 +96,9 @@ export const OSPlatformAttribute: {
 export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
 export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
-    readonly Message: string;
+    readonly Message: string | undefined;
     get Url(): string | undefined;
-    set Url(value: string);
+    set Url(value: string | undefined);
 }
 
 
@@ -160,7 +160,7 @@ export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribut
 
 export interface TargetFrameworkAttribute$instance extends Attribute {
     get FrameworkDisplayName(): string | undefined;
-    set FrameworkDisplayName(value: string);
+    set FrameworkDisplayName(value: string | undefined);
     readonly FrameworkName: string;
 }
 
@@ -184,7 +184,7 @@ export const TargetPlatformAttribute: {
 export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 
 export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
-    readonly Message: string;
+    readonly Message: string | undefined;
 }
 
 

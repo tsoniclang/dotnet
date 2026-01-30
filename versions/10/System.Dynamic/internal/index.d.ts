@@ -46,8 +46,7 @@ export interface BinaryOperationBinder$instance extends DynamicMetaObjectBinder 
 }
 
 
-export const BinaryOperationBinder: {
-    new(operation: ExpressionType): BinaryOperationBinder;
+export const BinaryOperationBinder: (abstract new(operation: ExpressionType) => BinaryOperationBinder) & {
 };
 
 
@@ -97,8 +96,7 @@ export interface ConvertBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const ConvertBinder: {
-    new(type: Type, explicit: boolean): ConvertBinder;
+export const ConvertBinder: (abstract new(type: Type, explicit: boolean) => ConvertBinder) & {
 };
 
 
@@ -114,8 +112,7 @@ export interface CreateInstanceBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const CreateInstanceBinder: {
-    new(callInfo: CallInfo): CreateInstanceBinder;
+export const CreateInstanceBinder: (abstract new(callInfo: CallInfo) => CreateInstanceBinder) & {
 };
 
 
@@ -131,8 +128,7 @@ export interface DeleteIndexBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const DeleteIndexBinder: {
-    new(callInfo: CallInfo): DeleteIndexBinder;
+export const DeleteIndexBinder: (abstract new(callInfo: CallInfo) => DeleteIndexBinder) & {
 };
 
 
@@ -149,8 +145,7 @@ export interface DeleteMemberBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const DeleteMemberBinder: {
-    new(name: string, ignoreCase: boolean): DeleteMemberBinder;
+export const DeleteMemberBinder: (abstract new(name: string, ignoreCase: boolean) => DeleteMemberBinder) & {
 };
 
 
@@ -162,7 +157,7 @@ export interface DynamicMetaObject$instance {
     readonly LimitType: Type;
     readonly Restrictions: BindingRestrictions;
     readonly RuntimeType: Type | undefined;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     BindBinaryOperation(binder: BinaryOperationBinder, arg: DynamicMetaObject): DynamicMetaObject;
     BindConvert(binder: ConvertBinder): DynamicMetaObject;
     BindCreateInstance(binder: CreateInstanceBinder, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -200,8 +195,7 @@ export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
 }
 
 
-export const DynamicMetaObjectBinder: {
-    new(): DynamicMetaObjectBinder;
+export const DynamicMetaObjectBinder: (abstract new() => DynamicMetaObjectBinder) & {
 };
 
 
@@ -225,8 +219,7 @@ export interface DynamicObject$instance {
 }
 
 
-export const DynamicObject: {
-    new(): DynamicObject;
+export const DynamicObject: (abstract new() => DynamicObject) & {
 };
 
 
@@ -271,8 +264,7 @@ export interface GetIndexBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const GetIndexBinder: {
-    new(callInfo: CallInfo): GetIndexBinder;
+export const GetIndexBinder: (abstract new(callInfo: CallInfo) => GetIndexBinder) & {
 };
 
 
@@ -289,8 +281,7 @@ export interface GetMemberBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const GetMemberBinder: {
-    new(name: string, ignoreCase: boolean): GetMemberBinder;
+export const GetMemberBinder: (abstract new(name: string, ignoreCase: boolean) => GetMemberBinder) & {
 };
 
 
@@ -306,8 +297,7 @@ export interface InvokeBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const InvokeBinder: {
-    new(callInfo: CallInfo): InvokeBinder;
+export const InvokeBinder: (abstract new(callInfo: CallInfo) => InvokeBinder) & {
 };
 
 
@@ -326,8 +316,7 @@ export interface InvokeMemberBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const InvokeMemberBinder: {
-    new(name: string, ignoreCase: boolean, callInfo: CallInfo): InvokeMemberBinder;
+export const InvokeMemberBinder: (abstract new(name: string, ignoreCase: boolean, callInfo: CallInfo) => InvokeMemberBinder) & {
 };
 
 
@@ -343,8 +332,7 @@ export interface SetIndexBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const SetIndexBinder: {
-    new(callInfo: CallInfo): SetIndexBinder;
+export const SetIndexBinder: (abstract new(callInfo: CallInfo) => SetIndexBinder) & {
 };
 
 
@@ -361,8 +349,7 @@ export interface SetMemberBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const SetMemberBinder: {
-    new(name: string, ignoreCase: boolean): SetMemberBinder;
+export const SetMemberBinder: (abstract new(name: string, ignoreCase: boolean) => SetMemberBinder) & {
 };
 
 
@@ -378,8 +365,7 @@ export interface UnaryOperationBinder$instance extends DynamicMetaObjectBinder {
 }
 
 
-export const UnaryOperationBinder: {
-    new(operation: ExpressionType): UnaryOperationBinder;
+export const UnaryOperationBinder: (abstract new(operation: ExpressionType) => UnaryOperationBinder) & {
 };
 
 

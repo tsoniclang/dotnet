@@ -276,7 +276,7 @@ export type JsonReaderState = JsonReaderState$instance;
 
 export interface JsonWriterOptions$instance {
     get Encoder(): JavaScriptEncoder | undefined;
-    set Encoder(value: JavaScriptEncoder);
+    set Encoder(value: JavaScriptEncoder | undefined);
     IndentCharacter: char;
     Indented: boolean;
     IndentSize: int;
@@ -367,7 +367,6 @@ export interface JsonDocument$instance {
 
 
 export const JsonDocument: {
-    new(): JsonDocument;
     Parse(utf8Json: ReadOnlySequence_1<System_Internal.Byte>, options?: JsonDocumentOptions): JsonDocument;
     Parse(utf8Json: Stream, options?: JsonDocumentOptions): JsonDocument;
     Parse(utf8Json: ReadOnlyMemory_1<System_Internal.Byte>, options?: JsonDocumentOptions): JsonDocument;
@@ -392,7 +391,8 @@ export interface JsonException$instance extends Exception {
     BytePositionInLine: Nullable_1<System_Internal.Int64>;
     LineNumber: Nullable_1<System_Internal.Int64>;
     readonly Message: string;
-    Path: string;
+    get Path(): string | undefined;
+    set Path(value: string | undefined);
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -403,7 +403,6 @@ export const JsonException: {
     new(message: string, innerException: Exception): JsonException;
     new(message: string): JsonException;
     new(): JsonException;
-    new(info: SerializationInfo, context: StreamingContext): JsonException;
 };
 
 
@@ -419,8 +418,7 @@ export interface JsonNamingPolicy$instance {
 }
 
 
-export const JsonNamingPolicy: {
-    new(): JsonNamingPolicy;
+export const JsonNamingPolicy: (abstract new() => JsonNamingPolicy) & {
     readonly CamelCase: JsonNamingPolicy;
     readonly SnakeCaseLower: JsonNamingPolicy;
     readonly SnakeCaseUpper: JsonNamingPolicy;
@@ -439,9 +437,9 @@ export interface JsonSerializerOptions$instance {
     DefaultBufferSize: int;
     DefaultIgnoreCondition: JsonIgnoreCondition;
     get DictionaryKeyPolicy(): JsonNamingPolicy | undefined;
-    set DictionaryKeyPolicy(value: JsonNamingPolicy);
+    set DictionaryKeyPolicy(value: JsonNamingPolicy | undefined);
     get Encoder(): JavaScriptEncoder | undefined;
-    set Encoder(value: JavaScriptEncoder);
+    set Encoder(value: JavaScriptEncoder | undefined);
     IgnoreNullValues: boolean;
     IgnoreReadOnlyFields: boolean;
     IgnoreReadOnlyProperties: boolean;
@@ -455,14 +453,14 @@ export interface JsonSerializerOptions$instance {
     PreferredObjectCreationHandling: JsonObjectCreationHandling;
     PropertyNameCaseInsensitive: boolean;
     get PropertyNamingPolicy(): JsonNamingPolicy | undefined;
-    set PropertyNamingPolicy(value: JsonNamingPolicy);
+    set PropertyNamingPolicy(value: JsonNamingPolicy | undefined);
     ReadCommentHandling: JsonCommentHandling;
     get ReferenceHandler(): ReferenceHandler | undefined;
-    set ReferenceHandler(value: ReferenceHandler);
+    set ReferenceHandler(value: ReferenceHandler | undefined);
     RespectNullableAnnotations: boolean;
     RespectRequiredConstructorParameters: boolean;
     get TypeInfoResolver(): IJsonTypeInfoResolver | undefined;
-    set TypeInfoResolver(value: IJsonTypeInfoResolver);
+    set TypeInfoResolver(value: IJsonTypeInfoResolver | undefined);
     readonly TypeInfoResolverChain: IList_1<IJsonTypeInfoResolver>;
     UnknownTypeHandling: JsonUnknownTypeHandling;
     UnmappedMemberHandling: JsonUnmappedMemberHandling;

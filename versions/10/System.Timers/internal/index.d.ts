@@ -29,21 +29,17 @@ export const ElapsedEventArgs: {
 
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
-export abstract class Timer$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Timer$instance extends Timer$protected, Component {
+export interface Timer$instance extends Component {
     AutoReset: boolean;
     Enabled: boolean;
     Interval: double;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     get SynchronizingObject(): ISynchronizeInvoke | undefined;
-    set SynchronizingObject(value: ISynchronizeInvoke);
+    set SynchronizingObject(value: ISynchronizeInvoke | undefined);
     BeginInit(): void;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     EndInit(): void;
     Start(): void;

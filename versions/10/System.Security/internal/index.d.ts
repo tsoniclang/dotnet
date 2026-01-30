@@ -78,21 +78,13 @@ export const AllowPartiallyTrustedCallersAttribute: {
 
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
-export abstract class PermissionSet$protected {
-    protected AddPermissionImpl(perm: IPermission): IPermission | undefined;
-    protected GetEnumeratorImpl(): IEnumerator;
-    protected GetPermissionImpl(permClass: Type): IPermission | undefined;
-    protected RemovePermissionImpl(permClass: Type): IPermission | undefined;
-    protected SetPermissionImpl(perm: IPermission): IPermission | undefined;
-}
-
-
-export interface PermissionSet$instance extends PermissionSet$protected {
+export interface PermissionSet$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     readonly SyncRoot: unknown;
     AddPermission(perm: IPermission): IPermission | undefined;
+    AddPermissionImpl(perm: IPermission): IPermission | undefined;
     Assert(): void;
     ContainsNonCodeAccessPermissions(): boolean;
     Copy(): PermissionSet;
@@ -102,15 +94,19 @@ export interface PermissionSet$instance extends PermissionSet$protected {
     Equals(o: unknown): boolean;
     FromXml(et: SecurityElement): void;
     GetEnumerator(): IEnumerator;
+    GetEnumeratorImpl(): IEnumerator;
     GetHashCode(): int;
     GetPermission(permClass: Type): IPermission | undefined;
+    GetPermissionImpl(permClass: Type): IPermission | undefined;
     Intersect(other: PermissionSet): PermissionSet | undefined;
     IsEmpty(): boolean;
     IsSubsetOf(target: PermissionSet): boolean;
     IsUnrestricted(): boolean;
     PermitOnly(): void;
     RemovePermission(permClass: Type): IPermission | undefined;
+    RemovePermissionImpl(permClass: Type): IPermission | undefined;
     SetPermission(perm: IPermission): IPermission | undefined;
+    SetPermissionImpl(perm: IPermission): IPermission | undefined;
     ToString(): string;
     ToXml(): SecurityElement | undefined;
     Union(other: PermissionSet): PermissionSet | undefined;
@@ -181,11 +177,13 @@ export const SecurityCriticalAttribute: {
 export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 
 export interface SecurityElement$instance {
-    Attributes: Hashtable;
+    get Attributes(): Hashtable | undefined;
+    set Attributes(value: Hashtable | undefined);
     get Children(): ArrayList | undefined;
-    set Children(value: ArrayList);
+    set Children(value: ArrayList | undefined);
     Tag: string;
-    Text: string;
+    get Text(): string | undefined;
+    set Text(value: string | undefined);
     AddAttribute(name: string, value: string): void;
     AddChild(child: SecurityElement): void;
     Attribute(name: string): string | undefined;
@@ -213,24 +211,25 @@ export type SecurityElement = SecurityElement$instance;
 
 export interface SecurityException$instance extends SystemException {
     get Demanded(): unknown | undefined;
-    set Demanded(value: unknown);
+    set Demanded(value: unknown | undefined);
     get DenySetInstance(): unknown | undefined;
-    set DenySetInstance(value: unknown);
+    set DenySetInstance(value: unknown | undefined);
     get FailedAssemblyInfo(): AssemblyName | undefined;
-    set FailedAssemblyInfo(value: AssemblyName);
+    set FailedAssemblyInfo(value: AssemblyName | undefined);
     get GrantedSet(): string | undefined;
-    set GrantedSet(value: string);
-    Method: MethodInfo;
+    set GrantedSet(value: string | undefined);
+    get Method(): MethodInfo | undefined;
+    set Method(value: MethodInfo | undefined);
     get PermissionState(): string | undefined;
-    set PermissionState(value: string);
+    set PermissionState(value: string | undefined);
     get PermissionType(): Type | undefined;
-    set PermissionType(value: Type);
+    set PermissionType(value: Type | undefined);
     get PermitOnlySetInstance(): unknown | undefined;
-    set PermitOnlySetInstance(value: unknown);
+    set PermitOnlySetInstance(value: unknown | undefined);
     get RefusedSet(): string | undefined;
-    set RefusedSet(value: string);
+    set RefusedSet(value: string | undefined);
     get Url(): string | undefined;
-    set Url(value: string);
+    set Url(value: string | undefined);
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
 }
@@ -242,7 +241,6 @@ export const SecurityException: {
     new(message: string, inner: Exception): SecurityException;
     new(message: string, type: Type): SecurityException;
     new(message: string, type: Type, state: string): SecurityException;
-    new(info: SerializationInfo, context: StreamingContext): SecurityException;
 };
 
 
@@ -330,7 +328,6 @@ export const VerificationException: {
     new(): VerificationException;
     new(message: string): VerificationException;
     new(message: string, innerException: Exception): VerificationException;
-    new(info: SerializationInfo, context: StreamingContext): VerificationException;
 };
 
 

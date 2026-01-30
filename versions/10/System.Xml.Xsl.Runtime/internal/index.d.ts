@@ -431,7 +431,8 @@ export const PrecedingSiblingIterator: {
 export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 
 export interface StringConcat$instance {
-    Delimiter: string;
+    get Delimiter(): string | undefined;
+    set Delimiter(value: string | undefined);
     Clear(): void;
     Concat(value: string): void;
     GetResult(): string;
@@ -557,7 +558,6 @@ export interface XmlCollation$instance {
 
 
 export const XmlCollation: {
-    new(): XmlCollation;
 };
 
 
@@ -570,7 +570,6 @@ export interface XmlILIndex$instance {
 
 
 export const XmlILIndex: {
-    new(): XmlILIndex;
 };
 
 
@@ -586,8 +585,7 @@ export interface XmlNavigatorFilter$instance {
 }
 
 
-export const XmlNavigatorFilter: {
-    new(): XmlNavigatorFilter;
+export const XmlNavigatorFilter: (abstract new() => XmlNavigatorFilter) & {
 };
 
 
@@ -607,7 +605,6 @@ export interface XmlQueryContext$instance {
 
 
 export const XmlQueryContext: {
-    new(): XmlQueryContext;
 };
 
 
@@ -652,12 +649,7 @@ export interface __XmlQueryItemSequence$views {
 export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryItemSequence$views;
 
 
-export abstract class XmlQueryNodeSequence$protected {
-    protected OnItemsChanged(): void;
-}
-
-
-export interface XmlQueryNodeSequence$instance extends XmlQueryNodeSequence$protected, XmlQuerySequence_1$instance<XPathNavigator> {
+export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
     IsDocOrderDistinct: boolean;
     Add(value: XPathNavigator): void;
     Add(value: unknown): int;
@@ -673,6 +665,7 @@ export interface XmlQueryNodeSequence$instance extends XmlQueryNodeSequence$prot
     IndexOf(value: XPathNavigator): int;
     Insert(index: int, item: XPathNavigator): void;
     Insert(index: int, value: unknown): void;
+    OnItemsChanged(): void;
     Remove(item: XPathNavigator): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
@@ -700,17 +693,13 @@ export interface __XmlQueryNodeSequence$views {
 export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNodeSequence$views;
 
 
-export abstract class XmlQueryOutput$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface XmlQueryOutput$instance extends XmlQueryOutput$protected, XmlWriter {
+export interface XmlQueryOutput$instance extends XmlWriter {
     readonly WriteState: WriteState;
-    readonly XmlLang: string;
+    readonly XmlLang: string | string | undefined;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     EndCopy(navigator: XPathNavigator): void;
     EndTree(): void;
@@ -782,7 +771,6 @@ export interface XmlQueryOutput$instance extends XmlQueryOutput$protected, XmlWr
 
 
 export const XmlQueryOutput: {
-    new(): XmlQueryOutput;
 };
 
 
@@ -839,19 +827,13 @@ export interface XmlQueryRuntime$instance {
 
 
 export const XmlQueryRuntime: {
-    new(): XmlQueryRuntime;
     OnCurrentNodeChanged(currentNode: XPathNavigator): int;
 };
 
 
 export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
-export abstract class XmlQuerySequence_1$protected<T> {
-    protected OnItemsChanged(): void;
-}
-
-
-export interface XmlQuerySequence_1$instance<T> extends XmlQuerySequence_1$protected<T> {
+export interface XmlQuerySequence_1$instance<T> {
     readonly Count: int;
     Item: T;
     Add(value: T): void;
@@ -860,6 +842,7 @@ export interface XmlQuerySequence_1$instance<T> extends XmlQuerySequence_1$prote
     CopyTo(array: T[], index: int): void;
     GetEnumerator(): IEnumerator_1<T>;
     IndexOf(value: T): int;
+    OnItemsChanged(): void;
     SortByKeys(keys: ClrArray): void;
 }
 
@@ -905,7 +888,6 @@ export interface XsltLibrary$instance {
 
 
 export const XsltLibrary: {
-    new(): XsltLibrary;
 };
 
 

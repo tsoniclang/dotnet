@@ -176,7 +176,7 @@ export enum WindowsBuiltInRole {
 
 
 export interface IIdentity$instance {
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly AuthenticationType: string | undefined;
     readonly IsAuthenticated: boolean;
 }
@@ -196,7 +196,7 @@ export interface GenericIdentity$instance extends ClaimsIdentity {
     readonly AuthenticationType: string | string | undefined;
     readonly Claims: IEnumerable_1<Claim>;
     readonly IsAuthenticated: boolean;
-    readonly Name: string;
+    readonly Name: string | string | undefined;
     Clone(): ClaimsIdentity;
 }
 
@@ -204,7 +204,6 @@ export interface GenericIdentity$instance extends ClaimsIdentity {
 export const GenericIdentity: {
     new(name: string): GenericIdentity;
     new(name: string, type: string): GenericIdentity;
-    new(identity: GenericIdentity): GenericIdentity;
 };
 
 
@@ -356,30 +355,26 @@ export interface SecurityIdentifier$instance extends System_Internal.IComparable
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export abstract class WindowsIdentity$protected {
-    protected Dispose(disposing: boolean): void;
-    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-}
-
-
-export interface WindowsIdentity$instance extends WindowsIdentity$protected, ClaimsIdentity {
+export interface WindowsIdentity$instance extends ClaimsIdentity {
     readonly AccessToken: SafeAccessTokenHandle;
     readonly AuthenticationType: string | undefined;
     readonly Claims: IEnumerable_1<Claim>;
     readonly DeviceClaims: IEnumerable_1<Claim>;
-    readonly Groups: IdentityReferenceCollection;
+    readonly Groups: IdentityReferenceCollection | undefined;
     readonly ImpersonationLevel: TokenImpersonationLevel;
     readonly IsAnonymous: boolean;
     readonly IsAuthenticated: boolean;
     readonly IsGuest: boolean;
     readonly IsSystem: boolean;
-    readonly Name: string;
-    readonly Owner: SecurityIdentifier;
+    readonly Name: string | string | undefined;
+    readonly Owner: SecurityIdentifier | undefined;
     readonly Token: nint;
-    readonly User: SecurityIdentifier;
+    readonly User: SecurityIdentifier | undefined;
     readonly UserClaims: IEnumerable_1<Claim>;
     Clone(): ClaimsIdentity;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -389,7 +384,6 @@ export const WindowsIdentity: {
     new(userToken: nint, type: string, acctType: WindowsAccountType): WindowsIdentity;
     new(userToken: nint, type: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity;
     new(info: SerializationInfo, context: StreamingContext): WindowsIdentity;
-    new(identity: WindowsIdentity): WindowsIdentity;
     new(sUserPrincipalName: string): WindowsIdentity;
     readonly DefaultIssuer: string;
     GetAnonymous(): WindowsIdentity;
@@ -410,7 +404,7 @@ export interface __WindowsIdentity$views {
     As_IIdentity(): IIdentity$instance;
 }
 
-export interface WindowsIdentity$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, IIdentity$instance {}
+export interface WindowsIdentity$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
 
 export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views;
 

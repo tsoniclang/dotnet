@@ -22,7 +22,7 @@ export interface Evidence$instance {
     AddHost(id: unknown): void;
     AddHostEvidence<T extends EvidenceBase>(evidence: T): void;
     Clear(): void;
-    Clone(): Evidence;
+    Clone(): Evidence | undefined;
     CopyTo(array: ClrArray, index: int): void;
     GetAssemblyEnumerator(): IEnumerator;
     GetAssemblyEvidence<T extends EvidenceBase>(): T | undefined;
@@ -51,12 +51,11 @@ export type Evidence = Evidence$instance & __Evidence$views;
 
 
 export interface EvidenceBase$instance {
-    Clone(): EvidenceBase;
+    Clone(): EvidenceBase | undefined;
 }
 
 
-export const EvidenceBase: {
-    new(): EvidenceBase;
+export const EvidenceBase: (abstract new() => EvidenceBase) & {
 };
 
 

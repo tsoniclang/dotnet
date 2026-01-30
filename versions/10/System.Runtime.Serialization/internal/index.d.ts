@@ -55,7 +55,7 @@ export type IDeserializationCallback = IDeserializationCallback$instance;
 
 export interface IExtensibleDataObject$instance {
     get ExtensionData(): ExtensionDataObject | undefined;
-    set ExtensionData(value: ExtensionDataObject);
+    set ExtensionData(value: ExtensionDataObject | undefined);
 }
 
 
@@ -63,8 +63,9 @@ export type IExtensibleDataObject = IExtensibleDataObject$instance;
 
 export interface IFormatter$instance {
     get SurrogateSelector(): ISurrogateSelector | undefined;
-    set SurrogateSelector(value: ISurrogateSelector);
-    Binder: SerializationBinder;
+    set SurrogateSelector(value: ISurrogateSelector | undefined);
+    get Binder(): SerializationBinder | undefined;
+    set Binder(value: SerializationBinder | undefined);
     Context: StreamingContext;
     Deserialize(serializationStream: Stream): unknown;
     Serialize(serializationStream: Stream, graph: unknown): void;
@@ -178,7 +179,7 @@ export type DeserializationToken = DeserializationToken$instance & __Deserializa
 export interface SerializationEntry$instance {
     readonly Name: string;
     readonly ObjectType: Type;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
 }
 
 
@@ -214,12 +215,15 @@ export interface CollectionDataContractAttribute$instance extends Attribute {
     readonly IsReferenceSetExplicitly: boolean;
     readonly IsValueNameSetExplicitly: boolean;
     get ItemName(): string | undefined;
-    set ItemName(value: string);
-    KeyName: string;
-    Name: string;
-    Namespace: string;
+    set ItemName(value: string | undefined);
+    get KeyName(): string | undefined;
+    set KeyName(value: string | undefined);
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
+    get Namespace(): string | undefined;
+    set Namespace(value: string | undefined);
     get ValueName(): string | undefined;
-    set ValueName(value: string);
+    set ValueName(value: string | undefined);
 }
 
 
@@ -232,7 +236,7 @@ export type CollectionDataContractAttribute = CollectionDataContractAttribute$in
 
 export interface ContractNamespaceAttribute$instance extends Attribute {
     get ClrNamespace(): string | undefined;
-    set ClrNamespace(value: string);
+    set ClrNamespace(value: string | undefined);
     readonly ContractNamespace: string;
 }
 
@@ -249,8 +253,10 @@ export interface DataContractAttribute$instance extends Attribute {
     readonly IsNamespaceSetExplicitly: boolean;
     IsReference: boolean;
     readonly IsReferenceSetExplicitly: boolean;
-    Name: string;
-    Namespace: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
+    get Namespace(): string | undefined;
+    set Namespace(value: string | undefined);
 }
 
 
@@ -267,8 +273,7 @@ export interface DataContractResolver$instance {
 }
 
 
-export const DataContractResolver: {
-    new(): DataContractResolver;
+export const DataContractResolver: (abstract new() => DataContractResolver) & {
 };
 
 
@@ -317,15 +322,16 @@ export type DataContractSerializer = DataContractSerializer$instance;
 
 export interface DataContractSerializerSettings$instance {
     get DataContractResolver(): DataContractResolver | undefined;
-    set DataContractResolver(value: DataContractResolver);
+    set DataContractResolver(value: DataContractResolver | undefined);
     IgnoreExtensionDataObject: boolean;
-    KnownTypes: IEnumerable_1<Type>;
+    get KnownTypes(): IEnumerable_1<Type> | undefined;
+    set KnownTypes(value: IEnumerable_1<Type> | undefined);
     MaxItemsInObjectGraph: int;
     PreserveObjectReferences: boolean;
     get RootName(): XmlDictionaryString | undefined;
-    set RootName(value: XmlDictionaryString);
+    set RootName(value: XmlDictionaryString | undefined);
     get RootNamespace(): XmlDictionaryString | undefined;
-    set RootNamespace(value: XmlDictionaryString);
+    set RootNamespace(value: XmlDictionaryString | undefined);
     SerializeReadOnlyTypes: boolean;
 }
 
@@ -341,7 +347,8 @@ export interface DataMemberAttribute$instance extends Attribute {
     EmitDefaultValue: boolean;
     readonly IsNameSetExplicitly: boolean;
     IsRequired: boolean;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     Order: int;
 }
 
@@ -370,7 +377,8 @@ export type DateTimeFormat = DateTimeFormat$instance;
 
 export interface EnumMemberAttribute$instance extends Attribute {
     readonly IsValueSetExplicitly: boolean;
-    Value: string;
+    get Value(): string | undefined;
+    set Value(value: string | undefined);
 }
 
 
@@ -383,7 +391,7 @@ export type EnumMemberAttribute = EnumMemberAttribute$instance;
 
 export interface ExportOptions$instance {
     get DataContractSurrogate(): ISerializationSurrogateProvider | undefined;
-    set DataContractSurrogate(value: ISerializationSurrogateProvider);
+    set DataContractSurrogate(value: ISerializationSurrogateProvider | undefined);
     readonly KnownTypes: Collection_1<Type>;
 }
 
@@ -400,49 +408,44 @@ export interface ExtensionDataObject$instance {
 
 
 export const ExtensionDataObject: {
-    new(): ExtensionDataObject;
 };
 
 
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
-export abstract class Formatter$protected {
-    protected GetNext(objID: long): unknown | undefined;
-    protected Schedule(obj: unknown): long;
-    protected abstract WriteArray(obj: unknown, name: string, memberType: Type): void;
-    protected abstract WriteBoolean(val: boolean, name: string): void;
-    protected abstract WriteByte(val: byte, name: string): void;
-    protected abstract WriteChar(val: char, name: string): void;
-    protected abstract WriteDateTime(val: DateTime, name: string): void;
-    protected abstract WriteDecimal(val: decimal, name: string): void;
-    protected abstract WriteDouble(val: double, name: string): void;
-    protected abstract WriteInt16(val: short, name: string): void;
-    protected abstract WriteInt32(val: int, name: string): void;
-    protected abstract WriteInt64(val: long, name: string): void;
-    protected WriteMember(memberName: string, data: unknown): void;
-    protected abstract WriteObjectRef(obj: unknown, name: string, memberType: Type): void;
-    protected abstract WriteSByte(val: sbyte, name: string): void;
-    protected abstract WriteSingle(val: float, name: string): void;
-    protected abstract WriteTimeSpan(val: TimeSpan, name: string): void;
-    protected abstract WriteUInt16(val: ushort, name: string): void;
-    protected abstract WriteUInt32(val: uint, name: string): void;
-    protected abstract WriteUInt64(val: ulong, name: string): void;
-    protected abstract WriteValueType(obj: unknown, name: string, memberType: Type): void;
-}
-
-
-export interface Formatter$instance extends Formatter$protected {
-    Binder: SerializationBinder;
+export interface Formatter$instance {
+    get Binder(): SerializationBinder | undefined;
+    set Binder(value: SerializationBinder | undefined);
     Context: StreamingContext;
     get SurrogateSelector(): ISurrogateSelector | undefined;
-    set SurrogateSelector(value: ISurrogateSelector);
+    set SurrogateSelector(value: ISurrogateSelector | undefined);
     Deserialize(serializationStream: Stream): unknown;
+    GetNext(objID: long): unknown | undefined;
+    Schedule(obj: unknown): long;
     Serialize(serializationStream: Stream, graph: unknown): void;
+    WriteArray(obj: unknown, name: string, memberType: Type): void;
+    WriteBoolean(val: boolean, name: string): void;
+    WriteByte(val: byte, name: string): void;
+    WriteChar(val: char, name: string): void;
+    WriteDateTime(val: DateTime, name: string): void;
+    WriteDecimal(val: decimal, name: string): void;
+    WriteDouble(val: double, name: string): void;
+    WriteInt16(val: short, name: string): void;
+    WriteInt32(val: int, name: string): void;
+    WriteInt64(val: long, name: string): void;
+    WriteMember(memberName: string, data: unknown): void;
+    WriteObjectRef(obj: unknown, name: string, memberType: Type): void;
+    WriteSByte(val: sbyte, name: string): void;
+    WriteSingle(val: float, name: string): void;
+    WriteTimeSpan(val: TimeSpan, name: string): void;
+    WriteUInt16(val: ushort, name: string): void;
+    WriteUInt32(val: uint, name: string): void;
+    WriteUInt64(val: ulong, name: string): void;
+    WriteValueType(obj: unknown, name: string, memberType: Type): void;
 }
 
 
-export const Formatter: {
-    new(): Formatter;
+export const Formatter: (abstract new() => Formatter) & {
 };
 
 
@@ -508,7 +511,6 @@ export const InvalidDataContractException: {
     new(): InvalidDataContractException;
     new(message: string): InvalidDataContractException;
     new(message: string, innerException: Exception): InvalidDataContractException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidDataContractException;
 };
 
 
@@ -520,8 +522,8 @@ export type InvalidDataContractException = InvalidDataContractException$instance
 
 
 export interface KnownTypeAttribute$instance extends Attribute {
-    readonly MethodName: string;
-    readonly Type: Type;
+    readonly MethodName: string | undefined;
+    readonly Type: Type | undefined;
 }
 
 
@@ -632,7 +634,6 @@ export interface SafeSerializationEventArgs$instance extends EventArgs {
 
 
 export const SafeSerializationEventArgs: {
-    new(): SafeSerializationEventArgs;
 };
 
 
@@ -644,8 +645,7 @@ export interface SerializationBinder$instance {
 }
 
 
-export const SerializationBinder: {
-    new(): SerializationBinder;
+export const SerializationBinder: (abstract new() => SerializationBinder) & {
 };
 
 
@@ -660,7 +660,6 @@ export const SerializationException: {
     new(): SerializationException;
     new(message: string): SerializationException;
     new(message: string, innerException: Exception): SerializationException;
-    new(info: SerializationInfo, context: StreamingContext): SerializationException;
 };
 
 
@@ -728,14 +727,13 @@ export interface SerializationInfoEnumerator$instance {
     readonly Current: SerializationEntry;
     readonly Name: string;
     readonly ObjectType: Type;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     MoveNext(): boolean;
     Reset(): void;
 }
 
 
 export const SerializationInfoEnumerator: {
-    new(): SerializationInfoEnumerator;
 };
 
 
@@ -787,7 +785,6 @@ export interface TypeLoadExceptionHolder$instance {
 
 
 export const TypeLoadExceptionHolder: {
-    new(): TypeLoadExceptionHolder;
 };
 
 
@@ -813,15 +810,15 @@ export interface XmlObjectSerializer$instance {
 }
 
 
-export const XmlObjectSerializer: {
-    new(): XmlObjectSerializer;
+export const XmlObjectSerializer: (abstract new() => XmlObjectSerializer) & {
 };
 
 
 export type XmlObjectSerializer = XmlObjectSerializer$instance;
 
 export interface XsdDataContractExporter$instance {
-    Options: ExportOptions;
+    get Options(): ExportOptions | undefined;
+    set Options(value: ExportOptions | undefined);
     readonly Schemas: XmlSchemaSet;
     CanExport(assemblies: ICollection_1<Assembly>): boolean;
     CanExport(types: ICollection_1<Type>): boolean;

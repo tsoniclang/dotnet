@@ -102,7 +102,6 @@ export interface RegistryKey$instance extends MarshalByRefObject {
 
 
 export const RegistryKey: {
-    new(): RegistryKey;
     FromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
     FromHandle(handle: SafeRegistryHandle): RegistryKey;
     OpenBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;

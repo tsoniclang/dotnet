@@ -621,8 +621,7 @@ export interface Comparer_1$instance<T> {
 }
 
 
-export const Comparer_1: {
-    new<T>(): Comparer_1<T>;
+export const Comparer_1: (abstract new<T>() => Comparer_1<T>) & {
     readonly Default: unknown;
     Create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
 };
@@ -673,7 +672,6 @@ export const Dictionary_2: {
     new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>): Dictionary_2<TKey, TValue>;
     new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): Dictionary_2<TKey, TValue>;
     new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): Dictionary_2<TKey, TValue>;
-    new<TKey, TValue>(info: SerializationInfo, context: StreamingContext): Dictionary_2<TKey, TValue>;
 };
 
 
@@ -773,8 +771,7 @@ export interface EqualityComparer_1$instance<T> {
 }
 
 
-export const EqualityComparer_1: {
-    new<T>(): EqualityComparer_1<T>;
+export const EqualityComparer_1: (abstract new<T>() => EqualityComparer_1<T>) & {
     readonly Default: unknown;
     Create<T>(equals: Func_3<T, T, System_Internal.Boolean>, getHashCode?: Func_2<T, System_Internal.Int32>): EqualityComparer_1<T>;
 };
@@ -871,7 +868,6 @@ export const HashSet_1: {
     new<T>(collection: IEnumerable_1<T>): HashSet_1<T>;
     new<T>(collection: IEnumerable_1<T>, comparer: IEqualityComparer_1<T>): HashSet_1<T>;
     new<T>(capacity: int, comparer: IEqualityComparer_1<T>): HashSet_1<T>;
-    new<T>(info: SerializationInfo, context: StreamingContext): HashSet_1<T>;
     CreateSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
 };
 
@@ -901,7 +897,6 @@ export const KeyNotFoundException: {
     new(): KeyNotFoundException;
     new(message: string): KeyNotFoundException;
     new(message: string, innerException: Exception): KeyNotFoundException;
-    new(info: SerializationInfo, context: StreamingContext): KeyNotFoundException;
 };
 
 
@@ -942,7 +937,6 @@ export interface LinkedList_1$instance<T> {
 export const LinkedList_1: {
     new<T>(): LinkedList_1<T>;
     new<T>(collection: IEnumerable_1<T>): LinkedList_1<T>;
-    new<T>(info: SerializationInfo, context: StreamingContext): LinkedList_1<T>;
 };
 
 
@@ -962,7 +956,7 @@ export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>
 
 
 export interface LinkedListNode_1$instance<T> {
-    readonly List: LinkedList_1<T>;
+    readonly List: LinkedList_1<T> | undefined;
     readonly Next: LinkedListNode_1<T> | undefined;
     readonly Previous: LinkedListNode_1<T> | undefined;
     Value: T;
@@ -1059,8 +1053,7 @@ export interface NonRandomizedStringEqualityComparer$instance {
 }
 
 
-export const NonRandomizedStringEqualityComparer: {
-    new(information: SerializationInfo, context: StreamingContext): NonRandomizedStringEqualityComparer;
+export const NonRandomizedStringEqualityComparer: (abstract new(information: SerializationInfo, context: StreamingContext) => NonRandomizedStringEqualityComparer) & {
     GetStringComparer(comparer: unknown): IEqualityComparer_1<System_Internal.String> | undefined;
 };
 
@@ -1231,7 +1224,6 @@ export interface OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
 
 
 export const OrderedDictionary_2_KeyCollection: {
-    new<TKey, TValue>(): OrderedDictionary_2_KeyCollection<TKey, TValue>;
 };
 
 
@@ -1256,7 +1248,6 @@ export interface OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
 
 
 export const OrderedDictionary_2_ValueCollection: {
-    new<TKey, TValue>(): OrderedDictionary_2_ValueCollection<TKey, TValue>;
 };
 
 
@@ -1313,7 +1304,6 @@ export interface PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPr
 
 
 export const PriorityQueue_2_UnorderedItemsCollection: {
-    new<TElement, TPriority>(): PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority>;
 };
 
 
@@ -1370,7 +1360,6 @@ export interface ReferenceEqualityComparer$instance {
 
 
 export const ReferenceEqualityComparer: {
-    new(): ReferenceEqualityComparer;
     readonly Instance: ReferenceEqualityComparer;
 };
 
@@ -1554,7 +1543,6 @@ export interface SortedList_2_KeyList$instance<TKey, TValue> {
 
 
 export const SortedList_2_KeyList: {
-    new<TKey, TValue>(): SortedList_2_KeyList<TKey, TValue>;
 };
 
 
@@ -1586,7 +1574,6 @@ export interface SortedList_2_ValueList$instance<TKey, TValue> {
 
 
 export const SortedList_2_ValueList: {
-    new<TKey, TValue>(): SortedList_2_ValueList<TKey, TValue>;
 };
 
 
@@ -1601,13 +1588,7 @@ export interface __SortedList_2_ValueList$views<TKey, TValue> {
 export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue>;
 
 
-export abstract class SortedSet_1$protected<T> {
-    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    protected OnDeserialization(sender: unknown): void;
-}
-
-
-export interface SortedSet_1$instance<T> extends SortedSet_1$protected<T> {
+export interface SortedSet_1$instance<T> {
     readonly Comparer: IComparer_1<T>;
     readonly Count: int;
     readonly Max: T | undefined;
@@ -1620,12 +1601,14 @@ export interface SortedSet_1$instance<T> extends SortedSet_1$protected<T> {
     CopyTo(array: T[], index: int, count: int): void;
     ExceptWith(other: IEnumerable_1<T>): void;
     GetEnumerator(): SortedSet_1_Enumerator<T>;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetViewBetween(lowerValue: T, upperValue: T): SortedSet_1<T>;
     IntersectWith(other: IEnumerable_1<T>): void;
     IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
     IsProperSupersetOf(other: IEnumerable_1<T>): boolean;
     IsSubsetOf(other: IEnumerable_1<T>): boolean;
     IsSupersetOf(other: IEnumerable_1<T>): boolean;
+    OnDeserialization(sender: unknown): void;
     Overlaps(other: IEnumerable_1<T>): boolean;
     Remove(item: T): boolean;
     RemoveWhere(match: Predicate_1<T>): int;
@@ -1642,7 +1625,6 @@ export const SortedSet_1: {
     new<T>(comparer: IComparer_1<T>): SortedSet_1<T>;
     new<T>(collection: IEnumerable_1<T>): SortedSet_1<T>;
     new<T>(collection: IEnumerable_1<T>, comparer: IComparer_1<T>): SortedSet_1<T>;
-    new<T>(info: SerializationInfo, context: StreamingContext): SortedSet_1<T>;
     CreateSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
     CreateSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
 };
@@ -1701,13 +1683,7 @@ export interface __Stack_1$views<T> {
 export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
 
 
-export abstract class TreeSet_1$protected<T> {
-    protected GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    protected OnDeserialization(sender: unknown): void;
-}
-
-
-export interface TreeSet_1$instance<T> extends TreeSet_1$protected<T>, SortedSet_1$instance<T> {
+export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     Add(item: T): boolean;
     Add(item: T): void;
     Clear(): void;
@@ -1719,8 +1695,10 @@ export interface TreeSet_1$instance<T> extends TreeSet_1$protected<T>, SortedSet
     GetEnumerator(): SortedSet_1_Enumerator<T>;
     GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
     IsSubsetOf(other: IEnumerable_1<T>): boolean;
+    OnDeserialization(sender: unknown): void;
     UnionWith(other: IEnumerable_1<T>): void;
 }
 

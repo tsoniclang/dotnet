@@ -109,7 +109,6 @@ export interface XPathException$instance extends SystemException {
 
 
 export const XPathException: {
-    new(info: SerializationInfo, context: StreamingContext): XPathException;
     new(): XPathException;
     new(message: string): XPathException;
     new(message: string, innerException: Exception): XPathException;
@@ -158,8 +157,7 @@ export interface XPathItem$instance {
 }
 
 
-export const XPathItem: {
-    new(): XPathItem;
+export const XPathItem: (abstract new() => XPathItem) & {
 };
 
 
@@ -180,7 +178,7 @@ export interface XPathNavigator$instance extends XPathItem {
     readonly NodeType: XPathNodeType;
     OuterXml: string;
     readonly Prefix: string;
-    readonly SchemaInfo: IXmlSchemaInfo;
+    readonly SchemaInfo: IXmlSchemaInfo | undefined;
     readonly TypedValue: unknown;
     readonly UnderlyingObject: unknown | undefined;
     readonly ValueAsBoolean: boolean;
@@ -283,8 +281,7 @@ export interface XPathNavigator$instance extends XPathItem {
 }
 
 
-export const XPathNavigator: {
-    new(): XPathNavigator;
+export const XPathNavigator: (abstract new() => XPathNavigator) & {
     readonly NavigatorComparer: IEqualityComparer;
 };
 
@@ -302,7 +299,7 @@ export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 
 export interface XPathNodeIterator$instance {
     readonly Count: int;
-    readonly Current: XPathNavigator;
+    readonly Current: XPathNavigator | undefined;
     readonly CurrentPosition: int;
     Clone(): XPathNodeIterator;
     GetEnumerator(): IEnumerator;
@@ -310,8 +307,7 @@ export interface XPathNodeIterator$instance {
 }
 
 
-export const XPathNodeIterator: {
-    new(): XPathNodeIterator;
+export const XPathNodeIterator: (abstract new() => XPathNodeIterator) & {
 };
 
 

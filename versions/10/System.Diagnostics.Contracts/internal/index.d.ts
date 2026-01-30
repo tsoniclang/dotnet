@@ -98,7 +98,7 @@ export interface ContractFailedEventArgs$instance extends EventArgs {
     readonly Condition: string | undefined;
     readonly FailureKind: ContractFailureKind;
     readonly Handled: boolean;
-    readonly Message: string;
+    readonly Message: string | undefined;
     readonly OriginalException: Exception | undefined;
     readonly Unwind: boolean;
     SetHandled(): void;
@@ -128,7 +128,7 @@ export interface ContractOptionAttribute$instance extends Attribute {
     readonly Category: string;
     readonly Enabled: boolean;
     readonly Setting: string;
-    readonly Value: string;
+    readonly Value: string | undefined;
 }
 
 

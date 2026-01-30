@@ -45,7 +45,7 @@ export type IXsltContextVariable = IXsltContextVariable$instance;
 
 export interface XslCompiledTransform$instance {
     get OutputSettings(): XmlWriterSettings | undefined;
-    set OutputSettings(value: XmlWriterSettings);
+    set OutputSettings(value: XmlWriterSettings | undefined);
     Load(stylesheet: XmlReader): void;
     Load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
     Load(stylesheet: IXPathNavigable): void;
@@ -104,7 +104,6 @@ export interface XsltCompileException$instance extends XsltException$instance {
 
 
 export const XsltCompileException: {
-    new(info: SerializationInfo, context: StreamingContext): XsltCompileException;
     new(): XsltCompileException;
     new(message: string): XsltCompileException;
     new(message: string, innerException: Exception): XsltCompileException;
@@ -131,9 +130,7 @@ export interface XsltContext$instance extends XmlNamespaceManager {
 }
 
 
-export const XsltContext: {
-    new(table: NameTable): XsltContext;
-    new(): XsltContext;
+export const XsltContext: (abstract new(table: NameTable) => XsltContext) & (abstract new() => XsltContext) & {
 };
 
 
@@ -155,7 +152,6 @@ export interface XsltException$instance extends SystemException {
 
 
 export const XsltException: {
-    new(info: SerializationInfo, context: StreamingContext): XsltException;
     new(): XsltException;
     new(message: string): XsltException;
     new(message: string, innerException: Exception): XsltException;
@@ -174,15 +170,14 @@ export interface XsltMessageEncounteredEventArgs$instance extends EventArgs {
 }
 
 
-export const XsltMessageEncounteredEventArgs: {
-    new(): XsltMessageEncounteredEventArgs;
+export const XsltMessageEncounteredEventArgs: (abstract new() => XsltMessageEncounteredEventArgs) & {
 };
 
 
 export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$instance;
 
 export interface XslTransform$instance {
-    XmlResolver: XmlResolver;
+    XmlResolver: XmlResolver | undefined;
     Load(stylesheet: XmlReader): void;
     Load(stylesheet: XmlReader, resolver: XmlResolver): void;
     Load(stylesheet: IXPathNavigable): void;

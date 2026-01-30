@@ -27,12 +27,12 @@ export interface DataContract$instance {
     IsReference: boolean;
     IsValueType: boolean;
     get KnownDataContracts(): Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract>);
+    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract> | undefined);
     readonly OriginalUnderlyingType: Type;
     get TopLevelElementName(): XmlDictionaryString | undefined;
-    set TopLevelElementName(value: XmlDictionaryString);
+    set TopLevelElementName(value: XmlDictionaryString | undefined);
     get TopLevelElementNamespace(): XmlDictionaryString | undefined;
-    set TopLevelElementNamespace(value: XmlDictionaryString);
+    set TopLevelElementNamespace(value: XmlDictionaryString | undefined);
     readonly UnderlyingType: Type;
     XmlName: XmlQualifiedName;
     Equals(obj: unknown): boolean;
@@ -53,7 +53,7 @@ export type DataContract = DataContract$instance;
 export interface DataContractSet$instance {
     readonly Contracts: Dictionary_2<XmlQualifiedName, DataContract>;
     get KnownTypesForObject(): Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    set KnownTypesForObject(value: Dictionary_2<XmlQualifiedName, DataContract>);
+    set KnownTypesForObject(value: Dictionary_2<XmlQualifiedName, DataContract> | undefined);
     readonly ProcessedContracts: Dictionary_2<DataContract, unknown>;
     readonly SurrogateData: Hashtable;
     GetDataContract(type: Type): DataContract;
@@ -83,7 +83,6 @@ export interface DataMember$instance {
 
 
 export const DataMember: {
-    new(): DataMember;
 };
 
 
@@ -98,18 +97,17 @@ export interface XmlDataContract$instance extends DataContract {
     IsTypeDefinedOnImport: boolean;
     IsValueType: boolean;
     get KnownDataContracts(): Dictionary_2<XmlQualifiedName, DataContract> | undefined;
-    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract>);
+    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract> | undefined);
     get TopLevelElementName(): XmlDictionaryString | undefined;
-    set TopLevelElementName(value: XmlDictionaryString);
+    set TopLevelElementName(value: XmlDictionaryString | undefined);
     get TopLevelElementNamespace(): XmlDictionaryString | undefined;
-    set TopLevelElementNamespace(value: XmlDictionaryString);
+    set TopLevelElementNamespace(value: XmlDictionaryString | undefined);
     get XsdType(): XmlSchemaType | undefined;
-    set XsdType(value: XmlSchemaType);
+    set XsdType(value: XmlSchemaType | undefined);
 }
 
 
 export const XmlDataContract: {
-    new(): XmlDataContract;
 };
 
 

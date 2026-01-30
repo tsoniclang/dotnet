@@ -217,7 +217,7 @@ export type IBindingList = IBindingList$instance;
 
 export interface IBindingListView$instance extends IBindingList, IList, ICollection, IEnumerable {
     get Filter(): string | undefined;
-    set Filter(value: string);
+    set Filter(value: string | undefined);
     readonly SortDescriptions: ListSortDescriptionCollection;
     readonly SupportsAdvancedSorting: boolean;
     readonly SupportsFiltering: boolean;
@@ -290,7 +290,7 @@ export type IComNativeDescriptorHandler = IComNativeDescriptorHandler$instance;
 
 export interface IComponent$instance extends IDisposable {
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     Dispose(): void;
 }
 
@@ -381,10 +381,10 @@ export type INestedContainer = INestedContainer$instance;
 export interface INestedSite$instance extends ISite, IServiceProvider {
     readonly FullName: string | undefined;
     readonly Component: IComponent;
-    readonly Container: IContainer;
+    readonly Container: IContainer | undefined;
     readonly DesignMode: boolean;
     get Name(): string | undefined;
-    set Name(value: string);
+    set Name(value: string | undefined);
     GetService(serviceType: Type): unknown | undefined;
 }
 
@@ -431,10 +431,10 @@ export type IRevertibleChangeTracking = IRevertibleChangeTracking$instance;
 
 export interface ISite$instance extends IServiceProvider {
     readonly Component: IComponent;
-    readonly Container: IContainer;
+    readonly Container: IContainer | undefined;
     readonly DesignMode: boolean;
     get Name(): string | undefined;
-    set Name(value: string);
+    set Name(value: string | undefined);
     GetService(serviceType: Type): unknown | undefined;
 }
 
@@ -471,7 +471,7 @@ export interface ISynchronizeInvoke$instance {
 export type ISynchronizeInvoke = ISynchronizeInvoke$instance;
 
 export interface ITypeDescriptorContext$instance extends IServiceProvider {
-    readonly Container: IContainer;
+    readonly Container: IContainer | undefined;
     readonly Instance: unknown | undefined;
     readonly PropertyDescriptor: PropertyDescriptor | undefined;
     GetService(serviceType: Type): unknown | undefined;
@@ -494,7 +494,7 @@ export type ITypedList = ITypedList$instance;
 
 export interface AddingNewEventArgs$instance extends EventArgs {
     get NewObject(): unknown | undefined;
-    set NewObject(value: unknown);
+    set NewObject(value: unknown | undefined);
 }
 
 
@@ -507,7 +507,7 @@ export const AddingNewEventArgs: {
 export type AddingNewEventArgs = AddingNewEventArgs$instance;
 
 export interface AmbientValueAttribute$instance extends Attribute {
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -562,14 +562,10 @@ export const AsyncCompletedEventArgs: {
 
 export type AsyncCompletedEventArgs = AsyncCompletedEventArgs$instance;
 
-export abstract class AsyncOperation$protected {
-    protected Finalize(): void;
-}
-
-
-export interface AsyncOperation$instance extends AsyncOperation$protected {
+export interface AsyncOperation$instance {
     readonly SynchronizationContext: SynchronizationContext;
     readonly UserSuppliedState: unknown | undefined;
+    Finalize(): void;
     OperationCompleted(): void;
     Post(d: SendOrPostCallback, arg: unknown): void;
     PostOperationCompleted(d: SendOrPostCallback, arg: unknown): void;
@@ -577,18 +573,13 @@ export interface AsyncOperation$instance extends AsyncOperation$protected {
 
 
 export const AsyncOperation: {
-    new(): AsyncOperation;
 };
 
 
 export type AsyncOperation = AsyncOperation$instance;
 
-export abstract class AttributeCollection$protected {
-    protected readonly Attributes: Attribute[];
-}
-
-
-export interface AttributeCollection$instance extends AttributeCollection$protected {
+export interface AttributeCollection$instance {
+    readonly Attributes: Attribute[];
     readonly Count: int;
     Contains(attribute: Attribute): boolean;
     Contains(attributes: Attribute[]): boolean;
@@ -603,7 +594,6 @@ export interface AttributeCollection$instance extends AttributeCollection$protec
 
 export const AttributeCollection: {
     new(attributes: Attribute[]): AttributeCollection;
-    new(): AttributeCollection;
     readonly Empty: AttributeCollection;
     FromExisting(existing: AttributeCollection, ...newAttributes: Attribute[]): AttributeCollection;
 };
@@ -618,8 +608,8 @@ export type AttributeCollection = AttributeCollection$instance & __AttributeColl
 
 
 export interface AttributeProviderAttribute$instance extends Attribute {
-    readonly PropertyName: string;
-    readonly TypeName: string;
+    readonly PropertyName: string | undefined;
+    readonly TypeName: string | undefined;
 }
 
 
@@ -632,21 +622,17 @@ export const AttributeProviderAttribute: {
 
 export type AttributeProviderAttribute = AttributeProviderAttribute$instance;
 
-export abstract class BackgroundWorker$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected OnDoWork(e: DoWorkEventArgs): void;
-    protected OnProgressChanged(e: ProgressChangedEventArgs): void;
-    protected OnRunWorkerCompleted(e: RunWorkerCompletedEventArgs): void;
-}
-
-
-export interface BackgroundWorker$instance extends BackgroundWorker$protected, Component$instance {
+export interface BackgroundWorker$instance extends Component$instance {
     readonly CancellationPending: boolean;
     readonly IsBusy: boolean;
     WorkerReportsProgress: boolean;
     WorkerSupportsCancellation: boolean;
     CancelAsync(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    OnDoWork(e: DoWorkEventArgs): void;
+    OnProgressChanged(e: ProgressChangedEventArgs): void;
+    OnRunWorkerCompleted(e: RunWorkerCompletedEventArgs): void;
     ReportProgress(percentProgress: int): void;
     ReportProgress(percentProgress: int, userState: unknown): void;
     RunWorkerAsync(): void;
@@ -707,51 +693,47 @@ export const BindableAttribute: {
 
 export type BindableAttribute = BindableAttribute$instance;
 
-export abstract class BindingList_1$protected<T> {
-    protected readonly IsSortedCore: boolean;
-    protected readonly SortDirectionCore: ListSortDirection;
-    protected readonly SortPropertyCore: PropertyDescriptor | undefined;
-    protected readonly SupportsChangeNotificationCore: boolean;
-    protected readonly SupportsSearchingCore: boolean;
-    protected readonly SupportsSortingCore: boolean;
-    protected AddNewCore(): unknown | undefined;
-    protected ApplySortCore(prop: PropertyDescriptor, direction: ListSortDirection): void;
-    protected ClearItems(): void;
-    protected FindCore(prop: PropertyDescriptor, key: unknown): int;
-    protected InsertItem(index: int, item: T): void;
-    protected OnAddingNew(e: AddingNewEventArgs): void;
-    protected OnListChanged(e: ListChangedEventArgs): void;
-    protected RemoveItem(index: int): void;
-    protected RemoveSortCore(): void;
-    protected SetItem(index: int, item: T): void;
-}
-
-
-export interface BindingList_1$instance<T> extends BindingList_1$protected<T>, Collection_1<T> {
+export interface BindingList_1$instance<T> extends Collection_1<T> {
     AllowEdit: boolean;
     AllowNew: boolean;
     AllowRemove: boolean;
+    readonly IsSortedCore: boolean;
     RaiseListChangedEvents: boolean;
+    readonly SortDirectionCore: ListSortDirection;
+    readonly SortPropertyCore: PropertyDescriptor | undefined;
+    readonly SupportsChangeNotificationCore: boolean;
+    readonly SupportsSearchingCore: boolean;
+    readonly SupportsSortingCore: boolean;
     Add(item: T): void;
     Add(value: unknown): int;
     AddNew(): T;
+    AddNewCore(): unknown | undefined;
+    ApplySortCore(prop: PropertyDescriptor, direction: ListSortDirection): void;
     CancelNew(itemIndex: int): void;
     Clear(): void;
+    ClearItems(): void;
     Contains(item: T): boolean;
     Contains(value: unknown): boolean;
     CopyTo(array: T[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
     EndNew(itemIndex: int): void;
+    FindCore(prop: PropertyDescriptor, key: unknown): int;
     GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
     IndexOf(item: T): int;
     Insert(index: int, item: T): void;
     Insert(index: int, value: unknown): void;
+    InsertItem(index: int, item: T): void;
+    OnAddingNew(e: AddingNewEventArgs): void;
+    OnListChanged(e: ListChangedEventArgs): void;
     Remove(item: T): boolean;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
+    RemoveItem(index: int): void;
+    RemoveSortCore(): void;
     ResetBindings(): void;
     ResetItem(position: int): void;
+    SetItem(index: int, item: T): void;
 }
 
 
@@ -842,15 +824,11 @@ export const CancelEventArgs: {
 
 export type CancelEventArgs = CancelEventArgs$instance;
 
-export abstract class CategoryAttribute$protected {
-    protected GetLocalizedString(value: string): string | undefined;
-}
-
-
-export interface CategoryAttribute$instance extends CategoryAttribute$protected, Attribute {
+export interface CategoryAttribute$instance extends Attribute {
     readonly Category: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
+    GetLocalizedString(value: string): string | undefined;
     IsDefaultAttribute(): boolean;
 }
 
@@ -896,7 +874,7 @@ export type CharConverter = CharConverter$instance;
 
 export interface CollectionChangeEventArgs$instance extends EventArgs {
     readonly Action: CollectionChangeAction;
-    readonly Element: unknown;
+    readonly Element: unknown | undefined;
 }
 
 
@@ -925,7 +903,7 @@ export type CollectionConverter = CollectionConverter$instance;
 
 export interface ComplexBindingPropertiesAttribute$instance extends Attribute {
     readonly DataMember: string | undefined;
-    readonly DataSource: string;
+    readonly DataSource: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -941,19 +919,15 @@ export const ComplexBindingPropertiesAttribute: {
 
 export type ComplexBindingPropertiesAttribute = ComplexBindingPropertiesAttribute$instance;
 
-export abstract class Component$protected {
-    protected readonly CanRaiseEvents: boolean;
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected GetService(service: Type): unknown | undefined;
-}
-
-
-export interface Component$instance extends Component$protected, MarshalByRefObject {
-    readonly Container: IContainer;
+export interface Component$instance extends MarshalByRefObject {
+    readonly CanRaiseEvents: boolean;
+    readonly Container: IContainer | undefined;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
+    GetService(service: Type): unknown | undefined;
     ToString(): string;
 }
 
@@ -973,8 +947,8 @@ export type Component = Component$instance & __Component$views;
 
 export interface ComponentCollection$instance extends ReadOnlyCollectionBase {
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(name: string): IComponent;
-    get_Item(index: int): IComponent;
+    get_Item(name: string): IComponent | undefined;
+    get_Item(index: int): IComponent | undefined;
     GetEnumerator(): IEnumerator;
 }
 
@@ -1016,8 +990,7 @@ export interface ComponentEditor$instance {
 }
 
 
-export const ComponentEditor: {
-    new(): ComponentEditor;
+export const ComponentEditor: (abstract new() => ComponentEditor) & {
 };
 
 
@@ -1038,21 +1011,17 @@ export const ComponentResourceManager: {
 
 export type ComponentResourceManager = ComponentResourceManager$instance;
 
-export abstract class Container$protected {
-    protected CreateSite(component: IComponent, name: string): ISite;
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected GetService(service: Type): unknown | undefined;
-    protected ValidateName(component: IComponent, name: string): void;
-}
-
-
-export interface Container$instance extends Container$protected {
+export interface Container$instance {
     readonly Components: ComponentCollection;
     Add(component: IComponent): void;
     Add(component: IComponent, name: string): void;
+    CreateSite(component: IComponent, name: string): ISite;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
+    GetService(service: Type): unknown | undefined;
     Remove(component: IComponent): void;
+    ValidateName(component: IComponent, name: string): void;
 }
 
 
@@ -1074,19 +1043,13 @@ export interface ContainerFilterService$instance {
 }
 
 
-export const ContainerFilterService: {
-    new(): ContainerFilterService;
+export const ContainerFilterService: (abstract new() => ContainerFilterService) & {
 };
 
 
 export type ContainerFilterService = ContainerFilterService$instance;
 
-export abstract class CultureInfoConverter$protected {
-    protected GetCultureName(culture: CultureInfo): string;
-}
-
-
-export interface CultureInfoConverter$instance extends CultureInfoConverter$protected, TypeConverter {
+export interface CultureInfoConverter$instance extends TypeConverter {
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1095,6 +1058,7 @@ export interface CultureInfoConverter$instance extends CultureInfoConverter$prot
     ConvertFrom(value: unknown): unknown | undefined;
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
     ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    GetCultureName(culture: CultureInfo): string;
     GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | undefined;
     GetStandardValuesExclusive(context: ITypeDescriptorContext): boolean;
@@ -1131,9 +1095,7 @@ export interface CustomTypeDescriptor$instance {
 }
 
 
-export const CustomTypeDescriptor: {
-    new(): CustomTypeDescriptor;
-    new(parent: ICustomTypeDescriptor): CustomTypeDescriptor;
+export const CustomTypeDescriptor: (abstract new() => CustomTypeDescriptor) & (abstract new(parent: ICustomTypeDescriptor) => CustomTypeDescriptor) & {
 };
 
 
@@ -1147,7 +1109,7 @@ export type CustomTypeDescriptor = CustomTypeDescriptor$instance & __CustomTypeD
 
 
 export interface DataErrorsChangedEventArgs$instance extends EventArgs {
-    readonly PropertyName: string;
+    readonly PropertyName: string | undefined;
 }
 
 
@@ -1287,7 +1249,7 @@ export const DecimalConverter: {
 export type DecimalConverter = DecimalConverter$instance;
 
 export interface DefaultBindingPropertyAttribute$instance extends Attribute {
-    readonly Name: string;
+    readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -1303,7 +1265,7 @@ export const DefaultBindingPropertyAttribute: {
 export type DefaultBindingPropertyAttribute = DefaultBindingPropertyAttribute$instance;
 
 export interface DefaultEventAttribute$instance extends Attribute {
-    readonly Name: string;
+    readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -1318,7 +1280,7 @@ export const DefaultEventAttribute: {
 export type DefaultEventAttribute = DefaultEventAttribute$instance;
 
 export interface DefaultPropertyAttribute$instance extends Attribute {
-    readonly Name: string;
+    readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -1333,7 +1295,7 @@ export const DefaultPropertyAttribute: {
 export type DefaultPropertyAttribute = DefaultPropertyAttribute$instance;
 
 export interface DefaultValueAttribute$instance extends Attribute {
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -1504,7 +1466,8 @@ export type DoubleConverter = DoubleConverter$instance;
 
 export interface DoWorkEventArgs$instance extends CancelEventArgs {
     readonly Argument: unknown | undefined;
-    Result: unknown;
+    get Result(): unknown | undefined;
+    set Result(value: unknown | undefined);
 }
 
 
@@ -1549,12 +1512,8 @@ export const EditorBrowsableAttribute: {
 
 export type EditorBrowsableAttribute = EditorBrowsableAttribute$instance;
 
-export abstract class EnumConverter$protected {
-    protected readonly Comparer: IComparer;
-}
-
-
-export interface EnumConverter$instance extends EnumConverter$protected, TypeConverter {
+export interface EnumConverter$instance extends TypeConverter {
+    readonly Comparer: IComparer;
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1590,10 +1549,7 @@ export interface EventDescriptor$instance extends MemberDescriptor {
 }
 
 
-export const EventDescriptor: {
-    new(name: string, attrs: Attribute[]): EventDescriptor;
-    new(descr: MemberDescriptor): EventDescriptor;
-    new(descr: MemberDescriptor, attrs: Attribute[]): EventDescriptor;
+export const EventDescriptor: (abstract new(name: string, attrs: Attribute[]) => EventDescriptor) & (abstract new(descr: MemberDescriptor) => EventDescriptor) & (abstract new(descr: MemberDescriptor, attrs: Attribute[]) => EventDescriptor) & {
 };
 
 
@@ -1605,8 +1561,8 @@ export interface EventDescriptorCollection$instance {
     Clear(): void;
     Contains(value: EventDescriptor): boolean;
     Find(name: string, ignoreCase: boolean): EventDescriptor | undefined;
-    get_Item(index: int): EventDescriptor;
-    get_Item(name: string): EventDescriptor;
+    get_Item(index: int): EventDescriptor | undefined;
+    get_Item(name: string): EventDescriptor | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(value: EventDescriptor): int;
     Insert(index: int, value: EventDescriptor): void;
@@ -1637,7 +1593,7 @@ export type EventDescriptorCollection = EventDescriptorCollection$instance & __E
 
 export interface EventHandlerList$instance {
     get Item(): Function | undefined;
-    set Item(value: Function);
+    set Item(value: Function | undefined);
     AddHandler(key: unknown, value: Function): void;
     AddHandlers(listToAddFrom: EventHandlerList): void;
     Dispose(): void;
@@ -1677,10 +1633,11 @@ export type ExpandableObjectConverter = ExpandableObjectConverter$instance;
 
 export interface ExtenderProvidedPropertyAttribute$instance extends Attribute {
     get ExtenderProperty(): PropertyDescriptor | undefined;
-    set ExtenderProperty(value: PropertyDescriptor);
-    Provider: IExtenderProvider;
+    set ExtenderProperty(value: PropertyDescriptor | undefined);
+    get Provider(): IExtenderProvider | undefined;
+    set Provider(value: IExtenderProvider | undefined);
     get ReceiverType(): Type | undefined;
-    set ReceiverType(value: Type);
+    set ReceiverType(value: Type | undefined);
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
@@ -1809,8 +1766,7 @@ export interface InstanceCreationEditor$instance {
 }
 
 
-export const InstanceCreationEditor: {
-    new(): InstanceCreationEditor;
+export const InstanceCreationEditor: (abstract new() => InstanceCreationEditor) & {
 };
 
 
@@ -1869,7 +1825,6 @@ export const InvalidAsynchronousStateException: {
     new(): InvalidAsynchronousStateException;
     new(message: string): InvalidAsynchronousStateException;
     new(message: string, innerException: Exception): InvalidAsynchronousStateException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidAsynchronousStateException;
 };
 
 
@@ -1890,7 +1845,6 @@ export const InvalidEnumArgumentException: {
     new(message: string): InvalidEnumArgumentException;
     new(message: string, innerException: Exception): InvalidEnumArgumentException;
     new(argumentName: string, invalidValue: int, enumClass: Type): InvalidEnumArgumentException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidEnumArgumentException;
 };
 
 
@@ -1907,8 +1861,7 @@ export interface License$instance {
 }
 
 
-export const License: {
-    new(): License;
+export const License: (abstract new() => License) & {
 };
 
 
@@ -1954,7 +1907,6 @@ export const LicenseException: {
     new(type: Type, instance: unknown): LicenseException;
     new(type: Type, instance: unknown, message: string): LicenseException;
     new(type: Type, instance: unknown, message: string, innerException: Exception): LicenseException;
-    new(info: SerializationInfo, context: StreamingContext): LicenseException;
 };
 
 
@@ -1970,7 +1922,6 @@ export interface LicenseManager$instance {
 
 
 export const LicenseManager: {
-    new(): LicenseManager;
     CurrentContext: LicenseContext;
     readonly UsageMode: LicenseUsageMode;
     CreateWithContext(type: Type, creationContext: LicenseContext, args: unknown[]): unknown | undefined;
@@ -1992,8 +1943,7 @@ export interface LicenseProvider$instance {
 }
 
 
-export const LicenseProvider: {
-    new(): LicenseProvider;
+export const LicenseProvider: (abstract new() => LicenseProvider) & {
 };
 
 
@@ -2017,14 +1967,10 @@ export const LicenseProviderAttribute: {
 
 export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
 
-export abstract class LicFileLicenseProvider$protected {
-    protected GetKey(type: Type): string;
-    protected IsKeyValid(key: string, type: Type): boolean;
-}
-
-
-export interface LicFileLicenseProvider$instance extends LicFileLicenseProvider$protected, LicenseProvider {
+export interface LicFileLicenseProvider$instance extends LicenseProvider {
+    GetKey(type: Type): string;
     GetLicense(context: LicenseContext, type: Type, instance: unknown, allowExceptions: boolean): License | undefined;
+    IsKeyValid(key: string, type: Type): boolean;
 }
 
 
@@ -2074,7 +2020,7 @@ export type ListChangedEventArgs = ListChangedEventArgs$instance;
 
 export interface ListSortDescription$instance {
     get PropertyDescriptor(): PropertyDescriptor | undefined;
-    set PropertyDescriptor(value: PropertyDescriptor);
+    set PropertyDescriptor(value: PropertyDescriptor | undefined);
     SortDirection: ListSortDirection;
 }
 
@@ -2129,7 +2075,7 @@ export const LocalizableAttribute: {
 export type LocalizableAttribute = LocalizableAttribute$instance;
 
 export interface LookupBindingPropertiesAttribute$instance extends Attribute {
-    readonly DataSource: string;
+    readonly DataSource: string | undefined;
     readonly DisplayMember: string | undefined;
     readonly LookupMember: string | undefined;
     readonly ValueMember: string | undefined;
@@ -2147,18 +2093,14 @@ export const LookupBindingPropertiesAttribute: {
 
 export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$instance;
 
-export abstract class MarshalByValueComponent$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface MarshalByValueComponent$instance extends MarshalByValueComponent$protected {
-    readonly Container: IContainer;
+export interface MarshalByValueComponent$instance {
+    readonly Container: IContainer | undefined;
     readonly DesignMode: boolean;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     GetService(service: Type): unknown | undefined;
     ToString(): string | undefined;
 }
@@ -2277,16 +2219,9 @@ export interface MaskedTextProvider$instance extends System_Internal.ICloneable$
 export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvider$views;
 
 
-export abstract class MemberDescriptor$protected {
-    protected AttributeArray: Attribute[] | undefined;
-    protected readonly NameHashCode: int;
-    protected CreateAttributeCollection(): AttributeCollection;
-    protected FillAttributes(attributeList: IList): void;
-    protected GetInvocationTarget(type: Type, instance: unknown): unknown | undefined;
-}
-
-
-export interface MemberDescriptor$instance extends MemberDescriptor$protected {
+export interface MemberDescriptor$instance {
+    get AttributeArray(): Attribute[] | undefined;
+    set AttributeArray(value: Attribute[] | undefined);
     readonly Attributes: AttributeCollection;
     readonly Category: string;
     readonly Description: string;
@@ -2294,16 +2229,16 @@ export interface MemberDescriptor$instance extends MemberDescriptor$protected {
     readonly DisplayName: string;
     readonly IsBrowsable: boolean;
     readonly Name: string;
+    readonly NameHashCode: int;
+    CreateAttributeCollection(): AttributeCollection;
     Equals(obj: unknown): boolean;
+    FillAttributes(attributeList: IList): void;
     GetHashCode(): int;
+    GetInvocationTarget(type: Type, instance: unknown): unknown | undefined;
 }
 
 
-export const MemberDescriptor: {
-    new(name: string): MemberDescriptor;
-    new(name: string, attributes: Attribute[]): MemberDescriptor;
-    new(descr: MemberDescriptor): MemberDescriptor;
-    new(oldMemberDescriptor: MemberDescriptor, newAttributes: Attribute[]): MemberDescriptor;
+export const MemberDescriptor: (abstract new(name: string) => MemberDescriptor) & (abstract new(name: string, attributes: Attribute[]) => MemberDescriptor) & (abstract new(descr: MemberDescriptor) => MemberDescriptor) & (abstract new(oldMemberDescriptor: MemberDescriptor, newAttributes: Attribute[]) => MemberDescriptor) & {
     FindMethod(componentClass: Type, name: string, args: Type[], returnType: Type, publicOnly: boolean): MethodInfo | undefined;
     FindMethod(componentClass: Type, name: string, args: Type[], returnType: Type): MethodInfo | undefined;
     GetInvokee(componentClass: Type, component: unknown): unknown;
@@ -2349,19 +2284,15 @@ export const MultilineStringConverter: {
 
 export type MultilineStringConverter = MultilineStringConverter$instance;
 
-export abstract class NestedContainer$protected {
-    protected readonly OwnerName: string | undefined;
-    protected CreateSite(component: IComponent, name: string): ISite;
-    protected Dispose2(disposing: boolean): void;
-    protected GetService(service: Type): unknown | undefined;
-}
-
-
-export interface NestedContainer$instance extends NestedContainer$protected, Container$instance {
+export interface NestedContainer$instance extends Container$instance {
     readonly Owner: IComponent;
+    readonly OwnerName: string | undefined;
     Add(component: IComponent): void;
     Add(component: IComponent, name: string): void;
+    CreateSite(component: IComponent, name: string): ISite;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    GetService(service: Type): unknown | undefined;
 }
 
 
@@ -2486,7 +2417,7 @@ export const ProgressChangedEventArgs: {
 export type ProgressChangedEventArgs = ProgressChangedEventArgs$instance;
 
 export interface PropertyChangedEventArgs$instance extends EventArgs {
-    readonly PropertyName: string;
+    readonly PropertyName: string | undefined;
 }
 
 
@@ -2498,7 +2429,7 @@ export const PropertyChangedEventArgs: {
 export type PropertyChangedEventArgs = PropertyChangedEventArgs$instance;
 
 export interface PropertyChangingEventArgs$instance extends EventArgs {
-    readonly PropertyName: string;
+    readonly PropertyName: string | undefined;
 }
 
 
@@ -2509,14 +2440,7 @@ export const PropertyChangingEventArgs: {
 
 export type PropertyChangingEventArgs = PropertyChangingEventArgs$instance;
 
-export abstract class PropertyDescriptor$protected {
-    protected FillAttributes(attributeList: IList): void;
-    protected GetInvocationTarget(type: Type, instance: unknown): unknown | undefined;
-    protected OnValueChanged(component: unknown, e: EventArgs): void;
-}
-
-
-export interface PropertyDescriptor$instance extends PropertyDescriptor$protected, MemberDescriptor {
+export interface PropertyDescriptor$instance extends MemberDescriptor {
     readonly ComponentType: Type;
     readonly Converter: TypeConverter;
     readonly ConverterFromRegisteredType: TypeConverter;
@@ -2528,13 +2452,16 @@ export interface PropertyDescriptor$instance extends PropertyDescriptor$protecte
     AddValueChanged(component: unknown, handler: EventHandler): void;
     CanResetValue(component: unknown): boolean;
     Equals(obj: unknown): boolean;
+    FillAttributes(attributeList: IList): void;
     GetChildProperties(): PropertyDescriptorCollection;
     GetChildProperties(filter: Attribute[]): PropertyDescriptorCollection;
     GetChildProperties(instance: unknown): PropertyDescriptorCollection;
     GetChildProperties(instance: unknown, filter: Attribute[]): PropertyDescriptorCollection;
     GetEditor(editorBaseType: Type): unknown | undefined;
     GetHashCode(): int;
+    GetInvocationTarget(type: Type, instance: unknown): unknown | undefined;
     GetValue(component: unknown): unknown | undefined;
+    OnValueChanged(component: unknown, e: EventArgs): void;
     RemoveValueChanged(component: unknown, handler: EventHandler): void;
     ResetValue(component: unknown): void;
     SetValue(component: unknown, value: unknown): void;
@@ -2542,10 +2469,7 @@ export interface PropertyDescriptor$instance extends PropertyDescriptor$protecte
 }
 
 
-export const PropertyDescriptor: {
-    new(name: string, attrs: Attribute[]): PropertyDescriptor;
-    new(descr: MemberDescriptor): PropertyDescriptor;
-    new(descr: MemberDescriptor, attrs: Attribute[]): PropertyDescriptor;
+export const PropertyDescriptor: (abstract new(name: string, attrs: Attribute[]) => PropertyDescriptor) & (abstract new(descr: MemberDescriptor) => PropertyDescriptor) & (abstract new(descr: MemberDescriptor, attrs: Attribute[]) => PropertyDescriptor) & {
 };
 
 
@@ -2559,7 +2483,7 @@ export interface PropertyDescriptorCollection$instance {
     CopyTo(array: ClrArray, index: int): void;
     Find(name: string, ignoreCase: boolean): PropertyDescriptor | undefined;
     get_Item(index: int): PropertyDescriptor;
-    get_Item(name: string): PropertyDescriptor;
+    get_Item(name: string): PropertyDescriptor | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(value: PropertyDescriptor): int;
     Insert(index: int, value: PropertyDescriptor): void;
@@ -2662,12 +2586,7 @@ export const RecommendedAsConfigurableAttribute: {
 
 export type RecommendedAsConfigurableAttribute = RecommendedAsConfigurableAttribute$instance;
 
-export abstract class ReferenceConverter$protected {
-    protected IsValueAllowed(context: ITypeDescriptorContext, value: unknown): boolean;
-}
-
-
-export interface ReferenceConverter$instance extends ReferenceConverter$protected, TypeConverter {
+export interface ReferenceConverter$instance extends TypeConverter {
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
@@ -2680,6 +2599,7 @@ export interface ReferenceConverter$instance extends ReferenceConverter$protecte
     GetStandardValuesExclusive(): boolean;
     GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
     GetStandardValuesSupported(): boolean;
+    IsValueAllowed(context: ITypeDescriptorContext, value: unknown): boolean;
 }
 
 
@@ -2741,7 +2661,7 @@ export const RunInstallerAttribute: {
 export type RunInstallerAttribute = RunInstallerAttribute$instance;
 
 export interface RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs {
-    readonly Result: unknown;
+    readonly Result: unknown | undefined;
     readonly UserState: unknown | undefined;
 }
 
@@ -2931,7 +2851,7 @@ export type TypeConverter = TypeConverter$instance;
 
 export interface TypeConverter_StandardValuesCollection$instance {
     readonly Count: int;
-    readonly Item: unknown;
+    readonly Item: unknown | undefined;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
 }
@@ -2967,17 +2887,13 @@ export const TypeConverterAttribute: {
 
 export type TypeConverterAttribute = TypeConverterAttribute$instance;
 
-export abstract class TypeDescriptionProvider$protected {
-    protected GetExtenderProviders(instance: unknown): IExtenderProvider[];
-}
-
-
-export interface TypeDescriptionProvider$instance extends TypeDescriptionProvider$protected {
+export interface TypeDescriptionProvider$instance {
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
     CreateInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown | undefined;
     GetCache(instance: unknown): IDictionary | undefined;
     GetExtendedTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
     GetExtendedTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
+    GetExtenderProviders(instance: unknown): IExtenderProvider[];
     GetFullComponentName(component: unknown): string | undefined;
     GetReflectionType(objectType: Type): Type;
     GetReflectionType(instance: unknown): Type;
@@ -2995,9 +2911,7 @@ export interface TypeDescriptionProvider$instance extends TypeDescriptionProvide
 }
 
 
-export const TypeDescriptionProvider: {
-    new(): TypeDescriptionProvider;
-    new(parent: TypeDescriptionProvider): TypeDescriptionProvider;
+export const TypeDescriptionProvider: (abstract new() => TypeDescriptionProvider) & (abstract new(parent: TypeDescriptionProvider) => TypeDescriptionProvider) & {
 };
 
 
@@ -3021,11 +2935,10 @@ export interface TypeDescriptor$instance {
 
 
 export const TypeDescriptor: {
-    new(): TypeDescriptor;
     readonly InterfaceType: Type;
     readonly ComObjectType: Type;
     get ComNativeDescriptorHandler(): IComNativeDescriptorHandler | undefined;
-    set ComNativeDescriptorHandler(value: IComNativeDescriptorHandler);
+    set ComNativeDescriptorHandler(value: IComNativeDescriptorHandler | undefined);
     AddAttributes(instance: unknown, ...attributes: Attribute[]): TypeDescriptionProvider;
     AddAttributes(type: Type, ...attributes: Attribute[]): TypeDescriptionProvider;
     AddEditorTable(editorBaseType: Type, table: Hashtable): void;
@@ -3118,8 +3031,7 @@ export interface TypeListConverter$instance extends TypeConverter {
 }
 
 
-export const TypeListConverter: {
-    new(types: Type[]): TypeListConverter;
+export const TypeListConverter: (abstract new(types: Type[]) => TypeListConverter) & {
 };
 
 
@@ -3203,7 +3115,6 @@ export const WarningException: {
     new(message: string, helpUrl: string): WarningException;
     new(message: string, innerException: Exception): WarningException;
     new(message: string, helpUrl: string, helpTopic: string): WarningException;
-    new(info: SerializationInfo, context: StreamingContext): WarningException;
 };
 
 
@@ -3227,7 +3138,6 @@ export const Win32Exception: {
     new(error: int, message: string): Win32Exception;
     new(message: string): Win32Exception;
     new(message: string, innerException: Exception): Win32Exception;
-    new(info: SerializationInfo, context: StreamingContext): Win32Exception;
 };
 
 

@@ -17,9 +17,10 @@ export enum DatabaseGeneratedOption {
 
 
 export interface ColumnAttribute$instance extends Attribute {
-    readonly Name: string;
+    readonly Name: string | undefined;
     Order: int;
-    TypeName: string;
+    get TypeName(): string | undefined;
+    set TypeName(value: string | undefined);
 }
 
 
@@ -92,7 +93,7 @@ export type NotMappedAttribute = NotMappedAttribute$instance;
 export interface TableAttribute$instance extends Attribute {
     readonly Name: string;
     get Schema(): string | undefined;
-    set Schema(value: string);
+    set Schema(value: string | undefined);
 }
 
 

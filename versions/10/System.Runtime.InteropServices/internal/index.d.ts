@@ -498,7 +498,8 @@ export type CULong = CULong$instance & __CULong$views;
 
 export interface GCHandle$instance {
     readonly IsAllocated: boolean;
-    Target: unknown;
+    get Target(): unknown | undefined;
+    set Target(value: unknown | undefined);
     AddrOfPinnedObject(): nint;
     Equals(o: unknown): boolean;
     Equals(other: GCHandle): boolean;
@@ -927,7 +928,7 @@ export type ComAliasNameAttribute = ComAliasNameAttribute$instance;
 
 export interface ComAwareEventInfo$instance extends EventInfo {
     readonly Attributes: EventAttributes;
-    readonly DeclaringType: Type;
+    readonly DeclaringType: Type | undefined;
     readonly MetadataToken: int;
     readonly Module: Module;
     readonly Name: string;
@@ -1024,7 +1025,6 @@ export const COMException: {
     new(message: string): COMException;
     new(message: string, inner: Exception): COMException;
     new(message: string, errorCode: int): COMException;
-    new(info: SerializationInfo, context: StreamingContext): COMException;
 };
 
 
@@ -1096,25 +1096,20 @@ export const ComVisibleAttribute: {
 
 export type ComVisibleAttribute = ComVisibleAttribute$instance;
 
-export abstract class ComWrappers$protected {
-    protected abstract ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
-    protected abstract CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown | undefined;
-    protected CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
-    protected abstract ReleaseObjects(objects: IEnumerable): void;
-}
-
-
-export interface ComWrappers$instance extends ComWrappers$protected {
+export interface ComWrappers$instance {
+    ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
+    CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown | undefined;
+    CreateObject(externalComObject: nint, flags: CreateObjectFlags, userState: unknown, wrapperFlags: CreatedWrapperFlags): unknown | undefined;
     GetOrCreateComInterfaceForObject(instance: unknown, flags: CreateComInterfaceFlags): nint;
     GetOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags): unknown;
     GetOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, userState: unknown): unknown;
     GetOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown): unknown;
     GetOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown, inner: nint): unknown;
+    ReleaseObjects(objects: IEnumerable): void;
 }
 
 
-export const ComWrappers: {
-    new(): ComWrappers;
+export const ComWrappers: (abstract new() => ComWrappers) & {
     GetIUnknownImpl(fpQueryInterface: nint, fpAddRef: nint, fpRelease: nint): void;
     RegisterForMarshalling(instance: ComWrappers): void;
     RegisterForTrackerSupport(instance: ComWrappers): void;
@@ -1125,24 +1120,19 @@ export const ComWrappers: {
 
 export type ComWrappers = ComWrappers$instance;
 
-export abstract class CriticalHandle$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected abstract ReleaseHandle(): boolean;
-}
-
-
-export interface CriticalHandle$instance extends CriticalHandle$protected, CriticalFinalizerObject {
+export interface CriticalHandle$instance extends CriticalFinalizerObject {
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
+    ReleaseHandle(): boolean;
     SetHandleAsInvalid(): void;
 }
 
 
-export const CriticalHandle: {
-    new(invalidHandleValue: nint): CriticalHandle;
+export const CriticalHandle: (abstract new(invalidHandleValue: nint) => CriticalHandle) & {
 };
 
 
@@ -1191,7 +1181,7 @@ export const DefaultDllImportSearchPathsAttribute: {
 export type DefaultDllImportSearchPathsAttribute = DefaultDllImportSearchPathsAttribute$instance;
 
 export interface DefaultParameterValueAttribute$instance extends Attribute {
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
 }
 
 
@@ -1283,7 +1273,6 @@ export const ExternalException: {
     new(message: string): ExternalException;
     new(message: string, inner: Exception): ExternalException;
     new(message: string, errorCode: int): ExternalException;
-    new(info: SerializationInfo, context: StreamingContext): ExternalException;
 };
 
 
@@ -1381,7 +1370,6 @@ export const InvalidComObjectException: {
     new(): InvalidComObjectException;
     new(message: string): InvalidComObjectException;
     new(message: string, inner: Exception): InvalidComObjectException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidComObjectException;
 };
 
 
@@ -1401,7 +1389,6 @@ export const InvalidOleVariantTypeException: {
     new(): InvalidOleVariantTypeException;
     new(message: string): InvalidOleVariantTypeException;
     new(message: string, inner: Exception): InvalidOleVariantTypeException;
-    new(info: SerializationInfo, context: StreamingContext): InvalidOleVariantTypeException;
 };
 
 
@@ -1426,12 +1413,12 @@ export type LCIDConversionAttribute = LCIDConversionAttribute$instance;
 
 export interface LibraryImportAttribute$instance extends Attribute {
     get EntryPoint(): string | undefined;
-    set EntryPoint(value: string);
+    set EntryPoint(value: string | undefined);
     readonly LibraryName: string;
     SetLastError: boolean;
     StringMarshalling: StringMarshalling;
     get StringMarshallingCustomType(): Type | undefined;
-    set StringMarshallingCustomType(value: Type);
+    set StringMarshallingCustomType(value: Type | undefined);
 }
 
 
@@ -1486,7 +1473,6 @@ export const MarshalDirectiveException: {
     new(): MarshalDirectiveException;
     new(message: string): MarshalDirectiveException;
     new(message: string, inner: Exception): MarshalDirectiveException;
-    new(info: SerializationInfo, context: StreamingContext): MarshalDirectiveException;
 };
 
 
@@ -1532,18 +1518,13 @@ export const PosixSignalContext: {
 
 export type PosixSignalContext = PosixSignalContext$instance;
 
-export abstract class PosixSignalRegistration$protected {
-    protected Finalize(): void;
-}
-
-
-export interface PosixSignalRegistration$instance extends PosixSignalRegistration$protected {
+export interface PosixSignalRegistration$instance {
     Dispose(): void;
+    Finalize(): void;
 }
 
 
 export const PosixSignalRegistration: {
-    new(): PosixSignalRegistration;
     Create(signal: PosixSignal, handler: Action_1<PosixSignalContext>): PosixSignalRegistration;
 };
 
@@ -1602,7 +1583,6 @@ export const SafeArrayRankMismatchException: {
     new(): SafeArrayRankMismatchException;
     new(message: string): SafeArrayRankMismatchException;
     new(message: string, inner: Exception): SafeArrayRankMismatchException;
-    new(info: SerializationInfo, context: StreamingContext): SafeArrayRankMismatchException;
 };
 
 
@@ -1622,7 +1602,6 @@ export const SafeArrayTypeMismatchException: {
     new(): SafeArrayTypeMismatchException;
     new(message: string): SafeArrayTypeMismatchException;
     new(message: string, inner: Exception): SafeArrayTypeMismatchException;
-    new(info: SerializationInfo, context: StreamingContext): SafeArrayTypeMismatchException;
 };
 
 
@@ -1633,15 +1612,11 @@ export interface __SafeArrayTypeMismatchException$views {
 export type SafeArrayTypeMismatchException = SafeArrayTypeMismatchException$instance & __SafeArrayTypeMismatchException$views;
 
 
-export abstract class SafeBuffer$protected {
-    protected Dispose3(disposing: boolean): void;
-}
-
-
-export interface SafeBuffer$instance extends SafeBuffer$protected, SafeHandleZeroOrMinusOneIsInvalid {
+export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
     readonly ByteLength: ulong;
     AcquirePointer(pointer: ptr<byte>): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Initialize(numBytes: ulong): void;
     Initialize(numElements: uint, sizeOfEachElement: uint): void;
     Initialize<T extends unknown>(numElements: uint): void;
@@ -1655,8 +1630,7 @@ export interface SafeBuffer$instance extends SafeBuffer$protected, SafeHandleZer
 }
 
 
-export const SafeBuffer: {
-    new(ownsHandle: boolean): SafeBuffer;
+export const SafeBuffer: (abstract new(ownsHandle: boolean) => SafeBuffer) & {
 };
 
 
@@ -1667,14 +1641,7 @@ export interface __SafeBuffer$views {
 export type SafeBuffer = SafeBuffer$instance & __SafeBuffer$views;
 
 
-export abstract class SafeHandle$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected abstract ReleaseHandle(): boolean;
-}
-
-
-export interface SafeHandle$instance extends SafeHandle$protected, CriticalFinalizerObject {
+export interface SafeHandle$instance extends CriticalFinalizerObject {
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
@@ -1682,12 +1649,14 @@ export interface SafeHandle$instance extends SafeHandle$protected, CriticalFinal
     DangerousGetHandle(): nint;
     DangerousRelease(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
+    ReleaseHandle(): boolean;
     SetHandleAsInvalid(): void;
 }
 
 
-export const SafeHandle: {
-    new(invalidHandleValue: nint, ownsHandle: boolean): SafeHandle;
+export const SafeHandle: (abstract new(invalidHandleValue: nint, ownsHandle: boolean) => SafeHandle) & {
 };
 
 
@@ -1708,7 +1677,6 @@ export const SEHException: {
     new(): SEHException;
     new(message: string): SEHException;
     new(message: string, inner: Exception): SEHException;
-    new(info: SerializationInfo, context: StreamingContext): SEHException;
 };
 
 
@@ -1723,8 +1691,7 @@ export interface StandardOleMarshalObject$instance extends MarshalByRefObject {
 }
 
 
-export const StandardOleMarshalObject: {
-    new(): StandardOleMarshalObject;
+export const StandardOleMarshalObject: (abstract new() => StandardOleMarshalObject) & {
 };
 
 
@@ -1758,7 +1725,7 @@ export const SuppressGCTransitionAttribute: {
 export type SuppressGCTransitionAttribute = SuppressGCTransitionAttribute$instance;
 
 export interface TypeIdentifierAttribute$instance extends Attribute {
-    readonly Identifier: string;
+    readonly Identifier: string | undefined;
     readonly Scope: string | undefined;
 }
 

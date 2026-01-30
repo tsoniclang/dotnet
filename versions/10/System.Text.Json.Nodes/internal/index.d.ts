@@ -73,14 +73,15 @@ export type JsonArray = JsonArray$instance & __JsonArray$views;
 
 export interface JsonNode$instance {
     readonly Options: Nullable_1<JsonNodeOptions>;
-    Parent: JsonNode;
+    get Parent(): JsonNode | undefined;
+    set Parent(value: JsonNode | undefined);
     readonly Root: JsonNode;
     AsArray(): JsonArray;
     AsObject(): JsonObject;
     AsValue(): JsonValue;
     DeepClone(): JsonNode;
-    get_Item(index: int): JsonNode;
-    get_Item(propertyName: string): JsonNode;
+    get_Item(index: int): JsonNode | undefined;
+    get_Item(propertyName: string): JsonNode | undefined;
     GetElementIndex(): int;
     GetPath(): string;
     GetPropertyName(): string;

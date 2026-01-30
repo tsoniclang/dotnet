@@ -421,7 +421,7 @@ export interface SqlGuid$instance {
     Equals(value: unknown): boolean;
     Equals(other: SqlGuid): boolean;
     GetHashCode(): int;
-    ToByteArray(): byte[];
+    ToByteArray(): byte[] | undefined;
     ToSqlBinary(): SqlBinary;
     ToSqlString(): SqlString;
     ToString(): string;
@@ -874,7 +874,7 @@ export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __S
 
 
 export interface SqlBytes$instance {
-    readonly Buffer: byte[];
+    readonly Buffer: byte[] | undefined;
     readonly IsNull: boolean;
     Item: byte;
     readonly Length: long;
@@ -912,7 +912,7 @@ export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 
 
 export interface SqlChars$instance {
-    readonly Buffer: char[];
+    readonly Buffer: char[] | undefined;
     readonly IsNull: boolean;
     Item: char;
     readonly Length: long;
@@ -1013,7 +1013,6 @@ export const SqlTypeException: {
     new(): SqlTypeException;
     new(message: string): SqlTypeException;
     new(message: string, e: Exception): SqlTypeException;
-    new(si: SerializationInfo, sc: StreamingContext): SqlTypeException;
 };
 
 

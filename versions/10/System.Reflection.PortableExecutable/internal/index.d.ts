@@ -315,7 +315,6 @@ export interface CoffHeader$instance {
 
 
 export const CoffHeader: {
-    new(): CoffHeader;
 };
 
 
@@ -337,7 +336,6 @@ export interface CorHeader$instance {
 
 
 export const CorHeader: {
-    new(): CorHeader;
 };
 
 
@@ -361,15 +359,10 @@ export const DebugDirectoryBuilder: {
 
 export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 
-export abstract class ManagedPEBuilder$protected {
-    protected CreateSections2(): ImmutableArray_1<PEBuilder_Section>;
-    protected abstract CreateSections(): ImmutableArray_1<PEBuilder_Section>;
-    protected GetDirectories(): PEDirectoriesBuilder;
-    protected SerializeSection(name: string, location: SectionLocation): BlobBuilder;
-}
-
-
-export interface ManagedPEBuilder$instance extends ManagedPEBuilder$protected, PEBuilder {
+export interface ManagedPEBuilder$instance extends PEBuilder {
+    CreateSections(): ImmutableArray_1<unknown>;
+    GetDirectories(): PEDirectoriesBuilder;
+    SerializeSection(name: string, location: SectionLocation): BlobBuilder;
     Sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
 }
 
@@ -383,23 +376,18 @@ export const ManagedPEBuilder: {
 
 export type ManagedPEBuilder = ManagedPEBuilder$instance;
 
-export abstract class PEBuilder$protected {
-    protected abstract CreateSections(): ImmutableArray_1<PEBuilder_Section>;
-    protected abstract GetDirectories(): PEDirectoriesBuilder;
-    protected abstract SerializeSection(name: string, location: SectionLocation): BlobBuilder;
-}
-
-
-export interface PEBuilder$instance extends PEBuilder$protected {
+export interface PEBuilder$instance {
     readonly Header: PEHeaderBuilder;
     readonly IdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
     readonly IsDeterministic: boolean;
+    CreateSections(): ImmutableArray_1<unknown>;
+    GetDirectories(): PEDirectoriesBuilder;
     Serialize(builder: BlobBuilder): BlobContentId;
+    SerializeSection(name: string, location: SectionLocation): BlobBuilder;
 }
 
 
-export const PEBuilder: {
-    new(header: PEHeaderBuilder, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): PEBuilder;
+export const PEBuilder: (abstract new(header: PEHeaderBuilder, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>) => PEBuilder) & {
 };
 
 
@@ -479,7 +467,6 @@ export interface PEHeader$instance {
 
 
 export const PEHeader: {
-    new(): PEHeader;
 };
 
 
@@ -582,17 +569,12 @@ export interface PEReader$instance extends System_Internal.IDisposable$instance 
 export type PEReader = PEReader$instance & __PEReader$views;
 
 
-export abstract class ResourceSectionBuilder$protected {
-    protected abstract Serialize(builder: BlobBuilder, location: SectionLocation): void;
+export interface ResourceSectionBuilder$instance {
+    Serialize(builder: BlobBuilder, location: SectionLocation): void;
 }
 
 
-export interface ResourceSectionBuilder$instance extends ResourceSectionBuilder$protected {
-}
-
-
-export const ResourceSectionBuilder: {
-    new(): ResourceSectionBuilder;
+export const ResourceSectionBuilder: (abstract new() => ResourceSectionBuilder) & {
 };
 
 

@@ -279,7 +279,6 @@ export interface CodePagesEncodingProvider$instance extends EncodingProvider {
 
 
 export const CodePagesEncodingProvider: {
-    new(): CodePagesEncodingProvider;
     readonly Instance: EncodingProvider;
 };
 
@@ -293,7 +292,6 @@ export interface CompositeFormat$instance {
 
 
 export const CompositeFormat: {
-    new(): CompositeFormat;
     Parse(format: string): CompositeFormat;
 };
 
@@ -302,7 +300,7 @@ export type CompositeFormat = CompositeFormat$instance;
 
 export interface Decoder$instance {
     get Fallback(): DecoderFallback | undefined;
-    set Fallback(value: DecoderFallback);
+    set Fallback(value: DecoderFallback | undefined);
     readonly FallbackBuffer: DecoderFallbackBuffer;
     Convert(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int, charCount: int, flush: boolean, bytesUsed: int, charsUsed: int, completed: boolean): void;
     Convert(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int, flush: boolean, bytesUsed: int, charsUsed: int, completed: boolean): void;
@@ -319,8 +317,7 @@ export interface Decoder$instance {
 }
 
 
-export const Decoder: {
-    new(): Decoder;
+export const Decoder: (abstract new() => Decoder) & {
 };
 
 
@@ -362,8 +359,7 @@ export interface DecoderFallback$instance {
 }
 
 
-export const DecoderFallback: {
-    new(): DecoderFallback;
+export const DecoderFallback: (abstract new() => DecoderFallback) & {
     readonly ReplacementFallback: DecoderFallback;
     readonly ExceptionFallback: DecoderFallback;
 };
@@ -380,8 +376,7 @@ export interface DecoderFallbackBuffer$instance {
 }
 
 
-export const DecoderFallbackBuffer: {
-    new(): DecoderFallbackBuffer;
+export const DecoderFallbackBuffer: (abstract new() => DecoderFallbackBuffer) & {
 };
 
 
@@ -444,7 +439,7 @@ export type DecoderReplacementFallbackBuffer = DecoderReplacementFallbackBuffer$
 
 export interface Encoder$instance {
     get Fallback(): EncoderFallback | undefined;
-    set Fallback(value: EncoderFallback);
+    set Fallback(value: EncoderFallback | undefined);
     readonly FallbackBuffer: EncoderFallbackBuffer;
     Convert(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int, byteCount: int, flush: boolean, charsUsed: int, bytesUsed: int, completed: boolean): void;
     Convert(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int, flush: boolean, charsUsed: int, bytesUsed: int, completed: boolean): void;
@@ -459,8 +454,7 @@ export interface Encoder$instance {
 }
 
 
-export const Encoder: {
-    new(): Encoder;
+export const Encoder: (abstract new() => Encoder) & {
 };
 
 
@@ -503,8 +497,7 @@ export interface EncoderFallback$instance {
 }
 
 
-export const EncoderFallback: {
-    new(): EncoderFallback;
+export const EncoderFallback: (abstract new() => EncoderFallback) & {
     readonly ReplacementFallback: EncoderFallback;
     readonly ExceptionFallback: EncoderFallback;
 };
@@ -522,8 +515,7 @@ export interface EncoderFallbackBuffer$instance {
 }
 
 
-export const EncoderFallbackBuffer: {
-    new(): EncoderFallbackBuffer;
+export const EncoderFallbackBuffer: (abstract new() => EncoderFallbackBuffer) & {
 };
 
 
@@ -645,10 +637,7 @@ export interface Encoding$instance {
 }
 
 
-export const Encoding: {
-    new(): Encoding;
-    new(codePage: int): Encoding;
-    new(codePage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+export const Encoding: (abstract new() => Encoding) & (abstract new(codePage: int) => Encoding) & (abstract new(codePage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback) => Encoding) & {
     readonly Default: Encoding;
     readonly ASCII: Encoding;
     readonly Latin1: Encoding;
@@ -704,8 +693,7 @@ export interface EncodingProvider$instance {
 }
 
 
-export const EncodingProvider: {
-    new(): EncodingProvider;
+export const EncodingProvider: (abstract new() => EncodingProvider) & {
 };
 
 

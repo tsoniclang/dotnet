@@ -159,9 +159,12 @@ export type XContainer = XContainer$instance & __XContainer$views;
 
 
 export interface XDeclaration$instance {
-    Encoding: string;
-    Standalone: string;
-    Version: string;
+    get Encoding(): string | undefined;
+    set Encoding(value: string | undefined);
+    get Standalone(): string | undefined;
+    set Standalone(value: string | undefined);
+    get Version(): string | undefined;
+    set Version(value: string | undefined);
     ToString(): string;
 }
 
@@ -176,10 +179,10 @@ export type XDeclaration = XDeclaration$instance;
 
 export interface XDocument$instance extends XContainer$instance {
     get Declaration(): XDeclaration | undefined;
-    set Declaration(value: XDeclaration);
+    set Declaration(value: XDeclaration | undefined);
     readonly DocumentType: XDocumentType | undefined;
     readonly NodeType: XmlNodeType;
-    readonly Root: XElement;
+    readonly Root: XElement | undefined;
     HasLineInfo(): boolean;
     Save(stream: Stream): void;
     Save(stream: Stream, options: SaveOptions): void;
@@ -225,11 +228,14 @@ export type XDocument = XDocument$instance & __XDocument$views;
 
 
 export interface XDocumentType$instance extends XNode$instance {
-    InternalSubset: string;
+    get InternalSubset(): string | undefined;
+    set InternalSubset(value: string | undefined);
     Name: string;
     readonly NodeType: XmlNodeType;
-    PublicId: string;
-    SystemId: string;
+    get PublicId(): string | undefined;
+    set PublicId(value: string | undefined);
+    get SystemId(): string | undefined;
+    set SystemId(value: string | undefined);
     HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
@@ -267,7 +273,7 @@ export interface XElement$instance extends XContainer$instance {
     DescendantsAndSelf(): IEnumerable_1<XElement>;
     DescendantsAndSelf(name: XName): IEnumerable_1<XElement>;
     GetDefaultNamespace(): XNamespace;
-    GetNamespaceOfPrefix(prefix: string): XNamespace;
+    GetNamespaceOfPrefix(prefix: string): XNamespace | undefined;
     GetPrefixOfNamespace(ns: XNamespace): string | undefined;
     HasLineInfo(): boolean;
     RemoveAll(): void;
@@ -338,7 +344,6 @@ export interface XName$instance {
 
 
 export const XName: {
-    new(): XName;
     Get(localName: string, namespaceName: string): XName;
     Get(expandedName: string): XName;
 };
@@ -367,7 +372,6 @@ export interface XNamespace$instance {
 
 
 export const XNamespace: {
-    new(): XNamespace;
     readonly None: XNamespace;
     readonly Xml: XNamespace;
     readonly Xmlns: XNamespace;
@@ -467,9 +471,9 @@ export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqua
 
 export interface XObject$instance {
     readonly BaseUri: string;
-    readonly Document: XDocument;
+    readonly Document: XDocument | undefined;
     readonly NodeType: XmlNodeType;
-    readonly Parent: XElement;
+    readonly Parent: XElement | undefined;
     AddAnnotation(annotation: unknown): void;
     Annotation(type: Type): unknown | undefined;
     Annotation<T>(): T | undefined;

@@ -29,7 +29,7 @@ export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export interface JsonSchemaExporterOptions$instance {
     get TransformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
-    set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>);
+    set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined);
     TreatNullObliviousAsNonNullable: boolean;
 }
 

@@ -32,7 +32,7 @@ export interface IXmlJsonWriterInitializer$instance {
 export type IXmlJsonWriterInitializer = IXmlJsonWriterInitializer$instance;
 
 export interface DataContractJsonSerializer$instance extends XmlObjectSerializer {
-    readonly DateTimeFormat: DateTimeFormat;
+    readonly DateTimeFormat: DateTimeFormat | undefined;
     readonly EmitTypeInformation: EmitTypeInformation;
     readonly IgnoreExtensionDataObject: boolean;
     readonly KnownTypes: ReadOnlyCollection_1<Type>;
@@ -74,13 +74,15 @@ export const DataContractJsonSerializer: {
 export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
 export interface DataContractJsonSerializerSettings$instance {
-    DateTimeFormat: DateTimeFormat;
+    get DateTimeFormat(): DateTimeFormat | undefined;
+    set DateTimeFormat(value: DateTimeFormat | undefined);
     EmitTypeInformation: EmitTypeInformation;
     IgnoreExtensionDataObject: boolean;
-    KnownTypes: IEnumerable_1<Type>;
+    get KnownTypes(): IEnumerable_1<Type> | undefined;
+    set KnownTypes(value: IEnumerable_1<Type> | undefined);
     MaxItemsInObjectGraph: int;
     get RootName(): string | undefined;
-    set RootName(value: string);
+    set RootName(value: string | undefined);
     SerializeReadOnlyTypes: boolean;
     UseSimpleDictionaryFormat: boolean;
 }

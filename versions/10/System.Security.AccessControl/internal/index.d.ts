@@ -258,8 +258,7 @@ export interface AccessRule$instance extends AuthorizationRule {
 }
 
 
-export const AccessRule: {
-    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
+export const AccessRule: (abstract new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType) => AccessRule) & {
 };
 
 
@@ -288,7 +287,6 @@ export interface AceEnumerator$instance {
 
 
 export const AceEnumerator: {
-    new(): AceEnumerator;
 };
 
 
@@ -304,8 +302,7 @@ export interface AuditRule$instance extends AuthorizationRule {
 }
 
 
-export const AuditRule: {
-    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, auditFlags: AuditFlags): AuditRule;
+export const AuditRule: (abstract new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, auditFlags: AuditFlags) => AuditRule) & {
 };
 
 
@@ -334,15 +331,14 @@ export interface AuthorizationRule$instance {
 }
 
 
-export const AuthorizationRule: {
-    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): AuthorizationRule;
+export const AuthorizationRule: (abstract new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags) => AuthorizationRule) & {
 };
 
 
 export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
-    readonly Item: AuthorizationRule;
+    readonly Item: AuthorizationRule | undefined;
     AddRule(rule: AuthorizationRule): void;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -408,20 +404,15 @@ export interface __CommonAcl$views {
 export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
 
 
-export abstract class CommonObjectSecurity$protected {
-    protected ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
-    protected ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
-}
-
-
-export interface CommonObjectSecurity$instance extends CommonObjectSecurity$protected, ObjectSecurity {
+export interface CommonObjectSecurity$instance extends ObjectSecurity {
     GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
 }
 
 
-export const CommonObjectSecurity: {
-    new(isContainer: boolean): CommonObjectSecurity;
+export const CommonObjectSecurity: (abstract new(isContainer: boolean) => CommonObjectSecurity) & {
 };
 
 
@@ -430,15 +421,17 @@ export type CommonObjectSecurity = CommonObjectSecurity$instance;
 export interface CommonSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly ControlFlags: ControlFlags;
     get DiscretionaryAcl(): DiscretionaryAcl | undefined;
-    set DiscretionaryAcl(value: DiscretionaryAcl);
-    Group: SecurityIdentifier;
+    set DiscretionaryAcl(value: DiscretionaryAcl | undefined);
+    get Group(): SecurityIdentifier | undefined;
+    set Group(value: SecurityIdentifier | undefined);
     readonly IsContainer: boolean;
     readonly IsDiscretionaryAclCanonical: boolean;
     readonly IsDS: boolean;
     readonly IsSystemAclCanonical: boolean;
-    Owner: SecurityIdentifier;
+    get Owner(): SecurityIdentifier | undefined;
+    set Owner(value: SecurityIdentifier | undefined);
     get SystemAcl(): SystemAcl | undefined;
-    set SystemAcl(value: SystemAcl);
+    set SystemAcl(value: SystemAcl | undefined);
     AddDiscretionaryAcl(revision: byte, trusted: int): void;
     AddSystemAcl(revision: byte, trusted: int): void;
     PurgeAccessControl(sid: SecurityIdentifier): void;
@@ -489,25 +482,19 @@ export const CustomAce: {
 
 export type CustomAce = CustomAce$instance;
 
-export abstract class DirectoryObjectSecurity$protected {
-    protected ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
-    protected ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
-}
-
-
-export interface DirectoryObjectSecurity$instance extends DirectoryObjectSecurity$protected, ObjectSecurity {
+export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
     GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
+    ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
 }
 
 
-export const DirectoryObjectSecurity: {
-    new(): DirectoryObjectSecurity;
-    new(securityDescriptor: CommonSecurityDescriptor): DirectoryObjectSecurity;
+export const DirectoryObjectSecurity: (abstract new() => DirectoryObjectSecurity) & (abstract new(securityDescriptor: CommonSecurityDescriptor) => DirectoryObjectSecurity) & {
 };
 
 
@@ -715,8 +702,7 @@ export interface GenericAcl$instance {
 }
 
 
-export const GenericAcl: {
-    new(): GenericAcl;
+export const GenericAcl: (abstract new() => GenericAcl) & {
     readonly AclRevision: byte;
     readonly AclRevisionDS: byte;
     readonly MaxBinaryLength: int;
@@ -734,8 +720,10 @@ export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
 export interface GenericSecurityDescriptor$instance {
     readonly BinaryLength: int;
     readonly ControlFlags: ControlFlags;
-    Group: SecurityIdentifier;
-    Owner: SecurityIdentifier;
+    get Group(): SecurityIdentifier | undefined;
+    set Group(value: SecurityIdentifier | undefined);
+    get Owner(): SecurityIdentifier | undefined;
+    set Owner(value: SecurityIdentifier | undefined);
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetSddlForm(includeSections: AccessControlSections): string;
 }
@@ -814,24 +802,14 @@ export const MutexSecurity: {
 
 export type MutexSecurity = MutexSecurity$instance;
 
-export abstract class NativeObjectSecurity$protected {
-    protected Persist2(handle: SafeHandle, includeSections: AccessControlSections): void;
-    protected Persist2(name: string, includeSections: AccessControlSections): void;
-    protected Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
+    Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    Persist(name: string, includeSections: AccessControlSections): void;
+    Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
 }
 
 
-export interface NativeObjectSecurity$instance extends NativeObjectSecurity$protected, CommonObjectSecurity {
-}
-
-
-export const NativeObjectSecurity: {
-    new(isContainer: boolean, resourceType: ResourceType): NativeObjectSecurity;
-    new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections): NativeObjectSecurity;
-    new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
-    new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
-    new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections): NativeObjectSecurity;
-    new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): NativeObjectSecurity;
+export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceType: ResourceType) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & {
 };
 
 
@@ -844,8 +822,7 @@ export interface ObjectAccessRule$instance extends AccessRule {
 }
 
 
-export const ObjectAccessRule: {
-    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, type: AccessControlType): ObjectAccessRule;
+export const ObjectAccessRule: (abstract new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, type: AccessControlType) => ObjectAccessRule) & {
 };
 
 
@@ -875,23 +852,13 @@ export interface ObjectAuditRule$instance extends AuditRule {
 }
 
 
-export const ObjectAuditRule: {
-    new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, auditFlags: AuditFlags): ObjectAuditRule;
+export const ObjectAuditRule: (abstract new(identity: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectType: Guid, inheritedObjectType: Guid, auditFlags: AuditFlags) => ObjectAuditRule) & {
 };
 
 
 export type ObjectAuditRule = ObjectAuditRule$instance;
 
-export abstract class ObjectSecurity$protected {
-    protected abstract ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
-    protected abstract ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
-    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
-    protected Persist(name: string, includeSections: AccessControlSections): void;
-    protected Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
-}
-
-
-export interface ObjectSecurity$instance extends ObjectSecurity$protected {
+export interface ObjectSecurity$instance {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AreAccessRulesCanonical: boolean;
@@ -905,8 +872,13 @@ export interface ObjectSecurity$instance extends ObjectSecurity$protected {
     GetOwner(targetType: Type): IdentityReference | undefined;
     GetSecurityDescriptorBinaryForm(): byte[];
     GetSecurityDescriptorSddlForm(includeSections: AccessControlSections): string;
+    ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
     ModifyAccessRule(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
+    ModifyAudit(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
     ModifyAuditRule(modification: AccessControlModification, rule: AuditRule, modified: boolean): boolean;
+    Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
+    Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    Persist(name: string, includeSections: AccessControlSections): void;
     PurgeAccessRules(identity: IdentityReference): void;
     PurgeAuditRules(identity: IdentityReference): void;
     SetAccessRuleProtection(isProtected: boolean, preserveInheritance: boolean): void;
@@ -920,24 +892,14 @@ export interface ObjectSecurity$instance extends ObjectSecurity$protected {
 }
 
 
-export const ObjectSecurity: {
-    new(): ObjectSecurity;
-    new(isContainer: boolean, isDS: boolean): ObjectSecurity;
-    new(securityDescriptor: CommonSecurityDescriptor): ObjectSecurity;
+export const ObjectSecurity: (abstract new() => ObjectSecurity) & (abstract new(isContainer: boolean, isDS: boolean) => ObjectSecurity) & (abstract new(securityDescriptor: CommonSecurityDescriptor) => ObjectSecurity) & {
     IsSddlConversionSupported(): boolean;
 };
 
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export abstract class ObjectSecurity_1$protected<T extends unknown> {
-    protected Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
-    protected Persist7(name: string, includeSections: AccessControlSections): void;
-    protected Persist6(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
-}
-
-
-export interface ObjectSecurity_1$instance<T extends unknown> extends ObjectSecurity_1$protected<T>, NativeObjectSecurity {
+export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -945,6 +907,9 @@ export interface ObjectSecurity_1$instance<T extends unknown> extends ObjectSecu
     AddAccessRule2(rule: AccessRule_1<T>): void;
     AddAuditRule2(rule: AuditRule_1<T>): void;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
+    Persist(name: string, includeSections: AccessControlSections): void;
+    Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
     RemoveAccessRule2(rule: AccessRule_1<T>): boolean;
     RemoveAccessRuleAll2(rule: AccessRule_1<T>): void;
     RemoveAccessRuleSpecific2(rule: AccessRule_1<T>): void;
@@ -957,12 +922,7 @@ export interface ObjectSecurity_1$instance<T extends unknown> extends ObjectSecu
 }
 
 
-export const ObjectSecurity_1: {
-    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType): ObjectSecurity_1<T>;
-    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections): ObjectSecurity_1<T>;
-    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): ObjectSecurity_1<T>;
-    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections): ObjectSecurity_1<T>;
-    new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode, exceptionContext: unknown): ObjectSecurity_1<T>;
+export const ObjectSecurity_1: (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => ObjectSecurity_1<T>) & {
 };
 
 
@@ -1035,12 +995,14 @@ export type RawAcl = RawAcl$instance & __RawAcl$views;
 export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly ControlFlags: ControlFlags;
     get DiscretionaryAcl(): RawAcl | undefined;
-    set DiscretionaryAcl(value: RawAcl);
-    Group: SecurityIdentifier;
-    Owner: SecurityIdentifier;
+    set DiscretionaryAcl(value: RawAcl | undefined);
+    get Group(): SecurityIdentifier | undefined;
+    set Group(value: SecurityIdentifier | undefined);
+    get Owner(): SecurityIdentifier | undefined;
+    set Owner(value: SecurityIdentifier | undefined);
     ResourceManagerControl: byte;
     get SystemAcl(): RawAcl | undefined;
-    set SystemAcl(value: RawAcl);
+    set SystemAcl(value: RawAcl | undefined);
     SetFlags(flags: ControlFlags): void;
 }
 

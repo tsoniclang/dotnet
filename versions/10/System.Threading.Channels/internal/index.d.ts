@@ -44,8 +44,7 @@ export interface Channel_1$instance<T> extends Channel_2<T, T> {
 }
 
 
-export const Channel_1: {
-    new<T>(): Channel_1<T>;
+export const Channel_1: (abstract new<T>() => Channel_1<T>) & {
 };
 
 
@@ -57,8 +56,7 @@ export interface Channel_2$instance<TWrite, TRead> {
 }
 
 
-export const Channel_2: {
-    new<TWrite, TRead>(): Channel_2<TWrite, TRead>;
+export const Channel_2: (abstract new<TWrite, TRead>() => Channel_2<TWrite, TRead>) & {
 };
 
 
@@ -74,7 +72,6 @@ export const ChannelClosedException: {
     new(message: string): ChannelClosedException;
     new(innerException: Exception): ChannelClosedException;
     new(message: string, innerException: Exception): ChannelClosedException;
-    new(info: SerializationInfo, context: StreamingContext): ChannelClosedException;
 };
 
 
@@ -92,8 +89,7 @@ export interface ChannelOptions$instance {
 }
 
 
-export const ChannelOptions: {
-    new(): ChannelOptions;
+export const ChannelOptions: (abstract new() => ChannelOptions) & {
 };
 
 
@@ -112,8 +108,7 @@ export interface ChannelReader_1$instance<T> {
 }
 
 
-export const ChannelReader_1: {
-    new<T>(): ChannelReader_1<T>;
+export const ChannelReader_1: (abstract new<T>() => ChannelReader_1<T>) & {
 };
 
 
@@ -128,8 +123,7 @@ export interface ChannelWriter_1$instance<T> {
 }
 
 
-export const ChannelWriter_1: {
-    new<T>(): ChannelWriter_1<T>;
+export const ChannelWriter_1: (abstract new<T>() => ChannelWriter_1<T>) & {
 };
 
 
@@ -147,7 +141,8 @@ export const UnboundedChannelOptions: {
 export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
 export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
-    Comparer: IComparer_1<T>;
+    get Comparer(): IComparer_1<T> | undefined;
+    set Comparer(value: IComparer_1<T> | undefined);
 }
 
 

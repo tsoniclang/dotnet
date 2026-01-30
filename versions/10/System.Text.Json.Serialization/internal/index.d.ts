@@ -114,8 +114,7 @@ export interface JsonAttribute$instance extends Attribute {
 }
 
 
-export const JsonAttribute: {
-    new(): JsonAttribute;
+export const JsonAttribute: (abstract new() => JsonAttribute) & {
 };
 
 
@@ -133,7 +132,7 @@ export const JsonConstructorAttribute: {
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
 export interface JsonConverter$instance {
-    readonly Type: Type;
+    readonly Type: Type | Type | undefined;
     CanConvert(typeToConvert: Type): boolean;
 }
 
@@ -146,7 +145,7 @@ export type JsonConverter = JsonConverter$instance;
 
 export interface JsonConverter_1$instance<T> extends JsonConverter {
     readonly HandleNull: boolean;
-    readonly Type: Type;
+    readonly Type: Type | Type | undefined;
     CanConvert(typeToConvert: Type): boolean;
     Read(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T | undefined;
     ReadAsPropertyName(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T;
@@ -155,8 +154,7 @@ export interface JsonConverter_1$instance<T> extends JsonConverter {
 }
 
 
-export const JsonConverter_1: {
-    new<T>(): JsonConverter_1<T>;
+export const JsonConverter_1: (abstract new<T>() => JsonConverter_1<T>) & {
 };
 
 
@@ -170,20 +168,18 @@ export interface JsonConverterAttribute$instance extends JsonAttribute {
 
 export const JsonConverterAttribute: {
     new(converterType: Type): JsonConverterAttribute;
-    new(): JsonConverterAttribute;
 };
 
 
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
 export interface JsonConverterFactory$instance extends JsonConverter {
-    readonly Type: Type;
+    readonly Type: Type | undefined;
     CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
 
 
-export const JsonConverterFactory: {
-    new(): JsonConverterFactory;
+export const JsonConverterFactory: (abstract new() => JsonConverterFactory) & {
 };
 
 
@@ -277,7 +273,8 @@ export type JsonObjectCreationHandlingAttribute = JsonObjectCreationHandlingAttr
 
 export interface JsonPolymorphicAttribute$instance extends JsonAttribute {
     IgnoreUnrecognizedTypeDiscriminators: boolean;
-    TypeDiscriminatorPropertyName: string;
+    get TypeDiscriminatorPropertyName(): string | undefined;
+    set TypeDiscriminatorPropertyName(value: string | undefined);
     UnknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
 }
 
@@ -327,7 +324,7 @@ export type JsonRequiredAttribute = JsonRequiredAttribute$instance;
 export interface JsonSerializableAttribute$instance extends JsonAttribute {
     GenerationMode: JsonSourceGenerationMode;
     get TypeInfoPropertyName(): string | undefined;
-    set TypeInfoPropertyName(value: string);
+    set TypeInfoPropertyName(value: string | undefined);
 }
 
 
@@ -338,19 +335,14 @@ export const JsonSerializableAttribute: {
 
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
-export abstract class JsonSerializerContext$protected {
-    protected readonly GeneratedSerializerOptions: JsonSerializerOptions | undefined;
-}
-
-
-export interface JsonSerializerContext$instance extends JsonSerializerContext$protected {
+export interface JsonSerializerContext$instance {
+    readonly GeneratedSerializerOptions: JsonSerializerOptions | undefined;
     readonly Options: JsonSerializerOptions;
-    GetTypeInfo(type: Type): JsonTypeInfo;
+    GetTypeInfo(type: Type): JsonTypeInfo | undefined;
 }
 
 
-export const JsonSerializerContext: {
-    new(options: JsonSerializerOptions): JsonSerializerContext;
+export const JsonSerializerContext: (abstract new(options: JsonSerializerOptions) => JsonSerializerContext) & {
 };
 
 
@@ -365,7 +357,8 @@ export interface JsonSourceGenerationOptionsAttribute$instance extends JsonAttri
     AllowDuplicateProperties: boolean;
     AllowOutOfOrderMetadataProperties: boolean;
     AllowTrailingCommas: boolean;
-    Converters: Type[];
+    get Converters(): Type[] | undefined;
+    set Converters(value: Type[] | undefined);
     DefaultBufferSize: int;
     DefaultIgnoreCondition: JsonIgnoreCondition;
     DictionaryKeyPolicy: JsonKnownNamingPolicy;
@@ -376,7 +369,8 @@ export interface JsonSourceGenerationOptionsAttribute$instance extends JsonAttri
     IndentCharacter: char;
     IndentSize: int;
     MaxDepth: int;
-    NewLine: string;
+    get NewLine(): string | undefined;
+    set NewLine(value: string | undefined);
     NumberHandling: JsonNumberHandling;
     PreferredObjectCreationHandling: JsonObjectCreationHandling;
     PropertyNameCaseInsensitive: boolean;
@@ -457,8 +451,7 @@ export interface ReferenceHandler$instance {
 }
 
 
-export const ReferenceHandler: {
-    new(): ReferenceHandler;
+export const ReferenceHandler: (abstract new() => ReferenceHandler) & {
     readonly Preserve: ReferenceHandler;
     readonly IgnoreCycles: ReferenceHandler;
 };
@@ -485,8 +478,7 @@ export interface ReferenceResolver$instance {
 }
 
 
-export const ReferenceResolver: {
-    new(): ReferenceResolver;
+export const ReferenceResolver: (abstract new() => ReferenceResolver) & {
 };
 
 

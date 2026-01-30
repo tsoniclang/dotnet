@@ -177,9 +177,10 @@ export type RenamedEventHandler = (sender: unknown, e: RenamedEventArgs) => void
 
 export interface WaitForChangedResult$instance {
     ChangeType: WatcherChangeTypes;
-    Name: string;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
     get OldName(): string | undefined;
-    set OldName(value: string);
+    set OldName(value: string | undefined);
     TimedOut: boolean;
 }
 
@@ -191,16 +192,12 @@ export const WaitForChangedResult: {
 
 export type WaitForChangedResult = WaitForChangedResult$instance;
 
-export abstract class BinaryReader$protected {
-    protected Dispose(disposing: boolean): void;
-    protected FillBuffer(numBytes: int): void;
-}
-
-
-export interface BinaryReader$instance extends BinaryReader$protected {
+export interface BinaryReader$instance {
     readonly BaseStream: Stream;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
+    FillBuffer(numBytes: int): void;
     PeekChar(): int;
     Read(): int;
     Read(buffer: char[], index: int, count: int): int;
@@ -244,14 +241,10 @@ export interface __BinaryReader$views {
 export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
-export abstract class BinaryWriter$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface BinaryWriter$instance extends BinaryWriter$protected {
+export interface BinaryWriter$instance {
     readonly BaseStream: Stream;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -283,7 +276,6 @@ export interface BinaryWriter$instance extends BinaryWriter$protected {
 
 
 export const BinaryWriter: {
-    new(): BinaryWriter;
     new(output: Stream): BinaryWriter;
     new(output: Stream, encoding: Encoding): BinaryWriter;
     new(output: Stream, encoding: Encoding, leaveOpen: boolean): BinaryWriter;
@@ -301,12 +293,7 @@ export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
-export abstract class BufferedStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface BufferedStream$instance extends BufferedStream$protected, Stream$instance {
+export interface BufferedStream$instance extends Stream$instance {
     readonly BufferSize: int;
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
@@ -322,6 +309,7 @@ export interface BufferedStream$instance extends BufferedStream$protected, Strea
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -368,7 +356,7 @@ export type BufferedStream = BufferedStream$instance & __BufferedStream$views;
 export interface DirectoryInfo$instance extends FileSystemInfo$instance {
     readonly Exists: boolean;
     readonly Name: string;
-    readonly Parent: DirectoryInfo;
+    readonly Parent: DirectoryInfo | undefined;
     readonly Root: DirectoryInfo;
     Create(): void;
     CreateSubdirectory(path: string): DirectoryInfo;
@@ -423,7 +411,6 @@ export const DirectoryNotFoundException: {
     new(): DirectoryNotFoundException;
     new(message: string): DirectoryNotFoundException;
     new(message: string, innerException: Exception): DirectoryNotFoundException;
-    new(info: SerializationInfo, context: StreamingContext): DirectoryNotFoundException;
 };
 
 
@@ -472,7 +459,6 @@ export const DriveNotFoundException: {
     new(): DriveNotFoundException;
     new(message: string): DriveNotFoundException;
     new(message: string, innerException: Exception): DriveNotFoundException;
-    new(info: SerializationInfo, context: StreamingContext): DriveNotFoundException;
 };
 
 
@@ -492,7 +478,6 @@ export const EndOfStreamException: {
     new(): EndOfStreamException;
     new(message: string): EndOfStreamException;
     new(message: string, innerException: Exception): EndOfStreamException;
-    new(info: SerializationInfo, context: StreamingContext): EndOfStreamException;
 };
 
 
@@ -577,7 +562,7 @@ export type FileInfo = FileInfo$instance & __FileInfo$views;
 
 
 export interface FileLoadException$instance extends IOException$instance {
-    readonly FileName: string;
+    readonly FileName: string | undefined;
     readonly FusionLog: string | undefined;
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -591,7 +576,6 @@ export const FileLoadException: {
     new(message: string, inner: Exception): FileLoadException;
     new(message: string, fileName: string): FileLoadException;
     new(message: string, fileName: string, inner: Exception): FileLoadException;
-    new(info: SerializationInfo, context: StreamingContext): FileLoadException;
 };
 
 
@@ -603,7 +587,7 @@ export type FileLoadException = FileLoadException$instance & __FileLoadException
 
 
 export interface FileNotFoundException$instance extends IOException$instance {
-    readonly FileName: string;
+    readonly FileName: string | undefined;
     readonly FusionLog: string | undefined;
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -617,7 +601,6 @@ export const FileNotFoundException: {
     new(message: string, innerException: Exception): FileNotFoundException;
     new(message: string, fileName: string): FileNotFoundException;
     new(message: string, fileName: string, innerException: Exception): FileNotFoundException;
-    new(info: SerializationInfo, context: StreamingContext): FileNotFoundException;
 };
 
 
@@ -628,13 +611,7 @@ export interface __FileNotFoundException$views {
 export type FileNotFoundException = FileNotFoundException$instance & __FileNotFoundException$views;
 
 
-export abstract class FileStream$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface FileStream$instance extends FileStream$protected, Stream$instance {
+export interface FileStream$instance extends Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -652,10 +629,12 @@ export interface FileStream$instance extends FileStream$protected, Stream$instan
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
+    Finalize(): void;
     Flush(): void;
     FlushAsync(cancellationToken: CancellationToken): Task;
     FlushAsync(): Task;
@@ -730,7 +709,7 @@ export type FileStreamOptions = FileStreamOptions$instance;
 export interface FileSystemEventArgs$instance extends EventArgs {
     readonly ChangeType: WatcherChangeTypes;
     readonly FullPath: string;
-    readonly Name: string;
+    readonly Name: string | undefined;
 }
 
 
@@ -764,9 +743,7 @@ export interface FileSystemInfo$instance extends MarshalByRefObject {
 }
 
 
-export const FileSystemInfo: {
-    new(info: SerializationInfo, context: StreamingContext): FileSystemInfo;
-    new(): FileSystemInfo;
+export const FileSystemInfo: (abstract new(info: SerializationInfo, context: StreamingContext) => FileSystemInfo) & (abstract new() => FileSystemInfo) & {
 };
 
 
@@ -779,12 +756,7 @@ export interface FileSystemInfo$instance extends System_Runtime_Serialization_In
 export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
-export abstract class FileSystemWatcher$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface FileSystemWatcher$instance extends FileSystemWatcher$protected, Component {
+export interface FileSystemWatcher$instance extends Component {
     EnableRaisingEvents: boolean;
     Filter: string;
     readonly Filters: Collection_1<System_Internal.String>;
@@ -793,10 +765,11 @@ export interface FileSystemWatcher$instance extends FileSystemWatcher$protected,
     NotifyFilter: NotifyFilters;
     Path: string;
     get Site(): ISite | undefined;
-    set Site(value: ISite);
+    set Site(value: ISite | undefined);
     get SynchronizingObject(): ISynchronizeInvoke | undefined;
-    set SynchronizingObject(value: ISynchronizeInvoke);
+    set SynchronizingObject(value: ISynchronizeInvoke | undefined);
     BeginInit(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     EndInit(): void;
     WaitForChanged(changeType: WatcherChangeTypes): WaitForChangedResult;
@@ -832,7 +805,6 @@ export const InternalBufferOverflowException: {
     new(): InternalBufferOverflowException;
     new(message: string): InternalBufferOverflowException;
     new(message: string, inner: Exception): InternalBufferOverflowException;
-    new(info: SerializationInfo, context: StreamingContext): InternalBufferOverflowException;
 };
 
 
@@ -872,7 +844,6 @@ export const IOException: {
     new(message: string): IOException;
     new(message: string, hresult: int): IOException;
     new(message: string, innerException: Exception): IOException;
-    new(info: SerializationInfo, context: StreamingContext): IOException;
 };
 
 
@@ -883,12 +854,7 @@ export interface __IOException$views {
 export type IOException = IOException$instance & __IOException$views;
 
 
-export abstract class MemoryStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface MemoryStream$instance extends MemoryStream$protected, Stream$instance {
+export interface MemoryStream$instance extends Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -901,6 +867,7 @@ export interface MemoryStream$instance extends MemoryStream$protected, Stream$in
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -960,7 +927,6 @@ export const PathTooLongException: {
     new(): PathTooLongException;
     new(message: string): PathTooLongException;
     new(message: string, innerException: Exception): PathTooLongException;
-    new(info: SerializationInfo, context: StreamingContext): PathTooLongException;
 };
 
 
@@ -984,14 +950,7 @@ export const RenamedEventArgs: {
 
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
-export abstract class Stream$protected {
-    protected CreateWaitHandle(): WaitHandle;
-    protected Dispose(disposing: boolean): void;
-    protected ObjectInvariant(): void;
-}
-
-
-export interface Stream$instance extends Stream$protected, MarshalByRefObject {
+export interface Stream$instance extends MarshalByRefObject {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -1009,13 +968,16 @@ export interface Stream$instance extends Stream$protected, MarshalByRefObject {
     CopyToAsync(destination: Stream, bufferSize: int): Task;
     CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    CreateWaitHandle(): WaitHandle;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
     Flush(): void;
     FlushAsync(): Task;
     FlushAsync(cancellationToken: CancellationToken): Task;
+    ObjectInvariant(): void;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
@@ -1039,8 +1001,7 @@ export interface Stream$instance extends Stream$protected, MarshalByRefObject {
 }
 
 
-export const Stream: {
-    new(): Stream;
+export const Stream: (abstract new() => Stream) & {
     readonly Null: Stream;
     Synchronized(stream: Stream): Stream;
     ValidateBufferArguments(buffer: byte[], offset: int, count: int): void;
@@ -1058,17 +1019,13 @@ export interface Stream$instance extends System_Internal.IAsyncDisposable$instan
 export type Stream = Stream$instance & __Stream$views;
 
 
-export abstract class StreamReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface StreamReader$instance extends StreamReader$protected, TextReader$instance {
+export interface StreamReader$instance extends TextReader$instance {
     readonly BaseStream: Stream;
     readonly CurrentEncoding: Encoding;
     readonly EndOfStream: boolean;
     Close(): void;
     DiscardBufferedData(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Peek(): int;
     Read(): int;
@@ -1123,16 +1080,12 @@ export interface __StreamReader$views {
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
-export abstract class StreamWriter$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface StreamWriter$instance extends StreamWriter$protected, TextWriter$instance {
+export interface StreamWriter$instance extends TextWriter$instance {
     AutoFlush: boolean;
     readonly BaseStream: Stream;
     readonly Encoding: Encoding;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -1223,13 +1176,9 @@ export interface __StreamWriter$views {
 export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 
-export abstract class StringReader$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface StringReader$instance extends StringReader$protected, TextReader$instance {
+export interface StringReader$instance extends TextReader$instance {
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Peek(): int;
     Read(): int;
@@ -1272,14 +1221,10 @@ export interface __StringReader$views {
 export type StringReader = StringReader$instance & __StringReader$views;
 
 
-export abstract class StringWriter$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface StringWriter$instance extends StringWriter$protected, TextWriter$instance {
+export interface StringWriter$instance extends TextWriter$instance {
     readonly Encoding: Encoding;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     FlushAsync(): Task;
@@ -1363,14 +1308,10 @@ export interface __StringWriter$views {
 export type StringWriter = StringWriter$instance & __StringWriter$views;
 
 
-export abstract class TextReader$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface TextReader$instance extends TextReader$protected, MarshalByRefObject {
+export interface TextReader$instance extends MarshalByRefObject {
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Peek(): int;
     Read(): int;
     Read(buffer: char[], index: int, count: int): int;
@@ -1390,8 +1331,7 @@ export interface TextReader$instance extends TextReader$protected, MarshalByRefO
 }
 
 
-export const TextReader: {
-    new(): TextReader;
+export const TextReader: (abstract new() => TextReader) & {
     readonly Null: TextReader;
     Synchronized(reader: TextReader): TextReader;
 };
@@ -1404,16 +1344,12 @@ export interface __TextReader$views {
 export type TextReader = TextReader$instance & __TextReader$views;
 
 
-export abstract class TextWriter$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface TextWriter$instance extends TextWriter$protected, MarshalByRefObject {
+export interface TextWriter$instance extends MarshalByRefObject {
     readonly Encoding: Encoding;
     readonly FormatProvider: IFormatProvider;
     NewLine: string;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -1476,9 +1412,7 @@ export interface TextWriter$instance extends TextWriter$protected, MarshalByRefO
 }
 
 
-export const TextWriter: {
-    new(): TextWriter;
-    new(formatProvider: IFormatProvider): TextWriter;
+export const TextWriter: (abstract new() => TextWriter) & (abstract new(formatProvider: IFormatProvider) => TextWriter) & {
     readonly Null: TextWriter;
     CreateBroadcasting(...writers: TextWriter[]): TextWriter;
     Synchronized(writer: TextWriter): TextWriter;
@@ -1495,15 +1429,11 @@ export interface TextWriter$instance extends System_Internal.IAsyncDisposable$in
 export type TextWriter = TextWriter$instance & __TextWriter$views;
 
 
-export abstract class UnmanagedMemoryAccessor$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface UnmanagedMemoryAccessor$instance extends UnmanagedMemoryAccessor$protected {
+export interface UnmanagedMemoryAccessor$instance {
     readonly CanRead: boolean;
     readonly CanWrite: boolean;
     readonly Capacity: long;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Read<T extends unknown>(position: long, structure: T): void;
     ReadArray<T extends unknown>(position: long, array: T[], offset: int, count: int): int;
@@ -1539,7 +1469,6 @@ export interface UnmanagedMemoryAccessor$instance extends UnmanagedMemoryAccesso
 
 
 export const UnmanagedMemoryAccessor: {
-    new(): UnmanagedMemoryAccessor;
     new(buffer: SafeBuffer, offset: long, capacity: long): UnmanagedMemoryAccessor;
     new(buffer: SafeBuffer, offset: long, capacity: long, access: FileAccess): UnmanagedMemoryAccessor;
 };
@@ -1552,12 +1481,7 @@ export interface __UnmanagedMemoryAccessor$views {
 export type UnmanagedMemoryAccessor = UnmanagedMemoryAccessor$instance & __UnmanagedMemoryAccessor$views;
 
 
-export abstract class UnmanagedMemoryStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface UnmanagedMemoryStream$instance extends UnmanagedMemoryStream$protected, Stream$instance {
+export interface UnmanagedMemoryStream$instance extends Stream$instance {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -1565,6 +1489,7 @@ export interface UnmanagedMemoryStream$instance extends UnmanagedMemoryStream$pr
     readonly Length: long;
     Position: long;
     PositionPointer: ptr<byte>;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
@@ -1593,7 +1518,6 @@ export interface UnmanagedMemoryStream$instance extends UnmanagedMemoryStream$pr
 
 
 export const UnmanagedMemoryStream: {
-    new(): UnmanagedMemoryStream;
     new(buffer: SafeBuffer, offset: long, length: long): UnmanagedMemoryStream;
     new(buffer: SafeBuffer, offset: long, length: long, access: FileAccess): UnmanagedMemoryStream;
     new(pointer: ptr<byte>, length: long): UnmanagedMemoryStream;

@@ -16,7 +16,6 @@ export interface ExceptionDispatchInfo$instance {
 
 
 export const ExceptionDispatchInfo: {
-    new(): ExceptionDispatchInfo;
     Capture(source: Exception): ExceptionDispatchInfo;
     SetCurrentStackTrace(source: Exception): Exception;
     SetRemoteStackTrace(source: Exception, stackTrace: string): Exception;

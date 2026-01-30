@@ -235,7 +235,7 @@ export interface Collection$instance {
     Contains(Key: string): boolean;
     get_Item(Index: int): unknown;
     get_Item(Key: string): unknown;
-    get_Item(Index: unknown): unknown | undefined;
+    get_Item(Index: unknown): unknown;
     GetEnumerator(): IEnumerator;
     Remove(Key: string): void;
     Remove(Index: int): void;
@@ -279,7 +279,6 @@ export interface Constants$instance {
 
 
 export const Constants: {
-    new(): Constants;
     readonly vbCrLf: string;
     readonly vbObjectError: int;
     readonly vbNewLine: string;
@@ -413,7 +412,6 @@ export interface Conversion$instance {
 
 
 export const Conversion: {
-    new(): Conversion;
     CTypeDynamic(Expression: unknown, TargetType: Type): unknown;
     CTypeDynamic<TargetType>(Expression: unknown): TargetType;
     ErrorToString(): string;
@@ -464,7 +462,6 @@ export interface DateAndTime$instance {
 
 
 export const DateAndTime: {
-    new(): DateAndTime;
     Today: DateTime;
     readonly Now: DateTime;
     TimeOfDay: DateTime;
@@ -510,7 +507,6 @@ export interface ErrObject$instance {
 
 
 export const ErrObject: {
-    new(): ErrObject;
 };
 
 
@@ -521,7 +517,6 @@ export interface FileSystem$instance {
 
 
 export const FileSystem: {
-    new(): FileSystem;
     ChDir(Path: string): void;
     ChDrive(Drive: char): void;
     ChDrive(Drive: string): void;
@@ -615,7 +610,6 @@ export interface Financial$instance {
 
 
 export const Financial: {
-    new(): Financial;
     DDB(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
     FV(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
     IPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
@@ -650,7 +644,6 @@ export interface Information$instance {
 
 
 export const Information: {
-    new(): Information;
     Erl(): int;
     Err(): ErrObject;
     IsArray(VarName: unknown): boolean;
@@ -678,7 +671,6 @@ export interface Interaction$instance {
 
 
 export const Interaction: {
-    new(): Interaction;
     AppActivate(ProcessId: int): void;
     AppActivate(Title: string): void;
     Beep(): void;
@@ -724,7 +716,6 @@ export interface Strings$instance {
 
 
 export const Strings: {
-    new(): Strings;
     Asc(String: char): int;
     Asc(String: string): int;
     AscW(String: char): int;
@@ -818,7 +809,6 @@ export interface VBMath$instance {
 
 
 export const VBMath: {
-    new(): VBMath;
     Randomize(): void;
     Randomize(Number: double): void;
     Rnd(): float;

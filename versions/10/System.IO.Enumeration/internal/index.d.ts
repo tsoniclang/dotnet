@@ -55,9 +55,9 @@ export type FileSystemEntry = FileSystemEntry$instance;
 
 export interface FileSystemEnumerable_1$instance<TResult> {
     get ShouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
+    set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | undefined);
     get ShouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set ShouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
+    set ShouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | undefined);
     GetEnumerator(): IEnumerator_1<TResult>;
 }
 
@@ -75,27 +75,22 @@ export interface __FileSystemEnumerable_1$views<TResult> {
 export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
 
 
-export abstract class FileSystemEnumerator_1$protected<TResult> {
-    protected ContinueOnError(error: int): boolean;
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-    protected OnDirectoryFinished(directory: ReadOnlySpan_1<System_Internal.Char>): void;
-    protected ShouldIncludeEntry(entry: FileSystemEntry): boolean;
-    protected ShouldRecurseIntoEntry(entry: FileSystemEntry): boolean;
-    protected abstract TransformEntry(entry: FileSystemEntry): TResult;
-}
-
-
-export interface FileSystemEnumerator_1$instance<TResult> extends FileSystemEnumerator_1$protected<TResult>, CriticalFinalizerObject, IDisposable {
+export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
     readonly Current: TResult;
+    ContinueOnError(error: int): boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    Finalize(): void;
     MoveNext(): boolean;
+    OnDirectoryFinished(directory: ReadOnlySpan_1<System_Internal.Char>): void;
     Reset(): void;
+    ShouldIncludeEntry(entry: FileSystemEntry): boolean;
+    ShouldRecurseIntoEntry(entry: FileSystemEntry): boolean;
+    TransformEntry(entry: FileSystemEntry): TResult;
 }
 
 
-export const FileSystemEnumerator_1: {
-    new<TResult>(directory: string, options: EnumerationOptions): FileSystemEnumerator_1<TResult>;
+export const FileSystemEnumerator_1: (abstract new<TResult>(directory: string, options: EnumerationOptions) => FileSystemEnumerator_1<TResult>) & {
 };
 
 

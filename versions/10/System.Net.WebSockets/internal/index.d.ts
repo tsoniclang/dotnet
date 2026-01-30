@@ -97,7 +97,7 @@ export interface ClientWebSocket$instance extends WebSocket$instance {
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
     readonly CloseStatusDescription: string | undefined;
     get HttpResponseHeaders(): IReadOnlyDictionary_2<System_Internal.String, IEnumerable_1<System_Internal.String>> | undefined;
-    set HttpResponseHeaders(value: IReadOnlyDictionary_2<System_Internal.String, IEnumerable_1<System_Internal.String>>);
+    set HttpResponseHeaders(value: IReadOnlyDictionary_2<System_Internal.String, IEnumerable_1<System_Internal.String>> | undefined);
     readonly HttpStatusCode: HttpStatusCode;
     readonly Options: ClientWebSocketOptions;
     readonly State: WebSocketState;
@@ -134,18 +134,20 @@ export type ClientWebSocket = ClientWebSocket$instance & __ClientWebSocket$views
 export interface ClientWebSocketOptions$instance {
     ClientCertificates: X509CertificateCollection;
     CollectHttpResponseDetails: boolean;
-    Cookies: CookieContainer;
-    Credentials: ICredentials;
+    get Cookies(): CookieContainer | undefined;
+    set Cookies(value: CookieContainer | undefined);
+    get Credentials(): ICredentials | undefined;
+    set Credentials(value: ICredentials | undefined);
     get DangerousDeflateOptions(): WebSocketDeflateOptions | undefined;
-    set DangerousDeflateOptions(value: WebSocketDeflateOptions);
+    set DangerousDeflateOptions(value: WebSocketDeflateOptions | undefined);
     HttpVersion: Version;
     HttpVersionPolicy: HttpVersionPolicy;
     KeepAliveInterval: TimeSpan;
     KeepAliveTimeout: TimeSpan;
     get Proxy(): IWebProxy | undefined;
-    set Proxy(value: IWebProxy);
+    set Proxy(value: IWebProxy | undefined);
     get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback);
+    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
     UseDefaultCredentials: boolean;
     AddSubProtocol(subProtocol: string): void;
     SetBuffer(receiveBufferSize: int, sendBufferSize: int): void;
@@ -155,7 +157,6 @@ export interface ClientWebSocketOptions$instance {
 
 
 export const ClientWebSocketOptions: {
-    new(): ClientWebSocketOptions;
 };
 
 
@@ -172,13 +173,12 @@ export interface HttpListenerWebSocketContext$instance extends WebSocketContext 
     readonly SecWebSocketKey: string;
     readonly SecWebSocketProtocols: IEnumerable_1<System_Internal.String>;
     readonly SecWebSocketVersion: string;
-    readonly User: IPrincipal;
+    readonly User: IPrincipal | IPrincipal | undefined;
     readonly WebSocket: WebSocket;
 }
 
 
 export const HttpListenerWebSocketContext: {
-    new(): HttpListenerWebSocketContext;
 };
 
 
@@ -201,8 +201,7 @@ export interface WebSocket$instance {
 }
 
 
-export const WebSocket: {
-    new(): WebSocket;
+export const WebSocket: (abstract new() => WebSocket) & {
     readonly DefaultKeepAliveInterval: TimeSpan;
     CreateClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<System_Internal.Byte>;
     CreateClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<System_Internal.Byte>): WebSocket;
@@ -236,13 +235,12 @@ export interface WebSocketContext$instance {
     readonly SecWebSocketKey: string;
     readonly SecWebSocketProtocols: IEnumerable_1<System_Internal.String>;
     readonly SecWebSocketVersion: string;
-    readonly User: IPrincipal;
+    readonly User: IPrincipal | IPrincipal | undefined;
     readonly WebSocket: WebSocket;
 }
 
 
-export const WebSocketContext: {
-    new(): WebSocketContext;
+export const WebSocketContext: (abstract new() => WebSocketContext) & {
 };
 
 
@@ -250,12 +248,12 @@ export type WebSocketContext = WebSocketContext$instance;
 
 export interface WebSocketCreationOptions$instance {
     get DangerousDeflateOptions(): WebSocketDeflateOptions | undefined;
-    set DangerousDeflateOptions(value: WebSocketDeflateOptions);
+    set DangerousDeflateOptions(value: WebSocketDeflateOptions | undefined);
     IsServer: boolean;
     KeepAliveInterval: TimeSpan;
     KeepAliveTimeout: TimeSpan;
     get SubProtocol(): string | undefined;
-    set SubProtocol(value: string);
+    set SubProtocol(value: string | undefined);
 }
 
 
@@ -330,12 +328,7 @@ export const WebSocketReceiveResult: {
 
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
-export abstract class WebSocketStream$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface WebSocketStream$instance extends WebSocketStream$protected, Stream {
+export interface WebSocketStream$instance extends Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;
@@ -344,6 +337,7 @@ export interface WebSocketStream$instance extends WebSocketStream$protected, Str
     readonly WebSocket: WebSocket;
     BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
@@ -370,7 +364,6 @@ export interface WebSocketStream$instance extends WebSocketStream$protected, Str
 
 
 export const WebSocketStream: {
-    new(): WebSocketStream;
     Create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, ownsWebSocket?: boolean): WebSocketStream;
     Create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, closeTimeout: TimeSpan): WebSocketStream;
     CreateReadableMessageStream(webSocket: WebSocket): WebSocketStream;

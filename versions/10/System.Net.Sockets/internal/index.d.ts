@@ -481,7 +481,7 @@ export interface MulticastOption$instance {
     Group: IPAddress;
     InterfaceIndex: int;
     get LocalAddress(): IPAddress | undefined;
-    set LocalAddress(value: IPAddress);
+    set LocalAddress(value: IPAddress | undefined);
 }
 
 
@@ -494,13 +494,7 @@ export const MulticastOption: {
 
 export type MulticastOption = MulticastOption$instance;
 
-export abstract class NetworkStream$protected {
-    protected Dispose2(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface NetworkStream$instance extends NetworkStream$protected, Stream {
+export interface NetworkStream$instance extends Stream {
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -515,10 +509,12 @@ export interface NetworkStream$instance extends NetworkStream$protected, Stream 
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     Close(timeout: TimeSpan): void;
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
+    Finalize(): void;
     Flush(): void;
     FlushAsync(cancellationToken: CancellationToken): Task;
     FlushAsync(): Task;
@@ -560,15 +556,11 @@ export interface __NetworkStream$views {
 export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
-export abstract class SafeSocketHandle$protected {
-    protected Dispose3(disposing: boolean): void;
-    protected ReleaseHandle(): boolean;
-}
-
-
-export interface SafeSocketHandle$instance extends SafeSocketHandle$protected, SafeHandleMinusOneIsInvalid {
+export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
     readonly IsInvalid: boolean;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
+    ReleaseHandle(): boolean;
 }
 
 
@@ -586,13 +578,14 @@ export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$vi
 
 
 export interface SendPacketsElement$instance {
-    Buffer: byte[];
+    get Buffer(): byte[] | undefined;
+    set Buffer(value: byte[] | undefined);
     Count: int;
     EndOfPacket: boolean;
     get FilePath(): string | undefined;
-    set FilePath(value: string);
+    set FilePath(value: string | undefined);
     get FileStream(): FileStream | undefined;
-    set FileStream(value: FileStream);
+    set FileStream(value: FileStream | undefined);
     MemoryBuffer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
     readonly Offset: int;
     OffsetLong: long;
@@ -618,13 +611,7 @@ export const SendPacketsElement: {
 
 export type SendPacketsElement = SendPacketsElement$instance;
 
-export abstract class Socket$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface Socket$instance extends Socket$protected {
+export interface Socket$instance {
     readonly AddressFamily: AddressFamily;
     readonly Available: int;
     Blocking: boolean;
@@ -636,14 +623,14 @@ export interface Socket$instance extends Socket$protected {
     readonly Handle: nint;
     readonly IsBound: boolean;
     get LingerState(): LingerOption | undefined;
-    set LingerState(value: LingerOption);
-    readonly LocalEndPoint: EndPoint;
+    set LingerState(value: LingerOption | undefined);
+    readonly LocalEndPoint: EndPoint | undefined;
     MulticastLoopback: boolean;
     NoDelay: boolean;
     readonly ProtocolType: ProtocolType;
     ReceiveBufferSize: int;
     ReceiveTimeout: int;
-    readonly RemoteEndPoint: EndPoint;
+    readonly RemoteEndPoint: EndPoint | undefined;
     readonly SafeHandle: SafeSocketHandle;
     SendBufferSize: int;
     SendTimeout: int;
@@ -696,6 +683,7 @@ export interface Socket$instance extends Socket$protected {
     Disconnect(reuseSocket: boolean): void;
     DisconnectAsync(e: SocketAsyncEventArgs): boolean;
     DisconnectAsync(reuseSocket: boolean, cancellationToken?: CancellationToken): ValueTask;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     DuplicateAndClose(targetProcessId: int): SocketInformation;
     EndAccept(asyncResult: IAsyncResult): Socket;
@@ -711,6 +699,7 @@ export interface Socket$instance extends Socket$protected {
     EndSend(asyncResult: IAsyncResult, errorCode: SocketError): int;
     EndSendFile(asyncResult: IAsyncResult): void;
     EndSendTo(asyncResult: IAsyncResult): int;
+    Finalize(): void;
     GetRawSocketOption(optionLevel: int, optionName: int, optionValue: Span_1<System_Internal.Byte>): int;
     GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName): unknown | undefined;
     GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
@@ -830,18 +819,12 @@ export interface __Socket$views {
 export type Socket = Socket$instance & __Socket$views;
 
 
-export abstract class SocketAsyncEventArgs$protected {
-    protected Finalize(): void;
-    protected OnCompleted(e: SocketAsyncEventArgs): void;
-}
-
-
-export interface SocketAsyncEventArgs$instance extends SocketAsyncEventArgs$protected, EventArgs {
+export interface SocketAsyncEventArgs$instance extends EventArgs {
     get AcceptSocket(): Socket | undefined;
-    set AcceptSocket(value: Socket);
-    readonly Buffer: byte[];
+    set AcceptSocket(value: Socket | undefined);
+    readonly Buffer: byte[] | undefined;
     get BufferList(): IList_1<ArraySegment_1<System_Internal.Byte>> | undefined;
-    set BufferList(value: IList_1<ArraySegment_1<System_Internal.Byte>>);
+    set BufferList(value: IList_1<ArraySegment_1<System_Internal.Byte>> | undefined);
     readonly BytesTransferred: int;
     readonly ConnectByNameError: Exception | undefined;
     readonly ConnectSocket: Socket | undefined;
@@ -851,16 +834,19 @@ export interface SocketAsyncEventArgs$instance extends SocketAsyncEventArgs$prot
     readonly MemoryBuffer: Memory_1<System_Internal.Byte>;
     readonly Offset: int;
     readonly ReceiveMessageFromPacketInfo: IPPacketInformation;
-    RemoteEndPoint: EndPoint;
+    get RemoteEndPoint(): EndPoint | undefined;
+    set RemoteEndPoint(value: EndPoint | undefined);
     get SendPacketsElements(): SendPacketsElement[] | undefined;
-    set SendPacketsElements(value: SendPacketsElement[]);
+    set SendPacketsElements(value: SendPacketsElement[] | undefined);
     SendPacketsFlags: TransmitFileOptions;
     SendPacketsSendSize: int;
     SocketError: SocketError;
     SocketFlags: SocketFlags;
     get UserToken(): unknown | undefined;
-    set UserToken(value: unknown);
+    set UserToken(value: unknown | undefined);
     Dispose(): void;
+    Finalize(): void;
+    OnCompleted(e: SocketAsyncEventArgs): void;
     SetBuffer(offset: int, count: int): void;
     SetBuffer(buffer: byte[], offset: int, count: int): void;
     SetBuffer(buffer: Memory_1<System_Internal.Byte>): void;
@@ -893,7 +879,6 @@ export interface SocketException$instance extends Win32Exception {
 export const SocketException: {
     new(errorCode: int): SocketException;
     new(errorCode: int, message: string): SocketException;
-    new(serializationInfo: SerializationInfo, streamingContext: StreamingContext): SocketException;
     new(): SocketException;
 };
 
@@ -905,19 +890,13 @@ export interface __SocketException$views {
 export type SocketException = SocketException$instance & __SocketException$views;
 
 
-export abstract class TcpClient$protected {
-    protected Dispose(disposing: boolean): void;
-    protected Finalize(): void;
-}
-
-
-export interface TcpClient$instance extends TcpClient$protected {
+export interface TcpClient$instance {
     readonly Available: int;
     Client: Socket;
     readonly Connected: boolean;
     ExclusiveAddressUse: boolean;
     get LingerState(): LingerOption | undefined;
-    set LingerState(value: LingerOption);
+    set LingerState(value: LingerOption | undefined);
     NoDelay: boolean;
     ReceiveBufferSize: int;
     ReceiveTimeout: int;
@@ -939,8 +918,10 @@ export interface TcpClient$instance extends TcpClient$protected {
     ConnectAsync(host: string, port: int, cancellationToken: CancellationToken): ValueTask;
     ConnectAsync(addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
     ConnectAsync(remoteEP: IPEndPoint, cancellationToken: CancellationToken): ValueTask;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     EndConnect(asyncResult: IAsyncResult): void;
+    Finalize(): void;
     GetStream(): NetworkStream;
 }
 
@@ -1000,12 +981,7 @@ export interface TcpListener$instance extends System_Internal.IDisposable$instan
 export type TcpListener = TcpListener$instance & __TcpListener$views;
 
 
-export abstract class UdpClient$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface UdpClient$instance extends UdpClient$protected {
+export interface UdpClient$instance {
     readonly Available: int;
     Client: Socket;
     DontFragment: boolean;
@@ -1023,6 +999,7 @@ export interface UdpClient$instance extends UdpClient$protected {
     Connect(addr: IPAddress, port: int): void;
     Connect(endPoint: IPEndPoint): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DropMulticastGroup(multicastAddr: IPAddress): void;
     DropMulticastGroup(multicastAddr: IPAddress, ifindex: int): void;
     EndReceive(asyncResult: IAsyncResult, remoteEP: IPEndPoint): byte[];

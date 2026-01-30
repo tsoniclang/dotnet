@@ -1104,9 +1104,9 @@ export type CustomAttributeHandleCollection_Enumerator = CustomAttributeHandleCo
 
 export interface CustomAttributeNamedArgument_1$instance<TType> {
     readonly Kind: CustomAttributeNamedArgumentKind;
-    readonly Name: string;
+    readonly Name: string | undefined;
     readonly Type: TType;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
 }
 
 
@@ -1119,7 +1119,7 @@ export type CustomAttributeNamedArgument_1<TType> = CustomAttributeNamedArgument
 
 export interface CustomAttributeTypedArgument_1$instance<TType> {
     readonly Type: TType;
-    readonly Value: unknown;
+    readonly Value: unknown | undefined;
 }
 
 
@@ -3577,12 +3577,12 @@ export type UserStringHandle = UserStringHandle$instance & __UserStringHandle$vi
 
 
 export interface AssemblyNameInfo$instance {
-    readonly CultureName: string;
+    readonly CultureName: string | undefined;
     readonly Flags: AssemblyNameFlags;
     readonly FullName: string;
     readonly Name: string;
     readonly PublicKeyOrToken: ImmutableArray_1<System_Internal.Byte>;
-    readonly Version: Version;
+    readonly Version: Version | undefined;
     ToAssemblyName(): AssemblyName;
 }
 
@@ -3596,17 +3596,13 @@ export const AssemblyNameInfo: {
 
 export type AssemblyNameInfo = AssemblyNameInfo$instance;
 
-export abstract class BlobBuilder$protected {
-    protected AllocateChunk(minimalSize: int): BlobBuilder;
-    protected FreeChunk(): void;
-}
-
-
-export interface BlobBuilder$instance extends BlobBuilder$protected {
+export interface BlobBuilder$instance {
     readonly Count: int;
     Align(alignment: int): void;
+    AllocateChunk(minimalSize: int): BlobBuilder;
     Clear(): void;
     ContentEquals(other: BlobBuilder): boolean;
+    FreeChunk(): void;
     GetBlobs(): BlobBuilder_Blobs;
     LinkPrefix(prefix: BlobBuilder): void;
     LinkSuffix(suffix: BlobBuilder): void;
@@ -3671,7 +3667,6 @@ export interface DebugMetadataHeader$instance {
 
 
 export const DebugMetadataHeader: {
-    new(): DebugMetadataHeader;
 };
 
 
@@ -3688,7 +3683,6 @@ export interface HandleComparer$instance {
 
 
 export const HandleComparer: {
-    new(): HandleComparer;
     readonly Default: HandleComparer;
 };
 
@@ -3712,7 +3706,6 @@ export const ImageFormatLimitationException: {
     new(): ImageFormatLimitationException;
     new(message: string): ImageFormatLimitationException;
     new(message: string, innerException: Exception): ImageFormatLimitationException;
-    new(info: SerializationInfo, context: StreamingContext): ImageFormatLimitationException;
 };
 
 
@@ -3821,7 +3814,6 @@ export interface MetadataReaderProvider$instance {
 
 
 export const MetadataReaderProvider: {
-    new(): MetadataReaderProvider;
     FromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
     FromMetadataImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
     FromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
@@ -3879,7 +3871,6 @@ export interface MethodBodyBlock$instance {
 
 
 export const MethodBodyBlock: {
-    new(): MethodBodyBlock;
     Create(reader: BlobReader): MethodBodyBlock;
 };
 
@@ -3887,7 +3878,7 @@ export const MethodBodyBlock: {
 export type MethodBodyBlock = MethodBodyBlock$instance;
 
 export interface TypeName$instance {
-    readonly AssemblyName: AssemblyNameInfo;
+    readonly AssemblyName: AssemblyNameInfo | undefined;
     readonly AssemblyQualifiedName: string;
     readonly DeclaringType: TypeName;
     readonly FullName: string;
@@ -3916,7 +3907,6 @@ export interface TypeName$instance {
 
 
 export const TypeName: {
-    new(): TypeName;
     Parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
     TryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
     Unescape(name: string): string;

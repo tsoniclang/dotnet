@@ -217,9 +217,10 @@ export const Activity_Enumerator_1: {
 export type Activity_Enumerator_1<T> = Activity_Enumerator_1$instance<T>;
 
 export interface ActivityChangedEventArgs$instance {
-    Current: Activity;
+    get Current(): Activity | undefined;
+    set Current(value: Activity | undefined);
     get Previous(): Activity | undefined;
-    set Previous(value: Activity);
+    set Previous(value: Activity | undefined);
 }
 
 
@@ -262,15 +263,15 @@ export type ActivityContext = ActivityContext$instance & __ActivityContext$views
 
 export interface ActivityCreationOptions_1$instance<T> {
     readonly Kind: ActivityKind;
-    readonly Links: IEnumerable_1<ActivityLink>;
+    readonly Links: IEnumerable_1<ActivityLink> | undefined;
     readonly Name: string;
     readonly Parent: T;
     readonly SamplingTags: ActivityTagsCollection;
     readonly Source: ActivitySource;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
     readonly TraceId: ActivityTraceId;
     get TraceState(): string | undefined;
-    set TraceState(value: string);
+    set TraceState(value: string | undefined);
 }
 
 
@@ -299,7 +300,7 @@ export type ActivityEvent = ActivityEvent$instance;
 
 export interface ActivityLink$instance {
     readonly Context: ActivityContext;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
     EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
     Equals(obj: unknown): boolean;
     Equals(value: ActivityLink): boolean;
@@ -498,12 +499,7 @@ export interface __TagList_Enumerator$views {
 export type TagList_Enumerator = TagList_Enumerator$instance & __TagList_Enumerator$views;
 
 
-export abstract class Activity$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface Activity$instance extends Activity$protected {
+export interface Activity$instance {
     ActivityTraceFlags: ActivityTraceFlags;
     readonly Baggage: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly Context: ActivityContext;
@@ -511,14 +507,15 @@ export interface Activity$instance extends Activity$protected {
     Duration: TimeSpan;
     readonly Events: IEnumerable_1<ActivityEvent>;
     HasRemoteParent: boolean;
-    readonly Id: string;
+    readonly Id: string | undefined;
     IdFormat: ActivityIdFormat;
     IsAllDataRequested: boolean;
     IsStopped: boolean;
     Kind: ActivityKind;
     readonly Links: IEnumerable_1<ActivityLink>;
     readonly OperationName: string;
-    Parent: Activity;
+    get Parent(): Activity | undefined;
+    set Parent(value: Activity | undefined);
     readonly ParentId: string | undefined;
     readonly ParentSpanId: ActivitySpanId;
     readonly Recorded: boolean;
@@ -527,12 +524,12 @@ export interface Activity$instance extends Activity$protected {
     readonly SpanId: ActivitySpanId;
     StartTimeUtc: DateTime;
     readonly Status: ActivityStatusCode;
-    readonly StatusDescription: string;
+    readonly StatusDescription: string | undefined;
     readonly TagObjects: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
     readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly TraceId: ActivityTraceId;
     get TraceStateString(): string | undefined;
-    set TraceStateString(value: string);
+    set TraceStateString(value: string | undefined);
     AddBaggage(key: string, value: string): Activity;
     AddEvent(e: ActivityEvent): Activity;
     AddException(exception: Exception, tags?: TagList, timestamp?: DateTimeOffset): Activity;
@@ -540,6 +537,7 @@ export interface Activity$instance extends Activity$protected {
     AddTag(key: string, value: string): Activity;
     AddTag(key: string, value: unknown): Activity;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EnumerateEvents(): Activity_Enumerator_1<ActivityEvent>;
     EnumerateLinks(): Activity_Enumerator_1<ActivityLink>;
     EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
@@ -564,9 +562,9 @@ export const Activity: {
     new(operationName: string): Activity;
     ForceDefaultIdFormat: boolean;
     get Current(): Activity | undefined;
-    set Current(value: Activity);
+    set Current(value: Activity | undefined);
     get TraceIdGenerator(): Func_1<ActivityTraceId> | undefined;
-    set TraceIdGenerator(value: Func_1<ActivityTraceId>);
+    set TraceIdGenerator(value: Func_1<ActivityTraceId> | undefined);
     DefaultIdFormat: ActivityIdFormat;
 };
 
@@ -580,17 +578,17 @@ export type Activity = Activity$instance & __Activity$views;
 
 export interface ActivityListener$instance {
     get ActivityStarted(): Action_1<Activity> | undefined;
-    set ActivityStarted(value: Action_1<Activity>);
+    set ActivityStarted(value: Action_1<Activity> | undefined);
     get ActivityStopped(): Action_1<Activity> | undefined;
-    set ActivityStopped(value: Action_1<Activity>);
+    set ActivityStopped(value: Action_1<Activity> | undefined);
     get ExceptionRecorder(): ExceptionRecorder | undefined;
-    set ExceptionRecorder(value: ExceptionRecorder);
+    set ExceptionRecorder(value: ExceptionRecorder | undefined);
     get Sample(): SampleActivity_1<ActivityContext> | undefined;
-    set Sample(value: SampleActivity_1<ActivityContext>);
+    set Sample(value: SampleActivity_1<ActivityContext> | undefined);
     get SampleUsingParentId(): SampleActivity_1<System_Internal.String> | undefined;
-    set SampleUsingParentId(value: SampleActivity_1<System_Internal.String>);
+    set SampleUsingParentId(value: SampleActivity_1<System_Internal.String> | undefined);
     get ShouldListenTo(): Func_2<ActivitySource, System_Internal.Boolean> | undefined;
-    set ShouldListenTo(value: Func_2<ActivitySource, System_Internal.Boolean>);
+    set ShouldListenTo(value: Func_2<ActivitySource, System_Internal.Boolean> | undefined);
     Dispose(): void;
 }
 
@@ -611,9 +609,9 @@ export type ActivityListener = ActivityListener$instance & __ActivityListener$vi
 
 export interface ActivitySource$instance {
     readonly Name: string;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
     readonly TelemetrySchemaUrl: string | undefined;
-    readonly Version: string;
+    readonly Version: string | undefined;
     CreateActivity(name: string, kind: ActivityKind): Activity | undefined;
     CreateActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>, links?: IEnumerable_1<ActivityLink>, idFormat?: ActivityIdFormat): Activity | undefined;
     CreateActivity(name: string, kind: ActivityKind, parentId: string, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>, links?: IEnumerable_1<ActivityLink>, idFormat?: ActivityIdFormat): Activity | undefined;
@@ -646,10 +644,12 @@ export type ActivitySource = ActivitySource$instance & __ActivitySource$views;
 
 export interface ActivitySourceOptions$instance {
     Name: string;
-    Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
+    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined);
     get TelemetrySchemaUrl(): string | undefined;
-    set TelemetrySchemaUrl(value: string);
-    Version: string;
+    set TelemetrySchemaUrl(value: string | undefined);
+    get Version(): string | undefined;
+    set Version(value: string | undefined);
 }
 
 
@@ -663,7 +663,8 @@ export type ActivitySourceOptions = ActivitySourceOptions$instance;
 export interface ActivityTagsCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Item: unknown;
+    get Item(): unknown | undefined;
+    set Item(value: unknown | undefined);
     readonly Keys: ICollection_1<System_Internal.String>;
     readonly Values: ICollection_1<unknown | undefined>;
     Add(key: string, value: unknown): void;
@@ -695,13 +696,9 @@ export interface __ActivityTagsCollection$views {
 export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views;
 
 
-export abstract class BooleanSwitch$protected {
-    protected OnValueChanged(): void;
-}
-
-
-export interface BooleanSwitch$instance extends BooleanSwitch$protected, Switch {
+export interface BooleanSwitch$instance extends Switch {
     Enabled: boolean;
+    OnValueChanged(): void;
 }
 
 
@@ -725,14 +722,10 @@ export const ConditionalAttribute: {
 
 export type ConditionalAttribute = ConditionalAttribute$instance;
 
-export abstract class ConsoleTraceListener$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface ConsoleTraceListener$instance extends ConsoleTraceListener$protected, TextWriterTraceListener$instance {
+export interface ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
     Close(): void;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
 }
 
 
@@ -759,19 +752,17 @@ export interface CorrelationManager$instance {
 
 
 export const CorrelationManager: {
-    new(): CorrelationManager;
 };
 
 
 export type CorrelationManager = CorrelationManager$instance;
 
 export interface DataReceivedEventArgs$instance extends EventArgs {
-    readonly Data: string;
+    readonly Data: string | undefined;
 }
 
 
 export const DataReceivedEventArgs: {
-    new(): DataReceivedEventArgs;
 };
 
 
@@ -816,11 +807,14 @@ export const DebuggerDisableUserUnhandledExceptionsAttribute: {
 export type DebuggerDisableUserUnhandledExceptionsAttribute = DebuggerDisableUserUnhandledExceptionsAttribute$instance;
 
 export interface DebuggerDisplayAttribute$instance extends Attribute {
-    Name: string;
-    Target: Type;
+    get Name(): string | undefined;
+    set Name(value: string | undefined);
+    get Target(): Type | undefined;
+    set Target(value: Type | undefined);
     get TargetTypeName(): string | undefined;
-    set TargetTypeName(value: string);
-    Type: string;
+    set TargetTypeName(value: string | undefined);
+    get Type(): string | undefined;
+    set Type(value: string | undefined);
     readonly Value: string;
 }
 
@@ -878,9 +872,10 @@ export type DebuggerStepThroughAttribute = DebuggerStepThroughAttribute$instance
 
 export interface DebuggerTypeProxyAttribute$instance extends Attribute {
     readonly ProxyTypeName: string;
-    Target: Type;
+    get Target(): Type | undefined;
+    set Target(value: Type | undefined);
     get TargetTypeName(): string | undefined;
-    set TargetTypeName(value: string);
+    set TargetTypeName(value: string | undefined);
 }
 
 
@@ -893,10 +888,12 @@ export const DebuggerTypeProxyAttribute: {
 export type DebuggerTypeProxyAttribute = DebuggerTypeProxyAttribute$instance;
 
 export interface DebuggerVisualizerAttribute$instance extends Attribute {
-    Description: string;
-    Target: Type;
+    get Description(): string | undefined;
+    set Description(value: string | undefined);
+    get Target(): Type | undefined;
+    set Target(value: Type | undefined);
     get TargetTypeName(): string | undefined;
-    set TargetTypeName(value: string);
+    set TargetTypeName(value: string | undefined);
     readonly VisualizerObjectSourceTypeName: string | undefined;
     readonly VisualizerTypeName: string;
 }
@@ -932,16 +929,12 @@ export const DebugProvider: {
 
 export type DebugProvider = DebugProvider$instance;
 
-export abstract class DefaultTraceListener$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface DefaultTraceListener$instance extends DefaultTraceListener$protected, TraceListener$instance {
+export interface DefaultTraceListener$instance extends TraceListener$instance {
     AssertUiEnabled: boolean;
     get LogFileName(): string | undefined;
-    set LogFileName(value: string);
+    set LogFileName(value: string | undefined);
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Fail(message: string): void;
     Fail(message: string, detailMessage: string): void;
     Write(message: string): void;
@@ -967,15 +960,11 @@ export interface __DefaultTraceListener$views {
 export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTraceListener$views;
 
 
-export abstract class DelimitedListTraceListener$protected {
-    protected Dispose(disposing: boolean): void;
-    protected GetSupportedAttributes(): string[];
-}
-
-
-export interface DelimitedListTraceListener$instance extends DelimitedListTraceListener$protected, TextWriterTraceListener$instance {
+export interface DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
     Delimiter: string;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
+    GetSupportedAttributes(): string[];
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
     TraceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
@@ -1042,7 +1031,6 @@ export interface DiagnosticMethodInfo$instance {
 
 
 export const DiagnosticMethodInfo: {
-    new(): DiagnosticMethodInfo;
     Create(delegate: Function): DiagnosticMethodInfo | undefined;
     Create(frame: StackFrame): DiagnosticMethodInfo | undefined;
 };
@@ -1064,8 +1052,7 @@ export interface DiagnosticSource$instance {
 }
 
 
-export const DiagnosticSource: {
-    new(): DiagnosticSource;
+export const DiagnosticSource: (abstract new() => DiagnosticSource) & {
 };
 
 
@@ -1079,8 +1066,7 @@ export interface DistributedContextPropagator$instance {
 }
 
 
-export const DistributedContextPropagator: {
-    new(): DistributedContextPropagator;
+export const DistributedContextPropagator: (abstract new() => DistributedContextPropagator) & {
     Current: DistributedContextPropagator;
     CreateDefaultPropagator(): DistributedContextPropagator;
     CreateNoOutputPropagator(): DistributedContextPropagator;
@@ -1138,7 +1124,6 @@ export interface FileVersionInfo$instance {
 
 
 export const FileVersionInfo: {
-    new(): FileVersionInfo;
     GetVersionInfo(fileName: string): FileVersionInfo;
 };
 
@@ -1182,12 +1167,7 @@ export const MonitoringDescriptionAttribute: {
 
 export type MonitoringDescriptionAttribute = MonitoringDescriptionAttribute$instance;
 
-export abstract class Process$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface Process$instance extends Process$protected, Component {
+export interface Process$instance extends Component {
     readonly BasePriority: int;
     EnableRaisingEvents: boolean;
     readonly ExitCode: int;
@@ -1231,7 +1211,7 @@ export interface Process$instance extends Process$protected, Component {
     StartInfo: ProcessStartInfo;
     readonly StartTime: DateTime;
     get SynchronizingObject(): ISynchronizeInvoke | undefined;
-    set SynchronizingObject(value: ISynchronizeInvoke);
+    set SynchronizingObject(value: ISynchronizeInvoke | undefined);
     readonly Threads: ProcessThreadCollection;
     readonly TotalProcessorTime: TimeSpan;
     readonly UserProcessorTime: TimeSpan;
@@ -1245,6 +1225,7 @@ export interface Process$instance extends Process$protected, Component {
     CancelOutputRead(): void;
     Close(): void;
     CloseMainWindow(): boolean;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Kill(): void;
     Kill(entireProcessTree: boolean): void;
@@ -1289,12 +1270,7 @@ export interface __Process$views {
 export type Process = Process$instance & __Process$views;
 
 
-export abstract class ProcessModule$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ProcessModule$instance extends ProcessModule$protected, Component {
+export interface ProcessModule$instance extends Component {
     BaseAddress: nint;
     EntryPointAddress: nint;
     readonly FileName: string;
@@ -1302,12 +1278,12 @@ export interface ProcessModule$instance extends ProcessModule$protected, Compone
     ModuleMemorySize: int;
     readonly ModuleName: string;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ToString(): string;
 }
 
 
 export const ProcessModule: {
-    new(): ProcessModule;
 };
 
 
@@ -1329,7 +1305,6 @@ export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase
 
 
 export const ProcessModuleCollection: {
-    new(): ProcessModuleCollection;
     new(processModules: ProcessModule[]): ProcessModuleCollection;
 };
 
@@ -1356,18 +1331,19 @@ export interface ProcessStartInfo$instance {
     ErrorDialogParentHandle: nint;
     FileName: string;
     LoadUserProfile: boolean;
-    Password: SecureString;
+    get Password(): SecureString | undefined;
+    set Password(value: SecureString | undefined);
     get PasswordInClearText(): string | undefined;
-    set PasswordInClearText(value: string);
+    set PasswordInClearText(value: string | undefined);
     RedirectStandardError: boolean;
     RedirectStandardInput: boolean;
     RedirectStandardOutput: boolean;
     get StandardErrorEncoding(): Encoding | undefined;
-    set StandardErrorEncoding(value: Encoding);
+    set StandardErrorEncoding(value: Encoding | undefined);
     get StandardInputEncoding(): Encoding | undefined;
-    set StandardInputEncoding(value: Encoding);
+    set StandardInputEncoding(value: Encoding | undefined);
     get StandardOutputEncoding(): Encoding | undefined;
-    set StandardOutputEncoding(value: Encoding);
+    set StandardOutputEncoding(value: Encoding | undefined);
     UseCredentialsForNetworkingOnly: boolean;
     UserName: string;
     UseShellExecute: boolean;
@@ -1388,12 +1364,7 @@ export const ProcessStartInfo: {
 
 export type ProcessStartInfo = ProcessStartInfo$instance;
 
-export abstract class ProcessThread$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface ProcessThread$instance extends ProcessThread$protected, Component {
+export interface ProcessThread$instance extends Component {
     readonly BasePriority: int;
     readonly CurrentPriority: int;
     readonly Id: int;
@@ -1409,12 +1380,12 @@ export interface ProcessThread$instance extends ProcessThread$protected, Compone
     readonly UserProcessorTime: TimeSpan;
     readonly WaitReason: ThreadWaitReason;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ResetIdealProcessor(): void;
 }
 
 
 export const ProcessThread: {
-    new(): ProcessThread;
 };
 
 
@@ -1439,7 +1410,6 @@ export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase
 
 
 export const ProcessThreadCollection: {
-    new(): ProcessThreadCollection;
     new(processThreads: ProcessThread[]): ProcessThreadCollection;
 };
 
@@ -1467,13 +1437,9 @@ export const SourceFilter: {
 
 export type SourceFilter = SourceFilter$instance;
 
-export abstract class SourceSwitch$protected {
-    protected OnValueChanged(): void;
-}
-
-
-export interface SourceSwitch$instance extends SourceSwitch$protected, Switch {
+export interface SourceSwitch$instance extends Switch {
     Level: SourceLevels;
+    OnValueChanged(): void;
     ShouldTrace(eventType: TraceEventType): boolean;
 }
 
@@ -1572,26 +1538,20 @@ export const Stopwatch: {
 
 export type Stopwatch = Stopwatch$instance;
 
-export abstract class Switch$protected {
-    protected GetSupportedAttributes(): string[] | undefined;
-    protected OnSwitchSettingChanged(): void;
-    protected OnValueChanged(): void;
-}
-
-
-export interface Switch$instance extends Switch$protected {
+export interface Switch$instance {
     readonly Attributes: StringDictionary;
     readonly DefaultValue: string;
     readonly Description: string;
     readonly DisplayName: string;
     Value: string;
+    GetSupportedAttributes(): string[] | undefined;
+    OnSwitchSettingChanged(): void;
+    OnValueChanged(): void;
     Refresh(): void;
 }
 
 
-export const Switch: {
-    new(displayName: string, description: string): Switch;
-    new(displayName: string, description: string, defaultSwitchValue: string): Switch;
+export const Switch: (abstract new(displayName: string, description: string) => Switch) & (abstract new(displayName: string, description: string, defaultSwitchValue: string) => Switch) & {
 };
 
 
@@ -1599,7 +1559,7 @@ export type Switch = Switch$instance;
 
 export interface SwitchAttribute$instance extends Attribute {
     get SwitchDescription(): string | undefined;
-    set SwitchDescription(value: string);
+    set SwitchDescription(value: string | undefined);
     SwitchName: string;
     SwitchType: Type;
 }
@@ -1625,14 +1585,11 @@ export const SwitchLevelAttribute: {
 
 export type SwitchLevelAttribute = SwitchLevelAttribute$instance;
 
-export abstract class TextWriterTraceListener$protected {
-    protected Dispose2(disposing: boolean): void;
-}
-
-
-export interface TextWriterTraceListener$instance extends TextWriterTraceListener$protected, TraceListener$instance {
-    Writer: TextWriter;
+export interface TextWriterTraceListener$instance extends TraceListener$instance {
+    get Writer(): TextWriter | undefined;
+    set Writer(value: TextWriter | undefined);
     Close(): void;
+    Dispose(disposing: boolean): void;
     Dispose(): void;
     Flush(): void;
     Write(message: string): void;
@@ -1669,7 +1626,6 @@ export interface Trace$instance {
 
 
 export const Trace: {
-    new(): Trace;
     readonly CorrelationManager: CorrelationManager;
     readonly Listeners: TraceListenerCollection;
     AutoFlush: boolean;
@@ -1735,23 +1691,16 @@ export interface TraceFilter$instance {
 }
 
 
-export const TraceFilter: {
-    new(): TraceFilter;
+export const TraceFilter: (abstract new() => TraceFilter) & {
 };
 
 
 export type TraceFilter = TraceFilter$instance;
 
-export abstract class TraceListener$protected {
-    protected Dispose(disposing: boolean): void;
-    protected GetSupportedAttributes(): string[] | undefined;
-    protected WriteIndent(): void;
-}
-
-
-export interface TraceListener$instance extends TraceListener$protected, MarshalByRefObject {
+export interface TraceListener$instance extends MarshalByRefObject {
     readonly Attributes: StringDictionary;
-    Filter: TraceFilter;
+    get Filter(): TraceFilter | undefined;
+    set Filter(value: TraceFilter | undefined);
     IndentLevel: int;
     IndentSize: int;
     readonly IsThreadSafe: boolean;
@@ -1759,9 +1708,11 @@ export interface TraceListener$instance extends TraceListener$protected, Marshal
     TraceOutputOptions: TraceOptions;
     Close(): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Fail(message: string): void;
     Fail(message: string, detailMessage: string): void;
     Flush(): void;
+    GetSupportedAttributes(): string[] | undefined;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
     TraceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int): void;
@@ -1772,6 +1723,7 @@ export interface TraceListener$instance extends TraceListener$protected, Marshal
     Write(o: unknown): void;
     Write(message: string, category: string): void;
     Write(o: unknown, category: string): void;
+    WriteIndent(): void;
     WriteLine(message: string): void;
     WriteLine(o: unknown): void;
     WriteLine(message: string, category: string): void;
@@ -1779,9 +1731,7 @@ export interface TraceListener$instance extends TraceListener$protected, Marshal
 }
 
 
-export const TraceListener: {
-    new(): TraceListener;
-    new(name: string): TraceListener;
+export const TraceListener: (abstract new() => TraceListener) & (abstract new(name: string) => TraceListener) & {
 };
 
 
@@ -1801,7 +1751,7 @@ export interface TraceListenerCollection$instance {
     Contains(listener: TraceListener): boolean;
     CopyTo(listeners: TraceListener[], index: int): void;
     get_Item(i: int): TraceListener;
-    get_Item(name: string): TraceListener;
+    get_Item(name: string): TraceListener | undefined;
     GetEnumerator(): IEnumerator;
     IndexOf(listener: TraceListener): int;
     Insert(index: int, listener: TraceListener): void;
@@ -1813,7 +1763,6 @@ export interface TraceListenerCollection$instance {
 
 
 export const TraceListenerCollection: {
-    new(): TraceListenerCollection;
 };
 
 
@@ -1826,12 +1775,7 @@ export interface __TraceListenerCollection$views {
 export type TraceListenerCollection = TraceListenerCollection$instance & __TraceListenerCollection$views;
 
 
-export abstract class TraceSource$protected {
-    protected GetSupportedAttributes(): string[] | undefined;
-}
-
-
-export interface TraceSource$instance extends TraceSource$protected {
+export interface TraceSource$instance {
     readonly Attributes: StringDictionary;
     readonly DefaultLevel: SourceLevels;
     readonly Listeners: TraceListenerCollection;
@@ -1839,6 +1783,7 @@ export interface TraceSource$instance extends TraceSource$protected {
     Switch: SourceSwitch;
     Close(): void;
     Flush(): void;
+    GetSupportedAttributes(): string[] | undefined;
     TraceData(eventType: TraceEventType, id: int, data: unknown): void;
     TraceData(eventType: TraceEventType, id: int, ...data: unknown[]): void;
     TraceEvent(eventType: TraceEventType, id: int): void;
@@ -1858,18 +1803,14 @@ export const TraceSource: {
 
 export type TraceSource = TraceSource$instance;
 
-export abstract class TraceSwitch$protected {
-    protected OnSwitchSettingChanged(): void;
-    protected OnValueChanged(): void;
-}
-
-
-export interface TraceSwitch$instance extends TraceSwitch$protected, Switch {
+export interface TraceSwitch$instance extends Switch {
     Level: TraceLevel;
     readonly TraceError: boolean;
     readonly TraceInfo: boolean;
     readonly TraceVerbose: boolean;
     readonly TraceWarning: boolean;
+    OnSwitchSettingChanged(): void;
+    OnValueChanged(): void;
 }
 
 
@@ -1900,14 +1841,10 @@ export interface __UnreachableException$views {
 export type UnreachableException = UnreachableException$instance & __UnreachableException$views;
 
 
-export abstract class XmlWriterTraceListener$protected {
-    protected Dispose(disposing: boolean): void;
-}
-
-
-export interface XmlWriterTraceListener$instance extends XmlWriterTraceListener$protected, TextWriterTraceListener$instance {
+export interface XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
     Close(): void;
-    Dispose5(): void;
+    Dispose(disposing: boolean): void;
+    Dispose(): void;
     Fail(message: string, detailMessage: string): void;
     Fail(message: string): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;

@@ -53,8 +53,7 @@ export interface CodeAccessSecurityAttribute$instance extends SecurityAttribute 
 }
 
 
-export const CodeAccessSecurityAttribute: {
-    new(action: SecurityAction): CodeAccessSecurityAttribute;
+export const CodeAccessSecurityAttribute: (abstract new(action: SecurityAction) => CodeAccessSecurityAttribute) & {
 };
 
 
@@ -67,8 +66,7 @@ export interface SecurityAttribute$instance extends Attribute {
 }
 
 
-export const SecurityAttribute: {
-    new(action: SecurityAction): SecurityAttribute;
+export const SecurityAttribute: (abstract new(action: SecurityAction) => SecurityAttribute) & {
 };
 
 

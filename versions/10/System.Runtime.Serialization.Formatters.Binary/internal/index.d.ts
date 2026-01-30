@@ -15,11 +15,12 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 
 export interface BinaryFormatter$instance {
     AssemblyFormat: FormatterAssemblyStyle;
-    Binder: SerializationBinder;
+    get Binder(): SerializationBinder | undefined;
+    set Binder(value: SerializationBinder | undefined);
     Context: StreamingContext;
     FilterLevel: TypeFilterLevel;
     get SurrogateSelector(): ISurrogateSelector | undefined;
-    set SurrogateSelector(value: ISurrogateSelector);
+    set SurrogateSelector(value: ISurrogateSelector | undefined);
     TypeFormat: FormatterTypeStyle;
     Deserialize(serializationStream: Stream): unknown;
     Serialize(serializationStream: Stream, graph: unknown): void;
