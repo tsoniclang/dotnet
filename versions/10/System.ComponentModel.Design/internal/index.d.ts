@@ -451,7 +451,7 @@ export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export interface DesignerCollection$instance {
     readonly Count: int;
-    readonly Item: IDesignerHost | undefined;
+    readonly [index: number]: IDesignerHost | undefined;
     GetEnumerator(): IEnumerator;
 }
 
@@ -583,7 +583,7 @@ export const DesignerVerb: {
 export type DesignerVerb = DesignerVerb$instance;
 
 export interface DesignerVerbCollection$instance extends CollectionBase {
-    Item: DesignerVerb;
+    [index: number]: DesignerVerb;
     Add(value: unknown): int;
     AddRange(value: DesignerVerb[]): void;
     AddRange(value: DesignerVerbCollection): void;

@@ -245,7 +245,7 @@ export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __Nam
 
 export interface NameObjectCollectionBase_KeysCollection$instance {
     readonly Count: int;
-    readonly Item: string | undefined;
+    readonly [index: number]: string | undefined;
     Get(index: int): string | undefined;
     GetEnumerator(): IEnumerator;
 }
@@ -385,7 +385,7 @@ export interface StringCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    Item: string;
+    [index: number]: string;
     readonly SyncRoot: unknown;
     Add(value: string): int;
     AddRange(value: string[]): void;
@@ -417,8 +417,7 @@ export type StringCollection = StringCollection$instance & __StringCollection$vi
 export interface StringDictionary$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    get Item(): string | undefined;
-    set Item(value: string | undefined);
+    [key: string]: string | undefined;
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;

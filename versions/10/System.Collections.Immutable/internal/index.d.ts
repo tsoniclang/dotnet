@@ -38,7 +38,7 @@ export interface IImmutableDictionary_2$instance<TKey, TValue> extends IReadOnly
 export type IImmutableDictionary_2<TKey, TValue> = IImmutableDictionary_2$instance<TKey, TValue>;
 
 export interface IImmutableList_1$instance<T> extends IReadOnlyList_1<T>, IEnumerable_1<T>, IEnumerable, IReadOnlyCollection_1<T> {
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly Count: int;
     Add(value: T): IImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): IImmutableList_1<T>;
@@ -106,7 +106,7 @@ export interface ImmutableArray_1$instance<T> {
     readonly IsDefault: boolean;
     readonly IsDefaultOrEmpty: boolean;
     readonly IsEmpty: boolean;
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly Length: int;
     Add(item: T): ImmutableArray_1<T>;
     AddRange(items: IEnumerable_1<T>): ImmutableArray_1<T>;
@@ -348,7 +348,7 @@ export type ImmutableStack_1_Enumerator<T> = ImmutableStack_1_Enumerator$instanc
 export interface ImmutableArray_1_Builder$instance<T> {
     Capacity: int;
     Count: int;
-    Item: T;
+    [index: number]: T;
     Add(item: T): void;
     AddRange(items: IEnumerable_1<T>): void;
     AddRange(...items: T[]): void;
@@ -590,7 +590,7 @@ export type ImmutableHashSet_1_Builder<T> = ImmutableHashSet_1_Builder$instance<
 export interface ImmutableList_1$instance<T> {
     readonly Count: int;
     readonly IsEmpty: boolean;
-    readonly Item: T;
+    readonly [index: number]: T;
     Add(value: T): ImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): ImmutableList_1<T>;
     BinarySearch(item: T): int;
@@ -663,7 +663,7 @@ export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1
 
 export interface ImmutableList_1_Builder$instance<T> {
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     Add(item: T): void;
     AddRange(items: IEnumerable_1<T>): void;
     BinarySearch(item: T): int;
@@ -858,7 +858,7 @@ export type ImmutableSortedDictionary_2_Builder<TKey, TValue> = ImmutableSortedD
 export interface ImmutableSortedSet_1$instance<T> {
     readonly Count: int;
     readonly IsEmpty: boolean;
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly KeyComparer: IComparer_1<T>;
     readonly Max: T | undefined;
     readonly Min: T | undefined;
@@ -909,7 +909,7 @@ export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __Immut
 
 export interface ImmutableSortedSet_1_Builder$instance<T> {
     readonly Count: int;
-    readonly Item: T;
+    readonly [index: number]: T;
     KeyComparer: IComparer_1<T>;
     readonly Max: T | undefined;
     readonly Min: T | undefined;

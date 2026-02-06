@@ -797,7 +797,7 @@ export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & _
 
 
 export interface X509CertificateCollection$instance extends CollectionBase {
-    Item: X509Certificate | X509Certificate2;
+    [index: number]: X509Certificate | X509Certificate2;
     Add(value: unknown): int;
     AddRange(value: X509Certificate[]): void;
     AddRange(value: X509CertificateCollection): void;
@@ -893,7 +893,7 @@ export type X509ChainElement = X509ChainElement$instance;
 export interface X509ChainElementCollection$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly Item: X509ChainElement;
+    readonly [index: number]: X509ChainElement;
     readonly SyncRoot: unknown;
     CopyTo(array: X509ChainElement[], index: int): void;
     GetEnumerator(): X509ChainElementEnumerator;

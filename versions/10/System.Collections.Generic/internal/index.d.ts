@@ -119,7 +119,7 @@ export interface IEqualityComparer_1$instance<T> {
 export type IEqualityComparer_1<T> = IEqualityComparer_1$instance<T>;
 
 export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    Item: T;
+    [index: number]: T;
     readonly Count: int;
     readonly IsReadOnly: boolean;
     Add(item: T): void;
@@ -163,7 +163,7 @@ export interface IReadOnlyDictionary_2$instance<TKey, TValue> extends IReadOnlyC
 export type IReadOnlyDictionary_2<TKey, TValue> = IReadOnlyDictionary_2$instance<TKey, TValue>;
 
 export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly Count: int;
     GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
@@ -974,7 +974,7 @@ export type LinkedListNode_1<T> = LinkedListNode_1$instance<T>;
 export interface List_1$instance<T> {
     Capacity: int;
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     Add(item: T): void;
     AddRange(collection: IEnumerable_1<T>): void;
     AsReadOnly(): ReadOnlyCollection_1<T>;
@@ -1529,7 +1529,7 @@ export type SortedList_2<TKey, TValue> = SortedList_2$instance<TKey, TValue> & _
 export interface SortedList_2_KeyList$instance<TKey, TValue> {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Item: TKey;
+    [index: number]: TKey;
     Add(key: TKey): void;
     Clear(): void;
     Contains(key: TKey): boolean;
@@ -1560,7 +1560,7 @@ export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<T
 export interface SortedList_2_ValueList$instance<TKey, TValue> {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Item: TValue;
+    [index: number]: TValue;
     Add(key: TValue): void;
     Clear(): void;
     Contains(value: TValue): boolean;

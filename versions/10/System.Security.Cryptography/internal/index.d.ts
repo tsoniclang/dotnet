@@ -599,7 +599,7 @@ export type AsnEncodedData = AsnEncodedData$instance;
 export interface AsnEncodedDataCollection$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly Item: AsnEncodedData;
+    readonly [index: number]: AsnEncodedData;
     readonly SyncRoot: unknown;
     Add(asnEncodedData: AsnEncodedData): int;
     CopyTo(array: AsnEncodedData[], index: int): void;

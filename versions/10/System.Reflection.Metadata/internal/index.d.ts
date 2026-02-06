@@ -1758,7 +1758,7 @@ export type GenericParameterConstraintHandle = GenericParameterConstraintHandle$
 
 export interface GenericParameterConstraintHandleCollection$instance {
     readonly Count: int;
-    readonly Item: GenericParameterConstraintHandle;
+    readonly [index: number]: GenericParameterConstraintHandle;
     GetEnumerator(): GenericParameterConstraintHandleCollection_Enumerator;
 }
 
@@ -1822,7 +1822,7 @@ export type GenericParameterHandle = GenericParameterHandle$instance & __Generic
 
 export interface GenericParameterHandleCollection$instance {
     readonly Count: int;
-    readonly Item: GenericParameterHandle;
+    readonly [index: number]: GenericParameterHandle;
     GetEnumerator(): GenericParameterHandleCollection_Enumerator;
 }
 

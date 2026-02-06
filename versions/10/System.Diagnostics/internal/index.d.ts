@@ -447,7 +447,7 @@ export type Debug_WriteIfInterpolatedStringHandler = Debug_WriteIfInterpolatedSt
 export interface TagList$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Item: KeyValuePair_2<System_Internal.String, unknown>;
+    [index: number]: KeyValuePair_2<System_Internal.String, unknown>;
     Add(key: string, value: unknown): void;
     Add(tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Clear(): void;
@@ -663,8 +663,7 @@ export type ActivitySourceOptions = ActivitySourceOptions$instance;
 export interface ActivityTagsCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    [key: string]: unknown | undefined;
     readonly Keys: ICollection_1<System_Internal.String>;
     readonly Values: ICollection_1<unknown | undefined>;
     Add(key: string, value: unknown): void;
@@ -1296,7 +1295,7 @@ export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
 export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase {
-    readonly Item: ProcessModule;
+    readonly [index: number]: ProcessModule;
     Contains(module: ProcessModule): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -1398,7 +1397,7 @@ export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
 
 export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase {
-    readonly Item: ProcessThread;
+    readonly [index: number]: ProcessThread;
     Add(thread: ProcessThread): int;
     Contains(thread: ProcessThread): boolean;
     CopyTo(array: ClrArray, index: int): void;

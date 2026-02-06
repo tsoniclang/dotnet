@@ -422,7 +422,7 @@ export type XmlSchemaChoice = XmlSchemaChoice$instance;
 
 export interface XmlSchemaCollection$instance {
     readonly Count: int;
-    readonly Item: XmlSchema | undefined;
+    readonly [ns: string]: XmlSchema | undefined;
     readonly NameTable: XmlNameTable;
     Add(ns: string, uri: string): XmlSchema | undefined;
     Add(ns: string, reader: XmlReader): XmlSchema | undefined;
@@ -1016,7 +1016,7 @@ export const XmlSchemaObject: (abstract new() => XmlSchemaObject) & {
 export type XmlSchemaObject = XmlSchemaObject$instance;
 
 export interface XmlSchemaObjectCollection$instance extends CollectionBase {
-    Item: XmlSchemaObject;
+    [index: number]: XmlSchemaObject;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;

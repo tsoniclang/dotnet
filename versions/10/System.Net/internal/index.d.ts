@@ -1446,7 +1446,7 @@ export type ServicePointManager = ServicePointManager$instance;
 export interface SocketAddress$instance {
     readonly Buffer: Memory_1<System_Internal.Byte>;
     readonly Family: AddressFamily;
-    Item: byte;
+    [offset: number]: byte;
     Size: int;
     Equals(comparand: unknown): boolean;
     Equals(comparand: SocketAddress): boolean;

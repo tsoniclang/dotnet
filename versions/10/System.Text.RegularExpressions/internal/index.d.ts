@@ -148,7 +148,7 @@ export interface CaptureCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly Item: Capture;
+    readonly [i: number]: Capture;
     readonly SyncRoot: unknown;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Capture[], arrayIndex: int): void;
@@ -259,7 +259,7 @@ export interface MatchCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly Item: Match;
+    readonly [i: number]: Match;
     readonly SyncRoot: unknown;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Match[], arrayIndex: int): void;

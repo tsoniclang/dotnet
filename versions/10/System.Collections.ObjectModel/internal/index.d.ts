@@ -22,7 +22,7 @@ import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Obje
 
 export interface Collection_1$instance<T> {
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     Add(item: T): void;
     Clear(): void;
     ClearItems(): void;
@@ -152,7 +152,7 @@ export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __O
 
 export interface ReadOnlyCollection_1$instance<T> {
     readonly Count: int;
-    readonly Item: T;
+    readonly [index: number]: T;
     Contains(value: T): boolean;
     CopyTo(array: T[], index: int): void;
     GetEnumerator(): IEnumerator_1<T>;

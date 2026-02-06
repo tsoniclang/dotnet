@@ -490,7 +490,7 @@ export const InterfaceMapping: {
 export type InterfaceMapping = InterfaceMapping$instance;
 
 export interface ParameterModifier$instance {
-    Item: boolean;
+    [index: number]: boolean;
 }
 
 

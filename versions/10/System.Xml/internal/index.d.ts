@@ -1439,7 +1439,7 @@ export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
 export interface XmlNodeList$instance {
     readonly Count: int;
-    readonly ItemOf: XmlNode | undefined;
+    readonly [i: number]: XmlNode | undefined;
     GetEnumerator(): IEnumerator;
     Item(index: int): XmlNode | undefined;
     PrivateDisposeNodeList(): void;

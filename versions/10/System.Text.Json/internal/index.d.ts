@@ -86,7 +86,7 @@ export const JsonDocumentOptions: {
 export type JsonDocumentOptions = JsonDocumentOptions$instance;
 
 export interface JsonElement$instance {
-    readonly Item: JsonElement;
+    readonly [index: number]: JsonElement;
     readonly ValueKind: JsonValueKind;
     Clone(): JsonElement;
     EnumerateArray(): JsonElement_ArrayEnumerator;
