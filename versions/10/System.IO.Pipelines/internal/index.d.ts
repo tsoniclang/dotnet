@@ -18,6 +18,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Exception, Int32, Int64, Memory_1, Object as ClrObject, ReadOnlyMemory_1, SequencePosition, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface IDuplexPipe$instance {
+    readonly __tsonic_iface_System_IO_Pipelines_IDuplexPipe: never;
+
     readonly Input: PipeReader;
     readonly Output: PipeWriter;
 }
@@ -125,6 +127,8 @@ export const PipeScheduler: (abstract new() => PipeScheduler) & {
 export type PipeScheduler = PipeScheduler$instance;
 
 export interface PipeWriter$instance {
+    readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
+
     readonly CanGetUnflushedBytes: boolean;
     readonly UnflushedBytes: long;
     Advance(bytes: int): void;

@@ -80,6 +80,8 @@ export const QuicClientConnectionOptions: {
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
 export interface QuicConnection$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+
     readonly LocalEndPoint: IPEndPoint;
     readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
     readonly NegotiatedCipherSuite: TlsCipherSuite;
@@ -131,6 +133,8 @@ export const QuicConnectionOptions: {
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
 export interface QuicException$instance extends IOException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ApplicationErrorCode: Nullable_1<System_Internal.Int64>;
     readonly QuicError: QuicError;
     readonly TransportErrorCode: Nullable_1<System_Internal.Int64>;
@@ -151,6 +155,8 @@ export type QuicException = QuicException$instance & __QuicException$views;
 
 
 export interface QuicListener$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+
     readonly LocalEndPoint: IPEndPoint;
     AcceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
     DisposeAsync(): ValueTask;
@@ -216,6 +222,9 @@ export const QuicServerConnectionOptions: {
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
 export interface QuicStream$instance extends Stream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;

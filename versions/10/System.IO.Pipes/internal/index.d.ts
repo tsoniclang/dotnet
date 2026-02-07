@@ -68,6 +68,9 @@ export type PipeStreamImpersonationWorker = () => void;
 
 
 export interface AnonymousPipeClientStream$instance extends PipeStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
     Dispose(disposing: boolean): void;
@@ -93,6 +96,9 @@ export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __A
 
 
 export interface AnonymousPipeServerStream$instance extends PipeStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ClientSafePipeHandle: SafePipeHandle;
     ReadMode: PipeTransmissionMode;
     readonly TransmissionMode: PipeTransmissionMode;
@@ -123,6 +129,9 @@ export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __A
 
 
 export interface NamedPipeClientStream$instance extends PipeStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly InBufferSize: int;
     readonly NumberOfServerInstances: int;
     readonly OutBufferSize: int;
@@ -163,6 +172,9 @@ export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipe
 
 
 export interface NamedPipeServerStream$instance extends PipeStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly InBufferSize: int;
     readonly OutBufferSize: int;
     BeginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
@@ -256,6 +268,9 @@ export const PipeSecurity: {
 export type PipeSecurity = PipeSecurity$instance;
 
 export interface PipeStream$instance extends Stream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;

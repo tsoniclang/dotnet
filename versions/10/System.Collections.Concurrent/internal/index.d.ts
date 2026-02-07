@@ -24,6 +24,8 @@ export enum EnumerablePartitionerOptions {
 
 
 export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable, ICollection {
+    readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
+
     readonly Count: int;
     readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
@@ -60,6 +62,12 @@ export const ConcurrentDictionary_2_AlternateLookup_1: {
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface BlockingCollection_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly BoundedCapacity: int;
     readonly Count: int;
     readonly IsAddingCompleted: boolean;
@@ -120,6 +128,12 @@ export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __Block
 
 
 export interface ConcurrentBag_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsEmpty: boolean;
     Add(item: T): void;
@@ -150,6 +164,15 @@ export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1
 
 
 export interface ConcurrentDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Comparer: IEqualityComparer_1<TKey>;
     readonly Count: int;
     readonly IsEmpty: boolean;
@@ -202,6 +225,12 @@ export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instan
 
 
 export interface ConcurrentQueue_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsEmpty: boolean;
     Clear(): void;
@@ -232,6 +261,12 @@ export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQ
 
 
 export interface ConcurrentStack_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsEmpty: boolean;
     Clear(): void;

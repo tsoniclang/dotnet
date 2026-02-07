@@ -209,6 +209,8 @@ export const CustomModifiersEncoder: {
 export type CustomModifiersEncoder = CustomModifiersEncoder$instance;
 
 export interface EditAndContinueLogEntry$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Handle: EntityHandle;
     readonly Operation: EditAndContinueOperation;
     Equals(obj: unknown): boolean;
@@ -331,6 +333,8 @@ export const InstructionEncoder: {
 export type InstructionEncoder = InstructionEncoder$instance;
 
 export interface LabelHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Id: int;
     readonly IsNil: boolean;
     Equals(other: LabelHandle): boolean;

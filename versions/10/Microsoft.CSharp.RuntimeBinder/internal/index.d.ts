@@ -53,6 +53,8 @@ export const CSharpArgumentInfo: {
 export type CSharpArgumentInfo = CSharpArgumentInfo$instance;
 
 export interface RuntimeBinderException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -72,6 +74,8 @@ export type RuntimeBinderException = RuntimeBinderException$instance & __Runtime
 
 
 export interface RuntimeBinderInternalCompilerException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 

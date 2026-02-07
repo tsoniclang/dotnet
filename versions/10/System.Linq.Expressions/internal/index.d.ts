@@ -121,6 +121,8 @@ export enum MemberBindingType {
 
 
 export interface IArgumentProvider$instance {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly ArgumentCount: int;
     GetArgument(index: int): Expression;
 }
@@ -129,6 +131,8 @@ export interface IArgumentProvider$instance {
 export type IArgumentProvider = IArgumentProvider$instance;
 
 export interface IDynamicExpression$instance extends IArgumentProvider {
+    readonly __tsonic_iface_System_Linq_Expressions_IDynamicExpression: never;
+
     readonly DelegateType: Type;
     readonly ArgumentCount: int;
     CreateCallSite(): unknown;
@@ -258,6 +262,9 @@ export const DefaultExpression: {
 export type DefaultExpression = DefaultExpression$instance;
 
 export interface DynamicExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+    readonly __tsonic_iface_System_Linq_Expressions_IDynamicExpression: never;
+
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Binder: CallSiteBinder;
     readonly CanReduce: boolean;
@@ -309,6 +316,8 @@ export const DynamicExpressionVisitor: {
 export type DynamicExpressionVisitor = DynamicExpressionVisitor$instance;
 
 export interface ElementInit$instance {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly AddMethod: MethodInfo;
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
@@ -744,6 +753,8 @@ export const GotoExpression: {
 export type GotoExpression = GotoExpression$instance;
 
 export interface IndexExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Indexer: PropertyInfo | undefined;
@@ -770,6 +781,8 @@ export type IndexExpression = IndexExpression$instance & __IndexExpression$views
 
 
 export interface InvocationExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Expression: Expression;
@@ -963,6 +976,8 @@ export const MemberMemberBinding: {
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
 export interface MethodCallExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Method: MethodInfo;
@@ -1003,6 +1018,8 @@ export const NewArrayExpression: {
 export type NewArrayExpression = NewArrayExpression$instance;
 
 export interface NewExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
+
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Constructor: ConstructorInfo | undefined;

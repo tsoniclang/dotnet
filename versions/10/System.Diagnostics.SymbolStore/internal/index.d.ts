@@ -25,6 +25,8 @@ export enum SymAddressKind {
 
 
 export interface ISymbolBinder$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolBinder: never;
+
     GetReader(importer: int, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
@@ -32,6 +34,8 @@ export interface ISymbolBinder$instance {
 export type ISymbolBinder = ISymbolBinder$instance;
 
 export interface ISymbolBinder1$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolBinder1: never;
+
     GetReader(importer: nint, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
@@ -39,6 +43,8 @@ export interface ISymbolBinder1$instance {
 export type ISymbolBinder1 = ISymbolBinder1$instance;
 
 export interface ISymbolDocument$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolDocument: never;
+
     readonly URL: string;
     readonly DocumentType: Guid;
     readonly Language: Guid;
@@ -55,6 +61,8 @@ export interface ISymbolDocument$instance {
 export type ISymbolDocument = ISymbolDocument$instance;
 
 export interface ISymbolDocumentWriter$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolDocumentWriter: never;
+
     SetCheckSum(algorithmId: Guid, checkSum: byte[]): void;
     SetSource(source: byte[]): void;
 }
@@ -63,6 +71,8 @@ export interface ISymbolDocumentWriter$instance {
 export type ISymbolDocumentWriter = ISymbolDocumentWriter$instance;
 
 export interface ISymbolMethod$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolMethod: never;
+
     readonly Token: SymbolToken;
     readonly SequencePointCount: int;
     readonly RootScope: ISymbolScope;
@@ -79,6 +89,8 @@ export interface ISymbolMethod$instance {
 export type ISymbolMethod = ISymbolMethod$instance;
 
 export interface ISymbolNamespace$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolNamespace: never;
+
     readonly Name: string;
     GetNamespaces(): ISymbolNamespace[];
     GetVariables(): ISymbolVariable[];
@@ -88,6 +100,8 @@ export interface ISymbolNamespace$instance {
 export type ISymbolNamespace = ISymbolNamespace$instance;
 
 export interface ISymbolReader$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolReader: never;
+
     readonly UserEntryPoint: SymbolToken;
     GetDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | undefined;
     GetDocuments(): ISymbolDocument[];
@@ -104,6 +118,8 @@ export interface ISymbolReader$instance {
 export type ISymbolReader = ISymbolReader$instance;
 
 export interface ISymbolScope$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolScope: never;
+
     readonly Method: ISymbolMethod;
     readonly Parent: ISymbolScope;
     readonly StartOffset: int;
@@ -117,6 +133,8 @@ export interface ISymbolScope$instance {
 export type ISymbolScope = ISymbolScope$instance;
 
 export interface ISymbolVariable$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolVariable: never;
+
     readonly Name: string;
     readonly Attributes: unknown;
     readonly AddressKind: SymAddressKind;
@@ -132,6 +150,8 @@ export interface ISymbolVariable$instance {
 export type ISymbolVariable = ISymbolVariable$instance;
 
 export interface ISymbolWriter$instance {
+    readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolWriter: never;
+
     CloseMethod(): void;
     CloseScope(endOffset: int): void;
     DefineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
@@ -154,6 +174,8 @@ export interface ISymbolWriter$instance {
 export type ISymbolWriter = ISymbolWriter$instance;
 
 export interface SymbolToken$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     Equals(obj: unknown): boolean;
     Equals(obj: SymbolToken): boolean;
     GetHashCode(): int;

@@ -33,6 +33,10 @@ export const FrozenDictionary_2_AlternateLookup_1: {
 export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: KeyValuePair_2<TKey, TValue>;
     MoveNext(): boolean;
     Reset(): void;
@@ -67,6 +71,10 @@ export const FrozenSet_1_AlternateLookup_1: {
 export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export interface FrozenSet_1_Enumerator$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: T;
     MoveNext(): boolean;
     Reset(): void;
@@ -87,6 +95,15 @@ export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __F
 
 
 export interface FrozenDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Comparer: IEqualityComparer_1<TKey>;
     readonly Count: int;
     readonly Item: TValue;
@@ -123,6 +140,14 @@ export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey,
 
 
 export interface FrozenSet_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlySet_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_ISet_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Comparer: IEqualityComparer_1<T>;
     readonly Count: int;
     readonly Items: ImmutableArray_1<T>;

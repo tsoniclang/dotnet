@@ -23,6 +23,8 @@ export type XsltMessageEncounteredEventHandler = (sender: unknown, e: XsltMessag
 
 
 export interface IXsltContextFunction$instance {
+    readonly __tsonic_iface_System_Xml_Xsl_IXsltContextFunction: never;
+
     readonly Minargs: int;
     readonly Maxargs: int;
     readonly ReturnType: XPathResultType;
@@ -34,6 +36,8 @@ export interface IXsltContextFunction$instance {
 export type IXsltContextFunction = IXsltContextFunction$instance;
 
 export interface IXsltContextVariable$instance {
+    readonly __tsonic_iface_System_Xml_Xsl_IXsltContextVariable: never;
+
     readonly IsLocal: boolean;
     readonly IsParam: boolean;
     readonly VariableType: XPathResultType;
@@ -99,6 +103,8 @@ export const XsltArgumentList: {
 export type XsltArgumentList = XsltArgumentList$instance;
 
 export interface XsltCompileException$instance extends XsltException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -119,6 +125,9 @@ export type XsltCompileException = XsltCompileException$instance & __XsltCompile
 
 
 export interface XsltContext$instance extends XmlNamespaceManager {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     readonly Whitespace: boolean;
     CompareDocument(baseUri: string, nextbaseUri: string): int;
     GetEnumerator(): IEnumerator;
@@ -143,6 +152,8 @@ export type XsltContext = XsltContext$instance & __XsltContext$views;
 
 
 export interface XsltException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly LineNumber: int;
     readonly LinePosition: int;
     readonly Message: string;

@@ -27,12 +27,16 @@ export type NotifyCollectionChangedEventHandler = (sender: unknown, e: NotifyCol
 
 
 export interface INotifyCollectionChanged$instance {
+    readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
+
 }
 
 
 export type INotifyCollectionChanged = INotifyCollectionChanged$instance;
 
 export interface IOrderedDictionary$instance extends IDictionary, ICollection, IEnumerable {
+    readonly __tsonic_iface_System_Collections_Specialized_IOrderedDictionary: never;
+
     readonly Keys: ICollection;
     readonly Values: ICollection;
     readonly IsReadOnly: boolean;
@@ -60,6 +64,8 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
 export type IOrderedDictionary = IOrderedDictionary$instance;
 
 export interface BitVector32$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Data: int;
     Equals(o: unknown): boolean;
     Equals(other: BitVector32): boolean;
@@ -94,6 +100,8 @@ export type BitVector32 = BitVector32$instance & __BitVector32$views;
 
 
 export interface BitVector32_Section$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Mask: short;
     readonly Offset: short;
     Equals(o: unknown): boolean;
@@ -135,6 +143,10 @@ export const CollectionsUtil: {
 export type CollectionsUtil = CollectionsUtil$instance;
 
 export interface HybridDictionary$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
@@ -171,6 +183,10 @@ export type HybridDictionary = HybridDictionary$instance & __HybridDictionary$vi
 
 
 export interface ListDictionary$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
@@ -219,6 +235,11 @@ export const ListDictionary_DictionaryNode: {
 export type ListDictionary_DictionaryNode = ListDictionary_DictionaryNode$instance;
 
 export interface NameObjectCollectionBase$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Count: int;
     readonly Keys: NameObjectCollectionBase_KeysCollection;
     GetEnumerator(): IEnumerator;
@@ -244,6 +265,9 @@ export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __Nam
 
 
 export interface NameObjectCollectionBase_KeysCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly [index: number]: string | undefined;
     Get(index: int): string | undefined;
@@ -264,6 +288,11 @@ export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_K
 
 
 export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly AllKeys: (string | undefined)[] | string[];
     Add(c: NameValueCollection): void;
     Add(name: string, value: string): void;
@@ -305,8 +334,6 @@ export interface __NameValueCollection$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NameValueCollection$instance extends System_Collections_Internal.ICollection$instance {}
-
 export type NameValueCollection = NameValueCollection$instance & __NameValueCollection$views;
 
 
@@ -337,6 +364,13 @@ export const NotifyCollectionChangedEventArgs: {
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
 export interface OrderedDictionary$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_Specialized_IOrderedDictionary: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection;
@@ -382,6 +416,10 @@ export type OrderedDictionary = OrderedDictionary$instance & __OrderedDictionary
 
 
 export interface StringCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -415,6 +453,8 @@ export type StringCollection = StringCollection$instance & __StringCollection$vi
 
 
 export interface StringDictionary$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsSynchronized: boolean;
     [key: string]: string | undefined;
@@ -439,8 +479,6 @@ export const StringDictionary: {
 export interface __StringDictionary$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface StringDictionary$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type StringDictionary = StringDictionary$instance & __StringDictionary$views;
 

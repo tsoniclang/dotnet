@@ -54,6 +54,9 @@ export const FileSystemEntry: {
 export type FileSystemEntry = FileSystemEntry$instance;
 
 export interface FileSystemEnumerable_1$instance<TResult> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     get ShouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
     set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | undefined);
     get ShouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
@@ -76,6 +79,10 @@ export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TR
 
 
 export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: TResult;
     ContinueOnError(error: int): boolean;
     Dispose(): void;

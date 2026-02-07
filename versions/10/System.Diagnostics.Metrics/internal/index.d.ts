@@ -21,6 +21,8 @@ export type MeasurementCallback_1<T extends unknown> = (instrument: Instrument, 
 
 
 export interface IMeterFactory$instance extends IDisposable {
+    readonly __tsonic_iface_System_Diagnostics_Metrics_IMeterFactory: never;
+
     Create(options: MeterOptions): Meter;
     Dispose(): void;
 }
@@ -140,6 +142,8 @@ export const InstrumentAdvice_1: {
 export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 
 export interface Meter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Name: string;
     get Scope(): unknown | undefined;
     set Scope(value: unknown | undefined);
@@ -186,6 +190,8 @@ export type Meter = Meter$instance & __Meter$views;
 
 
 export interface MeterListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get InstrumentPublished(): Action_2<Instrument, MeterListener> | undefined;
     set InstrumentPublished(value: Action_2<Instrument, MeterListener> | undefined);
     get MeasurementsCompleted(): Action_2<Instrument, unknown | undefined> | undefined;

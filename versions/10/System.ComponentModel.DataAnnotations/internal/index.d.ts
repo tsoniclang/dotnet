@@ -38,6 +38,8 @@ export enum DataType {
 
 
 export interface IValidatableObject$instance {
+    readonly __tsonic_iface_System_ComponentModel_DataAnnotations_IValidatableObject: never;
+
     Validate(validationContext: ValidationContext): IEnumerable_1<ValidationResult>;
 }
 
@@ -571,6 +573,8 @@ export const ValidationAttribute: (abstract new() => ValidationAttribute) & (abs
 export type ValidationAttribute = ValidationAttribute$instance;
 
 export interface ValidationContext$instance {
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     DisplayName: string;
     readonly Items: IDictionary_2<unknown, unknown | undefined>;
     get MemberName(): string | undefined;
@@ -600,6 +604,8 @@ export type ValidationContext = ValidationContext$instance & __ValidationContext
 
 
 export interface ValidationException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ValidationAttribute: ValidationAttribute | undefined;
     readonly ValidationResult: ValidationResult;
     readonly Value: unknown | undefined;

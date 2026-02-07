@@ -139,6 +139,8 @@ export const JSMarshalerArgument: {
 export type JSMarshalerArgument = JSMarshalerArgument$instance;
 
 export interface JSException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -247,6 +249,8 @@ export const JSMarshalerType: {
 export type JSMarshalerType = JSMarshalerType$instance;
 
 export interface JSObject$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly IsDisposed: boolean;
     Dispose(): void;
     GetPropertyAsBoolean(propertyName: string): boolean;

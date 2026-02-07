@@ -66,6 +66,8 @@ export type XmlSerializationWriteCallback = (o: unknown) => void;
 
 
 export interface IXmlSerializable$instance {
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     GetSchema(): XmlSchema | undefined;
     ReadXml(reader: XmlReader): void;
     WriteXml(writer: XmlWriter): void;
@@ -75,6 +77,8 @@ export interface IXmlSerializable$instance {
 export type IXmlSerializable = IXmlSerializable$instance;
 
 export interface IXmlTextParser$instance {
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlTextParser: never;
+
     Normalized: boolean;
     WhitespaceHandling: WhitespaceHandling;
 }
@@ -362,6 +366,10 @@ export const XmlAnyElementAttribute: {
 export type XmlAnyElementAttribute = XmlAnyElementAttribute$instance;
 
 export interface XmlAnyElementAttributes$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: XmlAnyElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
@@ -431,6 +439,10 @@ export const XmlArrayItemAttribute: {
 export type XmlArrayItemAttribute = XmlArrayItemAttribute$instance;
 
 export interface XmlArrayItemAttributes$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: XmlArrayItemAttribute;
     Add(value: unknown): int;
     Clear(): void;
@@ -580,6 +592,10 @@ export const XmlElementAttribute: {
 export type XmlElementAttribute = XmlElementAttribute$instance;
 
 export interface XmlElementAttributes$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: XmlElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
@@ -796,6 +812,10 @@ export const XmlRootAttribute: {
 export type XmlRootAttribute = XmlRootAttribute$instance;
 
 export interface XmlSchemaEnumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: XmlSchema;
     Dispose(): void;
     MoveNext(): boolean;
@@ -870,6 +890,11 @@ export const XmlSchemaProviderAttribute: {
 export type XmlSchemaProviderAttribute = XmlSchemaProviderAttribute$instance;
 
 export interface XmlSchemas$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly IsCompiled: boolean;
     Add(schemas: XmlSchemas): void;
     Add(value: unknown): int;

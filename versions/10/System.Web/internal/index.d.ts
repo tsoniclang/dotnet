@@ -13,6 +13,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface IHtmlString$instance {
+    readonly __tsonic_iface_System_Web_IHtmlString: never;
+
     ToHtmlString(): string | undefined;
 }
 

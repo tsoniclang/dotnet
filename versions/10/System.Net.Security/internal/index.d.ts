@@ -430,6 +430,8 @@ export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo
 
 
 export interface SslApplicationProtocol$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Protocol: ReadOnlyMemory_1<System_Internal.Byte>;
     Equals(other: SslApplicationProtocol): boolean;
     Equals(obj: unknown): boolean;
@@ -471,6 +473,9 @@ export const SslClientHelloInfo: {
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
 export interface AuthenticatedStream$instance extends Stream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly IsAuthenticated: boolean;
     readonly IsEncrypted: boolean;
     readonly IsMutuallyAuthenticated: boolean;
@@ -508,6 +513,8 @@ export const CipherSuitesPolicy: {
 export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
 export interface NegotiateAuthentication$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ImpersonationLevel: TokenImpersonationLevel;
     readonly IsAuthenticated: boolean;
     readonly IsEncrypted: boolean;
@@ -584,6 +591,9 @@ export const NegotiateAuthenticationServerOptions: {
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
 export interface NegotiateStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -750,6 +760,9 @@ export const SslServerAuthenticationOptions: {
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
 export interface SslStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;

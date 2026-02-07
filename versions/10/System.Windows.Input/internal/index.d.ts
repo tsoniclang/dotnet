@@ -10,6 +10,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, EventHandler, Object as ClrObject, Void } from "../../System/internal/index.js";
 
 export interface ICommand$instance {
+    readonly __tsonic_iface_System_Windows_Input_ICommand: never;
+
     CanExecute(parameter: unknown): boolean;
     Execute(parameter: unknown): void;
 }

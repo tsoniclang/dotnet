@@ -25,6 +25,8 @@ export enum JsonTypeInfoKind {
 
 
 export interface IJsonTypeInfoResolver$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
+
     GetTypeInfo(type: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
 
@@ -47,6 +49,8 @@ export const JsonDerivedType: {
 export type JsonDerivedType = JsonDerivedType$instance;
 
 export interface DefaultJsonTypeInfoResolver$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
+
     readonly Modifiers: IList_1<Action_1<JsonTypeInfo>>;
     GetTypeInfo(type: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }

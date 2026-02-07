@@ -32,6 +32,8 @@ export enum GCLatencyMode {
 
 
 export interface DependentHandle$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get Dependent(): unknown | undefined;
     set Dependent(value: unknown | undefined);
     readonly IsAllocated: boolean;
@@ -57,6 +59,8 @@ export type DependentHandle = DependentHandle$instance & __DependentHandle$views
 
 
 export interface AmbiguousImplementationException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -88,6 +92,8 @@ export const AssemblyTargetedPatchBandAttribute: {
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
 export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
     Finalize(): void;
 }

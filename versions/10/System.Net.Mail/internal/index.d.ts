@@ -92,6 +92,8 @@ export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEvent
 
 
 export interface AlternateView$instance extends AttachmentBase$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get BaseUri(): Uri | undefined;
     set BaseUri(value: Uri | undefined);
     readonly LinkedResources: LinkedResourceCollection;
@@ -121,6 +123,16 @@ export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
 export interface AlternateViewCollection$instance extends Collection_1<AlternateView> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Add(item: AlternateView): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -165,6 +177,8 @@ export type AlternateViewCollection = AlternateViewCollection$instance & __Alter
 
 
 export interface Attachment$instance extends AttachmentBase$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ContentDisposition: ContentDisposition | undefined;
     get Name(): string | undefined;
     set Name(value: string | undefined);
@@ -196,6 +210,8 @@ export type Attachment = Attachment$instance & __Attachment$views;
 
 
 export interface AttachmentBase$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     ContentId: string;
     readonly ContentStream: Stream;
     ContentType: ContentType;
@@ -217,6 +233,16 @@ export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
 export interface AttachmentCollection$instance extends Collection_1<Attachment> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Add(item: Attachment): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -261,6 +287,8 @@ export type AttachmentCollection = AttachmentCollection$instance & __AttachmentC
 
 
 export interface LinkedResource$instance extends AttachmentBase$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get ContentLink(): Uri | undefined;
     set ContentLink(value: Uri | undefined);
     Dispose(): void;
@@ -289,6 +317,16 @@ export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
 export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Add(item: LinkedResource): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -356,6 +394,15 @@ export const MailAddress: {
 export type MailAddress = MailAddress$instance;
 
 export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Add(item: MailAddress): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -396,6 +443,8 @@ export type MailAddressCollection = MailAddressCollection$instance & __MailAddre
 
 
 export interface MailMessage$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly AlternateViews: AlternateViewCollection;
     readonly Attachments: AttachmentCollection;
     readonly Bcc: MailAddressCollection;
@@ -442,6 +491,8 @@ export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 
 export interface SmtpClient$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ClientCertificates: X509CertificateCollection;
     get Credentials(): ICredentialsByHost | undefined;
     set Credentials(value: ICredentialsByHost | undefined);
@@ -487,6 +538,8 @@ export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
 
 export interface SmtpException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     StatusCode: SmtpStatusCode;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
@@ -509,6 +562,8 @@ export type SmtpException = SmtpException$instance & __SmtpException$views;
 
 
 export interface SmtpFailedRecipientException$instance extends SmtpException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly FailedRecipient: string | undefined;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
@@ -532,6 +587,8 @@ export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance
 
 
 export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly InnerExceptions: SmtpFailedRecipientException[];
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }

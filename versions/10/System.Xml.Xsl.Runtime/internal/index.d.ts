@@ -611,6 +611,13 @@ export const XmlQueryContext: {
 export type XmlQueryContext = XmlQueryContext$instance;
 
 export interface XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<XPathItem> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Add(value: XPathItem): void;
     Add(value: unknown): int;
     AddClone(item: XPathItem): void;
@@ -650,6 +657,13 @@ export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryIte
 
 
 export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     IsDocOrderDistinct: boolean;
     Add(value: XPathNavigator): void;
     Add(value: unknown): int;
@@ -694,6 +708,9 @@ export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNod
 
 
 export interface XmlQueryOutput$instance extends XmlWriter {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly WriteState: WriteState;
     readonly XmlLang: string | string | undefined;
     readonly XmlSpace: XmlSpace;
@@ -834,6 +851,13 @@ export const XmlQueryRuntime: {
 export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
 export interface XmlQuerySequence_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     [index: number]: T;
     Add(value: T): void;

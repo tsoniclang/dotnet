@@ -26,6 +26,8 @@ export enum DataflowMessageStatus {
 
 
 export interface IDataflowBlock$instance {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+
     readonly Completion: Task;
     Complete(): void;
     Fault(exception: Exception): void;
@@ -35,6 +37,8 @@ export interface IDataflowBlock$instance {
 export type IDataflowBlock = IDataflowBlock$instance;
 
 export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlock_1<TInput>, IDataflowBlock, ISourceBlock_1<TOutput> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
@@ -50,6 +54,8 @@ export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlo
 export type IPropagatorBlock_2<TInput, TOutput> = IPropagatorBlock_2$instance<TInput, TOutput>;
 
 export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock_1<TOutput>, IDataflowBlock {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
@@ -66,6 +72,8 @@ export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock
 export type IReceivableSourceBlock_1<TOutput> = IReceivableSourceBlock_1$instance<TOutput>;
 
 export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+
     readonly Completion: Task;
     Complete(): void;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
@@ -81,6 +89,8 @@ export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock$instanc
 export type ISourceBlock_1<TOutput> = ISourceBlock_1$instance<TOutput>;
 
 export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     Complete(): void;
     Fault(exception: Exception): void;
@@ -93,6 +103,8 @@ export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock$instance
 export type ITargetBlock_1<TInput> = ITargetBlock_1$instance<TInput>;
 
 export interface DataflowMessageHeader$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Id: long;
     readonly IsValid: boolean;
     Equals(other: DataflowMessageHeader): boolean;
@@ -117,6 +129,9 @@ export type DataflowMessageHeader = DataflowMessageHeader$instance & __DataflowM
 
 
 export interface ActionBlock_1$instance<TInput> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     readonly InputCount: int;
     Complete(): void;
@@ -142,6 +157,12 @@ export type ActionBlock_1<TInput> = ActionBlock_1$instance<TInput> & __ActionBlo
 
 
 export interface BatchBlock_1$instance<T> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly BatchSize: int;
     readonly Completion: Task;
     readonly OutputCount: int;
@@ -171,6 +192,10 @@ export type BatchBlock_1<T> = BatchBlock_1$instance<T> & __BatchBlock_1$views<T>
 
 
 export interface BatchedJoinBlock_2$instance<T1, T2> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+
     readonly BatchSize: int;
     readonly Completion: Task;
     readonly OutputCount: int;
@@ -200,6 +225,10 @@ export type BatchedJoinBlock_2<T1, T2> = BatchedJoinBlock_2$instance<T1, T2> & _
 
 
 export interface BatchedJoinBlock_3$instance<T1, T2, T3> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+
     readonly BatchSize: int;
     readonly Completion: Task;
     readonly OutputCount: int;
@@ -230,6 +259,12 @@ export type BatchedJoinBlock_3<T1, T2, T3> = BatchedJoinBlock_3$instance<T1, T2,
 
 
 export interface BroadcastBlock_1$instance<T> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     Complete(): void;
     LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
@@ -255,6 +290,12 @@ export type BroadcastBlock_1<T> = BroadcastBlock_1$instance<T> & __BroadcastBloc
 
 
 export interface BufferBlock_1$instance<T> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     readonly Count: int;
     Complete(): void;
@@ -340,6 +381,10 @@ export const GroupingDataflowBlockOptions: {
 export type GroupingDataflowBlockOptions = GroupingDataflowBlockOptions$instance;
 
 export interface JoinBlock_2$instance<T1, T2> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+
     readonly Completion: Task;
     readonly OutputCount: int;
     readonly Target1: ITargetBlock_1<T1>;
@@ -368,6 +413,10 @@ export type JoinBlock_2<T1, T2> = JoinBlock_2$instance<T1, T2> & __JoinBlock_2$v
 
 
 export interface JoinBlock_3$instance<T1, T2, T3> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+
     readonly Completion: Task;
     readonly OutputCount: int;
     readonly Target1: ITargetBlock_1<T1>;
@@ -397,6 +446,12 @@ export type JoinBlock_3<T1, T2, T3> = JoinBlock_3$instance<T1, T2, T3> & __JoinB
 
 
 export interface TransformBlock_2$instance<TInput, TOutput> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     readonly InputCount: int;
     readonly OutputCount: int;
@@ -425,6 +480,12 @@ export type TransformBlock_2<TInput, TOutput> = TransformBlock_2$instance<TInput
 
 
 export interface TransformManyBlock_2$instance<TInput, TOutput> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     readonly InputCount: int;
     readonly OutputCount: int;
@@ -453,6 +514,12 @@ export type TransformManyBlock_2<TInput, TOutput> = TransformManyBlock_2$instanc
 
 
 export interface WriteOnceBlock_1$instance<T> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
+
     readonly Completion: Task;
     Complete(): void;
     LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;

@@ -30,6 +30,10 @@ export const ElapsedEventArgs: {
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export interface Timer$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     AutoReset: boolean;
     Enabled: boolean;
     Interval: double;

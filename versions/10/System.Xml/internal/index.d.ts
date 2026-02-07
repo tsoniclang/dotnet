@@ -202,6 +202,8 @@ export type XmlNodeChangedEventHandler = (sender: unknown, e: XmlNodeChangedEven
 
 
 export interface IApplicationResourceStreamResolver$instance {
+    readonly __tsonic_iface_System_Xml_IApplicationResourceStreamResolver: never;
+
     GetApplicationResourceStream(relativeUri: Uri): Stream;
 }
 
@@ -209,6 +211,8 @@ export interface IApplicationResourceStreamResolver$instance {
 export type IApplicationResourceStreamResolver = IApplicationResourceStreamResolver$instance;
 
 export interface IFragmentCapableXmlDictionaryWriter$instance {
+    readonly __tsonic_iface_System_Xml_IFragmentCapableXmlDictionaryWriter: never;
+
     readonly CanFragment: boolean;
     EndFragment(): void;
     StartFragment(stream: Stream, generateSelfContainedTextFragment: boolean): void;
@@ -219,6 +223,8 @@ export interface IFragmentCapableXmlDictionaryWriter$instance {
 export type IFragmentCapableXmlDictionaryWriter = IFragmentCapableXmlDictionaryWriter$instance;
 
 export interface IHasXmlNode$instance {
+    readonly __tsonic_iface_System_Xml_IHasXmlNode: never;
+
     GetNode(): XmlNode;
 }
 
@@ -226,6 +232,8 @@ export interface IHasXmlNode$instance {
 export type IHasXmlNode = IHasXmlNode$instance;
 
 export interface IStreamProvider$instance {
+    readonly __tsonic_iface_System_Xml_IStreamProvider: never;
+
     GetStream(): Stream;
     ReleaseStream(stream: Stream): void;
 }
@@ -234,6 +242,8 @@ export interface IStreamProvider$instance {
 export type IStreamProvider = IStreamProvider$instance;
 
 export interface IXmlBinaryReaderInitializer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlBinaryReaderInitializer: never;
+
     SetInput(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
     SetInput(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): void;
 }
@@ -242,6 +252,8 @@ export interface IXmlBinaryReaderInitializer$instance {
 export type IXmlBinaryReaderInitializer = IXmlBinaryReaderInitializer$instance;
 
 export interface IXmlBinaryWriterInitializer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlBinaryWriterInitializer: never;
+
     SetOutput(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): void;
 }
 
@@ -249,6 +261,8 @@ export interface IXmlBinaryWriterInitializer$instance {
 export type IXmlBinaryWriterInitializer = IXmlBinaryWriterInitializer$instance;
 
 export interface IXmlDictionary$instance {
+    readonly __tsonic_iface_System_Xml_IXmlDictionary: never;
+
     TryLookup(key: int, result: XmlDictionaryString): boolean;
     TryLookup(value: string, result: XmlDictionaryString): boolean;
     TryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
@@ -258,6 +272,8 @@ export interface IXmlDictionary$instance {
 export type IXmlDictionary = IXmlDictionary$instance;
 
 export interface IXmlLineInfo$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly LineNumber: int;
     readonly LinePosition: int;
     HasLineInfo(): boolean;
@@ -267,6 +283,8 @@ export interface IXmlLineInfo$instance {
 export type IXmlLineInfo = IXmlLineInfo$instance;
 
 export interface IXmlNamespaceResolver$instance {
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
     LookupNamespace(prefix: string): string | undefined;
 }
@@ -275,6 +293,8 @@ export interface IXmlNamespaceResolver$instance {
 export type IXmlNamespaceResolver = IXmlNamespaceResolver$instance;
 
 export interface IXmlTextReaderInitializer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlTextReaderInitializer: never;
+
     SetInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
     SetInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
 }
@@ -283,6 +303,8 @@ export interface IXmlTextReaderInitializer$instance {
 export type IXmlTextReaderInitializer = IXmlTextReaderInitializer$instance;
 
 export interface IXmlTextWriterInitializer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlTextWriterInitializer: never;
+
     SetOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
 }
 
@@ -329,6 +351,10 @@ export const UniqueId: {
 export type UniqueId = UniqueId$instance;
 
 export interface XmlAttribute$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly BaseURI: string;
     InnerText: string;
     InnerXml: string;
@@ -373,6 +399,9 @@ export type XmlAttribute = XmlAttribute$instance & __XmlAttribute$views;
 
 
 export interface XmlAttributeCollection$instance extends XmlNamedNodeMap$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     Append(node: XmlAttribute): XmlAttribute;
     CopyTo(array: XmlAttribute[], index: int): void;
     get_Item(i: int): XmlAttribute;
@@ -402,6 +431,8 @@ export type XmlAttributeCollection = XmlAttributeCollection$instance & __XmlAttr
 
 
 export interface XmlBinaryReaderSession$instance {
+    readonly __tsonic_iface_System_Xml_IXmlDictionary: never;
+
     Add(id: int, value: string): XmlDictionaryString;
     Clear(): void;
     TryLookup(key: int, result: XmlDictionaryString): boolean;
@@ -436,6 +467,10 @@ export const XmlBinaryWriterSession: {
 export type XmlBinaryWriterSession = XmlBinaryWriterSession$instance;
 
 export interface XmlCDataSection$instance extends XmlCharacterData$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
@@ -465,6 +500,10 @@ export type XmlCDataSection = XmlCDataSection$instance & __XmlCDataSection$views
 
 
 export interface XmlCharacterData$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     Data: string;
     InnerText: string;
     readonly Length: int;
@@ -496,6 +535,10 @@ export type XmlCharacterData = XmlCharacterData$instance & __XmlCharacterData$vi
 
 
 export interface XmlComment$instance extends XmlCharacterData$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
@@ -593,6 +636,10 @@ export const XmlConvert: {
 export type XmlConvert = XmlConvert$instance;
 
 export interface XmlDataDocument$instance extends XmlDocument$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly DataSet: DataSet;
     Clone(): unknown;
     Clone(): XmlNode;
@@ -632,6 +679,10 @@ export type XmlDataDocument = XmlDataDocument$instance & __XmlDataDocument$views
 
 
 export interface XmlDeclaration$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     Encoding: string;
     InnerText: string;
     readonly LocalName: string;
@@ -665,6 +716,8 @@ export type XmlDeclaration = XmlDeclaration$instance & __XmlDeclaration$views;
 
 
 export interface XmlDictionary$instance {
+    readonly __tsonic_iface_System_Xml_IXmlDictionary: never;
+
     Add(value: string): XmlDictionaryString;
     TryLookup(value: string, result: XmlDictionaryString): boolean;
     TryLookup(key: int, result: XmlDictionaryString): boolean;
@@ -687,6 +740,8 @@ export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 
 
 export interface XmlDictionaryReader$instance extends XmlReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanCanonicalize: boolean;
     readonly Quotas: XmlDictionaryReaderQuotas;
     Dispose(): void;
@@ -871,6 +926,9 @@ export const XmlDictionaryString: {
 export type XmlDictionaryString = XmlDictionaryString$instance;
 
 export interface XmlDictionaryWriter$instance extends XmlWriter$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanCanonicalize: boolean;
     Close(): void;
     Dispose(disposing: boolean): void;
@@ -961,6 +1019,10 @@ export type XmlDictionaryWriter = XmlDictionaryWriter$instance & __XmlDictionary
 
 
 export interface XmlDocument$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly BaseURI: string;
     readonly DocumentElement: XmlElement | undefined;
     readonly DocumentType: XmlDocumentType | undefined;
@@ -1040,6 +1102,10 @@ export type XmlDocument = XmlDocument$instance & __XmlDocument$views;
 
 
 export interface XmlDocumentFragment$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     InnerXml: string;
     readonly LocalName: string;
     readonly Name: string;
@@ -1070,6 +1136,10 @@ export type XmlDocumentFragment = XmlDocumentFragment$instance & __XmlDocumentFr
 
 
 export interface XmlDocumentType$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly Entities: XmlNamedNodeMap;
     readonly InternalSubset: string | undefined;
     readonly IsReadOnly: boolean;
@@ -1103,6 +1173,10 @@ export type XmlDocumentType = XmlDocumentType$instance & __XmlDocumentType$views
 
 
 export interface XmlElement$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly Attributes: XmlAttributeCollection | XmlAttributeCollection | undefined;
     readonly HasAttributes: boolean;
     InnerText: string;
@@ -1160,6 +1234,10 @@ export type XmlElement = XmlElement$instance & __XmlElement$views;
 
 
 export interface XmlEntity$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly BaseURI: string;
     InnerText: string;
     InnerXml: string;
@@ -1195,6 +1273,10 @@ export type XmlEntity = XmlEntity$instance & __XmlEntity$views;
 
 
 export interface XmlEntityReference$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly BaseURI: string;
     readonly IsReadOnly: boolean;
     readonly LocalName: string;
@@ -1226,6 +1308,8 @@ export type XmlEntityReference = XmlEntityReference$instance & __XmlEntityRefere
 
 
 export interface XmlException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly LineNumber: int;
     readonly LinePosition: int;
     readonly Message: string;
@@ -1264,6 +1348,10 @@ export const XmlImplementation: {
 export type XmlImplementation = XmlImplementation$instance;
 
 export interface XmlLinkedNode$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly NextSibling: XmlNode | undefined;
     readonly PreviousSibling: XmlNode | undefined;
     Clone(): XmlNode;
@@ -1287,6 +1375,8 @@ export type XmlLinkedNode = XmlLinkedNode$instance & __XmlLinkedNode$views;
 
 
 export interface XmlNamedNodeMap$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     GetEnumerator(): IEnumerator;
     GetNamedItem(name: string): XmlNode | undefined;
@@ -1306,12 +1396,13 @@ export interface __XmlNamedNodeMap$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export interface XmlNamedNodeMap$instance extends System_Collections_Internal.IEnumerable$instance {}
-
 export type XmlNamedNodeMap = XmlNamedNodeMap$instance & __XmlNamedNodeMap$views;
 
 
 export interface XmlNamespaceManager$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     readonly DefaultNamespace: string;
     readonly NameTable: XmlNameTable | undefined;
     AddNamespace(prefix: string, uri: string): void;
@@ -1336,7 +1427,7 @@ export interface __XmlNamespaceManager$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlNamespaceManager$instance extends System_Collections_Internal.IEnumerable$instance, IXmlNamespaceResolver$instance {}
+export interface XmlNamespaceManager$instance extends IXmlNamespaceResolver$instance {}
 
 export type XmlNamespaceManager = XmlNamespaceManager$instance & __XmlNamespaceManager$views;
 
@@ -1356,6 +1447,10 @@ export const XmlNameTable: (abstract new() => XmlNameTable) & {
 export type XmlNameTable = XmlNameTable$instance;
 
 export interface XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly Attributes: XmlAttributeCollection | XmlAttributeCollection | undefined;
     readonly BaseURI: string;
     readonly ChildNodes: XmlNodeList;
@@ -1415,7 +1510,7 @@ export interface __XmlNode$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlNode$instance extends System_Collections_Internal.IEnumerable$instance, System_Xml_XPath_Internal.IXPathNavigable$instance {}
+export interface XmlNode$instance extends System_Xml_XPath_Internal.IXPathNavigable$instance {}
 
 export type XmlNode = XmlNode$instance & __XmlNode$views;
 
@@ -1438,6 +1533,9 @@ export const XmlNodeChangedEventArgs: {
 export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
 export interface XmlNodeList$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Count: int;
     readonly [i: number]: XmlNode | undefined;
     GetEnumerator(): IEnumerator;
@@ -1455,12 +1553,15 @@ export interface __XmlNodeList$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface XmlNodeList$instance extends System_Collections_Internal.IEnumerable$instance, System_Internal.IDisposable$instance {}
+export interface XmlNodeList$instance extends System_Internal.IDisposable$instance {}
 
 export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
 
 
 export interface XmlNodeReader$instance extends XmlReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1521,6 +1622,10 @@ export type XmlNodeReader = XmlNodeReader$instance & __XmlNodeReader$views;
 
 
 export interface XmlNotation$instance extends XmlNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     InnerXml: string;
     readonly IsReadOnly: boolean;
     readonly LocalName: string;
@@ -1580,6 +1685,10 @@ export const XmlParserContext: {
 export type XmlParserContext = XmlParserContext$instance;
 
 export interface XmlProcessingInstruction$instance extends XmlLinkedNode$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     Data: string;
     InnerText: string;
     readonly LocalName: string;
@@ -1632,6 +1741,8 @@ export const XmlQualifiedName: {
 export type XmlQualifiedName = XmlQualifiedName$instance;
 
 export interface XmlReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1845,6 +1956,10 @@ export const XmlSecureResolver: {
 export type XmlSecureResolver = XmlSecureResolver$instance;
 
 export interface XmlSignificantWhitespace$instance extends XmlCharacterData$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
@@ -1876,6 +1991,10 @@ export type XmlSignificantWhitespace = XmlSignificantWhitespace$instance & __Xml
 
 
 export interface XmlText$instance extends XmlCharacterData$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
@@ -1908,6 +2027,10 @@ export type XmlText = XmlText$instance & __XmlText$views;
 
 
 export interface XmlTextReader$instance extends XmlReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -1999,6 +2122,9 @@ export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
 
 export interface XmlTextWriter$instance extends XmlWriter$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly BaseStream: Stream | undefined;
     Formatting: Formatting;
     Indentation: int;
@@ -2080,6 +2206,10 @@ export const XmlUrlResolver: {
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
 export interface XmlValidatingReader$instance extends XmlReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+
     readonly AttributeCount: int;
     readonly BaseURI: string;
     readonly CanReadBinaryContent: boolean;
@@ -2155,6 +2285,10 @@ export type XmlValidatingReader = XmlValidatingReader$instance & __XmlValidating
 
 
 export interface XmlWhitespace$instance extends XmlCharacterData$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly LocalName: string;
     readonly Name: string;
     readonly NodeType: XmlNodeType;
@@ -2186,6 +2320,9 @@ export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
 
 export interface XmlWriter$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Settings: XmlWriterSettings | undefined;
     readonly WriteState: WriteState;
     readonly XmlLang: string | string | undefined;

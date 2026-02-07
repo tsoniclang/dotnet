@@ -30,6 +30,8 @@ export enum IsolatedStorageScope {
 
 
 export interface INormalizeForIsolatedStorage$instance {
+    readonly __tsonic_iface_System_IO_IsolatedStorage_INormalizeForIsolatedStorage: never;
+
     Normalize(): unknown;
 }
 
@@ -60,6 +62,8 @@ export const IsolatedStorage: (abstract new() => IsolatedStorage) & {
 export type IsolatedStorage = IsolatedStorage$instance;
 
 export interface IsolatedStorageException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -79,6 +83,8 @@ export type IsolatedStorageException = IsolatedStorageException$instance & __Iso
 
 
 export interface IsolatedStorageFile$instance extends IsolatedStorage {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly AvailableFreeSpace: long;
     readonly CurrentSize: ulong;
     readonly MaximumSize: ulong;
@@ -139,6 +145,9 @@ export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStora
 
 
 export interface IsolatedStorageFileStream$instance extends FileStream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;

@@ -182,6 +182,8 @@ export type RunWorkerCompletedEventHandler = (sender: unknown, e: RunWorkerCompl
 
 
 export interface IBindingList$instance extends IList, ICollection, IEnumerable {
+    readonly __tsonic_iface_System_ComponentModel_IBindingList: never;
+
     readonly AllowNew: boolean;
     readonly AllowEdit: boolean;
     readonly AllowRemove: boolean;
@@ -216,6 +218,8 @@ export interface IBindingList$instance extends IList, ICollection, IEnumerable {
 export type IBindingList = IBindingList$instance;
 
 export interface IBindingListView$instance extends IBindingList, IList, ICollection, IEnumerable {
+    readonly __tsonic_iface_System_ComponentModel_IBindingListView: never;
+
     get Filter(): string | undefined;
     set Filter(value: string | undefined);
     readonly SortDescriptions: ListSortDescriptionCollection;
@@ -257,6 +261,8 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
 export type IBindingListView = IBindingListView$instance;
 
 export interface ICancelAddNew$instance {
+    readonly __tsonic_iface_System_ComponentModel_ICancelAddNew: never;
+
     CancelNew(itemIndex: int): void;
 }
 
@@ -264,6 +270,8 @@ export interface ICancelAddNew$instance {
 export type ICancelAddNew = ICancelAddNew$instance;
 
 export interface IChangeTracking$instance {
+    readonly __tsonic_iface_System_ComponentModel_IChangeTracking: never;
+
     readonly IsChanged: boolean;
     AcceptChanges(): void;
 }
@@ -272,6 +280,8 @@ export interface IChangeTracking$instance {
 export type IChangeTracking = IChangeTracking$instance;
 
 export interface IComNativeDescriptorHandler$instance {
+    readonly __tsonic_iface_System_ComponentModel_IComNativeDescriptorHandler: never;
+
     GetAttributes(component: unknown): AttributeCollection;
     GetClassName(component: unknown): string;
     GetConverter(component: unknown): TypeConverter;
@@ -289,6 +299,8 @@ export interface IComNativeDescriptorHandler$instance {
 export type IComNativeDescriptorHandler = IComNativeDescriptorHandler$instance;
 
 export interface IComponent$instance extends IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+
     get Site(): ISite | undefined;
     set Site(value: ISite | undefined);
     Dispose(): void;
@@ -300,6 +312,8 @@ export interface IComponent$instance extends System_Internal.IDisposable$instanc
 export type IComponent = IComponent$instance;
 
 export interface IContainer$instance extends IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_IContainer: never;
+
     readonly Components: ComponentCollection;
     Add(component: IComponent, name: string): void;
     Add(component: IComponent): void;
@@ -312,6 +326,8 @@ export interface IContainer$instance extends System_Internal.IDisposable$instanc
 export type IContainer = IContainer$instance;
 
 export interface ICustomTypeDescriptor$instance {
+    readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
+
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
     GetAttributes(): AttributeCollection;
     GetClassName(): string | undefined;
@@ -330,6 +346,8 @@ export interface ICustomTypeDescriptor$instance {
 export type ICustomTypeDescriptor = ICustomTypeDescriptor$instance;
 
 export interface IDataErrorInfo$instance {
+    readonly __tsonic_iface_System_ComponentModel_IDataErrorInfo: never;
+
     readonly [columnName: string]: string;
     readonly Error: string;
 }
@@ -338,6 +356,8 @@ export interface IDataErrorInfo$instance {
 export type IDataErrorInfo = IDataErrorInfo$instance;
 
 export interface IEditableObject$instance {
+    readonly __tsonic_iface_System_ComponentModel_IEditableObject: never;
+
     BeginEdit(): void;
 }
 
@@ -345,6 +365,8 @@ export interface IEditableObject$instance {
 export type IEditableObject = IEditableObject$instance;
 
 export interface IExtenderProvider$instance {
+    readonly __tsonic_iface_System_ComponentModel_IExtenderProvider: never;
+
     CanExtend(extendee: unknown): boolean;
 }
 
@@ -352,6 +374,8 @@ export interface IExtenderProvider$instance {
 export type IExtenderProvider = IExtenderProvider$instance;
 
 export interface IIntellisenseBuilder$instance {
+    readonly __tsonic_iface_System_ComponentModel_IIntellisenseBuilder: never;
+
     readonly Name: string;
     Show(language: string, value: string, newValue: string): boolean;
 }
@@ -360,6 +384,8 @@ export interface IIntellisenseBuilder$instance {
 export type IIntellisenseBuilder = IIntellisenseBuilder$instance;
 
 export interface IListSource$instance {
+    readonly __tsonic_iface_System_ComponentModel_IListSource: never;
+
     readonly ContainsListCollection: boolean;
     GetList(): IList;
 }
@@ -368,6 +394,8 @@ export interface IListSource$instance {
 export type IListSource = IListSource$instance;
 
 export interface INestedContainer$instance extends IContainer, IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_INestedContainer: never;
+
     readonly Owner: IComponent;
     readonly Components: ComponentCollection;
     Add(component: IComponent, name: string): void;
@@ -379,6 +407,8 @@ export interface INestedContainer$instance extends IContainer, IDisposable {
 export type INestedContainer = INestedContainer$instance;
 
 export interface INestedSite$instance extends ISite, IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_INestedSite: never;
+
     readonly FullName: string | undefined;
     readonly Component: IComponent;
     readonly Container: IContainer | undefined;
@@ -392,6 +422,8 @@ export interface INestedSite$instance extends ISite, IServiceProvider {
 export type INestedSite = INestedSite$instance;
 
 export interface INotifyDataErrorInfo$instance {
+    readonly __tsonic_iface_System_ComponentModel_INotifyDataErrorInfo: never;
+
     readonly HasErrors: boolean;
     GetErrors(propertyName: string): IEnumerable;
 }
@@ -400,18 +432,24 @@ export interface INotifyDataErrorInfo$instance {
 export type INotifyDataErrorInfo = INotifyDataErrorInfo$instance;
 
 export interface INotifyPropertyChanged$instance {
+    readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
+
 }
 
 
 export type INotifyPropertyChanged = INotifyPropertyChanged$instance;
 
 export interface INotifyPropertyChanging$instance {
+    readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanging: never;
+
 }
 
 
 export type INotifyPropertyChanging = INotifyPropertyChanging$instance;
 
 export interface IRaiseItemChangedEvents$instance {
+    readonly __tsonic_iface_System_ComponentModel_IRaiseItemChangedEvents: never;
+
     readonly RaisesItemChangedEvents: boolean;
 }
 
@@ -419,6 +457,8 @@ export interface IRaiseItemChangedEvents$instance {
 export type IRaiseItemChangedEvents = IRaiseItemChangedEvents$instance;
 
 export interface IRevertibleChangeTracking$instance extends IChangeTracking {
+    readonly __tsonic_iface_System_ComponentModel_IRevertibleChangeTracking: never;
+
     readonly IsChanged: boolean;
     RejectChanges(): void;
     AcceptChanges(): void;
@@ -430,6 +470,8 @@ export interface IRevertibleChangeTracking$instance extends IChangeTracking$inst
 export type IRevertibleChangeTracking = IRevertibleChangeTracking$instance;
 
 export interface ISite$instance extends IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_ISite: never;
+
     readonly Component: IComponent;
     readonly Container: IContainer | undefined;
     readonly DesignMode: boolean;
@@ -444,6 +486,8 @@ export interface ISite$instance extends System_Internal.IServiceProvider$instanc
 export type ISite = ISite$instance;
 
 export interface ISupportInitialize$instance {
+    readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
+
     BeginInit(): void;
 }
 
@@ -451,6 +495,8 @@ export interface ISupportInitialize$instance {
 export type ISupportInitialize = ISupportInitialize$instance;
 
 export interface ISupportInitializeNotification$instance extends ISupportInitialize {
+    readonly __tsonic_iface_System_ComponentModel_ISupportInitializeNotification: never;
+
     readonly IsInitialized: boolean;
     BeginInit(): void;
 }
@@ -461,6 +507,8 @@ export interface ISupportInitializeNotification$instance extends ISupportInitial
 export type ISupportInitializeNotification = ISupportInitializeNotification$instance;
 
 export interface ISynchronizeInvoke$instance {
+    readonly __tsonic_iface_System_ComponentModel_ISynchronizeInvoke: never;
+
     readonly InvokeRequired: boolean;
     BeginInvoke(method: Function, args: unknown[]): IAsyncResult;
     EndInvoke(result: IAsyncResult): unknown | undefined;
@@ -471,6 +519,8 @@ export interface ISynchronizeInvoke$instance {
 export type ISynchronizeInvoke = ISynchronizeInvoke$instance;
 
 export interface ITypeDescriptorContext$instance extends IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_ITypeDescriptorContext: never;
+
     readonly Container: IContainer | undefined;
     readonly Instance: unknown | undefined;
     readonly PropertyDescriptor: PropertyDescriptor | undefined;
@@ -485,6 +535,8 @@ export interface ITypeDescriptorContext$instance extends System_Internal.IServic
 export type ITypeDescriptorContext = ITypeDescriptorContext$instance;
 
 export interface ITypedList$instance {
+    readonly __tsonic_iface_System_ComponentModel_ITypedList: never;
+
     GetItemProperties(listAccessors: PropertyDescriptor[]): PropertyDescriptorCollection;
     GetListName(listAccessors: PropertyDescriptor[]): string;
 }
@@ -579,6 +631,9 @@ export const AsyncOperation: {
 export type AsyncOperation = AsyncOperation$instance;
 
 export interface AttributeCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Attributes: Attribute[];
     readonly Count: int;
     Contains(attribute: Attribute): boolean;
@@ -623,6 +678,9 @@ export const AttributeProviderAttribute: {
 export type AttributeProviderAttribute = AttributeProviderAttribute$instance;
 
 export interface BackgroundWorker$instance extends Component$instance {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CancellationPending: boolean;
     readonly IsBusy: boolean;
     WorkerReportsProgress: boolean;
@@ -694,6 +752,18 @@ export const BindableAttribute: {
 export type BindableAttribute = BindableAttribute$instance;
 
 export interface BindingList_1$instance<T> extends Collection_1<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_ComponentModel_IBindingList: never;
+    readonly __tsonic_iface_System_ComponentModel_ICancelAddNew: never;
+    readonly __tsonic_iface_System_ComponentModel_IRaiseItemChangedEvents: never;
+
     AllowEdit: boolean;
     AllowNew: boolean;
     AllowRemove: boolean;
@@ -920,6 +990,9 @@ export const ComplexBindingPropertiesAttribute: {
 export type ComplexBindingPropertiesAttribute = ComplexBindingPropertiesAttribute$instance;
 
 export interface Component$instance extends MarshalByRefObject {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRaiseEvents: boolean;
     readonly Container: IContainer | undefined;
     get Site(): ISite | undefined;
@@ -946,6 +1019,9 @@ export type Component = Component$instance & __Component$views;
 
 
 export interface ComponentCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     CopyTo(array: ClrArray, index: int): void;
     get_Item(name: string): IComponent | undefined;
     get_Item(index: int): IComponent | undefined;
@@ -962,8 +1038,6 @@ export interface __ComponentCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ComponentCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ComponentCollection = ComponentCollection$instance & __ComponentCollection$views;
 
@@ -1012,6 +1086,9 @@ export const ComponentResourceManager: {
 export type ComponentResourceManager = ComponentResourceManager$instance;
 
 export interface Container$instance {
+    readonly __tsonic_iface_System_ComponentModel_IContainer: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Components: ComponentCollection;
     Add(component: IComponent): void;
     Add(component: IComponent, name: string): void;
@@ -1076,6 +1153,8 @@ export const CultureInfoConverter: {
 export type CultureInfoConverter = CultureInfoConverter$instance;
 
 export interface CustomTypeDescriptor$instance {
+    readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
+
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
     GetAttributes(): AttributeCollection;
     GetClassName(): string | undefined;
@@ -1556,6 +1635,10 @@ export const EventDescriptor: (abstract new(name: string, attrs: Attribute[]) =>
 export type EventDescriptor = EventDescriptor$instance;
 
 export interface EventDescriptorCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Count: int;
     Add(value: EventDescriptor): int;
     Clear(): void;
@@ -1592,6 +1675,8 @@ export type EventDescriptorCollection = EventDescriptorCollection$instance & __E
 
 
 export interface EventHandlerList$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get Item(): Function | undefined;
     set Item(value: Function | undefined);
     AddHandler(key: unknown, value: Function): void;
@@ -1817,6 +1902,8 @@ export const Int64Converter: {
 export type Int64Converter = Int64Converter$instance;
 
 export interface InvalidAsynchronousStateException$instance extends ArgumentException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1836,6 +1923,8 @@ export type InvalidAsynchronousStateException = InvalidAsynchronousStateExceptio
 
 
 export interface InvalidEnumArgumentException$instance extends ArgumentException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1856,6 +1945,8 @@ export type InvalidEnumArgumentException = InvalidEnumArgumentException$instance
 
 
 export interface License$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly LicenseKey: string;
     Dispose(): void;
 }
@@ -1875,6 +1966,8 @@ export type License = License$instance & __License$views;
 
 
 export interface LicenseContext$instance {
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     readonly UsageMode: LicenseUsageMode;
     GetSavedLicenseKey(type: Type, resourceAssembly: Assembly): string | undefined;
     GetService(type: Type): unknown | undefined;
@@ -1897,6 +1990,8 @@ export type LicenseContext = LicenseContext$instance & __LicenseContext$views;
 
 
 export interface LicenseException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly LicensedType: Type | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -2033,6 +2128,10 @@ export const ListSortDescription: {
 export type ListSortDescription = ListSortDescription$instance;
 
 export interface ListSortDescriptionCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     [index: number]: ListSortDescription;
     Contains(value: unknown): boolean;
@@ -2094,6 +2193,10 @@ export const LookupBindingPropertiesAttribute: {
 export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$instance;
 
 export interface MarshalByValueComponent$instance {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     readonly Container: IContainer | undefined;
     readonly DesignMode: boolean;
     get Site(): ISite | undefined;
@@ -2123,6 +2226,8 @@ export type MarshalByValueComponent = MarshalByValueComponent$instance & __Marsh
 
 
 export interface MaskedTextProvider$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly AllowPromptAsInput: boolean;
     readonly AsciiOnly: boolean;
     AssignedEditPositionCount: int;
@@ -2285,6 +2390,10 @@ export const MultilineStringConverter: {
 export type MultilineStringConverter = MultilineStringConverter$instance;
 
 export interface NestedContainer$instance extends Container$instance {
+    readonly __tsonic_iface_System_ComponentModel_IContainer: never;
+    readonly __tsonic_iface_System_ComponentModel_INestedContainer: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Owner: IComponent;
     readonly OwnerName: string | undefined;
     Add(component: IComponent): void;
@@ -2476,6 +2585,11 @@ export const PropertyDescriptor: (abstract new(name: string, attrs: Attribute[])
 export type PropertyDescriptor = PropertyDescriptor$instance;
 
 export interface PropertyDescriptorCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Count: int;
     Add(value: PropertyDescriptor): int;
     Clear(): void;
@@ -2850,6 +2964,9 @@ export const TypeConverter: {
 export type TypeConverter = TypeConverter$instance;
 
 export interface TypeConverter_StandardValuesCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly [index: number]: unknown | undefined;
     CopyTo(array: ClrArray, index: int): void;
@@ -3103,6 +3220,8 @@ export const VersionConverter: {
 export type VersionConverter = VersionConverter$instance;
 
 export interface WarningException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly HelpTopic: string | undefined;
     readonly HelpUrl: string | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -3126,6 +3245,8 @@ export type WarningException = WarningException$instance & __WarningException$vi
 
 
 export interface Win32Exception$instance extends ExternalException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly NativeErrorCode: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;

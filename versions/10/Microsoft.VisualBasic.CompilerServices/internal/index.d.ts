@@ -186,6 +186,8 @@ export const DoubleType: {
 export type DoubleType = DoubleType$instance;
 
 export interface IncompleteInitialization$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 

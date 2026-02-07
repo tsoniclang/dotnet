@@ -53,6 +53,8 @@ export enum XObjectChange {
 
 
 export interface XAttribute$instance extends XObject$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly IsNamespaceDeclaration: boolean;
     readonly Name: XName;
     readonly NextAttribute: XAttribute | undefined;
@@ -83,6 +85,8 @@ export type XAttribute = XAttribute$instance & __XAttribute$views;
 
 
 export interface XCData$instance extends XText$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly NodeType: XmlNodeType;
     HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
@@ -104,6 +108,8 @@ export type XCData = XCData$instance & __XCData$views;
 
 
 export interface XComment$instance extends XNode$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly NodeType: XmlNodeType;
     Value: string;
     HasLineInfo(): boolean;
@@ -126,6 +132,8 @@ export type XComment = XComment$instance & __XComment$views;
 
 
 export interface XContainer$instance extends XNode$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly FirstNode: XNode | undefined;
     readonly LastNode: XNode | undefined;
     Add(content: unknown): void;
@@ -178,6 +186,8 @@ export const XDeclaration: {
 export type XDeclaration = XDeclaration$instance;
 
 export interface XDocument$instance extends XContainer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     get Declaration(): XDeclaration | undefined;
     set Declaration(value: XDeclaration | undefined);
     readonly DocumentType: XDocumentType | undefined;
@@ -228,6 +238,8 @@ export type XDocument = XDocument$instance & __XDocument$views;
 
 
 export interface XDocumentType$instance extends XNode$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     get InternalSubset(): string | undefined;
     set InternalSubset(value: string | undefined);
     Name: string;
@@ -256,6 +268,9 @@ export type XDocumentType = XDocumentType$instance & __XDocumentType$views;
 
 
 export interface XElement$instance extends XContainer$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly FirstAttribute: XAttribute | undefined;
     readonly HasAttributes: boolean;
     readonly HasElements: boolean;
@@ -334,6 +349,9 @@ export type XElement = XElement$instance & __XElement$views;
 
 
 export interface XName$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly LocalName: string;
     readonly Namespace: XNamespace;
     readonly NamespaceName: string;
@@ -382,6 +400,8 @@ export const XNamespace: {
 export type XNamespace = XNamespace$instance;
 
 export interface XNode$instance extends XObject$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly NextNode: XNode | undefined;
     readonly PreviousNode: XNode | undefined;
     AddAfterSelf(content: unknown): void;
@@ -431,6 +451,9 @@ export type XNode = XNode$instance & __XNode$views;
 
 
 export interface XNodeDocumentOrderComparer$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
+    readonly __tsonic_iface_System_Collections_IComparer: never;
+
     Compare(x: XNode, y: XNode): int;
 }
 
@@ -451,6 +474,9 @@ export type XNodeDocumentOrderComparer = XNodeDocumentOrderComparer$instance & _
 
 
 export interface XNodeEqualityComparer$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
+    readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
+
     Equals(x: XNode, y: XNode): boolean;
     GetHashCode(obj: XNode): int;
 }
@@ -470,6 +496,8 @@ export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqua
 
 
 export interface XObject$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly BaseUri: string;
     readonly Document: XDocument | undefined;
     readonly NodeType: XmlNodeType;
@@ -514,6 +542,8 @@ export const XObjectChangeEventArgs: {
 export type XObjectChangeEventArgs = XObjectChangeEventArgs$instance;
 
 export interface XProcessingInstruction$instance extends XNode$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     Data: string;
     readonly NodeType: XmlNodeType;
     Target: string;
@@ -563,6 +593,8 @@ export const XStreamingElement: {
 export type XStreamingElement = XStreamingElement$instance;
 
 export interface XText$instance extends XNode$instance {
+    readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
+
     readonly NodeType: XmlNodeType;
     Value: string;
     HasLineInfo(): boolean;

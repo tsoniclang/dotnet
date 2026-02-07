@@ -31,6 +31,14 @@ export enum NormalizationForm {
 
 
 export interface Rune$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
     readonly IsAscii: boolean;
     readonly IsBmp: boolean;
     readonly Plane: int;
@@ -108,6 +116,10 @@ export type Rune = Rune$instance & __Rune$views;
 
 
 export interface SpanLineEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: ReadOnlySpan_1<System_Internal.Char>;
     GetEnumerator(): SpanLineEnumerator;
     MoveNext(): boolean;
@@ -130,6 +142,10 @@ export type SpanLineEnumerator = SpanLineEnumerator$instance & __SpanLineEnumera
 
 
 export interface SpanRuneEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: Rune;
     GetEnumerator(): SpanRuneEnumerator;
     MoveNext(): boolean;
@@ -188,6 +204,12 @@ export const StringBuilder_ChunkEnumerator: {
 export type StringBuilder_ChunkEnumerator = StringBuilder_ChunkEnumerator$instance;
 
 export interface StringRuneEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: Rune;
     GetEnumerator(): StringRuneEnumerator;
     MoveNext(): boolean;
@@ -212,6 +234,8 @@ export type StringRuneEnumerator = StringRuneEnumerator$instance & __StringRuneE
 
 
 export interface ASCIIEncoding$instance extends Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly IsSingleByte: boolean;
     Clone(): unknown;
     GetByteCount(chars: char[], index: int, count: int): int;
@@ -383,6 +407,8 @@ export const DecoderFallbackBuffer: (abstract new() => DecoderFallbackBuffer) & 
 export type DecoderFallbackBuffer = DecoderFallbackBuffer$instance;
 
 export interface DecoderFallbackException$instance extends ArgumentException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly BytesUnknown: byte[] | undefined;
     readonly Index: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -522,6 +548,8 @@ export const EncoderFallbackBuffer: (abstract new() => EncoderFallbackBuffer) & 
 export type EncoderFallbackBuffer = EncoderFallbackBuffer$instance;
 
 export interface EncoderFallbackException$instance extends ArgumentException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly CharUnknown: char;
     readonly CharUnknownHigh: char;
     readonly CharUnknownLow: char;
@@ -580,6 +608,8 @@ export const EncoderReplacementFallbackBuffer: {
 export type EncoderReplacementFallbackBuffer = EncoderReplacementFallbackBuffer$instance;
 
 export interface Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly BodyName: string;
     readonly CodePage: int;
     DecoderFallback: DecoderFallback;
@@ -700,6 +730,8 @@ export const EncodingProvider: (abstract new() => EncodingProvider) & {
 export type EncodingProvider = EncodingProvider$instance;
 
 export interface StringBuilder$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     Capacity: int;
     [index: number]: char;
     Length: int;
@@ -817,6 +849,8 @@ export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
 
 
 export interface UnicodeEncoding$instance extends Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
     Clone(): unknown;
     Equals(value: unknown): boolean;
@@ -872,6 +906,8 @@ export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views
 
 
 export interface UTF32Encoding$instance extends Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
     Clone(): unknown;
     Equals(value: unknown): boolean;
@@ -926,6 +962,8 @@ export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 
 export interface UTF7Encoding$instance extends Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     Clone(): unknown;
     Equals(value: unknown): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
@@ -977,6 +1015,8 @@ export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 
 
 export interface UTF8Encoding$instance extends Encoding$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
     Clone(): unknown;
     Equals(value: unknown): boolean;

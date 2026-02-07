@@ -83,6 +83,8 @@ export enum JsonUnmappedMemberHandling {
 
 
 export interface IJsonOnDeserialized$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_IJsonOnDeserialized: never;
+
     OnDeserialized(): void;
 }
 
@@ -90,6 +92,8 @@ export interface IJsonOnDeserialized$instance {
 export type IJsonOnDeserialized = IJsonOnDeserialized$instance;
 
 export interface IJsonOnDeserializing$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_IJsonOnDeserializing: never;
+
     OnDeserializing(): void;
 }
 
@@ -97,6 +101,8 @@ export interface IJsonOnDeserializing$instance {
 export type IJsonOnDeserializing = IJsonOnDeserializing$instance;
 
 export interface IJsonOnSerialized$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_IJsonOnSerialized: never;
+
     OnSerialized(): void;
 }
 
@@ -104,6 +110,8 @@ export interface IJsonOnSerialized$instance {
 export type IJsonOnSerialized = IJsonOnSerialized$instance;
 
 export interface IJsonOnSerializing$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_IJsonOnSerializing: never;
+
     OnSerializing(): void;
 }
 
@@ -336,6 +344,8 @@ export const JsonSerializableAttribute: {
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
 export interface JsonSerializerContext$instance {
+    readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
+
     readonly GeneratedSerializerOptions: JsonSerializerOptions | undefined;
     readonly Options: JsonSerializerOptions;
     GetTypeInfo(type: Type): JsonTypeInfo | undefined;

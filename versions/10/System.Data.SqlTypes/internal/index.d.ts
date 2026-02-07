@@ -38,6 +38,8 @@ export enum StorageState {
 
 
 export interface INullable$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+
     readonly IsNull: boolean;
 }
 
@@ -45,6 +47,11 @@ export interface INullable$instance {
 export type INullable = INullable$instance;
 
 export interface SqlBinary$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly [index: number]: byte;
     readonly Length: int;
@@ -92,6 +99,11 @@ export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
 
 
 export interface SqlBoolean$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly ByteValue: byte;
     readonly IsFalse: boolean;
     readonly IsNull: boolean;
@@ -155,6 +167,11 @@ export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
 
 
 export interface SqlByte$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: byte;
     CompareTo(value: unknown): int;
@@ -219,6 +236,11 @@ export type SqlByte = SqlByte$instance & __SqlByte$views;
 
 
 export interface SqlDateTime$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly DayTicks: int;
     readonly IsNull: boolean;
     readonly TimeTicks: int;
@@ -276,6 +298,11 @@ export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
 
 
 export interface SqlDecimal$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly BinData: byte[];
     readonly Data: int[];
     readonly IsNull: boolean;
@@ -356,6 +383,11 @@ export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
 
 
 export interface SqlDouble$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: double;
     CompareTo(value: unknown): int;
@@ -414,6 +446,12 @@ export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
 
 
 export interface SqlGuid$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: Guid;
     CompareTo(value: unknown): int;
@@ -463,6 +501,11 @@ export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
 
 
 export interface SqlInt16$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: short;
     CompareTo(value: unknown): int;
@@ -527,6 +570,11 @@ export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
 
 
 export interface SqlInt32$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: int;
     CompareTo(value: unknown): int;
@@ -591,6 +639,11 @@ export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
 
 
 export interface SqlInt64$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: long;
     CompareTo(value: unknown): int;
@@ -655,6 +708,11 @@ export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
 
 
 export interface SqlMoney$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: decimal;
     CompareTo(value: unknown): int;
@@ -722,6 +780,11 @@ export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
 
 
 export interface SqlSingle$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: float;
     CompareTo(value: unknown): int;
@@ -781,6 +844,11 @@ export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
 
 
 export interface SqlString$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly CompareInfo: CompareInfo;
     readonly CultureInfo: CultureInfo;
     readonly IsNull: boolean;
@@ -855,6 +923,8 @@ export type SqlString = SqlString$instance & __SqlString$views;
 
 
 export interface SqlAlreadyFilledException$instance extends SqlTypeException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -874,6 +944,10 @@ export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __S
 
 
 export interface SqlBytes$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly Buffer: byte[] | undefined;
     readonly IsNull: boolean;
     [offset: number]: byte;
@@ -912,6 +986,10 @@ export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 
 
 export interface SqlChars$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly Buffer: char[] | undefined;
     readonly IsNull: boolean;
     [offset: number]: char;
@@ -948,6 +1026,8 @@ export type SqlChars = SqlChars$instance & __SqlChars$views;
 
 
 export interface SqlNotFilledException$instance extends SqlTypeException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -967,6 +1047,8 @@ export type SqlNotFilledException = SqlNotFilledException$instance & __SqlNotFil
 
 
 export interface SqlNullValueException$instance extends SqlTypeException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -986,6 +1068,8 @@ export type SqlNullValueException = SqlNullValueException$instance & __SqlNullVa
 
 
 export interface SqlTruncateException$instance extends SqlTypeException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1005,6 +1089,8 @@ export type SqlTruncateException = SqlTruncateException$instance & __SqlTruncate
 
 
 export interface SqlTypeException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1024,6 +1110,9 @@ export type SqlTypeException = SqlTypeException$instance & __SqlTypeException$vi
 
 
 export interface SqlXml$instance {
+    readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
+    readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
+
     readonly IsNull: boolean;
     readonly Value: string;
     CreateReader(): XmlReader;

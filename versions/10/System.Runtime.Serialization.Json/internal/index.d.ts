@@ -17,6 +17,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface IXmlJsonReaderInitializer$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_Json_IXmlJsonReaderInitializer: never;
+
     SetInput(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
     SetInput(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): void;
 }
@@ -25,6 +27,8 @@ export interface IXmlJsonReaderInitializer$instance {
 export type IXmlJsonReaderInitializer = IXmlJsonReaderInitializer$instance;
 
 export interface IXmlJsonWriterInitializer$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_Json_IXmlJsonWriterInitializer: never;
+
     SetOutput(stream: Stream, encoding: Encoding, ownsStream: boolean): void;
 }
 

@@ -39,6 +39,8 @@ export enum ProtectionScenario {
 
 
 export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Size: int;
     Dispose(): void;
     Dispose(disposing: boolean): void;
@@ -57,6 +59,8 @@ export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
 export interface ExtendedProtectionPolicy$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly CustomChannelBinding: ChannelBinding | undefined;
     readonly CustomServiceNames: ServiceNameCollection | undefined;
     readonly PolicyEnforcement: PolicyEnforcement;
@@ -99,6 +103,9 @@ export const ExtendedProtectionPolicyTypeConverter: {
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
 export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     Contains(searchServiceName: string): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -116,8 +123,6 @@ export interface __ServiceNameCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ServiceNameCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ServiceNameCollection = ServiceNameCollection$instance & __ServiceNameCollection$views;
 

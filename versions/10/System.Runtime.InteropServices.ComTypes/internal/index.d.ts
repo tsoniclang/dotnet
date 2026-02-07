@@ -210,6 +210,8 @@ export enum VARKIND {
 
 
 export interface IAdviseSink$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IAdviseSink: never;
+
     OnDataChange(format: FORMATETC, stgmedium: STGMEDIUM): void;
     OnRename(moniker: IMoniker): void;
     OnSave(): void;
@@ -220,6 +222,8 @@ export interface IAdviseSink$instance {
 export type IAdviseSink = IAdviseSink$instance;
 
 export interface IBindCtx$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IBindCtx: never;
+
     EnumObjectParam(ppenum: IEnumString): void;
     GetObjectParam(pszKey: string, ppunk: unknown): void;
     GetRunningObjectTable(pprot: IRunningObjectTable): void;
@@ -234,6 +238,8 @@ export interface IBindCtx$instance {
 export type IBindCtx = IBindCtx$instance;
 
 export interface IConnectionPoint$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IConnectionPoint: never;
+
     Advise(pUnkSink: unknown, pdwCookie: int): void;
     EnumConnections(ppEnum: IEnumConnections): void;
     GetConnectionInterface(pIID: Guid): void;
@@ -245,6 +251,8 @@ export interface IConnectionPoint$instance {
 export type IConnectionPoint = IConnectionPoint$instance;
 
 export interface IConnectionPointContainer$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IConnectionPointContainer: never;
+
     EnumConnectionPoints(ppEnum: IEnumConnectionPoints): void;
     FindConnectionPoint(riid: Guid, ppCP: IConnectionPoint): void;
 }
@@ -253,6 +261,8 @@ export interface IConnectionPointContainer$instance {
 export type IConnectionPointContainer = IConnectionPointContainer$instance;
 
 export interface IDataObject$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IDataObject: never;
+
     DAdvise(pFormatetc: FORMATETC, advf: ADVF, adviseSink: IAdviseSink, connection: int): int;
     DUnadvise(connection: int): void;
     EnumDAdvise(enumAdvise: IEnumSTATDATA): int;
@@ -267,6 +277,8 @@ export interface IDataObject$instance {
 export type IDataObject = IDataObject$instance;
 
 export interface IEnumConnectionPoints$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumConnectionPoints: never;
+
     Clone(ppenum: IEnumConnectionPoints): void;
     Next(celt: int, rgelt: IConnectionPoint[], pceltFetched: nint): int;
     Reset(): void;
@@ -277,6 +289,8 @@ export interface IEnumConnectionPoints$instance {
 export type IEnumConnectionPoints = IEnumConnectionPoints$instance;
 
 export interface IEnumConnections$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumConnections: never;
+
     Clone(ppenum: IEnumConnections): void;
     Next(celt: int, rgelt: CONNECTDATA[], pceltFetched: nint): int;
     Reset(): void;
@@ -287,6 +301,8 @@ export interface IEnumConnections$instance {
 export type IEnumConnections = IEnumConnections$instance;
 
 export interface IEnumFORMATETC$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumFORMATETC: never;
+
     Clone(newEnum: IEnumFORMATETC): void;
     Next(celt: int, rgelt: FORMATETC[], pceltFetched: int[]): int;
     Reset(): int;
@@ -297,6 +313,8 @@ export interface IEnumFORMATETC$instance {
 export type IEnumFORMATETC = IEnumFORMATETC$instance;
 
 export interface IEnumMoniker$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumMoniker: never;
+
     Clone(ppenum: IEnumMoniker): void;
     Next(celt: int, rgelt: IMoniker[], pceltFetched: nint): int;
     Reset(): void;
@@ -307,6 +325,8 @@ export interface IEnumMoniker$instance {
 export type IEnumMoniker = IEnumMoniker$instance;
 
 export interface IEnumSTATDATA$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumSTATDATA: never;
+
     Clone(newEnum: IEnumSTATDATA): void;
     Next(celt: int, rgelt: STATDATA[], pceltFetched: int[]): int;
     Reset(): int;
@@ -317,6 +337,8 @@ export interface IEnumSTATDATA$instance {
 export type IEnumSTATDATA = IEnumSTATDATA$instance;
 
 export interface IEnumString$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumString: never;
+
     Clone(ppenum: IEnumString): void;
     Next(celt: int, rgelt: string[], pceltFetched: nint): int;
     Reset(): void;
@@ -327,6 +349,8 @@ export interface IEnumString$instance {
 export type IEnumString = IEnumString$instance;
 
 export interface IEnumVARIANT$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumVARIANT: never;
+
     Clone(): IEnumVARIANT;
     Next(celt: int, rgVar: unknown[], pceltFetched: nint): int;
     Reset(): int;
@@ -337,6 +361,8 @@ export interface IEnumVARIANT$instance {
 export type IEnumVARIANT = IEnumVARIANT$instance;
 
 export interface IMoniker$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IMoniker: never;
+
     BindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: Guid, ppvResult: unknown): void;
     CommonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker): void;
     ComposeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker): void;
@@ -361,6 +387,8 @@ export interface IMoniker$instance {
 export type IMoniker = IMoniker$instance;
 
 export interface IPersistFile$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IPersistFile: never;
+
     GetClassID(pClassID: Guid): void;
     GetCurFile(ppszFileName: string): void;
     IsDirty(): int;
@@ -373,6 +401,8 @@ export interface IPersistFile$instance {
 export type IPersistFile = IPersistFile$instance;
 
 export interface IRunningObjectTable$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IRunningObjectTable: never;
+
     EnumRunning(ppenumMoniker: IEnumMoniker): void;
     GetObject(pmkObjectName: IMoniker, ppunkObject: unknown): int;
     GetTimeOfLastChange(pmkObjectName: IMoniker, pfiletime: FILETIME): int;
@@ -386,6 +416,8 @@ export interface IRunningObjectTable$instance {
 export type IRunningObjectTable = IRunningObjectTable$instance;
 
 export interface IStream$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IStream: never;
+
     Clone(ppstm: IStream): void;
     Commit(grfCommitFlags: int): void;
     CopyTo(pstm: IStream, cb: long, pcbRead: nint, pcbWritten: nint): void;
@@ -401,6 +433,8 @@ export interface IStream$instance {
 export type IStream = IStream$instance;
 
 export interface ITypeComp$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeComp: never;
+
     Bind(szName: string, lHashVal: int, wFlags: short, ppTInfo: ITypeInfo, pDescKind: DESCKIND, pBindPtr: BINDPTR): void;
     BindType(szName: string, lHashVal: int, ppTInfo: ITypeInfo, ppTComp: ITypeComp): void;
 }
@@ -409,6 +443,8 @@ export interface ITypeComp$instance {
 export type ITypeComp = ITypeComp$instance;
 
 export interface ITypeInfo$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo: never;
+
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
     CreateInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
     GetContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
@@ -431,6 +467,8 @@ export interface ITypeInfo$instance {
 export type ITypeInfo = ITypeInfo$instance;
 
 export interface ITypeInfo2$instance extends ITypeInfo {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo2: never;
+
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
     CreateInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
     GetAllFuncCustData(index: int, pCustData: nint): void;
@@ -464,6 +502,8 @@ export interface ITypeInfo2$instance extends ITypeInfo$instance {}
 export type ITypeInfo2 = ITypeInfo2$instance;
 
 export interface ITypeLib$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeLib: never;
+
     FindName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
     GetDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
     GetLibAttr(ppTLibAttr: nint): void;
@@ -480,6 +520,8 @@ export interface ITypeLib$instance {
 export type ITypeLib = ITypeLib$instance;
 
 export interface ITypeLib2$instance extends ITypeLib {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeLib2: never;
+
     FindName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
     GetCustData(guid: Guid, pVarVal: unknown): void;
     GetDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
