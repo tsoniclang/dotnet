@@ -41,6 +41,8 @@ export const ComponentGuaranteesAttribute: {
 export type ComponentGuaranteesAttribute = ComponentGuaranteesAttribute$instance;
 
 export interface FrameworkName$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly FullName: string;
     readonly Identifier: string;
     readonly Profile: string;

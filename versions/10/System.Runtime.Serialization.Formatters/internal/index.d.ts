@@ -29,6 +29,8 @@ export enum TypeFilterLevel {
 
 
 export interface IFieldInfo$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_Formatters_IFieldInfo: never;
+
     get FieldNames(): string[] | undefined;
     set FieldNames(value: string[] | undefined);
     get FieldTypes(): Type[] | undefined;

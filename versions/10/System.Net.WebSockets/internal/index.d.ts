@@ -94,6 +94,8 @@ export const ValueWebSocketReceiveResult: {
 export type ValueWebSocketReceiveResult = ValueWebSocketReceiveResult$instance;
 
 export interface ClientWebSocket$instance extends WebSocket$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
     readonly CloseStatusDescription: string | undefined;
     get HttpResponseHeaders(): IReadOnlyDictionary_2<System_Internal.String, IEnumerable_1<System_Internal.String>> | undefined;
@@ -185,6 +187,8 @@ export const HttpListenerWebSocketContext: {
 export type HttpListenerWebSocketContext = HttpListenerWebSocketContext$instance;
 
 export interface WebSocket$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
     readonly CloseStatusDescription: string | undefined;
     readonly State: WebSocketState;
@@ -280,6 +284,8 @@ export const WebSocketDeflateOptions: {
 export type WebSocketDeflateOptions = WebSocketDeflateOptions$instance;
 
 export interface WebSocketException$instance extends Win32Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ErrorCode: int;
     readonly WebSocketErrorCode: WebSocketError;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -329,6 +335,9 @@ export const WebSocketReceiveResult: {
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
 export interface WebSocketStream$instance extends Stream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanWrite: boolean;

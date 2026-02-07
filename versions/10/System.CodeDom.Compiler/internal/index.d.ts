@@ -28,6 +28,9 @@ export const GeneratedCodeAttribute: {
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
 export interface IndentedTextWriter$instance extends TextWriter {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Encoding: Encoding;
     Indent: int;
     readonly InnerWriter: TextWriter;

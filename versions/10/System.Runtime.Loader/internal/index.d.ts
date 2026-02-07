@@ -13,6 +13,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface AssemblyLoadContext_ContextualReflectionScope$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
 }
 

@@ -360,6 +360,8 @@ export enum TransmitFileOptions {
 
 
 export interface IPPacketInformation$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Address: IPAddress;
     readonly Interface: int;
     Equals(comparand: unknown): boolean;
@@ -425,6 +427,8 @@ export const SocketReceiveMessageFromResult: {
 export type SocketReceiveMessageFromResult = SocketReceiveMessageFromResult$instance;
 
 export interface UdpReceiveResult$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Buffer: byte[];
     readonly RemoteEndPoint: IPEndPoint;
     Equals(obj: unknown): boolean;
@@ -495,6 +499,9 @@ export const MulticastOption: {
 export type MulticastOption = MulticastOption$instance;
 
 export interface NetworkStream$instance extends Stream {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly CanRead: boolean;
     readonly CanSeek: boolean;
     readonly CanTimeout: boolean;
@@ -557,6 +564,8 @@ export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
 export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly IsInvalid: boolean;
     Dispose(): void;
     Dispose(disposing: boolean): void;
@@ -612,6 +621,8 @@ export const SendPacketsElement: {
 export type SendPacketsElement = SendPacketsElement$instance;
 
 export interface Socket$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly AddressFamily: AddressFamily;
     readonly Available: int;
     Blocking: boolean;
@@ -820,6 +831,8 @@ export type Socket = Socket$instance & __Socket$views;
 
 
 export interface SocketAsyncEventArgs$instance extends EventArgs {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get AcceptSocket(): Socket | undefined;
     set AcceptSocket(value: Socket | undefined);
     readonly Buffer: byte[] | undefined;
@@ -869,6 +882,8 @@ export type SocketAsyncEventArgs = SocketAsyncEventArgs$instance & __SocketAsync
 
 
 export interface SocketException$instance extends Win32Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ErrorCode: int;
     readonly Message: string;
     readonly SocketErrorCode: SocketError;
@@ -891,6 +906,8 @@ export type SocketException = SocketException$instance & __SocketException$views
 
 
 export interface TcpClient$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Available: int;
     Client: Socket;
     readonly Connected: boolean;
@@ -942,6 +959,8 @@ export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
 export interface TcpListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     ExclusiveAddressUse: boolean;
     readonly LocalEndpoint: EndPoint;
     readonly Server: Socket;
@@ -982,6 +1001,8 @@ export type TcpListener = TcpListener$instance & __TcpListener$views;
 
 
 export interface UdpClient$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Available: int;
     Client: Socket;
     DontFragment: boolean;

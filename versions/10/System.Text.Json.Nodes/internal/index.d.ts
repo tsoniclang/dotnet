@@ -34,6 +34,11 @@ export const JsonNodeOptions: {
 export type JsonNodeOptions = JsonNodeOptions$instance;
 
 export interface JsonArray$instance extends JsonNode {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     Add<T>(value: T): void;
     Add(item: JsonNode): void;
@@ -109,6 +114,12 @@ export const JsonNode: {
 export type JsonNode = JsonNode$instance;
 
 export interface JsonObject$instance extends JsonNode {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     Add(propertyName: string, value: JsonNode): void;
     Add(property: KeyValuePair_2<System_Internal.String, JsonNode>): void;

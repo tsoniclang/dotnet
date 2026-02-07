@@ -78,6 +78,8 @@ export type RuntimeHelpers_TryCode = (userData: unknown) => void;
 
 
 export interface IAsyncStateMachine$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never;
+
     MoveNext(): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
 }
@@ -86,6 +88,8 @@ export interface IAsyncStateMachine$instance {
 export type IAsyncStateMachine = IAsyncStateMachine$instance;
 
 export interface ICriticalNotifyCompletion$instance extends INotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+
     UnsafeOnCompleted(continuation: Action): void;
     OnCompleted(continuation: Action): void;
 }
@@ -96,6 +100,8 @@ export interface ICriticalNotifyCompletion$instance extends INotifyCompletion$in
 export type ICriticalNotifyCompletion = ICriticalNotifyCompletion$instance;
 
 export interface INotifyCompletion$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     OnCompleted(continuation: Action): void;
 }
 
@@ -103,6 +109,8 @@ export interface INotifyCompletion$instance {
 export type INotifyCompletion = INotifyCompletion$instance;
 
 export interface IRuntimeVariables$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IRuntimeVariables: never;
+
     readonly Count: int;
     [index: number]: unknown | undefined;
 }
@@ -111,6 +119,8 @@ export interface IRuntimeVariables$instance {
 export type IRuntimeVariables = IRuntimeVariables$instance;
 
 export interface IStrongBox$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
+
     get Value(): unknown | undefined;
     set Value(value: unknown | undefined);
 }
@@ -119,6 +129,8 @@ export interface IStrongBox$instance {
 export type IStrongBox = IStrongBox$instance;
 
 export interface ITuple$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Length: int;
     readonly [index: number]: unknown | undefined;
 }
@@ -301,6 +313,9 @@ export const ConfiguredTaskAwaitable_1: {
 export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
 
 export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): TResult;
     OnCompleted(continuation: Action): void;
@@ -323,6 +338,9 @@ export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = Configure
 
 
 export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): void;
     OnCompleted(continuation: Action): void;
@@ -369,6 +387,9 @@ export const ConfiguredValueTaskAwaitable_1: {
 export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
 export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): TResult;
     OnCompleted(continuation: Action): void;
@@ -391,6 +412,9 @@ export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> =
 
 
 export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): void;
     OnCompleted(continuation: Action): void;
@@ -643,6 +667,9 @@ export const PoolingAsyncValueTaskMethodBuilder_1: {
 export type PoolingAsyncValueTaskMethodBuilder_1<TResult> = PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
 
 export interface TaskAwaiter$instance extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): void;
     OnCompleted(continuation: Action): void;
@@ -665,6 +692,9 @@ export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 
 export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): TResult;
     OnCompleted(continuation: Action): void;
@@ -687,6 +717,9 @@ export type TaskAwaiter_1<TResult> = TaskAwaiter_1$instance<TResult> & __TaskAwa
 
 
 export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): void;
     OnCompleted(continuation: Action): void;
@@ -709,6 +742,9 @@ export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$vi
 
 
 export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): TResult;
     OnCompleted(continuation: Action): void;
@@ -743,6 +779,9 @@ export const YieldAwaitable: {
 export type YieldAwaitable = YieldAwaitable$instance;
 
 export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
     readonly IsCompleted: boolean;
     GetResult(): void;
     OnCompleted(continuation: Action): void;
@@ -1057,6 +1096,9 @@ export const CompilerLoweringPreserveAttribute: {
 export type CompilerLoweringPreserveAttribute = CompilerLoweringPreserveAttribute$instance;
 
 export interface ConditionalWeakTable_2$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     Add(key: TKey, value: TValue): void;
     AddOrUpdate(key: TKey, value: TValue): void;
     Clear(): void;
@@ -1557,6 +1599,13 @@ export const PreserveBaseOverridesAttribute: {
 export type PreserveBaseOverridesAttribute = PreserveBaseOverridesAttribute$instance;
 
 export interface ReadOnlyCollectionBuilder_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Capacity: int;
     readonly Count: int;
     [index: number]: T;
@@ -1677,6 +1726,8 @@ export const RuntimeCompatibilityAttribute: {
 export type RuntimeCompatibilityAttribute = RuntimeCompatibilityAttribute$instance;
 
 export interface RuntimeWrappedException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly WrappedException: unknown;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -1762,6 +1813,8 @@ export const StringFreezingAttribute: {
 export type StringFreezingAttribute = StringFreezingAttribute$instance;
 
 export interface StrongBox_1$instance<T> {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
+
     Value: T;
 }
 
@@ -1793,6 +1846,8 @@ export const SuppressIldasmAttribute: {
 export type SuppressIldasmAttribute = SuppressIldasmAttribute$instance;
 
 export interface SwitchExpressionException$instance extends InvalidOperationException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     readonly UnmatchedValue: unknown | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

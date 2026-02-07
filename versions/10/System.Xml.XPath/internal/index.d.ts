@@ -72,6 +72,8 @@ export enum XPathResultType {
 
 
 export interface IXPathNavigable$instance {
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     CreateNavigator(): XPathNavigator;
 }
 
@@ -79,6 +81,8 @@ export interface IXPathNavigable$instance {
 export type IXPathNavigable = IXPathNavigable$instance;
 
 export interface XPathDocument$instance {
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     CreateNavigator(): XPathNavigator;
 }
 
@@ -103,6 +107,8 @@ export type XPathDocument = XPathDocument$instance & __XPathDocument$views;
 
 
 export interface XPathException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -164,6 +170,10 @@ export const XPathItem: (abstract new() => XPathItem) & {
 export type XPathItem = XPathItem$instance;
 
 export interface XPathNavigator$instance extends XPathItem {
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
+    readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
+
     readonly BaseURI: string;
     readonly CanEdit: boolean;
     readonly HasAttributes: boolean;
@@ -298,6 +308,9 @@ export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 
 
 export interface XPathNodeIterator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Count: int;
     readonly Current: XPathNavigator | undefined;
     readonly CurrentPosition: int;
@@ -315,8 +328,6 @@ export interface __XPathNodeIterator$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface XPathNodeIterator$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type XPathNodeIterator = XPathNodeIterator$instance & __XPathNodeIterator$views;
 

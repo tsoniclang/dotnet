@@ -45,6 +45,8 @@ export const Claim: {
 export type Claim = Claim$instance;
 
 export interface ClaimsIdentity$instance {
+    readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
+
     get Actor(): ClaimsIdentity | undefined;
     set Actor(value: ClaimsIdentity | undefined);
     readonly AuthenticationType: string | string | undefined;
@@ -105,6 +107,8 @@ export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
 export interface ClaimsPrincipal$instance {
+    readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
+
     readonly Claims: IEnumerable_1<Claim>;
     readonly CustomSerializationData: byte[] | undefined;
     readonly Identities: IEnumerable_1<ClaimsIdentity>;

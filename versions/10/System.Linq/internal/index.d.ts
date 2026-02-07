@@ -37,6 +37,8 @@ export enum ParallelMergeOptions {
 
 
 export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TElement>, IEnumerable {
+    readonly __tsonic_iface_System_Linq_IGrouping_2: never;
+
     readonly Key: TKey;
     GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
@@ -47,6 +49,8 @@ export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TEle
 export type IGrouping_2<TKey, TElement> = IGrouping_2$instance<TKey, TElement>;
 
 export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGrouping_2<TKey, TElement>>, IEnumerable {
+    readonly __tsonic_iface_System_Linq_ILookup_2: never;
+
     readonly Count: int;
     readonly Item: IEnumerable_1<TElement>;
     Contains(key: TKey): boolean;
@@ -59,6 +63,8 @@ export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGroup
 export type ILookup_2<TKey, TElement> = ILookup_2$instance<TKey, TElement>;
 
 export interface IOrderedAsyncEnumerable_1$instance<TElement> extends IAsyncEnumerable_1<TElement> {
+    readonly __tsonic_iface_System_Linq_IOrderedAsyncEnumerable_1: never;
+
     CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
     CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_3<TElement, CancellationToken, ValueTask_1<TKey>>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
     GetAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<TElement>;
@@ -70,6 +76,8 @@ export interface IOrderedAsyncEnumerable_1$instance<TElement> extends System_Col
 export type IOrderedAsyncEnumerable_1<TElement> = IOrderedAsyncEnumerable_1$instance<TElement>;
 
 export interface IOrderedEnumerable_1$instance<TElement> extends IEnumerable_1<TElement>, IEnumerable {
+    readonly __tsonic_iface_System_Linq_IOrderedEnumerable_1: never;
+
     CreateOrderedEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedEnumerable_1<TElement>;
     GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
@@ -80,6 +88,8 @@ export interface IOrderedEnumerable_1$instance<TElement> extends IEnumerable_1<T
 export type IOrderedEnumerable_1<TElement> = IOrderedEnumerable_1$instance<TElement>;
 
 export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
+    readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
+
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -90,6 +100,8 @@ export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
 export type IOrderedQueryable = IOrderedQueryable$instance;
 
 export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnumerable_1<T>, IEnumerable, IQueryable, IOrderedQueryable {
+    readonly __tsonic_iface_System_Linq_IOrderedQueryable_1: never;
+
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -102,6 +114,8 @@ export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnume
 export type IOrderedQueryable_1<T> = IOrderedQueryable_1$instance<T>;
 
 export interface IQueryable$instance extends IEnumerable {
+    readonly __tsonic_iface_System_Linq_IQueryable: never;
+
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -109,11 +123,11 @@ export interface IQueryable$instance extends IEnumerable {
 }
 
 
-export interface IQueryable$instance extends System_Collections_Internal.IEnumerable$instance {}
-
 export type IQueryable = IQueryable$instance;
 
 export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable, IQueryable {
+    readonly __tsonic_iface_System_Linq_IQueryable_1: never;
+
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
@@ -126,6 +140,8 @@ export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable,
 export type IQueryable_1<T> = IQueryable_1$instance<T>;
 
 export interface IQueryProvider$instance {
+    readonly __tsonic_iface_System_Linq_IQueryProvider: never;
+
     CreateQuery<TElement>(expression: Expression): IQueryable_1<TElement>;
     CreateQuery(expression: Expression): IQueryable;
     Execute(expression: Expression): unknown | undefined;
@@ -167,6 +183,14 @@ export const EnumerableQuery: {
 export type EnumerableQuery = EnumerableQuery$instance;
 
 export interface EnumerableQuery_1$instance<T> extends EnumerableQuery {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
+    readonly __tsonic_iface_System_Linq_IOrderedQueryable_1: never;
+    readonly __tsonic_iface_System_Linq_IQueryProvider: never;
+    readonly __tsonic_iface_System_Linq_IQueryable: never;
+    readonly __tsonic_iface_System_Linq_IQueryable_1: never;
+
     ToString(): string | undefined;
 }
 
@@ -190,6 +214,10 @@ export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQ
 
 
 export interface Lookup_2$instance<TKey, TElement> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Linq_ILookup_2: never;
+
     readonly Count: int;
     readonly Item: IEnumerable_1<TElement>;
     ApplyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
@@ -212,6 +240,9 @@ export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Loo
 
 
 export interface OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     GetEnumerator(): IEnumerator_1<TSource>;
     GetEnumerator(): IEnumerator_1<TSource>;
     GetEnumerator(): IEnumerator;
@@ -231,6 +262,8 @@ export type OrderedParallelQuery_1<TSource> = OrderedParallelQuery_1$instance<TS
 
 
 export interface ParallelQuery$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
 }
 
 
@@ -242,12 +275,13 @@ export interface __ParallelQuery$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export interface ParallelQuery$instance extends System_Collections_Internal.IEnumerable$instance {}
-
 export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
 export interface ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     GetEnumerator(): IEnumerator;
 }
 

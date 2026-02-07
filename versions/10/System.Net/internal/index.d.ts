@@ -338,6 +338,8 @@ export type WriteStreamClosedEventHandler = (sender: unknown, e: WriteStreamClos
 
 
 export interface IAuthenticationModule$instance {
+    readonly __tsonic_iface_System_Net_IAuthenticationModule: never;
+
     readonly CanPreAuthenticate: boolean;
     readonly AuthenticationType: string;
     Authenticate(challenge: string, request: WebRequest, credentials: ICredentials): Authorization | undefined;
@@ -348,6 +350,8 @@ export interface IAuthenticationModule$instance {
 export type IAuthenticationModule = IAuthenticationModule$instance;
 
 export interface ICredentialPolicy$instance {
+    readonly __tsonic_iface_System_Net_ICredentialPolicy: never;
+
     ShouldSendCredential(challengeUri: Uri, request: WebRequest, credential: NetworkCredential, authenticationModule: IAuthenticationModule): boolean;
 }
 
@@ -355,6 +359,8 @@ export interface ICredentialPolicy$instance {
 export type ICredentialPolicy = ICredentialPolicy$instance;
 
 export interface ICredentials$instance {
+    readonly __tsonic_iface_System_Net_ICredentials: never;
+
     GetCredential(uri: Uri, authType: string): NetworkCredential;
 }
 
@@ -362,6 +368,8 @@ export interface ICredentials$instance {
 export type ICredentials = ICredentials$instance;
 
 export interface ICredentialsByHost$instance {
+    readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
+
     GetCredential(host: string, port: int, authenticationType: string): NetworkCredential;
 }
 
@@ -369,6 +377,8 @@ export interface ICredentialsByHost$instance {
 export type ICredentialsByHost = ICredentialsByHost$instance;
 
 export interface IWebProxy$instance {
+    readonly __tsonic_iface_System_Net_IWebProxy: never;
+
     get Credentials(): ICredentials | undefined;
     set Credentials(value: ICredentials | undefined);
     GetProxy(destination: Uri): Uri | undefined;
@@ -379,6 +389,8 @@ export interface IWebProxy$instance {
 export type IWebProxy = IWebProxy$instance;
 
 export interface IWebProxyScript$instance {
+    readonly __tsonic_iface_System_Net_IWebProxyScript: never;
+
     Close(): void;
     Load(scriptLocation: Uri, script: string, helperType: Type): boolean;
     Run(url: string, host: string): string;
@@ -388,6 +400,8 @@ export interface IWebProxyScript$instance {
 export type IWebProxyScript = IWebProxyScript$instance;
 
 export interface IWebRequestCreate$instance {
+    readonly __tsonic_iface_System_Net_IWebRequestCreate: never;
+
     Create(uri: Uri): WebRequest;
 }
 
@@ -395,6 +409,14 @@ export interface IWebRequestCreate$instance {
 export type IWebRequestCreate = IWebRequestCreate$instance;
 
 export interface IPNetwork$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
     readonly BaseAddress: IPAddress;
     readonly PrefixLength: int;
     Contains(address: IPAddress): boolean;
@@ -508,6 +530,12 @@ export const Cookie: {
 export type Cookie = Cookie$instance;
 
 export interface CookieCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -570,6 +598,8 @@ export const CookieContainer: {
 export type CookieContainer = CookieContainer$instance;
 
 export interface CookieException$instance extends FormatException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
@@ -589,6 +619,10 @@ export type CookieException = CookieException$instance & __CookieException$views
 
 
 export interface CredentialCache$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Net_ICredentials: never;
+    readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
+
     Add(uriPrefix: Uri, authType: string, cred: NetworkCredential): void;
     Add(host: string, port: int, authenticationType: string, credential: NetworkCredential): void;
     GetCredential(uriPrefix: Uri, authType: string): NetworkCredential;
@@ -611,8 +645,6 @@ export interface __CredentialCache$views {
     As_ICredentialsByHost(): ICredentialsByHost$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface CredentialCache$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type CredentialCache = CredentialCache$instance & __CredentialCache$views;
 
@@ -683,6 +715,8 @@ export const EndPoint: (abstract new() => EndPoint) & {
 export type EndPoint = EndPoint$instance;
 
 export interface FileWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     get ConnectionGroupName(): string | undefined;
     set ConnectionGroupName(value: string | undefined);
     ContentLength: long;
@@ -725,6 +759,9 @@ export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
 export interface FileWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ContentLength: long;
     readonly ContentType: string;
     readonly Headers: WebHeaderCollection;
@@ -751,6 +788,8 @@ export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views
 
 
 export interface FtpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     get CachePolicy(): RequestCachePolicy | undefined;
     set CachePolicy(value: RequestCachePolicy | undefined);
     ClientCertificates: X509CertificateCollection;
@@ -803,6 +842,9 @@ export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
 export interface FtpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly BannerMessage: string | undefined;
     readonly ContentLength: long;
     readonly ExitMessage: string | undefined;
@@ -847,6 +889,8 @@ export const GlobalProxySelection: {
 export type GlobalProxySelection = GlobalProxySelection$instance;
 
 export interface HttpListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     AuthenticationSchemes: AuthenticationSchemes;
     get AuthenticationSchemeSelectorDelegate(): AuthenticationSchemeSelector | undefined;
     set AuthenticationSchemeSelectorDelegate(value: AuthenticationSchemeSelector | undefined);
@@ -888,6 +932,8 @@ export type HttpListener = HttpListener$instance & __HttpListener$views;
 
 
 export interface HttpListenerBasicIdentity$instance extends GenericIdentity {
+    readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
+
     readonly Password: string;
 }
 
@@ -922,6 +968,8 @@ export const HttpListenerContext: {
 export type HttpListenerContext = HttpListenerContext$instance;
 
 export interface HttpListenerException$instance extends Win32Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ErrorCode: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -942,6 +990,10 @@ export type HttpListenerException = HttpListenerException$instance & __HttpListe
 
 
 export interface HttpListenerPrefixCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -1012,6 +1064,8 @@ export const HttpListenerRequest: {
 export type HttpListenerRequest = HttpListenerRequest$instance;
 
 export interface HttpListenerResponse$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get ContentEncoding(): Encoding | undefined;
     set ContentEncoding(value: Encoding | undefined);
     ContentLength64: long;
@@ -1069,6 +1123,8 @@ export const HttpListenerTimeoutManager: {
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
 export interface HttpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     get Accept(): string | undefined;
     set Accept(value: string | undefined);
     readonly Address: Uri;
@@ -1160,6 +1216,9 @@ export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
 export interface HttpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly CharacterSet: string | undefined;
     readonly ContentEncoding: string;
     readonly ContentLength: long;
@@ -1198,6 +1257,13 @@ export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views
 
 
 export interface IPAddress$instance {
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
     Address: long;
     readonly AddressFamily: AddressFamily;
     readonly IsIPv4MappedToIPv6: boolean;
@@ -1308,6 +1374,9 @@ export const IPHostEntry: {
 export type IPHostEntry = IPHostEntry$instance;
 
 export interface NetworkCredential$instance {
+    readonly __tsonic_iface_System_Net_ICredentials: never;
+    readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
+
     Domain: string;
     Password: string;
     SecurePassword: SecureString;
@@ -1368,6 +1437,8 @@ export const PathList: {
 export type PathList = PathList$instance;
 
 export interface ProtocolViolationException$instance extends InvalidOperationException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
@@ -1444,6 +1515,8 @@ export const ServicePointManager: {
 export type ServicePointManager = ServicePointManager$instance;
 
 export interface SocketAddress$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Buffer: Memory_1<System_Internal.Byte>;
     readonly Family: AddressFamily;
     [offset: number]: byte;
@@ -1542,6 +1615,9 @@ export const UploadValuesCompletedEventArgs: {
 export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$instance;
 
 export interface WebClient$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     AllowReadStreamBuffering: boolean;
     AllowWriteStreamBuffering: boolean;
     BaseAddress: string;
@@ -1671,6 +1747,8 @@ export type WebClient = WebClient$instance & __WebClient$views;
 
 
 export interface WebException$instance extends InvalidOperationException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Response: WebResponse | undefined;
     readonly Status: WebExceptionStatus;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -1694,6 +1772,11 @@ export type WebException = WebException$instance & __WebException$views;
 
 
 export interface WebHeaderCollection$instance extends NameValueCollection {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly AllKeys: (string | undefined)[] | string[];
     readonly Count: int;
     readonly Keys: NameObjectCollectionBase_KeysCollection;
@@ -1737,6 +1820,9 @@ export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderColl
 
 
 export interface WebProxy$instance {
+    readonly __tsonic_iface_System_Net_IWebProxy: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     get Address(): Uri | undefined;
     set Address(value: Uri | undefined);
     readonly BypassArrayList: ArrayList;
@@ -1777,6 +1863,8 @@ export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
 export interface WebRequest$instance extends MarshalByRefObject {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     AuthenticationLevel: AuthenticationLevel;
     get CachePolicy(): RequestCachePolicy | undefined;
     set CachePolicy(value: RequestCachePolicy | undefined);
@@ -1834,6 +1922,9 @@ export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
 export interface WebResponse$instance extends MarshalByRefObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     ContentLength: long;
     ContentType: string;
     readonly Headers: WebHeaderCollection;

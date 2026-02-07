@@ -232,6 +232,8 @@ export const ActivityChangedEventArgs: {
 export type ActivityChangedEventArgs = ActivityChangedEventArgs$instance;
 
 export interface ActivityContext$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsRemote: boolean;
     readonly SpanId: ActivitySpanId;
     readonly TraceFlags: ActivityTraceFlags;
@@ -299,6 +301,8 @@ export const ActivityEvent: {
 export type ActivityEvent = ActivityEvent$instance;
 
 export interface ActivityLink$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Context: ActivityContext;
     readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
     EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
@@ -324,6 +328,8 @@ export type ActivityLink = ActivityLink$instance & __ActivityLink$views;
 
 
 export interface ActivitySpanId$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
     Equals(spanId: ActivitySpanId): boolean;
     Equals(obj: unknown): boolean;
@@ -353,6 +359,10 @@ export type ActivitySpanId = ActivitySpanId$instance & __ActivitySpanId$views;
 
 
 export interface ActivityTagsCollection_Enumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: KeyValuePair_2<System_Internal.String, unknown>;
     Dispose(): void;
     MoveNext(): boolean;
@@ -374,6 +384,8 @@ export type ActivityTagsCollection_Enumerator = ActivityTagsCollection_Enumerato
 
 
 export interface ActivityTraceId$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
     Equals(traceId: ActivityTraceId): boolean;
     Equals(obj: unknown): boolean;
@@ -445,6 +457,13 @@ export const Debug_WriteIfInterpolatedStringHandler: {
 export type Debug_WriteIfInterpolatedStringHandler = Debug_WriteIfInterpolatedStringHandler$instance;
 
 export interface TagList$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     [index: number]: KeyValuePair_2<System_Internal.String, unknown>;
@@ -479,6 +498,10 @@ export type TagList = TagList$instance & __TagList$views;
 
 
 export interface TagList_Enumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: KeyValuePair_2<System_Internal.String, unknown>;
     Dispose(): void;
     MoveNext(): boolean;
@@ -500,6 +523,8 @@ export type TagList_Enumerator = TagList_Enumerator$instance & __TagList_Enumera
 
 
 export interface Activity$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     ActivityTraceFlags: ActivityTraceFlags;
     readonly Baggage: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly Context: ActivityContext;
@@ -577,6 +602,8 @@ export type Activity = Activity$instance & __Activity$views;
 
 
 export interface ActivityListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get ActivityStarted(): Action_1<Activity> | undefined;
     set ActivityStarted(value: Action_1<Activity> | undefined);
     get ActivityStopped(): Action_1<Activity> | undefined;
@@ -608,6 +635,8 @@ export type ActivityListener = ActivityListener$instance & __ActivityListener$vi
 
 
 export interface ActivitySource$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Name: string;
     readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | undefined;
     readonly TelemetrySchemaUrl: string | undefined;
@@ -661,6 +690,11 @@ export const ActivitySourceOptions: {
 export type ActivitySourceOptions = ActivitySourceOptions$instance;
 
 export interface ActivityTagsCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     [key: string]: unknown | undefined;
@@ -722,6 +756,8 @@ export const ConditionalAttribute: {
 export type ConditionalAttribute = ConditionalAttribute$instance;
 
 export interface ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Close(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -929,6 +965,8 @@ export const DebugProvider: {
 export type DebugProvider = DebugProvider$instance;
 
 export interface DefaultTraceListener$instance extends TraceListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     AssertUiEnabled: boolean;
     get LogFileName(): string | undefined;
     set LogFileName(value: string | undefined);
@@ -960,6 +998,8 @@ export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTrac
 
 
 export interface DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Delimiter: string;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -990,6 +1030,9 @@ export type DelimitedListTraceListener = DelimitedListTraceListener$instance & _
 
 
 export interface DiagnosticListener$instance extends DiagnosticSource {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IObservable_1: never;
+
     readonly Name: string;
     Dispose(): void;
     IsEnabled(name: string): boolean;
@@ -1167,6 +1210,9 @@ export const MonitoringDescriptionAttribute: {
 export type MonitoringDescriptionAttribute = MonitoringDescriptionAttribute$instance;
 
 export interface Process$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly BasePriority: int;
     EnableRaisingEvents: boolean;
     readonly ExitCode: int;
@@ -1270,6 +1316,9 @@ export type Process = Process$instance & __Process$views;
 
 
 export interface ProcessModule$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     BaseAddress: nint;
     EntryPointAddress: nint;
     readonly FileName: string;
@@ -1295,6 +1344,9 @@ export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
 export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly [index: number]: ProcessModule;
     Contains(module: ProcessModule): boolean;
     CopyTo(array: ClrArray, index: int): void;
@@ -1312,8 +1364,6 @@ export interface __ProcessModuleCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ProcessModuleCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ProcessModuleCollection = ProcessModuleCollection$instance & __ProcessModuleCollection$views;
 
@@ -1364,6 +1414,9 @@ export const ProcessStartInfo: {
 export type ProcessStartInfo = ProcessStartInfo$instance;
 
 export interface ProcessThread$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly BasePriority: int;
     readonly CurrentPriority: int;
     readonly Id: int;
@@ -1397,6 +1450,9 @@ export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
 
 export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly [index: number]: ProcessThread;
     Add(thread: ProcessThread): int;
     Contains(thread: ProcessThread): boolean;
@@ -1417,8 +1473,6 @@ export interface __ProcessThreadCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ProcessThreadCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views;
 
@@ -1585,6 +1639,8 @@ export const SwitchLevelAttribute: {
 export type SwitchLevelAttribute = SwitchLevelAttribute$instance;
 
 export interface TextWriterTraceListener$instance extends TraceListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     get Writer(): TextWriter | undefined;
     set Writer(value: TextWriter | undefined);
     Close(): void;
@@ -1697,6 +1753,8 @@ export const TraceFilter: (abstract new() => TraceFilter) & {
 export type TraceFilter = TraceFilter$instance;
 
 export interface TraceListener$instance extends MarshalByRefObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Attributes: StringDictionary;
     get Filter(): TraceFilter | undefined;
     set Filter(value: TraceFilter | undefined);
@@ -1742,6 +1800,10 @@ export type TraceListener = TraceListener$instance & __TraceListener$views;
 
 
 export interface TraceListenerCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     Add(listener: TraceListener): int;
     AddRange(value: TraceListener[]): void;
@@ -1822,6 +1884,8 @@ export const TraceSwitch: {
 export type TraceSwitch = TraceSwitch$instance;
 
 export interface UnreachableException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1841,6 +1905,8 @@ export type UnreachableException = UnreachableException$instance & __Unreachable
 
 
 export interface XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Close(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;

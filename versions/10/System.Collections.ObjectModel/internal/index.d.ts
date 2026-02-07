@@ -21,6 +21,15 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface Collection_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     [index: number]: T;
     Add(item: T): void;
@@ -59,6 +68,15 @@ export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>
 
 
 export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Comparer: IEqualityComparer_1<TKey>;
     Add(item: TItem): void;
     Add(value: unknown): int;
@@ -102,6 +120,17 @@ export type KeyedCollection_2<TKey, TItem> = KeyedCollection_2$instance<TKey, TI
 
 
 export interface ObservableCollection_1$instance<T> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
+    readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
+
     Add(item: T): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -151,6 +180,15 @@ export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __O
 
 
 export interface ReadOnlyCollection_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly [index: number]: T;
     Contains(value: T): boolean;
@@ -180,6 +218,15 @@ export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadO
 
 
 export interface ReadOnlyDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly Item: TValue;
     readonly Keys: ReadOnlyDictionary_2_KeyCollection<TKey, TValue>;
@@ -211,6 +258,12 @@ export type ReadOnlyDictionary_2<TKey, TValue> = ReadOnlyDictionary_2$instance<T
 
 
 export interface ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     Contains(item: TKey): boolean;
     CopyTo(array: TKey[], arrayIndex: int): void;
@@ -234,6 +287,12 @@ export type ReadOnlyDictionary_2_KeyCollection<TKey, TValue> = ReadOnlyDictionar
 
 
 export interface ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     CopyTo(array: TValue[], arrayIndex: int): void;
     GetEnumerator(): IEnumerator_1<TValue>;
@@ -256,6 +315,17 @@ export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDiction
 
 
 export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
+    readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
+
     Add(item: T): void;
     Add(value: unknown): int;
     Clear(): void;
@@ -297,6 +367,14 @@ export type ReadOnlyObservableCollection_1<T> = ReadOnlyObservableCollection_1$i
 
 
 export interface ReadOnlySet_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlySet_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_ISet_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     Contains(item: T): boolean;
     GetEnumerator(): IEnumerator_1<T>;

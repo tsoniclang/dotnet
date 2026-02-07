@@ -63,6 +63,8 @@ export const Channel_2: (abstract new<TWrite, TRead>() => Channel_2<TWrite, TRea
 export type Channel_2<TWrite, TRead> = Channel_2$instance<TWrite, TRead>;
 
 export interface ChannelClosedException$instance extends InvalidOperationException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 

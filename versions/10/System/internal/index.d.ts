@@ -629,6 +629,8 @@ export type UnhandledExceptionEventHandler = (sender: unknown, e: UnhandledExcep
 
 
 export interface IAsyncDisposable$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+
     DisposeAsync(): ValueTask;
 }
 
@@ -636,6 +638,8 @@ export interface IAsyncDisposable$instance {
 export type IAsyncDisposable = IAsyncDisposable$instance;
 
 export interface IAsyncResult$instance {
+    readonly __tsonic_iface_System_IAsyncResult: never;
+
     readonly IsCompleted: boolean;
     readonly AsyncWaitHandle: WaitHandle;
     readonly AsyncState: unknown | undefined;
@@ -646,6 +650,8 @@ export interface IAsyncResult$instance {
 export type IAsyncResult = IAsyncResult$instance;
 
 export interface ICloneable$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     Clone(): unknown;
 }
 
@@ -653,6 +659,8 @@ export interface ICloneable$instance {
 export type ICloneable = ICloneable$instance;
 
 export interface IComparable$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+
     CompareTo(obj: unknown): int;
 }
 
@@ -660,6 +668,8 @@ export interface IComparable$instance {
 export type IComparable = IComparable$instance;
 
 export interface IComparable_1$instance<T> {
+    readonly __tsonic_iface_System_IComparable_1: never;
+
     CompareTo(other: T): int;
 }
 
@@ -667,6 +677,8 @@ export interface IComparable_1$instance<T> {
 export type IComparable_1<T> = IComparable_1$instance<T>;
 
 export interface IConvertible$instance {
+    readonly __tsonic_iface_System_IConvertible: never;
+
     GetTypeCode(): TypeCode;
     ToBoolean(provider: IFormatProvider): boolean;
     ToByte(provider: IFormatProvider): byte;
@@ -690,6 +702,8 @@ export interface IConvertible$instance {
 export type IConvertible = IConvertible$instance;
 
 export interface ICustomFormatter$instance {
+    readonly __tsonic_iface_System_ICustomFormatter: never;
+
     Format(format: string, arg: unknown, formatProvider: IFormatProvider): string;
 }
 
@@ -697,6 +711,8 @@ export interface ICustomFormatter$instance {
 export type ICustomFormatter = ICustomFormatter$instance;
 
 export interface IDisposable$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
 }
 
@@ -704,6 +720,8 @@ export interface IDisposable$instance {
 export type IDisposable = IDisposable$instance;
 
 export interface IEquatable_1$instance<T> {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     Equals(other: T): boolean;
 }
 
@@ -711,6 +729,8 @@ export interface IEquatable_1$instance<T> {
 export type IEquatable_1<T> = IEquatable_1$instance<T>;
 
 export interface IFormatProvider$instance {
+    readonly __tsonic_iface_System_IFormatProvider: never;
+
     GetFormat(formatType: Type): unknown | undefined;
 }
 
@@ -718,6 +738,8 @@ export interface IFormatProvider$instance {
 export type IFormatProvider = IFormatProvider$instance;
 
 export interface IFormattable$instance {
+    readonly __tsonic_iface_System_IFormattable: never;
+
     ToString(format: string, formatProvider: IFormatProvider): string;
 }
 
@@ -725,6 +747,8 @@ export interface IFormattable$instance {
 export type IFormattable = IFormattable$instance;
 
 export interface IObservable_1$instance<T> {
+    readonly __tsonic_iface_System_IObservable_1: never;
+
     Subscribe(observer: IObserver_1<T>): IDisposable;
 }
 
@@ -732,6 +756,8 @@ export interface IObservable_1$instance<T> {
 export type IObservable_1<T> = IObservable_1$instance<T>;
 
 export interface IObserver_1$instance<T> {
+    readonly __tsonic_iface_System_IObserver_1: never;
+
     OnCompleted(): void;
     OnError(error: Exception): void;
     OnNext(value: T): void;
@@ -741,12 +767,16 @@ export interface IObserver_1$instance<T> {
 export type IObserver_1<T> = IObserver_1$instance<T>;
 
 export interface IParsable_1$instance<TSelf extends IParsable_1<TSelf>> {
+    readonly __tsonic_iface_System_IParsable_1: never;
+
 }
 
 
 export type IParsable_1<TSelf extends IParsable_1<TSelf>> = IParsable_1$instance<TSelf>;
 
 export interface IProgress_1$instance<T> {
+    readonly __tsonic_iface_System_IProgress_1: never;
+
     Report(value: T): void;
 }
 
@@ -754,6 +784,8 @@ export interface IProgress_1$instance<T> {
 export type IProgress_1<T> = IProgress_1$instance<T>;
 
 export interface IServiceProvider$instance {
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     GetService(serviceType: Type): unknown | undefined;
 }
 
@@ -761,6 +793,8 @@ export interface IServiceProvider$instance {
 export type IServiceProvider = IServiceProvider$instance;
 
 export interface ISpanFormattable$instance extends IFormattable {
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
@@ -771,6 +805,8 @@ export interface ISpanFormattable$instance extends IFormattable$instance {}
 export type ISpanFormattable = ISpanFormattable$instance;
 
 export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> extends IParsable_1<TSelf> {
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+
 }
 
 
@@ -779,6 +815,8 @@ export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> 
 export type ISpanParsable_1<TSelf extends ISpanParsable_1<TSelf>> = ISpanParsable_1$instance<TSelf>;
 
 export interface IUtf8SpanFormattable$instance {
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -786,6 +824,8 @@ export interface IUtf8SpanFormattable$instance {
 export type IUtf8SpanFormattable = IUtf8SpanFormattable$instance;
 
 export interface IUtf8SpanParsable_1$instance<TSelf extends IUtf8SpanParsable_1<TSelf>> {
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
 }
 
 
@@ -811,6 +851,13 @@ export const ArgIterator: {
 export type ArgIterator = ArgIterator$instance;
 
 export interface ArraySegment_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Array: T[] | undefined;
     readonly Count: int;
     [index: number]: T;
@@ -847,6 +894,10 @@ export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$vi
 
 
 export interface ArraySegment_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: T;
     Dispose(): void;
     MoveNext(): boolean;
@@ -868,6 +919,13 @@ export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T>
 
 
 export interface Boolean$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+
     CompareTo(obj: unknown): int;
     CompareTo(value: boolean): int;
     Equals(obj: unknown): boolean;
@@ -910,6 +968,38 @@ export type Boolean = boolean | (boolean & Boolean$instance & __Boolean$views);
 
 
 export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: byte): int;
     Equals(obj: unknown): boolean;
@@ -1002,6 +1092,38 @@ export type Byte = number & Byte$instance & __Byte$views;
 
 
 export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: char): int;
     Equals(obj: unknown): boolean;
@@ -1112,6 +1234,8 @@ export type Char = string & Char$instance & __Char$views;
 
 
 export interface ConsoleKeyInfo$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Key: ConsoleKey;
     readonly KeyChar: char;
     readonly Modifiers: ConsoleModifiers;
@@ -1137,6 +1261,15 @@ export type ConsoleKeyInfo = ConsoleKeyInfo$instance & __ConsoleKeyInfo$views;
 
 
 export interface DateOnly$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+
     readonly Day: int;
     readonly DayNumber: int;
     readonly DayOfWeek: DayOfWeek;
@@ -1223,6 +1356,17 @@ export type DateOnly = DateOnly$instance & __DateOnly$views;
 
 
 export interface DateTime$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Date: DateTime;
     readonly Day: int;
     readonly DayOfWeek: DayOfWeek;
@@ -1362,6 +1506,17 @@ export type DateTime = DateTime$instance & __DateTime$views;
 
 
 export interface DateTimeOffset$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Date: DateTime;
     readonly DateTime: DateTime;
     readonly Day: int;
@@ -1482,6 +1637,38 @@ export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
 export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Scale: byte;
     CompareTo(value: unknown): int;
     CompareTo(value: decimal): int;
@@ -1635,6 +1822,46 @@ export const Delegate_InvocationListEnumerator_1: {
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
 export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
+    readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: double): int;
     Equals(obj: unknown): boolean;
@@ -1870,6 +2097,16 @@ export const GCMemoryInfo: {
 export type GCMemoryInfo = GCMemoryInfo$instance;
 
 export interface Guid$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
     readonly Variant: int;
     readonly Version: int;
     CompareTo(value: unknown): int;
@@ -1944,6 +2181,45 @@ export type Guid = Guid$instance & __Guid$views;
 
 
 export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
+    readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(obj: unknown): int;
     CompareTo(other: half): int;
     Equals(obj: unknown): boolean;
@@ -2150,6 +2426,8 @@ export const HashCode: {
 export type HashCode = HashCode$instance;
 
 export interface Index$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsFromEnd: boolean;
     readonly Value: int;
     Equals(value: unknown): boolean;
@@ -2180,6 +2458,37 @@ export type Index = Index$instance & __Index$views;
 
 
 export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: int128): int;
     Equals(obj: unknown): boolean;
@@ -2279,6 +2588,38 @@ export type Int128 = number & Int128$instance & __Int128$views;
 
 
 export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: short): int;
     Equals(obj: unknown): boolean;
@@ -2377,6 +2718,38 @@ export type Int16 = number & Int16$instance & __Int16$views;
 
 
 export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: int): int;
     Equals(obj: unknown): boolean;
@@ -2476,6 +2849,38 @@ export type Int32 = number & Int32$instance & __Int32$views;
 
 
 export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: long): int;
     Equals(obj: unknown): boolean;
@@ -2575,6 +2980,38 @@ export type Int64 = number & Int64$instance & __Int64$views;
 
 
 export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: nint): int;
     Equals(obj: unknown): boolean;
@@ -2682,6 +3119,8 @@ export type IntPtr = number & IntPtr$instance & __IntPtr$views;
 
 
 export interface Memory_1$instance<T> {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsEmpty: boolean;
     readonly Length: int;
     readonly Span: Span_1<T>;
@@ -2716,6 +3155,10 @@ export type Memory_1<T> = Memory_1$instance<T> & __Memory_1$views<T>;
 
 
 export interface MemoryExtensions_SpanSplitEnumerator_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: Range;
     readonly Source: ReadOnlySpan_1<T>;
     GetEnumerator(): MemoryExtensions_SpanSplitEnumerator_1<T>;
@@ -2761,6 +3204,8 @@ export const MemoryExtensions_TryWriteInterpolatedStringHandler: {
 export type MemoryExtensions_TryWriteInterpolatedStringHandler = MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
 
 export interface ModuleHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly MDStreamVersion: int;
     Equals(obj: unknown): boolean;
     Equals(handle: ModuleHandle): boolean;
@@ -2812,6 +3257,8 @@ export const Nullable_1: {
 export type Nullable_1<T> = Nullable_1$instance<T>;
 
 export interface Range$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly End: Index;
     readonly Start: Index;
     Equals(value: unknown): boolean;
@@ -2841,6 +3288,8 @@ export type Range = Range$instance & __Range$views;
 
 
 export interface ReadOnlyMemory_1$instance<T> {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsEmpty: boolean;
     readonly Length: int;
     readonly Span: ReadOnlySpan_1<T>;
@@ -2904,6 +3353,10 @@ export const ReadOnlySpan_1: {
 export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T>;
 
 export interface ReadOnlySpan_1_Enumerator$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: T;
     MoveNext(): boolean;
     Reset(): void;
@@ -2936,6 +3389,9 @@ export const RuntimeArgumentHandle: {
 export type RuntimeArgumentHandle = RuntimeArgumentHandle$instance;
 
 export interface RuntimeFieldHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Value: nint;
     Equals(obj: unknown): boolean;
     Equals(handle: RuntimeFieldHandle): boolean;
@@ -2965,6 +3421,9 @@ export type RuntimeFieldHandle = RuntimeFieldHandle$instance & __RuntimeFieldHan
 
 
 export interface RuntimeMethodHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Value: nint;
     Equals(obj: unknown): boolean;
     Equals(handle: RuntimeMethodHandle): boolean;
@@ -2995,6 +3454,9 @@ export type RuntimeMethodHandle = RuntimeMethodHandle$instance & __RuntimeMethod
 
 
 export interface RuntimeTypeHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Value: nint;
     Equals(obj: unknown): boolean;
     Equals(handle: RuntimeTypeHandle): boolean;
@@ -3025,6 +3487,38 @@ export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle
 
 
 export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(obj: unknown): int;
     CompareTo(value: sbyte): int;
     Equals(obj: unknown): boolean;
@@ -3123,6 +3617,8 @@ export type SByte = number & SByte$instance & __SByte$views;
 
 
 export interface SequencePosition$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     Equals(other: SequencePosition): boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -3147,6 +3643,46 @@ export type SequencePosition = SequencePosition$instance & __SequencePosition$vi
 
 
 export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
+    readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: float): int;
     Equals(obj: unknown): boolean;
@@ -3356,6 +3892,10 @@ export const Span_1: {
 export type Span_1<T> = Span_1$instance<T>;
 
 export interface Span_1_Enumerator$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: T;
     MoveNext(): boolean;
     Reset(): void;
@@ -3377,6 +3917,15 @@ export type Span_1_Enumerator<T> = Span_1_Enumerator$instance<T> & __Span_1_Enum
 
 
 export interface TimeOnly$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+
     readonly Hour: int;
     readonly Microsecond: int;
     readonly Millisecond: int;
@@ -3467,12 +4016,21 @@ export interface __TimeOnly$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface TimeOnly$instance extends IComparable$instance, ISpanParsable_1$instance<TimeOnly> {}
+export interface TimeOnly$instance extends ISpanParsable_1$instance<TimeOnly> {}
 
 export type TimeOnly = TimeOnly$instance & __TimeOnly$views;
 
 
 export interface TimeSpan$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+
     readonly Days: int;
     readonly Hours: int;
     readonly Microseconds: int;
@@ -3599,12 +4157,16 @@ export interface __TimeSpan$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface TimeSpan$instance extends IComparable$instance, ISpanParsable_1$instance<TimeSpan> {}
+export interface TimeSpan$instance extends ISpanParsable_1$instance<TimeSpan> {}
 
 export type TimeSpan = TimeSpan$instance & __TimeSpan$views;
 
 
 export interface TimeZoneInfo_TransitionTime$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Day: int;
     readonly DayOfWeek: DayOfWeek;
     readonly IsFixedDateRule: boolean;
@@ -3657,6 +4219,37 @@ export const TypedReference: {
 export type TypedReference = TypedReference$instance;
 
 export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: uint128): int;
     Equals(obj: unknown): boolean;
@@ -3749,6 +4342,38 @@ export type UInt128 = number & UInt128$instance & __UInt128$views;
 
 
 export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: ushort): int;
     Equals(obj: unknown): boolean;
@@ -3841,6 +4466,38 @@ export type UInt16 = number & UInt16$instance & __UInt16$views;
 
 
 export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: uint): int;
     Equals(obj: unknown): boolean;
@@ -3934,6 +4591,38 @@ export type UInt32 = number & UInt32$instance & __UInt32$views;
 
 
 export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: ulong): int;
     Equals(obj: unknown): boolean;
@@ -4027,6 +4716,38 @@ export type UInt64 = number & UInt64$instance & __UInt64$views;
 
 
 export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     CompareTo(value: unknown): int;
     CompareTo(value: nuint): int;
     Equals(obj: unknown): boolean;
@@ -4140,6 +4861,13 @@ export const UriCreationOptions: {
 export type UriCreationOptions = UriCreationOptions$instance;
 
 export interface ValueTuple$instance {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     CompareTo(other: ValueTuple): int;
     Equals(obj: unknown): boolean;
     Equals(other: ValueTuple): boolean;
@@ -4181,6 +4909,13 @@ export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 
 
 export interface ValueTuple_1$instance<T1> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     CompareTo(other: ValueTuple_1<T1>): int;
     Equals(obj: unknown): boolean;
@@ -4214,6 +4949,13 @@ export type ValueTuple_1<T1> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<
 
 
 export interface ValueTuple_2$instance<T1, T2> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     CompareTo(other: ValueTuple_2<T1, T2>): int;
@@ -4248,6 +4990,13 @@ export type ValueTuple_2<T1, T2> = ValueTuple_2$instance<T1, T2> & __ValueTuple_
 
 
 export interface ValueTuple_3$instance<T1, T2, T3> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4283,6 +5032,13 @@ export type ValueTuple_3<T1, T2, T3> = ValueTuple_3$instance<T1, T2, T3> & __Val
 
 
 export interface ValueTuple_4$instance<T1, T2, T3, T4> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4319,6 +5075,13 @@ export type ValueTuple_4<T1, T2, T3, T4> = ValueTuple_4$instance<T1, T2, T3, T4>
 
 
 export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4356,6 +5119,13 @@ export type ValueTuple_5<T1, T2, T3, T4, T5> = ValueTuple_5$instance<T1, T2, T3,
 
 
 export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4394,6 +5164,13 @@ export type ValueTuple_6<T1, T2, T3, T4, T5, T6> = ValueTuple_6$instance<T1, T2,
 
 
 export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4433,6 +5210,13 @@ export type ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> = ValueTuple_7$instance<T1,
 
 
 export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     Item1: T1;
     Item2: T2;
     Item3: T3;
@@ -4484,6 +5268,8 @@ export const Void: {
 export type Void = Void$instance;
 
 export interface AccessViolationException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4503,6 +5289,8 @@ export type AccessViolationException = AccessViolationException$instance & __Acc
 
 
 export interface AggregateException$instance extends Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly InnerExceptions: ReadOnlyCollection_1<Exception>;
     readonly Message: string;
     Flatten(): AggregateException;
@@ -4613,6 +5401,8 @@ export const AppDomainSetup: {
 export type AppDomainSetup = AppDomainSetup$instance;
 
 export interface AppDomainUnloadedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4632,6 +5422,8 @@ export type AppDomainUnloadedException = AppDomainUnloadedException$instance & _
 
 
 export interface ApplicationException$instance extends Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4671,6 +5463,8 @@ export const ApplicationId: {
 export type ApplicationId = ApplicationId$instance;
 
 export interface ArgumentException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     readonly ParamName: string | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -4696,6 +5490,8 @@ export type ArgumentException = ArgumentException$instance & __ArgumentException
 
 
 export interface ArgumentNullException$instance extends ArgumentException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4718,6 +5514,8 @@ export type ArgumentNullException = ArgumentNullException$instance & __ArgumentN
 
 
 export interface ArgumentOutOfRangeException$instance extends ArgumentException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ActualValue: unknown | undefined;
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -4750,6 +5548,8 @@ export type ArgumentOutOfRangeException = ArgumentOutOfRangeException$instance &
 
 
 export interface ArithmeticException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4769,6 +5569,13 @@ export type ArithmeticException = ArithmeticException$instance & __ArithmeticExc
 
 
 export interface Array$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -4893,12 +5700,14 @@ export interface __Array$views {
     As_ICloneable(): ICloneable$instance;
 }
 
-export interface Array$instance extends System_Collections_Internal.IStructuralComparable$instance, ICloneable$instance {}
+export interface Array$instance extends ICloneable$instance {}
 
 export type Array = Array$instance & __Array$views;
 
 
 export interface ArrayTypeMismatchException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -4991,6 +5800,8 @@ export const AttributeUsageAttribute: {
 export type AttributeUsageAttribute = AttributeUsageAttribute$instance;
 
 export interface BadImageFormatException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly FileName: string | undefined;
     readonly FusionLog: string | undefined;
     readonly Message: string;
@@ -5016,6 +5827,8 @@ export type BadImageFormatException = BadImageFormatException$instance & __BadIm
 
 
 export interface CannotUnloadAppDomainException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5035,6 +5848,11 @@ export type CannotUnloadAppDomainException = CannotUnloadAppDomainException$inst
 
 
 export interface CharEnumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: char;
     Clone(): unknown;
     Dispose(): void;
@@ -5093,6 +5911,8 @@ export const ContextBoundObject: (abstract new() => ContextBoundObject) & {
 export type ContextBoundObject = ContextBoundObject$instance;
 
 export interface ContextMarshalException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5123,6 +5943,13 @@ export const ContextStaticAttribute: {
 export type ContextStaticAttribute = ContextStaticAttribute$instance;
 
 export interface CultureAwareComparer$instance extends StringComparer$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IAlternateEqualityComparer_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
+    readonly __tsonic_iface_System_Collections_IComparer: never;
+    readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     Compare(x: string, y: string): int;
     Compare(x: unknown, y: unknown): int;
     Compare(x: unknown, y: unknown): int;
@@ -5155,6 +5982,8 @@ export type CultureAwareComparer = CultureAwareComparer$instance & __CultureAwar
 
 
 export interface DataMisalignedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5174,6 +6003,9 @@ export type DataMisalignedException = DataMisalignedException$instance & __DataM
 
 
 export interface DBNull$instance {
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetTypeCode(): TypeCode;
     ToString(): string;
@@ -5197,6 +6029,9 @@ export type DBNull = DBNull$instance & __DBNull$views;
 
 
 export interface Delegate$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly HasSingleTarget: boolean;
     readonly Method: MethodInfo;
     readonly Target: unknown | undefined;
@@ -5244,6 +6079,8 @@ export type Delegate = Delegate$instance & __Delegate$views;
 
 
 export interface DivideByZeroException$instance extends ArithmeticException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5263,6 +6100,8 @@ export type DivideByZeroException = DivideByZeroException$instance & __DivideByZ
 
 
 export interface DllNotFoundException$instance extends TypeLoadException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5282,6 +6121,8 @@ export type DllNotFoundException = DllNotFoundException$instance & __DllNotFound
 
 
 export interface DuplicateWaitObjectException$instance extends ArgumentException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5302,6 +6143,8 @@ export type DuplicateWaitObjectException = DuplicateWaitObjectException$instance
 
 
 export interface EntryPointNotFoundException$instance extends TypeLoadException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5321,6 +6164,11 @@ export type EntryPointNotFoundException = EntryPointNotFoundException$instance &
 
 
 export interface Enum$instance {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+
     CompareTo(target: unknown): int;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -5403,6 +6251,8 @@ export const EventArgs: {
 export type EventArgs = EventArgs$instance;
 
 export interface Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Data: IDictionary;
     get HelpLink(): string | undefined;
     set HelpLink(value: string | undefined);
@@ -5437,6 +6287,8 @@ export type Exception = Exception$instance & __Exception$views;
 
 
 export interface ExecutionEngineException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5456,6 +6308,8 @@ export type ExecutionEngineException = ExecutionEngineException$instance & __Exe
 
 
 export interface FieldAccessException$instance extends MemberAccessException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5497,6 +6351,8 @@ export const FlagsAttribute: {
 export type FlagsAttribute = FlagsAttribute$instance;
 
 export interface FormatException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5516,6 +6372,8 @@ export type FormatException = FormatException$instance & __FormatException$views
 
 
 export interface FormattableString$instance {
+    readonly __tsonic_iface_System_IFormattable: never;
+
     readonly ArgumentCount: int;
     readonly Format: string;
     GetArgument(index: int): unknown | undefined;
@@ -5583,6 +6441,8 @@ export const HttpStyleUriParser: {
 export type HttpStyleUriParser = HttpStyleUriParser$instance;
 
 export interface IndexOutOfRangeException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5602,6 +6462,8 @@ export type IndexOutOfRangeException = IndexOutOfRangeException$instance & __Ind
 
 
 export interface InsufficientExecutionStackException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5621,6 +6483,8 @@ export type InsufficientExecutionStackException = InsufficientExecutionStackExce
 
 
 export interface InsufficientMemoryException$instance extends OutOfMemoryException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5640,6 +6504,8 @@ export type InsufficientMemoryException = InsufficientMemoryException$instance &
 
 
 export interface InvalidCastException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5660,6 +6526,8 @@ export type InvalidCastException = InvalidCastException$instance & __InvalidCast
 
 
 export interface InvalidOperationException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5679,6 +6547,8 @@ export type InvalidOperationException = InvalidOperationException$instance & __I
 
 
 export interface InvalidProgramException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5698,6 +6568,8 @@ export type InvalidProgramException = InvalidProgramException$instance & __Inval
 
 
 export interface InvalidTimeZoneException$instance extends Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5801,6 +6673,8 @@ export const MarshalByRefObject: (abstract new() => MarshalByRefObject) & {
 export type MarshalByRefObject = MarshalByRefObject$instance;
 
 export interface MemberAccessException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5820,6 +6694,8 @@ export type MemberAccessException = MemberAccessException$instance & __MemberAcc
 
 
 export interface MethodAccessException$instance extends MemberAccessException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5839,6 +6715,8 @@ export type MethodAccessException = MethodAccessException$instance & __MethodAcc
 
 
 export interface MissingFieldException$instance extends MissingMemberException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -5860,6 +6738,8 @@ export type MissingFieldException = MissingFieldException$instance & __MissingFi
 
 
 export interface MissingMemberException$instance extends MemberAccessException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -5881,6 +6761,8 @@ export type MissingMemberException = MissingMemberException$instance & __Missing
 
 
 export interface MissingMethodException$instance extends MissingMemberException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -5913,6 +6795,9 @@ export const MTAThreadAttribute: {
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
 export interface MulticastDelegate$instance extends Function {
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     Clone(): unknown;
     CombineImpl(follow: Function): Function;
     Equals(obj: unknown): boolean;
@@ -5937,6 +6822,8 @@ export type MulticastDelegate = MulticastDelegate$instance & __MulticastDelegate
 
 
 export interface MulticastNotSupportedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6000,6 +6887,8 @@ export const NonSerializedAttribute: {
 export type NonSerializedAttribute = NonSerializedAttribute$instance;
 
 export interface NotFiniteNumberException$instance extends ArithmeticException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly OffendingNumber: double;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -6023,6 +6912,8 @@ export type NotFiniteNumberException = NotFiniteNumberException$instance & __Not
 
 
 export interface NotImplementedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6042,6 +6933,8 @@ export type NotImplementedException = NotImplementedException$instance & __NotIm
 
 
 export interface NotSupportedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6061,6 +6954,8 @@ export type NotSupportedException = NotSupportedException$instance & __NotSuppor
 
 
 export interface NullReferenceException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6098,6 +6993,8 @@ export const Object: {
 export type Object = Object$instance;
 
 export interface ObjectDisposedException$instance extends InvalidOperationException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     readonly ObjectName: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -6140,6 +7037,9 @@ export const ObsoleteAttribute: {
 export type ObsoleteAttribute = ObsoleteAttribute$instance;
 
 export interface OperatingSystem$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Platform: PlatformID;
     readonly ServicePack: string;
     readonly Version: Version;
@@ -6187,6 +7087,8 @@ export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views
 
 
 export interface OperationCanceledException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     CancellationToken: CancellationToken;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -6210,6 +7112,12 @@ export type OperationCanceledException = OperationCanceledException$instance & _
 
 
 export interface OrdinalComparer$instance extends StringComparer$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IAlternateEqualityComparer_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
+    readonly __tsonic_iface_System_Collections_IComparer: never;
+    readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
+
     Compare(x: string, y: string): int;
     Compare(x: unknown, y: unknown): int;
     Compare(x: unknown, y: unknown): int;
@@ -6238,6 +7146,8 @@ export type OrdinalComparer = OrdinalComparer$instance & __OrdinalComparer$views
 
 
 export interface OutOfMemoryException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6257,6 +7167,8 @@ export type OutOfMemoryException = OutOfMemoryException$instance & __OutOfMemory
 
 
 export interface OverflowException$instance extends ArithmeticException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6287,6 +7199,8 @@ export const ParamArrayAttribute: {
 export type ParamArrayAttribute = ParamArrayAttribute$instance;
 
 export interface PlatformNotSupportedException$instance extends NotSupportedException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6306,6 +7220,8 @@ export type PlatformNotSupportedException = PlatformNotSupportedException$instan
 
 
 export interface Progress_1$instance<T> {
+    readonly __tsonic_iface_System_IProgress_1: never;
+
     OnReport(value: T): void;
 }
 
@@ -6358,6 +7274,8 @@ export const Random: {
 export type Random = Random$instance;
 
 export interface RankException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6402,6 +7320,8 @@ export const SerializableAttribute: {
 export type SerializableAttribute = SerializableAttribute$instance;
 
 export interface StackOverflowException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6432,6 +7352,16 @@ export const STAThreadAttribute: {
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
 export interface String$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IConvertible: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+
     readonly [index: number]: char;
     readonly Length: int;
     Clone(): unknown;
@@ -6638,12 +7568,17 @@ export interface __String$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface String$instance extends ICloneable$instance, IComparable$instance, ISpanParsable_1$instance<String> {}
+export interface String$instance extends ICloneable$instance, ISpanParsable_1$instance<String> {}
 
 export type String = string & String$instance & __String$views;
 
 
 export interface StringComparer$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
+    readonly __tsonic_iface_System_Collections_IComparer: never;
+    readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
+
     Compare(x: unknown, y: unknown): int;
     Compare(x: string, y: string): int;
     Equals(x: unknown, y: unknown): boolean;
@@ -6675,12 +7610,12 @@ export interface __StringComparer$views {
     As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
-export interface StringComparer$instance extends System_Collections_Internal.IComparer$instance {}
-
 export type StringComparer = StringComparer$instance & __StringComparer$views;
 
 
 export interface SystemException$instance extends Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6711,6 +7646,8 @@ export const ThreadStaticAttribute: {
 export type ThreadStaticAttribute = ThreadStaticAttribute$instance;
 
 export interface TimeoutException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6768,6 +7705,10 @@ export const TimeZone: (abstract new() => TimeZone) & {
 export type TimeZone = TimeZone$instance;
 
 export interface TimeZoneInfo$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly BaseUtcOffset: TimeSpan;
     readonly DaylightName: string;
     readonly DisplayName: string;
@@ -6836,6 +7777,10 @@ export type TimeZoneInfo = TimeZoneInfo$instance & __TimeZoneInfo$views;
 
 
 export interface TimeZoneInfo_AdjustmentRule$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly BaseUtcOffsetDelta: TimeSpan;
     readonly DateEnd: DateTime;
     readonly DateStart: DateTime;
@@ -6869,6 +7814,8 @@ export type TimeZoneInfo_AdjustmentRule = TimeZoneInfo_AdjustmentRule$instance &
 
 
 export interface TimeZoneNotFoundException$instance extends Exception$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -6888,6 +7835,11 @@ export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __T
 
 
 export interface Tuple_1$instance<T1> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -6910,12 +7862,17 @@ export interface __Tuple_1$views<T1> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_1$instance<T1> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_1$instance<T1> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 
 
 export interface Tuple_2$instance<T1, T2> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     Equals(obj: unknown): boolean;
@@ -6939,12 +7896,17 @@ export interface __Tuple_2$views<T1, T2> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_2$instance<T1, T2> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_2$instance<T1, T2> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
 
 
 export interface Tuple_3$instance<T1, T2, T3> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -6969,12 +7931,17 @@ export interface __Tuple_3$views<T1, T2, T3> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_3$instance<T1, T2, T3> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_3$instance<T1, T2, T3> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
 
 
 export interface Tuple_4$instance<T1, T2, T3, T4> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -7000,12 +7967,17 @@ export interface __Tuple_4$views<T1, T2, T3, T4> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_4$instance<T1, T2, T3, T4> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_4$instance<T1, T2, T3, T4> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
 
 
 export interface Tuple_5$instance<T1, T2, T3, T4, T5> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -7032,12 +8004,17 @@ export interface __Tuple_5$views<T1, T2, T3, T4, T5> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
 
 
 export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -7065,12 +8042,17 @@ export interface __Tuple_6$views<T1, T2, T3, T4, T5, T6> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
 export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -7099,12 +8081,17 @@ export interface __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
 export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
+    readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
+    readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
+
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
@@ -7134,12 +8121,15 @@ export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends System_Collections_Internal.IStructuralComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
+export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
 export interface Type$instance extends MemberInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Reflection_IReflect: never;
+
     readonly Assembly: Assembly;
     readonly AssemblyQualifiedName: string | undefined;
     readonly Attributes: TypeAttributes;
@@ -7359,6 +8349,8 @@ export type Type = Type$instance & __Type$views;
 
 
 export interface TypeAccessException$instance extends TypeLoadException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -7378,6 +8370,8 @@ export type TypeAccessException = TypeAccessException$instance & __TypeAccessExc
 
 
 export interface TypeInitializationException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly TypeName: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -7396,6 +8390,8 @@ export type TypeInitializationException = TypeInitializationException$instance &
 
 
 export interface TypeLoadException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Message: string;
     readonly TypeName: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -7417,6 +8413,8 @@ export type TypeLoadException = TypeLoadException$instance & __TypeLoadException
 
 
 export interface TypeUnloadedException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -7436,6 +8434,8 @@ export type TypeUnloadedException = TypeUnloadedException$instance & __TypeUnloa
 
 
 export interface UnauthorizedAccessException$instance extends SystemException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -7468,6 +8468,9 @@ export const UnhandledExceptionEventArgs: {
 export type UnhandledExceptionEventArgs = UnhandledExceptionEventArgs$instance;
 
 export interface UnitySerializationHolder$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IObjectReference: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetRealObject(context: StreamingContext): unknown;
 }
@@ -7489,6 +8492,11 @@ export type UnitySerializationHolder = UnitySerializationHolder$instance & __Uni
 
 
 export interface Uri$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly AbsolutePath: string;
     readonly AbsoluteUri: string;
     readonly Authority: string;
@@ -7627,6 +8635,8 @@ export const UriBuilder: {
 export type UriBuilder = UriBuilder$instance;
 
 export interface UriFormatException$instance extends FormatException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -7699,6 +8709,15 @@ export const ValueType: (abstract new() => ValueType) & {
 export type ValueType = ValueType$instance;
 
 export interface Version$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+
     readonly Build: int;
     readonly Major: int;
     readonly MajorRevision: short;
@@ -7751,12 +8770,14 @@ export interface __Version$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface Version$instance extends ICloneable$instance, IComparable$instance, IUtf8SpanParsable_1$instance<Version> {}
+export interface Version$instance extends ICloneable$instance, IUtf8SpanParsable_1$instance<Version> {}
 
 export type Version = Version$instance & __Version$views;
 
 
 export interface WeakReference$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly IsAlive: boolean;
     get Target(): unknown | undefined;
     set Target(value: unknown | undefined);
@@ -7782,6 +8803,8 @@ export type WeakReference = WeakReference$instance & __WeakReference$views;
 
 
 export interface WeakReference_1$instance<T> {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     Finalize(): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     SetTarget(target: T): void;

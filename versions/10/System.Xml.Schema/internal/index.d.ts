@@ -165,6 +165,8 @@ export type XmlValueGetter = () => unknown | undefined;
 
 
 export interface IXmlSchemaInfo$instance {
+    readonly __tsonic_iface_System_Xml_Schema_IXmlSchemaInfo: never;
+
     readonly Validity: XmlSchemaValidity;
     readonly IsDefault: boolean;
     readonly IsNil: boolean;
@@ -191,6 +193,8 @@ export const ValidationEventArgs: {
 export type ValidationEventArgs = ValidationEventArgs$instance;
 
 export interface XmlAtomicValue$instance extends XPathItem {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly IsNode: boolean;
     readonly TypedValue: unknown;
     readonly Value: string;
@@ -421,6 +425,9 @@ export const XmlSchemaChoice: {
 export type XmlSchemaChoice = XmlSchemaChoice$instance;
 
 export interface XmlSchemaCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly [ns: string]: XmlSchema | undefined;
     readonly NameTable: XmlNameTable;
@@ -452,6 +459,8 @@ export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaColl
 
 
 export interface XmlSchemaCollectionEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+
     readonly Current: XmlSchema;
     MoveNext(): boolean;
     Reset(): void;
@@ -657,6 +666,8 @@ export const XmlSchemaEnumerationFacet: {
 export type XmlSchemaEnumerationFacet = XmlSchemaEnumerationFacet$instance;
 
 export interface XmlSchemaException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly LineNumber: int;
     readonly LinePosition: int;
     readonly Message: string;
@@ -824,6 +835,8 @@ export const XmlSchemaInference: {
 export type XmlSchemaInference = XmlSchemaInference$instance;
 
 export interface XmlSchemaInferenceException$instance extends XmlSchemaException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -844,6 +857,8 @@ export type XmlSchemaInferenceException = XmlSchemaInferenceException$instance &
 
 
 export interface XmlSchemaInfo$instance {
+    readonly __tsonic_iface_System_Xml_Schema_IXmlSchemaInfo: never;
+
     ContentType: XmlSchemaContentType;
     IsDefault: boolean;
     IsNil: boolean;
@@ -1016,6 +1031,10 @@ export const XmlSchemaObject: (abstract new() => XmlSchemaObject) & {
 export type XmlSchemaObject = XmlSchemaObject$instance;
 
 export interface XmlSchemaObjectCollection$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: XmlSchemaObject;
     Add(value: unknown): int;
     Clear(): void;
@@ -1049,6 +1068,8 @@ export type XmlSchemaObjectCollection = XmlSchemaObjectCollection$instance & __X
 
 
 export interface XmlSchemaObjectEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+
     readonly Current: XmlSchemaObject;
     MoveNext(): boolean;
     Reset(): void;
@@ -1334,6 +1355,8 @@ export const XmlSchemaUnique: {
 export type XmlSchemaUnique = XmlSchemaUnique$instance;
 
 export interface XmlSchemaValidationException$instance extends XmlSchemaException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly SourceObject: unknown | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }

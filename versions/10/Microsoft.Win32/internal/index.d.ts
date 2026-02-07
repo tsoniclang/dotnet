@@ -60,6 +60,8 @@ export enum RegistryView {
 
 
 export interface RegistryKey$instance extends MarshalByRefObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Handle: SafeRegistryHandle;
     readonly Name: string;
     readonly SubKeyCount: int;

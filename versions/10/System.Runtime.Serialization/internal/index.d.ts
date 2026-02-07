@@ -47,6 +47,8 @@ export type SerializationEventHandler = (context: StreamingContext) => void;
 
 
 export interface IDeserializationCallback$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+
     OnDeserialization(sender: unknown): void;
 }
 
@@ -54,6 +56,8 @@ export interface IDeserializationCallback$instance {
 export type IDeserializationCallback = IDeserializationCallback$instance;
 
 export interface IExtensibleDataObject$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IExtensibleDataObject: never;
+
     get ExtensionData(): ExtensionDataObject | undefined;
     set ExtensionData(value: ExtensionDataObject | undefined);
 }
@@ -62,6 +66,8 @@ export interface IExtensibleDataObject$instance {
 export type IExtensibleDataObject = IExtensibleDataObject$instance;
 
 export interface IFormatter$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
+
     get SurrogateSelector(): ISurrogateSelector | undefined;
     set SurrogateSelector(value: ISurrogateSelector | undefined);
     get Binder(): SerializationBinder | undefined;
@@ -75,6 +81,8 @@ export interface IFormatter$instance {
 export type IFormatter = IFormatter$instance;
 
 export interface IFormatterConverter$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IFormatterConverter: never;
+
     Convert(value: unknown, type: Type): unknown;
     Convert(value: unknown, typeCode: TypeCode): unknown;
     ToBoolean(value: unknown): boolean;
@@ -98,6 +106,8 @@ export interface IFormatterConverter$instance {
 export type IFormatterConverter = IFormatterConverter$instance;
 
 export interface IObjectReference$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IObjectReference: never;
+
     GetRealObject(context: StreamingContext): unknown;
 }
 
@@ -105,6 +115,8 @@ export interface IObjectReference$instance {
 export type IObjectReference = IObjectReference$instance;
 
 export interface ISafeSerializationData$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISafeSerializationData: never;
+
     CompleteDeserialization(deserialized: unknown): void;
 }
 
@@ -112,6 +124,8 @@ export interface ISafeSerializationData$instance {
 export type ISafeSerializationData = ISafeSerializationData$instance;
 
 export interface ISerializable$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -119,6 +133,8 @@ export interface ISerializable$instance {
 export type ISerializable = ISerializable$instance;
 
 export interface ISerializationSurrogate$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogate: never;
+
     GetObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext): void;
     SetObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext, selector: ISurrogateSelector): unknown;
 }
@@ -127,6 +143,8 @@ export interface ISerializationSurrogate$instance {
 export type ISerializationSurrogate = ISerializationSurrogate$instance;
 
 export interface ISerializationSurrogateProvider$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider: never;
+
     GetObjectToSerialize(obj: unknown, targetType: Type): unknown;
     GetSurrogateType(type: Type): Type;
 }
@@ -135,6 +153,8 @@ export interface ISerializationSurrogateProvider$instance {
 export type ISerializationSurrogateProvider = ISerializationSurrogateProvider$instance;
 
 export interface ISerializationSurrogateProvider2$instance extends ISerializationSurrogateProvider {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider2: never;
+
     GetCustomDataToExport(memberInfo: MemberInfo, dataContractType: Type): unknown | undefined;
     GetCustomDataToExport(runtimeType: Type, dataContractType: Type): unknown | undefined;
     GetKnownCustomDataTypes(customDataTypes: Collection_1<Type>): void;
@@ -149,6 +169,8 @@ export interface ISerializationSurrogateProvider2$instance extends ISerializatio
 export type ISerializationSurrogateProvider2 = ISerializationSurrogateProvider2$instance;
 
 export interface ISurrogateSelector$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISurrogateSelector: never;
+
     ChainSelector(selector: ISurrogateSelector): void;
     GetNextSelector(): ISurrogateSelector | undefined;
     GetSurrogate(type: Type, context: StreamingContext, selector: ISurrogateSelector): ISerializationSurrogate | undefined;
@@ -158,6 +180,8 @@ export interface ISurrogateSelector$instance {
 export type ISurrogateSelector = ISurrogateSelector$instance;
 
 export interface DeserializationToken$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
 }
 
@@ -414,6 +438,8 @@ export const ExtensionDataObject: {
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
 export interface Formatter$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
+
     get Binder(): SerializationBinder | undefined;
     set Binder(value: SerializationBinder | undefined);
     Context: StreamingContext;
@@ -459,6 +485,8 @@ export type Formatter = Formatter$instance & __Formatter$views;
 
 
 export interface FormatterConverter$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_IFormatterConverter: never;
+
     Convert(value: unknown, type: Type): unknown;
     Convert(value: unknown, typeCode: TypeCode): unknown;
     ToBoolean(value: unknown): boolean;
@@ -503,6 +531,8 @@ export const IgnoreDataMemberAttribute: {
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
 export interface InvalidDataContractException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -652,6 +682,8 @@ export const SerializationBinder: (abstract new() => SerializationBinder) & {
 export type SerializationBinder = SerializationBinder$instance;
 
 export interface SerializationException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -724,6 +756,8 @@ export const SerializationInfo: {
 export type SerializationInfo = SerializationInfo$instance;
 
 export interface SerializationInfoEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+
     readonly Current: SerializationEntry;
     readonly Name: string;
     readonly ObjectType: Type;
@@ -758,6 +792,8 @@ export const SerializationObjectManager: {
 export type SerializationObjectManager = SerializationObjectManager$instance;
 
 export interface SurrogateSelector$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISurrogateSelector: never;
+
     AddSurrogate(type: Type, context: StreamingContext, surrogate: ISerializationSurrogate): void;
     ChainSelector(selector: ISurrogateSelector): void;
     GetNextSelector(): ISurrogateSelector | undefined;

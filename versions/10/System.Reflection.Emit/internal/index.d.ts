@@ -130,6 +130,8 @@ export enum StackBehaviour {
 
 
 export interface Label$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Id: int;
     Equals(obj: unknown): boolean;
     Equals(obj: Label): boolean;
@@ -153,6 +155,8 @@ export type Label = Label$instance & __Label$views;
 
 
 export interface OpCode$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly EvaluationStackDelta: int;
     readonly FlowControl: FlowControl;
     readonly Name: string | undefined;
@@ -185,6 +189,9 @@ export type OpCode = OpCode$instance & __OpCode$views;
 
 
 export interface AssemblyBuilder$instance extends Assembly {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly CodeBase: string | undefined;
     readonly EntryPoint: MethodInfo | undefined;
     readonly IsDynamic: boolean;
@@ -226,6 +233,8 @@ export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views
 
 
 export interface ConstructorBuilder$instance extends ConstructorInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     InitLocals: boolean;
     InitLocalsCore: boolean;
     DefineParameter(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
@@ -295,6 +304,8 @@ export const DynamicILInfo: {
 export type DynamicILInfo = DynamicILInfo$instance;
 
 export interface DynamicMethod$instance extends MethodInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     readonly Attributes: MethodAttributes;
     readonly CallingConvention: CallingConventions;
     readonly DeclaringType: Type | undefined;
@@ -349,6 +360,10 @@ export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
 export interface EnumBuilder$instance extends TypeInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Reflection_IReflect: never;
+    readonly __tsonic_iface_System_Reflection_IReflectableType: never;
+
     readonly UnderlyingField: FieldBuilder;
     readonly UnderlyingFieldCore: FieldBuilder;
     CreateType(): Type;
@@ -442,6 +457,8 @@ export const EventBuilder: (abstract new() => EventBuilder) & {
 export type EventBuilder = EventBuilder$instance;
 
 export interface FieldBuilder$instance extends FieldInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
@@ -467,6 +484,10 @@ export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
 export interface GenericTypeParameterBuilder$instance extends TypeInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Reflection_IReflect: never;
+    readonly __tsonic_iface_System_Reflection_IReflectableType: never;
+
     GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetField3(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
@@ -597,6 +618,8 @@ export const LocalBuilder: (abstract new() => LocalBuilder) & {
 export type LocalBuilder = LocalBuilder$instance;
 
 export interface MethodBuilder$instance extends MethodInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     InitLocals: boolean;
     InitLocalsCore: boolean;
     DefineGenericParameters(...names: string[]): GenericTypeParameterBuilder[];
@@ -633,6 +656,9 @@ export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
 export interface ModuleBuilder$instance extends Module {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     CreateGlobalFunctions(): void;
     CreateGlobalFunctionsCore(): void;
     DefineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
@@ -947,6 +973,9 @@ export const ParameterBuilder: (abstract new() => ParameterBuilder) & {
 export type ParameterBuilder = ParameterBuilder$instance;
 
 export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly FullName: string | undefined;
     readonly ManifestModule: Module;
     DefineDynamicModuleCore(name: string): ModuleBuilder;
@@ -979,6 +1008,8 @@ export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __Per
 
 
 export interface PropertyBuilder$instance extends PropertyInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     AddOtherMethodCore(mdBuilder: MethodBuilder): void;
     GetCustomAttributes(inherit: boolean): unknown[];
@@ -1036,6 +1067,10 @@ export const SignatureHelper: {
 export type SignatureHelper = SignatureHelper$instance;
 
 export interface TypeBuilder$instance extends TypeInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+    readonly __tsonic_iface_System_Reflection_IReflect: never;
+    readonly __tsonic_iface_System_Reflection_IReflectableType: never;
+
     readonly PackingSize: PackingSize;
     readonly PackingSizeCore: PackingSize;
     readonly Size: int;

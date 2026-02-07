@@ -100,90 +100,90 @@ export interface __Ext_System_ReadOnlyMemory_1<T extends System.IEquatable_1<T>>
 
 export interface __Ext_System_ReadOnlySpan_1<T extends System.IEquatable_1<T>> {
   Contains(value: T): ExtensionMethods_System<boolean>;
-  Contains(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  Contains(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAny(value0: T, value1: T): ExtensionMethods_System<boolean>;
-  ContainsAny(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAny(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAny(value0: T, value1: T, value2: T): ExtensionMethods_System<boolean>;
-  ContainsAny(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAny(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAny(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
-  ContainsAny(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAny(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAny(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<boolean>;
   ContainsAny(values: System_Buffers.SearchValues_1<System_Internal.String>): ExtensionMethods_System<boolean>;
   ContainsAnyExcept(value: T): ExtensionMethods_System<boolean>;
-  ContainsAnyExcept(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAnyExcept(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAnyExcept(value0: T, value1: T): ExtensionMethods_System<boolean>;
-  ContainsAnyExcept(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAnyExcept(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAnyExcept(value0: T, value1: T, value2: T): ExtensionMethods_System<boolean>;
-  ContainsAnyExcept(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAnyExcept(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAnyExcept(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
-  ContainsAnyExcept(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  ContainsAnyExcept(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   ContainsAnyExcept(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<boolean>;
   ContainsAnyInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<boolean>;
   ContainsAnyExceptInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<boolean>;
   IndexOfAnyExcept(value: T): ExtensionMethods_System<int>;
-  IndexOfAnyExcept(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAnyExcept(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAnyExcept(value0: T, value1: T): ExtensionMethods_System<int>;
-  IndexOfAnyExcept(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAnyExcept(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAnyExcept(value0: T, value1: T, value2: T): ExtensionMethods_System<int>;
-  IndexOfAnyExcept(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAnyExcept(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAnyExcept(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  IndexOfAnyExcept(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAnyExcept(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAnyExcept(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAnyExcept(value: T): ExtensionMethods_System<int>;
-  LastIndexOfAnyExcept(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAnyExcept(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAnyExcept(value0: T, value1: T): ExtensionMethods_System<int>;
-  LastIndexOfAnyExcept(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAnyExcept(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAnyExcept(value0: T, value1: T, value2: T): ExtensionMethods_System<int>;
-  LastIndexOfAnyExcept(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAnyExcept(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAnyExcept(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  LastIndexOfAnyExcept(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAnyExcept(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAnyExcept(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
   IndexOfAnyInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<int>;
   IndexOfAnyExceptInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<int>;
   LastIndexOfAnyInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<int>;
   LastIndexOfAnyExceptInRange(lowInclusive: T, highInclusive: T): ExtensionMethods_System<int>;
   IndexOf(value: T): ExtensionMethods_System<int>;
-  IndexOf(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOf(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOf(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  IndexOf(value: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOf(value: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOf(value: T): ExtensionMethods_System<int>;
-  LastIndexOf(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOf(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOf(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  LastIndexOf(value: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOf(value: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAny(value0: T, value1: T): ExtensionMethods_System<int>;
-  IndexOfAny(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAny(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAny(value0: T, value1: T, value2: T): ExtensionMethods_System<int>;
-  IndexOfAny(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAny(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAny(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  IndexOfAny(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  IndexOfAny(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IndexOfAny(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
   IndexOfAny(values: System_Buffers.SearchValues_1<System_Internal.String>): ExtensionMethods_System<int>;
   LastIndexOfAny(value0: T, value1: T): ExtensionMethods_System<int>;
-  LastIndexOfAny(value0: T, value1: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAny(value0: T, value1: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAny(value0: T, value1: T, value2: T): ExtensionMethods_System<int>;
-  LastIndexOfAny(value0: T, value1: T, value2: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAny(value0: T, value1: T, value2: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAny(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  LastIndexOfAny(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  LastIndexOfAny(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAny(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
   SequenceEqual(other: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
-  SequenceEqual(other: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  SequenceEqual(other: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   SequenceCompareTo(other: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  SequenceCompareTo(other: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System<int>;
+  SequenceCompareTo(other: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System<int>;
   StartsWith(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
-  StartsWith(value: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  StartsWith(value: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   EndsWith(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
-  EndsWith(value: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  EndsWith(value: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   StartsWith(value: T): ExtensionMethods_System<boolean>;
-  StartsWith(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  StartsWith(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   EndsWith(value: T): ExtensionMethods_System<boolean>;
-  EndsWith(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  EndsWith(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   Overlaps(other: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
   Overlaps(other: System.ReadOnlySpan_1<T>, elementOffset: int): ExtensionMethods_System<boolean>;
   BinarySearch(comparable: System.IComparable_1<T>): ExtensionMethods_System<int>;
   BinarySearch<TComparable>(comparable: TComparable): ExtensionMethods_System<int>;
   BinarySearch<TComparer>(value: T, comparer: TComparer): ExtensionMethods_System<int>;
   Replace(destination: System.Span_1<T>, oldValue: T, newValue: T): ExtensionMethods_System<void>;
-  Replace(destination: System.Span_1<T>, oldValue: T, newValue: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<void>;
+  Replace(destination: System.Span_1<T>, oldValue: T, newValue: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<void>;
   ReplaceAny(destination: System.Span_1<T>, values: System_Buffers.SearchValues_1<T>, newValue: T): ExtensionMethods_System<void>;
   ReplaceAnyExcept(destination: System.Span_1<T>, values: System_Buffers.SearchValues_1<T>, newValue: T): ExtensionMethods_System<void>;
   CommonPrefixLength(other: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
@@ -192,17 +192,17 @@ export interface __Ext_System_ReadOnlySpan_1<T extends System.IEquatable_1<T>> {
   Split(separator: System.ReadOnlySpan_1<T>): ExtensionMethods_System<System.MemoryExtensions_SpanSplitEnumerator_1<T>>;
   SplitAny(separators: System.ReadOnlySpan_1<T>): ExtensionMethods_System<System.MemoryExtensions_SpanSplitEnumerator_1<T>>;
   SplitAny(separators: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<System.MemoryExtensions_SpanSplitEnumerator_1<T>>;
-  Split(destination: System.Span_1<System.Range>, separator: char, options: System.StringSplitOptions): ExtensionMethods_System<int>;
-  Split(destination: System.Span_1<System.Range>, separator: System.ReadOnlySpan_1<System_Internal.Char>, options: System.StringSplitOptions): ExtensionMethods_System<int>;
-  SplitAny(destination: System.Span_1<System.Range>, separators: System.ReadOnlySpan_1<System_Internal.Char>, options: System.StringSplitOptions): ExtensionMethods_System<int>;
-  SplitAny(destination: System.Span_1<System.Range>, separators: System.ReadOnlySpan_1<System_Internal.String>, options: System.StringSplitOptions): ExtensionMethods_System<int>;
+  Split(destination: System.Span_1<System.Range>, separator: char, options?: System.StringSplitOptions): ExtensionMethods_System<int>;
+  Split(destination: System.Span_1<System.Range>, separator: System.ReadOnlySpan_1<System_Internal.Char>, options?: System.StringSplitOptions): ExtensionMethods_System<int>;
+  SplitAny(destination: System.Span_1<System.Range>, separators: System.ReadOnlySpan_1<System_Internal.Char>, options?: System.StringSplitOptions): ExtensionMethods_System<int>;
+  SplitAny(destination: System.Span_1<System.Range>, separators: System.ReadOnlySpan_1<System_Internal.String>, options?: System.StringSplitOptions): ExtensionMethods_System<int>;
   Count(value: T): ExtensionMethods_System<int>;
-  Count(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  Count(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   Count(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  Count(value: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  Count(value: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   CountAny(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
   CountAny(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
-  CountAny(values: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
+  CountAny(values: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<int>;
   IsWhiteSpace(): ExtensionMethods_System<boolean>;
   Contains(value: System.ReadOnlySpan_1<System_Internal.Char>, comparisonType: System.StringComparison): ExtensionMethods_System<boolean>;
   Equals(other: System.ReadOnlySpan_1<System_Internal.Char>, comparisonType: System.StringComparison): ExtensionMethods_System<boolean>;
@@ -232,9 +232,9 @@ export interface __Ext_System_ReadOnlySpan_1<T extends System.IEquatable_1<T>> {
   Trim(trimChars: System.ReadOnlySpan_1<System_Internal.Char>): ExtensionMethods_System<System.ReadOnlySpan_1<System_Internal.Char>>;
   TrimStart(trimChars: System.ReadOnlySpan_1<System_Internal.Char>): ExtensionMethods_System<System.ReadOnlySpan_1<System_Internal.Char>>;
   TrimEnd(trimChars: System.ReadOnlySpan_1<System_Internal.Char>): ExtensionMethods_System<System.ReadOnlySpan_1<System_Internal.Char>>;
-  IsNormalized(normalizationForm: System_Text.NormalizationForm): ExtensionMethods_System<boolean>;
-  TryNormalize(destination: System.Span_1<System_Internal.Char>, charsWritten: int, normalizationForm: System_Text.NormalizationForm): ExtensionMethods_System<boolean>;
-  GetNormalizedLength(normalizationForm: System_Text.NormalizationForm): ExtensionMethods_System<int>;
+  IsNormalized(normalizationForm?: System_Text.NormalizationForm): ExtensionMethods_System<boolean>;
+  TryNormalize(destination: System.Span_1<System_Internal.Char>, charsWritten: int, normalizationForm?: System_Text.NormalizationForm): ExtensionMethods_System<boolean>;
+  GetNormalizedLength(normalizationForm?: System_Text.NormalizationForm): ExtensionMethods_System<int>;
 }
 
 export interface __Ext_System_Span_1<T extends System.IEquatable_1<T>> {
@@ -280,7 +280,7 @@ export interface __Ext_System_Span_1<T extends System.IEquatable_1<T>> {
   LastIndexOfAny(value0: T, value1: T, value2: T): ExtensionMethods_System<int>;
   LastIndexOfAny(values: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
   LastIndexOfAny(values: System_Buffers.SearchValues_1<T>): ExtensionMethods_System<int>;
-  SequenceEqual(other: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
+  SequenceEqual(other: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<boolean>;
   StartsWith(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
   EndsWith(value: System.ReadOnlySpan_1<T>): ExtensionMethods_System<boolean>;
   Reverse(): ExtensionMethods_System<void>;
@@ -296,7 +296,7 @@ export interface __Ext_System_Span_1<T extends System.IEquatable_1<T>> {
   Sort<TValue, TComparer>(items: System.Span_1<TValue>, comparer: TComparer): ExtensionMethods_System<void>;
   Sort<TValue>(items: System.Span_1<TValue>, comparison: System.Comparison_1<T>): ExtensionMethods_System<void>;
   Replace(oldValue: T, newValue: T): ExtensionMethods_System<void>;
-  Replace(oldValue: T, newValue: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<void>;
+  Replace(oldValue: T, newValue: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System<void>;
   ReplaceAny(values: System_Buffers.SearchValues_1<T>, newValue: T): ExtensionMethods_System<void>;
   ReplaceAnyExcept(values: System_Buffers.SearchValues_1<T>, newValue: T): ExtensionMethods_System<void>;
   CommonPrefixLength(other: System.ReadOnlySpan_1<T>): ExtensionMethods_System<int>;
@@ -308,7 +308,7 @@ export interface __Ext_System_Span_1<T extends System.IEquatable_1<T>> {
   TryWrite<TArg0>(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, arg0: TArg0): ExtensionMethods_System<boolean>;
   TryWrite<TArg0, TArg1>(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1): ExtensionMethods_System<boolean>;
   TryWrite<TArg0, TArg1, TArg2>(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1, arg2: TArg2): ExtensionMethods_System<boolean>;
-  TryWrite(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, args: unknown[]): ExtensionMethods_System<boolean>;
+  TryWrite(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, ...args: unknown[]): ExtensionMethods_System<boolean>;
   TryWrite(provider: System.IFormatProvider, format: System_Text.CompositeFormat, charsWritten: int, args: System.ReadOnlySpan_1<unknown>): ExtensionMethods_System<boolean>;
   EnumerateRunes(): ExtensionMethods_System<System_Text.SpanRuneEnumerator>;
   EnumerateLines(): ExtensionMethods_System<System_Text.SpanLineEnumerator>;
@@ -430,10 +430,10 @@ export interface __Ext_System_Buffers_IBufferWriter_1<T> {
 }
 
 export interface __Ext_System_Collections_Frozen_IEnumerable_1<T> {
-  ToFrozenDictionary<TKey, TValue>(comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, TValue>>;
-  ToFrozenDictionary<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, T>>;
-  ToFrozenDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, TElement>>;
-  ToFrozenSet(comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenSet_1<T>>;
+  ToFrozenDictionary<TKey, TValue>(comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, TValue>>;
+  ToFrozenDictionary<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, T>>;
+  ToFrozenDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenDictionary_2<TKey, TElement>>;
+  ToFrozenSet(comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Collections_Frozen<System_Collections_Frozen.FrozenSet_1<T>>;
 }
 
 export interface __Ext_System_Collections_Generic_IDictionary_2<TKey, TValue> {
@@ -570,7 +570,7 @@ export interface __Ext_System_Data_DbDataReader {
   GetDouble(name: string): ExtensionMethods_System_Data<double>;
   GetFieldType(name: string): ExtensionMethods_System_Data<System.Type>;
   GetFieldValue<T>(name: string): ExtensionMethods_System_Data<T>;
-  GetFieldValueAsync<T>(name: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Data<System_Threading_Tasks.Task_1<T>>;
+  GetFieldValueAsync<T>(name: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Data<System_Threading_Tasks.Task_1<T>>;
   GetFloat(name: string): ExtensionMethods_System_Data<float>;
   GetGuid(name: string): ExtensionMethods_System_Data<System.Guid>;
   GetInt16(name: string): ExtensionMethods_System_Data<short>;
@@ -583,7 +583,7 @@ export interface __Ext_System_Data_DbDataReader {
   GetTextReader(name: string): ExtensionMethods_System_Data<System_IO.TextReader>;
   GetValue(name: string): ExtensionMethods_System_Data<unknown>;
   IsDBNull(name: string): ExtensionMethods_System_Data<boolean>;
-  IsDBNullAsync(name: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Data<System_Threading_Tasks.Task_1<System_Internal.Boolean>>;
+  IsDBNullAsync(name: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Data<System_Threading_Tasks.Task_1<System_Internal.Boolean>>;
 }
 
 export interface __Ext_System_Data_DataRow {
@@ -650,7 +650,7 @@ export interface __Ext_System_Diagnostics_StackFrame {
 }
 
 export interface __Ext_System_Diagnostics_Metrics_IMeterFactory {
-  Create(name: string, version: string, tags: System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<System_Internal.String, unknown>>): ExtensionMethods_System_Diagnostics_Metrics<System_Diagnostics_Metrics.Meter>;
+  Create(name: string, version?: string, tags?: System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<System_Internal.String, unknown>>): ExtensionMethods_System_Diagnostics_Metrics<System_Diagnostics_Metrics.Meter>;
 }
 
 export interface __Ext_System_Globalization_CompareInfo {
@@ -683,23 +683,23 @@ export interface __Ext_System_IO_DirectorySecurity {
 export interface __Ext_System_IO_Compression_ZipArchive {
   CreateEntryFromFile(sourceFileName: string, entryName: string): ExtensionMethods_System_IO_Compression<System_IO_Compression.ZipArchiveEntry>;
   CreateEntryFromFile(sourceFileName: string, entryName: string, compressionLevel: System_IO_Compression.CompressionLevel): ExtensionMethods_System_IO_Compression<System_IO_Compression.ZipArchiveEntry>;
-  CreateEntryFromFileAsync(sourceFileName: string, entryName: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task_1<System_IO_Compression.ZipArchiveEntry>>;
-  CreateEntryFromFileAsync(sourceFileName: string, entryName: string, compressionLevel: System_IO_Compression.CompressionLevel, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task_1<System_IO_Compression.ZipArchiveEntry>>;
+  CreateEntryFromFileAsync(sourceFileName: string, entryName: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task_1<System_IO_Compression.ZipArchiveEntry>>;
+  CreateEntryFromFileAsync(sourceFileName: string, entryName: string, compressionLevel: System_IO_Compression.CompressionLevel, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task_1<System_IO_Compression.ZipArchiveEntry>>;
   ExtractToDirectory(destinationDirectoryName: string): ExtensionMethods_System_IO_Compression<void>;
   ExtractToDirectory(destinationDirectoryName: string, overwriteFiles: boolean): ExtensionMethods_System_IO_Compression<void>;
-  ExtractToDirectoryAsync(destinationDirectoryName: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
-  ExtractToDirectoryAsync(destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
+  ExtractToDirectoryAsync(destinationDirectoryName: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
+  ExtractToDirectoryAsync(destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
 }
 
 export interface __Ext_System_IO_Compression_ZipArchiveEntry {
   ExtractToFile(destinationFileName: string): ExtensionMethods_System_IO_Compression<void>;
   ExtractToFile(destinationFileName: string, overwrite: boolean): ExtensionMethods_System_IO_Compression<void>;
-  ExtractToFileAsync(destinationFileName: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
-  ExtractToFileAsync(destinationFileName: string, overwrite: boolean, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
+  ExtractToFileAsync(destinationFileName: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
+  ExtractToFileAsync(destinationFileName: string, overwrite: boolean, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Compression<System_Threading_Tasks.Task>;
 }
 
 export interface __Ext_System_IO_Pipelines_Stream {
-  CopyToAsync(destination: System_IO_Pipelines.PipeWriter, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_IO_Pipelines<System_Threading_Tasks.Task>;
+  CopyToAsync(destination: System_IO_Pipelines.PipeWriter, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_IO_Pipelines<System_Threading_Tasks.Task>;
 }
 
 export interface __Ext_System_IO_Pipes_PipeStream {
@@ -712,109 +712,109 @@ export interface __Ext_System_Linq_Partitioner_1<TSource> {
 }
 
 export interface __Ext_System_Linq_IAsyncEnumerable_1<T> {
-  AggregateAsync(func: System.Func_3<T, T, T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  AggregateAsync(func: System.Func_4<T, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<T>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  AggregateAsync<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TAccumulate>>;
-  AggregateAsync<TAccumulate>(seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TAccumulate>>;
-  AggregateAsync<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, resultSelector: System.Func_2<TAccumulate, TResult>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TResult>>;
-  AggregateAsync<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, resultSelector: System.Func_3<TAccumulate, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TResult>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, seedSelector: System.Func_3<TKey, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AllAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
-  AllAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
-  AnyAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
-  AnyAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
-  AnyAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  AggregateAsync(func: System.Func_3<T, T, T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  AggregateAsync(func: System.Func_4<T, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<T>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  AggregateAsync<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TAccumulate>>;
+  AggregateAsync<TAccumulate>(seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TAccumulate>>;
+  AggregateAsync<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, resultSelector: System.Func_2<TAccumulate, TResult>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TResult>>;
+  AggregateAsync<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, resultSelector: System.Func_3<TAccumulate, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<TResult>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, seed: TAccumulate, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, seedSelector: System.Func_3<TKey, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, func: System.Func_4<TAccumulate, T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TAccumulate>>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AllAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  AllAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  AnyAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  AnyAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  AnyAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
   Append(element: T): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Single>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Decimal>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Single>>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
-  AverageAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Decimal>>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Single>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Decimal>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Single>>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
+  AverageAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Decimal>>>;
   Cast<TResult>(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   Chunk(size: int): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T[]>>;
   Concat(second: System_Collections_Generic.IAsyncEnumerable_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  ContainsAsync(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
-  CountAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
-  CountAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
-  CountAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
-  LongCountAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
-  LongCountAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
-  LongCountAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
-  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
-  CountBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  ContainsAsync(value: T, comparer?: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  CountAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  CountAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  CountAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  LongCountAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
+  LongCountAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
+  LongCountAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
+  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  CountBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
   DefaultIfEmpty(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T | undefined>>;
   DefaultIfEmpty(defaultValue: T): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  Distinct(comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  DistinctBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  ElementAtAsync(index: int, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  ElementAtOrDefaultAsync(index: int, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  ElementAtAsync(index: System.Index, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  ElementAtOrDefaultAsync(index: System.Index, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  Except(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  ExceptBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  ExceptBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  FirstAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  FirstOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
-  GroupBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
-  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
-  GroupBy<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
-  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  GroupBy<TKey, TResult>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<TKey, System_Collections_Generic.IEnumerable_1<T>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, resultSelector: System.Func_4<TKey, System_Collections_Generic.IEnumerable_1<TElement>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, System_Collections_Generic.IEnumerable_1<TInner>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  Distinct(comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  ElementAtAsync(index: int, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  ElementAtOrDefaultAsync(index: int, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  ElementAtAsync(index: System.Index, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  ElementAtOrDefaultAsync(index: System.Index, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  Except(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  FirstAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  FirstOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<TKey, System_Collections_Generic.IEnumerable_1<T>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, resultSelector: System.Func_4<TKey, System_Collections_Generic.IEnumerable_1<TElement>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, System_Collections_Generic.IEnumerable_1<TInner>, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   Index(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<System.ValueTuple_2<System_Internal.Int32, T>>>;
-  Intersect(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  IntersectBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  IntersectBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  LastAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LastOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  MaxAsync(comparer: System_Collections_Generic.IComparer_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  MaxByAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  MaxByAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  MinAsync(comparer: System_Collections_Generic.IComparer_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  MinByAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  MinByAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  Intersect(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<TKey>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  LastAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LastOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  MaxAsync(comparer?: System_Collections_Generic.IComparer_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  MaxByAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  MaxByAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  MinAsync(comparer?: System_Collections_Generic.IComparer_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  MinByAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  MinByAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
   OfType<TResult>(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  Order(comparer: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
-  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
-  OrderBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
-  OrderDescending(comparer: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
-  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
-  OrderByDescending<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  Order(comparer?: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  OrderDescending(comparer?: System_Collections_Generic.IComparer_1<T>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<T>>;
   Prepend(element: T): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   Reverse(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IAsyncEnumerable_1<TInner>, outerKeySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, innerKeySelector: System.Func_3<TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, resultSelector: System.Func_4<T, TInner, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   Select<TResult>(selector: System.Func_2<T, TResult>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   Select<TResult>(selector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   Select<TResult>(selector: System.Func_4<T, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
@@ -826,53 +826,53 @@ export interface __Ext_System_Linq_IAsyncEnumerable_1<T> {
   SelectMany<TCollection, TResult>(collectionSelector: System.Func_2<T, System_Collections_Generic.IAsyncEnumerable_1<TCollection>>, resultSelector: System.Func_4<T, TCollection, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   SelectMany<TCollection, TResult>(collectionSelector: System.Func_3<T, System_Internal.Int32, System_Collections_Generic.IEnumerable_1<TCollection>>, resultSelector: System.Func_3<T, TCollection, TResult>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
   SelectMany<TCollection, TResult>(collectionSelector: System.Func_4<T, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Collections_Generic.IEnumerable_1<TCollection>>>, resultSelector: System.Func_4<T, TCollection, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TResult>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<TResult>>;
-  SequenceEqualAsync(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
+  SequenceEqualAsync(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>;
   Shuffle(): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  SingleAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
-  SingleOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
+  SingleOrDefaultAsync(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>, defaultValue: T, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T>>;
   Skip(count: int): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   SkipLast(count: int): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   SkipWhile(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   SkipWhile(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   SkipWhile(predicate: System.Func_4<T, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Single>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Decimal>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Int32>>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Int64>>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Single>>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
-  SumAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Decimal>>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Int64>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Single>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Double>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Internal.Decimal>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Int32>>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Int64>>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Single>>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Double>>>;
+  SumAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System.Nullable_1<System_Internal.Decimal>>>;
   Take(count: int): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   Take(range: System.Range): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   TakeLast(count: int): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   TakeWhile(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   TakeWhile(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   TakeWhile(predicate: System.Func_4<T, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  ToArrayAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T[]>>;
-  ToDictionaryAsync<TKey, TValue>(comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TValue>>>;
-  ToDictionaryAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, T>>>;
-  ToDictionaryAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, T>>>;
-  ToDictionaryAsync<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TElement>>>;
-  ToDictionaryAsync<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TElement>>>;
-  ToHashSetAsync(comparer: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.HashSet_1<T>>>;
-  ToListAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.List_1<T>>>;
-  ToLookupAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, T>>>;
-  ToLookupAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, T>>>;
-  ToLookupAsync<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, TElement>>>;
-  ToLookupAsync<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, TElement>>>;
-  Union(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  UnionBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<T>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
-  UnionBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<T>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  ToArrayAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<T[]>>;
+  ToDictionaryAsync<TKey, TValue>(comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TValue>>>;
+  ToDictionaryAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, T>>>;
+  ToDictionaryAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, T>>>;
+  ToDictionaryAsync<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TElement>>>;
+  ToDictionaryAsync<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.Dictionary_2<TKey, TElement>>>;
+  ToHashSetAsync(comparer?: System_Collections_Generic.IEqualityComparer_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.HashSet_1<T>>>;
+  ToListAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Collections_Generic.List_1<T>>>;
+  ToLookupAsync<TKey>(keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, T>>>;
+  ToLookupAsync<TKey>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, T>>>;
+  ToLookupAsync<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, TElement>>>;
+  ToLookupAsync<TKey, TElement>(keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, elementSelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TElement>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Linq<System_Threading_Tasks.ValueTask_1<System_Linq.ILookup_2<TKey, TElement>>>;
+  Union(second: System_Collections_Generic.IAsyncEnumerable_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<T>, keySelector: System.Func_2<T, TKey>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IAsyncEnumerable_1<T>, keySelector: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   Where(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   Where(predicate: System.Func_3<T, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
   Where(predicate: System.Func_4<T, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): ExtensionMethods_System_Linq<System_Collections_Generic.IAsyncEnumerable_1<T>>;
@@ -911,9 +911,9 @@ export interface __Ext_System_Linq_IEnumerable_1<T> {
   Concat(second: System_Collections_Generic.IEnumerable_1<T>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<T>>;
   Contains(value: T): ExtensionMethods_System_Linq<boolean>;
   Contains(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
   Count(): ExtensionMethods_System_Linq<int>;
   Count(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<int>;
   TryGetNonEnumeratedCount(count: int): ExtensionMethods_System_Linq<boolean>;
@@ -1112,8 +1112,8 @@ export interface __Ext_System_Linq_ImmutableArray_1<T> {
   Any(): ExtensionMethods_System_Linq<boolean>;
   Any(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   All(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
-  SequenceEqual<TDerived>(items: System_Collections_Immutable.ImmutableArray_1<TDerived>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
-  SequenceEqual<TDerived>(items: System_Collections_Generic.IEnumerable_1<TDerived>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
+  SequenceEqual<TDerived>(items: System_Collections_Immutable.ImmutableArray_1<TDerived>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
+  SequenceEqual<TDerived>(items: System_Collections_Generic.IEnumerable_1<TDerived>, comparer?: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
   SequenceEqual<TDerived>(items: System_Collections_Immutable.ImmutableArray_1<TDerived>, predicate: System.Func_3<T, T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   Aggregate(func: System.Func_3<T, T, T>): ExtensionMethods_System_Linq<T | undefined>;
   Aggregate<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>): ExtensionMethods_System_Linq<TAccumulate>;
@@ -1148,10 +1148,10 @@ export interface __Ext_System_Linq_ImmutableArray_1_Builder<T> {
 }
 
 export interface __Ext_System_Linq_IOrderedAsyncEnumerable_1<TElement> {
-  ThenBy<TKey>(keySelector: System.Func_2<TElement, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
-  ThenBy<TKey>(keySelector: System.Func_3<TElement, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
-  ThenByDescending<TKey>(keySelector: System.Func_2<TElement, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
-  ThenByDescending<TKey>(keySelector: System.Func_3<TElement, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
+  ThenBy<TKey>(keySelector: System.Func_2<TElement, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
+  ThenBy<TKey>(keySelector: System.Func_3<TElement, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
+  ThenByDescending<TKey>(keySelector: System.Func_2<TElement, TKey>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
+  ThenByDescending<TKey>(keySelector: System.Func_3<TElement, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IOrderedAsyncEnumerable_1<TElement>>;
 }
 
 export interface __Ext_System_Linq_IOrderedEnumerable_1<TElement> {
@@ -1262,7 +1262,7 @@ export interface __Ext_System_Linq_IQueryable_1<T> {
   All(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<boolean>;
   Count(): ExtensionMethods_System_Linq<int>;
   Count(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<int>;
-  CountBy<TKey>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  CountBy<TKey>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, comparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
   LongCount(): ExtensionMethods_System_Linq<long>;
   LongCount(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<long>;
   Min(): ExtensionMethods_System_Linq<T | undefined>;
@@ -1314,8 +1314,8 @@ export interface __Ext_System_Linq_IQueryable_1<T> {
   Aggregate(func: System_Linq_Expressions.Expression_1<System.Func_3<T, T, T>>): ExtensionMethods_System_Linq<T>;
   Aggregate<TAccumulate>(seed: TAccumulate, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>): ExtensionMethods_System_Linq<TAccumulate>;
   Aggregate<TAccumulate, TResult>(seed: TAccumulate, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>, selector: System_Linq_Expressions.Expression_1<System.Func_2<TAccumulate, TResult>>): ExtensionMethods_System_Linq<TResult>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, seed: TAccumulate, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
-  AggregateBy<TKey, TAccumulate>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, seedSelector: System_Linq_Expressions.Expression_1<System.Func_2<TKey, TAccumulate>>, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, seed: TAccumulate, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System_Linq_Expressions.Expression_1<System.Func_2<T, TKey>>, seedSelector: System_Linq_Expressions.Expression_1<System.Func_2<TKey, TAccumulate>>, func: System_Linq_Expressions.Expression_1<System.Func_3<TAccumulate, T, TAccumulate>>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
   SkipLast(count: int): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<T>>;
   TakeLast(count: int): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<T>>;
   Append(element: T): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<T>>;
@@ -1525,66 +1525,66 @@ export interface __Ext_System_Linq_ParallelQuery_1<TSource> {
 }
 
 export interface __Ext_System_Net_Http_Json_HttpClient {
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  DeleteFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  DeleteFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  DeleteFromJsonAsync(requestUri: string, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync(requestUri: string, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  GetFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  PostAsJsonAsync<TValue>(requestUri: string, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PostAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  GetFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  DeleteFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  DeleteFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  DeleteFromJsonAsync(requestUri: string, type: System.Type, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  DeleteFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync(requestUri: string, type: System.Type, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: string, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  GetFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
+  PostAsJsonAsync<TValue>(requestUri: string, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PostAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PostAsJsonAsync<TValue>(requestUri: string, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PostAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PostAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PostAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PutAsJsonAsync<TValue>(requestUri: string, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PutAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PostAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PostAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PutAsJsonAsync<TValue>(requestUri: string, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PutAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PutAsJsonAsync<TValue>(requestUri: string, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PutAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PutAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PutAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PatchAsJsonAsync<TValue>(requestUri: string, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PatchAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PutAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PutAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PatchAsJsonAsync<TValue>(requestUri: string, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PatchAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, options?: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PatchAsJsonAsync<TValue>(requestUri: string, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
   PatchAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PatchAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
-  PatchAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PatchAsJsonAsync<TValue>(requestUri: string, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
+  PatchAsJsonAsync<TValue>(requestUri: System.Uri, value: TValue, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
 }
 
 export interface __Ext_System_Net_Http_Json_HttpContent {
-  ReadFromJsonAsAsyncEnumerable<TValue>(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  ReadFromJsonAsAsyncEnumerable<TValue>(options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  ReadFromJsonAsAsyncEnumerable<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  ReadFromJsonAsync(type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  ReadFromJsonAsync(type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  ReadFromJsonAsync<T>(options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
-  ReadFromJsonAsync<T>(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
-  ReadFromJsonAsync(type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  ReadFromJsonAsync<T>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
+  ReadFromJsonAsAsyncEnumerable<TValue>(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  ReadFromJsonAsAsyncEnumerable<TValue>(options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  ReadFromJsonAsAsyncEnumerable<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
+  ReadFromJsonAsync(type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  ReadFromJsonAsync(type: System.Type, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  ReadFromJsonAsync<T>(options: System_Text_Json.JsonSerializerOptions, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
+  ReadFromJsonAsync<T>(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
+  ReadFromJsonAsync(type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  ReadFromJsonAsync<T>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<T>, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
 }
 
 export interface __Ext_System_Net_Sockets_Socket {
@@ -1599,12 +1599,12 @@ export interface __Ext_System_Net_Sockets_Socket {
   ConnectAsync(host: string, port: int): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task>;
   ConnectAsync(host: string, port: int, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.ValueTask>;
   ReceiveAsync(buffer: System.ArraySegment_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Internal.Int32>>;
-  ReceiveAsync(buffer: System.Memory_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  ReceiveAsync(buffer: System.Memory_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
   ReceiveAsync(buffers: System_Collections_Generic.IList_1<System.ArraySegment_1<System_Internal.Byte>>, socketFlags: System_Net_Sockets.SocketFlags): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Internal.Int32>>;
   ReceiveFromAsync(buffer: System.ArraySegment_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, remoteEndPoint: System_Net.EndPoint): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Net_Sockets.SocketReceiveFromResult>>;
   ReceiveMessageFromAsync(buffer: System.ArraySegment_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, remoteEndPoint: System_Net.EndPoint): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Net_Sockets.SocketReceiveMessageFromResult>>;
   SendAsync(buffer: System.ArraySegment_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Internal.Int32>>;
-  SendAsync(buffer: System.ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
+  SendAsync(buffer: System.ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.ValueTask_1<System_Internal.Int32>>;
   SendAsync(buffers: System_Collections_Generic.IList_1<System.ArraySegment_1<System_Internal.Byte>>, socketFlags: System_Net_Sockets.SocketFlags): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Internal.Int32>>;
   SendToAsync(buffer: System.ArraySegment_1<System_Internal.Byte>, socketFlags: System_Net_Sockets.SocketFlags, remoteEP: System_Net.EndPoint): ExtensionMethods_System_Net_Sockets<System_Threading_Tasks.Task_1<System_Internal.Int32>>;
 }
@@ -2068,35 +2068,35 @@ export interface __Ext_System_Text_Encoding {
 }
 
 export interface __Ext_System_Text_Json_JsonDocument {
-  Deserialize<TValue>(options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
-  Deserialize(returnType: System.Type, options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
+  Deserialize<TValue>(options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
+  Deserialize(returnType: System.Type, options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>): ExtensionMethods_System_Text_Json<TValue | undefined>;
   Deserialize(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize(returnType: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext): ExtensionMethods_System_Text_Json<unknown | undefined>;
 }
 
 export interface __Ext_System_Text_Json_JsonElement {
-  Deserialize<TValue>(options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
-  Deserialize(returnType: System.Type, options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
+  Deserialize<TValue>(options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
+  Deserialize(returnType: System.Type, options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>): ExtensionMethods_System_Text_Json<TValue | undefined>;
   Deserialize(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize(returnType: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext): ExtensionMethods_System_Text_Json<unknown | undefined>;
 }
 
 export interface __Ext_System_Text_Json_JsonNode {
-  Deserialize<TValue>(options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
-  Deserialize(returnType: System.Type, options: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
+  Deserialize<TValue>(options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<TValue | undefined>;
+  Deserialize(returnType: System.Type, options?: System_Text_Json.JsonSerializerOptions): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>): ExtensionMethods_System_Text_Json<TValue | undefined>;
   Deserialize(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo): ExtensionMethods_System_Text_Json<unknown | undefined>;
   Deserialize(returnType: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext): ExtensionMethods_System_Text_Json<unknown | undefined>;
 }
 
 export interface __Ext_System_Text_Json_Schema_JsonSerializerOptions {
-  GetJsonSchemaAsNode(type: System.Type, exporterOptions: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
+  GetJsonSchemaAsNode(type: System.Type, exporterOptions?: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
 }
 
 export interface __Ext_System_Text_Json_Schema_JsonTypeInfo {
-  GetJsonSchemaAsNode(exporterOptions: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
+  GetJsonSchemaAsNode(exporterOptions?: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
 }
 
 export interface __Ext_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver {
@@ -2126,7 +2126,7 @@ export interface __Ext_System_Threading_WaitHandle {
 export interface __Ext_System_Threading_Tasks_IAsyncEnumerable_1<T> {
   ConfigureAwait(continueOnCapturedContext: boolean): ExtensionMethods_System_Threading_Tasks<System_Runtime_CompilerServices.ConfiguredCancelableAsyncEnumerable_1<T>>;
   WithCancellation(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Threading_Tasks<System_Runtime_CompilerServices.ConfiguredCancelableAsyncEnumerable_1<T>>;
-  ToBlockingEnumerable(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Threading_Tasks<System_Collections_Generic.IEnumerable_1<T>>;
+  ToBlockingEnumerable(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Threading_Tasks<System_Collections_Generic.IEnumerable_1<T>>;
 }
 
 export interface __Ext_System_Threading_Tasks_IAsyncDisposable {
@@ -2140,7 +2140,7 @@ export interface __Ext_System_Threading_Tasks_Task_1<TResult> {
 
 export interface __Ext_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1<TOutput> {
   TryReceive(item: TOutput): ExtensionMethods_System_Threading_Tasks_Dataflow<boolean>;
-  ReceiveAllAsync(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Threading_Tasks_Dataflow<System_Collections_Generic.IAsyncEnumerable_1<TOutput>>;
+  ReceiveAllAsync(cancellationToken?: System_Threading.CancellationToken): ExtensionMethods_System_Threading_Tasks_Dataflow<System_Collections_Generic.IAsyncEnumerable_1<TOutput>>;
 }
 
 export interface __Ext_System_Threading_Tasks_Dataflow_ISourceBlock_1<TOutput> {

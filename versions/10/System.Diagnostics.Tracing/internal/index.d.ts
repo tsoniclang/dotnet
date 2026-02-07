@@ -153,6 +153,8 @@ export const EventSourceOptions: {
 export type EventSourceOptions = EventSourceOptions$instance;
 
 export interface DiagnosticCounter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     DisplayName: string;
     DisplayUnits: string;
     readonly EventSource: EventSource;
@@ -213,6 +215,8 @@ export const EventCommandEventArgs: {
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
 export interface EventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
     ToString(): string;
     WriteMetric(value: float): void;
@@ -270,6 +274,8 @@ export const EventIgnoreAttribute: {
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
 export interface EventListener$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     DisableEvents(eventSource: EventSource): void;
     Dispose(): void;
     EnableEvents(eventSource: EventSource, level: EventLevel): void;
@@ -295,6 +301,8 @@ export type EventListener = EventListener$instance & __EventListener$views;
 
 
 export interface EventSource$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ConstructionException: Exception | undefined;
     readonly Guid: Guid;
     readonly Name: string;
@@ -371,6 +379,8 @@ export const EventSourceCreatedEventArgs: {
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
 export interface EventSourceException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -421,6 +431,8 @@ export const EventWrittenEventArgs: {
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
 export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     DisplayRateTimeScale: TimeSpan;
     Dispose(): void;
     Increment(increment?: double): void;
@@ -441,6 +453,8 @@ export type IncrementingEventCounter = IncrementingEventCounter$instance & __Inc
 
 
 export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     DisplayRateTimeScale: TimeSpan;
     Dispose(): void;
     ToString(): string;
@@ -471,6 +485,8 @@ export const NonEventAttribute: {
 export type NonEventAttribute = NonEventAttribute$instance;
 
 export interface PollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
     ToString(): string;
 }

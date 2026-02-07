@@ -357,6 +357,8 @@ export type DllImportResolver = (libraryName: string, assembly: Assembly, search
 
 
 export interface ICustomAdapter$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ICustomAdapter: never;
+
     GetUnderlyingObject(): unknown;
 }
 
@@ -364,6 +366,8 @@ export interface ICustomAdapter$instance {
 export type ICustomAdapter = ICustomAdapter$instance;
 
 export interface ICustomFactory$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ICustomFactory: never;
+
     CreateInstance(serverType: Type): MarshalByRefObject;
 }
 
@@ -371,6 +375,8 @@ export interface ICustomFactory$instance {
 export type ICustomFactory = ICustomFactory$instance;
 
 export interface ICustomMarshaler$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ICustomMarshaler: never;
+
     CleanUpManagedData(ManagedObj: unknown): void;
     CleanUpNativeData(pNativeData: nint): void;
     GetNativeDataSize(): int;
@@ -382,6 +388,8 @@ export interface ICustomMarshaler$instance {
 export type ICustomMarshaler = ICustomMarshaler$instance;
 
 export interface ICustomQueryInterface$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ICustomQueryInterface: never;
+
     GetInterface(iid: Guid, ppv: nint): CustomQueryInterfaceResult;
 }
 
@@ -389,6 +397,8 @@ export interface ICustomQueryInterface$instance {
 export type ICustomQueryInterface = ICustomQueryInterface$instance;
 
 export interface IDynamicInterfaceCastable$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_IDynamicInterfaceCastable: never;
+
     GetInterfaceImplementation(interfaceType: RuntimeTypeHandle): RuntimeTypeHandle;
     IsInterfaceImplemented(interfaceType: RuntimeTypeHandle, throwIfNotImplemented: boolean): boolean;
 }
@@ -397,6 +407,8 @@ export interface IDynamicInterfaceCastable$instance {
 export type IDynamicInterfaceCastable = IDynamicInterfaceCastable$instance;
 
 export interface ArrayWithOffset$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     Equals(obj: unknown): boolean;
     Equals(obj: ArrayWithOffset): boolean;
     GetArray(): unknown | undefined;
@@ -421,6 +433,8 @@ export type ArrayWithOffset = ArrayWithOffset$instance & __ArrayWithOffset$views
 
 
 export interface CLong$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Value: nint;
     Equals(o: unknown): boolean;
     Equals(other: CLong): boolean;
@@ -472,6 +486,8 @@ export const ComWrappers_ComInterfaceEntry: {
 export type ComWrappers_ComInterfaceEntry = ComWrappers_ComInterfaceEntry$instance;
 
 export interface CULong$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly Value: nuint;
     Equals(o: unknown): boolean;
     Equals(other: CULong): boolean;
@@ -497,6 +513,8 @@ export type CULong = CULong$instance & __CULong$views;
 
 
 export interface GCHandle$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsAllocated: boolean;
     get Target(): unknown | undefined;
     set Target(value: unknown | undefined);
@@ -528,6 +546,9 @@ export type GCHandle = GCHandle$instance & __GCHandle$views;
 
 
 export interface GCHandle_1$instance<T> {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsAllocated: boolean;
     Target: T;
     Dispose(): void;
@@ -572,6 +593,45 @@ export const HandleRef: {
 export type HandleRef = HandleRef$instance;
 
 export interface NFloat$instance extends IBitwiseOperators_3<NFloat, NFloat, NFloat>, IComparisonOperators_3<NFloat, NFloat, System_Internal.Boolean>, IEqualityOperators_3<NFloat, NFloat, System_Internal.Boolean>, IModulusOperators_3<NFloat, NFloat, NFloat>, IAdditionOperators_3<NFloat, NFloat, NFloat>, IDecrementOperators_1<NFloat>, IDivisionOperators_3<NFloat, NFloat, NFloat>, IIncrementOperators_1<NFloat>, IMultiplyOperators_3<NFloat, NFloat, NFloat>, ISubtractionOperators_3<NFloat, NFloat, NFloat>, IUnaryPlusOperators_2<NFloat, NFloat>, IUnaryNegationOperators_2<NFloat, NFloat> {
+    readonly __tsonic_iface_System_IComparable: never;
+    readonly __tsonic_iface_System_IComparable_1: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+    readonly __tsonic_iface_System_IFormattable: never;
+    readonly __tsonic_iface_System_IParsable_1: never;
+    readonly __tsonic_iface_System_ISpanFormattable: never;
+    readonly __tsonic_iface_System_ISpanParsable_1: never;
+    readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
+    readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
+    readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never;
+    readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
+    readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
+    readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
+    readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
+    readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
+    readonly __tsonic_iface_System_Numerics_INumber_1: never;
+    readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
+    readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
+    readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
+    readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
+
     readonly Value: double;
     CompareTo(obj: unknown): int;
     CompareTo(other: NFloat): int;
@@ -751,6 +811,8 @@ export type NFloat = NFloat$instance & __NFloat$views;
 
 
 export interface OSPlatform$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     Equals(other: OSPlatform): boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -779,6 +841,9 @@ export type OSPlatform = OSPlatform$instance & __OSPlatform$views;
 
 
 export interface PinnedGCHandle_1$instance<T> {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsAllocated: boolean;
     Target: T;
     Dispose(): void;
@@ -810,6 +875,9 @@ export type PinnedGCHandle_1<T> = PinnedGCHandle_1$instance<T> & __PinnedGCHandl
 
 
 export interface WeakGCHandle_1$instance<T> {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsAllocated: boolean;
     Dispose(): void;
     Equals(obj: unknown): boolean;
@@ -927,6 +995,8 @@ export const ComAliasNameAttribute: {
 export type ComAliasNameAttribute = ComAliasNameAttribute$instance;
 
 export interface ComAwareEventInfo$instance extends EventInfo {
+    readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
+
     readonly Attributes: EventAttributes;
     readonly DeclaringType: Type | undefined;
     readonly MetadataToken: int;
@@ -1015,6 +1085,8 @@ export const ComEventInterfaceAttribute: {
 export type ComEventInterfaceAttribute = ComEventInterfaceAttribute$instance;
 
 export interface COMException$instance extends ExternalException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
 }
@@ -1121,6 +1193,8 @@ export const ComWrappers: (abstract new() => ComWrappers) & {
 export type ComWrappers = ComWrappers$instance;
 
 export interface CriticalHandle$instance extends CriticalFinalizerObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
@@ -1262,6 +1336,8 @@ export const ErrorWrapper: {
 export type ErrorWrapper = ErrorWrapper$instance;
 
 export interface ExternalException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ErrorCode: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
@@ -1362,6 +1438,8 @@ export const InterfaceTypeAttribute: {
 export type InterfaceTypeAttribute = InterfaceTypeAttribute$instance;
 
 export interface InvalidComObjectException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1381,6 +1459,8 @@ export type InvalidComObjectException = InvalidComObjectException$instance & __I
 
 
 export interface InvalidOleVariantTypeException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1465,6 +1545,8 @@ export const MarshalAsAttribute: {
 export type MarshalAsAttribute = MarshalAsAttribute$instance;
 
 export interface MarshalDirectiveException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1519,6 +1601,8 @@ export const PosixSignalContext: {
 export type PosixSignalContext = PosixSignalContext$instance;
 
 export interface PosixSignalRegistration$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
     Finalize(): void;
 }
@@ -1575,6 +1659,8 @@ export const ProgIdAttribute: {
 export type ProgIdAttribute = ProgIdAttribute$instance;
 
 export interface SafeArrayRankMismatchException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1594,6 +1680,8 @@ export type SafeArrayRankMismatchException = SafeArrayRankMismatchException$inst
 
 
 export interface SafeArrayTypeMismatchException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1613,6 +1701,8 @@ export type SafeArrayTypeMismatchException = SafeArrayTypeMismatchException$inst
 
 
 export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ByteLength: ulong;
     AcquirePointer(pointer: ptr<byte>): void;
     Dispose(): void;
@@ -1642,6 +1732,8 @@ export type SafeBuffer = SafeBuffer$instance & __SafeBuffer$views;
 
 
 export interface SafeHandle$instance extends CriticalFinalizerObject {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly IsClosed: boolean;
     readonly IsInvalid: boolean;
     Close(): void;
@@ -1668,6 +1760,8 @@ export type SafeHandle = SafeHandle$instance & __SafeHandle$views;
 
 
 export interface SEHException$instance extends ExternalException$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     CanResume(): boolean;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }

@@ -21,6 +21,8 @@ export type ResolveNameEventHandler = (sender: unknown, e: ResolveNameEventArgs)
 
 
 export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceContainer, IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderHost: never;
+
     readonly Loading: boolean;
     readonly InTransaction: boolean;
     readonly Container: IContainer;
@@ -50,6 +52,8 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
 export type IDesignerLoaderHost = IDesignerLoaderHost$instance;
 
 export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDesignerHost, IServiceContainer, IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderHost2: never;
+
     IgnoreErrorsDuringReload: boolean;
     CanReloadWithErrors: boolean;
     readonly Loading: boolean;
@@ -81,6 +85,8 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
 export type IDesignerLoaderHost2 = IDesignerLoaderHost2$instance;
 
 export interface IDesignerLoaderService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderService: never;
+
     AddLoadDependency(): void;
     DependentLoadComplete(successful: boolean, errorCollection: ICollection): void;
     Reload(): boolean;
@@ -90,6 +96,8 @@ export interface IDesignerLoaderService$instance {
 export type IDesignerLoaderService = IDesignerLoaderService$instance;
 
 export interface IDesignerSerializationManager$instance extends IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerSerializationManager: never;
+
     readonly Context: ContextStack;
     readonly Properties: PropertyDescriptorCollection;
     AddSerializationProvider(provider: IDesignerSerializationProvider): void;
@@ -109,6 +117,8 @@ export interface IDesignerSerializationManager$instance extends System_Internal.
 export type IDesignerSerializationManager = IDesignerSerializationManager$instance;
 
 export interface IDesignerSerializationProvider$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerSerializationProvider: never;
+
     GetSerializer(manager: IDesignerSerializationManager, currentSerializer: unknown, objectType: Type, serializerType: Type): unknown | undefined;
 }
 
@@ -116,6 +126,8 @@ export interface IDesignerSerializationProvider$instance {
 export type IDesignerSerializationProvider = IDesignerSerializationProvider$instance;
 
 export interface IDesignerSerializationService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerSerializationService: never;
+
     Deserialize(serializationData: unknown): ICollection;
     Serialize(objects: ICollection): unknown;
 }
@@ -124,6 +136,8 @@ export interface IDesignerSerializationService$instance {
 export type IDesignerSerializationService = IDesignerSerializationService$instance;
 
 export interface INameCreationService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_INameCreationService: never;
+
     CreateName(container: IContainer, dataType: Type): string;
     IsValidName(name: string): boolean;
     ValidateName(name: string): void;
@@ -133,6 +147,8 @@ export interface INameCreationService$instance {
 export type INameCreationService = INameCreationService$instance;
 
 export interface MemberRelationship$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsEmpty: boolean;
     readonly Member: MemberDescriptor;
     readonly Owner: unknown | undefined;
@@ -304,6 +320,8 @@ export const RootDesignerSerializerAttribute: {
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
 export interface SerializationStore$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Errors: ICollection;
     Close(): void;
     Dispose(disposing: boolean): void;

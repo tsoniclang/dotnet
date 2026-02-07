@@ -23,6 +23,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface IDynamicMetaObjectProvider$instance {
+    readonly __tsonic_iface_System_Dynamic_IDynamicMetaObjectProvider: never;
+
     GetMetaObject(parameter: Expression): DynamicMetaObject;
 }
 
@@ -30,6 +32,8 @@ export interface IDynamicMetaObjectProvider$instance {
 export type IDynamicMetaObjectProvider = IDynamicMetaObjectProvider$instance;
 
 export interface IInvokeOnGetBinder$instance {
+    readonly __tsonic_iface_System_Dynamic_IInvokeOnGetBinder: never;
+
     readonly InvokeOnGet: boolean;
 }
 
@@ -202,6 +206,8 @@ export const DynamicMetaObjectBinder: (abstract new() => DynamicMetaObjectBinder
 export type DynamicMetaObjectBinder = DynamicMetaObjectBinder$instance;
 
 export interface DynamicObject$instance {
+    readonly __tsonic_iface_System_Dynamic_IDynamicMetaObjectProvider: never;
+
     GetDynamicMemberNames(): IEnumerable_1<System_Internal.String>;
     GetMetaObject(parameter: Expression): DynamicMetaObject;
     TryBinaryOperation(binder: BinaryOperationBinder, arg: unknown, result: unknown): boolean;
@@ -233,6 +239,13 @@ export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
 export interface ExpandoObject$instance extends INotifyPropertyChanged {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
+    readonly __tsonic_iface_System_Dynamic_IDynamicMetaObjectProvider: never;
+
 }
 
 

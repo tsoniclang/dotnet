@@ -24,6 +24,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, Int64, Object as ClrObject, String as ClrString, Type, Uri, Void } from "../../System/internal/index.js";
 
 export interface JsonContent$instance extends HttpContent {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ObjectType: Type;
     readonly Value: unknown | undefined;
     Dispose(disposing: boolean): void;

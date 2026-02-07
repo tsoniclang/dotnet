@@ -75,6 +75,10 @@ export type MatchEvaluator = (match: Match) => string;
 
 
 export interface Regex_ValueMatchEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: ValueMatch;
     GetEnumerator(): Regex_ValueMatchEnumerator;
     MoveNext(): boolean;
@@ -96,6 +100,10 @@ export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance & _
 
 
 export interface Regex_ValueSplitEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: Range;
     GetEnumerator(): Regex_ValueSplitEnumerator;
     MoveNext(): boolean;
@@ -145,6 +153,15 @@ export const Capture: {
 export type Capture = Capture$instance;
 
 export interface CaptureCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -207,6 +224,16 @@ export const Group: {
 export type Group = Group$instance;
 
 export interface GroupCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -256,6 +283,15 @@ export const Match: {
 export type Match = Match$instance;
 
 export interface MatchCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -285,6 +321,8 @@ export type MatchCollection = MatchCollection$instance & __MatchCollection$views
 
 
 export interface Regex$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly MatchTimeout: TimeSpan;
     readonly Options: RegexOptions;
     readonly RightToLeft: boolean;
@@ -398,6 +436,8 @@ export const RegexCompilationInfo: {
 export type RegexCompilationInfo = RegexCompilationInfo$instance;
 
 export interface RegexMatchTimeoutException$instance extends TimeoutException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Input: string;
     readonly MatchTimeout: TimeSpan;
     readonly Pattern: string;
@@ -421,6 +461,8 @@ export type RegexMatchTimeoutException = RegexMatchTimeoutException$instance & _
 
 
 export interface RegexParseException$instance extends ArgumentException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Error: RegexParseError;
     readonly Offset: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

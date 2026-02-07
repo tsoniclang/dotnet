@@ -31,6 +31,8 @@ export type SpanAction_2<T, TArg> = (span: Span_1<T>, arg: TArg) => void;
 
 
 export interface IBufferWriter_1$instance<T> {
+    readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
+
     Advance(count: int): void;
     GetMemory(sizeHint?: int): Memory_1<T>;
     GetSpan(sizeHint?: int): Span_1<T>;
@@ -40,6 +42,8 @@ export interface IBufferWriter_1$instance<T> {
 export type IBufferWriter_1<T> = IBufferWriter_1$instance<T>;
 
 export interface IMemoryOwner_1$instance<T> extends IDisposable {
+    readonly __tsonic_iface_System_Buffers_IMemoryOwner_1: never;
+
     readonly Memory: Memory_1<T>;
     Dispose(): void;
 }
@@ -50,6 +54,8 @@ export interface IMemoryOwner_1$instance<T> extends System_Internal.IDisposable$
 export type IMemoryOwner_1<T> = IMemoryOwner_1$instance<T>;
 
 export interface IPinnable$instance {
+    readonly __tsonic_iface_System_Buffers_IPinnable: never;
+
     Pin(elementIndex: int): MemoryHandle;
     Unpin(): void;
 }
@@ -58,6 +64,8 @@ export interface IPinnable$instance {
 export type IPinnable = IPinnable$instance;
 
 export interface MemoryHandle$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Pointer: ptr<void>;
     Dispose(): void;
 }
@@ -174,6 +182,8 @@ export const SequenceReader_1: {
 export type SequenceReader_1<T extends (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
 
 export interface StandardFormat$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly HasPrecision: boolean;
     readonly IsDefault: boolean;
     readonly Precision: byte;
@@ -206,6 +216,8 @@ export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
 export interface ArrayBufferWriter_1$instance<T> {
+    readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
+
     readonly Capacity: int;
     readonly FreeCapacity: int;
     readonly WrittenCount: int;
@@ -250,6 +262,10 @@ export const ArrayPool_1: (abstract new<T>() => ArrayPool_1<T>) & {
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
 export interface MemoryManager_1$instance<T> {
+    readonly __tsonic_iface_System_Buffers_IMemoryOwner_1: never;
+    readonly __tsonic_iface_System_Buffers_IPinnable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Memory: Memory_1<T>;
     Dispose(disposing: boolean): void;
     GetSpan(): Span_1<T>;
@@ -273,6 +289,8 @@ export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1
 
 
 export interface MemoryPool_1$instance<T> {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly MaxBufferSize: int;
     Dispose(): void;
     Dispose(disposing: boolean): void;

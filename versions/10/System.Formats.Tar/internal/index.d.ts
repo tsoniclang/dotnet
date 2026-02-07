@@ -125,6 +125,9 @@ export const TarEntry: {
 export type TarEntry = TarEntry$instance;
 
 export interface TarReader$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(): void;
     DisposeAsync(): ValueTask;
     GetNextEntry(copyData?: boolean): TarEntry | undefined;
@@ -148,6 +151,9 @@ export type TarReader = TarReader$instance & __TarReader$views;
 
 
 export interface TarWriter$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Format: TarEntryFormat;
     Dispose(): void;
     DisposeAsync(): ValueTask;

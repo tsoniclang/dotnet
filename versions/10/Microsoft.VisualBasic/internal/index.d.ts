@@ -229,6 +229,10 @@ export const TabInfo: {
 export type TabInfo = TabInfo$instance;
 
 export interface Collection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     Add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
     Clear(): void;

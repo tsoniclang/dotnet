@@ -17,6 +17,10 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Double, ICloneable, IDisposable, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, Uri, ValueType, Void } from "../../System/internal/index.js";
 
 export interface HeaderStringValues$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     GetEnumerator(): HeaderStringValues_Enumerator;
     ToString(): string;
@@ -38,6 +42,10 @@ export type HeaderStringValues = HeaderStringValues$instance & __HeaderStringVal
 
 
 export interface HeaderStringValues_Enumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: string;
     Dispose(): void;
     MoveNext(): boolean;
@@ -59,6 +67,11 @@ export type HeaderStringValues_Enumerator = HeaderStringValues_Enumerator$instan
 
 
 export interface HttpHeadersNonValidated$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly [headerName: string]: HeaderStringValues;
     Contains(headerName: string): boolean;
@@ -83,6 +96,10 @@ export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpH
 
 
 export interface HttpHeadersNonValidated_Enumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: KeyValuePair_2<System_Internal.String, HeaderStringValues>;
     Dispose(): void;
     MoveNext(): boolean;
@@ -104,6 +121,8 @@ export type HttpHeadersNonValidated_Enumerator = HttpHeadersNonValidated_Enumera
 
 
 export interface AuthenticationHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Parameter: string | undefined;
     readonly Scheme: string;
     Equals(obj: unknown): boolean;
@@ -130,6 +149,8 @@ export type AuthenticationHeaderValue = AuthenticationHeaderValue$instance & __A
 
 
 export interface CacheControlHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Extensions: ICollection_1<NameValueHeaderValue>;
     MaxAge: Nullable_1<TimeSpan>;
     MaxStale: boolean;
@@ -169,6 +190,8 @@ export type CacheControlHeaderValue = CacheControlHeaderValue$instance & __Cache
 
 
 export interface ContentDispositionHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     CreationDate: Nullable_1<DateTimeOffset>;
     DispositionType: string;
     get FileName(): string | undefined;
@@ -204,6 +227,8 @@ export type ContentDispositionHeaderValue = ContentDispositionHeaderValue$instan
 
 
 export interface ContentRangeHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly From: Nullable_1<System_Internal.Int64>;
     readonly HasLength: boolean;
     readonly HasRange: boolean;
@@ -235,6 +260,8 @@ export type ContentRangeHeaderValue = ContentRangeHeaderValue$instance & __Conte
 
 
 export interface EntityTagHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     IsWeak: boolean;
     Tag: string;
     Equals(obj: unknown): boolean;
@@ -262,6 +289,9 @@ export type EntityTagHeaderValue = EntityTagHeaderValue$instance & __EntityTagHe
 
 
 export interface HttpContentHeaders$instance extends HttpHeaders$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Allow: ICollection_1<System_Internal.String>;
     get ContentDisposition(): ContentDispositionHeaderValue | undefined;
     set ContentDisposition(value: ContentDispositionHeaderValue | undefined);
@@ -296,6 +326,9 @@ export type HttpContentHeaders = HttpContentHeaders$instance & __HttpContentHead
 
 
 export interface HttpHeaders$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly NonValidated: HttpHeadersNonValidated;
     Add(name: string, value: string): void;
     Add(name: string, values: IEnumerable_1<System_Internal.String>): void;
@@ -324,6 +357,10 @@ export type HttpHeaders = HttpHeaders$instance & __HttpHeaders$views;
 
 
 export interface HttpHeaderValueCollection_1$instance<T> {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     Add(item: T): void;
@@ -352,6 +389,9 @@ export type HttpHeaderValueCollection_1<T> = HttpHeaderValueCollection_1$instanc
 
 
 export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Accept: HttpHeaderValueCollection_1<MediaTypeWithQualityHeaderValue>;
     readonly AcceptCharset: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
     readonly AcceptEncoding: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
@@ -411,6 +451,9 @@ export type HttpRequestHeaders = HttpRequestHeaders$instance & __HttpRequestHead
 
 
 export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly AcceptRanges: HttpHeaderValueCollection_1<System_Internal.String>;
     Age: Nullable_1<TimeSpan>;
     get CacheControl(): CacheControlHeaderValue | undefined;
@@ -453,6 +496,8 @@ export type HttpResponseHeaders = HttpResponseHeaders$instance & __HttpResponseH
 
 
 export interface MediaTypeHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     get CharSet(): string | undefined;
     set CharSet(value: string | undefined);
     get MediaType(): string | undefined;
@@ -482,6 +527,8 @@ export type MediaTypeHeaderValue = MediaTypeHeaderValue$instance & __MediaTypeHe
 
 
 export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     Quality: Nullable_1<System_Internal.Double>;
     Clone(): unknown;
 }
@@ -503,6 +550,8 @@ export type MediaTypeWithQualityHeaderValue = MediaTypeWithQualityHeaderValue$in
 
 
 export interface NameValueHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Name: string;
     get Value(): string | undefined;
     set Value(value: string | undefined);
@@ -530,6 +579,8 @@ export type NameValueHeaderValue = NameValueHeaderValue$instance & __NameValueHe
 
 
 export interface NameValueWithParametersHeaderValue$instance extends NameValueHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
     Clone(): unknown;
     Equals(obj: unknown): boolean;
@@ -554,6 +605,8 @@ export type NameValueWithParametersHeaderValue = NameValueWithParametersHeaderVa
 
 
 export interface ProductHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Name: string;
     readonly Version: string | undefined;
     Equals(obj: unknown): boolean;
@@ -580,6 +633,8 @@ export type ProductHeaderValue = ProductHeaderValue$instance & __ProductHeaderVa
 
 
 export interface ProductInfoHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Comment: string | undefined;
     readonly Product: ProductHeaderValue | undefined;
     Equals(obj: unknown): boolean;
@@ -607,6 +662,8 @@ export type ProductInfoHeaderValue = ProductInfoHeaderValue$instance & __Product
 
 
 export interface RangeConditionHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Date: Nullable_1<DateTimeOffset>;
     readonly EntityTag: EntityTagHeaderValue | undefined;
     Equals(obj: unknown): boolean;
@@ -634,6 +691,8 @@ export type RangeConditionHeaderValue = RangeConditionHeaderValue$instance & __R
 
 
 export interface RangeHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Ranges: ICollection_1<RangeItemHeaderValue>;
     Unit: string;
     Equals(obj: unknown): boolean;
@@ -660,6 +719,8 @@ export type RangeHeaderValue = RangeHeaderValue$instance & __RangeHeaderValue$vi
 
 
 export interface RangeItemHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly From: Nullable_1<System_Internal.Int64>;
     readonly To: Nullable_1<System_Internal.Int64>;
     Equals(obj: unknown): boolean;
@@ -683,6 +744,8 @@ export type RangeItemHeaderValue = RangeItemHeaderValue$instance & __RangeItemHe
 
 
 export interface RetryConditionHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Date: Nullable_1<DateTimeOffset>;
     readonly Delta: Nullable_1<TimeSpan>;
     Equals(obj: unknown): boolean;
@@ -709,6 +772,8 @@ export type RetryConditionHeaderValue = RetryConditionHeaderValue$instance & __R
 
 
 export interface StringWithQualityHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Quality: Nullable_1<System_Internal.Double>;
     readonly Value: string;
     Equals(obj: unknown): boolean;
@@ -735,6 +800,8 @@ export type StringWithQualityHeaderValue = StringWithQualityHeaderValue$instance
 
 
 export interface TransferCodingHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
     readonly Value: string;
     Equals(obj: unknown): boolean;
@@ -760,6 +827,8 @@ export type TransferCodingHeaderValue = TransferCodingHeaderValue$instance & __T
 
 
 export interface TransferCodingWithQualityHeaderValue$instance extends TransferCodingHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     Quality: Nullable_1<System_Internal.Double>;
     Clone(): unknown;
 }
@@ -781,6 +850,8 @@ export type TransferCodingWithQualityHeaderValue = TransferCodingWithQualityHead
 
 
 export interface ViaHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Comment: string | undefined;
     readonly ProtocolName: string | undefined;
     readonly ProtocolVersion: string;
@@ -810,6 +881,8 @@ export type ViaHeaderValue = ViaHeaderValue$instance & __ViaHeaderValue$views;
 
 
 export interface WarningHeaderValue$instance {
+    readonly __tsonic_iface_System_ICloneable: never;
+
     readonly Agent: string;
     readonly Code: int;
     readonly Date: Nullable_1<DateTimeOffset>;

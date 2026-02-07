@@ -83,6 +83,8 @@ export const ParallelLoopResult: {
 export type ParallelLoopResult = ParallelLoopResult$instance;
 
 export interface ValueTask$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
     readonly IsCompletedSuccessfully: boolean;
@@ -121,6 +123,8 @@ export type ValueTask = ValueTask$instance & __ValueTask$views;
 
 
 export interface ValueTask_1$instance<TResult> {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
     readonly IsCompletedSuccessfully: boolean;
@@ -205,6 +209,9 @@ export const ParallelOptions: {
 export type ParallelOptions = ParallelOptions$instance;
 
 export interface Task$instance {
+    readonly __tsonic_iface_System_IAsyncResult: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly AsyncState: unknown | undefined;
     readonly CreationOptions: TaskCreationOptions;
     readonly Exception: AggregateException | undefined;
@@ -334,6 +341,9 @@ export type Task = Task$instance & __Task$views;
 
 
 export interface Task_1$instance<TResult> extends Task$instance {
+    readonly __tsonic_iface_System_IAsyncResult: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Result: TResult;
     ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
     ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
@@ -405,6 +415,8 @@ export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>
 
 
 export interface TaskCanceledException$instance extends OperationCanceledException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Task: Task | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -643,6 +655,8 @@ export const TaskScheduler: (abstract new() => TaskScheduler) & {
 export type TaskScheduler = TaskScheduler$instance;
 
 export interface TaskSchedulerException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 

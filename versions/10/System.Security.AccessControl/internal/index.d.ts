@@ -280,6 +280,8 @@ export const AccessRule_1: {
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
 export interface AceEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+
     readonly Current: GenericAce;
     MoveNext(): boolean;
     Reset(): void;
@@ -338,6 +340,9 @@ export const AuthorizationRule: (abstract new(identity: IdentityReference, acces
 export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly [index: number]: AuthorizationRule | undefined;
     AddRule(rule: AuthorizationRule): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -354,8 +359,6 @@ export interface __AuthorizationRuleCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface AuthorizationRuleCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views;
 
@@ -375,6 +378,9 @@ export const CommonAce: {
 export type CommonAce = CommonAce$instance;
 
 export interface CommonAcl$instance extends GenericAcl$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly BinaryLength: int;
     readonly Count: int;
     readonly IsCanonical: boolean;
@@ -513,6 +519,9 @@ export const DirectorySecurity: {
 export type DirectorySecurity = DirectorySecurity$instance;
 
 export interface DiscretionaryAcl$instance extends CommonAcl$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     AddAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
@@ -690,6 +699,9 @@ export const GenericAce: {
 export type GenericAce = GenericAce$instance;
 
 export interface GenericAcl$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly BinaryLength: int;
     readonly Count: int;
     readonly IsSynchronized: boolean;
@@ -929,6 +941,8 @@ export const ObjectSecurity_1: (abstract new<T extends unknown>(isContainer: boo
 export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
 
 export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly PrivilegeName: string | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -964,6 +978,9 @@ export const QualifiedAce: {
 export type QualifiedAce = QualifiedAce$instance;
 
 export interface RawAcl$instance extends GenericAcl$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly BinaryLength: int;
     readonly Count: int;
     [index: number]: GenericAce;
@@ -1125,6 +1142,9 @@ export const SemaphoreSecurity: {
 export type SemaphoreSecurity = SemaphoreSecurity$instance;
 
 export interface SystemAcl$instance extends CommonAcl$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     AddAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     AddAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     AddAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;

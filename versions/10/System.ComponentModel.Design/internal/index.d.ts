@@ -83,6 +83,8 @@ export type ServiceCreatorCallback = (container: IServiceContainer, serviceType:
 
 
 export interface IComponentChangeService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IComponentChangeService: never;
+
     OnComponentChanged(component: unknown, member: MemberDescriptor, oldValue: unknown, newValue: unknown): void;
     OnComponentChanging(component: unknown, member: MemberDescriptor): void;
 }
@@ -91,6 +93,8 @@ export interface IComponentChangeService$instance {
 export type IComponentChangeService = IComponentChangeService$instance;
 
 export interface IComponentDiscoveryService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IComponentDiscoveryService: never;
+
     GetComponentTypes(designerHost: IDesignerHost, baseType: Type): ICollection;
 }
 
@@ -98,6 +102,8 @@ export interface IComponentDiscoveryService$instance {
 export type IComponentDiscoveryService = IComponentDiscoveryService$instance;
 
 export interface IComponentInitializer$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IComponentInitializer: never;
+
     InitializeExistingComponent(defaultValues: IDictionary): void;
 }
 
@@ -105,6 +111,8 @@ export interface IComponentInitializer$instance {
 export type IComponentInitializer = IComponentInitializer$instance;
 
 export interface IDesigner$instance extends IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesigner: never;
+
     readonly Component: IComponent;
     readonly Verbs: DesignerVerbCollection | undefined;
     DoDefaultAction(): void;
@@ -118,6 +126,8 @@ export interface IDesigner$instance extends System_Internal.IDisposable$instance
 export type IDesigner = IDesigner$instance;
 
 export interface IDesignerEventService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerEventService: never;
+
     readonly ActiveDesigner: IDesignerHost | undefined;
     readonly Designers: DesignerCollection;
 }
@@ -126,6 +136,8 @@ export interface IDesignerEventService$instance {
 export type IDesignerEventService = IDesignerEventService$instance;
 
 export interface IDesignerFilter$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerFilter: never;
+
     PostFilterAttributes(attributes: IDictionary): void;
 }
 
@@ -133,6 +145,8 @@ export interface IDesignerFilter$instance {
 export type IDesignerFilter = IDesignerFilter$instance;
 
 export interface IDesignerHost$instance extends IServiceContainer, IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerHost: never;
+
     readonly Loading: boolean;
     readonly InTransaction: boolean;
     readonly Container: IContainer;
@@ -160,6 +174,8 @@ export interface IDesignerHost$instance extends IServiceContainer, IServiceProvi
 export type IDesignerHost = IDesignerHost$instance;
 
 export interface IDesignerHostTransactionState$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerHostTransactionState: never;
+
     readonly IsClosingTransaction: boolean;
 }
 
@@ -167,6 +183,8 @@ export interface IDesignerHostTransactionState$instance {
 export type IDesignerHostTransactionState = IDesignerHostTransactionState$instance;
 
 export interface IDesignerOptionService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerOptionService: never;
+
     GetOptionValue(pageName: string, valueName: string): unknown | undefined;
     SetOptionValue(pageName: string, valueName: string, value: unknown): void;
 }
@@ -175,6 +193,8 @@ export interface IDesignerOptionService$instance {
 export type IDesignerOptionService = IDesignerOptionService$instance;
 
 export interface IDictionaryService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDictionaryService: never;
+
     GetKey(value: unknown): unknown | undefined;
     SetValue(key: unknown, value: unknown): void;
 }
@@ -183,6 +203,8 @@ export interface IDictionaryService$instance {
 export type IDictionaryService = IDictionaryService$instance;
 
 export interface IEventBindingService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IEventBindingService: never;
+
     CreateUniqueMethodName(component: IComponent, e: EventDescriptor): string;
     GetCompatibleMethods(e: EventDescriptor): ICollection;
     GetEvent(property: PropertyDescriptor): EventDescriptor | undefined;
@@ -197,6 +219,8 @@ export interface IEventBindingService$instance {
 export type IEventBindingService = IEventBindingService$instance;
 
 export interface IExtenderListService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IExtenderListService: never;
+
     GetExtenderProviders(): IExtenderProvider[];
 }
 
@@ -204,6 +228,8 @@ export interface IExtenderListService$instance {
 export type IExtenderListService = IExtenderListService$instance;
 
 export interface IExtenderProviderService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IExtenderProviderService: never;
+
     AddExtenderProvider(provider: IExtenderProvider): void;
 }
 
@@ -211,6 +237,8 @@ export interface IExtenderProviderService$instance {
 export type IExtenderProviderService = IExtenderProviderService$instance;
 
 export interface IHelpService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IHelpService: never;
+
     AddContextAttribute(name: string, value: string, keywordType: HelpKeywordType): void;
     ClearContextAttributes(): void;
     CreateLocalContext(contextType: HelpContextType): IHelpService;
@@ -223,6 +251,8 @@ export interface IHelpService$instance {
 export type IHelpService = IHelpService$instance;
 
 export interface IInheritanceService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IInheritanceService: never;
+
     AddInheritedComponents(component: IComponent, container: IContainer): void;
     GetInheritanceAttribute(component: IComponent): InheritanceAttribute;
 }
@@ -231,6 +261,8 @@ export interface IInheritanceService$instance {
 export type IInheritanceService = IInheritanceService$instance;
 
 export interface IMenuCommandService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IMenuCommandService: never;
+
     readonly Verbs: DesignerVerbCollection;
     AddCommand(command: MenuCommand): void;
     AddVerb(verb: DesignerVerb): void;
@@ -243,6 +275,8 @@ export interface IMenuCommandService$instance {
 export type IMenuCommandService = IMenuCommandService$instance;
 
 export interface IReferenceService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IReferenceService: never;
+
     GetComponent(reference: unknown): IComponent | undefined;
     GetName(reference: unknown): string | undefined;
     GetReference(name: string): unknown | undefined;
@@ -254,6 +288,8 @@ export interface IReferenceService$instance {
 export type IReferenceService = IReferenceService$instance;
 
 export interface IResourceService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IResourceService: never;
+
     GetResourceReader(info: CultureInfo): IResourceReader | undefined;
     GetResourceWriter(info: CultureInfo): IResourceWriter;
 }
@@ -262,6 +298,8 @@ export interface IResourceService$instance {
 export type IResourceService = IResourceService$instance;
 
 export interface IRootDesigner$instance extends IDesigner, IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_Design_IRootDesigner: never;
+
     readonly SupportedTechnologies: ViewTechnology[];
     readonly Component: IComponent;
     readonly Verbs: DesignerVerbCollection | undefined;
@@ -277,6 +315,8 @@ export interface IRootDesigner$instance extends IDesigner$instance {}
 export type IRootDesigner = IRootDesigner$instance;
 
 export interface ISelectionService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_ISelectionService: never;
+
     readonly PrimarySelection: unknown | undefined;
     readonly SelectionCount: int;
     GetComponentSelected(component: unknown): boolean;
@@ -289,6 +329,8 @@ export interface ISelectionService$instance {
 export type ISelectionService = ISelectionService$instance;
 
 export interface IServiceContainer$instance extends IServiceProvider {
+    readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
+
     AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
     AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
@@ -304,6 +346,8 @@ export interface IServiceContainer$instance extends System_Internal.IServiceProv
 export type IServiceContainer = IServiceContainer$instance;
 
 export interface ITreeDesigner$instance extends IDesigner, IDisposable {
+    readonly __tsonic_iface_System_ComponentModel_Design_ITreeDesigner: never;
+
     readonly Children: ICollection;
     readonly Parent: IDesigner | undefined;
     readonly Component: IComponent;
@@ -319,6 +363,8 @@ export interface ITreeDesigner$instance extends IDesigner$instance {}
 export type ITreeDesigner = ITreeDesigner$instance;
 
 export interface ITypeDescriptorFilterService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_ITypeDescriptorFilterService: never;
+
     FilterAttributes(component: IComponent, attributes: IDictionary): boolean;
 }
 
@@ -326,6 +372,8 @@ export interface ITypeDescriptorFilterService$instance {
 export type ITypeDescriptorFilterService = ITypeDescriptorFilterService$instance;
 
 export interface ITypeDiscoveryService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_ITypeDiscoveryService: never;
+
     GetTypes(baseType: Type, excludeGlobalTypes: boolean): ICollection;
 }
 
@@ -333,6 +381,8 @@ export interface ITypeDiscoveryService$instance {
 export type ITypeDiscoveryService = ITypeDiscoveryService$instance;
 
 export interface ITypeResolutionService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_ITypeResolutionService: never;
+
     GetAssembly(name: AssemblyName, throwOnError: boolean): Assembly | undefined;
     GetAssembly(name: AssemblyName): Assembly | undefined;
     GetPathOfAssembly(name: AssemblyName): string | undefined;
@@ -359,6 +409,8 @@ export const ActiveDesignerEventArgs: {
 export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
 export interface CheckoutException$instance extends ExternalException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -450,6 +502,9 @@ export const ComponentRenameEventArgs: {
 export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export interface DesignerCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly [index: number]: IDesignerHost | undefined;
     GetEnumerator(): IEnumerator;
@@ -483,6 +538,8 @@ export const DesignerEventArgs: {
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
 export interface DesignerOptionService$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerOptionService: never;
+
     readonly Options: DesignerOptionService_DesignerOptionCollection;
     PopulateOptionCollection(options: DesignerOptionService_DesignerOptionCollection): void;
     ShowDialog(options: DesignerOptionService_DesignerOptionCollection, optionObject: unknown): boolean;
@@ -503,6 +560,10 @@ export type DesignerOptionService = DesignerOptionService$instance & __DesignerO
 
 
 export interface DesignerOptionService_DesignerOptionCollection$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     readonly Count: int;
     readonly Name: string;
     readonly Parent: DesignerOptionService_DesignerOptionCollection | undefined;
@@ -530,6 +591,8 @@ export type DesignerOptionService_DesignerOptionCollection = DesignerOptionServi
 
 
 export interface DesignerTransaction$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Canceled: boolean;
     Committed: boolean;
     readonly Description: string;
@@ -583,6 +646,10 @@ export const DesignerVerb: {
 export type DesignerVerb = DesignerVerb$instance;
 
 export interface DesignerVerbCollection$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: DesignerVerb;
     Add(value: unknown): int;
     AddRange(value: DesignerVerb[]): void;
@@ -615,6 +682,8 @@ export type DesignerVerbCollection = DesignerVerbCollection$instance & __Designe
 
 
 export interface DesigntimeLicenseContext$instance extends LicenseContext {
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     readonly UsageMode: LicenseUsageMode;
     GetSavedLicenseKey(type: Type, resourceAssembly: Assembly): string | undefined;
     GetService(type: Type): unknown | undefined;
@@ -686,6 +755,10 @@ export const MenuCommand: {
 export type MenuCommand = MenuCommand$instance;
 
 export interface ServiceContainer$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
+
     readonly DefaultServices: Type[];
     AddService(serviceType: Type, serviceInstance: unknown): void;
     AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;

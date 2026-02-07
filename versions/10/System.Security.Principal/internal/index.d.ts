@@ -176,6 +176,8 @@ export enum WindowsBuiltInRole {
 
 
 export interface IIdentity$instance {
+    readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
+
     readonly Name: string | undefined;
     readonly AuthenticationType: string | undefined;
     readonly IsAuthenticated: boolean;
@@ -185,6 +187,8 @@ export interface IIdentity$instance {
 export type IIdentity = IIdentity$instance;
 
 export interface IPrincipal$instance {
+    readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
+
     readonly Identity: IIdentity | undefined;
     IsInRole(role: string): boolean;
 }
@@ -193,6 +197,8 @@ export interface IPrincipal$instance {
 export type IPrincipal = IPrincipal$instance;
 
 export interface GenericIdentity$instance extends ClaimsIdentity {
+    readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
+
     readonly AuthenticationType: string | string | undefined;
     readonly Claims: IEnumerable_1<Claim>;
     readonly IsAuthenticated: boolean;
@@ -215,6 +221,8 @@ export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views
 
 
 export interface GenericPrincipal$instance extends ClaimsPrincipal {
+    readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
+
     readonly Identity: IIdentity | IIdentity | undefined;
     IsInRole(role: string): boolean;
 }
@@ -233,6 +241,8 @@ export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$vi
 
 
 export interface IdentityNotMappedException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly UnmappedIdentities: IdentityReferenceCollection;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
@@ -269,6 +279,10 @@ export const IdentityReference: {
 export type IdentityReference = IdentityReference$instance;
 
 export interface IdentityReferenceCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     [index: number]: IdentityReference;
     Add(identity: IdentityReference): void;
@@ -316,6 +330,8 @@ export const NTAccount: {
 export type NTAccount = NTAccount$instance;
 
 export interface SecurityIdentifier$instance extends IdentityReference {
+    readonly __tsonic_iface_System_IComparable_1: never;
+
     readonly AccountDomainSid: SecurityIdentifier | undefined;
     readonly BinaryLength: int;
     readonly Value: string;
@@ -356,6 +372,11 @@ export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentif
 
 
 export interface WindowsIdentity$instance extends ClaimsIdentity {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+    readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
+
     readonly AccessToken: SafeAccessTokenHandle;
     readonly AuthenticationType: string | undefined;
     readonly Claims: IEnumerable_1<Claim>;
@@ -410,6 +431,8 @@ export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views
 
 
 export interface WindowsPrincipal$instance extends ClaimsPrincipal {
+    readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
+
     readonly DeviceClaims: IEnumerable_1<Claim>;
     readonly Identity: IIdentity | IIdentity | undefined;
     readonly UserClaims: IEnumerable_1<Claim>;

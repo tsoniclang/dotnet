@@ -189,6 +189,10 @@ export const GatewayIPAddressInformation: (abstract new() => GatewayIPAddressInf
 export type GatewayIPAddressInformation = GatewayIPAddressInformation$instance;
 
 export interface GatewayIPAddressInformationCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly [index: number]: GatewayIPAddressInformation;
@@ -293,6 +297,10 @@ export const IcmpV6Statistics: (abstract new() => IcmpV6Statistics) & {
 export type IcmpV6Statistics = IcmpV6Statistics$instance;
 
 export interface IPAddressCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly [index: number]: IPAddress;
@@ -332,6 +340,10 @@ export const IPAddressInformation: (abstract new() => IPAddressInformation) & {
 export type IPAddressInformation = IPAddressInformation$instance;
 
 export interface IPAddressInformationCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly [index: number]: IPAddressInformation;
@@ -533,6 +545,10 @@ export const MulticastIPAddressInformation: (abstract new() => MulticastIPAddres
 export type MulticastIPAddressInformation = MulticastIPAddressInformation$instance;
 
 export interface MulticastIPAddressInformationCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly [index: number]: MulticastIPAddressInformation;
@@ -582,6 +598,8 @@ export const NetworkChange: {
 export type NetworkChange = NetworkChange$instance;
 
 export interface NetworkInformationException$instance extends Win32Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly ErrorCode: int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -648,6 +666,9 @@ export const PhysicalAddress: {
 export type PhysicalAddress = PhysicalAddress$instance;
 
 export interface Ping$instance extends Component {
+    readonly __tsonic_iface_System_ComponentModel_IComponent: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Dispose(disposing: boolean): void;
     Dispose(): void;
     Send(hostNameOrAddress: string): PingReply;
@@ -707,6 +728,8 @@ export const PingCompletedEventArgs: {
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
 export interface PingException$instance extends InvalidOperationException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -824,6 +847,10 @@ export const UnicastIPAddressInformation: (abstract new() => UnicastIPAddressInf
 export type UnicastIPAddressInformation = UnicastIPAddressInformation$instance;
 
 export interface UnicastIPAddressInformationCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly [index: number]: UnicastIPAddressInformation;

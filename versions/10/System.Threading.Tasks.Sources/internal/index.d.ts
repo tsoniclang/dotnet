@@ -25,6 +25,8 @@ export enum ValueTaskSourceStatus {
 
 
 export interface IValueTaskSource$instance {
+    readonly __tsonic_iface_System_Threading_Tasks_Sources_IValueTaskSource: never;
+
     GetResult(token: short): void;
     GetStatus(token: short): ValueTaskSourceStatus;
     OnCompleted(continuation: Action_1<unknown>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
@@ -34,6 +36,8 @@ export interface IValueTaskSource$instance {
 export type IValueTaskSource = IValueTaskSource$instance;
 
 export interface IValueTaskSource_1$instance<TResult> {
+    readonly __tsonic_iface_System_Threading_Tasks_Sources_IValueTaskSource_1: never;
+
     GetResult(token: short): TResult;
     GetStatus(token: short): ValueTaskSourceStatus;
     OnCompleted(continuation: Action_1<unknown>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;

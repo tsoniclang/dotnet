@@ -154,6 +154,12 @@ export const JsonElement: {
 export type JsonElement = JsonElement$instance;
 
 export interface JsonElement_ArrayEnumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: JsonElement;
     Dispose(): void;
     GetEnumerator(): JsonElement_ArrayEnumerator;
@@ -178,6 +184,12 @@ export type JsonElement_ArrayEnumerator = JsonElement_ArrayEnumerator$instance &
 
 
 export interface JsonElement_ObjectEnumerator$instance extends IDisposable {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: JsonProperty;
     Dispose(): void;
     GetEnumerator(): JsonElement_ObjectEnumerator;
@@ -202,6 +214,8 @@ export type JsonElement_ObjectEnumerator = JsonElement_ObjectEnumerator$instance
 
 
 export interface JsonEncodedText$instance {
+    readonly __tsonic_iface_System_IEquatable_1: never;
+
     readonly EncodedUtf8Bytes: ReadOnlySpan_1<System_Internal.Byte>;
     readonly Value: string;
     Equals(other: JsonEncodedText): boolean;
@@ -360,6 +374,8 @@ export const Utf8JsonReader: {
 export type Utf8JsonReader = Utf8JsonReader$instance;
 
 export interface JsonDocument$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly RootElement: JsonElement;
     Dispose(): void;
     WriteTo(writer: Utf8JsonWriter): void;
@@ -388,6 +404,8 @@ export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
 export interface JsonException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     BytePositionInLine: Nullable_1<System_Internal.Int64>;
     LineNumber: Nullable_1<System_Internal.Int64>;
     readonly Message: string;
@@ -487,6 +505,9 @@ export const JsonSerializerOptions: {
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
 export interface Utf8JsonWriter$instance {
+    readonly __tsonic_iface_System_IAsyncDisposable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     BytesCommitted: long;
     BytesPending: int;
     readonly CurrentDepth: int;

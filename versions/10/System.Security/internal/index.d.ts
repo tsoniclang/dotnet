@@ -38,6 +38,8 @@ export enum SecurityRuleSet {
 
 
 export interface IPermission$instance extends ISecurityEncodable {
+    readonly __tsonic_iface_System_Security_IPermission: never;
+
     Copy(): IPermission;
     Demand(): void;
     FromXml(e: SecurityElement): void;
@@ -52,6 +54,8 @@ export interface IPermission$instance extends ISecurityEncodable$instance {}
 export type IPermission = IPermission$instance;
 
 export interface ISecurityEncodable$instance {
+    readonly __tsonic_iface_System_Security_ISecurityEncodable: never;
+
     FromXml(e: SecurityElement): void;
     ToXml(): SecurityElement | undefined;
 }
@@ -60,6 +64,8 @@ export interface ISecurityEncodable$instance {
 export type ISecurityEncodable = ISecurityEncodable$instance;
 
 export interface IStackWalk$instance {
+    readonly __tsonic_iface_System_Security_IStackWalk: never;
+
     Assert(): void;
 }
 
@@ -79,6 +85,12 @@ export const AllowPartiallyTrustedCallersAttribute: {
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
 export interface PermissionSet$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Security_ISecurityEncodable: never;
+    readonly __tsonic_iface_System_Security_IStackWalk: never;
+
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
@@ -135,6 +147,8 @@ export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
 export interface SecureString$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Length: int;
     AppendChar(c: char): void;
     Clear(): void;
@@ -210,6 +224,8 @@ export const SecurityElement: {
 export type SecurityElement = SecurityElement$instance;
 
 export interface SecurityException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     get Demanded(): unknown | undefined;
     set Demanded(value: unknown | undefined);
     get DenySetInstance(): unknown | undefined;
@@ -320,6 +336,8 @@ export const UnverifiableCodeAttribute: {
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
 export interface VerificationException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 

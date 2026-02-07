@@ -533,6 +533,8 @@ export const PEHeaders: {
 export type PEHeaders = PEHeaders$instance;
 
 export interface PEReader$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly HasMetadata: boolean;
     readonly IsEntireImageAvailable: boolean;
     readonly IsLoadedImage: boolean;

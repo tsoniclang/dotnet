@@ -74,6 +74,8 @@ export const ContractClassForAttribute: {
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
 export interface ContractException$instance extends Exception {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Condition: string | undefined;
     readonly Failure: string;
     readonly Kind: ContractFailureKind;

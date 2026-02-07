@@ -357,6 +357,8 @@ export const Pkcs12LoaderLimits: {
 export type Pkcs12LoaderLimits = Pkcs12LoaderLimits$instance;
 
 export interface Pkcs12LoadLimitExceededException$instance extends CryptographicException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -542,6 +544,10 @@ export const X509BasicConstraintsExtension: {
 export type X509BasicConstraintsExtension = X509BasicConstraintsExtension$instance;
 
 export interface X509Certificate$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly Handle: nint;
     readonly Issuer: string;
     readonly SerialNumberBytes: ReadOnlyMemory_1<System_Internal.Byte>;
@@ -620,6 +626,10 @@ export type X509Certificate = X509Certificate$instance & __X509Certificate$views
 
 
 export interface X509Certificate2$instance extends X509Certificate$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     Archived: boolean;
     readonly Extensions: X509ExtensionCollection;
     FriendlyName: string;
@@ -713,6 +723,11 @@ export type X509Certificate2 = X509Certificate2$instance & __X509Certificate2$vi
 
 
 export interface X509Certificate2Collection$instance extends X509CertificateCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     Add(value: X509Certificate): int;
     Add(value: unknown): int;
     AddRange(certificates: X509Certificate2Collection): void;
@@ -777,6 +792,10 @@ export type X509Certificate2Collection = X509Certificate2Collection$instance & _
 
 
 export interface X509Certificate2Enumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: X509Certificate2;
     MoveNext(): boolean;
     Reset(): void;
@@ -797,6 +816,10 @@ export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & _
 
 
 export interface X509CertificateCollection$instance extends CollectionBase {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Collections_IList: never;
+
     [index: number]: X509Certificate | X509Certificate2;
     Add(value: unknown): int;
     AddRange(value: X509Certificate[]): void;
@@ -831,6 +854,8 @@ export type X509CertificateCollection = X509CertificateCollection$instance & __X
 
 
 export interface X509CertificateCollection_X509CertificateEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+
     readonly Current: X509Certificate;
     MoveNext(): boolean;
     Reset(): void;
@@ -850,6 +875,8 @@ export type X509CertificateCollection_X509CertificateEnumerator = X509Certificat
 
 
 export interface X509Chain$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly ChainContext: nint;
     readonly ChainElements: X509ChainElementCollection;
     ChainPolicy: X509ChainPolicy;
@@ -891,6 +918,10 @@ export const X509ChainElement: {
 export type X509ChainElement = X509ChainElement$instance;
 
 export interface X509ChainElementCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsSynchronized: boolean;
     readonly [index: number]: X509ChainElement;
@@ -914,6 +945,10 @@ export type X509ChainElementCollection = X509ChainElementCollection$instance & _
 
 
 export interface X509ChainElementEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: X509ChainElement;
     MoveNext(): boolean;
     Reset(): void;
@@ -991,6 +1026,10 @@ export const X509Extension: {
 export type X509Extension = X509Extension$instance;
 
 export interface X509ExtensionCollection$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+
     readonly Count: int;
     readonly IsSynchronized: boolean;
     readonly SyncRoot: unknown;
@@ -1017,6 +1056,10 @@ export type X509ExtensionCollection = X509ExtensionCollection$instance & __X509E
 
 
 export interface X509ExtensionEnumerator$instance {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Current: X509Extension;
     MoveNext(): boolean;
     Reset(): void;
@@ -1071,6 +1114,8 @@ export const X509SignatureGenerator: (abstract new() => X509SignatureGenerator) 
 export type X509SignatureGenerator = X509SignatureGenerator$instance;
 
 export interface X509Store$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     readonly Certificates: X509Certificate2Collection;
     readonly IsOpen: boolean;
     readonly Location: StoreLocation;

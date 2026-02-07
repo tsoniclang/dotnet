@@ -26,6 +26,8 @@ export enum UltimateResourceFallbackLocation {
 
 
 export interface IResourceReader$instance extends IEnumerable, IDisposable {
+    readonly __tsonic_iface_System_Resources_IResourceReader: never;
+
     Close(): void;
     GetEnumerator(): IEnumerator;
     GetEnumerator(): IDictionaryEnumerator;
@@ -33,11 +35,13 @@ export interface IResourceReader$instance extends IEnumerable, IDisposable {
 }
 
 
-export interface IResourceReader$instance extends System_Collections_Internal.IEnumerable$instance, System_Internal.IDisposable$instance {}
+export interface IResourceReader$instance extends System_Internal.IDisposable$instance {}
 
 export type IResourceReader = IResourceReader$instance;
 
 export interface IResourceWriter$instance extends IDisposable {
+    readonly __tsonic_iface_System_Resources_IResourceWriter: never;
+
     AddResource(name: string, value: byte[]): void;
     AddResource(name: string, value: unknown): void;
     AddResource(name: string, value: string): void;
@@ -51,6 +55,8 @@ export interface IResourceWriter$instance extends System_Internal.IDisposable$in
 export type IResourceWriter = IResourceWriter$instance;
 
 export interface MissingManifestResourceException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -70,6 +76,8 @@ export type MissingManifestResourceException = MissingManifestResourceException$
 
 
 export interface MissingSatelliteAssemblyException$instance extends SystemException {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
+
     readonly CultureName: string | undefined;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -136,6 +144,10 @@ export const ResourceManager: {
 export type ResourceManager = ResourceManager$instance;
 
 export interface ResourceReader$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Resources_IResourceReader: never;
+
     Close(): void;
     Dispose(): void;
     GetEnumerator(): IDictionaryEnumerator;
@@ -159,6 +171,9 @@ export type ResourceReader = ResourceReader$instance & __ResourceReader$views;
 
 
 export interface ResourceSet$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
     Close(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -189,6 +204,9 @@ export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 
 
 export interface ResourceWriter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+    readonly __tsonic_iface_System_Resources_IResourceWriter: never;
+
     get TypeNameConverter(): Func_2<Type, System_Internal.String> | undefined;
     set TypeNameConverter(value: Func_2<Type, System_Internal.String> | undefined);
     AddResource(name: string, value: Stream): void;

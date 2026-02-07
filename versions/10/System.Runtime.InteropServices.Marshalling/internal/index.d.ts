@@ -38,12 +38,16 @@ export enum MarshalMode {
 
 
 export interface IComExposedClass$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IComExposedClass: never;
+
 }
 
 
 export type IComExposedClass = IComExposedClass$instance;
 
 export interface IComExposedDetails$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IComExposedDetails: never;
+
     GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
 }
 
@@ -51,6 +55,8 @@ export interface IComExposedDetails$instance {
 export type IComExposedDetails = IComExposedDetails$instance;
 
 export interface IIUnknownCacheStrategy$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownCacheStrategy: never;
+
     Clear(unknownStrategy: IIUnknownStrategy): void;
     ConstructTableInfo(handle: RuntimeTypeHandle, interfaceDetails: IIUnknownDerivedDetails, ptr: ptr<void>): IIUnknownCacheStrategy_TableInfo;
     TryGetTableInfo(handle: RuntimeTypeHandle, info: IIUnknownCacheStrategy_TableInfo): boolean;
@@ -61,6 +67,8 @@ export interface IIUnknownCacheStrategy$instance {
 export type IIUnknownCacheStrategy = IIUnknownCacheStrategy$instance;
 
 export interface IIUnknownDerivedDetails$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownDerivedDetails: never;
+
     readonly Iid: Guid;
     readonly Implementation: Type;
     readonly ManagedVirtualMethodTable: ptr<void>;
@@ -70,6 +78,8 @@ export interface IIUnknownDerivedDetails$instance {
 export type IIUnknownDerivedDetails = IIUnknownDerivedDetails$instance;
 
 export interface IIUnknownInterfaceDetailsStrategy$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownInterfaceDetailsStrategy: never;
+
     GetComExposedTypeDetails(type: RuntimeTypeHandle): IComExposedDetails | undefined;
     GetIUnknownDerivedDetails(type: RuntimeTypeHandle): IIUnknownDerivedDetails | undefined;
 }
@@ -78,12 +88,16 @@ export interface IIUnknownInterfaceDetailsStrategy$instance {
 export type IIUnknownInterfaceDetailsStrategy = IIUnknownInterfaceDetailsStrategy$instance;
 
 export interface IIUnknownInterfaceType$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownInterfaceType: never;
+
 }
 
 
 export type IIUnknownInterfaceType = IIUnknownInterfaceType$instance;
 
 export interface IIUnknownStrategy$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownStrategy: never;
+
     CreateInstancePointer(unknown: ptr<void>): ptr<void>;
     QueryInterface(instancePtr: ptr<void>, iid: Guid, ppObj: ptr<void>): int;
     Release(instancePtr: ptr<void>): int;
@@ -93,6 +107,8 @@ export interface IIUnknownStrategy$instance {
 export type IIUnknownStrategy = IIUnknownStrategy$instance;
 
 export interface IUnmanagedVirtualMethodTableProvider$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IUnmanagedVirtualMethodTableProvider: never;
+
     GetVirtualMethodTableInfoForKey(type: Type): VirtualMethodTableInfo;
 }
 
@@ -149,6 +165,8 @@ export const BStrStringMarshaller_ManagedToUnmanagedIn: {
 export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ComVariant$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
+
     VarType: VarEnum;
     As<T>(): T | undefined;
     Dispose(): void;
@@ -362,6 +380,8 @@ export const VirtualMethodTableInfo: {
 export type VirtualMethodTableInfo = VirtualMethodTableInfo$instance;
 
 export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends Attribute {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IComExposedDetails: never;
+
     GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
 }
 
@@ -381,6 +401,9 @@ export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedC
 
 
 export interface ComObject$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_IDynamicInterfaceCastable: never;
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IUnmanagedVirtualMethodTableProvider: never;
+
     Finalize(): void;
     FinalRelease(): void;
 }
@@ -454,6 +477,8 @@ export const GeneratedComInterfaceAttribute: {
 export type GeneratedComInterfaceAttribute = GeneratedComInterfaceAttribute$instance;
 
 export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends Attribute {
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownDerivedDetails: never;
+
     readonly Iid: Guid;
     readonly Implementation: Type;
     readonly ManagedVirtualMethodTable: ptr<void>;
