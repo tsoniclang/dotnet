@@ -338,7 +338,7 @@ export const AuthorizationRule: (abstract new(identity: IdentityReference, acces
 export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
-    readonly Item: AuthorizationRule | undefined;
+    readonly [index: number]: AuthorizationRule | undefined;
     AddRule(rule: AuthorizationRule): void;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -380,7 +380,7 @@ export interface CommonAcl$instance extends GenericAcl$instance {
     readonly IsCanonical: boolean;
     readonly IsContainer: boolean;
     readonly IsDS: boolean;
-    Item: GenericAce;
+    [index: number]: GenericAce;
     readonly Revision: byte;
     CopyTo(array: GenericAce[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -693,7 +693,7 @@ export interface GenericAcl$instance {
     readonly BinaryLength: int;
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    Item: GenericAce;
+    [index: number]: GenericAce;
     readonly Revision: byte;
     readonly SyncRoot: unknown;
     CopyTo(array: GenericAce[], index: int): void;
@@ -966,7 +966,7 @@ export type QualifiedAce = QualifiedAce$instance;
 export interface RawAcl$instance extends GenericAcl$instance {
     readonly BinaryLength: int;
     readonly Count: int;
-    Item: GenericAce;
+    [index: number]: GenericAce;
     readonly Revision: byte;
     CopyTo(array: GenericAce[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;

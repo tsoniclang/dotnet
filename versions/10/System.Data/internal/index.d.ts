@@ -958,7 +958,7 @@ export type DataRowChangeEventArgs = DataRowChangeEventArgs$instance;
 
 export interface DataRowCollection$instance extends InternalDataCollectionBase$instance {
     readonly Count: int;
-    readonly Item: DataRow;
+    readonly [index: number]: DataRow;
     Add(row: DataRow): void;
     Add(...values: unknown[]): DataRow;
     Clear(): void;
@@ -1434,7 +1434,7 @@ export interface DataView$instance extends MarshalByValueComponent {
     readonly Count: int;
     readonly DataViewManager: DataViewManager | undefined;
     readonly IsInitialized: boolean;
-    readonly Item: DataRowView;
+    readonly [recordIndex: number]: DataRowView;
     get RowFilter(): string | undefined;
     set RowFilter(value: string | undefined);
     RowStateFilter: DataViewRowState;

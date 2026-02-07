@@ -835,7 +835,7 @@ export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
 export interface XmlQuerySequence_1$instance<T> {
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     Add(value: T): void;
     Clear(): void;
     Contains(value: T): boolean;

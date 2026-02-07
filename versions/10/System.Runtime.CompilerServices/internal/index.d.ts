@@ -104,8 +104,7 @@ export type INotifyCompletion = INotifyCompletion$instance;
 
 export interface IRuntimeVariables$instance {
     readonly Count: int;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    [index: number]: unknown | undefined;
 }
 
 
@@ -121,7 +120,7 @@ export type IStrongBox = IStrongBox$instance;
 
 export interface ITuple$instance {
     readonly Length: int;
-    readonly Item: unknown | undefined;
+    readonly [index: number]: unknown | undefined;
 }
 
 
@@ -1560,7 +1559,7 @@ export type PreserveBaseOverridesAttribute = PreserveBaseOverridesAttribute$inst
 export interface ReadOnlyCollectionBuilder_1$instance<T> {
     Capacity: int;
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     Add(item: T): void;
     Clear(): void;
     Contains(item: T): boolean;

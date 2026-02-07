@@ -701,7 +701,7 @@ export type EncodingProvider = EncodingProvider$instance;
 
 export interface StringBuilder$instance {
     Capacity: int;
-    Chars: char;
+    [index: number]: char;
     Length: int;
     readonly MaxCapacity: int;
     Append(value: char, repeatCount: int): StringBuilder;

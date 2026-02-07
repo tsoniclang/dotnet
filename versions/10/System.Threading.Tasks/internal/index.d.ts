@@ -94,6 +94,7 @@ export interface ValueTask$instance {
     GetAwaiter(): ValueTaskAwaiter;
     GetHashCode(): int;
     Preserve(): ValueTask;
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -133,6 +134,7 @@ export interface ValueTask_1$instance<TResult> {
     GetHashCode(): int;
     Preserve(): ValueTask_1<TResult>;
     ToString(): string | undefined;
+    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -252,6 +254,7 @@ export interface Task$instance {
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -375,6 +378,7 @@ export interface Task_1$instance<TResult> extends Task$instance {
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 

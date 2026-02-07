@@ -103,7 +103,7 @@ export interface IHashCodeProvider$instance {
 export type IHashCodeProvider = IHashCodeProvider$instance;
 
 export interface IList$instance extends ICollection, IEnumerable {
-    Item: unknown;
+    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -159,7 +159,7 @@ export interface ArrayList$instance {
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    Item: unknown;
+    [index: number]: unknown;
     readonly SyncRoot: unknown;
     Add(value: unknown): int;
     AddRange(c: ICollection): void;
@@ -229,7 +229,7 @@ export interface BitArray$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    Item: boolean;
+    [index: number]: boolean;
     Length: int;
     readonly SyncRoot: unknown;
     And(value: BitArray): BitArray;

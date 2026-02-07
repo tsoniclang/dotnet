@@ -321,7 +321,7 @@ export type DbBatchCommand = DbBatchCommand$instance;
 export interface DbBatchCommandCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Item: DbBatchCommand;
+    [index: number]: DbBatchCommand;
     Add(item: DbBatchCommand): void;
     Clear(): void;
     Contains(item: DbBatchCommand): boolean;
@@ -378,7 +378,7 @@ export interface DbColumn$instance {
     IsLong: Nullable_1<System_Internal.Boolean>;
     IsReadOnly: Nullable_1<System_Internal.Boolean>;
     IsUnique: Nullable_1<System_Internal.Boolean>;
-    readonly Item: unknown | undefined;
+    readonly [property: string]: unknown | undefined;
     NumericPrecision: Nullable_1<System_Internal.Int32>;
     NumericScale: Nullable_1<System_Internal.Int32>;
     get UdtAssemblyQualifiedName(): string | undefined;
@@ -554,7 +554,7 @@ export interface DbConnectionStringBuilder$instance {
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
-    Item: unknown;
+    [keyword: string]: unknown;
     readonly Keys: ICollection;
     readonly Values: ICollection;
     Add(keyword: string, value: unknown): void;

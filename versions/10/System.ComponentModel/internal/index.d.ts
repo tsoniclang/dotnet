@@ -191,7 +191,7 @@ export interface IBindingList$instance extends IList, ICollection, IEnumerable {
     readonly IsSorted: boolean;
     readonly SortProperty: PropertyDescriptor | undefined;
     readonly SortDirection: ListSortDirection;
-    Item: unknown;
+    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -230,7 +230,7 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
     readonly IsSorted: boolean;
     readonly SortProperty: PropertyDescriptor | undefined;
     readonly SortDirection: ListSortDirection;
-    Item: unknown;
+    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -330,7 +330,7 @@ export interface ICustomTypeDescriptor$instance {
 export type ICustomTypeDescriptor = ICustomTypeDescriptor$instance;
 
 export interface IDataErrorInfo$instance {
-    readonly Item: string;
+    readonly [columnName: string]: string;
     readonly Error: string;
 }
 
@@ -2034,7 +2034,7 @@ export type ListSortDescription = ListSortDescription$instance;
 
 export interface ListSortDescriptionCollection$instance {
     readonly Count: int;
-    Item: ListSortDescription;
+    [index: number]: ListSortDescription;
     Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
     IndexOf(value: unknown): int;
@@ -2133,7 +2133,7 @@ export interface MaskedTextProvider$instance {
     IncludeLiterals: boolean;
     IncludePrompt: boolean;
     IsPassword: boolean;
-    readonly Item: char;
+    readonly [index: number]: char;
     readonly LastAssignedPosition: int;
     readonly Length: int;
     readonly Mask: string;
@@ -2851,7 +2851,7 @@ export type TypeConverter = TypeConverter$instance;
 
 export interface TypeConverter_StandardValuesCollection$instance {
     readonly Count: int;
-    readonly Item: unknown | undefined;
+    readonly [index: number]: unknown | undefined;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
 }

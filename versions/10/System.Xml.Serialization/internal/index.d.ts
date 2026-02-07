@@ -362,7 +362,7 @@ export const XmlAnyElementAttribute: {
 export type XmlAnyElementAttribute = XmlAnyElementAttribute$instance;
 
 export interface XmlAnyElementAttributes$instance extends CollectionBase {
-    Item: XmlAnyElementAttribute;
+    [index: number]: XmlAnyElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -431,7 +431,7 @@ export const XmlArrayItemAttribute: {
 export type XmlArrayItemAttribute = XmlArrayItemAttribute$instance;
 
 export interface XmlArrayItemAttributes$instance extends CollectionBase {
-    Item: XmlArrayItemAttribute;
+    [index: number]: XmlArrayItemAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -580,7 +580,7 @@ export const XmlElementAttribute: {
 export type XmlElementAttribute = XmlElementAttribute$instance;
 
 export interface XmlElementAttributes$instance extends CollectionBase {
-    Item: XmlElementAttribute;
+    [index: number]: XmlElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -695,7 +695,7 @@ export type XmlMemberMapping = XmlMemberMapping$instance;
 
 export interface XmlMembersMapping$instance extends XmlMapping {
     readonly Count: int;
-    readonly Item: XmlMemberMapping;
+    readonly [index: number]: XmlMemberMapping;
     readonly TypeName: string | undefined;
     readonly TypeNamespace: string | undefined;
 }

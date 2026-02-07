@@ -270,7 +270,7 @@ export type IdentityReference = IdentityReference$instance;
 
 export interface IdentityReferenceCollection$instance {
     readonly Count: int;
-    Item: IdentityReference;
+    [index: number]: IdentityReference;
     Add(identity: IdentityReference): void;
     Clear(): void;
     Contains(identity: IdentityReference): boolean;

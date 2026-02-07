@@ -46,7 +46,7 @@ export type INullable = INullable$instance;
 
 export interface SqlBinary$instance {
     readonly IsNull: boolean;
-    readonly Item: byte;
+    readonly [index: number]: byte;
     readonly Length: int;
     readonly Value: byte[];
     CompareTo(value: unknown): int;
@@ -876,7 +876,7 @@ export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __S
 export interface SqlBytes$instance {
     readonly Buffer: byte[] | undefined;
     readonly IsNull: boolean;
-    Item: byte;
+    [offset: number]: byte;
     readonly Length: long;
     readonly MaxLength: long;
     readonly Storage: StorageState;
@@ -914,7 +914,7 @@ export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 export interface SqlChars$instance {
     readonly Buffer: char[] | undefined;
     readonly IsNull: boolean;
-    Item: char;
+    [offset: number]: char;
     readonly Length: long;
     readonly MaxLength: long;
     readonly Storage: StorageState;

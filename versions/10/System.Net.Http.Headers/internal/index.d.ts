@@ -60,7 +60,7 @@ export type HeaderStringValues_Enumerator = HeaderStringValues_Enumerator$instan
 
 export interface HttpHeadersNonValidated$instance {
     readonly Count: int;
-    readonly Item: HeaderStringValues;
+    readonly [headerName: string]: HeaderStringValues;
     Contains(headerName: string): boolean;
     GetEnumerator(): HttpHeadersNonValidated_Enumerator;
     TryGetValues(headerName: string, values: HeaderStringValues): boolean;

@@ -813,7 +813,7 @@ export type ArgIterator = ArgIterator$instance;
 export interface ArraySegment_1$instance<T> {
     readonly Array: T[] | undefined;
     readonly Count: int;
-    Item: T;
+    [index: number]: T;
     readonly Offset: int;
     CopyTo(destination: T[]): void;
     CopyTo(destination: T[], destinationIndex: int): void;
@@ -2876,7 +2876,7 @@ export type ReadOnlyMemory_1<T> = ReadOnlyMemory_1$instance<T> & __ReadOnlyMemor
 
 export interface ReadOnlySpan_1$instance<T> {
     readonly IsEmpty: boolean;
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly Length: int;
     CopyTo(destination: Span_1<T>): void;
     Equals(obj: unknown): boolean;
@@ -3327,7 +3327,7 @@ export type Single = number & Single$instance & __Single$views;
 
 export interface Span_1$instance<T> {
     readonly IsEmpty: boolean;
-    readonly Item: T;
+    readonly [index: number]: T;
     readonly Length: int;
     Clear(): void;
     CopyTo(destination: Span_1<T>): void;
@@ -6432,7 +6432,7 @@ export const STAThreadAttribute: {
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
 export interface String$instance {
-    readonly Chars: char;
+    readonly [index: number]: char;
     readonly Length: int;
     Clone(): unknown;
     CompareTo(value: unknown): int;

@@ -191,7 +191,7 @@ export type GatewayIPAddressInformation = GatewayIPAddressInformation$instance;
 export interface GatewayIPAddressInformationCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly Item: GatewayIPAddressInformation;
+    readonly [index: number]: GatewayIPAddressInformation;
     Add(address: GatewayIPAddressInformation): void;
     Clear(): void;
     Contains(address: GatewayIPAddressInformation): boolean;
@@ -295,7 +295,7 @@ export type IcmpV6Statistics = IcmpV6Statistics$instance;
 export interface IPAddressCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly Item: IPAddress;
+    readonly [index: number]: IPAddress;
     Add(address: IPAddress): void;
     Clear(): void;
     Contains(address: IPAddress): boolean;
@@ -334,7 +334,7 @@ export type IPAddressInformation = IPAddressInformation$instance;
 export interface IPAddressInformationCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly Item: IPAddressInformation;
+    readonly [index: number]: IPAddressInformation;
     Add(address: IPAddressInformation): void;
     Clear(): void;
     Contains(address: IPAddressInformation): boolean;
@@ -535,7 +535,7 @@ export type MulticastIPAddressInformation = MulticastIPAddressInformation$instan
 export interface MulticastIPAddressInformationCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly Item: MulticastIPAddressInformation;
+    readonly [index: number]: MulticastIPAddressInformation;
     Add(address: MulticastIPAddressInformation): void;
     Clear(): void;
     Contains(address: MulticastIPAddressInformation): boolean;
@@ -826,7 +826,7 @@ export type UnicastIPAddressInformation = UnicastIPAddressInformation$instance;
 export interface UnicastIPAddressInformationCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly Item: UnicastIPAddressInformation;
+    readonly [index: number]: UnicastIPAddressInformation;
     Add(address: UnicastIPAddressInformation): void;
     Clear(): void;
     Contains(address: UnicastIPAddressInformation): boolean;

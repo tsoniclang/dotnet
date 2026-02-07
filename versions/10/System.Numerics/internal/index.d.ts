@@ -765,7 +765,7 @@ export interface Quaternion$instance {
     Z: float;
     W: float;
     readonly IsIdentity: boolean;
-    Item: float;
+    [index: number]: float;
     Equals(obj: unknown): boolean;
     Equals(other: Quaternion): boolean;
     GetHashCode(): int;
@@ -841,7 +841,7 @@ export type TotalOrderIeee754Comparer_1<T extends IFloatingPointIeee754_1<T>> = 
 
 
 export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>> {
-    readonly Item: T;
+    readonly [index: number]: T;
     CopyTo(destination: T[]): void;
     CopyTo(destination: T[], startIndex: int): void;
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
@@ -889,7 +889,7 @@ export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T>;
 export interface Vector2$instance {
     X: float;
     Y: float;
-    Item: float;
+    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
@@ -1048,7 +1048,7 @@ export interface Vector3$instance {
     X: float;
     Y: float;
     Z: float;
-    Item: float;
+    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
@@ -1209,7 +1209,7 @@ export interface Vector4$instance {
     Y: float;
     Z: float;
     W: float;
-    Item: float;
+    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
