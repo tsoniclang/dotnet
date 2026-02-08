@@ -80,7 +80,7 @@ export interface IXPathNavigable$instance {
 
 export type IXPathNavigable = IXPathNavigable$instance;
 
-export interface XPathDocument$instance {
+export interface XPathDocument$instance extends IXPathNavigable$instance {
     readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
 
     CreateNavigator(): XPathNavigator;
@@ -100,8 +100,6 @@ export const XPathDocument: {
 export interface __XPathDocument$views {
     As_IXPathNavigable(): IXPathNavigable$instance;
 }
-
-export interface XPathDocument$instance extends IXPathNavigable$instance {}
 
 export type XPathDocument = XPathDocument$instance & __XPathDocument$views;
 
@@ -169,7 +167,7 @@ export const XPathItem: (abstract new() => XPathItem) & {
 
 export type XPathItem = XPathItem$instance;
 
-export interface XPathNavigator$instance extends XPathItem {
+export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.IXmlNamespaceResolver$instance, IXPathNavigable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
     readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
@@ -301,8 +299,6 @@ export interface __XPathNavigator$views {
     As_IXmlNamespaceResolver(): System_Xml_Internal.IXmlNamespaceResolver$instance;
     As_IXPathNavigable(): IXPathNavigable$instance;
 }
-
-export interface XPathNavigator$instance extends System_Xml_Internal.IXmlNamespaceResolver$instance, IXPathNavigable$instance {}
 
 export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 

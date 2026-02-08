@@ -534,7 +534,7 @@ export interface __AmbiguousMatchException$views {
 export type AmbiguousMatchException = AmbiguousMatchException$instance & __AmbiguousMatchException$views;
 
 
-export interface Assembly$instance {
+export interface Assembly$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -621,8 +621,6 @@ export interface __Assembly$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Assembly$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Assembly = Assembly$instance & __Assembly$views;
 
@@ -800,7 +798,7 @@ export const AssemblyMetadataAttribute: {
 
 export type AssemblyMetadataAttribute = AssemblyMetadataAttribute$instance;
 
-export interface AssemblyName$instance {
+export interface AssemblyName$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -848,8 +846,6 @@ export interface __AssemblyName$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface AssemblyName$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AssemblyName = AssemblyName$instance & __AssemblyName$views;
 
@@ -1211,7 +1207,7 @@ export const ManifestResourceInfo: {
 
 export type ManifestResourceInfo = ManifestResourceInfo$instance;
 
-export interface MemberInfo$instance {
+export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
@@ -1239,8 +1235,6 @@ export const MemberInfo: (abstract new() => MemberInfo) & {
 export interface __MemberInfo$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
-
-export interface MemberInfo$instance extends ICustomAttributeProvider$instance {}
 
 export type MemberInfo = MemberInfo$instance & __MemberInfo$views;
 
@@ -1367,7 +1361,7 @@ export const MethodInvoker: {
 
 export type MethodInvoker = MethodInvoker$instance;
 
-export interface Missing$instance {
+export interface Missing$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
 }
@@ -1382,12 +1376,10 @@ export interface __Missing$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface Missing$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type Missing = Missing$instance & __Missing$views;
 
 
-export interface Module$instance {
+export interface Module$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1448,8 +1440,6 @@ export interface __Module$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Module$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Module = Module$instance & __Module$views;
 
@@ -1513,7 +1503,7 @@ export const ObfuscationAttribute: {
 
 export type ObfuscationAttribute = ObfuscationAttribute$instance;
 
-export interface ParameterInfo$instance {
+export interface ParameterInfo$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.IObjectReference$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IObjectReference: never;
 
@@ -1553,12 +1543,10 @@ export interface __ParameterInfo$views {
     As_IObjectReference(): System_Runtime_Serialization_Internal.IObjectReference$instance;
 }
 
-export interface ParameterInfo$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.IObjectReference$instance {}
-
 export type ParameterInfo = ParameterInfo$instance & __ParameterInfo$views;
 
 
-export interface Pointer$instance {
+export interface Pointer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Equals(obj: unknown): boolean;
@@ -1575,8 +1563,6 @@ export const Pointer: {
 export interface __Pointer$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Pointer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Pointer = Pointer$instance & __Pointer$views;
 
@@ -1666,7 +1652,7 @@ export interface __ReflectionTypeLoadException$views {
 export type ReflectionTypeLoadException = ReflectionTypeLoadException$instance & __ReflectionTypeLoadException$views;
 
 
-export interface StrongNameKeyPair$instance {
+export interface StrongNameKeyPair$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1685,8 +1671,6 @@ export interface __StrongNameKeyPair$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface StrongNameKeyPair$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type StrongNameKeyPair = StrongNameKeyPair$instance & __StrongNameKeyPair$views;
 
@@ -1753,7 +1737,7 @@ export interface __TargetParameterCountException$views {
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
 
 
-export interface TypeDelegator$instance extends TypeInfo$instance {
+export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableType$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -1866,12 +1850,10 @@ export interface __TypeDelegator$views {
     As_IReflectableType(): IReflectableType$instance;
 }
 
-export interface TypeDelegator$instance extends IReflectableType$instance {}
-
 export type TypeDelegator = TypeDelegator$instance & __TypeDelegator$views;
 
 
-export interface TypeInfo$instance extends Type {
+export interface TypeInfo$instance extends Type, IReflectableType$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -1943,8 +1925,6 @@ export interface __TypeInfo$views {
     As_IReflect(): IReflect$instance;
     As_IReflectableType(): IReflectableType$instance;
 }
-
-export interface TypeInfo$instance extends IReflectableType$instance {}
 
 export type TypeInfo = TypeInfo$instance & __TypeInfo$views;
 

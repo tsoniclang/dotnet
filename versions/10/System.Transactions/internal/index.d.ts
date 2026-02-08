@@ -168,7 +168,7 @@ export interface __TransactionOptions$views {
 export type TransactionOptions = TransactionOptions$instance & __TransactionOptions$views;
 
 
-export interface CommittableTransaction$instance extends Transaction$instance {
+export interface CommittableTransaction$instance extends Transaction$instance, System_Internal.IAsyncResult$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -194,12 +194,10 @@ export interface __CommittableTransaction$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface CommittableTransaction$instance extends System_Internal.IAsyncResult$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type CommittableTransaction = CommittableTransaction$instance & __CommittableTransaction$views;
 
 
-export interface DependentTransaction$instance extends Transaction$instance {
+export interface DependentTransaction$instance extends Transaction$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -217,8 +215,6 @@ export interface __DependentTransaction$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DependentTransaction$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DependentTransaction = DependentTransaction$instance & __DependentTransaction$views;
 
@@ -263,7 +259,7 @@ export const SinglePhaseEnlistment: {
 
 export type SinglePhaseEnlistment = SinglePhaseEnlistment$instance;
 
-export interface SubordinateTransaction$instance extends Transaction$instance {
+export interface SubordinateTransaction$instance extends Transaction$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -282,12 +278,10 @@ export interface __SubordinateTransaction$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface SubordinateTransaction$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type SubordinateTransaction = SubordinateTransaction$instance & __SubordinateTransaction$views;
 
 
-export interface Transaction$instance {
+export interface Transaction$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -323,8 +317,6 @@ export interface __Transaction$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Transaction$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Transaction = Transaction$instance & __Transaction$views;
 
@@ -460,7 +452,7 @@ export interface __TransactionPromotionException$views {
 export type TransactionPromotionException = TransactionPromotionException$instance & __TransactionPromotionException$views;
 
 
-export interface TransactionScope$instance {
+export interface TransactionScope$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Complete(): void;
@@ -489,8 +481,6 @@ export const TransactionScope: {
 export interface __TransactionScope$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TransactionScope$instance extends System_Internal.IDisposable$instance {}
 
 export type TransactionScope = TransactionScope$instance & __TransactionScope$views;
 

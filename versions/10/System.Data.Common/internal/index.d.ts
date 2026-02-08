@@ -118,7 +118,7 @@ export interface __DataAdapter$views {
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
 
-export interface DataColumnMapping$instance extends MarshalByRefObject {
+export interface DataColumnMapping$instance extends MarshalByRefObject, System_Data_Internal.IColumnMapping$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Data_IColumnMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
 
@@ -140,8 +140,6 @@ export interface __DataColumnMapping$views {
     As_IColumnMapping(): System_Data_Internal.IColumnMapping$instance;
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface DataColumnMapping$instance extends System_Data_Internal.IColumnMapping$instance, System_Internal.ICloneable$instance {}
 
 export type DataColumnMapping = DataColumnMapping$instance & __DataColumnMapping$views;
 
@@ -197,7 +195,7 @@ export interface __DataColumnMappingCollection$views {
 export type DataColumnMappingCollection = DataColumnMappingCollection$instance & __DataColumnMappingCollection$views;
 
 
-export interface DataTableMapping$instance extends MarshalByRefObject {
+export interface DataTableMapping$instance extends MarshalByRefObject, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Data_ITableMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
 
@@ -222,8 +220,6 @@ export interface __DataTableMapping$views {
     As_ITableMapping(): System_Data_Internal.ITableMapping$instance;
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface DataTableMapping$instance extends System_Internal.ICloneable$instance {}
 
 export type DataTableMapping = DataTableMapping$instance & __DataTableMapping$views;
 
@@ -278,7 +274,7 @@ export interface __DataTableMappingCollection$views {
 export type DataTableMappingCollection = DataTableMappingCollection$instance & __DataTableMappingCollection$views;
 
 
-export interface DbBatch$instance {
+export interface DbBatch$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -320,8 +316,6 @@ export interface __DbBatch$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DbBatch$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type DbBatch = DbBatch$instance & __DbBatch$views;
 
@@ -422,7 +416,7 @@ export const DbColumn: (abstract new() => DbColumn) & {
 
 export type DbColumn = DbColumn$instance;
 
-export interface DbCommand$instance extends Component {
+export interface DbCommand$instance extends Component, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbCommand: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -479,8 +473,6 @@ export interface __DbCommand$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbCommand$instance extends System_Internal.IAsyncDisposable$instance {}
-
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
@@ -530,7 +522,7 @@ export interface __DbCommandBuilder$views {
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
 
-export interface DbConnection$instance extends Component {
+export interface DbConnection$instance extends Component, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbConnection: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -586,8 +578,6 @@ export interface __DbConnection$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbConnection$instance extends System_Internal.IAsyncDisposable$instance {}
-
 export type DbConnection = DbConnection$instance & __DbConnection$views;
 
 
@@ -635,7 +625,7 @@ export interface __DbConnectionStringBuilder$views {
 export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views;
 
 
-export interface DbDataAdapter$instance extends DataAdapter$instance {
+export interface DbDataAdapter$instance extends DataAdapter$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDataAdapter: never;
     readonly __tsonic_iface_System_Data_IDbDataAdapter: never;
@@ -694,12 +684,10 @@ export interface __DbDataAdapter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbDataAdapter$instance extends System_Internal.ICloneable$instance {}
-
 export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
-export interface DbDataReader$instance extends MarshalByRefObject {
+export interface DbDataReader$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Data_IDataReader: never;
     readonly __tsonic_iface_System_Data_IDataRecord: never;
@@ -777,12 +765,10 @@ export interface __DbDataReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DbDataReader$instance extends System_Internal.IAsyncDisposable$instance {}
-
 export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
-export interface DbDataRecord$instance {
+export interface DbDataRecord$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_Data_Internal.IDataRecord$instance {
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
     readonly __tsonic_iface_System_Data_IDataRecord: never;
 
@@ -824,12 +810,10 @@ export interface __DbDataRecord$views {
     As_IDataRecord(): System_Data_Internal.IDataRecord$instance;
 }
 
-export interface DbDataRecord$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_Data_Internal.IDataRecord$instance {}
-
 export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
-export interface DbDataSource$instance {
+export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -859,8 +843,6 @@ export interface __DbDataSource$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbDataSource = DbDataSource$instance & __DbDataSource$views;
 
@@ -1039,7 +1021,7 @@ export const DbProviderSpecificTypePropertyAttribute: {
 
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
-export interface DbTransaction$instance extends MarshalByRefObject {
+export interface DbTransaction$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_Data_IDbTransaction: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1073,8 +1055,6 @@ export interface __DbTransaction$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DbTransaction$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type DbTransaction = DbTransaction$instance & __DbTransaction$views;
 

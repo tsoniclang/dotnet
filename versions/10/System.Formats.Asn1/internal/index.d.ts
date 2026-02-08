@@ -140,7 +140,7 @@ export const AsnReaderOptions: {
 
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
-export interface AsnWriter_Scope$instance {
+export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -155,8 +155,6 @@ export const AsnWriter_Scope: {
 export interface __AsnWriter_Scope$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$instance {}
 
 export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views;
 

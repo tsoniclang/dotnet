@@ -312,7 +312,8 @@ export const ConfiguredTaskAwaitable_1: {
 
 export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
 
-export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -332,12 +333,11 @@ export interface __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion$instance {}
-
 export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> & __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult>;
 
 
-export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -356,8 +356,6 @@ export const ConfiguredTaskAwaitable_ConfiguredTaskAwaiter: {
 export interface __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
-
-export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance & __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views;
 
@@ -386,7 +384,7 @@ export const ConfiguredValueTaskAwaitable_1: {
 
 export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
-export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -406,12 +404,10 @@ export interface __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$vie
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion$instance {}
-
 export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> = ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> & __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult>;
 
 
-export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -430,8 +426,6 @@ export const ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: {
 export interface __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
-
-export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance & __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views;
 
@@ -666,7 +660,7 @@ export const PoolingAsyncValueTaskMethodBuilder_1: {
 
 export type PoolingAsyncValueTaskMethodBuilder_1<TResult> = PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
 
-export interface TaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface TaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -686,12 +680,10 @@ export interface __TaskAwaiter$views {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface TaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
-
 export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 
-export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
+export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -711,12 +703,10 @@ export interface __TaskAwaiter_1$views<TResult> {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion$instance {}
-
 export type TaskAwaiter_1<TResult> = TaskAwaiter_1$instance<TResult> & __TaskAwaiter_1$views<TResult>;
 
 
-export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -736,12 +726,10 @@ export interface __ValueTaskAwaiter$views {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
-
 export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$views;
 
 
-export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
+export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -761,8 +749,6 @@ export interface __ValueTaskAwaiter_1$views<TResult> {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
 
-export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion$instance {}
-
 export type ValueTaskAwaiter_1<TResult> = ValueTaskAwaiter_1$instance<TResult> & __ValueTaskAwaiter_1$views<TResult>;
 
 
@@ -778,7 +764,7 @@ export const YieldAwaitable: {
 
 export type YieldAwaitable = YieldAwaitable$instance;
 
-export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion {
+export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
@@ -797,8 +783,6 @@ export const YieldAwaitable_YieldAwaiter: {
 export interface __YieldAwaitable_YieldAwaiter$views {
     As_INotifyCompletion(): INotifyCompletion$instance;
 }
-
-export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance & __YieldAwaitable_YieldAwaiter$views;
 
@@ -1095,7 +1079,7 @@ export const CompilerLoweringPreserveAttribute: {
 
 export type CompilerLoweringPreserveAttribute = CompilerLoweringPreserveAttribute$instance;
 
-export interface ConditionalWeakTable_2$instance<TKey, TValue> {
+export interface ConditionalWeakTable_2$instance<TKey, TValue> extends System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>> {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1123,8 +1107,6 @@ export interface __ConditionalWeakTable_2$views<TKey, TValue> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ConditionalWeakTable_2$instance<TKey, TValue> extends System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>> {}
 
 export type ConditionalWeakTable_2<TKey, TValue> = ConditionalWeakTable_2$instance<TKey, TValue> & __ConditionalWeakTable_2$views<TKey, TValue>;
 
@@ -1812,7 +1794,7 @@ export const StringFreezingAttribute: {
 
 export type StringFreezingAttribute = StringFreezingAttribute$instance;
 
-export interface StrongBox_1$instance<T> {
+export interface StrongBox_1$instance<T> extends IStrongBox$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
 
     Value: T;
@@ -1828,8 +1810,6 @@ export const StrongBox_1: {
 export interface __StrongBox_1$views<T> {
     As_IStrongBox(): IStrongBox$instance;
 }
-
-export interface StrongBox_1$instance<T> extends IStrongBox$instance {}
 
 export type StrongBox_1<T> = StrongBox_1$instance<T> & __StrongBox_1$views<T>;
 

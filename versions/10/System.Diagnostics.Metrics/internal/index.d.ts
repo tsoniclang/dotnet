@@ -189,7 +189,7 @@ export interface __Meter$views {
 export type Meter = Meter$instance & __Meter$views;
 
 
-export interface MeterListener$instance {
+export interface MeterListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get InstrumentPublished(): Action_2<Instrument, MeterListener> | undefined;
@@ -213,8 +213,6 @@ export const MeterListener: {
 export interface __MeterListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface MeterListener$instance extends System_Internal.IDisposable$instance {}
 
 export type MeterListener = MeterListener$instance & __MeterListener$views;
 

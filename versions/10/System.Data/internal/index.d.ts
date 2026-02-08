@@ -1056,7 +1056,7 @@ export interface __DataRowComparer_1$views<TRow extends DataRow> {
 export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance<TRow> & __DataRowComparer_1$views<TRow>;
 
 
-export interface DataRowView$instance extends INotifyPropertyChanged {
+export interface DataRowView$instance extends INotifyPropertyChanged, System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_ComponentModel_Internal.IDataErrorInfo$instance, System_ComponentModel_Internal.IEditableObject$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
     readonly __tsonic_iface_System_ComponentModel_IDataErrorInfo: never;
     readonly __tsonic_iface_System_ComponentModel_IEditableObject: never;
@@ -1094,12 +1094,10 @@ export interface __DataRowView$views {
     As_IDataErrorInfo(): System_ComponentModel_Internal.IDataErrorInfo$instance;
 }
 
-export interface DataRowView$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_ComponentModel_Internal.IDataErrorInfo$instance, System_ComponentModel_Internal.IEditableObject$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
-
 export type DataRowView = DataRowView$instance & __DataRowView$views;
 
 
-export interface DataSet$instance extends MarshalByValueComponent {
+export interface DataSet$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_IListSource: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
@@ -1216,8 +1214,6 @@ export interface __DataSet$views {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export interface DataSet$instance extends System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type DataSet = DataSet$instance & __DataSet$views;
 
 
@@ -1233,7 +1229,7 @@ export const DataSysDescriptionAttribute: {
 
 export type DataSysDescriptionAttribute = DataSysDescriptionAttribute$instance;
 
-export interface DataTable$instance extends MarshalByValueComponent {
+export interface DataTable$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_IListSource: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
@@ -1367,8 +1363,6 @@ export interface __DataTable$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
-
-export interface DataTable$instance extends System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DataTable = DataTable$instance & __DataTable$views;
 
@@ -1508,7 +1502,7 @@ export interface __DataTableReader$views {
 export type DataTableReader = DataTableReader$instance & __DataTableReader$views;
 
 
-export interface DataView$instance extends MarshalByValueComponent {
+export interface DataView$instance extends MarshalByValueComponent, System_ComponentModel_Internal.ITypedList$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1582,12 +1576,10 @@ export interface __DataView$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface DataView$instance extends System_ComponentModel_Internal.ITypedList$instance {}
-
 export type DataView = DataView$instance & __DataView$views;
 
 
-export interface DataViewManager$instance extends MarshalByValueComponent {
+export interface DataViewManager$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IBindingList$instance, System_ComponentModel_Internal.ITypedList$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1627,8 +1619,6 @@ export interface __DataViewManager$views {
     As_IList(): System_Collections_Internal.IList$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DataViewManager$instance extends System_ComponentModel_Internal.IBindingList$instance, System_ComponentModel_Internal.ITypedList$instance {}
 
 export type DataViewManager = DataViewManager$instance & __DataViewManager$views;
 
@@ -2161,7 +2151,7 @@ export interface __SyntaxErrorException$views {
 export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxErrorException$views;
 
 
-export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance {
+export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance, System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -2222,8 +2212,6 @@ export interface __TypedTableBase_1$views<T extends DataRow> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
-
-export interface TypedTableBase_1$instance<T extends DataRow> extends System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance {}
 
 export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> & __TypedTableBase_1$views<T>;
 

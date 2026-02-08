@@ -46,7 +46,7 @@ export interface INullable$instance {
 
 export type INullable = INullable$instance;
 
-export interface SqlBinary$instance {
+export interface SqlBinary$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -93,12 +93,10 @@ export interface __SqlBinary$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlBinary$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
 
 
-export interface SqlBoolean$instance {
+export interface SqlBoolean$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -161,12 +159,10 @@ export interface __SqlBoolean$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlBoolean$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
 
 
-export interface SqlByte$instance {
+export interface SqlByte$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -230,12 +226,10 @@ export interface __SqlByte$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlByte$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlByte = SqlByte$instance & __SqlByte$views;
 
 
-export interface SqlDateTime$instance {
+export interface SqlDateTime$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -292,12 +286,10 @@ export interface __SqlDateTime$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDateTime$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
 
 
-export interface SqlDecimal$instance {
+export interface SqlDecimal$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -377,12 +369,10 @@ export interface __SqlDecimal$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDecimal$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
 
 
-export interface SqlDouble$instance {
+export interface SqlDouble$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -440,12 +430,10 @@ export interface __SqlDouble$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDouble$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
 
 
-export interface SqlGuid$instance {
+export interface SqlGuid$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -495,12 +483,10 @@ export interface __SqlGuid$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlGuid$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
 
 
-export interface SqlInt16$instance {
+export interface SqlInt16$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -564,12 +550,10 @@ export interface __SqlInt16$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt16$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
 
 
-export interface SqlInt32$instance {
+export interface SqlInt32$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -633,12 +617,10 @@ export interface __SqlInt32$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt32$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
 
 
-export interface SqlInt64$instance {
+export interface SqlInt64$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -702,12 +684,10 @@ export interface __SqlInt64$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt64$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
 
 
-export interface SqlMoney$instance {
+export interface SqlMoney$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -774,12 +754,10 @@ export interface __SqlMoney$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlMoney$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
 
 
-export interface SqlSingle$instance {
+export interface SqlSingle$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -838,12 +816,10 @@ export interface __SqlSingle$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlSingle$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
 
 
-export interface SqlString$instance {
+export interface SqlString$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -917,8 +893,6 @@ export interface __SqlString$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlString$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlString = SqlString$instance & __SqlString$views;
 
 
@@ -943,7 +917,7 @@ export interface __SqlAlreadyFilledException$views {
 export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __SqlAlreadyFilledException$views;
 
 
-export interface SqlBytes$instance {
+export interface SqlBytes$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
@@ -980,12 +954,10 @@ export interface __SqlBytes$views {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export interface SqlBytes$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 
 
-export interface SqlChars$instance {
+export interface SqlChars$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
@@ -1019,8 +991,6 @@ export interface __SqlChars$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
-
-export interface SqlChars$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlChars = SqlChars$instance & __SqlChars$views;
 
@@ -1109,7 +1079,7 @@ export interface __SqlTypeException$views {
 export type SqlTypeException = SqlTypeException$instance & __SqlTypeException$views;
 
 
-export interface SqlXml$instance {
+export interface SqlXml$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Data_SqlTypes_INullable: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
 
@@ -1132,8 +1102,6 @@ export interface __SqlXml$views {
     As_INullable(): INullable$instance;
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
-
-export interface SqlXml$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlXml = SqlXml$instance & __SqlXml$views;
 

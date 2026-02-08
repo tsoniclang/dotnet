@@ -84,7 +84,7 @@ export const AllowPartiallyTrustedCallersAttribute: {
 
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
-export interface PermissionSet$instance {
+export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -141,12 +141,10 @@ export interface __PermissionSet$views {
     As_IStackWalk(): IStackWalk$instance;
 }
 
-export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {}
-
 export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
-export interface SecureString$instance {
+export interface SecureString$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Length: int;
@@ -171,8 +169,6 @@ export const SecureString: {
 export interface __SecureString$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SecureString$instance extends System_Internal.IDisposable$instance {}
 
 export type SecureString = SecureString$instance & __SecureString$views;
 

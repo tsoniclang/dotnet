@@ -532,7 +532,7 @@ export const PEHeaders: {
 
 export type PEHeaders = PEHeaders$instance;
 
-export interface PEReader$instance {
+export interface PEReader$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly HasMetadata: boolean;
@@ -565,8 +565,6 @@ export const PEReader: {
 export interface __PEReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface PEReader$instance extends System_Internal.IDisposable$instance {}
 
 export type PEReader = PEReader$instance & __PEReader$views;
 

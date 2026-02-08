@@ -13,7 +13,7 @@ import type { IFormatter, ISurrogateSelector, SerializationBinder, StreamingCont
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
-export interface BinaryFormatter$instance {
+export interface BinaryFormatter$instance extends System_Runtime_Serialization_Internal.IFormatter$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
 
     AssemblyFormat: FormatterAssemblyStyle;
@@ -38,8 +38,6 @@ export const BinaryFormatter: {
 export interface __BinaryFormatter$views {
     As_IFormatter(): System_Runtime_Serialization_Internal.IFormatter$instance;
 }
-
-export interface BinaryFormatter$instance extends System_Runtime_Serialization_Internal.IFormatter$instance {}
 
 export type BinaryFormatter = BinaryFormatter$instance & __BinaryFormatter$views;
 

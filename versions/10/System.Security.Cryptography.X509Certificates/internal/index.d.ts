@@ -543,7 +543,7 @@ export const X509BasicConstraintsExtension: {
 
 export type X509BasicConstraintsExtension = X509BasicConstraintsExtension$instance;
 
-export interface X509Certificate$instance {
+export interface X509Certificate$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -620,12 +620,10 @@ export interface __X509Certificate$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface X509Certificate$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type X509Certificate = X509Certificate$instance & __X509Certificate$views;
 
 
-export interface X509Certificate2$instance extends X509Certificate$instance {
+export interface X509Certificate2$instance extends X509Certificate$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -716,8 +714,6 @@ export interface __X509Certificate2$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface X509Certificate2$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type X509Certificate2 = X509Certificate2$instance & __X509Certificate2$views;
 
@@ -1113,7 +1109,7 @@ export const X509SignatureGenerator: (abstract new() => X509SignatureGenerator) 
 
 export type X509SignatureGenerator = X509SignatureGenerator$instance;
 
-export interface X509Store$instance {
+export interface X509Store$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Certificates: X509Certificate2Collection;
@@ -1147,8 +1143,6 @@ export const X509Store: {
 export interface __X509Store$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface X509Store$instance extends System_Internal.IDisposable$instance {}
 
 export type X509Store = X509Store$instance & __X509Store$views;
 

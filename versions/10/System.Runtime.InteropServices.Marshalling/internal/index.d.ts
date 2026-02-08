@@ -164,7 +164,7 @@ export const BStrStringMarshaller_ManagedToUnmanagedIn: {
 
 export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_ManagedToUnmanagedIn$instance;
 
-export interface ComVariant$instance {
+export interface ComVariant$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     VarType: VarEnum;
@@ -185,8 +185,6 @@ export const ComVariant: {
 export interface __ComVariant$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ComVariant$instance extends System_Internal.IDisposable$instance {}
 
 export type ComVariant = ComVariant$instance & __ComVariant$views;
 
@@ -379,7 +377,7 @@ export const VirtualMethodTableInfo: {
 
 export type VirtualMethodTableInfo = VirtualMethodTableInfo$instance;
 
-export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends Attribute {
+export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends Attribute, IComExposedDetails$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IComExposedDetails: never;
 
     GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
@@ -395,13 +393,12 @@ export interface __ComExposedClassAttribute_1$views<T extends IComExposedClass> 
     As_IComExposedDetails(): IComExposedDetails$instance;
 }
 
-export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends IComExposedDetails$instance {}
-
 export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedClassAttribute_1$instance<T> & __ComExposedClassAttribute_1$views<T>;
 
 
-export interface ComObject$instance {
+export interface ComObject$instance extends System_Runtime_InteropServices_Internal.IDynamicInterfaceCastable$instance, IUnmanagedVirtualMethodTableProvider$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_IDynamicInterfaceCastable: never;
+    readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_ComImportInteropInterfaceDetailsStrategy_IComImportAdapter: never;
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IUnmanagedVirtualMethodTableProvider: never;
 
     Finalize(): void;
@@ -417,8 +414,6 @@ export interface __ComObject$views {
     As_IDynamicInterfaceCastable(): System_Runtime_InteropServices_Internal.IDynamicInterfaceCastable$instance;
     As_IUnmanagedVirtualMethodTableProvider(): IUnmanagedVirtualMethodTableProvider$instance;
 }
-
-export interface ComObject$instance extends System_Runtime_InteropServices_Internal.IDynamicInterfaceCastable$instance, IUnmanagedVirtualMethodTableProvider$instance {}
 
 export type ComObject = ComObject$instance & __ComObject$views;
 
@@ -476,7 +471,7 @@ export const GeneratedComInterfaceAttribute: {
 
 export type GeneratedComInterfaceAttribute = GeneratedComInterfaceAttribute$instance;
 
-export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends Attribute {
+export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends Attribute, IIUnknownDerivedDetails$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownDerivedDetails: never;
 
     readonly Iid: Guid;
@@ -493,8 +488,6 @@ export const IUnknownDerivedAttribute_2: {
 export interface __IUnknownDerivedAttribute_2$views<T extends IIUnknownInterfaceType, TImpl> {
     As_IIUnknownDerivedDetails(): IIUnknownDerivedDetails$instance;
 }
-
-export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends IIUnknownDerivedDetails$instance {}
 
 export type IUnknownDerivedAttribute_2<T extends IIUnknownInterfaceType, TImpl> = IUnknownDerivedAttribute_2$instance<T, TImpl> & __IUnknownDerivedAttribute_2$views<T, TImpl>;
 

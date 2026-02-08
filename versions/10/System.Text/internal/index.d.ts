@@ -110,8 +110,6 @@ export interface __Rune$views {
     TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
 
-export interface Rune$instance extends System_Internal.IComparable_1$instance<Rune>, System_Internal.IUtf8SpanFormattable$instance, System_Internal.IUtf8SpanParsable_1$instance<Rune> {}
-
 export type Rune = Rune$instance & __Rune$views;
 
 
@@ -607,7 +605,7 @@ export const EncoderReplacementFallbackBuffer: {
 
 export type EncoderReplacementFallbackBuffer = EncoderReplacementFallbackBuffer$instance;
 
-export interface Encoding$instance {
+export interface Encoding$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly BodyName: string;
@@ -692,8 +690,6 @@ export interface __Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface Encoding$instance extends System_Internal.ICloneable$instance {}
-
 export type Encoding = Encoding$instance & __Encoding$views;
 
 
@@ -729,7 +725,7 @@ export const EncodingProvider: (abstract new() => EncodingProvider) & {
 
 export type EncodingProvider = EncodingProvider$instance;
 
-export interface StringBuilder$instance {
+export interface StringBuilder$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Capacity: int;
@@ -842,8 +838,6 @@ export const StringBuilder: {
 export interface __StringBuilder$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface StringBuilder$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
 

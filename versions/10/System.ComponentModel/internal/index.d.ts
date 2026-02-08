@@ -751,7 +751,7 @@ export const BindableAttribute: {
 
 export type BindableAttribute = BindableAttribute$instance;
 
-export interface BindingList_1$instance<T> extends Collection_1<T> {
+export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNew$instance, IRaiseItemChangedEvents$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -825,8 +825,6 @@ export interface __BindingList_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IList(): System_Collections_Internal.IList$instance;
 }
-
-export interface BindingList_1$instance<T> extends ICancelAddNew$instance, IRaiseItemChangedEvents$instance {}
 
 export type BindingList_1<T> = BindingList_1$instance<T> & __BindingList_1$views<T>;
 
@@ -1152,7 +1150,7 @@ export const CultureInfoConverter: {
 
 export type CultureInfoConverter = CultureInfoConverter$instance;
 
-export interface CustomTypeDescriptor$instance {
+export interface CustomTypeDescriptor$instance extends ICustomTypeDescriptor$instance {
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
 
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
@@ -1181,8 +1179,6 @@ export const CustomTypeDescriptor: (abstract new() => CustomTypeDescriptor) & (a
 export interface __CustomTypeDescriptor$views {
     As_ICustomTypeDescriptor(): ICustomTypeDescriptor$instance;
 }
-
-export interface CustomTypeDescriptor$instance extends ICustomTypeDescriptor$instance {}
 
 export type CustomTypeDescriptor = CustomTypeDescriptor$instance & __CustomTypeDescriptor$views;
 
@@ -1674,7 +1670,7 @@ export interface __EventDescriptorCollection$views {
 export type EventDescriptorCollection = EventDescriptorCollection$instance & __EventDescriptorCollection$views;
 
 
-export interface EventHandlerList$instance {
+export interface EventHandlerList$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Item(): Function | undefined;
@@ -1694,8 +1690,6 @@ export const EventHandlerList: {
 export interface __EventHandlerList$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface EventHandlerList$instance extends System_Internal.IDisposable$instance {}
 
 export type EventHandlerList = EventHandlerList$instance & __EventHandlerList$views;
 
@@ -1944,7 +1938,7 @@ export interface __InvalidEnumArgumentException$views {
 export type InvalidEnumArgumentException = InvalidEnumArgumentException$instance & __InvalidEnumArgumentException$views;
 
 
-export interface License$instance {
+export interface License$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly LicenseKey: string;
@@ -1960,12 +1954,10 @@ export interface __License$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface License$instance extends System_Internal.IDisposable$instance {}
-
 export type License = License$instance & __License$views;
 
 
-export interface LicenseContext$instance {
+export interface LicenseContext$instance extends System_Internal.IServiceProvider$instance {
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly UsageMode: LicenseUsageMode;
@@ -1983,8 +1975,6 @@ export const LicenseContext: {
 export interface __LicenseContext$views {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
 }
-
-export interface LicenseContext$instance extends System_Internal.IServiceProvider$instance {}
 
 export type LicenseContext = LicenseContext$instance & __LicenseContext$views;
 
@@ -2192,7 +2182,7 @@ export const LookupBindingPropertiesAttribute: {
 
 export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$instance;
 
-export interface MarshalByValueComponent$instance {
+export interface MarshalByValueComponent$instance extends System_Internal.IServiceProvider$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IServiceProvider: never;
@@ -2220,12 +2210,10 @@ export interface __MarshalByValueComponent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface MarshalByValueComponent$instance extends System_Internal.IServiceProvider$instance {}
-
 export type MarshalByValueComponent = MarshalByValueComponent$instance & __MarshalByValueComponent$views;
 
 
-export interface MaskedTextProvider$instance {
+export interface MaskedTextProvider$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AllowPromptAsInput: boolean;
@@ -2318,8 +2306,6 @@ export const MaskedTextProvider: {
 export interface __MaskedTextProvider$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface MaskedTextProvider$instance extends System_Internal.ICloneable$instance {}
 
 export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvider$views;
 

@@ -61,7 +61,7 @@ export const ConcurrentDictionary_2_AlternateLookup_1: {
 
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export interface BlockingCollection_1$instance<T> {
+export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -121,8 +121,6 @@ export interface __BlockingCollection_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {}
 
 export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
 

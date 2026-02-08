@@ -154,8 +154,6 @@ export interface __PipeWriter$views {
     As_IBufferWriter_1(): System_Buffers_Internal.IBufferWriter_1$instance<System_Internal.Byte>;
 }
 
-export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWriter_1$instance<System_Internal.Byte> {}
-
 export type PipeWriter = PipeWriter$instance & __PipeWriter$views;
 
 

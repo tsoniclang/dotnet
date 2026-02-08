@@ -934,7 +934,7 @@ export interface __Quaternion$views {
 export type Quaternion = Quaternion$instance & __Quaternion$views;
 
 
-export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> {
+export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> extends System_Collections_Generic_Internal.IComparer_1$instance<T> {
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -962,12 +962,10 @@ export interface __TotalOrderIeee754Comparer_1$views<T extends IFloatingPointIee
     Equals(other: TotalOrderIeee754Comparer_1<T>): boolean;
 }
 
-export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> extends System_Collections_Generic_Internal.IComparer_1$instance<T> {}
-
 export type TotalOrderIeee754Comparer_1<T extends IFloatingPointIeee754_1<T>> = TotalOrderIeee754Comparer_1$instance<T> & __TotalOrderIeee754Comparer_1$views<T>;
 
 
-export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>> {
+export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, IDivisionOperators_3<Vector_1<T>, IEqualityOperators_3<Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, ISubtractionOperators_3<Vector_1<T>, IUnaryNegationOperators_2<Vector_1<T>, IUnaryPlusOperators_2<Vector_1<T>, IAdditionOperators_3$instance<Vector_1<T>, IBitwiseOperators_3$instance<Vector_1<T>, IDivisionOperators_3$instance<Vector_1<T>, IEqualityOperators_3$instance<Vector_1<T>, IMultiplyOperators_3$instance<Vector_1<T>, IShiftOperators_3$instance<Vector_1<T>, ISubtractionOperators_3$instance<Vector_1<T>, IUnaryNegationOperators_2$instance<Vector_1<T>, IUnaryPlusOperators_2$instance<Vector_1<T> {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
@@ -1019,8 +1017,6 @@ export interface __Vector_1$views<T> {
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector_1<T>): boolean;
 }
-
-export interface Vector_1$instance<T> extends IAdditionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3$instance<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3$instance<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2$instance<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2$instance<Vector_1<T>, Vector_1<T>> {}
 
 export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T>;
 

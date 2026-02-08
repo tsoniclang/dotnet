@@ -545,7 +545,7 @@ export interface __GCHandle$views {
 export type GCHandle = GCHandle$instance & __GCHandle$views;
 
 
-export interface GCHandle_1$instance<T> {
+export interface GCHandle_1$instance<T> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -572,8 +572,6 @@ export interface __GCHandle_1$views<T> {
     // Structural method bridges for numeric interface constraints
     Equals(other: GCHandle_1<T>): boolean;
 }
-
-export interface GCHandle_1$instance<T> extends System_Internal.IDisposable$instance {}
 
 export type GCHandle_1<T> = GCHandle_1$instance<T> & __GCHandle_1$views<T>;
 
@@ -805,8 +803,6 @@ export interface __NFloat$views {
     WriteExponentBigEndian(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>): int;
 }
 
-export interface NFloat$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<NFloat> {}
-
 export type NFloat = NFloat$instance & __NFloat$views;
 
 
@@ -840,7 +836,7 @@ export interface __OSPlatform$views {
 export type OSPlatform = OSPlatform$instance & __OSPlatform$views;
 
 
-export interface PinnedGCHandle_1$instance<T> {
+export interface PinnedGCHandle_1$instance<T> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -869,12 +865,10 @@ export interface __PinnedGCHandle_1$views<T> {
     Equals(other: PinnedGCHandle_1<T>): boolean;
 }
 
-export interface PinnedGCHandle_1$instance<T> extends System_Internal.IDisposable$instance {}
-
 export type PinnedGCHandle_1<T> = PinnedGCHandle_1$instance<T> & __PinnedGCHandle_1$views<T>;
 
 
-export interface WeakGCHandle_1$instance<T> {
+export interface WeakGCHandle_1$instance<T> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -902,8 +896,6 @@ export interface __WeakGCHandle_1$views<T> {
     // Structural method bridges for numeric interface constraints
     Equals(other: WeakGCHandle_1<T>): boolean;
 }
-
-export interface WeakGCHandle_1$instance<T> extends System_Internal.IDisposable$instance {}
 
 export type WeakGCHandle_1<T> = WeakGCHandle_1$instance<T> & __WeakGCHandle_1$views<T>;
 
@@ -1600,7 +1592,7 @@ export const PosixSignalContext: {
 
 export type PosixSignalContext = PosixSignalContext$instance;
 
-export interface PosixSignalRegistration$instance {
+export interface PosixSignalRegistration$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -1616,8 +1608,6 @@ export const PosixSignalRegistration: {
 export interface __PosixSignalRegistration$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface PosixSignalRegistration$instance extends System_Internal.IDisposable$instance {}
 
 export type PosixSignalRegistration = PosixSignalRegistration$instance & __PosixSignalRegistration$views;
 

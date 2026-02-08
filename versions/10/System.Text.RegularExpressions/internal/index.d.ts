@@ -320,7 +320,7 @@ export interface __MatchCollection$views {
 export type MatchCollection = MatchCollection$instance & __MatchCollection$views;
 
 
-export interface Regex$instance {
+export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly MatchTimeout: TimeSpan;
@@ -411,8 +411,6 @@ export const Regex: {
 export interface __Regex$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Regex = Regex$instance & __Regex$views;
 

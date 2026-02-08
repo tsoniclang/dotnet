@@ -48,7 +48,7 @@ export const JsonDerivedType: {
 
 export type JsonDerivedType = JsonDerivedType$instance;
 
-export interface DefaultJsonTypeInfoResolver$instance {
+export interface DefaultJsonTypeInfoResolver$instance extends IJsonTypeInfoResolver$instance {
     readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
 
     readonly Modifiers: IList_1<Action_1<JsonTypeInfo>>;
@@ -64,8 +64,6 @@ export const DefaultJsonTypeInfoResolver: {
 export interface __DefaultJsonTypeInfoResolver$views {
     As_IJsonTypeInfoResolver(): IJsonTypeInfoResolver$instance;
 }
-
-export interface DefaultJsonTypeInfoResolver$instance extends IJsonTypeInfoResolver$instance {}
 
 export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance & __DefaultJsonTypeInfoResolver$views;
 

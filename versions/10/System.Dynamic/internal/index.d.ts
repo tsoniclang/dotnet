@@ -205,7 +205,7 @@ export const DynamicMetaObjectBinder: (abstract new() => DynamicMetaObjectBinder
 
 export type DynamicMetaObjectBinder = DynamicMetaObjectBinder$instance;
 
-export interface DynamicObject$instance {
+export interface DynamicObject$instance extends IDynamicMetaObjectProvider$instance {
     readonly __tsonic_iface_System_Dynamic_IDynamicMetaObjectProvider: never;
 
     GetDynamicMemberNames(): IEnumerable_1<System_Internal.String>;
@@ -233,8 +233,6 @@ export interface __DynamicObject$views {
     As_IDynamicMetaObjectProvider(): IDynamicMetaObjectProvider$instance;
 }
 
-export interface DynamicObject$instance extends IDynamicMetaObjectProvider$instance {}
-
 export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
@@ -261,8 +259,6 @@ export interface __ExpandoObject$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface ExpandoObject$instance extends System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>, System_ComponentModel_Internal.INotifyPropertyChanged$instance, IDynamicMetaObjectProvider$instance {}
 
 export type ExpandoObject = ExpandoObject$instance & __ExpandoObject$views;
 

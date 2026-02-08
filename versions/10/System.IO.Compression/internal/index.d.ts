@@ -53,7 +53,7 @@ export enum ZLibCompressionStrategy {
 }
 
 
-export interface BrotliDecoder$instance {
+export interface BrotliDecoder$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decompress(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int): OperationStatus;
@@ -71,12 +71,10 @@ export interface __BrotliDecoder$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface BrotliDecoder$instance extends System_Internal.IDisposable$instance {}
-
 export type BrotliDecoder = BrotliDecoder$instance & __BrotliDecoder$views;
 
 
-export interface BrotliEncoder$instance {
+export interface BrotliEncoder$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Compress(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock: boolean): OperationStatus;
@@ -96,8 +94,6 @@ export const BrotliEncoder: {
 export interface __BrotliEncoder$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface BrotliEncoder$instance extends System_Internal.IDisposable$instance {}
 
 export type BrotliEncoder = BrotliEncoder$instance & __BrotliEncoder$views;
 
@@ -303,7 +299,7 @@ export interface __GZipStream$views {
 export type GZipStream = GZipStream$instance & __GZipStream$views;
 
 
-export interface ZipArchive$instance {
+export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -333,8 +329,6 @@ export interface __ZipArchive$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 

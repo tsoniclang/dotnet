@@ -44,7 +44,7 @@ export const Claim: {
 
 export type Claim = Claim$instance;
 
-export interface ClaimsIdentity$instance {
+export interface ClaimsIdentity$instance extends System_Security_Principal_Internal.IIdentity$instance {
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     get Actor(): ClaimsIdentity | undefined;
@@ -101,12 +101,10 @@ export interface __ClaimsIdentity$views {
     As_IIdentity(): System_Security_Principal_Internal.IIdentity$instance;
 }
 
-export interface ClaimsIdentity$instance extends System_Security_Principal_Internal.IIdentity$instance {}
-
 export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
-export interface ClaimsPrincipal$instance {
+export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly Claims: IEnumerable_1<Claim>;
@@ -146,8 +144,6 @@ export const ClaimsPrincipal: {
 export interface __ClaimsPrincipal$views {
     As_IPrincipal(): System_Security_Principal_Internal.IPrincipal$instance;
 }
-
-export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {}
 
 export type ClaimsPrincipal = ClaimsPrincipal$instance & __ClaimsPrincipal$views;
 

@@ -182,7 +182,7 @@ export const EnumerableQuery: {
 
 export type EnumerableQuery = EnumerableQuery$instance;
 
-export interface EnumerableQuery_1$instance<T> extends EnumerableQuery {
+export interface EnumerableQuery_1$instance<T> extends EnumerableQuery, IOrderedQueryable_1$instance<T>, IQueryProvider$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
@@ -207,8 +207,6 @@ export interface __EnumerableQuery_1$views<T> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
-
-export interface EnumerableQuery_1$instance<T> extends IOrderedQueryable_1$instance<T>, IQueryProvider$instance {}
 
 export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQuery_1$views<T>;
 

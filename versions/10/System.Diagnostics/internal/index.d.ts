@@ -601,7 +601,7 @@ export interface __Activity$views {
 export type Activity = Activity$instance & __Activity$views;
 
 
-export interface ActivityListener$instance {
+export interface ActivityListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get ActivityStarted(): Action_1<Activity> | undefined;
@@ -629,12 +629,10 @@ export interface __ActivityListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface ActivityListener$instance extends System_Internal.IDisposable$instance {}
-
 export type ActivityListener = ActivityListener$instance & __ActivityListener$views;
 
 
-export interface ActivitySource$instance {
+export interface ActivitySource$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Name: string;
@@ -665,8 +663,6 @@ export const ActivitySource: {
 export interface __ActivitySource$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ActivitySource$instance extends System_Internal.IDisposable$instance {}
 
 export type ActivitySource = ActivitySource$instance & __ActivitySource$views;
 
@@ -1029,7 +1025,7 @@ export interface __DelimitedListTraceListener$views {
 export type DelimitedListTraceListener = DelimitedListTraceListener$instance & __DelimitedListTraceListener$views;
 
 
-export interface DiagnosticListener$instance extends DiagnosticSource {
+export interface DiagnosticListener$instance extends DiagnosticSource, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IObservable_1: never;
 
@@ -1059,8 +1055,6 @@ export interface __DiagnosticListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_IObservable_1(): System_Internal.IObservable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
 }
-
-export interface DiagnosticListener$instance extends System_Internal.IDisposable$instance {}
 
 export type DiagnosticListener = DiagnosticListener$instance & __DiagnosticListener$views;
 

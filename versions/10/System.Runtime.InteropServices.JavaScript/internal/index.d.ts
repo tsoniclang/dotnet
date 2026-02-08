@@ -248,7 +248,7 @@ export const JSMarshalerType: {
 
 export type JSMarshalerType = JSMarshalerType$instance;
 
-export interface JSObject$instance {
+export interface JSObject$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsDisposed: boolean;
@@ -277,8 +277,6 @@ export const JSObject: {
 export interface __JSObject$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface JSObject$instance extends System_Internal.IDisposable$instance {}
 
 export type JSObject = JSObject$instance & __JSObject$views;
 

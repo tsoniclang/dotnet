@@ -152,7 +152,7 @@ export const EventSourceOptions: {
 
 export type EventSourceOptions = EventSourceOptions$instance;
 
-export interface DiagnosticCounter$instance {
+export interface DiagnosticCounter$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayName: string;
@@ -171,8 +171,6 @@ export const DiagnosticCounter: {
 export interface __DiagnosticCounter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DiagnosticCounter$instance extends System_Internal.IDisposable$instance {}
 
 export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter$views;
 
@@ -273,7 +271,7 @@ export const EventIgnoreAttribute: {
 
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
-export interface EventListener$instance {
+export interface EventListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisableEvents(eventSource: EventSource): void;
@@ -294,8 +292,6 @@ export const EventListener: (abstract new() => EventListener) & {
 export interface __EventListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface EventListener$instance extends System_Internal.IDisposable$instance {}
 
 export type EventListener = EventListener$instance & __EventListener$views;
 

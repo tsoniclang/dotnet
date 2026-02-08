@@ -122,7 +122,7 @@ export interface __AlternateView$views {
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
-export interface AlternateViewCollection$instance extends Collection_1<AlternateView> {
+export interface AlternateViewCollection$instance extends Collection_1<AlternateView> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -170,8 +170,6 @@ export interface __AlternateViewCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AlternateViewCollection$instance extends System_Internal.IDisposable$instance {}
 
 export type AlternateViewCollection = AlternateViewCollection$instance & __AlternateViewCollection$views;
 
@@ -232,7 +230,7 @@ export interface __AttachmentBase$views {
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
-export interface AttachmentCollection$instance extends Collection_1<Attachment> {
+export interface AttachmentCollection$instance extends Collection_1<Attachment> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -281,8 +279,6 @@ export interface __AttachmentCollection$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface AttachmentCollection$instance extends System_Internal.IDisposable$instance {}
-
 export type AttachmentCollection = AttachmentCollection$instance & __AttachmentCollection$views;
 
 
@@ -316,7 +312,7 @@ export interface __LinkedResource$views {
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
-export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> {
+export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -364,8 +360,6 @@ export interface __LinkedResourceCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface LinkedResourceCollection$instance extends System_Internal.IDisposable$instance {}
 
 export type LinkedResourceCollection = LinkedResourceCollection$instance & __LinkedResourceCollection$views;
 

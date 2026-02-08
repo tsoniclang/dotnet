@@ -52,7 +52,7 @@ export enum XObjectChange {
 }
 
 
-export interface XAttribute$instance extends XObject$instance {
+export interface XAttribute$instance extends XObject$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly IsNamespaceDeclaration: boolean;
@@ -78,8 +78,6 @@ export const XAttribute: {
 export interface __XAttribute$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
-
-export interface XAttribute$instance extends System_Xml_Internal.IXmlLineInfo$instance {}
 
 export type XAttribute = XAttribute$instance & __XAttribute$views;
 
@@ -267,7 +265,7 @@ export interface __XDocumentType$views {
 export type XDocumentType = XDocumentType$instance & __XDocumentType$views;
 
 
-export interface XElement$instance extends XContainer$instance {
+export interface XElement$instance extends XContainer$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
 
@@ -343,12 +341,10 @@ export interface __XElement$views {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export interface XElement$instance extends System_Xml_Serialization_Internal.IXmlSerializable$instance {}
-
 export type XElement = XElement$instance & __XElement$views;
 
 
-export interface XName$instance {
+export interface XName$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -375,8 +371,6 @@ export interface __XName$views {
     Equals(other: XName): boolean;
 }
 
-export interface XName$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type XName = XName$instance & __XName$views;
 
 
@@ -399,7 +393,7 @@ export const XNamespace: {
 
 export type XNamespace = XNamespace$instance;
 
-export interface XNode$instance extends XObject$instance {
+export interface XNode$instance extends XObject$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly NextNode: XNode | undefined;
@@ -445,8 +439,6 @@ export interface __XNode$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
 
-export interface XNode$instance extends System_Xml_Internal.IXmlLineInfo$instance {}
-
 export type XNode = XNode$instance & __XNode$views;
 
 
@@ -467,8 +459,6 @@ export interface __XNodeDocumentOrderComparer$views {
     As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<XNode>;
     As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
-
-export interface XNodeDocumentOrderComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<XNode> {}
 
 export type XNodeDocumentOrderComparer = XNodeDocumentOrderComparer$instance & __XNodeDocumentOrderComparer$views;
 
@@ -495,7 +485,7 @@ export interface __XNodeEqualityComparer$views {
 export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqualityComparer$views;
 
 
-export interface XObject$instance {
+export interface XObject$instance extends System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly BaseUri: string;
@@ -519,8 +509,6 @@ export const XObject: {
 export interface __XObject$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
-
-export interface XObject$instance extends System_Xml_Internal.IXmlLineInfo$instance {}
 
 export type XObject = XObject$instance & __XObject$views;
 
