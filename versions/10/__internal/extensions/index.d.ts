@@ -2229,10 +2229,13 @@ type __TsonicPreferExt<A, B> = Omit<A, keyof B> & B;
 // Generic helper type for extension methods in namespace: System
 type __TsonicExtSurface_System<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System.ArraySegment_1<infer T0> ? __Ext_System_ArraySegment_1<T0> : {}), (TShape extends System.Memory_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_Memory_1<T0> : {})>, (TShape extends System.ReadOnlyMemory_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_ReadOnlyMemory_1<T0> : {})>, (TShape extends System.ReadOnlySpan_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_ReadOnlySpan_1<T0> : {})>, (TShape extends System.Span_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_Span_1<T0> : {})>, (TShape extends string ? __Ext_System_String : {})>, (TShape extends System.Tuple_1<infer T0> ? __Ext_System_Tuple_1<T0> : {})>, (TShape extends System.Tuple_2<infer T0, infer T1> ? __Ext_System_Tuple_2<T0, T1> : {})>, (TShape extends System.Tuple_3<infer T0, infer T1, infer T2> ? __Ext_System_Tuple_3<T0, T1, T2> : {})>, (TShape extends System.Tuple_4<infer T0, infer T1, infer T2, infer T3> ? __Ext_System_Tuple_4<T0, T1, T2, T3> : {})>, (TShape extends System.Tuple_5<infer T0, infer T1, infer T2, infer T3, infer T4> ? __Ext_System_Tuple_5<T0, T1, T2, T3, T4> : {})>, (TShape extends System.Tuple_6<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5> ? __Ext_System_Tuple_6<T0, T1, T2, T3, T4, T5> : {})>, (TShape extends System.Tuple_7<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6> ? __Ext_System_Tuple_7<T0, T1, T2, T3, T4, T5, T6> : {})>, (TShape extends System.Tuple_8<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6, infer T7> ? __Ext_System_Tuple_8<T0, T1, T2, T3, T4, T5, T6, T7> : {})>, (TShape extends System.ValueTuple_1<infer T0> ? __Ext_System_ValueTuple_1<T0> : {})>, (TShape extends System.ValueTuple_2<infer T0, infer T1> ? __Ext_System_ValueTuple_2<T0, T1> : {})>, (TShape extends System.ValueTuple_3<infer T0, infer T1, infer T2> ? __Ext_System_ValueTuple_3<T0, T1, T2> : {})>, (TShape extends System.ValueTuple_4<infer T0, infer T1, infer T2, infer T3> ? __Ext_System_ValueTuple_4<T0, T1, T2, T3> : {})>, (TShape extends System.ValueTuple_5<infer T0, infer T1, infer T2, infer T3, infer T4> ? __Ext_System_ValueTuple_5<T0, T1, T2, T3, T4> : {})>, (TShape extends System.ValueTuple_6<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5> ? __Ext_System_ValueTuple_6<T0, T1, T2, T3, T4, T5> : {})>, (TShape extends System.ValueTuple_7<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6> ? __Ext_System_ValueTuple_7<T0, T1, T2, T3, T4, T5, T6> : {})>, (TShape extends System.ValueTuple_8<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6, infer T7> ? __Ext_System_ValueTuple_8<T0, T1, T2, T3, T4, T5, T6, T7> : {})>
+    (TShape extends System.ArraySegment_1<infer T0> ? __Ext_System_ArraySegment_1<T0> : {}) & (TShape extends System.Memory_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_Memory_1<T0> : {}) & (TShape extends System.ReadOnlyMemory_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_ReadOnlyMemory_1<T0> : {}) & (TShape extends System.ReadOnlySpan_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_ReadOnlySpan_1<T0> : {}) & (TShape extends System.Span_1<infer T0 extends System.IEquatable_1<T0>> ? __Ext_System_Span_1<T0> : {}) & (TShape extends string ? __Ext_System_String : {}) & (TShape extends System.Tuple_1<infer T0> ? __Ext_System_Tuple_1<T0> : {}) & (TShape extends System.Tuple_2<infer T0, infer T1> ? __Ext_System_Tuple_2<T0, T1> : {}) & (TShape extends System.Tuple_3<infer T0, infer T1, infer T2> ? __Ext_System_Tuple_3<T0, T1, T2> : {}) & (TShape extends System.Tuple_4<infer T0, infer T1, infer T2, infer T3> ? __Ext_System_Tuple_4<T0, T1, T2, T3> : {}) & (TShape extends System.Tuple_5<infer T0, infer T1, infer T2, infer T3, infer T4> ? __Ext_System_Tuple_5<T0, T1, T2, T3, T4> : {}) & (TShape extends System.Tuple_6<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5> ? __Ext_System_Tuple_6<T0, T1, T2, T3, T4, T5> : {}) & (TShape extends System.Tuple_7<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6> ? __Ext_System_Tuple_7<T0, T1, T2, T3, T4, T5, T6> : {}) & (TShape extends System.Tuple_8<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6, infer T7> ? __Ext_System_Tuple_8<T0, T1, T2, T3, T4, T5, T6, T7> : {}) & (TShape extends System.ValueTuple_1<infer T0> ? __Ext_System_ValueTuple_1<T0> : {}) & (TShape extends System.ValueTuple_2<infer T0, infer T1> ? __Ext_System_ValueTuple_2<T0, T1> : {}) & (TShape extends System.ValueTuple_3<infer T0, infer T1, infer T2> ? __Ext_System_ValueTuple_3<T0, T1, T2> : {}) & (TShape extends System.ValueTuple_4<infer T0, infer T1, infer T2, infer T3> ? __Ext_System_ValueTuple_4<T0, T1, T2, T3> : {}) & (TShape extends System.ValueTuple_5<infer T0, infer T1, infer T2, infer T3, infer T4> ? __Ext_System_ValueTuple_5<T0, T1, T2, T3, T4> : {}) & (TShape extends System.ValueTuple_6<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5> ? __Ext_System_ValueTuple_6<T0, T1, T2, T3, T4, T5> : {}) & (TShape extends System.ValueTuple_7<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6> ? __Ext_System_ValueTuple_7<T0, T1, T2, T3, T4, T5, T6> : {}) & (TShape extends System.ValueTuple_8<infer T0, infer T1, infer T2, infer T3, infer T4, infer T5, infer T6, infer T7> ? __Ext_System_ValueTuple_8<T0, T1, T2, T3, T4, T5, T6, T7> : {})
   );
 
-type __TsonicExtApplier_System = <TShape>(shape: TShape) => __TsonicExtSurface_System<TShape>;
+interface __TsonicExtApplier_System {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System<TShape> =
   TShape extends null | undefined ? TShape
@@ -2245,7 +2248,10 @@ type __TsonicExtSurface_System_Buffers<TShape> =
     (TShape extends System_Buffers.IBufferWriter_1<infer T0> ? __Ext_System_Buffers_IBufferWriter_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Buffers = <TShape>(shape: TShape) => __TsonicExtSurface_System_Buffers<TShape>;
+interface __TsonicExtApplier_System_Buffers {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Buffers<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Buffers<TShape> =
   TShape extends null | undefined ? TShape
@@ -2255,10 +2261,13 @@ export type ExtensionMethods_System_Buffers<TShape> =
 // Generic helper type for extension methods in namespace: System.Collections.Frozen
 type __TsonicExtSurface_System_Collections_Frozen<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Collections_Frozen_IEnumerable_1<T0> : {}), (TShape extends (infer T)[] ? __Ext_System_Collections_Frozen_IEnumerable_1<T> : {})>
+    (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Collections_Frozen_IEnumerable_1<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Collections_Frozen_IEnumerable_1<T> : {})
   );
 
-type __TsonicExtApplier_System_Collections_Frozen = <TShape>(shape: TShape) => __TsonicExtSurface_System_Collections_Frozen<TShape>;
+interface __TsonicExtApplier_System_Collections_Frozen {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Collections_Frozen<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Collections_Frozen<TShape> =
   TShape extends null | undefined ? TShape
@@ -2268,10 +2277,13 @@ export type ExtensionMethods_System_Collections_Frozen<TShape> =
 // Generic helper type for extension methods in namespace: System.Collections.Generic
 type __TsonicExtSurface_System_Collections_Generic<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Collections_Generic.IDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Generic_IDictionary_2<T0, T1> : {}), (TShape extends System_Collections_Generic.IList_1<infer T0> ? __Ext_System_Collections_Generic_IList_1<T0> : {})>, (TShape extends System_Collections_Generic.IReadOnlyDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Generic_IReadOnlyDictionary_2<T0, T1> : {})>, (TShape extends System_Collections_Generic.ISet_1<infer T0> ? __Ext_System_Collections_Generic_ISet_1<T0> : {})>, (TShape extends System_Collections_Generic.List_1<infer T0> ? __Ext_System_Collections_Generic_List_1<T0> : {})>
+    (TShape extends System_Collections_Generic.IDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Generic_IDictionary_2<T0, T1> : {}) & (TShape extends System_Collections_Generic.IList_1<infer T0> ? __Ext_System_Collections_Generic_IList_1<T0> : {}) & (TShape extends System_Collections_Generic.IReadOnlyDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Generic_IReadOnlyDictionary_2<T0, T1> : {}) & (TShape extends System_Collections_Generic.ISet_1<infer T0> ? __Ext_System_Collections_Generic_ISet_1<T0> : {}) & (TShape extends System_Collections_Generic.List_1<infer T0> ? __Ext_System_Collections_Generic_List_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Collections_Generic = <TShape>(shape: TShape) => __TsonicExtSurface_System_Collections_Generic<TShape>;
+interface __TsonicExtApplier_System_Collections_Generic {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Collections_Generic<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Collections_Generic<TShape> =
   TShape extends null | undefined ? TShape
@@ -2281,10 +2293,13 @@ export type ExtensionMethods_System_Collections_Generic<TShape> =
 // Generic helper type for extension methods in namespace: System.Collections.Immutable
 type __TsonicExtSurface_System_Collections_Immutable<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System.ReadOnlySpan_1<infer T0> ? __Ext_System_Collections_Immutable_ReadOnlySpan_1<T0> : {}), (TShape extends System.Span_1<infer T0> ? __Ext_System_Collections_Immutable_Span_1<T0> : {})>, (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Collections_Immutable_IEnumerable_1<T0> : {})>, (TShape extends System_Collections_Immutable.IImmutableDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Immutable_IImmutableDictionary_2<T0, T1> : {})>, (TShape extends System_Collections_Immutable.IImmutableList_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableList_1<T0> : {})>, (TShape extends System_Collections_Immutable.IImmutableQueue_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableQueue_1<T0> : {})>, (TShape extends System_Collections_Immutable.IImmutableStack_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableStack_1<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1_Builder<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableDictionary_2_Builder<T0, T1> : {})>, (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableHashSet_1_Builder<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableList_1_Builder<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableSortedDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableSortedDictionary_2_Builder<T0, T1> : {})>, (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableSortedSet_1_Builder<T0> : {})>, (TShape extends (infer T)[] ? __Ext_System_Collections_Immutable_IEnumerable_1<T> : {})>
+    (TShape extends System.ReadOnlySpan_1<infer T0> ? __Ext_System_Collections_Immutable_ReadOnlySpan_1<T0> : {}) & (TShape extends System.Span_1<infer T0> ? __Ext_System_Collections_Immutable_Span_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer _0> ? {} : __Ext_System_Collections_Immutable_IEnumerable_1<T0>)))) : {}) & (TShape extends System_Collections_Immutable.IImmutableDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Immutable_IImmutableDictionary_2<T0, T1> : {}) & (TShape extends System_Collections_Immutable.IImmutableList_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableList_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableQueue_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableQueue_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableStack_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableStack_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableArray_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableHashSet_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableList_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableSortedDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableSortedSet_1_Builder<T0>> : {}) & (TShape extends (infer T)[] ? __Ext_System_Collections_Immutable_IEnumerable_1<T> : {})
   );
 
-type __TsonicExtApplier_System_Collections_Immutable = <TShape>(shape: TShape) => __TsonicExtSurface_System_Collections_Immutable<TShape>;
+interface __TsonicExtApplier_System_Collections_Immutable {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Collections_Immutable<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Collections_Immutable<TShape> =
   TShape extends null | undefined ? TShape
@@ -2294,10 +2309,13 @@ export type ExtensionMethods_System_Collections_Immutable<TShape> =
 // Generic helper type for extension methods in namespace: System.Data
 type __TsonicExtSurface_System_Data<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Data_IEnumerable_1<T0> : {}), (TShape extends System_Data.DataRow ? __Ext_System_Data_DataRow : {})>, (TShape extends System_Data.DataTable ? __Ext_System_Data_DataTable : {})>, (TShape extends System_Data.EnumerableRowCollection ? __Ext_System_Data_EnumerableRowCollection : {})>, (TShape extends System_Data.EnumerableRowCollection_1<infer T0> ? __Ext_System_Data_EnumerableRowCollection_1<T0> : {})>, (TShape extends System_Data.OrderedEnumerableRowCollection_1<infer T0> ? __Ext_System_Data_OrderedEnumerableRowCollection_1<T0> : {})>, (TShape extends System_Data.TypedTableBase_1<infer T0> ? __Ext_System_Data_TypedTableBase_1<T0> : {})>, (TShape extends System_Data_Common.DbDataReader ? __Ext_System_Data_DbDataReader : {})>, (TShape extends (infer T)[] ? __Ext_System_Data_IEnumerable_1<T> : {})>
+    (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Data_IEnumerable_1<T0> : {}) & (TShape extends System_Data.DataRow ? __Ext_System_Data_DataRow : {}) & (TShape extends System_Data.DataTable ? __Ext_System_Data_DataTable : {}) & (TShape extends System_Data.EnumerableRowCollection ? __Ext_System_Data_EnumerableRowCollection : {}) & (TShape extends System_Data.EnumerableRowCollection_1<infer T0> ? __Ext_System_Data_EnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.OrderedEnumerableRowCollection_1<infer T0> ? __Ext_System_Data_OrderedEnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.TypedTableBase_1<infer T0> ? __Ext_System_Data_TypedTableBase_1<T0> : {}) & (TShape extends System_Data_Common.DbDataReader ? __Ext_System_Data_DbDataReader : {}) & (TShape extends (infer T)[] ? __Ext_System_Data_IEnumerable_1<T> : {})
   );
 
-type __TsonicExtApplier_System_Data = <TShape>(shape: TShape) => __TsonicExtSurface_System_Data<TShape>;
+interface __TsonicExtApplier_System_Data {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Data<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Data<TShape> =
   TShape extends null | undefined ? TShape
@@ -2310,7 +2328,10 @@ type __TsonicExtSurface_System_Data_Common<TShape> =
     (TShape extends System_Data_Common.DbDataReader ? __Ext_System_Data_Common_DbDataReader : {})
   );
 
-type __TsonicExtApplier_System_Data_Common = <TShape>(shape: TShape) => __TsonicExtSurface_System_Data_Common<TShape>;
+interface __TsonicExtApplier_System_Data_Common {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Data_Common<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Data_Common<TShape> =
   TShape extends null | undefined ? TShape
@@ -2323,7 +2344,10 @@ type __TsonicExtSurface_System_Diagnostics<TShape> =
     (TShape extends System_Diagnostics.StackFrame ? __Ext_System_Diagnostics_StackFrame : {})
   );
 
-type __TsonicExtApplier_System_Diagnostics = <TShape>(shape: TShape) => __TsonicExtSurface_System_Diagnostics<TShape>;
+interface __TsonicExtApplier_System_Diagnostics {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Diagnostics<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Diagnostics<TShape> =
   TShape extends null | undefined ? TShape
@@ -2336,7 +2360,10 @@ type __TsonicExtSurface_System_Diagnostics_Metrics<TShape> =
     (TShape extends System_Diagnostics_Metrics.IMeterFactory ? __Ext_System_Diagnostics_Metrics_IMeterFactory : {})
   );
 
-type __TsonicExtApplier_System_Diagnostics_Metrics = <TShape>(shape: TShape) => __TsonicExtSurface_System_Diagnostics_Metrics<TShape>;
+interface __TsonicExtApplier_System_Diagnostics_Metrics {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Diagnostics_Metrics<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Diagnostics_Metrics<TShape> =
   TShape extends null | undefined ? TShape
@@ -2349,7 +2376,10 @@ type __TsonicExtSurface_System_Globalization<TShape> =
     (TShape extends System_Globalization.CompareInfo ? __Ext_System_Globalization_CompareInfo : {})
   );
 
-type __TsonicExtApplier_System_Globalization = <TShape>(shape: TShape) => __TsonicExtSurface_System_Globalization<TShape>;
+interface __TsonicExtApplier_System_Globalization {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Globalization<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Globalization<TShape> =
   TShape extends null | undefined ? TShape
@@ -2359,10 +2389,13 @@ export type ExtensionMethods_System_Globalization<TShape> =
 // Generic helper type for extension methods in namespace: System.IO
 type __TsonicExtSurface_System_IO<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_IO.DirectoryInfo ? __Ext_System_IO_DirectoryInfo : {}), (TShape extends System_IO.FileInfo ? __Ext_System_IO_FileInfo : {})>, (TShape extends System_IO.FileStream ? __Ext_System_IO_FileStream : {})>, (TShape extends System_Security_AccessControl.DirectorySecurity ? __Ext_System_IO_DirectorySecurity : {})>
+    (TShape extends System_IO.DirectoryInfo ? __Ext_System_IO_DirectoryInfo : {}) & (TShape extends System_IO.FileInfo ? __Ext_System_IO_FileInfo : {}) & (TShape extends System_IO.FileStream ? __Ext_System_IO_FileStream : {}) & (TShape extends System_Security_AccessControl.DirectorySecurity ? __Ext_System_IO_DirectorySecurity : {})
   );
 
-type __TsonicExtApplier_System_IO = <TShape>(shape: TShape) => __TsonicExtSurface_System_IO<TShape>;
+interface __TsonicExtApplier_System_IO {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_IO<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_IO<TShape> =
   TShape extends null | undefined ? TShape
@@ -2372,10 +2405,13 @@ export type ExtensionMethods_System_IO<TShape> =
 // Generic helper type for extension methods in namespace: System.IO.Compression
 type __TsonicExtSurface_System_IO_Compression<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_IO_Compression.ZipArchive ? __Ext_System_IO_Compression_ZipArchive : {}), (TShape extends System_IO_Compression.ZipArchiveEntry ? __Ext_System_IO_Compression_ZipArchiveEntry : {})>
+    (TShape extends System_IO_Compression.ZipArchive ? __Ext_System_IO_Compression_ZipArchive : {}) & (TShape extends System_IO_Compression.ZipArchiveEntry ? __Ext_System_IO_Compression_ZipArchiveEntry : {})
   );
 
-type __TsonicExtApplier_System_IO_Compression = <TShape>(shape: TShape) => __TsonicExtSurface_System_IO_Compression<TShape>;
+interface __TsonicExtApplier_System_IO_Compression {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_IO_Compression<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_IO_Compression<TShape> =
   TShape extends null | undefined ? TShape
@@ -2388,7 +2424,10 @@ type __TsonicExtSurface_System_IO_Pipelines<TShape> =
     (TShape extends System_IO.Stream ? __Ext_System_IO_Pipelines_Stream : {})
   );
 
-type __TsonicExtApplier_System_IO_Pipelines = <TShape>(shape: TShape) => __TsonicExtSurface_System_IO_Pipelines<TShape>;
+interface __TsonicExtApplier_System_IO_Pipelines {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_IO_Pipelines<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_IO_Pipelines<TShape> =
   TShape extends null | undefined ? TShape
@@ -2401,7 +2440,10 @@ type __TsonicExtSurface_System_IO_Pipes<TShape> =
     (TShape extends System_IO_Pipes.PipeStream ? __Ext_System_IO_Pipes_PipeStream : {})
   );
 
-type __TsonicExtApplier_System_IO_Pipes = <TShape>(shape: TShape) => __TsonicExtSurface_System_IO_Pipes<TShape>;
+interface __TsonicExtApplier_System_IO_Pipes {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_IO_Pipes<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_IO_Pipes<TShape> =
   TShape extends null | undefined ? TShape
@@ -2411,10 +2453,13 @@ export type ExtensionMethods_System_IO_Pipes<TShape> =
 // Generic helper type for extension methods in namespace: System.Linq
 type __TsonicExtSurface_System_Linq<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Collections.IEnumerable ? __Ext_System_Linq_IEnumerable : {}), (TShape extends System_Collections_Concurrent.Partitioner_1<infer T0> ? __Ext_System_Linq_Partitioner_1<T0> : {})>, (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IAsyncEnumerable_1<T0> : {})>, (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Linq_IEnumerable_1<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Linq_ImmutableArray_1<T0> : {})>, (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __Ext_System_Linq_ImmutableArray_1_Builder<T0> : {})>, (TShape extends System_Linq.IOrderedAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedAsyncEnumerable_1<T0> : {})>, (TShape extends System_Linq.IOrderedEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedEnumerable_1<T0> : {})>, (TShape extends System_Linq.IQueryable ? __Ext_System_Linq_IQueryable : {})>, (TShape extends System_Linq.IQueryable_1<infer T0> ? __Ext_System_Linq_IQueryable_1<T0> : {})>, (TShape extends System_Linq.IOrderedQueryable_1<infer T0> ? __Ext_System_Linq_IOrderedQueryable_1<T0> : {})>, (TShape extends System_Linq.ParallelQuery ? __Ext_System_Linq_ParallelQuery : {})>, (TShape extends System_Linq.ParallelQuery_1<infer T0> ? __Ext_System_Linq_ParallelQuery_1<T0> : {})>, (TShape extends System_Linq.OrderedParallelQuery_1<infer T0> ? __Ext_System_Linq_OrderedParallelQuery_1<T0> : {})>, (TShape extends (infer T)[] ? __Ext_System_Linq_IEnumerable_1<T> : {})>
+    (TShape extends System_Collections.IEnumerable ? (TShape extends System_Linq.IQueryable ? {} : (TShape extends System_Linq.ParallelQuery ? {} : __Ext_System_Linq_IEnumerable)) : {}) & (TShape extends System_Collections_Concurrent.Partitioner_1<infer T0> ? __Ext_System_Linq_Partitioner_1<T0> : {}) & (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IAsyncEnumerable_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Linq.IQueryable_1<infer _0> ? {} : (TShape extends System_Linq.ParallelQuery_1<infer _0> ? {} : __Ext_System_Linq_IEnumerable_1<T0>)))) : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable_1<T0>, __Ext_System_Linq_ImmutableArray_1<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable_1<T0>, __Ext_System_Linq_ImmutableArray_1_Builder<T0>> : {}) & (TShape extends System_Linq.IOrderedAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedAsyncEnumerable_1<T0> : {}) & (TShape extends System_Linq.IOrderedEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedEnumerable_1<T0> : {}) & (TShape extends System_Linq.IQueryable ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IQueryable> : {}) & (TShape extends System_Linq.IQueryable_1<infer T0> ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable_1<T0>, __Ext_System_Linq_IQueryable_1<T0>> : {}) & (TShape extends System_Linq.IOrderedQueryable_1<infer T0> ? __Ext_System_Linq_IOrderedQueryable_1<T0> : {}) & (TShape extends System_Linq.ParallelQuery ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_ParallelQuery> : {}) & (TShape extends System_Linq.ParallelQuery_1<infer T0> ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable_1<T0>, __Ext_System_Linq_ParallelQuery_1<T0>> : {}) & (TShape extends System_Linq.OrderedParallelQuery_1<infer T0> ? __Ext_System_Linq_OrderedParallelQuery_1<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Linq_IEnumerable_1<T> : {})
   );
 
-type __TsonicExtApplier_System_Linq = <TShape>(shape: TShape) => __TsonicExtSurface_System_Linq<TShape>;
+interface __TsonicExtApplier_System_Linq {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Linq<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Linq<TShape> =
   TShape extends null | undefined ? TShape
@@ -2424,10 +2469,13 @@ export type ExtensionMethods_System_Linq<TShape> =
 // Generic helper type for extension methods in namespace: System.Net.Http.Json
 type __TsonicExtSurface_System_Net_Http_Json<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_Net_Http.HttpClient ? __Ext_System_Net_Http_Json_HttpClient : {}), (TShape extends System_Net_Http.HttpContent ? __Ext_System_Net_Http_Json_HttpContent : {})>
+    (TShape extends System_Net_Http.HttpClient ? __Ext_System_Net_Http_Json_HttpClient : {}) & (TShape extends System_Net_Http.HttpContent ? __Ext_System_Net_Http_Json_HttpContent : {})
   );
 
-type __TsonicExtApplier_System_Net_Http_Json = <TShape>(shape: TShape) => __TsonicExtSurface_System_Net_Http_Json<TShape>;
+interface __TsonicExtApplier_System_Net_Http_Json {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Net_Http_Json<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Net_Http_Json<TShape> =
   TShape extends null | undefined ? TShape
@@ -2440,7 +2488,10 @@ type __TsonicExtSurface_System_Net_Sockets<TShape> =
     (TShape extends System_Net_Sockets.Socket ? __Ext_System_Net_Sockets_Socket : {})
   );
 
-type __TsonicExtApplier_System_Net_Sockets = <TShape>(shape: TShape) => __TsonicExtSurface_System_Net_Sockets<TShape>;
+interface __TsonicExtApplier_System_Net_Sockets {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Net_Sockets<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Net_Sockets<TShape> =
   TShape extends null | undefined ? TShape
@@ -2450,10 +2501,13 @@ export type ExtensionMethods_System_Net_Sockets<TShape> =
 // Generic helper type for extension methods in namespace: System.Numerics
 type __TsonicExtSurface_System_Numerics<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Numerics.Plane ? __Ext_System_Numerics_Plane : {}), (TShape extends System_Numerics.Quaternion ? __Ext_System_Numerics_Quaternion : {})>, (TShape extends System_Numerics.Vector2 ? __Ext_System_Numerics_Vector2 : {})>, (TShape extends System_Numerics.Vector3 ? __Ext_System_Numerics_Vector3 : {})>, (TShape extends System_Numerics.Vector4 ? __Ext_System_Numerics_Vector4 : {})>, (TShape extends System_Numerics.Vector_1<infer T0> ? __Ext_System_Numerics_Vector_1<T0> : {})>
+    (TShape extends System_Numerics.Plane ? __Ext_System_Numerics_Plane : {}) & (TShape extends System_Numerics.Quaternion ? __Ext_System_Numerics_Quaternion : {}) & (TShape extends System_Numerics.Vector2 ? __Ext_System_Numerics_Vector2 : {}) & (TShape extends System_Numerics.Vector3 ? __Ext_System_Numerics_Vector3 : {}) & (TShape extends System_Numerics.Vector4 ? __Ext_System_Numerics_Vector4 : {}) & (TShape extends System_Numerics.Vector_1<infer T0> ? __Ext_System_Numerics_Vector_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Numerics = <TShape>(shape: TShape) => __TsonicExtSurface_System_Numerics<TShape>;
+interface __TsonicExtApplier_System_Numerics {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Numerics<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Numerics<TShape> =
   TShape extends null | undefined ? TShape
@@ -2463,10 +2517,13 @@ export type ExtensionMethods_System_Numerics<TShape> =
 // Generic helper type for extension methods in namespace: System.Reflection
 type __TsonicExtSurface_System_Reflection<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System.Delegate ? __Ext_System_Reflection_Delegate : {}), (TShape extends System.Type ? __Ext_System_Reflection_Type : {})>, (TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Assembly : {})>, (TShape extends System_Reflection.MemberInfo ? __Ext_System_Reflection_MemberInfo : {})>, (TShape extends System_Reflection.EventInfo ? __Ext_System_Reflection_EventInfo : {})>, (TShape extends System_Reflection.MethodInfo ? __Ext_System_Reflection_MethodInfo : {})>, (TShape extends System_Reflection.Module ? __Ext_System_Reflection_Module : {})>, (TShape extends System_Reflection.ParameterInfo ? __Ext_System_Reflection_ParameterInfo : {})>, (TShape extends System_Reflection.PropertyInfo ? __Ext_System_Reflection_PropertyInfo : {})>, (TShape extends System_Reflection.TypeInfo ? __Ext_System_Reflection_TypeInfo : {})>
+    (TShape extends System.Delegate ? __Ext_System_Reflection_Delegate : {}) & (TShape extends System.Type ? __Ext_System_Reflection_Type : {}) & (TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Assembly : {}) & (TShape extends System_Reflection.MemberInfo ? __Ext_System_Reflection_MemberInfo : {}) & (TShape extends System_Reflection.EventInfo ? __Ext_System_Reflection_EventInfo : {}) & (TShape extends System_Reflection.MethodInfo ? __Ext_System_Reflection_MethodInfo : {}) & (TShape extends System_Reflection.Module ? __Ext_System_Reflection_Module : {}) & (TShape extends System_Reflection.ParameterInfo ? __Ext_System_Reflection_ParameterInfo : {}) & (TShape extends System_Reflection.PropertyInfo ? __Ext_System_Reflection_PropertyInfo : {}) & (TShape extends System_Reflection.TypeInfo ? __Ext_System_Reflection_TypeInfo : {})
   );
 
-type __TsonicExtApplier_System_Reflection = <TShape>(shape: TShape) => __TsonicExtSurface_System_Reflection<TShape>;
+interface __TsonicExtApplier_System_Reflection {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Reflection<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Reflection<TShape> =
   TShape extends null | undefined ? TShape
@@ -2476,10 +2533,13 @@ export type ExtensionMethods_System_Reflection<TShape> =
 // Generic helper type for extension methods in namespace: System.Reflection.Metadata
 type __TsonicExtSurface_System_Reflection_Metadata<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Metadata_Assembly : {}), (TShape extends System_Reflection_Metadata.ILOpCode ? __Ext_System_Reflection_Metadata_ILOpCode : {})>, (TShape extends System_Reflection_PortableExecutable.PEReader ? __Ext_System_Reflection_Metadata_PEReader : {})>
+    (TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Metadata_Assembly : {}) & (TShape extends System_Reflection_Metadata.ILOpCode ? __Ext_System_Reflection_Metadata_ILOpCode : {}) & (TShape extends System_Reflection_PortableExecutable.PEReader ? __Ext_System_Reflection_Metadata_PEReader : {})
   );
 
-type __TsonicExtApplier_System_Reflection_Metadata = <TShape>(shape: TShape) => __TsonicExtSurface_System_Reflection_Metadata<TShape>;
+interface __TsonicExtApplier_System_Reflection_Metadata {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Reflection_Metadata<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Reflection_Metadata<TShape> =
   TShape extends null | undefined ? TShape
@@ -2489,10 +2549,13 @@ export type ExtensionMethods_System_Reflection_Metadata<TShape> =
 // Generic helper type for extension methods in namespace: System.Reflection.Metadata.Ecma335
 type __TsonicExtSurface_System_Reflection_Metadata_Ecma335<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_Reflection_Metadata.ExportedType ? __Ext_System_Reflection_Metadata_Ecma335_ExportedType : {}), (TShape extends System_Reflection_Metadata.MetadataReader ? __Ext_System_Reflection_Metadata_Ecma335_MetadataReader : {})>
+    (TShape extends System_Reflection_Metadata.ExportedType ? __Ext_System_Reflection_Metadata_Ecma335_ExportedType : {}) & (TShape extends System_Reflection_Metadata.MetadataReader ? __Ext_System_Reflection_Metadata_Ecma335_MetadataReader : {})
   );
 
-type __TsonicExtApplier_System_Reflection_Metadata_Ecma335 = <TShape>(shape: TShape) => __TsonicExtSurface_System_Reflection_Metadata_Ecma335<TShape>;
+interface __TsonicExtApplier_System_Reflection_Metadata_Ecma335 {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Reflection_Metadata_Ecma335<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Reflection_Metadata_Ecma335<TShape> =
   TShape extends null | undefined ? TShape
@@ -2505,7 +2568,10 @@ type __TsonicExtSurface_System_Runtime_InteropServices<TShape> =
     (TShape extends System_Runtime_InteropServices.PinnedGCHandle_1<infer T0> ? __Ext_System_Runtime_InteropServices_PinnedGCHandle_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Runtime_InteropServices = <TShape>(shape: TShape) => __TsonicExtSurface_System_Runtime_InteropServices<TShape>;
+interface __TsonicExtApplier_System_Runtime_InteropServices {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Runtime_InteropServices<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Runtime_InteropServices<TShape> =
   TShape extends null | undefined ? TShape
@@ -2515,10 +2581,13 @@ export type ExtensionMethods_System_Runtime_InteropServices<TShape> =
 // Generic helper type for extension methods in namespace: System.Runtime.Intrinsics
 type __TsonicExtSurface_System_Runtime_Intrinsics<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Numerics.Plane ? __Ext_System_Runtime_Intrinsics_Plane : {}), (TShape extends System_Numerics.Quaternion ? __Ext_System_Runtime_Intrinsics_Quaternion : {})>, (TShape extends System_Numerics.Vector2 ? __Ext_System_Runtime_Intrinsics_Vector2 : {})>, (TShape extends System_Numerics.Vector3 ? __Ext_System_Runtime_Intrinsics_Vector3 : {})>, (TShape extends System_Numerics.Vector4 ? __Ext_System_Runtime_Intrinsics_Vector4 : {})>, (TShape extends System_Numerics.Vector_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector_1<T0> : {})>, (TShape extends System_Runtime_Intrinsics.Vector128_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector128_1<T0> : {})>, (TShape extends System_Runtime_Intrinsics.Vector256_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector256_1<T0> : {})>, (TShape extends System_Runtime_Intrinsics.Vector512_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector512_1<T0> : {})>, (TShape extends System_Runtime_Intrinsics.Vector64_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector64_1<T0> : {})>
+    (TShape extends System_Numerics.Plane ? __Ext_System_Runtime_Intrinsics_Plane : {}) & (TShape extends System_Numerics.Quaternion ? __Ext_System_Runtime_Intrinsics_Quaternion : {}) & (TShape extends System_Numerics.Vector2 ? __Ext_System_Runtime_Intrinsics_Vector2 : {}) & (TShape extends System_Numerics.Vector3 ? __Ext_System_Runtime_Intrinsics_Vector3 : {}) & (TShape extends System_Numerics.Vector4 ? __Ext_System_Runtime_Intrinsics_Vector4 : {}) & (TShape extends System_Numerics.Vector_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector_1<T0> : {}) & (TShape extends System_Runtime_Intrinsics.Vector128_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector128_1<T0> : {}) & (TShape extends System_Runtime_Intrinsics.Vector256_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector256_1<T0> : {}) & (TShape extends System_Runtime_Intrinsics.Vector512_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector512_1<T0> : {}) & (TShape extends System_Runtime_Intrinsics.Vector64_1<infer T0> ? __Ext_System_Runtime_Intrinsics_Vector64_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Runtime_Intrinsics = <TShape>(shape: TShape) => __TsonicExtSurface_System_Runtime_Intrinsics<TShape>;
+interface __TsonicExtApplier_System_Runtime_Intrinsics {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Runtime_Intrinsics<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Runtime_Intrinsics<TShape> =
   TShape extends null | undefined ? TShape
@@ -2531,7 +2600,10 @@ type __TsonicExtSurface_System_Runtime_Serialization<TShape> =
     (TShape extends System_Runtime_Serialization.DataContractSerializer ? __Ext_System_Runtime_Serialization_DataContractSerializer : {})
   );
 
-type __TsonicExtApplier_System_Runtime_Serialization = <TShape>(shape: TShape) => __TsonicExtSurface_System_Runtime_Serialization<TShape>;
+interface __TsonicExtApplier_System_Runtime_Serialization {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Runtime_Serialization<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Runtime_Serialization<TShape> =
   TShape extends null | undefined ? TShape
@@ -2544,7 +2616,10 @@ type __TsonicExtSurface_System_Runtime_Serialization_Json<TShape> =
     (TShape extends System_Runtime_Serialization_Json.DataContractJsonSerializer ? __Ext_System_Runtime_Serialization_Json_DataContractJsonSerializer : {})
   );
 
-type __TsonicExtApplier_System_Runtime_Serialization_Json = <TShape>(shape: TShape) => __TsonicExtSurface_System_Runtime_Serialization_Json<TShape>;
+interface __TsonicExtApplier_System_Runtime_Serialization_Json {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Runtime_Serialization_Json<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Runtime_Serialization_Json<TShape> =
   TShape extends null | undefined ? TShape
@@ -2557,7 +2632,10 @@ type __TsonicExtSurface_System_Security_Cryptography_X509Certificates<TShape> =
     (TShape extends System_Security_Cryptography_X509Certificates.X509Certificate2 ? __Ext_System_Security_Cryptography_X509Certificates_X509Certificate2 : {})
   );
 
-type __TsonicExtApplier_System_Security_Cryptography_X509Certificates = <TShape>(shape: TShape) => __TsonicExtSurface_System_Security_Cryptography_X509Certificates<TShape>;
+interface __TsonicExtApplier_System_Security_Cryptography_X509Certificates {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Security_Cryptography_X509Certificates<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Security_Cryptography_X509Certificates<TShape> =
   TShape extends null | undefined ? TShape
@@ -2567,10 +2645,13 @@ export type ExtensionMethods_System_Security_Cryptography_X509Certificates<TShap
 // Generic helper type for extension methods in namespace: System.Text
 type __TsonicExtSurface_System_Text<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Text.Decoder ? __Ext_System_Text_Decoder : {}), (TShape extends System_Text.Encoder ? __Ext_System_Text_Encoder : {})>, (TShape extends System_Text.Encoding ? __Ext_System_Text_Encoding : {})>
+    (TShape extends System_Text.Decoder ? __Ext_System_Text_Decoder : {}) & (TShape extends System_Text.Encoder ? __Ext_System_Text_Encoder : {}) & (TShape extends System_Text.Encoding ? __Ext_System_Text_Encoding : {})
   );
 
-type __TsonicExtApplier_System_Text = <TShape>(shape: TShape) => __TsonicExtSurface_System_Text<TShape>;
+interface __TsonicExtApplier_System_Text {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Text<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Text<TShape> =
   TShape extends null | undefined ? TShape
@@ -2580,10 +2661,13 @@ export type ExtensionMethods_System_Text<TShape> =
 // Generic helper type for extension methods in namespace: System.Text.Json
 type __TsonicExtSurface_System_Text_Json<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Text_Json.JsonDocument ? __Ext_System_Text_Json_JsonDocument : {}), (TShape extends System_Text_Json.JsonElement ? __Ext_System_Text_Json_JsonElement : {})>, (TShape extends System_Text_Json_Nodes.JsonNode ? __Ext_System_Text_Json_JsonNode : {})>
+    (TShape extends System_Text_Json.JsonDocument ? __Ext_System_Text_Json_JsonDocument : {}) & (TShape extends System_Text_Json.JsonElement ? __Ext_System_Text_Json_JsonElement : {}) & (TShape extends System_Text_Json_Nodes.JsonNode ? __Ext_System_Text_Json_JsonNode : {})
   );
 
-type __TsonicExtApplier_System_Text_Json = <TShape>(shape: TShape) => __TsonicExtSurface_System_Text_Json<TShape>;
+interface __TsonicExtApplier_System_Text_Json {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Text_Json<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Text_Json<TShape> =
   TShape extends null | undefined ? TShape
@@ -2593,10 +2677,13 @@ export type ExtensionMethods_System_Text_Json<TShape> =
 // Generic helper type for extension methods in namespace: System.Text.Json.Schema
 type __TsonicExtSurface_System_Text_Json_Schema<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_Text_Json.JsonSerializerOptions ? __Ext_System_Text_Json_Schema_JsonSerializerOptions : {}), (TShape extends System_Text_Json_Serialization_Metadata.JsonTypeInfo ? __Ext_System_Text_Json_Schema_JsonTypeInfo : {})>
+    (TShape extends System_Text_Json.JsonSerializerOptions ? __Ext_System_Text_Json_Schema_JsonSerializerOptions : {}) & (TShape extends System_Text_Json_Serialization_Metadata.JsonTypeInfo ? __Ext_System_Text_Json_Schema_JsonTypeInfo : {})
   );
 
-type __TsonicExtApplier_System_Text_Json_Schema = <TShape>(shape: TShape) => __TsonicExtSurface_System_Text_Json_Schema<TShape>;
+interface __TsonicExtApplier_System_Text_Json_Schema {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Text_Json_Schema<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Text_Json_Schema<TShape> =
   TShape extends null | undefined ? TShape
@@ -2609,7 +2696,10 @@ type __TsonicExtSurface_System_Text_Json_Serialization_Metadata<TShape> =
     (TShape extends System_Text_Json_Serialization_Metadata.IJsonTypeInfoResolver ? __Ext_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver : {})
   );
 
-type __TsonicExtApplier_System_Text_Json_Serialization_Metadata = <TShape>(shape: TShape) => __TsonicExtSurface_System_Text_Json_Serialization_Metadata<TShape>;
+interface __TsonicExtApplier_System_Text_Json_Serialization_Metadata {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Text_Json_Serialization_Metadata<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Text_Json_Serialization_Metadata<TShape> =
   TShape extends null | undefined ? TShape
@@ -2619,10 +2709,13 @@ export type ExtensionMethods_System_Text_Json_Serialization_Metadata<TShape> =
 // Generic helper type for extension methods in namespace: System.Threading
 type __TsonicExtSurface_System_Threading<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Threading.WaitHandle ? __Ext_System_Threading_WaitHandle : {}), (TShape extends System_Threading.EventWaitHandle ? __Ext_System_Threading_EventWaitHandle : {})>, (TShape extends System_Threading.Mutex ? __Ext_System_Threading_Mutex : {})>, (TShape extends System_Threading.Semaphore ? __Ext_System_Threading_Semaphore : {})>
+    (TShape extends System_Threading.WaitHandle ? __Ext_System_Threading_WaitHandle : {}) & (TShape extends System_Threading.EventWaitHandle ? __Ext_System_Threading_EventWaitHandle : {}) & (TShape extends System_Threading.Mutex ? __Ext_System_Threading_Mutex : {}) & (TShape extends System_Threading.Semaphore ? __Ext_System_Threading_Semaphore : {})
   );
 
-type __TsonicExtApplier_System_Threading = <TShape>(shape: TShape) => __TsonicExtSurface_System_Threading<TShape>;
+interface __TsonicExtApplier_System_Threading {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Threading<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Threading<TShape> =
   TShape extends null | undefined ? TShape
@@ -2632,10 +2725,13 @@ export type ExtensionMethods_System_Threading<TShape> =
 // Generic helper type for extension methods in namespace: System.Threading.Tasks
 type __TsonicExtSurface_System_Threading_Tasks<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System.IAsyncDisposable ? __Ext_System_Threading_Tasks_IAsyncDisposable : {}), (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Threading_Tasks_IAsyncEnumerable_1<T0> : {})>, (TShape extends System_Threading_Tasks.Task_1<infer T0> ? __Ext_System_Threading_Tasks_Task_1<T0> : {})>
+    (TShape extends System.IAsyncDisposable ? __Ext_System_Threading_Tasks_IAsyncDisposable : {}) & (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Threading_Tasks_IAsyncEnumerable_1<T0> : {}) & (TShape extends System_Threading_Tasks.Task_1<infer T0> ? __Ext_System_Threading_Tasks_Task_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Threading_Tasks = <TShape>(shape: TShape) => __TsonicExtSurface_System_Threading_Tasks<TShape>;
+interface __TsonicExtApplier_System_Threading_Tasks {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Threading_Tasks<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Threading_Tasks<TShape> =
   TShape extends null | undefined ? TShape
@@ -2645,10 +2741,13 @@ export type ExtensionMethods_System_Threading_Tasks<TShape> =
 // Generic helper type for extension methods in namespace: System.Threading.Tasks.Dataflow
 type __TsonicExtSurface_System_Threading_Tasks_Dataflow<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Threading_Tasks_Dataflow.ISourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ISourceBlock_1<T0> : {}), (TShape extends System_Threading_Tasks_Dataflow.IReceivableSourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1<T0> : {})>, (TShape extends System_Threading_Tasks_Dataflow.ITargetBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ITargetBlock_1<T0> : {})>
+    (TShape extends System_Threading_Tasks_Dataflow.ISourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ISourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.IReceivableSourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.ITargetBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ITargetBlock_1<T0> : {})
   );
 
-type __TsonicExtApplier_System_Threading_Tasks_Dataflow = <TShape>(shape: TShape) => __TsonicExtSurface_System_Threading_Tasks_Dataflow<TShape>;
+interface __TsonicExtApplier_System_Threading_Tasks_Dataflow {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Threading_Tasks_Dataflow<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Threading_Tasks_Dataflow<TShape> =
   TShape extends null | undefined ? TShape
@@ -2658,10 +2757,13 @@ export type ExtensionMethods_System_Threading_Tasks_Dataflow<TShape> =
 // Generic helper type for extension methods in namespace: System.Xml.Linq
 type __TsonicExtSurface_System_Xml_Linq<TShape> =
   (
-    __TsonicPreferExt<(TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Xml_Linq_IEnumerable_1<T0> : {}), (TShape extends (infer T)[] ? __Ext_System_Xml_Linq_IEnumerable_1<T> : {})>
+    (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Xml_Linq_IEnumerable_1<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Xml_Linq_IEnumerable_1<T> : {})
   );
 
-type __TsonicExtApplier_System_Xml_Linq = <TShape>(shape: TShape) => __TsonicExtSurface_System_Xml_Linq<TShape>;
+interface __TsonicExtApplier_System_Xml_Linq {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Xml_Linq<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Xml_Linq<TShape> =
   TShape extends null | undefined ? TShape
@@ -2671,10 +2773,13 @@ export type ExtensionMethods_System_Xml_Linq<TShape> =
 // Generic helper type for extension methods in namespace: System.Xml.Schema
 type __TsonicExtSurface_System_Xml_Schema<TShape> =
   (
-    __TsonicPreferExt<__TsonicPreferExt<(TShape extends System_Xml_Linq.XAttribute ? __Ext_System_Xml_Schema_XAttribute : {}), (TShape extends System_Xml_Linq.XDocument ? __Ext_System_Xml_Schema_XDocument : {})>, (TShape extends System_Xml_Linq.XElement ? __Ext_System_Xml_Schema_XElement : {})>
+    (TShape extends System_Xml_Linq.XAttribute ? __Ext_System_Xml_Schema_XAttribute : {}) & (TShape extends System_Xml_Linq.XDocument ? __Ext_System_Xml_Schema_XDocument : {}) & (TShape extends System_Xml_Linq.XElement ? __Ext_System_Xml_Schema_XElement : {})
   );
 
-type __TsonicExtApplier_System_Xml_Schema = <TShape>(shape: TShape) => __TsonicExtSurface_System_Xml_Schema<TShape>;
+interface __TsonicExtApplier_System_Xml_Schema {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Xml_Schema<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Xml_Schema<TShape> =
   TShape extends null | undefined ? TShape
@@ -2687,7 +2792,10 @@ type __TsonicExtSurface_System_Xml_XPath<TShape> =
     (TShape extends System_Xml_Linq.XNode ? __Ext_System_Xml_XPath_XNode : {})
   );
 
-type __TsonicExtApplier_System_Xml_XPath = <TShape>(shape: TShape) => __TsonicExtSurface_System_Xml_XPath<TShape>;
+interface __TsonicExtApplier_System_Xml_XPath {
+  __tsonic_shape: unknown;
+  __tsonic_type: __TsonicExtSurface_System_Xml_XPath<this["__tsonic_shape"]>;
+}
 
 export type ExtensionMethods_System_Xml_XPath<TShape> =
   TShape extends null | undefined ? TShape
