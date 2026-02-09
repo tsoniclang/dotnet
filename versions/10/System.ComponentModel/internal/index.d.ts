@@ -545,6 +545,8 @@ export interface ITypedList$instance {
 export type ITypedList = ITypedList$instance;
 
 export interface AddingNewEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_AddingNewEventArgs: never;
+
     get NewObject(): unknown | undefined;
     set NewObject(value: unknown | undefined);
 }
@@ -559,6 +561,8 @@ export const AddingNewEventArgs: {
 export type AddingNewEventArgs = AddingNewEventArgs$instance;
 
 export interface AmbientValueAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_AmbientValueAttribute: never;
+
     readonly Value: unknown | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -583,6 +587,8 @@ export const AmbientValueAttribute: {
 export type AmbientValueAttribute = AmbientValueAttribute$instance;
 
 export interface ArrayConverter$instance extends CollectionConverter {
+    readonly __tsonic_type_System_ComponentModel_ArrayConverter: never;
+
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
     ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
     GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
@@ -601,6 +607,8 @@ export const ArrayConverter: {
 export type ArrayConverter = ArrayConverter$instance;
 
 export interface AsyncCompletedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+
     readonly Cancelled: boolean;
     readonly Error: Exception | undefined;
     readonly UserState: unknown | undefined;
@@ -615,6 +623,8 @@ export const AsyncCompletedEventArgs: {
 export type AsyncCompletedEventArgs = AsyncCompletedEventArgs$instance;
 
 export interface AsyncOperation$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncOperation: never;
+
     readonly SynchronizationContext: SynchronizationContext;
     readonly UserSuppliedState: unknown | undefined;
     Finalize(): void;
@@ -631,6 +641,8 @@ export const AsyncOperation: {
 export type AsyncOperation = AsyncOperation$instance;
 
 export interface AttributeCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_AttributeCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -663,6 +675,8 @@ export type AttributeCollection = AttributeCollection$instance & __AttributeColl
 
 
 export interface AttributeProviderAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_AttributeProviderAttribute: never;
+
     readonly PropertyName: string | undefined;
     readonly TypeName: string | undefined;
 }
@@ -678,6 +692,8 @@ export const AttributeProviderAttribute: {
 export type AttributeProviderAttribute = AttributeProviderAttribute$instance;
 
 export interface BackgroundWorker$instance extends Component$instance {
+    readonly __tsonic_type_System_ComponentModel_BackgroundWorker: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -712,6 +728,8 @@ export type BackgroundWorker = BackgroundWorker$instance & __BackgroundWorker$vi
 
 
 export interface BaseNumberConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_BaseNumberConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -730,6 +748,8 @@ export const BaseNumberConverter: {
 export type BaseNumberConverter = BaseNumberConverter$instance;
 
 export interface BindableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_BindableAttribute: never;
+
     readonly Bindable: boolean;
     readonly Direction: BindingDirection;
     Equals(obj: unknown): boolean;
@@ -752,6 +772,8 @@ export const BindableAttribute: {
 export type BindableAttribute = BindableAttribute$instance;
 
 export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNew$instance, IRaiseItemChangedEvents$instance {
+    readonly __tsonic_type_System_ComponentModel_BindingList_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -830,6 +852,8 @@ export type BindingList_1<T> = BindingList_1$instance<T> & __BindingList_1$views
 
 
 export interface BooleanConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_BooleanConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
@@ -851,6 +875,8 @@ export const BooleanConverter: {
 export type BooleanConverter = BooleanConverter$instance;
 
 export interface BrowsableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_BrowsableAttribute: never;
+
     readonly Browsable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -869,6 +895,8 @@ export const BrowsableAttribute: {
 export type BrowsableAttribute = BrowsableAttribute$instance;
 
 export interface ByteConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_ByteConverter: never;
+
 }
 
 
@@ -880,6 +908,8 @@ export const ByteConverter: {
 export type ByteConverter = ByteConverter$instance;
 
 export interface CancelEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_CancelEventArgs: never;
+
     Cancel: boolean;
 }
 
@@ -893,6 +923,8 @@ export const CancelEventArgs: {
 export type CancelEventArgs = CancelEventArgs$instance;
 
 export interface CategoryAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_CategoryAttribute: never;
+
     readonly Category: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -924,6 +956,8 @@ export const CategoryAttribute: {
 export type CategoryAttribute = CategoryAttribute$instance;
 
 export interface CharConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_CharConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
@@ -941,6 +975,8 @@ export const CharConverter: {
 export type CharConverter = CharConverter$instance;
 
 export interface CollectionChangeEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_CollectionChangeEventArgs: never;
+
     readonly Action: CollectionChangeAction;
     readonly Element: unknown | undefined;
 }
@@ -954,6 +990,8 @@ export const CollectionChangeEventArgs: {
 export type CollectionChangeEventArgs = CollectionChangeEventArgs$instance;
 
 export interface CollectionConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_CollectionConverter: never;
+
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
     ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
     GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
@@ -970,6 +1008,8 @@ export const CollectionConverter: {
 export type CollectionConverter = CollectionConverter$instance;
 
 export interface ComplexBindingPropertiesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ComplexBindingPropertiesAttribute: never;
+
     readonly DataMember: string | undefined;
     readonly DataSource: string | undefined;
     Equals(obj: unknown): boolean;
@@ -988,6 +1028,8 @@ export const ComplexBindingPropertiesAttribute: {
 export type ComplexBindingPropertiesAttribute = ComplexBindingPropertiesAttribute$instance;
 
 export interface Component$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1017,6 +1059,8 @@ export type Component = Component$instance & __Component$views;
 
 
 export interface ComponentCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_type_System_ComponentModel_ComponentCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1041,6 +1085,8 @@ export type ComponentCollection = ComponentCollection$instance & __ComponentColl
 
 
 export interface ComponentConverter$instance extends ReferenceConverter {
+    readonly __tsonic_type_System_ComponentModel_ComponentConverter: never;
+
     GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
     GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
     GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
@@ -1057,6 +1103,8 @@ export const ComponentConverter: {
 export type ComponentConverter = ComponentConverter$instance;
 
 export interface ComponentEditor$instance {
+    readonly __tsonic_type_System_ComponentModel_ComponentEditor: never;
+
     EditComponent(component: unknown): boolean;
     EditComponent(context: ITypeDescriptorContext, component: unknown): boolean;
 }
@@ -1069,6 +1117,8 @@ export const ComponentEditor: (abstract new() => ComponentEditor) & {
 export type ComponentEditor = ComponentEditor$instance;
 
 export interface ComponentResourceManager$instance extends ResourceManager {
+    readonly __tsonic_type_System_ComponentModel_ComponentResourceManager: never;
+
     ApplyResources(value: unknown, objectName: string): void;
     ApplyResources(value: unknown, objectName: string, culture: CultureInfo): void;
     ApplyResourcesToRegisteredType(value: unknown, objectName: string, culture: CultureInfo): void;
@@ -1084,6 +1134,8 @@ export const ComponentResourceManager: {
 export type ComponentResourceManager = ComponentResourceManager$instance;
 
 export interface Container$instance {
+    readonly __tsonic_type_System_ComponentModel_Container: never;
+
     readonly __tsonic_iface_System_ComponentModel_IContainer: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1114,6 +1166,8 @@ export type Container = Container$instance & __Container$views;
 
 
 export interface ContainerFilterService$instance {
+    readonly __tsonic_type_System_ComponentModel_ContainerFilterService: never;
+
     FilterComponents(components: ComponentCollection): ComponentCollection;
 }
 
@@ -1125,6 +1179,8 @@ export const ContainerFilterService: (abstract new() => ContainerFilterService) 
 export type ContainerFilterService = ContainerFilterService$instance;
 
 export interface CultureInfoConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_CultureInfoConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1151,6 +1207,8 @@ export const CultureInfoConverter: {
 export type CultureInfoConverter = CultureInfoConverter$instance;
 
 export interface CustomTypeDescriptor$instance extends ICustomTypeDescriptor$instance {
+    readonly __tsonic_type_System_ComponentModel_CustomTypeDescriptor: never;
+
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
 
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
@@ -1184,6 +1242,8 @@ export type CustomTypeDescriptor = CustomTypeDescriptor$instance & __CustomTypeD
 
 
 export interface DataErrorsChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_DataErrorsChangedEventArgs: never;
+
     readonly PropertyName: string | undefined;
 }
 
@@ -1196,6 +1256,8 @@ export const DataErrorsChangedEventArgs: {
 export type DataErrorsChangedEventArgs = DataErrorsChangedEventArgs$instance;
 
 export interface DataObjectAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataObjectAttribute: never;
+
     readonly IsDataObject: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1215,6 +1277,8 @@ export const DataObjectAttribute: {
 export type DataObjectAttribute = DataObjectAttribute$instance;
 
 export interface DataObjectFieldAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataObjectFieldAttribute: never;
+
     readonly IsIdentity: boolean;
     readonly IsNullable: boolean;
     readonly Length: int;
@@ -1235,6 +1299,8 @@ export const DataObjectFieldAttribute: {
 export type DataObjectFieldAttribute = DataObjectFieldAttribute$instance;
 
 export interface DataObjectMethodAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataObjectMethodAttribute: never;
+
     readonly IsDefault: boolean;
     readonly MethodType: DataObjectMethodType;
     Equals(obj: unknown): boolean;
@@ -1252,6 +1318,8 @@ export const DataObjectMethodAttribute: {
 export type DataObjectMethodAttribute = DataObjectMethodAttribute$instance;
 
 export interface DateOnlyConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_DateOnlyConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1271,6 +1339,8 @@ export const DateOnlyConverter: {
 export type DateOnlyConverter = DateOnlyConverter$instance;
 
 export interface DateTimeConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_DateTimeConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1290,6 +1360,8 @@ export const DateTimeConverter: {
 export type DateTimeConverter = DateTimeConverter$instance;
 
 export interface DateTimeOffsetConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_DateTimeOffsetConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1309,6 +1381,8 @@ export const DateTimeOffsetConverter: {
 export type DateTimeOffsetConverter = DateTimeOffsetConverter$instance;
 
 export interface DecimalConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_DecimalConverter: never;
+
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     CanConvertTo(destinationType: Type): boolean;
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
@@ -1324,6 +1398,8 @@ export const DecimalConverter: {
 export type DecimalConverter = DecimalConverter$instance;
 
 export interface DefaultBindingPropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DefaultBindingPropertyAttribute: never;
+
     readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1340,6 +1416,8 @@ export const DefaultBindingPropertyAttribute: {
 export type DefaultBindingPropertyAttribute = DefaultBindingPropertyAttribute$instance;
 
 export interface DefaultEventAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DefaultEventAttribute: never;
+
     readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1355,6 +1433,8 @@ export const DefaultEventAttribute: {
 export type DefaultEventAttribute = DefaultEventAttribute$instance;
 
 export interface DefaultPropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DefaultPropertyAttribute: never;
+
     readonly Name: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1370,6 +1450,8 @@ export const DefaultPropertyAttribute: {
 export type DefaultPropertyAttribute = DefaultPropertyAttribute$instance;
 
 export interface DefaultValueAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DefaultValueAttribute: never;
+
     readonly Value: unknown | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1398,6 +1480,8 @@ export const DefaultValueAttribute: {
 export type DefaultValueAttribute = DefaultValueAttribute$instance;
 
 export interface DescriptionAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DescriptionAttribute: never;
+
     readonly Description: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1415,6 +1499,8 @@ export const DescriptionAttribute: {
 export type DescriptionAttribute = DescriptionAttribute$instance;
 
 export interface DesignerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DesignerAttribute: never;
+
     readonly DesignerBaseTypeName: string;
     readonly DesignerTypeName: string;
     readonly TypeId: unknown;
@@ -1435,6 +1521,8 @@ export const DesignerAttribute: {
 export type DesignerAttribute = DesignerAttribute$instance;
 
 export interface DesignerCategoryAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DesignerCategoryAttribute: never;
+
     readonly Category: string;
     readonly TypeId: unknown;
     Equals(obj: unknown): boolean;
@@ -1456,6 +1544,8 @@ export const DesignerCategoryAttribute: {
 export type DesignerCategoryAttribute = DesignerCategoryAttribute$instance;
 
 export interface DesignerSerializationVisibilityAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DesignerSerializationVisibilityAttribute: never;
+
     readonly Visibility: DesignerSerializationVisibility;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1475,6 +1565,8 @@ export const DesignerSerializationVisibilityAttribute: {
 export type DesignerSerializationVisibilityAttribute = DesignerSerializationVisibilityAttribute$instance;
 
 export interface DesignOnlyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DesignOnlyAttribute: never;
+
     readonly IsDesignOnly: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1493,6 +1585,8 @@ export const DesignOnlyAttribute: {
 export type DesignOnlyAttribute = DesignOnlyAttribute$instance;
 
 export interface DesignTimeVisibleAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DesignTimeVisibleAttribute: never;
+
     readonly Visible: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1512,6 +1606,8 @@ export const DesignTimeVisibleAttribute: {
 export type DesignTimeVisibleAttribute = DesignTimeVisibleAttribute$instance;
 
 export interface DisplayNameAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DisplayNameAttribute: never;
+
     readonly DisplayName: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1529,6 +1625,8 @@ export const DisplayNameAttribute: {
 export type DisplayNameAttribute = DisplayNameAttribute$instance;
 
 export interface DoubleConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_DoubleConverter: never;
+
 }
 
 
@@ -1540,6 +1638,8 @@ export const DoubleConverter: {
 export type DoubleConverter = DoubleConverter$instance;
 
 export interface DoWorkEventArgs$instance extends CancelEventArgs {
+    readonly __tsonic_type_System_ComponentModel_DoWorkEventArgs: never;
+
     readonly Argument: unknown | undefined;
     get Result(): unknown | undefined;
     set Result(value: unknown | undefined);
@@ -1554,6 +1654,8 @@ export const DoWorkEventArgs: {
 export type DoWorkEventArgs = DoWorkEventArgs$instance;
 
 export interface EditorAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_EditorAttribute: never;
+
     readonly EditorBaseTypeName: string | undefined;
     readonly EditorTypeName: string;
     readonly TypeId: unknown;
@@ -1573,6 +1675,8 @@ export const EditorAttribute: {
 export type EditorAttribute = EditorAttribute$instance;
 
 export interface EditorBrowsableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_EditorBrowsableAttribute: never;
+
     readonly State: EditorBrowsableState;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1588,6 +1692,8 @@ export const EditorBrowsableAttribute: {
 export type EditorBrowsableAttribute = EditorBrowsableAttribute$instance;
 
 export interface EnumConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_EnumConverter: never;
+
     readonly Comparer: IComparer;
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
@@ -1616,6 +1722,8 @@ export const EnumConverter: {
 export type EnumConverter = EnumConverter$instance;
 
 export interface EventDescriptor$instance extends MemberDescriptor {
+    readonly __tsonic_type_System_ComponentModel_EventDescriptor: never;
+
     readonly ComponentType: Type;
     readonly EventType: Type;
     readonly IsMulticast: boolean;
@@ -1631,6 +1739,8 @@ export const EventDescriptor: (abstract new(name: string, attrs: Attribute[]) =>
 export type EventDescriptor = EventDescriptor$instance;
 
 export interface EventDescriptorCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_EventDescriptorCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1671,6 +1781,8 @@ export type EventDescriptorCollection = EventDescriptorCollection$instance & __E
 
 
 export interface EventHandlerList$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_ComponentModel_EventHandlerList: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Item(): Function | undefined;
@@ -1695,6 +1807,8 @@ export type EventHandlerList = EventHandlerList$instance & __EventHandlerList$vi
 
 
 export interface ExpandableObjectConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_ExpandableObjectConverter: never;
+
     GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
     GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
     GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
@@ -1711,6 +1825,8 @@ export const ExpandableObjectConverter: {
 export type ExpandableObjectConverter = ExpandableObjectConverter$instance;
 
 export interface ExtenderProvidedPropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ExtenderProvidedPropertyAttribute: never;
+
     get ExtenderProperty(): PropertyDescriptor | undefined;
     set ExtenderProperty(value: PropertyDescriptor | undefined);
     get Provider(): IExtenderProvider | undefined;
@@ -1731,6 +1847,8 @@ export const ExtenderProvidedPropertyAttribute: {
 export type ExtenderProvidedPropertyAttribute = ExtenderProvidedPropertyAttribute$instance;
 
 export interface GuidConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_GuidConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1750,6 +1868,8 @@ export const GuidConverter: {
 export type GuidConverter = GuidConverter$instance;
 
 export interface HalfConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_HalfConverter: never;
+
 }
 
 
@@ -1761,6 +1881,8 @@ export const HalfConverter: {
 export type HalfConverter = HalfConverter$instance;
 
 export interface HandledEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_HandledEventArgs: never;
+
     Handled: boolean;
 }
 
@@ -1774,6 +1896,8 @@ export const HandledEventArgs: {
 export type HandledEventArgs = HandledEventArgs$instance;
 
 export interface ImmutableObjectAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ImmutableObjectAttribute: never;
+
     readonly Immutable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1792,6 +1916,8 @@ export const ImmutableObjectAttribute: {
 export type ImmutableObjectAttribute = ImmutableObjectAttribute$instance;
 
 export interface InheritanceAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_InheritanceAttribute: never;
+
     readonly InheritanceLevel: InheritanceLevel;
     Equals(value: unknown): boolean;
     GetHashCode(): int;
@@ -1813,6 +1939,8 @@ export const InheritanceAttribute: {
 export type InheritanceAttribute = InheritanceAttribute$instance;
 
 export interface InitializationEventAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_InitializationEventAttribute: never;
+
     readonly EventName: string;
 }
 
@@ -1825,6 +1953,8 @@ export const InitializationEventAttribute: {
 export type InitializationEventAttribute = InitializationEventAttribute$instance;
 
 export interface InstallerTypeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_InstallerTypeAttribute: never;
+
     readonly InstallerType: Type | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -1840,6 +1970,8 @@ export const InstallerTypeAttribute: {
 export type InstallerTypeAttribute = InstallerTypeAttribute$instance;
 
 export interface InstanceCreationEditor$instance {
+    readonly __tsonic_type_System_ComponentModel_InstanceCreationEditor: never;
+
     readonly Text: string;
     CreateInstance(context: ITypeDescriptorContext, instanceType: Type): unknown | undefined;
 }
@@ -1852,6 +1984,8 @@ export const InstanceCreationEditor: (abstract new() => InstanceCreationEditor) 
 export type InstanceCreationEditor = InstanceCreationEditor$instance;
 
 export interface Int128Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_Int128Converter: never;
+
 }
 
 
@@ -1863,6 +1997,8 @@ export const Int128Converter: {
 export type Int128Converter = Int128Converter$instance;
 
 export interface Int16Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_Int16Converter: never;
+
 }
 
 
@@ -1874,6 +2010,8 @@ export const Int16Converter: {
 export type Int16Converter = Int16Converter$instance;
 
 export interface Int32Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_Int32Converter: never;
+
 }
 
 
@@ -1885,6 +2023,8 @@ export const Int32Converter: {
 export type Int32Converter = Int32Converter$instance;
 
 export interface Int64Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_Int64Converter: never;
+
 }
 
 
@@ -1896,6 +2036,8 @@ export const Int64Converter: {
 export type Int64Converter = Int64Converter$instance;
 
 export interface InvalidAsynchronousStateException$instance extends ArgumentException {
+    readonly __tsonic_type_System_ComponentModel_InvalidAsynchronousStateException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1917,6 +2059,8 @@ export type InvalidAsynchronousStateException = InvalidAsynchronousStateExceptio
 
 
 export interface InvalidEnumArgumentException$instance extends ArgumentException {
+    readonly __tsonic_type_System_ComponentModel_InvalidEnumArgumentException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1939,6 +2083,8 @@ export type InvalidEnumArgumentException = InvalidEnumArgumentException$instance
 
 
 export interface License$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_ComponentModel_License: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly LicenseKey: string;
@@ -1958,6 +2104,8 @@ export type License = License$instance & __License$views;
 
 
 export interface LicenseContext$instance extends System_Internal.IServiceProvider$instance {
+    readonly __tsonic_type_System_ComponentModel_LicenseContext: never;
+
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly UsageMode: LicenseUsageMode;
@@ -1980,6 +2128,8 @@ export type LicenseContext = LicenseContext$instance & __LicenseContext$views;
 
 
 export interface LicenseException$instance extends SystemException {
+    readonly __tsonic_type_System_ComponentModel_LicenseException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly LicensedType: Type | undefined;
@@ -2003,6 +2153,8 @@ export type LicenseException = LicenseException$instance & __LicenseException$vi
 
 
 export interface LicenseManager$instance {
+    readonly __tsonic_type_System_ComponentModel_LicenseManager: never;
+
 }
 
 
@@ -2024,6 +2176,8 @@ export const LicenseManager: {
 export type LicenseManager = LicenseManager$instance;
 
 export interface LicenseProvider$instance {
+    readonly __tsonic_type_System_ComponentModel_LicenseProvider: never;
+
     GetLicense(context: LicenseContext, type: Type, instance: unknown, allowExceptions: boolean): License | undefined;
 }
 
@@ -2035,6 +2189,8 @@ export const LicenseProvider: (abstract new() => LicenseProvider) & {
 export type LicenseProvider = LicenseProvider$instance;
 
 export interface LicenseProviderAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_LicenseProviderAttribute: never;
+
     readonly LicenseProvider: Type | undefined;
     readonly TypeId: unknown;
     Equals(value: unknown): boolean;
@@ -2053,6 +2209,8 @@ export const LicenseProviderAttribute: {
 export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
 
 export interface LicFileLicenseProvider$instance extends LicenseProvider {
+    readonly __tsonic_type_System_ComponentModel_LicFileLicenseProvider: never;
+
     GetKey(type: Type): string;
     GetLicense(context: LicenseContext, type: Type, instance: unknown, allowExceptions: boolean): License | undefined;
     IsKeyValid(key: string, type: Type): boolean;
@@ -2067,6 +2225,8 @@ export const LicFileLicenseProvider: {
 export type LicFileLicenseProvider = LicFileLicenseProvider$instance;
 
 export interface ListBindableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ListBindableAttribute: never;
+
     readonly ListBindable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2086,6 +2246,8 @@ export const ListBindableAttribute: {
 export type ListBindableAttribute = ListBindableAttribute$instance;
 
 export interface ListChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_ListChangedEventArgs: never;
+
     readonly ListChangedType: ListChangedType;
     readonly NewIndex: int;
     readonly OldIndex: int;
@@ -2104,6 +2266,8 @@ export const ListChangedEventArgs: {
 export type ListChangedEventArgs = ListChangedEventArgs$instance;
 
 export interface ListSortDescription$instance {
+    readonly __tsonic_type_System_ComponentModel_ListSortDescription: never;
+
     get PropertyDescriptor(): PropertyDescriptor | undefined;
     set PropertyDescriptor(value: PropertyDescriptor | undefined);
     SortDirection: ListSortDirection;
@@ -2118,6 +2282,8 @@ export const ListSortDescription: {
 export type ListSortDescription = ListSortDescription$instance;
 
 export interface ListSortDescriptionCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_ListSortDescriptionCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -2146,6 +2312,8 @@ export type ListSortDescriptionCollection = ListSortDescriptionCollection$instan
 
 
 export interface LocalizableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_LocalizableAttribute: never;
+
     readonly IsLocalizable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2164,6 +2332,8 @@ export const LocalizableAttribute: {
 export type LocalizableAttribute = LocalizableAttribute$instance;
 
 export interface LookupBindingPropertiesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_LookupBindingPropertiesAttribute: never;
+
     readonly DataSource: string | undefined;
     readonly DisplayMember: string | undefined;
     readonly LookupMember: string | undefined;
@@ -2183,6 +2353,8 @@ export const LookupBindingPropertiesAttribute: {
 export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$instance;
 
 export interface MarshalByValueComponent$instance extends System_Internal.IServiceProvider$instance {
+    readonly __tsonic_type_System_ComponentModel_MarshalByValueComponent: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IServiceProvider: never;
@@ -2214,6 +2386,8 @@ export type MarshalByValueComponent = MarshalByValueComponent$instance & __Marsh
 
 
 export interface MaskedTextProvider$instance extends System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_ComponentModel_MaskedTextProvider: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AllowPromptAsInput: boolean;
@@ -2311,6 +2485,8 @@ export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvi
 
 
 export interface MemberDescriptor$instance {
+    readonly __tsonic_type_System_ComponentModel_MemberDescriptor: never;
+
     get AttributeArray(): Attribute[] | undefined;
     set AttributeArray(value: Attribute[] | undefined);
     readonly Attributes: AttributeCollection;
@@ -2340,6 +2516,8 @@ export const MemberDescriptor: (abstract new(name: string) => MemberDescriptor) 
 export type MemberDescriptor = MemberDescriptor$instance;
 
 export interface MergablePropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_MergablePropertyAttribute: never;
+
     readonly AllowMerge: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2358,6 +2536,8 @@ export const MergablePropertyAttribute: {
 export type MergablePropertyAttribute = MergablePropertyAttribute$instance;
 
 export interface MultilineStringConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_MultilineStringConverter: never;
+
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
     ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
     GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection | undefined;
@@ -2376,6 +2556,8 @@ export const MultilineStringConverter: {
 export type MultilineStringConverter = MultilineStringConverter$instance;
 
 export interface NestedContainer$instance extends Container$instance {
+    readonly __tsonic_type_System_ComponentModel_NestedContainer: never;
+
     readonly __tsonic_iface_System_ComponentModel_IContainer: never;
     readonly __tsonic_iface_System_ComponentModel_INestedContainer: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -2406,6 +2588,8 @@ export type NestedContainer = NestedContainer$instance & __NestedContainer$views
 
 
 export interface NotifyParentPropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_NotifyParentPropertyAttribute: never;
+
     readonly NotifyParent: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2424,6 +2608,8 @@ export const NotifyParentPropertyAttribute: {
 export type NotifyParentPropertyAttribute = NotifyParentPropertyAttribute$instance;
 
 export interface NullableConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_NullableConverter: never;
+
     readonly NullableType: Type;
     readonly UnderlyingType: Type;
     readonly UnderlyingTypeConverter: TypeConverter;
@@ -2463,6 +2649,8 @@ export const NullableConverter: {
 export type NullableConverter = NullableConverter$instance;
 
 export interface ParenthesizePropertyNameAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ParenthesizePropertyNameAttribute: never;
+
     readonly NeedParenthesis: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2480,6 +2668,8 @@ export const ParenthesizePropertyNameAttribute: {
 export type ParenthesizePropertyNameAttribute = ParenthesizePropertyNameAttribute$instance;
 
 export interface PasswordPropertyTextAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_PasswordPropertyTextAttribute: never;
+
     readonly Password: boolean;
     Equals(o: unknown): boolean;
     GetHashCode(): int;
@@ -2499,6 +2689,8 @@ export const PasswordPropertyTextAttribute: {
 export type PasswordPropertyTextAttribute = PasswordPropertyTextAttribute$instance;
 
 export interface ProgressChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_ProgressChangedEventArgs: never;
+
     readonly ProgressPercentage: int;
     readonly UserState: unknown | undefined;
 }
@@ -2512,6 +2704,8 @@ export const ProgressChangedEventArgs: {
 export type ProgressChangedEventArgs = ProgressChangedEventArgs$instance;
 
 export interface PropertyChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_PropertyChangedEventArgs: never;
+
     readonly PropertyName: string | undefined;
 }
 
@@ -2524,6 +2718,8 @@ export const PropertyChangedEventArgs: {
 export type PropertyChangedEventArgs = PropertyChangedEventArgs$instance;
 
 export interface PropertyChangingEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_PropertyChangingEventArgs: never;
+
     readonly PropertyName: string | undefined;
 }
 
@@ -2536,6 +2732,8 @@ export const PropertyChangingEventArgs: {
 export type PropertyChangingEventArgs = PropertyChangingEventArgs$instance;
 
 export interface PropertyDescriptor$instance extends MemberDescriptor {
+    readonly __tsonic_type_System_ComponentModel_PropertyDescriptor: never;
+
     readonly ComponentType: Type;
     readonly Converter: TypeConverter;
     readonly ConverterFromRegisteredType: TypeConverter;
@@ -2571,6 +2769,8 @@ export const PropertyDescriptor: (abstract new(name: string, attrs: Attribute[])
 export type PropertyDescriptor = PropertyDescriptor$instance;
 
 export interface PropertyDescriptorCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_PropertyDescriptorCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -2614,6 +2814,8 @@ export type PropertyDescriptorCollection = PropertyDescriptorCollection$instance
 
 
 export interface PropertyTabAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_PropertyTabAttribute: never;
+
     readonly TabClasses: Type[];
     TabScopes: PropertyTabScope[];
     Equals(other: unknown): boolean;
@@ -2634,6 +2836,8 @@ export const PropertyTabAttribute: {
 export type PropertyTabAttribute = PropertyTabAttribute$instance;
 
 export interface ProvidePropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ProvidePropertyAttribute: never;
+
     readonly PropertyName: string;
     readonly ReceiverTypeName: string;
     readonly TypeId: unknown;
@@ -2651,6 +2855,8 @@ export const ProvidePropertyAttribute: {
 export type ProvidePropertyAttribute = ProvidePropertyAttribute$instance;
 
 export interface ReadOnlyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ReadOnlyAttribute: never;
+
     readonly IsReadOnly: boolean;
     Equals(value: unknown): boolean;
     GetHashCode(): int;
@@ -2669,6 +2875,8 @@ export const ReadOnlyAttribute: {
 export type ReadOnlyAttribute = ReadOnlyAttribute$instance;
 
 export interface RecommendedAsConfigurableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_RecommendedAsConfigurableAttribute: never;
+
     readonly RecommendedAsConfigurable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2687,6 +2895,8 @@ export const RecommendedAsConfigurableAttribute: {
 export type RecommendedAsConfigurableAttribute = RecommendedAsConfigurableAttribute$instance;
 
 export interface ReferenceConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_ReferenceConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
@@ -2711,6 +2921,8 @@ export const ReferenceConverter: {
 export type ReferenceConverter = ReferenceConverter$instance;
 
 export interface RefreshEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_RefreshEventArgs: never;
+
     readonly ComponentChanged: unknown | undefined;
     readonly TypeChanged: Type | undefined;
 }
@@ -2725,6 +2937,8 @@ export const RefreshEventArgs: {
 export type RefreshEventArgs = RefreshEventArgs$instance;
 
 export interface RefreshPropertiesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_RefreshPropertiesAttribute: never;
+
     readonly RefreshProperties: RefreshProperties;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2743,6 +2957,8 @@ export const RefreshPropertiesAttribute: {
 export type RefreshPropertiesAttribute = RefreshPropertiesAttribute$instance;
 
 export interface RunInstallerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_RunInstallerAttribute: never;
+
     readonly RunInstaller: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2761,6 +2977,8 @@ export const RunInstallerAttribute: {
 export type RunInstallerAttribute = RunInstallerAttribute$instance;
 
 export interface RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_ComponentModel_RunWorkerCompletedEventArgs: never;
+
     readonly Result: unknown | undefined;
     readonly UserState: unknown | undefined;
 }
@@ -2774,6 +2992,8 @@ export const RunWorkerCompletedEventArgs: {
 export type RunWorkerCompletedEventArgs = RunWorkerCompletedEventArgs$instance;
 
 export interface SByteConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_SByteConverter: never;
+
 }
 
 
@@ -2785,6 +3005,8 @@ export const SByteConverter: {
 export type SByteConverter = SByteConverter$instance;
 
 export interface SettingsBindableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_SettingsBindableAttribute: never;
+
     readonly Bindable: boolean;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2801,6 +3023,8 @@ export const SettingsBindableAttribute: {
 export type SettingsBindableAttribute = SettingsBindableAttribute$instance;
 
 export interface SingleConverter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_SingleConverter: never;
+
 }
 
 
@@ -2812,6 +3036,8 @@ export const SingleConverter: {
 export type SingleConverter = SingleConverter$instance;
 
 export interface StringConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_StringConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
@@ -2827,6 +3053,8 @@ export const StringConverter: {
 export type StringConverter = StringConverter$instance;
 
 export interface TimeOnlyConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_TimeOnlyConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2846,6 +3074,8 @@ export const TimeOnlyConverter: {
 export type TimeOnlyConverter = TimeOnlyConverter$instance;
 
 export interface TimeSpanConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_TimeSpanConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2865,6 +3095,8 @@ export const TimeSpanConverter: {
 export type TimeSpanConverter = TimeSpanConverter$instance;
 
 export interface ToolboxItemAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ToolboxItemAttribute: never;
+
     readonly ToolboxItemType: Type | undefined;
     readonly ToolboxItemTypeName: string;
     Equals(obj: unknown): boolean;
@@ -2885,6 +3117,8 @@ export const ToolboxItemAttribute: {
 export type ToolboxItemAttribute = ToolboxItemAttribute$instance;
 
 export interface ToolboxItemFilterAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_ToolboxItemFilterAttribute: never;
+
     readonly FilterString: string;
     readonly FilterType: ToolboxItemFilterType;
     readonly TypeId: unknown;
@@ -2904,6 +3138,8 @@ export const ToolboxItemFilterAttribute: {
 export type ToolboxItemFilterAttribute = ToolboxItemFilterAttribute$instance;
 
 export interface TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
+
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertTo(destinationType: Type): boolean;
@@ -2950,6 +3186,8 @@ export const TypeConverter: {
 export type TypeConverter = TypeConverter$instance;
 
 export interface TypeConverter_StandardValuesCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter_StandardValuesCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -2974,6 +3212,8 @@ export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValue
 
 
 export interface TypeConverterAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_TypeConverterAttribute: never;
+
     readonly ConverterTypeName: string;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -2991,6 +3231,8 @@ export const TypeConverterAttribute: {
 export type TypeConverterAttribute = TypeConverterAttribute$instance;
 
 export interface TypeDescriptionProvider$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeDescriptionProvider: never;
+
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
     CreateInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown | undefined;
     GetCache(instance: unknown): IDictionary | undefined;
@@ -3021,6 +3263,8 @@ export const TypeDescriptionProvider: (abstract new() => TypeDescriptionProvider
 export type TypeDescriptionProvider = TypeDescriptionProvider$instance;
 
 export interface TypeDescriptionProviderAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_TypeDescriptionProviderAttribute: never;
+
     readonly TypeName: string;
 }
 
@@ -3034,6 +3278,8 @@ export const TypeDescriptionProviderAttribute: {
 export type TypeDescriptionProviderAttribute = TypeDescriptionProviderAttribute$instance;
 
 export interface TypeDescriptor$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeDescriptor: never;
+
 }
 
 
@@ -3117,6 +3363,8 @@ export const TypeDescriptor: {
 export type TypeDescriptor = TypeDescriptor$instance;
 
 export interface TypeListConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_TypeListConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -3141,6 +3389,8 @@ export const TypeListConverter: (abstract new(types: Type[]) => TypeListConverte
 export type TypeListConverter = TypeListConverter$instance;
 
 export interface UInt128Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_UInt128Converter: never;
+
 }
 
 
@@ -3152,6 +3402,8 @@ export const UInt128Converter: {
 export type UInt128Converter = UInt128Converter$instance;
 
 export interface UInt16Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_UInt16Converter: never;
+
 }
 
 
@@ -3163,6 +3415,8 @@ export const UInt16Converter: {
 export type UInt16Converter = UInt16Converter$instance;
 
 export interface UInt32Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_UInt32Converter: never;
+
 }
 
 
@@ -3174,6 +3428,8 @@ export const UInt32Converter: {
 export type UInt32Converter = UInt32Converter$instance;
 
 export interface UInt64Converter$instance extends BaseNumberConverter {
+    readonly __tsonic_type_System_ComponentModel_UInt64Converter: never;
+
 }
 
 
@@ -3185,6 +3441,8 @@ export const UInt64Converter: {
 export type UInt64Converter = UInt64Converter$instance;
 
 export interface VersionConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_ComponentModel_VersionConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -3206,6 +3464,8 @@ export const VersionConverter: {
 export type VersionConverter = VersionConverter$instance;
 
 export interface WarningException$instance extends SystemException {
+    readonly __tsonic_type_System_ComponentModel_WarningException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HelpTopic: string | undefined;
@@ -3231,6 +3491,8 @@ export type WarningException = WarningException$instance & __WarningException$vi
 
 
 export interface Win32Exception$instance extends ExternalException {
+    readonly __tsonic_type_System_ComponentModel_Win32Exception: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly NativeErrorCode: int;

@@ -53,6 +53,8 @@ export enum UIOption {
 
 
 export interface FileSystem$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_FileIO_FileSystem: never;
+
 }
 
 
@@ -119,6 +121,8 @@ export const FileSystem: {
 export type FileSystem = FileSystem$instance;
 
 export interface MalformedLineException$instance extends Exception {
+    readonly __tsonic_type_Microsoft_VisualBasic_FileIO_MalformedLineException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     LineNumber: long;
@@ -144,6 +148,8 @@ export type MalformedLineException = MalformedLineException$instance & __Malform
 
 
 export interface SpecialDirectories$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_FileIO_SpecialDirectories: never;
+
 }
 
 
@@ -164,6 +170,8 @@ export const SpecialDirectories: {
 export type SpecialDirectories = SpecialDirectories$instance;
 
 export interface TextFieldParser$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_FileIO_TextFieldParser: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CommentTokens: string[];

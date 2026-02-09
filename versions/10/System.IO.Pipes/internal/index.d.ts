@@ -68,6 +68,8 @@ export type PipeStreamImpersonationWorker = () => void;
 
 
 export interface AnonymousPipeClientStream$instance extends PipeStream$instance {
+    readonly __tsonic_type_System_IO_Pipes_AnonymousPipeClientStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -96,6 +98,8 @@ export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __A
 
 
 export interface AnonymousPipeServerStream$instance extends PipeStream$instance {
+    readonly __tsonic_type_System_IO_Pipes_AnonymousPipeServerStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -129,6 +133,8 @@ export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __A
 
 
 export interface NamedPipeClientStream$instance extends PipeStream$instance {
+    readonly __tsonic_type_System_IO_Pipes_NamedPipeClientStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -172,6 +178,8 @@ export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipe
 
 
 export interface NamedPipeServerStream$instance extends PipeStream$instance {
+    readonly __tsonic_type_System_IO_Pipes_NamedPipeServerStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -213,6 +221,8 @@ export type NamedPipeServerStream = NamedPipeServerStream$instance & __NamedPipe
 
 
 export interface PipeAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_IO_Pipes_PipeAccessRule: never;
+
     readonly PipeAccessRights: PipeAccessRights;
 }
 
@@ -226,6 +236,8 @@ export const PipeAccessRule: {
 export type PipeAccessRule = PipeAccessRule$instance;
 
 export interface PipeAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_IO_Pipes_PipeAuditRule: never;
+
     readonly PipeAccessRights: PipeAccessRights;
 }
 
@@ -239,6 +251,8 @@ export const PipeAuditRule: {
 export type PipeAuditRule = PipeAuditRule$instance;
 
 export interface PipeSecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_IO_Pipes_PipeSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -268,6 +282,8 @@ export const PipeSecurity: {
 export type PipeSecurity = PipeSecurity$instance;
 
 export interface PipeStream$instance extends Stream {
+    readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

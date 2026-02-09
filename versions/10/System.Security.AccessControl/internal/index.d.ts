@@ -254,6 +254,8 @@ export enum SemaphoreRights {
 
 
 export interface AccessRule$instance extends AuthorizationRule {
+    readonly __tsonic_type_System_Security_AccessControl_AccessRule: never;
+
     readonly AccessControlType: AccessControlType;
 }
 
@@ -265,6 +267,8 @@ export const AccessRule: (abstract new(identity: IdentityReference, accessMask: 
 export type AccessRule = AccessRule$instance;
 
 export interface AccessRule_1$instance<T extends unknown> extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_AccessRule_1: never;
+
     readonly Rights: T;
 }
 
@@ -280,6 +284,8 @@ export const AccessRule_1: {
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
 export interface AceEnumerator$instance {
+    readonly __tsonic_type_System_Security_AccessControl_AceEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: GenericAce;
@@ -300,6 +306,8 @@ export type AceEnumerator = AceEnumerator$instance & __AceEnumerator$views;
 
 
 export interface AuditRule$instance extends AuthorizationRule {
+    readonly __tsonic_type_System_Security_AccessControl_AuditRule: never;
+
     readonly AuditFlags: AuditFlags;
 }
 
@@ -311,6 +319,8 @@ export const AuditRule: (abstract new(identity: IdentityReference, accessMask: i
 export type AuditRule = AuditRule$instance;
 
 export interface AuditRule_1$instance<T extends unknown> extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_AuditRule_1: never;
+
     readonly Rights: T;
 }
 
@@ -326,6 +336,8 @@ export const AuditRule_1: {
 export type AuditRule_1<T> = AuditRule_1$instance<T>;
 
 export interface AuthorizationRule$instance {
+    readonly __tsonic_type_System_Security_AccessControl_AuthorizationRule: never;
+
     readonly IdentityReference: IdentityReference;
     readonly InheritanceFlags: InheritanceFlags;
     readonly IsInherited: boolean;
@@ -340,6 +352,8 @@ export const AuthorizationRule: (abstract new(identity: IdentityReference, acces
 export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_type_System_Security_AccessControl_AuthorizationRuleCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -364,6 +378,8 @@ export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance &
 
 
 export interface CommonAce$instance extends QualifiedAce {
+    readonly __tsonic_type_System_Security_AccessControl_CommonAce: never;
+
     readonly BinaryLength: int;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
 }
@@ -378,6 +394,8 @@ export const CommonAce: {
 export type CommonAce = CommonAce$instance;
 
 export interface CommonAcl$instance extends GenericAcl$instance {
+    readonly __tsonic_type_System_Security_AccessControl_CommonAcl: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -411,6 +429,8 @@ export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
 
 
 export interface CommonObjectSecurity$instance extends ObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_CommonObjectSecurity: never;
+
     GetAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     GetAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
@@ -425,6 +445,8 @@ export const CommonObjectSecurity: (abstract new(isContainer: boolean) => Common
 export type CommonObjectSecurity = CommonObjectSecurity$instance;
 
 export interface CommonSecurityDescriptor$instance extends GenericSecurityDescriptor {
+    readonly __tsonic_type_System_Security_AccessControl_CommonSecurityDescriptor: never;
+
     readonly ControlFlags: ControlFlags;
     get DiscretionaryAcl(): DiscretionaryAcl | undefined;
     set DiscretionaryAcl(value: DiscretionaryAcl | undefined);
@@ -458,6 +480,8 @@ export const CommonSecurityDescriptor: {
 export type CommonSecurityDescriptor = CommonSecurityDescriptor$instance;
 
 export interface CompoundAce$instance extends KnownAce {
+    readonly __tsonic_type_System_Security_AccessControl_CompoundAce: never;
+
     readonly BinaryLength: int;
     CompoundAceType: CompoundAceType;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
@@ -472,6 +496,8 @@ export const CompoundAce: {
 export type CompoundAce = CompoundAce$instance;
 
 export interface CustomAce$instance extends GenericAce {
+    readonly __tsonic_type_System_Security_AccessControl_CustomAce: never;
+
     readonly BinaryLength: int;
     readonly OpaqueLength: int;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
@@ -489,6 +515,8 @@ export const CustomAce: {
 export type CustomAce = CustomAce$instance;
 
 export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_DirectoryObjectSecurity: never;
+
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
@@ -507,6 +535,8 @@ export const DirectoryObjectSecurity: (abstract new() => DirectoryObjectSecurity
 export type DirectoryObjectSecurity = DirectoryObjectSecurity$instance;
 
 export interface DirectorySecurity$instance extends FileSystemSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_DirectorySecurity: never;
+
 }
 
 
@@ -519,6 +549,8 @@ export const DirectorySecurity: {
 export type DirectorySecurity = DirectorySecurity$instance;
 
 export interface DiscretionaryAcl$instance extends CommonAcl$instance {
+    readonly __tsonic_type_System_Security_AccessControl_DiscretionaryAcl: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -557,6 +589,8 @@ export type DiscretionaryAcl = DiscretionaryAcl$instance & __DiscretionaryAcl$vi
 
 
 export interface EventWaitHandleAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_EventWaitHandleAccessRule: never;
+
     readonly EventWaitHandleRights: EventWaitHandleRights;
 }
 
@@ -570,6 +604,8 @@ export const EventWaitHandleAccessRule: {
 export type EventWaitHandleAccessRule = EventWaitHandleAccessRule$instance;
 
 export interface EventWaitHandleAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_EventWaitHandleAuditRule: never;
+
     readonly EventWaitHandleRights: EventWaitHandleRights;
 }
 
@@ -582,6 +618,8 @@ export const EventWaitHandleAuditRule: {
 export type EventWaitHandleAuditRule = EventWaitHandleAuditRule$instance;
 
 export interface EventWaitHandleSecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_EventWaitHandleSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -609,6 +647,8 @@ export const EventWaitHandleSecurity: {
 export type EventWaitHandleSecurity = EventWaitHandleSecurity$instance;
 
 export interface FileSecurity$instance extends FileSystemSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_FileSecurity: never;
+
 }
 
 
@@ -621,6 +661,8 @@ export const FileSecurity: {
 export type FileSecurity = FileSecurity$instance;
 
 export interface FileSystemAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_FileSystemAccessRule: never;
+
     readonly FileSystemRights: FileSystemRights;
 }
 
@@ -636,6 +678,8 @@ export const FileSystemAccessRule: {
 export type FileSystemAccessRule = FileSystemAccessRule$instance;
 
 export interface FileSystemAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_FileSystemAuditRule: never;
+
     readonly FileSystemRights: FileSystemRights;
 }
 
@@ -651,6 +695,8 @@ export const FileSystemAuditRule: {
 export type FileSystemAuditRule = FileSystemAuditRule$instance;
 
 export interface FileSystemSecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_FileSystemSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -677,6 +723,8 @@ export const FileSystemSecurity: {
 export type FileSystemSecurity = FileSystemSecurity$instance;
 
 export interface GenericAce$instance {
+    readonly __tsonic_type_System_Security_AccessControl_GenericAce: never;
+
     AceFlags: AceFlags;
     readonly AceType: AceType;
     readonly AuditFlags: AuditFlags;
@@ -699,6 +747,8 @@ export const GenericAce: {
 export type GenericAce = GenericAce$instance;
 
 export interface GenericAcl$instance {
+    readonly __tsonic_type_System_Security_AccessControl_GenericAcl: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -730,6 +780,8 @@ export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
 
 
 export interface GenericSecurityDescriptor$instance {
+    readonly __tsonic_type_System_Security_AccessControl_GenericSecurityDescriptor: never;
+
     readonly BinaryLength: int;
     readonly ControlFlags: ControlFlags;
     get Group(): SecurityIdentifier | undefined;
@@ -750,6 +802,8 @@ export const GenericSecurityDescriptor: {
 export type GenericSecurityDescriptor = GenericSecurityDescriptor$instance;
 
 export interface KnownAce$instance extends GenericAce {
+    readonly __tsonic_type_System_Security_AccessControl_KnownAce: never;
+
     AccessMask: int;
     SecurityIdentifier: SecurityIdentifier;
 }
@@ -762,6 +816,8 @@ export const KnownAce: {
 export type KnownAce = KnownAce$instance;
 
 export interface MutexAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_MutexAccessRule: never;
+
     readonly MutexRights: MutexRights;
 }
 
@@ -775,6 +831,8 @@ export const MutexAccessRule: {
 export type MutexAccessRule = MutexAccessRule$instance;
 
 export interface MutexAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_MutexAuditRule: never;
+
     readonly MutexRights: MutexRights;
 }
 
@@ -787,6 +845,8 @@ export const MutexAuditRule: {
 export type MutexAuditRule = MutexAuditRule$instance;
 
 export interface MutexSecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_MutexSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -815,6 +875,8 @@ export const MutexSecurity: {
 export type MutexSecurity = MutexSecurity$instance;
 
 export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_NativeObjectSecurity: never;
+
     Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
     Persist(name: string, includeSections: AccessControlSections): void;
     Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
@@ -828,6 +890,8 @@ export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceT
 export type NativeObjectSecurity = NativeObjectSecurity$instance;
 
 export interface ObjectAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_ObjectAccessRule: never;
+
     readonly InheritedObjectType: Guid;
     readonly ObjectFlags: ObjectAceFlags;
     readonly ObjectType: Guid;
@@ -841,6 +905,8 @@ export const ObjectAccessRule: (abstract new(identity: IdentityReference, access
 export type ObjectAccessRule = ObjectAccessRule$instance;
 
 export interface ObjectAce$instance extends QualifiedAce {
+    readonly __tsonic_type_System_Security_AccessControl_ObjectAce: never;
+
     readonly BinaryLength: int;
     InheritedObjectAceType: Guid;
     ObjectAceFlags: ObjectAceFlags;
@@ -858,6 +924,8 @@ export const ObjectAce: {
 export type ObjectAce = ObjectAce$instance;
 
 export interface ObjectAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_ObjectAuditRule: never;
+
     readonly InheritedObjectType: Guid;
     readonly ObjectFlags: ObjectAceFlags;
     readonly ObjectType: Guid;
@@ -871,6 +939,8 @@ export const ObjectAuditRule: (abstract new(identity: IdentityReference, accessM
 export type ObjectAuditRule = ObjectAuditRule$instance;
 
 export interface ObjectSecurity$instance {
+    readonly __tsonic_type_System_Security_AccessControl_ObjectSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AreAccessRulesCanonical: boolean;
@@ -912,6 +982,8 @@ export const ObjectSecurity: (abstract new() => ObjectSecurity) & (abstract new(
 export type ObjectSecurity = ObjectSecurity$instance;
 
 export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_ObjectSecurity_1: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -941,6 +1013,8 @@ export const ObjectSecurity_1: (abstract new<T extends unknown>(isContainer: boo
 export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
 
 export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
+    readonly __tsonic_type_System_Security_AccessControl_PrivilegeNotHeldException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly PrivilegeName: string | undefined;
@@ -963,6 +1037,8 @@ export type PrivilegeNotHeldException = PrivilegeNotHeldException$instance & __P
 
 
 export interface QualifiedAce$instance extends KnownAce {
+    readonly __tsonic_type_System_Security_AccessControl_QualifiedAce: never;
+
     readonly AceQualifier: AceQualifier;
     readonly IsCallback: boolean;
     readonly OpaqueLength: int;
@@ -978,6 +1054,8 @@ export const QualifiedAce: {
 export type QualifiedAce = QualifiedAce$instance;
 
 export interface RawAcl$instance extends GenericAcl$instance {
+    readonly __tsonic_type_System_Security_AccessControl_RawAcl: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1010,6 +1088,8 @@ export type RawAcl = RawAcl$instance & __RawAcl$views;
 
 
 export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {
+    readonly __tsonic_type_System_Security_AccessControl_RawSecurityDescriptor: never;
+
     readonly ControlFlags: ControlFlags;
     get DiscretionaryAcl(): RawAcl | undefined;
     set DiscretionaryAcl(value: RawAcl | undefined);
@@ -1034,6 +1114,8 @@ export const RawSecurityDescriptor: {
 export type RawSecurityDescriptor = RawSecurityDescriptor$instance;
 
 export interface RegistryAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_RegistryAccessRule: never;
+
     readonly RegistryRights: RegistryRights;
 }
 
@@ -1049,6 +1131,8 @@ export const RegistryAccessRule: {
 export type RegistryAccessRule = RegistryAccessRule$instance;
 
 export interface RegistryAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_RegistryAuditRule: never;
+
     readonly RegistryRights: RegistryRights;
 }
 
@@ -1062,6 +1146,8 @@ export const RegistryAuditRule: {
 export type RegistryAuditRule = RegistryAuditRule$instance;
 
 export interface RegistrySecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_RegistrySecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -1089,6 +1175,8 @@ export const RegistrySecurity: {
 export type RegistrySecurity = RegistrySecurity$instance;
 
 export interface SemaphoreAccessRule$instance extends AccessRule {
+    readonly __tsonic_type_System_Security_AccessControl_SemaphoreAccessRule: never;
+
     readonly SemaphoreRights: SemaphoreRights;
 }
 
@@ -1102,6 +1190,8 @@ export const SemaphoreAccessRule: {
 export type SemaphoreAccessRule = SemaphoreAccessRule$instance;
 
 export interface SemaphoreAuditRule$instance extends AuditRule {
+    readonly __tsonic_type_System_Security_AccessControl_SemaphoreAuditRule: never;
+
     readonly SemaphoreRights: SemaphoreRights;
 }
 
@@ -1114,6 +1204,8 @@ export const SemaphoreAuditRule: {
 export type SemaphoreAuditRule = SemaphoreAuditRule$instance;
 
 export interface SemaphoreSecurity$instance extends NativeObjectSecurity {
+    readonly __tsonic_type_System_Security_AccessControl_SemaphoreSecurity: never;
+
     readonly AccessRightType: Type;
     readonly AccessRuleType: Type;
     readonly AuditRuleType: Type;
@@ -1142,6 +1234,8 @@ export const SemaphoreSecurity: {
 export type SemaphoreSecurity = SemaphoreSecurity$instance;
 
 export interface SystemAcl$instance extends CommonAcl$instance {
+    readonly __tsonic_type_System_Security_AccessControl_SystemAcl: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 

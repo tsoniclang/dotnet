@@ -17,6 +17,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface HtmlEncoder$instance extends TextEncoder {
+    readonly __tsonic_type_System_Text_Encodings_Web_HtmlEncoder: never;
+
 }
 
 
@@ -30,6 +32,8 @@ export const HtmlEncoder: (abstract new() => HtmlEncoder) & {
 export type HtmlEncoder = HtmlEncoder$instance;
 
 export interface JavaScriptEncoder$instance extends TextEncoder {
+    readonly __tsonic_type_System_Text_Encodings_Web_JavaScriptEncoder: never;
+
 }
 
 
@@ -44,6 +48,8 @@ export const JavaScriptEncoder: (abstract new() => JavaScriptEncoder) & {
 export type JavaScriptEncoder = JavaScriptEncoder$instance;
 
 export interface TextEncoder$instance {
+    readonly __tsonic_type_System_Text_Encodings_Web_TextEncoder: never;
+
     readonly MaxOutputCharactersPerInputCharacter: int;
     Encode(value: string): string;
     Encode(output: TextWriter, value: string): void;
@@ -65,6 +71,8 @@ export const TextEncoder: (abstract new() => TextEncoder) & {
 export type TextEncoder = TextEncoder$instance;
 
 export interface TextEncoderSettings$instance {
+    readonly __tsonic_type_System_Text_Encodings_Web_TextEncoderSettings: never;
+
     AllowCharacter(character: char): void;
     AllowCharacters(...characters: char[]): void;
     AllowCodePoints(codePoints: IEnumerable_1<System_Internal.Int32>): void;
@@ -89,6 +97,8 @@ export const TextEncoderSettings: {
 export type TextEncoderSettings = TextEncoderSettings$instance;
 
 export interface UrlEncoder$instance extends TextEncoder {
+    readonly __tsonic_type_System_Text_Encodings_Web_UrlEncoder: never;
+
 }
 
 

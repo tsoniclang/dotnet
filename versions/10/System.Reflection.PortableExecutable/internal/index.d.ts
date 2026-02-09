@@ -194,6 +194,8 @@ export enum Subsystem {
 
 
 export interface CodeViewDebugDirectoryData$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_CodeViewDebugDirectoryData: never;
+
     readonly Age: int;
     readonly Guid: Guid;
     readonly Path: string;
@@ -208,6 +210,8 @@ export const CodeViewDebugDirectoryData: {
 export type CodeViewDebugDirectoryData = CodeViewDebugDirectoryData$instance;
 
 export interface DebugDirectoryEntry$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_DebugDirectoryEntry: never;
+
     readonly DataPointer: int;
     readonly DataRelativeVirtualAddress: int;
     readonly DataSize: int;
@@ -227,6 +231,8 @@ export const DebugDirectoryEntry: {
 export type DebugDirectoryEntry = DebugDirectoryEntry$instance;
 
 export interface DirectoryEntry$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_DirectoryEntry: never;
+
     readonly RelativeVirtualAddress: int;
     readonly Size: int;
 }
@@ -240,6 +246,8 @@ export const DirectoryEntry: {
 export type DirectoryEntry = DirectoryEntry$instance;
 
 export interface PdbChecksumDebugDirectoryData$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PdbChecksumDebugDirectoryData: never;
+
     readonly AlgorithmName: string;
     readonly Checksum: ImmutableArray_1<System_Internal.Byte>;
 }
@@ -253,6 +261,8 @@ export const PdbChecksumDebugDirectoryData: {
 export type PdbChecksumDebugDirectoryData = PdbChecksumDebugDirectoryData$instance;
 
 export interface PEMemoryBlock$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEMemoryBlock: never;
+
     readonly Length: int;
     readonly Pointer: ptr<byte>;
     GetContent(): ImmutableArray_1<System_Internal.Byte>;
@@ -270,6 +280,8 @@ export const PEMemoryBlock: {
 export type PEMemoryBlock = PEMemoryBlock$instance;
 
 export interface SectionHeader$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_SectionHeader: never;
+
     readonly Name: string;
     readonly NumberOfLineNumbers: ushort;
     readonly NumberOfRelocations: ushort;
@@ -291,6 +303,8 @@ export const SectionHeader: {
 export type SectionHeader = SectionHeader$instance;
 
 export interface SectionLocation$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_SectionLocation: never;
+
     readonly PointerToRawData: int;
     readonly RelativeVirtualAddress: int;
 }
@@ -304,6 +318,8 @@ export const SectionLocation: {
 export type SectionLocation = SectionLocation$instance;
 
 export interface CoffHeader$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_CoffHeader: never;
+
     readonly Characteristics: Characteristics;
     readonly Machine: Machine;
     readonly NumberOfSections: short;
@@ -321,6 +337,8 @@ export const CoffHeader: {
 export type CoffHeader = CoffHeader$instance;
 
 export interface CorHeader$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_CorHeader: never;
+
     readonly CodeManagerTableDirectory: DirectoryEntry;
     readonly EntryPointTokenOrRelativeVirtualAddress: int;
     readonly ExportAddressTableJumpsDirectory: DirectoryEntry;
@@ -342,6 +360,8 @@ export const CorHeader: {
 export type CorHeader = CorHeader$instance;
 
 export interface DebugDirectoryBuilder$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_DebugDirectoryBuilder: never;
+
     AddCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort): void;
     AddCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
     AddEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
@@ -360,6 +380,8 @@ export const DebugDirectoryBuilder: {
 export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 
 export interface ManagedPEBuilder$instance extends PEBuilder {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_ManagedPEBuilder: never;
+
     CreateSections(): ImmutableArray_1<unknown>;
     GetDirectories(): PEDirectoriesBuilder;
     SerializeSection(name: string, location: SectionLocation): BlobBuilder;
@@ -377,6 +399,8 @@ export const ManagedPEBuilder: {
 export type ManagedPEBuilder = ManagedPEBuilder$instance;
 
 export interface PEBuilder$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEBuilder: never;
+
     readonly Header: PEHeaderBuilder;
     readonly IdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
     readonly IsDeterministic: boolean;
@@ -394,6 +418,8 @@ export const PEBuilder: (abstract new(header: PEHeaderBuilder, deterministicIdPr
 export type PEBuilder = PEBuilder$instance;
 
 export interface PEDirectoriesBuilder$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEDirectoriesBuilder: never;
+
     AddressOfEntryPoint: int;
     BaseRelocationTable: DirectoryEntry;
     BoundImportTable: DirectoryEntry;
@@ -420,6 +446,8 @@ export const PEDirectoriesBuilder: {
 export type PEDirectoriesBuilder = PEDirectoriesBuilder$instance;
 
 export interface PEHeader$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEHeader: never;
+
     readonly AddressOfEntryPoint: int;
     readonly BaseOfCode: int;
     readonly BaseOfData: int;
@@ -473,6 +501,8 @@ export const PEHeader: {
 export type PEHeader = PEHeader$instance;
 
 export interface PEHeaderBuilder$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEHeaderBuilder: never;
+
     readonly DllCharacteristics: DllCharacteristics;
     readonly FileAlignment: int;
     readonly ImageBase: ulong;
@@ -505,6 +535,8 @@ export const PEHeaderBuilder: {
 export type PEHeaderBuilder = PEHeaderBuilder$instance;
 
 export interface PEHeaders$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEHeaders: never;
+
     readonly CoffHeader: CoffHeader;
     readonly CoffHeaderStartOffset: int;
     readonly CorHeader: CorHeader | undefined;
@@ -533,6 +565,8 @@ export const PEHeaders: {
 export type PEHeaders = PEHeaders$instance;
 
 export interface PEReader$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEReader: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly HasMetadata: boolean;
@@ -570,6 +604,8 @@ export type PEReader = PEReader$instance & __PEReader$views;
 
 
 export interface ResourceSectionBuilder$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_ResourceSectionBuilder: never;
+
     Serialize(builder: BlobBuilder, location: SectionLocation): void;
 }
 

@@ -21,6 +21,8 @@ export type SseItemParser_1<T> = (eventType: string, data: ReadOnlySpan_1<System
 
 
 export interface SseItem_1$instance<T> {
+    readonly __tsonic_type_System_Net_ServerSentEvents_SseItem_1: never;
+
     readonly Data: T;
     get EventId(): string | undefined;
     set EventId(value: string | undefined);
@@ -37,6 +39,8 @@ export const SseItem_1: {
 export type SseItem_1<T> = SseItem_1$instance<T>;
 
 export interface SseParser_1$instance<T> {
+    readonly __tsonic_type_System_Net_ServerSentEvents_SseParser_1: never;
+
     LastEventId: string;
     ReconnectionInterval: TimeSpan;
     Enumerate(): IEnumerable_1<SseItem_1<T>>;

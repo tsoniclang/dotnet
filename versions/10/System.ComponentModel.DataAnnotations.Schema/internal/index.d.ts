@@ -17,6 +17,8 @@ export enum DatabaseGeneratedOption {
 
 
 export interface ColumnAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ColumnAttribute: never;
+
     readonly Name: string | undefined;
     Order: int;
     get TypeName(): string | undefined;
@@ -33,6 +35,8 @@ export const ColumnAttribute: {
 export type ColumnAttribute = ColumnAttribute$instance;
 
 export interface ComplexTypeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ComplexTypeAttribute: never;
+
 }
 
 
@@ -44,6 +48,8 @@ export const ComplexTypeAttribute: {
 export type ComplexTypeAttribute = ComplexTypeAttribute$instance;
 
 export interface DatabaseGeneratedAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_DatabaseGeneratedAttribute: never;
+
     readonly DatabaseGeneratedOption: DatabaseGeneratedOption;
 }
 
@@ -56,6 +62,8 @@ export const DatabaseGeneratedAttribute: {
 export type DatabaseGeneratedAttribute = DatabaseGeneratedAttribute$instance;
 
 export interface ForeignKeyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ForeignKeyAttribute: never;
+
     readonly Name: string;
 }
 
@@ -68,6 +76,8 @@ export const ForeignKeyAttribute: {
 export type ForeignKeyAttribute = ForeignKeyAttribute$instance;
 
 export interface InversePropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_InversePropertyAttribute: never;
+
     readonly Property: string;
 }
 
@@ -80,6 +90,8 @@ export const InversePropertyAttribute: {
 export type InversePropertyAttribute = InversePropertyAttribute$instance;
 
 export interface NotMappedAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_NotMappedAttribute: never;
+
 }
 
 
@@ -91,6 +103,8 @@ export const NotMappedAttribute: {
 export type NotMappedAttribute = NotMappedAttribute$instance;
 
 export interface TableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_TableAttribute: never;
+
     readonly Name: string;
     get Schema(): string | undefined;
     set Schema(value: string | undefined);

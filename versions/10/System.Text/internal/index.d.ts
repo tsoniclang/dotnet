@@ -31,6 +31,8 @@ export enum NormalizationForm {
 
 
 export interface Rune$instance {
+    readonly __tsonic_type_System_Text_Rune: never;
+
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IComparable_1: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -114,6 +116,8 @@ export type Rune = Rune$instance & __Rune$views;
 
 
 export interface SpanLineEnumerator$instance {
+    readonly __tsonic_type_System_Text_SpanLineEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -140,6 +144,8 @@ export type SpanLineEnumerator = SpanLineEnumerator$instance & __SpanLineEnumera
 
 
 export interface SpanRuneEnumerator$instance {
+    readonly __tsonic_type_System_Text_SpanRuneEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -166,6 +172,8 @@ export type SpanRuneEnumerator = SpanRuneEnumerator$instance & __SpanRuneEnumera
 
 
 export interface StringBuilder_AppendInterpolatedStringHandler$instance {
+    readonly __tsonic_type_System_Text_StringBuilder_AppendInterpolatedStringHandler: never;
+
     AppendFormatted<T>(value: T): void;
     AppendFormatted<T>(value: T, format: string): void;
     AppendFormatted<T>(value: T, alignment: int): void;
@@ -188,6 +196,8 @@ export const StringBuilder_AppendInterpolatedStringHandler: {
 export type StringBuilder_AppendInterpolatedStringHandler = StringBuilder_AppendInterpolatedStringHandler$instance;
 
 export interface StringBuilder_ChunkEnumerator$instance {
+    readonly __tsonic_type_System_Text_StringBuilder_ChunkEnumerator: never;
+
     readonly Current: ReadOnlyMemory_1<System_Internal.Char>;
     GetEnumerator(): StringBuilder_ChunkEnumerator;
     MoveNext(): boolean;
@@ -202,6 +212,8 @@ export const StringBuilder_ChunkEnumerator: {
 export type StringBuilder_ChunkEnumerator = StringBuilder_ChunkEnumerator$instance;
 
 export interface StringRuneEnumerator$instance {
+    readonly __tsonic_type_System_Text_StringRuneEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -232,6 +244,8 @@ export type StringRuneEnumerator = StringRuneEnumerator$instance & __StringRuneE
 
 
 export interface ASCIIEncoding$instance extends Encoding$instance {
+    readonly __tsonic_type_System_Text_ASCIIEncoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly IsSingleByte: boolean;
@@ -291,6 +305,8 @@ export type ASCIIEncoding = ASCIIEncoding$instance & __ASCIIEncoding$views;
 
 
 export interface CodePagesEncodingProvider$instance extends EncodingProvider {
+    readonly __tsonic_type_System_Text_CodePagesEncodingProvider: never;
+
     GetEncoding(codepage: int): Encoding | undefined;
     GetEncoding(name: string): Encoding | undefined;
     GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
@@ -308,6 +324,8 @@ export const CodePagesEncodingProvider: {
 export type CodePagesEncodingProvider = CodePagesEncodingProvider$instance;
 
 export interface CompositeFormat$instance {
+    readonly __tsonic_type_System_Text_CompositeFormat: never;
+
     readonly Format: string;
     readonly MinimumArgumentCount: int;
 }
@@ -321,6 +339,8 @@ export const CompositeFormat: {
 export type CompositeFormat = CompositeFormat$instance;
 
 export interface Decoder$instance {
+    readonly __tsonic_type_System_Text_Decoder: never;
+
     get Fallback(): DecoderFallback | undefined;
     set Fallback(value: DecoderFallback | undefined);
     readonly FallbackBuffer: DecoderFallbackBuffer;
@@ -346,6 +366,8 @@ export const Decoder: (abstract new() => Decoder) & {
 export type Decoder = Decoder$instance;
 
 export interface DecoderExceptionFallback$instance extends DecoderFallback {
+    readonly __tsonic_type_System_Text_DecoderExceptionFallback: never;
+
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): DecoderFallbackBuffer;
     Equals(value: unknown): boolean;
@@ -361,6 +383,8 @@ export const DecoderExceptionFallback: {
 export type DecoderExceptionFallback = DecoderExceptionFallback$instance;
 
 export interface DecoderExceptionFallbackBuffer$instance extends DecoderFallbackBuffer {
+    readonly __tsonic_type_System_Text_DecoderExceptionFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(bytesUnknown: byte[], index: int): boolean;
     GetNextChar(): char;
@@ -376,6 +400,8 @@ export const DecoderExceptionFallbackBuffer: {
 export type DecoderExceptionFallbackBuffer = DecoderExceptionFallbackBuffer$instance;
 
 export interface DecoderFallback$instance {
+    readonly __tsonic_type_System_Text_DecoderFallback: never;
+
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): DecoderFallbackBuffer;
 }
@@ -390,6 +416,8 @@ export const DecoderFallback: (abstract new() => DecoderFallback) & {
 export type DecoderFallback = DecoderFallback$instance;
 
 export interface DecoderFallbackBuffer$instance {
+    readonly __tsonic_type_System_Text_DecoderFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(bytesUnknown: byte[], index: int): boolean;
     GetNextChar(): char;
@@ -405,6 +433,8 @@ export const DecoderFallbackBuffer: (abstract new() => DecoderFallbackBuffer) & 
 export type DecoderFallbackBuffer = DecoderFallbackBuffer$instance;
 
 export interface DecoderFallbackException$instance extends ArgumentException {
+    readonly __tsonic_type_System_Text_DecoderFallbackException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly BytesUnknown: byte[] | undefined;
@@ -429,6 +459,8 @@ export type DecoderFallbackException = DecoderFallbackException$instance & __Dec
 
 
 export interface DecoderReplacementFallback$instance extends DecoderFallback {
+    readonly __tsonic_type_System_Text_DecoderReplacementFallback: never;
+
     readonly DefaultString: string;
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): DecoderFallbackBuffer;
@@ -446,6 +478,8 @@ export const DecoderReplacementFallback: {
 export type DecoderReplacementFallback = DecoderReplacementFallback$instance;
 
 export interface DecoderReplacementFallbackBuffer$instance extends DecoderFallbackBuffer {
+    readonly __tsonic_type_System_Text_DecoderReplacementFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(bytesUnknown: byte[], index: int): boolean;
     GetNextChar(): char;
@@ -462,6 +496,8 @@ export const DecoderReplacementFallbackBuffer: {
 export type DecoderReplacementFallbackBuffer = DecoderReplacementFallbackBuffer$instance;
 
 export interface Encoder$instance {
+    readonly __tsonic_type_System_Text_Encoder: never;
+
     get Fallback(): EncoderFallback | undefined;
     set Fallback(value: EncoderFallback | undefined);
     readonly FallbackBuffer: EncoderFallbackBuffer;
@@ -485,6 +521,8 @@ export const Encoder: (abstract new() => Encoder) & {
 export type Encoder = Encoder$instance;
 
 export interface EncoderExceptionFallback$instance extends EncoderFallback {
+    readonly __tsonic_type_System_Text_EncoderExceptionFallback: never;
+
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): EncoderFallbackBuffer;
     Equals(value: unknown): boolean;
@@ -500,6 +538,8 @@ export const EncoderExceptionFallback: {
 export type EncoderExceptionFallback = EncoderExceptionFallback$instance;
 
 export interface EncoderExceptionFallbackBuffer$instance extends EncoderFallbackBuffer {
+    readonly __tsonic_type_System_Text_EncoderExceptionFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(charUnknown: char, index: int): boolean;
     Fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
@@ -516,6 +556,8 @@ export const EncoderExceptionFallbackBuffer: {
 export type EncoderExceptionFallbackBuffer = EncoderExceptionFallbackBuffer$instance;
 
 export interface EncoderFallback$instance {
+    readonly __tsonic_type_System_Text_EncoderFallback: never;
+
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): EncoderFallbackBuffer;
 }
@@ -530,6 +572,8 @@ export const EncoderFallback: (abstract new() => EncoderFallback) & {
 export type EncoderFallback = EncoderFallback$instance;
 
 export interface EncoderFallbackBuffer$instance {
+    readonly __tsonic_type_System_Text_EncoderFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(charUnknown: char, index: int): boolean;
     Fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
@@ -546,6 +590,8 @@ export const EncoderFallbackBuffer: (abstract new() => EncoderFallbackBuffer) & 
 export type EncoderFallbackBuffer = EncoderFallbackBuffer$instance;
 
 export interface EncoderFallbackException$instance extends ArgumentException {
+    readonly __tsonic_type_System_Text_EncoderFallbackException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CharUnknown: char;
@@ -572,6 +618,8 @@ export type EncoderFallbackException = EncoderFallbackException$instance & __Enc
 
 
 export interface EncoderReplacementFallback$instance extends EncoderFallback {
+    readonly __tsonic_type_System_Text_EncoderReplacementFallback: never;
+
     readonly DefaultString: string;
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): EncoderFallbackBuffer;
@@ -589,6 +637,8 @@ export const EncoderReplacementFallback: {
 export type EncoderReplacementFallback = EncoderReplacementFallback$instance;
 
 export interface EncoderReplacementFallbackBuffer$instance extends EncoderFallbackBuffer {
+    readonly __tsonic_type_System_Text_EncoderReplacementFallbackBuffer: never;
+
     readonly Remaining: int;
     Fallback(charUnknown: char, index: int): boolean;
     Fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
@@ -606,6 +656,8 @@ export const EncoderReplacementFallbackBuffer: {
 export type EncoderReplacementFallbackBuffer = EncoderReplacementFallbackBuffer$instance;
 
 export interface Encoding$instance extends System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_Text_Encoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly BodyName: string;
@@ -694,6 +746,8 @@ export type Encoding = Encoding$instance & __Encoding$views;
 
 
 export interface EncodingInfo$instance {
+    readonly __tsonic_type_System_Text_EncodingInfo: never;
+
     readonly CodePage: int;
     readonly DisplayName: string;
     readonly Name: string;
@@ -711,6 +765,8 @@ export const EncodingInfo: {
 export type EncodingInfo = EncodingInfo$instance;
 
 export interface EncodingProvider$instance {
+    readonly __tsonic_type_System_Text_EncodingProvider: never;
+
     GetEncoding(name: string): Encoding | undefined;
     GetEncoding(codepage: int): Encoding | undefined;
     GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
@@ -726,6 +782,8 @@ export const EncodingProvider: (abstract new() => EncodingProvider) & {
 export type EncodingProvider = EncodingProvider$instance;
 
 export interface StringBuilder$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Text_StringBuilder: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Capacity: int;
@@ -843,6 +901,8 @@ export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
 
 
 export interface UnicodeEncoding$instance extends Encoding$instance {
+    readonly __tsonic_type_System_Text_UnicodeEncoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
@@ -900,6 +960,8 @@ export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views
 
 
 export interface UTF32Encoding$instance extends Encoding$instance {
+    readonly __tsonic_type_System_Text_UTF32Encoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
@@ -956,6 +1018,8 @@ export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 
 export interface UTF7Encoding$instance extends Encoding$instance {
+    readonly __tsonic_type_System_Text_UTF7Encoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     Clone(): unknown;
@@ -1009,6 +1073,8 @@ export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 
 
 export interface UTF8Encoding$instance extends Encoding$instance {
+    readonly __tsonic_type_System_Text_UTF8Encoding: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;

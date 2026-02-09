@@ -13,6 +13,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface JsonSchemaExporterContext$instance {
+    readonly __tsonic_type_System_Text_Json_Schema_JsonSchemaExporterContext: never;
+
     readonly BaseTypeInfo: JsonTypeInfo | undefined;
     readonly Path: ReadOnlySpan_1<System_Internal.String>;
     readonly PropertyInfo: JsonPropertyInfo | undefined;
@@ -28,6 +30,8 @@ export const JsonSchemaExporterContext: {
 export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export interface JsonSchemaExporterOptions$instance {
+    readonly __tsonic_type_System_Text_Json_Schema_JsonSchemaExporterOptions: never;
+
     get TransformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
     set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined);
     TreatNullObliviousAsNonNullable: boolean;

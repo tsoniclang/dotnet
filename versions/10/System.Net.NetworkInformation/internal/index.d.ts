@@ -178,6 +178,8 @@ export type PingCompletedEventHandler = (sender: unknown, e: PingCompletedEventA
 
 
 export interface GatewayIPAddressInformation$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_GatewayIPAddressInformation: never;
+
     readonly Address: IPAddress;
 }
 
@@ -189,6 +191,8 @@ export const GatewayIPAddressInformation: (abstract new() => GatewayIPAddressInf
 export type GatewayIPAddressInformation = GatewayIPAddressInformation$instance;
 
 export interface GatewayIPAddressInformationCollection$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_GatewayIPAddressInformationCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -219,6 +223,8 @@ export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationC
 
 
 export interface IcmpV4Statistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IcmpV4Statistics: never;
+
     readonly AddressMaskRepliesReceived: long;
     readonly AddressMaskRepliesSent: long;
     readonly AddressMaskRequestsReceived: long;
@@ -255,6 +261,8 @@ export const IcmpV4Statistics: (abstract new() => IcmpV4Statistics) & {
 export type IcmpV4Statistics = IcmpV4Statistics$instance;
 
 export interface IcmpV6Statistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IcmpV6Statistics: never;
+
     readonly DestinationUnreachableMessagesReceived: long;
     readonly DestinationUnreachableMessagesSent: long;
     readonly EchoRepliesReceived: long;
@@ -297,6 +305,8 @@ export const IcmpV6Statistics: (abstract new() => IcmpV6Statistics) & {
 export type IcmpV6Statistics = IcmpV6Statistics$instance;
 
 export interface IPAddressCollection$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPAddressCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -327,6 +337,8 @@ export type IPAddressCollection = IPAddressCollection$instance & __IPAddressColl
 
 
 export interface IPAddressInformation$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPAddressInformation: never;
+
     readonly Address: IPAddress;
     readonly IsDnsEligible: boolean;
     readonly IsTransient: boolean;
@@ -340,6 +352,8 @@ export const IPAddressInformation: (abstract new() => IPAddressInformation) & {
 export type IPAddressInformation = IPAddressInformation$instance;
 
 export interface IPAddressInformationCollection$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPAddressInformationCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -370,6 +384,8 @@ export type IPAddressInformationCollection = IPAddressInformationCollection$inst
 
 
 export interface IPGlobalProperties$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPGlobalProperties: never;
+
     readonly DhcpScopeName: string;
     readonly DomainName: string;
     readonly HostName: string;
@@ -401,6 +417,8 @@ export const IPGlobalProperties: (abstract new() => IPGlobalProperties) & {
 export type IPGlobalProperties = IPGlobalProperties$instance;
 
 export interface IPGlobalStatistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPGlobalStatistics: never;
+
     readonly DefaultTtl: int;
     readonly ForwardingEnabled: boolean;
     readonly NumberOfInterfaces: int;
@@ -433,6 +451,8 @@ export const IPGlobalStatistics: (abstract new() => IPGlobalStatistics) & {
 export type IPGlobalStatistics = IPGlobalStatistics$instance;
 
 export interface IPInterfaceProperties$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPInterfaceProperties: never;
+
     readonly AnycastAddresses: IPAddressInformationCollection;
     readonly DhcpServerAddresses: IPAddressCollection;
     readonly DnsAddresses: IPAddressCollection;
@@ -455,6 +475,8 @@ export const IPInterfaceProperties: (abstract new() => IPInterfaceProperties) & 
 export type IPInterfaceProperties = IPInterfaceProperties$instance;
 
 export interface IPInterfaceStatistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPInterfaceStatistics: never;
+
     readonly BytesReceived: long;
     readonly BytesSent: long;
     readonly IncomingPacketsDiscarded: long;
@@ -477,6 +499,8 @@ export const IPInterfaceStatistics: (abstract new() => IPInterfaceStatistics) & 
 export type IPInterfaceStatistics = IPInterfaceStatistics$instance;
 
 export interface IPv4InterfaceProperties$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPv4InterfaceProperties: never;
+
     readonly Index: int;
     readonly IsAutomaticPrivateAddressingActive: boolean;
     readonly IsAutomaticPrivateAddressingEnabled: boolean;
@@ -494,6 +518,8 @@ export const IPv4InterfaceProperties: (abstract new() => IPv4InterfaceProperties
 export type IPv4InterfaceProperties = IPv4InterfaceProperties$instance;
 
 export interface IPv4InterfaceStatistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPv4InterfaceStatistics: never;
+
     readonly BytesReceived: long;
     readonly BytesSent: long;
     readonly IncomingPacketsDiscarded: long;
@@ -516,6 +542,8 @@ export const IPv4InterfaceStatistics: (abstract new() => IPv4InterfaceStatistics
 export type IPv4InterfaceStatistics = IPv4InterfaceStatistics$instance;
 
 export interface IPv6InterfaceProperties$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPv6InterfaceProperties: never;
+
     readonly Index: int;
     readonly Mtu: int;
     GetScopeId(scopeLevel: ScopeLevel): long;
@@ -529,6 +557,8 @@ export const IPv6InterfaceProperties: (abstract new() => IPv6InterfaceProperties
 export type IPv6InterfaceProperties = IPv6InterfaceProperties$instance;
 
 export interface MulticastIPAddressInformation$instance extends IPAddressInformation {
+    readonly __tsonic_type_System_Net_NetworkInformation_MulticastIPAddressInformation: never;
+
     readonly AddressPreferredLifetime: long;
     readonly AddressValidLifetime: long;
     readonly DhcpLeaseLifetime: long;
@@ -545,6 +575,8 @@ export const MulticastIPAddressInformation: (abstract new() => MulticastIPAddres
 export type MulticastIPAddressInformation = MulticastIPAddressInformation$instance;
 
 export interface MulticastIPAddressInformationCollection$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_MulticastIPAddressInformationCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -575,6 +607,8 @@ export type MulticastIPAddressInformationCollection = MulticastIPAddressInformat
 
 
 export interface NetworkAvailabilityEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Net_NetworkInformation_NetworkAvailabilityEventArgs: never;
+
     readonly IsAvailable: boolean;
 }
 
@@ -586,6 +620,8 @@ export const NetworkAvailabilityEventArgs: {
 export type NetworkAvailabilityEventArgs = NetworkAvailabilityEventArgs$instance;
 
 export interface NetworkChange$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_NetworkChange: never;
+
 }
 
 
@@ -598,6 +634,8 @@ export const NetworkChange: {
 export type NetworkChange = NetworkChange$instance;
 
 export interface NetworkInformationException$instance extends Win32Exception {
+    readonly __tsonic_type_System_Net_NetworkInformation_NetworkInformationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
@@ -619,6 +657,8 @@ export type NetworkInformationException = NetworkInformationException$instance &
 
 
 export interface NetworkInterface$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_NetworkInterface: never;
+
     readonly Description: string;
     readonly Id: string;
     readonly IsReceiveOnly: boolean;
@@ -646,6 +686,8 @@ export const NetworkInterface: (abstract new() => NetworkInterface) & {
 export type NetworkInterface = NetworkInterface$instance;
 
 export interface PhysicalAddress$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_PhysicalAddress: never;
+
     Equals(comparand: unknown): boolean;
     GetAddressBytes(): byte[];
     GetHashCode(): int;
@@ -666,6 +708,8 @@ export const PhysicalAddress: {
 export type PhysicalAddress = PhysicalAddress$instance;
 
 export interface Ping$instance extends Component {
+    readonly __tsonic_type_System_Net_NetworkInformation_Ping: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -717,6 +761,8 @@ export type Ping = Ping$instance & __Ping$views;
 
 
 export interface PingCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_NetworkInformation_PingCompletedEventArgs: never;
+
     readonly Reply: PingReply | undefined;
 }
 
@@ -728,6 +774,8 @@ export const PingCompletedEventArgs: {
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
 export interface PingException$instance extends InvalidOperationException {
+    readonly __tsonic_type_System_Net_NetworkInformation_PingException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -748,6 +796,8 @@ export type PingException = PingException$instance & __PingException$views;
 
 
 export interface PingOptions$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_PingOptions: never;
+
     DontFragment: boolean;
     Ttl: int;
 }
@@ -762,6 +812,8 @@ export const PingOptions: {
 export type PingOptions = PingOptions$instance;
 
 export interface PingReply$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_PingReply: never;
+
     readonly Address: IPAddress;
     readonly Buffer: byte[];
     readonly Options: PingOptions | undefined;
@@ -777,6 +829,8 @@ export const PingReply: {
 export type PingReply = PingReply$instance;
 
 export interface TcpConnectionInformation$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_TcpConnectionInformation: never;
+
     readonly LocalEndPoint: IPEndPoint;
     readonly RemoteEndPoint: IPEndPoint;
     readonly State: TcpState;
@@ -790,6 +844,8 @@ export const TcpConnectionInformation: (abstract new() => TcpConnectionInformati
 export type TcpConnectionInformation = TcpConnectionInformation$instance;
 
 export interface TcpStatistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_TcpStatistics: never;
+
     readonly ConnectionsAccepted: long;
     readonly ConnectionsInitiated: long;
     readonly CumulativeConnections: long;
@@ -814,6 +870,8 @@ export const TcpStatistics: (abstract new() => TcpStatistics) & {
 export type TcpStatistics = TcpStatistics$instance;
 
 export interface UdpStatistics$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_UdpStatistics: never;
+
     readonly DatagramsReceived: long;
     readonly DatagramsSent: long;
     readonly IncomingDatagramsDiscarded: long;
@@ -829,6 +887,8 @@ export const UdpStatistics: (abstract new() => UdpStatistics) & {
 export type UdpStatistics = UdpStatistics$instance;
 
 export interface UnicastIPAddressInformation$instance extends IPAddressInformation {
+    readonly __tsonic_type_System_Net_NetworkInformation_UnicastIPAddressInformation: never;
+
     readonly AddressPreferredLifetime: long;
     readonly AddressValidLifetime: long;
     readonly DhcpLeaseLifetime: long;
@@ -847,6 +907,8 @@ export const UnicastIPAddressInformation: (abstract new() => UnicastIPAddressInf
 export type UnicastIPAddressInformation = UnicastIPAddressInformation$instance;
 
 export interface UnicastIPAddressInformationCollection$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_UnicastIPAddressInformationCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;

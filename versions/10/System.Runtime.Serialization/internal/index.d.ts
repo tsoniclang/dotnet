@@ -180,6 +180,8 @@ export interface ISurrogateSelector$instance {
 export type ISurrogateSelector = ISurrogateSelector$instance;
 
 export interface DeserializationToken$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DeserializationToken: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -199,6 +201,8 @@ export type DeserializationToken = DeserializationToken$instance & __Deserializa
 
 
 export interface SerializationEntry$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationEntry: never;
+
     readonly Name: string;
     readonly ObjectType: Type;
     readonly Value: unknown | undefined;
@@ -213,6 +217,8 @@ export const SerializationEntry: {
 export type SerializationEntry = SerializationEntry$instance;
 
 export interface StreamingContext$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_StreamingContext: never;
+
     readonly Context: unknown | undefined;
     readonly State: StreamingContextStates;
     Equals(obj: unknown): boolean;
@@ -229,6 +235,8 @@ export const StreamingContext: {
 export type StreamingContext = StreamingContext$instance;
 
 export interface CollectionDataContractAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_CollectionDataContractAttribute: never;
+
     readonly IsItemNameSetExplicitly: boolean;
     readonly IsKeyNameSetExplicitly: boolean;
     readonly IsNameSetExplicitly: boolean;
@@ -257,6 +265,8 @@ export const CollectionDataContractAttribute: {
 export type CollectionDataContractAttribute = CollectionDataContractAttribute$instance;
 
 export interface ContractNamespaceAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_ContractNamespaceAttribute: never;
+
     get ClrNamespace(): string | undefined;
     set ClrNamespace(value: string | undefined);
     readonly ContractNamespace: string;
@@ -271,6 +281,8 @@ export const ContractNamespaceAttribute: {
 export type ContractNamespaceAttribute = ContractNamespaceAttribute$instance;
 
 export interface DataContractAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContractAttribute: never;
+
     readonly IsNameSetExplicitly: boolean;
     readonly IsNamespaceSetExplicitly: boolean;
     IsReference: boolean;
@@ -290,6 +302,8 @@ export const DataContractAttribute: {
 export type DataContractAttribute = DataContractAttribute$instance;
 
 export interface DataContractResolver$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContractResolver: never;
+
     ResolveName(typeName: string, typeNamespace: string, declaredType: Type, knownTypeResolver: DataContractResolver): Type | undefined;
     TryResolveType(type: Type, declaredType: Type, knownTypeResolver: DataContractResolver, typeName: XmlDictionaryString, typeNamespace: XmlDictionaryString): boolean;
 }
@@ -302,6 +316,8 @@ export const DataContractResolver: (abstract new() => DataContractResolver) & {
 export type DataContractResolver = DataContractResolver$instance;
 
 export interface DataContractSerializer$instance extends XmlObjectSerializer {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContractSerializer: never;
+
     readonly DataContractResolver: DataContractResolver | undefined;
     readonly IgnoreExtensionDataObject: boolean;
     readonly KnownTypes: ReadOnlyCollection_1<Type>;
@@ -343,6 +359,8 @@ export const DataContractSerializer: {
 export type DataContractSerializer = DataContractSerializer$instance;
 
 export interface DataContractSerializerSettings$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContractSerializerSettings: never;
+
     get DataContractResolver(): DataContractResolver | undefined;
     set DataContractResolver(value: DataContractResolver | undefined);
     IgnoreExtensionDataObject: boolean;
@@ -366,6 +384,8 @@ export const DataContractSerializerSettings: {
 export type DataContractSerializerSettings = DataContractSerializerSettings$instance;
 
 export interface DataMemberAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_DataMemberAttribute: never;
+
     EmitDefaultValue: boolean;
     readonly IsNameSetExplicitly: boolean;
     IsRequired: boolean;
@@ -383,6 +403,8 @@ export const DataMemberAttribute: {
 export type DataMemberAttribute = DataMemberAttribute$instance;
 
 export interface DateTimeFormat$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DateTimeFormat: never;
+
     DateTimeStyles: DateTimeStyles;
     readonly FormatProvider: IFormatProvider;
     readonly FormatString: string;
@@ -398,6 +420,8 @@ export const DateTimeFormat: {
 export type DateTimeFormat = DateTimeFormat$instance;
 
 export interface EnumMemberAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_EnumMemberAttribute: never;
+
     readonly IsValueSetExplicitly: boolean;
     get Value(): string | undefined;
     set Value(value: string | undefined);
@@ -412,6 +436,8 @@ export const EnumMemberAttribute: {
 export type EnumMemberAttribute = EnumMemberAttribute$instance;
 
 export interface ExportOptions$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_ExportOptions: never;
+
     get DataContractSurrogate(): ISerializationSurrogateProvider | undefined;
     set DataContractSurrogate(value: ISerializationSurrogateProvider | undefined);
     readonly KnownTypes: Collection_1<Type>;
@@ -426,6 +452,8 @@ export const ExportOptions: {
 export type ExportOptions = ExportOptions$instance;
 
 export interface ExtensionDataObject$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_ExtensionDataObject: never;
+
 }
 
 
@@ -436,6 +464,8 @@ export const ExtensionDataObject: {
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
 export interface Formatter$instance extends IFormatter$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_Formatter: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
 
     get Binder(): SerializationBinder | undefined;
@@ -481,6 +511,8 @@ export type Formatter = Formatter$instance & __Formatter$views;
 
 
 export interface FormatterConverter$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_FormatterConverter: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatterConverter: never;
 
     Convert(value: unknown, type: Type): unknown;
@@ -516,6 +548,8 @@ export type FormatterConverter = FormatterConverter$instance & __FormatterConver
 
 
 export interface IgnoreDataMemberAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_IgnoreDataMemberAttribute: never;
+
 }
 
 
@@ -527,6 +561,8 @@ export const IgnoreDataMemberAttribute: {
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
 export interface InvalidDataContractException$instance extends Exception {
+    readonly __tsonic_type_System_Runtime_Serialization_InvalidDataContractException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -548,6 +584,8 @@ export type InvalidDataContractException = InvalidDataContractException$instance
 
 
 export interface KnownTypeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_KnownTypeAttribute: never;
+
     readonly MethodName: string | undefined;
     readonly Type: Type | undefined;
 }
@@ -562,6 +600,8 @@ export const KnownTypeAttribute: {
 export type KnownTypeAttribute = KnownTypeAttribute$instance;
 
 export interface ObjectIDGenerator$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_ObjectIDGenerator: never;
+
     GetId(obj: unknown, firstTime: boolean): long;
     HasId(obj: unknown, firstTime: boolean): long;
 }
@@ -575,6 +615,8 @@ export const ObjectIDGenerator: {
 export type ObjectIDGenerator = ObjectIDGenerator$instance;
 
 export interface ObjectManager$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_ObjectManager: never;
+
     DoFixups(): void;
     GetObject(objectID: long): unknown | undefined;
     RaiseDeserializationEvent(): void;
@@ -598,6 +640,8 @@ export const ObjectManager: {
 export type ObjectManager = ObjectManager$instance;
 
 export interface OnDeserializedAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_OnDeserializedAttribute: never;
+
 }
 
 
@@ -609,6 +653,8 @@ export const OnDeserializedAttribute: {
 export type OnDeserializedAttribute = OnDeserializedAttribute$instance;
 
 export interface OnDeserializingAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_OnDeserializingAttribute: never;
+
 }
 
 
@@ -620,6 +666,8 @@ export const OnDeserializingAttribute: {
 export type OnDeserializingAttribute = OnDeserializingAttribute$instance;
 
 export interface OnSerializedAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_OnSerializedAttribute: never;
+
 }
 
 
@@ -631,6 +679,8 @@ export const OnSerializedAttribute: {
 export type OnSerializedAttribute = OnSerializedAttribute$instance;
 
 export interface OnSerializingAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_OnSerializingAttribute: never;
+
 }
 
 
@@ -642,6 +692,8 @@ export const OnSerializingAttribute: {
 export type OnSerializingAttribute = OnSerializingAttribute$instance;
 
 export interface OptionalFieldAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Serialization_OptionalFieldAttribute: never;
+
     VersionAdded: int;
 }
 
@@ -654,6 +706,8 @@ export const OptionalFieldAttribute: {
 export type OptionalFieldAttribute = OptionalFieldAttribute$instance;
 
 export interface SafeSerializationEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Runtime_Serialization_SafeSerializationEventArgs: never;
+
     readonly StreamingContext: StreamingContext;
     AddSerializedState(serializedState: ISafeSerializationData): void;
 }
@@ -666,6 +720,8 @@ export const SafeSerializationEventArgs: {
 export type SafeSerializationEventArgs = SafeSerializationEventArgs$instance;
 
 export interface SerializationBinder$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationBinder: never;
+
     BindToName(serializedType: Type, assemblyName: string, typeName: string): void;
     BindToType(assemblyName: string, typeName: string): Type | undefined;
 }
@@ -678,6 +734,8 @@ export const SerializationBinder: (abstract new() => SerializationBinder) & {
 export type SerializationBinder = SerializationBinder$instance;
 
 export interface SerializationException$instance extends SystemException {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -699,6 +757,8 @@ export type SerializationException = SerializationException$instance & __Seriali
 
 
 export interface SerializationInfo$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationInfo: never;
+
     AssemblyName: string;
     FullTypeName: string;
     IsAssemblyNameSetExplicit: boolean;
@@ -752,6 +812,8 @@ export const SerializationInfo: {
 export type SerializationInfo = SerializationInfo$instance;
 
 export interface SerializationInfoEnumerator$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationInfoEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: SerializationEntry;
@@ -775,6 +837,8 @@ export type SerializationInfoEnumerator = SerializationInfoEnumerator$instance &
 
 
 export interface SerializationObjectManager$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SerializationObjectManager: never;
+
     RaiseOnSerializedEvent(): void;
     RegisterObject(obj: unknown): void;
 }
@@ -788,6 +852,8 @@ export const SerializationObjectManager: {
 export type SerializationObjectManager = SerializationObjectManager$instance;
 
 export interface SurrogateSelector$instance extends ISurrogateSelector$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_SurrogateSelector: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISurrogateSelector: never;
 
     AddSurrogate(type: Type, context: StreamingContext, surrogate: ISerializationSurrogate): void;
@@ -811,6 +877,8 @@ export type SurrogateSelector = SurrogateSelector$instance & __SurrogateSelector
 
 
 export interface TypeLoadExceptionHolder$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_TypeLoadExceptionHolder: never;
+
 }
 
 
@@ -821,6 +889,8 @@ export const TypeLoadExceptionHolder: {
 export type TypeLoadExceptionHolder = TypeLoadExceptionHolder$instance;
 
 export interface XmlObjectSerializer$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_XmlObjectSerializer: never;
+
     IsStartObject(reader: XmlReader): boolean;
     IsStartObject(reader: XmlDictionaryReader): boolean;
     ReadObject(stream: Stream): unknown | undefined;
@@ -847,6 +917,8 @@ export const XmlObjectSerializer: (abstract new() => XmlObjectSerializer) & {
 export type XmlObjectSerializer = XmlObjectSerializer$instance;
 
 export interface XsdDataContractExporter$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_XsdDataContractExporter: never;
+
     get Options(): ExportOptions | undefined;
     set Options(value: ExportOptions | undefined);
     readonly Schemas: XmlSchemaSet;

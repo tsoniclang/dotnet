@@ -174,6 +174,8 @@ export interface ISymbolWriter$instance {
 export type ISymbolWriter = ISymbolWriter$instance;
 
 export interface SymbolToken$instance {
+    readonly __tsonic_type_System_Diagnostics_SymbolStore_SymbolToken: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Equals(obj: unknown): boolean;
@@ -199,6 +201,8 @@ export type SymbolToken = SymbolToken$instance & __SymbolToken$views;
 
 
 export interface SymDocumentType$instance {
+    readonly __tsonic_type_System_Diagnostics_SymbolStore_SymDocumentType: never;
+
 }
 
 
@@ -211,6 +215,8 @@ export const SymDocumentType: {
 export type SymDocumentType = SymDocumentType$instance;
 
 export interface SymLanguageType$instance {
+    readonly __tsonic_type_System_Diagnostics_SymbolStore_SymLanguageType: never;
+
 }
 
 
@@ -233,6 +239,8 @@ export const SymLanguageType: {
 export type SymLanguageType = SymLanguageType$instance;
 
 export interface SymLanguageVendor$instance {
+    readonly __tsonic_type_System_Diagnostics_SymbolStore_SymLanguageVendor: never;
+
 }
 
 

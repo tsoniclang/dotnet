@@ -29,6 +29,8 @@ export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception:
 
 
 export interface ObjectiveCTrackedTypeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_ObjectiveC_ObjectiveCTrackedTypeAttribute: never;
+
 }
 
 

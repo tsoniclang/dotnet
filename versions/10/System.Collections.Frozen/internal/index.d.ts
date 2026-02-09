@@ -18,6 +18,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2_AlternateLookup_1: never;
+
     readonly Dictionary: FrozenDictionary_2<TKey, TValue>;
     readonly Item: TValue;
     ContainsKey(key: TAlternateKey): boolean;
@@ -33,6 +35,8 @@ export const FrozenDictionary_2_AlternateLookup_1: {
 export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -57,6 +61,8 @@ export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enu
 
 
 export interface FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenSet_1_AlternateLookup_1: never;
+
     readonly Set: FrozenSet_1<T>;
     Contains(item: TAlternate): boolean;
     TryGetValue(equalValue: TAlternate, actualValue: T): boolean;
@@ -71,6 +77,8 @@ export const FrozenSet_1_AlternateLookup_1: {
 export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export interface FrozenSet_1_Enumerator$instance<T> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenSet_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -95,6 +103,8 @@ export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __F
 
 
 export interface FrozenDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -140,6 +150,8 @@ export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey,
 
 
 export interface FrozenSet_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Frozen_FrozenSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;

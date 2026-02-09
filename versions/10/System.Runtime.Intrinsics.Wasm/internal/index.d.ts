@@ -14,6 +14,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Double, Int16, Int32, Int64, IntPtr, Object as ClrObject, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, Void } from "../../System/internal/index.js";
 
 export interface PackedSimd$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Wasm_PackedSimd: never;
+
 }
 
 

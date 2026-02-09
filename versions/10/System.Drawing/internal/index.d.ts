@@ -194,6 +194,8 @@ export enum KnownColor {
 
 
 export interface Color$instance {
+    readonly __tsonic_type_System_Drawing_Color: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly A: byte;
@@ -382,6 +384,8 @@ export type Color = Color$instance & __Color$views;
 
 
 export interface Point$instance {
+    readonly __tsonic_type_System_Drawing_Point: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsEmpty: boolean;
@@ -420,6 +424,8 @@ export type Point = Point$instance & __Point$views;
 
 
 export interface PointF$instance {
+    readonly __tsonic_type_System_Drawing_PointF: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsEmpty: boolean;
@@ -455,6 +461,8 @@ export type PointF = PointF$instance & __PointF$views;
 
 
 export interface Rectangle$instance {
+    readonly __tsonic_type_System_Drawing_Rectangle: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Bottom: int;
@@ -509,6 +517,8 @@ export type Rectangle = Rectangle$instance & __Rectangle$views;
 
 
 export interface RectangleF$instance {
+    readonly __tsonic_type_System_Drawing_RectangleF: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Bottom: float;
@@ -562,6 +572,8 @@ export type RectangleF = RectangleF$instance & __RectangleF$views;
 
 
 export interface Size$instance {
+    readonly __tsonic_type_System_Drawing_Size: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Height: int;
@@ -597,6 +609,8 @@ export type Size = Size$instance & __Size$views;
 
 
 export interface SizeF$instance {
+    readonly __tsonic_type_System_Drawing_SizeF: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Height: float;
@@ -634,6 +648,8 @@ export type SizeF = SizeF$instance & __SizeF$views;
 
 
 export interface ColorConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Drawing_ColorConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -657,6 +673,8 @@ export const ColorConverter: {
 export type ColorConverter = ColorConverter$instance;
 
 export interface PointConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Drawing_PointConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -685,6 +703,8 @@ export const PointConverter: {
 export type PointConverter = PointConverter$instance;
 
 export interface RectangleConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Drawing_RectangleConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -713,6 +733,8 @@ export const RectangleConverter: {
 export type RectangleConverter = RectangleConverter$instance;
 
 export interface SizeConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Drawing_SizeConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -741,6 +763,8 @@ export const SizeConverter: {
 export type SizeConverter = SizeConverter$instance;
 
 export interface SizeFConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Drawing_SizeFConverter: never;
+
     CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;

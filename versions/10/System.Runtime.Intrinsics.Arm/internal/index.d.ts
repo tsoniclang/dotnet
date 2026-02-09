@@ -52,6 +52,8 @@ export enum SvePrefetchType {
 
 
 export interface AdvSimd$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+
 }
 
 
@@ -1833,6 +1835,8 @@ export const AdvSimd: {
 export type AdvSimd = AdvSimd$instance;
 
 export interface AdvSimd_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+
 }
 
 
@@ -2700,6 +2704,8 @@ export const AdvSimd_Arm64: {
 export type AdvSimd_Arm64 = AdvSimd_Arm64$instance;
 
 export interface Aes$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Aes: never;
+
 }
 
 
@@ -2719,6 +2725,8 @@ export const Aes: {
 export type Aes = Aes$instance;
 
 export interface Aes_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Aes_Arm64: never;
+
 }
 
 
@@ -2730,6 +2738,8 @@ export const Aes_Arm64: {
 export type Aes_Arm64 = Aes_Arm64$instance;
 
 export interface ArmBase$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
+
 }
 
 
@@ -2746,6 +2756,8 @@ export const ArmBase: {
 export type ArmBase = ArmBase$instance;
 
 export interface ArmBase_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
+
 }
 
 
@@ -2765,6 +2777,8 @@ export const ArmBase_Arm64: {
 export type ArmBase_Arm64 = ArmBase_Arm64$instance;
 
 export interface Crc32$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Crc32: never;
+
 }
 
 
@@ -2782,6 +2796,8 @@ export const Crc32: {
 export type Crc32 = Crc32$instance;
 
 export interface Crc32_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Crc32_Arm64: never;
+
 }
 
 
@@ -2795,6 +2811,8 @@ export const Crc32_Arm64: {
 export type Crc32_Arm64 = Crc32_Arm64$instance;
 
 export interface Dp$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Dp: never;
+
 }
 
 
@@ -2818,6 +2836,8 @@ export const Dp: {
 export type Dp = Dp$instance;
 
 export interface Dp_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Dp_Arm64: never;
+
 }
 
 
@@ -2829,6 +2849,8 @@ export const Dp_Arm64: {
 export type Dp_Arm64 = Dp_Arm64$instance;
 
 export interface Rdm$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Rdm: never;
+
 }
 
 
@@ -2864,6 +2886,8 @@ export const Rdm: {
 export type Rdm = Rdm$instance;
 
 export interface Rdm_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Rdm_Arm64: never;
+
 }
 
 
@@ -2887,6 +2911,8 @@ export const Rdm_Arm64: {
 export type Rdm_Arm64 = Rdm_Arm64$instance;
 
 export interface Sha1$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha1: never;
+
 }
 
 
@@ -2904,6 +2930,8 @@ export const Sha1: {
 export type Sha1 = Sha1$instance;
 
 export interface Sha1_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha1_Arm64: never;
+
 }
 
 
@@ -2915,6 +2943,8 @@ export const Sha1_Arm64: {
 export type Sha1_Arm64 = Sha1_Arm64$instance;
 
 export interface Sha256$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha256: never;
+
 }
 
 
@@ -2930,6 +2960,8 @@ export const Sha256: {
 export type Sha256 = Sha256$instance;
 
 export interface Sha256_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha256_Arm64: never;
+
 }
 
 
@@ -2941,6 +2973,8 @@ export const Sha256_Arm64: {
 export type Sha256_Arm64 = Sha256_Arm64$instance;
 
 export interface Sve$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve: never;
+
 }
 
 
@@ -4437,6 +4471,8 @@ export const Sve: {
 export type Sve = Sve$instance;
 
 export interface Sve_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve_Arm64: never;
+
 }
 
 
@@ -4448,6 +4484,8 @@ export const Sve_Arm64: {
 export type Sve_Arm64 = Sve_Arm64$instance;
 
 export interface Sve2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve2: never;
+
 }
 
 
@@ -5104,6 +5142,8 @@ export const Sve2: {
 export type Sve2 = Sve2$instance;
 
 export interface Sve2_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve2_Arm64: never;
+
 }
 
 

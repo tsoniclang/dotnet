@@ -113,6 +113,8 @@ export interface IImmutableStack_1$instance<T> extends IEnumerable_1<T>, IEnumer
 export type IImmutableStack_1<T> = IImmutableStack_1$instance<T>;
 
 export interface ImmutableArray_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableArray_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -223,6 +225,8 @@ export type ImmutableArray_1<T> = ImmutableArray_1$instance<T> & __ImmutableArra
 
 
 export interface ImmutableArray_1_Enumerator$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableArray_1_Enumerator: never;
+
     readonly Current: T;
     MoveNext(): boolean;
 }
@@ -236,6 +240,8 @@ export const ImmutableArray_1_Enumerator: {
 export type ImmutableArray_1_Enumerator<T> = ImmutableArray_1_Enumerator$instance<T>;
 
 export interface ImmutableDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableDictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -261,6 +267,8 @@ export type ImmutableDictionary_2_Enumerator<TKey, TValue> = ImmutableDictionary
 
 
 export interface ImmutableHashSet_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableHashSet_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -286,6 +294,8 @@ export type ImmutableHashSet_1_Enumerator<T> = ImmutableHashSet_1_Enumerator$ins
 
 
 export interface ImmutableList_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableList_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -311,6 +321,8 @@ export type ImmutableList_1_Enumerator<T> = ImmutableList_1_Enumerator$instance<
 
 
 export interface ImmutableQueue_1_Enumerator$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableQueue_1_Enumerator: never;
+
     readonly Current: T;
     MoveNext(): boolean;
 }
@@ -324,6 +336,8 @@ export const ImmutableQueue_1_Enumerator: {
 export type ImmutableQueue_1_Enumerator<T> = ImmutableQueue_1_Enumerator$instance<T>;
 
 export interface ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedDictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -349,6 +363,8 @@ export type ImmutableSortedDictionary_2_Enumerator<TKey, TValue> = ImmutableSort
 
 
 export interface ImmutableSortedSet_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedSet_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -374,6 +390,8 @@ export type ImmutableSortedSet_1_Enumerator<T> = ImmutableSortedSet_1_Enumerator
 
 
 export interface ImmutableStack_1_Enumerator$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableStack_1_Enumerator: never;
+
     readonly Current: T;
     MoveNext(): boolean;
 }
@@ -387,6 +405,8 @@ export const ImmutableStack_1_Enumerator: {
 export type ImmutableStack_1_Enumerator<T> = ImmutableStack_1_Enumerator$instance<T>;
 
 export interface ImmutableArray_1_Builder$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableArray_1_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -463,6 +483,8 @@ export type ImmutableArray_1_Builder<T> = ImmutableArray_1_Builder$instance<T> &
 
 
 export interface ImmutableDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -520,6 +542,8 @@ export type ImmutableDictionary_2<TKey, TValue> = ImmutableDictionary_2$instance
 
 
 export interface ImmutableDictionary_2_Builder$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableDictionary_2_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -573,6 +597,8 @@ export type ImmutableDictionary_2_Builder<TKey, TValue> = ImmutableDictionary_2_
 
 
 export interface ImmutableHashSet_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableHashSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -626,6 +652,8 @@ export type ImmutableHashSet_1<T> = ImmutableHashSet_1$instance<T> & __Immutable
 
 
 export interface ImmutableHashSet_1_Builder$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableHashSet_1_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -670,6 +698,8 @@ export type ImmutableHashSet_1_Builder<T> = ImmutableHashSet_1_Builder$instance<
 
 
 export interface ImmutableList_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableList_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -754,6 +784,8 @@ export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1
 
 
 export interface ImmutableList_1_Builder$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableList_1_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -838,6 +870,8 @@ export type ImmutableList_1_Builder<T> = ImmutableList_1_Builder$instance<T> & _
 
 
 export interface ImmutableQueue_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableQueue_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableQueue_1: never;
@@ -868,6 +902,8 @@ export type ImmutableQueue_1<T> = ImmutableQueue_1$instance<T> & __ImmutableQueu
 
 
 export interface ImmutableSortedDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -926,6 +962,8 @@ export type ImmutableSortedDictionary_2<TKey, TValue> = ImmutableSortedDictionar
 
 
 export interface ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedDictionary_2_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -980,6 +1018,8 @@ export type ImmutableSortedDictionary_2_Builder<TKey, TValue> = ImmutableSortedD
 
 
 export interface ImmutableSortedSet_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1044,6 +1084,8 @@ export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __Immut
 
 
 export interface ImmutableSortedSet_1_Builder$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedSet_1_Builder: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1096,6 +1138,8 @@ export type ImmutableSortedSet_1_Builder<T> = ImmutableSortedSet_1_Builder$insta
 
 
 export interface ImmutableStack_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Immutable_ImmutableStack_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableStack_1: never;

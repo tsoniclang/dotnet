@@ -176,6 +176,8 @@ export type RenamedEventHandler = (sender: unknown, e: RenamedEventArgs) => void
 
 
 export interface WaitForChangedResult$instance {
+    readonly __tsonic_type_System_IO_WaitForChangedResult: never;
+
     ChangeType: WatcherChangeTypes;
     get Name(): string | undefined;
     set Name(value: string | undefined);
@@ -193,6 +195,8 @@ export const WaitForChangedResult: {
 export type WaitForChangedResult = WaitForChangedResult$instance;
 
 export interface BinaryReader$instance {
+    readonly __tsonic_type_System_IO_BinaryReader: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly BaseStream: Stream;
@@ -244,6 +248,8 @@ export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
 export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_IO_BinaryWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -297,6 +303,8 @@ export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
 export interface BufferedStream$instance extends Stream$instance {
+    readonly __tsonic_type_System_IO_BufferedStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -360,6 +368,8 @@ export type BufferedStream = BufferedStream$instance & __BufferedStream$views;
 
 
 export interface DirectoryInfo$instance extends FileSystemInfo$instance {
+    readonly __tsonic_type_System_IO_DirectoryInfo: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Exists: boolean;
@@ -411,6 +421,8 @@ export type DirectoryInfo = DirectoryInfo$instance & __DirectoryInfo$views;
 
 
 export interface DirectoryNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_DirectoryNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -432,6 +444,8 @@ export type DirectoryNotFoundException = DirectoryNotFoundException$instance & _
 
 
 export interface DriveInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_IO_DriveInfo: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly AvailableFreeSpace: long;
@@ -461,6 +475,8 @@ export type DriveInfo = DriveInfo$instance & __DriveInfo$views;
 
 
 export interface DriveNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_DriveNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -482,6 +498,8 @@ export type DriveNotFoundException = DriveNotFoundException$instance & __DriveNo
 
 
 export interface EndOfStreamException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_EndOfStreamException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -503,6 +521,8 @@ export type EndOfStreamException = EndOfStreamException$instance & __EndOfStream
 
 
 export interface EnumerationOptions$instance {
+    readonly __tsonic_type_System_IO_EnumerationOptions: never;
+
     AttributesToSkip: FileAttributes;
     BufferSize: int;
     IgnoreInaccessible: boolean;
@@ -522,6 +542,8 @@ export const EnumerationOptions: {
 export type EnumerationOptions = EnumerationOptions$instance;
 
 export interface ErrorEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_IO_ErrorEventArgs: never;
+
     GetException(): Exception;
 }
 
@@ -534,6 +556,8 @@ export const ErrorEventArgs: {
 export type ErrorEventArgs = ErrorEventArgs$instance;
 
 export interface FileInfo$instance extends FileSystemInfo$instance {
+    readonly __tsonic_type_System_IO_FileInfo: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Directory: DirectoryInfo | undefined;
@@ -578,6 +602,8 @@ export type FileInfo = FileInfo$instance & __FileInfo$views;
 
 
 export interface FileLoadException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_FileLoadException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FileName: string | undefined;
@@ -605,6 +631,8 @@ export type FileLoadException = FileLoadException$instance & __FileLoadException
 
 
 export interface FileNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_FileNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FileName: string | undefined;
@@ -632,6 +660,8 @@ export type FileNotFoundException = FileNotFoundException$instance & __FileNotFo
 
 
 export interface FileStream$instance extends Stream$instance {
+    readonly __tsonic_type_System_IO_FileStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -712,6 +742,8 @@ export type FileStream = FileStream$instance & __FileStream$views;
 
 
 export interface FileStreamOptions$instance {
+    readonly __tsonic_type_System_IO_FileStreamOptions: never;
+
     Access: FileAccess;
     BufferSize: int;
     Mode: FileMode;
@@ -730,6 +762,8 @@ export const FileStreamOptions: {
 export type FileStreamOptions = FileStreamOptions$instance;
 
 export interface FileSystemEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_IO_FileSystemEventArgs: never;
+
     readonly ChangeType: WatcherChangeTypes;
     readonly FullPath: string;
     readonly Name: string | undefined;
@@ -744,6 +778,8 @@ export const FileSystemEventArgs: {
 export type FileSystemEventArgs = FileSystemEventArgs$instance;
 
 export interface FileSystemInfo$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_IO_FileSystemInfo: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Attributes: FileAttributes;
@@ -780,6 +816,8 @@ export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
 export interface FileSystemWatcher$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
+    readonly __tsonic_type_System_IO_FileSystemWatcher: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -822,6 +860,8 @@ export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher
 
 
 export interface InternalBufferOverflowException$instance extends SystemException {
+    readonly __tsonic_type_System_IO_InternalBufferOverflowException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -843,6 +883,8 @@ export type InternalBufferOverflowException = InternalBufferOverflowException$in
 
 
 export interface InvalidDataException$instance extends SystemException {
+    readonly __tsonic_type_System_IO_InvalidDataException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -864,6 +906,8 @@ export type InvalidDataException = InvalidDataException$instance & __InvalidData
 
 
 export interface IOException$instance extends SystemException {
+    readonly __tsonic_type_System_IO_IOException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -886,6 +930,8 @@ export type IOException = IOException$instance & __IOException$views;
 
 
 export interface MemoryStream$instance extends Stream$instance {
+    readonly __tsonic_type_System_IO_MemoryStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -953,6 +999,8 @@ export type MemoryStream = MemoryStream$instance & __MemoryStream$views;
 
 
 export interface PathTooLongException$instance extends IOException$instance {
+    readonly __tsonic_type_System_IO_PathTooLongException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -974,6 +1022,8 @@ export type PathTooLongException = PathTooLongException$instance & __PathTooLong
 
 
 export interface RenamedEventArgs$instance extends FileSystemEventArgs {
+    readonly __tsonic_type_System_IO_RenamedEventArgs: never;
+
     readonly OldFullPath: string;
     readonly OldName: string | undefined;
 }
@@ -987,6 +1037,8 @@ export const RenamedEventArgs: {
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
 export interface Stream$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1057,6 +1109,8 @@ export type Stream = Stream$instance & __Stream$views;
 
 
 export interface StreamReader$instance extends TextReader$instance {
+    readonly __tsonic_type_System_IO_StreamReader: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly BaseStream: Stream;
@@ -1120,6 +1174,8 @@ export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
 export interface StreamWriter$instance extends TextWriter$instance {
+    readonly __tsonic_type_System_IO_StreamWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1219,6 +1275,8 @@ export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 
 export interface StringReader$instance extends TextReader$instance {
+    readonly __tsonic_type_System_IO_StringReader: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Close(): void;
@@ -1266,6 +1324,8 @@ export type StringReader = StringReader$instance & __StringReader$views;
 
 
 export interface StringWriter$instance extends TextWriter$instance {
+    readonly __tsonic_type_System_IO_StringWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1356,6 +1416,8 @@ export type StringWriter = StringWriter$instance & __StringWriter$views;
 
 
 export interface TextReader$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_IO_TextReader: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Close(): void;
@@ -1394,6 +1456,8 @@ export type TextReader = TextReader$instance & __TextReader$views;
 
 
 export interface TextWriter$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_IO_TextWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1480,6 +1544,8 @@ export type TextWriter = TextWriter$instance & __TextWriter$views;
 
 
 export interface UnmanagedMemoryAccessor$instance {
+    readonly __tsonic_type_System_IO_UnmanagedMemoryAccessor: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CanRead: boolean;
@@ -1534,6 +1600,8 @@ export type UnmanagedMemoryAccessor = UnmanagedMemoryAccessor$instance & __Unman
 
 
 export interface UnmanagedMemoryStream$instance extends Stream$instance {
+    readonly __tsonic_type_System_IO_UnmanagedMemoryStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

@@ -28,6 +28,8 @@ export enum BoundedChannelFullMode {
 
 
 export interface BoundedChannelOptions$instance extends ChannelOptions {
+    readonly __tsonic_type_System_Threading_Channels_BoundedChannelOptions: never;
+
     Capacity: int;
     FullMode: BoundedChannelFullMode;
 }
@@ -41,6 +43,8 @@ export const BoundedChannelOptions: {
 export type BoundedChannelOptions = BoundedChannelOptions$instance;
 
 export interface Channel_1$instance<T> extends Channel_2<T, T> {
+    readonly __tsonic_type_System_Threading_Channels_Channel_1: never;
+
 }
 
 
@@ -51,6 +55,8 @@ export const Channel_1: (abstract new<T>() => Channel_1<T>) & {
 export type Channel_1<T> = Channel_1$instance<T>;
 
 export interface Channel_2$instance<TWrite, TRead> {
+    readonly __tsonic_type_System_Threading_Channels_Channel_2: never;
+
     Reader: ChannelReader_1<TRead>;
     Writer: ChannelWriter_1<TWrite>;
 }
@@ -63,6 +69,8 @@ export const Channel_2: (abstract new<TWrite, TRead>() => Channel_2<TWrite, TRea
 export type Channel_2<TWrite, TRead> = Channel_2$instance<TWrite, TRead>;
 
 export interface ChannelClosedException$instance extends InvalidOperationException {
+    readonly __tsonic_type_System_Threading_Channels_ChannelClosedException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -85,6 +93,8 @@ export type ChannelClosedException = ChannelClosedException$instance & __Channel
 
 
 export interface ChannelOptions$instance {
+    readonly __tsonic_type_System_Threading_Channels_ChannelOptions: never;
+
     AllowSynchronousContinuations: boolean;
     SingleReader: boolean;
     SingleWriter: boolean;
@@ -98,6 +108,8 @@ export const ChannelOptions: (abstract new() => ChannelOptions) & {
 export type ChannelOptions = ChannelOptions$instance;
 
 export interface ChannelReader_1$instance<T> {
+    readonly __tsonic_type_System_Threading_Channels_ChannelReader_1: never;
+
     readonly CanCount: boolean;
     readonly CanPeek: boolean;
     readonly Completion: Task;
@@ -117,6 +129,8 @@ export const ChannelReader_1: (abstract new<T>() => ChannelReader_1<T>) & {
 export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 
 export interface ChannelWriter_1$instance<T> {
+    readonly __tsonic_type_System_Threading_Channels_ChannelWriter_1: never;
+
     Complete(error?: Exception): void;
     TryComplete(error?: Exception): boolean;
     TryWrite(item: T): boolean;
@@ -132,6 +146,8 @@ export const ChannelWriter_1: (abstract new<T>() => ChannelWriter_1<T>) & {
 export type ChannelWriter_1<T> = ChannelWriter_1$instance<T>;
 
 export interface UnboundedChannelOptions$instance extends ChannelOptions {
+    readonly __tsonic_type_System_Threading_Channels_UnboundedChannelOptions: never;
+
 }
 
 
@@ -143,6 +159,8 @@ export const UnboundedChannelOptions: {
 export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
 export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
+    readonly __tsonic_type_System_Threading_Channels_UnboundedPrioritizedChannelOptions_1: never;
+
     get Comparer(): IComparer_1<T> | undefined;
     set Comparer(value: IComparer_1<T> | undefined);
 }

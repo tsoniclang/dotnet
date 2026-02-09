@@ -34,6 +34,8 @@ export interface IJsonTypeInfoResolver$instance {
 export type IJsonTypeInfoResolver = IJsonTypeInfoResolver$instance;
 
 export interface JsonDerivedType$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonDerivedType: never;
+
     readonly DerivedType: Type;
     readonly TypeDiscriminator: unknown | undefined;
 }
@@ -49,6 +51,8 @@ export const JsonDerivedType: {
 export type JsonDerivedType = JsonDerivedType$instance;
 
 export interface DefaultJsonTypeInfoResolver$instance extends IJsonTypeInfoResolver$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_DefaultJsonTypeInfoResolver: never;
+
     readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
 
     readonly Modifiers: IList_1<Action_1<JsonTypeInfo>>;
@@ -69,6 +73,8 @@ export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance &
 
 
 export interface JsonCollectionInfoValues_1$instance<TCollection> {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonCollectionInfoValues_1: never;
+
     ElementInfo: JsonTypeInfo;
     get KeyInfo(): JsonTypeInfo | undefined;
     set KeyInfo(value: JsonTypeInfo | undefined);
@@ -88,6 +94,8 @@ export const JsonCollectionInfoValues_1: {
 export type JsonCollectionInfoValues_1<TCollection> = JsonCollectionInfoValues_1$instance<TCollection>;
 
 export interface JsonObjectInfoValues_1$instance<T> {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonObjectInfoValues_1: never;
+
     get ConstructorAttributeProviderFactory(): Func_1<ICustomAttributeProvider> | undefined;
     set ConstructorAttributeProviderFactory(value: Func_1<ICustomAttributeProvider> | undefined);
     get ConstructorParameterMetadataInitializer(): Func_1<JsonParameterInfoValues[]> | undefined;
@@ -112,6 +120,8 @@ export const JsonObjectInfoValues_1: {
 export type JsonObjectInfoValues_1<T> = JsonObjectInfoValues_1$instance<T>;
 
 export interface JsonParameterInfo$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonParameterInfo: never;
+
     readonly AttributeProvider: ICustomAttributeProvider | undefined;
     readonly DeclaringType: Type;
     readonly DefaultValue: unknown | undefined;
@@ -131,6 +141,8 @@ export const JsonParameterInfo: {
 export type JsonParameterInfo = JsonParameterInfo$instance;
 
 export interface JsonParameterInfoValues$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonParameterInfoValues: never;
+
     get DefaultValue(): unknown | undefined;
     set DefaultValue(value: unknown | undefined);
     HasDefaultValue: boolean;
@@ -150,6 +162,8 @@ export const JsonParameterInfoValues: {
 export type JsonParameterInfoValues = JsonParameterInfoValues$instance;
 
 export interface JsonPolymorphismOptions$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonPolymorphismOptions: never;
+
     readonly DerivedTypes: IList_1<JsonDerivedType>;
     IgnoreUnrecognizedTypeDiscriminators: boolean;
     TypeDiscriminatorPropertyName: string;
@@ -165,6 +179,8 @@ export const JsonPolymorphismOptions: {
 export type JsonPolymorphismOptions = JsonPolymorphismOptions$instance;
 
 export interface JsonPropertyInfo$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonPropertyInfo: never;
+
     get AssociatedParameter(): JsonParameterInfo | undefined;
     set AssociatedParameter(value: JsonParameterInfo | undefined);
     get AttributeProvider(): ICustomAttributeProvider | undefined;
@@ -198,6 +214,8 @@ export const JsonPropertyInfo: {
 export type JsonPropertyInfo = JsonPropertyInfo$instance;
 
 export interface JsonPropertyInfoValues_1$instance<T> {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonPropertyInfoValues_1: never;
+
     get AttributeProviderFactory(): Func_1<ICustomAttributeProvider> | undefined;
     set AttributeProviderFactory(value: Func_1<ICustomAttributeProvider> | undefined);
     get Converter(): JsonConverter_1<T> | undefined;
@@ -229,6 +247,8 @@ export const JsonPropertyInfoValues_1: {
 export type JsonPropertyInfoValues_1<T> = JsonPropertyInfoValues_1$instance<T>;
 
 export interface JsonTypeInfo$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonTypeInfo: never;
+
     get ConstructorAttributeProvider(): ICustomAttributeProvider | undefined;
     set ConstructorAttributeProvider(value: ICustomAttributeProvider | undefined);
     readonly Converter: JsonConverter;
@@ -270,6 +290,8 @@ export const JsonTypeInfo: {
 export type JsonTypeInfo = JsonTypeInfo$instance;
 
 export interface JsonTypeInfo_1$instance<T> extends JsonTypeInfo {
+    readonly __tsonic_type_System_Text_Json_Serialization_Metadata_JsonTypeInfo_1: never;
+
     get CreateObject(): Func_1<T> | undefined;
     set CreateObject(value: Func_1<T> | undefined);
     get SerializeHandler(): Action_2<Utf8JsonWriter, T> | undefined;

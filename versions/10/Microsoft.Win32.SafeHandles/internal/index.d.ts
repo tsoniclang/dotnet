@@ -12,6 +12,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, IntPtr, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandle {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_CriticalHandleMinusOneIsInvalid: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -32,6 +34,8 @@ export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$in
 
 
 export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends CriticalHandle {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_CriticalHandleZeroOrMinusOneIsInvalid: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -52,6 +56,8 @@ export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOne
 
 
 export interface SafeAccessTokenHandle$instance extends SafeHandle {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeAccessTokenHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -76,6 +82,8 @@ export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAcces
 
 
 export interface SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeFileHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     IsAsync: boolean;
@@ -100,6 +108,8 @@ export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
 export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandle {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleMinusOneIsInvalid: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -120,6 +130,8 @@ export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance &
 
 
 export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandle {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -140,6 +152,8 @@ export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvali
 
 
 export interface SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeMemoryMappedFileHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -162,6 +176,8 @@ export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & _
 
 
 export interface SafeMemoryMappedViewHandle$instance extends SafeBuffer {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeMemoryMappedViewHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -183,6 +199,8 @@ export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & _
 
 
 export interface SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -204,6 +222,8 @@ export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$vi
 
 
 export interface SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -226,6 +246,8 @@ export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKey
 
 
 export interface SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -247,6 +269,8 @@ export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __Saf
 
 
 export interface SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptSecretHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -268,6 +292,8 @@ export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCr
 
 
 export interface SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafePipeHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -291,6 +317,8 @@ export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 
 
 export interface SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeProcessHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -313,6 +341,8 @@ export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle
 
 
 export interface SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeRegistryHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -335,6 +365,8 @@ export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHan
 
 
 export interface SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeWaitHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -357,6 +389,8 @@ export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 
 export interface SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeX509ChainHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;

@@ -58,6 +58,8 @@ export enum SslProtocols {
 
 
 export interface AuthenticationException$instance extends SystemException {
+    readonly __tsonic_type_System_Security_Authentication_AuthenticationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -79,6 +81,8 @@ export type AuthenticationException = AuthenticationException$instance & __Authe
 
 
 export interface InvalidCredentialException$instance extends AuthenticationException$instance {
+    readonly __tsonic_type_System_Security_Authentication_InvalidCredentialException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

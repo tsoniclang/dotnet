@@ -64,6 +64,8 @@ export interface IPinnable$instance {
 export type IPinnable = IPinnable$instance;
 
 export interface MemoryHandle$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Buffers_MemoryHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Pointer: ptr<void>;
@@ -84,6 +86,8 @@ export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
 
 export interface ReadOnlySequence_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_ReadOnlySequence_1: never;
+
     readonly End: SequencePosition;
     readonly First: ReadOnlyMemory_1<T>;
     readonly FirstSpan: ReadOnlySpan_1<T>;
@@ -121,6 +125,8 @@ export const ReadOnlySequence_1: {
 export type ReadOnlySequence_1<T> = ReadOnlySequence_1$instance<T>;
 
 export interface ReadOnlySequence_1_Enumerator$instance<T> {
+    readonly __tsonic_type_System_Buffers_ReadOnlySequence_1_Enumerator: never;
+
     readonly Current: ReadOnlyMemory_1<T>;
     MoveNext(): boolean;
 }
@@ -134,6 +140,8 @@ export const ReadOnlySequence_1_Enumerator: {
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
 export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
+    readonly __tsonic_type_System_Buffers_SequenceReader_1: never;
+
     Consumed: long;
     CurrentSpan: ReadOnlySpan_1<T>;
     CurrentSpanIndex: int;
@@ -180,6 +188,8 @@ export const SequenceReader_1: {
 export type SequenceReader_1<T extends (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
 
 export interface StandardFormat$instance {
+    readonly __tsonic_type_System_Buffers_StandardFormat: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly HasPrecision: boolean;
@@ -214,6 +224,8 @@ export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
 export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_ArrayBufferWriter_1: never;
+
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
 
     readonly Capacity: int;
@@ -243,6 +255,8 @@ export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBu
 
 
 export interface ArrayPool_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_ArrayPool_1: never;
+
     Rent(minimumLength: int): T[];
     Return(array: T[], clearArray?: boolean): void;
 }
@@ -258,6 +272,8 @@ export const ArrayPool_1: (abstract new<T>() => ArrayPool_1<T>) & {
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
 export interface MemoryManager_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_MemoryManager_1: never;
+
     readonly __tsonic_iface_System_Buffers_IMemoryOwner_1: never;
     readonly __tsonic_iface_System_Buffers_IPinnable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -285,6 +301,8 @@ export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1
 
 
 export interface MemoryPool_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_MemoryPool_1: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly MaxBufferSize: int;
@@ -307,6 +325,8 @@ export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>
 
 
 export interface ReadOnlySequenceSegment_1$instance<T> {
+    readonly __tsonic_type_System_Buffers_ReadOnlySequenceSegment_1: never;
+
     Memory: ReadOnlyMemory_1<T>;
     get Next(): ReadOnlySequenceSegment_1<T> | undefined;
     set Next(value: ReadOnlySequenceSegment_1<T> | undefined);
@@ -321,6 +341,8 @@ export const ReadOnlySequenceSegment_1: (abstract new<T>() => ReadOnlySequenceSe
 export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
 
 export interface SearchValues_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
+    readonly __tsonic_type_System_Buffers_SearchValues_1: never;
+
     Contains(value: T): boolean;
 }
 

@@ -75,6 +75,8 @@ export type MatchEvaluator = (match: Match) => string;
 
 
 export interface Regex_ValueMatchEnumerator$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueMatchEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -100,6 +102,8 @@ export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance & _
 
 
 export interface Regex_ValueSplitEnumerator$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueSplitEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -125,6 +129,8 @@ export type Regex_ValueSplitEnumerator = Regex_ValueSplitEnumerator$instance & _
 
 
 export interface ValueMatch$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_ValueMatch: never;
+
     readonly Index: int;
     readonly Length: int;
 }
@@ -138,6 +144,8 @@ export const ValueMatch: {
 export type ValueMatch = ValueMatch$instance;
 
 export interface Capture$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Capture: never;
+
     Index: int;
     Length: int;
     readonly Value: string;
@@ -153,6 +161,8 @@ export const Capture: {
 export type Capture = Capture$instance;
 
 export interface CaptureCollection$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_CaptureCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -191,6 +201,8 @@ export type CaptureCollection = CaptureCollection$instance & __CaptureCollection
 
 
 export interface GeneratedRegexAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Text_RegularExpressions_GeneratedRegexAttribute: never;
+
     readonly CultureName: string;
     readonly MatchTimeoutMilliseconds: int;
     readonly Options: RegexOptions;
@@ -210,6 +222,8 @@ export const GeneratedRegexAttribute: {
 export type GeneratedRegexAttribute = GeneratedRegexAttribute$instance;
 
 export interface Group$instance extends Capture {
+    readonly __tsonic_type_System_Text_RegularExpressions_Group: never;
+
     readonly Captures: CaptureCollection;
     readonly Name: string;
     readonly Success: boolean;
@@ -224,6 +238,8 @@ export const Group: {
 export type Group = Group$instance;
 
 export interface GroupCollection$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_GroupCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -269,6 +285,8 @@ export type GroupCollection = GroupCollection$instance & __GroupCollection$views
 
 
 export interface Match$instance extends Group {
+    readonly __tsonic_type_System_Text_RegularExpressions_Match: never;
+
     readonly Groups: GroupCollection;
     NextMatch(): Match;
     Result(replacement: string): string;
@@ -283,6 +301,8 @@ export const Match: {
 export type Match = Match$instance;
 
 export interface MatchCollection$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_MatchCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -321,6 +341,8 @@ export type MatchCollection = MatchCollection$instance & __MatchCollection$views
 
 
 export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Regex: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly MatchTimeout: TimeSpan;
@@ -416,6 +438,8 @@ export type Regex = Regex$instance & __Regex$views;
 
 
 export interface RegexCompilationInfo$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_RegexCompilationInfo: never;
+
     IsPublic: boolean;
     MatchTimeout: TimeSpan;
     Name: string;
@@ -434,6 +458,8 @@ export const RegexCompilationInfo: {
 export type RegexCompilationInfo = RegexCompilationInfo$instance;
 
 export interface RegexMatchTimeoutException$instance extends TimeoutException {
+    readonly __tsonic_type_System_Text_RegularExpressions_RegexMatchTimeoutException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Input: string;
@@ -459,6 +485,8 @@ export type RegexMatchTimeoutException = RegexMatchTimeoutException$instance & _
 
 
 export interface RegexParseException$instance extends ArgumentException {
+    readonly __tsonic_type_System_Text_RegularExpressions_RegexParseException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Error: RegexParseError;
@@ -479,6 +507,8 @@ export type RegexParseException = RegexParseException$instance & __RegexParseExc
 
 
 export interface RegexRunner$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_RegexRunner: never;
+
     FindFirstChar(): boolean;
     Go(): void;
     InitTrackCount(): void;
@@ -495,6 +525,8 @@ export const RegexRunner: (abstract new() => RegexRunner) & {
 export type RegexRunner = RegexRunner$instance;
 
 export interface RegexRunnerFactory$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_RegexRunnerFactory: never;
+
     CreateInstance(): RegexRunner;
 }
 

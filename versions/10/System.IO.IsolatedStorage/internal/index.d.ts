@@ -39,6 +39,8 @@ export interface INormalizeForIsolatedStorage$instance {
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
 export interface IsolatedStorage$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorage: never;
+
     readonly ApplicationIdentity: unknown;
     readonly AssemblyIdentity: unknown;
     readonly AvailableFreeSpace: long;
@@ -62,6 +64,8 @@ export const IsolatedStorage: (abstract new() => IsolatedStorage) & {
 export type IsolatedStorage = IsolatedStorage$instance;
 
 export interface IsolatedStorageException$instance extends Exception {
+    readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorageException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -83,6 +87,8 @@ export type IsolatedStorageException = IsolatedStorageException$instance & __Iso
 
 
 export interface IsolatedStorageFile$instance extends IsolatedStorage, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorageFile: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AvailableFreeSpace: long;
@@ -143,6 +149,8 @@ export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStora
 
 
 export interface IsolatedStorageFileStream$instance extends FileStream {
+    readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorageFileStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

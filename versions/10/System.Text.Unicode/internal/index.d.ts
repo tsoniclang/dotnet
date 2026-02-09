@@ -14,6 +14,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface Utf8_TryWriteInterpolatedStringHandler$instance {
+    readonly __tsonic_type_System_Text_Unicode_Utf8_TryWriteInterpolatedStringHandler: never;
+
     AppendFormatted<T>(value: T): boolean;
     AppendFormatted<T>(value: T, format: string): boolean;
     AppendFormatted<T>(value: T, alignment: int): boolean;
@@ -38,6 +40,8 @@ export const Utf8_TryWriteInterpolatedStringHandler: {
 export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedStringHandler$instance;
 
 export interface UnicodeRange$instance {
+    readonly __tsonic_type_System_Text_Unicode_UnicodeRange: never;
+
     readonly FirstCodePoint: int;
     readonly Length: int;
 }

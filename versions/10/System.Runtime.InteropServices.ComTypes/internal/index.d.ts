@@ -543,6 +543,8 @@ export interface ITypeLib2$instance extends ITypeLib$instance {}
 export type ITypeLib2 = ITypeLib2$instance;
 
 export interface BIND_OPTS$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_BIND_OPTS: never;
+
     cbStruct: int;
     grfFlags: int;
     grfMode: int;
@@ -558,6 +560,8 @@ export const BIND_OPTS: {
 export type BIND_OPTS = BIND_OPTS$instance;
 
 export interface BINDPTR$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_BINDPTR: never;
+
     lpfuncdesc: nint;
     lpvardesc: nint;
     lptcomp: nint;
@@ -572,6 +576,8 @@ export const BINDPTR: {
 export type BINDPTR = BINDPTR$instance;
 
 export interface CONNECTDATA$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_CONNECTDATA: never;
+
     pUnk: unknown;
     dwCookie: int;
 }
@@ -585,6 +591,8 @@ export const CONNECTDATA: {
 export type CONNECTDATA = CONNECTDATA$instance;
 
 export interface DISPPARAMS$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_DISPPARAMS: never;
+
     rgvarg: nint;
     rgdispidNamedArgs: nint;
     cArgs: int;
@@ -600,6 +608,8 @@ export const DISPPARAMS: {
 export type DISPPARAMS = DISPPARAMS$instance;
 
 export interface ELEMDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_ELEMDESC: never;
+
     tdesc: TYPEDESC;
     desc: ELEMDESC_DESCUNION;
 }
@@ -613,6 +623,8 @@ export const ELEMDESC: {
 export type ELEMDESC = ELEMDESC$instance;
 
 export interface ELEMDESC_DESCUNION$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_ELEMDESC_DESCUNION: never;
+
     idldesc: IDLDESC;
     paramdesc: PARAMDESC;
 }
@@ -626,6 +638,8 @@ export const ELEMDESC_DESCUNION: {
 export type ELEMDESC_DESCUNION = ELEMDESC_DESCUNION$instance;
 
 export interface EXCEPINFO$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_EXCEPINFO: never;
+
     wCode: short;
     wReserved: short;
     bstrSource: string;
@@ -646,6 +660,8 @@ export const EXCEPINFO: {
 export type EXCEPINFO = EXCEPINFO$instance;
 
 export interface FILETIME$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FILETIME: never;
+
     dwLowDateTime: int;
     dwHighDateTime: int;
 }
@@ -659,6 +675,8 @@ export const FILETIME: {
 export type FILETIME = FILETIME$instance;
 
 export interface FORMATETC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FORMATETC: never;
+
     cfFormat: short;
     ptd: nint;
     dwAspect: DVASPECT;
@@ -675,6 +693,8 @@ export const FORMATETC: {
 export type FORMATETC = FORMATETC$instance;
 
 export interface FUNCDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FUNCDESC: never;
+
     memid: int;
     lprgscode: nint;
     lprgelemdescParam: nint;
@@ -698,6 +718,8 @@ export const FUNCDESC: {
 export type FUNCDESC = FUNCDESC$instance;
 
 export interface IDLDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_IDLDESC: never;
+
     dwReserved: nint;
     wIDLFlags: IDLFLAG;
 }
@@ -711,6 +733,8 @@ export const IDLDESC: {
 export type IDLDESC = IDLDESC$instance;
 
 export interface PARAMDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_PARAMDESC: never;
+
     lpVarValue: nint;
     wParamFlags: PARAMFLAG;
 }
@@ -724,6 +748,8 @@ export const PARAMDESC: {
 export type PARAMDESC = PARAMDESC$instance;
 
 export interface STATDATA$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STATDATA: never;
+
     formatetc: FORMATETC;
     advf: ADVF;
     advSink: IAdviseSink;
@@ -739,6 +765,8 @@ export const STATDATA: {
 export type STATDATA = STATDATA$instance;
 
 export interface STATSTG$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STATSTG: never;
+
     pwcsName: string;
     type: int;
     cbSize: long;
@@ -761,6 +789,8 @@ export const STATSTG: {
 export type STATSTG = STATSTG$instance;
 
 export interface STGMEDIUM$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STGMEDIUM: never;
+
     tymed: TYMED;
     unionmember: nint;
     pUnkForRelease: unknown | undefined;
@@ -775,6 +805,8 @@ export const STGMEDIUM: {
 export type STGMEDIUM = STGMEDIUM$instance;
 
 export interface TYPEATTR$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEATTR: never;
+
     guid: Guid;
     lcid: int;
     dwReserved: int;
@@ -805,6 +837,8 @@ export const TYPEATTR: {
 export type TYPEATTR = TYPEATTR$instance;
 
 export interface TYPEDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEDESC: never;
+
     lpValue: nint;
     vt: short;
 }
@@ -818,6 +852,8 @@ export const TYPEDESC: {
 export type TYPEDESC = TYPEDESC$instance;
 
 export interface TYPELIBATTR$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPELIBATTR: never;
+
     guid: Guid;
     lcid: int;
     syskind: SYSKIND;
@@ -835,6 +871,8 @@ export const TYPELIBATTR: {
 export type TYPELIBATTR = TYPELIBATTR$instance;
 
 export interface VARDESC$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARDESC: never;
+
     memid: int;
     lpstrSchema: string;
     desc: VARDESC_DESCUNION;
@@ -852,6 +890,8 @@ export const VARDESC: {
 export type VARDESC = VARDESC$instance;
 
 export interface VARDESC_DESCUNION$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARDESC_DESCUNION: never;
+
     oInst: int;
     lpvarValue: nint;
 }

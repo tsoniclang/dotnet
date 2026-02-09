@@ -234,6 +234,8 @@ export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, 
 export type ISet_1<T> = ISet_1$instance<T>;
 
 export interface Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_AlternateLookup_1: never;
+
     readonly Dictionary: Dictionary_2<TKey, TValue>;
     Item: TValue;
     ContainsKey(key: TAlternateKey): boolean;
@@ -253,6 +255,8 @@ export const Dictionary_2_AlternateLookup_1: {
 export type Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface Dictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IDictionaryEnumerator: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -280,6 +284,8 @@ export type Dictionary_2_Enumerator<TKey, TValue> = Dictionary_2_Enumerator$inst
 
 
 export interface Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -305,6 +311,8 @@ export type Dictionary_2_KeyCollection_Enumerator<TKey, TValue> = Dictionary_2_K
 
 
 export interface Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -330,6 +338,8 @@ export type Dictionary_2_ValueCollection_Enumerator<TKey, TValue> = Dictionary_2
 
 
 export interface HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
+    readonly __tsonic_type_System_Collections_Generic_HashSet_1_AlternateLookup_1: never;
+
     readonly Set: HashSet_1<T>;
     Add(item: TAlternate): boolean;
     Contains(item: TAlternate): boolean;
@@ -346,6 +356,8 @@ export const HashSet_1_AlternateLookup_1: {
 export type HashSet_1_AlternateLookup_1<T, TAlternate> = HashSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
 export interface HashSet_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_HashSet_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -371,6 +383,8 @@ export type HashSet_1_Enumerator<T> = HashSet_1_Enumerator$instance<T> & __HashS
 
 
 export interface KeyValuePair_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_KeyValuePair_2: never;
+
     readonly Key: TKey;
     readonly Value: TValue;
     Deconstruct(key: TKey, value: TValue): void;
@@ -386,6 +400,8 @@ export const KeyValuePair_2: {
 export type KeyValuePair_2<TKey, TValue> = KeyValuePair_2$instance<TKey, TValue>;
 
 export interface LinkedList_1_Enumerator$instance<T> extends IDisposable, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_LinkedList_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -415,6 +431,8 @@ export type LinkedList_1_Enumerator<T> = LinkedList_1_Enumerator$instance<T> & _
 
 
 export interface List_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_List_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -440,6 +458,8 @@ export type List_1_Enumerator<T> = List_1_Enumerator$instance<T> & __List_1_Enum
 
 
 export interface OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IDictionaryEnumerator: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -466,6 +486,8 @@ export type OrderedDictionary_2_Enumerator<TKey, TValue> = OrderedDictionary_2_E
 
 
 export interface OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2_KeyCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -490,6 +512,8 @@ export type OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = Ordered
 
 
 export interface OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2_ValueCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -514,6 +538,8 @@ export type OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = Order
 
 
 export interface PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_PriorityQueue_2_UnorderedItemsCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -539,6 +565,8 @@ export type PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPrior
 
 
 export interface Queue_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_Queue_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -564,6 +592,8 @@ export type Queue_1_Enumerator<T> = Queue_1_Enumerator$instance<T> & __Queue_1_E
 
 
 export interface SortedDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IDictionaryEnumerator: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -591,6 +621,8 @@ export type SortedDictionary_2_Enumerator<TKey, TValue> = SortedDictionary_2_Enu
 
 
 export interface SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_KeyCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -616,6 +648,8 @@ export type SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = SortedDi
 
 
 export interface SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_ValueCollection_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -641,6 +675,8 @@ export type SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = Sorted
 
 
 export interface SortedSet_1_Enumerator$instance<T> extends IDisposable, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_SortedSet_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -670,6 +706,8 @@ export type SortedSet_1_Enumerator<T> = SortedSet_1_Enumerator$instance<T> & __S
 
 
 export interface Stack_1_Enumerator$instance<T> extends IDisposable {
+    readonly __tsonic_type_System_Collections_Generic_Stack_1_Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -695,6 +733,8 @@ export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_E
 
 
 export interface ByteEqualityComparer$instance extends EqualityComparer_1$instance<System_Internal.Byte> {
+    readonly __tsonic_type_System_Collections_Generic_ByteEqualityComparer: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
@@ -717,6 +757,8 @@ export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualit
 
 
 export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_Comparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
@@ -739,6 +781,8 @@ export type Comparer_1<T> = Comparer_1$instance<T> & __Comparer_1$views<T>;
 
 
 export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -804,6 +848,8 @@ export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & _
 
 
 export interface Dictionary_2_KeyCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_KeyCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -834,6 +880,8 @@ export type Dictionary_2_KeyCollection<TKey, TValue> = Dictionary_2_KeyCollectio
 
 
 export interface Dictionary_2_ValueCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_Dictionary_2_ValueCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -863,6 +911,8 @@ export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueColle
 
 
 export interface EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T>, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_EnumEqualityComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -890,6 +940,8 @@ export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$in
 
 
 export interface EqualityComparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_EqualityComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
@@ -913,6 +965,8 @@ export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityC
 
 
 export interface GenericComparer_1$instance<T extends (IComparable_1<T> | number | string | boolean)> extends Comparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_GenericComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
@@ -937,6 +991,8 @@ export type GenericComparer_1<T extends (IComparable_1<T> | number | string | bo
 
 
 export interface GenericEqualityComparer_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> extends EqualityComparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_GenericEqualityComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
@@ -961,6 +1017,8 @@ export type GenericEqualityComparer_1<T extends (IEquatable_1<T> | number | stri
 
 
 export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_HashSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1029,6 +1087,8 @@ export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
 
 export interface KeyNotFoundException$instance extends SystemException {
+    readonly __tsonic_type_System_Collections_Generic_KeyNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1050,6 +1110,8 @@ export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFound
 
 
 export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_LinkedList_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1104,6 +1166,8 @@ export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>
 
 
 export interface LinkedListNode_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_LinkedListNode_1: never;
+
     readonly List: LinkedList_1<T> | undefined;
     readonly Next: LinkedListNode_1<T> | undefined;
     readonly Previous: LinkedListNode_1<T> | undefined;
@@ -1120,6 +1184,8 @@ export const LinkedListNode_1: {
 export type LinkedListNode_1<T> = LinkedListNode_1$instance<T>;
 
 export interface List_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_List_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1204,6 +1270,8 @@ export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 
 
 export interface NonRandomizedStringEqualityComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_NonRandomizedStringEqualityComparer: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1227,6 +1295,8 @@ export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityCom
 
 
 export interface NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>>, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_NullableComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1253,6 +1323,8 @@ export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableC
 
 
 export interface NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>>, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_NullableEqualityComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1278,6 +1350,8 @@ export type NullableEqualityComparer_1<T> = NullableEqualityComparer_1$instance<
 
 
 export interface ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_ObjectComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
@@ -1302,6 +1376,8 @@ export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectCompare
 
 
 export interface ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_ObjectEqualityComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
@@ -1326,6 +1402,8 @@ export type ObjectEqualityComparer_1<T> = ObjectEqualityComparer_1$instance<T> &
 
 
 export interface OrderedDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -1396,6 +1474,8 @@ export type OrderedDictionary_2<TKey, TValue> = OrderedDictionary_2$instance<TKe
 
 
 export interface OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2_KeyCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1430,6 +1510,8 @@ export type OrderedDictionary_2_KeyCollection<TKey, TValue> = OrderedDictionary_
 
 
 export interface OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_OrderedDictionary_2_ValueCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1463,6 +1545,8 @@ export type OrderedDictionary_2_ValueCollection<TKey, TValue> = OrderedDictionar
 
 
 export interface PriorityQueue_2$instance<TElement, TPriority> {
+    readonly __tsonic_type_System_Collections_Generic_PriorityQueue_2: never;
+
     readonly Capacity: int;
     readonly Comparer: IComparer_1<TPriority>;
     readonly Count: int;
@@ -1496,6 +1580,8 @@ export const PriorityQueue_2: {
 export type PriorityQueue_2<TElement, TPriority> = PriorityQueue_2$instance<TElement, TPriority>;
 
 export interface PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> {
+    readonly __tsonic_type_System_Collections_Generic_PriorityQueue_2_UnorderedItemsCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1521,6 +1607,8 @@ export type PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority> = Prio
 
 
 export interface Queue_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_Queue_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1562,6 +1650,8 @@ export type Queue_1<T> = Queue_1$instance<T> & __Queue_1$views<T>;
 
 
 export interface ReferenceEqualityComparer$instance {
+    readonly __tsonic_type_System_Collections_Generic_ReferenceEqualityComparer: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
@@ -1584,6 +1674,8 @@ export type ReferenceEqualityComparer = ReferenceEqualityComparer$instance & __R
 
 
 export interface SortedDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -1632,6 +1724,8 @@ export type SortedDictionary_2<TKey, TValue> = SortedDictionary_2$instance<TKey,
 
 
 export interface SortedDictionary_2_KeyCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_KeyCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1662,6 +1756,8 @@ export type SortedDictionary_2_KeyCollection<TKey, TValue> = SortedDictionary_2_
 
 
 export interface SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> extends Comparer_1$instance<KeyValuePair_2<TKey, TValue>> {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_KeyValuePairComparer: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
@@ -1685,6 +1781,8 @@ export type SortedDictionary_2_KeyValuePairComparer<TKey, TValue> = SortedDictio
 
 
 export interface SortedDictionary_2_ValueCollection$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedDictionary_2_ValueCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1714,6 +1812,8 @@ export type SortedDictionary_2_ValueCollection<TKey, TValue> = SortedDictionary_
 
 
 export interface SortedList_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedList_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -1771,6 +1871,8 @@ export type SortedList_2<TKey, TValue> = SortedList_2$instance<TKey, TValue> & _
 
 
 export interface SortedList_2_KeyList$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedList_2_KeyList: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1808,6 +1910,8 @@ export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<T
 
 
 export interface SortedList_2_ValueList$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Generic_SortedList_2_ValueList: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1845,6 +1949,8 @@ export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instan
 
 
 export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Generic_SortedSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1912,6 +2018,8 @@ export type SortedSet_1<T> = SortedSet_1$instance<T> & __SortedSet_1$views<T>;
 
 
 export interface Stack_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_Stack_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1953,6 +2061,8 @@ export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
 
 
 export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Generic_TreeSet_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;

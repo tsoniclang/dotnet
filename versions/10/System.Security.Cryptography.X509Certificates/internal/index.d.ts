@@ -253,6 +253,8 @@ export enum X509VerificationFlags {
 
 
 export interface X509ChainStatus$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainStatus: never;
+
     Status: X509ChainStatusFlags;
     StatusInformation: string;
 }
@@ -266,6 +268,8 @@ export const X509ChainStatus: {
 export type X509ChainStatus = X509ChainStatus$instance;
 
 export interface CertificateRequest$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_CertificateRequest: never;
+
     readonly CertificateExtensions: Collection_1<X509Extension>;
     readonly HashAlgorithm: HashAlgorithmName;
     readonly OtherRequestAttributes: Collection_1<AsnEncodedData>;
@@ -306,6 +310,8 @@ export const CertificateRequest: {
 export type CertificateRequest = CertificateRequest$instance;
 
 export interface CertificateRevocationListBuilder$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_CertificateRevocationListBuilder: never;
+
     AddEntry(certificate: X509Certificate2, revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
     AddEntry(serialNumber: byte[], revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
     AddEntry(serialNumber: ReadOnlySpan_1<System_Internal.Byte>, revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
@@ -329,6 +335,8 @@ export const CertificateRevocationListBuilder: {
 export type CertificateRevocationListBuilder = CertificateRevocationListBuilder$instance;
 
 export interface Pkcs12LoaderLimits$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_Pkcs12LoaderLimits: never;
+
     AllowDuplicateAttributes: boolean;
     IgnoreEncryptedAuthSafes: boolean;
     IgnorePrivateKeys: boolean;
@@ -357,6 +365,8 @@ export const Pkcs12LoaderLimits: {
 export type Pkcs12LoaderLimits = Pkcs12LoaderLimits$instance;
 
 export interface Pkcs12LoadLimitExceededException$instance extends CryptographicException {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_Pkcs12LoadLimitExceededException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -376,6 +386,8 @@ export type Pkcs12LoadLimitExceededException = Pkcs12LoadLimitExceededException$
 
 
 export interface PublicKey$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_PublicKey: never;
+
     readonly EncodedKeyValue: AsnEncodedData;
     readonly EncodedParameters: AsnEncodedData | undefined;
     readonly Key: AsymmetricAlgorithm;
@@ -407,6 +419,8 @@ export const PublicKey: {
 export type PublicKey = PublicKey$instance;
 
 export interface SubjectAlternativeNameBuilder$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_SubjectAlternativeNameBuilder: never;
+
     AddDnsName(dnsName: string): void;
     AddEmailAddress(emailAddress: string): void;
     AddIpAddress(ipAddress: IPAddress): void;
@@ -424,6 +438,8 @@ export const SubjectAlternativeNameBuilder: {
 export type SubjectAlternativeNameBuilder = SubjectAlternativeNameBuilder$instance;
 
 export interface X500DistinguishedName$instance extends AsnEncodedData {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X500DistinguishedName: never;
+
     readonly Name: string;
     Decode(flag: X500DistinguishedNameFlags): string;
     EnumerateRelativeDistinguishedNames(reversed?: boolean): IEnumerable_1<X500RelativeDistinguishedName>;
@@ -444,6 +460,8 @@ export const X500DistinguishedName: {
 export type X500DistinguishedName = X500DistinguishedName$instance;
 
 export interface X500DistinguishedNameBuilder$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X500DistinguishedNameBuilder: never;
+
     Add(oidValue: string, value: string, stringEncodingType?: Nullable_1<UniversalTagNumber>): void;
     Add(oid: Oid, value: string, stringEncodingType?: Nullable_1<UniversalTagNumber>): void;
     AddCommonName(commonName: string): void;
@@ -466,6 +484,8 @@ export const X500DistinguishedNameBuilder: {
 export type X500DistinguishedNameBuilder = X500DistinguishedNameBuilder$instance;
 
 export interface X500RelativeDistinguishedName$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X500RelativeDistinguishedName: never;
+
     readonly HasMultipleElements: boolean;
     readonly RawData: ReadOnlyMemory_1<System_Internal.Byte>;
     GetSingleElementType(): Oid;
@@ -480,6 +500,8 @@ export const X500RelativeDistinguishedName: {
 export type X500RelativeDistinguishedName = X500RelativeDistinguishedName$instance;
 
 export interface X509AuthorityInformationAccessExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509AuthorityInformationAccessExtension: never;
+
     CopyFrom(asnEncodedData: AsnEncodedData): void;
     EnumerateCAIssuersUris(): IEnumerable_1<System_Internal.String>;
     EnumerateOcspUris(): IEnumerable_1<System_Internal.String>;
@@ -499,6 +521,8 @@ export const X509AuthorityInformationAccessExtension: {
 export type X509AuthorityInformationAccessExtension = X509AuthorityInformationAccessExtension$instance;
 
 export interface X509AuthorityKeyIdentifierExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509AuthorityKeyIdentifierExtension: never;
+
     readonly KeyIdentifier: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
     readonly NamedIssuer: X500DistinguishedName | undefined;
     readonly RawIssuer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
@@ -525,6 +549,8 @@ export const X509AuthorityKeyIdentifierExtension: {
 export type X509AuthorityKeyIdentifierExtension = X509AuthorityKeyIdentifierExtension$instance;
 
 export interface X509BasicConstraintsExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtension: never;
+
     readonly CertificateAuthority: boolean;
     readonly HasPathLengthConstraint: boolean;
     readonly PathLengthConstraint: int;
@@ -544,6 +570,8 @@ export const X509BasicConstraintsExtension: {
 export type X509BasicConstraintsExtension = X509BasicConstraintsExtension$instance;
 
 export interface X509Certificate$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Certificate: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -624,6 +652,8 @@ export type X509Certificate = X509Certificate$instance & __X509Certificate$views
 
 
 export interface X509Certificate2$instance extends X509Certificate$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Certificate2: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -719,6 +749,8 @@ export type X509Certificate2 = X509Certificate2$instance & __X509Certificate2$vi
 
 
 export interface X509Certificate2Collection$instance extends X509CertificateCollection$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Certificate2Collection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -788,6 +820,8 @@ export type X509Certificate2Collection = X509Certificate2Collection$instance & _
 
 
 export interface X509Certificate2Enumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Certificate2Enumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -812,6 +846,8 @@ export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & _
 
 
 export interface X509CertificateCollection$instance extends CollectionBase {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509CertificateCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -850,6 +886,8 @@ export type X509CertificateCollection = X509CertificateCollection$instance & __X
 
 
 export interface X509CertificateCollection_X509CertificateEnumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509CertificateCollection_X509CertificateEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: X509Certificate;
@@ -871,6 +909,8 @@ export type X509CertificateCollection_X509CertificateEnumerator = X509Certificat
 
 
 export interface X509Chain$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Chain: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ChainContext: nint;
@@ -901,6 +941,8 @@ export type X509Chain = X509Chain$instance & __X509Chain$views;
 
 
 export interface X509ChainElement$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainElement: never;
+
     readonly Certificate: X509Certificate2;
     readonly ChainElementStatus: X509ChainStatus[];
     readonly Information: string;
@@ -914,6 +956,8 @@ export const X509ChainElement: {
 export type X509ChainElement = X509ChainElement$instance;
 
 export interface X509ChainElementCollection$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainElementCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -941,6 +985,8 @@ export type X509ChainElementCollection = X509ChainElementCollection$instance & _
 
 
 export interface X509ChainElementEnumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainElementEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -965,6 +1011,8 @@ export type X509ChainElementEnumerator = X509ChainElementEnumerator$instance & _
 
 
 export interface X509ChainPolicy$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainPolicy: never;
+
     readonly ApplicationPolicy: OidCollection;
     readonly CertificatePolicy: OidCollection;
     readonly CustomTrustStore: X509Certificate2Collection;
@@ -990,6 +1038,8 @@ export const X509ChainPolicy: {
 export type X509ChainPolicy = X509ChainPolicy$instance;
 
 export interface X509EnhancedKeyUsageExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509EnhancedKeyUsageExtension: never;
+
     readonly EnhancedKeyUsages: OidCollection;
     CopyFrom(asnEncodedData: AsnEncodedData): void;
 }
@@ -1005,6 +1055,8 @@ export const X509EnhancedKeyUsageExtension: {
 export type X509EnhancedKeyUsageExtension = X509EnhancedKeyUsageExtension$instance;
 
 export interface X509Extension$instance extends AsnEncodedData {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Extension: never;
+
     Critical: boolean;
     CopyFrom(asnEncodedData: AsnEncodedData): void;
 }
@@ -1022,6 +1074,8 @@ export const X509Extension: {
 export type X509Extension = X509Extension$instance;
 
 export interface X509ExtensionCollection$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ExtensionCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -1052,6 +1106,8 @@ export type X509ExtensionCollection = X509ExtensionCollection$instance & __X509E
 
 
 export interface X509ExtensionEnumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ExtensionEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1076,6 +1132,8 @@ export type X509ExtensionEnumerator = X509ExtensionEnumerator$instance & __X509E
 
 
 export interface X509KeyUsageExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509KeyUsageExtension: never;
+
     readonly KeyUsages: X509KeyUsageFlags;
     CopyFrom(asnEncodedData: AsnEncodedData): void;
 }
@@ -1091,6 +1149,8 @@ export const X509KeyUsageExtension: {
 export type X509KeyUsageExtension = X509KeyUsageExtension$instance;
 
 export interface X509SignatureGenerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509SignatureGenerator: never;
+
     readonly PublicKey: PublicKey;
     BuildPublicKey(): PublicKey;
     GetSignatureAlgorithmIdentifier(hashAlgorithm: HashAlgorithmName): byte[];
@@ -1110,6 +1170,8 @@ export const X509SignatureGenerator: (abstract new() => X509SignatureGenerator) 
 export type X509SignatureGenerator = X509SignatureGenerator$instance;
 
 export interface X509Store$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Store: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Certificates: X509Certificate2Collection;
@@ -1148,6 +1210,8 @@ export type X509Store = X509Store$instance & __X509Store$views;
 
 
 export interface X509SubjectAlternativeNameExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509SubjectAlternativeNameExtension: never;
+
     CopyFrom(asnEncodedData: AsnEncodedData): void;
     EnumerateDnsNames(): IEnumerable_1<System_Internal.String>;
     EnumerateIPAddresses(): IEnumerable_1<IPAddress>;
@@ -1164,6 +1228,8 @@ export const X509SubjectAlternativeNameExtension: {
 export type X509SubjectAlternativeNameExtension = X509SubjectAlternativeNameExtension$instance;
 
 export interface X509SubjectKeyIdentifierExtension$instance extends X509Extension {
+    readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509SubjectKeyIdentifierExtension: never;
+
     readonly SubjectKeyIdentifier: string | undefined;
     readonly SubjectKeyIdentifierBytes: ReadOnlyMemory_1<System_Internal.Byte>;
     CopyFrom(asnEncodedData: AsnEncodedData): void;

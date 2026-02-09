@@ -64,6 +64,8 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
 export type IOrderedDictionary = IOrderedDictionary$instance;
 
 export interface BitVector32$instance {
+    readonly __tsonic_type_System_Collections_Specialized_BitVector32: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Data: int;
@@ -100,6 +102,8 @@ export type BitVector32 = BitVector32$instance & __BitVector32$views;
 
 
 export interface BitVector32_Section$instance {
+    readonly __tsonic_type_System_Collections_Specialized_BitVector32_Section: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Mask: short;
@@ -128,6 +132,8 @@ export type BitVector32_Section = BitVector32_Section$instance & __BitVector32_S
 
 
 export interface CollectionsUtil$instance {
+    readonly __tsonic_type_System_Collections_Specialized_CollectionsUtil: never;
+
 }
 
 
@@ -143,6 +149,8 @@ export const CollectionsUtil: {
 export type CollectionsUtil = CollectionsUtil$instance;
 
 export interface HybridDictionary$instance {
+    readonly __tsonic_type_System_Collections_Specialized_HybridDictionary: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -183,6 +191,8 @@ export type HybridDictionary = HybridDictionary$instance & __HybridDictionary$vi
 
 
 export interface ListDictionary$instance {
+    readonly __tsonic_type_System_Collections_Specialized_ListDictionary: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -221,6 +231,8 @@ export type ListDictionary = ListDictionary$instance & __ListDictionary$views;
 
 
 export interface ListDictionary_DictionaryNode$instance {
+    readonly __tsonic_type_System_Collections_Specialized_ListDictionary_DictionaryNode: never;
+
     key: unknown;
     value: unknown | undefined;
     next: ListDictionary_DictionaryNode | undefined;
@@ -235,6 +247,8 @@ export const ListDictionary_DictionaryNode: {
 export type ListDictionary_DictionaryNode = ListDictionary_DictionaryNode$instance;
 
 export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -263,6 +277,8 @@ export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __Nam
 
 
 export interface NameObjectCollectionBase_KeysCollection$instance {
+    readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase_KeysCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -286,6 +302,8 @@ export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_K
 
 
 export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
+    readonly __tsonic_type_System_Collections_Specialized_NameValueCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -336,6 +354,8 @@ export type NameValueCollection = NameValueCollection$instance & __NameValueColl
 
 
 export interface NotifyCollectionChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Collections_Specialized_NotifyCollectionChangedEventArgs: never;
+
     readonly Action: NotifyCollectionChangedAction;
     readonly NewItems: IList | undefined;
     readonly NewStartingIndex: int;
@@ -362,6 +382,8 @@ export const NotifyCollectionChangedEventArgs: {
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
 export interface OrderedDictionary$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Collections_Specialized_OrderedDictionary: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -412,6 +434,8 @@ export type OrderedDictionary = OrderedDictionary$instance & __OrderedDictionary
 
 
 export interface StringCollection$instance {
+    readonly __tsonic_type_System_Collections_Specialized_StringCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -449,6 +473,8 @@ export type StringCollection = StringCollection$instance & __StringCollection$vi
 
 
 export interface StringDictionary$instance {
+    readonly __tsonic_type_System_Collections_Specialized_StringDictionary: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
@@ -480,6 +506,8 @@ export type StringDictionary = StringDictionary$instance & __StringDictionary$vi
 
 
 export interface StringEnumerator$instance {
+    readonly __tsonic_type_System_Collections_Specialized_StringEnumerator: never;
+
     readonly Current: string | undefined;
     MoveNext(): boolean;
     Reset(): void;

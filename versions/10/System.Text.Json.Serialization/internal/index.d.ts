@@ -119,6 +119,8 @@ export interface IJsonOnSerializing$instance {
 export type IJsonOnSerializing = IJsonOnSerializing$instance;
 
 export interface JsonAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonAttribute: never;
+
 }
 
 
@@ -129,6 +131,8 @@ export const JsonAttribute: (abstract new() => JsonAttribute) & {
 export type JsonAttribute = JsonAttribute$instance;
 
 export interface JsonConstructorAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonConstructorAttribute: never;
+
 }
 
 
@@ -140,6 +144,8 @@ export const JsonConstructorAttribute: {
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
 export interface JsonConverter$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonConverter: never;
+
     readonly Type: Type | Type | undefined;
     CanConvert(typeToConvert: Type): boolean;
 }
@@ -152,6 +158,8 @@ export const JsonConverter: {
 export type JsonConverter = JsonConverter$instance;
 
 export interface JsonConverter_1$instance<T> extends JsonConverter {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonConverter_1: never;
+
     readonly HandleNull: boolean;
     readonly Type: Type | Type | undefined;
     CanConvert(typeToConvert: Type): boolean;
@@ -169,6 +177,8 @@ export const JsonConverter_1: (abstract new<T>() => JsonConverter_1<T>) & {
 export type JsonConverter_1<T> = JsonConverter_1$instance<T>;
 
 export interface JsonConverterAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonConverterAttribute: never;
+
     readonly ConverterType: Type | undefined;
     CreateConverter(typeToConvert: Type): JsonConverter | undefined;
 }
@@ -182,6 +192,8 @@ export const JsonConverterAttribute: {
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
 export interface JsonConverterFactory$instance extends JsonConverter {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonConverterFactory: never;
+
     readonly Type: Type | undefined;
     CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
@@ -194,6 +206,8 @@ export const JsonConverterFactory: (abstract new() => JsonConverterFactory) & {
 export type JsonConverterFactory = JsonConverterFactory$instance;
 
 export interface JsonDerivedTypeAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonDerivedTypeAttribute: never;
+
     readonly DerivedType: Type;
     readonly TypeDiscriminator: unknown | undefined;
 }
@@ -209,6 +223,8 @@ export const JsonDerivedTypeAttribute: {
 export type JsonDerivedTypeAttribute = JsonDerivedTypeAttribute$instance;
 
 export interface JsonExtensionDataAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonExtensionDataAttribute: never;
+
 }
 
 
@@ -220,6 +236,8 @@ export const JsonExtensionDataAttribute: {
 export type JsonExtensionDataAttribute = JsonExtensionDataAttribute$instance;
 
 export interface JsonIgnoreAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonIgnoreAttribute: never;
+
     Condition: JsonIgnoreCondition;
 }
 
@@ -232,6 +250,8 @@ export const JsonIgnoreAttribute: {
 export type JsonIgnoreAttribute = JsonIgnoreAttribute$instance;
 
 export interface JsonIncludeAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonIncludeAttribute: never;
+
 }
 
 
@@ -243,6 +263,8 @@ export const JsonIncludeAttribute: {
 export type JsonIncludeAttribute = JsonIncludeAttribute$instance;
 
 export interface JsonNumberEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonNumberEnumConverter_1: never;
+
     CanConvert(typeToConvert: Type): boolean;
     CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
@@ -256,6 +278,8 @@ export const JsonNumberEnumConverter_1: {
 export type JsonNumberEnumConverter_1<TEnum extends number> = JsonNumberEnumConverter_1$instance<TEnum>;
 
 export interface JsonNumberHandlingAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonNumberHandlingAttribute: never;
+
     readonly Handling: JsonNumberHandling;
 }
 
@@ -268,6 +292,8 @@ export const JsonNumberHandlingAttribute: {
 export type JsonNumberHandlingAttribute = JsonNumberHandlingAttribute$instance;
 
 export interface JsonObjectCreationHandlingAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonObjectCreationHandlingAttribute: never;
+
     readonly Handling: JsonObjectCreationHandling;
 }
 
@@ -280,6 +306,8 @@ export const JsonObjectCreationHandlingAttribute: {
 export type JsonObjectCreationHandlingAttribute = JsonObjectCreationHandlingAttribute$instance;
 
 export interface JsonPolymorphicAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonPolymorphicAttribute: never;
+
     IgnoreUnrecognizedTypeDiscriminators: boolean;
     get TypeDiscriminatorPropertyName(): string | undefined;
     set TypeDiscriminatorPropertyName(value: string | undefined);
@@ -295,6 +323,8 @@ export const JsonPolymorphicAttribute: {
 export type JsonPolymorphicAttribute = JsonPolymorphicAttribute$instance;
 
 export interface JsonPropertyNameAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonPropertyNameAttribute: never;
+
     readonly Name: string;
 }
 
@@ -307,6 +337,8 @@ export const JsonPropertyNameAttribute: {
 export type JsonPropertyNameAttribute = JsonPropertyNameAttribute$instance;
 
 export interface JsonPropertyOrderAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonPropertyOrderAttribute: never;
+
     readonly Order: int;
 }
 
@@ -319,6 +351,8 @@ export const JsonPropertyOrderAttribute: {
 export type JsonPropertyOrderAttribute = JsonPropertyOrderAttribute$instance;
 
 export interface JsonRequiredAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonRequiredAttribute: never;
+
 }
 
 
@@ -330,6 +364,8 @@ export const JsonRequiredAttribute: {
 export type JsonRequiredAttribute = JsonRequiredAttribute$instance;
 
 export interface JsonSerializableAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonSerializableAttribute: never;
+
     GenerationMode: JsonSourceGenerationMode;
     get TypeInfoPropertyName(): string | undefined;
     set TypeInfoPropertyName(value: string | undefined);
@@ -344,6 +380,8 @@ export const JsonSerializableAttribute: {
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
 export interface JsonSerializerContext$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonSerializerContext: never;
+
     readonly __tsonic_iface_System_Text_Json_Serialization_Metadata_IJsonTypeInfoResolver: never;
 
     readonly GeneratedSerializerOptions: JsonSerializerOptions | undefined;
@@ -364,6 +402,8 @@ export type JsonSerializerContext = JsonSerializerContext$instance & __JsonSeria
 
 
 export interface JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonSourceGenerationOptionsAttribute: never;
+
     AllowDuplicateProperties: boolean;
     AllowOutOfOrderMetadataProperties: boolean;
     AllowTrailingCommas: boolean;
@@ -405,6 +445,8 @@ export const JsonSourceGenerationOptionsAttribute: {
 export type JsonSourceGenerationOptionsAttribute = JsonSourceGenerationOptionsAttribute$instance;
 
 export interface JsonStringEnumConverter$instance extends JsonConverterFactory {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonStringEnumConverter: never;
+
     CanConvert(typeToConvert: Type): boolean;
     CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
@@ -419,6 +461,8 @@ export const JsonStringEnumConverter: {
 export type JsonStringEnumConverter = JsonStringEnumConverter$instance;
 
 export interface JsonStringEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonStringEnumConverter_1: never;
+
     CanConvert(typeToConvert: Type): boolean;
     CreateConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
@@ -433,6 +477,8 @@ export const JsonStringEnumConverter_1: {
 export type JsonStringEnumConverter_1<TEnum extends number> = JsonStringEnumConverter_1$instance<TEnum>;
 
 export interface JsonStringEnumMemberNameAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonStringEnumMemberNameAttribute: never;
+
     readonly Name: string;
 }
 
@@ -445,6 +491,8 @@ export const JsonStringEnumMemberNameAttribute: {
 export type JsonStringEnumMemberNameAttribute = JsonStringEnumMemberNameAttribute$instance;
 
 export interface JsonUnmappedMemberHandlingAttribute$instance extends JsonAttribute {
+    readonly __tsonic_type_System_Text_Json_Serialization_JsonUnmappedMemberHandlingAttribute: never;
+
     readonly UnmappedMemberHandling: JsonUnmappedMemberHandling;
 }
 
@@ -457,6 +505,8 @@ export const JsonUnmappedMemberHandlingAttribute: {
 export type JsonUnmappedMemberHandlingAttribute = JsonUnmappedMemberHandlingAttribute$instance;
 
 export interface ReferenceHandler$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_ReferenceHandler: never;
+
     CreateResolver(): ReferenceResolver;
 }
 
@@ -470,6 +520,8 @@ export const ReferenceHandler: (abstract new() => ReferenceHandler) & {
 export type ReferenceHandler = ReferenceHandler$instance;
 
 export interface ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler {
+    readonly __tsonic_type_System_Text_Json_Serialization_ReferenceHandler_1: never;
+
     CreateResolver(): ReferenceResolver;
 }
 
@@ -482,6 +534,8 @@ export const ReferenceHandler_1: {
 export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
 export interface ReferenceResolver$instance {
+    readonly __tsonic_type_System_Text_Json_Serialization_ReferenceResolver: never;
+
     AddReference(referenceId: string, value: unknown): void;
     GetReference(value: unknown, alreadyExists: boolean): string;
     ResolveReference(referenceId: string): unknown;

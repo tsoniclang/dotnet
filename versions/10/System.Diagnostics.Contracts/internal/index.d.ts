@@ -28,6 +28,8 @@ export enum ContractFailureKind {
 
 
 export interface ContractAbbreviatorAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractAbbreviatorAttribute: never;
+
 }
 
 
@@ -39,6 +41,8 @@ export const ContractAbbreviatorAttribute: {
 export type ContractAbbreviatorAttribute = ContractAbbreviatorAttribute$instance;
 
 export interface ContractArgumentValidatorAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractArgumentValidatorAttribute: never;
+
 }
 
 
@@ -50,6 +54,8 @@ export const ContractArgumentValidatorAttribute: {
 export type ContractArgumentValidatorAttribute = ContractArgumentValidatorAttribute$instance;
 
 export interface ContractClassAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractClassAttribute: never;
+
     readonly TypeContainingContracts: Type;
 }
 
@@ -62,6 +68,8 @@ export const ContractClassAttribute: {
 export type ContractClassAttribute = ContractClassAttribute$instance;
 
 export interface ContractClassForAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractClassForAttribute: never;
+
     readonly TypeContractsAreFor: Type;
 }
 
@@ -74,6 +82,8 @@ export const ContractClassForAttribute: {
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
 export interface ContractException$instance extends Exception {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Condition: string | undefined;
@@ -97,6 +107,8 @@ export type ContractException = ContractException$instance & __ContractException
 
 
 export interface ContractFailedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractFailedEventArgs: never;
+
     readonly Condition: string | undefined;
     readonly FailureKind: ContractFailureKind;
     readonly Handled: boolean;
@@ -116,6 +128,8 @@ export const ContractFailedEventArgs: {
 export type ContractFailedEventArgs = ContractFailedEventArgs$instance;
 
 export interface ContractInvariantMethodAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractInvariantMethodAttribute: never;
+
 }
 
 
@@ -127,6 +141,8 @@ export const ContractInvariantMethodAttribute: {
 export type ContractInvariantMethodAttribute = ContractInvariantMethodAttribute$instance;
 
 export interface ContractOptionAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractOptionAttribute: never;
+
     readonly Category: string;
     readonly Enabled: boolean;
     readonly Setting: string;
@@ -143,6 +159,8 @@ export const ContractOptionAttribute: {
 export type ContractOptionAttribute = ContractOptionAttribute$instance;
 
 export interface ContractPublicPropertyNameAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractPublicPropertyNameAttribute: never;
+
     readonly Name: string;
 }
 
@@ -155,6 +173,8 @@ export const ContractPublicPropertyNameAttribute: {
 export type ContractPublicPropertyNameAttribute = ContractPublicPropertyNameAttribute$instance;
 
 export interface ContractReferenceAssemblyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractReferenceAssemblyAttribute: never;
+
 }
 
 
@@ -166,6 +186,8 @@ export const ContractReferenceAssemblyAttribute: {
 export type ContractReferenceAssemblyAttribute = ContractReferenceAssemblyAttribute$instance;
 
 export interface ContractRuntimeIgnoredAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractRuntimeIgnoredAttribute: never;
+
 }
 
 
@@ -177,6 +199,8 @@ export const ContractRuntimeIgnoredAttribute: {
 export type ContractRuntimeIgnoredAttribute = ContractRuntimeIgnoredAttribute$instance;
 
 export interface ContractVerificationAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_ContractVerificationAttribute: never;
+
     readonly Value: boolean;
 }
 
@@ -189,6 +213,8 @@ export const ContractVerificationAttribute: {
 export type ContractVerificationAttribute = ContractVerificationAttribute$instance;
 
 export interface PureAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Contracts_PureAttribute: never;
+
 }
 
 

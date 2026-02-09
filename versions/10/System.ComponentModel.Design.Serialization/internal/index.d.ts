@@ -147,6 +147,8 @@ export interface INameCreationService$instance {
 export type INameCreationService = INameCreationService$instance;
 
 export interface MemberRelationship$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_MemberRelationship: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsEmpty: boolean;
@@ -175,6 +177,8 @@ export type MemberRelationship = MemberRelationship$instance & __MemberRelations
 
 
 export interface ComponentSerializationService$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_ComponentSerializationService: never;
+
     CreateStore(): SerializationStore;
     Deserialize(store: SerializationStore): ICollection;
     Deserialize(store: SerializationStore, container: IContainer): ICollection;
@@ -196,6 +200,8 @@ export const ComponentSerializationService: (abstract new() => ComponentSerializ
 export type ComponentSerializationService = ComponentSerializationService$instance;
 
 export interface ContextStack$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_ContextStack: never;
+
     readonly Current: unknown | undefined;
     Append(context: unknown): void;
     get_Item(level: int): unknown | undefined;
@@ -213,6 +219,8 @@ export const ContextStack: {
 export type ContextStack = ContextStack$instance;
 
 export interface DefaultSerializationProviderAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_DefaultSerializationProviderAttribute: never;
+
     readonly ProviderTypeName: string;
 }
 
@@ -226,6 +234,8 @@ export const DefaultSerializationProviderAttribute: {
 export type DefaultSerializationProviderAttribute = DefaultSerializationProviderAttribute$instance;
 
 export interface DesignerLoader$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_DesignerLoader: never;
+
     readonly Loading: boolean;
     BeginLoad(host: IDesignerLoaderHost): void;
     Dispose(): void;
@@ -240,6 +250,8 @@ export const DesignerLoader: (abstract new() => DesignerLoader) & {
 export type DesignerLoader = DesignerLoader$instance;
 
 export interface DesignerSerializerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_DesignerSerializerAttribute: never;
+
     readonly SerializerBaseTypeName: string | undefined;
     readonly SerializerTypeName: string | undefined;
     readonly TypeId: unknown;
@@ -256,6 +268,8 @@ export const DesignerSerializerAttribute: {
 export type DesignerSerializerAttribute = DesignerSerializerAttribute$instance;
 
 export interface InstanceDescriptor$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_InstanceDescriptor: never;
+
     readonly Arguments: ICollection;
     readonly IsComplete: boolean;
     readonly MemberInfo: MemberInfo | undefined;
@@ -272,6 +286,8 @@ export const InstanceDescriptor: {
 export type InstanceDescriptor = InstanceDescriptor$instance;
 
 export interface MemberRelationshipService$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_MemberRelationshipService: never;
+
     get_Item(source: MemberRelationship): MemberRelationship;
     get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
     GetRelationship(source: MemberRelationship): MemberRelationship;
@@ -289,6 +305,8 @@ export const MemberRelationshipService: (abstract new() => MemberRelationshipSer
 export type MemberRelationshipService = MemberRelationshipService$instance;
 
 export interface ResolveNameEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_ResolveNameEventArgs: never;
+
     readonly Name: string | undefined;
     get Value(): unknown | undefined;
     set Value(value: unknown | undefined);
@@ -303,6 +321,8 @@ export const ResolveNameEventArgs: {
 export type ResolveNameEventArgs = ResolveNameEventArgs$instance;
 
 export interface RootDesignerSerializerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_RootDesignerSerializerAttribute: never;
+
     readonly Reloadable: boolean;
     readonly SerializerBaseTypeName: string | undefined;
     readonly SerializerTypeName: string | undefined;
@@ -320,6 +340,8 @@ export const RootDesignerSerializerAttribute: {
 export type RootDesignerSerializerAttribute = RootDesignerSerializerAttribute$instance;
 
 export interface SerializationStore$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_Serialization_SerializationStore: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Errors: ICollection;

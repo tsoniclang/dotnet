@@ -80,6 +80,8 @@ export enum WebSocketState {
 
 
 export interface ValueWebSocketReceiveResult$instance {
+    readonly __tsonic_type_System_Net_WebSockets_ValueWebSocketReceiveResult: never;
+
     readonly Count: int;
     readonly EndOfMessage: boolean;
     readonly MessageType: WebSocketMessageType;
@@ -94,6 +96,8 @@ export const ValueWebSocketReceiveResult: {
 export type ValueWebSocketReceiveResult = ValueWebSocketReceiveResult$instance;
 
 export interface ClientWebSocket$instance extends WebSocket$instance {
+    readonly __tsonic_type_System_Net_WebSockets_ClientWebSocket: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
@@ -134,6 +138,8 @@ export type ClientWebSocket = ClientWebSocket$instance & __ClientWebSocket$views
 
 
 export interface ClientWebSocketOptions$instance {
+    readonly __tsonic_type_System_Net_WebSockets_ClientWebSocketOptions: never;
+
     ClientCertificates: X509CertificateCollection;
     CollectHttpResponseDetails: boolean;
     get Cookies(): CookieContainer | undefined;
@@ -165,6 +171,8 @@ export const ClientWebSocketOptions: {
 export type ClientWebSocketOptions = ClientWebSocketOptions$instance;
 
 export interface HttpListenerWebSocketContext$instance extends WebSocketContext {
+    readonly __tsonic_type_System_Net_WebSockets_HttpListenerWebSocketContext: never;
+
     readonly CookieCollection: CookieCollection;
     readonly Headers: NameValueCollection;
     readonly IsAuthenticated: boolean;
@@ -187,6 +195,8 @@ export const HttpListenerWebSocketContext: {
 export type HttpListenerWebSocketContext = HttpListenerWebSocketContext$instance;
 
 export interface WebSocket$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocket: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
@@ -227,6 +237,8 @@ export type WebSocket = WebSocket$instance & __WebSocket$views;
 
 
 export interface WebSocketContext$instance {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketContext: never;
+
     readonly CookieCollection: CookieCollection;
     readonly Headers: NameValueCollection;
     readonly IsAuthenticated: boolean;
@@ -249,6 +261,8 @@ export const WebSocketContext: (abstract new() => WebSocketContext) & {
 export type WebSocketContext = WebSocketContext$instance;
 
 export interface WebSocketCreationOptions$instance {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketCreationOptions: never;
+
     get DangerousDeflateOptions(): WebSocketDeflateOptions | undefined;
     set DangerousDeflateOptions(value: WebSocketDeflateOptions | undefined);
     IsServer: boolean;
@@ -267,6 +281,8 @@ export const WebSocketCreationOptions: {
 export type WebSocketCreationOptions = WebSocketCreationOptions$instance;
 
 export interface WebSocketDeflateOptions$instance {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketDeflateOptions: never;
+
     ClientContextTakeover: boolean;
     ClientMaxWindowBits: int;
     ServerContextTakeover: boolean;
@@ -282,6 +298,8 @@ export const WebSocketDeflateOptions: {
 export type WebSocketDeflateOptions = WebSocketDeflateOptions$instance;
 
 export interface WebSocketException$instance extends Win32Exception {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
@@ -316,6 +334,8 @@ export type WebSocketException = WebSocketException$instance & __WebSocketExcept
 
 
 export interface WebSocketReceiveResult$instance {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketReceiveResult: never;
+
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
     readonly CloseStatusDescription: string | undefined;
     readonly Count: int;
@@ -333,6 +353,8 @@ export const WebSocketReceiveResult: {
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
 export interface WebSocketStream$instance extends Stream {
+    readonly __tsonic_type_System_Net_WebSockets_WebSocketStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

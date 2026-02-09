@@ -92,6 +92,8 @@ export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEvent
 
 
 export interface AlternateView$instance extends AttachmentBase$instance {
+    readonly __tsonic_type_System_Net_Mail_AlternateView: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get BaseUri(): Uri | undefined;
@@ -123,6 +125,8 @@ export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
 export interface AlternateViewCollection$instance extends Collection_1<AlternateView> extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Mail_AlternateViewCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -175,6 +179,8 @@ export type AlternateViewCollection = AlternateViewCollection$instance & __Alter
 
 
 export interface Attachment$instance extends AttachmentBase$instance {
+    readonly __tsonic_type_System_Net_Mail_Attachment: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ContentDisposition: ContentDisposition | undefined;
@@ -208,6 +214,8 @@ export type Attachment = Attachment$instance & __Attachment$views;
 
 
 export interface AttachmentBase$instance {
+    readonly __tsonic_type_System_Net_Mail_AttachmentBase: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     ContentId: string;
@@ -231,6 +239,8 @@ export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
 export interface AttachmentCollection$instance extends Collection_1<Attachment> extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Mail_AttachmentCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -283,6 +293,8 @@ export type AttachmentCollection = AttachmentCollection$instance & __AttachmentC
 
 
 export interface LinkedResource$instance extends AttachmentBase$instance {
+    readonly __tsonic_type_System_Net_Mail_LinkedResource: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get ContentLink(): Uri | undefined;
@@ -313,6 +325,8 @@ export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
 export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Mail_LinkedResourceCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -365,6 +379,8 @@ export type LinkedResourceCollection = LinkedResourceCollection$instance & __Lin
 
 
 export interface MailAddress$instance {
+    readonly __tsonic_type_System_Net_Mail_MailAddress: never;
+
     readonly Address: string;
     readonly DisplayName: string;
     readonly Host: string;
@@ -388,6 +404,8 @@ export const MailAddress: {
 export type MailAddress = MailAddress$instance;
 
 export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
+    readonly __tsonic_type_System_Net_Mail_MailAddressCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -437,6 +455,8 @@ export type MailAddressCollection = MailAddressCollection$instance & __MailAddre
 
 
 export interface MailMessage$instance {
+    readonly __tsonic_type_System_Net_Mail_MailMessage: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AlternateViews: AlternateViewCollection;
@@ -485,6 +505,8 @@ export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 
 export interface SmtpClient$instance {
+    readonly __tsonic_type_System_Net_Mail_SmtpClient: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ClientCertificates: X509CertificateCollection;
@@ -532,6 +554,8 @@ export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
 
 export interface SmtpException$instance extends Exception {
+    readonly __tsonic_type_System_Net_Mail_SmtpException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     StatusCode: SmtpStatusCode;
@@ -556,6 +580,8 @@ export type SmtpException = SmtpException$instance & __SmtpException$views;
 
 
 export interface SmtpFailedRecipientException$instance extends SmtpException$instance {
+    readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FailedRecipient: string | undefined;
@@ -581,6 +607,8 @@ export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance
 
 
 export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
+    readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientsException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly InnerExceptions: SmtpFailedRecipientException[];

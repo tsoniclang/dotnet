@@ -55,6 +55,8 @@ export interface IResourceWriter$instance extends System_Internal.IDisposable$in
 export type IResourceWriter = IResourceWriter$instance;
 
 export interface MissingManifestResourceException$instance extends SystemException {
+    readonly __tsonic_type_System_Resources_MissingManifestResourceException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -76,6 +78,8 @@ export type MissingManifestResourceException = MissingManifestResourceException$
 
 
 export interface MissingSatelliteAssemblyException$instance extends SystemException {
+    readonly __tsonic_type_System_Resources_MissingSatelliteAssemblyException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CultureName: string | undefined;
@@ -99,6 +103,8 @@ export type MissingSatelliteAssemblyException = MissingSatelliteAssemblyExceptio
 
 
 export interface NeutralResourcesLanguageAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Resources_NeutralResourcesLanguageAttribute: never;
+
     readonly CultureName: string;
     readonly Location: UltimateResourceFallbackLocation;
 }
@@ -113,6 +119,8 @@ export const NeutralResourcesLanguageAttribute: {
 export type NeutralResourcesLanguageAttribute = NeutralResourcesLanguageAttribute$instance;
 
 export interface ResourceManager$instance {
+    readonly __tsonic_type_System_Resources_ResourceManager: never;
+
     readonly BaseName: string;
     IgnoreCase: boolean;
     readonly ResourceSetType: Type;
@@ -144,6 +152,8 @@ export const ResourceManager: {
 export type ResourceManager = ResourceManager$instance;
 
 export interface ResourceReader$instance {
+    readonly __tsonic_type_System_Resources_ResourceReader: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Resources_IResourceReader: never;
@@ -171,6 +181,8 @@ export type ResourceReader = ResourceReader$instance & __ResourceReader$views;
 
 
 export interface ResourceSet$instance {
+    readonly __tsonic_type_System_Resources_ResourceSet: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -204,6 +216,8 @@ export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 
 
 export interface ResourceWriter$instance {
+    readonly __tsonic_type_System_Resources_ResourceWriter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Resources_IResourceWriter: never;
 
@@ -236,6 +250,8 @@ export type ResourceWriter = ResourceWriter$instance & __ResourceWriter$views;
 
 
 export interface SatelliteContractVersionAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Resources_SatelliteContractVersionAttribute: never;
+
     readonly Version: string;
 }
 

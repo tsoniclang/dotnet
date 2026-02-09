@@ -39,6 +39,8 @@ export enum ProtectionScenario {
 
 
 export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+    readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ChannelBinding: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Size: int;
@@ -59,6 +61,8 @@ export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
 export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ExtendedProtectionPolicy: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CustomChannelBinding: ChannelBinding | undefined;
@@ -86,6 +90,8 @@ export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __Ext
 
 
 export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
+    readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ExtendedProtectionPolicyTypeConverter: never;
+
     CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     CanConvertTo(destinationType: Type): boolean;
     ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
@@ -101,6 +107,8 @@ export const ExtendedProtectionPolicyTypeConverter: {
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
 export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
+    readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ServiceNameCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 

@@ -44,6 +44,8 @@ export enum RequestCacheLevel {
 
 
 export interface HttpRequestCachePolicy$instance extends RequestCachePolicy {
+    readonly __tsonic_type_System_Net_Cache_HttpRequestCachePolicy: never;
+
     readonly CacheSyncDate: DateTime;
     readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
     readonly MaxAge: TimeSpan;
@@ -66,6 +68,8 @@ export const HttpRequestCachePolicy: {
 export type HttpRequestCachePolicy = HttpRequestCachePolicy$instance;
 
 export interface RequestCachePolicy$instance {
+    readonly __tsonic_type_System_Net_Cache_RequestCachePolicy: never;
+
     readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
     ToString(): string;
 }

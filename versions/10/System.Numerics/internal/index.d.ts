@@ -378,6 +378,8 @@ export interface IUnsignedNumber_1$instance<TSelf extends IUnsignedNumber_1<TSel
 export type IUnsignedNumber_1<TSelf extends IUnsignedNumber_1<TSelf>> = IUnsignedNumber_1$instance<TSelf>;
 
 export interface BigInteger$instance extends IAdditionOperators_3<BigInteger, BigInteger, BigInteger>, IBitwiseOperators_3<BigInteger, BigInteger, BigInteger>, IComparisonOperators_3<BigInteger, BigInteger, System_Internal.Boolean>, IEqualityOperators_3<BigInteger, BigInteger, System_Internal.Boolean>, IDecrementOperators_1<BigInteger>, IDivisionOperators_3<BigInteger, BigInteger, BigInteger>, IIncrementOperators_1<BigInteger>, IModulusOperators_3<BigInteger, BigInteger, BigInteger>, IMultiplyOperators_3<BigInteger, BigInteger, BigInteger>, ISubtractionOperators_3<BigInteger, BigInteger, BigInteger>, IUnaryNegationOperators_2<BigInteger, BigInteger>, IUnaryPlusOperators_2<BigInteger, BigInteger>, IShiftOperators_3<BigInteger, System_Internal.Int32, BigInteger> {
+    readonly __tsonic_type_System_Numerics_BigInteger: never;
+
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IComparable_1: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -531,6 +533,8 @@ export type BigInteger = BigInteger$instance & __BigInteger$views;
 
 
 export interface Complex$instance extends IAdditionOperators_3<Complex, Complex, Complex>, IDecrementOperators_1<Complex>, IDivisionOperators_3<Complex, Complex, Complex>, IEqualityOperators_3<Complex, Complex, System_Internal.Boolean>, IIncrementOperators_1<Complex>, IMultiplyOperators_3<Complex, Complex, Complex>, ISubtractionOperators_3<Complex, Complex, Complex>, IUnaryNegationOperators_2<Complex, Complex>, IUnaryPlusOperators_2<Complex, Complex> {
+    readonly __tsonic_type_System_Numerics_Complex: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_IParsable_1: never;
@@ -660,6 +664,8 @@ export type Complex = Complex$instance & __Complex$views;
 
 
 export interface Matrix3x2$instance {
+    readonly __tsonic_type_System_Numerics_Matrix3x2: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     M11: float;
@@ -729,6 +735,8 @@ export type Matrix3x2 = Matrix3x2$instance & __Matrix3x2$views;
 
 
 export interface Matrix4x4$instance {
+    readonly __tsonic_type_System_Numerics_Matrix4x4: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     M11: float;
@@ -842,6 +850,8 @@ export type Matrix4x4 = Matrix4x4$instance & __Matrix4x4$views;
 
 
 export interface Plane$instance {
+    readonly __tsonic_type_System_Numerics_Plane: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Normal: Vector3;
@@ -881,6 +891,8 @@ export type Plane = Plane$instance & __Plane$views;
 
 
 export interface Quaternion$instance {
+    readonly __tsonic_type_System_Numerics_Quaternion: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     X: float;
@@ -935,6 +947,8 @@ export type Quaternion = Quaternion$instance & __Quaternion$views;
 
 
 export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> extends System_Collections_Generic_Internal.IComparer_1$instance<T> {
+    readonly __tsonic_type_System_Numerics_TotalOrderIeee754Comparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -966,6 +980,8 @@ export type TotalOrderIeee754Comparer_1<T extends IFloatingPointIeee754_1<T>> = 
 
 
 export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>>, IAdditionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3$instance<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3$instance<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2$instance<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2$instance<Vector_1<T>, Vector_1<T>> {
+    readonly __tsonic_type_System_Numerics_Vector_1: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
@@ -1022,6 +1038,8 @@ export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T>;
 
 
 export interface Vector2$instance {
+    readonly __tsonic_type_System_Numerics_Vector2: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
 
@@ -1183,6 +1201,8 @@ export type Vector2 = Vector2$instance & __Vector2$views;
 
 
 export interface Vector3$instance {
+    readonly __tsonic_type_System_Numerics_Vector3: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
 
@@ -1346,6 +1366,8 @@ export type Vector3 = Vector3$instance & __Vector3$views;
 
 
 export interface Vector4$instance {
+    readonly __tsonic_type_System_Numerics_Vector4: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
 

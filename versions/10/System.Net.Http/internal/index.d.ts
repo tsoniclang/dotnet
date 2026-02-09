@@ -76,6 +76,8 @@ export type HeaderEncodingSelector_1<TContext> = (headerName: string, context: T
 
 
 export interface HttpRequestOptionsKey_1$instance<TValue> {
+    readonly __tsonic_type_System_Net_Http_HttpRequestOptionsKey_1: never;
+
     readonly Key: string;
 }
 
@@ -88,6 +90,8 @@ export const HttpRequestOptionsKey_1: {
 export type HttpRequestOptionsKey_1<TValue> = HttpRequestOptionsKey_1$instance<TValue>;
 
 export interface ByteArrayContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_ByteArrayContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
@@ -117,6 +121,8 @@ export type ByteArrayContent = ByteArrayContent$instance & __ByteArrayContent$vi
 
 
 export interface DelegatingHandler$instance extends HttpMessageHandler$instance {
+    readonly __tsonic_type_System_Net_Http_DelegatingHandler: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get InnerHandler(): HttpMessageHandler | undefined;
@@ -141,6 +147,8 @@ export type DelegatingHandler = DelegatingHandler$instance & __DelegatingHandler
 
 
 export interface FormUrlEncodedContent$instance extends ByteArrayContent$instance {
+    readonly __tsonic_type_System_Net_Http_FormUrlEncodedContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -163,6 +171,8 @@ export type FormUrlEncodedContent = FormUrlEncodedContent$instance & __FormUrlEn
 
 
 export interface HttpClient$instance extends HttpMessageInvoker$instance {
+    readonly __tsonic_type_System_Net_Http_HttpClient: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get BaseAddress(): Uri | undefined;
@@ -233,6 +243,8 @@ export type HttpClient = HttpClient$instance & __HttpClient$views;
 
 
 export interface HttpClientHandler$instance extends HttpMessageHandler$instance {
+    readonly __tsonic_type_System_Net_Http_HttpClientHandler: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AllowAutoRedirect: boolean;
@@ -285,6 +297,8 @@ export type HttpClientHandler = HttpClientHandler$instance & __HttpClientHandler
 
 
 export interface HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Headers: HttpContentHeaders;
@@ -329,6 +343,8 @@ export type HttpContent = HttpContent$instance & __HttpContent$views;
 
 
 export interface HttpIOException$instance extends IOException {
+    readonly __tsonic_type_System_Net_Http_HttpIOException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HttpRequestError: HttpRequestError;
@@ -350,6 +366,8 @@ export type HttpIOException = HttpIOException$instance & __HttpIOException$views
 
 
 export interface HttpMessageHandler$instance {
+    readonly __tsonic_type_System_Net_Http_HttpMessageHandler: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;
@@ -371,6 +389,8 @@ export type HttpMessageHandler = HttpMessageHandler$instance & __HttpMessageHand
 
 
 export interface HttpMessageInvoker$instance {
+    readonly __tsonic_type_System_Net_Http_HttpMessageInvoker: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -394,6 +414,8 @@ export type HttpMessageInvoker = HttpMessageInvoker$instance & __HttpMessageInvo
 
 
 export interface HttpMethod$instance {
+    readonly __tsonic_type_System_Net_Http_HttpMethod: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Method: string;
@@ -431,6 +453,8 @@ export type HttpMethod = HttpMethod$instance & __HttpMethod$views;
 
 
 export interface HttpProtocolException$instance extends HttpIOException$instance {
+    readonly __tsonic_type_System_Net_Http_HttpProtocolException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: long;
@@ -451,6 +475,8 @@ export type HttpProtocolException = HttpProtocolException$instance & __HttpProto
 
 
 export interface HttpRequestException$instance extends Exception {
+    readonly __tsonic_type_System_Net_Http_HttpRequestException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HttpRequestError: HttpRequestError;
@@ -476,6 +502,8 @@ export type HttpRequestException = HttpRequestException$instance & __HttpRequest
 
 
 export interface HttpRequestMessage$instance {
+    readonly __tsonic_type_System_Net_Http_HttpRequestMessage: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Content(): HttpContent | undefined;
@@ -509,6 +537,8 @@ export type HttpRequestMessage = HttpRequestMessage$instance & __HttpRequestMess
 
 
 export interface HttpRequestOptions$instance {
+    readonly __tsonic_type_System_Net_Http_HttpRequestOptions: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -539,6 +569,8 @@ export type HttpRequestOptions = HttpRequestOptions$instance & __HttpRequestOpti
 
 
 export interface HttpResponseMessage$instance {
+    readonly __tsonic_type_System_Net_Http_HttpResponseMessage: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Content: HttpContent;
@@ -572,6 +604,8 @@ export type HttpResponseMessage = HttpResponseMessage$instance & __HttpResponseM
 
 
 export interface MessageProcessingHandler$instance extends DelegatingHandler$instance {
+    readonly __tsonic_type_System_Net_Http_MessageProcessingHandler: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;
@@ -596,6 +630,8 @@ export type MessageProcessingHandler = MessageProcessingHandler$instance & __Mes
 
 
 export interface MultipartContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_MultipartContent: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -635,6 +671,8 @@ export type MultipartContent = MultipartContent$instance & __MultipartContent$vi
 
 
 export interface MultipartFormDataContent$instance extends MultipartContent$instance {
+    readonly __tsonic_type_System_Net_Http_MultipartFormDataContent: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -665,6 +703,8 @@ export type MultipartFormDataContent = MultipartFormDataContent$instance & __Mul
 
 
 export interface ReadOnlyMemoryContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_ReadOnlyMemoryContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
@@ -693,6 +733,8 @@ export type ReadOnlyMemoryContent = ReadOnlyMemoryContent$instance & __ReadOnlyM
 
 
 export interface SocketsHttpConnectionContext$instance {
+    readonly __tsonic_type_System_Net_Http_SocketsHttpConnectionContext: never;
+
     readonly DnsEndPoint: DnsEndPoint;
     readonly InitialRequestMessage: HttpRequestMessage;
 }
@@ -705,6 +747,8 @@ export const SocketsHttpConnectionContext: {
 export type SocketsHttpConnectionContext = SocketsHttpConnectionContext$instance;
 
 export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance {
+    readonly __tsonic_type_System_Net_Http_SocketsHttpHandler: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get ActivityHeadersPropagator(): DistributedContextPropagator | undefined;
@@ -769,6 +813,8 @@ export type SocketsHttpHandler = SocketsHttpHandler$instance & __SocketsHttpHand
 
 
 export interface SocketsHttpPlaintextStreamFilterContext$instance {
+    readonly __tsonic_type_System_Net_Http_SocketsHttpPlaintextStreamFilterContext: never;
+
     readonly InitialRequestMessage: HttpRequestMessage;
     readonly NegotiatedHttpVersion: Version;
     readonly PlaintextStream: Stream;
@@ -782,6 +828,8 @@ export const SocketsHttpPlaintextStreamFilterContext: {
 export type SocketsHttpPlaintextStreamFilterContext = SocketsHttpPlaintextStreamFilterContext$instance;
 
 export interface StreamContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_StreamContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
@@ -811,6 +859,8 @@ export type StreamContent = StreamContent$instance & __StreamContent$views;
 
 
 export interface StringContent$instance extends ByteArrayContent$instance {
+    readonly __tsonic_type_System_Net_Http_StringContent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;

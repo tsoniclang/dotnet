@@ -45,6 +45,8 @@ export enum TarEntryType {
 
 
 export interface GnuTarEntry$instance extends PosixTarEntry {
+    readonly __tsonic_type_System_Formats_Tar_GnuTarEntry: never;
+
     AccessTime: DateTimeOffset;
     ChangeTime: DateTimeOffset;
 }
@@ -59,6 +61,8 @@ export const GnuTarEntry: {
 export type GnuTarEntry = GnuTarEntry$instance;
 
 export interface PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry {
+    readonly __tsonic_type_System_Formats_Tar_PaxGlobalExtendedAttributesTarEntry: never;
+
     readonly GlobalExtendedAttributes: IReadOnlyDictionary_2<System_Internal.String, System_Internal.String>;
 }
 
@@ -71,6 +75,8 @@ export const PaxGlobalExtendedAttributesTarEntry: {
 export type PaxGlobalExtendedAttributesTarEntry = PaxGlobalExtendedAttributesTarEntry$instance;
 
 export interface PaxTarEntry$instance extends PosixTarEntry {
+    readonly __tsonic_type_System_Formats_Tar_PaxTarEntry: never;
+
     readonly ExtendedAttributes: IReadOnlyDictionary_2<System_Internal.String, System_Internal.String>;
 }
 
@@ -85,6 +91,8 @@ export const PaxTarEntry: {
 export type PaxTarEntry = PaxTarEntry$instance;
 
 export interface PosixTarEntry$instance extends TarEntry {
+    readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+
     DeviceMajor: int;
     DeviceMinor: int;
     GroupName: string;
@@ -99,6 +107,8 @@ export const PosixTarEntry: {
 export type PosixTarEntry = PosixTarEntry$instance;
 
 export interface TarEntry$instance {
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
+
     readonly Checksum: int;
     readonly DataOffset: long;
     get DataStream(): Stream | undefined;
@@ -125,6 +135,8 @@ export const TarEntry: {
 export type TarEntry = TarEntry$instance;
 
 export interface TarReader$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Formats_Tar_TarReader: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -149,6 +161,8 @@ export type TarReader = TarReader$instance & __TarReader$views;
 
 
 export interface TarWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Formats_Tar_TarWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -178,6 +192,8 @@ export type TarWriter = TarWriter$instance & __TarWriter$views;
 
 
 export interface UstarTarEntry$instance extends PosixTarEntry {
+    readonly __tsonic_type_System_Formats_Tar_UstarTarEntry: never;
+
 }
 
 
@@ -190,6 +206,8 @@ export const UstarTarEntry: {
 export type UstarTarEntry = UstarTarEntry$instance;
 
 export interface V7TarEntry$instance extends TarEntry {
+    readonly __tsonic_type_System_Formats_Tar_V7TarEntry: never;
+
 }
 
 

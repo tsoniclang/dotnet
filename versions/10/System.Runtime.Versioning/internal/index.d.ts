@@ -29,6 +29,8 @@ export enum ResourceScope {
 
 
 export interface ComponentGuaranteesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_ComponentGuaranteesAttribute: never;
+
     readonly Guarantees: ComponentGuaranteesOptions;
 }
 
@@ -41,6 +43,8 @@ export const ComponentGuaranteesAttribute: {
 export type ComponentGuaranteesAttribute = ComponentGuaranteesAttribute$instance;
 
 export interface FrameworkName$instance {
+    readonly __tsonic_type_System_Runtime_Versioning_FrameworkName: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly FullName: string;
@@ -72,6 +76,8 @@ export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 
 export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_ObsoletedOSPlatformAttribute: never;
+
     readonly Message: string | undefined;
     get Url(): string | undefined;
     set Url(value: string | undefined);
@@ -87,6 +93,8 @@ export const ObsoletedOSPlatformAttribute: {
 export type ObsoletedOSPlatformAttribute = ObsoletedOSPlatformAttribute$instance;
 
 export interface OSPlatformAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
+
     readonly PlatformName: string;
 }
 
@@ -98,6 +106,8 @@ export const OSPlatformAttribute: {
 export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
 export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_RequiresPreviewFeaturesAttribute: never;
+
     readonly Message: string | undefined;
     get Url(): string | undefined;
     set Url(value: string | undefined);
@@ -113,6 +123,8 @@ export const RequiresPreviewFeaturesAttribute: {
 export type RequiresPreviewFeaturesAttribute = RequiresPreviewFeaturesAttribute$instance;
 
 export interface ResourceConsumptionAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_ResourceConsumptionAttribute: never;
+
     readonly ConsumptionScope: ResourceScope;
     readonly ResourceScope: ResourceScope;
 }
@@ -127,6 +139,8 @@ export const ResourceConsumptionAttribute: {
 export type ResourceConsumptionAttribute = ResourceConsumptionAttribute$instance;
 
 export interface ResourceExposureAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_ResourceExposureAttribute: never;
+
     readonly ResourceExposureLevel: ResourceScope;
 }
 
@@ -139,6 +153,8 @@ export const ResourceExposureAttribute: {
 export type ResourceExposureAttribute = ResourceExposureAttribute$instance;
 
 export interface SupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_SupportedOSPlatformAttribute: never;
+
 }
 
 
@@ -150,6 +166,8 @@ export const SupportedOSPlatformAttribute: {
 export type SupportedOSPlatformAttribute = SupportedOSPlatformAttribute$instance;
 
 export interface SupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_SupportedOSPlatformGuardAttribute: never;
+
 }
 
 
@@ -161,6 +179,8 @@ export const SupportedOSPlatformGuardAttribute: {
 export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribute$instance;
 
 export interface TargetFrameworkAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_Versioning_TargetFrameworkAttribute: never;
+
     get FrameworkDisplayName(): string | undefined;
     set FrameworkDisplayName(value: string | undefined);
     readonly FrameworkName: string;
@@ -175,6 +195,8 @@ export const TargetFrameworkAttribute: {
 export type TargetFrameworkAttribute = TargetFrameworkAttribute$instance;
 
 export interface TargetPlatformAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_TargetPlatformAttribute: never;
+
 }
 
 
@@ -186,6 +208,8 @@ export const TargetPlatformAttribute: {
 export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 
 export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_UnsupportedOSPlatformAttribute: never;
+
     readonly Message: string | undefined;
 }
 
@@ -199,6 +223,8 @@ export const UnsupportedOSPlatformAttribute: {
 export type UnsupportedOSPlatformAttribute = UnsupportedOSPlatformAttribute$instance;
 
 export interface UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
+    readonly __tsonic_type_System_Runtime_Versioning_UnsupportedOSPlatformGuardAttribute: never;
+
 }
 
 

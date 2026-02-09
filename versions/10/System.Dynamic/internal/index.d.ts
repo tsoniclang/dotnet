@@ -41,6 +41,8 @@ export interface IInvokeOnGetBinder$instance {
 export type IInvokeOnGetBinder = IInvokeOnGetBinder$instance;
 
 export interface BinaryOperationBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_BinaryOperationBinder: never;
+
     readonly Operation: ExpressionType;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -57,6 +59,8 @@ export const BinaryOperationBinder: (abstract new(operation: ExpressionType) => 
 export type BinaryOperationBinder = BinaryOperationBinder$instance;
 
 export interface BindingRestrictions$instance {
+    readonly __tsonic_type_System_Dynamic_BindingRestrictions: never;
+
     Merge(restrictions: BindingRestrictions): BindingRestrictions;
     ToExpression(): Expression;
 }
@@ -74,6 +78,8 @@ export const BindingRestrictions: {
 export type BindingRestrictions = BindingRestrictions$instance;
 
 export interface CallInfo$instance {
+    readonly __tsonic_type_System_Dynamic_CallInfo: never;
+
     readonly ArgumentCount: int;
     readonly ArgumentNames: ReadOnlyCollection_1<System_Internal.String>;
     Equals(obj: unknown): boolean;
@@ -90,6 +96,8 @@ export const CallInfo: {
 export type CallInfo = CallInfo$instance;
 
 export interface ConvertBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_ConvertBinder: never;
+
     readonly Explicit: boolean;
     readonly ReturnType: Type;
     readonly Type: Type;
@@ -107,6 +115,8 @@ export const ConvertBinder: (abstract new(type: Type, explicit: boolean) => Conv
 export type ConvertBinder = ConvertBinder$instance;
 
 export interface CreateInstanceBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_CreateInstanceBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -123,6 +133,8 @@ export const CreateInstanceBinder: (abstract new(callInfo: CallInfo) => CreateIn
 export type CreateInstanceBinder = CreateInstanceBinder$instance;
 
 export interface DeleteIndexBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_DeleteIndexBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -139,6 +151,8 @@ export const DeleteIndexBinder: (abstract new(callInfo: CallInfo) => DeleteIndex
 export type DeleteIndexBinder = DeleteIndexBinder$instance;
 
 export interface DeleteMemberBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_DeleteMemberBinder: never;
+
     readonly IgnoreCase: boolean;
     readonly Name: string;
     readonly ReturnType: Type;
@@ -156,6 +170,8 @@ export const DeleteMemberBinder: (abstract new(name: string, ignoreCase: boolean
 export type DeleteMemberBinder = DeleteMemberBinder$instance;
 
 export interface DynamicMetaObject$instance {
+    readonly __tsonic_type_System_Dynamic_DynamicMetaObject: never;
+
     readonly Expression: Expression;
     readonly HasValue: boolean;
     readonly LimitType: Type;
@@ -189,6 +205,8 @@ export const DynamicMetaObject: {
 export type DynamicMetaObject = DynamicMetaObject$instance;
 
 export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
+    readonly __tsonic_type_System_Dynamic_DynamicMetaObjectBinder: never;
+
     readonly ReturnType: Type;
     Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -206,6 +224,8 @@ export const DynamicMetaObjectBinder: (abstract new() => DynamicMetaObjectBinder
 export type DynamicMetaObjectBinder = DynamicMetaObjectBinder$instance;
 
 export interface DynamicObject$instance extends IDynamicMetaObjectProvider$instance {
+    readonly __tsonic_type_System_Dynamic_DynamicObject: never;
+
     readonly __tsonic_iface_System_Dynamic_IDynamicMetaObjectProvider: never;
 
     GetDynamicMemberNames(): IEnumerable_1<System_Internal.String>;
@@ -237,6 +257,8 @@ export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
 export interface ExpandoObject$instance extends INotifyPropertyChanged {
+    readonly __tsonic_type_System_Dynamic_ExpandoObject: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -264,6 +286,8 @@ export type ExpandoObject = ExpandoObject$instance & __ExpandoObject$views;
 
 
 export interface GetIndexBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_GetIndexBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -280,6 +304,8 @@ export const GetIndexBinder: (abstract new(callInfo: CallInfo) => GetIndexBinder
 export type GetIndexBinder = GetIndexBinder$instance;
 
 export interface GetMemberBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_GetMemberBinder: never;
+
     readonly IgnoreCase: boolean;
     readonly Name: string;
     readonly ReturnType: Type;
@@ -297,6 +323,8 @@ export const GetMemberBinder: (abstract new(name: string, ignoreCase: boolean) =
 export type GetMemberBinder = GetMemberBinder$instance;
 
 export interface InvokeBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_InvokeBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -313,6 +341,8 @@ export const InvokeBinder: (abstract new(callInfo: CallInfo) => InvokeBinder) & 
 export type InvokeBinder = InvokeBinder$instance;
 
 export interface InvokeMemberBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_InvokeMemberBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly IgnoreCase: boolean;
     readonly Name: string;
@@ -332,6 +362,8 @@ export const InvokeMemberBinder: (abstract new(name: string, ignoreCase: boolean
 export type InvokeMemberBinder = InvokeMemberBinder$instance;
 
 export interface SetIndexBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_SetIndexBinder: never;
+
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -348,6 +380,8 @@ export const SetIndexBinder: (abstract new(callInfo: CallInfo) => SetIndexBinder
 export type SetIndexBinder = SetIndexBinder$instance;
 
 export interface SetMemberBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_SetMemberBinder: never;
+
     readonly IgnoreCase: boolean;
     readonly Name: string;
     readonly ReturnType: Type;
@@ -365,6 +399,8 @@ export const SetMemberBinder: (abstract new(name: string, ignoreCase: boolean) =
 export type SetMemberBinder = SetMemberBinder$instance;
 
 export interface UnaryOperationBinder$instance extends DynamicMetaObjectBinder {
+    readonly __tsonic_type_System_Dynamic_UnaryOperationBinder: never;
+
     readonly Operation: ExpressionType;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;

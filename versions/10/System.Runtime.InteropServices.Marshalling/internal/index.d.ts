@@ -116,6 +116,8 @@ export interface IUnmanagedVirtualMethodTableProvider$instance {
 export type IUnmanagedVirtualMethodTableProvider = IUnmanagedVirtualMethodTableProvider$instance;
 
 export interface AnsiStringMarshaller_ManagedToUnmanagedIn$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_AnsiStringMarshaller_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
     ToUnmanaged(): ptr<byte>;
@@ -131,6 +133,8 @@ export const AnsiStringMarshaller_ManagedToUnmanagedIn: {
 export type AnsiStringMarshaller_ManagedToUnmanagedIn = AnsiStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ArrayMarshaller_2_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(array: T[], buffer: Span_1<TUnmanagedElement>): void;
     GetManagedValuesSource(): ReadOnlySpan_1<T>;
@@ -150,6 +154,8 @@ export const ArrayMarshaller_2_ManagedToUnmanagedIn: {
 export type ArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = ArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface BStrStringMarshaller_ManagedToUnmanagedIn$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_BStrStringMarshaller_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
     ToUnmanaged(): ptr<ushort>;
@@ -165,6 +171,8 @@ export const BStrStringMarshaller_ManagedToUnmanagedIn: {
 export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface ComVariant$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ComVariant: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     VarType: VarEnum;
@@ -190,6 +198,8 @@ export type ComVariant = ComVariant$instance & __ComVariant$views;
 
 
 export interface ComVariantMarshaller_RefPropagate$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ComVariantMarshaller_RefPropagate: never;
+
     Free(): void;
     FromManaged(managed: unknown): void;
     FromUnmanaged(unmanaged: ComVariant): void;
@@ -206,6 +216,8 @@ export const ComVariantMarshaller_RefPropagate: {
 export type ComVariantMarshaller_RefPropagate = ComVariantMarshaller_RefPropagate$instance;
 
 export interface CustomMarshallerAttribute_GenericPlaceholder$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_CustomMarshallerAttribute_GenericPlaceholder: never;
+
 }
 
 
@@ -217,6 +229,8 @@ export const CustomMarshallerAttribute_GenericPlaceholder: {
 export type CustomMarshallerAttribute_GenericPlaceholder = CustomMarshallerAttribute_GenericPlaceholder$instance;
 
 export interface IIUnknownCacheStrategy_TableInfo$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_IIUnknownCacheStrategy_TableInfo: never;
+
     ManagedType: RuntimeTypeHandle;
     Table: ptr<void>;
     ThisPtr: ptr<void>;
@@ -231,6 +245,8 @@ export const IIUnknownCacheStrategy_TableInfo: {
 export type IIUnknownCacheStrategy_TableInfo = IIUnknownCacheStrategy_TableInfo$instance;
 
 export interface PointerArrayMarshaller_2_ManagedToUnmanagedIn$instance<T extends unknown, TUnmanagedElement extends unknown> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_PointerArrayMarshaller_2_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(array: ptr<T>[], buffer: Span_1<TUnmanagedElement>): void;
     GetManagedValuesSource(): ReadOnlySpan_1<System_Internal.IntPtr>;
@@ -250,6 +266,8 @@ export const PointerArrayMarshaller_2_ManagedToUnmanagedIn: {
 export type PointerArrayMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = PointerArrayMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(managed: ReadOnlySpan_1<T>, buffer: Span_1<TUnmanagedElement>): void;
     GetManagedValuesSource(): ReadOnlySpan_1<T>;
@@ -269,6 +287,8 @@ export const ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn: {
 export type ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut$instance<T, TUnmanagedElement extends unknown> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut: never;
+
     Free(): void;
     FromUnmanaged(unmanaged: ptr<TUnmanagedElement>): void;
     GetManagedValuesDestination(numElements: int): Span_1<T>;
@@ -285,6 +305,8 @@ export const ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut: {
 export type ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut<T, TUnmanagedElement> = ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut$instance<T, TUnmanagedElement>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedIn$instance<T extends SafeHandle> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_SafeHandleMarshaller_1_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(handle: T): void;
     ToUnmanaged(): nint;
@@ -299,6 +321,8 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedIn: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedIn<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedIn$instance<T>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedOut$instance<T extends SafeHandle> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_SafeHandleMarshaller_1_ManagedToUnmanagedOut: never;
+
     Free(): void;
     FromUnmanaged(value: nint): void;
     ToManaged(): T;
@@ -313,6 +337,8 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedOut: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedOut<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedOut$instance<T>;
 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedRef$instance<T extends SafeHandle> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_SafeHandleMarshaller_1_ManagedToUnmanagedRef: never;
+
     Free(): void;
     FromManaged(handle: T): void;
     FromUnmanaged(value: nint): void;
@@ -330,6 +356,8 @@ export const SafeHandleMarshaller_1_ManagedToUnmanagedRef: {
 export type SafeHandleMarshaller_1_ManagedToUnmanagedRef<T extends SafeHandle> = SafeHandleMarshaller_1_ManagedToUnmanagedRef$instance<T>;
 
 export interface SpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement extends unknown> {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_SpanMarshaller_2_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(managed: Span_1<T>, buffer: Span_1<TUnmanagedElement>): void;
     GetManagedValuesSource(): ReadOnlySpan_1<T>;
@@ -349,6 +377,8 @@ export const SpanMarshaller_2_ManagedToUnmanagedIn: {
 export type SpanMarshaller_2_ManagedToUnmanagedIn<T, TUnmanagedElement> = SpanMarshaller_2_ManagedToUnmanagedIn$instance<T, TUnmanagedElement>;
 
 export interface Utf8StringMarshaller_ManagedToUnmanagedIn$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_Utf8StringMarshaller_ManagedToUnmanagedIn: never;
+
     Free(): void;
     FromManaged(managed: string, buffer: Span_1<System_Internal.Byte>): void;
     ToUnmanaged(): ptr<byte>;
@@ -364,6 +394,8 @@ export const Utf8StringMarshaller_ManagedToUnmanagedIn: {
 export type Utf8StringMarshaller_ManagedToUnmanagedIn = Utf8StringMarshaller_ManagedToUnmanagedIn$instance;
 
 export interface VirtualMethodTableInfo$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_VirtualMethodTableInfo: never;
+
     readonly ThisPointer: ptr<void>;
     readonly VirtualMethodTable: ptr<void>;
     Deconstruct(thisPointer: ptr<void>, virtualMethodTable: ptr<void>): void;
@@ -378,6 +410,8 @@ export const VirtualMethodTableInfo: {
 export type VirtualMethodTableInfo = VirtualMethodTableInfo$instance;
 
 export interface ComExposedClassAttribute_1$instance<T extends IComExposedClass> extends Attribute, IComExposedDetails$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ComExposedClassAttribute_1: never;
+
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IComExposedDetails: never;
 
     GetComInterfaceEntries(count: int): ptr<ComWrappers_ComInterfaceEntry>;
@@ -397,6 +431,8 @@ export type ComExposedClassAttribute_1<T extends IComExposedClass> = ComExposedC
 
 
 export interface ComObject$instance extends System_Runtime_InteropServices_Internal.IDynamicInterfaceCastable$instance, IUnmanagedVirtualMethodTableProvider$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ComObject: never;
+
     readonly __tsonic_iface_System_Runtime_InteropServices_IDynamicInterfaceCastable: never;
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_ComImportInteropInterfaceDetailsStrategy_IComImportAdapter: never;
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IUnmanagedVirtualMethodTableProvider: never;
@@ -419,6 +455,8 @@ export type ComObject = ComObject$instance & __ComObject$views;
 
 
 export interface ContiguousCollectionMarshallerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_ContiguousCollectionMarshallerAttribute: never;
+
 }
 
 
@@ -430,6 +468,8 @@ export const ContiguousCollectionMarshallerAttribute: {
 export type ContiguousCollectionMarshallerAttribute = ContiguousCollectionMarshallerAttribute$instance;
 
 export interface CustomMarshallerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_CustomMarshallerAttribute: never;
+
     readonly ManagedType: Type;
     readonly MarshallerType: Type;
     readonly MarshalMode: MarshalMode;
@@ -444,6 +484,8 @@ export const CustomMarshallerAttribute: {
 export type CustomMarshallerAttribute = CustomMarshallerAttribute$instance;
 
 export interface GeneratedComClassAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_GeneratedComClassAttribute: never;
+
 }
 
 
@@ -455,6 +497,8 @@ export const GeneratedComClassAttribute: {
 export type GeneratedComClassAttribute = GeneratedComClassAttribute$instance;
 
 export interface GeneratedComInterfaceAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_GeneratedComInterfaceAttribute: never;
+
     get ExceptionToUnmanagedMarshaller(): Type | undefined;
     set ExceptionToUnmanagedMarshaller(value: Type | undefined);
     Options: ComInterfaceOptions;
@@ -472,6 +516,8 @@ export const GeneratedComInterfaceAttribute: {
 export type GeneratedComInterfaceAttribute = GeneratedComInterfaceAttribute$instance;
 
 export interface IUnknownDerivedAttribute_2$instance<T extends IIUnknownInterfaceType, TImpl> extends Attribute, IIUnknownDerivedDetails$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_IUnknownDerivedAttribute_2: never;
+
     readonly __tsonic_iface_System_Runtime_InteropServices_Marshalling_IIUnknownDerivedDetails: never;
 
     readonly Iid: Guid;
@@ -493,6 +539,8 @@ export type IUnknownDerivedAttribute_2<T extends IIUnknownInterfaceType, TImpl> 
 
 
 export interface MarshalUsingAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_MarshalUsingAttribute: never;
+
     ConstantElementCount: int;
     CountElementName: string;
     ElementIndirectionDepth: int;
@@ -510,6 +558,8 @@ export const MarshalUsingAttribute: {
 export type MarshalUsingAttribute = MarshalUsingAttribute$instance;
 
 export interface NativeMarshallingAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_NativeMarshallingAttribute: never;
+
     readonly NativeType: Type;
 }
 
@@ -522,6 +572,8 @@ export const NativeMarshallingAttribute: {
 export type NativeMarshallingAttribute = NativeMarshallingAttribute$instance;
 
 export interface StrategyBasedComWrappers$instance extends ComWrappers {
+    readonly __tsonic_type_System_Runtime_InteropServices_Marshalling_StrategyBasedComWrappers: never;
+
     ComputeVtables(obj: unknown, flags: CreateComInterfaceFlags, count: int): ptr<ComWrappers_ComInterfaceEntry>;
     CreateCacheStrategy(): IIUnknownCacheStrategy;
     CreateObject(externalComObject: nint, flags: CreateObjectFlags): unknown;
