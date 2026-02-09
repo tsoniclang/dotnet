@@ -25,6 +25,8 @@ export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = (arg: JSMarshal
 
 
 export interface JSMarshalerArgument$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalerArgument: never;
+
     Initialize(): void;
     ToJS(value: boolean): void;
     ToJS(value: Nullable_1<System_Internal.Boolean>): void;
@@ -139,6 +141,8 @@ export const JSMarshalerArgument: {
 export type JSMarshalerArgument = JSMarshalerArgument$instance;
 
 export interface JSException$instance extends Exception {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -158,6 +162,8 @@ export type JSException = JSException$instance & __JSException$views;
 
 
 export interface JSExportAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSExportAttribute: never;
+
 }
 
 
@@ -169,6 +175,8 @@ export const JSExportAttribute: {
 export type JSExportAttribute = JSExportAttribute$instance;
 
 export interface JSFunctionBinding$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSFunctionBinding: never;
+
 }
 
 
@@ -182,6 +190,8 @@ export const JSFunctionBinding: {
 export type JSFunctionBinding = JSFunctionBinding$instance;
 
 export interface JSImportAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSImportAttribute: never;
+
     readonly FunctionName: string;
     readonly ModuleName: string | undefined;
 }
@@ -196,6 +206,8 @@ export const JSImportAttribute: {
 export type JSImportAttribute = JSImportAttribute$instance;
 
 export interface JSMarshalAsAttribute_1$instance<T extends JSType> extends Attribute {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalAsAttribute_1: never;
+
 }
 
 
@@ -207,6 +219,8 @@ export const JSMarshalAsAttribute_1: {
 export type JSMarshalAsAttribute_1<T extends JSType> = JSMarshalAsAttribute_1$instance<T>;
 
 export interface JSMarshalerType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalerType: never;
+
 }
 
 
@@ -249,6 +263,8 @@ export const JSMarshalerType: {
 export type JSMarshalerType = JSMarshalerType$instance;
 
 export interface JSObject$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSObject: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsDisposed: boolean;
@@ -282,6 +298,8 @@ export type JSObject = JSObject$instance & __JSObject$views;
 
 
 export interface JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
+
 }
 
 
@@ -292,6 +310,8 @@ export const JSType: {
 export type JSType = JSType$instance;
 
 export interface JSType_Any$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Any: never;
+
 }
 
 
@@ -302,6 +322,8 @@ export const JSType_Any: {
 export type JSType_Any = JSType_Any$instance;
 
 export interface JSType_Array_1$instance<T extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Array_1: never;
+
 }
 
 
@@ -312,6 +334,8 @@ export const JSType_Array_1: {
 export type JSType_Array_1<T extends JSType> = JSType_Array_1$instance<T>;
 
 export interface JSType_BigInt$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_BigInt: never;
+
 }
 
 
@@ -322,6 +346,8 @@ export const JSType_BigInt: {
 export type JSType_BigInt = JSType_BigInt$instance;
 
 export interface JSType_Boolean$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Boolean: never;
+
 }
 
 
@@ -332,6 +358,8 @@ export const JSType_Boolean: {
 export type JSType_Boolean = JSType_Boolean$instance;
 
 export interface JSType_Date$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Date: never;
+
 }
 
 
@@ -342,6 +370,8 @@ export const JSType_Date: {
 export type JSType_Date = JSType_Date$instance;
 
 export interface JSType_Discard$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Discard: never;
+
 }
 
 
@@ -352,6 +382,8 @@ export const JSType_Discard: {
 export type JSType_Discard = JSType_Discard$instance;
 
 export interface JSType_Error$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Error: never;
+
 }
 
 
@@ -362,6 +394,8 @@ export const JSType_Error: {
 export type JSType_Error = JSType_Error$instance;
 
 export interface JSType_Function$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function: never;
+
 }
 
 
@@ -372,6 +406,8 @@ export const JSType_Function: {
 export type JSType_Function = JSType_Function$instance;
 
 export interface JSType_Function_1$instance<T extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_1: never;
+
 }
 
 
@@ -382,6 +418,8 @@ export const JSType_Function_1: {
 export type JSType_Function_1<T extends JSType> = JSType_Function_1$instance<T>;
 
 export interface JSType_Function_2$instance<T1 extends JSType, T2 extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_2: never;
+
 }
 
 
@@ -392,6 +430,8 @@ export const JSType_Function_2: {
 export type JSType_Function_2<T1 extends JSType, T2 extends JSType> = JSType_Function_2$instance<T1, T2>;
 
 export interface JSType_Function_3$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_3: never;
+
 }
 
 
@@ -402,6 +442,8 @@ export const JSType_Function_3: {
 export type JSType_Function_3<T1 extends JSType, T2 extends JSType, T3 extends JSType> = JSType_Function_3$instance<T1, T2, T3>;
 
 export interface JSType_Function_4$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_4: never;
+
 }
 
 
@@ -412,6 +454,8 @@ export const JSType_Function_4: {
 export type JSType_Function_4<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType> = JSType_Function_4$instance<T1, T2, T3, T4>;
 
 export interface JSType_MemoryView$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_MemoryView: never;
+
 }
 
 
@@ -422,6 +466,8 @@ export const JSType_MemoryView: {
 export type JSType_MemoryView = JSType_MemoryView$instance;
 
 export interface JSType_Number$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Number: never;
+
 }
 
 
@@ -432,6 +478,8 @@ export const JSType_Number: {
 export type JSType_Number = JSType_Number$instance;
 
 export interface JSType_Object$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Object: never;
+
 }
 
 
@@ -442,6 +490,8 @@ export const JSType_Object: {
 export type JSType_Object = JSType_Object$instance;
 
 export interface JSType_Promise_1$instance<T extends JSType> extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Promise_1: never;
+
 }
 
 
@@ -452,6 +502,8 @@ export const JSType_Promise_1: {
 export type JSType_Promise_1<T extends JSType> = JSType_Promise_1$instance<T>;
 
 export interface JSType_String$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_String: never;
+
 }
 
 
@@ -462,6 +514,8 @@ export const JSType_String: {
 export type JSType_String = JSType_String$instance;
 
 export interface JSType_Void$instance extends JSType {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Void: never;
+
 }
 
 

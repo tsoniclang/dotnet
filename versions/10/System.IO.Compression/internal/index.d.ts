@@ -54,6 +54,8 @@ export enum ZLibCompressionStrategy {
 
 
 export interface BrotliDecoder$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_IO_Compression_BrotliDecoder: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decompress(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int): OperationStatus;
@@ -75,6 +77,8 @@ export type BrotliDecoder = BrotliDecoder$instance & __BrotliDecoder$views;
 
 
 export interface BrotliEncoder$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_IO_Compression_BrotliEncoder: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Compress(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock: boolean): OperationStatus;
@@ -99,6 +103,8 @@ export type BrotliEncoder = BrotliEncoder$instance & __BrotliEncoder$views;
 
 
 export interface BrotliCompressionOptions$instance {
+    readonly __tsonic_type_System_IO_Compression_BrotliCompressionOptions: never;
+
     Quality: int;
 }
 
@@ -111,6 +117,8 @@ export const BrotliCompressionOptions: {
 export type BrotliCompressionOptions = BrotliCompressionOptions$instance;
 
 export interface BrotliStream$instance extends Stream {
+    readonly __tsonic_type_System_IO_Compression_BrotliStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -170,6 +178,8 @@ export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
 
 export interface DeflateStream$instance extends Stream {
+    readonly __tsonic_type_System_IO_Compression_DeflateStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -235,6 +245,8 @@ export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
 
 export interface GZipStream$instance extends Stream {
+    readonly __tsonic_type_System_IO_Compression_GZipStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -300,6 +312,8 @@ export type GZipStream = GZipStream$instance & __GZipStream$views;
 
 
 export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_IO_Compression_ZipArchive: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -334,6 +348,8 @@ export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 
 
 export interface ZipArchiveEntry$instance {
+    readonly __tsonic_type_System_IO_Compression_ZipArchiveEntry: never;
+
     readonly Archive: ZipArchive;
     Comment: string;
     readonly CompressedLength: long;
@@ -358,6 +374,8 @@ export const ZipArchiveEntry: {
 export type ZipArchiveEntry = ZipArchiveEntry$instance;
 
 export interface ZLibCompressionOptions$instance {
+    readonly __tsonic_type_System_IO_Compression_ZLibCompressionOptions: never;
+
     CompressionLevel: int;
     CompressionStrategy: ZLibCompressionStrategy;
 }
@@ -371,6 +389,8 @@ export const ZLibCompressionOptions: {
 export type ZLibCompressionOptions = ZLibCompressionOptions$instance;
 
 export interface ZLibException$instance extends IOException {
+    readonly __tsonic_type_System_IO_Compression_ZLibException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -392,6 +412,8 @@ export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
 export interface ZLibStream$instance extends Stream {
+    readonly __tsonic_type_System_IO_Compression_ZLibStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

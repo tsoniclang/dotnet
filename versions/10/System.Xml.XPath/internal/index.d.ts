@@ -81,6 +81,8 @@ export interface IXPathNavigable$instance {
 export type IXPathNavigable = IXPathNavigable$instance;
 
 export interface XPathDocument$instance extends IXPathNavigable$instance {
+    readonly __tsonic_type_System_Xml_XPath_XPathDocument: never;
+
     readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
 
     CreateNavigator(): XPathNavigator;
@@ -105,6 +107,8 @@ export type XPathDocument = XPathDocument$instance & __XPathDocument$views;
 
 
 export interface XPathException$instance extends SystemException {
+    readonly __tsonic_type_System_Xml_XPath_XPathException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Message: string;
@@ -127,6 +131,8 @@ export type XPathException = XPathException$instance & __XPathException$views;
 
 
 export interface XPathExpression$instance {
+    readonly __tsonic_type_System_Xml_XPath_XPathExpression: never;
+
     readonly Expression: string;
     readonly ReturnType: XPathResultType;
     AddSort(expr: unknown, comparer: IComparer): void;
@@ -146,6 +152,8 @@ export const XPathExpression: {
 export type XPathExpression = XPathExpression$instance;
 
 export interface XPathItem$instance {
+    readonly __tsonic_type_System_Xml_XPath_XPathItem: never;
+
     readonly IsNode: boolean;
     readonly TypedValue: unknown;
     readonly Value: string;
@@ -168,6 +176,8 @@ export const XPathItem: (abstract new() => XPathItem) & {
 export type XPathItem = XPathItem$instance;
 
 export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.IXmlNamespaceResolver$instance, IXPathNavigable$instance {
+    readonly __tsonic_type_System_Xml_XPath_XPathNavigator: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
     readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
@@ -304,6 +314,8 @@ export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 
 
 export interface XPathNodeIterator$instance {
+    readonly __tsonic_type_System_Xml_XPath_XPathNodeIterator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ICloneable: never;
 

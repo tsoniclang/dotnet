@@ -15,6 +15,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from "../../System/internal/index.js";
 
 export interface Claim$instance {
+    readonly __tsonic_type_System_Security_Claims_Claim: never;
+
     readonly CustomSerializationData: byte[] | undefined;
     readonly Issuer: string;
     readonly OriginalIssuer: string;
@@ -45,6 +47,8 @@ export const Claim: {
 export type Claim = Claim$instance;
 
 export interface ClaimsIdentity$instance extends System_Security_Principal_Internal.IIdentity$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsIdentity: never;
+
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     get Actor(): ClaimsIdentity | undefined;
@@ -105,6 +109,8 @@ export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
 export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsPrincipal: never;
+
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly Claims: IEnumerable_1<Claim>;

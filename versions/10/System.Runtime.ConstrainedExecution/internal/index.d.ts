@@ -25,6 +25,8 @@ export enum Consistency {
 
 
 export interface CriticalFinalizerObject$instance {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+
     Finalize(): void;
 }
 
@@ -36,6 +38,8 @@ export const CriticalFinalizerObject: (abstract new() => CriticalFinalizerObject
 export type CriticalFinalizerObject = CriticalFinalizerObject$instance;
 
 export interface PrePrepareMethodAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_PrePrepareMethodAttribute: never;
+
 }
 
 
@@ -47,6 +51,8 @@ export const PrePrepareMethodAttribute: {
 export type PrePrepareMethodAttribute = PrePrepareMethodAttribute$instance;
 
 export interface ReliabilityContractAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_ReliabilityContractAttribute: never;
+
     readonly Cer: Cer;
     readonly ConsistencyGuarantee: Consistency;
 }

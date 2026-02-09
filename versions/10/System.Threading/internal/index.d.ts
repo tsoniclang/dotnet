@@ -124,6 +124,8 @@ export interface ITimer$instance extends System_Internal.IAsyncDisposable$instan
 export type ITimer = ITimer$instance;
 
 export interface AsyncFlowControl$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_AsyncFlowControl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -152,6 +154,8 @@ export type AsyncFlowControl = AsyncFlowControl$instance & __AsyncFlowControl$vi
 
 
 export interface AsyncLocalValueChangedArgs_1$instance<T> {
+    readonly __tsonic_type_System_Threading_AsyncLocalValueChangedArgs_1: never;
+
     readonly CurrentValue: T | undefined;
     readonly PreviousValue: T | undefined;
     readonly ThreadContextChanged: boolean;
@@ -166,6 +170,8 @@ export const AsyncLocalValueChangedArgs_1: {
 export type AsyncLocalValueChangedArgs_1<T> = AsyncLocalValueChangedArgs_1$instance<T>;
 
 export interface CancellationToken$instance {
+    readonly __tsonic_type_System_Threading_CancellationToken: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly CanBeCanceled: boolean;
@@ -202,6 +208,8 @@ export type CancellationToken = CancellationToken$instance & __CancellationToken
 
 
 export interface CancellationTokenRegistration$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_CancellationTokenRegistration: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -234,6 +242,8 @@ export type CancellationTokenRegistration = CancellationTokenRegistration$instan
 
 
 export interface Lock_Scope$instance {
+    readonly __tsonic_type_System_Threading_Lock_Scope: never;
+
     Dispose(): void;
 }
 
@@ -246,6 +256,8 @@ export const Lock_Scope: {
 export type Lock_Scope = Lock_Scope$instance;
 
 export interface LockCookie$instance {
+    readonly __tsonic_type_System_Threading_LockCookie: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Equals(obj: unknown): boolean;
@@ -270,6 +282,8 @@ export type LockCookie = LockCookie$instance & __LockCookie$views;
 
 
 export interface NamedWaitHandleOptions$instance {
+    readonly __tsonic_type_System_Threading_NamedWaitHandleOptions: never;
+
     CurrentSessionOnly: boolean;
     CurrentUserOnly: boolean;
 }
@@ -283,6 +297,8 @@ export const NamedWaitHandleOptions: {
 export type NamedWaitHandleOptions = NamedWaitHandleOptions$instance;
 
 export interface NativeOverlapped$instance {
+    readonly __tsonic_type_System_Threading_NativeOverlapped: never;
+
     InternalLow: nint;
     InternalHigh: nint;
     OffsetLow: int;
@@ -299,6 +315,8 @@ export const NativeOverlapped: {
 export type NativeOverlapped = NativeOverlapped$instance;
 
 export interface SpinLock$instance {
+    readonly __tsonic_type_System_Threading_SpinLock: never;
+
     readonly IsHeld: boolean;
     readonly IsHeldByCurrentThread: boolean;
     readonly IsThreadOwnerTrackingEnabled: boolean;
@@ -319,6 +337,8 @@ export const SpinLock: {
 export type SpinLock = SpinLock$instance;
 
 export interface SpinWait$instance {
+    readonly __tsonic_type_System_Threading_SpinWait: never;
+
     Count: int;
     readonly NextSpinWillYield: boolean;
     Reset(): void;
@@ -338,6 +358,8 @@ export const SpinWait: {
 export type SpinWait = SpinWait$instance;
 
 export interface AbandonedMutexException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_AbandonedMutexException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Mutex: Mutex | undefined;
@@ -364,6 +386,8 @@ export type AbandonedMutexException = AbandonedMutexException$instance & __Aband
 
 
 export interface AsyncLocal_1$instance<T> {
+    readonly __tsonic_type_System_Threading_AsyncLocal_1: never;
+
     readonly __tsonic_iface_System_Threading_IAsyncLocal: never;
 
     Value: T;
@@ -379,6 +403,8 @@ export const AsyncLocal_1: {
 export type AsyncLocal_1<T> = AsyncLocal_1$instance<T>;
 
 export interface AutoResetEvent$instance extends EventWaitHandle$instance {
+    readonly __tsonic_type_System_Threading_AutoResetEvent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -399,6 +425,8 @@ export type AutoResetEvent = AutoResetEvent$instance & __AutoResetEvent$views;
 
 
 export interface Barrier$instance {
+    readonly __tsonic_type_System_Threading_Barrier: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CurrentPhaseNumber: long;
@@ -433,6 +461,8 @@ export type Barrier = Barrier$instance & __Barrier$views;
 
 
 export interface BarrierPostPhaseException$instance extends Exception {
+    readonly __tsonic_type_System_Threading_BarrierPostPhaseException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -455,6 +485,8 @@ export type BarrierPostPhaseException = BarrierPostPhaseException$instance & __B
 
 
 export interface CancellationTokenSource$instance {
+    readonly __tsonic_type_System_Threading_CancellationTokenSource: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsCancellationRequested: boolean;
@@ -490,6 +522,8 @@ export type CancellationTokenSource = CancellationTokenSource$instance & __Cance
 
 
 export interface CompressedStack$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Threading_CompressedStack: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     CreateCopy(): CompressedStack;
@@ -512,6 +546,8 @@ export type CompressedStack = CompressedStack$instance & __CompressedStack$views
 
 
 export interface CountdownEvent$instance {
+    readonly __tsonic_type_System_Threading_CountdownEvent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CurrentCount: int;
@@ -550,6 +586,8 @@ export type CountdownEvent = CountdownEvent$instance & __CountdownEvent$views;
 
 
 export interface EventWaitHandle$instance extends WaitHandle$instance {
+    readonly __tsonic_type_System_Threading_EventWaitHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(explicitDisposing: boolean): void;
@@ -580,6 +618,8 @@ export type EventWaitHandle = EventWaitHandle$instance & __EventWaitHandle$views
 
 
 export interface ExecutionContext$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Threading_ExecutionContext: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -608,6 +648,8 @@ export type ExecutionContext = ExecutionContext$instance & __ExecutionContext$vi
 
 
 export interface HostExecutionContext$instance {
+    readonly __tsonic_type_System_Threading_HostExecutionContext: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateCopy(): HostExecutionContext;
@@ -630,6 +672,8 @@ export type HostExecutionContext = HostExecutionContext$instance & __HostExecuti
 
 
 export interface HostExecutionContextManager$instance {
+    readonly __tsonic_type_System_Threading_HostExecutionContextManager: never;
+
     Capture(): HostExecutionContext | undefined;
     Revert(previousState: unknown): void;
     SetHostExecutionContext(hostExecutionContext: HostExecutionContext): unknown;
@@ -644,6 +688,8 @@ export const HostExecutionContextManager: {
 export type HostExecutionContextManager = HostExecutionContextManager$instance;
 
 export interface Lock$instance {
+    readonly __tsonic_type_System_Threading_Lock: never;
+
     readonly IsHeldByCurrentThread: boolean;
     Enter(): void;
     EnterScope(): Lock_Scope;
@@ -662,6 +708,8 @@ export const Lock: {
 export type Lock = Lock$instance;
 
 export interface LockRecursionException$instance extends Exception {
+    readonly __tsonic_type_System_Threading_LockRecursionException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -683,6 +731,8 @@ export type LockRecursionException = LockRecursionException$instance & __LockRec
 
 
 export interface ManualResetEvent$instance extends EventWaitHandle$instance {
+    readonly __tsonic_type_System_Threading_ManualResetEvent: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -703,6 +753,8 @@ export type ManualResetEvent = ManualResetEvent$instance & __ManualResetEvent$vi
 
 
 export interface ManualResetEventSlim$instance {
+    readonly __tsonic_type_System_Threading_ManualResetEventSlim: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     IsSet: boolean;
@@ -736,6 +788,8 @@ export type ManualResetEventSlim = ManualResetEventSlim$instance & __ManualReset
 
 
 export interface Mutex$instance extends WaitHandle$instance {
+    readonly __tsonic_type_System_Threading_Mutex: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(explicitDisposing: boolean): void;
@@ -767,6 +821,8 @@ export type Mutex = Mutex$instance & __Mutex$views;
 
 
 export interface Overlapped$instance {
+    readonly __tsonic_type_System_Threading_Overlapped: never;
+
     AsyncResult: IAsyncResult;
     EventHandle: int;
     EventHandleIntPtr: nint;
@@ -791,6 +847,8 @@ export const Overlapped: {
 export type Overlapped = Overlapped$instance;
 
 export interface PeriodicTimer$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_PeriodicTimer: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Period: TimeSpan;
@@ -814,6 +872,8 @@ export type PeriodicTimer = PeriodicTimer$instance & __PeriodicTimer$views;
 
 
 export interface PreAllocatedOverlapped$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_PreAllocatedOverlapped: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -834,6 +894,8 @@ export type PreAllocatedOverlapped = PreAllocatedOverlapped$instance & __PreAllo
 
 
 export interface ReaderWriterLock$instance extends CriticalFinalizerObject {
+    readonly __tsonic_type_System_Threading_ReaderWriterLock: never;
+
     readonly IsReaderLockHeld: boolean;
     readonly IsWriterLockHeld: boolean;
     readonly WriterSeqNum: int;
@@ -860,6 +922,8 @@ export const ReaderWriterLock: {
 export type ReaderWriterLock = ReaderWriterLock$instance;
 
 export interface ReaderWriterLockSlim$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_ReaderWriterLockSlim: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CurrentReadCount: int;
@@ -903,6 +967,8 @@ export type ReaderWriterLockSlim = ReaderWriterLockSlim$instance & __ReaderWrite
 
 
 export interface RegisteredWaitHandle$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Threading_RegisteredWaitHandle: never;
+
     Unregister(waitObject: WaitHandle): boolean;
 }
 
@@ -914,6 +980,8 @@ export const RegisteredWaitHandle: {
 export type RegisteredWaitHandle = RegisteredWaitHandle$instance;
 
 export interface Semaphore$instance extends WaitHandle$instance {
+    readonly __tsonic_type_System_Threading_Semaphore: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(explicitDisposing: boolean): void;
@@ -944,6 +1012,8 @@ export type Semaphore = Semaphore$instance & __Semaphore$views;
 
 
 export interface SemaphoreFullException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_SemaphoreFullException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -965,6 +1035,8 @@ export type SemaphoreFullException = SemaphoreFullException$instance & __Semapho
 
 
 export interface SemaphoreSlim$instance {
+    readonly __tsonic_type_System_Threading_SemaphoreSlim: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AvailableWaitHandle: WaitHandle;
@@ -1002,6 +1074,8 @@ export type SemaphoreSlim = SemaphoreSlim$instance & __SemaphoreSlim$views;
 
 
 export interface SynchronizationContext$instance {
+    readonly __tsonic_type_System_Threading_SynchronizationContext: never;
+
     CreateCopy(): SynchronizationContext;
     IsWaitNotificationRequired(): boolean;
     OperationCompleted(): void;
@@ -1023,6 +1097,8 @@ export const SynchronizationContext: {
 export type SynchronizationContext = SynchronizationContext$instance;
 
 export interface SynchronizationLockException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_SynchronizationLockException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1044,6 +1120,8 @@ export type SynchronizationLockException = SynchronizationLockException$instance
 
 
 export interface Thread$instance extends CriticalFinalizerObject {
+    readonly __tsonic_type_System_Threading_Thread: never;
+
     ApartmentState: ApartmentState;
     CurrentCulture: CultureInfo;
     CurrentUICulture: CultureInfo;
@@ -1138,6 +1216,8 @@ export const Thread: {
 export type Thread = Thread$instance;
 
 export interface ThreadAbortException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_ThreadAbortException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ExceptionState: unknown | undefined;
@@ -1157,6 +1237,8 @@ export type ThreadAbortException = ThreadAbortException$instance & __ThreadAbort
 
 
 export interface ThreadExceptionEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Threading_ThreadExceptionEventArgs: never;
+
     readonly Exception: Exception;
 }
 
@@ -1169,6 +1251,8 @@ export const ThreadExceptionEventArgs: {
 export type ThreadExceptionEventArgs = ThreadExceptionEventArgs$instance;
 
 export interface ThreadInterruptedException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_ThreadInterruptedException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1190,6 +1274,8 @@ export type ThreadInterruptedException = ThreadInterruptedException$instance & _
 
 
 export interface ThreadLocal_1$instance<T> {
+    readonly __tsonic_type_System_Threading_ThreadLocal_1: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsValueCreated: boolean;
@@ -1218,6 +1304,8 @@ export type ThreadLocal_1<T> = ThreadLocal_1$instance<T> & __ThreadLocal_1$views
 
 
 export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Threading_ThreadPoolBoundHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Handle: SafeHandle;
@@ -1243,6 +1331,8 @@ export type ThreadPoolBoundHandle = ThreadPoolBoundHandle$instance & __ThreadPoo
 
 
 export interface ThreadStartException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_ThreadStartException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1261,6 +1351,8 @@ export type ThreadStartException = ThreadStartException$instance & __ThreadStart
 
 
 export interface ThreadStateException$instance extends SystemException {
+    readonly __tsonic_type_System_Threading_ThreadStateException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1282,6 +1374,8 @@ export type ThreadStateException = ThreadStateException$instance & __ThreadState
 
 
 export interface Timer$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Threading_Timer: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Threading_ITimer: never;
@@ -1316,6 +1410,8 @@ export type Timer = Timer$instance & __Timer$views;
 
 
 export interface WaitHandle$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Threading_WaitHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Handle: nint;
@@ -1358,6 +1454,8 @@ export type WaitHandle = WaitHandle$instance & __WaitHandle$views;
 
 
 export interface WaitHandleCannotBeOpenedException$instance extends ApplicationException {
+    readonly __tsonic_type_System_Threading_WaitHandleCannotBeOpenedException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

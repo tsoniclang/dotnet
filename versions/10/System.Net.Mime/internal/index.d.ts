@@ -20,6 +20,8 @@ export enum TransferEncoding {
 
 
 export interface ContentDisposition$instance {
+    readonly __tsonic_type_System_Net_Mime_ContentDisposition: never;
+
     CreationDate: DateTime;
     DispositionType: string;
     get FileName(): string | undefined;
@@ -44,6 +46,8 @@ export const ContentDisposition: {
 export type ContentDisposition = ContentDisposition$instance;
 
 export interface ContentType$instance {
+    readonly __tsonic_type_System_Net_Mime_ContentType: never;
+
     get Boundary(): string | undefined;
     set Boundary(value: string | undefined);
     get CharSet(): string | undefined;

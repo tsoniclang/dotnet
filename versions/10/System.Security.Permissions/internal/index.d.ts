@@ -50,6 +50,8 @@ export enum SecurityPermissionFlag {
 
 
 export interface CodeAccessSecurityAttribute$instance extends SecurityAttribute {
+    readonly __tsonic_type_System_Security_Permissions_CodeAccessSecurityAttribute: never;
+
 }
 
 
@@ -60,6 +62,8 @@ export const CodeAccessSecurityAttribute: (abstract new(action: SecurityAction) 
 export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 
 export interface SecurityAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_Permissions_SecurityAttribute: never;
+
     Action: SecurityAction;
     Unrestricted: boolean;
     CreatePermission(): IPermission | undefined;
@@ -73,6 +77,8 @@ export const SecurityAttribute: (abstract new(action: SecurityAction) => Securit
 export type SecurityAttribute = SecurityAttribute$instance;
 
 export interface SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute {
+    readonly __tsonic_type_System_Security_Permissions_SecurityPermissionAttribute: never;
+
     Assertion: boolean;
     BindingRedirects: boolean;
     ControlAppDomain: boolean;

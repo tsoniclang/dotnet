@@ -152,6 +152,8 @@ export interface IQueryProvider$instance {
 export type IQueryProvider = IQueryProvider$instance;
 
 export interface EnumerableExecutor$instance {
+    readonly __tsonic_type_System_Linq_EnumerableExecutor: never;
+
 }
 
 
@@ -162,6 +164,8 @@ export const EnumerableExecutor: {
 export type EnumerableExecutor = EnumerableExecutor$instance;
 
 export interface EnumerableExecutor_1$instance<T> extends EnumerableExecutor {
+    readonly __tsonic_type_System_Linq_EnumerableExecutor_1: never;
+
 }
 
 
@@ -173,6 +177,8 @@ export const EnumerableExecutor_1: {
 export type EnumerableExecutor_1<T> = EnumerableExecutor_1$instance<T>;
 
 export interface EnumerableQuery$instance {
+    readonly __tsonic_type_System_Linq_EnumerableQuery: never;
+
 }
 
 
@@ -183,6 +189,8 @@ export const EnumerableQuery: {
 export type EnumerableQuery = EnumerableQuery$instance;
 
 export interface EnumerableQuery_1$instance<T> extends EnumerableQuery, IOrderedQueryable_1$instance<T>, IQueryProvider$instance {
+    readonly __tsonic_type_System_Linq_EnumerableQuery_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
@@ -212,6 +220,8 @@ export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQ
 
 
 export interface Lookup_2$instance<TKey, TElement> {
+    readonly __tsonic_type_System_Linq_Lookup_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_ILookup_2: never;
@@ -238,6 +248,8 @@ export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Loo
 
 
 export interface OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
+    readonly __tsonic_type_System_Linq_OrderedParallelQuery_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -260,6 +272,8 @@ export type OrderedParallelQuery_1<TSource> = OrderedParallelQuery_1$instance<TS
 
 
 export interface ParallelQuery$instance {
+    readonly __tsonic_type_System_Linq_ParallelQuery: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
 }
@@ -277,6 +291,8 @@ export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
 export interface ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
+    readonly __tsonic_type_System_Linq_ParallelQuery_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 

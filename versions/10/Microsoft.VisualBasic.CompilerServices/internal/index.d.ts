@@ -19,6 +19,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Exception, Int16, Int32, Int64, Object as ClrObject, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export interface BooleanType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_BooleanType: never;
+
 }
 
 
@@ -31,6 +33,8 @@ export const BooleanType: {
 export type BooleanType = BooleanType$instance;
 
 export interface ByteType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ByteType: never;
+
 }
 
 
@@ -43,6 +47,8 @@ export const ByteType: {
 export type ByteType = ByteType$instance;
 
 export interface CharArrayType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_CharArrayType: never;
+
 }
 
 
@@ -55,6 +61,8 @@ export const CharArrayType: {
 export type CharArrayType = CharArrayType$instance;
 
 export interface CharType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_CharType: never;
+
 }
 
 
@@ -67,6 +75,8 @@ export const CharType: {
 export type CharType = CharType$instance;
 
 export interface Conversions$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_Conversions: never;
+
 }
 
 
@@ -130,6 +140,8 @@ export const Conversions: {
 export type Conversions = Conversions$instance;
 
 export interface DateType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_DateType: never;
+
 }
 
 
@@ -143,6 +155,8 @@ export const DateType: {
 export type DateType = DateType$instance;
 
 export interface DecimalType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_DecimalType: never;
+
 }
 
 
@@ -159,6 +173,8 @@ export const DecimalType: {
 export type DecimalType = DecimalType$instance;
 
 export interface DesignerGeneratedAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_DesignerGeneratedAttribute: never;
+
 }
 
 
@@ -170,6 +186,8 @@ export const DesignerGeneratedAttribute: {
 export type DesignerGeneratedAttribute = DesignerGeneratedAttribute$instance;
 
 export interface DoubleType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_DoubleType: never;
+
 }
 
 
@@ -186,6 +204,8 @@ export const DoubleType: {
 export type DoubleType = DoubleType$instance;
 
 export interface IncompleteInitialization$instance extends Exception {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_IncompleteInitialization: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -205,6 +225,8 @@ export type IncompleteInitialization = IncompleteInitialization$instance & __Inc
 
 
 export interface IntegerType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_IntegerType: never;
+
 }
 
 
@@ -217,6 +239,8 @@ export const IntegerType: {
 export type IntegerType = IntegerType$instance;
 
 export interface LateBinding$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_LateBinding: never;
+
 }
 
 
@@ -234,6 +258,8 @@ export const LateBinding: {
 export type LateBinding = LateBinding$instance;
 
 export interface LikeOperator$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_LikeOperator: never;
+
 }
 
 
@@ -246,6 +272,8 @@ export const LikeOperator: {
 export type LikeOperator = LikeOperator$instance;
 
 export interface LongType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_LongType: never;
+
 }
 
 
@@ -258,6 +286,8 @@ export const LongType: {
 export type LongType = LongType$instance;
 
 export interface NewLateBinding$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_NewLateBinding: never;
+
 }
 
 
@@ -286,6 +316,8 @@ export const NewLateBinding: {
 export type NewLateBinding = NewLateBinding$instance;
 
 export interface ObjectFlowControl$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ObjectFlowControl: never;
+
 }
 
 
@@ -297,6 +329,8 @@ export const ObjectFlowControl: {
 export type ObjectFlowControl = ObjectFlowControl$instance;
 
 export interface ObjectFlowControl_ForLoopControl$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ObjectFlowControl_ForLoopControl: never;
+
 }
 
 
@@ -312,6 +346,8 @@ export const ObjectFlowControl_ForLoopControl: {
 export type ObjectFlowControl_ForLoopControl = ObjectFlowControl_ForLoopControl$instance;
 
 export interface ObjectType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ObjectType: never;
+
 }
 
 
@@ -343,6 +379,8 @@ export const ObjectType: {
 export type ObjectType = ObjectType$instance;
 
 export interface Operators$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_Operators: never;
+
 }
 
 
@@ -383,6 +421,8 @@ export const Operators: {
 export type Operators = Operators$instance;
 
 export interface OptionCompareAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_OptionCompareAttribute: never;
+
 }
 
 
@@ -394,6 +434,8 @@ export const OptionCompareAttribute: {
 export type OptionCompareAttribute = OptionCompareAttribute$instance;
 
 export interface OptionTextAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_OptionTextAttribute: never;
+
 }
 
 
@@ -405,6 +447,8 @@ export const OptionTextAttribute: {
 export type OptionTextAttribute = OptionTextAttribute$instance;
 
 export interface ProjectData$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ProjectData: never;
+
 }
 
 
@@ -420,6 +464,8 @@ export const ProjectData: {
 export type ProjectData = ProjectData$instance;
 
 export interface ShortType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_ShortType: never;
+
 }
 
 
@@ -432,6 +478,8 @@ export const ShortType: {
 export type ShortType = ShortType$instance;
 
 export interface SingleType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_SingleType: never;
+
 }
 
 
@@ -446,6 +494,8 @@ export const SingleType: {
 export type SingleType = SingleType$instance;
 
 export interface StandardModuleAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_StandardModuleAttribute: never;
+
 }
 
 
@@ -457,6 +507,8 @@ export const StandardModuleAttribute: {
 export type StandardModuleAttribute = StandardModuleAttribute$instance;
 
 export interface StaticLocalInitFlag$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_StaticLocalInitFlag: never;
+
     State: short;
 }
 
@@ -469,6 +521,8 @@ export const StaticLocalInitFlag: {
 export type StaticLocalInitFlag = StaticLocalInitFlag$instance;
 
 export interface StringType$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_StringType: never;
+
 }
 
 
@@ -498,6 +552,8 @@ export const StringType: {
 export type StringType = StringType$instance;
 
 export interface Utils$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_Utils: never;
+
 }
 
 
@@ -510,6 +566,8 @@ export const Utils: {
 export type Utils = Utils$instance;
 
 export interface Versioned$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_Versioned: never;
+
 }
 
 

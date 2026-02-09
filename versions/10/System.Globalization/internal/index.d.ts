@@ -154,6 +154,8 @@ export enum UnicodeCategory {
 
 
 export interface Calendar$instance extends System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_Globalization_Calendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -217,6 +219,8 @@ export type Calendar = Calendar$instance & __Calendar$views;
 
 
 export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly __tsonic_type_System_Globalization_ChineseLunisolarCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly DaysInYearBeforeMinSupportedYear: int;
@@ -242,6 +246,8 @@ export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __Chi
 
 
 export interface CompareInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
+    readonly __tsonic_type_System_Globalization_CompareInfo: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
 
     readonly LCID: int;
@@ -324,6 +330,8 @@ export type CompareInfo = CompareInfo$instance & __CompareInfo$views;
 
 
 export interface CultureInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
+    readonly __tsonic_type_System_Globalization_CultureInfo: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -391,6 +399,8 @@ export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
 export interface CultureNotFoundException$instance extends ArgumentException {
+    readonly __tsonic_type_System_Globalization_CultureNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly InvalidCultureId: Nullable_1<System_Internal.Int32>;
@@ -420,6 +430,8 @@ export type CultureNotFoundException = CultureNotFoundException$instance & __Cul
 
 
 export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
+    readonly __tsonic_type_System_Globalization_DateTimeFormatInfo: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -483,6 +495,8 @@ export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatI
 
 
 export interface DaylightTime$instance {
+    readonly __tsonic_type_System_Globalization_DaylightTime: never;
+
     readonly Delta: TimeSpan;
     readonly End: DateTime;
     readonly Start: DateTime;
@@ -497,6 +511,8 @@ export const DaylightTime: {
 export type DaylightTime = DaylightTime$instance;
 
 export interface EastAsianLunisolarCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_EastAsianLunisolarCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -544,6 +560,8 @@ export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & _
 
 
 export interface GregorianCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_GregorianCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -596,6 +614,8 @@ export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar
 
 
 export interface HebrewCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_HebrewCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -646,6 +666,8 @@ export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
 
 export interface HijriCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_HijriCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -698,6 +720,8 @@ export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 
 
 export interface IdnMapping$instance {
+    readonly __tsonic_type_System_Globalization_IdnMapping: never;
+
     AllowUnassigned: boolean;
     UseStd3AsciiRules: boolean;
     Equals(obj: unknown): boolean;
@@ -719,6 +743,8 @@ export const IdnMapping: {
 export type IdnMapping = IdnMapping$instance;
 
 export interface JapaneseCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_JapaneseCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -769,6 +795,8 @@ export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$vi
 
 
 export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly __tsonic_type_System_Globalization_JapaneseLunisolarCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly DaysInYearBeforeMinSupportedYear: int;
@@ -794,6 +822,8 @@ export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __J
 
 
 export interface JulianCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_JulianCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -844,6 +874,8 @@ export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
 
 
 export interface KoreanCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_KoreanCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -895,6 +927,8 @@ export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
 export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly __tsonic_type_System_Globalization_KoreanLunisolarCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly DaysInYearBeforeMinSupportedYear: int;
@@ -920,6 +954,8 @@ export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __Korea
 
 
 export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
+    readonly __tsonic_type_System_Globalization_NumberFormatInfo: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -974,6 +1010,8 @@ export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$vi
 
 
 export interface PersianCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_PersianCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -1024,6 +1062,8 @@ export type PersianCalendar = PersianCalendar$instance & __PersianCalendar$views
 
 
 export interface RegionInfo$instance {
+    readonly __tsonic_type_System_Globalization_RegionInfo: never;
+
     readonly CurrencyEnglishName: string;
     readonly CurrencyNativeName: string;
     readonly CurrencySymbol: string;
@@ -1053,6 +1093,8 @@ export const RegionInfo: {
 export type RegionInfo = RegionInfo$instance;
 
 export interface SortKey$instance {
+    readonly __tsonic_type_System_Globalization_SortKey: never;
+
     readonly KeyData: byte[];
     readonly OriginalString: string;
     Equals(value: unknown): boolean;
@@ -1069,6 +1111,8 @@ export const SortKey: {
 export type SortKey = SortKey$instance;
 
 export interface SortVersion$instance {
+    readonly __tsonic_type_System_Globalization_SortVersion: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly FullVersion: int;
@@ -1095,6 +1139,8 @@ export type SortVersion = SortVersion$instance & __SortVersion$views;
 
 
 export interface StringInfo$instance {
+    readonly __tsonic_type_System_Globalization_StringInfo: never;
+
     readonly LengthInTextElements: int;
     String: string;
     Equals(value: unknown): boolean;
@@ -1121,6 +1167,8 @@ export const StringInfo: {
 export type StringInfo = StringInfo$instance;
 
 export interface TaiwanCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_TaiwanCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -1171,6 +1219,8 @@ export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
 
 export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+    readonly __tsonic_type_System_Globalization_TaiwanLunisolarCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly DaysInYearBeforeMinSupportedYear: int;
@@ -1195,6 +1245,8 @@ export type TaiwanLunisolarCalendar = TaiwanLunisolarCalendar$instance & __Taiwa
 
 
 export interface TextElementEnumerator$instance {
+    readonly __tsonic_type_System_Globalization_TextElementEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: unknown;
@@ -1217,6 +1269,8 @@ export type TextElementEnumerator = TextElementEnumerator$instance & __TextEleme
 
 
 export interface TextInfo$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
+    readonly __tsonic_type_System_Globalization_TextInfo: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
 
@@ -1255,6 +1309,8 @@ export type TextInfo = TextInfo$instance & __TextInfo$views;
 
 
 export interface ThaiBuddhistCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_ThaiBuddhistCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -1306,6 +1362,8 @@ export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhis
 
 
 export interface UmAlQuraCalendar$instance extends Calendar$instance {
+    readonly __tsonic_type_System_Globalization_UmAlQuraCalendar: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;

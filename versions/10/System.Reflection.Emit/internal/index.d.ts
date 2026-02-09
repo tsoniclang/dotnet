@@ -130,6 +130,8 @@ export enum StackBehaviour {
 
 
 export interface Label$instance {
+    readonly __tsonic_type_System_Reflection_Emit_Label: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: int;
@@ -155,6 +157,8 @@ export type Label = Label$instance & __Label$views;
 
 
 export interface OpCode$instance {
+    readonly __tsonic_type_System_Reflection_Emit_OpCode: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly EvaluationStackDelta: int;
@@ -189,6 +193,8 @@ export type OpCode = OpCode$instance & __OpCode$views;
 
 
 export interface AssemblyBuilder$instance extends Assembly {
+    readonly __tsonic_type_System_Reflection_Emit_AssemblyBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -233,6 +239,8 @@ export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views
 
 
 export interface ConstructorBuilder$instance extends ConstructorInfo {
+    readonly __tsonic_type_System_Reflection_Emit_ConstructorBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     InitLocals: boolean;
@@ -265,6 +273,8 @@ export type ConstructorBuilder = ConstructorBuilder$instance & __ConstructorBuil
 
 
 export interface CustomAttributeBuilder$instance {
+    readonly __tsonic_type_System_Reflection_Emit_CustomAttributeBuilder: never;
+
 }
 
 
@@ -279,6 +289,8 @@ export const CustomAttributeBuilder: {
 export type CustomAttributeBuilder = CustomAttributeBuilder$instance;
 
 export interface DynamicILInfo$instance {
+    readonly __tsonic_type_System_Reflection_Emit_DynamicILInfo: never;
+
     readonly DynamicMethod: DynamicMethod;
     GetTokenFor(method: RuntimeMethodHandle): int;
     GetTokenFor(method: DynamicMethod): int;
@@ -304,6 +316,8 @@ export const DynamicILInfo: {
 export type DynamicILInfo = DynamicILInfo$instance;
 
 export interface DynamicMethod$instance extends MethodInfo {
+    readonly __tsonic_type_System_Reflection_Emit_DynamicMethod: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     readonly Attributes: MethodAttributes;
@@ -360,6 +374,8 @@ export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
 export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+    readonly __tsonic_type_System_Reflection_Emit_EnumBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -434,6 +450,8 @@ export type EnumBuilder = EnumBuilder$instance & __EnumBuilder$views;
 
 
 export interface EventBuilder$instance {
+    readonly __tsonic_type_System_Reflection_Emit_EventBuilder: never;
+
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     AddOtherMethodCore(mdBuilder: MethodBuilder): void;
     SetAddOnMethod(mdBuilder: MethodBuilder): void;
@@ -455,6 +473,8 @@ export const EventBuilder: (abstract new() => EventBuilder) & {
 export type EventBuilder = EventBuilder$instance;
 
 export interface FieldBuilder$instance extends FieldInfo {
+    readonly __tsonic_type_System_Reflection_Emit_FieldBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     GetCustomAttributes(inherit: boolean): unknown[];
@@ -482,6 +502,8 @@ export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
 export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+    readonly __tsonic_type_System_Reflection_Emit_GenericTypeParameterBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -551,6 +573,8 @@ export type GenericTypeParameterBuilder = GenericTypeParameterBuilder$instance &
 
 
 export interface ILGenerator$instance {
+    readonly __tsonic_type_System_Reflection_Emit_ILGenerator: never;
+
     readonly ILOffset: int;
     BeginCatchBlock(exceptionType: Type): void;
     BeginExceptFilterBlock(): void;
@@ -602,6 +626,8 @@ export const ILGenerator: (abstract new() => ILGenerator) & {
 export type ILGenerator = ILGenerator$instance;
 
 export interface LocalBuilder$instance extends LocalVariableInfo {
+    readonly __tsonic_type_System_Reflection_Emit_LocalBuilder: never;
+
     SetLocalSymInfo(name: string): void;
     SetLocalSymInfoCore(name: string): void;
 }
@@ -614,6 +640,8 @@ export const LocalBuilder: (abstract new() => LocalBuilder) & {
 export type LocalBuilder = LocalBuilder$instance;
 
 export interface MethodBuilder$instance extends MethodInfo {
+    readonly __tsonic_type_System_Reflection_Emit_MethodBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     InitLocals: boolean;
@@ -652,6 +680,8 @@ export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
 export interface ModuleBuilder$instance extends Module {
+    readonly __tsonic_type_System_Reflection_Emit_ModuleBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -712,6 +742,8 @@ export type ModuleBuilder = ModuleBuilder$instance & __ModuleBuilder$views;
 
 
 export interface OpCodes$instance {
+    readonly __tsonic_type_System_Reflection_Emit_OpCodes: never;
+
 }
 
 
@@ -949,6 +981,8 @@ export const OpCodes: {
 export type OpCodes = OpCodes$instance;
 
 export interface ParameterBuilder$instance {
+    readonly __tsonic_type_System_Reflection_Emit_ParameterBuilder: never;
+
     readonly Attributes: int;
     readonly IsIn: boolean;
     readonly IsOptional: boolean;
@@ -969,6 +1003,8 @@ export const ParameterBuilder: (abstract new() => ParameterBuilder) & {
 export type ParameterBuilder = ParameterBuilder$instance;
 
 export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
+    readonly __tsonic_type_System_Reflection_Emit_PersistedAssemblyBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1004,6 +1040,8 @@ export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __Per
 
 
 export interface PropertyBuilder$instance extends PropertyInfo {
+    readonly __tsonic_type_System_Reflection_Emit_PropertyBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     AddOtherMethod(mdBuilder: MethodBuilder): void;
@@ -1035,6 +1073,8 @@ export type PropertyBuilder = PropertyBuilder$instance & __PropertyBuilder$views
 
 
 export interface SignatureHelper$instance {
+    readonly __tsonic_type_System_Reflection_Emit_SignatureHelper: never;
+
     AddArgument(clsArgument: Type): void;
     AddArgument(argument: Type, pinned: boolean): void;
     AddArgument(argument: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[]): void;
@@ -1063,6 +1103,8 @@ export const SignatureHelper: {
 export type SignatureHelper = SignatureHelper$instance;
 
 export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+    readonly __tsonic_type_System_Reflection_Emit_TypeBuilder: never;
+
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;

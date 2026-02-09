@@ -32,6 +32,8 @@ export enum GCLatencyMode {
 
 
 export interface DependentHandle$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_DependentHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Dependent(): unknown | undefined;
@@ -57,6 +59,8 @@ export type DependentHandle = DependentHandle$instance & __DependentHandle$views
 
 
 export interface AmbiguousImplementationException$instance extends Exception {
+    readonly __tsonic_type_System_Runtime_AmbiguousImplementationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -78,6 +82,8 @@ export type AmbiguousImplementationException = AmbiguousImplementationException$
 
 
 export interface AssemblyTargetedPatchBandAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_AssemblyTargetedPatchBandAttribute: never;
+
     readonly TargetedPatchBand: string;
 }
 
@@ -90,6 +96,8 @@ export const AssemblyTargetedPatchBandAttribute: {
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
 export interface MemoryFailPoint$instance extends CriticalFinalizerObject, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_MemoryFailPoint: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -110,6 +118,8 @@ export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views
 
 
 export interface TargetedPatchingOptOutAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_TargetedPatchingOptOutAttribute: never;
+
     readonly Reason: string;
 }
 

@@ -22,6 +22,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Func_2, Guid, Int16, Int32, Int64, Nullable_1, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
 export interface JsonNodeOptions$instance {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonNodeOptions: never;
+
     PropertyNameCaseInsensitive: boolean;
 }
 
@@ -34,6 +36,8 @@ export const JsonNodeOptions: {
 export type JsonNodeOptions = JsonNodeOptions$instance;
 
 export interface JsonArray$instance extends JsonNode {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonArray: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -77,6 +81,8 @@ export type JsonArray = JsonArray$instance & __JsonArray$views;
 
 
 export interface JsonNode$instance {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonNode: never;
+
     readonly Options: Nullable_1<JsonNodeOptions>;
     get Parent(): JsonNode | undefined;
     set Parent(value: JsonNode | undefined);
@@ -114,6 +120,8 @@ export const JsonNode: {
 export type JsonNode = JsonNode$instance;
 
 export interface JsonObject$instance extends JsonNode {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonObject: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -160,6 +168,8 @@ export type JsonObject = JsonObject$instance & __JsonObject$views;
 
 
 export interface JsonValue$instance extends JsonNode {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonValue: never;
+
     TryGetValue<T>(value: T): boolean;
 }
 

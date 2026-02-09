@@ -70,6 +70,8 @@ export enum TaskStatus {
 
 
 export interface ParallelLoopResult$instance {
+    readonly __tsonic_type_System_Threading_Tasks_ParallelLoopResult: never;
+
     readonly IsCompleted: boolean;
     readonly LowestBreakIteration: Nullable_1<System_Internal.Int64>;
 }
@@ -83,6 +85,8 @@ export const ParallelLoopResult: {
 export type ParallelLoopResult = ParallelLoopResult$instance;
 
 export interface ValueTask$instance {
+    readonly __tsonic_type_System_Threading_Tasks_ValueTask: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsCanceled: boolean;
@@ -123,6 +127,8 @@ export type ValueTask = ValueTask$instance & __ValueTask$views;
 
 
 export interface ValueTask_1$instance<TResult> {
+    readonly __tsonic_type_System_Threading_Tasks_ValueTask_1: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsCanceled: boolean;
@@ -160,6 +166,8 @@ export type ValueTask_1<TResult> = ValueTask_1$instance<TResult> & __ValueTask_1
 
 
 export interface ConcurrentExclusiveSchedulerPair$instance {
+    readonly __tsonic_type_System_Threading_Tasks_ConcurrentExclusiveSchedulerPair: never;
+
     readonly Completion: Task;
     readonly ConcurrentScheduler: TaskScheduler;
     readonly ExclusiveScheduler: TaskScheduler;
@@ -178,6 +186,8 @@ export const ConcurrentExclusiveSchedulerPair: {
 export type ConcurrentExclusiveSchedulerPair = ConcurrentExclusiveSchedulerPair$instance;
 
 export interface ParallelLoopState$instance {
+    readonly __tsonic_type_System_Threading_Tasks_ParallelLoopState: never;
+
     readonly IsExceptional: boolean;
     readonly IsStopped: boolean;
     readonly LowestBreakIteration: Nullable_1<System_Internal.Int64>;
@@ -194,6 +204,8 @@ export const ParallelLoopState: {
 export type ParallelLoopState = ParallelLoopState$instance;
 
 export interface ParallelOptions$instance {
+    readonly __tsonic_type_System_Threading_Tasks_ParallelOptions: never;
+
     CancellationToken: CancellationToken;
     MaxDegreeOfParallelism: int;
     get TaskScheduler(): TaskScheduler | undefined;
@@ -209,6 +221,8 @@ export const ParallelOptions: {
 export type ParallelOptions = ParallelOptions$instance;
 
 export interface Task$instance extends System_Internal.IAsyncResult$instance {
+    readonly __tsonic_type_System_Threading_Tasks_Task: never;
+
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -339,6 +353,8 @@ export type Task = Task$instance & __Task$views;
 
 
 export interface Task_1$instance<TResult> extends Task$instance, System_Internal.IAsyncResult$instance {
+    readonly __tsonic_type_System_Threading_Tasks_Task_1: never;
+
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -411,6 +427,8 @@ export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>
 
 
 export interface TaskCanceledException$instance extends OperationCanceledException {
+    readonly __tsonic_type_System_Threading_Tasks_TaskCanceledException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Task: Task | undefined;
@@ -435,6 +453,8 @@ export type TaskCanceledException = TaskCanceledException$instance & __TaskCance
 
 
 export interface TaskCompletionSource$instance {
+    readonly __tsonic_type_System_Threading_Tasks_TaskCompletionSource: never;
+
     readonly Task: Task;
     SetCanceled(): void;
     SetCanceled(cancellationToken: CancellationToken): void;
@@ -462,6 +482,8 @@ export const TaskCompletionSource: {
 export type TaskCompletionSource = TaskCompletionSource$instance;
 
 export interface TaskCompletionSource_1$instance<TResult> {
+    readonly __tsonic_type_System_Threading_Tasks_TaskCompletionSource_1: never;
+
     readonly Task: Task_1<TResult>;
     SetCanceled(): void;
     SetCanceled(cancellationToken: CancellationToken): void;
@@ -489,6 +511,8 @@ export const TaskCompletionSource_1: {
 export type TaskCompletionSource_1<TResult> = TaskCompletionSource_1$instance<TResult>;
 
 export interface TaskFactory$instance {
+    readonly __tsonic_type_System_Threading_Tasks_TaskFactory: never;
+
     readonly CancellationToken: CancellationToken;
     readonly ContinuationOptions: TaskContinuationOptions;
     readonly CreationOptions: TaskCreationOptions;
@@ -578,6 +602,8 @@ export const TaskFactory: {
 export type TaskFactory = TaskFactory$instance;
 
 export interface TaskFactory_1$instance<TResult> {
+    readonly __tsonic_type_System_Threading_Tasks_TaskFactory_1: never;
+
     readonly CancellationToken: CancellationToken;
     readonly ContinuationOptions: TaskContinuationOptions;
     readonly CreationOptions: TaskCreationOptions;
@@ -632,6 +658,8 @@ export const TaskFactory_1: {
 export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 
 export interface TaskScheduler$instance {
+    readonly __tsonic_type_System_Threading_Tasks_TaskScheduler: never;
+
     readonly Id: int;
     readonly MaximumConcurrencyLevel: int;
     GetScheduledTasks(): IEnumerable_1<Task> | undefined;
@@ -651,6 +679,8 @@ export const TaskScheduler: (abstract new() => TaskScheduler) & {
 export type TaskScheduler = TaskScheduler$instance;
 
 export interface TaskSchedulerException$instance extends Exception {
+    readonly __tsonic_type_System_Threading_Tasks_TaskSchedulerException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -673,6 +703,8 @@ export type TaskSchedulerException = TaskSchedulerException$instance & __TaskSch
 
 
 export interface UnobservedTaskExceptionEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Threading_Tasks_UnobservedTaskExceptionEventArgs: never;
+
     readonly Exception: AggregateException;
     readonly Observed: boolean;
     SetObserved(): void;

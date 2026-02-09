@@ -29,6 +29,8 @@ export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEn
 
 
 export interface FileSystemEntry$instance {
+    readonly __tsonic_type_System_IO_Enumeration_FileSystemEntry: never;
+
     readonly Attributes: FileAttributes;
     readonly CreationTimeUtc: DateTimeOffset;
     Directory: ReadOnlySpan_1<System_Internal.Char>;
@@ -54,6 +56,8 @@ export const FileSystemEntry: {
 export type FileSystemEntry = FileSystemEntry$instance;
 
 export interface FileSystemEnumerable_1$instance<TResult> {
+    readonly __tsonic_type_System_IO_Enumeration_FileSystemEnumerable_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -79,6 +83,8 @@ export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TR
 
 
 export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
+    readonly __tsonic_type_System_IO_Enumeration_FileSystemEnumerator_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;

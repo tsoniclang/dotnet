@@ -47,6 +47,8 @@ export interface IValidatableObject$instance {
 export type IValidatableObject = IValidatableObject$instance;
 
 export interface AllowedValuesAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_AllowedValuesAttribute: never;
+
     readonly Values: (unknown | undefined)[];
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
@@ -61,6 +63,8 @@ export const AllowedValuesAttribute: {
 export type AllowedValuesAttribute = AllowedValuesAttribute$instance;
 
 export interface AssociatedMetadataTypeTypeDescriptionProvider$instance extends TypeDescriptionProvider {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_AssociatedMetadataTypeTypeDescriptionProvider: never;
+
     GetTypeDescriptor(objectType: Type, instance: unknown): ICustomTypeDescriptor;
     GetTypeDescriptor(objectType: Type): ICustomTypeDescriptor | undefined;
     GetTypeDescriptor(instance: unknown): ICustomTypeDescriptor | undefined;
@@ -76,6 +80,8 @@ export const AssociatedMetadataTypeTypeDescriptionProvider: {
 export type AssociatedMetadataTypeTypeDescriptionProvider = AssociatedMetadataTypeTypeDescriptionProvider$instance;
 
 export interface AssociationAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_AssociationAttribute: never;
+
     IsForeignKey: boolean;
     readonly Name: string;
     readonly OtherKey: string;
@@ -93,6 +99,8 @@ export const AssociationAttribute: {
 export type AssociationAttribute = AssociationAttribute$instance;
 
 export interface Base64StringAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_Base64StringAttribute: never;
+
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
 }
@@ -106,6 +114,8 @@ export const Base64StringAttribute: {
 export type Base64StringAttribute = Base64StringAttribute$instance;
 
 export interface CompareAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_CompareAttribute: never;
+
     readonly OtherProperty: string;
     get OtherPropertyDisplayName(): string | undefined;
     set OtherPropertyDisplayName(value: string | undefined);
@@ -124,6 +134,8 @@ export const CompareAttribute: {
 export type CompareAttribute = CompareAttribute$instance;
 
 export interface ConcurrencyCheckAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ConcurrencyCheckAttribute: never;
+
 }
 
 
@@ -135,6 +147,8 @@ export const ConcurrencyCheckAttribute: {
 export type ConcurrencyCheckAttribute = ConcurrencyCheckAttribute$instance;
 
 export interface CreditCardAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_CreditCardAttribute: never;
+
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
 }
@@ -148,6 +162,8 @@ export const CreditCardAttribute: {
 export type CreditCardAttribute = CreditCardAttribute$instance;
 
 export interface CustomValidationAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_CustomValidationAttribute: never;
+
     readonly Method: string;
     readonly RequiresValidationContext: boolean;
     readonly TypeId: unknown;
@@ -166,6 +182,8 @@ export const CustomValidationAttribute: {
 export type CustomValidationAttribute = CustomValidationAttribute$instance;
 
 export interface DataTypeAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_DataTypeAttribute: never;
+
     readonly CustomDataType: string | undefined;
     readonly DataType: DataType;
     get DisplayFormat(): DisplayFormatAttribute | undefined;
@@ -185,6 +203,8 @@ export const DataTypeAttribute: {
 export type DataTypeAttribute = DataTypeAttribute$instance;
 
 export interface DeniedValuesAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_DeniedValuesAttribute: never;
+
     readonly Values: (unknown | undefined)[];
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
@@ -199,6 +219,8 @@ export const DeniedValuesAttribute: {
 export type DeniedValuesAttribute = DeniedValuesAttribute$instance;
 
 export interface DisplayAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_DisplayAttribute: never;
+
     AutoGenerateField: boolean;
     AutoGenerateFilter: boolean;
     get Description(): string | undefined;
@@ -233,6 +255,8 @@ export const DisplayAttribute: {
 export type DisplayAttribute = DisplayAttribute$instance;
 
 export interface DisplayColumnAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_DisplayColumnAttribute: never;
+
     readonly DisplayColumn: string;
     readonly SortColumn: string | undefined;
     readonly SortDescending: boolean;
@@ -249,6 +273,8 @@ export const DisplayColumnAttribute: {
 export type DisplayColumnAttribute = DisplayColumnAttribute$instance;
 
 export interface DisplayFormatAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_DisplayFormatAttribute: never;
+
     ApplyFormatInEditMode: boolean;
     ConvertEmptyStringToNull: boolean;
     get DataFormatString(): string | undefined;
@@ -270,6 +296,8 @@ export const DisplayFormatAttribute: {
 export type DisplayFormatAttribute = DisplayFormatAttribute$instance;
 
 export interface EditableAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_EditableAttribute: never;
+
     readonly AllowEdit: boolean;
     AllowInitialValue: boolean;
 }
@@ -283,6 +311,8 @@ export const EditableAttribute: {
 export type EditableAttribute = EditableAttribute$instance;
 
 export interface EmailAddressAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_EmailAddressAttribute: never;
+
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
 }
@@ -296,6 +326,8 @@ export const EmailAddressAttribute: {
 export type EmailAddressAttribute = EmailAddressAttribute$instance;
 
 export interface EnumDataTypeAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_EnumDataTypeAttribute: never;
+
     readonly EnumType: Type;
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
@@ -310,6 +342,8 @@ export const EnumDataTypeAttribute: {
 export type EnumDataTypeAttribute = EnumDataTypeAttribute$instance;
 
 export interface FileExtensionsAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_FileExtensionsAttribute: never;
+
     Extensions: string;
     FormatErrorMessage(name: string): string;
     IsValid(value: unknown): boolean;
@@ -325,6 +359,8 @@ export const FileExtensionsAttribute: {
 export type FileExtensionsAttribute = FileExtensionsAttribute$instance;
 
 export interface FilterUIHintAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_FilterUIHintAttribute: never;
+
     readonly ControlParameters: IDictionary_2<System_Internal.String, unknown | undefined>;
     readonly FilterUIHint: string;
     readonly PresentationLayer: string | undefined;
@@ -343,6 +379,8 @@ export const FilterUIHintAttribute: {
 export type FilterUIHintAttribute = FilterUIHintAttribute$instance;
 
 export interface KeyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_KeyAttribute: never;
+
 }
 
 
@@ -354,6 +392,8 @@ export const KeyAttribute: {
 export type KeyAttribute = KeyAttribute$instance;
 
 export interface LengthAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_LengthAttribute: never;
+
     readonly MaximumLength: int;
     readonly MinimumLength: int;
     FormatErrorMessage(name: string): string;
@@ -370,6 +410,8 @@ export const LengthAttribute: {
 export type LengthAttribute = LengthAttribute$instance;
 
 export interface MaxLengthAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_MaxLengthAttribute: never;
+
     readonly Length: int;
     FormatErrorMessage(name: string): string;
     IsValid(value: unknown): boolean;
@@ -386,6 +428,8 @@ export const MaxLengthAttribute: {
 export type MaxLengthAttribute = MaxLengthAttribute$instance;
 
 export interface MetadataTypeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_MetadataTypeAttribute: never;
+
     readonly MetadataClassType: Type;
 }
 
@@ -398,6 +442,8 @@ export const MetadataTypeAttribute: {
 export type MetadataTypeAttribute = MetadataTypeAttribute$instance;
 
 export interface MinLengthAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_MinLengthAttribute: never;
+
     readonly Length: int;
     FormatErrorMessage(name: string): string;
     IsValid(value: unknown): boolean;
@@ -413,6 +459,8 @@ export const MinLengthAttribute: {
 export type MinLengthAttribute = MinLengthAttribute$instance;
 
 export interface PhoneAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_PhoneAttribute: never;
+
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
 }
@@ -426,6 +474,8 @@ export const PhoneAttribute: {
 export type PhoneAttribute = PhoneAttribute$instance;
 
 export interface RangeAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_RangeAttribute: never;
+
     ConvertValueInInvariantCulture: boolean;
     Maximum: unknown;
     MaximumIsExclusive: boolean;
@@ -449,6 +499,8 @@ export const RangeAttribute: {
 export type RangeAttribute = RangeAttribute$instance;
 
 export interface RegularExpressionAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_RegularExpressionAttribute: never;
+
     readonly MatchTimeout: TimeSpan;
     MatchTimeoutInMilliseconds: int;
     readonly Pattern: string;
@@ -466,6 +518,8 @@ export const RegularExpressionAttribute: {
 export type RegularExpressionAttribute = RegularExpressionAttribute$instance;
 
 export interface RequiredAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_RequiredAttribute: never;
+
     AllowEmptyStrings: boolean;
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
@@ -480,6 +534,8 @@ export const RequiredAttribute: {
 export type RequiredAttribute = RequiredAttribute$instance;
 
 export interface ScaffoldColumnAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ScaffoldColumnAttribute: never;
+
     readonly Scaffold: boolean;
 }
 
@@ -492,6 +548,8 @@ export const ScaffoldColumnAttribute: {
 export type ScaffoldColumnAttribute = ScaffoldColumnAttribute$instance;
 
 export interface StringLengthAttribute$instance extends ValidationAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_StringLengthAttribute: never;
+
     readonly MaximumLength: int;
     MinimumLength: int;
     FormatErrorMessage(name: string): string;
@@ -508,6 +566,8 @@ export const StringLengthAttribute: {
 export type StringLengthAttribute = StringLengthAttribute$instance;
 
 export interface TimestampAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_TimestampAttribute: never;
+
 }
 
 
@@ -519,6 +579,8 @@ export const TimestampAttribute: {
 export type TimestampAttribute = TimestampAttribute$instance;
 
 export interface UIHintAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_UIHintAttribute: never;
+
     readonly ControlParameters: IDictionary_2<System_Internal.String, unknown | undefined>;
     readonly PresentationLayer: string | undefined;
     readonly UIHint: string;
@@ -537,6 +599,8 @@ export const UIHintAttribute: {
 export type UIHintAttribute = UIHintAttribute$instance;
 
 export interface UrlAttribute$instance extends DataTypeAttribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_UrlAttribute: never;
+
     IsValid(value: unknown): boolean;
     IsValid(value: unknown, validationContext: ValidationContext): ValidationResult | undefined;
 }
@@ -550,6 +614,8 @@ export const UrlAttribute: {
 export type UrlAttribute = UrlAttribute$instance;
 
 export interface ValidationAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ValidationAttribute: never;
+
     get ErrorMessage(): string | undefined;
     set ErrorMessage(value: string | undefined);
     get ErrorMessageResourceName(): string | undefined;
@@ -573,6 +639,8 @@ export const ValidationAttribute: (abstract new() => ValidationAttribute) & (abs
 export type ValidationAttribute = ValidationAttribute$instance;
 
 export interface ValidationContext$instance extends System_Internal.IServiceProvider$instance {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ValidationContext: never;
+
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     DisplayName: string;
@@ -602,6 +670,8 @@ export type ValidationContext = ValidationContext$instance & __ValidationContext
 
 
 export interface ValidationException$instance extends Exception {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ValidationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ValidationAttribute: ValidationAttribute | undefined;
@@ -628,6 +698,8 @@ export type ValidationException = ValidationException$instance & __ValidationExc
 
 
 export interface ValidationResult$instance {
+    readonly __tsonic_type_System_ComponentModel_DataAnnotations_ValidationResult: never;
+
     get ErrorMessage(): string | undefined;
     set ErrorMessage(value: string | undefined);
     readonly MemberNames: IEnumerable_1<System_Internal.String>;

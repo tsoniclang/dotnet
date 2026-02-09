@@ -126,6 +126,8 @@ export enum EventTask {
 
 
 export interface EventSource_EventSourcePrimitive$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventSourcePrimitive: never;
+
 }
 
 
@@ -137,6 +139,8 @@ export const EventSource_EventSourcePrimitive: {
 export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
 
 export interface EventSourceOptions$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceOptions: never;
+
     ActivityOptions: EventActivityOptions;
     Keywords: EventKeywords;
     Level: EventLevel;
@@ -153,6 +157,8 @@ export const EventSourceOptions: {
 export type EventSourceOptions = EventSourceOptions$instance;
 
 export interface DiagnosticCounter$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayName: string;
@@ -176,6 +182,8 @@ export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter
 
 
 export interface EventAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventAttribute: never;
+
     ActivityOptions: EventActivityOptions;
     Channel: EventChannel;
     readonly EventId: int;
@@ -198,6 +206,8 @@ export const EventAttribute: {
 export type EventAttribute = EventAttribute$instance;
 
 export interface EventCommandEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventCommandEventArgs: never;
+
     get Arguments(): IDictionary_2<System_Internal.String, string | undefined> | undefined;
     set Arguments(value: IDictionary_2<System_Internal.String, string | undefined> | undefined);
     Command: EventCommand;
@@ -213,6 +223,8 @@ export const EventCommandEventArgs: {
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
 export interface EventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventCounter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -235,6 +247,8 @@ export type EventCounter = EventCounter$instance & __EventCounter$views;
 
 
 export interface EventDataAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventDataAttribute: never;
+
     get Name(): string | undefined;
     set Name(value: string | undefined);
 }
@@ -248,6 +262,8 @@ export const EventDataAttribute: {
 export type EventDataAttribute = EventDataAttribute$instance;
 
 export interface EventFieldAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventFieldAttribute: never;
+
     Format: EventFieldFormat;
     Tags: EventFieldTags;
 }
@@ -261,6 +277,8 @@ export const EventFieldAttribute: {
 export type EventFieldAttribute = EventFieldAttribute$instance;
 
 export interface EventIgnoreAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventIgnoreAttribute: never;
+
 }
 
 
@@ -272,6 +290,8 @@ export const EventIgnoreAttribute: {
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
 export interface EventListener$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventListener: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisableEvents(eventSource: EventSource): void;
@@ -297,6 +317,8 @@ export type EventListener = EventListener$instance & __EventListener$views;
 
 
 export interface EventSource$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSource: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ConstructionException: Exception | undefined;
@@ -345,6 +367,8 @@ export type EventSource = EventSource$instance & __EventSource$views;
 
 
 export interface EventSourceAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceAttribute: never;
+
     get Guid(): string | undefined;
     set Guid(value: string | undefined);
     get LocalizationResources(): string | undefined;
@@ -362,6 +386,8 @@ export const EventSourceAttribute: {
 export type EventSourceAttribute = EventSourceAttribute$instance;
 
 export interface EventSourceCreatedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceCreatedEventArgs: never;
+
     get EventSource(): EventSource | undefined;
     set EventSource(value: EventSource | undefined);
 }
@@ -375,6 +401,8 @@ export const EventSourceCreatedEventArgs: {
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
 export interface EventSourceException$instance extends Exception {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -396,6 +424,8 @@ export type EventSourceException = EventSourceException$instance & __EventSource
 
 
 export interface EventWrittenEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventWrittenEventArgs: never;
+
     readonly ActivityId: Guid;
     readonly Channel: EventChannel;
     readonly EventId: int;
@@ -427,6 +457,8 @@ export const EventWrittenEventArgs: {
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
 export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingEventCounter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayRateTimeScale: TimeSpan;
@@ -449,6 +481,8 @@ export type IncrementingEventCounter = IncrementingEventCounter$instance & __Inc
 
 
 export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingPollingCounter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayRateTimeScale: TimeSpan;
@@ -470,6 +504,8 @@ export type IncrementingPollingCounter = IncrementingPollingCounter$instance & _
 
 
 export interface NonEventAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Diagnostics_Tracing_NonEventAttribute: never;
+
 }
 
 
@@ -481,6 +517,8 @@ export const NonEventAttribute: {
 export type NonEventAttribute = NonEventAttribute$instance;
 
 export interface PollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_PollingCounter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;

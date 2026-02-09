@@ -10,6 +10,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface ValueSerializerAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Windows_Markup_ValueSerializerAttribute: never;
+
     readonly ValueSerializerType: Type;
     readonly ValueSerializerTypeName: string;
 }

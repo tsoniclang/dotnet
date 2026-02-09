@@ -71,6 +71,8 @@ export enum JsonValueKind {
 
 
 export interface JsonDocumentOptions$instance {
+    readonly __tsonic_type_System_Text_Json_JsonDocumentOptions: never;
+
     AllowDuplicateProperties: boolean;
     AllowTrailingCommas: boolean;
     CommentHandling: JsonCommentHandling;
@@ -86,6 +88,8 @@ export const JsonDocumentOptions: {
 export type JsonDocumentOptions = JsonDocumentOptions$instance;
 
 export interface JsonElement$instance {
+    readonly __tsonic_type_System_Text_Json_JsonElement: never;
+
     readonly [index: number]: JsonElement;
     readonly ValueKind: JsonValueKind;
     Clone(): JsonElement;
@@ -154,6 +158,8 @@ export const JsonElement: {
 export type JsonElement = JsonElement$instance;
 
 export interface JsonElement_ArrayEnumerator$instance extends IDisposable {
+    readonly __tsonic_type_System_Text_Json_JsonElement_ArrayEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -184,6 +190,8 @@ export type JsonElement_ArrayEnumerator = JsonElement_ArrayEnumerator$instance &
 
 
 export interface JsonElement_ObjectEnumerator$instance extends IDisposable {
+    readonly __tsonic_type_System_Text_Json_JsonElement_ObjectEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -214,6 +222,8 @@ export type JsonElement_ObjectEnumerator = JsonElement_ObjectEnumerator$instance
 
 
 export interface JsonEncodedText$instance {
+    readonly __tsonic_type_System_Text_Json_JsonEncodedText: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly EncodedUtf8Bytes: ReadOnlySpan_1<System_Internal.Byte>;
@@ -244,6 +254,8 @@ export type JsonEncodedText = JsonEncodedText$instance & __JsonEncodedText$views
 
 
 export interface JsonProperty$instance {
+    readonly __tsonic_type_System_Text_Json_JsonProperty: never;
+
     readonly Name: string;
     readonly Value: JsonElement;
     NameEquals(text: string): boolean;
@@ -262,6 +274,8 @@ export const JsonProperty: {
 export type JsonProperty = JsonProperty$instance;
 
 export interface JsonReaderOptions$instance {
+    readonly __tsonic_type_System_Text_Json_JsonReaderOptions: never;
+
     AllowMultipleValues: boolean;
     AllowTrailingCommas: boolean;
     CommentHandling: JsonCommentHandling;
@@ -277,6 +291,8 @@ export const JsonReaderOptions: {
 export type JsonReaderOptions = JsonReaderOptions$instance;
 
 export interface JsonReaderState$instance {
+    readonly __tsonic_type_System_Text_Json_JsonReaderState: never;
+
     readonly Options: JsonReaderOptions;
 }
 
@@ -289,6 +305,8 @@ export const JsonReaderState: {
 export type JsonReaderState = JsonReaderState$instance;
 
 export interface JsonWriterOptions$instance {
+    readonly __tsonic_type_System_Text_Json_JsonWriterOptions: never;
+
     get Encoder(): JavaScriptEncoder | undefined;
     set Encoder(value: JavaScriptEncoder | undefined);
     IndentCharacter: char;
@@ -308,6 +326,8 @@ export const JsonWriterOptions: {
 export type JsonWriterOptions = JsonWriterOptions$instance;
 
 export interface Utf8JsonReader$instance {
+    readonly __tsonic_type_System_Text_Json_Utf8JsonReader: never;
+
     readonly BytesConsumed: long;
     readonly CurrentDepth: int;
     readonly CurrentState: JsonReaderState;
@@ -374,6 +394,8 @@ export const Utf8JsonReader: {
 export type Utf8JsonReader = Utf8JsonReader$instance;
 
 export interface JsonDocument$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Text_Json_JsonDocument: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly RootElement: JsonElement;
@@ -402,6 +424,8 @@ export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
 export interface JsonException$instance extends Exception {
+    readonly __tsonic_type_System_Text_Json_JsonException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     BytePositionInLine: Nullable_1<System_Internal.Int64>;
@@ -430,6 +454,8 @@ export type JsonException = JsonException$instance & __JsonException$views;
 
 
 export interface JsonNamingPolicy$instance {
+    readonly __tsonic_type_System_Text_Json_JsonNamingPolicy: never;
+
     ConvertName(name: string): string;
 }
 
@@ -446,6 +472,8 @@ export const JsonNamingPolicy: (abstract new() => JsonNamingPolicy) & {
 export type JsonNamingPolicy = JsonNamingPolicy$instance;
 
 export interface JsonSerializerOptions$instance {
+    readonly __tsonic_type_System_Text_Json_JsonSerializerOptions: never;
+
     AllowDuplicateProperties: boolean;
     AllowOutOfOrderMetadataProperties: boolean;
     AllowTrailingCommas: boolean;
@@ -503,6 +531,8 @@ export const JsonSerializerOptions: {
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
 export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Text_Json_Utf8JsonWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

@@ -78,6 +78,8 @@ export enum UniversalTagNumber {
 
 
 export interface Asn1Tag$instance {
+    readonly __tsonic_type_System_Formats_Asn1_Asn1Tag: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly IsConstructed: boolean;
@@ -128,6 +130,8 @@ export type Asn1Tag = Asn1Tag$instance & __Asn1Tag$views;
 
 
 export interface AsnReaderOptions$instance {
+    readonly __tsonic_type_System_Formats_Asn1_AsnReaderOptions: never;
+
     SkipSetSortOrderVerification: boolean;
     UtcTimeTwoDigitYearMax: int;
 }
@@ -141,6 +145,8 @@ export const AsnReaderOptions: {
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
 export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Formats_Asn1_AsnWriter_Scope: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -160,6 +166,8 @@ export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views
 
 
 export interface AsnContentException$instance extends Exception {
+    readonly __tsonic_type_System_Formats_Asn1_AsnContentException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -181,6 +189,8 @@ export type AsnContentException = AsnContentException$instance & __AsnContentExc
 
 
 export interface AsnReader$instance {
+    readonly __tsonic_type_System_Formats_Asn1_AsnReader: never;
+
     readonly HasData: boolean;
     readonly RuleSet: AsnEncodingRules;
     Clone(): AsnReader;
@@ -231,6 +241,8 @@ export const AsnReader: {
 export type AsnReader = AsnReader$instance;
 
 export interface AsnWriter$instance {
+    readonly __tsonic_type_System_Formats_Asn1_AsnWriter: never;
+
     readonly RuleSet: AsnEncodingRules;
     CopyTo(destination: AsnWriter): void;
     Encode(destination: Span_1<System_Internal.Byte>): int;

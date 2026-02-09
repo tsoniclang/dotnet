@@ -39,6 +39,8 @@ export enum SetIteratorResult {
 
 
 export interface AncestorDocOrderIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_AncestorDocOrderIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     MoveNext(): boolean;
@@ -53,6 +55,8 @@ export const AncestorDocOrderIterator: {
 export type AncestorDocOrderIterator = AncestorDocOrderIterator$instance;
 
 export interface AncestorIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_AncestorIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     MoveNext(): boolean;
@@ -67,6 +71,8 @@ export const AncestorIterator: {
 export type AncestorIterator = AncestorIterator$instance;
 
 export interface AttributeContentIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_AttributeContentIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator): void;
     MoveNext(): boolean;
@@ -81,6 +87,8 @@ export const AttributeContentIterator: {
 export type AttributeContentIterator = AttributeContentIterator$instance;
 
 export interface AttributeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_AttributeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator): void;
     MoveNext(): boolean;
@@ -95,6 +103,8 @@ export const AttributeIterator: {
 export type AttributeIterator = AttributeIterator$instance;
 
 export interface ContentIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_ContentIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator): void;
     MoveNext(): boolean;
@@ -109,6 +119,8 @@ export const ContentIterator: {
 export type ContentIterator = ContentIterator$instance;
 
 export interface ContentMergeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_ContentMergeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(filter: XmlNavigatorFilter): void;
     MoveNext(input: XPathNavigator): IteratorResult;
@@ -123,6 +135,8 @@ export const ContentMergeIterator: {
 export type ContentMergeIterator = ContentMergeIterator$instance;
 
 export interface DecimalAggregator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DecimalAggregator: never;
+
     readonly AverageResult: decimal;
     readonly IsEmpty: boolean;
     readonly MaximumResult: decimal;
@@ -144,6 +158,8 @@ export const DecimalAggregator: {
 export type DecimalAggregator = DecimalAggregator$instance;
 
 export interface DescendantIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DescendantIterator: never;
+
     readonly Current: XPathNavigator;
     Create(input: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     MoveNext(): boolean;
@@ -158,6 +174,8 @@ export const DescendantIterator: {
 export type DescendantIterator = DescendantIterator$instance;
 
 export interface DescendantMergeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DescendantMergeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(filter: XmlNavigatorFilter, orSelf: boolean): void;
     MoveNext(input: XPathNavigator): IteratorResult;
@@ -172,6 +190,8 @@ export const DescendantMergeIterator: {
 export type DescendantMergeIterator = DescendantMergeIterator$instance;
 
 export interface DifferenceIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DifferenceIterator: never;
+
     readonly Current: XPathNavigator;
     Create(runtime: XmlQueryRuntime): void;
     MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
@@ -186,6 +206,8 @@ export const DifferenceIterator: {
 export type DifferenceIterator = DifferenceIterator$instance;
 
 export interface DodSequenceMerge$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DodSequenceMerge: never;
+
     AddSequence(sequence: IList_1<XPathNavigator>): void;
     Create(runtime: XmlQueryRuntime): void;
     MergeSequences(): IList_1<XPathNavigator>;
@@ -200,6 +222,8 @@ export const DodSequenceMerge: {
 export type DodSequenceMerge = DodSequenceMerge$instance;
 
 export interface DoubleAggregator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_DoubleAggregator: never;
+
     readonly AverageResult: double;
     readonly IsEmpty: boolean;
     readonly MaximumResult: double;
@@ -221,6 +245,8 @@ export const DoubleAggregator: {
 export type DoubleAggregator = DoubleAggregator$instance;
 
 export interface ElementContentIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_ElementContentIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, localName: string, ns: string): void;
     MoveNext(): boolean;
@@ -235,6 +261,8 @@ export const ElementContentIterator: {
 export type ElementContentIterator = ElementContentIterator$instance;
 
 export interface FollowingSiblingIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_FollowingSiblingIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -249,6 +277,8 @@ export const FollowingSiblingIterator: {
 export type FollowingSiblingIterator = FollowingSiblingIterator$instance;
 
 export interface FollowingSiblingMergeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_FollowingSiblingMergeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(filter: XmlNavigatorFilter): void;
     MoveNext(navigator: XPathNavigator): IteratorResult;
@@ -263,6 +293,8 @@ export const FollowingSiblingMergeIterator: {
 export type FollowingSiblingMergeIterator = FollowingSiblingMergeIterator$instance;
 
 export interface IdIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_IdIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, value: string): void;
     MoveNext(): boolean;
@@ -277,6 +309,8 @@ export const IdIterator: {
 export type IdIterator = IdIterator$instance;
 
 export interface Int32Aggregator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_Int32Aggregator: never;
+
     readonly AverageResult: int;
     readonly IsEmpty: boolean;
     readonly MaximumResult: int;
@@ -298,6 +332,8 @@ export const Int32Aggregator: {
 export type Int32Aggregator = Int32Aggregator$instance;
 
 export interface Int64Aggregator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_Int64Aggregator: never;
+
     readonly AverageResult: long;
     readonly IsEmpty: boolean;
     readonly MaximumResult: long;
@@ -319,6 +355,8 @@ export const Int64Aggregator: {
 export type Int64Aggregator = Int64Aggregator$instance;
 
 export interface IntersectIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_IntersectIterator: never;
+
     readonly Current: XPathNavigator;
     Create(runtime: XmlQueryRuntime): void;
     MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
@@ -333,6 +371,8 @@ export const IntersectIterator: {
 export type IntersectIterator = IntersectIterator$instance;
 
 export interface NamespaceIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_NamespaceIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator): void;
     MoveNext(): boolean;
@@ -347,6 +387,8 @@ export const NamespaceIterator: {
 export type NamespaceIterator = NamespaceIterator$instance;
 
 export interface NodeKindContentIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_NodeKindContentIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, nodeType: XPathNodeType): void;
     MoveNext(): boolean;
@@ -361,6 +403,8 @@ export const NodeKindContentIterator: {
 export type NodeKindContentIterator = NodeKindContentIterator$instance;
 
 export interface NodeRangeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_NodeRangeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(start: XPathNavigator, filter: XmlNavigatorFilter, end: XPathNavigator): void;
     MoveNext(): boolean;
@@ -375,6 +419,8 @@ export const NodeRangeIterator: {
 export type NodeRangeIterator = NodeRangeIterator$instance;
 
 export interface ParentIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_ParentIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -389,6 +435,8 @@ export const ParentIterator: {
 export type ParentIterator = ParentIterator$instance;
 
 export interface PrecedingIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_PrecedingIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -403,6 +451,8 @@ export const PrecedingIterator: {
 export type PrecedingIterator = PrecedingIterator$instance;
 
 export interface PrecedingSiblingDocOrderIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_PrecedingSiblingDocOrderIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -417,6 +467,8 @@ export const PrecedingSiblingDocOrderIterator: {
 export type PrecedingSiblingDocOrderIterator = PrecedingSiblingDocOrderIterator$instance;
 
 export interface PrecedingSiblingIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_PrecedingSiblingIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -431,6 +483,8 @@ export const PrecedingSiblingIterator: {
 export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 
 export interface StringConcat$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_StringConcat: never;
+
     get Delimiter(): string | undefined;
     set Delimiter(value: string | undefined);
     Clear(): void;
@@ -447,6 +501,8 @@ export const StringConcat: {
 export type StringConcat = StringConcat$instance;
 
 export interface UnionIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_UnionIterator: never;
+
     readonly Current: XPathNavigator;
     Create(runtime: XmlQueryRuntime): void;
     MoveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
@@ -461,6 +517,8 @@ export const UnionIterator: {
 export type UnionIterator = UnionIterator$instance;
 
 export interface XmlSortKeyAccumulator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlSortKeyAccumulator: never;
+
     readonly Keys: ClrArray;
     AddDateTimeSortKey(collation: XmlCollation, value: DateTime): void;
     AddDecimalSortKey(collation: XmlCollation, value: decimal): void;
@@ -482,6 +540,8 @@ export const XmlSortKeyAccumulator: {
 export type XmlSortKeyAccumulator = XmlSortKeyAccumulator$instance;
 
 export interface XPathFollowingIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XPathFollowingIterator: never;
+
     readonly Current: XPathNavigator;
     Create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -496,6 +556,8 @@ export const XPathFollowingIterator: {
 export type XPathFollowingIterator = XPathFollowingIterator$instance;
 
 export interface XPathFollowingMergeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XPathFollowingMergeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(filter: XmlNavigatorFilter): void;
     MoveNext(input: XPathNavigator): IteratorResult;
@@ -510,6 +572,8 @@ export const XPathFollowingMergeIterator: {
 export type XPathFollowingMergeIterator = XPathFollowingMergeIterator$instance;
 
 export interface XPathPrecedingDocOrderIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XPathPrecedingDocOrderIterator: never;
+
     readonly Current: XPathNavigator;
     Create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -524,6 +588,8 @@ export const XPathPrecedingDocOrderIterator: {
 export type XPathPrecedingDocOrderIterator = XPathPrecedingDocOrderIterator$instance;
 
 export interface XPathPrecedingIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XPathPrecedingIterator: never;
+
     readonly Current: XPathNavigator;
     Create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     MoveNext(): boolean;
@@ -538,6 +604,8 @@ export const XPathPrecedingIterator: {
 export type XPathPrecedingIterator = XPathPrecedingIterator$instance;
 
 export interface XPathPrecedingMergeIterator$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XPathPrecedingMergeIterator: never;
+
     readonly Current: XPathNavigator;
     Create(filter: XmlNavigatorFilter): void;
     MoveNext(input: XPathNavigator): IteratorResult;
@@ -552,6 +620,8 @@ export const XPathPrecedingMergeIterator: {
 export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 
 export interface XmlCollation$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlCollation: never;
+
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -564,6 +634,8 @@ export const XmlCollation: {
 export type XmlCollation = XmlCollation$instance;
 
 export interface XmlILIndex$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlILIndex: never;
+
     Add(key: string, navigator: XPathNavigator): void;
     Lookup(key: string): XmlQueryNodeSequence;
 }
@@ -576,6 +648,8 @@ export const XmlILIndex: {
 export type XmlILIndex = XmlILIndex$instance;
 
 export interface XmlNavigatorFilter$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlNavigatorFilter: never;
+
     IsFiltered(navigator: XPathNavigator): boolean;
     MoveToContent(navigator: XPathNavigator): boolean;
     MoveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
@@ -592,6 +666,8 @@ export const XmlNavigatorFilter: (abstract new() => XmlNavigatorFilter) & {
 export type XmlNavigatorFilter = XmlNavigatorFilter$instance;
 
 export interface XmlQueryContext$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryContext: never;
+
     readonly DefaultDataSource: XPathNavigator;
     readonly DefaultNameTable: XmlNameTable | undefined;
     readonly QueryNameTable: XmlNameTable;
@@ -611,6 +687,8 @@ export const XmlQueryContext: {
 export type XmlQueryContext = XmlQueryContext$instance;
 
 export interface XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<XPathItem> {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryItemSequence: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -657,6 +735,8 @@ export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryIte
 
 
 export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryNodeSequence: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -708,6 +788,8 @@ export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNod
 
 
 export interface XmlQueryOutput$instance extends XmlWriter {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryOutput: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -800,6 +882,8 @@ export type XmlQueryOutput = XmlQueryOutput$instance & __XmlQueryOutput$views;
 
 
 export interface XmlQueryRuntime$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryRuntime: never;
+
     readonly ExternalContext: XmlQueryContext;
     readonly NameTable: XmlNameTable;
     readonly Output: XmlQueryOutput;
@@ -851,6 +935,8 @@ export const XmlQueryRuntime: {
 export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
 export interface XmlQuerySequence_1$instance<T> {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQuerySequence_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -895,6 +981,8 @@ export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQueryS
 
 
 export interface XsltLibrary$instance {
+    readonly __tsonic_type_System_Xml_Xsl_Runtime_XsltLibrary: never;
+
     CheckScriptNamespace(nsUri: string): int;
     ElementAvailable(name: XmlQualifiedName): boolean;
     EqualityOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;

@@ -18,6 +18,8 @@ export type ElapsedEventHandler = (sender: unknown, e: ElapsedEventArgs) => void
 
 
 export interface ElapsedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Timers_ElapsedEventArgs: never;
+
     readonly SignalTime: DateTime;
 }
 
@@ -30,6 +32,8 @@ export const ElapsedEventArgs: {
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
 export interface Timer$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
+    readonly __tsonic_type_System_Timers_Timer: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -68,6 +72,8 @@ export type Timer = Timer$instance & __Timer$views;
 
 
 export interface TimersDescriptionAttribute$instance extends DescriptionAttribute {
+    readonly __tsonic_type_System_Timers_TimersDescriptionAttribute: never;
+
     readonly Description: string;
 }
 

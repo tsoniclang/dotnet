@@ -47,6 +47,8 @@ export interface IValueTaskSource_1$instance<TResult> {
 export type IValueTaskSource_1<TResult> = IValueTaskSource_1$instance<TResult>;
 
 export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
+    readonly __tsonic_type_System_Threading_Tasks_Sources_ManualResetValueTaskSourceCore_1: never;
+
     RunContinuationsAsynchronously: boolean;
     readonly Version: short;
     GetResult(token: short): TResult;

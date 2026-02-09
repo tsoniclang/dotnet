@@ -11,6 +11,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Exception, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface HttpMetricsEnrichmentContext$instance {
+    readonly __tsonic_type_System_Net_Http_Metrics_HttpMetricsEnrichmentContext: never;
+
     readonly Exception: Exception | undefined;
     readonly Request: HttpRequestMessage;
     readonly Response: HttpResponseMessage | undefined;

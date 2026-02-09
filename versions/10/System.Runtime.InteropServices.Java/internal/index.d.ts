@@ -14,6 +14,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, UIntPtr, ValueType, Void } from "../../System/internal/index.js";
 
 export interface ComponentCrossReference$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Java_ComponentCrossReference: never;
+
     SourceGroupIndex: nuint;
     DestinationGroupIndex: nuint;
 }
@@ -27,6 +29,8 @@ export const ComponentCrossReference: {
 export type ComponentCrossReference = ComponentCrossReference$instance;
 
 export interface MarkCrossReferencesArgs$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Java_MarkCrossReferencesArgs: never;
+
     ComponentCount: nuint;
     Components: ptr<StronglyConnectedComponent>;
     CrossReferenceCount: nuint;
@@ -42,6 +46,8 @@ export const MarkCrossReferencesArgs: {
 export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
 export interface StronglyConnectedComponent$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_Java_StronglyConnectedComponent: never;
+
     Count: nuint;
     Contexts: ptr<void>;
 }

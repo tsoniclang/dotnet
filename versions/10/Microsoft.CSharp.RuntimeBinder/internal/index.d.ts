@@ -42,6 +42,8 @@ export enum CSharpBinderFlags {
 
 
 export interface CSharpArgumentInfo$instance {
+    readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_CSharpArgumentInfo: never;
+
 }
 
 
@@ -53,6 +55,8 @@ export const CSharpArgumentInfo: {
 export type CSharpArgumentInfo = CSharpArgumentInfo$instance;
 
 export interface RuntimeBinderException$instance extends Exception {
+    readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_RuntimeBinderException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -74,6 +78,8 @@ export type RuntimeBinderException = RuntimeBinderException$instance & __Runtime
 
 
 export interface RuntimeBinderInternalCompilerException$instance extends Exception {
+    readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_RuntimeBinderInternalCompilerException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

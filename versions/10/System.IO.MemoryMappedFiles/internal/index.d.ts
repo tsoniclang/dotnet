@@ -49,6 +49,8 @@ export enum MemoryMappedFileRights {
 
 
 export interface MemoryMappedFile$instance {
+    readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedFile: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly SafeMemoryMappedFileHandle: SafeMemoryMappedFileHandle;
@@ -91,6 +93,8 @@ export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$vi
 
 
 export interface MemoryMappedViewAccessor$instance extends UnmanagedMemoryAccessor {
+    readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedViewAccessor: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly PointerOffset: long;
@@ -113,6 +117,8 @@ export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __Mem
 
 
 export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
+    readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedViewStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

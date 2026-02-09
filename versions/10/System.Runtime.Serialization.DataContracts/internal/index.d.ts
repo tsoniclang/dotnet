@@ -19,6 +19,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface DataContract$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataContract: never;
+
     readonly BaseContract: DataContract | undefined;
     readonly ContractType: string | undefined;
     readonly DataMembers: ReadOnlyCollection_1<DataMember>;
@@ -51,6 +53,8 @@ export const DataContract: {
 export type DataContract = DataContract$instance;
 
 export interface DataContractSet$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataContractSet: never;
+
     readonly Contracts: Dictionary_2<XmlQualifiedName, DataContract>;
     get KnownTypesForObject(): Dictionary_2<XmlQualifiedName, DataContract> | undefined;
     set KnownTypesForObject(value: Dictionary_2<XmlQualifiedName, DataContract> | undefined);
@@ -73,6 +77,8 @@ export const DataContractSet: {
 export type DataContractSet = DataContractSet$instance;
 
 export interface DataMember$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataMember: never;
+
     EmitDefaultValue: boolean;
     IsNullable: boolean;
     IsRequired: boolean;
@@ -89,6 +95,8 @@ export const DataMember: {
 export type DataMember = DataMember$instance;
 
 export interface XmlDataContract$instance extends DataContract {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContracts_XmlDataContract: never;
+
     readonly ContractType: string | undefined;
     HasRoot: boolean;
     readonly IsAnonymous: boolean;

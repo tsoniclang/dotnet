@@ -205,6 +205,8 @@ export enum VbStrConv {
 
 
 export interface SpcInfo$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_SpcInfo: never;
+
     Count: short;
 }
 
@@ -217,6 +219,8 @@ export const SpcInfo: {
 export type SpcInfo = SpcInfo$instance;
 
 export interface TabInfo$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_TabInfo: never;
+
     Column: short;
 }
 
@@ -229,6 +233,8 @@ export const TabInfo: {
 export type TabInfo = TabInfo$instance;
 
 export interface Collection$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Collection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -261,6 +267,8 @@ export type Collection = Collection$instance & __Collection$views;
 
 
 export interface ComClassAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_ComClassAttribute: never;
+
     readonly ClassID: string;
     readonly EventID: string;
     readonly InterfaceID: string;
@@ -279,6 +287,8 @@ export const ComClassAttribute: {
 export type ComClassAttribute = ComClassAttribute$instance;
 
 export interface Constants$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Constants: never;
+
 }
 
 
@@ -391,6 +401,8 @@ export const Constants: {
 export type Constants = Constants$instance;
 
 export interface ControlChars$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_ControlChars: never;
+
 }
 
 
@@ -412,6 +424,8 @@ export const ControlChars: {
 export type ControlChars = ControlChars$instance;
 
 export interface Conversion$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Conversion: never;
+
 }
 
 
@@ -462,6 +476,8 @@ export const Conversion: {
 export type Conversion = Conversion$instance;
 
 export interface DateAndTime$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_DateAndTime: never;
+
 }
 
 
@@ -497,6 +513,8 @@ export const DateAndTime: {
 export type DateAndTime = DateAndTime$instance;
 
 export interface ErrObject$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_ErrObject: never;
+
     Description: string;
     readonly Erl: int;
     HelpContext: int;
@@ -517,6 +535,8 @@ export const ErrObject: {
 export type ErrObject = ErrObject$instance;
 
 export interface FileSystem$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_FileSystem: never;
+
 }
 
 
@@ -610,6 +630,8 @@ export const FileSystem: {
 export type FileSystem = FileSystem$instance;
 
 export interface Financial$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Financial: never;
+
 }
 
 
@@ -633,6 +655,8 @@ export const Financial: {
 export type Financial = Financial$instance;
 
 export interface HideModuleNameAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_HideModuleNameAttribute: never;
+
 }
 
 
@@ -644,6 +668,8 @@ export const HideModuleNameAttribute: {
 export type HideModuleNameAttribute = HideModuleNameAttribute$instance;
 
 export interface Information$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Information: never;
+
 }
 
 
@@ -671,6 +697,8 @@ export const Information: {
 export type Information = Information$instance;
 
 export interface Interaction$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Interaction: never;
+
 }
 
 
@@ -701,6 +729,8 @@ export const Interaction: {
 export type Interaction = Interaction$instance;
 
 export interface MyGroupCollectionAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_MyGroupCollectionAttribute: never;
+
     readonly CreateMethod: string;
     readonly DefaultInstanceAlias: string;
     readonly DisposeMethod: string;
@@ -716,6 +746,8 @@ export const MyGroupCollectionAttribute: {
 export type MyGroupCollectionAttribute = MyGroupCollectionAttribute$instance;
 
 export interface Strings$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_Strings: never;
+
 }
 
 
@@ -783,6 +815,8 @@ export const Strings: {
 export type Strings = Strings$instance;
 
 export interface VBFixedArrayAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_VBFixedArrayAttribute: never;
+
     readonly Bounds: int[];
     readonly Length: int;
 }
@@ -797,6 +831,8 @@ export const VBFixedArrayAttribute: {
 export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
 export interface VBFixedStringAttribute$instance extends Attribute {
+    readonly __tsonic_type_Microsoft_VisualBasic_VBFixedStringAttribute: never;
+
     readonly Length: int;
 }
 
@@ -809,6 +845,8 @@ export const VBFixedStringAttribute: {
 export type VBFixedStringAttribute = VBFixedStringAttribute$instance;
 
 export interface VBMath$instance {
+    readonly __tsonic_type_Microsoft_VisualBasic_VBMath: never;
+
 }
 
 

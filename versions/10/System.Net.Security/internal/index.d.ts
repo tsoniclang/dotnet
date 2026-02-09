@@ -430,6 +430,8 @@ export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo
 
 
 export interface SslApplicationProtocol$instance {
+    readonly __tsonic_type_System_Net_Security_SslApplicationProtocol: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Protocol: ReadOnlyMemory_1<System_Internal.Byte>;
@@ -460,6 +462,8 @@ export type SslApplicationProtocol = SslApplicationProtocol$instance & __SslAppl
 
 
 export interface SslClientHelloInfo$instance {
+    readonly __tsonic_type_System_Net_Security_SslClientHelloInfo: never;
+
     readonly ServerName: string;
     readonly SslProtocols: SslProtocols;
 }
@@ -473,6 +477,8 @@ export const SslClientHelloInfo: {
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
 export interface AuthenticatedStream$instance extends Stream {
+    readonly __tsonic_type_System_Net_Security_AuthenticatedStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -501,6 +507,8 @@ export type AuthenticatedStream = AuthenticatedStream$instance & __Authenticated
 
 
 export interface CipherSuitesPolicy$instance {
+    readonly __tsonic_type_System_Net_Security_CipherSuitesPolicy: never;
+
     readonly AllowedCipherSuites: IEnumerable_1<TlsCipherSuite>;
 }
 
@@ -513,6 +521,8 @@ export const CipherSuitesPolicy: {
 export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
 export interface NegotiateAuthentication$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Security_NegotiateAuthentication: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ImpersonationLevel: TokenImpersonationLevel;
@@ -550,6 +560,8 @@ export type NegotiateAuthentication = NegotiateAuthentication$instance & __Negot
 
 
 export interface NegotiateAuthenticationClientOptions$instance {
+    readonly __tsonic_type_System_Net_Security_NegotiateAuthenticationClientOptions: never;
+
     AllowedImpersonationLevel: TokenImpersonationLevel;
     get Binding(): ChannelBinding | undefined;
     set Binding(value: ChannelBinding | undefined);
@@ -570,6 +582,8 @@ export const NegotiateAuthenticationClientOptions: {
 export type NegotiateAuthenticationClientOptions = NegotiateAuthenticationClientOptions$instance;
 
 export interface NegotiateAuthenticationServerOptions$instance {
+    readonly __tsonic_type_System_Net_Security_NegotiateAuthenticationServerOptions: never;
+
     get Binding(): ChannelBinding | undefined;
     set Binding(value: ChannelBinding | undefined);
     Credential: NetworkCredential;
@@ -589,6 +603,8 @@ export const NegotiateAuthenticationServerOptions: {
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
 export interface NegotiateStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_type_System_Net_Security_NegotiateStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -679,6 +695,8 @@ export type NegotiateStream = NegotiateStream$instance & __NegotiateStream$views
 
 
 export interface SslCertificateTrust$instance {
+    readonly __tsonic_type_System_Net_Security_SslCertificateTrust: never;
+
 }
 
 
@@ -691,6 +709,8 @@ export const SslCertificateTrust: {
 export type SslCertificateTrust = SslCertificateTrust$instance;
 
 export interface SslClientAuthenticationOptions$instance {
+    readonly __tsonic_type_System_Net_Security_SslClientAuthenticationOptions: never;
+
     AllowRenegotiation: boolean;
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
@@ -725,6 +745,8 @@ export const SslClientAuthenticationOptions: {
 export type SslClientAuthenticationOptions = SslClientAuthenticationOptions$instance;
 
 export interface SslServerAuthenticationOptions$instance {
+    readonly __tsonic_type_System_Net_Security_SslServerAuthenticationOptions: never;
+
     AllowRenegotiation: boolean;
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
@@ -758,6 +780,8 @@ export const SslServerAuthenticationOptions: {
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
 export interface SslStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_type_System_Net_Security_SslStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -867,6 +891,8 @@ export type SslStream = SslStream$instance & __SslStream$views;
 
 
 export interface SslStreamCertificateContext$instance {
+    readonly __tsonic_type_System_Net_Security_SslStreamCertificateContext: never;
+
     readonly IntermediateCertificates: ReadOnlyCollection_1<X509Certificate2>;
     readonly TargetCertificate: X509Certificate2;
 }

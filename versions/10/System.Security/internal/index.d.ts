@@ -73,6 +73,8 @@ export interface IStackWalk$instance {
 export type IStackWalk = IStackWalk$instance;
 
 export interface AllowPartiallyTrustedCallersAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_AllowPartiallyTrustedCallersAttribute: never;
+
     PartialTrustVisibilityLevel: PartialTrustVisibilityLevel;
 }
 
@@ -85,6 +87,8 @@ export const AllowPartiallyTrustedCallersAttribute: {
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
 export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {
+    readonly __tsonic_type_System_Security_PermissionSet: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -145,6 +149,8 @@ export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
 export interface SecureString$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_SecureString: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Length: int;
@@ -174,6 +180,8 @@ export type SecureString = SecureString$instance & __SecureString$views;
 
 
 export interface SecurityCriticalAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SecurityCriticalAttribute: never;
+
     readonly Scope: SecurityCriticalScope;
 }
 
@@ -187,6 +195,8 @@ export const SecurityCriticalAttribute: {
 export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 
 export interface SecurityElement$instance {
+    readonly __tsonic_type_System_Security_SecurityElement: never;
+
     get Attributes(): Hashtable | undefined;
     set Attributes(value: Hashtable | undefined);
     get Children(): ArrayList | undefined;
@@ -220,6 +230,8 @@ export const SecurityElement: {
 export type SecurityElement = SecurityElement$instance;
 
 export interface SecurityException$instance extends SystemException {
+    readonly __tsonic_type_System_Security_SecurityException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     get Demanded(): unknown | undefined;
@@ -264,6 +276,8 @@ export type SecurityException = SecurityException$instance & __SecurityException
 
 
 export interface SecurityRulesAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SecurityRulesAttribute: never;
+
     readonly RuleSet: SecurityRuleSet;
     SkipVerificationInFullTrust: boolean;
 }
@@ -277,6 +291,8 @@ export const SecurityRulesAttribute: {
 export type SecurityRulesAttribute = SecurityRulesAttribute$instance;
 
 export interface SecuritySafeCriticalAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SecuritySafeCriticalAttribute: never;
+
 }
 
 
@@ -288,6 +304,8 @@ export const SecuritySafeCriticalAttribute: {
 export type SecuritySafeCriticalAttribute = SecuritySafeCriticalAttribute$instance;
 
 export interface SecurityTransparentAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SecurityTransparentAttribute: never;
+
 }
 
 
@@ -299,6 +317,8 @@ export const SecurityTransparentAttribute: {
 export type SecurityTransparentAttribute = SecurityTransparentAttribute$instance;
 
 export interface SecurityTreatAsSafeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SecurityTreatAsSafeAttribute: never;
+
 }
 
 
@@ -310,6 +330,8 @@ export const SecurityTreatAsSafeAttribute: {
 export type SecurityTreatAsSafeAttribute = SecurityTreatAsSafeAttribute$instance;
 
 export interface SuppressUnmanagedCodeSecurityAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_SuppressUnmanagedCodeSecurityAttribute: never;
+
 }
 
 
@@ -321,6 +343,8 @@ export const SuppressUnmanagedCodeSecurityAttribute: {
 export type SuppressUnmanagedCodeSecurityAttribute = SuppressUnmanagedCodeSecurityAttribute$instance;
 
 export interface UnverifiableCodeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Security_UnverifiableCodeAttribute: never;
+
 }
 
 
@@ -332,6 +356,8 @@ export const UnverifiableCodeAttribute: {
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
 export interface VerificationException$instance extends SystemException {
+    readonly __tsonic_type_System_Security_VerificationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

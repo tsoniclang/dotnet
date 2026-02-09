@@ -24,6 +24,8 @@ export enum XmlKnownDtds {
 
 
 export interface XmlPreloadedResolver$instance extends XmlResolver {
+    readonly __tsonic_type_System_Xml_Resolvers_XmlPreloadedResolver: never;
+
     Credentials: ICredentials;
     readonly PreloadedUris: IEnumerable_1<Uri>;
     Add(uri: Uri, value: byte[]): void;

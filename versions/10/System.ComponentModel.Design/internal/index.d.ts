@@ -396,6 +396,8 @@ export interface ITypeResolutionService$instance {
 export type ITypeResolutionService = ITypeResolutionService$instance;
 
 export interface ActiveDesignerEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_ActiveDesignerEventArgs: never;
+
     readonly NewDesigner: IDesignerHost | undefined;
     readonly OldDesigner: IDesignerHost | undefined;
 }
@@ -409,6 +411,8 @@ export const ActiveDesignerEventArgs: {
 export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
 export interface CheckoutException$instance extends ExternalException {
+    readonly __tsonic_type_System_ComponentModel_Design_CheckoutException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -432,6 +436,8 @@ export type CheckoutException = CheckoutException$instance & __CheckoutException
 
 
 export interface CommandID$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_CommandID: never;
+
     readonly Guid: Guid;
     readonly ID: int;
     Equals(obj: unknown): boolean;
@@ -448,6 +454,8 @@ export const CommandID: {
 export type CommandID = CommandID$instance;
 
 export interface ComponentChangedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_ComponentChangedEventArgs: never;
+
     readonly Component: unknown | undefined;
     readonly Member: MemberDescriptor | undefined;
     readonly NewValue: unknown | undefined;
@@ -463,6 +471,8 @@ export const ComponentChangedEventArgs: {
 export type ComponentChangedEventArgs = ComponentChangedEventArgs$instance;
 
 export interface ComponentChangingEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_ComponentChangingEventArgs: never;
+
     readonly Component: unknown | undefined;
     readonly Member: MemberDescriptor | undefined;
 }
@@ -476,6 +486,8 @@ export const ComponentChangingEventArgs: {
 export type ComponentChangingEventArgs = ComponentChangingEventArgs$instance;
 
 export interface ComponentEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_ComponentEventArgs: never;
+
     readonly Component: IComponent | undefined;
 }
 
@@ -488,6 +500,8 @@ export const ComponentEventArgs: {
 export type ComponentEventArgs = ComponentEventArgs$instance;
 
 export interface ComponentRenameEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_ComponentRenameEventArgs: never;
+
     readonly Component: unknown | undefined;
     readonly NewName: string | undefined;
     readonly OldName: string | undefined;
@@ -502,6 +516,8 @@ export const ComponentRenameEventArgs: {
 export type ComponentRenameEventArgs = ComponentRenameEventArgs$instance;
 
 export interface DesignerCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -526,6 +542,8 @@ export type DesignerCollection = DesignerCollection$instance & __DesignerCollect
 
 
 export interface DesignerEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerEventArgs: never;
+
     readonly Designer: IDesignerHost | undefined;
 }
 
@@ -538,6 +556,8 @@ export const DesignerEventArgs: {
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
 export interface DesignerOptionService$instance extends IDesignerOptionService$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerOptionService: never;
+
     readonly __tsonic_iface_System_ComponentModel_Design_IDesignerOptionService: never;
 
     readonly Options: DesignerOptionService_DesignerOptionCollection;
@@ -558,6 +578,8 @@ export type DesignerOptionService = DesignerOptionService$instance & __DesignerO
 
 
 export interface DesignerOptionService_DesignerOptionCollection$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerOptionService_DesignerOptionCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -589,6 +611,8 @@ export type DesignerOptionService_DesignerOptionCollection = DesignerOptionServi
 
 
 export interface DesignerTransaction$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerTransaction: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Canceled: boolean;
@@ -615,6 +639,8 @@ export type DesignerTransaction = DesignerTransaction$instance & __DesignerTrans
 
 
 export interface DesignerTransactionCloseEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerTransactionCloseEventArgs: never;
+
     readonly LastTransaction: boolean;
     readonly TransactionCommitted: boolean;
 }
@@ -629,6 +655,8 @@ export const DesignerTransactionCloseEventArgs: {
 export type DesignerTransactionCloseEventArgs = DesignerTransactionCloseEventArgs$instance;
 
 export interface DesignerVerb$instance extends MenuCommand {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerVerb: never;
+
     Description: string;
     readonly Text: string;
     ToString(): string;
@@ -644,6 +672,8 @@ export const DesignerVerb: {
 export type DesignerVerb = DesignerVerb$instance;
 
 export interface DesignerVerbCollection$instance extends CollectionBase {
+    readonly __tsonic_type_System_ComponentModel_Design_DesignerVerbCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -680,6 +710,8 @@ export type DesignerVerbCollection = DesignerVerbCollection$instance & __Designe
 
 
 export interface DesigntimeLicenseContext$instance extends LicenseContext {
+    readonly __tsonic_type_System_ComponentModel_Design_DesigntimeLicenseContext: never;
+
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly UsageMode: LicenseUsageMode;
@@ -702,6 +734,8 @@ export type DesigntimeLicenseContext = DesigntimeLicenseContext$instance & __Des
 
 
 export interface DesigntimeLicenseContextSerializer$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_DesigntimeLicenseContextSerializer: never;
+
 }
 
 
@@ -713,6 +747,8 @@ export const DesigntimeLicenseContextSerializer: {
 export type DesigntimeLicenseContextSerializer = DesigntimeLicenseContextSerializer$instance;
 
 export interface HelpKeywordAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_ComponentModel_Design_HelpKeywordAttribute: never;
+
     readonly HelpKeyword: string | undefined;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -731,6 +767,8 @@ export const HelpKeywordAttribute: {
 export type HelpKeywordAttribute = HelpKeywordAttribute$instance;
 
 export interface MenuCommand$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_MenuCommand: never;
+
     Checked: boolean;
     readonly CommandID: CommandID | undefined;
     Enabled: boolean;
@@ -753,6 +791,8 @@ export const MenuCommand: {
 export type MenuCommand = MenuCommand$instance;
 
 export interface ServiceContainer$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_ServiceContainer: never;
+
     readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IServiceProvider: never;
@@ -786,6 +826,8 @@ export type ServiceContainer = ServiceContainer$instance & __ServiceContainer$vi
 
 
 export interface StandardCommands$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_StandardCommands: never;
+
 }
 
 
@@ -852,6 +894,8 @@ export const StandardCommands: {
 export type StandardCommands = StandardCommands$instance;
 
 export interface StandardToolWindows$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_StandardToolWindows: never;
+
 }
 
 
@@ -871,6 +915,8 @@ export const StandardToolWindows: {
 export type StandardToolWindows = StandardToolWindows$instance;
 
 export interface TypeDescriptionProviderService$instance {
+    readonly __tsonic_type_System_ComponentModel_Design_TypeDescriptionProviderService: never;
+
     GetProvider(instance: unknown): TypeDescriptionProvider;
     GetProvider(type: Type): TypeDescriptionProvider;
 }

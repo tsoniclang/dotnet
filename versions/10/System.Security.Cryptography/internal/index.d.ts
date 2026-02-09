@@ -227,6 +227,8 @@ export interface ICspAsymmetricAlgorithm$instance {
 export type ICspAsymmetricAlgorithm = ICspAsymmetricAlgorithm$instance;
 
 export interface CngProperty$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngProperty: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Name: string;
@@ -254,6 +256,8 @@ export type CngProperty = CngProperty$instance & __CngProperty$views;
 
 
 export interface DSAParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DSAParameters: never;
+
     P: byte[] | undefined;
     Q: byte[] | undefined;
     G: byte[] | undefined;
@@ -273,6 +277,8 @@ export const DSAParameters: {
 export type DSAParameters = DSAParameters$instance;
 
 export interface ECCurve$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECCurve: never;
+
     A: byte[] | undefined;
     B: byte[] | undefined;
     G: ECPoint;
@@ -303,6 +309,8 @@ export const ECCurve: {
 export type ECCurve = ECCurve$instance;
 
 export interface ECParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECParameters: never;
+
     Q: ECPoint;
     D: byte[] | undefined;
     Curve: ECCurve;
@@ -318,6 +326,8 @@ export const ECParameters: {
 export type ECParameters = ECParameters$instance;
 
 export interface ECPoint$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECPoint: never;
+
     X: byte[] | undefined;
     Y: byte[] | undefined;
 }
@@ -331,6 +341,8 @@ export const ECPoint: {
 export type ECPoint = ECPoint$instance;
 
 export interface HashAlgorithmName$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HashAlgorithmName: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Name: string | undefined;
@@ -367,6 +379,8 @@ export type HashAlgorithmName = HashAlgorithmName$instance & __HashAlgorithmName
 
 
 export interface PemFields$instance {
+    readonly __tsonic_type_System_Security_Cryptography_PemFields: never;
+
     readonly Base64Data: Range;
     readonly DecodedDataLength: int;
     readonly Label: Range;
@@ -382,6 +396,8 @@ export const PemFields: {
 export type PemFields = PemFields$instance;
 
 export interface RSAParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSAParameters: never;
+
     D: byte[] | undefined;
     DP: byte[] | undefined;
     DQ: byte[] | undefined;
@@ -401,6 +417,8 @@ export const RSAParameters: {
 export type RSAParameters = RSAParameters$instance;
 
 export interface Aes$instance extends SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Aes: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DecryptKeyWrapPadded(ciphertext: byte[]): byte[];
@@ -430,6 +448,8 @@ export type Aes = Aes$instance & __Aes$views;
 
 
 export interface AesCcm$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AesCcm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
@@ -457,6 +477,8 @@ export type AesCcm = AesCcm$instance & __AesCcm$views;
 
 
 export interface AesCng$instance extends Aes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AesCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
@@ -487,6 +509,8 @@ export type AesCng = AesCng$instance & __AesCng$views;
 
 
 export interface AesCryptoServiceProvider$instance extends Aes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AesCryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -524,6 +548,8 @@ export type AesCryptoServiceProvider = AesCryptoServiceProvider$instance & __Aes
 
 
 export interface AesGcm$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AesGcm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly TagSizeInBytes: Nullable_1<System_Internal.Int32>;
@@ -554,6 +580,8 @@ export type AesGcm = AesGcm$instance & __AesGcm$views;
 
 
 export interface AesManaged$instance extends Aes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AesManaged: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -591,6 +619,8 @@ export type AesManaged = AesManaged$instance & __AesManaged$views;
 
 
 export interface AsnEncodedData$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsnEncodedData: never;
+
     get Oid(): Oid | undefined;
     set Oid(value: Oid | undefined);
     RawData: byte[];
@@ -613,6 +643,8 @@ export const AsnEncodedData: {
 export type AsnEncodedData = AsnEncodedData$instance;
 
 export interface AsnEncodedDataCollection$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsnEncodedDataCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -642,6 +674,8 @@ export type AsnEncodedDataCollection = AsnEncodedDataCollection$instance & __Asn
 
 
 export interface AsnEncodedDataEnumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsnEncodedDataEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: AsnEncodedData;
@@ -662,6 +696,8 @@ export type AsnEncodedDataEnumerator = AsnEncodedDataEnumerator$instance & __Asn
 
 
 export interface AsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsymmetricAlgorithm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly KeyExchangeAlgorithm: string | string | undefined;
@@ -713,6 +749,8 @@ export type AsymmetricAlgorithm = AsymmetricAlgorithm$instance & __AsymmetricAlg
 
 
 export interface AsymmetricKeyExchangeDeformatter$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsymmetricKeyExchangeDeformatter: never;
+
     get Parameters(): string | undefined;
     set Parameters(value: string | undefined);
     DecryptKeyExchange(rgb: byte[]): byte[];
@@ -727,6 +765,8 @@ export const AsymmetricKeyExchangeDeformatter: (abstract new() => AsymmetricKeyE
 export type AsymmetricKeyExchangeDeformatter = AsymmetricKeyExchangeDeformatter$instance;
 
 export interface AsymmetricKeyExchangeFormatter$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsymmetricKeyExchangeFormatter: never;
+
     readonly Parameters: string | string | undefined;
     CreateKeyExchange(data: byte[]): byte[];
     CreateKeyExchange(data: byte[], symAlgType: Type): byte[];
@@ -741,6 +781,8 @@ export const AsymmetricKeyExchangeFormatter: (abstract new() => AsymmetricKeyExc
 export type AsymmetricKeyExchangeFormatter = AsymmetricKeyExchangeFormatter$instance;
 
 export interface AsymmetricSignatureDeformatter$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsymmetricSignatureDeformatter: never;
+
     SetHashAlgorithm(strName: string): void;
     SetKey(key: AsymmetricAlgorithm): void;
     VerifySignature(hash: HashAlgorithm, rgbSignature: byte[]): boolean;
@@ -755,6 +797,8 @@ export const AsymmetricSignatureDeformatter: (abstract new() => AsymmetricSignat
 export type AsymmetricSignatureDeformatter = AsymmetricSignatureDeformatter$instance;
 
 export interface AsymmetricSignatureFormatter$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AsymmetricSignatureFormatter: never;
+
     CreateSignature(hash: HashAlgorithm): byte[];
     CreateSignature(rgbHash: byte[]): byte[];
     SetHashAlgorithm(strName: string): void;
@@ -769,6 +813,8 @@ export const AsymmetricSignatureFormatter: (abstract new() => AsymmetricSignatur
 export type AsymmetricSignatureFormatter = AsymmetricSignatureFormatter$instance;
 
 export interface AuthenticationTagMismatchException$instance extends CryptographicException$instance {
+    readonly __tsonic_type_System_Security_Cryptography_AuthenticationTagMismatchException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -790,6 +836,8 @@ export type AuthenticationTagMismatchException = AuthenticationTagMismatchExcept
 
 
 export interface ChaCha20Poly1305$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ChaCha20Poly1305: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
@@ -815,6 +863,8 @@ export type ChaCha20Poly1305 = ChaCha20Poly1305$instance & __ChaCha20Poly1305$vi
 
 
 export interface CngAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngAlgorithm: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Algorithm: string;
@@ -858,6 +908,8 @@ export type CngAlgorithm = CngAlgorithm$instance & __CngAlgorithm$views;
 
 
 export interface CngAlgorithmGroup$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngAlgorithmGroup: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly AlgorithmGroup: string;
@@ -892,6 +944,8 @@ export type CngAlgorithmGroup = CngAlgorithmGroup$instance & __CngAlgorithmGroup
 
 
 export interface CngKey$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngKey: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: CngAlgorithm;
@@ -941,6 +995,8 @@ export type CngKey = CngKey$instance & __CngKey$views;
 
 
 export interface CngKeyBlobFormat$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngKeyBlobFormat: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Format: string;
@@ -981,6 +1037,8 @@ export type CngKeyBlobFormat = CngKeyBlobFormat$instance & __CngKeyBlobFormat$vi
 
 
 export interface CngKeyCreationParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngKeyCreationParameters: never;
+
     ExportPolicy: Nullable_1<CngExportPolicies>;
     KeyCreationOptions: CngKeyCreationOptions;
     KeyUsage: Nullable_1<CngKeyUsages>;
@@ -1000,6 +1058,8 @@ export const CngKeyCreationParameters: {
 export type CngKeyCreationParameters = CngKeyCreationParameters$instance;
 
 export interface CngPropertyCollection$instance extends Collection_1<CngProperty> {
+    readonly __tsonic_type_System_Security_Cryptography_CngPropertyCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -1046,6 +1106,8 @@ export type CngPropertyCollection = CngPropertyCollection$instance & __CngProper
 
 
 export interface CngProvider$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngProvider: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Provider: string;
@@ -1075,6 +1137,8 @@ export type CngProvider = CngProvider$instance & __CngProvider$views;
 
 
 export interface CngUIPolicy$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CngUIPolicy: never;
+
     readonly CreationTitle: string | undefined;
     readonly Description: string | undefined;
     readonly FriendlyName: string | undefined;
@@ -1095,6 +1159,8 @@ export const CngUIPolicy: {
 export type CngUIPolicy = CngUIPolicy$instance;
 
 export interface CompositeMLDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CompositeMLDsa: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: CompositeMLDsaAlgorithm;
@@ -1165,6 +1231,8 @@ export type CompositeMLDsa = CompositeMLDsa$instance & __CompositeMLDsa$views;
 
 
 export interface CompositeMLDsaAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CompositeMLDsaAlgorithm: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly MaxSignatureSizeInBytes: int;
@@ -1209,6 +1277,8 @@ export type CompositeMLDsaAlgorithm = CompositeMLDsaAlgorithm$instance & __Compo
 
 
 export interface CompositeMLDsaCng$instance extends CompositeMLDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CompositeMLDsaCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -1235,6 +1305,8 @@ export type CompositeMLDsaCng = CompositeMLDsaCng$instance & __CompositeMLDsaCng
 
 
 export interface CryptoConfig$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CryptoConfig: never;
+
 }
 
 
@@ -1253,6 +1325,8 @@ export const CryptoConfig: {
 export type CryptoConfig = CryptoConfig$instance;
 
 export interface CryptographicException$instance extends SystemException {
+    readonly __tsonic_type_System_Security_Cryptography_CryptographicException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1276,6 +1350,8 @@ export type CryptographicException = CryptographicException$instance & __Cryptog
 
 
 export interface CryptographicUnexpectedOperationException$instance extends CryptographicException$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CryptographicUnexpectedOperationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1298,6 +1374,8 @@ export type CryptographicUnexpectedOperationException = CryptographicUnexpectedO
 
 
 export interface CryptoStream$instance extends Stream {
+    readonly __tsonic_type_System_Security_Cryptography_CryptoStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1362,6 +1440,8 @@ export type CryptoStream = CryptoStream$instance & __CryptoStream$views;
 
 
 export interface CspKeyContainerInfo$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CspKeyContainerInfo: never;
+
     readonly Accessible: boolean;
     readonly Exportable: boolean;
     readonly HardwareDevice: boolean;
@@ -1385,6 +1465,8 @@ export const CspKeyContainerInfo: {
 export type CspKeyContainerInfo = CspKeyContainerInfo$instance;
 
 export interface CspParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_CspParameters: never;
+
     ProviderType: int;
     ProviderName: string | undefined;
     KeyContainerName: string | undefined;
@@ -1407,6 +1489,8 @@ export const CspParameters: {
 export type CspParameters = CspParameters$instance;
 
 export interface DeriveBytes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DeriveBytes: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -1428,6 +1512,8 @@ export type DeriveBytes = DeriveBytes$instance & __DeriveBytes$views;
 
 
 export interface DES$instance extends SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DES: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Key: byte[];
@@ -1450,6 +1536,8 @@ export type DES = DES$instance & __DES$views;
 
 
 export interface DESCryptoServiceProvider$instance extends DES$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DESCryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -1487,6 +1575,8 @@ export type DESCryptoServiceProvider = DESCryptoServiceProvider$instance & __DES
 
 
 export interface DSA$instance extends AsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DSA: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateSignature(rgbHash: byte[]): byte[];
@@ -1567,6 +1657,8 @@ export type DSA = DSA$instance & __DSA$views;
 
 
 export interface DSACng$instance extends DSA$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DSACng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Key: CngKey;
@@ -1598,6 +1690,8 @@ export type DSACng = DSACng$instance & __DSACng$views;
 
 
 export interface DSACryptoServiceProvider$instance extends DSA$instance, ICspAsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DSACryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICspAsymmetricAlgorithm: never;
 
@@ -1675,6 +1769,8 @@ export type DSACryptoServiceProvider = DSACryptoServiceProvider$instance & __DSA
 
 
 export interface DSAOpenSsl$instance extends DSA$instance {
+    readonly __tsonic_type_System_Security_Cryptography_DSAOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     KeySize: int;
@@ -1721,6 +1817,8 @@ export type DSAOpenSsl = DSAOpenSsl$instance & __DSAOpenSsl$views;
 
 
 export interface DSASignatureDeformatter$instance extends AsymmetricSignatureDeformatter {
+    readonly __tsonic_type_System_Security_Cryptography_DSASignatureDeformatter: never;
+
     SetHashAlgorithm(strName: string): void;
     SetKey(key: AsymmetricAlgorithm): void;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
@@ -1737,6 +1835,8 @@ export const DSASignatureDeformatter: {
 export type DSASignatureDeformatter = DSASignatureDeformatter$instance;
 
 export interface DSASignatureFormatter$instance extends AsymmetricSignatureFormatter {
+    readonly __tsonic_type_System_Security_Cryptography_DSASignatureFormatter: never;
+
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(hash: HashAlgorithm): byte[];
     SetHashAlgorithm(strName: string): void;
@@ -1753,6 +1853,8 @@ export const DSASignatureFormatter: {
 export type DSASignatureFormatter = DSASignatureFormatter$instance;
 
 export interface ECAlgorithm$instance extends AsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECAlgorithm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -1800,6 +1902,8 @@ export type ECAlgorithm = ECAlgorithm$instance & __ECAlgorithm$views;
 
 
 export interface ECDiffieHellman$instance extends ECAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDiffieHellman: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly KeyExchangeAlgorithm: string | string | undefined;
@@ -1835,6 +1939,8 @@ export type ECDiffieHellman = ECDiffieHellman$instance & __ECDiffieHellman$views
 
 
 export interface ECDiffieHellmanCng$instance extends ECDiffieHellman$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDiffieHellmanCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     HashAlgorithm: CngAlgorithm;
@@ -1878,6 +1984,8 @@ export type ECDiffieHellmanCng = ECDiffieHellmanCng$instance & __ECDiffieHellman
 
 
 export interface ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanPublicKey$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDiffieHellmanCngPublicKey: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly BlobFormat: CngKeyBlobFormat;
@@ -1902,6 +2010,8 @@ export type ECDiffieHellmanCngPublicKey = ECDiffieHellmanCngPublicKey$instance &
 
 
 export interface ECDiffieHellmanOpenSsl$instance extends ECDiffieHellman$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDiffieHellmanOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     KeySize: int;
@@ -1944,6 +2054,8 @@ export type ECDiffieHellmanOpenSsl = ECDiffieHellmanOpenSsl$instance & __ECDiffi
 
 
 export interface ECDiffieHellmanPublicKey$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDiffieHellmanPublicKey: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -1969,6 +2081,8 @@ export type ECDiffieHellmanPublicKey = ECDiffieHellmanPublicKey$instance & __ECD
 
 
 export interface ECDsa$instance extends ECAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDsa: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly KeyExchangeAlgorithm: string | undefined;
@@ -2040,6 +2154,8 @@ export type ECDsa = ECDsa$instance & __ECDsa$views;
 
 
 export interface ECDsaCng$instance extends ECDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDsaCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     HashAlgorithm: CngAlgorithm;
@@ -2097,6 +2213,8 @@ export type ECDsaCng = ECDsaCng$instance & __ECDsaCng$views;
 
 
 export interface ECDsaOpenSsl$instance extends ECDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ECDsaOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     KeySize: int;
@@ -2149,6 +2267,8 @@ export type ECDsaOpenSsl = ECDsaOpenSsl$instance & __ECDsaOpenSsl$views;
 
 
 export interface FromBase64Transform$instance {
+    readonly __tsonic_type_System_Security_Cryptography_FromBase64Transform: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2180,6 +2300,8 @@ export type FromBase64Transform = FromBase64Transform$instance & __FromBase64Tra
 
 
 export interface HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HashAlgorithm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2222,6 +2344,8 @@ export type HashAlgorithm = HashAlgorithm$instance & __HashAlgorithm$views;
 
 
 export interface HMAC$instance extends KeyedHashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMAC: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2254,6 +2378,8 @@ export type HMAC = HMAC$instance & __HMAC$views;
 
 
 export interface HMACMD5$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACMD5: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2299,6 +2425,8 @@ export type HMACMD5 = HMACMD5$instance & __HMACMD5$views;
 
 
 export interface HMACSHA1$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA1: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2345,6 +2473,8 @@ export type HMACSHA1 = HMACSHA1$instance & __HMACSHA1$views;
 
 
 export interface HMACSHA256$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2390,6 +2520,8 @@ export type HMACSHA256 = HMACSHA256$instance & __HMACSHA256$views;
 
 
 export interface HMACSHA3_256$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA3_256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2436,6 +2568,8 @@ export type HMACSHA3_256 = HMACSHA3_256$instance & __HMACSHA3_256$views;
 
 
 export interface HMACSHA3_384$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA3_384: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2482,6 +2616,8 @@ export type HMACSHA3_384 = HMACSHA3_384$instance & __HMACSHA3_384$views;
 
 
 export interface HMACSHA3_512$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA3_512: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2528,6 +2664,8 @@ export type HMACSHA3_512 = HMACSHA3_512$instance & __HMACSHA3_512$views;
 
 
 export interface HMACSHA384$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA384: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2574,6 +2712,8 @@ export type HMACSHA384 = HMACSHA384$instance & __HMACSHA384$views;
 
 
 export interface HMACSHA512$instance extends HMAC$instance {
+    readonly __tsonic_type_System_Security_Cryptography_HMACSHA512: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2620,6 +2760,8 @@ export type HMACSHA512 = HMACSHA512$instance & __HMACSHA512$views;
 
 
 export interface IncrementalHash$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_IncrementalHash: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AlgorithmName: HashAlgorithmName;
@@ -2653,6 +2795,8 @@ export type IncrementalHash = IncrementalHash$instance & __IncrementalHash$views
 
 
 export interface KeyedHashAlgorithm$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_KeyedHashAlgorithm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2677,6 +2821,8 @@ export type KeyedHashAlgorithm = KeyedHashAlgorithm$instance & __KeyedHashAlgori
 
 
 export interface KeySizes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_KeySizes: never;
+
     readonly MaxSize: int;
     readonly MinSize: int;
     readonly SkipSize: int;
@@ -2691,6 +2837,8 @@ export const KeySizes: {
 export type KeySizes = KeySizes$instance;
 
 export interface Kmac128$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Kmac128: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2728,6 +2876,8 @@ export type Kmac128 = Kmac128$instance & __Kmac128$views;
 
 
 export interface Kmac256$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Kmac256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2765,6 +2915,8 @@ export type Kmac256 = Kmac256$instance & __Kmac256$views;
 
 
 export interface KmacXof128$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_KmacXof128: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2802,6 +2954,8 @@ export type KmacXof128 = KmacXof128$instance & __KmacXof128$views;
 
 
 export interface KmacXof256$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_KmacXof256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2839,6 +2993,8 @@ export type KmacXof256 = KmacXof256$instance & __KmacXof256$views;
 
 
 export interface MaskGenerationMethod$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MaskGenerationMethod: never;
+
     GenerateMask(rgbSeed: byte[], cbReturn: int): byte[];
 }
 
@@ -2850,6 +3006,8 @@ export const MaskGenerationMethod: (abstract new() => MaskGenerationMethod) & {
 export type MaskGenerationMethod = MaskGenerationMethod$instance;
 
 export interface MD5$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MD5: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2883,6 +3041,8 @@ export type MD5 = MD5$instance & __MD5$views;
 
 
 export interface MD5CryptoServiceProvider$instance extends MD5$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MD5CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -2914,6 +3074,8 @@ export type MD5CryptoServiceProvider = MD5CryptoServiceProvider$instance & __MD5
 
 
 export interface MLDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLDsa: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: MLDsaAlgorithm;
@@ -2999,6 +3161,8 @@ export type MLDsa = MLDsa$instance & __MLDsa$views;
 
 
 export interface MLDsaAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLDsaAlgorithm: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly MuSizeInBytes: int;
@@ -3032,6 +3196,8 @@ export type MLDsaAlgorithm = MLDsaAlgorithm$instance & __MLDsaAlgorithm$views;
 
 
 export interface MLDsaCng$instance extends MLDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLDsaCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -3063,6 +3229,8 @@ export type MLDsaCng = MLDsaCng$instance & __MLDsaCng$views;
 
 
 export interface MLDsaOpenSsl$instance extends MLDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLDsaOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;
@@ -3094,6 +3262,8 @@ export type MLDsaOpenSsl = MLDsaOpenSsl$instance & __MLDsaOpenSsl$views;
 
 
 export interface MLKem$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLKem: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: MLKemAlgorithm;
@@ -3166,6 +3336,8 @@ export type MLKem = MLKem$instance & __MLKem$views;
 
 
 export interface MLKemAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLKemAlgorithm: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly CiphertextSizeInBytes: int;
@@ -3199,6 +3371,8 @@ export type MLKemAlgorithm = MLKemAlgorithm$instance & __MLKemAlgorithm$views;
 
 
 export interface MLKemCng$instance extends MLKem$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLKemCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
@@ -3226,6 +3400,8 @@ export type MLKemCng = MLKemCng$instance & __MLKemCng$views;
 
 
 export interface MLKemOpenSsl$instance extends MLKem$instance {
+    readonly __tsonic_type_System_Security_Cryptography_MLKemOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DecapsulateCore(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, sharedSecret: Span_1<System_Internal.Byte>): void;
@@ -3253,6 +3429,8 @@ export type MLKemOpenSsl = MLKemOpenSsl$instance & __MLKemOpenSsl$views;
 
 
 export interface Oid$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Oid: never;
+
     get FriendlyName(): string | undefined;
     set FriendlyName(value: string | undefined);
     get Value(): string | undefined;
@@ -3273,6 +3451,8 @@ export const Oid: {
 export type Oid = Oid$instance;
 
 export interface OidCollection$instance {
+    readonly __tsonic_type_System_Security_Cryptography_OidCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -3301,6 +3481,8 @@ export type OidCollection = OidCollection$instance & __OidCollection$views;
 
 
 export interface OidEnumerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_OidEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: Oid;
@@ -3321,6 +3503,8 @@ export type OidEnumerator = OidEnumerator$instance & __OidEnumerator$views;
 
 
 export interface PasswordDeriveBytes$instance extends DeriveBytes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_PasswordDeriveBytes: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     HashName: string;
@@ -3355,6 +3539,8 @@ export type PasswordDeriveBytes = PasswordDeriveBytes$instance & __PasswordDeriv
 
 
 export interface PbeParameters$instance {
+    readonly __tsonic_type_System_Security_Cryptography_PbeParameters: never;
+
     readonly EncryptionAlgorithm: PbeEncryptionAlgorithm;
     readonly HashAlgorithm: HashAlgorithmName;
     readonly IterationCount: int;
@@ -3369,6 +3555,8 @@ export const PbeParameters: {
 export type PbeParameters = PbeParameters$instance;
 
 export interface PKCS1MaskGenerationMethod$instance extends MaskGenerationMethod {
+    readonly __tsonic_type_System_Security_Cryptography_PKCS1MaskGenerationMethod: never;
+
     HashName: string;
     GenerateMask(rgbSeed: byte[], cbReturn: int): byte[];
 }
@@ -3382,6 +3570,8 @@ export const PKCS1MaskGenerationMethod: {
 export type PKCS1MaskGenerationMethod = PKCS1MaskGenerationMethod$instance;
 
 export interface RandomNumberGenerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RandomNumberGenerator: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -3418,6 +3608,8 @@ export type RandomNumberGenerator = RandomNumberGenerator$instance & __RandomNum
 
 
 export interface RC2$instance extends SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RC2: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     EffectiveKeySize: int;
@@ -3439,6 +3631,8 @@ export type RC2 = RC2$instance & __RC2$views;
 
 
 export interface RC2CryptoServiceProvider$instance extends RC2$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RC2CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -3478,6 +3672,8 @@ export type RC2CryptoServiceProvider = RC2CryptoServiceProvider$instance & __RC2
 
 
 export interface Rfc2898DeriveBytes$instance extends DeriveBytes$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Rfc2898DeriveBytes: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly HashAlgorithm: HashAlgorithmName;
@@ -3517,6 +3713,8 @@ export type Rfc2898DeriveBytes = Rfc2898DeriveBytes$instance & __Rfc2898DeriveBy
 
 
 export interface Rijndael$instance extends SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Rijndael: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -3536,6 +3734,8 @@ export type Rijndael = Rijndael$instance & __Rijndael$views;
 
 
 export interface RijndaelManaged$instance extends Rijndael$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RijndaelManaged: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -3570,6 +3770,8 @@ export type RijndaelManaged = RijndaelManaged$instance & __RijndaelManaged$views
 
 
 export interface RNGCryptoServiceProvider$instance extends RandomNumberGenerator$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RNGCryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;
@@ -3600,6 +3802,8 @@ export type RNGCryptoServiceProvider = RNGCryptoServiceProvider$instance & __RNG
 
 
 export interface RSA$instance extends AsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSA: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly KeyExchangeAlgorithm: string | undefined;
@@ -3686,6 +3890,8 @@ export type RSA = RSA$instance & __RSA$views;
 
 
 export interface RSACng$instance extends RSA$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSACng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Key: CngKey;
@@ -3711,6 +3917,8 @@ export type RSACng = RSACng$instance & __RSACng$views;
 
 
 export interface RSACryptoServiceProvider$instance extends RSA$instance, ICspAsymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSACryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICspAsymmetricAlgorithm: never;
 
@@ -3784,6 +3992,8 @@ export type RSACryptoServiceProvider = RSACryptoServiceProvider$instance & __RSA
 
 
 export interface RSAEncryptionPadding$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSAEncryptionPadding: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Mode: RSAEncryptionPaddingMode;
@@ -3819,6 +4029,8 @@ export type RSAEncryptionPadding = RSAEncryptionPadding$instance & __RSAEncrypti
 
 
 export interface RSAOAEPKeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAOAEPKeyExchangeDeformatter: never;
+
     get Parameters(): string | undefined;
     set Parameters(value: string | undefined);
     DecryptKeyExchange(rgbData: byte[]): byte[];
@@ -3835,6 +4047,8 @@ export const RSAOAEPKeyExchangeDeformatter: {
 export type RSAOAEPKeyExchangeDeformatter = RSAOAEPKeyExchangeDeformatter$instance;
 
 export interface RSAOAEPKeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAOAEPKeyExchangeFormatter: never;
+
     get Parameter(): byte[] | undefined;
     set Parameter(value: byte[] | undefined);
     readonly Parameters: string | undefined;
@@ -3855,6 +4069,8 @@ export const RSAOAEPKeyExchangeFormatter: {
 export type RSAOAEPKeyExchangeFormatter = RSAOAEPKeyExchangeFormatter$instance;
 
 export interface RSAOpenSsl$instance extends RSA$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSAOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     KeySize: int;
@@ -3925,6 +4141,8 @@ export type RSAOpenSsl = RSAOpenSsl$instance & __RSAOpenSsl$views;
 
 
 export interface RSAPKCS1KeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAPKCS1KeyExchangeDeformatter: never;
+
     get Parameters(): string | undefined;
     set Parameters(value: string | undefined);
     get RNG(): RandomNumberGenerator | undefined;
@@ -3943,6 +4161,8 @@ export const RSAPKCS1KeyExchangeDeformatter: {
 export type RSAPKCS1KeyExchangeDeformatter = RSAPKCS1KeyExchangeDeformatter$instance;
 
 export interface RSAPKCS1KeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAPKCS1KeyExchangeFormatter: never;
+
     readonly Parameters: string | string | undefined;
     get Rng(): RandomNumberGenerator | undefined;
     set Rng(value: RandomNumberGenerator | undefined);
@@ -3961,6 +4181,8 @@ export const RSAPKCS1KeyExchangeFormatter: {
 export type RSAPKCS1KeyExchangeFormatter = RSAPKCS1KeyExchangeFormatter$instance;
 
 export interface RSAPKCS1SignatureDeformatter$instance extends AsymmetricSignatureDeformatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAPKCS1SignatureDeformatter: never;
+
     SetHashAlgorithm(strName: string): void;
     SetKey(key: AsymmetricAlgorithm): void;
     VerifySignature(rgbHash: byte[], rgbSignature: byte[]): boolean;
@@ -3977,6 +4199,8 @@ export const RSAPKCS1SignatureDeformatter: {
 export type RSAPKCS1SignatureDeformatter = RSAPKCS1SignatureDeformatter$instance;
 
 export interface RSAPKCS1SignatureFormatter$instance extends AsymmetricSignatureFormatter {
+    readonly __tsonic_type_System_Security_Cryptography_RSAPKCS1SignatureFormatter: never;
+
     CreateSignature(rgbHash: byte[]): byte[];
     CreateSignature(hash: HashAlgorithm): byte[];
     SetHashAlgorithm(strName: string): void;
@@ -3993,6 +4217,8 @@ export const RSAPKCS1SignatureFormatter: {
 export type RSAPKCS1SignatureFormatter = RSAPKCS1SignatureFormatter$instance;
 
 export interface RSASignaturePadding$instance {
+    readonly __tsonic_type_System_Security_Cryptography_RSASignaturePadding: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Mode: RSASignaturePaddingMode;
@@ -4020,6 +4246,8 @@ export type RSASignaturePadding = RSASignaturePadding$instance & __RSASignatureP
 
 
 export interface SafeEvpPKeyHandle$instance extends SafeHandle {
+    readonly __tsonic_type_System_Security_Cryptography_SafeEvpPKeyHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -4048,6 +4276,8 @@ export type SafeEvpPKeyHandle = SafeEvpPKeyHandle$instance & __SafeEvpPKeyHandle
 
 
 export interface SHA1$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA1: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4081,6 +4311,8 @@ export type SHA1 = SHA1$instance & __SHA1$views;
 
 
 export interface SHA1CryptoServiceProvider$instance extends SHA1$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA1CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4112,6 +4344,8 @@ export type SHA1CryptoServiceProvider = SHA1CryptoServiceProvider$instance & __S
 
 
 export interface SHA1Managed$instance extends SHA1$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA1Managed: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4143,6 +4377,8 @@ export type SHA1Managed = SHA1Managed$instance & __SHA1Managed$views;
 
 
 export interface SHA256$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4176,6 +4412,8 @@ export type SHA256 = SHA256$instance & __SHA256$views;
 
 
 export interface SHA256CryptoServiceProvider$instance extends SHA256$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA256CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4207,6 +4445,8 @@ export type SHA256CryptoServiceProvider = SHA256CryptoServiceProvider$instance &
 
 
 export interface SHA256Managed$instance extends SHA256$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA256Managed: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4238,6 +4478,8 @@ export type SHA256Managed = SHA256Managed$instance & __SHA256Managed$views;
 
 
 export interface SHA3_256$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA3_256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4272,6 +4514,8 @@ export type SHA3_256 = SHA3_256$instance & __SHA3_256$views;
 
 
 export interface SHA3_384$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA3_384: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4306,6 +4550,8 @@ export type SHA3_384 = SHA3_384$instance & __SHA3_384$views;
 
 
 export interface SHA3_512$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA3_512: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4340,6 +4586,8 @@ export type SHA3_512 = SHA3_512$instance & __SHA3_512$views;
 
 
 export interface SHA384$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA384: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4373,6 +4621,8 @@ export type SHA384 = SHA384$instance & __SHA384$views;
 
 
 export interface SHA384CryptoServiceProvider$instance extends SHA384$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA384CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4404,6 +4654,8 @@ export type SHA384CryptoServiceProvider = SHA384CryptoServiceProvider$instance &
 
 
 export interface SHA384Managed$instance extends SHA384$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA384Managed: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4435,6 +4687,8 @@ export type SHA384Managed = SHA384Managed$instance & __SHA384Managed$views;
 
 
 export interface SHA512$instance extends HashAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA512: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4468,6 +4722,8 @@ export type SHA512 = SHA512$instance & __SHA512$views;
 
 
 export interface SHA512CryptoServiceProvider$instance extends SHA512$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA512CryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4499,6 +4755,8 @@ export type SHA512CryptoServiceProvider = SHA512CryptoServiceProvider$instance &
 
 
 export interface SHA512Managed$instance extends SHA512$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SHA512Managed: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4530,6 +4788,8 @@ export type SHA512Managed = SHA512Managed$instance & __SHA512Managed$views;
 
 
 export interface Shake128$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Shake128: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -4567,6 +4827,8 @@ export type Shake128 = Shake128$instance & __Shake128$views;
 
 
 export interface Shake256$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_Shake256: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -4604,6 +4866,8 @@ export type Shake256 = Shake256$instance & __Shake256$views;
 
 
 export interface SignatureDescription$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SignatureDescription: never;
+
     get DeformatterAlgorithm(): string | undefined;
     set DeformatterAlgorithm(value: string | undefined);
     get DigestAlgorithm(): string | undefined;
@@ -4627,6 +4891,8 @@ export const SignatureDescription: {
 export type SignatureDescription = SignatureDescription$instance;
 
 export interface SlhDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SlhDsa: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: SlhDsaAlgorithm;
@@ -4700,6 +4966,8 @@ export type SlhDsa = SlhDsa$instance & __SlhDsa$views;
 
 
 export interface SlhDsaAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SlhDsaAlgorithm: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Name: string;
@@ -4740,6 +5008,8 @@ export type SlhDsaAlgorithm = SlhDsaAlgorithm$instance & __SlhDsaAlgorithm$views
 
 
 export interface SlhDsaCng$instance extends SlhDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SlhDsaCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -4769,6 +5039,8 @@ export type SlhDsaCng = SlhDsaCng$instance & __SlhDsaCng$views;
 
 
 export interface SlhDsaOpenSsl$instance extends SlhDsa$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SlhDsaOpenSsl: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(disposing: boolean): void;
@@ -4796,6 +5068,8 @@ export type SlhDsaOpenSsl = SlhDsaOpenSsl$instance & __SlhDsaOpenSsl$views;
 
 
 export interface SP800108HmacCounterKdf$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SP800108HmacCounterKdf: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     DeriveKey(label: byte[], context: byte[], derivedKeyLengthInBytes: int): byte[];
@@ -4828,6 +5102,8 @@ export type SP800108HmacCounterKdf = SP800108HmacCounterKdf$instance & __SP80010
 
 
 export interface SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_SymmetricAlgorithm: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;
@@ -4901,6 +5177,8 @@ export type SymmetricAlgorithm = SymmetricAlgorithm$instance & __SymmetricAlgori
 
 
 export interface ToBase64Transform$instance {
+    readonly __tsonic_type_System_Security_Cryptography_ToBase64Transform: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICryptoTransform: never;
 
@@ -4931,6 +5209,8 @@ export type ToBase64Transform = ToBase64Transform$instance & __ToBase64Transform
 
 
 export interface TripleDES$instance extends SymmetricAlgorithm$instance {
+    readonly __tsonic_type_System_Security_Cryptography_TripleDES: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Key: byte[];
@@ -4952,6 +5232,8 @@ export type TripleDES = TripleDES$instance & __TripleDES$views;
 
 
 export interface TripleDESCng$instance extends TripleDES$instance {
+    readonly __tsonic_type_System_Security_Cryptography_TripleDESCng: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     CreateDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
@@ -4981,6 +5263,8 @@ export type TripleDESCng = TripleDESCng$instance & __TripleDESCng$views;
 
 
 export interface TripleDESCryptoServiceProvider$instance extends TripleDES$instance {
+    readonly __tsonic_type_System_Security_Cryptography_TripleDESCryptoServiceProvider: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     BlockSize: int;

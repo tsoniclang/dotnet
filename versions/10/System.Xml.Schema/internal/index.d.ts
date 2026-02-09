@@ -180,6 +180,8 @@ export interface IXmlSchemaInfo$instance {
 export type IXmlSchemaInfo = IXmlSchemaInfo$instance;
 
 export interface ValidationEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Xml_Schema_ValidationEventArgs: never;
+
     readonly Exception: XmlSchemaException;
     readonly Message: string;
     readonly Severity: XmlSeverityType;
@@ -193,6 +195,8 @@ export const ValidationEventArgs: {
 export type ValidationEventArgs = ValidationEventArgs$instance;
 
 export interface XmlAtomicValue$instance extends XPathItem {
+    readonly __tsonic_type_System_Xml_Schema_XmlAtomicValue: never;
+
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly IsNode: boolean;
@@ -224,6 +228,8 @@ export type XmlAtomicValue = XmlAtomicValue$instance & __XmlAtomicValue$views;
 
 
 export interface XmlSchema$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchema: never;
+
     AttributeFormDefault: XmlSchemaForm;
     readonly AttributeGroups: XmlSchemaObjectTable;
     readonly Attributes: XmlSchemaObjectTable;
@@ -269,6 +275,8 @@ export const XmlSchema: {
 export type XmlSchema = XmlSchema$instance;
 
 export interface XmlSchemaAll$instance extends XmlSchemaGroupBase {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAll: never;
+
     readonly Items: XmlSchemaObjectCollection;
 }
 
@@ -281,6 +289,8 @@ export const XmlSchemaAll: {
 export type XmlSchemaAll = XmlSchemaAll$instance;
 
 export interface XmlSchemaAnnotated$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnnotated: never;
+
     get Annotation(): XmlSchemaAnnotation | undefined;
     set Annotation(value: XmlSchemaAnnotation | undefined);
     get Id(): string | undefined;
@@ -298,6 +308,8 @@ export const XmlSchemaAnnotated: {
 export type XmlSchemaAnnotated = XmlSchemaAnnotated$instance;
 
 export interface XmlSchemaAnnotation$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnnotation: never;
+
     get Id(): string | undefined;
     set Id(value: string | undefined);
     readonly Items: XmlSchemaObjectCollection;
@@ -314,6 +326,8 @@ export const XmlSchemaAnnotation: {
 export type XmlSchemaAnnotation = XmlSchemaAnnotation$instance;
 
 export interface XmlSchemaAny$instance extends XmlSchemaParticle {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAny: never;
+
     get Namespace(): string | undefined;
     set Namespace(value: string | undefined);
     ProcessContents: XmlSchemaContentProcessing;
@@ -328,6 +342,8 @@ export const XmlSchemaAny: {
 export type XmlSchemaAny = XmlSchemaAny$instance;
 
 export interface XmlSchemaAnyAttribute$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnyAttribute: never;
+
     get Namespace(): string | undefined;
     set Namespace(value: string | undefined);
     ProcessContents: XmlSchemaContentProcessing;
@@ -342,6 +358,8 @@ export const XmlSchemaAnyAttribute: {
 export type XmlSchemaAnyAttribute = XmlSchemaAnyAttribute$instance;
 
 export interface XmlSchemaAppInfo$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAppInfo: never;
+
     get Markup(): (XmlNode | undefined)[] | undefined;
     set Markup(value: (XmlNode | undefined)[] | undefined);
     get Source(): string | undefined;
@@ -357,6 +375,8 @@ export const XmlSchemaAppInfo: {
 export type XmlSchemaAppInfo = XmlSchemaAppInfo$instance;
 
 export interface XmlSchemaAttribute$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttribute: never;
+
     readonly AttributeSchemaType: XmlSchemaSimpleType | undefined;
     readonly AttributeType: unknown | undefined;
     get DefaultValue(): string | undefined;
@@ -383,6 +403,8 @@ export const XmlSchemaAttribute: {
 export type XmlSchemaAttribute = XmlSchemaAttribute$instance;
 
 export interface XmlSchemaAttributeGroup$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttributeGroup: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -401,6 +423,8 @@ export const XmlSchemaAttributeGroup: {
 export type XmlSchemaAttributeGroup = XmlSchemaAttributeGroup$instance;
 
 export interface XmlSchemaAttributeGroupRef$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttributeGroupRef: never;
+
     RefName: XmlQualifiedName;
 }
 
@@ -413,6 +437,8 @@ export const XmlSchemaAttributeGroupRef: {
 export type XmlSchemaAttributeGroupRef = XmlSchemaAttributeGroupRef$instance;
 
 export interface XmlSchemaChoice$instance extends XmlSchemaGroupBase {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaChoice: never;
+
     readonly Items: XmlSchemaObjectCollection;
 }
 
@@ -425,6 +451,8 @@ export const XmlSchemaChoice: {
 export type XmlSchemaChoice = XmlSchemaChoice$instance;
 
 export interface XmlSchemaCollection$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -459,6 +487,8 @@ export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaColl
 
 
 export interface XmlSchemaCollectionEnumerator$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaCollectionEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: XmlSchema;
@@ -479,6 +509,8 @@ export type XmlSchemaCollectionEnumerator = XmlSchemaCollectionEnumerator$instan
 
 
 export interface XmlSchemaCompilationSettings$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaCompilationSettings: never;
+
     EnableUpaCheck: boolean;
 }
 
@@ -491,6 +523,8 @@ export const XmlSchemaCompilationSettings: {
 export type XmlSchemaCompilationSettings = XmlSchemaCompilationSettings$instance;
 
 export interface XmlSchemaComplexContent$instance extends XmlSchemaContentModel {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContent: never;
+
     get Content(): XmlSchemaContent | undefined;
     set Content(value: XmlSchemaContent | undefined);
     IsMixed: boolean;
@@ -505,6 +539,8 @@ export const XmlSchemaComplexContent: {
 export type XmlSchemaComplexContent = XmlSchemaComplexContent$instance;
 
 export interface XmlSchemaComplexContentExtension$instance extends XmlSchemaContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContentExtension: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -522,6 +558,8 @@ export const XmlSchemaComplexContentExtension: {
 export type XmlSchemaComplexContentExtension = XmlSchemaComplexContentExtension$instance;
 
 export interface XmlSchemaComplexContentRestriction$instance extends XmlSchemaContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContentRestriction: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -539,6 +577,8 @@ export const XmlSchemaComplexContentRestriction: {
 export type XmlSchemaComplexContentRestriction = XmlSchemaComplexContentRestriction$instance;
 
 export interface XmlSchemaComplexType$instance extends XmlSchemaType {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexType: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -565,6 +605,8 @@ export const XmlSchemaComplexType: {
 export type XmlSchemaComplexType = XmlSchemaComplexType$instance;
 
 export interface XmlSchemaContent$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaContent: never;
+
 }
 
 
@@ -575,6 +617,8 @@ export const XmlSchemaContent: (abstract new() => XmlSchemaContent) & {
 export type XmlSchemaContent = XmlSchemaContent$instance;
 
 export interface XmlSchemaContentModel$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaContentModel: never;
+
     get Content(): XmlSchemaContent | undefined;
     set Content(value: XmlSchemaContent | undefined);
 }
@@ -587,6 +631,8 @@ export const XmlSchemaContentModel: (abstract new() => XmlSchemaContentModel) & 
 export type XmlSchemaContentModel = XmlSchemaContentModel$instance;
 
 export interface XmlSchemaDatatype$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaDatatype: never;
+
     readonly TokenizedType: XmlTokenizedType;
     readonly TypeCode: XmlTypeCode;
     readonly ValueType: Type;
@@ -605,6 +651,8 @@ export const XmlSchemaDatatype: {
 export type XmlSchemaDatatype = XmlSchemaDatatype$instance;
 
 export interface XmlSchemaDocumentation$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaDocumentation: never;
+
     get Language(): string | undefined;
     set Language(value: string | undefined);
     get Markup(): (XmlNode | undefined)[] | undefined;
@@ -622,6 +670,8 @@ export const XmlSchemaDocumentation: {
 export type XmlSchemaDocumentation = XmlSchemaDocumentation$instance;
 
 export interface XmlSchemaElement$instance extends XmlSchemaParticle {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaElement: never;
+
     Block: XmlSchemaDerivationMethod;
     readonly BlockResolved: XmlSchemaDerivationMethod;
     readonly Constraints: XmlSchemaObjectCollection;
@@ -655,6 +705,8 @@ export const XmlSchemaElement: {
 export type XmlSchemaElement = XmlSchemaElement$instance;
 
 export interface XmlSchemaEnumerationFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaEnumerationFacet: never;
+
 }
 
 
@@ -666,6 +718,8 @@ export const XmlSchemaEnumerationFacet: {
 export type XmlSchemaEnumerationFacet = XmlSchemaEnumerationFacet$instance;
 
 export interface XmlSchemaException$instance extends SystemException {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly LineNumber: int;
@@ -693,6 +747,8 @@ export type XmlSchemaException = XmlSchemaException$instance & __XmlSchemaExcept
 
 
 export interface XmlSchemaExternal$instance extends XmlSchemaObject {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaExternal: never;
+
     get Id(): string | undefined;
     set Id(value: string | undefined);
     get Schema(): XmlSchema | undefined;
@@ -711,6 +767,8 @@ export const XmlSchemaExternal: (abstract new() => XmlSchemaExternal) & {
 export type XmlSchemaExternal = XmlSchemaExternal$instance;
 
 export interface XmlSchemaFacet$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaFacet: never;
+
     IsFixed: boolean;
     get Value(): string | undefined;
     set Value(value: string | undefined);
@@ -724,6 +782,8 @@ export const XmlSchemaFacet: (abstract new() => XmlSchemaFacet) & {
 export type XmlSchemaFacet = XmlSchemaFacet$instance;
 
 export interface XmlSchemaFractionDigitsFacet$instance extends XmlSchemaNumericFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaFractionDigitsFacet: never;
+
 }
 
 
@@ -735,6 +795,8 @@ export const XmlSchemaFractionDigitsFacet: {
 export type XmlSchemaFractionDigitsFacet = XmlSchemaFractionDigitsFacet$instance;
 
 export interface XmlSchemaGroup$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaGroup: never;
+
     get Name(): string | undefined;
     set Name(value: string | undefined);
     get Particle(): XmlSchemaGroupBase | undefined;
@@ -751,6 +813,8 @@ export const XmlSchemaGroup: {
 export type XmlSchemaGroup = XmlSchemaGroup$instance;
 
 export interface XmlSchemaGroupBase$instance extends XmlSchemaParticle {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaGroupBase: never;
+
     readonly Items: XmlSchemaObjectCollection;
 }
 
@@ -762,6 +826,8 @@ export const XmlSchemaGroupBase: {
 export type XmlSchemaGroupBase = XmlSchemaGroupBase$instance;
 
 export interface XmlSchemaGroupRef$instance extends XmlSchemaParticle {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaGroupRef: never;
+
     readonly Particle: XmlSchemaGroupBase | undefined;
     RefName: XmlQualifiedName;
 }
@@ -775,6 +841,8 @@ export const XmlSchemaGroupRef: {
 export type XmlSchemaGroupRef = XmlSchemaGroupRef$instance;
 
 export interface XmlSchemaIdentityConstraint$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaIdentityConstraint: never;
+
     readonly Fields: XmlSchemaObjectCollection;
     get Name(): string | undefined;
     set Name(value: string | undefined);
@@ -792,6 +860,8 @@ export const XmlSchemaIdentityConstraint: {
 export type XmlSchemaIdentityConstraint = XmlSchemaIdentityConstraint$instance;
 
 export interface XmlSchemaImport$instance extends XmlSchemaExternal {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaImport: never;
+
     get Annotation(): XmlSchemaAnnotation | undefined;
     set Annotation(value: XmlSchemaAnnotation | undefined);
     get Namespace(): string | undefined;
@@ -807,6 +877,8 @@ export const XmlSchemaImport: {
 export type XmlSchemaImport = XmlSchemaImport$instance;
 
 export interface XmlSchemaInclude$instance extends XmlSchemaExternal {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaInclude: never;
+
     get Annotation(): XmlSchemaAnnotation | undefined;
     set Annotation(value: XmlSchemaAnnotation | undefined);
 }
@@ -820,6 +892,8 @@ export const XmlSchemaInclude: {
 export type XmlSchemaInclude = XmlSchemaInclude$instance;
 
 export interface XmlSchemaInference$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaInference: never;
+
     Occurrence: XmlSchemaInference_InferenceOption;
     TypeInference: XmlSchemaInference_InferenceOption;
     InferSchema(instanceDocument: XmlReader): XmlSchemaSet;
@@ -835,6 +909,8 @@ export const XmlSchemaInference: {
 export type XmlSchemaInference = XmlSchemaInference$instance;
 
 export interface XmlSchemaInferenceException$instance extends XmlSchemaException$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaInferenceException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -857,6 +933,8 @@ export type XmlSchemaInferenceException = XmlSchemaInferenceException$instance &
 
 
 export interface XmlSchemaInfo$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaInfo: never;
+
     readonly __tsonic_iface_System_Xml_Schema_IXmlSchemaInfo: never;
 
     ContentType: XmlSchemaContentType;
@@ -887,6 +965,8 @@ export type XmlSchemaInfo = XmlSchemaInfo$instance & __XmlSchemaInfo$views;
 
 
 export interface XmlSchemaKey$instance extends XmlSchemaIdentityConstraint {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaKey: never;
+
 }
 
 
@@ -898,6 +978,8 @@ export const XmlSchemaKey: {
 export type XmlSchemaKey = XmlSchemaKey$instance;
 
 export interface XmlSchemaKeyref$instance extends XmlSchemaIdentityConstraint {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaKeyref: never;
+
     Refer: XmlQualifiedName;
 }
 
@@ -910,6 +992,8 @@ export const XmlSchemaKeyref: {
 export type XmlSchemaKeyref = XmlSchemaKeyref$instance;
 
 export interface XmlSchemaLengthFacet$instance extends XmlSchemaNumericFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaLengthFacet: never;
+
 }
 
 
@@ -921,6 +1005,8 @@ export const XmlSchemaLengthFacet: {
 export type XmlSchemaLengthFacet = XmlSchemaLengthFacet$instance;
 
 export interface XmlSchemaMaxExclusiveFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMaxExclusiveFacet: never;
+
 }
 
 
@@ -932,6 +1018,8 @@ export const XmlSchemaMaxExclusiveFacet: {
 export type XmlSchemaMaxExclusiveFacet = XmlSchemaMaxExclusiveFacet$instance;
 
 export interface XmlSchemaMaxInclusiveFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMaxInclusiveFacet: never;
+
 }
 
 
@@ -943,6 +1031,8 @@ export const XmlSchemaMaxInclusiveFacet: {
 export type XmlSchemaMaxInclusiveFacet = XmlSchemaMaxInclusiveFacet$instance;
 
 export interface XmlSchemaMaxLengthFacet$instance extends XmlSchemaNumericFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMaxLengthFacet: never;
+
 }
 
 
@@ -954,6 +1044,8 @@ export const XmlSchemaMaxLengthFacet: {
 export type XmlSchemaMaxLengthFacet = XmlSchemaMaxLengthFacet$instance;
 
 export interface XmlSchemaMinExclusiveFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMinExclusiveFacet: never;
+
 }
 
 
@@ -965,6 +1057,8 @@ export const XmlSchemaMinExclusiveFacet: {
 export type XmlSchemaMinExclusiveFacet = XmlSchemaMinExclusiveFacet$instance;
 
 export interface XmlSchemaMinInclusiveFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMinInclusiveFacet: never;
+
 }
 
 
@@ -976,6 +1070,8 @@ export const XmlSchemaMinInclusiveFacet: {
 export type XmlSchemaMinInclusiveFacet = XmlSchemaMinInclusiveFacet$instance;
 
 export interface XmlSchemaMinLengthFacet$instance extends XmlSchemaNumericFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaMinLengthFacet: never;
+
 }
 
 
@@ -987,6 +1083,8 @@ export const XmlSchemaMinLengthFacet: {
 export type XmlSchemaMinLengthFacet = XmlSchemaMinLengthFacet$instance;
 
 export interface XmlSchemaNotation$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaNotation: never;
+
     get Name(): string | undefined;
     set Name(value: string | undefined);
     get Public(): string | undefined;
@@ -1004,6 +1102,8 @@ export const XmlSchemaNotation: {
 export type XmlSchemaNotation = XmlSchemaNotation$instance;
 
 export interface XmlSchemaNumericFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaNumericFacet: never;
+
 }
 
 
@@ -1014,6 +1114,8 @@ export const XmlSchemaNumericFacet: (abstract new() => XmlSchemaNumericFacet) & 
 export type XmlSchemaNumericFacet = XmlSchemaNumericFacet$instance;
 
 export interface XmlSchemaObject$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaObject: never;
+
     LineNumber: int;
     LinePosition: int;
     Namespaces: XmlSerializerNamespaces;
@@ -1031,6 +1133,8 @@ export const XmlSchemaObject: (abstract new() => XmlSchemaObject) & {
 export type XmlSchemaObject = XmlSchemaObject$instance;
 
 export interface XmlSchemaObjectCollection$instance extends CollectionBase {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaObjectCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1068,6 +1172,8 @@ export type XmlSchemaObjectCollection = XmlSchemaObjectCollection$instance & __X
 
 
 export interface XmlSchemaObjectEnumerator$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaObjectEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: XmlSchemaObject;
@@ -1088,6 +1194,8 @@ export type XmlSchemaObjectEnumerator = XmlSchemaObjectEnumerator$instance & __X
 
 
 export interface XmlSchemaObjectTable$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaObjectTable: never;
+
     readonly Count: int;
     readonly Item: XmlSchemaObject | undefined;
     readonly Names: ICollection;
@@ -1104,6 +1212,8 @@ export const XmlSchemaObjectTable: {
 export type XmlSchemaObjectTable = XmlSchemaObjectTable$instance;
 
 export interface XmlSchemaParticle$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaParticle: never;
+
     MaxOccurs: decimal;
     get MaxOccursString(): string | undefined;
     set MaxOccursString(value: string | undefined);
@@ -1120,6 +1230,8 @@ export const XmlSchemaParticle: (abstract new() => XmlSchemaParticle) & {
 export type XmlSchemaParticle = XmlSchemaParticle$instance;
 
 export interface XmlSchemaPatternFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaPatternFacet: never;
+
 }
 
 
@@ -1131,6 +1243,8 @@ export const XmlSchemaPatternFacet: {
 export type XmlSchemaPatternFacet = XmlSchemaPatternFacet$instance;
 
 export interface XmlSchemaRedefine$instance extends XmlSchemaExternal {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaRedefine: never;
+
     readonly AttributeGroups: XmlSchemaObjectTable;
     readonly Groups: XmlSchemaObjectTable;
     readonly Items: XmlSchemaObjectCollection;
@@ -1146,6 +1260,8 @@ export const XmlSchemaRedefine: {
 export type XmlSchemaRedefine = XmlSchemaRedefine$instance;
 
 export interface XmlSchemaSequence$instance extends XmlSchemaGroupBase {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSequence: never;
+
     readonly Items: XmlSchemaObjectCollection;
 }
 
@@ -1158,6 +1274,8 @@ export const XmlSchemaSequence: {
 export type XmlSchemaSequence = XmlSchemaSequence$instance;
 
 export interface XmlSchemaSet$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSet: never;
+
     CompilationSettings: XmlSchemaCompilationSettings;
     readonly Count: int;
     readonly GlobalAttributes: XmlSchemaObjectTable;
@@ -1191,6 +1309,8 @@ export const XmlSchemaSet: {
 export type XmlSchemaSet = XmlSchemaSet$instance;
 
 export interface XmlSchemaSimpleContent$instance extends XmlSchemaContentModel {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContent: never;
+
     get Content(): XmlSchemaContent | undefined;
     set Content(value: XmlSchemaContent | undefined);
 }
@@ -1204,6 +1324,8 @@ export const XmlSchemaSimpleContent: {
 export type XmlSchemaSimpleContent = XmlSchemaSimpleContent$instance;
 
 export interface XmlSchemaSimpleContentExtension$instance extends XmlSchemaContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContentExtension: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -1219,6 +1341,8 @@ export const XmlSchemaSimpleContentExtension: {
 export type XmlSchemaSimpleContentExtension = XmlSchemaSimpleContentExtension$instance;
 
 export interface XmlSchemaSimpleContentRestriction$instance extends XmlSchemaContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContentRestriction: never;
+
     get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
     set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
     readonly Attributes: XmlSchemaObjectCollection;
@@ -1237,6 +1361,8 @@ export const XmlSchemaSimpleContentRestriction: {
 export type XmlSchemaSimpleContentRestriction = XmlSchemaSimpleContentRestriction$instance;
 
 export interface XmlSchemaSimpleType$instance extends XmlSchemaType {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleType: never;
+
     get Content(): XmlSchemaSimpleTypeContent | undefined;
     set Content(value: XmlSchemaSimpleTypeContent | undefined);
 }
@@ -1250,6 +1376,8 @@ export const XmlSchemaSimpleType: {
 export type XmlSchemaSimpleType = XmlSchemaSimpleType$instance;
 
 export interface XmlSchemaSimpleTypeContent$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeContent: never;
+
 }
 
 
@@ -1260,6 +1388,8 @@ export const XmlSchemaSimpleTypeContent: (abstract new() => XmlSchemaSimpleTypeC
 export type XmlSchemaSimpleTypeContent = XmlSchemaSimpleTypeContent$instance;
 
 export interface XmlSchemaSimpleTypeList$instance extends XmlSchemaSimpleTypeContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeList: never;
+
     get BaseItemType(): XmlSchemaSimpleType | undefined;
     set BaseItemType(value: XmlSchemaSimpleType | undefined);
     get ItemType(): XmlSchemaSimpleType | undefined;
@@ -1276,6 +1406,8 @@ export const XmlSchemaSimpleTypeList: {
 export type XmlSchemaSimpleTypeList = XmlSchemaSimpleTypeList$instance;
 
 export interface XmlSchemaSimpleTypeRestriction$instance extends XmlSchemaSimpleTypeContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeRestriction: never;
+
     get BaseType(): XmlSchemaSimpleType | undefined;
     set BaseType(value: XmlSchemaSimpleType | undefined);
     BaseTypeName: XmlQualifiedName;
@@ -1291,6 +1423,8 @@ export const XmlSchemaSimpleTypeRestriction: {
 export type XmlSchemaSimpleTypeRestriction = XmlSchemaSimpleTypeRestriction$instance;
 
 export interface XmlSchemaSimpleTypeUnion$instance extends XmlSchemaSimpleTypeContent {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeUnion: never;
+
     readonly BaseMemberTypes: XmlSchemaSimpleType[] | undefined;
     readonly BaseTypes: XmlSchemaObjectCollection;
     get MemberTypes(): XmlQualifiedName[] | undefined;
@@ -1306,6 +1440,8 @@ export const XmlSchemaSimpleTypeUnion: {
 export type XmlSchemaSimpleTypeUnion = XmlSchemaSimpleTypeUnion$instance;
 
 export interface XmlSchemaTotalDigitsFacet$instance extends XmlSchemaNumericFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaTotalDigitsFacet: never;
+
 }
 
 
@@ -1317,6 +1453,8 @@ export const XmlSchemaTotalDigitsFacet: {
 export type XmlSchemaTotalDigitsFacet = XmlSchemaTotalDigitsFacet$instance;
 
 export interface XmlSchemaType$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaType: never;
+
     readonly BaseSchemaType: unknown | undefined;
     readonly BaseXmlSchemaType: XmlSchemaType | undefined;
     readonly Datatype: XmlSchemaDatatype | undefined;
@@ -1344,6 +1482,8 @@ export const XmlSchemaType: {
 export type XmlSchemaType = XmlSchemaType$instance;
 
 export interface XmlSchemaUnique$instance extends XmlSchemaIdentityConstraint {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaUnique: never;
+
 }
 
 
@@ -1355,6 +1495,8 @@ export const XmlSchemaUnique: {
 export type XmlSchemaUnique = XmlSchemaUnique$instance;
 
 export interface XmlSchemaValidationException$instance extends XmlSchemaException$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaValidationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly SourceObject: unknown | undefined;
@@ -1378,6 +1520,8 @@ export type XmlSchemaValidationException = XmlSchemaValidationException$instance
 
 
 export interface XmlSchemaValidator$instance {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaValidator: never;
+
     LineInfoProvider: IXmlLineInfo;
     get SourceUri(): Uri | undefined;
     set SourceUri(value: Uri | undefined);
@@ -1413,6 +1557,8 @@ export const XmlSchemaValidator: {
 export type XmlSchemaValidator = XmlSchemaValidator$instance;
 
 export interface XmlSchemaWhiteSpaceFacet$instance extends XmlSchemaFacet {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaWhiteSpaceFacet: never;
+
 }
 
 
@@ -1424,6 +1570,8 @@ export const XmlSchemaWhiteSpaceFacet: {
 export type XmlSchemaWhiteSpaceFacet = XmlSchemaWhiteSpaceFacet$instance;
 
 export interface XmlSchemaXPath$instance extends XmlSchemaAnnotated {
+    readonly __tsonic_type_System_Xml_Schema_XmlSchemaXPath: never;
+
     get XPath(): string | undefined;
     set XPath(value: string | undefined);
 }

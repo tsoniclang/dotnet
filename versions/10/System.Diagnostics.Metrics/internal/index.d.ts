@@ -33,6 +33,8 @@ export interface IMeterFactory$instance extends System_Internal.IDisposable$inst
 export type IMeterFactory = IMeterFactory$instance;
 
 export interface Measurement_1$instance<T extends unknown> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Measurement_1: never;
+
     readonly Tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>;
     readonly Value: T;
 }
@@ -50,6 +52,8 @@ export const Measurement_1: {
 export type Measurement_1<T> = Measurement_1$instance<T>;
 
 export interface Counter_1$instance<T extends unknown> extends Instrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Counter_1: never;
+
     Add(delta: T): void;
     Add(delta: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
@@ -67,6 +71,8 @@ export const Counter_1: {
 export type Counter_1<T> = Counter_1$instance<T>;
 
 export interface Gauge_1$instance<T extends unknown> extends Instrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Gauge_1: never;
+
     Record(value: T): void;
     Record(value: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
@@ -84,6 +90,8 @@ export const Gauge_1: {
 export type Gauge_1<T> = Gauge_1$instance<T>;
 
 export interface Histogram_1$instance<T extends unknown> extends Instrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Histogram_1: never;
+
     Record(value: T): void;
     Record(value: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
@@ -101,6 +109,8 @@ export const Histogram_1: {
 export type Histogram_1<T> = Histogram_1$instance<T>;
 
 export interface Instrument$instance {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Instrument: never;
+
     readonly Description: string | undefined;
     readonly Enabled: boolean;
     readonly IsObservable: boolean;
@@ -118,6 +128,8 @@ export const Instrument: (abstract new(meter: Meter, name: string) => Instrument
 export type Instrument = Instrument$instance;
 
 export interface Instrument_1$instance<T extends unknown> extends Instrument {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Instrument_1: never;
+
     readonly Advice: InstrumentAdvice_1<T> | undefined;
 }
 
@@ -129,6 +141,8 @@ export const Instrument_1: (abstract new<T extends unknown>(meter: Meter, name: 
 export type Instrument_1<T> = Instrument_1$instance<T>;
 
 export interface InstrumentAdvice_1$instance<T extends unknown> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_InstrumentAdvice_1: never;
+
     get HistogramBucketBoundaries(): IReadOnlyList_1<T> | undefined;
     set HistogramBucketBoundaries(value: IReadOnlyList_1<T> | undefined);
 }
@@ -142,6 +156,8 @@ export const InstrumentAdvice_1: {
 export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 
 export interface Meter$instance {
+    readonly __tsonic_type_System_Diagnostics_Metrics_Meter: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Name: string;
@@ -190,6 +206,8 @@ export type Meter = Meter$instance & __Meter$views;
 
 
 export interface MeterListener$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Diagnostics_Metrics_MeterListener: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get InstrumentPublished(): Action_2<Instrument, MeterListener> | undefined;
@@ -218,6 +236,8 @@ export type MeterListener = MeterListener$instance & __MeterListener$views;
 
 
 export interface MeterOptions$instance {
+    readonly __tsonic_type_System_Diagnostics_Metrics_MeterOptions: never;
+
     Name: string;
     get Scope(): unknown | undefined;
     set Scope(value: unknown | undefined);
@@ -238,6 +258,8 @@ export const MeterOptions: {
 export type MeterOptions = MeterOptions$instance;
 
 export interface ObservableCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_ObservableCounter_1: never;
+
     Observe(): IEnumerable_1<Measurement_1<T>>;
 }
 
@@ -249,6 +271,8 @@ export const ObservableCounter_1: {
 export type ObservableCounter_1<T> = ObservableCounter_1$instance<T>;
 
 export interface ObservableGauge_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_ObservableGauge_1: never;
+
     Observe(): IEnumerable_1<Measurement_1<T>>;
 }
 
@@ -260,6 +284,8 @@ export const ObservableGauge_1: {
 export type ObservableGauge_1<T> = ObservableGauge_1$instance<T>;
 
 export interface ObservableInstrument_1$instance<T extends unknown> extends Instrument {
+    readonly __tsonic_type_System_Diagnostics_Metrics_ObservableInstrument_1: never;
+
     readonly IsObservable: boolean;
     Observe(): IEnumerable_1<Measurement_1<T>>;
 }
@@ -272,6 +298,8 @@ export const ObservableInstrument_1: (abstract new<T extends unknown>(meter: Met
 export type ObservableInstrument_1<T> = ObservableInstrument_1$instance<T>;
 
 export interface ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_ObservableUpDownCounter_1: never;
+
     Observe(): IEnumerable_1<Measurement_1<T>>;
 }
 
@@ -283,6 +311,8 @@ export const ObservableUpDownCounter_1: {
 export type ObservableUpDownCounter_1<T> = ObservableUpDownCounter_1$instance<T>;
 
 export interface UpDownCounter_1$instance<T extends unknown> extends Instrument_1<T> {
+    readonly __tsonic_type_System_Diagnostics_Metrics_UpDownCounter_1: never;
+
     Add(delta: T): void;
     Add(delta: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;

@@ -197,6 +197,8 @@ export interface IPrincipal$instance {
 export type IPrincipal = IPrincipal$instance;
 
 export interface GenericIdentity$instance extends ClaimsIdentity {
+    readonly __tsonic_type_System_Security_Principal_GenericIdentity: never;
+
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     readonly AuthenticationType: string | string | undefined;
@@ -221,6 +223,8 @@ export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views
 
 
 export interface GenericPrincipal$instance extends ClaimsPrincipal {
+    readonly __tsonic_type_System_Security_Principal_GenericPrincipal: never;
+
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly Identity: IIdentity | IIdentity | undefined;
@@ -241,6 +245,8 @@ export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$vi
 
 
 export interface IdentityNotMappedException$instance extends SystemException {
+    readonly __tsonic_type_System_Security_Principal_IdentityNotMappedException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly UnmappedIdentities: IdentityReferenceCollection;
@@ -263,6 +269,8 @@ export type IdentityNotMappedException = IdentityNotMappedException$instance & _
 
 
 export interface IdentityReference$instance {
+    readonly __tsonic_type_System_Security_Principal_IdentityReference: never;
+
     readonly Value: string;
     Equals(o: unknown): boolean;
     GetHashCode(): int;
@@ -279,6 +287,8 @@ export const IdentityReference: {
 export type IdentityReference = IdentityReference$instance;
 
 export interface IdentityReferenceCollection$instance {
+    readonly __tsonic_type_System_Security_Principal_IdentityReferenceCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -312,6 +322,8 @@ export type IdentityReferenceCollection = IdentityReferenceCollection$instance &
 
 
 export interface NTAccount$instance extends IdentityReference {
+    readonly __tsonic_type_System_Security_Principal_NTAccount: never;
+
     readonly Value: string;
     Equals(o: unknown): boolean;
     GetHashCode(): int;
@@ -330,6 +342,8 @@ export const NTAccount: {
 export type NTAccount = NTAccount$instance;
 
 export interface SecurityIdentifier$instance extends IdentityReference {
+    readonly __tsonic_type_System_Security_Principal_SecurityIdentifier: never;
+
     readonly __tsonic_iface_System_IComparable_1: never;
 
     readonly AccountDomainSid: SecurityIdentifier | undefined;
@@ -370,6 +384,8 @@ export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentif
 
 
 export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
+    readonly __tsonic_type_System_Security_Principal_WindowsIdentity: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -427,6 +443,8 @@ export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views
 
 
 export interface WindowsPrincipal$instance extends ClaimsPrincipal {
+    readonly __tsonic_type_System_Security_Principal_WindowsPrincipal: never;
+
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly DeviceClaims: IEnumerable_1<Claim>;

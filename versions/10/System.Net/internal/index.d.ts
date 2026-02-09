@@ -409,6 +409,8 @@ export interface IWebRequestCreate$instance {
 export type IWebRequestCreate = IWebRequestCreate$instance;
 
 export interface IPNetwork$instance {
+    readonly __tsonic_type_System_Net_IPNetwork: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_IParsable_1: never;
@@ -458,6 +460,8 @@ export type IPNetwork = IPNetwork$instance & __IPNetwork$views;
 
 
 export interface AuthenticationManager$instance {
+    readonly __tsonic_type_System_Net_AuthenticationManager: never;
+
 }
 
 
@@ -477,6 +481,8 @@ export const AuthenticationManager: {
 export type AuthenticationManager = AuthenticationManager$instance;
 
 export interface Authorization$instance {
+    readonly __tsonic_type_System_Net_Authorization: never;
+
     Complete: boolean;
     readonly ConnectionGroupId: string | undefined;
     readonly Message: string | undefined;
@@ -496,6 +502,8 @@ export const Authorization: {
 export type Authorization = Authorization$instance;
 
 export interface Cookie$instance {
+    readonly __tsonic_type_System_Net_Cookie: never;
+
     Comment: string;
     get CommentUri(): Uri | undefined;
     set CommentUri(value: Uri | undefined);
@@ -528,6 +536,8 @@ export const Cookie: {
 export type Cookie = Cookie$instance;
 
 export interface CookieCollection$instance {
+    readonly __tsonic_type_System_Net_CookieCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -568,6 +578,8 @@ export type CookieCollection = CookieCollection$instance & __CookieCollection$vi
 
 
 export interface CookieContainer$instance {
+    readonly __tsonic_type_System_Net_CookieContainer: never;
+
     Capacity: int;
     readonly Count: int;
     MaxCookieSize: int;
@@ -596,6 +608,8 @@ export const CookieContainer: {
 export type CookieContainer = CookieContainer$instance;
 
 export interface CookieException$instance extends FormatException {
+    readonly __tsonic_type_System_Net_CookieException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -617,6 +631,8 @@ export type CookieException = CookieException$instance & __CookieException$views
 
 
 export interface CredentialCache$instance {
+    readonly __tsonic_type_System_Net_CredentialCache: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Net_ICredentials: never;
     readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
@@ -648,6 +664,8 @@ export type CredentialCache = CredentialCache$instance & __CredentialCache$views
 
 
 export interface DnsEndPoint$instance extends EndPoint {
+    readonly __tsonic_type_System_Net_DnsEndPoint: never;
+
     readonly AddressFamily: AddressFamily;
     readonly Host: string;
     readonly Port: int;
@@ -666,6 +684,8 @@ export const DnsEndPoint: {
 export type DnsEndPoint = DnsEndPoint$instance;
 
 export interface DownloadDataCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_DownloadDataCompletedEventArgs: never;
+
     readonly Result: byte[];
 }
 
@@ -677,6 +697,8 @@ export const DownloadDataCompletedEventArgs: {
 export type DownloadDataCompletedEventArgs = DownloadDataCompletedEventArgs$instance;
 
 export interface DownloadProgressChangedEventArgs$instance extends ProgressChangedEventArgs {
+    readonly __tsonic_type_System_Net_DownloadProgressChangedEventArgs: never;
+
     readonly BytesReceived: long;
     readonly TotalBytesToReceive: long;
 }
@@ -689,6 +711,8 @@ export const DownloadProgressChangedEventArgs: {
 export type DownloadProgressChangedEventArgs = DownloadProgressChangedEventArgs$instance;
 
 export interface DownloadStringCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_DownloadStringCompletedEventArgs: never;
+
     readonly Result: string;
 }
 
@@ -700,6 +724,8 @@ export const DownloadStringCompletedEventArgs: {
 export type DownloadStringCompletedEventArgs = DownloadStringCompletedEventArgs$instance;
 
 export interface EndPoint$instance {
+    readonly __tsonic_type_System_Net_EndPoint: never;
+
     readonly AddressFamily: AddressFamily;
     Create(socketAddress: SocketAddress): EndPoint;
     Serialize(): SocketAddress;
@@ -713,6 +739,8 @@ export const EndPoint: (abstract new() => EndPoint) & {
 export type EndPoint = EndPoint$instance;
 
 export interface FileWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_Net_FileWebRequest: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     get ConnectionGroupName(): string | undefined;
@@ -757,6 +785,8 @@ export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
 export interface FileWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_Net_FileWebResponse: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -786,6 +816,8 @@ export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views
 
 
 export interface FtpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_Net_FtpWebRequest: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     get CachePolicy(): RequestCachePolicy | undefined;
@@ -840,6 +872,8 @@ export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
 export interface FtpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_Net_FtpWebResponse: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -874,6 +908,8 @@ export type FtpWebResponse = FtpWebResponse$instance & __FtpWebResponse$views;
 
 
 export interface GlobalProxySelection$instance {
+    readonly __tsonic_type_System_Net_GlobalProxySelection: never;
+
 }
 
 
@@ -887,6 +923,8 @@ export const GlobalProxySelection: {
 export type GlobalProxySelection = GlobalProxySelection$instance;
 
 export interface HttpListener$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_HttpListener: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     AuthenticationSchemes: AuthenticationSchemes;
@@ -928,6 +966,8 @@ export type HttpListener = HttpListener$instance & __HttpListener$views;
 
 
 export interface HttpListenerBasicIdentity$instance extends GenericIdentity {
+    readonly __tsonic_type_System_Net_HttpListenerBasicIdentity: never;
+
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     readonly Password: string;
@@ -947,6 +987,8 @@ export type HttpListenerBasicIdentity = HttpListenerBasicIdentity$instance & __H
 
 
 export interface HttpListenerContext$instance {
+    readonly __tsonic_type_System_Net_HttpListenerContext: never;
+
     readonly Request: HttpListenerRequest;
     readonly Response: HttpListenerResponse;
     readonly User: IPrincipal | undefined;
@@ -964,6 +1006,8 @@ export const HttpListenerContext: {
 export type HttpListenerContext = HttpListenerContext$instance;
 
 export interface HttpListenerException$instance extends Win32Exception {
+    readonly __tsonic_type_System_Net_HttpListenerException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
@@ -986,6 +1030,8 @@ export type HttpListenerException = HttpListenerException$instance & __HttpListe
 
 
 export interface HttpListenerPrefixCollection$instance {
+    readonly __tsonic_type_System_Net_HttpListenerPrefixCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -1017,6 +1063,8 @@ export type HttpListenerPrefixCollection = HttpListenerPrefixCollection$instance
 
 
 export interface HttpListenerRequest$instance {
+    readonly __tsonic_type_System_Net_HttpListenerRequest: never;
+
     readonly AcceptTypes: string[] | undefined;
     readonly ClientCertificateError: int;
     readonly ContentEncoding: Encoding;
@@ -1060,6 +1108,8 @@ export const HttpListenerRequest: {
 export type HttpListenerRequest = HttpListenerRequest$instance;
 
 export interface HttpListenerResponse$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_HttpListenerResponse: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get ContentEncoding(): Encoding | undefined;
@@ -1101,6 +1151,8 @@ export type HttpListenerResponse = HttpListenerResponse$instance & __HttpListene
 
 
 export interface HttpListenerTimeoutManager$instance {
+    readonly __tsonic_type_System_Net_HttpListenerTimeoutManager: never;
+
     DrainEntityBody: TimeSpan;
     EntityBody: TimeSpan;
     HeaderWait: TimeSpan;
@@ -1117,6 +1169,8 @@ export const HttpListenerTimeoutManager: {
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
 export interface HttpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_Net_HttpWebRequest: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     get Accept(): string | undefined;
@@ -1210,6 +1264,8 @@ export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
 export interface HttpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_Net_HttpWebResponse: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1251,6 +1307,8 @@ export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views
 
 
 export interface IPAddress$instance {
+    readonly __tsonic_type_System_Net_IPAddress: never;
+
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_IParsable_1: never;
     readonly __tsonic_iface_System_ISpanFormattable: never;
@@ -1326,6 +1384,8 @@ export type IPAddress = IPAddress$instance & __IPAddress$views;
 
 
 export interface IPEndPoint$instance extends EndPoint {
+    readonly __tsonic_type_System_Net_IPEndPoint: never;
+
     Address: IPAddress;
     readonly AddressFamily: AddressFamily;
     Port: int;
@@ -1352,6 +1412,8 @@ export const IPEndPoint: {
 export type IPEndPoint = IPEndPoint$instance;
 
 export interface IPHostEntry$instance {
+    readonly __tsonic_type_System_Net_IPHostEntry: never;
+
     AddressList: IPAddress[];
     Aliases: string[];
     HostName: string;
@@ -1366,6 +1428,8 @@ export const IPHostEntry: {
 export type IPHostEntry = IPHostEntry$instance;
 
 export interface NetworkCredential$instance {
+    readonly __tsonic_type_System_Net_NetworkCredential: never;
+
     readonly __tsonic_iface_System_Net_ICredentials: never;
     readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
 
@@ -1396,6 +1460,8 @@ export type NetworkCredential = NetworkCredential$instance & __NetworkCredential
 
 
 export interface OpenReadCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_OpenReadCompletedEventArgs: never;
+
     readonly Result: Stream;
 }
 
@@ -1407,6 +1473,8 @@ export const OpenReadCompletedEventArgs: {
 export type OpenReadCompletedEventArgs = OpenReadCompletedEventArgs$instance;
 
 export interface OpenWriteCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_OpenWriteCompletedEventArgs: never;
+
     readonly Result: Stream;
 }
 
@@ -1418,6 +1486,8 @@ export const OpenWriteCompletedEventArgs: {
 export type OpenWriteCompletedEventArgs = OpenWriteCompletedEventArgs$instance;
 
 export interface PathList$instance {
+    readonly __tsonic_type_System_Net_PathList: never;
+
 }
 
 
@@ -1429,6 +1499,8 @@ export const PathList: {
 export type PathList = PathList$instance;
 
 export interface ProtocolViolationException$instance extends InvalidOperationException {
+    readonly __tsonic_type_System_Net_ProtocolViolationException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -1449,6 +1521,8 @@ export type ProtocolViolationException = ProtocolViolationException$instance & _
 
 
 export interface ServicePoint$instance {
+    readonly __tsonic_type_System_Net_ServicePoint: never;
+
     readonly Address: Uri;
     get BindIPEndPointDelegate(): BindIPEndPoint | undefined;
     set BindIPEndPointDelegate(value: BindIPEndPoint | undefined);
@@ -1478,6 +1552,8 @@ export const ServicePoint: {
 export type ServicePoint = ServicePoint$instance;
 
 export interface ServicePointManager$instance {
+    readonly __tsonic_type_System_Net_ServicePointManager: never;
+
 }
 
 
@@ -1507,6 +1583,8 @@ export const ServicePointManager: {
 export type ServicePointManager = ServicePointManager$instance;
 
 export interface SocketAddress$instance {
+    readonly __tsonic_type_System_Net_SocketAddress: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Buffer: Memory_1<System_Internal.Byte>;
@@ -1538,6 +1616,8 @@ export type SocketAddress = SocketAddress$instance & __SocketAddress$views;
 
 
 export interface TransportContext$instance {
+    readonly __tsonic_type_System_Net_TransportContext: never;
+
     GetChannelBinding(kind: ChannelBindingKind): ChannelBinding | undefined;
 }
 
@@ -1549,6 +1629,8 @@ export const TransportContext: (abstract new() => TransportContext) & {
 export type TransportContext = TransportContext$instance;
 
 export interface UploadDataCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_UploadDataCompletedEventArgs: never;
+
     readonly Result: byte[];
 }
 
@@ -1560,6 +1642,8 @@ export const UploadDataCompletedEventArgs: {
 export type UploadDataCompletedEventArgs = UploadDataCompletedEventArgs$instance;
 
 export interface UploadFileCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_UploadFileCompletedEventArgs: never;
+
     readonly Result: byte[];
 }
 
@@ -1571,6 +1655,8 @@ export const UploadFileCompletedEventArgs: {
 export type UploadFileCompletedEventArgs = UploadFileCompletedEventArgs$instance;
 
 export interface UploadProgressChangedEventArgs$instance extends ProgressChangedEventArgs {
+    readonly __tsonic_type_System_Net_UploadProgressChangedEventArgs: never;
+
     readonly BytesReceived: long;
     readonly BytesSent: long;
     readonly TotalBytesToReceive: long;
@@ -1585,6 +1671,8 @@ export const UploadProgressChangedEventArgs: {
 export type UploadProgressChangedEventArgs = UploadProgressChangedEventArgs$instance;
 
 export interface UploadStringCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_UploadStringCompletedEventArgs: never;
+
     readonly Result: string;
 }
 
@@ -1596,6 +1684,8 @@ export const UploadStringCompletedEventArgs: {
 export type UploadStringCompletedEventArgs = UploadStringCompletedEventArgs$instance;
 
 export interface UploadValuesCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+    readonly __tsonic_type_System_Net_UploadValuesCompletedEventArgs: never;
+
     readonly Result: byte[];
 }
 
@@ -1607,6 +1697,8 @@ export const UploadValuesCompletedEventArgs: {
 export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$instance;
 
 export interface WebClient$instance extends Component {
+    readonly __tsonic_type_System_Net_WebClient: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1739,6 +1831,8 @@ export type WebClient = WebClient$instance & __WebClient$views;
 
 
 export interface WebException$instance extends InvalidOperationException {
+    readonly __tsonic_type_System_Net_WebException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Response: WebResponse | undefined;
@@ -1764,6 +1858,8 @@ export type WebException = WebException$instance & __WebException$views;
 
 
 export interface WebHeaderCollection$instance extends NameValueCollection {
+    readonly __tsonic_type_System_Net_WebHeaderCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -1812,6 +1908,8 @@ export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderColl
 
 
 export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Net_WebProxy: never;
+
     readonly __tsonic_iface_System_Net_IWebProxy: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1853,6 +1951,8 @@ export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
 export interface WebRequest$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Net_WebRequest: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     AuthenticationLevel: AuthenticationLevel;
@@ -1910,6 +2010,8 @@ export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
 export interface WebResponse$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Net_WebResponse: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1941,6 +2043,8 @@ export type WebResponse = WebResponse$instance & __WebResponse$views;
 
 
 export interface WriteStreamClosedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Net_WriteStreamClosedEventArgs: never;
+
     readonly Error: Exception | undefined;
 }
 

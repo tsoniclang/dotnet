@@ -10,6 +10,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, EventArgs, Exception, Func_2, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface ExceptionDispatchInfo$instance {
+    readonly __tsonic_type_System_Runtime_ExceptionServices_ExceptionDispatchInfo: never;
+
     readonly SourceException: Exception;
     Throw(): void;
 }
@@ -26,6 +28,8 @@ export const ExceptionDispatchInfo: {
 export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
 export interface FirstChanceExceptionEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Runtime_ExceptionServices_FirstChanceExceptionEventArgs: never;
+
     readonly Exception: Exception;
 }
 
@@ -38,6 +42,8 @@ export const FirstChanceExceptionEventArgs: {
 export type FirstChanceExceptionEventArgs = FirstChanceExceptionEventArgs$instance;
 
 export interface HandleProcessCorruptedStateExceptionsAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Runtime_ExceptionServices_HandleProcessCorruptedStateExceptionsAttribute: never;
+
 }
 
 

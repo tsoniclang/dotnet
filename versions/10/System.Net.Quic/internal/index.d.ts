@@ -52,6 +52,8 @@ export enum QuicStreamType {
 
 
 export interface QuicStreamCapacityChangedArgs$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicStreamCapacityChangedArgs: never;
+
     BidirectionalIncrement: int;
     UnidirectionalIncrement: int;
 }
@@ -65,6 +67,8 @@ export const QuicStreamCapacityChangedArgs: {
 export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instance;
 
 export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions {
+    readonly __tsonic_type_System_Net_Quic_QuicClientConnectionOptions: never;
+
     ClientAuthenticationOptions: SslClientAuthenticationOptions;
     get LocalEndPoint(): IPEndPoint | undefined;
     set LocalEndPoint(value: IPEndPoint | undefined);
@@ -80,6 +84,8 @@ export const QuicClientConnectionOptions: {
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
 export interface QuicConnection$instance extends System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicConnection: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
 
     readonly LocalEndPoint: IPEndPoint;
@@ -111,6 +117,8 @@ export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
 
 export interface QuicConnectionOptions$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicConnectionOptions: never;
+
     DefaultCloseErrorCode: long;
     DefaultStreamErrorCode: long;
     HandshakeTimeout: TimeSpan;
@@ -131,6 +139,8 @@ export const QuicConnectionOptions: {
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
 export interface QuicException$instance extends IOException {
+    readonly __tsonic_type_System_Net_Quic_QuicException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ApplicationErrorCode: Nullable_1<System_Internal.Int64>;
@@ -153,6 +163,8 @@ export type QuicException = QuicException$instance & __QuicException$views;
 
 
 export interface QuicListener$instance extends System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicListener: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
 
     readonly LocalEndPoint: IPEndPoint;
@@ -176,6 +188,8 @@ export type QuicListener = QuicListener$instance & __QuicListener$views;
 
 
 export interface QuicListenerOptions$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicListenerOptions: never;
+
     ApplicationProtocols: List_1<SslApplicationProtocol>;
     ConnectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
     ListenBacklog: int;
@@ -191,6 +205,8 @@ export const QuicListenerOptions: {
 export type QuicListenerOptions = QuicListenerOptions$instance;
 
 export interface QuicReceiveWindowSizes$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicReceiveWindowSizes: never;
+
     Connection: int;
     LocallyInitiatedBidirectionalStream: int;
     RemotelyInitiatedBidirectionalStream: int;
@@ -206,6 +222,8 @@ export const QuicReceiveWindowSizes: {
 export type QuicReceiveWindowSizes = QuicReceiveWindowSizes$instance;
 
 export interface QuicServerConnectionOptions$instance extends QuicConnectionOptions {
+    readonly __tsonic_type_System_Net_Quic_QuicServerConnectionOptions: never;
+
     ServerAuthenticationOptions: SslServerAuthenticationOptions;
 }
 
@@ -218,6 +236,8 @@ export const QuicServerConnectionOptions: {
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
 export interface QuicStream$instance extends Stream {
+    readonly __tsonic_type_System_Net_Quic_QuicStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

@@ -36,6 +36,8 @@ export interface IXmlJsonWriterInitializer$instance {
 export type IXmlJsonWriterInitializer = IXmlJsonWriterInitializer$instance;
 
 export interface DataContractJsonSerializer$instance extends XmlObjectSerializer {
+    readonly __tsonic_type_System_Runtime_Serialization_Json_DataContractJsonSerializer: never;
+
     readonly DateTimeFormat: DateTimeFormat | undefined;
     readonly EmitTypeInformation: EmitTypeInformation;
     readonly IgnoreExtensionDataObject: boolean;
@@ -78,6 +80,8 @@ export const DataContractJsonSerializer: {
 export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
 export interface DataContractJsonSerializerSettings$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_Json_DataContractJsonSerializerSettings: never;
+
     get DateTimeFormat(): DateTimeFormat | undefined;
     set DateTimeFormat(value: DateTimeFormat | undefined);
     EmitTypeInformation: EmitTypeInformation;

@@ -650,6 +650,8 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
 export type ITableMappingCollection = ITableMappingCollection$instance;
 
 export interface Constraint$instance {
+    readonly __tsonic_type_System_Data_Constraint: never;
+
     readonly _DataSet: DataSet | undefined;
     ConstraintName: string;
     readonly ExtendedProperties: PropertyCollection;
@@ -665,6 +667,8 @@ export const Constraint: {
 export type Constraint = Constraint$instance;
 
 export interface ConstraintCollection$instance extends InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_ConstraintCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -703,6 +707,8 @@ export type ConstraintCollection = ConstraintCollection$instance & __ConstraintC
 
 
 export interface ConstraintException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_ConstraintException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -724,6 +730,8 @@ export type ConstraintException = ConstraintException$instance & __ConstraintExc
 
 
 export interface DataColumn$instance extends MarshalByValueComponent {
+    readonly __tsonic_type_System_Data_DataColumn: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IServiceProvider: never;
@@ -775,6 +783,8 @@ export type DataColumn = DataColumn$instance & __DataColumn$views;
 
 
 export interface DataColumnChangeEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_DataColumnChangeEventArgs: never;
+
     readonly Column: DataColumn | undefined;
     get ProposedValue(): unknown | undefined;
     set ProposedValue(value: unknown | undefined);
@@ -790,6 +800,8 @@ export const DataColumnChangeEventArgs: {
 export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
 export interface DataColumnCollection$instance extends InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_DataColumnCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -828,6 +840,8 @@ export type DataColumnCollection = DataColumnCollection$instance & __DataColumnC
 
 
 export interface DataException$instance extends SystemException {
+    readonly __tsonic_type_System_Data_DataException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -849,6 +863,8 @@ export type DataException = DataException$instance & __DataException$views;
 
 
 export interface DataRelation$instance {
+    readonly __tsonic_type_System_Data_DataRelation: never;
+
     readonly ChildColumns: DataColumn[];
     readonly ChildKeyConstraint: ForeignKeyConstraint | undefined;
     readonly ChildTable: DataTable;
@@ -876,6 +892,8 @@ export const DataRelation: {
 export type DataRelation = DataRelation$instance;
 
 export interface DataRelationCollection$instance extends InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_DataRelationCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -920,6 +938,8 @@ export type DataRelationCollection = DataRelationCollection$instance & __DataRel
 
 
 export interface DataRow$instance {
+    readonly __tsonic_type_System_Data_DataRow: never;
+
     readonly HasErrors: boolean;
     ItemArray: (unknown | undefined)[];
     RowError: string;
@@ -979,6 +999,8 @@ export const DataRow: (abstract new(builder: DataRowBuilder) => DataRow) & {
 export type DataRow = DataRow$instance;
 
 export interface DataRowBuilder$instance {
+    readonly __tsonic_type_System_Data_DataRowBuilder: never;
+
 }
 
 
@@ -989,6 +1011,8 @@ export const DataRowBuilder: {
 export type DataRowBuilder = DataRowBuilder$instance;
 
 export interface DataRowChangeEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_DataRowChangeEventArgs: never;
+
     readonly Action: DataRowAction;
     readonly Row: DataRow;
 }
@@ -1002,6 +1026,8 @@ export const DataRowChangeEventArgs: {
 export type DataRowChangeEventArgs = DataRowChangeEventArgs$instance;
 
 export interface DataRowCollection$instance extends InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_DataRowCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1037,6 +1063,8 @@ export type DataRowCollection = DataRowCollection$instance & __DataRowCollection
 
 
 export interface DataRowComparer_1$instance<TRow extends DataRow> {
+    readonly __tsonic_type_System_Data_DataRowComparer_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
 
     Equals(leftRow: TRow, rightRow: TRow): boolean;
@@ -1057,6 +1085,8 @@ export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance
 
 
 export interface DataRowView$instance extends INotifyPropertyChanged, System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_ComponentModel_Internal.IDataErrorInfo$instance, System_ComponentModel_Internal.IEditableObject$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+    readonly __tsonic_type_System_Data_DataRowView: never;
+
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
     readonly __tsonic_iface_System_ComponentModel_IDataErrorInfo: never;
     readonly __tsonic_iface_System_ComponentModel_IEditableObject: never;
@@ -1098,6 +1128,8 @@ export type DataRowView = DataRowView$instance & __DataRowView$views;
 
 
 export interface DataSet$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Data_DataSet: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_IListSource: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
@@ -1218,6 +1250,8 @@ export type DataSet = DataSet$instance & __DataSet$views;
 
 
 export interface DataSysDescriptionAttribute$instance extends DescriptionAttribute {
+    readonly __tsonic_type_System_Data_DataSysDescriptionAttribute: never;
+
     readonly Description: string;
 }
 
@@ -1230,6 +1264,8 @@ export const DataSysDescriptionAttribute: {
 export type DataSysDescriptionAttribute = DataSysDescriptionAttribute$instance;
 
 export interface DataTable$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+    readonly __tsonic_type_System_Data_DataTable: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_IListSource: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
@@ -1368,6 +1404,8 @@ export type DataTable = DataTable$instance & __DataTable$views;
 
 
 export interface DataTableClearEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_DataTableClearEventArgs: never;
+
     readonly Table: DataTable;
     readonly TableName: string;
     readonly TableNamespace: string;
@@ -1382,6 +1420,8 @@ export const DataTableClearEventArgs: {
 export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
 export interface DataTableCollection$instance extends InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_DataTableCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1423,6 +1463,8 @@ export type DataTableCollection = DataTableCollection$instance & __DataTableColl
 
 
 export interface DataTableNewRowEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_DataTableNewRowEventArgs: never;
+
     readonly Row: DataRow;
 }
 
@@ -1435,6 +1477,8 @@ export const DataTableNewRowEventArgs: {
 export type DataTableNewRowEventArgs = DataTableNewRowEventArgs$instance;
 
 export interface DataTableReader$instance extends DbDataReader {
+    readonly __tsonic_type_System_Data_DataTableReader: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Data_IDataReader: never;
     readonly __tsonic_iface_System_Data_IDataRecord: never;
@@ -1503,6 +1547,8 @@ export type DataTableReader = DataTableReader$instance & __DataTableReader$views
 
 
 export interface DataView$instance extends MarshalByValueComponent, System_ComponentModel_Internal.ITypedList$instance {
+    readonly __tsonic_type_System_Data_DataView: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1580,6 +1626,8 @@ export type DataView = DataView$instance & __DataView$views;
 
 
 export interface DataViewManager$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IBindingList$instance, System_ComponentModel_Internal.ITypedList$instance {
+    readonly __tsonic_type_System_Data_DataViewManager: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -1624,6 +1672,8 @@ export type DataViewManager = DataViewManager$instance & __DataViewManager$views
 
 
 export interface DataViewSetting$instance {
+    readonly __tsonic_type_System_Data_DataViewSetting: never;
+
     ApplyDefaultSort: boolean;
     readonly DataViewManager: DataViewManager | undefined;
     RowFilter: string;
@@ -1640,6 +1690,8 @@ export const DataViewSetting: {
 export type DataViewSetting = DataViewSetting$instance;
 
 export interface DataViewSettingCollection$instance {
+    readonly __tsonic_type_System_Data_DataViewSettingCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1671,6 +1723,8 @@ export type DataViewSettingCollection = DataViewSettingCollection$instance & __D
 
 
 export interface DBConcurrencyException$instance extends SystemException {
+    readonly __tsonic_type_System_Data_DBConcurrencyException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     get Row(): DataRow | undefined;
@@ -1698,6 +1752,8 @@ export type DBConcurrencyException = DBConcurrencyException$instance & __DBConcu
 
 
 export interface DeletedRowInaccessibleException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_DeletedRowInaccessibleException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1719,6 +1775,8 @@ export type DeletedRowInaccessibleException = DeletedRowInaccessibleException$in
 
 
 export interface DuplicateNameException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_DuplicateNameException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1740,6 +1798,8 @@ export type DuplicateNameException = DuplicateNameException$instance & __Duplica
 
 
 export interface EnumerableRowCollection$instance {
+    readonly __tsonic_type_System_Data_EnumerableRowCollection: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
 }
@@ -1757,6 +1817,8 @@ export type EnumerableRowCollection = EnumerableRowCollection$instance & __Enume
 
 
 export interface EnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection$instance {
+    readonly __tsonic_type_System_Data_EnumerableRowCollection_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1777,6 +1839,8 @@ export type EnumerableRowCollection_1<TRow> = EnumerableRowCollection_1$instance
 
 
 export interface EvaluateException$instance extends InvalidExpressionException$instance {
+    readonly __tsonic_type_System_Data_EvaluateException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1798,6 +1862,8 @@ export type EvaluateException = EvaluateException$instance & __EvaluateException
 
 
 export interface FillErrorEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_FillErrorEventArgs: never;
+
     Continue: boolean;
     readonly DataTable: DataTable | undefined;
     get Errors(): Exception | undefined;
@@ -1814,6 +1880,8 @@ export const FillErrorEventArgs: {
 export type FillErrorEventArgs = FillErrorEventArgs$instance;
 
 export interface ForeignKeyConstraint$instance extends Constraint {
+    readonly __tsonic_type_System_Data_ForeignKeyConstraint: never;
+
     AcceptRejectRule: AcceptRejectRule;
     readonly Columns: DataColumn[];
     DeleteRule: Rule;
@@ -1839,6 +1907,8 @@ export const ForeignKeyConstraint: {
 export type ForeignKeyConstraint = ForeignKeyConstraint$instance;
 
 export interface InRowChangingEventException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_InRowChangingEventException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1860,6 +1930,8 @@ export type InRowChangingEventException = InRowChangingEventException$instance &
 
 
 export interface InternalDataCollectionBase$instance {
+    readonly __tsonic_type_System_Data_InternalDataCollectionBase: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -1887,6 +1959,8 @@ export type InternalDataCollectionBase = InternalDataCollectionBase$instance & _
 
 
 export interface InvalidConstraintException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_InvalidConstraintException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1908,6 +1982,8 @@ export type InvalidConstraintException = InvalidConstraintException$instance & _
 
 
 export interface InvalidExpressionException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_InvalidExpressionException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1929,6 +2005,8 @@ export type InvalidExpressionException = InvalidExpressionException$instance & _
 
 
 export interface MergeFailedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_MergeFailedEventArgs: never;
+
     readonly Conflict: string;
     readonly Table: DataTable | undefined;
 }
@@ -1942,6 +2020,8 @@ export const MergeFailedEventArgs: {
 export type MergeFailedEventArgs = MergeFailedEventArgs$instance;
 
 export interface MissingPrimaryKeyException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_MissingPrimaryKeyException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1963,6 +2043,8 @@ export type MissingPrimaryKeyException = MissingPrimaryKeyException$instance & _
 
 
 export interface NoNullAllowedException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_NoNullAllowedException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1984,6 +2066,8 @@ export type NoNullAllowedException = NoNullAllowedException$instance & __NoNullA
 
 
 export interface OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection_1$instance<TRow> {
+    readonly __tsonic_type_System_Data_OrderedEnumerableRowCollection_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
@@ -2005,6 +2089,8 @@ export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollect
 
 
 export interface PropertyCollection$instance extends Hashtable {
+    readonly __tsonic_type_System_Data_PropertyCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -2043,6 +2129,8 @@ export type PropertyCollection = PropertyCollection$instance & __PropertyCollect
 
 
 export interface ReadOnlyException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_ReadOnlyException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -2064,6 +2152,8 @@ export type ReadOnlyException = ReadOnlyException$instance & __ReadOnlyException
 
 
 export interface RowNotInTableException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_RowNotInTableException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -2085,6 +2175,8 @@ export type RowNotInTableException = RowNotInTableException$instance & __RowNotI
 
 
 export interface StateChangeEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_StateChangeEventArgs: never;
+
     readonly CurrentState: ConnectionState;
     readonly OriginalState: ConnectionState;
 }
@@ -2098,6 +2190,8 @@ export const StateChangeEventArgs: {
 export type StateChangeEventArgs = StateChangeEventArgs$instance;
 
 export interface StatementCompletedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_StatementCompletedEventArgs: never;
+
     readonly RecordCount: int;
 }
 
@@ -2110,6 +2204,8 @@ export const StatementCompletedEventArgs: {
 export type StatementCompletedEventArgs = StatementCompletedEventArgs$instance;
 
 export interface StrongTypingException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_StrongTypingException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -2131,6 +2227,8 @@ export type StrongTypingException = StrongTypingException$instance & __StrongTyp
 
 
 export interface SyntaxErrorException$instance extends InvalidExpressionException$instance {
+    readonly __tsonic_type_System_Data_SyntaxErrorException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -2152,6 +2250,8 @@ export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxError
 
 
 export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance, System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance {
+    readonly __tsonic_type_System_Data_TypedTableBase_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -2217,6 +2317,8 @@ export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> &
 
 
 export interface UniqueConstraint$instance extends Constraint {
+    readonly __tsonic_type_System_Data_UniqueConstraint: never;
+
     readonly Columns: DataColumn[];
     readonly IsPrimaryKey: boolean;
     readonly Table: DataTable | undefined;
@@ -2241,6 +2343,8 @@ export const UniqueConstraint: {
 export type UniqueConstraint = UniqueConstraint$instance;
 
 export interface VersionNotFoundException$instance extends DataException$instance {
+    readonly __tsonic_type_System_Data_VersionNotFoundException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;

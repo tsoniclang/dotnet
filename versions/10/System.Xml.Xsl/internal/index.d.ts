@@ -48,6 +48,8 @@ export interface IXsltContextVariable$instance {
 export type IXsltContextVariable = IXsltContextVariable$instance;
 
 export interface XslCompiledTransform$instance {
+    readonly __tsonic_type_System_Xml_Xsl_XslCompiledTransform: never;
+
     get OutputSettings(): XmlWriterSettings | undefined;
     set OutputSettings(value: XmlWriterSettings | undefined);
     Load(stylesheet: XmlReader): void;
@@ -85,6 +87,8 @@ export const XslCompiledTransform: {
 export type XslCompiledTransform = XslCompiledTransform$instance;
 
 export interface XsltArgumentList$instance {
+    readonly __tsonic_type_System_Xml_Xsl_XsltArgumentList: never;
+
     AddExtensionObject(namespaceUri: string, extension: unknown): void;
     AddParam(name: string, namespaceUri: string, parameter: unknown): void;
     Clear(): void;
@@ -103,6 +107,8 @@ export const XsltArgumentList: {
 export type XsltArgumentList = XsltArgumentList$instance;
 
 export interface XsltCompileException$instance extends XsltException$instance {
+    readonly __tsonic_type_System_Xml_Xsl_XsltCompileException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -125,6 +131,8 @@ export type XsltCompileException = XsltCompileException$instance & __XsltCompile
 
 
 export interface XsltContext$instance extends XmlNamespaceManager {
+    readonly __tsonic_type_System_Xml_Xsl_XsltContext: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
 
@@ -152,6 +160,8 @@ export type XsltContext = XsltContext$instance & __XsltContext$views;
 
 
 export interface XsltException$instance extends SystemException {
+    readonly __tsonic_type_System_Xml_Xsl_XsltException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly LineNumber: int;
@@ -177,6 +187,8 @@ export type XsltException = XsltException$instance & __XsltException$views;
 
 
 export interface XsltMessageEncounteredEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Xml_Xsl_XsltMessageEncounteredEventArgs: never;
+
     readonly Message: string;
 }
 
@@ -188,6 +200,8 @@ export const XsltMessageEncounteredEventArgs: (abstract new() => XsltMessageEnco
 export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$instance;
 
 export interface XslTransform$instance {
+    readonly __tsonic_type_System_Xml_Xsl_XslTransform: never;
+
     XmlResolver: XmlResolver | undefined;
     Load(stylesheet: XmlReader): void;
     Load(stylesheet: XmlReader, resolver: XmlResolver): void;
@@ -226,6 +240,8 @@ export const XslTransform: {
 export type XslTransform = XslTransform$instance;
 
 export interface XsltSettings$instance {
+    readonly __tsonic_type_System_Xml_Xsl_XsltSettings: never;
+
     EnableDocumentFunction: boolean;
     EnableScript: boolean;
 }

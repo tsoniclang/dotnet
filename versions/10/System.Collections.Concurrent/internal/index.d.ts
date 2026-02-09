@@ -43,6 +43,8 @@ export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1
 export type IProducerConsumerCollection_1<T> = IProducerConsumerCollection_1$instance<T>;
 
 export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2_AlternateLookup_1: never;
+
     readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
     Item: TValue;
     ContainsKey(key: TAlternateKey): boolean;
@@ -62,6 +64,8 @@ export const ConcurrentDictionary_2_AlternateLookup_1: {
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Concurrent_BlockingCollection_1: never;
+
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -126,6 +130,8 @@ export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __Block
 
 
 export interface ConcurrentBag_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentBag_1: never;
+
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -162,6 +168,8 @@ export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1
 
 
 export interface ConcurrentDictionary_2$instance<TKey, TValue> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -223,6 +231,8 @@ export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instan
 
 
 export interface ConcurrentQueue_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentQueue_1: never;
+
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -259,6 +269,8 @@ export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQ
 
 
 export interface ConcurrentStack_1$instance<T> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentStack_1: never;
+
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -299,6 +311,8 @@ export type ConcurrentStack_1<T> = ConcurrentStack_1$instance<T> & __ConcurrentS
 
 
 export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<TSource> {
+    readonly __tsonic_type_System_Collections_Concurrent_OrderablePartitioner_1: never;
+
     readonly KeysNormalized: boolean;
     readonly KeysOrderedAcrossPartitions: boolean;
     readonly KeysOrderedInEachPartition: boolean;
@@ -318,6 +332,8 @@ export const OrderablePartitioner_1: (abstract new<TSource>(keysOrderedInEachPar
 export type OrderablePartitioner_1<TSource> = OrderablePartitioner_1$instance<TSource>;
 
 export interface Partitioner_1$instance<TSource> {
+    readonly __tsonic_type_System_Collections_Concurrent_Partitioner_1: never;
+
     readonly SupportsDynamicPartitions: boolean;
     GetDynamicPartitions(): IEnumerable_1<TSource>;
     GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;

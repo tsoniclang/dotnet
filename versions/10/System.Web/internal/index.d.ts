@@ -22,6 +22,8 @@ export interface IHtmlString$instance {
 export type IHtmlString = IHtmlString$instance;
 
 export interface HttpUtility$instance {
+    readonly __tsonic_type_System_Web_HttpUtility: never;
+
 }
 
 

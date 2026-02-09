@@ -72,6 +72,8 @@ export interface IDbColumnSchemaGenerator$instance {
 export type IDbColumnSchemaGenerator = IDbColumnSchemaGenerator$instance;
 
 export interface DataAdapter$instance extends Component {
+    readonly __tsonic_type_System_Data_Common_DataAdapter: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDataAdapter: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -119,6 +121,8 @@ export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
 
 export interface DataColumnMapping$instance extends MarshalByRefObject, System_Data_Internal.IColumnMapping$instance, System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_Data_Common_DataColumnMapping: never;
+
     readonly __tsonic_iface_System_Data_IColumnMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
 
@@ -145,6 +149,8 @@ export type DataColumnMapping = DataColumnMapping$instance & __DataColumnMapping
 
 
 export interface DataColumnMappingCollection$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Data_Common_DataColumnMappingCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -196,6 +202,8 @@ export type DataColumnMappingCollection = DataColumnMappingCollection$instance &
 
 
 export interface DataTableMapping$instance extends MarshalByRefObject, System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_Data_Common_DataTableMapping: never;
+
     readonly __tsonic_iface_System_Data_ITableMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
 
@@ -225,6 +233,8 @@ export type DataTableMapping = DataTableMapping$instance & __DataTableMapping$vi
 
 
 export interface DataTableMappingCollection$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Data_Common_DataTableMappingCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -275,6 +285,8 @@ export type DataTableMappingCollection = DataTableMappingCollection$instance & _
 
 
 export interface DbBatch$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbBatch: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -321,6 +333,8 @@ export type DbBatch = DbBatch$instance & __DbBatch$views;
 
 
 export interface DbBatchCommand$instance {
+    readonly __tsonic_type_System_Data_Common_DbBatchCommand: never;
+
     readonly CanCreateParameter: boolean;
     CommandText: string;
     CommandType: CommandType;
@@ -338,6 +352,8 @@ export const DbBatchCommand: (abstract new() => DbBatchCommand) & {
 export type DbBatchCommand = DbBatchCommand$instance;
 
 export interface DbBatchCommandCollection$instance {
+    readonly __tsonic_type_System_Data_Common_DbBatchCommandCollection: never;
+
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -375,6 +391,8 @@ export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbB
 
 
 export interface DbColumn$instance {
+    readonly __tsonic_type_System_Data_Common_DbColumn: never;
+
     AllowDBNull: Nullable_1<System_Internal.Boolean>;
     get BaseCatalogName(): string | undefined;
     set BaseCatalogName(value: string | undefined);
@@ -417,6 +435,8 @@ export const DbColumn: (abstract new() => DbColumn) & {
 export type DbColumn = DbColumn$instance;
 
 export interface DbCommand$instance extends Component, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbCommand: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbCommand: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -477,6 +497,8 @@ export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
 export interface DbCommandBuilder$instance extends Component {
+    readonly __tsonic_type_System_Data_Common_DbCommandBuilder: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -523,6 +545,8 @@ export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$vi
 
 
 export interface DbConnection$instance extends Component, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbConnection: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbConnection: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -582,6 +606,8 @@ export type DbConnection = DbConnection$instance & __DbConnection$views;
 
 
 export interface DbConnectionStringBuilder$instance {
+    readonly __tsonic_type_System_Data_Common_DbConnectionStringBuilder: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -626,6 +652,8 @@ export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __D
 
 
 export interface DbDataAdapter$instance extends DataAdapter$instance, System_Internal.ICloneable$instance {
+    readonly __tsonic_type_System_Data_Common_DbDataAdapter: never;
+
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDataAdapter: never;
     readonly __tsonic_iface_System_Data_IDbDataAdapter: never;
@@ -688,6 +716,8 @@ export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
 export interface DbDataReader$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbDataReader: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Data_IDataReader: never;
     readonly __tsonic_iface_System_Data_IDataRecord: never;
@@ -769,6 +799,8 @@ export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
 export interface DbDataRecord$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_Data_Internal.IDataRecord$instance {
+    readonly __tsonic_type_System_Data_Common_DbDataRecord: never;
+
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
     readonly __tsonic_iface_System_Data_IDataRecord: never;
 
@@ -814,6 +846,8 @@ export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
 export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbDataSource: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -848,6 +882,8 @@ export type DbDataSource = DbDataSource$instance & __DbDataSource$views;
 
 
 export interface DbDataSourceEnumerator$instance {
+    readonly __tsonic_type_System_Data_Common_DbDataSourceEnumerator: never;
+
     GetDataSources(): DataTable;
 }
 
@@ -859,6 +895,8 @@ export const DbDataSourceEnumerator: (abstract new() => DbDataSourceEnumerator) 
 export type DbDataSourceEnumerator = DbDataSourceEnumerator$instance;
 
 export interface DbEnumerator$instance {
+    readonly __tsonic_type_System_Data_Common_DbEnumerator: never;
+
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Current: unknown;
@@ -883,6 +921,8 @@ export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
 export interface DbException$instance extends ExternalException {
+    readonly __tsonic_type_System_Data_Common_DbException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly BatchCommand: DbBatchCommand | undefined;
@@ -905,6 +945,8 @@ export type DbException = DbException$instance & __DbException$views;
 
 
 export interface DbParameter$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Data_Common_DbParameter: never;
+
     readonly __tsonic_iface_System_Data_IDataParameter: never;
     readonly __tsonic_iface_System_Data_IDbDataParameter: never;
 
@@ -937,6 +979,8 @@ export type DbParameter = DbParameter$instance & __DbParameter$views;
 
 
 export interface DbParameterCollection$instance extends MarshalByRefObject {
+    readonly __tsonic_type_System_Data_Common_DbParameterCollection: never;
+
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -986,6 +1030,8 @@ export type DbParameterCollection = DbParameterCollection$instance & __DbParamet
 
 
 export interface DbProviderFactory$instance {
+    readonly __tsonic_type_System_Data_Common_DbProviderFactory: never;
+
     readonly CanCreateBatch: boolean;
     readonly CanCreateCommandBuilder: boolean;
     readonly CanCreateDataAdapter: boolean;
@@ -1010,6 +1056,8 @@ export const DbProviderFactory: (abstract new() => DbProviderFactory) & {
 export type DbProviderFactory = DbProviderFactory$instance;
 
 export interface DbProviderSpecificTypePropertyAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_Data_Common_DbProviderSpecificTypePropertyAttribute: never;
+
     readonly IsProviderSpecificTypeProperty: boolean;
 }
 
@@ -1022,6 +1070,8 @@ export const DbProviderSpecificTypePropertyAttribute: {
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
 export interface DbTransaction$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+    readonly __tsonic_type_System_Data_Common_DbTransaction: never;
+
     readonly __tsonic_iface_System_Data_IDbTransaction: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1060,6 +1110,8 @@ export type DbTransaction = DbTransaction$instance & __DbTransaction$views;
 
 
 export interface RowUpdatedEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_Common_RowUpdatedEventArgs: never;
+
     readonly Command: IDbCommand | undefined;
     get Errors(): Exception | undefined;
     set Errors(value: Exception | undefined);
@@ -1082,6 +1134,8 @@ export const RowUpdatedEventArgs: {
 export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
 export interface RowUpdatingEventArgs$instance extends EventArgs {
+    readonly __tsonic_type_System_Data_Common_RowUpdatingEventArgs: never;
+
     get BaseCommand(): IDbCommand | undefined;
     set BaseCommand(value: IDbCommand | undefined);
     get Command(): IDbCommand | undefined;

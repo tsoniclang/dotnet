@@ -28,6 +28,8 @@ export interface IDuplexPipe$instance {
 export type IDuplexPipe = IDuplexPipe$instance;
 
 export interface FlushResult$instance {
+    readonly __tsonic_type_System_IO_Pipelines_FlushResult: never;
+
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
 }
@@ -41,6 +43,8 @@ export const FlushResult: {
 export type FlushResult = FlushResult$instance;
 
 export interface ReadResult$instance {
+    readonly __tsonic_type_System_IO_Pipelines_ReadResult: never;
+
     readonly Buffer: ReadOnlySequence_1<System_Internal.Byte>;
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
@@ -55,6 +59,8 @@ export const ReadResult: {
 export type ReadResult = ReadResult$instance;
 
 export interface Pipe$instance {
+    readonly __tsonic_type_System_IO_Pipelines_Pipe: never;
+
     readonly Reader: PipeReader;
     readonly Writer: PipeWriter;
     Reset(): void;
@@ -70,6 +76,8 @@ export const Pipe: {
 export type Pipe = Pipe$instance;
 
 export interface PipeOptions$instance {
+    readonly __tsonic_type_System_IO_Pipelines_PipeOptions: never;
+
     readonly MinimumSegmentSize: int;
     readonly PauseWriterThreshold: long;
     readonly Pool: MemoryPool_1<System_Internal.Byte>;
@@ -89,6 +97,8 @@ export const PipeOptions: {
 export type PipeOptions = PipeOptions$instance;
 
 export interface PipeReader$instance {
+    readonly __tsonic_type_System_IO_Pipelines_PipeReader: never;
+
     AdvanceTo(consumed: SequencePosition): void;
     AdvanceTo(consumed: SequencePosition, examined: SequencePosition): void;
     AsStream(leaveOpen?: boolean): Stream;
@@ -114,6 +124,8 @@ export const PipeReader: (abstract new() => PipeReader) & {
 export type PipeReader = PipeReader$instance;
 
 export interface PipeScheduler$instance {
+    readonly __tsonic_type_System_IO_Pipelines_PipeScheduler: never;
+
     Schedule(action: Action_1<unknown>, state: unknown): void;
 }
 
@@ -127,6 +139,8 @@ export const PipeScheduler: (abstract new() => PipeScheduler) & {
 export type PipeScheduler = PipeScheduler$instance;
 
 export interface PipeWriter$instance {
+    readonly __tsonic_type_System_IO_Pipelines_PipeWriter: never;
+
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
 
     readonly CanGetUnflushedBytes: boolean;
@@ -158,6 +172,8 @@ export type PipeWriter = PipeWriter$instance & __PipeWriter$views;
 
 
 export interface StreamPipeReaderOptions$instance {
+    readonly __tsonic_type_System_IO_Pipelines_StreamPipeReaderOptions: never;
+
     readonly BufferSize: int;
     readonly LeaveOpen: boolean;
     readonly MinimumReadSize: int;
@@ -175,6 +191,8 @@ export const StreamPipeReaderOptions: {
 export type StreamPipeReaderOptions = StreamPipeReaderOptions$instance;
 
 export interface StreamPipeWriterOptions$instance {
+    readonly __tsonic_type_System_IO_Pipelines_StreamPipeWriterOptions: never;
+
     readonly LeaveOpen: boolean;
     readonly MinimumBufferSize: int;
     readonly Pool: MemoryPool_1<System_Internal.Byte>;

@@ -14,6 +14,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface BinaryFormatter$instance extends System_Runtime_Serialization_Internal.IFormatter$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_Formatters_Binary_BinaryFormatter: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
 
     AssemblyFormat: FormatterAssemblyStyle;

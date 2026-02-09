@@ -15,6 +15,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, MarshalByRefObject, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
 export interface GeneratedCodeAttribute$instance extends Attribute {
+    readonly __tsonic_type_System_CodeDom_Compiler_GeneratedCodeAttribute: never;
+
     readonly Tool: string | undefined;
     readonly Version: string | undefined;
 }
@@ -28,6 +30,8 @@ export const GeneratedCodeAttribute: {
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
 export interface IndentedTextWriter$instance extends TextWriter {
+    readonly __tsonic_type_System_CodeDom_Compiler_IndentedTextWriter: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 

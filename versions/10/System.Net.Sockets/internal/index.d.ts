@@ -360,6 +360,8 @@ export enum TransmitFileOptions {
 
 
 export interface IPPacketInformation$instance {
+    readonly __tsonic_type_System_Net_Sockets_IPPacketInformation: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Address: IPAddress;
@@ -386,6 +388,8 @@ export type IPPacketInformation = IPPacketInformation$instance & __IPPacketInfor
 
 
 export interface SocketInformation$instance {
+    readonly __tsonic_type_System_Net_Sockets_SocketInformation: never;
+
     Options: SocketInformationOptions;
     ProtocolInformation: byte[];
 }
@@ -399,6 +403,8 @@ export const SocketInformation: {
 export type SocketInformation = SocketInformation$instance;
 
 export interface SocketReceiveFromResult$instance {
+    readonly __tsonic_type_System_Net_Sockets_SocketReceiveFromResult: never;
+
     ReceivedBytes: int;
     RemoteEndPoint: EndPoint;
 }
@@ -412,6 +418,8 @@ export const SocketReceiveFromResult: {
 export type SocketReceiveFromResult = SocketReceiveFromResult$instance;
 
 export interface SocketReceiveMessageFromResult$instance {
+    readonly __tsonic_type_System_Net_Sockets_SocketReceiveMessageFromResult: never;
+
     ReceivedBytes: int;
     SocketFlags: SocketFlags;
     RemoteEndPoint: EndPoint;
@@ -427,6 +435,8 @@ export const SocketReceiveMessageFromResult: {
 export type SocketReceiveMessageFromResult = SocketReceiveMessageFromResult$instance;
 
 export interface UdpReceiveResult$instance {
+    readonly __tsonic_type_System_Net_Sockets_UdpReceiveResult: never;
+
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Buffer: byte[];
@@ -453,6 +463,8 @@ export type UdpReceiveResult = UdpReceiveResult$instance & __UdpReceiveResult$vi
 
 
 export interface IPv6MulticastOption$instance {
+    readonly __tsonic_type_System_Net_Sockets_IPv6MulticastOption: never;
+
     Group: IPAddress;
     InterfaceIndex: long;
 }
@@ -467,6 +479,8 @@ export const IPv6MulticastOption: {
 export type IPv6MulticastOption = IPv6MulticastOption$instance;
 
 export interface LingerOption$instance {
+    readonly __tsonic_type_System_Net_Sockets_LingerOption: never;
+
     Enabled: boolean;
     LingerTime: int;
     Equals(comparand: unknown): boolean;
@@ -482,6 +496,8 @@ export const LingerOption: {
 export type LingerOption = LingerOption$instance;
 
 export interface MulticastOption$instance {
+    readonly __tsonic_type_System_Net_Sockets_MulticastOption: never;
+
     Group: IPAddress;
     InterfaceIndex: int;
     get LocalAddress(): IPAddress | undefined;
@@ -499,6 +515,8 @@ export const MulticastOption: {
 export type MulticastOption = MulticastOption$instance;
 
 export interface NetworkStream$instance extends Stream {
+    readonly __tsonic_type_System_Net_Sockets_NetworkStream: never;
+
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -564,6 +582,8 @@ export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
 export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
+    readonly __tsonic_type_System_Net_Sockets_SafeSocketHandle: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
@@ -587,6 +607,8 @@ export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$vi
 
 
 export interface SendPacketsElement$instance {
+    readonly __tsonic_type_System_Net_Sockets_SendPacketsElement: never;
+
     get Buffer(): byte[] | undefined;
     set Buffer(value: byte[] | undefined);
     Count: int;
@@ -621,6 +643,8 @@ export const SendPacketsElement: {
 export type SendPacketsElement = SendPacketsElement$instance;
 
 export interface Socket$instance {
+    readonly __tsonic_type_System_Net_Sockets_Socket: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AddressFamily: AddressFamily;
@@ -831,6 +855,8 @@ export type Socket = Socket$instance & __Socket$views;
 
 
 export interface SocketAsyncEventArgs$instance extends EventArgs, System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Sockets_SocketAsyncEventArgs: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     get AcceptSocket(): Socket | undefined;
@@ -880,6 +906,8 @@ export type SocketAsyncEventArgs = SocketAsyncEventArgs$instance & __SocketAsync
 
 
 export interface SocketException$instance extends Win32Exception {
+    readonly __tsonic_type_System_Net_Sockets_SocketException: never;
+
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
@@ -904,6 +932,8 @@ export type SocketException = SocketException$instance & __SocketException$views
 
 
 export interface TcpClient$instance {
+    readonly __tsonic_type_System_Net_Sockets_TcpClient: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Available: int;
@@ -957,6 +987,8 @@ export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
 export interface TcpListener$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Net_Sockets_TcpListener: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     ExclusiveAddressUse: boolean;
@@ -997,6 +1029,8 @@ export type TcpListener = TcpListener$instance & __TcpListener$views;
 
 
 export interface UdpClient$instance {
+    readonly __tsonic_type_System_Net_Sockets_UdpClient: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Available: int;
@@ -1061,6 +1095,8 @@ export type UdpClient = UdpClient$instance & __UdpClient$views;
 
 
 export interface UnixDomainSocketEndPoint$instance extends EndPoint {
+    readonly __tsonic_type_System_Net_Sockets_UnixDomainSocketEndPoint: never;
+
     readonly AddressFamily: AddressFamily;
     Create(socketAddress: SocketAddress): EndPoint;
     Equals(obj: unknown): boolean;

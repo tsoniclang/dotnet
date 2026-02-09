@@ -13,6 +13,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {
+    readonly __tsonic_type_System_Runtime_Loader_AssemblyLoadContext_ContextualReflectionScope: never;
+
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -32,6 +34,8 @@ export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_
 
 
 export interface AssemblyDependencyResolver$instance {
+    readonly __tsonic_type_System_Runtime_Loader_AssemblyDependencyResolver: never;
+
     ResolveAssemblyToPath(assemblyName: AssemblyName): string | undefined;
     ResolveUnmanagedDllToPath(unmanagedDllName: string): string | undefined;
 }
@@ -45,6 +49,8 @@ export const AssemblyDependencyResolver: {
 export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
 export interface AssemblyLoadContext$instance {
+    readonly __tsonic_type_System_Runtime_Loader_AssemblyLoadContext: never;
+
     readonly Assemblies: IEnumerable_1<Assembly>;
     readonly IsCollectible: boolean;
     readonly Name: string | undefined;
