@@ -261,7 +261,7 @@ export const DefaultExpression: {
 
 export type DefaultExpression = DefaultExpression$instance;
 
-export interface DynamicExpression$instance extends Expression {
+export interface DynamicExpression$instance extends Expression, IDynamicExpression$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
     readonly __tsonic_iface_System_Linq_Expressions_IDynamicExpression: never;
 
@@ -298,8 +298,6 @@ export interface __DynamicExpression$views {
     As_IDynamicExpression(): IDynamicExpression$instance;
 }
 
-export interface DynamicExpression$instance extends IDynamicExpression$instance {}
-
 export type DynamicExpression = DynamicExpression$instance & __DynamicExpression$views;
 
 
@@ -315,7 +313,7 @@ export const DynamicExpressionVisitor: {
 
 export type DynamicExpressionVisitor = DynamicExpressionVisitor$instance;
 
-export interface ElementInit$instance {
+export interface ElementInit$instance extends IArgumentProvider$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
 
     readonly AddMethod: MethodInfo;
@@ -334,8 +332,6 @@ export const ElementInit: {
 export interface __ElementInit$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
-
-export interface ElementInit$instance extends IArgumentProvider$instance {}
 
 export type ElementInit = ElementInit$instance & __ElementInit$views;
 
@@ -669,6 +665,8 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
 export type Expression = Expression$instance;
 
 export interface Expression_1$instance<TDelegate> extends LambdaExpression {
+    readonly __tsonic_iface_System_Linq_Expressions_IParameterProvider: never;
+
     Accept(visitor: ExpressionVisitor): Expression;
     Compile(): TDelegate;
     Compile(preferInterpretation: boolean): TDelegate;
@@ -752,7 +750,7 @@ export const GotoExpression: {
 
 export type GotoExpression = GotoExpression$instance;
 
-export interface IndexExpression$instance extends Expression {
+export interface IndexExpression$instance extends Expression, IArgumentProvider$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
 
     readonly ArgumentCount: int;
@@ -775,12 +773,10 @@ export interface __IndexExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
 
-export interface IndexExpression$instance extends IArgumentProvider$instance {}
-
 export type IndexExpression = IndexExpression$instance & __IndexExpression$views;
 
 
-export interface InvocationExpression$instance extends Expression {
+export interface InvocationExpression$instance extends Expression, IArgumentProvider$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
 
     readonly ArgumentCount: int;
@@ -801,8 +797,6 @@ export const InvocationExpression: {
 export interface __InvocationExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
-
-export interface InvocationExpression$instance extends IArgumentProvider$instance {}
 
 export type InvocationExpression = InvocationExpression$instance & __InvocationExpression$views;
 
@@ -837,6 +831,8 @@ export const LabelTarget: {
 export type LabelTarget = LabelTarget$instance;
 
 export interface LambdaExpression$instance extends Expression {
+    readonly __tsonic_iface_System_Linq_Expressions_IParameterProvider: never;
+
     readonly Body: Expression;
     readonly Name: string | undefined;
     readonly NodeType: ExpressionType;
@@ -975,7 +971,7 @@ export const MemberMemberBinding: {
 
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
-export interface MethodCallExpression$instance extends Expression {
+export interface MethodCallExpression$instance extends Expression, IArgumentProvider$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
 
     readonly ArgumentCount: int;
@@ -998,8 +994,6 @@ export interface __MethodCallExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
 
-export interface MethodCallExpression$instance extends IArgumentProvider$instance {}
-
 export type MethodCallExpression = MethodCallExpression$instance & __MethodCallExpression$views;
 
 
@@ -1017,7 +1011,7 @@ export const NewArrayExpression: {
 
 export type NewArrayExpression = NewArrayExpression$instance;
 
-export interface NewExpression$instance extends Expression {
+export interface NewExpression$instance extends Expression, IArgumentProvider$instance {
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
 
     readonly ArgumentCount: int;
@@ -1039,8 +1033,6 @@ export const NewExpression: {
 export interface __NewExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
-
-export interface NewExpression$instance extends IArgumentProvider$instance {}
 
 export type NewExpression = NewExpression$instance & __NewExpression$views;
 

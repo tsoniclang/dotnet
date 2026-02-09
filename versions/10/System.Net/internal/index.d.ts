@@ -454,8 +454,6 @@ export interface __IPNetwork$views {
     TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
 
-export interface IPNetwork$instance extends System_Internal.ISpanParsable_1$instance<IPNetwork> {}
-
 export type IPNetwork = IPNetwork$instance & __IPNetwork$views;
 
 
@@ -888,7 +886,7 @@ export const GlobalProxySelection: {
 
 export type GlobalProxySelection = GlobalProxySelection$instance;
 
-export interface HttpListener$instance {
+export interface HttpListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AuthenticationSchemes: AuthenticationSchemes;
@@ -925,8 +923,6 @@ export const HttpListener: {
 export interface __HttpListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HttpListener$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpListener = HttpListener$instance & __HttpListener$views;
 
@@ -1063,7 +1059,7 @@ export const HttpListenerRequest: {
 
 export type HttpListenerRequest = HttpListenerRequest$instance;
 
-export interface HttpListenerResponse$instance {
+export interface HttpListenerResponse$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get ContentEncoding(): Encoding | undefined;
@@ -1100,8 +1096,6 @@ export const HttpListenerResponse: {
 export interface __HttpListenerResponse$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HttpListenerResponse$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpListenerResponse = HttpListenerResponse$instance & __HttpListenerResponse$views;
 
@@ -1327,8 +1321,6 @@ export interface __IPAddress$views {
     // Structural method bridges for numeric interface constraints
     TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
-
-export interface IPAddress$instance extends System_Internal.ISpanParsable_1$instance<IPAddress> {}
 
 export type IPAddress = IPAddress$instance & __IPAddress$views;
 
@@ -1819,7 +1811,7 @@ export interface __WebHeaderCollection$views {
 export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderCollection$views;
 
 
-export interface WebProxy$instance {
+export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Net_IWebProxy: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1857,12 +1849,10 @@ export interface __WebProxy$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
-export interface WebRequest$instance extends MarshalByRefObject {
+export interface WebRequest$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     AuthenticationLevel: AuthenticationLevel;
@@ -1916,12 +1906,10 @@ export interface __WebRequest$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface WebRequest$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
-export interface WebResponse$instance extends MarshalByRefObject {
+export interface WebResponse$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1948,8 +1936,6 @@ export interface __WebResponse$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WebResponse$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type WebResponse = WebResponse$instance & __WebResponse$views;
 

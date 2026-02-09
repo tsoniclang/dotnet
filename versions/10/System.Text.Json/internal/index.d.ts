@@ -373,7 +373,7 @@ export const Utf8JsonReader: {
 
 export type Utf8JsonReader = Utf8JsonReader$instance;
 
-export interface JsonDocument$instance {
+export interface JsonDocument$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly RootElement: JsonElement;
@@ -397,8 +397,6 @@ export const JsonDocument: {
 export interface __JsonDocument$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface JsonDocument$instance extends System_Internal.IDisposable$instance {}
 
 export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
@@ -504,7 +502,7 @@ export const JsonSerializerOptions: {
 
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
-export interface Utf8JsonWriter$instance {
+export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -643,8 +641,6 @@ export interface __Utf8JsonWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type Utf8JsonWriter = Utf8JsonWriter$instance & __Utf8JsonWriter$views;
 

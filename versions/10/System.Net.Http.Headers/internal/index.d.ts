@@ -120,7 +120,7 @@ export interface __HttpHeadersNonValidated_Enumerator$views {
 export type HttpHeadersNonValidated_Enumerator = HttpHeadersNonValidated_Enumerator$instance & __HttpHeadersNonValidated_Enumerator$views;
 
 
-export interface AuthenticationHeaderValue$instance {
+export interface AuthenticationHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Parameter: string | undefined;
@@ -143,12 +143,10 @@ export interface __AuthenticationHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface AuthenticationHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type AuthenticationHeaderValue = AuthenticationHeaderValue$instance & __AuthenticationHeaderValue$views;
 
 
-export interface CacheControlHeaderValue$instance {
+export interface CacheControlHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Extensions: ICollection_1<NameValueHeaderValue>;
@@ -184,12 +182,10 @@ export interface __CacheControlHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface CacheControlHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type CacheControlHeaderValue = CacheControlHeaderValue$instance & __CacheControlHeaderValue$views;
 
 
-export interface ContentDispositionHeaderValue$instance {
+export interface ContentDispositionHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     CreationDate: Nullable_1<DateTimeOffset>;
@@ -221,12 +217,10 @@ export interface __ContentDispositionHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ContentDispositionHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type ContentDispositionHeaderValue = ContentDispositionHeaderValue$instance & __ContentDispositionHeaderValue$views;
 
 
-export interface ContentRangeHeaderValue$instance {
+export interface ContentRangeHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly From: Nullable_1<System_Internal.Int64>;
@@ -254,12 +248,10 @@ export interface __ContentRangeHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ContentRangeHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type ContentRangeHeaderValue = ContentRangeHeaderValue$instance & __ContentRangeHeaderValue$views;
 
 
-export interface EntityTagHeaderValue$instance {
+export interface EntityTagHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     IsWeak: boolean;
@@ -282,8 +274,6 @@ export const EntityTagHeaderValue: {
 export interface __EntityTagHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface EntityTagHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type EntityTagHeaderValue = EntityTagHeaderValue$instance & __EntityTagHeaderValue$views;
 
@@ -495,7 +485,7 @@ export interface __HttpResponseHeaders$views {
 export type HttpResponseHeaders = HttpResponseHeaders$instance & __HttpResponseHeaders$views;
 
 
-export interface MediaTypeHeaderValue$instance {
+export interface MediaTypeHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     get CharSet(): string | undefined;
@@ -521,12 +511,10 @@ export interface __MediaTypeHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface MediaTypeHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type MediaTypeHeaderValue = MediaTypeHeaderValue$instance & __MediaTypeHeaderValue$views;
 
 
-export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderValue$instance {
+export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderValue$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     Quality: Nullable_1<System_Internal.Double>;
@@ -544,12 +532,10 @@ export interface __MediaTypeWithQualityHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface MediaTypeWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type MediaTypeWithQualityHeaderValue = MediaTypeWithQualityHeaderValue$instance & __MediaTypeWithQualityHeaderValue$views;
 
 
-export interface NameValueHeaderValue$instance {
+export interface NameValueHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Name: string;
@@ -573,12 +559,10 @@ export interface __NameValueHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface NameValueHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type NameValueHeaderValue = NameValueHeaderValue$instance & __NameValueHeaderValue$views;
 
 
-export interface NameValueWithParametersHeaderValue$instance extends NameValueHeaderValue$instance {
+export interface NameValueWithParametersHeaderValue$instance extends NameValueHeaderValue$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
@@ -599,12 +583,10 @@ export interface __NameValueWithParametersHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface NameValueWithParametersHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type NameValueWithParametersHeaderValue = NameValueWithParametersHeaderValue$instance & __NameValueWithParametersHeaderValue$views;
 
 
-export interface ProductHeaderValue$instance {
+export interface ProductHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Name: string;
@@ -627,12 +609,10 @@ export interface __ProductHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ProductHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type ProductHeaderValue = ProductHeaderValue$instance & __ProductHeaderValue$views;
 
 
-export interface ProductInfoHeaderValue$instance {
+export interface ProductInfoHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Comment: string | undefined;
@@ -656,12 +636,10 @@ export interface __ProductInfoHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ProductInfoHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type ProductInfoHeaderValue = ProductInfoHeaderValue$instance & __ProductInfoHeaderValue$views;
 
 
-export interface RangeConditionHeaderValue$instance {
+export interface RangeConditionHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Date: Nullable_1<DateTimeOffset>;
@@ -685,12 +663,10 @@ export interface __RangeConditionHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface RangeConditionHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type RangeConditionHeaderValue = RangeConditionHeaderValue$instance & __RangeConditionHeaderValue$views;
 
 
-export interface RangeHeaderValue$instance {
+export interface RangeHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Ranges: ICollection_1<RangeItemHeaderValue>;
@@ -713,12 +689,10 @@ export interface __RangeHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface RangeHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type RangeHeaderValue = RangeHeaderValue$instance & __RangeHeaderValue$views;
 
 
-export interface RangeItemHeaderValue$instance {
+export interface RangeItemHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly From: Nullable_1<System_Internal.Int64>;
@@ -738,12 +712,10 @@ export interface __RangeItemHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface RangeItemHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type RangeItemHeaderValue = RangeItemHeaderValue$instance & __RangeItemHeaderValue$views;
 
 
-export interface RetryConditionHeaderValue$instance {
+export interface RetryConditionHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Date: Nullable_1<DateTimeOffset>;
@@ -766,12 +738,10 @@ export interface __RetryConditionHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface RetryConditionHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type RetryConditionHeaderValue = RetryConditionHeaderValue$instance & __RetryConditionHeaderValue$views;
 
 
-export interface StringWithQualityHeaderValue$instance {
+export interface StringWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Quality: Nullable_1<System_Internal.Double>;
@@ -794,12 +764,10 @@ export interface __StringWithQualityHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface StringWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type StringWithQualityHeaderValue = StringWithQualityHeaderValue$instance & __StringWithQualityHeaderValue$views;
 
 
-export interface TransferCodingHeaderValue$instance {
+export interface TransferCodingHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
@@ -821,12 +789,10 @@ export interface __TransferCodingHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface TransferCodingHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type TransferCodingHeaderValue = TransferCodingHeaderValue$instance & __TransferCodingHeaderValue$views;
 
 
-export interface TransferCodingWithQualityHeaderValue$instance extends TransferCodingHeaderValue$instance {
+export interface TransferCodingWithQualityHeaderValue$instance extends TransferCodingHeaderValue$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     Quality: Nullable_1<System_Internal.Double>;
@@ -844,12 +810,10 @@ export interface __TransferCodingWithQualityHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface TransferCodingWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type TransferCodingWithQualityHeaderValue = TransferCodingWithQualityHeaderValue$instance & __TransferCodingWithQualityHeaderValue$views;
 
 
-export interface ViaHeaderValue$instance {
+export interface ViaHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Comment: string | undefined;
@@ -875,12 +839,10 @@ export interface __ViaHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ViaHeaderValue$instance extends System_Internal.ICloneable$instance {}
-
 export type ViaHeaderValue = ViaHeaderValue$instance & __ViaHeaderValue$views;
 
 
-export interface WarningHeaderValue$instance {
+export interface WarningHeaderValue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Agent: string;
@@ -904,8 +866,6 @@ export const WarningHeaderValue: {
 export interface __WarningHeaderValue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface WarningHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type WarningHeaderValue = WarningHeaderValue$instance & __WarningHeaderValue$views;
 

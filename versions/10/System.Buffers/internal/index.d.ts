@@ -63,7 +63,7 @@ export interface IPinnable$instance {
 
 export type IPinnable = IPinnable$instance;
 
-export interface MemoryHandle$instance {
+export interface MemoryHandle$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Pointer: ptr<void>;
@@ -79,8 +79,6 @@ export const MemoryHandle: {
 export interface __MemoryHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface MemoryHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
@@ -215,7 +213,7 @@ export interface __StandardFormat$views {
 export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
-export interface ArrayBufferWriter_1$instance<T> {
+export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instance<T> {
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
 
     readonly Capacity: int;
@@ -240,8 +238,6 @@ export const ArrayBufferWriter_1: {
 export interface __ArrayBufferWriter_1$views<T> {
     As_IBufferWriter_1(): IBufferWriter_1$instance<T>;
 }
-
-export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instance<T> {}
 
 export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBufferWriter_1$views<T>;
 

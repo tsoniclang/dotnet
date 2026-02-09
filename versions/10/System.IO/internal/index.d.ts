@@ -243,7 +243,7 @@ export interface __BinaryReader$views {
 export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
-export interface BinaryWriter$instance {
+export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -292,8 +292,6 @@ export interface __BinaryWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
@@ -433,7 +431,7 @@ export interface __DirectoryNotFoundException$views {
 export type DirectoryNotFoundException = DirectoryNotFoundException$instance & __DirectoryNotFoundException$views;
 
 
-export interface DriveInfo$instance {
+export interface DriveInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly AvailableFreeSpace: long;
@@ -458,8 +456,6 @@ export const DriveInfo: {
 export interface __DriveInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface DriveInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DriveInfo = DriveInfo$instance & __DriveInfo$views;
 
@@ -747,7 +743,7 @@ export const FileSystemEventArgs: {
 
 export type FileSystemEventArgs = FileSystemEventArgs$instance;
 
-export interface FileSystemInfo$instance extends MarshalByRefObject {
+export interface FileSystemInfo$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Attributes: FileAttributes;
@@ -780,12 +776,10 @@ export interface __FileSystemInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface FileSystemInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
-export interface FileSystemWatcher$instance extends Component {
+export interface FileSystemWatcher$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -823,8 +817,6 @@ export interface __FileSystemWatcher$views {
     As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher$views;
 
@@ -994,7 +986,7 @@ export const RenamedEventArgs: {
 
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
-export interface Stream$instance extends MarshalByRefObject {
+export interface Stream$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1060,8 +1052,6 @@ export interface __Stream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Stream$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type Stream = Stream$instance & __Stream$views;
 
@@ -1403,7 +1393,7 @@ export interface __TextReader$views {
 export type TextReader = TextReader$instance & __TextReader$views;
 
 
-export interface TextWriter$instance extends MarshalByRefObject {
+export interface TextWriter$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1485,8 +1475,6 @@ export interface __TextWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TextWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type TextWriter = TextWriter$instance & __TextWriter$views;
 

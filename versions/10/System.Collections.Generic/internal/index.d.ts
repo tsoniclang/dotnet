@@ -385,7 +385,7 @@ export const KeyValuePair_2: {
 
 export type KeyValuePair_2<TKey, TValue> = KeyValuePair_2$instance<TKey, TValue>;
 
-export interface LinkedList_1_Enumerator$instance<T> extends IDisposable {
+export interface LinkedList_1_Enumerator$instance<T> extends IDisposable, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -410,8 +410,6 @@ export interface __LinkedList_1_Enumerator$views<T> {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface LinkedList_1_Enumerator$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type LinkedList_1_Enumerator<T> = LinkedList_1_Enumerator$instance<T> & __LinkedList_1_Enumerator$views<T>;
 
@@ -642,7 +640,7 @@ export interface __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TVa
 export type SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export interface SortedSet_1_Enumerator$instance<T> extends IDisposable {
+export interface SortedSet_1_Enumerator$instance<T> extends IDisposable, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -667,8 +665,6 @@ export interface __SortedSet_1_Enumerator$views<T> {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SortedSet_1_Enumerator$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SortedSet_1_Enumerator<T> = SortedSet_1_Enumerator$instance<T> & __SortedSet_1_Enumerator$views<T>;
 
@@ -720,7 +716,7 @@ export interface __ByteEqualityComparer$views {
 export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualityComparer$views;
 
 
-export interface Comparer_1$instance<T> {
+export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
@@ -739,12 +735,10 @@ export interface __Comparer_1$views<T> {
     As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
 
-export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {}
-
 export type Comparer_1<T> = Comparer_1$instance<T> & __Comparer_1$views<T>;
 
 
-export interface Dictionary_2$instance<TKey, TValue> {
+export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IDictionary_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -805,8 +799,6 @@ export interface __Dictionary_2$views<TKey, TValue> {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & __Dictionary_2$views<TKey, TValue>;
 
@@ -870,7 +862,7 @@ export interface __Dictionary_2_ValueCollection$views<TKey, TValue> {
 export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueCollection$instance<TKey, TValue> & __Dictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export interface EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
+export interface EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -893,8 +885,6 @@ export interface __EnumEqualityComparer_1$views<T extends number & unknown> {
     As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface EnumEqualityComparer_1$instance<T extends number & unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$instance<T> & __EnumEqualityComparer_1$views<T>;
 
@@ -970,7 +960,7 @@ export interface __GenericEqualityComparer_1$views<T extends (IEquatable_1<T> | 
 export type GenericEqualityComparer_1<T extends (IEquatable_1<T> | number | string | boolean)> = GenericEqualityComparer_1$instance<T> & __GenericEqualityComparer_1$views<T>;
 
 
-export interface HashSet_1$instance<T> {
+export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1035,8 +1025,6 @@ export interface __HashSet_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
 
@@ -1061,7 +1049,7 @@ export interface __KeyNotFoundException$views {
 export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFoundException$views;
 
 
-export interface LinkedList_1$instance<T> {
+export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1111,8 +1099,6 @@ export interface __LinkedList_1$views<T> {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>;
 
@@ -1217,7 +1203,7 @@ export interface __List_1$views<T> {
 export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 
 
-export interface NonRandomizedStringEqualityComparer$instance {
+export interface NonRandomizedStringEqualityComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1237,12 +1223,10 @@ export interface __NonRandomizedStringEqualityComparer$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NonRandomizedStringEqualityComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityComparer$instance & __NonRandomizedStringEqualityComparer$views;
 
 
-export interface NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
+export interface NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1265,12 +1249,10 @@ export interface __NullableComparer_1$views<T extends unknown> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NullableComparer_1$instance<T extends unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableComparer_1$views<T>;
 
 
-export interface NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
+export interface NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1291,8 +1273,6 @@ export interface __NullableEqualityComparer_1$views<T extends unknown> {
     As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface NullableEqualityComparer_1$instance<T extends unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NullableEqualityComparer_1<T> = NullableEqualityComparer_1$instance<T> & __NullableEqualityComparer_1$views<T>;
 
@@ -1864,7 +1844,7 @@ export interface __SortedList_2_ValueList$views<TKey, TValue> {
 export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue>;
 
 
-export interface SortedSet_1$instance<T> {
+export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1927,8 +1907,6 @@ export interface __SortedSet_1$views<T> {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SortedSet_1<T> = SortedSet_1$instance<T> & __SortedSet_1$views<T>;
 

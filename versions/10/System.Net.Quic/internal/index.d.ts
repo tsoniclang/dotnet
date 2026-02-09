@@ -79,7 +79,7 @@ export const QuicClientConnectionOptions: {
 
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
-export interface QuicConnection$instance {
+export interface QuicConnection$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
 
     readonly LocalEndPoint: IPEndPoint;
@@ -106,8 +106,6 @@ export const QuicConnection: {
 export interface __QuicConnection$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
 }
-
-export interface QuicConnection$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
@@ -154,7 +152,7 @@ export interface __QuicException$views {
 export type QuicException = QuicException$instance & __QuicException$views;
 
 
-export interface QuicListener$instance {
+export interface QuicListener$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
 
     readonly LocalEndPoint: IPEndPoint;
@@ -173,8 +171,6 @@ export const QuicListener: {
 export interface __QuicListener$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
 }
-
-export interface QuicListener$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type QuicListener = QuicListener$instance & __QuicListener$views;
 

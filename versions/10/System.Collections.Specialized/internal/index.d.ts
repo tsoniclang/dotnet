@@ -234,7 +234,7 @@ export const ListDictionary_DictionaryNode: {
 
 export type ListDictionary_DictionaryNode = ListDictionary_DictionaryNode$instance;
 
-export interface NameObjectCollectionBase$instance {
+export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -258,8 +258,6 @@ export interface __NameObjectCollectionBase$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __NameObjectCollectionBase$views;
 
@@ -363,7 +361,7 @@ export const NotifyCollectionChangedEventArgs: {
 
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
-export interface OrderedDictionary$instance {
+export interface OrderedDictionary$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -409,8 +407,6 @@ export interface __OrderedDictionary$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface OrderedDictionary$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type OrderedDictionary = OrderedDictionary$instance & __OrderedDictionary$views;
 

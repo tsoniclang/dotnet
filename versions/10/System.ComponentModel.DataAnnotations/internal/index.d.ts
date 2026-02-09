@@ -572,7 +572,7 @@ export const ValidationAttribute: (abstract new() => ValidationAttribute) & (abs
 
 export type ValidationAttribute = ValidationAttribute$instance;
 
-export interface ValidationContext$instance {
+export interface ValidationContext$instance extends System_Internal.IServiceProvider$instance {
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     DisplayName: string;
@@ -597,8 +597,6 @@ export const ValidationContext: {
 export interface __ValidationContext$views {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
 }
-
-export interface ValidationContext$instance extends System_Internal.IServiceProvider$instance {}
 
 export type ValidationContext = ValidationContext$instance & __ValidationContext$views;
 

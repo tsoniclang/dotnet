@@ -123,7 +123,7 @@ export interface ITimer$instance extends System_Internal.IAsyncDisposable$instan
 
 export type ITimer = ITimer$instance;
 
-export interface AsyncFlowControl$instance {
+export interface AsyncFlowControl$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -147,8 +147,6 @@ export interface __AsyncFlowControl$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: AsyncFlowControl): boolean;
 }
-
-export interface AsyncFlowControl$instance extends System_Internal.IDisposable$instance {}
 
 export type AsyncFlowControl = AsyncFlowControl$instance & __AsyncFlowControl$views;
 
@@ -203,7 +201,7 @@ export interface __CancellationToken$views {
 export type CancellationToken = CancellationToken$instance & __CancellationToken$views;
 
 
-export interface CancellationTokenRegistration$instance {
+export interface CancellationTokenRegistration$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -231,8 +229,6 @@ export interface __CancellationTokenRegistration$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: CancellationTokenRegistration): boolean;
 }
-
-export interface CancellationTokenRegistration$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type CancellationTokenRegistration = CancellationTokenRegistration$instance & __CancellationTokenRegistration$views;
 
@@ -368,6 +364,8 @@ export type AbandonedMutexException = AbandonedMutexException$instance & __Aband
 
 
 export interface AsyncLocal_1$instance<T> {
+    readonly __tsonic_iface_System_Threading_IAsyncLocal: never;
+
     Value: T;
 }
 
@@ -491,7 +489,7 @@ export interface __CancellationTokenSource$views {
 export type CancellationTokenSource = CancellationTokenSource$instance & __CancellationTokenSource$views;
 
 
-export interface CompressedStack$instance {
+export interface CompressedStack$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     CreateCopy(): CompressedStack;
@@ -509,8 +507,6 @@ export const CompressedStack: {
 export interface __CompressedStack$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface CompressedStack$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type CompressedStack = CompressedStack$instance & __CompressedStack$views;
 
@@ -583,7 +579,7 @@ export interface __EventWaitHandle$views {
 export type EventWaitHandle = EventWaitHandle$instance & __EventWaitHandle$views;
 
 
-export interface ExecutionContext$instance {
+export interface ExecutionContext$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -607,8 +603,6 @@ export interface __ExecutionContext$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ExecutionContext$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ExecutionContext = ExecutionContext$instance & __ExecutionContext$views;
 
@@ -796,7 +790,7 @@ export const Overlapped: {
 
 export type Overlapped = Overlapped$instance;
 
-export interface PeriodicTimer$instance {
+export interface PeriodicTimer$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Period: TimeSpan;
@@ -816,12 +810,10 @@ export interface __PeriodicTimer$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface PeriodicTimer$instance extends System_Internal.IDisposable$instance {}
-
 export type PeriodicTimer = PeriodicTimer$instance & __PeriodicTimer$views;
 
 
-export interface PreAllocatedOverlapped$instance {
+export interface PreAllocatedOverlapped$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -837,8 +829,6 @@ export const PreAllocatedOverlapped: {
 export interface __PreAllocatedOverlapped$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface PreAllocatedOverlapped$instance extends System_Internal.IDisposable$instance {}
 
 export type PreAllocatedOverlapped = PreAllocatedOverlapped$instance & __PreAllocatedOverlapped$views;
 
@@ -869,7 +859,7 @@ export const ReaderWriterLock: {
 
 export type ReaderWriterLock = ReaderWriterLock$instance;
 
-export interface ReaderWriterLockSlim$instance {
+export interface ReaderWriterLockSlim$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CurrentReadCount: int;
@@ -908,8 +898,6 @@ export const ReaderWriterLockSlim: {
 export interface __ReaderWriterLockSlim$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ReaderWriterLockSlim$instance extends System_Internal.IDisposable$instance {}
 
 export type ReaderWriterLockSlim = ReaderWriterLockSlim$instance & __ReaderWriterLockSlim$views;
 
@@ -1229,7 +1217,7 @@ export interface __ThreadLocal_1$views<T> {
 export type ThreadLocal_1<T> = ThreadLocal_1$instance<T> & __ThreadLocal_1$views<T>;
 
 
-export interface ThreadPoolBoundHandle$instance {
+export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Handle: SafeHandle;
@@ -1250,8 +1238,6 @@ export const ThreadPoolBoundHandle: {
 export interface __ThreadPoolBoundHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type ThreadPoolBoundHandle = ThreadPoolBoundHandle$instance & __ThreadPoolBoundHandle$views;
 

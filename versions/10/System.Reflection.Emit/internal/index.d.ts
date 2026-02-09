@@ -359,7 +359,7 @@ export interface __DynamicMethod$views {
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
-export interface EnumBuilder$instance extends TypeInfo {
+export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -430,8 +430,6 @@ export interface __EnumBuilder$views {
     As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
 
-export interface EnumBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
-
 export type EnumBuilder = EnumBuilder$instance & __EnumBuilder$views;
 
 
@@ -483,7 +481,7 @@ export interface __FieldBuilder$views {
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
-export interface GenericTypeParameterBuilder$instance extends TypeInfo {
+export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -548,8 +546,6 @@ export interface __GenericTypeParameterBuilder$views {
     As_IReflect(): System_Reflection_Internal.IReflect$instance;
     As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
-
-export interface GenericTypeParameterBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
 
 export type GenericTypeParameterBuilder = GenericTypeParameterBuilder$instance & __GenericTypeParameterBuilder$views;
 
@@ -1066,7 +1062,7 @@ export const SignatureHelper: {
 
 export type SignatureHelper = SignatureHelper$instance;
 
-export interface TypeBuilder$instance extends TypeInfo {
+export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
@@ -1190,8 +1186,6 @@ export interface __TypeBuilder$views {
     As_IReflect(): System_Reflection_Internal.IReflect$instance;
     As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
-
-export interface TypeBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
 
 export type TypeBuilder = TypeBuilder$instance & __TypeBuilder$views;
 

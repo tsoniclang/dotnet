@@ -153,7 +153,7 @@ export enum UnicodeCategory {
 }
 
 
-export interface Calendar$instance {
+export interface Calendar$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly AlgorithmType: CalendarAlgorithmType;
@@ -213,8 +213,6 @@ export interface __Calendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface Calendar$instance extends System_Internal.ICloneable$instance {}
-
 export type Calendar = Calendar$instance & __Calendar$views;
 
 
@@ -243,7 +241,7 @@ export interface __ChineseLunisolarCalendar$views {
 export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __ChineseLunisolarCalendar$views;
 
 
-export interface CompareInfo$instance {
+export interface CompareInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
 
     readonly LCID: int;
@@ -322,12 +320,10 @@ export interface __CompareInfo$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
 }
 
-export interface CompareInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
-
 export type CompareInfo = CompareInfo$instance & __CompareInfo$views;
 
 
-export interface CultureInfo$instance {
+export interface CultureInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -391,8 +387,6 @@ export interface __CultureInfo$views {
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
 
-export interface CultureInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
-
 export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
@@ -425,7 +419,7 @@ export interface __CultureNotFoundException$views {
 export type CultureNotFoundException = CultureNotFoundException$instance & __CultureNotFoundException$views;
 
 
-export interface DateTimeFormatInfo$instance {
+export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -484,8 +478,6 @@ export interface __DateTimeFormatInfo$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
-
-export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatInfo$views;
 
@@ -927,7 +919,7 @@ export interface __KoreanLunisolarCalendar$views {
 export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __KoreanLunisolarCalendar$views;
 
 
-export interface NumberFormatInfo$instance {
+export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_IFormatProvider: never;
 
@@ -977,8 +969,6 @@ export interface __NumberFormatInfo$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
-
-export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$views;
 
@@ -1226,7 +1216,7 @@ export interface __TextElementEnumerator$views {
 export type TextElementEnumerator = TextElementEnumerator$instance & __TextElementEnumerator$views;
 
 
-export interface TextInfo$instance {
+export interface TextInfo$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
 
@@ -1260,8 +1250,6 @@ export interface __TextInfo$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
 }
-
-export interface TextInfo$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
 
 export type TextInfo = TextInfo$instance & __TextInfo$views;
 

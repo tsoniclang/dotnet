@@ -119,7 +119,7 @@ export interface __KeyedCollection_2$views<TKey, TItem> {
 export type KeyedCollection_2<TKey, TItem> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
 
 
-export interface ObservableCollection_1$instance<T> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+export interface ObservableCollection_1$instance<T> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -173,8 +173,6 @@ export interface __ObservableCollection_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IList(): System_Collections_Internal.IList$instance;
 }
-
-export interface ObservableCollection_1$instance<T> extends System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
 
 export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __ObservableCollection_1$views<T>;
 
@@ -314,7 +312,7 @@ export interface __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue> {
 export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> & __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged {
+export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
@@ -360,8 +358,6 @@ export interface __ReadOnlyObservableCollection_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IList(): System_Collections_Internal.IList$instance;
 }
-
-export interface ReadOnlyObservableCollection_1$instance<T> extends System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
 
 export type ReadOnlyObservableCollection_1<T> = ReadOnlyObservableCollection_1$instance<T> & __ReadOnlyObservableCollection_1$views<T>;
 

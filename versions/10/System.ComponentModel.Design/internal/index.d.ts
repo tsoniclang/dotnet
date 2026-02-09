@@ -537,7 +537,7 @@ export const DesignerEventArgs: {
 
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
-export interface DesignerOptionService$instance {
+export interface DesignerOptionService$instance extends IDesignerOptionService$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_IDesignerOptionService: never;
 
     readonly Options: DesignerOptionService_DesignerOptionCollection;
@@ -553,8 +553,6 @@ export const DesignerOptionService: (abstract new() => DesignerOptionService) & 
 export interface __DesignerOptionService$views {
     As_IDesignerOptionService(): IDesignerOptionService$instance;
 }
-
-export interface DesignerOptionService$instance extends IDesignerOptionService$instance {}
 
 export type DesignerOptionService = DesignerOptionService$instance & __DesignerOptionService$views;
 

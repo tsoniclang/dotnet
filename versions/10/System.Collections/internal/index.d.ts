@@ -171,7 +171,7 @@ export const DictionaryEntry: {
 
 export type DictionaryEntry = DictionaryEntry$instance;
 
-export interface ArrayList$instance {
+export interface ArrayList$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -243,12 +243,10 @@ export interface __ArrayList$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface ArrayList$instance extends System_Internal.ICloneable$instance {}
-
 export type ArrayList = ArrayList$instance & __ArrayList$views;
 
 
-export interface BitArray$instance {
+export interface BitArray$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -293,8 +291,6 @@ export interface __BitArray$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface BitArray$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type BitArray = BitArray$instance & __BitArray$views;
 
@@ -378,7 +374,7 @@ export interface __CollectionBase$views {
 export type CollectionBase = CollectionBase$instance & __CollectionBase$views;
 
 
-export interface Comparer$instance {
+export interface Comparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -398,8 +394,6 @@ export interface __Comparer$views {
     As_IComparer(): IComparer$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Comparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Comparer = Comparer$instance & __Comparer$views;
 
@@ -439,7 +433,7 @@ export interface __DictionaryBase$views {
 export type DictionaryBase = DictionaryBase$instance & __DictionaryBase$views;
 
 
-export interface Hashtable$instance {
+export interface Hashtable$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -501,8 +495,6 @@ export interface __Hashtable$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface Hashtable$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type Hashtable = Hashtable$instance & __Hashtable$views;
 
 
@@ -543,7 +535,7 @@ export interface __ListDictionaryInternal$views {
 export type ListDictionaryInternal = ListDictionaryInternal$instance & __ListDictionaryInternal$views;
 
 
-export interface Queue$instance {
+export interface Queue$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -579,8 +571,6 @@ export interface __Queue$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface Queue$instance extends System_Internal.ICloneable$instance {}
-
 export type Queue = Queue$instance & __Queue$views;
 
 
@@ -605,7 +595,7 @@ export interface __ReadOnlyCollectionBase$views {
 export type ReadOnlyCollectionBase = ReadOnlyCollectionBase$instance & __ReadOnlyCollectionBase$views;
 
 
-export interface SortedList$instance {
+export interface SortedList$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -660,12 +650,10 @@ export interface __SortedList$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export interface SortedList$instance extends System_Internal.ICloneable$instance {}
-
 export type SortedList = SortedList$instance & __SortedList$views;
 
 
-export interface Stack$instance {
+export interface Stack$instance extends System_Internal.ICloneable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -698,8 +686,6 @@ export interface __Stack$views {
     As_IEnumerable(): IEnumerable$instance;
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
-
-export interface Stack$instance extends System_Internal.ICloneable$instance {}
 
 export type Stack = Stack$instance & __Stack$views;
 

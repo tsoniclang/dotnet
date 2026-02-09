@@ -429,7 +429,7 @@ export interface __Aes$views {
 export type Aes = Aes$instance & __Aes$views;
 
 
-export interface AesCcm$instance {
+export interface AesCcm$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
@@ -452,8 +452,6 @@ export const AesCcm: {
 export interface __AesCcm$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AesCcm$instance extends System_Internal.IDisposable$instance {}
 
 export type AesCcm = AesCcm$instance & __AesCcm$views;
 
@@ -525,7 +523,7 @@ export interface __AesCryptoServiceProvider$views {
 export type AesCryptoServiceProvider = AesCryptoServiceProvider$instance & __AesCryptoServiceProvider$views;
 
 
-export interface AesGcm$instance {
+export interface AesGcm$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly TagSizeInBytes: Nullable_1<System_Internal.Int32>;
@@ -551,8 +549,6 @@ export const AesGcm: {
 export interface __AesGcm$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AesGcm$instance extends System_Internal.IDisposable$instance {}
 
 export type AesGcm = AesGcm$instance & __AesGcm$views;
 
@@ -793,7 +789,7 @@ export interface __AuthenticationTagMismatchException$views {
 export type AuthenticationTagMismatchException = AuthenticationTagMismatchException$instance & __AuthenticationTagMismatchException$views;
 
 
-export interface ChaCha20Poly1305$instance {
+export interface ChaCha20Poly1305$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
@@ -814,8 +810,6 @@ export const ChaCha20Poly1305: {
 export interface __ChaCha20Poly1305$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface ChaCha20Poly1305$instance extends System_Internal.IDisposable$instance {}
 
 export type ChaCha20Poly1305 = ChaCha20Poly1305$instance & __ChaCha20Poly1305$views;
 
@@ -897,7 +891,7 @@ export interface __CngAlgorithmGroup$views {
 export type CngAlgorithmGroup = CngAlgorithmGroup$instance & __CngAlgorithmGroup$views;
 
 
-export interface CngKey$instance {
+export interface CngKey$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Algorithm: CngAlgorithm;
@@ -942,8 +936,6 @@ export const CngKey: {
 export interface __CngKey$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface CngKey$instance extends System_Internal.IDisposable$instance {}
 
 export type CngKey = CngKey$instance & __CngKey$views;
 
@@ -1605,7 +1597,7 @@ export interface __DSACng$views {
 export type DSACng = DSACng$instance & __DSACng$views;
 
 
-export interface DSACryptoServiceProvider$instance extends DSA$instance {
+export interface DSACryptoServiceProvider$instance extends DSA$instance, ICspAsymmetricAlgorithm$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICspAsymmetricAlgorithm: never;
 
@@ -1678,8 +1670,6 @@ export interface __DSACryptoServiceProvider$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ICspAsymmetricAlgorithm(): ICspAsymmetricAlgorithm$instance;
 }
-
-export interface DSACryptoServiceProvider$instance extends ICspAsymmetricAlgorithm$instance {}
 
 export type DSACryptoServiceProvider = DSACryptoServiceProvider$instance & __DSACryptoServiceProvider$views;
 
@@ -2629,7 +2619,7 @@ export interface __HMACSHA512$views {
 export type HMACSHA512 = HMACSHA512$instance & __HMACSHA512$views;
 
 
-export interface IncrementalHash$instance {
+export interface IncrementalHash$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AlgorithmName: HashAlgorithmName;
@@ -2658,8 +2648,6 @@ export const IncrementalHash: {
 export interface __IncrementalHash$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface IncrementalHash$instance extends System_Internal.IDisposable$instance {}
 
 export type IncrementalHash = IncrementalHash$instance & __IncrementalHash$views;
 
@@ -2702,7 +2690,7 @@ export const KeySizes: {
 
 export type KeySizes = KeySizes$instance;
 
-export interface Kmac128$instance {
+export interface Kmac128$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2736,12 +2724,10 @@ export interface __Kmac128$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Kmac128$instance extends System_Internal.IDisposable$instance {}
-
 export type Kmac128 = Kmac128$instance & __Kmac128$views;
 
 
-export interface Kmac256$instance {
+export interface Kmac256$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2775,12 +2761,10 @@ export interface __Kmac256$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Kmac256$instance extends System_Internal.IDisposable$instance {}
-
 export type Kmac256 = Kmac256$instance & __Kmac256$views;
 
 
-export interface KmacXof128$instance {
+export interface KmacXof128$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2814,12 +2798,10 @@ export interface __KmacXof128$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface KmacXof128$instance extends System_Internal.IDisposable$instance {}
-
 export type KmacXof128 = KmacXof128$instance & __KmacXof128$views;
 
 
-export interface KmacXof256$instance {
+export interface KmacXof256$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -2852,8 +2834,6 @@ export const KmacXof256: {
 export interface __KmacXof256$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface KmacXof256$instance extends System_Internal.IDisposable$instance {}
 
 export type KmacXof256 = KmacXof256$instance & __KmacXof256$views;
 
@@ -3730,7 +3710,7 @@ export interface __RSACng$views {
 export type RSACng = RSACng$instance & __RSACng$views;
 
 
-export interface RSACryptoServiceProvider$instance extends RSA$instance {
+export interface RSACryptoServiceProvider$instance extends RSA$instance, ICspAsymmetricAlgorithm$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Security_Cryptography_ICspAsymmetricAlgorithm: never;
 
@@ -3799,8 +3779,6 @@ export interface __RSACryptoServiceProvider$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
     As_ICspAsymmetricAlgorithm(): ICspAsymmetricAlgorithm$instance;
 }
-
-export interface RSACryptoServiceProvider$instance extends ICspAsymmetricAlgorithm$instance {}
 
 export type RSACryptoServiceProvider = RSACryptoServiceProvider$instance & __RSACryptoServiceProvider$views;
 
@@ -4551,7 +4529,7 @@ export interface __SHA512Managed$views {
 export type SHA512Managed = SHA512Managed$instance & __SHA512Managed$views;
 
 
-export interface Shake128$instance {
+export interface Shake128$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -4585,12 +4563,10 @@ export interface __Shake128$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Shake128$instance extends System_Internal.IDisposable$instance {}
-
 export type Shake128 = Shake128$instance & __Shake128$views;
 
 
-export interface Shake256$instance {
+export interface Shake256$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     AppendData(data: byte[]): void;
@@ -4623,8 +4599,6 @@ export const Shake256: {
 export interface __Shake256$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Shake256$instance extends System_Internal.IDisposable$instance {}
 
 export type Shake256 = Shake256$instance & __Shake256$views;
 
@@ -4821,7 +4795,7 @@ export interface __SlhDsaOpenSsl$views {
 export type SlhDsaOpenSsl = SlhDsaOpenSsl$instance & __SlhDsaOpenSsl$views;
 
 
-export interface SP800108HmacCounterKdf$instance {
+export interface SP800108HmacCounterKdf$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     DeriveKey(label: byte[], context: byte[], derivedKeyLengthInBytes: int): byte[];
@@ -4849,8 +4823,6 @@ export const SP800108HmacCounterKdf: {
 export interface __SP800108HmacCounterKdf$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SP800108HmacCounterKdf$instance extends System_Internal.IDisposable$instance {}
 
 export type SP800108HmacCounterKdf = SP800108HmacCounterKdf$instance & __SP800108HmacCounterKdf$views;
 

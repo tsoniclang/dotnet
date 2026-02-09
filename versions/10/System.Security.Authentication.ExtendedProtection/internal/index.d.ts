@@ -58,7 +58,7 @@ export interface __ChannelBinding$views {
 export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
-export interface ExtendedProtectionPolicy$instance {
+export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CustomChannelBinding: ChannelBinding | undefined;
@@ -81,8 +81,6 @@ export const ExtendedProtectionPolicy: {
 export interface __ExtendedProtectionPolicy$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __ExtendedProtectionPolicy$views;
 

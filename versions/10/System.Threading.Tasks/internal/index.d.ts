@@ -208,7 +208,7 @@ export const ParallelOptions: {
 
 export type ParallelOptions = ParallelOptions$instance;
 
-export interface Task$instance {
+export interface Task$instance extends System_Internal.IAsyncResult$instance {
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -335,12 +335,10 @@ export interface __Task$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface Task$instance extends System_Internal.IAsyncResult$instance {}
-
 export type Task = Task$instance & __Task$views;
 
 
-export interface Task_1$instance<TResult> extends Task$instance {
+export interface Task_1$instance<TResult> extends Task$instance, System_Internal.IAsyncResult$instance {
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -408,8 +406,6 @@ export interface __Task_1$views<TResult> {
     As_IAsyncResult(): System_Internal.IAsyncResult$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Task_1$instance<TResult> extends System_Internal.IAsyncResult$instance {}
 
 export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>;
 

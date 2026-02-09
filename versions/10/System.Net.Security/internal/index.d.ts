@@ -512,7 +512,7 @@ export const CipherSuitesPolicy: {
 
 export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
-export interface NegotiateAuthentication$instance {
+export interface NegotiateAuthentication$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ImpersonationLevel: TokenImpersonationLevel;
@@ -545,8 +545,6 @@ export const NegotiateAuthentication: {
 export interface __NegotiateAuthentication$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface NegotiateAuthentication$instance extends System_Internal.IDisposable$instance {}
 
 export type NegotiateAuthentication = NegotiateAuthentication$instance & __NegotiateAuthentication$views;
 

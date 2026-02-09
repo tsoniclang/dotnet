@@ -31,7 +31,7 @@ export enum GCLatencyMode {
 }
 
 
-export interface DependentHandle$instance {
+export interface DependentHandle$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Dependent(): unknown | undefined;
@@ -52,8 +52,6 @@ export const DependentHandle: {
 export interface __DependentHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DependentHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type DependentHandle = DependentHandle$instance & __DependentHandle$views;
 
@@ -91,7 +89,7 @@ export const AssemblyTargetedPatchBandAttribute: {
 
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
-export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
+export interface MemoryFailPoint$instance extends CriticalFinalizerObject, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -107,8 +105,6 @@ export const MemoryFailPoint: {
 export interface __MemoryFailPoint$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface MemoryFailPoint$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views;
 

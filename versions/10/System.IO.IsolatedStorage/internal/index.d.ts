@@ -82,7 +82,7 @@ export interface __IsolatedStorageException$views {
 export type IsolatedStorageException = IsolatedStorageException$instance & __IsolatedStorageException$views;
 
 
-export interface IsolatedStorageFile$instance extends IsolatedStorage {
+export interface IsolatedStorageFile$instance extends IsolatedStorage, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly AvailableFreeSpace: long;
@@ -138,8 +138,6 @@ export const IsolatedStorageFile: {
 export interface __IsolatedStorageFile$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface IsolatedStorageFile$instance extends System_Internal.IDisposable$instance {}
 
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 

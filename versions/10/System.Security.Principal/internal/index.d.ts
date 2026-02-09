@@ -366,12 +366,10 @@ export interface __SecurityIdentifier$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SecurityIdentifier$instance extends System_Internal.IComparable_1$instance<SecurityIdentifier> {}
-
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export interface WindowsIdentity$instance extends ClaimsIdentity {
+export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -424,8 +422,6 @@ export interface __WindowsIdentity$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
     As_IIdentity(): IIdentity$instance;
 }
-
-export interface WindowsIdentity$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
 
 export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views;
 

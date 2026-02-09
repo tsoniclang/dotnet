@@ -12,7 +12,7 @@ import type { Assembly, AssemblyName } from "../../System.Reflection/internal/in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export interface AssemblyLoadContext_ContextualReflectionScope$instance {
+export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -27,8 +27,6 @@ export const AssemblyLoadContext_ContextualReflectionScope: {
 export interface __AssemblyLoadContext_ContextualReflectionScope$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {}
 
 export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_ContextualReflectionScope$instance & __AssemblyLoadContext_ContextualReflectionScope$views;
 

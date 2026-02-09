@@ -29,7 +29,7 @@ export const ElapsedEventArgs: {
 
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
-export interface Timer$instance extends Component {
+export interface Timer$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -63,8 +63,6 @@ export interface __Timer$views {
     As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface Timer$instance extends System_ComponentModel_Internal.ISupportInitialize$instance {}
 
 export type Timer = Timer$instance & __Timer$views;
 

@@ -4017,8 +4017,6 @@ export interface __HandleComparer$views {
     As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<Handle>;
 }
 
-export interface HandleComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<EntityHandle> {}
-
 export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
@@ -4134,7 +4132,7 @@ export const MetadataReader: {
 
 export type MetadataReader = MetadataReader$instance;
 
-export interface MetadataReaderProvider$instance {
+export interface MetadataReaderProvider$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -4155,8 +4153,6 @@ export const MetadataReaderProvider: {
 export interface __MetadataReaderProvider$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface MetadataReaderProvider$instance extends System_Internal.IDisposable$instance {}
 
 export type MetadataReaderProvider = MetadataReaderProvider$instance & __MetadataReaderProvider$views;
 

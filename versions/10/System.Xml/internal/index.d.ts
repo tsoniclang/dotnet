@@ -1399,7 +1399,7 @@ export interface __XmlNamedNodeMap$views {
 export type XmlNamedNodeMap = XmlNamedNodeMap$instance & __XmlNamedNodeMap$views;
 
 
-export interface XmlNamespaceManager$instance {
+export interface XmlNamespaceManager$instance extends IXmlNamespaceResolver$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
 
@@ -1427,8 +1427,6 @@ export interface __XmlNamespaceManager$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlNamespaceManager$instance extends IXmlNamespaceResolver$instance {}
-
 export type XmlNamespaceManager = XmlNamespaceManager$instance & __XmlNamespaceManager$views;
 
 
@@ -1446,7 +1444,7 @@ export const XmlNameTable: (abstract new() => XmlNameTable) & {
 
 export type XmlNameTable = XmlNameTable$instance;
 
-export interface XmlNode$instance {
+export interface XmlNode$instance extends System_Xml_XPath_Internal.IXPathNavigable$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Xml_XPath_IXPathNavigable: never;
@@ -1510,8 +1508,6 @@ export interface __XmlNode$views {
     As_IXPathNavigable(): System_Xml_XPath_Internal.IXPathNavigable$instance;
 }
 
-export interface XmlNode$instance extends System_Xml_XPath_Internal.IXPathNavigable$instance {}
-
 export type XmlNode = XmlNode$instance & __XmlNode$views;
 
 
@@ -1532,7 +1528,7 @@ export const XmlNodeChangedEventArgs: {
 
 export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
-export interface XmlNodeList$instance {
+export interface XmlNodeList$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1552,8 +1548,6 @@ export interface __XmlNodeList$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlNodeList$instance extends System_Internal.IDisposable$instance {}
 
 export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
 
@@ -2026,7 +2020,7 @@ export interface __XmlText$views {
 export type XmlText = XmlText$instance & __XmlText$views;
 
 
-export interface XmlTextReader$instance extends XmlReader$instance {
+export interface XmlTextReader$instance extends XmlReader$instance, IXmlLineInfo$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
@@ -2116,8 +2110,6 @@ export interface __XmlTextReader$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlTextReader$instance extends IXmlLineInfo$instance {}
-
 export type XmlTextReader = XmlTextReader$instance & __XmlTextReader$views;
 
 
@@ -2205,7 +2197,7 @@ export const XmlUrlResolver: {
 
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
-export interface XmlValidatingReader$instance extends XmlReader$instance {
+export interface XmlValidatingReader$instance extends XmlReader$instance, IXmlLineInfo$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
     readonly __tsonic_iface_System_Xml_IXmlNamespaceResolver: never;
@@ -2279,8 +2271,6 @@ export interface __XmlValidatingReader$views {
     As_IXmlNamespaceResolver(): IXmlNamespaceResolver$instance;
 }
 
-export interface XmlValidatingReader$instance extends IXmlLineInfo$instance {}
-
 export type XmlValidatingReader = XmlValidatingReader$instance & __XmlValidatingReader$views;
 
 
@@ -2319,7 +2309,7 @@ export interface __XmlWhitespace$views {
 export type XmlWhitespace = XmlWhitespace$instance & __XmlWhitespace$views;
 
 
-export interface XmlWriter$instance {
+export interface XmlWriter$instance extends System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -2434,8 +2424,6 @@ export interface __XmlWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface XmlWriter$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type XmlWriter = XmlWriter$instance & __XmlWriter$views;
 

@@ -830,7 +830,7 @@ export interface __Socket$views {
 export type Socket = Socket$instance & __Socket$views;
 
 
-export interface SocketAsyncEventArgs$instance extends EventArgs {
+export interface SocketAsyncEventArgs$instance extends EventArgs, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     get AcceptSocket(): Socket | undefined;
@@ -875,8 +875,6 @@ export const SocketAsyncEventArgs: {
 export interface __SocketAsyncEventArgs$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface SocketAsyncEventArgs$instance extends System_Internal.IDisposable$instance {}
 
 export type SocketAsyncEventArgs = SocketAsyncEventArgs$instance & __SocketAsyncEventArgs$views;
 
@@ -958,7 +956,7 @@ export interface __TcpClient$views {
 export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
-export interface TcpListener$instance {
+export interface TcpListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     ExclusiveAddressUse: boolean;
@@ -994,8 +992,6 @@ export const TcpListener: {
 export interface __TcpListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TcpListener$instance extends System_Internal.IDisposable$instance {}
 
 export type TcpListener = TcpListener$instance & __TcpListener$views;
 

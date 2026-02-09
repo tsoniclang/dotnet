@@ -179,7 +179,7 @@ export interface ISurrogateSelector$instance {
 
 export type ISurrogateSelector = ISurrogateSelector$instance;
 
-export interface DeserializationToken$instance {
+export interface DeserializationToken$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
@@ -194,8 +194,6 @@ export const DeserializationToken: {
 export interface __DeserializationToken$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface DeserializationToken$instance extends System_Internal.IDisposable$instance {}
 
 export type DeserializationToken = DeserializationToken$instance & __DeserializationToken$views;
 
@@ -437,7 +435,7 @@ export const ExtensionDataObject: {
 
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
-export interface Formatter$instance {
+export interface Formatter$instance extends IFormatter$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
 
     get Binder(): SerializationBinder | undefined;
@@ -478,8 +476,6 @@ export const Formatter: (abstract new() => Formatter) & {
 export interface __Formatter$views {
     As_IFormatter(): IFormatter$instance;
 }
-
-export interface Formatter$instance extends IFormatter$instance {}
 
 export type Formatter = Formatter$instance & __Formatter$views;
 
@@ -791,7 +787,7 @@ export const SerializationObjectManager: {
 
 export type SerializationObjectManager = SerializationObjectManager$instance;
 
-export interface SurrogateSelector$instance {
+export interface SurrogateSelector$instance extends ISurrogateSelector$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISurrogateSelector: never;
 
     AddSurrogate(type: Type, context: StreamingContext, surrogate: ISerializationSurrogate): void;
@@ -810,8 +806,6 @@ export const SurrogateSelector: {
 export interface __SurrogateSelector$views {
     As_ISurrogateSelector(): ISurrogateSelector$instance;
 }
-
-export interface SurrogateSelector$instance extends ISurrogateSelector$instance {}
 
 export type SurrogateSelector = SurrogateSelector$instance & __SurrogateSelector$views;
 

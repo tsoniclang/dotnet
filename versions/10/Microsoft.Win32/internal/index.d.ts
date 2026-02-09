@@ -59,7 +59,7 @@ export enum RegistryView {
 }
 
 
-export interface RegistryKey$instance extends MarshalByRefObject {
+export interface RegistryKey$instance extends MarshalByRefObject, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Handle: SafeRegistryHandle;
@@ -115,8 +115,6 @@ export const RegistryKey: {
 export interface __RegistryKey$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface RegistryKey$instance extends System_Internal.IDisposable$instance {}
 
 export type RegistryKey = RegistryKey$instance & __RegistryKey$views;
 

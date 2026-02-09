@@ -186,7 +186,7 @@ export const HttpListenerWebSocketContext: {
 
 export type HttpListenerWebSocketContext = HttpListenerWebSocketContext$instance;
 
-export interface WebSocket$instance {
+export interface WebSocket$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly CloseStatus: Nullable_1<WebSocketCloseStatus>;
@@ -222,8 +222,6 @@ export const WebSocket: (abstract new() => WebSocket) & {
 export interface __WebSocket$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface WebSocket$instance extends System_Internal.IDisposable$instance {}
 
 export type WebSocket = WebSocket$instance & __WebSocket$views;
 

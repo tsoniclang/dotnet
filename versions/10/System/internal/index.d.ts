@@ -962,8 +962,6 @@ export interface __Boolean$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface Boolean$instance extends ISpanParsable_1$instance<Boolean> {}
-
 export type Boolean = boolean | (boolean & Boolean$instance & __Boolean$views);
 
 
@@ -1085,8 +1083,6 @@ export interface __Byte$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface Byte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Byte> {}
 
 export type Byte = number & Byte$instance & __Byte$views;
 
@@ -1228,8 +1224,6 @@ export interface __Char$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Char$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Char> {}
-
 export type Char = string & Char$instance & __Char$views;
 
 
@@ -1349,8 +1343,6 @@ export interface __DateOnly$views {
     CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
-
-export interface DateOnly$instance extends IComparable_1$instance<DateOnly>, ISpanParsable_1$instance<DateOnly> {}
 
 export type DateOnly = DateOnly$instance & __DateOnly$views;
 
@@ -1500,8 +1492,6 @@ export interface __DateTime$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface DateTime$instance extends IComparable_1$instance<DateTime>, ISpanParsable_1$instance<DateTime>, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type DateTime = DateTime$instance & __DateTime$views;
 
 
@@ -1630,8 +1620,6 @@ export interface __DateTimeOffset$views {
     CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
-
-export interface DateTimeOffset$instance extends IComparable_1$instance<DateTimeOffset>, ISpanParsable_1$instance<DateTimeOffset>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
@@ -1801,8 +1789,6 @@ export interface __Decimal$views {
     WriteExponentBigEndian(destination: byte[]): int;
     WriteExponentBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface Decimal$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Decimal = number & Decimal$instance & __Decimal$views;
 
@@ -2035,8 +2021,6 @@ export interface __Double$views {
     WriteExponentBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Double$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Double> {}
-
 export type Double = number & Double$instance & __Double$views;
 
 
@@ -2174,8 +2158,6 @@ export interface __Guid$views {
     CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
-
-export interface Guid$instance extends IComparable_1$instance<Guid>, ISpanParsable_1$instance<Guid> {}
 
 export type Guid = Guid$instance & __Guid$views;
 
@@ -2395,8 +2377,6 @@ export interface __Half$views {
     WriteExponentBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Half$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Half> {}
-
 export type Half = number & Half$instance & __Half$views;
 
 
@@ -2582,8 +2562,6 @@ export interface __Int128$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Int128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int128> {}
-
 export type Int128 = number & Int128$instance & __Int128$views;
 
 
@@ -2711,8 +2689,6 @@ export interface __Int16$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface Int16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int16> {}
 
 export type Int16 = number & Int16$instance & __Int16$views;
 
@@ -2843,8 +2819,6 @@ export interface __Int32$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Int32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int32> {}
-
 export type Int32 = number & Int32$instance & __Int32$views;
 
 
@@ -2973,8 +2947,6 @@ export interface __Int64$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface Int64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int64> {}
 
 export type Int64 = number & Int64$instance & __Int64$views;
 
@@ -3112,8 +3084,6 @@ export interface __IntPtr$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface IntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type IntPtr = number & IntPtr$instance & __IntPtr$views;
 
@@ -3388,7 +3358,7 @@ export const RuntimeArgumentHandle: {
 
 export type RuntimeArgumentHandle = RuntimeArgumentHandle$instance;
 
-export interface RuntimeFieldHandle$instance {
+export interface RuntimeFieldHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -3415,12 +3385,10 @@ export interface __RuntimeFieldHandle$views {
     Equals(other: RuntimeFieldHandle): boolean;
 }
 
-export interface RuntimeFieldHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type RuntimeFieldHandle = RuntimeFieldHandle$instance & __RuntimeFieldHandle$views;
 
 
-export interface RuntimeMethodHandle$instance {
+export interface RuntimeMethodHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -3448,12 +3416,10 @@ export interface __RuntimeMethodHandle$views {
     Equals(other: RuntimeMethodHandle): boolean;
 }
 
-export interface RuntimeMethodHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type RuntimeMethodHandle = RuntimeMethodHandle$instance & __RuntimeMethodHandle$views;
 
 
-export interface RuntimeTypeHandle$instance {
+export interface RuntimeTypeHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -3480,8 +3446,6 @@ export interface __RuntimeTypeHandle$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: RuntimeTypeHandle): boolean;
 }
-
-export interface RuntimeTypeHandle$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
@@ -3610,8 +3574,6 @@ export interface __SByte$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface SByte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<SByte> {}
 
 export type SByte = number & SByte$instance & __SByte$views;
 
@@ -3856,8 +3818,6 @@ export interface __Single$views {
     WriteExponentBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface Single$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Single> {}
-
 export type Single = number & Single$instance & __Single$views;
 
 
@@ -4016,8 +3976,6 @@ export interface __TimeOnly$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface TimeOnly$instance extends ISpanParsable_1$instance<TimeOnly> {}
-
 export type TimeOnly = TimeOnly$instance & __TimeOnly$views;
 
 
@@ -4157,12 +4115,10 @@ export interface __TimeSpan$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface TimeSpan$instance extends ISpanParsable_1$instance<TimeSpan> {}
-
 export type TimeSpan = TimeSpan$instance & __TimeSpan$views;
 
 
-export interface TimeZoneInfo_TransitionTime$instance {
+export interface TimeZoneInfo_TransitionTime$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -4194,8 +4150,6 @@ export interface __TimeZoneInfo_TransitionTime$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeZoneInfo_TransitionTime): boolean;
 }
-
-export interface TimeZoneInfo_TransitionTime$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TimeZoneInfo_TransitionTime = TimeZoneInfo_TransitionTime$instance & __TimeZoneInfo_TransitionTime$views;
 
@@ -4336,8 +4290,6 @@ export interface __UInt128$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface UInt128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt128> {}
-
 export type UInt128 = number & UInt128$instance & __UInt128$views;
 
 
@@ -4459,8 +4411,6 @@ export interface __UInt16$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface UInt16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt16> {}
 
 export type UInt16 = number & UInt16$instance & __UInt16$views;
 
@@ -4585,8 +4535,6 @@ export interface __UInt32$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface UInt32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt32> {}
-
 export type UInt32 = number & UInt32$instance & __UInt32$views;
 
 
@@ -4709,8 +4657,6 @@ export interface __UInt64$views {
     WriteBigEndian(destination: byte[]): int;
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
-
-export interface UInt64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt64> {}
 
 export type UInt64 = number & UInt64$instance & __UInt64$views;
 
@@ -4843,8 +4789,6 @@ export interface __UIntPtr$views {
     WriteBigEndian(destination: Span_1<Byte>): int;
 }
 
-export interface UIntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type UIntPtr = number & UIntPtr$instance & __UIntPtr$views;
 
 
@@ -4903,12 +4847,10 @@ export interface __ValueTuple$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple$instance extends IComparable_1$instance<ValueTuple>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 
 
-export interface ValueTuple_1$instance<T1> {
+export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueTuple_1<T1>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -4943,12 +4885,10 @@ export interface __ValueTuple_1$views<T1> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueTuple_1<T1>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_1<T1> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<T1>;
 
 
-export interface ValueTuple_2$instance<T1, T2> {
+export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<ValueTuple_2<T1, T2>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -4984,12 +4924,10 @@ export interface __ValueTuple_2$views<T1, T2> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<ValueTuple_2<T1, T2>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_2<T1, T2> = ValueTuple_2$instance<T1, T2> & __ValueTuple_2$views<T1, T2>;
 
 
-export interface ValueTuple_3$instance<T1, T2, T3> {
+export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instance<ValueTuple_3<T1, T2, T3>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5026,12 +4964,10 @@ export interface __ValueTuple_3$views<T1, T2, T3> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instance<ValueTuple_3<T1, T2, T3>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_3<T1, T2, T3> = ValueTuple_3$instance<T1, T2, T3> & __ValueTuple_3$views<T1, T2, T3>;
 
 
-export interface ValueTuple_4$instance<T1, T2, T3, T4> {
+export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5069,12 +5005,10 @@ export interface __ValueTuple_4$views<T1, T2, T3, T4> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_4<T1, T2, T3, T4> = ValueTuple_4$instance<T1, T2, T3, T4> & __ValueTuple_4$views<T1, T2, T3, T4>;
 
 
-export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> {
+export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5113,12 +5047,10 @@ export interface __ValueTuple_5$views<T1, T2, T3, T4, T5> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_5<T1, T2, T3, T4, T5> = ValueTuple_5$instance<T1, T2, T3, T4, T5> & __ValueTuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
+export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5158,12 +5090,10 @@ export interface __ValueTuple_6$views<T1, T2, T3, T4, T5, T6> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_6<T1, T2, T3, T4, T5, T6> = ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> & __ValueTuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
+export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5204,12 +5134,10 @@ export interface __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
     CompareTo(obj: unknown): int;
 }
 
-export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> = ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
+export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> extends IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -5250,8 +5178,6 @@ export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends 
     Equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
     CompareTo(obj: unknown): int;
 }
-
-export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> extends IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
@@ -5568,7 +5494,7 @@ export interface __ArithmeticException$views {
 export type ArithmeticException = ArithmeticException$instance & __ArithmeticException$views;
 
 
-export interface Array$instance {
+export interface Array$instance extends ICloneable$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
@@ -5699,8 +5625,6 @@ export interface __Array$views {
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_ICloneable(): ICloneable$instance;
 }
-
-export interface Array$instance extends ICloneable$instance {}
 
 export type Array = Array$instance & __Array$views;
 
@@ -5847,7 +5771,7 @@ export interface __CannotUnloadAppDomainException$views {
 export type CannotUnloadAppDomainException = CannotUnloadAppDomainException$instance & __CannotUnloadAppDomainException$views;
 
 
-export interface CharEnumerator$instance extends IDisposable {
+export interface CharEnumerator$instance extends IDisposable, ICloneable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -5870,8 +5794,6 @@ export interface __CharEnumerator$views {
     As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
     As_ICloneable(): ICloneable$instance;
 }
-
-export interface CharEnumerator$instance extends ICloneable$instance {}
 
 export type CharEnumerator = CharEnumerator$instance & __CharEnumerator$views;
 
@@ -5942,7 +5864,7 @@ export const ContextStaticAttribute: {
 
 export type ContextStaticAttribute = ContextStaticAttribute$instance;
 
-export interface CultureAwareComparer$instance extends StringComparer$instance {
+export interface CultureAwareComparer$instance extends StringComparer$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Collections_Generic_IAlternateEqualityComparer_2: never;
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
@@ -5976,8 +5898,6 @@ export interface __CultureAwareComparer$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface CultureAwareComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type CultureAwareComparer = CultureAwareComparer$instance & __CultureAwareComparer$views;
 
 
@@ -6002,7 +5922,7 @@ export interface __DataMisalignedException$views {
 export type DataMisalignedException = DataMisalignedException$instance & __DataMisalignedException$views;
 
 
-export interface DBNull$instance {
+export interface DBNull$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IConvertible: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -6023,12 +5943,10 @@ export interface __DBNull$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface DBNull$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type DBNull = DBNull$instance & __DBNull$views;
 
 
-export interface Delegate$instance {
+export interface Delegate$instance extends ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -6072,8 +5990,6 @@ export interface __Delegate$views {
     As_ICloneable(): ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Delegate$instance extends ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Delegate = Delegate$instance & __Delegate$views;
 
@@ -6163,7 +6079,7 @@ export interface __EntryPointNotFoundException$views {
 export type EntryPointNotFoundException = EntryPointNotFoundException$instance & __EntryPointNotFoundException$views;
 
 
-export interface Enum$instance {
+export interface Enum$instance extends IComparable$instance {
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IConvertible: never;
     readonly __tsonic_iface_System_IFormattable: never;
@@ -6233,8 +6149,6 @@ export interface __Enum$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface Enum$instance extends IComparable$instance {}
-
 export type Enum = Enum$instance & __Enum$views;
 
 
@@ -6250,7 +6164,7 @@ export const EventArgs: {
 
 export type EventArgs = EventArgs$instance;
 
-export interface Exception$instance {
+export interface Exception$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Data: IDictionary;
@@ -6280,8 +6194,6 @@ export const Exception: {
 export interface __Exception$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface Exception$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Exception = Exception$instance & __Exception$views;
 
@@ -7036,7 +6948,7 @@ export const ObsoleteAttribute: {
 
 export type ObsoleteAttribute = ObsoleteAttribute$instance;
 
-export interface OperatingSystem$instance {
+export interface OperatingSystem$instance extends ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -7080,8 +6992,6 @@ export interface __OperatingSystem$views {
     As_ICloneable(): ICloneable$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface OperatingSystem$instance extends ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views;
 
@@ -7219,7 +7129,7 @@ export interface __PlatformNotSupportedException$views {
 export type PlatformNotSupportedException = PlatformNotSupportedException$instance & __PlatformNotSupportedException$views;
 
 
-export interface Progress_1$instance<T> {
+export interface Progress_1$instance<T> extends IProgress_1$instance<T> {
     readonly __tsonic_iface_System_IProgress_1: never;
 
     OnReport(value: T): void;
@@ -7235,8 +7145,6 @@ export const Progress_1: {
 export interface __Progress_1$views<T> {
     As_IProgress_1(): IProgress_1$instance<T>;
 }
-
-export interface Progress_1$instance<T> extends IProgress_1$instance<T> {}
 
 export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
 
@@ -7568,8 +7476,6 @@ export interface __String$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface String$instance extends ICloneable$instance, ISpanParsable_1$instance<String> {}
-
 export type String = string & String$instance & __String$views;
 
 
@@ -7704,7 +7610,7 @@ export const TimeZone: (abstract new() => TimeZone) & {
 
 export type TimeZone = TimeZone$instance;
 
-export interface TimeZoneInfo$instance {
+export interface TimeZoneInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -7771,12 +7677,10 @@ export interface __TimeZoneInfo$views {
     Equals(other: TimeZoneInfo): boolean;
 }
 
-export interface TimeZoneInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type TimeZoneInfo = TimeZoneInfo$instance & __TimeZoneInfo$views;
 
 
-export interface TimeZoneInfo_AdjustmentRule$instance {
+export interface TimeZoneInfo_AdjustmentRule$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -7808,8 +7712,6 @@ export interface __TimeZoneInfo_AdjustmentRule$views {
     Equals(other: TimeZoneInfo_AdjustmentRule): boolean;
 }
 
-export interface TimeZoneInfo_AdjustmentRule$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type TimeZoneInfo_AdjustmentRule = TimeZoneInfo_AdjustmentRule$instance & __TimeZoneInfo_AdjustmentRule$views;
 
 
@@ -7834,7 +7736,7 @@ export interface __TimeZoneNotFoundException$views {
 export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __TimeZoneNotFoundException$views;
 
 
-export interface Tuple_1$instance<T1> {
+export interface Tuple_1$instance<T1> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -7862,12 +7764,10 @@ export interface __Tuple_1$views<T1> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_1$instance<T1> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 
 
-export interface Tuple_2$instance<T1, T2> {
+export interface Tuple_2$instance<T1, T2> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -7896,12 +7796,10 @@ export interface __Tuple_2$views<T1, T2> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_2$instance<T1, T2> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
 
 
-export interface Tuple_3$instance<T1, T2, T3> {
+export interface Tuple_3$instance<T1, T2, T3> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -7931,12 +7829,10 @@ export interface __Tuple_3$views<T1, T2, T3> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_3$instance<T1, T2, T3> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
 
 
-export interface Tuple_4$instance<T1, T2, T3, T4> {
+export interface Tuple_4$instance<T1, T2, T3, T4> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -7967,12 +7863,10 @@ export interface __Tuple_4$views<T1, T2, T3, T4> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_4$instance<T1, T2, T3, T4> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
 
 
-export interface Tuple_5$instance<T1, T2, T3, T4, T5> {
+export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -8004,12 +7898,10 @@ export interface __Tuple_5$views<T1, T2, T3, T4, T5> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
+export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -8042,12 +7934,10 @@ export interface __Tuple_6$views<T1, T2, T3, T4, T5, T6> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
+export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -8081,12 +7971,10 @@ export interface __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
     CompareTo(obj: unknown): int;
 }
 
-export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
-
 export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
+export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
     readonly __tsonic_iface_System_IComparable: never;
@@ -8120,8 +8008,6 @@ export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
     // Structural method bridges for numeric interface constraints
     CompareTo(obj: unknown): int;
 }
-
-export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {}
 
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
@@ -8467,7 +8353,7 @@ export const UnhandledExceptionEventArgs: {
 
 export type UnhandledExceptionEventArgs = UnhandledExceptionEventArgs$instance;
 
-export interface UnitySerializationHolder$instance {
+export interface UnitySerializationHolder$instance extends System_Runtime_Serialization_Internal.IObjectReference$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IObjectReference: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -8486,12 +8372,10 @@ export interface __UnitySerializationHolder$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface UnitySerializationHolder$instance extends System_Runtime_Serialization_Internal.IObjectReference$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type UnitySerializationHolder = UnitySerializationHolder$instance & __UnitySerializationHolder$views;
 
 
-export interface Uri$instance {
+export interface Uri$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_ISpanFormattable: never;
@@ -8599,8 +8483,6 @@ export interface __Uri$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: Uri): boolean;
 }
-
-export interface Uri$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Uri = Uri$instance & __Uri$views;
 
@@ -8770,12 +8652,10 @@ export interface __Version$views {
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
-export interface Version$instance extends ICloneable$instance, IUtf8SpanParsable_1$instance<Version> {}
-
 export type Version = Version$instance & __Version$views;
 
 
-export interface WeakReference$instance {
+export interface WeakReference$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly IsAlive: boolean;
@@ -8797,12 +8677,10 @@ export interface __WeakReference$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface WeakReference$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
-
 export type WeakReference = WeakReference$instance & __WeakReference$views;
 
 
-export interface WeakReference_1$instance<T> {
+export interface WeakReference_1$instance<T> extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Finalize(): void;
@@ -8821,8 +8699,6 @@ export const WeakReference_1: {
 export interface __WeakReference_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
-
-export interface WeakReference_1$instance<T> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type WeakReference_1<T> = WeakReference_1$instance<T> & __WeakReference_1$views<T>;
 

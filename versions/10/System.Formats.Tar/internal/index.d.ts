@@ -124,7 +124,7 @@ export const TarEntry: {
 
 export type TarEntry = TarEntry$instance;
 
-export interface TarReader$instance {
+export interface TarReader$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -145,12 +145,10 @@ export interface __TarReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export interface TarReader$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
-
 export type TarReader = TarReader$instance & __TarReader$views;
 
 
-export interface TarWriter$instance {
+export interface TarWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -175,8 +173,6 @@ export interface __TarWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface TarWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type TarWriter = TarWriter$instance & __TarWriter$views;
 
