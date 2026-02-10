@@ -100,7 +100,6 @@ export interface ValueTask$instance {
     GetAwaiter(): ValueTaskAwaiter;
     GetHashCode(): int;
     Preserve(): ValueTask;
-    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -123,7 +122,10 @@ export interface __ValueTask$views {
     Equals(other: ValueTask): boolean;
 }
 
-export type ValueTask = ValueTask$instance & __ValueTask$views;
+export type ValueTask = ValueTask$instance & __ValueTask$views & {
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: unknown) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+};
 
 
 export interface ValueTask_1$instance<TResult> {
@@ -144,7 +146,6 @@ export interface ValueTask_1$instance<TResult> {
     GetHashCode(): int;
     Preserve(): ValueTask_1<TResult>;
     ToString(): string | undefined;
-    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -162,7 +163,11 @@ export interface __ValueTask_1$views<TResult> {
     Equals(other: ValueTask_1<TResult>): boolean;
 }
 
-export type ValueTask_1<TResult> = ValueTask_1$instance<TResult> & __ValueTask_1$views<TResult>;
+export type ValueTask_1<TResult> = ValueTask_1$instance<TResult> & __ValueTask_1$views<TResult> & {
+    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: unknown) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+};
 
 
 export interface ConcurrentExclusiveSchedulerPair$instance {
@@ -275,7 +280,6 @@ export interface Task$instance extends System_Internal.IAsyncResult$instance {
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -349,7 +353,10 @@ export interface __Task$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type Task = Task$instance & __Task$views;
+export type Task = Task$instance & __Task$views & {
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: unknown) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+};
 
 
 export interface Task_1$instance<TResult> extends Task$instance, System_Internal.IAsyncResult$instance {
@@ -402,7 +409,6 @@ export interface Task_1$instance<TResult> extends Task$instance, System_Internal
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 }
 
 
@@ -423,7 +429,11 @@ export interface __Task_1$views<TResult> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>;
+export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult> & {
+    then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = void, TResult2 = never>(onfulfilled?: ((value: void) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: unknown) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+};
 
 
 export interface TaskCanceledException$instance extends OperationCanceledException {

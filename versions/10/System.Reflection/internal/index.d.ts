@@ -510,7 +510,6 @@ export type InterfaceMapping = InterfaceMapping$instance;
 export interface ParameterModifier$instance {
     readonly __tsonic_type_System_Reflection_ParameterModifier: never;
 
-    [index: number]: boolean;
 }
 
 
@@ -519,7 +518,7 @@ export const ParameterModifier: {
 };
 
 
-export type ParameterModifier = ParameterModifier$instance;
+export type ParameterModifier = ParameterModifier$instance & { [index: number]: boolean; };
 
 export interface AmbiguousMatchException$instance extends SystemException {
     readonly __tsonic_type_System_Reflection_AmbiguousMatchException: never;

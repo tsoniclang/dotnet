@@ -1032,7 +1032,6 @@ export interface DataRowCollection$instance extends InternalDataCollectionBase$i
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: DataRow;
     Add(row: DataRow): void;
     Add(...values: unknown[]): DataRow;
     Clear(): void;
@@ -1059,7 +1058,7 @@ export interface __DataRowCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type DataRowCollection = DataRowCollection$instance & __DataRowCollection$views;
+export type DataRowCollection = DataRowCollection$instance & __DataRowCollection$views & { readonly [index: number]: DataRow; };
 
 
 export interface DataRowComparer_1$instance<TRow extends DataRow> {
@@ -1568,7 +1567,6 @@ export interface DataView$instance extends MarshalByValueComponent, System_Compo
     readonly Count: int;
     readonly DataViewManager: DataViewManager | undefined;
     readonly IsInitialized: boolean;
-    readonly [recordIndex: number]: DataRowView;
     get RowFilter(): string | undefined;
     set RowFilter(value: string | undefined);
     RowStateFilter: DataViewRowState;
@@ -1622,7 +1620,7 @@ export interface __DataView$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type DataView = DataView$instance & __DataView$views;
+export type DataView = DataView$instance & __DataView$views & { readonly [recordIndex: number]: DataRowView; };
 
 
 export interface DataViewManager$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IBindingList$instance, System_ComponentModel_Internal.ITypedList$instance {

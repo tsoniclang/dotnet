@@ -1597,7 +1597,6 @@ export interface XmlNodeList$instance extends System_Internal.IDisposable$instan
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Count: int;
-    readonly [i: number]: XmlNode | undefined;
     GetEnumerator(): IEnumerator;
     Item(index: int): XmlNode | undefined;
     PrivateDisposeNodeList(): void;
@@ -1613,7 +1612,7 @@ export interface __XmlNodeList$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views;
+export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views & { readonly [i: number]: XmlNode | undefined; };
 
 
 export interface XmlNodeReader$instance extends XmlReader$instance {

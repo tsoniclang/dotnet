@@ -357,7 +357,6 @@ export interface AuthorizationRuleCollection$instance extends ReadOnlyCollection
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    readonly [index: number]: AuthorizationRule | undefined;
     AddRule(rule: AuthorizationRule): void;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -374,7 +373,7 @@ export interface __AuthorizationRuleCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views;
+export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views & { readonly [index: number]: AuthorizationRule | undefined; };
 
 
 export interface CommonAce$instance extends QualifiedAce {
@@ -404,7 +403,6 @@ export interface CommonAcl$instance extends GenericAcl$instance {
     readonly IsCanonical: boolean;
     readonly IsContainer: boolean;
     readonly IsDS: boolean;
-    [index: number]: GenericAce;
     readonly Revision: byte;
     CopyTo(array: GenericAce[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -425,7 +423,7 @@ export interface __CommonAcl$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
+export type CommonAcl = CommonAcl$instance & __CommonAcl$views & { [index: number]: GenericAce; };
 
 
 export interface CommonObjectSecurity$instance extends ObjectSecurity {
@@ -755,7 +753,6 @@ export interface GenericAcl$instance {
     readonly BinaryLength: int;
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    [index: number]: GenericAce;
     readonly Revision: byte;
     readonly SyncRoot: unknown;
     CopyTo(array: GenericAce[], index: int): void;
@@ -776,7 +773,7 @@ export interface __GenericAcl$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
+export type GenericAcl = GenericAcl$instance & __GenericAcl$views & { [index: number]: GenericAce; };
 
 
 export interface GenericSecurityDescriptor$instance {
@@ -1061,7 +1058,6 @@ export interface RawAcl$instance extends GenericAcl$instance {
 
     readonly BinaryLength: int;
     readonly Count: int;
-    [index: number]: GenericAce;
     readonly Revision: byte;
     CopyTo(array: GenericAce[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -1084,7 +1080,7 @@ export interface __RawAcl$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type RawAcl = RawAcl$instance & __RawAcl$views;
+export type RawAcl = RawAcl$instance & __RawAcl$views & { [index: number]: GenericAce; };
 
 
 export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {

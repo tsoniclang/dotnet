@@ -55,7 +55,6 @@ export interface SqlBinary$instance extends INullable$instance, System_Xml_Seria
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
 
     readonly IsNull: boolean;
-    readonly [index: number]: byte;
     readonly Length: int;
     readonly Value: byte[];
     CompareTo(value: unknown): int;
@@ -95,7 +94,7 @@ export interface __SqlBinary$views {
     CompareTo(obj: unknown): int;
 }
 
-export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
+export type SqlBinary = SqlBinary$instance & __SqlBinary$views & { readonly [index: number]: byte; };
 
 
 export interface SqlBoolean$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
@@ -954,7 +953,6 @@ export interface SqlBytes$instance extends INullable$instance, System_Runtime_Se
 
     readonly Buffer: byte[] | undefined;
     readonly IsNull: boolean;
-    [offset: number]: byte;
     readonly Length: long;
     readonly MaxLength: long;
     readonly Storage: StorageState;
@@ -984,7 +982,7 @@ export interface __SqlBytes$views {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
+export type SqlBytes = SqlBytes$instance & __SqlBytes$views & { [offset: number]: byte; };
 
 
 export interface SqlChars$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
@@ -996,7 +994,6 @@ export interface SqlChars$instance extends INullable$instance, System_Runtime_Se
 
     readonly Buffer: char[] | undefined;
     readonly IsNull: boolean;
-    [offset: number]: char;
     readonly Length: long;
     readonly MaxLength: long;
     readonly Storage: StorageState;
@@ -1024,7 +1021,7 @@ export interface __SqlChars$views {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export type SqlChars = SqlChars$instance & __SqlChars$views;
+export type SqlChars = SqlChars$instance & __SqlChars$views & { [offset: number]: char; };
 
 
 export interface SqlNotFilledException$instance extends SqlTypeException$instance {

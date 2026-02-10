@@ -294,7 +294,6 @@ export interface IdentityReferenceCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    [index: number]: IdentityReference;
     Add(identity: IdentityReference): void;
     Clear(): void;
     Contains(identity: IdentityReference): boolean;
@@ -318,7 +317,7 @@ export interface __IdentityReferenceCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type IdentityReferenceCollection = IdentityReferenceCollection$instance & __IdentityReferenceCollection$views;
+export type IdentityReferenceCollection = IdentityReferenceCollection$instance & __IdentityReferenceCollection$views & { [index: number]: IdentityReference; };
 
 
 export interface NTAccount$instance extends IdentityReference {
@@ -341,7 +340,7 @@ export const NTAccount: {
 
 export type NTAccount = NTAccount$instance;
 
-export interface SecurityIdentifier$instance extends IdentityReference {
+export interface SecurityIdentifier$instance extends IdentityReference, System_Internal.IComparable_1$instance<SecurityIdentifier> {
     readonly __tsonic_type_System_Security_Principal_SecurityIdentifier: never;
 
     readonly __tsonic_iface_System_IComparable_1: never;

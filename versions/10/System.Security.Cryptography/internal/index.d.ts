@@ -650,7 +650,6 @@ export interface AsnEncodedDataCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly [index: number]: AsnEncodedData;
     readonly SyncRoot: unknown;
     Add(asnEncodedData: AsnEncodedData): int;
     CopyTo(array: AsnEncodedData[], index: int): void;
@@ -670,7 +669,7 @@ export interface __AsnEncodedDataCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type AsnEncodedDataCollection = AsnEncodedDataCollection$instance & __AsnEncodedDataCollection$views;
+export type AsnEncodedDataCollection = AsnEncodedDataCollection$instance & __AsnEncodedDataCollection$views & { readonly [index: number]: AsnEncodedData; };
 
 
 export interface AsnEncodedDataEnumerator$instance {

@@ -28,7 +28,6 @@ export interface Vector128_1$instance<T> extends IAdditionOperators_3<Vector128_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    readonly [index: number]: T;
     Equals(obj: unknown): boolean;
     Equals(other: Vector128_1<T>): boolean;
     GetHashCode(): int;
@@ -54,7 +53,7 @@ export interface __Vector128_1$views<T> {
     Equals(other: Vector128_1<T>): boolean;
 }
 
-export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T>;
+export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface Vector256_1$instance<T> extends IAdditionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IBitwiseOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IDivisionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IEqualityOperators_3<Vector256_1<T>, Vector256_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IShiftOperators_3<Vector256_1<T>, System_Internal.Int32, Vector256_1<T>>, ISubtractionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IUnaryNegationOperators_2<Vector256_1<T>, Vector256_1<T>>, IUnaryPlusOperators_2<Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IAdditionOperators_3$instance<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IBitwiseOperators_3$instance<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IDivisionOperators_3$instance<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IEqualityOperators_3$instance<Vector256_1<T>, Vector256_1<T>, System_Internal.Boolean>, System_Numerics_Internal.IMultiplyOperators_3$instance<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IShiftOperators_3$instance<Vector256_1<T>, System_Internal.Int32, Vector256_1<T>>, System_Numerics_Internal.ISubtractionOperators_3$instance<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IUnaryNegationOperators_2$instance<Vector256_1<T>, Vector256_1<T>>, System_Numerics_Internal.IUnaryPlusOperators_2$instance<Vector256_1<T>, Vector256_1<T>> {
@@ -71,7 +70,6 @@ export interface Vector256_1$instance<T> extends IAdditionOperators_3<Vector256_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    readonly [index: number]: T;
     Equals(obj: unknown): boolean;
     Equals(other: Vector256_1<T>): boolean;
     GetHashCode(): int;
@@ -97,7 +95,7 @@ export interface __Vector256_1$views<T> {
     Equals(other: Vector256_1<T>): boolean;
 }
 
-export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T>;
+export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface Vector512_1$instance<T> extends IAdditionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IBitwiseOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IDivisionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IEqualityOperators_3<Vector512_1<T>, Vector512_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IShiftOperators_3<Vector512_1<T>, System_Internal.Int32, Vector512_1<T>>, ISubtractionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IUnaryNegationOperators_2<Vector512_1<T>, Vector512_1<T>>, IUnaryPlusOperators_2<Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IAdditionOperators_3$instance<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IBitwiseOperators_3$instance<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IDivisionOperators_3$instance<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IEqualityOperators_3$instance<Vector512_1<T>, Vector512_1<T>, System_Internal.Boolean>, System_Numerics_Internal.IMultiplyOperators_3$instance<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IShiftOperators_3$instance<Vector512_1<T>, System_Internal.Int32, Vector512_1<T>>, System_Numerics_Internal.ISubtractionOperators_3$instance<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IUnaryNegationOperators_2$instance<Vector512_1<T>, Vector512_1<T>>, System_Numerics_Internal.IUnaryPlusOperators_2$instance<Vector512_1<T>, Vector512_1<T>> {
@@ -114,7 +112,6 @@ export interface Vector512_1$instance<T> extends IAdditionOperators_3<Vector512_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    readonly [index: number]: T;
     Equals(obj: unknown): boolean;
     Equals(other: Vector512_1<T>): boolean;
     GetHashCode(): int;
@@ -140,7 +137,7 @@ export interface __Vector512_1$views<T> {
     Equals(other: Vector512_1<T>): boolean;
 }
 
-export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T>;
+export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface Vector64_1$instance<T> extends IAdditionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IBitwiseOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IDivisionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IEqualityOperators_3<Vector64_1<T>, Vector64_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IShiftOperators_3<Vector64_1<T>, System_Internal.Int32, Vector64_1<T>>, ISubtractionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IUnaryNegationOperators_2<Vector64_1<T>, Vector64_1<T>>, IUnaryPlusOperators_2<Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IAdditionOperators_3$instance<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IBitwiseOperators_3$instance<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IDivisionOperators_3$instance<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IEqualityOperators_3$instance<Vector64_1<T>, Vector64_1<T>, System_Internal.Boolean>, System_Numerics_Internal.IMultiplyOperators_3$instance<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IShiftOperators_3$instance<Vector64_1<T>, System_Internal.Int32, Vector64_1<T>>, System_Numerics_Internal.ISubtractionOperators_3$instance<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IUnaryNegationOperators_2$instance<Vector64_1<T>, Vector64_1<T>>, System_Numerics_Internal.IUnaryPlusOperators_2$instance<Vector64_1<T>, Vector64_1<T>> {
@@ -157,7 +154,6 @@ export interface Vector64_1$instance<T> extends IAdditionOperators_3<Vector64_1<
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    readonly [index: number]: T;
     Equals(obj: unknown): boolean;
     Equals(other: Vector64_1<T>): boolean;
     GetHashCode(): int;
@@ -183,7 +179,7 @@ export interface __Vector64_1$views<T> {
     Equals(other: Vector64_1<T>): boolean;
 }
 
-export type Vector64_1<T> = Vector64_1$instance<T> & __Vector64_1$views<T>;
+export type Vector64_1<T> = Vector64_1$instance<T> & __Vector64_1$views<T> & { readonly [index: number]: T; };
 
 
 export abstract class Vector128$instance {

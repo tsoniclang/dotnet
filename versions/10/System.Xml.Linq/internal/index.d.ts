@@ -464,7 +464,7 @@ export interface __XNode$views {
 export type XNode = XNode$instance & __XNode$views;
 
 
-export interface XNodeDocumentOrderComparer$instance {
+export interface XNodeDocumentOrderComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<XNode> {
     readonly __tsonic_type_System_Xml_Linq_XNodeDocumentOrderComparer: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;

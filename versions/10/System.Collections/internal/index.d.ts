@@ -117,7 +117,6 @@ export type IHashCodeProvider = IHashCodeProvider$instance;
 export interface IList$instance extends ICollection, IEnumerable {
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -134,7 +133,7 @@ export interface IList$instance extends ICollection, IEnumerable {
 }
 
 
-export type IList = IList$instance;
+export type IList = IList$instance & { [index: number]: unknown; };
 
 export interface IStructuralComparable$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -186,7 +185,6 @@ export interface ArrayList$instance extends System_Internal.ICloneable$instance 
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    [index: number]: unknown;
     readonly SyncRoot: unknown;
     Add(value: unknown): int;
     AddRange(c: ICollection): void;
@@ -247,7 +245,7 @@ export interface __ArrayList$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export type ArrayList = ArrayList$instance & __ArrayList$views;
+export type ArrayList = ArrayList$instance & __ArrayList$views & { [index: number]: unknown; };
 
 
 export interface BitArray$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
@@ -261,7 +259,6 @@ export interface BitArray$instance extends System_Internal.ICloneable$instance, 
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    [index: number]: boolean;
     Length: int;
     readonly SyncRoot: unknown;
     And(value: BitArray): BitArray;
@@ -298,7 +295,7 @@ export interface __BitArray$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export type BitArray = BitArray$instance & __BitArray$views;
+export type BitArray = BitArray$instance & __BitArray$views & { [index: number]: boolean; };
 
 
 export interface CaseInsensitiveComparer$instance {

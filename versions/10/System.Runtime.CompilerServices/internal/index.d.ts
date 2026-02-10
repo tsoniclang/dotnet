@@ -112,11 +112,10 @@ export interface IRuntimeVariables$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_IRuntimeVariables: never;
 
     readonly Count: int;
-    [index: number]: unknown | undefined;
 }
 
 
-export type IRuntimeVariables = IRuntimeVariables$instance;
+export type IRuntimeVariables = IRuntimeVariables$instance & { [index: number]: unknown | undefined; };
 
 export interface IStrongBox$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
@@ -132,11 +131,10 @@ export interface ITuple$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
 
     readonly Length: int;
-    readonly [index: number]: unknown | undefined;
 }
 
 
-export type ITuple = ITuple$instance;
+export type ITuple = ITuple$instance & { readonly [index: number]: unknown | undefined; };
 
 export interface AsyncIteratorMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncIteratorMethodBuilder: never;
@@ -1806,7 +1804,6 @@ export interface ReadOnlyCollectionBuilder_1$instance<T> {
 
     Capacity: int;
     readonly Count: int;
-    [index: number]: T;
     Add(item: T): void;
     Clear(): void;
     Contains(item: T): boolean;
@@ -1839,7 +1836,7 @@ export interface __ReadOnlyCollectionBuilder_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instance<T> & __ReadOnlyCollectionBuilder_1$views<T>;
+export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instance<T> & __ReadOnlyCollectionBuilder_1$views<T> & { [index: number]: T; };
 
 
 export interface ReferenceAssemblyAttribute$instance extends Attribute {

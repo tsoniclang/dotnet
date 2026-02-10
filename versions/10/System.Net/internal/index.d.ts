@@ -408,7 +408,7 @@ export interface IWebRequestCreate$instance {
 
 export type IWebRequestCreate = IWebRequestCreate$instance;
 
-export interface IPNetwork$instance {
+export interface IPNetwork$instance extends System_Internal.ISpanParsable_1$instance<IPNetwork> {
     readonly __tsonic_type_System_Net_IPNetwork: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -1306,7 +1306,7 @@ export interface __HttpWebResponse$views {
 export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views;
 
 
-export interface IPAddress$instance {
+export interface IPAddress$instance extends System_Internal.ISpanParsable_1$instance<IPAddress> {
     readonly __tsonic_type_System_Net_IPAddress: never;
 
     readonly __tsonic_iface_System_IFormattable: never;
@@ -1589,7 +1589,6 @@ export interface SocketAddress$instance {
 
     readonly Buffer: Memory_1<System_Internal.Byte>;
     readonly Family: AddressFamily;
-    [offset: number]: byte;
     Size: int;
     Equals(comparand: unknown): boolean;
     Equals(comparand: SocketAddress): boolean;
@@ -1612,7 +1611,7 @@ export interface __SocketAddress$views {
     Equals(other: SocketAddress): boolean;
 }
 
-export type SocketAddress = SocketAddress$instance & __SocketAddress$views;
+export type SocketAddress = SocketAddress$instance & __SocketAddress$views & { [offset: number]: byte; };
 
 
 export interface TransportContext$instance {

@@ -256,7 +256,7 @@ export interface __DynamicObject$views {
 export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
-export interface ExpandoObject$instance extends INotifyPropertyChanged {
+export interface ExpandoObject$instance extends INotifyPropertyChanged, System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>, System_ComponentModel_Internal.INotifyPropertyChanged$instance, IDynamicMetaObjectProvider$instance {
     readonly __tsonic_type_System_Dynamic_ExpandoObject: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
