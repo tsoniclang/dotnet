@@ -283,7 +283,6 @@ export interface NameObjectCollectionBase_KeysCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: string | undefined;
     Get(index: int): string | undefined;
     GetEnumerator(): IEnumerator;
 }
@@ -298,7 +297,7 @@ export interface __NameObjectCollectionBase_KeysCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & __NameObjectCollectionBase_KeysCollection$views;
+export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & __NameObjectCollectionBase_KeysCollection$views & { readonly [index: number]: string | undefined; };
 
 
 export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
@@ -443,7 +442,6 @@ export interface StringCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    [index: number]: string;
     readonly SyncRoot: unknown;
     Add(value: string): int;
     AddRange(value: string[]): void;
@@ -469,7 +467,7 @@ export interface __StringCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type StringCollection = StringCollection$instance & __StringCollection$views;
+export type StringCollection = StringCollection$instance & __StringCollection$views & { [index: number]: string; };
 
 
 export interface StringDictionary$instance {
@@ -479,7 +477,6 @@ export interface StringDictionary$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    [key: string]: string | undefined;
     readonly Keys: ICollection;
     readonly SyncRoot: unknown;
     readonly Values: ICollection;
@@ -502,7 +499,7 @@ export interface __StringDictionary$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type StringDictionary = StringDictionary$instance & __StringDictionary$views;
+export type StringDictionary = StringDictionary$instance & __StringDictionary$views & { [key: string]: string | undefined; };
 
 
 export interface StringEnumerator$instance {

@@ -79,7 +79,6 @@ export interface HttpHeadersNonValidated$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [headerName: string]: HeaderStringValues;
     Contains(headerName: string): boolean;
     GetEnumerator(): HttpHeadersNonValidated_Enumerator;
     TryGetValues(headerName: string, values: HeaderStringValues): boolean;
@@ -98,7 +97,7 @@ export interface __HttpHeadersNonValidated$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpHeadersNonValidated$views;
+export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpHeadersNonValidated$views & { readonly [headerName: string]: HeaderStringValues; };
 
 
 export interface HttpHeadersNonValidated_Enumerator$instance extends IDisposable {

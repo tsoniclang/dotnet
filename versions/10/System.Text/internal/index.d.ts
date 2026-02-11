@@ -30,7 +30,7 @@ export enum NormalizationForm {
 }
 
 
-export interface Rune$instance {
+export interface Rune$instance extends System_Internal.IComparable_1$instance<Rune>, System_Internal.IUtf8SpanFormattable$instance, System_Internal.IUtf8SpanParsable_1$instance<Rune> {
     readonly __tsonic_type_System_Text_Rune: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -787,7 +787,6 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Capacity: int;
-    [index: number]: char;
     Length: int;
     readonly MaxCapacity: int;
     Append(value: char, repeatCount: int): StringBuilder;
@@ -897,7 +896,7 @@ export interface __StringBuilder$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
+export type StringBuilder = StringBuilder$instance & __StringBuilder$views & { [index: number]: char; };
 
 
 export interface UnicodeEncoding$instance extends Encoding$instance {

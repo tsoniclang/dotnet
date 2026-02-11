@@ -139,7 +139,6 @@ export type IEqualityComparer_1<T> = IEqualityComparer_1$instance<T>;
 export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
     readonly __tsonic_iface_System_Collections_Generic_IList_1: never;
 
-    [index: number]: T;
     readonly Count: int;
     readonly IsReadOnly: boolean;
     Add(item: T): void;
@@ -155,7 +154,7 @@ export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>,
 }
 
 
-export type IList_1<T> = IList_1$instance<T>;
+export type IList_1<T> = IList_1$instance<T> & { [index: number]: T; };
 
 export interface IReadOnlyCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -189,7 +188,6 @@ export type IReadOnlyDictionary_2<TKey, TValue> = IReadOnlyDictionary_2$instance
 export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
 
-    readonly [index: number]: T;
     readonly Count: int;
     GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
@@ -197,7 +195,7 @@ export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, I
 }
 
 
-export type IReadOnlyList_1<T> = IReadOnlyList_1$instance<T>;
+export type IReadOnlyList_1<T> = IReadOnlyList_1$instance<T> & { readonly [index: number]: T; };
 
 export interface IReadOnlySet_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlySet_1: never;
@@ -1197,7 +1195,6 @@ export interface List_1$instance<T> {
 
     Capacity: int;
     readonly Count: int;
-    [index: number]: T;
     Add(item: T): void;
     AddRange(collection: IEnumerable_1<T>): void;
     AsReadOnly(): ReadOnlyCollection_1<T>;
@@ -1266,7 +1263,7 @@ export interface __List_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
+export type List_1<T> = List_1$instance<T> & __List_1$views<T> & { [index: number]: T; };
 
 
 export interface NonRandomizedStringEqualityComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
@@ -1881,7 +1878,6 @@ export interface SortedList_2_KeyList$instance<TKey, TValue> {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    [index: number]: TKey;
     Add(key: TKey): void;
     Clear(): void;
     Contains(key: TKey): boolean;
@@ -1906,7 +1902,7 @@ export interface __SortedList_2_KeyList$views<TKey, TValue> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<TKey, TValue> & __SortedList_2_KeyList$views<TKey, TValue>;
+export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<TKey, TValue> & __SortedList_2_KeyList$views<TKey, TValue> & { [index: number]: TKey; };
 
 
 export interface SortedList_2_ValueList$instance<TKey, TValue> {
@@ -1920,7 +1916,6 @@ export interface SortedList_2_ValueList$instance<TKey, TValue> {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    [index: number]: TValue;
     Add(key: TValue): void;
     Clear(): void;
     Contains(value: TValue): boolean;
@@ -1945,7 +1940,7 @@ export interface __SortedList_2_ValueList$views<TKey, TValue> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue>;
+export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue> & { [index: number]: TValue; };
 
 
 export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {

@@ -816,7 +816,7 @@ export interface __X509Certificate2Collection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type X509Certificate2Collection = X509Certificate2Collection$instance & __X509Certificate2Collection$views;
+export type X509Certificate2Collection = X509Certificate2Collection$instance & __X509Certificate2Collection$views & { [index: number]: X509Certificate2; };
 
 
 export interface X509Certificate2Enumerator$instance {
@@ -852,7 +852,6 @@ export interface X509CertificateCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: X509Certificate | X509Certificate2;
     Add(value: unknown): int;
     AddRange(value: X509Certificate[]): void;
     AddRange(value: X509CertificateCollection): void;
@@ -882,7 +881,7 @@ export interface __X509CertificateCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type X509CertificateCollection = X509CertificateCollection$instance & __X509CertificateCollection$views;
+export type X509CertificateCollection = X509CertificateCollection$instance & __X509CertificateCollection$views & { [index: number]: X509Certificate; };
 
 
 export interface X509CertificateCollection_X509CertificateEnumerator$instance {
@@ -964,7 +963,6 @@ export interface X509ChainElementCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly [index: number]: X509ChainElement;
     readonly SyncRoot: unknown;
     CopyTo(array: X509ChainElement[], index: int): void;
     GetEnumerator(): X509ChainElementEnumerator;
@@ -981,7 +979,7 @@ export interface __X509ChainElementCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type X509ChainElementCollection = X509ChainElementCollection$instance & __X509ChainElementCollection$views;
+export type X509ChainElementCollection = X509ChainElementCollection$instance & __X509ChainElementCollection$views & { readonly [index: number]: X509ChainElement; };
 
 
 export interface X509ChainElementEnumerator$instance {

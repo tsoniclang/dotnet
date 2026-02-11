@@ -457,7 +457,6 @@ export interface XmlSchemaCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [ns: string]: XmlSchema | undefined;
     readonly NameTable: XmlNameTable;
     Add(ns: string, uri: string): XmlSchema | undefined;
     Add(ns: string, reader: XmlReader): XmlSchema | undefined;
@@ -483,7 +482,7 @@ export interface __XmlSchemaCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaCollection$views;
+export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaCollection$views & { readonly [ns: string]: XmlSchema | undefined; };
 
 
 export interface XmlSchemaCollectionEnumerator$instance {
@@ -1139,7 +1138,6 @@ export interface XmlSchemaObjectCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: XmlSchemaObject;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -1168,7 +1166,7 @@ export interface __XmlSchemaObjectCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlSchemaObjectCollection = XmlSchemaObjectCollection$instance & __XmlSchemaObjectCollection$views;
+export type XmlSchemaObjectCollection = XmlSchemaObjectCollection$instance & __XmlSchemaObjectCollection$views & { [index: number]: XmlSchemaObject; };
 
 
 export interface XmlSchemaObjectEnumerator$instance {

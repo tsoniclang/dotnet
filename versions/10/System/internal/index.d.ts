@@ -864,7 +864,6 @@ export interface ArraySegment_1$instance<T> {
 
     readonly Array: T[] | undefined;
     readonly Count: int;
-    [index: number]: T;
     readonly Offset: int;
     CopyTo(destination: T[]): void;
     CopyTo(destination: T[], destinationIndex: int): void;
@@ -894,7 +893,7 @@ export interface __ArraySegment_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T>;
+export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T> & { [index: number]: T; };
 
 
 export interface ArraySegment_1_Enumerator$instance<T> extends IDisposable {
@@ -924,7 +923,7 @@ export interface __ArraySegment_1_Enumerator$views<T> {
 export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T> & __ArraySegment_1_Enumerator$views<T>;
 
 
-export interface Boolean$instance {
+export interface Boolean$instance extends ISpanParsable_1$instance<Boolean$shape> {
     readonly __tsonic_type_System_Boolean: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -962,18 +961,19 @@ export interface __Boolean$views {
     As_IComparable_1(): IComparable_1$instance<Boolean>;
     As_IConvertible(): IConvertible$instance;
     As_IEquatable_1(): IEquatable_1$instance<Boolean>;
-    As_IParsable_1(): IParsable_1$instance<Boolean>;
-    As_ISpanParsable_1(): ISpanParsable_1$instance<Boolean>;
+    As_IParsable_1(): IParsable_1$instance<Boolean$shape>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Boolean$shape>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Boolean): boolean;
     CompareTo(obj: unknown): int;
 }
 
-export type Boolean = boolean | (boolean & Boolean$instance & __Boolean$views);
+export type Boolean$shape = boolean & Boolean$instance & __Boolean$views;
+export type Boolean = boolean | Boolean$shape;
 
 
-export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte> {
+export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte>, System_Numerics_Internal.IMinMaxValue_1$instance<Byte> {
     readonly __tsonic_type_System_Byte: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1097,7 +1097,7 @@ export interface __Byte$views {
 export type Byte = number & Byte$instance & __Byte$views;
 
 
-export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char> {
+export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char>, System_Numerics_Internal.IMinMaxValue_1$instance<Char> {
     readonly __tsonic_type_System_Char: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1268,7 +1268,7 @@ export interface __ConsoleKeyInfo$views {
 export type ConsoleKeyInfo = ConsoleKeyInfo$instance & __ConsoleKeyInfo$views;
 
 
-export interface DateOnly$instance {
+export interface DateOnly$instance extends IComparable_1$instance<DateOnly>, ISpanParsable_1$instance<DateOnly> {
     readonly __tsonic_type_System_DateOnly: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1363,7 +1363,7 @@ export interface __DateOnly$views {
 export type DateOnly = DateOnly$instance & __DateOnly$views;
 
 
-export interface DateTime$instance {
+export interface DateTime$instance extends IComparable_1$instance<DateTime>, ISpanParsable_1$instance<DateTime>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DateTime: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1513,7 +1513,7 @@ export interface __DateTime$views {
 export type DateTime = DateTime$instance & __DateTime$views;
 
 
-export interface DateTimeOffset$instance {
+export interface DateTimeOffset$instance extends IComparable_1$instance<DateTimeOffset>, ISpanParsable_1$instance<DateTimeOffset>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DateTimeOffset: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1644,7 +1644,7 @@ export interface __DateTimeOffset$views {
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
-export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal> {
+export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal>, System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Decimal: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1831,7 +1831,7 @@ export const Delegate_InvocationListEnumerator_1: {
 
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
-export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double> {
+export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double>, System_Numerics_Internal.IMinMaxValue_1$instance<Double> {
     readonly __tsonic_type_System_Double: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2112,7 +2112,7 @@ export const GCMemoryInfo: {
 
 export type GCMemoryInfo = GCMemoryInfo$instance;
 
-export interface Guid$instance {
+export interface Guid$instance extends IComparable_1$instance<Guid>, ISpanParsable_1$instance<Guid> {
     readonly __tsonic_type_System_Guid: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2196,7 +2196,7 @@ export interface __Guid$views {
 export type Guid = Guid$instance & __Guid$views;
 
 
-export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half> {
+export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half>, System_Numerics_Internal.IMinMaxValue_1$instance<Half> {
     readonly __tsonic_type_System_Half: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2477,7 +2477,7 @@ export interface __Index$views {
 export type Index = Index$instance & __Index$views;
 
 
-export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128> {
+export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128>, System_Numerics_Internal.IMinMaxValue_1$instance<Int128> {
     readonly __tsonic_type_System_Int128: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2607,7 +2607,7 @@ export interface __Int128$views {
 export type Int128 = number & Int128$instance & __Int128$views;
 
 
-export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16> {
+export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16>, System_Numerics_Internal.IMinMaxValue_1$instance<Int16> {
     readonly __tsonic_type_System_Int16: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2737,7 +2737,7 @@ export interface __Int16$views {
 export type Int16 = number & Int16$instance & __Int16$views;
 
 
-export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32> {
+export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32>, System_Numerics_Internal.IMinMaxValue_1$instance<Int32> {
     readonly __tsonic_type_System_Int32: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2868,7 +2868,7 @@ export interface __Int32$views {
 export type Int32 = number & Int32$instance & __Int32$views;
 
 
-export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64> {
+export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64>, System_Numerics_Internal.IMinMaxValue_1$instance<Int64> {
     readonly __tsonic_type_System_Int64: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2999,7 +2999,7 @@ export interface __Int64$views {
 export type Int64 = number & Int64$instance & __Int64$views;
 
 
-export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr> {
+export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr>, System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IntPtr: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -3361,7 +3361,6 @@ export interface ReadOnlySpan_1$instance<T> {
     readonly __tsonic_type_System_ReadOnlySpan_1: never;
 
     readonly IsEmpty: boolean;
-    readonly [index: number]: T;
     readonly Length: int;
     CopyTo(destination: Span_1<T>): void;
     Equals(obj: unknown): boolean;
@@ -3386,7 +3385,7 @@ export const ReadOnlySpan_1: {
 };
 
 
-export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T>;
+export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T> & { readonly [index: number]: T; };
 
 export interface ReadOnlySpan_1_Enumerator$instance<T> {
     readonly __tsonic_type_System_ReadOnlySpan_1_Enumerator: never;
@@ -3526,7 +3525,7 @@ export interface __RuntimeTypeHandle$views {
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
 
-export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte> {
+export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte>, System_Numerics_Internal.IMinMaxValue_1$instance<SByte> {
     readonly __tsonic_type_System_SByte: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -3684,7 +3683,7 @@ export interface __SequencePosition$views {
 export type SequencePosition = SequencePosition$instance & __SequencePosition$views;
 
 
-export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single> {
+export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single>, System_Numerics_Internal.IMinMaxValue_1$instance<Single> {
     readonly __tsonic_type_System_Single: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -3907,7 +3906,6 @@ export interface Span_1$instance<T> {
     readonly __tsonic_type_System_Span_1: never;
 
     readonly IsEmpty: boolean;
-    readonly [index: number]: T;
     readonly Length: int;
     Clear(): void;
     CopyTo(destination: Span_1<T>): void;
@@ -3933,7 +3931,7 @@ export const Span_1: {
 };
 
 
-export type Span_1<T> = Span_1$instance<T>;
+export type Span_1<T> = Span_1$instance<T> & { readonly [index: number]: T; };
 
 export interface Span_1_Enumerator$instance<T> {
     readonly __tsonic_type_System_Span_1_Enumerator: never;
@@ -3962,7 +3960,7 @@ export interface __Span_1_Enumerator$views<T> {
 export type Span_1_Enumerator<T> = Span_1_Enumerator$instance<T> & __Span_1_Enumerator$views<T>;
 
 
-export interface TimeOnly$instance {
+export interface TimeOnly$instance extends ISpanParsable_1$instance<TimeOnly> {
     readonly __tsonic_type_System_TimeOnly: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4067,7 +4065,7 @@ export interface __TimeOnly$views {
 export type TimeOnly = TimeOnly$instance & __TimeOnly$views;
 
 
-export interface TimeSpan$instance {
+export interface TimeSpan$instance extends ISpanParsable_1$instance<TimeSpan> {
     readonly __tsonic_type_System_TimeSpan: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4266,7 +4264,7 @@ export const TypedReference: {
 
 export type TypedReference = TypedReference$instance;
 
-export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128> {
+export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt128> {
     readonly __tsonic_type_System_UInt128: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4389,7 +4387,7 @@ export interface __UInt128$views {
 export type UInt128 = number & UInt128$instance & __UInt128$views;
 
 
-export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16> {
+export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt16> {
     readonly __tsonic_type_System_UInt16: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4513,7 +4511,7 @@ export interface __UInt16$views {
 export type UInt16 = number & UInt16$instance & __UInt16$views;
 
 
-export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32> {
+export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt32> {
     readonly __tsonic_type_System_UInt32: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4638,7 +4636,7 @@ export interface __UInt32$views {
 export type UInt32 = number & UInt32$instance & __UInt32$views;
 
 
-export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64> {
+export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt64> {
     readonly __tsonic_type_System_UInt64: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4763,7 +4761,7 @@ export interface __UInt64$views {
 export type UInt64 = number & UInt64$instance & __UInt64$views;
 
 
-export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr> {
+export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr>, System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_UIntPtr: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4910,7 +4908,7 @@ export const UriCreationOptions: {
 
 export type UriCreationOptions = UriCreationOptions$instance;
 
-export interface ValueTuple$instance {
+export interface ValueTuple$instance extends IComparable_1$instance<ValueTuple>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7567,7 +7565,7 @@ export const STAThreadAttribute: {
 
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
-export interface String$instance {
+export interface String$instance extends ICloneable$instance, ISpanParsable_1$instance<String> {
     readonly __tsonic_type_System_String: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -7580,7 +7578,6 @@ export interface String$instance {
     readonly __tsonic_iface_System_IParsable_1: never;
     readonly __tsonic_iface_System_ISpanParsable_1: never;
 
-    readonly [index: number]: char;
     readonly Length: int;
     Clone(): unknown;
     CompareTo(value: unknown): int;
@@ -7786,7 +7783,7 @@ export interface __String$views {
     CompareTo(obj: unknown): int;
 }
 
-export type String = string & String$instance & __String$views;
+export type String = string & String$instance & __String$views & { readonly [index: number]: char; };
 
 
 export interface StringComparer$instance {
@@ -8962,7 +8959,7 @@ export const ValueType: (abstract new() => ValueType) & {
 
 export type ValueType = ValueType$instance;
 
-export interface Version$instance {
+export interface Version$instance extends ICloneable$instance, IUtf8SpanParsable_1$instance<Version> {
     readonly __tsonic_type_System_Version: never;
 
     readonly __tsonic_iface_System_ICloneable: never;

@@ -900,7 +900,6 @@ export interface Quaternion$instance {
     Z: float;
     W: float;
     readonly IsIdentity: boolean;
-    [index: number]: float;
     Equals(obj: unknown): boolean;
     Equals(other: Quaternion): boolean;
     GetHashCode(): int;
@@ -943,7 +942,7 @@ export interface __Quaternion$views {
     Equals(other: Quaternion): boolean;
 }
 
-export type Quaternion = Quaternion$instance & __Quaternion$views;
+export type Quaternion = Quaternion$instance & __Quaternion$views & { [index: number]: float; };
 
 
 export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> extends System_Collections_Generic_Internal.IComparer_1$instance<T> {
@@ -994,7 +993,6 @@ export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, 
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    readonly [index: number]: T;
     CopyTo(destination: T[]): void;
     CopyTo(destination: T[], startIndex: int): void;
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
@@ -1034,7 +1032,7 @@ export interface __Vector_1$views<T> {
     Equals(other: Vector_1<T>): boolean;
 }
 
-export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T>;
+export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface Vector2$instance {
@@ -1045,7 +1043,6 @@ export interface Vector2$instance {
 
     X: float;
     Y: float;
-    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
@@ -1197,7 +1194,7 @@ export interface __Vector2$views {
     Equals(other: Vector2): boolean;
 }
 
-export type Vector2 = Vector2$instance & __Vector2$views;
+export type Vector2 = Vector2$instance & __Vector2$views & { [index: number]: float; };
 
 
 export interface Vector3$instance {
@@ -1209,7 +1206,6 @@ export interface Vector3$instance {
     X: float;
     Y: float;
     Z: float;
-    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
@@ -1362,7 +1358,7 @@ export interface __Vector3$views {
     Equals(other: Vector3): boolean;
 }
 
-export type Vector3 = Vector3$instance & __Vector3$views;
+export type Vector3 = Vector3$instance & __Vector3$views & { [index: number]: float; };
 
 
 export interface Vector4$instance {
@@ -1375,7 +1371,6 @@ export interface Vector4$instance {
     Y: float;
     Z: float;
     W: float;
-    [index: number]: float;
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
@@ -1533,7 +1528,7 @@ export interface __Vector4$views {
     Equals(other: Vector4): boolean;
 }
 
-export type Vector4 = Vector4$instance & __Vector4$views;
+export type Vector4 = Vector4$instance & __Vector4$views & { [index: number]: float; };
 
 
 export abstract class BitOperations$instance {

@@ -522,7 +522,6 @@ export interface DesignerCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: IDesignerHost | undefined;
     GetEnumerator(): IEnumerator;
 }
 
@@ -538,7 +537,7 @@ export interface __DesignerCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type DesignerCollection = DesignerCollection$instance & __DesignerCollection$views;
+export type DesignerCollection = DesignerCollection$instance & __DesignerCollection$views & { readonly [index: number]: IDesignerHost | undefined; };
 
 
 export interface DesignerEventArgs$instance extends EventArgs {
@@ -678,7 +677,6 @@ export interface DesignerVerbCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: DesignerVerb;
     Add(value: unknown): int;
     AddRange(value: DesignerVerb[]): void;
     AddRange(value: DesignerVerbCollection): void;
@@ -706,7 +704,7 @@ export interface __DesignerVerbCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type DesignerVerbCollection = DesignerVerbCollection$instance & __DesignerVerbCollection$views;
+export type DesignerVerbCollection = DesignerVerbCollection$instance & __DesignerVerbCollection$views & { [index: number]: DesignerVerb; };
 
 
 export interface DesigntimeLicenseContext$instance extends LicenseContext {

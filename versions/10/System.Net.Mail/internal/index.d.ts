@@ -124,7 +124,7 @@ export interface __AlternateView$views {
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
-export interface AlternateViewCollection$instance extends Collection_1<AlternateView> extends System_Internal.IDisposable$instance {
+export interface AlternateViewCollection$instance extends Collection_1<AlternateView>, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Net_Mail_AlternateViewCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -238,7 +238,7 @@ export interface __AttachmentBase$views {
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
-export interface AttachmentCollection$instance extends Collection_1<Attachment> extends System_Internal.IDisposable$instance {
+export interface AttachmentCollection$instance extends Collection_1<Attachment>, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Net_Mail_AttachmentCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -324,7 +324,7 @@ export interface __LinkedResource$views {
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
-export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> extends System_Internal.IDisposable$instance {
+export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource>, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Net_Mail_LinkedResourceCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;

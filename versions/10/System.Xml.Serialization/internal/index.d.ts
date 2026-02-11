@@ -408,7 +408,6 @@ export interface XmlAnyElementAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: XmlAnyElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -432,7 +431,7 @@ export interface __XmlAnyElementAttributes$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlAnyElementAttributes = XmlAnyElementAttributes$instance & __XmlAnyElementAttributes$views;
+export type XmlAnyElementAttributes = XmlAnyElementAttributes$instance & __XmlAnyElementAttributes$views & { [index: number]: XmlAnyElementAttribute; };
 
 
 export interface XmlArrayAttribute$instance extends Attribute {
@@ -487,7 +486,6 @@ export interface XmlArrayItemAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: XmlArrayItemAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -511,7 +509,7 @@ export interface __XmlArrayItemAttributes$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlArrayItemAttributes = XmlArrayItemAttributes$instance & __XmlArrayItemAttributes$views;
+export type XmlArrayItemAttributes = XmlArrayItemAttributes$instance & __XmlArrayItemAttributes$views & { [index: number]: XmlArrayItemAttribute; };
 
 
 export interface XmlAttributeAttribute$instance extends Attribute {
@@ -654,7 +652,6 @@ export interface XmlElementAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    [index: number]: XmlElementAttribute;
     Add(value: unknown): int;
     Clear(): void;
     Contains(value: unknown): boolean;
@@ -678,7 +675,7 @@ export interface __XmlElementAttributes$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlElementAttributes = XmlElementAttributes$instance & __XmlElementAttributes$views;
+export type XmlElementAttributes = XmlElementAttributes$instance & __XmlElementAttributes$views & { [index: number]: XmlElementAttribute; };
 
 
 export interface XmlElementEventArgs$instance extends EventArgs {
@@ -783,7 +780,6 @@ export interface XmlMembersMapping$instance extends XmlMapping {
     readonly __tsonic_type_System_Xml_Serialization_XmlMembersMapping: never;
 
     readonly Count: int;
-    readonly [index: number]: XmlMemberMapping;
     readonly TypeName: string | undefined;
     readonly TypeNamespace: string | undefined;
 }
@@ -793,7 +789,7 @@ export const XmlMembersMapping: {
 };
 
 
-export type XmlMembersMapping = XmlMembersMapping$instance;
+export type XmlMembersMapping = XmlMembersMapping$instance & { readonly [index: number]: XmlMemberMapping; };
 
 export interface XmlNamespaceDeclarationsAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Xml_Serialization_XmlNamespaceDeclarationsAttribute: never;

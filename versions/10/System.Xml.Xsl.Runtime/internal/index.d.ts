@@ -945,7 +945,6 @@ export interface XmlQuerySequence_1$instance<T> {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    [index: number]: T;
     Add(value: T): void;
     Clear(): void;
     Contains(value: T): boolean;
@@ -977,7 +976,7 @@ export interface __XmlQuerySequence_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T>;
+export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T> & { [index: number]: T; };
 
 
 export interface XsltLibrary$instance {

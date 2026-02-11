@@ -193,7 +193,6 @@ export interface IBindingList$instance extends IList, ICollection, IEnumerable {
     readonly IsSorted: boolean;
     readonly SortProperty: PropertyDescriptor | undefined;
     readonly SortDirection: ListSortDirection;
-    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -215,7 +214,7 @@ export interface IBindingList$instance extends IList, ICollection, IEnumerable {
 }
 
 
-export type IBindingList = IBindingList$instance;
+export type IBindingList = IBindingList$instance & { [index: number]: unknown; };
 
 export interface IBindingListView$instance extends IBindingList, IList, ICollection, IEnumerable {
     readonly __tsonic_iface_System_ComponentModel_IBindingListView: never;
@@ -234,7 +233,6 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
     readonly IsSorted: boolean;
     readonly SortProperty: PropertyDescriptor | undefined;
     readonly SortDirection: ListSortDirection;
-    [index: number]: unknown;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
@@ -258,7 +256,7 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
 }
 
 
-export type IBindingListView = IBindingListView$instance;
+export type IBindingListView = IBindingListView$instance & { [index: number]: unknown; };
 
 export interface ICancelAddNew$instance {
     readonly __tsonic_iface_System_ComponentModel_ICancelAddNew: never;
@@ -348,12 +346,11 @@ export type ICustomTypeDescriptor = ICustomTypeDescriptor$instance;
 export interface IDataErrorInfo$instance {
     readonly __tsonic_iface_System_ComponentModel_IDataErrorInfo: never;
 
-    readonly [columnName: string]: string;
     readonly Error: string;
 }
 
 
-export type IDataErrorInfo = IDataErrorInfo$instance;
+export type IDataErrorInfo = IDataErrorInfo$instance & { readonly [columnName: string]: string; };
 
 export interface IEditableObject$instance {
     readonly __tsonic_iface_System_ComponentModel_IEditableObject: never;
@@ -2289,7 +2286,6 @@ export interface ListSortDescriptionCollection$instance {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    [index: number]: ListSortDescription;
     Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
     IndexOf(value: unknown): int;
@@ -2308,7 +2304,7 @@ export interface __ListSortDescriptionCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ListSortDescriptionCollection = ListSortDescriptionCollection$instance & __ListSortDescriptionCollection$views;
+export type ListSortDescriptionCollection = ListSortDescriptionCollection$instance & __ListSortDescriptionCollection$views & { [index: number]: ListSortDescription; };
 
 
 export interface LocalizableAttribute$instance extends Attribute {
@@ -2400,7 +2396,6 @@ export interface MaskedTextProvider$instance extends System_Internal.ICloneable$
     IncludeLiterals: boolean;
     IncludePrompt: boolean;
     IsPassword: boolean;
-    readonly [index: number]: char;
     readonly LastAssignedPosition: int;
     readonly Length: int;
     readonly Mask: string;
@@ -2481,7 +2476,7 @@ export interface __MaskedTextProvider$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvider$views;
+export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvider$views & { readonly [index: number]: char; };
 
 
 export interface MemberDescriptor$instance {
@@ -3192,7 +3187,6 @@ export interface TypeConverter_StandardValuesCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: unknown | undefined;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
 }
@@ -3208,7 +3202,7 @@ export interface __TypeConverter_StandardValuesCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValuesCollection$instance & __TypeConverter_StandardValuesCollection$views;
+export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValuesCollection$instance & __TypeConverter_StandardValuesCollection$views & { readonly [index: number]: unknown | undefined; };
 
 
 export interface TypeConverterAttribute$instance extends Attribute {

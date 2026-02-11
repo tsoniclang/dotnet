@@ -175,7 +175,6 @@ export interface CaptureCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly [i: number]: Capture;
     readonly SyncRoot: unknown;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Capture[], arrayIndex: int): void;
@@ -197,7 +196,7 @@ export interface __CaptureCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type CaptureCollection = CaptureCollection$instance & __CaptureCollection$views;
+export type CaptureCollection = CaptureCollection$instance & __CaptureCollection$views & { readonly [i: number]: Capture; };
 
 
 export interface GeneratedRegexAttribute$instance extends Attribute {
@@ -315,7 +314,6 @@ export interface MatchCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly [i: number]: Match;
     readonly SyncRoot: unknown;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Match[], arrayIndex: int): void;
@@ -337,7 +335,7 @@ export interface __MatchCollection$views {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type MatchCollection = MatchCollection$instance & __MatchCollection$views;
+export type MatchCollection = MatchCollection$instance & __MatchCollection$views & { readonly [i: number]: Match; };
 
 
 export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {

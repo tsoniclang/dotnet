@@ -42,7 +42,6 @@ export type IImmutableDictionary_2<TKey, TValue> = IImmutableDictionary_2$instan
 export interface IImmutableList_1$instance<T> extends IReadOnlyList_1<T>, IEnumerable_1<T>, IEnumerable, IReadOnlyCollection_1<T> {
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableList_1: never;
 
-    readonly [index: number]: T;
     readonly Count: int;
     Add(value: T): IImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): IImmutableList_1<T>;
@@ -62,7 +61,7 @@ export interface IImmutableList_1$instance<T> extends IReadOnlyList_1<T>, IEnume
 }
 
 
-export type IImmutableList_1<T> = IImmutableList_1$instance<T>;
+export type IImmutableList_1<T> = IImmutableList_1$instance<T> & { readonly [index: number]: T; };
 
 export interface IImmutableQueue_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableQueue_1: never;
@@ -131,7 +130,6 @@ export interface ImmutableArray_1$instance<T> {
     readonly IsDefault: boolean;
     readonly IsDefaultOrEmpty: boolean;
     readonly IsEmpty: boolean;
-    readonly [index: number]: T;
     readonly Length: int;
     Add(item: T): ImmutableArray_1<T>;
     AddRange(items: IEnumerable_1<T>): ImmutableArray_1<T>;
@@ -221,7 +219,7 @@ export interface __ImmutableArray_1$views<T> {
     Equals(other: ImmutableArray_1<T>): boolean;
 }
 
-export type ImmutableArray_1<T> = ImmutableArray_1$instance<T> & __ImmutableArray_1$views<T>;
+export type ImmutableArray_1<T> = ImmutableArray_1$instance<T> & __ImmutableArray_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface ImmutableArray_1_Enumerator$instance<T> {
@@ -416,7 +414,6 @@ export interface ImmutableArray_1_Builder$instance<T> {
 
     Capacity: int;
     Count: int;
-    [index: number]: T;
     Add(item: T): void;
     AddRange(items: IEnumerable_1<T>): void;
     AddRange(...items: T[]): void;
@@ -479,7 +476,7 @@ export interface __ImmutableArray_1_Builder$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ImmutableArray_1_Builder<T> = ImmutableArray_1_Builder$instance<T> & __ImmutableArray_1_Builder$views<T>;
+export type ImmutableArray_1_Builder<T> = ImmutableArray_1_Builder$instance<T> & __ImmutableArray_1_Builder$views<T> & { [index: number]: T; };
 
 
 export interface ImmutableDictionary_2$instance<TKey, TValue> {
@@ -712,7 +709,6 @@ export interface ImmutableList_1$instance<T> {
 
     readonly Count: int;
     readonly IsEmpty: boolean;
-    readonly [index: number]: T;
     Add(value: T): ImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): ImmutableList_1<T>;
     BinarySearch(item: T): int;
@@ -780,7 +776,7 @@ export interface __ImmutableList_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1$views<T>;
+export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface ImmutableList_1_Builder$instance<T> {
@@ -796,7 +792,6 @@ export interface ImmutableList_1_Builder$instance<T> {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    [index: number]: T;
     Add(item: T): void;
     AddRange(items: IEnumerable_1<T>): void;
     BinarySearch(item: T): int;
@@ -866,7 +861,7 @@ export interface __ImmutableList_1_Builder$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ImmutableList_1_Builder<T> = ImmutableList_1_Builder$instance<T> & __ImmutableList_1_Builder$views<T>;
+export type ImmutableList_1_Builder<T> = ImmutableList_1_Builder$instance<T> & __ImmutableList_1_Builder$views<T> & { [index: number]: T; };
 
 
 export interface ImmutableQueue_1$instance<T> {
@@ -1034,7 +1029,6 @@ export interface ImmutableSortedSet_1$instance<T> {
 
     readonly Count: int;
     readonly IsEmpty: boolean;
-    readonly [index: number]: T;
     readonly KeyComparer: IComparer_1<T>;
     readonly Max: T | undefined;
     readonly Min: T | undefined;
@@ -1080,7 +1074,7 @@ export interface __ImmutableSortedSet_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __ImmutableSortedSet_1$views<T>;
+export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __ImmutableSortedSet_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface ImmutableSortedSet_1_Builder$instance<T> {
@@ -1094,7 +1088,6 @@ export interface ImmutableSortedSet_1_Builder$instance<T> {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: T;
     KeyComparer: IComparer_1<T>;
     readonly Max: T | undefined;
     readonly Min: T | undefined;
@@ -1134,7 +1127,7 @@ export interface __ImmutableSortedSet_1_Builder$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ImmutableSortedSet_1_Builder<T> = ImmutableSortedSet_1_Builder$instance<T> & __ImmutableSortedSet_1_Builder$views<T>;
+export type ImmutableSortedSet_1_Builder<T> = ImmutableSortedSet_1_Builder$instance<T> & __ImmutableSortedSet_1_Builder$views<T> & { readonly [index: number]: T; };
 
 
 export interface ImmutableStack_1$instance<T> {

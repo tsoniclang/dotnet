@@ -90,7 +90,6 @@ export type JsonDocumentOptions = JsonDocumentOptions$instance;
 export interface JsonElement$instance {
     readonly __tsonic_type_System_Text_Json_JsonElement: never;
 
-    readonly [index: number]: JsonElement;
     readonly ValueKind: JsonValueKind;
     Clone(): JsonElement;
     EnumerateArray(): JsonElement_ArrayEnumerator;
@@ -155,7 +154,7 @@ export const JsonElement: {
 };
 
 
-export type JsonElement = JsonElement$instance;
+export type JsonElement = JsonElement$instance & { readonly [index: number]: JsonElement; };
 
 export interface JsonElement_ArrayEnumerator$instance extends IDisposable {
     readonly __tsonic_type_System_Text_Json_JsonElement_ArrayEnumerator: never;

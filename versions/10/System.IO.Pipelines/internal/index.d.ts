@@ -138,7 +138,7 @@ export const PipeScheduler: (abstract new() => PipeScheduler) & {
 
 export type PipeScheduler = PipeScheduler$instance;
 
-export interface PipeWriter$instance {
+export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWriter_1$instance<System_Internal.Byte> {
     readonly __tsonic_type_System_IO_Pipelines_PipeWriter: never;
 
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;

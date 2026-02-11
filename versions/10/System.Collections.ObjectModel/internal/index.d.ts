@@ -33,7 +33,6 @@ export interface Collection_1$instance<T> {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    [index: number]: T;
     Add(item: T): void;
     Clear(): void;
     ClearItems(): void;
@@ -66,7 +65,7 @@ export interface __Collection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>;
+export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T> & { [index: number]: T; };
 
 
 export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
@@ -196,7 +195,6 @@ export interface ReadOnlyCollection_1$instance<T> {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    readonly [index: number]: T;
     Contains(value: T): boolean;
     CopyTo(array: T[], index: int): void;
     GetEnumerator(): IEnumerator_1<T>;
@@ -220,7 +218,7 @@ export interface __ReadOnlyCollection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadOnlyCollection_1$views<T>;
+export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadOnlyCollection_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface ReadOnlyDictionary_2$instance<TKey, TValue> {

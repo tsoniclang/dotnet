@@ -199,7 +199,6 @@ export interface GatewayIPAddressInformationCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly [index: number]: GatewayIPAddressInformation;
     Add(address: GatewayIPAddressInformation): void;
     Clear(): void;
     Contains(address: GatewayIPAddressInformation): boolean;
@@ -219,7 +218,7 @@ export interface __GatewayIPAddressInformationCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationCollection$instance & __GatewayIPAddressInformationCollection$views;
+export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationCollection$instance & __GatewayIPAddressInformationCollection$views & { readonly [index: number]: GatewayIPAddressInformation; };
 
 
 export interface IcmpV4Statistics$instance {
@@ -313,7 +312,6 @@ export interface IPAddressCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly [index: number]: IPAddress;
     Add(address: IPAddress): void;
     Clear(): void;
     Contains(address: IPAddress): boolean;
@@ -333,7 +331,7 @@ export interface __IPAddressCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type IPAddressCollection = IPAddressCollection$instance & __IPAddressCollection$views;
+export type IPAddressCollection = IPAddressCollection$instance & __IPAddressCollection$views & { readonly [index: number]: IPAddress; };
 
 
 export interface IPAddressInformation$instance {
@@ -360,7 +358,6 @@ export interface IPAddressInformationCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly [index: number]: IPAddressInformation;
     Add(address: IPAddressInformation): void;
     Clear(): void;
     Contains(address: IPAddressInformation): boolean;
@@ -380,7 +377,7 @@ export interface __IPAddressInformationCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type IPAddressInformationCollection = IPAddressInformationCollection$instance & __IPAddressInformationCollection$views;
+export type IPAddressInformationCollection = IPAddressInformationCollection$instance & __IPAddressInformationCollection$views & { readonly [index: number]: IPAddressInformation; };
 
 
 export interface IPGlobalProperties$instance {
@@ -583,7 +580,6 @@ export interface MulticastIPAddressInformationCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly [index: number]: MulticastIPAddressInformation;
     Add(address: MulticastIPAddressInformation): void;
     Clear(): void;
     Contains(address: MulticastIPAddressInformation): boolean;
@@ -603,7 +599,7 @@ export interface __MulticastIPAddressInformationCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type MulticastIPAddressInformationCollection = MulticastIPAddressInformationCollection$instance & __MulticastIPAddressInformationCollection$views;
+export type MulticastIPAddressInformationCollection = MulticastIPAddressInformationCollection$instance & __MulticastIPAddressInformationCollection$views & { readonly [index: number]: MulticastIPAddressInformation; };
 
 
 export interface NetworkAvailabilityEventArgs$instance extends EventArgs {
@@ -915,7 +911,6 @@ export interface UnicastIPAddressInformationCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    readonly [index: number]: UnicastIPAddressInformation;
     Add(address: UnicastIPAddressInformation): void;
     Clear(): void;
     Contains(address: UnicastIPAddressInformation): boolean;
@@ -935,6 +930,6 @@ export interface __UnicastIPAddressInformationCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type UnicastIPAddressInformationCollection = UnicastIPAddressInformationCollection$instance & __UnicastIPAddressInformationCollection$views;
+export type UnicastIPAddressInformationCollection = UnicastIPAddressInformationCollection$instance & __UnicastIPAddressInformationCollection$views & { readonly [index: number]: UnicastIPAddressInformation; };
 
 

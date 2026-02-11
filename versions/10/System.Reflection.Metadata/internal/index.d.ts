@@ -1999,7 +1999,6 @@ export interface GenericParameterConstraintHandleCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: GenericParameterConstraintHandle;
     GetEnumerator(): GenericParameterConstraintHandleCollection_Enumerator;
 }
 
@@ -2015,7 +2014,7 @@ export interface __GenericParameterConstraintHandleCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type GenericParameterConstraintHandleCollection = GenericParameterConstraintHandleCollection$instance & __GenericParameterConstraintHandleCollection$views;
+export type GenericParameterConstraintHandleCollection = GenericParameterConstraintHandleCollection$instance & __GenericParameterConstraintHandleCollection$views & { readonly [index: number]: GenericParameterConstraintHandle; };
 
 
 export interface GenericParameterConstraintHandleCollection_Enumerator$instance {
@@ -2080,7 +2079,6 @@ export interface GenericParameterHandleCollection$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    readonly [index: number]: GenericParameterHandle;
     GetEnumerator(): GenericParameterHandleCollection_Enumerator;
 }
 
@@ -2096,7 +2094,7 @@ export interface __GenericParameterHandleCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type GenericParameterHandleCollection = GenericParameterHandleCollection$instance & __GenericParameterHandleCollection$views;
+export type GenericParameterHandleCollection = GenericParameterHandleCollection$instance & __GenericParameterHandleCollection$views & { readonly [index: number]: GenericParameterHandle; };
 
 
 export interface GenericParameterHandleCollection_Enumerator$instance {
@@ -4296,7 +4294,7 @@ export const DebugMetadataHeader: {
 
 export type DebugMetadataHeader = DebugMetadataHeader$instance;
 
-export interface HandleComparer$instance {
+export interface HandleComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<EntityHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_HandleComparer: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;

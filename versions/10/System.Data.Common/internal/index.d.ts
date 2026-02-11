@@ -361,7 +361,6 @@ export interface DbBatchCommandCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    [index: number]: DbBatchCommand;
     Add(item: DbBatchCommand): void;
     Clear(): void;
     Contains(item: DbBatchCommand): boolean;
@@ -387,7 +386,7 @@ export interface __DbBatchCommandCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbBatchCommandCollection$views;
+export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbBatchCommandCollection$views & { [index: number]: DbBatchCommand; };
 
 
 export interface DbColumn$instance {
@@ -420,7 +419,6 @@ export interface DbColumn$instance {
     IsLong: Nullable_1<System_Internal.Boolean>;
     IsReadOnly: Nullable_1<System_Internal.Boolean>;
     IsUnique: Nullable_1<System_Internal.Boolean>;
-    readonly [property: string]: unknown | undefined;
     NumericPrecision: Nullable_1<System_Internal.Int32>;
     NumericScale: Nullable_1<System_Internal.Int32>;
     get UdtAssemblyQualifiedName(): string | undefined;
@@ -432,7 +430,7 @@ export const DbColumn: (abstract new() => DbColumn) & {
 };
 
 
-export type DbColumn = DbColumn$instance;
+export type DbColumn = DbColumn$instance & { readonly [property: string]: unknown | undefined; };
 
 export interface DbCommand$instance extends Component, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Data_Common_DbCommand: never;
@@ -618,7 +616,6 @@ export interface DbConnectionStringBuilder$instance {
     readonly Count: int;
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
-    [keyword: string]: unknown;
     readonly Keys: ICollection;
     readonly Values: ICollection;
     Add(keyword: string, value: unknown): void;
@@ -648,7 +645,7 @@ export interface __DbConnectionStringBuilder$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views;
+export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views & { [keyword: string]: unknown; };
 
 
 export interface DbDataAdapter$instance extends DataAdapter$instance, System_Internal.ICloneable$instance {

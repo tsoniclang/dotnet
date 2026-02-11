@@ -490,7 +490,6 @@ export interface TagList$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    [index: number]: KeyValuePair_2<System_Internal.String, unknown>;
     Add(key: string, value: unknown): void;
     Add(tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Clear(): void;
@@ -518,7 +517,7 @@ export interface __TagList$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type TagList = TagList$instance & __TagList$views;
+export type TagList = TagList$instance & __TagList$views & { [index: number]: KeyValuePair_2<System_Internal.String, unknown>; };
 
 
 export interface TagList_Enumerator$instance extends IDisposable {
@@ -729,7 +728,6 @@ export interface ActivityTagsCollection$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    [key: string]: unknown | undefined;
     readonly Keys: ICollection_1<System_Internal.String>;
     readonly Values: ICollection_1<unknown | undefined>;
     Add(key: string, value: unknown): void;
@@ -758,7 +756,7 @@ export interface __ActivityTagsCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views;
+export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views & { [key: string]: unknown | undefined; };
 
 
 export interface BooleanSwitch$instance extends Switch {
@@ -1437,7 +1435,6 @@ export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    readonly [index: number]: ProcessModule;
     Contains(module: ProcessModule): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -1455,7 +1452,7 @@ export interface __ProcessModuleCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ProcessModuleCollection = ProcessModuleCollection$instance & __ProcessModuleCollection$views;
+export type ProcessModuleCollection = ProcessModuleCollection$instance & __ProcessModuleCollection$views & { readonly [index: number]: ProcessModule; };
 
 
 export interface ProcessStartInfo$instance {
@@ -1549,7 +1546,6 @@ export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    readonly [index: number]: ProcessThread;
     Add(thread: ProcessThread): int;
     Contains(thread: ProcessThread): boolean;
     CopyTo(array: ClrArray, index: int): void;
@@ -1570,7 +1566,7 @@ export interface __ProcessThreadCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views;
+export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views & { readonly [index: number]: ProcessThread; };
 
 
 export interface SourceFilter$instance extends TraceFilter {
