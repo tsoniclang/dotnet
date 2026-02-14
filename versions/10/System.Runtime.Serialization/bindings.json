@@ -4864,26 +4864,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.InvalidDataContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.InvalidDataContractException",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5752,26 +5732,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.SerializationException",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

@@ -63,7 +63,6 @@ export interface XAttribute$instance extends XObject$instance, System_Xml_Intern
     readonly NodeType: XmlNodeType;
     readonly PreviousAttribute: XAttribute | undefined;
     Value: string;
-    HasLineInfo(): boolean;
     Remove(): void;
     SetValue(value: unknown): void;
     ToString(): string;
@@ -84,13 +83,12 @@ export interface __XAttribute$views {
 export type XAttribute = XAttribute$instance & __XAttribute$views;
 
 
-export interface XCData$instance extends XText$instance {
+export interface XCData$instance extends XText$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XCData: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly NodeType: XmlNodeType;
-    HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
@@ -109,14 +107,13 @@ export interface __XCData$views {
 export type XCData = XCData$instance & __XCData$views;
 
 
-export interface XComment$instance extends XNode$instance {
+export interface XComment$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XComment: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly NodeType: XmlNodeType;
     Value: string;
-    HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
@@ -135,7 +132,7 @@ export interface __XComment$views {
 export type XComment = XComment$instance & __XComment$views;
 
 
-export interface XContainer$instance extends XNode$instance {
+export interface XContainer$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XContainer: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -153,7 +150,6 @@ export interface XContainer$instance extends XNode$instance {
     Element(name: XName): XElement | undefined;
     Elements(): IEnumerable_1<XElement>;
     Elements(name: XName): IEnumerable_1<XElement>;
-    HasLineInfo(): boolean;
     Nodes(): IEnumerable_1<XNode>;
     RemoveNodes(): void;
     ReplaceNodes(content: unknown): void;
@@ -193,7 +189,7 @@ export const XDeclaration: {
 
 export type XDeclaration = XDeclaration$instance;
 
-export interface XDocument$instance extends XContainer$instance {
+export interface XDocument$instance extends XContainer$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XDocument: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -203,7 +199,6 @@ export interface XDocument$instance extends XContainer$instance {
     readonly DocumentType: XDocumentType | undefined;
     readonly NodeType: XmlNodeType;
     readonly Root: XElement | undefined;
-    HasLineInfo(): boolean;
     Save(stream: Stream): void;
     Save(stream: Stream, options: SaveOptions): void;
     Save(textWriter: TextWriter): void;
@@ -247,7 +242,7 @@ export interface __XDocument$views {
 export type XDocument = XDocument$instance & __XDocument$views;
 
 
-export interface XDocumentType$instance extends XNode$instance {
+export interface XDocumentType$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XDocumentType: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -260,7 +255,6 @@ export interface XDocumentType$instance extends XNode$instance {
     set PublicId(value: string | undefined);
     get SystemId(): string | undefined;
     set SystemId(value: string | undefined);
-    HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
@@ -279,7 +273,7 @@ export interface __XDocumentType$views {
 export type XDocumentType = XDocumentType$instance & __XDocumentType$views;
 
 
-export interface XElement$instance extends XContainer$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
+export interface XElement$instance extends XContainer$instance, System_Xml_Internal.IXmlLineInfo$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
     readonly __tsonic_type_System_Xml_Linq_XElement: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -304,7 +298,6 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Seria
     GetDefaultNamespace(): XNamespace;
     GetNamespaceOfPrefix(prefix: string): XNamespace | undefined;
     GetPrefixOfNamespace(ns: XNamespace): string | undefined;
-    HasLineInfo(): boolean;
     RemoveAll(): void;
     RemoveAttributes(): void;
     ReplaceAll(content: unknown): void;
@@ -432,7 +425,6 @@ export interface XNode$instance extends XObject$instance, System_Xml_Internal.IX
     ElementsAfterSelf(name: XName): IEnumerable_1<XElement>;
     ElementsBeforeSelf(): IEnumerable_1<XElement>;
     ElementsBeforeSelf(name: XName): IEnumerable_1<XElement>;
-    HasLineInfo(): boolean;
     IsAfter(node: XNode): boolean;
     IsBefore(node: XNode): boolean;
     NodesAfterSelf(): IEnumerable_1<XNode>;
@@ -494,7 +486,9 @@ export interface XNodeEqualityComparer$instance {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: XNode, y: XNode): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: XNode): int;
+    GetHashCode(): int;
 }
 
 
@@ -559,7 +553,7 @@ export const XObjectChangeEventArgs: {
 
 export type XObjectChangeEventArgs = XObjectChangeEventArgs$instance;
 
-export interface XProcessingInstruction$instance extends XNode$instance {
+export interface XProcessingInstruction$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XProcessingInstruction: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -567,7 +561,6 @@ export interface XProcessingInstruction$instance extends XNode$instance {
     Data: string;
     readonly NodeType: XmlNodeType;
     Target: string;
-    HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
@@ -614,14 +607,13 @@ export const XStreamingElement: {
 
 export type XStreamingElement = XStreamingElement$instance;
 
-export interface XText$instance extends XNode$instance {
+export interface XText$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
     readonly __tsonic_type_System_Xml_Linq_XText: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly NodeType: XmlNodeType;
     Value: string;
-    HasLineInfo(): boolean;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }

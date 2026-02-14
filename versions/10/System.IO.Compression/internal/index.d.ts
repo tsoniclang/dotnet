@@ -140,22 +140,17 @@ export interface BrotliStream$instance extends Stream {
     FlushAsync(): Task;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 
@@ -207,22 +202,17 @@ export interface DeflateStream$instance extends Stream {
     FlushAsync(): Task;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 
@@ -274,22 +264,17 @@ export interface GZipStream$instance extends Stream {
     FlushAsync(): Task;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 
@@ -388,12 +373,11 @@ export const ZLibCompressionOptions: {
 
 export type ZLibCompressionOptions = ZLibCompressionOptions$instance;
 
-export interface ZLibException$instance extends IOException {
+export interface ZLibException$instance extends IOException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IO_Compression_ZLibException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -441,22 +425,17 @@ export interface ZLibStream$instance extends Stream {
     FlushAsync(): Task;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 

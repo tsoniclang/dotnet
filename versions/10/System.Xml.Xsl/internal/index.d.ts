@@ -130,7 +130,7 @@ export interface __XsltCompileException$views {
 export type XsltCompileException = XsltCompileException$instance & __XsltCompileException$views;
 
 
-export interface XsltContext$instance extends XmlNamespaceManager {
+export interface XsltContext$instance extends XmlNamespaceManager, System_Xml_Internal.IXmlNamespaceResolver$instance {
     readonly __tsonic_type_System_Xml_Xsl_XsltContext: never;
 
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -138,9 +138,6 @@ export interface XsltContext$instance extends XmlNamespaceManager {
 
     readonly Whitespace: boolean;
     CompareDocument(baseUri: string, nextbaseUri: string): int;
-    GetEnumerator(): IEnumerator;
-    GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
-    LookupNamespace(prefix: string): string | undefined;
     PreserveWhitespace(node: XPathNavigator): boolean;
     ResolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
     ResolveVariable(prefix: string, name: string): IXsltContextVariable;

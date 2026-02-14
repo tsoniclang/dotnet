@@ -54,12 +54,11 @@ export interface IResourceWriter$instance extends System_Internal.IDisposable$in
 
 export type IResourceWriter = IResourceWriter$instance;
 
-export interface MissingManifestResourceException$instance extends SystemException {
+export interface MissingManifestResourceException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Resources_MissingManifestResourceException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -77,13 +76,12 @@ export interface __MissingManifestResourceException$views {
 export type MissingManifestResourceException = MissingManifestResourceException$instance & __MissingManifestResourceException$views;
 
 
-export interface MissingSatelliteAssemblyException$instance extends SystemException {
+export interface MissingSatelliteAssemblyException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Resources_MissingSatelliteAssemblyException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CultureName: string | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

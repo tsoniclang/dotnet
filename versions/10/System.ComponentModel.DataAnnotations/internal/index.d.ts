@@ -669,7 +669,7 @@ export interface __ValidationContext$views {
 export type ValidationContext = ValidationContext$instance & __ValidationContext$views;
 
 
-export interface ValidationException$instance extends Exception {
+export interface ValidationException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_ValidationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -677,7 +677,6 @@ export interface ValidationException$instance extends Exception {
     readonly ValidationAttribute: ValidationAttribute | undefined;
     readonly ValidationResult: ValidationResult;
     readonly Value: unknown | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

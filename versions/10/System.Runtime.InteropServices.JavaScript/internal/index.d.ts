@@ -140,12 +140,11 @@ export const JSMarshalerArgument: {
 
 export type JSMarshalerArgument = JSMarshalerArgument$instance;
 
-export interface JSException$instance extends Exception {
+export interface JSException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

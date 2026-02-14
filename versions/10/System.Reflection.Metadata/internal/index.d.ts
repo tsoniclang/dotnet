@@ -2957,6 +2957,7 @@ export interface MetadataStringComparer$instance {
     Equals(handle: NamespaceDefinitionHandle, value: string, ignoreCase: boolean): boolean;
     Equals(handle: DocumentNameBlobHandle, value: string): boolean;
     Equals(handle: DocumentNameBlobHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(obj: unknown): boolean;
     StartsWith(handle: StringHandle, value: string): boolean;
     StartsWith(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
 }
@@ -4304,8 +4305,10 @@ export interface HandleComparer$instance extends System_Collections_Generic_Inte
     Compare(x: EntityHandle, y: EntityHandle): int;
     Equals(x: Handle, y: Handle): boolean;
     Equals(x: EntityHandle, y: EntityHandle): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: Handle): int;
     GetHashCode(obj: EntityHandle): int;
+    GetHashCode(): int;
 }
 
 
@@ -4322,12 +4325,11 @@ export interface __HandleComparer$views {
 export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
-export interface ImageFormatLimitationException$instance extends Exception {
+export interface ImageFormatLimitationException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImageFormatLimitationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

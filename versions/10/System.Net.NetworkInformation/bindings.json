@@ -7225,26 +7225,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInformationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Net.NetworkInformation.NetworkInformationException",
-          "declaringAssemblyName": "System.Net.NetworkInformation",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8571,7 +8551,7 @@
           "isAbstract": false,
           "isVirtual": true,
           "isOverride": false,
-          "isSealed": false,
+          "isSealed": true,
           "visibility": "Public",
           "declaringClrType": "System.Net.NetworkInformation.Ping",
           "declaringAssemblyName": "System.Net.Ping",
@@ -8710,26 +8690,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Net.NetworkInformation.PingException",
-          "declaringAssemblyName": "System.Net.Ping",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

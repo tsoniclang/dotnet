@@ -165,12 +165,11 @@ export interface __AsnWriter_Scope$views {
 export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views;
 
 
-export interface AsnContentException$instance extends Exception {
+export interface AsnContentException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Formats_Asn1_AsnContentException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

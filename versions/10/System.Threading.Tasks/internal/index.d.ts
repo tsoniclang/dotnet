@@ -365,19 +365,30 @@ export interface Task_1$instance<TResult> extends Task$instance, System_Internal
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Result: TResult;
+    ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable_1<TResult>;
     ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
     ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
     ConfigureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable;
+    ContinueWith(continuationAction: Action_1<Task_1<TResult>>): Task;
+    ContinueWith(continuationAction: Action_1<Task_1<TResult>>, cancellationToken: CancellationToken): Task;
     ContinueWith(continuationAction: Action_1<Task_1<TResult>>, scheduler: TaskScheduler): Task;
     ContinueWith(continuationAction: Action_1<Task_1<TResult>>, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_1<Task_1<TResult>>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
     ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown): Task;
+    ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, cancellationToken: CancellationToken): Task;
     ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, scheduler: TaskScheduler): Task;
     ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, continuationOptions: TaskContinuationOptions): Task;
+    ContinueWith(continuationAction: Action_2<Task_1<TResult>, unknown>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task;
+    ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, cancellationToken: CancellationToken): Task_1<TNewResult>;
     ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, scheduler: TaskScheduler): Task_1<TNewResult>;
     ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_2<Task_1<TResult>, TNewResult>, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TNewResult>;
     ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, cancellationToken: CancellationToken): Task_1<TNewResult>;
     ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, scheduler: TaskScheduler): Task_1<TNewResult>;
     ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TNewResult>;
+    ContinueWith<TNewResult>(continuationFunction: Func_3<Task_1<TResult>, unknown, TNewResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TNewResult>;
     ContinueWith(continuationAction: Action_1<Task>): Task;
     ContinueWith(continuationAction: Action_1<Task>, cancellationToken: CancellationToken): Task;
     ContinueWith(continuationAction: Action_1<Task>, scheduler: TaskScheduler): Task;
@@ -398,14 +409,14 @@ export interface Task_1$instance<TResult> extends Task$instance, System_Internal
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, scheduler: TaskScheduler): Task_1<TResult>;
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, continuationOptions: TaskContinuationOptions): Task_1<TResult>;
     ContinueWith<TResult>(continuationFunction: Func_3<Task, unknown, TResult>, state: unknown, cancellationToken: CancellationToken, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): Task_1<TResult>;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
+    GetAwaiter(): TaskAwaiter_1<TResult>;
     GetAwaiter(): TaskAwaiter;
+    WaitAsync(cancellationToken: CancellationToken): Task_1<TResult>;
     WaitAsync(timeout: TimeSpan): Task_1<TResult>;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task_1<TResult>;
+    WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TResult>;
+    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task_1<TResult>;
     WaitAsync(cancellationToken: CancellationToken): Task;
-    WaitAsync(timeout: TimeSpan): Task;
-    WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     WaitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     WaitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
 }
@@ -431,16 +442,16 @@ export interface __Task_1$views<TResult> {
 export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult> & {
     then<TResult1 = TResult, TResult2 = never>(onfulfilled?: ((value: TResult) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
     then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: unknown) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
+    then<TResult1 = unknown, TResult2 = never>(onfulfilled?: ((value: any) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): PromiseLike<TResult1 | TResult2>;
 };
 
 
-export interface TaskCanceledException$instance extends OperationCanceledException {
+export interface TaskCanceledException$instance extends OperationCanceledException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_Tasks_TaskCanceledException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Task: Task | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -686,12 +697,11 @@ export const TaskScheduler: (abstract new() => TaskScheduler) & {
 
 export type TaskScheduler = TaskScheduler$instance;
 
-export interface TaskSchedulerException$instance extends Exception {
+export interface TaskSchedulerException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_Tasks_TaskSchedulerException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

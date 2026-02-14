@@ -328,6 +328,7 @@ export interface CaseInsensitiveHashCodeProvider$instance {
     readonly __tsonic_iface_System_Collections_IHashCodeProvider: never;
 
     GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
 }
 
 

@@ -408,15 +408,12 @@ export interface XmlAnyElementAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    Add(attribute: XmlAnyElementAttribute): int;
+    Contains(attribute: XmlAnyElementAttribute): boolean;
+    CopyTo(array: XmlAnyElementAttribute[], index: int): void;
     IndexOf(attribute: XmlAnyElementAttribute): int;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Insert(index: int, attribute: XmlAnyElementAttribute): void;
+    Remove(attribute: XmlAnyElementAttribute): void;
 }
 
 
@@ -486,15 +483,12 @@ export interface XmlArrayItemAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    Add(attribute: XmlArrayItemAttribute): int;
+    Contains(attribute: XmlArrayItemAttribute): boolean;
+    CopyTo(array: XmlArrayItemAttribute[], index: int): void;
     IndexOf(attribute: XmlArrayItemAttribute): int;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Insert(index: int, attribute: XmlArrayItemAttribute): void;
+    Remove(attribute: XmlArrayItemAttribute): void;
 }
 
 
@@ -652,15 +646,12 @@ export interface XmlElementAttributes$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    Add(attribute: XmlElementAttribute): int;
+    Contains(attribute: XmlElementAttribute): boolean;
+    CopyTo(array: XmlElementAttribute[], index: int): void;
     IndexOf(attribute: XmlElementAttribute): int;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Insert(index: int, attribute: XmlElementAttribute): void;
+    Remove(attribute: XmlElementAttribute): void;
 }
 
 
@@ -984,27 +975,25 @@ export interface XmlSchemas$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly IsCompiled: boolean;
+    Add(schema: XmlSchema): int;
+    Add(schema: XmlSchema, baseUri: Uri): int;
     Add(schemas: XmlSchemas): void;
-    Add(value: unknown): int;
     AddReference(schema: XmlSchema): void;
-    Clear(): void;
     Compile(handler: ValidationEventHandler, fullCompile: boolean): void;
     Contains(schema: XmlSchema): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
+    Contains(targetNamespace: string): boolean;
+    CopyTo(array: XmlSchema[], index: int): void;
     Find(name: XmlQualifiedName, type: Type): unknown | undefined;
     get_Item(index: int): XmlSchema;
     get_Item(ns: string): XmlSchema | undefined;
-    GetEnumerator(): IEnumerator;
     GetSchemas(ns: string): IList;
     IndexOf(schema: XmlSchema): int;
-    Insert(index: int, value: unknown): void;
+    Insert(index: int, schema: XmlSchema): void;
     OnClear(): void;
     OnInsert(index: int, value: unknown): void;
     OnRemove(index: int, value: unknown): void;
     OnSet(index: int, oldValue: unknown, newValue: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Remove(schema: XmlSchema): void;
     set_Item(index: int, value: XmlSchema): void;
 }
 

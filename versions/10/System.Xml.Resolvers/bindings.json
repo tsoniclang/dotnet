@@ -299,26 +299,6 @@
           "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
-          "clrName": "GetEntityAsync",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1",
-          "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
-          "declaringAssemblyName": "System.Private.Xml",
-          "isExtensionMethod": false
         }
       ],
       "properties": [

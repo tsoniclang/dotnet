@@ -300,7 +300,7 @@ export interface __NameObjectCollectionBase_KeysCollection$views {
 export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & __NameObjectCollectionBase_KeysCollection$views & { readonly [index: number]: string | undefined; };
 
 
-export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
+export interface NameValueCollection$instance extends NameObjectCollectionBase$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Collections_Specialized_NameValueCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -317,13 +317,10 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     Get(index: int): string | undefined;
     get_Item(name: string): string | undefined;
     get_Item(index: int): string | undefined;
-    GetEnumerator(): IEnumerator;
     GetKey(index: int): string | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetValues(name: string): string[] | undefined;
     GetValues(index: int): string[] | undefined;
     HasKeys(): boolean;
-    OnDeserialization(sender: unknown): void;
     Remove(name: string): void;
     Set(name: string, value: string): void;
     set_Item(name: string, value: string | undefined): void;

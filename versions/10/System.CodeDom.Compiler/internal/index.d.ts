@@ -40,8 +40,6 @@ export interface IndentedTextWriter$instance extends TextWriter {
     readonly InnerWriter: TextWriter;
     NewLine: string;
     Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     FlushAsync(): Task;
@@ -68,14 +66,12 @@ export interface IndentedTextWriter$instance extends TextWriter {
     Write(value: decimal): void;
     Write(value: StringBuilder): void;
     Write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteAsync(value: char): Task;
     WriteAsync(buffer: char[], index: int, count: int): Task;
     WriteAsync(value: string): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     WriteAsync(buffer: char[]): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteLine(s: string): void;
     WriteLine(): void;
     WriteLine(value: boolean): void;
@@ -97,7 +93,6 @@ export interface IndentedTextWriter$instance extends TextWriter {
     WriteLine(value: decimal): void;
     WriteLine(value: StringBuilder): void;
     WriteLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteLineAsync(): Task;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(buffer: char[], index: int, count: int): Task;
@@ -105,7 +100,6 @@ export interface IndentedTextWriter$instance extends TextWriter {
     WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteLineAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     WriteLineAsync(buffer: char[]): Task;
-    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteLineNoTabs(s: string): void;
     WriteLineNoTabsAsync(s: string): Task;
 }

@@ -591,26 +591,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Net.Security:System.Security.Authentication.AuthenticationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Security.Authentication.AuthenticationException",
-          "declaringAssemblyName": "System.Net.Security",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -705,26 +685,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "System.Net.Security:System.Security.Authentication.InvalidCredentialException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Security.Authentication.InvalidCredentialException",
-          "declaringAssemblyName": "System.Net.Security",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

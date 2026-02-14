@@ -254,8 +254,6 @@ export interface OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     GetEnumerator(): IEnumerator_1<TSource>;
-    GetEnumerator(): IEnumerator_1<TSource>;
-    GetEnumerator(): IEnumerator;
 }
 
 
@@ -296,7 +294,7 @@ export interface ParallelQuery_1$instance<TSource> extends ParallelQuery$instanc
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<TSource>;
 }
 
 

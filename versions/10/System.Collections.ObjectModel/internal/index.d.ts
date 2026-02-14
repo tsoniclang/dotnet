@@ -81,24 +81,13 @@ export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$in
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Comparer: IEqualityComparer_1<TKey>;
-    Add(item: TItem): void;
-    Add(value: unknown): int;
-    Clear(): void;
     ClearItems(): void;
+    Contains(key: TKey): boolean;
     Contains(item: TItem): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: TItem[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<TItem>;
-    GetEnumerator(): IEnumerator;
     GetKeyForItem(item: TItem): TKey;
-    IndexOf(item: TItem): int;
-    Insert(index: int, item: TItem): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: TItem): void;
+    Remove(key: TKey): boolean;
     Remove(item: TItem): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     SetItem(index: int, item: TItem): void;
     TryGetValue(key: TKey, item: TItem): boolean;
@@ -136,27 +125,12 @@ export interface ObservableCollection_1$instance<T> extends Collection_1$instanc
     readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
     readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
 
-    Add(item: T): void;
-    Add(value: unknown): int;
-    Clear(): void;
     ClearItems(): void;
-    Contains(item: T): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: T): void;
     Move(oldIndex: int, newIndex: int): void;
     MoveItem(oldIndex: int, newIndex: int): void;
     OnCollectionChanged(e: NotifyCollectionChangedEventArgs): void;
     OnPropertyChanged(e: PropertyChangedEventArgs): void;
-    Remove(item: T): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     SetItem(index: int, item: T): void;
 }
@@ -338,23 +312,8 @@ export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyColl
     readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
     readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
 
-    Add(item: T): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(value: T): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: unknown): void;
     OnCollectionChanged(args: NotifyCollectionChangedEventArgs): void;
     OnPropertyChanged(args: PropertyChangedEventArgs): void;
-    Remove(item: T): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
 }
 
 

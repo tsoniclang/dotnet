@@ -192,7 +192,7 @@ export interface __OpCode$views {
 export type OpCode = OpCode$instance & __OpCode$views;
 
 
-export interface AssemblyBuilder$instance extends Assembly {
+export interface AssemblyBuilder$instance extends Assembly, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_Emit_AssemblyBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -204,8 +204,6 @@ export interface AssemblyBuilder$instance extends Assembly {
     readonly Location: string;
     DefineDynamicModule(name: string): ModuleBuilder;
     DefineDynamicModuleCore(name: string): ModuleBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetDynamicModule(name: string): ModuleBuilder | undefined;
     GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
     GetExportedTypes(): Type[];
@@ -216,8 +214,6 @@ export interface AssemblyBuilder$instance extends Assembly {
     GetManifestResourceNames(): string[];
     GetManifestResourceStream(name: string): Stream | undefined;
     GetManifestResourceStream(type: Type, name: string): Stream | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -238,7 +234,7 @@ export interface __AssemblyBuilder$views {
 export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views;
 
 
-export interface ConstructorBuilder$instance extends ConstructorInfo {
+export interface ConstructorBuilder$instance extends ConstructorInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_Emit_ConstructorBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -247,12 +243,9 @@ export interface ConstructorBuilder$instance extends ConstructorInfo {
     InitLocalsCore: boolean;
     DefineParameter(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
     DefineParameterCore(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetILGenerator(): ILGenerator;
     GetILGenerator(streamSize: int): ILGenerator;
     GetILGeneratorCore(streamSize: int): ILGenerator;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -373,7 +366,7 @@ export interface __DynamicMethod$views {
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
-export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_type_System_Reflection_Emit_EnumBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -387,45 +380,6 @@ export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Intern
     CreateTypeInfoCore(): TypeInfo;
     DefineLiteral(literalName: string, literalValue: unknown): FieldBuilder;
     DefineLiteralCore(literalName: string, literalValue: unknown): FieldBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetField3(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    GetField3(name: string): FieldInfo | undefined;
-    GetFields3(bindingAttr: BindingFlags): FieldInfo[];
-    GetFields3(): FieldInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string): MemberInfo[];
-    GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethods3(bindingAttr: BindingFlags): MethodInfo[];
-    GetMethods3(): MethodInfo[];
-    GetProperties3(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperties3(): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type): PropertyInfo | undefined;
-    GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetTypeInfo(): TypeInfo;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     MakeArrayType(): Type;
     MakeArrayType(rank: int): Type;
     MakeByRefType(): Type;
@@ -472,14 +426,11 @@ export const EventBuilder: (abstract new() => EventBuilder) & {
 
 export type EventBuilder = EventBuilder$instance;
 
-export interface FieldBuilder$instance extends FieldInfo {
+export interface FieldBuilder$instance extends FieldInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_Emit_FieldBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetConstant(defaultValue: unknown): void;
     SetConstantCore(defaultValue: unknown): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -501,52 +452,13 @@ export interface __FieldBuilder$views {
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
-export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_type_System_Reflection_Emit_GenericTypeParameterBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
 
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetField3(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    GetField3(name: string): FieldInfo | undefined;
-    GetFields3(bindingAttr: BindingFlags): FieldInfo[];
-    GetFields3(): FieldInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string): MemberInfo[];
-    GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethods3(bindingAttr: BindingFlags): MethodInfo[];
-    GetMethods3(): MethodInfo[];
-    GetProperties3(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperties3(): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type): PropertyInfo | undefined;
-    GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetTypeInfo(): TypeInfo;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetBaseTypeConstraint(baseTypeConstraint: Type): void;
     SetBaseTypeConstraintCore(baseTypeConstraint: Type): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -639,7 +551,7 @@ export const LocalBuilder: (abstract new() => LocalBuilder) & {
 
 export type LocalBuilder = LocalBuilder$instance;
 
-export interface MethodBuilder$instance extends MethodInfo {
+export interface MethodBuilder$instance extends MethodInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_Emit_MethodBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -650,12 +562,9 @@ export interface MethodBuilder$instance extends MethodInfo {
     DefineGenericParametersCore(...names: string[]): GenericTypeParameterBuilder[];
     DefineParameter(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
     DefineParameterCore(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetILGenerator(): ILGenerator;
     GetILGenerator(size: int): ILGenerator;
     GetILGeneratorCore(size: int): ILGenerator;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -679,7 +588,7 @@ export interface __MethodBuilder$views {
 export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
-export interface ModuleBuilder$instance extends Module {
+export interface ModuleBuilder$instance extends Module, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_Emit_ModuleBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -713,16 +622,12 @@ export interface ModuleBuilder$instance extends Module {
     DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     GetArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
     GetArrayMethodCore(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetFieldMetadataToken(field: FieldInfo): int;
     GetMethodMetadataToken(method: MethodInfo): int;
     GetMethodMetadataToken(constructor: ConstructorInfo): int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetSignatureMetadataToken(signature: SignatureHelper): int;
     GetStringMetadataToken(stringConstant: string): int;
     GetTypeMetadataToken(type: Type): int;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -1002,7 +907,7 @@ export const ParameterBuilder: (abstract new() => ParameterBuilder) & {
 
 export type ParameterBuilder = ParameterBuilder$instance;
 
-export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
+export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_Emit_PersistedAssemblyBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1013,13 +918,9 @@ export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$insta
     DefineDynamicModuleCore(name: string): ModuleBuilder;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder): MetadataBuilder;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder, pdbBuilder: MetadataBuilder): MetadataBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
     GetName(copiedName: boolean): AssemblyName;
     GetName(): AssemblyName;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     Save(stream: Stream): void;
     Save(assemblyFileName: string): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -1039,16 +940,13 @@ export interface __PersistedAssemblyBuilder$views {
 export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __PersistedAssemblyBuilder$views;
 
 
-export interface PropertyBuilder$instance extends PropertyInfo {
+export interface PropertyBuilder$instance extends PropertyInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_Emit_PropertyBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     AddOtherMethodCore(mdBuilder: MethodBuilder): void;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetConstant(defaultValue: unknown): void;
     SetConstantCore(defaultValue: unknown): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -1102,7 +1000,7 @@ export const SignatureHelper: {
 
 export type SignatureHelper = SignatureHelper$instance;
 
-export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Internal.IReflectableType$instance {
+export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
     readonly __tsonic_type_System_Reflection_Emit_TypeBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1161,47 +1059,8 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     DefineTypeInitializerCore(): ConstructorBuilder;
     DefineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetField3(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    GetField3(name: string): FieldInfo | undefined;
-    GetFields3(bindingAttr: BindingFlags): FieldInfo[];
-    GetFields3(): FieldInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string): MemberInfo[];
-    GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers3(): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethods3(bindingAttr: BindingFlags): MethodInfo[];
-    GetMethods3(): MethodInfo[];
-    GetProperties3(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperties3(): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type): PropertyInfo | undefined;
-    GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetTypeInfo(): TypeInfo;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
-    InvokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
     IsCreated(): boolean;
     IsCreatedCore(): boolean;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     MakeArrayType(): Type;
     MakeArrayType(rank: int): Type;
     MakeByRefType(): Type;

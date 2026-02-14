@@ -1138,19 +1138,18 @@ export interface XmlSchemaObjectCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
+    Add(item: XmlSchemaObject): int;
+    Contains(item: XmlSchemaObject): boolean;
+    CopyTo(array: XmlSchemaObject[], index: int): void;
+    GetEnumerator(): XmlSchemaObjectEnumerator;
     GetEnumerator(): IEnumerator;
     IndexOf(item: XmlSchemaObject): int;
-    Insert(index: int, value: unknown): void;
+    Insert(index: int, item: XmlSchemaObject): void;
     OnClear(): void;
     OnInsert(index: int, item: unknown): void;
     OnRemove(index: int, item: unknown): void;
     OnSet(index: int, oldValue: unknown, newValue: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Remove(item: XmlSchemaObject): void;
 }
 
 

@@ -529,6 +529,7 @@ export interface FormatterConverter$instance {
     ToSByte(value: unknown): sbyte;
     ToSingle(value: unknown): float;
     ToString(value: unknown): string | undefined;
+    ToString(): string | undefined;
     ToUInt16(value: unknown): ushort;
     ToUInt32(value: unknown): uint;
     ToUInt64(value: unknown): ulong;
@@ -560,12 +561,11 @@ export const IgnoreDataMemberAttribute: {
 
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
-export interface InvalidDataContractException$instance extends Exception {
+export interface InvalidDataContractException$instance extends Exception, ISerializable$instance {
     readonly __tsonic_type_System_Runtime_Serialization_InvalidDataContractException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -733,12 +733,11 @@ export const SerializationBinder: (abstract new() => SerializationBinder) & {
 
 export type SerializationBinder = SerializationBinder$instance;
 
-export interface SerializationException$instance extends SystemException {
+export interface SerializationException$instance extends SystemException, ISerializable$instance {
     readonly __tsonic_type_System_Runtime_Serialization_SerializationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

@@ -30,8 +30,6 @@ export interface JsonContent$instance extends HttpContent {
 
     readonly ObjectType: Type;
     readonly Value: unknown | undefined;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;

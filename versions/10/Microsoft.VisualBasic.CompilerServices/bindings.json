@@ -1775,26 +1775,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.IncompleteInitialization::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IncompleteInitialization",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

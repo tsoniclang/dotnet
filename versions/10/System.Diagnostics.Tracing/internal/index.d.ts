@@ -222,12 +222,11 @@ export const EventCommandEventArgs: {
 
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
-export interface EventCounter$instance extends DiagnosticCounter$instance {
+export interface EventCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
     ToString(): string;
     WriteMetric(value: float): void;
     WriteMetric(value: double): void;
@@ -400,12 +399,11 @@ export const EventSourceCreatedEventArgs: {
 
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
-export interface EventSourceException$instance extends Exception {
+export interface EventSourceException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -456,13 +454,12 @@ export const EventWrittenEventArgs: {
 
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
-export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
+export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingEventCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayRateTimeScale: TimeSpan;
-    Dispose(): void;
     Increment(increment?: double): void;
     ToString(): string;
 }
@@ -480,13 +477,12 @@ export interface __IncrementingEventCounter$views {
 export type IncrementingEventCounter = IncrementingEventCounter$instance & __IncrementingEventCounter$views;
 
 
-export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
+export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingPollingCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     DisplayRateTimeScale: TimeSpan;
-    Dispose(): void;
     ToString(): string;
 }
 
@@ -516,12 +512,11 @@ export const NonEventAttribute: {
 
 export type NonEventAttribute = NonEventAttribute$instance;
 
-export interface PollingCounter$instance extends DiagnosticCounter$instance {
+export interface PollingCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_PollingCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
     ToString(): string;
 }
 

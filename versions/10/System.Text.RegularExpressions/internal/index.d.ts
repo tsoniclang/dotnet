@@ -455,7 +455,7 @@ export const RegexCompilationInfo: {
 
 export type RegexCompilationInfo = RegexCompilationInfo$instance;
 
-export interface RegexMatchTimeoutException$instance extends TimeoutException {
+export interface RegexMatchTimeoutException$instance extends TimeoutException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_RegexMatchTimeoutException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -463,7 +463,6 @@ export interface RegexMatchTimeoutException$instance extends TimeoutException {
     readonly Input: string;
     readonly MatchTimeout: TimeSpan;
     readonly Pattern: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

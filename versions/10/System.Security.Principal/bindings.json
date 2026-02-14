@@ -3927,26 +3927,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
-        },
-        {
-          "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Protected",
-          "declaringClrType": "System.Security.Principal.WindowsIdentity",
-          "declaringAssemblyName": "System.Security.Principal.Windows",
-          "isExtensionMethod": false
         }
       ],
       "properties": [

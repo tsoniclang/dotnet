@@ -116,7 +116,7 @@ export interface __MemoryMappedViewAccessor$views {
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
 
 
-export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
+export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedViewStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -126,7 +126,6 @@ export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream {
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
     Dispose(disposing: boolean): void;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
     Flush(): void;
     SetLength(value: long): void;
 }

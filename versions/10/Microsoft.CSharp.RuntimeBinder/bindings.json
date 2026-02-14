@@ -396,26 +396,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
-          "declaringAssemblyName": "Microsoft.CSharp",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -510,26 +490,6 @@
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
-        },
-        {
-          "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
-          "declaringAssemblyName": "Microsoft.CSharp",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

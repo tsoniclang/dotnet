@@ -218,7 +218,7 @@ export interface __Calendar$views {
 export type Calendar = Calendar$instance & __Calendar$views;
 
 
-export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_ChineseLunisolarCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -227,7 +227,6 @@ export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCal
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
-    Clone(): unknown;
     GetEra(time: DateTime): int;
 }
 
@@ -510,7 +509,7 @@ export const DaylightTime: {
 
 export type DaylightTime = DaylightTime$instance;
 
-export interface EastAsianLunisolarCalendar$instance extends Calendar$instance {
+export interface EastAsianLunisolarCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_EastAsianLunisolarCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -519,7 +518,6 @@ export interface EastAsianLunisolarCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetCelestialStem(sexagenaryYear: int): int;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
@@ -559,7 +557,7 @@ export interface __EastAsianLunisolarCalendar$views {
 export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & __EastAsianLunisolarCalendar$views;
 
 
-export interface GregorianCalendar$instance extends Calendar$instance {
+export interface GregorianCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_GregorianCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -572,7 +570,6 @@ export interface GregorianCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -613,7 +610,7 @@ export interface __GregorianCalendar$views {
 export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar$views;
 
 
-export interface HebrewCalendar$instance extends Calendar$instance {
+export interface HebrewCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_HebrewCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -625,7 +622,6 @@ export interface HebrewCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -665,7 +661,7 @@ export interface __HebrewCalendar$views {
 export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
 
-export interface HijriCalendar$instance extends Calendar$instance {
+export interface HijriCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_HijriCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -679,7 +675,6 @@ export interface HijriCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -742,7 +737,7 @@ export const IdnMapping: {
 
 export type IdnMapping = IdnMapping$instance;
 
-export interface JapaneseCalendar$instance extends Calendar$instance {
+export interface JapaneseCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_JapaneseCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -754,7 +749,6 @@ export interface JapaneseCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -794,7 +788,7 @@ export interface __JapaneseCalendar$views {
 export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$views;
 
 
-export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_JapaneseLunisolarCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -803,7 +797,6 @@ export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCa
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
-    Clone(): unknown;
     GetEra(time: DateTime): int;
 }
 
@@ -821,7 +814,7 @@ export interface __JapaneseLunisolarCalendar$views {
 export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __JapaneseLunisolarCalendar$views;
 
 
-export interface JulianCalendar$instance extends Calendar$instance {
+export interface JulianCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_JulianCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -833,7 +826,6 @@ export interface JulianCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -873,7 +865,7 @@ export interface __JulianCalendar$views {
 export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
 
 
-export interface KoreanCalendar$instance extends Calendar$instance {
+export interface KoreanCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_KoreanCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -885,7 +877,6 @@ export interface KoreanCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -926,7 +917,7 @@ export interface __KoreanCalendar$views {
 export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
-export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_KoreanLunisolarCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -935,7 +926,6 @@ export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCale
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
-    Clone(): unknown;
     GetEra(time: DateTime): int;
 }
 
@@ -1009,7 +999,7 @@ export interface __NumberFormatInfo$views {
 export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$views;
 
 
-export interface PersianCalendar$instance extends Calendar$instance {
+export interface PersianCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_PersianCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -1021,7 +1011,6 @@ export interface PersianCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -1166,7 +1155,7 @@ export const StringInfo: {
 
 export type StringInfo = StringInfo$instance;
 
-export interface TaiwanCalendar$instance extends Calendar$instance {
+export interface TaiwanCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_TaiwanCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -1178,7 +1167,6 @@ export interface TaiwanCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -1218,7 +1206,7 @@ export interface __TaiwanCalendar$views {
 export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
 
-export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
+export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_TaiwanLunisolarCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -1227,7 +1215,6 @@ export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCale
     readonly Eras: int[];
     readonly MaxSupportedDateTime: DateTime;
     readonly MinSupportedDateTime: DateTime;
-    Clone(): unknown;
     GetEra(time: DateTime): int;
 }
 
@@ -1308,7 +1295,7 @@ export interface __TextInfo$views {
 export type TextInfo = TextInfo$instance & __TextInfo$views;
 
 
-export interface ThaiBuddhistCalendar$instance extends Calendar$instance {
+export interface ThaiBuddhistCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_ThaiBuddhistCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -1320,7 +1307,6 @@ export interface ThaiBuddhistCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -1361,7 +1347,7 @@ export interface __ThaiBuddhistCalendar$views {
 export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhistCalendar$views;
 
 
-export interface UmAlQuraCalendar$instance extends Calendar$instance {
+export interface UmAlQuraCalendar$instance extends Calendar$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Globalization_UmAlQuraCalendar: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -1374,7 +1360,6 @@ export interface UmAlQuraCalendar$instance extends Calendar$instance {
     TwoDigitYearMax: int;
     AddMonths(time: DateTime, months: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;

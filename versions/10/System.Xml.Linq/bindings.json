@@ -470,26 +470,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XAttribute::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XAttribute",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -776,26 +756,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XCData::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XCData",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -968,26 +928,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XComment::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XComment",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1439,26 +1379,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XContainer::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XContainer",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2210,26 +2130,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocument::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XDocument",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2481,26 +2381,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XDocumentType::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XDocumentType",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3676,26 +3556,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.Serialization.IXmlSerializable"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XElement::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XElement",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4987,26 +4847,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNode::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XNode",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5922,26 +5762,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XProcessingInstruction::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XProcessingInstruction",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6468,26 +6288,6 @@
           "declaringAssemblyName": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlLineInfo"
-        },
-        {
-          "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XText::HasLineInfo():System.Boolean",
-          "clrName": "HasLineInfo",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Linq.XText",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
-          "isExtensionMethod": false
         }
       ],
       "properties": [

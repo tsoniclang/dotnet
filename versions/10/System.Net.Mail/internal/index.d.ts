@@ -137,24 +137,9 @@ export interface AlternateViewCollection$instance extends Collection_1<Alternate
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Add(item: AlternateView): void;
-    Add(value: unknown): int;
-    Clear(): void;
     ClearItems(): void;
-    Contains(item: AlternateView): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: AlternateView[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     Dispose(): void;
-    GetEnumerator(): IEnumerator_1<AlternateView>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: AlternateView): int;
-    Insert(index: int, item: AlternateView): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: AlternateView): void;
-    Remove(item: AlternateView): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     SetItem(index: int, item: AlternateView): void;
 }
@@ -188,8 +173,6 @@ export interface Attachment$instance extends AttachmentBase$instance {
     set Name(value: string | undefined);
     get NameEncoding(): Encoding | undefined;
     set NameEncoding(value: Encoding | undefined);
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -251,24 +234,9 @@ export interface AttachmentCollection$instance extends Collection_1<Attachment>,
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Add(item: Attachment): void;
-    Add(value: unknown): int;
-    Clear(): void;
     ClearItems(): void;
-    Contains(item: Attachment): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: Attachment[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     Dispose(): void;
-    GetEnumerator(): IEnumerator_1<Attachment>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: Attachment): int;
-    Insert(index: int, item: Attachment): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: Attachment): void;
-    Remove(item: Attachment): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     SetItem(index: int, item: Attachment): void;
 }
@@ -299,8 +267,6 @@ export interface LinkedResource$instance extends AttachmentBase$instance {
 
     get ContentLink(): Uri | undefined;
     set ContentLink(value: Uri | undefined);
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -337,24 +303,9 @@ export interface LinkedResourceCollection$instance extends Collection_1<LinkedRe
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Add(item: LinkedResource): void;
-    Add(value: unknown): int;
-    Clear(): void;
     ClearItems(): void;
-    Contains(item: LinkedResource): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: LinkedResource[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     Dispose(): void;
-    GetEnumerator(): IEnumerator_1<LinkedResource>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: LinkedResource): int;
-    Insert(index: int, item: LinkedResource): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: LinkedResource): void;
-    Remove(item: LinkedResource): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     SetItem(index: int, item: LinkedResource): void;
 }
@@ -415,22 +366,9 @@ export interface MailAddressCollection$instance extends Collection_1<MailAddress
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
+    Add(addresses: string): void;
     Add(item: MailAddress): void;
-    Add(value: unknown): int;
-    Clear(): void;
-    Contains(item: MailAddress): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: MailAddress[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<MailAddress>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: MailAddress): int;
-    Insert(index: int, item: MailAddress): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: MailAddress): void;
-    Remove(item: MailAddress): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     SetItem(index: int, item: MailAddress): void;
     ToString(): string;
 }

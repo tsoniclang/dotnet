@@ -410,12 +410,11 @@ export const ActiveDesignerEventArgs: {
 
 export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
-export interface CheckoutException$instance extends ExternalException {
+export interface CheckoutException$instance extends ExternalException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_Design_CheckoutException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -677,18 +676,15 @@ export interface DesignerVerbCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
+    Add(value: DesignerVerb): int;
     AddRange(value: DesignerVerb[]): void;
     AddRange(value: DesignerVerbCollection): void;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    Contains(value: DesignerVerb): boolean;
+    CopyTo(array: DesignerVerb[], index: int): void;
     IndexOf(value: DesignerVerb): int;
-    Insert(index: int, value: unknown): void;
+    Insert(index: int, value: DesignerVerb): void;
     OnValidate(value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Remove(value: DesignerVerb): void;
 }
 
 
@@ -707,14 +703,13 @@ export interface __DesignerVerbCollection$views {
 export type DesignerVerbCollection = DesignerVerbCollection$instance & __DesignerVerbCollection$views & { [index: number]: DesignerVerb; };
 
 
-export interface DesigntimeLicenseContext$instance extends LicenseContext {
+export interface DesigntimeLicenseContext$instance extends LicenseContext, System_Internal.IServiceProvider$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesigntimeLicenseContext: never;
 
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly UsageMode: LicenseUsageMode;
     GetSavedLicenseKey(type: Type, resourceAssembly: Assembly): string | undefined;
-    GetService(type: Type): unknown | undefined;
     SetSavedLicenseKey(type: Type, key: string): void;
 }
 

@@ -116,11 +116,9 @@ export interface ClientWebSocket$instance extends WebSocket$instance {
     Dispose(): void;
     ReceiveAsync(buffer: ArraySegment_1<System_Internal.Byte>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
     ReceiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
-    ReceiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
     SendAsync(buffer: ArraySegment_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
     SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
     SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken: CancellationToken): ValueTask;
-    SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
     SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
 }
 
@@ -352,7 +350,7 @@ export const WebSocketReceiveResult: {
 
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
-export interface WebSocketStream$instance extends Stream {
+export interface WebSocketStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_WebSockets_WebSocketStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -368,7 +366,6 @@ export interface WebSocketStream$instance extends Stream {
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
     Flush(): void;
@@ -379,8 +376,6 @@ export interface WebSocketStream$instance extends Stream {
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
@@ -388,7 +383,6 @@ export interface WebSocketStream$instance extends Stream {
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
