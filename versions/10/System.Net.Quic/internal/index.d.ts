@@ -138,7 +138,7 @@ export const QuicConnectionOptions: {
 
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
-export interface QuicException$instance extends IOException {
+export interface QuicException$instance extends IOException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Quic_QuicException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -146,7 +146,6 @@ export interface QuicException$instance extends IOException {
     readonly ApplicationErrorCode: Nullable_1<System_Internal.Int64>;
     readonly QuicError: QuicError;
     readonly TransportErrorCode: Nullable_1<System_Internal.Int64>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -265,25 +264,24 @@ export interface QuicStream$instance extends Stream {
     Flush(): void;
     FlushAsync(cancellationToken?: CancellationToken): Task;
     FlushAsync(): Task;
+    FlushAsync(cancellationToken: CancellationToken): Task;
     Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     ToString(): string;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, completeWrites: boolean, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
+    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteByte(value: byte): void;
 }
 

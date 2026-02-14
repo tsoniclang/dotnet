@@ -921,12 +921,11 @@ export interface __SqlString$views {
 export type SqlString = SqlString$instance & __SqlString$views;
 
 
-export interface SqlAlreadyFilledException$instance extends SqlTypeException$instance {
+export interface SqlAlreadyFilledException$instance extends SqlTypeException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_SqlTypes_SqlAlreadyFilledException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1024,12 +1023,11 @@ export interface __SqlChars$views {
 export type SqlChars = SqlChars$instance & __SqlChars$views & { [offset: number]: char; };
 
 
-export interface SqlNotFilledException$instance extends SqlTypeException$instance {
+export interface SqlNotFilledException$instance extends SqlTypeException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_SqlTypes_SqlNotFilledException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1047,12 +1045,11 @@ export interface __SqlNotFilledException$views {
 export type SqlNotFilledException = SqlNotFilledException$instance & __SqlNotFilledException$views;
 
 
-export interface SqlNullValueException$instance extends SqlTypeException$instance {
+export interface SqlNullValueException$instance extends SqlTypeException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_SqlTypes_SqlNullValueException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1070,12 +1067,11 @@ export interface __SqlNullValueException$views {
 export type SqlNullValueException = SqlNullValueException$instance & __SqlNullValueException$views;
 
 
-export interface SqlTruncateException$instance extends SqlTypeException$instance {
+export interface SqlTruncateException$instance extends SqlTypeException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_SqlTypes_SqlTruncateException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1093,12 +1089,11 @@ export interface __SqlTruncateException$views {
 export type SqlTruncateException = SqlTruncateException$instance & __SqlTruncateException$views;
 
 
-export interface SqlTypeException$instance extends SystemException {
+export interface SqlTypeException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_SqlTypes_SqlTypeException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

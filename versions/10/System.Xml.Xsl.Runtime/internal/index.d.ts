@@ -696,22 +696,7 @@ export interface XmlQueryItemSequence$instance extends XmlQuerySequence_1$instan
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: XPathItem): void;
-    Add(value: unknown): int;
     AddClone(item: XPathItem): void;
-    Clear(): void;
-    Contains(value: XPathItem): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: XPathItem[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<XPathItem>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: XPathItem): int;
-    Insert(index: int, item: XPathItem): void;
-    Insert(index: int, value: unknown): void;
-    Remove(item: XPathItem): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
 }
 
 
@@ -745,24 +730,9 @@ export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instan
     readonly __tsonic_iface_System_Collections_IList: never;
 
     IsDocOrderDistinct: boolean;
-    Add(value: XPathNavigator): void;
-    Add(value: unknown): int;
     AddClone(navigator: XPathNavigator): void;
-    Clear(): void;
-    Contains(value: XPathNavigator): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: XPathNavigator[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     DocOrderDistinct(comparer: IComparer_1<XPathNavigator>): XmlQueryNodeSequence;
-    GetEnumerator(): IEnumerator_1<XPathNavigator>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(value: XPathNavigator): int;
-    Insert(index: int, item: XPathNavigator): void;
-    Insert(index: int, value: unknown): void;
     OnItemsChanged(): void;
-    Remove(item: XPathNavigator): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
 }
 
 
@@ -787,7 +757,7 @@ export interface __XmlQueryNodeSequence$views {
 export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNodeSequence$views;
 
 
-export interface XmlQueryOutput$instance extends XmlWriter {
+export interface XmlQueryOutput$instance extends XmlWriter, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryOutput: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -797,9 +767,6 @@ export interface XmlQueryOutput$instance extends XmlWriter {
     readonly XmlLang: string | string | undefined;
     readonly XmlSpace: XmlSpace;
     Close(): void;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
-    DisposeAsync(): ValueTask;
     EndCopy(navigator: XPathNavigator): void;
     EndTree(): void;
     Flush(): void;

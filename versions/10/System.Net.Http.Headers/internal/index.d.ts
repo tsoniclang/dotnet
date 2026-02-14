@@ -317,8 +317,6 @@ export interface HttpContentHeaders$instance extends HttpHeaders$instance {
     set ContentType(value: MediaTypeHeaderValue | undefined);
     Expires: Nullable_1<DateTimeOffset>;
     LastModified: Nullable_1<DateTimeOffset>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, IEnumerable_1<System_Internal.String>>>;
-    GetEnumerator(): IEnumerator;
 }
 
 
@@ -448,8 +446,6 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     readonly UserAgent: HttpHeaderValueCollection_1<ProductInfoHeaderValue>;
     readonly Via: HttpHeaderValueCollection_1<ViaHeaderValue>;
     readonly Warning: HttpHeaderValueCollection_1<WarningHeaderValue>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, IEnumerable_1<System_Internal.String>>>;
-    GetEnumerator(): IEnumerator;
 }
 
 
@@ -495,8 +491,6 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly Via: HttpHeaderValueCollection_1<ViaHeaderValue>;
     readonly Warning: HttpHeaderValueCollection_1<WarningHeaderValue>;
     readonly WwwAuthenticate: HttpHeaderValueCollection_1<AuthenticationHeaderValue>;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, IEnumerable_1<System_Internal.String>>>;
-    GetEnumerator(): IEnumerator;
 }
 
 
@@ -549,7 +543,6 @@ export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeade
     readonly __tsonic_iface_System_ICloneable: never;
 
     Quality: Nullable_1<System_Internal.Double>;
-    Clone(): unknown;
 }
 
 
@@ -601,7 +594,6 @@ export interface NameValueWithParametersHeaderValue$instance extends NameValueHe
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
-    Clone(): unknown;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -849,7 +841,6 @@ export interface TransferCodingWithQualityHeaderValue$instance extends TransferC
     readonly __tsonic_iface_System_ICloneable: never;
 
     Quality: Nullable_1<System_Internal.Double>;
-    Clone(): unknown;
 }
 
 

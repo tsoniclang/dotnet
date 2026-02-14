@@ -355,12 +355,11 @@ export const UnverifiableCodeAttribute: {
 
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
-export interface VerificationException$instance extends SystemException {
+export interface VerificationException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_VerificationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

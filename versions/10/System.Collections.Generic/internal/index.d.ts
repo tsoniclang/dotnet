@@ -736,8 +736,10 @@ export interface ByteEqualityComparer$instance extends EqualityComparer_1$instan
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    Equals(x: byte, y: byte): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(b: byte): int;
+    GetHashCode(): int;
 }
 
 
@@ -916,9 +918,9 @@ export interface EnumEqualityComparer_1$instance<T extends number> extends Equal
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Equals(x: T, y: T): boolean;
-    Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: T): int;
-    GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -944,7 +946,9 @@ export interface EqualityComparer_1$instance<T> {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: T, y: T): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: T): int;
+    GetHashCode(): int;
 }
 
 
@@ -969,7 +973,6 @@ export interface GenericComparer_1$instance<T extends (IComparable_1<T> | number
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
     Compare(x: T, y: T): int;
-    Compare(x: unknown, y: unknown): int;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -995,9 +998,9 @@ export interface GenericEqualityComparer_1$instance<T extends (IEquatable_1<T> |
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: T, y: T): boolean;
-    Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: T): int;
-    GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
 }
 
 
@@ -1084,12 +1087,11 @@ export interface __HashSet_1$views<T> {
 export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
 
-export interface KeyNotFoundException$instance extends SystemException {
+export interface KeyNotFoundException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Collections_Generic_KeyNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1273,7 +1275,9 @@ export interface NonRandomizedStringEqualityComparer$instance extends System_Run
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Equals(x: string, y: string): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: string): int;
+    GetHashCode(): int;
     GetUnderlyingEqualityComparer(): IEqualityComparer_1<string | undefined>;
 }
 
@@ -1298,7 +1302,7 @@ export interface NullableComparer_1$instance<T extends unknown> extends Comparer
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Compare(x: unknown, y: unknown): int;
+    Compare(x: Nullable_1<T>, y: Nullable_1<T>): int;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1326,8 +1330,10 @@ export interface NullableEqualityComparer_1$instance<T extends unknown> extends 
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    Equals(x: Nullable_1<T>, y: Nullable_1<T>): boolean;
+    Equals(obj: unknown): boolean;
+    GetHashCode(obj: Nullable_1<T>): int;
+    GetHashCode(): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1353,7 +1359,6 @@ export interface ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
     Compare(x: T, y: T): int;
-    Compare(x: unknown, y: unknown): int;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -1379,9 +1384,9 @@ export interface ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: T, y: T): boolean;
-    Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: T): int;
-    GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
 }
 
 
@@ -1653,7 +1658,9 @@ export interface ReferenceEqualityComparer$instance {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
 }
 
 
@@ -1758,7 +1765,7 @@ export interface SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> 
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
-    Compare(x: unknown, y: unknown): int;
+    Compare(x: KeyValuePair_2<TKey, TValue>, y: KeyValuePair_2<TKey, TValue>): int;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
 }
@@ -2055,7 +2062,7 @@ export interface __Stack_1$views<T> {
 export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
 
 
-export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
+export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Collections_Generic_TreeSet_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -2068,22 +2075,6 @@ export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Add(item: T): boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[]): void;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: T[], index: int, count: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): SortedSet_1_Enumerator<T>;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    OnDeserialization(sender: unknown): void;
-    UnionWith(other: IEnumerable_1<T>): void;
 }
 
 

@@ -96,10 +96,7 @@ export interface ByteArrayContent$instance extends HttpContent$instance {
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
     CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
     CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
@@ -131,7 +128,6 @@ export interface DelegatingHandler$instance extends HttpMessageHandler$instance 
     Dispose(): void;
     Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
 
 
@@ -151,8 +147,6 @@ export interface FormUrlEncodedContent$instance extends ByteArrayContent$instanc
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
 }
@@ -221,9 +215,14 @@ export interface HttpClient$instance extends HttpMessageInvoker$instance {
     PutAsync(requestUri: Uri, content: HttpContent): Task_1<HttpResponseMessage>;
     PutAsync(requestUri: string, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PutAsync(requestUri: Uri, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Send(request: HttpRequestMessage): HttpResponseMessage;
+    Send(request: HttpRequestMessage, completionOption: HttpCompletionOption): HttpResponseMessage;
     Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
+    Send(request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): HttpResponseMessage;
+    SendAsync(request: HttpRequestMessage): Task_1<HttpResponseMessage>;
     SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    SendAsync(request: HttpRequestMessage, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
+    SendAsync(request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
 
 
@@ -342,14 +341,13 @@ export interface __HttpContent$views {
 export type HttpContent = HttpContent$instance & __HttpContent$views;
 
 
-export interface HttpIOException$instance extends IOException {
+export interface HttpIOException$instance extends IOException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Http_HttpIOException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HttpRequestError: HttpRequestError;
     readonly Message: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -452,13 +450,12 @@ export interface __HttpMethod$views {
 export type HttpMethod = HttpMethod$instance & __HttpMethod$views;
 
 
-export interface HttpProtocolException$instance extends HttpIOException$instance {
+export interface HttpProtocolException$instance extends HttpIOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Http_HttpProtocolException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: long;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -474,14 +471,13 @@ export interface __HttpProtocolException$views {
 export type HttpProtocolException = HttpProtocolException$instance & __HttpProtocolException$views;
 
 
-export interface HttpRequestException$instance extends Exception {
+export interface HttpRequestException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Http_HttpRequestException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HttpRequestError: HttpRequestError;
     readonly StatusCode: Nullable_1<HttpStatusCode>;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -608,12 +604,9 @@ export interface MessageProcessingHandler$instance extends DelegatingHandler$ins
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     ProcessRequest(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpRequestMessage;
     ProcessResponse(response: HttpResponseMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
 
@@ -640,8 +633,6 @@ export interface MultipartContent$instance extends HttpContent$instance {
     set HeaderEncodingSelector(value: HeaderEncodingSelector_1<HttpContent> | undefined);
     Add(content: HttpContent): void;
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
     CreateContentReadStreamAsync(): Task_1<Stream>;
     CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
     Dispose(disposing: boolean): void;
@@ -678,10 +669,8 @@ export interface MultipartFormDataContent$instance extends MultipartContent$inst
     readonly __tsonic_iface_System_IDisposable: never;
 
     Add(content: HttpContent): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    GetEnumerator(): IEnumerator_1<HttpContent>;
-    GetEnumerator(): IEnumerator;
+    Add(content: HttpContent, name: string): void;
+    Add(content: HttpContent, name: string, fileName: string): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
 }
@@ -709,10 +698,7 @@ export interface ReadOnlyMemoryContent$instance extends HttpContent$instance {
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
     CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
     CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     SerializeToStream(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
@@ -834,7 +820,6 @@ export interface StreamContent$instance extends HttpContent$instance {
 
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
     CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
     CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -863,8 +848,6 @@ export interface StringContent$instance extends ByteArrayContent$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     SerializeToStreamAsync(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): Task;
     SerializeToStreamAsync(stream: Stream, context: TransportContext): Task;
 }

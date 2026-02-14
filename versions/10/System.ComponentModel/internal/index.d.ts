@@ -793,31 +793,16 @@ export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNe
     readonly SupportsChangeNotificationCore: boolean;
     readonly SupportsSearchingCore: boolean;
     readonly SupportsSortingCore: boolean;
-    Add(item: T): void;
-    Add(value: unknown): int;
     AddNew(): T;
     AddNewCore(): unknown | undefined;
     ApplySortCore(prop: PropertyDescriptor, direction: ListSortDirection): void;
     CancelNew(itemIndex: int): void;
-    Clear(): void;
     ClearItems(): void;
-    Contains(item: T): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     EndNew(itemIndex: int): void;
     FindCore(prop: PropertyDescriptor, key: unknown): int;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    Insert(index: int, value: unknown): void;
     InsertItem(index: int, item: T): void;
     OnAddingNew(e: AddingNewEventArgs): void;
     OnListChanged(e: ListChangedEventArgs): void;
-    Remove(item: T): boolean;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveItem(index: int): void;
     RemoveSortCore(): void;
     ResetBindings(): void;
@@ -1061,10 +1046,9 @@ export interface ComponentCollection$instance extends ReadOnlyCollectionBase {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    CopyTo(array: ClrArray, index: int): void;
+    CopyTo(array: IComponent[], index: int): void;
     get_Item(name: string): IComponent | undefined;
     get_Item(index: int): IComponent | undefined;
-    GetEnumerator(): IEnumerator;
 }
 
 
@@ -2037,7 +2021,6 @@ export interface InvalidAsynchronousStateException$instance extends ArgumentExce
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -2060,7 +2043,6 @@ export interface InvalidEnumArgumentException$instance extends ArgumentException
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -2559,8 +2541,6 @@ export interface NestedContainer$instance extends Container$instance {
 
     readonly Owner: IComponent;
     readonly OwnerName: string | undefined;
-    Add(component: IComponent): void;
-    Add(component: IComponent, name: string): void;
     CreateSite(component: IComponent, name: string): ISite;
     Dispose(disposing: boolean): void;
     Dispose(): void;

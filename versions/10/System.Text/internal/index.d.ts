@@ -243,20 +243,18 @@ export interface __StringRuneEnumerator$views {
 export type StringRuneEnumerator = StringRuneEnumerator$instance & __StringRuneEnumerator$views;
 
 
-export interface ASCIIEncoding$instance extends Encoding$instance {
+export interface ASCIIEncoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_ASCIIEncoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly IsSingleByte: boolean;
-    Clone(): unknown;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(chars: string): int;
     GetByteCount(chars: ptr<char>, count: int): int;
     GetByteCount(chars: ReadOnlySpan_1<System_Internal.Char>): int;
     GetByteCount(chars: char[]): int;
     GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<System_Internal.Char>): int;
     GetBytes(chars: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     GetBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     GetBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -265,18 +263,15 @@ export interface ASCIIEncoding$instance extends Encoding$instance {
     GetBytes(chars: char[], index: int, count: int): byte[];
     GetBytes(s: string): byte[];
     GetBytes(s: string, index: int, count: int): byte[];
-    GetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>): int;
     GetCharCount(bytes: byte[], index: int, count: int): int;
     GetCharCount(bytes: ptr<byte>, count: int): int;
     GetCharCount(bytes: ReadOnlySpan_1<System_Internal.Byte>): int;
     GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<System_Internal.Byte>): int;
     GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
     GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
     GetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>): int;
     GetChars(bytes: byte[]): char[];
     GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>): int;
     GetDecoder(): Decoder;
     GetEncoder(): Encoder;
     GetMaxByteCount(charCount: int): int;
@@ -286,8 +281,6 @@ export interface ASCIIEncoding$instance extends Encoding$instance {
     GetString(bytes: ReadOnlySpan_1<System_Internal.Byte>): string;
     GetString(bytes: byte[]): string;
     TryGetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    TryGetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    TryGetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>, charsWritten: int): boolean;
     TryGetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>, charsWritten: int): boolean;
 }
 
@@ -311,7 +304,6 @@ export interface CodePagesEncodingProvider$instance extends EncodingProvider {
     GetEncoding(name: string): Encoding | undefined;
     GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
     GetEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
-    GetEncodings(): IEnumerable_1<EncodingInfo>;
     GetEncodings(): IEnumerable_1<EncodingInfo>;
 }
 
@@ -439,7 +431,6 @@ export interface DecoderFallbackException$instance extends ArgumentException {
 
     readonly BytesUnknown: byte[] | undefined;
     readonly Index: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -598,7 +589,6 @@ export interface EncoderFallbackException$instance extends ArgumentException {
     readonly CharUnknownHigh: char;
     readonly CharUnknownLow: char;
     readonly Index: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     IsUnknownSurrogate(): boolean;
 }
 
@@ -850,6 +840,7 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
     EnsureCapacity(capacity: int): int;
     Equals(sb: StringBuilder): boolean;
     Equals(span: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    Equals(obj: unknown): boolean;
     GetChunks(): StringBuilder_ChunkEnumerator;
     Insert(index: int, value: string, count: int): StringBuilder;
     Insert(index: int, value: string): StringBuilder;
@@ -899,13 +890,12 @@ export interface __StringBuilder$views {
 export type StringBuilder = StringBuilder$instance & __StringBuilder$views & { [index: number]: char; };
 
 
-export interface UnicodeEncoding$instance extends Encoding$instance {
+export interface UnicodeEncoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_UnicodeEncoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Clone(): unknown;
     Equals(value: unknown): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
@@ -958,13 +948,12 @@ export interface __UnicodeEncoding$views {
 export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views;
 
 
-export interface UTF32Encoding$instance extends Encoding$instance {
+export interface UTF32Encoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_UTF32Encoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Clone(): unknown;
     Equals(value: unknown): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
@@ -1016,12 +1005,11 @@ export interface __UTF32Encoding$views {
 export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 
-export interface UTF7Encoding$instance extends Encoding$instance {
+export interface UTF7Encoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_UTF7Encoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
-    Clone(): unknown;
     Equals(value: unknown): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
@@ -1071,13 +1059,12 @@ export interface __UTF7Encoding$views {
 export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 
 
-export interface UTF8Encoding$instance extends Encoding$instance {
+export interface UTF8Encoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_UTF8Encoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Clone(): unknown;
     Equals(value: unknown): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(chars: string): int;
@@ -1085,7 +1072,6 @@ export interface UTF8Encoding$instance extends Encoding$instance {
     GetByteCount(chars: ReadOnlySpan_1<System_Internal.Char>): int;
     GetByteCount(chars: char[]): int;
     GetByteCount(s: string, index: int, count: int): int;
-    GetByteCount(chars: ReadOnlySpan_1<System_Internal.Char>): int;
     GetBytes(s: string, charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     GetBytes(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int): int;
     GetBytes(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int): int;
@@ -1094,18 +1080,15 @@ export interface UTF8Encoding$instance extends Encoding$instance {
     GetBytes(chars: char[], index: int, count: int): byte[];
     GetBytes(s: string): byte[];
     GetBytes(s: string, index: int, count: int): byte[];
-    GetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>): int;
     GetCharCount(bytes: byte[], index: int, count: int): int;
     GetCharCount(bytes: ptr<byte>, count: int): int;
     GetCharCount(bytes: ReadOnlySpan_1<System_Internal.Byte>): int;
     GetCharCount(bytes: byte[]): int;
-    GetCharCount(bytes: ReadOnlySpan_1<System_Internal.Byte>): int;
     GetChars(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int): int;
     GetChars(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int): int;
     GetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>): int;
     GetChars(bytes: byte[]): char[];
     GetChars(bytes: byte[], index: int, count: int): char[];
-    GetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>): int;
     GetDecoder(): Decoder;
     GetEncoder(): Encoder;
     GetHashCode(): int;
@@ -1117,8 +1100,6 @@ export interface UTF8Encoding$instance extends Encoding$instance {
     GetString(bytes: ReadOnlySpan_1<System_Internal.Byte>): string;
     GetString(bytes: byte[]): string;
     TryGetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    TryGetBytes(chars: ReadOnlySpan_1<System_Internal.Char>, bytes: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    TryGetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>, charsWritten: int): boolean;
     TryGetChars(bytes: ReadOnlySpan_1<System_Internal.Byte>, chars: Span_1<System_Internal.Char>, charsWritten: int): boolean;
 }
 

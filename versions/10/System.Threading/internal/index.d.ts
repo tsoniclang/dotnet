@@ -357,14 +357,13 @@ export const SpinWait: {
 
 export type SpinWait = SpinWait$instance;
 
-export interface AbandonedMutexException$instance extends SystemException {
+export interface AbandonedMutexException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_AbandonedMutexException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Mutex: Mutex | undefined;
     readonly MutexIndex: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -407,8 +406,6 @@ export interface AutoResetEvent$instance extends EventWaitHandle$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(explicitDisposing: boolean): void;
 }
 
 
@@ -460,12 +457,11 @@ export interface __Barrier$views {
 export type Barrier = Barrier$instance & __Barrier$views;
 
 
-export interface BarrierPostPhaseException$instance extends Exception {
+export interface BarrierPostPhaseException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_BarrierPostPhaseException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -590,8 +586,6 @@ export interface EventWaitHandle$instance extends WaitHandle$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(explicitDisposing: boolean): void;
-    Dispose(): void;
     Reset(): boolean;
     Set(): boolean;
 }
@@ -707,12 +701,11 @@ export const Lock: {
 
 export type Lock = Lock$instance;
 
-export interface LockRecursionException$instance extends Exception {
+export interface LockRecursionException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_LockRecursionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -735,8 +728,6 @@ export interface ManualResetEvent$instance extends EventWaitHandle$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(explicitDisposing: boolean): void;
 }
 
 
@@ -792,8 +783,6 @@ export interface Mutex$instance extends WaitHandle$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(explicitDisposing: boolean): void;
-    Dispose(): void;
     ReleaseMutex(): void;
 }
 
@@ -984,8 +973,6 @@ export interface Semaphore$instance extends WaitHandle$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(explicitDisposing: boolean): void;
-    Dispose(): void;
     Release(): int;
     Release(releaseCount: int): int;
 }
@@ -1011,12 +998,11 @@ export interface __Semaphore$views {
 export type Semaphore = Semaphore$instance & __Semaphore$views;
 
 
-export interface SemaphoreFullException$instance extends SystemException {
+export interface SemaphoreFullException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_SemaphoreFullException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1096,12 +1082,11 @@ export const SynchronizationContext: {
 
 export type SynchronizationContext = SynchronizationContext$instance;
 
-export interface SynchronizationLockException$instance extends SystemException {
+export interface SynchronizationLockException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_SynchronizationLockException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1215,13 +1200,12 @@ export const Thread: {
 
 export type Thread = Thread$instance;
 
-export interface ThreadAbortException$instance extends SystemException {
+export interface ThreadAbortException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_ThreadAbortException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ExceptionState: unknown | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1250,12 +1234,11 @@ export const ThreadExceptionEventArgs: {
 
 export type ThreadExceptionEventArgs = ThreadExceptionEventArgs$instance;
 
-export interface ThreadInterruptedException$instance extends SystemException {
+export interface ThreadInterruptedException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_ThreadInterruptedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1330,12 +1313,11 @@ export interface __ThreadPoolBoundHandle$views {
 export type ThreadPoolBoundHandle = ThreadPoolBoundHandle$instance & __ThreadPoolBoundHandle$views;
 
 
-export interface ThreadStartException$instance extends SystemException {
+export interface ThreadStartException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_ThreadStartException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1350,12 +1332,11 @@ export interface __ThreadStartException$views {
 export type ThreadStartException = ThreadStartException$instance & __ThreadStartException$views;
 
 
-export interface ThreadStateException$instance extends SystemException {
+export interface ThreadStateException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_ThreadStateException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1453,12 +1434,11 @@ export interface __WaitHandle$views {
 export type WaitHandle = WaitHandle$instance & __WaitHandle$views;
 
 
-export interface WaitHandleCannotBeOpenedException$instance extends ApplicationException {
+export interface WaitHandleCannotBeOpenedException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_WaitHandleCannotBeOpenedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

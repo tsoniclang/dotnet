@@ -364,12 +364,11 @@ export const Pkcs12LoaderLimits: {
 
 export type Pkcs12LoaderLimits = Pkcs12LoaderLimits$instance;
 
-export interface Pkcs12LoadLimitExceededException$instance extends CryptographicException {
+export interface Pkcs12LoadLimitExceededException$instance extends CryptographicException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_Cryptography_X509Certificates_Pkcs12LoadLimitExceededException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -680,8 +679,6 @@ export interface X509Certificate2$instance extends X509Certificate$instance, Sys
     CopyWithPrivateKey(privateKey: MLDsa): X509Certificate2;
     CopyWithPrivateKey(privateKey: SlhDsa): X509Certificate2;
     CopyWithPrivateKey(privateKey: CompositeMLDsa): X509Certificate2;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ExportCertificatePem(): string;
     GetCompositeMLDsaPrivateKey(): CompositeMLDsa | undefined;
     GetCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
@@ -692,7 +689,6 @@ export interface X509Certificate2$instance extends X509Certificate$instance, Sys
     GetMLKemPrivateKey(): MLKem | undefined;
     GetMLKemPublicKey(): MLKem | undefined;
     GetNameInfo(nameType: X509NameType, forIssuer: boolean): string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetSlhDsaPrivateKey(): SlhDsa | undefined;
     GetSlhDsaPublicKey(): SlhDsa | undefined;
     Import(rawData: byte[]): void;
@@ -702,7 +698,6 @@ export interface X509Certificate2$instance extends X509Certificate$instance, Sys
     Import(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
     Import(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     MatchesHostname(hostname: string, allowWildcards?: boolean, allowCommonName?: boolean): boolean;
-    OnDeserialization(sender: unknown): void;
     Reset(): void;
     ToString(): string;
     ToString(verbose: boolean): string;
@@ -756,16 +751,14 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
+    Add(certificate: X509Certificate2): int;
     Add(value: X509Certificate): int;
-    Add(value: unknown): int;
+    AddRange(certificates: X509Certificate2[]): void;
     AddRange(certificates: X509Certificate2Collection): void;
     AddRange(value: X509Certificate[]): void;
     AddRange(value: X509CertificateCollection): void;
-    Clear(): void;
+    Contains(certificate: X509Certificate2): boolean;
     Contains(value: X509Certificate): boolean;
-    Contains(value: unknown): boolean;
-    CopyTo(array: X509Certificate[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
     Export(contentType: X509ContentType): byte[] | undefined;
     Export(contentType: X509ContentType, password: string): byte[] | undefined;
     ExportCertificatePems(): string;
@@ -776,6 +769,7 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintHex: string): X509Certificate2Collection;
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintHex: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2Collection;
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintBytes: ReadOnlySpan_1<System_Internal.Byte>): X509Certificate2Collection;
+    GetEnumerator(): X509Certificate2Enumerator;
     GetEnumerator(): X509CertificateCollection_X509CertificateEnumerator;
     GetEnumerator(): IEnumerator;
     Import(rawData: byte[]): void;
@@ -788,12 +782,10 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     Import(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
     ImportFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>): void;
     ImportFromPemFile(certPemFilePath: string): void;
-    IndexOf(value: X509Certificate): int;
+    Insert(index: int, certificate: X509Certificate2): void;
     Insert(index: int, value: X509Certificate): void;
-    Insert(index: int, value: unknown): void;
+    Remove(certificate: X509Certificate2): void;
     Remove(value: X509Certificate): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
     RemoveRange(certificates: X509Certificate2[]): void;
     RemoveRange(certificates: X509Certificate2Collection): void;
     TryExportCertificatePems(destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
@@ -852,19 +844,18 @@ export interface X509CertificateCollection$instance extends CollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(value: unknown): int;
+    Add(value: X509Certificate): int;
     AddRange(value: X509Certificate[]): void;
     AddRange(value: X509CertificateCollection): void;
-    Clear(): void;
-    Contains(value: unknown): boolean;
-    CopyTo(array: ClrArray, index: int): void;
+    Contains(value: X509Certificate): boolean;
+    CopyTo(array: X509Certificate[], index: int): void;
+    GetEnumerator(): X509CertificateCollection_X509CertificateEnumerator;
     GetEnumerator(): IEnumerator;
     GetHashCode(): int;
     IndexOf(value: X509Certificate): int;
-    Insert(index: int, value: unknown): void;
+    Insert(index: int, value: X509Certificate): void;
     OnValidate(value: unknown): void;
-    Remove(value: unknown): void;
-    RemoveAt(index: int): void;
+    Remove(value: X509Certificate): void;
 }
 
 

@@ -520,12 +520,11 @@ export const ParameterModifier: {
 
 export type ParameterModifier = ParameterModifier$instance & { [index: number]: boolean; };
 
-export interface AmbiguousMatchException$instance extends SystemException {
+export interface AmbiguousMatchException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_AmbiguousMatchException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -598,6 +597,7 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     GetType(name: string): Type | undefined;
     GetType(name: string, throwOnError: boolean): Type | undefined;
     GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
+    GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     LoadModule(moduleName: string, rawModule: byte[]): Module;
@@ -994,19 +994,18 @@ export const Binder: (abstract new() => Binder) & {
 
 export type Binder = Binder$instance;
 
-export interface ConstructorInfo$instance extends MethodBase$instance {
+export interface ConstructorInfo$instance extends MethodBase$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_ConstructorInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     readonly MemberType: MemberTypes;
     Equals(obj: unknown): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetHashCode(): int;
+    Invoke(parameters: unknown[]): unknown;
+    Invoke(invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
     Invoke(obj: unknown, parameters: unknown[]): unknown | undefined;
     Invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
 
@@ -1063,12 +1062,11 @@ export const CustomAttributeData: (abstract new() => CustomAttributeData) & {
 
 export type CustomAttributeData = CustomAttributeData$instance;
 
-export interface CustomAttributeFormatException$instance extends FormatException {
+export interface CustomAttributeFormatException$instance extends FormatException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_CustomAttributeFormatException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1115,7 +1113,7 @@ export const DispatchProxy: (abstract new() => DispatchProxy) & {
 
 export type DispatchProxy = DispatchProxy$instance;
 
-export interface EventInfo$instance extends MemberInfo$instance {
+export interface EventInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_EventInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1132,8 +1130,6 @@ export interface EventInfo$instance extends MemberInfo$instance {
     Equals(obj: unknown): boolean;
     GetAddMethod(): MethodInfo | undefined;
     GetAddMethod(nonPublic: boolean): MethodInfo | undefined;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetHashCode(): int;
     GetOtherMethods(): MethodInfo[];
     GetOtherMethods(nonPublic: boolean): MethodInfo[];
@@ -1141,7 +1137,6 @@ export interface EventInfo$instance extends MemberInfo$instance {
     GetRaiseMethod(nonPublic: boolean): MethodInfo | undefined;
     GetRemoveMethod(): MethodInfo | undefined;
     GetRemoveMethod(nonPublic: boolean): MethodInfo | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     RemoveEventHandler(target: unknown, handler: Function): void;
 }
 
@@ -1177,7 +1172,7 @@ export const ExceptionHandlingClause: (abstract new() => ExceptionHandlingClause
 
 export type ExceptionHandlingClause = ExceptionHandlingClause$instance;
 
-export interface FieldInfo$instance extends MemberInfo$instance {
+export interface FieldInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_FieldInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1202,8 +1197,6 @@ export interface FieldInfo$instance extends MemberInfo$instance {
     readonly IsStatic: boolean;
     readonly MemberType: MemberTypes;
     Equals(obj: unknown): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetHashCode(): int;
     GetModifiedFieldType(): Type;
     GetOptionalCustomModifiers(): Type[];
@@ -1211,7 +1204,6 @@ export interface FieldInfo$instance extends MemberInfo$instance {
     GetRequiredCustomModifiers(): Type[];
     GetValue(obj: unknown): unknown | undefined;
     GetValueDirect(obj: TypedReference): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetValue(obj: unknown, value: unknown): void;
     SetValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
     SetValueDirect(obj: TypedReference, value: unknown): void;
@@ -1231,12 +1223,11 @@ export interface __FieldInfo$views {
 export type FieldInfo = FieldInfo$instance & __FieldInfo$views;
 
 
-export interface InvalidFilterCriteriaException$instance extends ApplicationException {
+export interface InvalidFilterCriteriaException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_InvalidFilterCriteriaException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1320,7 +1311,7 @@ export interface __MemberInfo$views {
 export type MemberInfo = MemberInfo$instance & __MemberInfo$views;
 
 
-export interface MethodBase$instance extends MemberInfo$instance {
+export interface MethodBase$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_MethodBase: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1350,8 +1341,6 @@ export interface MethodBase$instance extends MemberInfo$instance {
     readonly MethodHandle: RuntimeMethodHandle;
     readonly MethodImplementationFlags: MethodImplAttributes;
     Equals(obj: unknown): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetGenericArguments(): Type[];
     GetHashCode(): int;
     GetMethodBody(): MethodBody | undefined;
@@ -1359,7 +1348,6 @@ export interface MethodBase$instance extends MemberInfo$instance {
     GetParameters(): ParameterInfo[];
     Invoke(obj: unknown, parameters: unknown[]): unknown | undefined;
     Invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
 
@@ -1395,7 +1383,7 @@ export const MethodBody: (abstract new() => MethodBody) & {
 
 export type MethodBody = MethodBody$instance;
 
-export interface MethodInfo$instance extends MethodBase$instance {
+export interface MethodInfo$instance extends MethodBase$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_MethodInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1410,12 +1398,9 @@ export interface MethodInfo$instance extends MethodBase$instance {
     CreateDelegate<T extends Function>(target: unknown): T;
     Equals(obj: unknown): boolean;
     GetBaseDefinition(): MethodInfo;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetGenericArguments(): Type[];
     GetGenericMethodDefinition(): MethodInfo;
     GetHashCode(): int;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     MakeGenericMethod(...typeArguments: Type[]): MethodInfo;
 }
 
@@ -1506,6 +1491,7 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
     GetType(className: string): Type | undefined;
     GetType(className: string, ignoreCase: boolean): Type | undefined;
     GetType(className: string, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
+    GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     IsResource(): boolean;
@@ -1672,7 +1658,7 @@ export interface __Pointer$views {
 export type Pointer = Pointer$instance & __Pointer$views;
 
 
-export interface PropertyInfo$instance extends MemberInfo$instance {
+export interface PropertyInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_PropertyInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1689,8 +1675,6 @@ export interface PropertyInfo$instance extends MemberInfo$instance {
     GetAccessors(): MethodInfo[];
     GetAccessors(nonPublic: boolean): MethodInfo[];
     GetConstantValue(): unknown | undefined;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetGetMethod(): MethodInfo | undefined;
     GetGetMethod(nonPublic: boolean): MethodInfo | undefined;
     GetHashCode(): int;
@@ -1704,7 +1688,6 @@ export interface PropertyInfo$instance extends MemberInfo$instance {
     GetValue(obj: unknown): unknown | undefined;
     GetValue(obj: unknown, index: unknown[]): unknown | undefined;
     GetValue(obj: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): unknown | undefined;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     SetValue(obj: unknown, value: unknown): void;
     SetValue(obj: unknown, value: unknown, index: unknown[]): void;
     SetValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): void;
@@ -1788,12 +1771,11 @@ export interface __StrongNameKeyPair$views {
 export type StrongNameKeyPair = StrongNameKeyPair$instance & __StrongNameKeyPair$views;
 
 
-export interface TargetException$instance extends ApplicationException {
+export interface TargetException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_TargetException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1811,12 +1793,11 @@ export interface __TargetException$views {
 export type TargetException = TargetException$instance & __TargetException$views;
 
 
-export interface TargetInvocationException$instance extends ApplicationException {
+export interface TargetInvocationException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_TargetInvocationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1833,12 +1814,11 @@ export interface __TargetInvocationException$views {
 export type TargetInvocationException = TargetInvocationException$instance & __TargetInvocationException$views;
 
 
-export interface TargetParameterCountException$instance extends ApplicationException {
+export interface TargetParameterCountException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Reflection_TargetParameterCountException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1908,23 +1888,11 @@ export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableT
     GetInterfaceMap(interfaceType: Type): InterfaceMapping;
     GetInterfaces(): Type[];
     GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     GetMember(name: string): MemberInfo[];
+    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     GetMembers(bindingAttr: BindingFlags): MemberInfo[];
     GetMembers(): MemberInfo[];
     GetMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     GetMethods(bindingAttr: BindingFlags): MethodInfo[];
@@ -1935,15 +1903,7 @@ export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableT
     GetNestedTypes(): Type[];
     GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
     GetProperties(): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type): PropertyInfo | undefined;
-    GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
     GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetTypeInfo(): TypeInfo;
     HasElementTypeImpl(): boolean;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
@@ -1974,7 +1934,7 @@ export interface __TypeDelegator$views {
 export type TypeDelegator = TypeDelegator$instance & __TypeDelegator$views;
 
 
-export interface TypeInfo$instance extends Type, IReflectableType$instance {
+export interface TypeInfo$instance extends Type, ICustomAttributeProvider$instance, IReflectableType$instance {
     readonly __tsonic_type_System_Reflection_TypeInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1991,51 +1951,14 @@ export interface TypeInfo$instance extends Type, IReflectableType$instance {
     readonly GenericTypeParameters: Type[];
     readonly ImplementedInterfaces: IEnumerable_1<Type>;
     AsType(): Type;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetDeclaredEvent(name: string): EventInfo | undefined;
     GetDeclaredField(name: string): FieldInfo | undefined;
     GetDeclaredMethod(name: string): MethodInfo | undefined;
     GetDeclaredMethods(name: string): IEnumerable_1<MethodInfo>;
     GetDeclaredNestedType(name: string): TypeInfo | undefined;
     GetDeclaredProperty(name: string): PropertyInfo | undefined;
-    GetField(name: string): FieldInfo | undefined;
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    GetFields(): FieldInfo[];
-    GetFields(bindingAttr: BindingFlags): FieldInfo[];
-    GetMember(name: string): MemberInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers(): MemberInfo[];
-    GetMembers(bindingAttr: BindingFlags): MemberInfo[];
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethods(): MethodInfo[];
-    GetMethods(bindingAttr: BindingFlags): MethodInfo[];
-    GetProperties(): PropertyInfo[];
-    GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperty(name: string): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type): PropertyInfo | undefined;
-    GetProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    GetProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
+    IsAssignableFrom(typeInfo: TypeInfo): boolean;
     IsAssignableFrom(c: Type): boolean;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
 

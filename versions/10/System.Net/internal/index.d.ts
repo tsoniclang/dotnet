@@ -766,9 +766,7 @@ export interface FileWebRequest$instance extends WebRequest$instance {
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetRequestStreamAsync(): Task_1<Stream>;
-    GetRequestStreamAsync(): Task_1<Stream>;
     GetResponse(): WebResponse;
-    GetResponseAsync(): Task_1<WebResponse>;
     GetResponseAsync(): Task_1<WebResponse>;
 }
 
@@ -796,8 +794,6 @@ export interface FileWebResponse$instance extends WebResponse$instance {
     readonly ResponseUri: Uri;
     readonly SupportsHeaders: boolean;
     Close(): void;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseStream(): Stream;
 }
@@ -815,7 +811,7 @@ export interface __FileWebResponse$views {
 export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views;
 
 
-export interface FtpWebRequest$instance extends WebRequest$instance {
+export interface FtpWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_FtpWebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -852,7 +848,6 @@ export interface FtpWebRequest$instance extends WebRequest$instance {
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
     GetResponse(): WebResponse;
 }
@@ -871,7 +866,7 @@ export interface __FtpWebRequest$views {
 export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
-export interface FtpWebResponse$instance extends WebResponse$instance {
+export interface FtpWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_FtpWebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -888,9 +883,6 @@ export interface FtpWebResponse$instance extends WebResponse$instance {
     readonly SupportsHeaders: boolean;
     readonly WelcomeMessage: string | undefined;
     Close(): void;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetResponseStream(): Stream;
 }
 
@@ -1011,7 +1003,6 @@ export interface HttpListenerException$instance extends Win32Exception {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1240,10 +1231,12 @@ export interface HttpWebRequest$instance extends WebRequest$instance {
     AddRange(rangeSpecifier: string, range: long): void;
     BeginGetRequestStream(callback: AsyncCallback, state: unknown): IAsyncResult;
     BeginGetResponse(callback: AsyncCallback, state: unknown): IAsyncResult;
+    EndGetRequestStream(asyncResult: IAsyncResult, context: TransportContext): Stream;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetRequestStream(): Stream;
+    GetRequestStream(context: TransportContext): Stream;
     GetResponse(): WebResponse;
 }
 
@@ -1717,8 +1710,6 @@ export interface WebClient$instance extends Component {
     readonly ResponseHeaders: WebHeaderCollection | undefined;
     UseDefaultCredentials: boolean;
     CancelAsync(): void;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     DownloadData(address: string): byte[];
     DownloadData(address: Uri): byte[];
     DownloadDataAsync(address: Uri): void;
@@ -1867,23 +1858,33 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
     readonly AllKeys: (string | undefined)[] | string[];
     readonly Count: int;
     readonly Keys: NameObjectCollectionBase_KeysCollection;
+    Add(header: HttpRequestHeader, value: string): void;
     Add(header: HttpResponseHeader, value: string): void;
+    Add(header: string): void;
     Add(name: string, value: string): void;
     Add(c: NameValueCollection): void;
     Clear(): void;
-    CopyTo(dest: ClrArray, index: int): void;
     Get(index: int): string | undefined;
     Get(name: string): string | undefined;
+    get_Item(header: HttpRequestHeader): string | undefined;
+    get_Item(header: HttpResponseHeader): string | undefined;
+    get_Item(name: string): string | undefined;
+    get_Item(index: int): string | undefined;
     GetEnumerator(): IEnumerator;
     GetKey(index: int): string;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetValues(index: int): string[] | undefined;
     GetValues(header: string): string[] | undefined;
     OnDeserialization(sender: unknown): void;
+    Remove(header: HttpRequestHeader): void;
     Remove(header: HttpResponseHeader): void;
     Remove(name: string): void;
     Set(name: string, value: string): void;
+    Set(header: HttpRequestHeader, value: string): void;
     Set(header: HttpResponseHeader, value: string): void;
+    set_Item(header: HttpRequestHeader, value: string | undefined): void;
+    set_Item(header: HttpResponseHeader, value: string | undefined): void;
+    set_Item(name: string, value: string | undefined): void;
     ToByteArray(): byte[];
     ToString(): string;
 }

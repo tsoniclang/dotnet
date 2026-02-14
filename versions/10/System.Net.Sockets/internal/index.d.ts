@@ -514,7 +514,7 @@ export const MulticastOption: {
 
 export type MulticastOption = MulticastOption$instance;
 
-export interface NetworkStream$instance extends Stream {
+export interface NetworkStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_Sockets_NetworkStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -532,11 +532,11 @@ export interface NetworkStream$instance extends Stream {
     WriteTimeout: int;
     BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    Close(timeout: int): void;
     Close(timeout: TimeSpan): void;
     Close(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;
-    DisposeAsync(): ValueTask;
     EndRead(asyncResult: IAsyncResult): int;
     EndWrite(asyncResult: IAsyncResult): void;
     Finalize(): void;
@@ -545,22 +545,17 @@ export interface NetworkStream$instance extends Stream {
     FlushAsync(): Task;
     Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
     Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 
@@ -587,8 +582,6 @@ export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -913,7 +906,6 @@ export interface SocketException$instance extends Win32Exception {
     readonly ErrorCode: int;
     readonly Message: string;
     readonly SocketErrorCode: SocketError;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

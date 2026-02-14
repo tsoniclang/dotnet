@@ -170,7 +170,7 @@ export interface __TransactionOptions$views {
 export type TransactionOptions = TransactionOptions$instance & __TransactionOptions$views;
 
 
-export interface CommittableTransaction$instance extends Transaction$instance, System_Internal.IAsyncResult$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface CommittableTransaction$instance extends Transaction$instance, System_Internal.IAsyncResult$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_CommittableTransaction: never;
 
     readonly __tsonic_iface_System_IAsyncResult: never;
@@ -179,9 +179,7 @@ export interface CommittableTransaction$instance extends Transaction$instance, S
 
     BeginCommit(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     Commit(): void;
-    Dispose(): void;
     EndCommit(asyncResult: IAsyncResult): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -201,15 +199,13 @@ export interface __CommittableTransaction$views {
 export type CommittableTransaction = CommittableTransaction$instance & __CommittableTransaction$views;
 
 
-export interface DependentTransaction$instance extends Transaction$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DependentTransaction$instance extends Transaction$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_DependentTransaction: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Complete(): void;
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -271,14 +267,12 @@ export const SinglePhaseEnlistment: {
 
 export type SinglePhaseEnlistment = SinglePhaseEnlistment$instance;
 
-export interface SubordinateTransaction$instance extends Transaction$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SubordinateTransaction$instance extends Transaction$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_SubordinateTransaction: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Dispose(): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -337,12 +331,11 @@ export interface __Transaction$views {
 export type Transaction = Transaction$instance & __Transaction$views;
 
 
-export interface TransactionAbortedException$instance extends TransactionException$instance {
+export interface TransactionAbortedException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_TransactionAbortedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -374,12 +367,11 @@ export const TransactionEventArgs: {
 
 export type TransactionEventArgs = TransactionEventArgs$instance;
 
-export interface TransactionException$instance extends SystemException {
+export interface TransactionException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_TransactionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -397,12 +389,11 @@ export interface __TransactionException$views {
 export type TransactionException = TransactionException$instance & __TransactionException$views;
 
 
-export interface TransactionInDoubtException$instance extends TransactionException$instance {
+export interface TransactionInDoubtException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_TransactionInDoubtException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -436,12 +427,11 @@ export const TransactionInformation: {
 
 export type TransactionInformation = TransactionInformation$instance;
 
-export interface TransactionManagerCommunicationException$instance extends TransactionException$instance {
+export interface TransactionManagerCommunicationException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_TransactionManagerCommunicationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -459,12 +449,11 @@ export interface __TransactionManagerCommunicationException$views {
 export type TransactionManagerCommunicationException = TransactionManagerCommunicationException$instance & __TransactionManagerCommunicationException$views;
 
 
-export interface TransactionPromotionException$instance extends TransactionException$instance {
+export interface TransactionPromotionException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Transactions_TransactionPromotionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

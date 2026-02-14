@@ -203,12 +203,11 @@ export const DoubleType: {
 
 export type DoubleType = DoubleType$instance;
 
-export interface IncompleteInitialization$instance extends Exception {
+export interface IncompleteInitialization$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_IncompleteInitialization: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

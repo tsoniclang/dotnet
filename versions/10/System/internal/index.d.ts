@@ -5317,12 +5317,11 @@ export const Void: {
 
 export type Void = Void$instance;
 
-export interface AccessViolationException$instance extends SystemException$instance {
+export interface AccessViolationException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_AccessViolationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5458,12 +5457,11 @@ export const AppDomainSetup: {
 
 export type AppDomainSetup = AppDomainSetup$instance;
 
-export interface AppDomainUnloadedException$instance extends SystemException$instance {
+export interface AppDomainUnloadedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_AppDomainUnloadedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5481,12 +5479,11 @@ export interface __AppDomainUnloadedException$views {
 export type AppDomainUnloadedException = AppDomainUnloadedException$instance & __AppDomainUnloadedException$views;
 
 
-export interface ApplicationException$instance extends Exception$instance {
+export interface ApplicationException$instance extends Exception$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ApplicationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5560,7 +5557,6 @@ export interface ArgumentNullException$instance extends ArgumentException$instan
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5617,12 +5613,11 @@ export interface __ArgumentOutOfRangeException$views {
 export type ArgumentOutOfRangeException = ArgumentOutOfRangeException$instance & __ArgumentOutOfRangeException$views;
 
 
-export interface ArithmeticException$instance extends SystemException$instance {
+export interface ArithmeticException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ArithmeticException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5777,12 +5772,11 @@ export interface __Array$views {
 export type Array = Array$instance & __Array$views;
 
 
-export interface ArrayTypeMismatchException$instance extends SystemException$instance {
+export interface ArrayTypeMismatchException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ArrayTypeMismatchException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -5908,12 +5902,11 @@ export interface __BadImageFormatException$views {
 export type BadImageFormatException = BadImageFormatException$instance & __BadImageFormatException$views;
 
 
-export interface CannotUnloadAppDomainException$instance extends SystemException$instance {
+export interface CannotUnloadAppDomainException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_CannotUnloadAppDomainException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6000,12 +5993,11 @@ export const ContextBoundObject: (abstract new() => ContextBoundObject) & {
 
 export type ContextBoundObject = ContextBoundObject$instance;
 
-export interface ContextMarshalException$instance extends SystemException$instance {
+export interface ContextMarshalException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ContextMarshalException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6048,12 +6040,11 @@ export interface CultureAwareComparer$instance extends StringComparer$instance, 
 
     Compare(x: string, y: string): int;
     Compare(x: unknown, y: unknown): int;
-    Compare(x: unknown, y: unknown): int;
     Equals(x: string, y: string): boolean;
-    Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     Equals(x: unknown, y: unknown): boolean;
     GetHashCode(obj: string): int;
-    GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
     GetHashCode(obj: unknown): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -6075,12 +6066,11 @@ export interface __CultureAwareComparer$views {
 export type CultureAwareComparer = CultureAwareComparer$instance & __CultureAwareComparer$views;
 
 
-export interface DataMisalignedException$instance extends SystemException$instance {
+export interface DataMisalignedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DataMisalignedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6174,12 +6164,11 @@ export interface __Delegate$views {
 export type Delegate = Delegate$instance & __Delegate$views;
 
 
-export interface DivideByZeroException$instance extends ArithmeticException$instance {
+export interface DivideByZeroException$instance extends ArithmeticException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DivideByZeroException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6202,7 +6191,6 @@ export interface DllNotFoundException$instance extends TypeLoadException$instanc
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6225,7 +6213,6 @@ export interface DuplicateWaitObjectException$instance extends ArgumentException
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6249,7 +6236,6 @@ export interface EntryPointNotFoundException$instance extends TypeLoadException$
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6392,12 +6378,11 @@ export interface __Exception$views {
 export type Exception = Exception$instance & __Exception$views;
 
 
-export interface ExecutionEngineException$instance extends SystemException$instance {
+export interface ExecutionEngineException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ExecutionEngineException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6415,12 +6400,11 @@ export interface __ExecutionEngineException$views {
 export type ExecutionEngineException = ExecutionEngineException$instance & __ExecutionEngineException$views;
 
 
-export interface FieldAccessException$instance extends MemberAccessException$instance {
+export interface FieldAccessException$instance extends MemberAccessException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_FieldAccessException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6464,12 +6448,11 @@ export const FlagsAttribute: {
 
 export type FlagsAttribute = FlagsAttribute$instance;
 
-export interface FormatException$instance extends SystemException$instance {
+export interface FormatException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_FormatException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6566,12 +6549,11 @@ export const HttpStyleUriParser: {
 
 export type HttpStyleUriParser = HttpStyleUriParser$instance;
 
-export interface IndexOutOfRangeException$instance extends SystemException$instance {
+export interface IndexOutOfRangeException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IndexOutOfRangeException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6589,12 +6571,11 @@ export interface __IndexOutOfRangeException$views {
 export type IndexOutOfRangeException = IndexOutOfRangeException$instance & __IndexOutOfRangeException$views;
 
 
-export interface InsufficientExecutionStackException$instance extends SystemException$instance {
+export interface InsufficientExecutionStackException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InsufficientExecutionStackException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6612,12 +6593,11 @@ export interface __InsufficientExecutionStackException$views {
 export type InsufficientExecutionStackException = InsufficientExecutionStackException$instance & __InsufficientExecutionStackException$views;
 
 
-export interface InsufficientMemoryException$instance extends OutOfMemoryException$instance {
+export interface InsufficientMemoryException$instance extends OutOfMemoryException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InsufficientMemoryException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6635,12 +6615,11 @@ export interface __InsufficientMemoryException$views {
 export type InsufficientMemoryException = InsufficientMemoryException$instance & __InsufficientMemoryException$views;
 
 
-export interface InvalidCastException$instance extends SystemException$instance {
+export interface InvalidCastException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InvalidCastException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6659,12 +6638,11 @@ export interface __InvalidCastException$views {
 export type InvalidCastException = InvalidCastException$instance & __InvalidCastException$views;
 
 
-export interface InvalidOperationException$instance extends SystemException$instance {
+export interface InvalidOperationException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InvalidOperationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6682,12 +6660,11 @@ export interface __InvalidOperationException$views {
 export type InvalidOperationException = InvalidOperationException$instance & __InvalidOperationException$views;
 
 
-export interface InvalidProgramException$instance extends SystemException$instance {
+export interface InvalidProgramException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InvalidProgramException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6705,12 +6682,11 @@ export interface __InvalidProgramException$views {
 export type InvalidProgramException = InvalidProgramException$instance & __InvalidProgramException$views;
 
 
-export interface InvalidTimeZoneException$instance extends Exception$instance {
+export interface InvalidTimeZoneException$instance extends Exception$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_InvalidTimeZoneException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6824,12 +6800,11 @@ export const MarshalByRefObject: (abstract new() => MarshalByRefObject) & {
 
 export type MarshalByRefObject = MarshalByRefObject$instance;
 
-export interface MemberAccessException$instance extends SystemException$instance {
+export interface MemberAccessException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MemberAccessException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6847,12 +6822,11 @@ export interface __MemberAccessException$views {
 export type MemberAccessException = MemberAccessException$instance & __MemberAccessException$views;
 
 
-export interface MethodAccessException$instance extends MemberAccessException$instance {
+export interface MethodAccessException$instance extends MemberAccessException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MethodAccessException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6876,7 +6850,6 @@ export interface MissingFieldException$instance extends MissingMemberException$i
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Message: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6926,7 +6899,6 @@ export interface MissingMethodException$instance extends MissingMemberException$
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Message: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -6958,13 +6930,12 @@ export const MTAThreadAttribute: {
 
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
-export interface MulticastDelegate$instance extends Function {
+export interface MulticastDelegate$instance extends Function, ICloneable$instance {
     readonly __tsonic_type_System_MulticastDelegate: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Clone(): unknown;
     CombineImpl(follow: Function): Function;
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
@@ -6987,12 +6958,11 @@ export interface __MulticastDelegate$views {
 export type MulticastDelegate = MulticastDelegate$instance & __MulticastDelegate$views;
 
 
-export interface MulticastNotSupportedException$instance extends SystemException$instance {
+export interface MulticastNotSupportedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MulticastNotSupportedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7089,12 +7059,11 @@ export interface __NotFiniteNumberException$views {
 export type NotFiniteNumberException = NotFiniteNumberException$instance & __NotFiniteNumberException$views;
 
 
-export interface NotImplementedException$instance extends SystemException$instance {
+export interface NotImplementedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_NotImplementedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7112,12 +7081,11 @@ export interface __NotImplementedException$views {
 export type NotImplementedException = NotImplementedException$instance & __NotImplementedException$views;
 
 
-export interface NotSupportedException$instance extends SystemException$instance {
+export interface NotSupportedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_NotSupportedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7135,12 +7103,11 @@ export interface __NotSupportedException$views {
 export type NotSupportedException = NotSupportedException$instance & __NotSupportedException$views;
 
 
-export interface NullReferenceException$instance extends SystemException$instance {
+export interface NullReferenceException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_NullReferenceException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7276,13 +7243,12 @@ export interface __OperatingSystem$views {
 export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views;
 
 
-export interface OperationCanceledException$instance extends SystemException$instance {
+export interface OperationCanceledException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_OperationCanceledException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     CancellationToken: CancellationToken;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7314,12 +7280,11 @@ export interface OrdinalComparer$instance extends StringComparer$instance {
 
     Compare(x: string, y: string): int;
     Compare(x: unknown, y: unknown): int;
-    Compare(x: unknown, y: unknown): int;
     Equals(x: string, y: string): boolean;
-    Equals(x: unknown, y: unknown): boolean;
+    Equals(obj: unknown): boolean;
     Equals(x: unknown, y: unknown): boolean;
     GetHashCode(obj: string): int;
-    GetHashCode(obj: unknown): int;
+    GetHashCode(): int;
     GetHashCode(obj: unknown): int;
 }
 
@@ -7339,12 +7304,11 @@ export interface __OrdinalComparer$views {
 export type OrdinalComparer = OrdinalComparer$instance & __OrdinalComparer$views;
 
 
-export interface OutOfMemoryException$instance extends SystemException$instance {
+export interface OutOfMemoryException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_OutOfMemoryException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7362,12 +7326,11 @@ export interface __OutOfMemoryException$views {
 export type OutOfMemoryException = OutOfMemoryException$instance & __OutOfMemoryException$views;
 
 
-export interface OverflowException$instance extends ArithmeticException$instance {
+export interface OverflowException$instance extends ArithmeticException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_OverflowException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7398,12 +7361,11 @@ export const ParamArrayAttribute: {
 
 export type ParamArrayAttribute = ParamArrayAttribute$instance;
 
-export interface PlatformNotSupportedException$instance extends NotSupportedException$instance {
+export interface PlatformNotSupportedException$instance extends NotSupportedException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_PlatformNotSupportedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7477,12 +7439,11 @@ export const Random: {
 
 export type Random = Random$instance;
 
-export interface RankException$instance extends SystemException$instance {
+export interface RankException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_RankException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7529,12 +7490,11 @@ export const SerializableAttribute: {
 
 export type SerializableAttribute = SerializableAttribute$instance;
 
-export interface StackOverflowException$instance extends SystemException$instance {
+export interface StackOverflowException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_StackOverflowException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7798,8 +7758,10 @@ export interface StringComparer$instance {
     Compare(x: string, y: string): int;
     Equals(x: unknown, y: unknown): boolean;
     Equals(x: string, y: string): boolean;
+    Equals(obj: unknown): boolean;
     GetHashCode(obj: unknown): int;
     GetHashCode(obj: string): int;
+    GetHashCode(): int;
 }
 
 
@@ -7828,12 +7790,11 @@ export interface __StringComparer$views {
 export type StringComparer = StringComparer$instance & __StringComparer$views;
 
 
-export interface SystemException$instance extends Exception$instance {
+export interface SystemException$instance extends Exception$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -7864,12 +7825,11 @@ export const ThreadStaticAttribute: {
 
 export type ThreadStaticAttribute = ThreadStaticAttribute$instance;
 
-export interface TimeoutException$instance extends SystemException$instance {
+export interface TimeoutException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TimeoutException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -8038,12 +7998,11 @@ export interface __TimeZoneInfo_AdjustmentRule$views {
 export type TimeZoneInfo_AdjustmentRule = TimeZoneInfo_AdjustmentRule$instance & __TimeZoneInfo_AdjustmentRule$views;
 
 
-export interface TimeZoneNotFoundException$instance extends Exception$instance {
+export interface TimeZoneNotFoundException$instance extends Exception$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TimeZoneNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -8353,7 +8312,7 @@ export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
-export interface Type$instance extends MemberInfo {
+export interface Type$instance extends MemberInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -8441,8 +8400,6 @@ export interface Type$instance extends MemberInfo {
     GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
     GetConstructors(): ConstructorInfo[];
     GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     GetDefaultMembers(): MemberInfo[];
     GetElementType(): Type | undefined;
     GetEnumName(value: unknown): string | undefined;
@@ -8519,7 +8476,6 @@ export interface Type$instance extends MemberInfo {
     IsByRefImpl(): boolean;
     IsCOMObjectImpl(): boolean;
     IsContextfulImpl(): boolean;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
     IsEnumDefined(value: unknown): boolean;
     IsEquivalentTo(other: Type): boolean;
     IsInstanceOfType(o: unknown): boolean;
@@ -8582,7 +8538,6 @@ export interface TypeAccessException$instance extends TypeLoadException$instance
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -8647,12 +8602,11 @@ export interface __TypeLoadException$views {
 export type TypeLoadException = TypeLoadException$instance & __TypeLoadException$views;
 
 
-export interface TypeUnloadedException$instance extends SystemException$instance {
+export interface TypeUnloadedException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TypeUnloadedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -8670,12 +8624,11 @@ export interface __TypeUnloadedException$views {
 export type TypeUnloadedException = TypeUnloadedException$instance & __TypeUnloadedException$views;
 
 
-export interface UnauthorizedAccessException$instance extends SystemException$instance {
+export interface UnauthorizedAccessException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_UnauthorizedAccessException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -8877,12 +8830,11 @@ export const UriBuilder: {
 
 export type UriBuilder = UriBuilder$instance;
 
-export interface UriFormatException$instance extends FormatException$instance {
+export interface UriFormatException$instance extends FormatException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_UriFormatException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

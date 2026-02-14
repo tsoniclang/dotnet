@@ -3615,26 +3615,6 @@
           "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
           "declaringAssemblyName": "System.Reflection.Metadata",
           "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ManagedPEBuilder::CreateSections():System.Collections.Immutable.ImmutableArray_1",
-          "clrName": "CreateSections",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1",
-          "normalizedSignature": "CreateSections|():System.Collections.Immutable.ImmutableArray_1|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "BaseOverload",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": true,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Protected",
-          "declaringClrType": "System.Reflection.PortableExecutable.ManagedPEBuilder",
-          "declaringAssemblyName": "System.Reflection.Metadata",
-          "isExtensionMethod": false
         }
       ],
       "properties": [],

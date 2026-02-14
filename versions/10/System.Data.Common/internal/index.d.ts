@@ -458,8 +458,6 @@ export interface DbCommand$instance extends Component, System_Internal.IAsyncDis
     Cancel(): void;
     CreateDbParameter(): DbParameter;
     CreateParameter(): DbParameter;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     ExecuteDbDataReader(behavior: CommandBehavior): DbDataReader;
     ExecuteDbDataReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
@@ -572,8 +570,6 @@ export interface DbConnection$instance extends Component, System_Internal.IAsync
     CreateCommand(): DbCommand;
     CreateDbBatch(): DbBatch;
     CreateDbCommand(): DbCommand;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     EnlistTransaction(transaction: Transaction): void;
     GetSchema(): DataTable;
@@ -674,13 +670,21 @@ export interface DbDataAdapter$instance extends DataAdapter$instance, System_Int
     Dispose(): void;
     ExecuteBatch(): int;
     Fill(dataSet: DataSet): int;
+    Fill(dataSet: DataSet, srcTable: string): int;
+    Fill(dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string): int;
+    Fill(dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string, command: IDbCommand, behavior: CommandBehavior): int;
     Fill(dataTable: DataTable): int;
     Fill(startRecord: int, maxRecords: int, ...dataTables: DataTable[]): int;
+    Fill(dataTable: DataTable, command: IDbCommand, behavior: CommandBehavior): int;
+    Fill(dataTables: DataTable[], startRecord: int, maxRecords: int, command: IDbCommand, behavior: CommandBehavior): int;
     Fill(dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int): int;
     Fill(dataTable: DataTable, dataReader: IDataReader): int;
     Fill(dataTables: DataTable[], dataReader: IDataReader, startRecord: int, maxRecords: int): int;
     FillSchema(dataTable: DataTable, schemaType: SchemaType): DataTable | undefined;
     FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string): DataTable[];
+    FillSchema(dataSet: DataSet, schemaType: SchemaType, command: IDbCommand, srcTable: string, behavior: CommandBehavior): DataTable[];
+    FillSchema(dataTable: DataTable, schemaType: SchemaType, command: IDbCommand, behavior: CommandBehavior): DataTable | undefined;
     FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string, dataReader: IDataReader): DataTable[];
     FillSchema(dataTable: DataTable, schemaType: SchemaType, dataReader: IDataReader): DataTable | undefined;
     GetBatchedParameter(commandIdentifier: int, parameterIndex: int): IDataParameter;
@@ -691,8 +695,10 @@ export interface DbDataAdapter$instance extends DataAdapter$instance, System_Int
     OnRowUpdating(value: RowUpdatingEventArgs): void;
     TerminateBatching(): void;
     Update(dataSet: DataSet): int;
+    Update(dataRows: DataRow[]): int;
     Update(dataTable: DataTable): int;
     Update(dataSet: DataSet, srcTable: string): int;
+    Update(dataRows: DataRow[], tableMapping: DataTableMapping): int;
 }
 
 
@@ -917,7 +923,7 @@ export interface __DbEnumerator$views {
 export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
-export interface DbException$instance extends ExternalException {
+export interface DbException$instance extends ExternalException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_Common_DbException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -926,7 +932,6 @@ export interface DbException$instance extends ExternalException {
     readonly DbBatchCommand: DbBatchCommand | undefined;
     readonly IsTransient: boolean;
     readonly SqlState: string | undefined;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

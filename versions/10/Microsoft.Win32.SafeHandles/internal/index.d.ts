@@ -17,8 +17,6 @@ export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandle
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -39,8 +37,6 @@ export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends Critical
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -61,8 +57,6 @@ export interface SafeAccessTokenHandle$instance extends SafeHandle {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -88,8 +82,6 @@ export interface SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInval
 
     IsAsync: boolean;
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -113,8 +105,6 @@ export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandle {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -135,8 +125,6 @@ export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandle {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -157,8 +145,6 @@ export interface SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMin
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly IsInvalid: boolean;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -180,8 +166,6 @@ export interface SafeMemoryMappedViewHandle$instance extends SafeBuffer {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -203,8 +187,6 @@ export interface SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInv
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
     ReleaseNativeHandle(): boolean;
 }
@@ -226,8 +208,6 @@ export interface SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance 
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseNativeHandle(): boolean;
 }
 
@@ -250,8 +230,6 @@ export interface SafeNCryptProviderHandle$instance extends SafeNCryptHandle$inst
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseNativeHandle(): boolean;
 }
 
@@ -273,8 +251,6 @@ export interface SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instan
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseNativeHandle(): boolean;
 }
 
@@ -321,8 +297,6 @@ export interface SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsIn
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -345,8 +319,6 @@ export interface SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsI
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 
@@ -369,8 +341,6 @@ export interface SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInval
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ReleaseHandle(): boolean;
 }
 

@@ -382,7 +382,7 @@ export interface __SecurityIdentifier$views {
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {
+export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_Principal_WindowsIdentity: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -408,7 +408,6 @@ export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime
     Clone(): ClaimsIdentity;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -449,6 +448,7 @@ export interface WindowsPrincipal$instance extends ClaimsPrincipal {
     readonly DeviceClaims: IEnumerable_1<Claim>;
     readonly Identity: IIdentity | IIdentity | undefined;
     readonly UserClaims: IEnumerable_1<Claim>;
+    IsInRole(rid: int): boolean;
     IsInRole(sid: SecurityIdentifier): boolean;
     IsInRole(role: WindowsBuiltInRole): boolean;
     IsInRole(role: string): boolean;

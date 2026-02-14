@@ -58,12 +58,11 @@ export interface __DependentHandle$views {
 export type DependentHandle = DependentHandle$instance & __DependentHandle$views;
 
 
-export interface AmbiguousImplementationException$instance extends Exception {
+export interface AmbiguousImplementationException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Runtime_AmbiguousImplementationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

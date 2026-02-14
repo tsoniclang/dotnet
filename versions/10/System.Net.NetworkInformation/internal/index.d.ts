@@ -635,7 +635,6 @@ export interface NetworkInformationException$instance extends Win32Exception {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -769,12 +768,11 @@ export const PingCompletedEventArgs: {
 
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
-export interface PingException$instance extends InvalidOperationException {
+export interface PingException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_NetworkInformation_PingException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

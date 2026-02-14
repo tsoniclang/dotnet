@@ -317,10 +317,8 @@ export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<
     readonly KeysOrderedAcrossPartitions: boolean;
     readonly KeysOrderedInEachPartition: boolean;
     GetDynamicPartitions(): IEnumerable_1<TSource>;
-    GetDynamicPartitions(): IEnumerable_1<TSource>;
     GetOrderableDynamicPartitions(): IEnumerable_1<KeyValuePair_2<System_Internal.Int64, TSource>>;
     GetOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<System_Internal.Int64, TSource>>>;
-    GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
     GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
 }
 

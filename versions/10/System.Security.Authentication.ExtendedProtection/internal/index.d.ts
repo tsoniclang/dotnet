@@ -44,8 +44,6 @@ export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInval
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Size: int;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
 }
 
 
@@ -113,8 +111,6 @@ export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     Contains(searchServiceName: string): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
     Merge(serviceName: string): ServiceNameCollection;
     Merge(serviceNames: IEnumerable): ServiceNameCollection;
 }

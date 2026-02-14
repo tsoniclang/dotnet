@@ -795,8 +795,6 @@ export interface ConsoleTraceListener$instance extends TextWriterTraceListener$i
     readonly __tsonic_iface_System_IDisposable: never;
 
     Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
 }
 
 
@@ -1034,8 +1032,6 @@ export interface DefaultTraceListener$instance extends TraceListener$instance {
     AssertUiEnabled: boolean;
     get LogFileName(): string | undefined;
     set LogFileName(value: string | undefined);
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     Fail(message: string): void;
     Fail(message: string, detailMessage: string): void;
     Write(message: string): void;
@@ -1067,8 +1063,6 @@ export interface DelimitedListTraceListener$instance extends TextWriterTraceList
     readonly __tsonic_iface_System_IDisposable: never;
 
     Delimiter: string;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     GetSupportedAttributes(): string[];
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
@@ -1103,6 +1097,7 @@ export interface DiagnosticListener$instance extends DiagnosticSource, System_In
 
     readonly Name: string;
     Dispose(): void;
+    IsEnabled(): boolean;
     IsEnabled(name: string): boolean;
     IsEnabled(name: string, arg1: unknown, arg2?: unknown): boolean;
     OnActivityExport(activity: Activity, payload: unknown): void;
@@ -1411,8 +1406,6 @@ export interface ProcessModule$instance extends Component {
     readonly FileVersionInfo: FileVersionInfo;
     ModuleMemorySize: int;
     readonly ModuleName: string;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ToString(): string;
 }
 
@@ -1436,8 +1429,7 @@ export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     Contains(module: ProcessModule): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    CopyTo(array: ProcessModule[], index: int): void;
     IndexOf(module: ProcessModule): int;
 }
 
@@ -1522,8 +1514,6 @@ export interface ProcessThread$instance extends Component {
     readonly TotalProcessorTime: TimeSpan;
     readonly UserProcessorTime: TimeSpan;
     readonly WaitReason: ThreadWaitReason;
-    Dispose(): void;
-    Dispose(disposing: boolean): void;
     ResetIdealProcessor(): void;
 }
 
@@ -1548,8 +1538,7 @@ export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase
 
     Add(thread: ProcessThread): int;
     Contains(thread: ProcessThread): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator;
+    CopyTo(array: ProcessThread[], index: int): void;
     IndexOf(thread: ProcessThread): int;
     Insert(index: int, thread: ProcessThread): void;
     Remove(thread: ProcessThread): void;
@@ -2009,12 +1998,11 @@ export const TraceSwitch: {
 
 export type TraceSwitch = TraceSwitch$instance;
 
-export interface UnreachableException$instance extends Exception {
+export interface UnreachableException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Diagnostics_UnreachableException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -2038,8 +2026,6 @@ export interface XmlWriterTraceListener$instance extends TextWriterTraceListener
     readonly __tsonic_iface_System_IDisposable: never;
 
     Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
     Fail(message: string, detailMessage: string): void;
     Fail(message: string): void;
     TraceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
