@@ -1,6 +1,6 @@
 {
   "name": "@tsonic/dotnet",
-  "version": "10.0.20",
+  "version": "10.0.21",
   "description": "TypeScript type definitions for .NET 10 BCL (Base Class Library)",
   "type": "module",
   "keywords": [
@@ -18,6 +18,6 @@
     "url": "https://github.com/tsoniclang/dotnet.git"
   },
   "peerDependencies": {
-    "@tsonic/core": "10.0.20"
+    "@tsonic/core": "10.0.21"
   }
 }
