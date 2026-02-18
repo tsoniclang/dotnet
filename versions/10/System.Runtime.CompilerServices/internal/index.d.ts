@@ -1272,7 +1272,7 @@ export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttrib
 export interface CustomConstantAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
 
-    readonly Value: unknown | unknown | undefined;
+    readonly Value: unknown;
 }
 
 
@@ -1285,7 +1285,7 @@ export type CustomConstantAttribute = CustomConstantAttribute$instance;
 export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_DateTimeConstantAttribute: never;
 
-    readonly Value: unknown | unknown | undefined;
+    readonly Value: unknown;
 }
 
 
@@ -1492,7 +1492,7 @@ export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_IDispatchConstantAttribute: never;
 
-    readonly Value: unknown | unknown | undefined;
+    readonly Value: unknown;
 }
 
 
@@ -1628,7 +1628,7 @@ export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instan
 export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_IUnknownConstantAttribute: never;
 
-    readonly Value: unknown | unknown | undefined;
+    readonly Value: unknown;
 }
 
 
