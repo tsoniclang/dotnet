@@ -737,7 +737,8 @@ export interface FileStreamOptions$instance {
     Options: FileOptions;
     PreallocationSize: long;
     Share: FileShare;
-    UnixCreateMode: Nullable_1<UnixFileMode>;
+    get UnixCreateMode(): Nullable_1<UnixFileMode>;
+    set UnixCreateMode(value: Nullable_1<UnixFileMode> | UnixFileMode);
 }
 
 

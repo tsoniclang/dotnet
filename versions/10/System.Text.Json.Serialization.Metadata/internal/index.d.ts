@@ -195,8 +195,10 @@ export interface JsonPropertyInfo$instance {
     IsRequired: boolean;
     IsSetNullable: boolean;
     Name: string;
-    NumberHandling: Nullable_1<JsonNumberHandling>;
-    ObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
+    get NumberHandling(): Nullable_1<JsonNumberHandling>;
+    set NumberHandling(value: Nullable_1<JsonNumberHandling> | JsonNumberHandling);
+    get ObjectCreationHandling(): Nullable_1<JsonObjectCreationHandling>;
+    set ObjectCreationHandling(value: Nullable_1<JsonObjectCreationHandling> | JsonObjectCreationHandling);
     readonly Options: JsonSerializerOptions;
     Order: int;
     readonly PropertyType: Type;
@@ -224,14 +226,16 @@ export interface JsonPropertyInfoValues_1$instance<T> {
     get Getter(): Func_2<unknown, T | undefined> | undefined;
     set Getter(value: Func_2<unknown, T | undefined> | undefined);
     HasJsonInclude: boolean;
-    IgnoreCondition: Nullable_1<JsonIgnoreCondition>;
+    get IgnoreCondition(): Nullable_1<JsonIgnoreCondition>;
+    set IgnoreCondition(value: Nullable_1<JsonIgnoreCondition> | JsonIgnoreCondition);
     IsExtensionData: boolean;
     IsProperty: boolean;
     IsPublic: boolean;
     IsVirtual: boolean;
     get JsonPropertyName(): string | undefined;
     set JsonPropertyName(value: string | undefined);
-    NumberHandling: Nullable_1<JsonNumberHandling>;
+    get NumberHandling(): Nullable_1<JsonNumberHandling>;
+    set NumberHandling(value: Nullable_1<JsonNumberHandling> | JsonNumberHandling);
     PropertyName: string;
     PropertyTypeInfo: JsonTypeInfo;
     get Setter(): Action_2<unknown, T | undefined> | undefined;
@@ -258,7 +262,8 @@ export interface JsonTypeInfo$instance {
     IsReadOnly: boolean;
     readonly KeyType: Type | undefined;
     readonly Kind: JsonTypeInfoKind;
-    NumberHandling: Nullable_1<JsonNumberHandling>;
+    get NumberHandling(): Nullable_1<JsonNumberHandling>;
+    set NumberHandling(value: Nullable_1<JsonNumberHandling> | JsonNumberHandling);
     get OnDeserialized(): Action_1<unknown> | undefined;
     set OnDeserialized(value: Action_1<unknown> | undefined);
     get OnDeserializing(): Action_1<unknown> | undefined;
@@ -272,10 +277,12 @@ export interface JsonTypeInfo$instance {
     set OriginatingResolver(value: IJsonTypeInfoResolver | undefined);
     get PolymorphismOptions(): JsonPolymorphismOptions | undefined;
     set PolymorphismOptions(value: JsonPolymorphismOptions | undefined);
-    PreferredPropertyObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
+    get PreferredPropertyObjectCreationHandling(): Nullable_1<JsonObjectCreationHandling>;
+    set PreferredPropertyObjectCreationHandling(value: Nullable_1<JsonObjectCreationHandling> | JsonObjectCreationHandling);
     readonly Properties: IList_1<JsonPropertyInfo>;
     readonly Type: Type;
-    UnmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
+    get UnmappedMemberHandling(): Nullable_1<JsonUnmappedMemberHandling>;
+    set UnmappedMemberHandling(value: Nullable_1<JsonUnmappedMemberHandling> | JsonUnmappedMemberHandling);
     CreateJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
     MakeReadOnly(): void;
 }

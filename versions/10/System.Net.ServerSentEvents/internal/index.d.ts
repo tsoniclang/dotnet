@@ -27,7 +27,8 @@ export interface SseItem_1$instance<T> {
     get EventId(): string | undefined;
     set EventId(value: string | undefined);
     readonly EventType: string;
-    ReconnectionInterval: Nullable_1<TimeSpan>;
+    get ReconnectionInterval(): Nullable_1<TimeSpan>;
+    set ReconnectionInterval(value: Nullable_1<TimeSpan> | TimeSpan);
 }
 
 

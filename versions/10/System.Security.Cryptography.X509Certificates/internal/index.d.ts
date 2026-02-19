@@ -340,16 +340,21 @@ export interface Pkcs12LoaderLimits$instance {
     AllowDuplicateAttributes: boolean;
     IgnoreEncryptedAuthSafes: boolean;
     IgnorePrivateKeys: boolean;
-    IndividualKdfIterationLimit: Nullable_1<System_Internal.Int32>;
+    get IndividualKdfIterationLimit(): Nullable_1<System_Internal.Int32>;
+    set IndividualKdfIterationLimit(value: Nullable_1<System_Internal.Int32> | int);
     readonly IsReadOnly: boolean;
-    MacIterationLimit: Nullable_1<System_Internal.Int32>;
-    MaxCertificates: Nullable_1<System_Internal.Int32>;
-    MaxKeys: Nullable_1<System_Internal.Int32>;
+    get MacIterationLimit(): Nullable_1<System_Internal.Int32>;
+    set MacIterationLimit(value: Nullable_1<System_Internal.Int32> | int);
+    get MaxCertificates(): Nullable_1<System_Internal.Int32>;
+    set MaxCertificates(value: Nullable_1<System_Internal.Int32> | int);
+    get MaxKeys(): Nullable_1<System_Internal.Int32>;
+    set MaxKeys(value: Nullable_1<System_Internal.Int32> | int);
     PreserveCertificateAlias: boolean;
     PreserveKeyName: boolean;
     PreserveStorageProvider: boolean;
     PreserveUnknownAttributes: boolean;
-    TotalKdfIterationLimit: Nullable_1<System_Internal.Int32>;
+    get TotalKdfIterationLimit(): Nullable_1<System_Internal.Int32>;
+    set TotalKdfIterationLimit(value: Nullable_1<System_Internal.Int32> | int);
     MakeReadOnly(): void;
 }
 

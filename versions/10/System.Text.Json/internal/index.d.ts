@@ -427,8 +427,10 @@ export interface JsonException$instance extends Exception {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    BytePositionInLine: Nullable_1<System_Internal.Int64>;
-    LineNumber: Nullable_1<System_Internal.Int64>;
+    get BytePositionInLine(): Nullable_1<System_Internal.Int64>;
+    set BytePositionInLine(value: Nullable_1<System_Internal.Int64> | long);
+    get LineNumber(): Nullable_1<System_Internal.Int64>;
+    set LineNumber(value: Nullable_1<System_Internal.Int64> | long);
     readonly Message: string;
     get Path(): string | undefined;
     set Path(value: string | undefined);
