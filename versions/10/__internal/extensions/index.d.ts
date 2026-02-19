@@ -523,6 +523,25 @@ export interface __Ext_System_Collections_Immutable_ImmutableArray_1<T> {
 }
 
 export interface __Ext_System_Collections_Immutable_ImmutableArray_1_Builder<T> {
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableHashSet(equalityComparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableHashSet(): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableList(): Rewrap<this, System_Collections_Immutable.ImmutableList_1<T>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedSet(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
+  ToImmutableSortedSet(): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
   ToImmutableArray(): Rewrap<this, System_Collections_Immutable.ImmutableArray_1<T>>;
 }
 
@@ -531,10 +550,47 @@ export interface __Ext_System_Collections_Immutable_ImmutableDictionary_2_Builde
 }
 
 export interface __Ext_System_Collections_Immutable_ImmutableHashSet_1_Builder<T> {
+  ToImmutableArray(): Rewrap<this, System_Collections_Immutable.ImmutableArray_1<T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableList(): Rewrap<this, System_Collections_Immutable.ImmutableList_1<T>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedSet(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
+  ToImmutableSortedSet(): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
   ToImmutableHashSet(): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
 }
 
 export interface __Ext_System_Collections_Immutable_ImmutableList_1_Builder<T> {
+  ToImmutableArray(): Rewrap<this, System_Collections_Immutable.ImmutableArray_1<T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableHashSet(equalityComparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableHashSet(): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedSet(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
+  ToImmutableSortedSet(): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
   ToImmutableList(): Rewrap<this, System_Collections_Immutable.ImmutableList_1<T>>;
 }
 
@@ -543,6 +599,24 @@ export interface __Ext_System_Collections_Immutable_ImmutableSortedDictionary_2_
 }
 
 export interface __Ext_System_Collections_Immutable_ImmutableSortedSet_1_Builder<T> {
+  ToImmutableArray(): Rewrap<this, System_Collections_Immutable.ImmutableArray_1<T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, T>>;
+  ToImmutableDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableDictionary_2<TKey, TValue>>;
+  ToImmutableHashSet(equalityComparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableHashSet(): Rewrap<this, System_Collections_Immutable.ImmutableHashSet_1<T>>;
+  ToImmutableList(): Rewrap<this, System_Collections_Immutable.ImmutableList_1<T>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>, keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>, valueComparer: System_Collections_Generic.IEqualityComparer_1<TValue>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(keyComparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
+  ToImmutableSortedDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Immutable.ImmutableSortedDictionary_2<TKey, TValue>>;
   ToImmutableSortedSet(): Rewrap<this, System_Collections_Immutable.ImmutableSortedSet_1<T>>;
 }
 
@@ -628,6 +702,7 @@ export interface __Ext_System_Data_OrderedEnumerableRowCollection_1<TRow> {
 }
 
 export interface __Ext_System_Data_TypedTableBase_1<T> {
+  AsDataView(): Rewrap<this, System_Data.DataView>;
   Where(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Data.EnumerableRowCollection_1<T>>;
   OrderBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<T>>;
   OrderBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<T>>;
@@ -886,6 +961,8 @@ export interface __Ext_System_Linq_IAsyncEnumerable_1<T> {
 }
 
 export interface __Ext_System_Linq_IEnumerable_1<T> {
+  Cast<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  OfType<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
   Aggregate(func: System.Func_3<T, T, T>): Rewrap<this, T>;
   Aggregate<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>): Rewrap<this, TAccumulate>;
   Aggregate<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, resultSelector: System.Func_2<TAccumulate, TResult>): Rewrap<this, TResult>;
@@ -1109,6 +1186,176 @@ export interface __Ext_System_Linq_IEnumerable {
 }
 
 export interface __Ext_System_Linq_ImmutableArray_1<T> {
+  Cast<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  OfType<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Append(element: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Prepend(element: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, float>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, decimal>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Average(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, double>;
+  Average(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Average(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Chunk(size: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T[]>>;
+  Concat(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Contains(value: T): Rewrap<this, boolean>;
+  Contains(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, boolean>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  Count(): Rewrap<this, int>;
+  Count(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, int>;
+  TryGetNonEnumeratedCount(count: int): Rewrap<this, boolean>;
+  LongCount(): Rewrap<this, long>;
+  LongCount(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, long>;
+  DefaultIfEmpty(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T | undefined>>;
+  DefaultIfEmpty(defaultValue: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Distinct(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Distinct(comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  AsEnumerable(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Except(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Except(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Index(): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_2<System_Internal.Int32, T>>>;
+  Intersect(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Intersect(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  Max(): Rewrap<this, int>;
+  Max(): Rewrap<this, long>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Max(): Rewrap<this, double>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Max(): Rewrap<this, float>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Max(): Rewrap<this, decimal>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Max(): Rewrap<this, T | undefined>;
+  Max(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, T | undefined>;
+  MaxBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, T | undefined>;
+  MaxBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, T | undefined>;
+  Max(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Max(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Max(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Max(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Max(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Max<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, TResult | undefined>;
+  Min(): Rewrap<this, int>;
+  Min(): Rewrap<this, long>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Min(): Rewrap<this, float>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Min(): Rewrap<this, double>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Min(): Rewrap<this, decimal>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Min(): Rewrap<this, T | undefined>;
+  Min(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, T | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, T | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, T | undefined>;
+  Min(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Min(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Min(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Min(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Min(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Min<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, TResult | undefined>;
+  Order(): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  Order(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderDescending(): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderDescending(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  Shuffle(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Reverse(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Skip(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipWhile(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipWhile(predicate: System.Func_3<T, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Sum(): Rewrap<this, int>;
+  Sum(): Rewrap<this, long>;
+  Sum(): Rewrap<this, float>;
+  Sum(): Rewrap<this, double>;
+  Sum(): Rewrap<this, decimal>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Sum(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Sum(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Sum(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Sum(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Sum(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Take(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Take(range: System.Range): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeWhile(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeWhile(predicate: System.Func_3<T, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ToList(): Rewrap<this, System_Collections_Generic.List_1<T>>;
+  ToHashSet(): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  ToHashSet(comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  Union(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Union(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<T>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<T>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Zip<TSecond, TResult>(second: System_Collections_Generic.IEnumerable_1<TSecond>, resultSelector: System.Func_3<T, TSecond, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Zip<TSecond>(second: System_Collections_Generic.IEnumerable_1<TSecond>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_2<T, TSecond>>>;
+  Zip<TSecond, TThird>(second: System_Collections_Generic.IEnumerable_1<TSecond>, third: System_Collections_Generic.IEnumerable_1<TThird>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_3<T, TSecond, TThird>>>;
+  ToAsyncEnumerable(): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery_1<T>>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable_1<T>>;
   Select<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
   SelectMany<TCollection, TResult>(collectionSelector: System.Func_2<T, System_Collections_Generic.IEnumerable_1<TCollection>>, resultSelector: System.Func_3<T, TCollection, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
   Where(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
@@ -1143,6 +1390,207 @@ export interface __Ext_System_Linq_ImmutableArray_1<T> {
 }
 
 export interface __Ext_System_Linq_ImmutableArray_1_Builder<T> {
+  Cast<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  OfType<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Aggregate(func: System.Func_3<T, T, T>): Rewrap<this, T>;
+  Aggregate<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>): Rewrap<this, TAccumulate>;
+  Aggregate<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, resultSelector: System.Func_2<TAccumulate, TResult>): Rewrap<this, TResult>;
+  All(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, boolean>;
+  Append(element: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Prepend(element: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, float>;
+  Average(): Rewrap<this, double>;
+  Average(): Rewrap<this, decimal>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Average(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, double>;
+  Average(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Average(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Average(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Chunk(size: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T[]>>;
+  Concat(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Contains(value: T): Rewrap<this, boolean>;
+  Contains(value: T, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, boolean>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<T, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, T, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  CountBy<TKey>(keySelector: System.Func_2<T, TKey>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  Count(): Rewrap<this, int>;
+  Count(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, int>;
+  TryGetNonEnumeratedCount(count: int): Rewrap<this, boolean>;
+  LongCount(): Rewrap<this, long>;
+  LongCount(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, long>;
+  DefaultIfEmpty(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T | undefined>>;
+  DefaultIfEmpty(defaultValue: T): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Distinct(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Distinct(comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ElementAt(index: int): Rewrap<this, T>;
+  ElementAt(index: System.Index): Rewrap<this, T>;
+  ElementAtOrDefault(index: int): Rewrap<this, T | undefined>;
+  ElementAtOrDefault(index: System.Index): Rewrap<this, T | undefined>;
+  AsEnumerable(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Except(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Except(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, T>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Linq.IGrouping_2<TKey, TElement>>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TResult>(keySelector: System.Func_2<T, TKey>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<T>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupBy<TKey, TElement, TResult>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, resultSelector: System.Func_3<TKey, System_Collections_Generic.IEnumerable_1<TElement>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  GroupJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, System_Collections_Generic.IEnumerable_1<TInner>, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Index(): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_2<System_Internal.Int32, T>>>;
+  Intersect(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Intersect(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Join<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  Max(): Rewrap<this, int>;
+  Max(): Rewrap<this, long>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Max(): Rewrap<this, double>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Max(): Rewrap<this, float>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Max(): Rewrap<this, decimal>;
+  Max(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Max(): Rewrap<this, T | undefined>;
+  Max(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, T | undefined>;
+  MaxBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, T | undefined>;
+  MaxBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, T | undefined>;
+  Max(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Max(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Max(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Max(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Max(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Max(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Max<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, TResult | undefined>;
+  Min(): Rewrap<this, int>;
+  Min(): Rewrap<this, long>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Min(): Rewrap<this, float>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Min(): Rewrap<this, double>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Min(): Rewrap<this, decimal>;
+  Min(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Min(): Rewrap<this, T | undefined>;
+  Min(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, T | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, T | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, T | undefined>;
+  Min(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Min(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Min(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Min(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Min(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Min(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Min<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, TResult | undefined>;
+  Order(): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  Order(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderBy<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderDescending(): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderDescending(comparer: System_Collections_Generic.IComparer_1<T>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  OrderByDescending<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<T>>;
+  Shuffle(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Reverse(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<T, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<T, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Select<TResult>(selector: System.Func_2<T, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Select<TResult>(selector: System.Func_3<T, System_Internal.Int32, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SelectMany<TResult>(selector: System.Func_2<T, System_Collections_Generic.IEnumerable_1<TResult>>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SelectMany<TResult>(selector: System.Func_3<T, System_Internal.Int32, System_Collections_Generic.IEnumerable_1<TResult>>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SelectMany<TCollection, TResult>(collectionSelector: System.Func_3<T, System_Internal.Int32, System_Collections_Generic.IEnumerable_1<TCollection>>, resultSelector: System.Func_3<T, TCollection, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SelectMany<TCollection, TResult>(collectionSelector: System.Func_2<T, System_Collections_Generic.IEnumerable_1<TCollection>>, resultSelector: System.Func_3<T, TCollection, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SequenceEqual(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, boolean>;
+  SequenceEqual(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, boolean>;
+  Single(): Rewrap<this, T>;
+  Single(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, T>;
+  SingleOrDefault(): Rewrap<this, T | undefined>;
+  SingleOrDefault(defaultValue: T): Rewrap<this, T>;
+  SingleOrDefault(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, T | undefined>;
+  SingleOrDefault(predicate: System.Func_2<T, System_Internal.Boolean>, defaultValue: T): Rewrap<this, T>;
+  Skip(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipWhile(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipWhile(predicate: System.Func_3<T, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  SkipLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Sum(): Rewrap<this, int>;
+  Sum(): Rewrap<this, long>;
+  Sum(): Rewrap<this, float>;
+  Sum(): Rewrap<this, double>;
+  Sum(): Rewrap<this, decimal>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Sum(): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Sum(selector: System.Func_2<T, System_Internal.Int32>): Rewrap<this, int>;
+  Sum(selector: System.Func_2<T, System_Internal.Int64>): Rewrap<this, long>;
+  Sum(selector: System.Func_2<T, System_Internal.Single>): Rewrap<this, float>;
+  Sum(selector: System.Func_2<T, System_Internal.Double>): Rewrap<this, double>;
+  Sum(selector: System.Func_2<T, System_Internal.Decimal>): Rewrap<this, decimal>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int32>>): Rewrap<this, System.Nullable_1<System_Internal.Int32>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Int64>>): Rewrap<this, System.Nullable_1<System_Internal.Int64>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Single>>): Rewrap<this, System.Nullable_1<System_Internal.Single>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Double>>): Rewrap<this, System.Nullable_1<System_Internal.Double>>;
+  Sum(selector: System.Func_2<T, System.Nullable_1<System_Internal.Decimal>>): Rewrap<this, System.Nullable_1<System_Internal.Decimal>>;
+  Take(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Take(range: System.Range): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeWhile(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeWhile(predicate: System.Func_3<T, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  TakeLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ToArray(): Rewrap<this, T[]>;
+  ToList(): Rewrap<this, System_Collections_Generic.List_1<T>>;
+  ToDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TValue>>;
+  ToDictionary<TKey, TValue>(comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TValue>>;
+  ToDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, T>>;
+  ToDictionary<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, T>>;
+  ToDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TElement>>;
+  ToDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TElement>>;
+  ToHashSet(): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  ToHashSet(comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  Union(second: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Union(second: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<T>, keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<T>, keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Where(predicate: System.Func_2<T, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Where(predicate: System.Func_3<T, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Zip<TSecond, TResult>(second: System_Collections_Generic.IEnumerable_1<TSecond>, resultSelector: System.Func_3<T, TSecond, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Zip<TSecond>(second: System_Collections_Generic.IEnumerable_1<TSecond>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_2<T, TSecond>>>;
+  Zip<TSecond, TThird>(second: System_Collections_Generic.IEnumerable_1<TSecond>, third: System_Collections_Generic.IEnumerable_1<TThird>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_3<T, TSecond, TThird>>>;
+  ToAsyncEnumerable(): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery_1<T>>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable_1<T>>;
   First(): Rewrap<this, T>;
   FirstOrDefault(): Rewrap<this, T | undefined>;
   Last(): Rewrap<this, T>;
@@ -1172,11 +1620,34 @@ export interface __Ext_System_Linq_IOrderedQueryable_1<T> {
 }
 
 export interface __Ext_System_Linq_IQueryable {
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable>;
   OfType<TResult>(): Rewrap<this, System_Linq.IQueryable_1<TResult>>;
   Cast<TResult>(): Rewrap<this, System_Linq.IQueryable_1<TResult>>;
 }
 
 export interface __Ext_System_Linq_IQueryable_1<T> {
+  Cast<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  OfType<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  TryGetNonEnumeratedCount(count: int): Rewrap<this, boolean>;
+  AsEnumerable(): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, T>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  ToLookup<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Linq.ILookup_2<TKey, TElement>>;
+  ToArray(): Rewrap<this, T[]>;
+  ToList(): Rewrap<this, System_Collections_Generic.List_1<T>>;
+  ToDictionary<TKey, TValue>(): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TValue>>;
+  ToDictionary<TKey, TValue>(comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TValue>>;
+  ToDictionary<TKey>(keySelector: System.Func_2<T, TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, T>>;
+  ToDictionary<TKey>(keySelector: System.Func_2<T, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, T>>;
+  ToDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TElement>>;
+  ToDictionary<TKey, TElement>(keySelector: System.Func_2<T, TKey>, elementSelector: System.Func_2<T, TElement>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.Dictionary_2<TKey, TElement>>;
+  ToHashSet(): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  ToHashSet(comparer: System_Collections_Generic.IEqualityComparer_1<T>): Rewrap<this, System_Collections_Generic.HashSet_1<T>>;
+  ToAsyncEnumerable(): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<T>>;
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery_1<T>>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable_1<T>>;
   Where(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): Rewrap<this, System_Linq.IQueryable_1<T>>;
   Select<TResult>(selector: System_Linq_Expressions.Expression_1<System.Func_2<T, TResult>>): Rewrap<this, System_Linq.IQueryable_1<TResult>>;
   SelectMany<TResult>(selector: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Collections_Generic.IEnumerable_1<TResult>>>): Rewrap<this, System_Linq.IQueryable_1<TResult>>;
@@ -1333,12 +1804,52 @@ export interface __Ext_System_Linq_OrderedParallelQuery_1<TSource> {
 }
 
 export interface __Ext_System_Linq_ParallelQuery {
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable>;
   AsOrdered(): Rewrap<this, System_Linq.ParallelQuery>;
   OfType<TResult>(): Rewrap<this, System_Linq.ParallelQuery_1<TResult>>;
   Cast<TResult>(): Rewrap<this, System_Linq.ParallelQuery_1<TResult>>;
 }
 
 export interface __Ext_System_Linq_ParallelQuery_1<TSource> {
+  Cast<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  OfType<TResult>(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  Append(element: TSource): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  Prepend(element: TSource): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  Chunk(size: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource[]>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<TSource, TKey>, seed: TAccumulate, func: System.Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  AggregateBy<TKey, TAccumulate>(keySelector: System.Func_2<TSource, TKey>, seedSelector: System.Func_2<TKey, TAccumulate>, func: System.Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, TAccumulate>>>;
+  CountBy<TKey>(keySelector: System.Func_2<TSource, TKey>, keyComparer?: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Collections_Generic.KeyValuePair_2<TKey, System_Internal.Int32>>>;
+  TryGetNonEnumeratedCount(count: int): Rewrap<this, boolean>;
+  DistinctBy<TKey>(keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  DistinctBy<TKey>(keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  ExceptBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  Index(): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.ValueTuple_2<System_Internal.Int32, TSource>>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  IntersectBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TKey>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<TSource, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<TSource, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  LeftJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<TSource, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<TSource, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  MaxBy<TKey>(keySelector: System.Func_2<TSource, TKey>): Rewrap<this, TSource | undefined>;
+  MaxBy<TKey>(keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, TSource | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<TSource, TKey>): Rewrap<this, TSource | undefined>;
+  MinBy<TKey>(keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, TSource | undefined>;
+  Order(): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
+  Order(comparer: System_Collections_Generic.IComparer_1<TSource>): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
+  OrderDescending(): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
+  OrderDescending(comparer: System_Collections_Generic.IComparer_1<TSource>): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
+  Shuffle(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<TSource, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<TSource, TInner, TResult>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  RightJoin<TInner, TKey, TResult>(inner: System_Collections_Generic.IEnumerable_1<TInner>, outerKeySelector: System.Func_2<TSource, TKey>, innerKeySelector: System.Func_2<TInner, TKey>, resultSelector: System.Func_3<TSource, TInner, TResult>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TResult>>;
+  SkipLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  TakeLast(count: int): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  ToHashSet(): Rewrap<this, System_Collections_Generic.HashSet_1<TSource>>;
+  ToHashSet(comparer: System_Collections_Generic.IEqualityComparer_1<TSource>): Rewrap<this, System_Collections_Generic.HashSet_1<TSource>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  UnionBy<TKey>(second: System_Collections_Generic.IEnumerable_1<TSource>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IEqualityComparer_1<TKey>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
+  ToAsyncEnumerable(): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<TSource>>;
+  AsParallel(): Rewrap<this, System_Linq.ParallelQuery_1<TSource>>;
+  AsQueryable(): Rewrap<this, System_Linq.IQueryable_1<TSource>>;
   AsOrdered(): Rewrap<this, System_Linq.ParallelQuery_1<TSource>>;
   AsUnordered(): Rewrap<this, System_Linq.ParallelQuery_1<TSource>>;
   AsSequential(): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
@@ -2224,7 +2735,6 @@ export interface __Ext_System_Xml_XPath_XNode {
 type __TsonicExtMapOf<T> = T extends { __tsonic_ext?: infer M } ? M : {};
 type __TsonicMergeExtMaps<A, B> = A & B;
 type __TsonicWithExt<TShape, K extends string, TApplier> = { __tsonic_ext?: __TsonicMergeExtMaps<__TsonicExtMapOf<TShape>, { [P in K]: TApplier }> };
-type __TsonicPreferExt<A, B> = A & B;
 
 // Generic helper type for extension methods in namespace: System
 type __TsonicExtSurface_System<TShape> =
@@ -2293,7 +2803,7 @@ export type ExtensionMethods_System_Collections_Generic<TShape> =
 // Generic helper type for extension methods in namespace: System.Collections.Immutable
 type __TsonicExtSurface_System_Collections_Immutable<TShape> =
   (
-    (TShape extends System.ReadOnlySpan_1<infer T0> ? __Ext_System_Collections_Immutable_ReadOnlySpan_1<T0> : {}) & (TShape extends System.Span_1<infer T0> ? __Ext_System_Collections_Immutable_Span_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer _0> ? {} : __Ext_System_Collections_Immutable_IEnumerable_1<T0>)))) : {}) & (TShape extends System_Collections_Immutable.IImmutableDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Immutable_IImmutableDictionary_2<T0, T1> : {}) & (TShape extends System_Collections_Immutable.IImmutableList_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableList_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableQueue_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableQueue_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableStack_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableStack_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableArray_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableHashSet_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableList_1_Builder<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableSortedDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer T0> ? __TsonicPreferExt<__Ext_System_Collections_Immutable_IEnumerable_1<T0>, __Ext_System_Collections_Immutable_ImmutableSortedSet_1_Builder<T0>> : {}) & (TShape extends (infer T)[] ? __Ext_System_Collections_Immutable_IEnumerable_1<T> : {})
+    (TShape extends System.ReadOnlySpan_1<infer T0> ? __Ext_System_Collections_Immutable_ReadOnlySpan_1<T0> : {}) & (TShape extends System.Span_1<infer T0> ? __Ext_System_Collections_Immutable_Span_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer _0> ? {} : __Ext_System_Collections_Immutable_IEnumerable_1<T0>)))) : {}) & (TShape extends System_Collections_Immutable.IImmutableDictionary_2<infer T0, infer T1> ? __Ext_System_Collections_Immutable_IImmutableDictionary_2<T0, T1> : {}) & (TShape extends System_Collections_Immutable.IImmutableList_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableList_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableQueue_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableQueue_1<T0> : {}) & (TShape extends System_Collections_Immutable.IImmutableStack_1<infer T0> ? __Ext_System_Collections_Immutable_IImmutableStack_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableArray_1_Builder<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableHashSet_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableHashSet_1_Builder<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableList_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableList_1_Builder<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedDictionary_2_Builder<infer T0, infer T1> ? __Ext_System_Collections_Immutable_ImmutableSortedDictionary_2_Builder<T0, T1> : {}) & (TShape extends System_Collections_Immutable.ImmutableSortedSet_1_Builder<infer T0> ? __Ext_System_Collections_Immutable_ImmutableSortedSet_1_Builder<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Collections_Immutable_IEnumerable_1<T> : {})
   );
 
 interface __TsonicExtApplier_System_Collections_Immutable {
@@ -2309,7 +2819,7 @@ export type ExtensionMethods_System_Collections_Immutable<TShape> =
 // Generic helper type for extension methods in namespace: System.Data
 type __TsonicExtSurface_System_Data<TShape> =
   (
-    (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Data_IEnumerable_1<T0> : {}) & (TShape extends System_Data.DataRow ? __Ext_System_Data_DataRow : {}) & (TShape extends System_Data.DataTable ? (TShape extends System_Data.TypedTableBase_1<infer _0> ? {} : __Ext_System_Data_DataTable) : {}) & (TShape extends System_Data.EnumerableRowCollection ? __Ext_System_Data_EnumerableRowCollection : {}) & (TShape extends System_Data.EnumerableRowCollection_1<infer T0> ? __Ext_System_Data_EnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.OrderedEnumerableRowCollection_1<infer T0> ? __Ext_System_Data_OrderedEnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.TypedTableBase_1<infer T0> ? __TsonicPreferExt<__Ext_System_Data_DataTable, __Ext_System_Data_TypedTableBase_1<T0>> : {}) & (TShape extends System_Data_Common.DbDataReader ? __Ext_System_Data_DbDataReader : {}) & (TShape extends (infer T)[] ? __Ext_System_Data_IEnumerable_1<T> : {})
+    (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? __Ext_System_Data_IEnumerable_1<T0> : {}) & (TShape extends System_Data.DataRow ? __Ext_System_Data_DataRow : {}) & (TShape extends System_Data.DataTable ? (TShape extends System_Data.TypedTableBase_1<infer _0> ? {} : __Ext_System_Data_DataTable) : {}) & (TShape extends System_Data.EnumerableRowCollection ? __Ext_System_Data_EnumerableRowCollection : {}) & (TShape extends System_Data.EnumerableRowCollection_1<infer T0> ? __Ext_System_Data_EnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.OrderedEnumerableRowCollection_1<infer T0> ? __Ext_System_Data_OrderedEnumerableRowCollection_1<T0> : {}) & (TShape extends System_Data.TypedTableBase_1<infer T0> ? __Ext_System_Data_TypedTableBase_1<T0> : {}) & (TShape extends System_Data_Common.DbDataReader ? __Ext_System_Data_DbDataReader : {}) & (TShape extends (infer T)[] ? __Ext_System_Data_IEnumerable_1<T> : {})
   );
 
 interface __TsonicExtApplier_System_Data {
@@ -2453,7 +2963,7 @@ export type ExtensionMethods_System_IO_Pipes<TShape> =
 // Generic helper type for extension methods in namespace: System.Linq
 type __TsonicExtSurface_System_Linq<TShape> =
   (
-    (TShape extends System_Collections.IEnumerable ? (TShape extends System_Collections_Generic.IEnumerable_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Linq.IQueryable ? {} : (TShape extends System_Linq.IQueryable_1<infer _0> ? {} : (TShape extends System_Linq.ParallelQuery ? {} : (TShape extends System_Linq.ParallelQuery_1<infer _0> ? {} : __Ext_System_Linq_IEnumerable))))))) : {}) & (TShape extends System_Collections_Concurrent.Partitioner_1<infer T0> ? __Ext_System_Linq_Partitioner_1<T0> : {}) & (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IAsyncEnumerable_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Linq.IQueryable_1<infer _0> ? {} : (TShape extends System_Linq.ParallelQuery_1<infer _0> ? {} : __TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IEnumerable_1<T0>>)))) : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __TsonicPreferExt<__TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IEnumerable_1<T0>>, __Ext_System_Linq_ImmutableArray_1<T0>> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __TsonicPreferExt<__TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IEnumerable_1<T0>>, __Ext_System_Linq_ImmutableArray_1_Builder<T0>> : {}) & (TShape extends System_Linq.IOrderedAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedAsyncEnumerable_1<T0> : {}) & (TShape extends System_Linq.IOrderedEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedEnumerable_1<T0> : {}) & (TShape extends System_Linq.IQueryable ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IQueryable> : {}) & (TShape extends System_Linq.IQueryable_1<infer T0> ? __TsonicPreferExt<__TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IEnumerable_1<T0>>, __Ext_System_Linq_IQueryable_1<T0>> : {}) & (TShape extends System_Linq.IOrderedQueryable_1<infer T0> ? __Ext_System_Linq_IOrderedQueryable_1<T0> : {}) & (TShape extends System_Linq.ParallelQuery ? __TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_ParallelQuery> : {}) & (TShape extends System_Linq.ParallelQuery_1<infer T0> ? __TsonicPreferExt<__TsonicPreferExt<__Ext_System_Linq_IEnumerable, __Ext_System_Linq_IEnumerable_1<T0>>, __Ext_System_Linq_ParallelQuery_1<T0>> : {}) & (TShape extends System_Linq.OrderedParallelQuery_1<infer T0> ? __Ext_System_Linq_OrderedParallelQuery_1<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Linq_IEnumerable_1<T> : {})
+    (TShape extends System_Collections.IEnumerable ? (TShape extends System_Collections_Generic.IEnumerable_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Linq.IQueryable ? {} : (TShape extends System_Linq.IQueryable_1<infer _0> ? {} : (TShape extends System_Linq.ParallelQuery ? {} : (TShape extends System_Linq.ParallelQuery_1<infer _0> ? {} : __Ext_System_Linq_IEnumerable))))))) : {}) & (TShape extends System_Collections_Concurrent.Partitioner_1<infer T0> ? __Ext_System_Linq_Partitioner_1<T0> : {}) & (TShape extends System_Collections_Generic.IAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IAsyncEnumerable_1<T0> : {}) & (TShape extends System_Collections_Generic.IEnumerable_1<infer T0> ? (TShape extends System_Collections_Immutable.ImmutableArray_1<infer _0> ? {} : (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer _0> ? {} : (TShape extends System_Linq.IQueryable_1<infer _0> ? {} : (TShape extends System_Linq.ParallelQuery_1<infer _0> ? {} : __Ext_System_Linq_IEnumerable_1<T0>)))) : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1<infer T0> ? __Ext_System_Linq_ImmutableArray_1<T0> : {}) & (TShape extends System_Collections_Immutable.ImmutableArray_1_Builder<infer T0> ? __Ext_System_Linq_ImmutableArray_1_Builder<T0> : {}) & (TShape extends System_Linq.IOrderedAsyncEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedAsyncEnumerable_1<T0> : {}) & (TShape extends System_Linq.IOrderedEnumerable_1<infer T0> ? __Ext_System_Linq_IOrderedEnumerable_1<T0> : {}) & (TShape extends System_Linq.IOrderedQueryable_1<infer T0> ? __Ext_System_Linq_IOrderedQueryable_1<T0> : {}) & (TShape extends System_Linq.IQueryable ? __Ext_System_Linq_IQueryable : {}) & (TShape extends System_Linq.IQueryable_1<infer T0> ? __Ext_System_Linq_IQueryable_1<T0> : {}) & (TShape extends System_Linq.OrderedParallelQuery_1<infer T0> ? __Ext_System_Linq_OrderedParallelQuery_1<T0> : {}) & (TShape extends System_Linq.ParallelQuery ? __Ext_System_Linq_ParallelQuery : {}) & (TShape extends System_Linq.ParallelQuery_1<infer T0> ? __Ext_System_Linq_ParallelQuery_1<T0> : {}) & (TShape extends (infer T)[] ? __Ext_System_Linq_IEnumerable_1<T> : {})
   );
 
 interface __TsonicExtApplier_System_Linq {
@@ -2517,7 +3027,7 @@ export type ExtensionMethods_System_Numerics<TShape> =
 // Generic helper type for extension methods in namespace: System.Reflection
 type __TsonicExtSurface_System_Reflection<TShape> =
   (
-    (TShape extends System.Delegate ? __Ext_System_Reflection_Delegate : {}) & (TShape extends System.Type ? __Ext_System_Reflection_Type : {}) & (TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Assembly : {}) & (TShape extends System_Reflection.MemberInfo ? __Ext_System_Reflection_MemberInfo : {}) & (TShape extends System_Reflection.EventInfo ? __Ext_System_Reflection_EventInfo : {}) & (TShape extends System_Reflection.MethodInfo ? __Ext_System_Reflection_MethodInfo : {}) & (TShape extends System_Reflection.Module ? __Ext_System_Reflection_Module : {}) & (TShape extends System_Reflection.ParameterInfo ? __Ext_System_Reflection_ParameterInfo : {}) & (TShape extends System_Reflection.PropertyInfo ? __Ext_System_Reflection_PropertyInfo : {}) & (TShape extends System_Reflection.TypeInfo ? __Ext_System_Reflection_TypeInfo : {})
+    (TShape extends System.Delegate ? __Ext_System_Reflection_Delegate : {}) & (TShape extends System.Type ? __Ext_System_Reflection_Type : {}) & (TShape extends System_Reflection.Assembly ? __Ext_System_Reflection_Assembly : {}) & (TShape extends System_Reflection.EventInfo ? __Ext_System_Reflection_EventInfo : {}) & (TShape extends System_Reflection.MemberInfo ? __Ext_System_Reflection_MemberInfo : {}) & (TShape extends System_Reflection.MethodInfo ? __Ext_System_Reflection_MethodInfo : {}) & (TShape extends System_Reflection.Module ? __Ext_System_Reflection_Module : {}) & (TShape extends System_Reflection.ParameterInfo ? __Ext_System_Reflection_ParameterInfo : {}) & (TShape extends System_Reflection.PropertyInfo ? __Ext_System_Reflection_PropertyInfo : {}) & (TShape extends System_Reflection.TypeInfo ? __Ext_System_Reflection_TypeInfo : {})
   );
 
 interface __TsonicExtApplier_System_Reflection {
@@ -2709,7 +3219,7 @@ export type ExtensionMethods_System_Text_Json_Serialization_Metadata<TShape> =
 // Generic helper type for extension methods in namespace: System.Threading
 type __TsonicExtSurface_System_Threading<TShape> =
   (
-    (TShape extends System_Threading.WaitHandle ? __Ext_System_Threading_WaitHandle : {}) & (TShape extends System_Threading.EventWaitHandle ? __Ext_System_Threading_EventWaitHandle : {}) & (TShape extends System_Threading.Mutex ? __Ext_System_Threading_Mutex : {}) & (TShape extends System_Threading.Semaphore ? __Ext_System_Threading_Semaphore : {})
+    (TShape extends System_Threading.EventWaitHandle ? __Ext_System_Threading_EventWaitHandle : {}) & (TShape extends System_Threading.Mutex ? __Ext_System_Threading_Mutex : {}) & (TShape extends System_Threading.Semaphore ? __Ext_System_Threading_Semaphore : {}) & (TShape extends System_Threading.WaitHandle ? __Ext_System_Threading_WaitHandle : {})
   );
 
 interface __TsonicExtApplier_System_Threading {
@@ -2741,7 +3251,7 @@ export type ExtensionMethods_System_Threading_Tasks<TShape> =
 // Generic helper type for extension methods in namespace: System.Threading.Tasks.Dataflow
 type __TsonicExtSurface_System_Threading_Tasks_Dataflow<TShape> =
   (
-    (TShape extends System_Threading_Tasks_Dataflow.ISourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ISourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.IReceivableSourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.ITargetBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ITargetBlock_1<T0> : {})
+    (TShape extends System_Threading_Tasks_Dataflow.IReceivableSourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.ISourceBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ISourceBlock_1<T0> : {}) & (TShape extends System_Threading_Tasks_Dataflow.ITargetBlock_1<infer T0> ? __Ext_System_Threading_Tasks_Dataflow_ITargetBlock_1<T0> : {})
   );
 
 interface __TsonicExtApplier_System_Threading_Tasks_Dataflow {
