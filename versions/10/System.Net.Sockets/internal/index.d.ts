@@ -610,7 +610,8 @@ export interface SendPacketsElement$instance {
     set FilePath(value: string | undefined);
     get FileStream(): FileStream | undefined;
     set FileStream(value: FileStream | undefined);
-    MemoryBuffer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
+    get MemoryBuffer(): Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
+    set MemoryBuffer(value: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>> | ReadOnlyMemory_1<System_Internal.Byte>);
     readonly Offset: int;
     OffsetLong: long;
 }

@@ -161,10 +161,13 @@ export interface CacheControlHeaderValue$instance extends System_Internal.IClone
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Extensions: ICollection_1<NameValueHeaderValue>;
-    MaxAge: Nullable_1<TimeSpan>;
+    get MaxAge(): Nullable_1<TimeSpan>;
+    set MaxAge(value: Nullable_1<TimeSpan> | TimeSpan);
     MaxStale: boolean;
-    MaxStaleLimit: Nullable_1<TimeSpan>;
-    MinFresh: Nullable_1<TimeSpan>;
+    get MaxStaleLimit(): Nullable_1<TimeSpan>;
+    set MaxStaleLimit(value: Nullable_1<TimeSpan> | TimeSpan);
+    get MinFresh(): Nullable_1<TimeSpan>;
+    set MinFresh(value: Nullable_1<TimeSpan> | TimeSpan);
     MustRevalidate: boolean;
     NoCache: boolean;
     readonly NoCacheHeaders: ICollection_1<System_Internal.String>;
@@ -175,7 +178,8 @@ export interface CacheControlHeaderValue$instance extends System_Internal.IClone
     readonly PrivateHeaders: ICollection_1<System_Internal.String>;
     ProxyRevalidate: boolean;
     Public: boolean;
-    SharedMaxAge: Nullable_1<TimeSpan>;
+    get SharedMaxAge(): Nullable_1<TimeSpan>;
+    set SharedMaxAge(value: Nullable_1<TimeSpan> | TimeSpan);
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -201,18 +205,22 @@ export interface ContentDispositionHeaderValue$instance extends System_Internal.
 
     readonly __tsonic_iface_System_ICloneable: never;
 
-    CreationDate: Nullable_1<DateTimeOffset>;
+    get CreationDate(): Nullable_1<DateTimeOffset>;
+    set CreationDate(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     DispositionType: string;
     get FileName(): string | undefined;
     set FileName(value: string | undefined);
     get FileNameStar(): string | undefined;
     set FileNameStar(value: string | undefined);
-    ModificationDate: Nullable_1<DateTimeOffset>;
+    get ModificationDate(): Nullable_1<DateTimeOffset>;
+    set ModificationDate(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     get Name(): string | undefined;
     set Name(value: string | undefined);
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
-    ReadDate: Nullable_1<DateTimeOffset>;
-    Size: Nullable_1<System_Internal.Int64>;
+    get ReadDate(): Nullable_1<DateTimeOffset>;
+    set ReadDate(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
+    get Size(): Nullable_1<System_Internal.Int64>;
+    set Size(value: Nullable_1<System_Internal.Int64> | long);
     Equals(obj: unknown): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -306,7 +314,8 @@ export interface HttpContentHeaders$instance extends HttpHeaders$instance {
     set ContentDisposition(value: ContentDispositionHeaderValue | undefined);
     readonly ContentEncoding: ICollection_1<System_Internal.String>;
     readonly ContentLanguage: ICollection_1<System_Internal.String>;
-    ContentLength: Nullable_1<System_Internal.Int64>;
+    get ContentLength(): Nullable_1<System_Internal.Int64>;
+    set ContentLength(value: Nullable_1<System_Internal.Int64> | long);
     get ContentLocation(): Uri | undefined;
     set ContentLocation(value: Uri | undefined);
     get ContentMD5(): byte[] | undefined;
@@ -315,8 +324,10 @@ export interface HttpContentHeaders$instance extends HttpHeaders$instance {
     set ContentRange(value: ContentRangeHeaderValue | undefined);
     get ContentType(): MediaTypeHeaderValue | undefined;
     set ContentType(value: MediaTypeHeaderValue | undefined);
-    Expires: Nullable_1<DateTimeOffset>;
-    LastModified: Nullable_1<DateTimeOffset>;
+    get Expires(): Nullable_1<DateTimeOffset>;
+    set Expires(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
+    get LastModified(): Nullable_1<DateTimeOffset>;
+    set LastModified(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
 }
 
 
@@ -414,21 +425,27 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     get CacheControl(): CacheControlHeaderValue | undefined;
     set CacheControl(value: CacheControlHeaderValue | undefined);
     readonly Connection: HttpHeaderValueCollection_1<System_Internal.String>;
-    ConnectionClose: Nullable_1<System_Internal.Boolean>;
-    Date: Nullable_1<DateTimeOffset>;
+    get ConnectionClose(): Nullable_1<System_Internal.Boolean>;
+    set ConnectionClose(value: Nullable_1<System_Internal.Boolean> | boolean);
+    get Date(): Nullable_1<DateTimeOffset>;
+    set Date(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     readonly Expect: HttpHeaderValueCollection_1<NameValueWithParametersHeaderValue>;
-    ExpectContinue: Nullable_1<System_Internal.Boolean>;
+    get ExpectContinue(): Nullable_1<System_Internal.Boolean>;
+    set ExpectContinue(value: Nullable_1<System_Internal.Boolean> | boolean);
     get From(): string | undefined;
     set From(value: string | undefined);
     get Host(): string | undefined;
     set Host(value: string | undefined);
     readonly IfMatch: HttpHeaderValueCollection_1<EntityTagHeaderValue>;
-    IfModifiedSince: Nullable_1<DateTimeOffset>;
+    get IfModifiedSince(): Nullable_1<DateTimeOffset>;
+    set IfModifiedSince(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     readonly IfNoneMatch: HttpHeaderValueCollection_1<EntityTagHeaderValue>;
     get IfRange(): RangeConditionHeaderValue | undefined;
     set IfRange(value: RangeConditionHeaderValue | undefined);
-    IfUnmodifiedSince: Nullable_1<DateTimeOffset>;
-    MaxForwards: Nullable_1<System_Internal.Int32>;
+    get IfUnmodifiedSince(): Nullable_1<DateTimeOffset>;
+    set IfUnmodifiedSince(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
+    get MaxForwards(): Nullable_1<System_Internal.Int32>;
+    set MaxForwards(value: Nullable_1<System_Internal.Int32> | int);
     readonly Pragma: HttpHeaderValueCollection_1<NameValueHeaderValue>;
     get Protocol(): string | undefined;
     set Protocol(value: string | undefined);
@@ -441,7 +458,8 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     readonly TE: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
     readonly Trailer: HttpHeaderValueCollection_1<System_Internal.String>;
     readonly TransferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
-    TransferEncodingChunked: Nullable_1<System_Internal.Boolean>;
+    get TransferEncodingChunked(): Nullable_1<System_Internal.Boolean>;
+    set TransferEncodingChunked(value: Nullable_1<System_Internal.Boolean> | boolean);
     readonly Upgrade: HttpHeaderValueCollection_1<ProductHeaderValue>;
     readonly UserAgent: HttpHeaderValueCollection_1<ProductInfoHeaderValue>;
     readonly Via: HttpHeaderValueCollection_1<ViaHeaderValue>;
@@ -468,12 +486,15 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly AcceptRanges: HttpHeaderValueCollection_1<System_Internal.String>;
-    Age: Nullable_1<TimeSpan>;
+    get Age(): Nullable_1<TimeSpan>;
+    set Age(value: Nullable_1<TimeSpan> | TimeSpan);
     get CacheControl(): CacheControlHeaderValue | undefined;
     set CacheControl(value: CacheControlHeaderValue | undefined);
     readonly Connection: HttpHeaderValueCollection_1<System_Internal.String>;
-    ConnectionClose: Nullable_1<System_Internal.Boolean>;
-    Date: Nullable_1<DateTimeOffset>;
+    get ConnectionClose(): Nullable_1<System_Internal.Boolean>;
+    set ConnectionClose(value: Nullable_1<System_Internal.Boolean> | boolean);
+    get Date(): Nullable_1<DateTimeOffset>;
+    set Date(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     get ETag(): EntityTagHeaderValue | undefined;
     set ETag(value: EntityTagHeaderValue | undefined);
     get Location(): Uri | undefined;
@@ -485,7 +506,8 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly Server: HttpHeaderValueCollection_1<ProductInfoHeaderValue>;
     readonly Trailer: HttpHeaderValueCollection_1<System_Internal.String>;
     readonly TransferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
-    TransferEncodingChunked: Nullable_1<System_Internal.Boolean>;
+    get TransferEncodingChunked(): Nullable_1<System_Internal.Boolean>;
+    set TransferEncodingChunked(value: Nullable_1<System_Internal.Boolean> | boolean);
     readonly Upgrade: HttpHeaderValueCollection_1<ProductHeaderValue>;
     readonly Vary: HttpHeaderValueCollection_1<System_Internal.String>;
     readonly Via: HttpHeaderValueCollection_1<ViaHeaderValue>;
@@ -542,7 +564,8 @@ export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeade
 
     readonly __tsonic_iface_System_ICloneable: never;
 
-    Quality: Nullable_1<System_Internal.Double>;
+    get Quality(): Nullable_1<System_Internal.Double>;
+    set Quality(value: Nullable_1<System_Internal.Double> | double);
 }
 
 
@@ -840,7 +863,8 @@ export interface TransferCodingWithQualityHeaderValue$instance extends TransferC
 
     readonly __tsonic_iface_System_ICloneable: never;
 
-    Quality: Nullable_1<System_Internal.Double>;
+    get Quality(): Nullable_1<System_Internal.Double>;
+    set Quality(value: Nullable_1<System_Internal.Double> | double);
 }
 
 

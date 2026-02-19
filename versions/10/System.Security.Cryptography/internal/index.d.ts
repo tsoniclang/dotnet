@@ -1031,9 +1031,11 @@ export type CngKeyBlobFormat = CngKeyBlobFormat$instance & __CngKeyBlobFormat$vi
 export interface CngKeyCreationParameters$instance {
     readonly __tsonic_type_System_Security_Cryptography_CngKeyCreationParameters: never;
 
-    ExportPolicy: Nullable_1<CngExportPolicies>;
+    get ExportPolicy(): Nullable_1<CngExportPolicies>;
+    set ExportPolicy(value: Nullable_1<CngExportPolicies> | CngExportPolicies);
     KeyCreationOptions: CngKeyCreationOptions;
-    KeyUsage: Nullable_1<CngKeyUsages>;
+    get KeyUsage(): Nullable_1<CngKeyUsages>;
+    set KeyUsage(value: Nullable_1<CngKeyUsages> | CngKeyUsages);
     readonly Parameters: CngPropertyCollection;
     ParentWindowHandle: nint;
     Provider: CngProvider;
