@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tsoniclang/dotnet.git"
+    "url": "git+https://github.com/tsoniclang/dotnet.git"
   },
   "peerDependencies": {
     "@tsonic/core": "10.0.38"
