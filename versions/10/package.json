@@ -18,6 +18,6 @@
     "url": "https://github.com/tsoniclang/dotnet.git"
   },
   "peerDependencies": {
-    "@tsonic/core": "10.0.35"
+    "@tsonic/core": "10.0.37"
   }
 }
