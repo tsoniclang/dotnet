@@ -5656,7 +5656,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Aggregate(IEnumerable_1,TAccumulate,Func_3):TAccumulate",
@@ -5676,7 +5679,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Aggregate(IEnumerable_1,TAccumulate,Func_3,Func_2):TResult",
@@ -5696,7 +5702,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1):System.Boolean",
@@ -5716,7 +5725,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1,Func_2):System.Boolean",
@@ -5736,7 +5748,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::All(IEnumerable_1,Func_2):System.Boolean",
@@ -5756,7 +5771,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Append(IEnumerable_1,TSource):IEnumerable_1",
@@ -5776,7 +5794,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Prepend(IEnumerable_1,TSource):IEnumerable_1",
@@ -5796,7 +5817,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -5816,7 +5840,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -5836,7 +5863,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -5856,7 +5886,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -5876,7 +5909,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -5896,7 +5932,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5916,7 +5955,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5936,7 +5978,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5956,7 +6001,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5976,7 +6024,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5996,7 +6047,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Double",
@@ -6016,7 +6070,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Single",
@@ -6036,7 +6093,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Decimal",
@@ -6056,7 +6116,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6076,7 +6139,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6096,7 +6162,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Average(IEnumerable_1,Func_2):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6116,7 +6185,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Cast(System.Collections.IEnumerable):IEnumerable_1",
@@ -6136,7 +6208,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Chunk(IEnumerable_1,System.Int32):IEnumerable_1",
@@ -6156,7 +6231,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Concat(IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -6176,7 +6254,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Contains(IEnumerable_1,TSource):System.Boolean",
@@ -6196,7 +6277,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Contains(IEnumerable_1,TSource,IEqualityComparer_1):System.Boolean",
@@ -6216,7 +6300,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::AggregateBy(IEnumerable_1,Func_2,TAccumulate,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -6236,7 +6323,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::AggregateBy(IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -6256,7 +6346,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::CountBy(IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -6276,7 +6369,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Count(IEnumerable_1):System.Int32",
@@ -6296,7 +6392,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Count(IEnumerable_1,Func_2):System.Int32",
@@ -6316,7 +6415,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::TryGetNonEnumeratedCount(IEnumerable_1,System.Int32\u0026):System.Boolean",
@@ -6337,6 +6439,9 @@
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
           "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          },
           "parameterModifiers": [
             {
               "index": 1,
@@ -6362,7 +6467,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LongCount(IEnumerable_1,Func_2):System.Int64",
@@ -6382,7 +6490,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::DefaultIfEmpty(IEnumerable_1):IEnumerable_1",
@@ -6402,7 +6513,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::DefaultIfEmpty(IEnumerable_1,TSource):IEnumerable_1",
@@ -6422,7 +6536,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Distinct(IEnumerable_1):IEnumerable_1",
@@ -6442,7 +6559,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Distinct(IEnumerable_1,IEqualityComparer_1):IEnumerable_1",
@@ -6462,7 +6582,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::DistinctBy(IEnumerable_1,Func_2):IEnumerable_1",
@@ -6482,7 +6605,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::DistinctBy(IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -6502,7 +6628,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ElementAt(IEnumerable_1,System.Int32):TSource",
@@ -6522,7 +6651,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ElementAt(IEnumerable_1,System.Index):TSource",
@@ -6542,7 +6674,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ElementAtOrDefault(IEnumerable_1,System.Int32):TSource",
@@ -6562,7 +6697,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ElementAtOrDefault(IEnumerable_1,System.Index):TSource",
@@ -6582,7 +6720,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::AsEnumerable(IEnumerable_1):IEnumerable_1",
@@ -6602,7 +6743,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Empty():IEnumerable_1",
@@ -6622,7 +6766,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": false
+          "isExtensionMethod": false,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Except(IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -6642,7 +6789,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Except(IEnumerable_1,IEnumerable_1,IEqualityComparer_1):IEnumerable_1",
@@ -6662,7 +6812,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ExceptBy(IEnumerable_1,IEnumerable_1,Func_2):IEnumerable_1",
@@ -6682,7 +6835,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ExceptBy(IEnumerable_1,IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -6702,7 +6858,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::First(IEnumerable_1):TSource",
@@ -6722,7 +6881,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::First(IEnumerable_1,Func_2):TSource",
@@ -6742,7 +6904,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::FirstOrDefault(IEnumerable_1):TSource",
@@ -6762,7 +6927,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::FirstOrDefault(IEnumerable_1,TSource):TSource",
@@ -6782,7 +6950,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::FirstOrDefault(IEnumerable_1,Func_2):TSource",
@@ -6802,7 +6973,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::FirstOrDefault(IEnumerable_1,Func_2,TSource):TSource",
@@ -6822,7 +6996,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2):IEnumerable_1",
@@ -6842,7 +7019,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -6862,7 +7042,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_2):IEnumerable_1",
@@ -6882,7 +7065,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -6902,7 +7088,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_3):IEnumerable_1",
@@ -6922,7 +7111,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -6942,7 +7134,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_2,Func_3):IEnumerable_1",
@@ -6962,7 +7157,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupBy(IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -6982,7 +7180,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3):IEnumerable_1",
@@ -7002,7 +7203,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::GroupJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -7022,7 +7226,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Index(IEnumerable_1):IEnumerable_1",
@@ -7042,7 +7249,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::InfiniteSequence(T,T):IEnumerable_1",
@@ -7062,7 +7272,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": false
+          "isExtensionMethod": false,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Intersect(IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -7082,7 +7295,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Intersect(IEnumerable_1,IEnumerable_1,IEqualityComparer_1):IEnumerable_1",
@@ -7102,7 +7318,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::IntersectBy(IEnumerable_1,IEnumerable_1,Func_2):IEnumerable_1",
@@ -7122,7 +7341,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::IntersectBy(IEnumerable_1,IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -7142,7 +7364,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Join(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3):IEnumerable_1",
@@ -7162,7 +7387,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Join(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -7182,7 +7410,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Last(IEnumerable_1):TSource",
@@ -7202,7 +7433,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Last(IEnumerable_1,Func_2):TSource",
@@ -7222,7 +7456,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LastOrDefault(IEnumerable_1):TSource",
@@ -7242,7 +7479,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LastOrDefault(IEnumerable_1,TSource):TSource",
@@ -7262,7 +7502,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LastOrDefault(IEnumerable_1,Func_2):TSource",
@@ -7282,7 +7525,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LastOrDefault(IEnumerable_1,Func_2,TSource):TSource",
@@ -7302,7 +7548,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LeftJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3):IEnumerable_1",
@@ -7322,7 +7571,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::LeftJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -7342,7 +7594,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToLookup(IEnumerable_1,Func_2):ILookup_2",
@@ -7362,7 +7617,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToLookup(IEnumerable_1,Func_2,IEqualityComparer_1):ILookup_2",
@@ -7382,7 +7640,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToLookup(IEnumerable_1,Func_2,Func_2):ILookup_2",
@@ -7402,7 +7663,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToLookup(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ILookup_2",
@@ -7422,7 +7686,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -7442,7 +7709,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -7462,7 +7732,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7482,7 +7755,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7502,7 +7778,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -7522,7 +7801,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7542,7 +7824,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -7562,7 +7847,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7582,7 +7870,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -7602,7 +7893,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7622,7 +7916,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1):TSource",
@@ -7642,7 +7939,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,IComparer_1):TSource",
@@ -7662,7 +7962,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::MaxBy(IEnumerable_1,Func_2):TSource",
@@ -7682,7 +7985,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::MaxBy(IEnumerable_1,Func_2,IComparer_1):TSource",
@@ -7702,7 +8008,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Int32",
@@ -7722,7 +8031,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7742,7 +8054,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Int64",
@@ -7762,7 +8077,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7782,7 +8100,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Single",
@@ -7802,7 +8123,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7822,7 +8146,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Double",
@@ -7842,7 +8169,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7862,7 +8192,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Decimal",
@@ -7882,7 +8215,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7902,7 +8238,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Max(IEnumerable_1,Func_2):TResult",
@@ -7922,7 +8261,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -7942,7 +8284,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -7962,7 +8307,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7982,7 +8330,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8002,7 +8353,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -8022,7 +8376,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8042,7 +8399,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -8062,7 +8422,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8082,7 +8445,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -8102,7 +8468,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8122,7 +8491,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1):TSource",
@@ -8142,7 +8514,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,IComparer_1):TSource",
@@ -8162,7 +8537,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::MinBy(IEnumerable_1,Func_2):TSource",
@@ -8182,7 +8560,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::MinBy(IEnumerable_1,Func_2,IComparer_1):TSource",
@@ -8202,7 +8583,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Int32",
@@ -8222,7 +8606,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8242,7 +8629,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Int64",
@@ -8262,7 +8652,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8282,7 +8675,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Single",
@@ -8302,7 +8698,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8322,7 +8721,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Double",
@@ -8342,7 +8744,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8362,7 +8767,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Decimal",
@@ -8382,7 +8790,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8402,7 +8813,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Min(IEnumerable_1,Func_2):TResult",
@@ -8422,7 +8836,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OfType(System.Collections.IEnumerable):IEnumerable_1",
@@ -8442,7 +8859,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Order(IEnumerable_1):IOrderedEnumerable_1",
@@ -8462,7 +8882,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Order(IEnumerable_1,IComparer_1):IOrderedEnumerable_1",
@@ -8482,7 +8905,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderBy(IEnumerable_1,Func_2):IOrderedEnumerable_1",
@@ -8502,7 +8928,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderBy(IEnumerable_1,Func_2,IComparer_1):IOrderedEnumerable_1",
@@ -8522,7 +8951,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderDescending(IEnumerable_1):IOrderedEnumerable_1",
@@ -8542,7 +8974,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderDescending(IEnumerable_1,IComparer_1):IOrderedEnumerable_1",
@@ -8562,7 +8997,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderByDescending(IEnumerable_1,Func_2):IOrderedEnumerable_1",
@@ -8582,7 +9020,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::OrderByDescending(IEnumerable_1,Func_2,IComparer_1):IOrderedEnumerable_1",
@@ -8602,7 +9043,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ThenBy(IOrderedEnumerable_1,Func_2):IOrderedEnumerable_1",
@@ -8622,7 +9066,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ThenBy(IOrderedEnumerable_1,Func_2,IComparer_1):IOrderedEnumerable_1",
@@ -8642,7 +9089,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ThenByDescending(IOrderedEnumerable_1,Func_2):IOrderedEnumerable_1",
@@ -8662,7 +9112,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ThenByDescending(IOrderedEnumerable_1,Func_2,IComparer_1):IOrderedEnumerable_1",
@@ -8682,7 +9135,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Range(System.Int32,System.Int32):System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8702,7 +9158,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": false
+          "isExtensionMethod": false,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Repeat(TResult,System.Int32):IEnumerable_1",
@@ -8722,7 +9181,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": false
+          "isExtensionMethod": false,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Shuffle(IEnumerable_1):IEnumerable_1",
@@ -8742,7 +9204,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Reverse(IEnumerable_1):IEnumerable_1",
@@ -8762,7 +9227,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Reverse(TSource[]):IEnumerable_1",
@@ -8782,7 +9250,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::RightJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3):IEnumerable_1",
@@ -8802,7 +9273,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::RightJoin(IEnumerable_1,IEnumerable_1,Func_2,Func_2,Func_3,IEqualityComparer_1):IEnumerable_1",
@@ -8822,7 +9296,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Select(IEnumerable_1,Func_2):IEnumerable_1",
@@ -8842,7 +9319,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Select(IEnumerable_1,Func_3):IEnumerable_1",
@@ -8862,7 +9342,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SelectMany(IEnumerable_1,Func_2):IEnumerable_1",
@@ -8882,7 +9365,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SelectMany(IEnumerable_1,Func_3):IEnumerable_1",
@@ -8902,7 +9388,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SelectMany(IEnumerable_1,Func_3,Func_3):IEnumerable_1",
@@ -8922,7 +9411,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SelectMany(IEnumerable_1,Func_2,Func_3):IEnumerable_1",
@@ -8942,7 +9434,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sequence(T,T,T):IEnumerable_1",
@@ -8962,7 +9457,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": false
+          "isExtensionMethod": false,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SequenceEqual(IEnumerable_1,IEnumerable_1):System.Boolean",
@@ -8982,7 +9480,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SequenceEqual(IEnumerable_1,IEnumerable_1,IEqualityComparer_1):System.Boolean",
@@ -9002,7 +9503,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Single(IEnumerable_1):TSource",
@@ -9022,7 +9526,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Single(IEnumerable_1,Func_2):TSource",
@@ -9042,7 +9549,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SingleOrDefault(IEnumerable_1):TSource",
@@ -9062,7 +9572,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SingleOrDefault(IEnumerable_1,TSource):TSource",
@@ -9082,7 +9595,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SingleOrDefault(IEnumerable_1,Func_2):TSource",
@@ -9102,7 +9618,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SingleOrDefault(IEnumerable_1,Func_2,TSource):TSource",
@@ -9122,7 +9641,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Skip(IEnumerable_1,System.Int32):IEnumerable_1",
@@ -9142,7 +9664,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SkipWhile(IEnumerable_1,Func_2):IEnumerable_1",
@@ -9162,7 +9687,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SkipWhile(IEnumerable_1,Func_3):IEnumerable_1",
@@ -9182,7 +9710,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::SkipLast(IEnumerable_1,System.Int32):IEnumerable_1",
@@ -9202,7 +9733,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -9222,7 +9756,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -9242,7 +9779,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -9262,7 +9802,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -9282,7 +9825,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -9302,7 +9848,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9322,7 +9871,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9342,7 +9894,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9362,7 +9917,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9382,7 +9940,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(System.Collections.Generic.IEnumerable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9402,7 +9963,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Int32",
@@ -9422,7 +9986,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Int64",
@@ -9442,7 +10009,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Single",
@@ -9462,7 +10032,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Double",
@@ -9482,7 +10055,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Decimal",
@@ -9502,7 +10078,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9522,7 +10101,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9542,7 +10124,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9562,7 +10147,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9582,7 +10170,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Sum(IEnumerable_1,Func_2):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -9602,7 +10193,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Take(IEnumerable_1,System.Int32):IEnumerable_1",
@@ -9622,7 +10216,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Take(IEnumerable_1,System.Range):IEnumerable_1",
@@ -9642,7 +10239,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::TakeWhile(IEnumerable_1,Func_2):IEnumerable_1",
@@ -9662,7 +10262,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::TakeWhile(IEnumerable_1,Func_3):IEnumerable_1",
@@ -9682,7 +10285,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::TakeLast(IEnumerable_1,System.Int32):IEnumerable_1",
@@ -9702,7 +10308,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToArray(IEnumerable_1):TSource[]",
@@ -9722,7 +10331,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToList(IEnumerable_1):List_1",
@@ -9742,7 +10354,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1):Dictionary_2",
@@ -9762,7 +10377,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1,IEqualityComparer_1):Dictionary_2",
@@ -9782,7 +10400,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1,Func_2):Dictionary_2",
@@ -9802,7 +10423,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1,Func_2,IEqualityComparer_1):Dictionary_2",
@@ -9822,7 +10446,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1,Func_2,Func_2):Dictionary_2",
@@ -9842,7 +10469,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToDictionary(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):Dictionary_2",
@@ -9862,7 +10492,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToHashSet(IEnumerable_1):HashSet_1",
@@ -9882,7 +10515,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::ToHashSet(IEnumerable_1,IEqualityComparer_1):HashSet_1",
@@ -9902,7 +10538,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Union(IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -9922,7 +10561,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Union(IEnumerable_1,IEnumerable_1,IEqualityComparer_1):IEnumerable_1",
@@ -9942,7 +10584,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::UnionBy(IEnumerable_1,IEnumerable_1,Func_2):IEnumerable_1",
@@ -9962,7 +10607,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::UnionBy(IEnumerable_1,IEnumerable_1,Func_2,IEqualityComparer_1):IEnumerable_1",
@@ -9982,7 +10630,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Where(IEnumerable_1,Func_2):IEnumerable_1",
@@ -10002,7 +10653,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Where(IEnumerable_1,Func_3):IEnumerable_1",
@@ -10022,7 +10676,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Zip(IEnumerable_1,IEnumerable_1,Func_3):IEnumerable_1",
@@ -10042,7 +10699,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Zip(IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -10062,7 +10722,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         },
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Zip(IEnumerable_1,IEnumerable_1,IEnumerable_1):IEnumerable_1",
@@ -10082,7 +10745,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Enumerable",
           "declaringAssemblyName": "System.Linq",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "static"
+          }
         }
       ],
       "properties": [],
@@ -14868,7 +15534,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::AsQueryable(System.Collections.IEnumerable):System.Linq.IQueryable",
@@ -14888,7 +15557,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Where(IQueryable_1,Expression_1):IQueryable_1",
@@ -14908,7 +15580,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OfType(System.Linq.IQueryable):IQueryable_1",
@@ -14928,7 +15603,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Cast(System.Linq.IQueryable):IQueryable_1",
@@ -14948,7 +15626,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Select(IQueryable_1,Expression_1):IQueryable_1",
@@ -14968,7 +15649,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SelectMany(IQueryable_1,Expression_1):IQueryable_1",
@@ -14988,7 +15672,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SelectMany(IQueryable_1,Expression_1,Expression_1):IQueryable_1",
@@ -15008,7 +15695,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Join(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1):IQueryable_1",
@@ -15028,7 +15718,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Join(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15048,7 +15741,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1):IQueryable_1",
@@ -15068,7 +15764,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15088,7 +15787,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LeftJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1):IQueryable_1",
@@ -15108,7 +15810,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LeftJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15128,7 +15833,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Order(IQueryable_1):IOrderedQueryable_1",
@@ -15148,7 +15856,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Order(IQueryable_1,IComparer_1):IOrderedQueryable_1",
@@ -15168,7 +15879,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderBy(IQueryable_1,Expression_1):IOrderedQueryable_1",
@@ -15188,7 +15902,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderBy(IQueryable_1,Expression_1,IComparer_1):IOrderedQueryable_1",
@@ -15208,7 +15925,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderDescending(IQueryable_1):IOrderedQueryable_1",
@@ -15228,7 +15948,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderDescending(IQueryable_1,IComparer_1):IOrderedQueryable_1",
@@ -15248,7 +15971,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderByDescending(IQueryable_1,Expression_1):IOrderedQueryable_1",
@@ -15268,7 +15994,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::OrderByDescending(IQueryable_1,Expression_1,IComparer_1):IOrderedQueryable_1",
@@ -15288,7 +16017,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::RightJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1):IQueryable_1",
@@ -15308,7 +16040,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::RightJoin(IQueryable_1,IEnumerable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15328,7 +16063,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ThenBy(IOrderedQueryable_1,Expression_1):IOrderedQueryable_1",
@@ -15348,7 +16086,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ThenBy(IOrderedQueryable_1,Expression_1,IComparer_1):IOrderedQueryable_1",
@@ -15368,7 +16109,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ThenByDescending(IOrderedQueryable_1,Expression_1):IOrderedQueryable_1",
@@ -15388,7 +16132,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ThenByDescending(IOrderedQueryable_1,Expression_1,IComparer_1):IOrderedQueryable_1",
@@ -15408,7 +16155,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Take(IQueryable_1,System.Int32):IQueryable_1",
@@ -15428,7 +16178,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Take(IQueryable_1,System.Range):IQueryable_1",
@@ -15448,7 +16201,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::TakeWhile(IQueryable_1,Expression_1):IQueryable_1",
@@ -15468,7 +16224,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Skip(IQueryable_1,System.Int32):IQueryable_1",
@@ -15488,7 +16247,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SkipWhile(IQueryable_1,Expression_1):IQueryable_1",
@@ -15508,7 +16270,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1):IQueryable_1",
@@ -15528,7 +16293,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1,Expression_1):IQueryable_1",
@@ -15548,7 +16316,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15568,7 +16339,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15588,7 +16362,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1,Expression_1,Expression_1):IQueryable_1",
@@ -15608,7 +16385,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::GroupBy(IQueryable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15628,7 +16408,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Distinct(IQueryable_1):IQueryable_1",
@@ -15648,7 +16431,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Distinct(IQueryable_1,IEqualityComparer_1):IQueryable_1",
@@ -15668,7 +16454,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::DistinctBy(IQueryable_1,Expression_1):IQueryable_1",
@@ -15688,7 +16477,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::DistinctBy(IQueryable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15708,7 +16500,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Chunk(IQueryable_1,System.Int32):IQueryable_1",
@@ -15728,7 +16523,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Concat(IQueryable_1,IEnumerable_1):IQueryable_1",
@@ -15748,7 +16546,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Zip(IQueryable_1,IEnumerable_1):IQueryable_1",
@@ -15768,7 +16569,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Zip(IQueryable_1,IEnumerable_1,Expression_1):IQueryable_1",
@@ -15788,7 +16592,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Zip(IQueryable_1,IEnumerable_1,IEnumerable_1):IQueryable_1",
@@ -15808,7 +16615,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Union(IQueryable_1,IEnumerable_1):IQueryable_1",
@@ -15828,7 +16638,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Union(IQueryable_1,IEnumerable_1,IEqualityComparer_1):IQueryable_1",
@@ -15848,7 +16661,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::UnionBy(IQueryable_1,IEnumerable_1,Expression_1):IQueryable_1",
@@ -15868,7 +16684,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::UnionBy(IQueryable_1,IEnumerable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15888,7 +16707,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Index(IQueryable_1):IQueryable_1",
@@ -15908,7 +16730,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Intersect(IQueryable_1,IEnumerable_1):IQueryable_1",
@@ -15928,7 +16753,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Intersect(IQueryable_1,IEnumerable_1,IEqualityComparer_1):IQueryable_1",
@@ -15948,7 +16776,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::IntersectBy(IQueryable_1,IEnumerable_1,Expression_1):IQueryable_1",
@@ -15968,7 +16799,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::IntersectBy(IQueryable_1,IEnumerable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -15988,7 +16822,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Except(IQueryable_1,IEnumerable_1):IQueryable_1",
@@ -16008,7 +16845,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Except(IQueryable_1,IEnumerable_1,IEqualityComparer_1):IQueryable_1",
@@ -16028,7 +16868,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ExceptBy(IQueryable_1,IEnumerable_1,Expression_1):IQueryable_1",
@@ -16048,7 +16891,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ExceptBy(IQueryable_1,IEnumerable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -16068,7 +16914,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::First(IQueryable_1):TSource",
@@ -16088,7 +16937,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::First(IQueryable_1,Expression_1):TSource",
@@ -16108,7 +16960,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::FirstOrDefault(IQueryable_1):TSource",
@@ -16128,7 +16983,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::FirstOrDefault(IQueryable_1,TSource):TSource",
@@ -16148,7 +17006,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::FirstOrDefault(IQueryable_1,Expression_1):TSource",
@@ -16168,7 +17029,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::FirstOrDefault(IQueryable_1,Expression_1,TSource):TSource",
@@ -16188,7 +17052,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Last(IQueryable_1):TSource",
@@ -16208,7 +17075,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Last(IQueryable_1,Expression_1):TSource",
@@ -16228,7 +17098,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LastOrDefault(IQueryable_1):TSource",
@@ -16248,7 +17121,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LastOrDefault(IQueryable_1,TSource):TSource",
@@ -16268,7 +17144,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LastOrDefault(IQueryable_1,Expression_1):TSource",
@@ -16288,7 +17167,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LastOrDefault(IQueryable_1,Expression_1,TSource):TSource",
@@ -16308,7 +17190,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Single(IQueryable_1):TSource",
@@ -16328,7 +17213,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Single(IQueryable_1,Expression_1):TSource",
@@ -16348,7 +17236,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SingleOrDefault(IQueryable_1):TSource",
@@ -16368,7 +17259,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SingleOrDefault(IQueryable_1,TSource):TSource",
@@ -16388,7 +17282,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SingleOrDefault(IQueryable_1,Expression_1):TSource",
@@ -16408,7 +17305,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SingleOrDefault(IQueryable_1,Expression_1,TSource):TSource",
@@ -16428,7 +17328,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ElementAt(IQueryable_1,System.Int32):TSource",
@@ -16448,7 +17351,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ElementAt(IQueryable_1,System.Index):TSource",
@@ -16468,7 +17374,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ElementAtOrDefault(IQueryable_1,System.Int32):TSource",
@@ -16488,7 +17397,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::ElementAtOrDefault(IQueryable_1,System.Index):TSource",
@@ -16508,7 +17420,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::DefaultIfEmpty(IQueryable_1):IQueryable_1",
@@ -16528,7 +17443,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::DefaultIfEmpty(IQueryable_1,TSource):IQueryable_1",
@@ -16548,7 +17466,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Contains(IQueryable_1,TSource):System.Boolean",
@@ -16568,7 +17489,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Contains(IQueryable_1,TSource,IEqualityComparer_1):System.Boolean",
@@ -16588,7 +17512,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Reverse(IQueryable_1):IQueryable_1",
@@ -16608,7 +17535,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SequenceEqual(IQueryable_1,IEnumerable_1):System.Boolean",
@@ -16628,7 +17558,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SequenceEqual(IQueryable_1,IEnumerable_1,IEqualityComparer_1):System.Boolean",
@@ -16648,7 +17581,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Shuffle(IQueryable_1):IQueryable_1",
@@ -16668,7 +17604,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1):System.Boolean",
@@ -16688,7 +17627,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1,Expression_1):System.Boolean",
@@ -16708,7 +17650,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::All(IQueryable_1,Expression_1):System.Boolean",
@@ -16728,7 +17673,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Count(IQueryable_1):System.Int32",
@@ -16748,7 +17696,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Count(IQueryable_1,Expression_1):System.Int32",
@@ -16768,7 +17719,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::CountBy(IQueryable_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -16788,7 +17742,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LongCount(IQueryable_1):System.Int64",
@@ -16808,7 +17765,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::LongCount(IQueryable_1,Expression_1):System.Int64",
@@ -16828,7 +17788,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Min(IQueryable_1):TSource",
@@ -16848,7 +17811,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Min(IQueryable_1,IComparer_1):TSource",
@@ -16868,7 +17834,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Min(IQueryable_1,Expression_1):TResult",
@@ -16888,7 +17857,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::MinBy(IQueryable_1,Expression_1):TSource",
@@ -16908,7 +17880,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::MinBy(IQueryable_1,Expression_1,IComparer_1):TSource",
@@ -16928,7 +17903,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Max(IQueryable_1):TSource",
@@ -16948,7 +17926,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Max(IQueryable_1,IComparer_1):TSource",
@@ -16968,7 +17949,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Max(IQueryable_1,Expression_1):TResult",
@@ -16988,7 +17972,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::MaxBy(IQueryable_1,Expression_1):TSource",
@@ -17008,7 +17995,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::MaxBy(IQueryable_1,Expression_1,IComparer_1):TSource",
@@ -17028,7 +18018,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -17048,7 +18041,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17068,7 +18064,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -17088,7 +18087,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17108,7 +18110,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -17128,7 +18133,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17148,7 +18156,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -17168,7 +18179,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17188,7 +18202,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -17208,7 +18225,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(System.Linq.IQueryable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17228,7 +18248,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Int32",
@@ -17248,7 +18271,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17268,7 +18294,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Int64",
@@ -17288,7 +18317,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17308,7 +18340,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Single",
@@ -17328,7 +18363,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17348,7 +18386,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Double",
@@ -17368,7 +18409,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17388,7 +18432,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Decimal",
@@ -17408,7 +18455,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Sum(IQueryable_1,Expression_1):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17428,7 +18478,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -17448,7 +18501,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17468,7 +18524,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -17488,7 +18547,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17508,7 +18570,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -17528,7 +18593,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17548,7 +18616,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -17568,7 +18639,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17588,7 +18662,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Decimal",
@@ -17608,7 +18685,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(System.Linq.IQueryable_1[[System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17628,7 +18708,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Double",
@@ -17648,7 +18731,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17668,7 +18754,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Single",
@@ -17688,7 +18777,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17708,7 +18800,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Decimal",
@@ -17728,7 +18823,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Average(IQueryable_1,Expression_1):System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -17748,7 +18846,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Aggregate(IQueryable_1,Expression_1):TSource",
@@ -17768,7 +18869,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Aggregate(IQueryable_1,TAccumulate,Expression_1):TAccumulate",
@@ -17788,7 +18892,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Aggregate(IQueryable_1,TAccumulate,Expression_1,Expression_1):TResult",
@@ -17808,7 +18915,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::AggregateBy(IQueryable_1,Expression_1,TAccumulate,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -17828,7 +18938,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::AggregateBy(IQueryable_1,Expression_1,Expression_1,Expression_1,IEqualityComparer_1):IQueryable_1",
@@ -17848,7 +18961,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::SkipLast(IQueryable_1,System.Int32):IQueryable_1",
@@ -17868,7 +18984,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::TakeLast(IQueryable_1,System.Int32):IQueryable_1",
@@ -17888,7 +19007,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Append(IQueryable_1,TSource):IQueryable_1",
@@ -17908,7 +19030,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         },
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Prepend(IQueryable_1,TSource):IQueryable_1",
@@ -17928,7 +19053,10 @@
           "visibility": "Public",
           "declaringClrType": "System.Linq.Queryable",
           "declaringAssemblyName": "System.Linq.Queryable",
-          "isExtensionMethod": true
+          "isExtensionMethod": true,
+          "emitSemantics": {
+            "callStyle": "receiver"
+          }
         }
       ],
       "properties": [],

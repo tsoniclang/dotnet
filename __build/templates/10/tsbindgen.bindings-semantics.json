@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "memberSemantics": [
+    {
+      "binding": {
+        "type": "System.Linq.Queryable"
+      },
+      "emitSemantics": {
+        "callStyle": "receiver"
+      }
+    },
+    {
+      "binding": {
+        "type": "System.Linq.Enumerable"
+      },
+      "emitSemantics": {
+        "callStyle": "static"
+      }
+    },
+    {
+      "binding": {
+        "type": "System.Linq.Enumerable",
+        "member": "ToArray"
+      },
+      "emitSemantics": {
+        "callStyle": "receiver"
+      }
+    },
+    {
+      "binding": {
+        "type": "System.Linq.Enumerable",
+        "member": "ToList"
+      },
+      "emitSemantics": {
+        "callStyle": "receiver"
+      }
+    }
+  ]
+}
