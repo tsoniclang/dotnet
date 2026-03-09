@@ -20,6 +20,7 @@ TSBINDGEN_DIR="$PROJECT_DIR/../tsbindgen"
 # .NET major to generate (publishes to versions/<major>/)
 DOTNET_MAJOR="${1:-10}"
 OUT_DIR="$PROJECT_DIR/versions/$DOTNET_MAJOR"
+SEMANTICS_FILE="$PROJECT_DIR/__build/templates/$DOTNET_MAJOR/tsbindgen.bindings-semantics.json"
 
 # .NET runtime path
 DOTNET_VERSION="${DOTNET_VERSION:-10.0.1}"
@@ -49,6 +50,11 @@ if [ ! -d "$TSBINDGEN_DIR" ]; then
     exit 1
 fi
 
+if [ ! -f "$SEMANTICS_FILE" ]; then
+    echo "ERROR: bindings semantics config not found at $SEMANTICS_FILE"
+    exit 1
+fi
+
 # Ensure output directory exists
 mkdir -p "$OUT_DIR"
 
@@ -74,7 +80,8 @@ echo "  Done"
 # Generate types with CLR-faithful naming (no casing transforms).
 echo "[3/3] Generating TypeScript declarations..."
 dotnet run --project src/tsbindgen/tsbindgen.csproj --no-build -c Release -- \
-    generate -d "$DOTNET_RUNTIME_PATH" -o "$OUT_DIR"
+    generate -d "$DOTNET_RUNTIME_PATH" -o "$OUT_DIR" \
+    --bindings-semantics "$SEMANTICS_FILE"
 
 cp -f "$PROJECT_DIR/README.md" "$OUT_DIR/README.md"
 cp -f "$PROJECT_DIR/LICENSE" "$OUT_DIR/LICENSE"
