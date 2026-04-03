@@ -2,8 +2,9 @@
 // Namespace: System.Net.Quic
 // Assembly: System.Net.Quic
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { List_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -70,8 +71,8 @@ export interface QuicClientConnectionOptions$instance extends QuicConnectionOpti
     readonly __tsonic_type_System_Net_Quic_QuicClientConnectionOptions: never;
 
     ClientAuthenticationOptions: SslClientAuthenticationOptions;
-    get LocalEndPoint(): IPEndPoint | undefined;
-    set LocalEndPoint(value: IPEndPoint | undefined);
+    get LocalEndPoint(): IPEndPoint | null;
+    set LocalEndPoint(value: IPEndPoint | null);
     RemoteEndPoint: EndPoint;
 }
 
@@ -91,7 +92,7 @@ export interface QuicConnection$instance extends System_Internal.IAsyncDisposabl
     readonly LocalEndPoint: IPEndPoint;
     readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
     readonly NegotiatedCipherSuite: TlsCipherSuite;
-    readonly RemoteCertificate: X509Certificate | undefined;
+    readonly RemoteCertificate: X509Certificate | null;
     readonly RemoteEndPoint: IPEndPoint;
     readonly SslProtocol: SslProtocols;
     readonly TargetHostName: string;
@@ -127,8 +128,8 @@ export interface QuicConnectionOptions$instance {
     KeepAliveInterval: TimeSpan;
     MaxInboundBidirectionalStreams: int;
     MaxInboundUnidirectionalStreams: int;
-    get StreamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
-    set StreamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined);
+    get StreamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | null;
+    set StreamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | null);
 }
 
 
@@ -253,8 +254,8 @@ export interface QuicStream$instance extends Stream {
     readonly WritesClosed: Task;
     WriteTimeout: int;
     Abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
     CompleteWrites(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;

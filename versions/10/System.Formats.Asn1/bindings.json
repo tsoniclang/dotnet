@@ -1349,75 +1349,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter\u002BScope",
-      "clrName": "System.Formats.Asn1.AsnWriter\u002BScope",
-      "assemblyName": "System.Formats.Asn1",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter\u002BScope::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100663629,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Formats.Asn1.AsnWriter\u002BScope",
-          "declaringAssemblyName": "System.Formats.Asn1",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100668530,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.IDisposable"
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnContentException",
       "clrName": "System.Formats.Asn1.AsnContentException",
       "assemblyName": "System.Formats.Asn1",
@@ -3254,6 +3185,54 @@
           "declaringAssemblyName": "System.Formats.Asn1"
         }
       ]
+    },
+    {
+      "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter\u002BScope",
+      "clrName": "System.Formats.Asn1.AsnWriter\u002BScope",
+      "assemblyName": "System.Formats.Asn1",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter\u002BScope::Dispose():System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100663629,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Dispose|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Formats.Asn1.AsnWriter\u002BScope",
+          "declaringAssemblyName": "System.Formats.Asn1",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnDecoder",

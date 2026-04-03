@@ -5,256 +5,6 @@
   ],
   "types": [
     {
-      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-      "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "typeParameters": [
-        "TResult"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
-          "clrName": "Invoke",
-          "metadataToken": 100701692,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
-          "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100701693,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean",
-          "clrName": "EndInvoke",
-          "metadataToken": 100701694,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean",
-          "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100701691,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-      "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "typeParameters": [
-        "TResult"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
-          "clrName": "Invoke",
-          "metadataToken": 100701696,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
-          "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):TResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100701697,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult",
-          "clrName": "EndInvoke",
-          "metadataToken": 100701698,
-          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult",
-          "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100701695,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
       "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry",
       "clrName": "System.IO.Enumeration.FileSystemEntry",
       "assemblyName": "System.Private.CoreLib",
@@ -693,6 +443,256 @@
           "parameterCount": 3,
           "visibility": "Public",
           "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+      "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "typeParameters": [
+        "TResult"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "clrName": "Invoke",
+          "metadataToken": 100701692,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
+          "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100701693,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean",
+          "clrName": "EndInvoke",
+          "metadataToken": 100701694,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean",
+          "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100701691,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
+      "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "typeParameters": [
+        "TResult"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
+          "clrName": "Invoke",
+          "metadataToken": 100701696,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
+          "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):TResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100701697,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult",
+          "clrName": "EndInvoke",
+          "metadataToken": 100701698,
+          "canonicalSignature": "(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult",
+          "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100701695,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ]

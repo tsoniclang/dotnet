@@ -16,23 +16,60 @@ export type IImmutableList<T> = Internal.IImmutableList_1<T>;
 export type IImmutableQueue<T> = Internal.IImmutableQueue_1<T>;
 export type IImmutableSet<T> = Internal.IImmutableSet_1<T>;
 export type IImmutableStack<T> = Internal.IImmutableStack_1<T>;
-export { ImmutableHashSet_1 as ImmutableHashSet } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableArray$instance as ImmutableArray_0 } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableArray_1 as ImmutableArray } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableDictionary$instance as ImmutableDictionary_0 } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableDictionary_2 as ImmutableDictionary } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableHashSet$instance as ImmutableHashSet_0 } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableInterlocked$instance as ImmutableInterlocked } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableList$instance as ImmutableList_0 } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableList_1 as ImmutableList } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableQueue$instance as ImmutableQueue_0 } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableQueue_1 as ImmutableQueue } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableSortedDictionary$instance as ImmutableSortedDictionary_0 } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableSortedDictionary_2 as ImmutableSortedDictionary } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableSortedSet$instance as ImmutableSortedSet_0 } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableSortedSet_1 as ImmutableSortedSet } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableStack$instance as ImmutableStack_0 } from './System.Collections.Immutable/internal/index.js';
-export { ImmutableStack_1 as ImmutableStack } from './System.Collections.Immutable/internal/index.js';
+
+// Multi-arity family value exports (arity-0 constructors/static namespaces)
+export const ImmutableArray: typeof Internal.ImmutableArray$instance;
+export const ImmutableHashSet: typeof Internal.ImmutableHashSet$instance;
+export const ImmutableList: typeof Internal.ImmutableList$instance;
+export const ImmutableQueue: typeof Internal.ImmutableQueue$instance;
+export const ImmutableSortedSet: typeof Internal.ImmutableSortedSet$instance;
+export const ImmutableStack: typeof Internal.ImmutableStack$instance;
+
+// Multi-arity family sentinel (detects unspecified type parameters)
+declare const __unspecified: unique symbol;
+export type __ = typeof __unspecified;
+
+export type ImmutableArray<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableArray :
+  Internal.ImmutableArray_1<T1>;
+
+export type ImmutableHashSet<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableHashSet :
+  Internal.ImmutableHashSet_1<T1>;
+
+export type ImmutableList<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableList :
+  Internal.ImmutableList_1<T1>;
+
+export type ImmutableQueue<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableQueue :
+  Internal.ImmutableQueue_1<T1>;
+
+export type ImmutableSortedSet<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableSortedSet :
+  Internal.ImmutableSortedSet_1<T1>;
+
+export type ImmutableStack<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ImmutableStack :
+  Internal.ImmutableStack_1<T1>;
+
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Collections_Immutable as ExtensionMethods } from './__internal/extensions/index.js';
 

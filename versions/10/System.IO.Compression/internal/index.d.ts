@@ -2,11 +2,9 @@
 // Namespace: System.IO.Compression
 // Assembly: System.IO.Compression, System.IO.Compression.Brotli, System.IO.Compression.ZipFile
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { OperationStatus } from "../../System.Buffers/internal/index.js";
@@ -128,8 +126,8 @@ export interface BrotliStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -184,8 +182,8 @@ export interface DeflateStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -246,8 +244,8 @@ export interface GZipStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -311,7 +309,7 @@ export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$in
     Dispose(): void;
     DisposeAsync(): ValueTask;
     DisposeAsyncCore(): ValueTask;
-    GetEntry(entryName: string): ZipArchiveEntry | undefined;
+    GetEntry(entryName: string): ZipArchiveEntry | null;
 }
 
 
@@ -319,8 +317,8 @@ export const ZipArchive: {
     new(stream: Stream): ZipArchive;
     new(stream: Stream, mode: ZipArchiveMode): ZipArchive;
     new(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean): ZipArchive;
-    new(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding): ZipArchive;
-    CreateAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    new(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding | null): ZipArchive;
+    CreateAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 };
 
 
@@ -382,9 +380,9 @@ export interface ZLibException$instance extends IOException, System_Runtime_Seri
 
 
 export const ZLibException: {
-    new(message: string, zlibErrorContext: string, zlibErrorCode: int, zlibErrorMessage: string): ZLibException;
+    new(message: string | null, zlibErrorContext: string | null, zlibErrorCode: int, zlibErrorMessage: string | null): ZLibException;
     new(): ZLibException;
-    new(message: string, innerException: Exception): ZLibException;
+    new(message: string | null, innerException: Exception | null): ZLibException;
 };
 
 
@@ -407,8 +405,8 @@ export interface ZLibStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -458,37 +456,37 @@ export type ZLibStream = ZLibStream$instance & __ZLibStream$views;
 
 
 export abstract class ZipFile$instance {
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding | null): void;
     static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
     static CreateFromDirectory(sourceDirectoryName: string, destination: Stream): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding | null): void;
     static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
     static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string): void;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task;
     static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
     static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task;
     static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
     static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, cancellationToken?: CancellationToken): Task;
     static ExtractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding | null, overwriteFiles: boolean): void;
+    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding | null): void;
     static ExtractToDirectory(source: Stream, destinationDirectoryName: string): void;
     static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding | null, overwriteFiles: boolean): void;
+    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding | null): void;
     static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string): void;
     static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding | null, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task;
     static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
     static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding | null, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task;
     static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static Open(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding): ZipArchive;
+    static Open(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding | null): ZipArchive;
     static Open(archiveFileName: string, mode: ZipArchiveMode): ZipArchive;
-    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding | null, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
     static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
     static OpenRead(archiveFileName: string): ZipArchive;
     static OpenReadAsync(archiveFileName: string, cancellationToken?: CancellationToken): Task_1<ZipArchive>;

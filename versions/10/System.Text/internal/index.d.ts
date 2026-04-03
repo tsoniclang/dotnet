@@ -2,11 +2,9 @@
 // Namespace: System.Text
 // Assembly: System.Memory, System.Private.CoreLib, System.Text.Encoding.CodePages
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IBufferWriter_1, OperationStatus, ReadOnlySequence_1 } from "../../System.Buffers/internal/index.js";
@@ -50,7 +48,7 @@ export interface Rune$instance extends System_Internal.IComparable_1$instance<Ru
     CompareTo(other: Rune): int;
     EncodeToUtf16(destination: Span_1<System_Internal.Char>): int;
     EncodeToUtf8(destination: Span_1<System_Internal.Byte>): int;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Rune): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -108,7 +106,7 @@ export interface __Rune$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Rune): boolean;
-    CompareTo(obj: unknown): int;
+    CompareTo(obj: JsValue): int;
     TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
 
@@ -170,46 +168,6 @@ export interface __SpanRuneEnumerator$views {
 
 export type SpanRuneEnumerator = SpanRuneEnumerator$instance & __SpanRuneEnumerator$views;
 
-
-export interface StringBuilder_AppendInterpolatedStringHandler$instance {
-    readonly __tsonic_type_System_Text_StringBuilder_AppendInterpolatedStringHandler: never;
-
-    AppendFormatted<T>(value: T): void;
-    AppendFormatted<T>(value: T, format: string): void;
-    AppendFormatted<T>(value: T, alignment: int): void;
-    AppendFormatted<T>(value: T, alignment: int, format: string): void;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): void;
-    AppendFormatted(value: string): void;
-    AppendFormatted(value: string, alignment?: int, format?: string): void;
-    AppendFormatted(value: unknown, alignment?: int, format?: string): void;
-    AppendLiteral(value: string): void;
-}
-
-
-export const StringBuilder_AppendInterpolatedStringHandler: {
-    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder): StringBuilder_AppendInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder, provider: IFormatProvider): StringBuilder_AppendInterpolatedStringHandler;
-};
-
-
-export type StringBuilder_AppendInterpolatedStringHandler = StringBuilder_AppendInterpolatedStringHandler$instance;
-
-export interface StringBuilder_ChunkEnumerator$instance {
-    readonly __tsonic_type_System_Text_StringBuilder_ChunkEnumerator: never;
-
-    readonly Current: ReadOnlyMemory_1<System_Internal.Char>;
-    GetEnumerator(): StringBuilder_ChunkEnumerator;
-    MoveNext(): boolean;
-}
-
-
-export const StringBuilder_ChunkEnumerator: {
-    new(): StringBuilder_ChunkEnumerator;
-};
-
-
-export type StringBuilder_ChunkEnumerator = StringBuilder_ChunkEnumerator$instance;
 
 export interface StringRuneEnumerator$instance {
     readonly __tsonic_type_System_Text_StringRuneEnumerator: never;
@@ -300,10 +258,10 @@ export type ASCIIEncoding = ASCIIEncoding$instance & __ASCIIEncoding$views;
 export interface CodePagesEncodingProvider$instance extends EncodingProvider {
     readonly __tsonic_type_System_Text_CodePagesEncodingProvider: never;
 
-    GetEncoding(codepage: int): Encoding | undefined;
-    GetEncoding(name: string): Encoding | undefined;
-    GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
-    GetEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
+    GetEncoding(codepage: int): Encoding | null;
+    GetEncoding(name: string): Encoding | null;
+    GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | null;
+    GetEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | null;
     GetEncodings(): IEnumerable_1<EncodingInfo>;
 }
 
@@ -333,8 +291,8 @@ export type CompositeFormat = CompositeFormat$instance;
 export interface Decoder$instance {
     readonly __tsonic_type_System_Text_Decoder: never;
 
-    get Fallback(): DecoderFallback | undefined;
-    set Fallback(value: DecoderFallback | undefined);
+    get Fallback(): DecoderFallback | null;
+    set Fallback(value: DecoderFallback | null);
     readonly FallbackBuffer: DecoderFallbackBuffer;
     Convert(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int, charCount: int, flush: boolean, bytesUsed: int, charsUsed: int, completed: boolean): void;
     Convert(bytes: ptr<byte>, byteCount: int, chars: ptr<char>, charCount: int, flush: boolean, bytesUsed: int, charsUsed: int, completed: boolean): void;
@@ -362,7 +320,7 @@ export interface DecoderExceptionFallback$instance extends DecoderFallback {
 
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): DecoderFallbackBuffer;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -429,16 +387,16 @@ export interface DecoderFallbackException$instance extends ArgumentException {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly BytesUnknown: byte[] | undefined;
+    readonly BytesUnknown: byte[] | null;
     readonly Index: int;
 }
 
 
 export const DecoderFallbackException: {
     new(): DecoderFallbackException;
-    new(message: string): DecoderFallbackException;
-    new(message: string, innerException: Exception): DecoderFallbackException;
-    new(message: string, bytesUnknown: byte[], index: int): DecoderFallbackException;
+    new(message: string | null): DecoderFallbackException;
+    new(message: string | null, innerException: Exception | null): DecoderFallbackException;
+    new(message: string | null, bytesUnknown: byte[] | null, index: int): DecoderFallbackException;
 };
 
 
@@ -455,7 +413,7 @@ export interface DecoderReplacementFallback$instance extends DecoderFallback {
     readonly DefaultString: string;
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): DecoderFallbackBuffer;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -489,8 +447,8 @@ export type DecoderReplacementFallbackBuffer = DecoderReplacementFallbackBuffer$
 export interface Encoder$instance {
     readonly __tsonic_type_System_Text_Encoder: never;
 
-    get Fallback(): EncoderFallback | undefined;
-    set Fallback(value: EncoderFallback | undefined);
+    get Fallback(): EncoderFallback | null;
+    set Fallback(value: EncoderFallback | null);
     readonly FallbackBuffer: EncoderFallbackBuffer;
     Convert(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int, byteCount: int, flush: boolean, charsUsed: int, bytesUsed: int, completed: boolean): void;
     Convert(chars: ptr<char>, charCount: int, bytes: ptr<byte>, byteCount: int, flush: boolean, charsUsed: int, bytesUsed: int, completed: boolean): void;
@@ -516,7 +474,7 @@ export interface EncoderExceptionFallback$instance extends EncoderFallback {
 
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): EncoderFallbackBuffer;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -595,8 +553,8 @@ export interface EncoderFallbackException$instance extends ArgumentException {
 
 export const EncoderFallbackException: {
     new(): EncoderFallbackException;
-    new(message: string): EncoderFallbackException;
-    new(message: string, innerException: Exception): EncoderFallbackException;
+    new(message: string | null): EncoderFallbackException;
+    new(message: string | null, innerException: Exception | null): EncoderFallbackException;
 };
 
 
@@ -613,7 +571,7 @@ export interface EncoderReplacementFallback$instance extends EncoderFallback {
     readonly DefaultString: string;
     readonly MaxCharCount: int;
     CreateFallbackBuffer(): EncoderFallbackBuffer;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -665,8 +623,8 @@ export interface Encoding$instance extends System_Internal.ICloneable$instance {
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
     readonly WebName: string;
     readonly WindowsCodePage: int;
-    Clone(): unknown;
-    Equals(value: unknown): boolean;
+    Clone(): JsValue;
+    Equals(value: JsValue | null): boolean;
     GetByteCount(chars: char[]): int;
     GetByteCount(s: string): int;
     GetByteCount(chars: char[], index: int, count: int): int;
@@ -707,7 +665,7 @@ export interface Encoding$instance extends System_Internal.ICloneable$instance {
 }
 
 
-export const Encoding: (abstract new() => Encoding) & (abstract new(codePage: int) => Encoding) & (abstract new(codePage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback) => Encoding) & {
+export const Encoding: (abstract new() => Encoding) & (abstract new(codePage: int) => Encoding) & (abstract new(codePage: int, encoderFallback: EncoderFallback | null, decoderFallback: DecoderFallback | null) => Encoding) & {
     readonly Default: Encoding;
     readonly ASCII: Encoding;
     readonly Latin1: Encoding;
@@ -741,7 +699,7 @@ export interface EncodingInfo$instance {
     readonly CodePage: int;
     readonly DisplayName: string;
     readonly Name: string;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetEncoding(): Encoding;
     GetHashCode(): int;
 }
@@ -757,10 +715,10 @@ export type EncodingInfo = EncodingInfo$instance;
 export interface EncodingProvider$instance {
     readonly __tsonic_type_System_Text_EncodingProvider: never;
 
-    GetEncoding(name: string): Encoding | undefined;
-    GetEncoding(codepage: int): Encoding | undefined;
-    GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
-    GetEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
+    GetEncoding(name: string): Encoding | null;
+    GetEncoding(codepage: int): Encoding | null;
+    GetEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | null;
+    GetEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | null;
     GetEncodings(): IEnumerable_1<EncodingInfo>;
 }
 
@@ -780,11 +738,11 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
     Length: int;
     readonly MaxCapacity: int;
     Append(value: char, repeatCount: int): StringBuilder;
-    Append(value: char[], startIndex: int, charCount: int): StringBuilder;
-    Append(value: string): StringBuilder;
-    Append(value: string, startIndex: int, count: int): StringBuilder;
-    Append(value: StringBuilder): StringBuilder;
-    Append(value: StringBuilder, startIndex: int, count: int): StringBuilder;
+    Append(value: char[] | null, startIndex: int, charCount: int): StringBuilder;
+    Append(value: string | null): StringBuilder;
+    Append(value: string | null, startIndex: int, count: int): StringBuilder;
+    Append(value: StringBuilder | null): StringBuilder;
+    Append(value: StringBuilder | null, startIndex: int, count: int): StringBuilder;
     Append(value: boolean): StringBuilder;
     Append(value: char): StringBuilder;
     Append(value: sbyte): StringBuilder;
@@ -798,59 +756,59 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
     Append(value: ushort): StringBuilder;
     Append(value: uint): StringBuilder;
     Append(value: ulong): StringBuilder;
-    Append(value: unknown): StringBuilder;
-    Append(value: char[]): StringBuilder;
+    Append(value: JsValue | null): StringBuilder;
+    Append(value: char[] | null): StringBuilder;
     Append(value: ReadOnlySpan_1<System_Internal.Char>): StringBuilder;
     Append(value: ReadOnlyMemory_1<System_Internal.Char>): StringBuilder;
     Append(handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
-    Append(provider: IFormatProvider, handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
+    Append(provider: IFormatProvider | null, handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
     Append(value: ptr<char>, valueCount: int): StringBuilder;
-    AppendFormat(format: string, arg0: unknown): StringBuilder;
-    AppendFormat(format: string, arg0: unknown, arg1: unknown): StringBuilder;
-    AppendFormat(format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
-    AppendFormat(format: string, ...args: unknown[]): StringBuilder;
-    AppendFormat(format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: string, arg0: unknown): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: string, ...args: unknown[]): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
-    AppendFormat<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): StringBuilder;
-    AppendFormat<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): StringBuilder;
-    AppendFormat<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: CompositeFormat, ...args: unknown[]): StringBuilder;
-    AppendFormat(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): StringBuilder;
-    AppendJoin(separator: string, ...values: unknown[]): StringBuilder;
-    AppendJoin(separator: string, values: ReadOnlySpan_1<unknown>): StringBuilder;
-    AppendJoin<T>(separator: string, values: IEnumerable_1<T>): StringBuilder;
-    AppendJoin(separator: string, ...values: string[]): StringBuilder;
-    AppendJoin(separator: string, values: ReadOnlySpan_1<System_Internal.String>): StringBuilder;
-    AppendJoin(separator: char, ...values: unknown[]): StringBuilder;
-    AppendJoin(separator: char, values: ReadOnlySpan_1<unknown>): StringBuilder;
+    AppendFormat(format: string, arg0: JsValue | null): StringBuilder;
+    AppendFormat(format: string, arg0: JsValue | null, arg1: JsValue | null): StringBuilder;
+    AppendFormat(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): StringBuilder;
+    AppendFormat(format: string, ...args: (JsValue | null)[]): StringBuilder;
+    AppendFormat(format: string, args: ReadOnlySpan_1<JsValue>): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: string, arg0: JsValue | null): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: string, arg0: JsValue | null, arg1: JsValue | null): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: string, ...args: (JsValue | null)[]): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: string, args: ReadOnlySpan_1<JsValue>): StringBuilder;
+    AppendFormat<TArg0>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0): StringBuilder;
+    AppendFormat<TArg0, TArg1>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1): StringBuilder;
+    AppendFormat<TArg0, TArg1, TArg2>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: CompositeFormat, ...args: (JsValue | null)[]): StringBuilder;
+    AppendFormat(provider: IFormatProvider | null, format: CompositeFormat, args: ReadOnlySpan_1<JsValue>): StringBuilder;
+    AppendJoin(separator: string | null, ...values: (JsValue | null)[]): StringBuilder;
+    AppendJoin(separator: string | null, values: ReadOnlySpan_1<JsValue>): StringBuilder;
+    AppendJoin<T>(separator: string | null, values: IEnumerable_1<T>): StringBuilder;
+    AppendJoin(separator: string | null, ...values: (string | null)[]): StringBuilder;
+    AppendJoin(separator: string | null, values: ReadOnlySpan_1<System_Internal.String>): StringBuilder;
+    AppendJoin(separator: char, ...values: (JsValue | null)[]): StringBuilder;
+    AppendJoin(separator: char, values: ReadOnlySpan_1<JsValue>): StringBuilder;
     AppendJoin<T>(separator: char, values: IEnumerable_1<T>): StringBuilder;
-    AppendJoin(separator: char, ...values: string[]): StringBuilder;
+    AppendJoin(separator: char, ...values: (string | null)[]): StringBuilder;
     AppendJoin(separator: char, values: ReadOnlySpan_1<System_Internal.String>): StringBuilder;
     AppendLine(): StringBuilder;
-    AppendLine(value: string): StringBuilder;
+    AppendLine(value: string | null): StringBuilder;
     AppendLine(handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
-    AppendLine(provider: IFormatProvider, handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
+    AppendLine(provider: IFormatProvider | null, handler: StringBuilder_AppendInterpolatedStringHandler): StringBuilder;
     Clear(): StringBuilder;
     CopyTo(sourceIndex: int, destination: char[], destinationIndex: int, count: int): void;
     CopyTo(sourceIndex: int, destination: Span_1<System_Internal.Char>, count: int): void;
     EnsureCapacity(capacity: int): int;
-    Equals(sb: StringBuilder): boolean;
+    Equals(sb: StringBuilder | null): boolean;
     Equals(span: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetChunks(): StringBuilder_ChunkEnumerator;
-    Insert(index: int, value: string, count: int): StringBuilder;
-    Insert(index: int, value: string): StringBuilder;
+    Insert(index: int, value: string | null, count: int): StringBuilder;
+    Insert(index: int, value: string | null): StringBuilder;
     Insert(index: int, value: boolean): StringBuilder;
     Insert(index: int, value: sbyte): StringBuilder;
     Insert(index: int, value: byte): StringBuilder;
     Insert(index: int, value: short): StringBuilder;
     Insert(index: int, value: char): StringBuilder;
-    Insert(index: int, value: char[]): StringBuilder;
-    Insert(index: int, value: char[], startIndex: int, charCount: int): StringBuilder;
+    Insert(index: int, value: char[] | null): StringBuilder;
+    Insert(index: int, value: char[] | null, startIndex: int, charCount: int): StringBuilder;
     Insert(index: int, value: int): StringBuilder;
     Insert(index: int, value: long): StringBuilder;
     Insert(index: int, value: float): StringBuilder;
@@ -859,12 +817,12 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
     Insert(index: int, value: ushort): StringBuilder;
     Insert(index: int, value: uint): StringBuilder;
     Insert(index: int, value: ulong): StringBuilder;
-    Insert(index: int, value: unknown): StringBuilder;
+    Insert(index: int, value: JsValue | null): StringBuilder;
     Insert(index: int, value: ReadOnlySpan_1<System_Internal.Char>): StringBuilder;
     Remove(startIndex: int, length: int): StringBuilder;
-    Replace(oldValue: string, newValue: string): StringBuilder;
+    Replace(oldValue: string, newValue: string | null): StringBuilder;
     Replace(oldValue: ReadOnlySpan_1<System_Internal.Char>, newValue: ReadOnlySpan_1<System_Internal.Char>): StringBuilder;
-    Replace(oldValue: string, newValue: string, startIndex: int, count: int): StringBuilder;
+    Replace(oldValue: string, newValue: string | null, startIndex: int, count: int): StringBuilder;
     Replace(oldValue: ReadOnlySpan_1<System_Internal.Char>, newValue: ReadOnlySpan_1<System_Internal.Char>, startIndex: int, count: int): StringBuilder;
     Replace(oldChar: char, newChar: char): StringBuilder;
     Replace(oldChar: char, newChar: char, startIndex: int, count: int): StringBuilder;
@@ -876,9 +834,9 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
 export const StringBuilder: {
     new(): StringBuilder;
     new(capacity: int): StringBuilder;
-    new(value: string): StringBuilder;
-    new(value: string, capacity: int): StringBuilder;
-    new(value: string, startIndex: int, length: int, capacity: int): StringBuilder;
+    new(value: string | null): StringBuilder;
+    new(value: string | null, capacity: int): StringBuilder;
+    new(value: string | null, startIndex: int, length: int, capacity: int): StringBuilder;
     new(capacity: int, maxCapacity: int): StringBuilder;
 };
 
@@ -890,13 +848,53 @@ export interface __StringBuilder$views {
 export type StringBuilder = StringBuilder$instance & __StringBuilder$views & { [index: number]: char; };
 
 
+export interface StringBuilder_AppendInterpolatedStringHandler$instance {
+    readonly __tsonic_type_System_Text_StringBuilder_AppendInterpolatedStringHandler: never;
+
+    AppendFormatted<T>(value: T): void;
+    AppendFormatted<T>(value: T, format: string | null): void;
+    AppendFormatted<T>(value: T, alignment: int): void;
+    AppendFormatted<T>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: string | null): void;
+    AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): void;
+    AppendLiteral(value: string): void;
+}
+
+
+export const StringBuilder_AppendInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder): StringBuilder_AppendInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder, provider: IFormatProvider | null): StringBuilder_AppendInterpolatedStringHandler;
+};
+
+
+export type StringBuilder_AppendInterpolatedStringHandler = StringBuilder_AppendInterpolatedStringHandler$instance;
+
+export interface StringBuilder_ChunkEnumerator$instance {
+    readonly __tsonic_type_System_Text_StringBuilder_ChunkEnumerator: never;
+
+    readonly Current: ReadOnlyMemory_1<System_Internal.Char>;
+    GetEnumerator(): StringBuilder_ChunkEnumerator;
+    MoveNext(): boolean;
+}
+
+
+export const StringBuilder_ChunkEnumerator: {
+    new(): StringBuilder_ChunkEnumerator;
+};
+
+
+export type StringBuilder_ChunkEnumerator = StringBuilder_ChunkEnumerator$instance;
+
 export interface UnicodeEncoding$instance extends Encoding$instance, System_Internal.ICloneable$instance {
     readonly __tsonic_type_System_Text_UnicodeEncoding: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
     GetByteCount(chars: ptr<char>, count: int): int;
@@ -954,7 +952,7 @@ export interface UTF32Encoding$instance extends Encoding$instance, System_Intern
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
     GetByteCount(chars: ptr<char>, count: int): int;
@@ -1010,7 +1008,7 @@ export interface UTF7Encoding$instance extends Encoding$instance, System_Interna
 
     readonly __tsonic_iface_System_ICloneable: never;
 
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(s: string): int;
     GetByteCount(chars: ptr<char>, count: int): int;
@@ -1065,7 +1063,7 @@ export interface UTF8Encoding$instance extends Encoding$instance, System_Interna
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Preamble: ReadOnlySpan_1<System_Internal.Byte>;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetByteCount(chars: char[], index: int, count: int): int;
     GetByteCount(chars: string): int;
     GetByteCount(chars: ptr<char>, count: int): int;

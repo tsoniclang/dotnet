@@ -2,11 +2,9 @@
 // Namespace: System.Threading.Tasks.Dataflow
 // Assembly: System.Threading.Tasks.Dataflow
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -41,11 +39,12 @@ export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlo
 
     readonly Completion: Task;
     Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | null;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
     Fault(exception: Exception): void;
     LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
     OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput> | null, consumeToAccept: boolean): DataflowMessageStatus;
     ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
     ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
 }
@@ -58,14 +57,14 @@ export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock
 
     readonly Completion: Task;
     Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | null;
     ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput;
     Fault(exception: Exception): void;
     LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
     ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
     ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
-    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    TryReceiveAll(items: IList_1<TOutput>): boolean;
+    TryReceive(filter: Predicate_1<TOutput> | null, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput> | null): boolean;
 }
 
 
@@ -76,7 +75,7 @@ export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock {
 
     readonly Completion: Task;
     Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | undefined;
+    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: boolean): TOutput | null;
     Fault(exception: Exception): void;
     LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
     ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
@@ -94,7 +93,7 @@ export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock {
     readonly Completion: Task;
     Complete(): void;
     Fault(exception: Exception): void;
-    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput> | null, consumeToAccept: boolean): DataflowMessageStatus;
 }
 
 
@@ -110,7 +109,7 @@ export interface DataflowMessageHeader$instance {
     readonly Id: long;
     readonly IsValid: boolean;
     Equals(other: DataflowMessageHeader): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -176,8 +175,8 @@ export interface BatchBlock_1$instance<T> {
     LinkTo(target: ITargetBlock_1<T[]>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
     TriggerBatch(): void;
-    TryReceive(filter: Predicate_1<T[]>, item: T[]): boolean;
-    TryReceiveAll(items: IList_1<T[]>): boolean;
+    TryReceive(filter: Predicate_1<T[]> | null, item: T[] | null): boolean;
+    TryReceiveAll(items: IList_1<T[]> | null): boolean;
 }
 
 
@@ -212,8 +211,8 @@ export interface BatchedJoinBlock_2$instance<T1, T2> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>>, item: Tuple_2<IList_1<T1>, IList_1<T2>>): boolean;
-    TryReceiveAll(items: IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>>): boolean;
+    TryReceive(filter: Predicate_1<Tuple_2<IList_1<T1>, IList_1<T2>>> | null, item: Tuple_2<IList_1<T1>, IList_1<T2>> | null): boolean;
+    TryReceiveAll(items: IList_1<Tuple_2<IList_1<T1>, IList_1<T2>>> | null): boolean;
 }
 
 
@@ -248,8 +247,8 @@ export interface BatchedJoinBlock_3$instance<T1, T2, T3> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>, item: Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>): boolean;
-    TryReceiveAll(items: IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>): boolean;
+    TryReceive(filter: Predicate_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>> | null, item: Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>> | null): boolean;
+    TryReceiveAll(items: IList_1<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>> | null): boolean;
 }
 
 
@@ -281,13 +280,13 @@ export interface BroadcastBlock_1$instance<T> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<T>, item: T): boolean;
+    TryReceive(filter: Predicate_1<T> | null, item: T): boolean;
 }
 
 
 export const BroadcastBlock_1: {
-    new<T>(cloningFunction: Func_2<T, T>): BroadcastBlock_1<T>;
-    new<T>(cloningFunction: Func_2<T, T>, dataflowBlockOptions: DataflowBlockOptions): BroadcastBlock_1<T>;
+    new<T>(cloningFunction: Func_2<T, T> | null): BroadcastBlock_1<T>;
+    new<T>(cloningFunction: Func_2<T, T> | null, dataflowBlockOptions: DataflowBlockOptions): BroadcastBlock_1<T>;
 };
 
 
@@ -315,8 +314,8 @@ export interface BufferBlock_1$instance<T> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<T>, item: T): boolean;
-    TryReceiveAll(items: IList_1<T>): boolean;
+    TryReceive(filter: Predicate_1<T> | null, item: T): boolean;
+    TryReceiveAll(items: IList_1<T> | null): boolean;
 }
 
 
@@ -416,8 +415,8 @@ export interface JoinBlock_2$instance<T1, T2> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<Tuple_2<T1, T2>>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<Tuple_2<T1, T2>>, item: Tuple_2<T1, T2>): boolean;
-    TryReceiveAll(items: IList_1<Tuple_2<T1, T2>>): boolean;
+    TryReceive(filter: Predicate_1<Tuple_2<T1, T2>> | null, item: Tuple_2<T1, T2> | null): boolean;
+    TryReceiveAll(items: IList_1<Tuple_2<T1, T2>> | null): boolean;
 }
 
 
@@ -451,8 +450,8 @@ export interface JoinBlock_3$instance<T1, T2, T3> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<Tuple_3<T1, T2, T3>>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>>, item: Tuple_3<T1, T2, T3>): boolean;
-    TryReceiveAll(items: IList_1<Tuple_3<T1, T2, T3>>): boolean;
+    TryReceive(filter: Predicate_1<Tuple_3<T1, T2, T3>> | null, item: Tuple_3<T1, T2, T3> | null): boolean;
+    TryReceiveAll(items: IList_1<Tuple_3<T1, T2, T3>> | null): boolean;
 }
 
 
@@ -486,8 +485,8 @@ export interface TransformBlock_2$instance<TInput, TOutput> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    TryReceiveAll(items: IList_1<TOutput>): boolean;
+    TryReceive(filter: Predicate_1<TOutput> | null, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput> | null): boolean;
 }
 
 
@@ -522,8 +521,8 @@ export interface TransformManyBlock_2$instance<TInput, TOutput> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<TOutput>, item: TOutput): boolean;
-    TryReceiveAll(items: IList_1<TOutput>): boolean;
+    TryReceive(filter: Predicate_1<TOutput> | null, item: TOutput): boolean;
+    TryReceiveAll(items: IList_1<TOutput> | null): boolean;
 }
 
 
@@ -556,13 +555,13 @@ export interface WriteOnceBlock_1$instance<T> {
     Complete(): void;
     LinkTo(target: ITargetBlock_1<T>, linkOptions: DataflowLinkOptions): IDisposable;
     ToString(): string;
-    TryReceive(filter: Predicate_1<T>, item: T): boolean;
+    TryReceive(filter: Predicate_1<T> | null, item: T): boolean;
 }
 
 
 export const WriteOnceBlock_1: {
-    new<T>(cloningFunction: Func_2<T, T>): WriteOnceBlock_1<T>;
-    new<T>(cloningFunction: Func_2<T, T>, dataflowBlockOptions: DataflowBlockOptions): WriteOnceBlock_1<T>;
+    new<T>(cloningFunction: Func_2<T, T> | null): WriteOnceBlock_1<T>;
+    new<T>(cloningFunction: Func_2<T, T> | null, dataflowBlockOptions: DataflowBlockOptions): WriteOnceBlock_1<T>;
 };
 
 

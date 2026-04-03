@@ -2,8 +2,9 @@
 // Namespace: System.Security.Policy
 // Assembly: System.Security.AccessControl
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -21,19 +22,19 @@ export interface Evidence$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     Locked: boolean;
-    readonly SyncRoot: unknown;
-    AddAssembly(id: unknown): void;
+    readonly SyncRoot: JsValue;
+    AddAssembly(id: JsValue): void;
     AddAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
-    AddHost(id: unknown): void;
+    AddHost(id: JsValue): void;
     AddHostEvidence<T extends EvidenceBase>(evidence: T): void;
     Clear(): void;
-    Clone(): Evidence | undefined;
+    Clone(): Evidence | null;
     CopyTo(array: ClrArray, index: int): void;
     GetAssemblyEnumerator(): IEnumerator;
-    GetAssemblyEvidence<T extends EvidenceBase>(): T | undefined;
+    GetAssemblyEvidence<T extends EvidenceBase>(): T | null;
     GetEnumerator(): IEnumerator;
     GetHostEnumerator(): IEnumerator;
-    GetHostEvidence<T extends EvidenceBase>(): T | undefined;
+    GetHostEvidence<T extends EvidenceBase>(): T | null;
     Merge(evidence: Evidence): void;
     RemoveType(t: Type): void;
 }
@@ -41,7 +42,7 @@ export interface Evidence$instance {
 
 export const Evidence: {
     new(): Evidence;
-    new(hostEvidence: unknown[], assemblyEvidence: unknown[]): Evidence;
+    new(hostEvidence: JsValue[], assemblyEvidence: JsValue[]): Evidence;
     new(evidence: Evidence): Evidence;
     new(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]): Evidence;
 };
@@ -58,7 +59,7 @@ export type Evidence = Evidence$instance & __Evidence$views;
 export interface EvidenceBase$instance {
     readonly __tsonic_type_System_Security_Policy_EvidenceBase: never;
 
-    Clone(): EvidenceBase | undefined;
+    Clone(): EvidenceBase | null;
 }
 
 

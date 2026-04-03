@@ -2,11 +2,9 @@
 // Namespace: System.Xml.Xsl.Runtime
 // Assembly: System.Private.Xml
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -485,8 +483,8 @@ export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 export interface StringConcat$instance {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_StringConcat: never;
 
-    get Delimiter(): string | undefined;
-    set Delimiter(value: string | undefined);
+    get Delimiter(): string | null;
+    set Delimiter(value: string | null);
     Clear(): void;
     Concat(value: string): void;
     GetResult(): string;
@@ -622,7 +620,7 @@ export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 export interface XmlCollation$instance {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlCollation: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -652,7 +650,7 @@ export interface XmlNavigatorFilter$instance {
 
     IsFiltered(navigator: XPathNavigator): boolean;
     MoveToContent(navigator: XPathNavigator): boolean;
-    MoveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
+    MoveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator | null): boolean;
     MoveToFollowingSibling(navigator: XPathNavigator): boolean;
     MoveToNextContent(navigator: XPathNavigator): boolean;
     MoveToPreviousSibling(navigator: XPathNavigator): boolean;
@@ -669,11 +667,11 @@ export interface XmlQueryContext$instance {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQueryContext: never;
 
     readonly DefaultDataSource: XPathNavigator;
-    readonly DefaultNameTable: XmlNameTable | undefined;
+    readonly DefaultNameTable: XmlNameTable | null;
     readonly QueryNameTable: XmlNameTable;
-    GetDataSource(uriRelative: string, uriBase: string): XPathNavigator | undefined;
-    GetLateBoundObject(namespaceUri: string): unknown | undefined;
-    GetParameter(localName: string, namespaceUri: string): unknown | undefined;
+    GetDataSource(uriRelative: string, uriBase: string | null): XPathNavigator | null;
+    GetLateBoundObject(namespaceUri: string): JsValue | null;
+    GetParameter(localName: string, namespaceUri: string): JsValue | null;
     InvokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
     LateBoundFunctionExists(name: string, namespaceUri: string): boolean;
     OnXsltMessageEncountered(message: string): void;
@@ -764,7 +762,7 @@ export interface XmlQueryOutput$instance extends XmlWriter, System_Internal.IAsy
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly WriteState: WriteState;
-    readonly XmlLang: string | string | undefined;
+    readonly XmlLang: string | string | null;
     readonly XmlSpace: XmlSpace;
     Close(): void;
     EndCopy(navigator: XPathNavigator): void;
@@ -775,12 +773,12 @@ export interface XmlQueryOutput$instance extends XmlWriter, System_Internal.IAsy
     StartElementContentUnchecked(): void;
     StartTree(rootType: XPathNodeType): void;
     WriteBase64(buffer: byte[], index: int, count: int): void;
-    WriteCData(text: string): void;
+    WriteCData(text: string | null): void;
     WriteCharEntity(ch: char): void;
     WriteChars(buffer: char[], index: int, count: int): void;
-    WriteComment(text: string): void;
-    WriteCommentString(text: string): void;
-    WriteDocType(name: string, pubid: string, sysid: string, subset: string): void;
+    WriteComment(text: string | null): void;
+    WriteCommentString(text: string | null): void;
+    WriteDocType(name: string, pubid: string | null, sysid: string | null, subset: string | null): void;
     WriteEndAttribute(): void;
     WriteEndAttributeUnchecked(): void;
     WriteEndComment(): void;
@@ -797,26 +795,26 @@ export interface XmlQueryOutput$instance extends XmlWriter, System_Internal.IAsy
     WriteNamespaceDeclaration(prefix: string, ns: string): void;
     WriteNamespaceDeclarationUnchecked(prefix: string, ns: string): void;
     WriteNamespaceString(text: string): void;
-    WriteProcessingInstruction(target: string, text: string): void;
-    WriteProcessingInstructionString(text: string): void;
+    WriteProcessingInstruction(target: string, text: string | null): void;
+    WriteProcessingInstructionString(text: string | null): void;
     WriteRaw(buffer: char[], index: int, count: int): void;
     WriteRaw(data: string): void;
     WriteRawUnchecked(text: string): void;
-    WriteStartAttribute(prefix: string, localName: string, ns: string): void;
-    WriteStartAttribute(localName: string, ns: string): void;
+    WriteStartAttribute(prefix: string | null, localName: string, ns: string | null): void;
+    WriteStartAttribute(localName: string, ns: string | null): void;
     WriteStartAttribute(localName: string): void;
     WriteStartAttributeComputed(tagName: string, prefixMappingsIndex: int): void;
     WriteStartAttributeComputed(tagName: string, ns: string): void;
     WriteStartAttributeComputed(navigator: XPathNavigator): void;
     WriteStartAttributeComputed(name: XmlQualifiedName): void;
     WriteStartAttributeLocalName(localName: string): void;
-    WriteStartAttributeUnchecked(prefix: string, localName: string, ns: string): void;
+    WriteStartAttributeUnchecked(prefix: string | null, localName: string, ns: string | null): void;
     WriteStartAttributeUnchecked(localName: string): void;
     WriteStartComment(): void;
     WriteStartDocument(): void;
     WriteStartDocument(standalone: boolean): void;
-    WriteStartElement(prefix: string, localName: string, ns: string): void;
-    WriteStartElement(localName: string, ns: string): void;
+    WriteStartElement(prefix: string | null, localName: string, ns: string | null): void;
+    WriteStartElement(localName: string, ns: string | null): void;
     WriteStartElement(localName: string): void;
     WriteStartElementComputed(tagName: string, prefixMappingsIndex: int): void;
     WriteStartElementComputed(tagName: string, ns: string): void;
@@ -828,10 +826,10 @@ export interface XmlQueryOutput$instance extends XmlWriter, System_Internal.IAsy
     WriteStartNamespace(prefix: string): void;
     WriteStartProcessingInstruction(target: string): void;
     WriteStartRoot(): void;
-    WriteString(text: string): void;
+    WriteString(text: string | null): void;
     WriteStringUnchecked(text: string): void;
     WriteSurrogateCharEntity(lowChar: char, highChar: char): void;
-    WriteWhitespace(ws: string): void;
+    WriteWhitespace(ws: string | null): void;
     XsltCopyOf(navigator: XPathNavigator): void;
 }
 
@@ -856,14 +854,14 @@ export interface XmlQueryRuntime$instance {
     readonly Output: XmlQueryOutput;
     readonly XsltFunctions: XsltLibrary;
     AddNewIndex(context: XPathNavigator, indexId: int, index: XmlILIndex): void;
-    ChangeTypeXsltArgument(indexType: int, value: unknown, destinationType: Type): unknown;
-    ChangeTypeXsltResult(indexType: int, value: unknown): unknown;
+    ChangeTypeXsltArgument(indexType: int, value: JsValue, destinationType: Type): JsValue;
+    ChangeTypeXsltResult(indexType: int, value: JsValue): JsValue;
     ComparePosition(navigatorThis: XPathNavigator, navigatorThat: XPathNavigator): int;
-    CreateCollation(collation: string): XmlCollation | undefined;
-    DebugGetGlobalNames(): string[] | undefined;
-    DebugGetGlobalValue(name: string): IList | undefined;
-    DebugGetXsltValue(seq: IList): unknown | undefined;
-    DebugSetGlobalValue(name: string, value: unknown): void;
+    CreateCollation(collation: string): XmlCollation | null;
+    DebugGetGlobalNames(): string[] | null;
+    DebugGetGlobalValue(name: string): IList | null;
+    DebugGetXsltValue(seq: IList | null): JsValue | null;
+    DebugSetGlobalValue(name: string, value: JsValue): void;
     DocOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
     EarlyBoundFunctionExists(name: string, namespaceUri: string): boolean;
     EndRtfConstruction(output: XmlQueryOutput): XPathNavigator;
@@ -872,8 +870,8 @@ export interface XmlQueryRuntime$instance {
     GenerateId(navigator: XPathNavigator): string;
     GetAtomizedName(index: int): string;
     GetCollation(index: int): XmlCollation;
-    GetEarlyBoundObject(index: int): unknown;
-    GetGlobalValue(index: int): unknown;
+    GetEarlyBoundObject(index: int): JsValue;
+    GetGlobalValue(index: int): JsValue;
     GetNameFilter(index: int): XmlNavigatorFilter;
     GetTypeFilter(nodeType: XPathNodeType): XmlNavigatorFilter;
     IsGlobalComputed(index: int): boolean;
@@ -886,7 +884,7 @@ export interface XmlQueryRuntime$instance {
     ParseTagName(tagName: string, indexPrefixMappings: int): XmlQualifiedName;
     ParseTagName(tagName: string, ns: string): XmlQualifiedName;
     SendMessage(message: string): void;
-    SetGlobalValue(index: int, value: unknown): void;
+    SetGlobalValue(index: int, value: JsValue): void;
     StartRtfConstruction(baseUri: string, output: XmlQueryOutput): void;
     StartSequenceConstruction(output: XmlQueryOutput): void;
     TextRtfConstruction(text: string, baseUri: string): XPathNavigator;
@@ -928,7 +926,7 @@ export const XmlQuerySequence_1: {
     new<T>(capacity: int): XmlQuerySequence_1<T>;
     new<T>(array: T[], size: int): XmlQuerySequence_1<T>;
     new<T>(value: T): XmlQuerySequence_1<T>;
-    readonly Empty: unknown;
+    readonly Empty: <T>() => XmlQuerySequence_1<T>;
     CreateOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
     CreateOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 };

@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.Intrinsics.Arm
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { Vector_1 } from "../../System.Numerics/internal/index.js";
@@ -1834,7 +1832,7 @@ export const AdvSimd: {
 
 export type AdvSimd = AdvSimd$instance;
 
-export interface AdvSimd_Arm64$instance {
+export interface AdvSimd_Arm64$instance extends ArmBase_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
 
 }
@@ -2375,6 +2373,7 @@ export const AdvSimd_Arm64: {
     ReciprocalStep(left: Vector128_1<System_Internal.Double>, right: Vector128_1<System_Internal.Double>): Vector128_1<System_Internal.Double>;
     ReciprocalStepScalar(left: Vector64_1<System_Internal.Double>, right: Vector64_1<System_Internal.Double>): Vector64_1<System_Internal.Double>;
     ReciprocalStepScalar(left: Vector64_1<System_Internal.Single>, right: Vector64_1<System_Internal.Single>): Vector64_1<System_Internal.Single>;
+    ReverseElementBits(value: Vector128_1<System_Internal.Byte>): Vector128_1<System_Internal.Byte>;
     ReverseElementBits(value: Vector128_1<System_Internal.SByte>): Vector128_1<System_Internal.SByte>;
     ReverseElementBits(value: Vector64_1<System_Internal.Byte>): Vector64_1<System_Internal.Byte>;
     ReverseElementBits(value: Vector64_1<System_Internal.SByte>): Vector64_1<System_Internal.SByte>;
@@ -2724,7 +2723,7 @@ export const Aes: {
 
 export type Aes = Aes$instance;
 
-export interface Aes_Arm64$instance {
+export interface Aes_Arm64$instance extends ArmBase_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Aes_Arm64: never;
 
 }
@@ -2795,7 +2794,7 @@ export const Crc32: {
 
 export type Crc32 = Crc32$instance;
 
-export interface Crc32_Arm64$instance {
+export interface Crc32_Arm64$instance extends ArmBase_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Crc32_Arm64: never;
 
 }
@@ -2835,7 +2834,7 @@ export const Dp: {
 
 export type Dp = Dp$instance;
 
-export interface Dp_Arm64$instance {
+export interface Dp_Arm64$instance extends AdvSimd_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Dp_Arm64: never;
 
 }
@@ -2885,7 +2884,7 @@ export const Rdm: {
 
 export type Rdm = Rdm$instance;
 
-export interface Rdm_Arm64$instance {
+export interface Rdm_Arm64$instance extends AdvSimd_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Rdm_Arm64: never;
 
 }
@@ -2929,7 +2928,7 @@ export const Sha1: {
 
 export type Sha1 = Sha1$instance;
 
-export interface Sha1_Arm64$instance {
+export interface Sha1_Arm64$instance extends ArmBase_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha1_Arm64: never;
 
 }
@@ -2959,7 +2958,7 @@ export const Sha256: {
 
 export type Sha256 = Sha256$instance;
 
-export interface Sha256_Arm64$instance {
+export interface Sha256_Arm64$instance extends ArmBase_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha256_Arm64: never;
 
 }
@@ -4470,7 +4469,7 @@ export const Sve: {
 
 export type Sve = Sve$instance;
 
-export interface Sve_Arm64$instance {
+export interface Sve_Arm64$instance extends AdvSimd_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve_Arm64: never;
 
 }
@@ -5141,7 +5140,7 @@ export const Sve2: {
 
 export type Sve2 = Sve2$instance;
 
-export interface Sve2_Arm64$instance {
+export interface Sve2_Arm64$instance extends Sve_Arm64 {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve2_Arm64: never;
 
 }

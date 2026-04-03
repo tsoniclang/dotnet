@@ -2,8 +2,9 @@
 // Namespace: System.Security.Authentication
 // Assembly: System.Net.Primitives, System.Net.Security
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IDictionary } from "../../System.Collections/internal/index.js";
@@ -67,8 +68,8 @@ export interface AuthenticationException$instance extends SystemException, Syste
 
 export const AuthenticationException: {
     new(): AuthenticationException;
-    new(message: string): AuthenticationException;
-    new(message: string, innerException: Exception): AuthenticationException;
+    new(message: string | null): AuthenticationException;
+    new(message: string | null, innerException: Exception | null): AuthenticationException;
 };
 
 
@@ -89,8 +90,8 @@ export interface InvalidCredentialException$instance extends AuthenticationExcep
 
 export const InvalidCredentialException: {
     new(): InvalidCredentialException;
-    new(message: string): InvalidCredentialException;
-    new(message: string, innerException: Exception): InvalidCredentialException;
+    new(message: string | null): InvalidCredentialException;
+    new(message: string | null, innerException: Exception | null): InvalidCredentialException;
 };
 
 

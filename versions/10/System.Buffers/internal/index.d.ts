@@ -2,11 +2,9 @@
 // Namespace: System.Buffers
 // Assembly: System.Memory, System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
@@ -74,7 +72,7 @@ export interface MemoryHandle$instance extends System_Internal.IDisposable$insta
 
 
 export const MemoryHandle: {
-    new(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable): MemoryHandle;
+    new(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable | null): MemoryHandle;
 };
 
 
@@ -118,7 +116,7 @@ export const ReadOnlySequence_1: {
     new<T>(array: T[]): ReadOnlySequence_1<T>;
     new<T>(array: T[], start: int, length: int): ReadOnlySequence_1<T>;
     new<T>(memory: ReadOnlyMemory_1<T>): ReadOnlySequence_1<T>;
-    readonly Empty: unknown;
+    readonly Empty: <T>() => ReadOnlySequence_1<T>;
 };
 
 
@@ -139,7 +137,7 @@ export const ReadOnlySequence_1_Enumerator: {
 
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
-export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
+export interface SequenceReader_1$instance<T extends NonNullable<JsValue> & (IEquatable_1<T> | number | string | boolean)> {
     readonly __tsonic_type_System_Buffers_SequenceReader_1: never;
 
     Consumed: long;
@@ -181,7 +179,7 @@ export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number |
 
 
 export const SequenceReader_1: {
-    new<T extends (IEquatable_1<T> | number | string | boolean)>(sequence: ReadOnlySequence_1<T>): SequenceReader_1<T>;
+    new<T extends NonNullable<JsValue> & (IEquatable_1<T> | number | string | boolean)>(sequence: ReadOnlySequence_1<T>): SequenceReader_1<T>;
 };
 
 
@@ -196,7 +194,7 @@ export interface StandardFormat$instance {
     readonly IsDefault: boolean;
     readonly Precision: byte;
     readonly Symbol: char;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: StandardFormat): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -208,7 +206,7 @@ export const StandardFormat: {
     readonly NoPrecision: byte;
     readonly MaxPrecision: byte;
     Parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
-    Parse(format: string): StandardFormat;
+    Parse(format: string | null): StandardFormat;
     TryParse(format: ReadOnlySpan_1<System_Internal.Char>, result: StandardFormat): boolean;
 };
 
@@ -263,7 +261,7 @@ export interface ArrayPool_1$instance<T> {
 
 
 export const ArrayPool_1: (abstract new<T>() => ArrayPool_1<T>) & {
-    readonly Shared: unknown;
+    readonly Shared: <T>() => ArrayPool_1<T>;
     Create<T>(): ArrayPool_1<T>;
     Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
 };
@@ -313,7 +311,7 @@ export interface MemoryPool_1$instance<T> {
 
 
 export const MemoryPool_1: (abstract new<T>() => MemoryPool_1<T>) & {
-    readonly Shared: unknown;
+    readonly Shared: <T>() => MemoryPool_1<T>;
 };
 
 
@@ -328,8 +326,8 @@ export interface ReadOnlySequenceSegment_1$instance<T> {
     readonly __tsonic_type_System_Buffers_ReadOnlySequenceSegment_1: never;
 
     Memory: ReadOnlyMemory_1<T>;
-    get Next(): ReadOnlySequenceSegment_1<T> | undefined;
-    set Next(value: ReadOnlySequenceSegment_1<T> | undefined);
+    get Next(): ReadOnlySequenceSegment_1<T> | null;
+    set Next(value: ReadOnlySequenceSegment_1<T> | null);
     RunningIndex: long;
 }
 

@@ -8708,7 +8708,10 @@
           "isLiteral": false,
           "visibility": "Public",
           "declaringClrType": "System.Xml.Xsl.Runtime.XmlQuerySequence\u00601",
-          "declaringAssemblyName": "System.Private.Xml"
+          "declaringAssemblyName": "System.Private.Xml",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "field"
+          }
         }
       ],
       "events": [],

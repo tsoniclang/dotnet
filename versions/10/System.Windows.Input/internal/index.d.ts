@@ -2,8 +2,9 @@
 // Namespace: System.Windows.Input
 // Assembly: System.ObjectModel
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -12,8 +13,8 @@ import type { Boolean as ClrBoolean, EventHandler, Object as ClrObject, Void } f
 export interface ICommand$instance {
     readonly __tsonic_iface_System_Windows_Input_ICommand: never;
 
-    CanExecute(parameter: unknown): boolean;
-    Execute(parameter: unknown): void;
+    CanExecute(parameter: JsValue | null): boolean;
+    Execute(parameter: JsValue | null): void;
 }
 
 

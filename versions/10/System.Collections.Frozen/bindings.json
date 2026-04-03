@@ -5,579 +5,6 @@
   ],
   "types": [
     {
-      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-      "assemblyName": "System.Collections.Immutable",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 3,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "typeParameters": [
-        "TKey",
-        "TValue",
-        "TAlternateKey"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::ContainsKey(TAlternateKey):System.Boolean",
-          "clrName": "ContainsKey",
-          "metadataToken": 100665048,
-          "canonicalSignature": "(TAlternateKey):System.Boolean",
-          "normalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
-          "metadataToken": 100665049,
-          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
-          "normalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Dictionary:FrozenDictionary_2",
-          "clrName": "Dictionary",
-          "metadataToken": 385876300,
-          "canonicalSignature": ":FrozenDictionary_2",
-          "normalizedSignature": "Dictionary|:FrozenDictionary_2|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
-        },
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Item[TAlternateKey]:TValue",
-          "clrName": "Item",
-          "metadataToken": 385876301,
-          "canonicalSignature": "[TAlternateKey]:TValue",
-          "normalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": true,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-      "assemblyName": "System.Collections.Immutable",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 2,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
-          "typeArguments": [
-            "KeyValuePair_2[[TKey,TValue]]"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        }
-      ],
-      "typeParameters": [
-        "TKey",
-        "TValue"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100665040,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
-          "clrName": "Reset",
-          "metadataToken": 100703848,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100668530,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100703846,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::Current:KeyValuePair_2",
-          "clrName": "Current",
-          "metadataToken": 385876298,
-          "canonicalSignature": ":KeyValuePair_2",
-          "normalizedSignature": "Current|:KeyValuePair_2|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
-          "clrName": "Current",
-          "metadataToken": 385881426,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Current|:T|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
-          "clrName": "Current",
-          "metadataToken": 385881267,
-          "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.IEnumerator",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-      "assemblyName": "System.Collections.Immutable",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 2,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "typeParameters": [
-        "T",
-        "TAlternate"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Contains(TAlternate):System.Boolean",
-          "clrName": "Contains",
-          "metadataToken": 100665122,
-          "canonicalSignature": "(TAlternate):System.Boolean",
-          "normalizedSignature": "Contains|(TAlternate):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::TryGetValue(TAlternate,T\u0026):System.Boolean",
-          "clrName": "TryGetValue",
-          "metadataToken": 100665123,
-          "canonicalSignature": "(TAlternate,T\u0026):System.Boolean",
-          "normalizedSignature": "TryGetValue|(TAlternate,T\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Set:FrozenSet_1",
-          "clrName": "Set",
-          "metadataToken": 385876315,
-          "canonicalSignature": ":FrozenSet_1",
-          "normalizedSignature": "Set|:FrozenSet_1|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-      "assemblyName": "System.Collections.Immutable",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
-          "typeArguments": [
-            "T"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        }
-      ],
-      "typeParameters": [
-        "T"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100665115,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
-          "clrName": "Reset",
-          "metadataToken": 100703848,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100668530,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100703846,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::Current:T",
-          "clrName": "Current",
-          "metadataToken": 385876313,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Current|:T|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
-          "clrName": "Current",
-          "metadataToken": 385881267,
-          "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.IEnumerator",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
-          "clrName": "Current",
-          "metadataToken": 385881426,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Current|:T|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602",
       "clrName": "System.Collections.Frozen.FrozenDictionary\u00602",
       "assemblyName": "System.Collections.Immutable",
@@ -1229,7 +656,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Comparer:IEqualityComparer_1",
@@ -1605,6 +1035,201 @@
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+      "assemblyName": "System.Collections.Immutable",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 3,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "typeParameters": [
+        "TKey",
+        "TValue",
+        "TAlternateKey"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::ContainsKey(TAlternateKey):System.Boolean",
+          "clrName": "ContainsKey",
+          "metadataToken": 100665048,
+          "canonicalSignature": "(TAlternateKey):System.Boolean",
+          "normalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
+          "clrName": "TryGetValue",
+          "metadataToken": 100665049,
+          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
+          "normalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Dictionary:FrozenDictionary_2",
+          "clrName": "Dictionary",
+          "metadataToken": 385876300,
+          "canonicalSignature": ":FrozenDictionary_2",
+          "normalizedSignature": "Dictionary|:FrozenDictionary_2|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable"
+        },
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Item[TAlternateKey]:TValue",
+          "clrName": "Item",
+          "metadataToken": 385876301,
+          "canonicalSignature": "[TAlternateKey]:TValue",
+          "normalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": true,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+      "assemblyName": "System.Collections.Immutable",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 2,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
+          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "typeArguments": [
+            "KeyValuePair_2[[TKey,TValue]]"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
+          "clrName": "System.Collections.IEnumerator"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TValue"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::MoveNext():System.Boolean",
+          "clrName": "MoveNext",
+          "metadataToken": 100665040,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::Current:KeyValuePair_2",
+          "clrName": "Current",
+          "metadataToken": 385876298,
+          "canonicalSignature": ":KeyValuePair_2",
+          "normalizedSignature": "Current|:KeyValuePair_2|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+          "declaringAssemblyName": "System.Collections.Immutable"
         }
       ],
       "fields": [],
@@ -2116,15 +1741,15 @@
           "sourceInterface": "System.Collections.Generic.ISet\u00601"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
-          "clrName": "CopyTo",
-          "metadataToken": 100704541,
-          "canonicalSignature": "(T[],System.Int32):System.Void",
-          "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
+          "clrName": "Contains",
+          "metadataToken": 100704540,
+          "canonicalSignature": "(T):System.Boolean",
+          "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
           "provenance": "ExplicitView",
           "arity": 0,
-          "parameterCount": 2,
+          "parameterCount": 1,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -2137,15 +1762,15 @@
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
-          "metadataToken": 100704540,
-          "canonicalSignature": "(T):System.Boolean",
-          "normalizedSignature": "Contains|(T):System.Boolean|static=false",
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
+          "clrName": "CopyTo",
+          "metadataToken": 100704541,
+          "canonicalSignature": "(T[],System.Int32):System.Void",
+          "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
           "provenance": "ExplicitView",
           "arity": 0,
-          "parameterCount": 1,
+          "parameterCount": 2,
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -2218,7 +1843,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Comparer:IEqualityComparer_1",
@@ -2396,6 +2024,180 @@
           "sourceInterface": "System.Collections.ICollection",
           "declaringClrType": "System.Collections.ICollection",
           "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+      "assemblyName": "System.Collections.Immutable",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 2,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "typeParameters": [
+        "T",
+        "TAlternate"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Contains(TAlternate):System.Boolean",
+          "clrName": "Contains",
+          "metadataToken": 100665122,
+          "canonicalSignature": "(TAlternate):System.Boolean",
+          "normalizedSignature": "Contains|(TAlternate):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::TryGetValue(TAlternate,T\u0026):System.Boolean",
+          "clrName": "TryGetValue",
+          "metadataToken": 100665123,
+          "canonicalSignature": "(TAlternate,T\u0026):System.Boolean",
+          "normalizedSignature": "TryGetValue|(TAlternate,T\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Set:FrozenSet_1",
+          "clrName": "Set",
+          "metadataToken": 385876315,
+          "canonicalSignature": ":FrozenSet_1",
+          "normalizedSignature": "Set|:FrozenSet_1|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Immutable"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+      "assemblyName": "System.Collections.Immutable",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
+          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "typeArguments": [
+            "T"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
+          "clrName": "System.Collections.IEnumerator"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "typeParameters": [
+        "T"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::MoveNext():System.Boolean",
+          "clrName": "MoveNext",
+          "metadataToken": 100665115,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::Current:T",
+          "clrName": "Current",
+          "metadataToken": 385876313,
+          "canonicalSignature": ":T",
+          "normalizedSignature": "Current|:T|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+          "declaringAssemblyName": "System.Collections.Immutable"
         }
       ],
       "fields": [],

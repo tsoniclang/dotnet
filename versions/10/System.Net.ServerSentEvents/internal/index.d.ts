@@ -2,8 +2,9 @@
 // Namespace: System.Net.ServerSentEvents
 // Assembly: System.Net.ServerSentEvents
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IBufferWriter_1 } from "../../System.Buffers/internal/index.js";
@@ -24,8 +25,8 @@ export interface SseItem_1$instance<T> {
     readonly __tsonic_type_System_Net_ServerSentEvents_SseItem_1: never;
 
     readonly Data: T;
-    get EventId(): string | undefined;
-    set EventId(value: string | undefined);
+    get EventId(): string | null;
+    set EventId(value: string | null);
     readonly EventType: string;
     get ReconnectionInterval(): Nullable_1<TimeSpan>;
     set ReconnectionInterval(value: Nullable_1<TimeSpan> | TimeSpan);
@@ -33,7 +34,7 @@ export interface SseItem_1$instance<T> {
 
 
 export const SseItem_1: {
-    new<T>(data: T, eventType: string): SseItem_1<T>;
+    new<T>(data: T, eventType: string | null): SseItem_1<T>;
 };
 
 

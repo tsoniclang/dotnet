@@ -2,8 +2,9 @@
 // Namespace: System.Runtime
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IDictionary } from "../../System.Collections/internal/index.js";
@@ -36,18 +37,18 @@ export interface DependentHandle$instance extends System_Internal.IDisposable$in
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    get Dependent(): unknown | undefined;
-    set Dependent(value: unknown | undefined);
+    get Dependent(): JsValue | null;
+    set Dependent(value: JsValue | null);
     readonly IsAllocated: boolean;
-    get Target(): unknown | undefined;
-    set Target(value: unknown | undefined);
-    readonly TargetAndDependent: ValueTuple_2<unknown, unknown>;
+    get Target(): JsValue | null;
+    set Target(value: JsValue | null);
+    readonly TargetAndDependent: ValueTuple_2<JsValue, JsValue>;
     Dispose(): void;
 }
 
 
 export const DependentHandle: {
-    new(target: unknown, dependent: unknown): DependentHandle;
+    new(target: JsValue | null, dependent: JsValue | null): DependentHandle;
 };
 
 
@@ -68,8 +69,8 @@ export interface AmbiguousImplementationException$instance extends Exception, Sy
 
 export const AmbiguousImplementationException: {
     new(): AmbiguousImplementationException;
-    new(message: string): AmbiguousImplementationException;
-    new(message: string, innerException: Exception): AmbiguousImplementationException;
+    new(message: string | null): AmbiguousImplementationException;
+    new(message: string | null, innerException: Exception | null): AmbiguousImplementationException;
 };
 
 
@@ -157,7 +158,7 @@ export type JitInfo = JitInfo$instance;
 
 export abstract class ProfileOptimization$instance {
     static SetProfileRoot(directoryPath: string): void;
-    static StartProfile(profile: string): void;
+    static StartProfile(profile: string | null): void;
 }
 
 

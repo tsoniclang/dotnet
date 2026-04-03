@@ -2,11 +2,9 @@
 // Namespace: System.IO.Pipelines
 // Assembly: System.IO.Pipelines
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Buffers_Internal from "../../System.Buffers/internal/index.js";
@@ -89,7 +87,7 @@ export interface PipeOptions$instance {
 
 
 export const PipeOptions: {
-    new(pool: MemoryPool_1<System_Internal.Byte>, readerScheduler: PipeScheduler, writerScheduler: PipeScheduler, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean): PipeOptions;
+    new(pool: MemoryPool_1<System_Internal.Byte> | null, readerScheduler: PipeScheduler | null, writerScheduler: PipeScheduler | null, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean): PipeOptions;
     readonly Default: PipeOptions;
 };
 
@@ -103,11 +101,11 @@ export interface PipeReader$instance {
     AdvanceTo(consumed: SequencePosition, examined: SequencePosition): void;
     AsStream(leaveOpen?: boolean): Stream;
     CancelPendingRead(): void;
-    Complete(exception?: Exception): void;
-    CompleteAsync(exception?: Exception): ValueTask;
+    Complete(exception?: Exception | null): void;
+    CompleteAsync(exception?: Exception | null): ValueTask;
     CopyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
     CopyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
-    OnWriterCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
+    OnWriterCompleted(callback: Action_2<Exception | null, JsValue | null>, state: JsValue | null): void;
     ReadAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     ReadAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     ReadAtLeastAsyncCore(minimumSize: int, cancellationToken: CancellationToken): ValueTask_1<ReadResult>;
@@ -117,7 +115,7 @@ export interface PipeReader$instance {
 
 export const PipeReader: (abstract new() => PipeReader) & {
     Create(sequence: ReadOnlySequence_1<System_Internal.Byte>): PipeReader;
-    Create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+    Create(stream: Stream, readerOptions?: StreamPipeReaderOptions | null): PipeReader;
 };
 
 
@@ -126,7 +124,7 @@ export type PipeReader = PipeReader$instance;
 export interface PipeScheduler$instance {
     readonly __tsonic_type_System_IO_Pipelines_PipeScheduler: never;
 
-    Schedule(action: Action_1<unknown>, state: unknown): void;
+    Schedule(action: Action_1<JsValue | null>, state: JsValue | null): void;
 }
 
 
@@ -148,19 +146,19 @@ export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWrit
     Advance(bytes: int): void;
     AsStream(leaveOpen?: boolean): Stream;
     CancelPendingFlush(): void;
-    Complete(exception?: Exception): void;
-    CompleteAsync(exception?: Exception): ValueTask;
+    Complete(exception?: Exception | null): void;
+    CompleteAsync(exception?: Exception | null): ValueTask;
     CopyFromAsync(source: Stream, cancellationToken?: CancellationToken): Task;
     FlushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
     GetMemory(sizeHint?: int): Memory_1<System_Internal.Byte>;
     GetSpan(sizeHint?: int): Span_1<System_Internal.Byte>;
-    OnReaderCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
+    OnReaderCompleted(callback: Action_2<Exception | null, JsValue | null>, state: JsValue | null): void;
     WriteAsync(source: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
 }
 
 
 export const PipeWriter: (abstract new() => PipeWriter) & {
-    Create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
+    Create(stream: Stream, writerOptions?: StreamPipeWriterOptions | null): PipeWriter;
 };
 
 
@@ -183,8 +181,8 @@ export interface StreamPipeReaderOptions$instance {
 
 
 export const StreamPipeReaderOptions: {
-    new(pool: MemoryPool_1<System_Internal.Byte>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean): StreamPipeReaderOptions;
-    new(pool: MemoryPool_1<System_Internal.Byte>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean, useZeroByteReads: boolean): StreamPipeReaderOptions;
+    new(pool: MemoryPool_1<System_Internal.Byte> | null, bufferSize: int, minimumReadSize: int, leaveOpen: boolean): StreamPipeReaderOptions;
+    new(pool: MemoryPool_1<System_Internal.Byte> | null, bufferSize: int, minimumReadSize: int, leaveOpen: boolean, useZeroByteReads: boolean): StreamPipeReaderOptions;
 };
 
 
@@ -200,7 +198,7 @@ export interface StreamPipeWriterOptions$instance {
 
 
 export const StreamPipeWriterOptions: {
-    new(pool: MemoryPool_1<System_Internal.Byte>, minimumBufferSize: int, leaveOpen: boolean): StreamPipeWriterOptions;
+    new(pool: MemoryPool_1<System_Internal.Byte> | null, minimumBufferSize: int, leaveOpen: boolean): StreamPipeWriterOptions;
 };
 
 

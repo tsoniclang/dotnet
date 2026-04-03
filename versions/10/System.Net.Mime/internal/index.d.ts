@@ -2,8 +2,9 @@
 // Namespace: System.Net.Mime
 // Assembly: System.Net.Mail
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { StringDictionary } from "../../System.Collections.Specialized/internal/index.js";
@@ -24,14 +25,14 @@ export interface ContentDisposition$instance {
 
     CreationDate: DateTime;
     DispositionType: string;
-    get FileName(): string | undefined;
-    set FileName(value: string | undefined);
+    get FileName(): string | null;
+    set FileName(value: string | null);
     Inline: boolean;
     ModificationDate: DateTime;
     readonly Parameters: StringDictionary;
     ReadDate: DateTime;
     Size: long;
-    Equals(rparam: unknown): boolean;
+    Equals(rparam: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -48,14 +49,14 @@ export type ContentDisposition = ContentDisposition$instance;
 export interface ContentType$instance {
     readonly __tsonic_type_System_Net_Mime_ContentType: never;
 
-    get Boundary(): string | undefined;
-    set Boundary(value: string | undefined);
-    get CharSet(): string | undefined;
-    set CharSet(value: string | undefined);
+    get Boundary(): string | null;
+    set Boundary(value: string | null);
+    get CharSet(): string | null;
+    set CharSet(value: string | null);
     MediaType: string;
     Name: string;
     readonly Parameters: StringDictionary;
-    Equals(rparam: unknown): boolean;
+    Equals(rparam: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }

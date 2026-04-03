@@ -2,8 +2,9 @@
 // Namespace: System.Security.Claims
 // Assembly: System.Security.Claims
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IDictionary_2, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -17,30 +18,30 @@ import type { Boolean as ClrBoolean, Byte, Func_1, Func_2, Int32, Object as ClrO
 export interface Claim$instance {
     readonly __tsonic_type_System_Security_Claims_Claim: never;
 
-    readonly CustomSerializationData: byte[] | undefined;
+    readonly CustomSerializationData: byte[] | null;
     readonly Issuer: string;
     readonly OriginalIssuer: string;
     readonly Properties: IDictionary_2<System_Internal.String, System_Internal.String>;
-    readonly Subject: ClaimsIdentity | undefined;
+    readonly Subject: ClaimsIdentity | null;
     readonly Type: string;
     readonly Value: string;
     readonly ValueType: string;
     Clone(): Claim;
-    Clone(identity: ClaimsIdentity): Claim;
+    Clone(identity: ClaimsIdentity | null): Claim;
     ToString(): string;
     WriteTo(writer: BinaryWriter): void;
-    WriteTo(writer: BinaryWriter, userData: byte[]): void;
+    WriteTo(writer: BinaryWriter, userData: byte[] | null): void;
 }
 
 
 export const Claim: {
     new(reader: BinaryReader): Claim;
-    new(reader: BinaryReader, subject: ClaimsIdentity): Claim;
+    new(reader: BinaryReader, subject: ClaimsIdentity | null): Claim;
     new(type: string, value: string): Claim;
-    new(type: string, value: string, valueType: string): Claim;
-    new(type: string, value: string, valueType: string, issuer: string): Claim;
-    new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
-    new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
+    new(type: string, value: string, valueType: string | null): Claim;
+    new(type: string, value: string, valueType: string | null, issuer: string | null): Claim;
+    new(type: string, value: string, valueType: string | null, issuer: string | null, originalIssuer: string | null): Claim;
+    new(type: string, value: string, valueType: string | null, issuer: string | null, originalIssuer: string | null, subject: ClaimsIdentity | null): Claim;
 };
 
 
@@ -51,50 +52,50 @@ export interface ClaimsIdentity$instance extends System_Security_Principal_Inter
 
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
-    get Actor(): ClaimsIdentity | undefined;
-    set Actor(value: ClaimsIdentity | undefined);
-    readonly AuthenticationType: string | string | undefined;
-    get BootstrapContext(): unknown | undefined;
-    set BootstrapContext(value: unknown | undefined);
+    get Actor(): ClaimsIdentity | null;
+    set Actor(value: ClaimsIdentity | null);
+    readonly AuthenticationType: string | string | null;
+    get BootstrapContext(): JsValue | null;
+    set BootstrapContext(value: JsValue | null);
     readonly Claims: IEnumerable_1<Claim>;
-    readonly CustomSerializationData: byte[] | undefined;
+    readonly CustomSerializationData: byte[] | null;
     readonly IsAuthenticated: boolean;
-    get Label(): string | undefined;
-    set Label(value: string | undefined);
-    readonly Name: string | string | undefined;
+    get Label(): string | null;
+    set Label(value: string | null);
+    readonly Name: string | string | null;
     readonly NameClaimType: string;
     readonly RoleClaimType: string;
     AddClaim(claim: Claim): void;
-    AddClaims(claims: IEnumerable_1<Claim>): void;
+    AddClaims(claims: IEnumerable_1<Claim | null>): void;
     Clone(): ClaimsIdentity;
     CreateClaim(reader: BinaryReader): Claim;
     FindAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
     FindAll(type: string): IEnumerable_1<Claim>;
-    FindFirst(match: Predicate_1<Claim>): Claim | undefined;
-    FindFirst(type: string): Claim | undefined;
+    FindFirst(match: Predicate_1<Claim>): Claim | null;
+    FindFirst(type: string): Claim | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     HasClaim(match: Predicate_1<Claim>): boolean;
     HasClaim(type: string, value: string): boolean;
-    RemoveClaim(claim: Claim): void;
-    TryRemoveClaim(claim: Claim): boolean;
+    RemoveClaim(claim: Claim | null): void;
+    TryRemoveClaim(claim: Claim | null): boolean;
     WriteTo(writer: BinaryWriter): void;
-    WriteTo(writer: BinaryWriter, userData: byte[]): void;
+    WriteTo(writer: BinaryWriter, userData: byte[] | null): void;
 }
 
 
 export const ClaimsIdentity: {
     new(): ClaimsIdentity;
-    new(identity: IIdentity): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim>): ClaimsIdentity;
-    new(authenticationType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim>, authenticationType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim>): ClaimsIdentity;
-    new(authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
+    new(identity: IIdentity | null): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim> | null): ClaimsIdentity;
+    new(authenticationType: string | null): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim> | null, authenticationType: string | null): ClaimsIdentity;
+    new(identity: IIdentity | null, claims: IEnumerable_1<Claim> | null): ClaimsIdentity;
+    new(authenticationType: string | null, nameType: string | null, roleType: string | null): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim> | null, authenticationType: string | null, nameType: string | null, roleType: string | null): ClaimsIdentity;
+    new(identity: IIdentity | null, claims: IEnumerable_1<Claim> | null, authenticationType: string | null, nameType: string | null, roleType: string | null): ClaimsIdentity;
     new(reader: BinaryReader): ClaimsIdentity;
     new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
+    new(identity: IIdentity | null, claims: IEnumerable_1<Claim> | null, authenticationType: string | null, nameType: string | null, roleType: string | null, stringComparison: StringComparison): ClaimsIdentity;
     readonly DefaultIssuer: string;
     readonly DefaultNameClaimType: string;
     readonly DefaultRoleClaimType: string;
@@ -114,23 +115,23 @@ export interface ClaimsPrincipal$instance extends System_Security_Principal_Inte
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly Claims: IEnumerable_1<Claim>;
-    readonly CustomSerializationData: byte[] | undefined;
+    readonly CustomSerializationData: byte[] | null;
     readonly Identities: IEnumerable_1<ClaimsIdentity>;
-    readonly Identity: IIdentity | IIdentity | undefined;
+    readonly Identity: IIdentity | IIdentity | null;
     AddIdentities(identities: IEnumerable_1<ClaimsIdentity>): void;
     AddIdentity(identity: ClaimsIdentity): void;
     Clone(): ClaimsPrincipal;
     CreateClaimsIdentity(reader: BinaryReader): ClaimsIdentity;
     FindAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
     FindAll(type: string): IEnumerable_1<Claim>;
-    FindFirst(match: Predicate_1<Claim>): Claim | undefined;
-    FindFirst(type: string): Claim | undefined;
+    FindFirst(match: Predicate_1<Claim>): Claim | null;
+    FindFirst(type: string): Claim | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     HasClaim(match: Predicate_1<Claim>): boolean;
     HasClaim(type: string, value: string): boolean;
     IsInRole(role: string): boolean;
     WriteTo(writer: BinaryWriter): void;
-    WriteTo(writer: BinaryWriter, userData: byte[]): void;
+    WriteTo(writer: BinaryWriter, userData: byte[] | null): void;
 }
 
 
@@ -140,10 +141,10 @@ export const ClaimsPrincipal: {
     new(identity: IIdentity): ClaimsPrincipal;
     new(principal: IPrincipal): ClaimsPrincipal;
     new(reader: BinaryReader): ClaimsPrincipal;
-    PrimaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity | undefined>;
-    get ClaimsPrincipalSelector(): Func_1<ClaimsPrincipal | undefined> | undefined;
-    set ClaimsPrincipalSelector(value: Func_1<ClaimsPrincipal | undefined> | undefined);
-    readonly Current: ClaimsPrincipal | undefined;
+    PrimaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity | null>;
+    get ClaimsPrincipalSelector(): Func_1<ClaimsPrincipal | null> | null;
+    set ClaimsPrincipalSelector(value: Func_1<ClaimsPrincipal | null> | null);
+    readonly Current: ClaimsPrincipal | null;
 };
 
 

@@ -2,8 +2,9 @@
 // Namespace: System.Xml.Schema
 // Assembly: System.Private.Xml, System.Private.Xml.Linq
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -59,12 +60,6 @@ export enum XmlSchemaForm {
     None = 0,
     Qualified = 1,
     Unqualified = 2
-}
-
-
-export enum XmlSchemaInference_InferenceOption {
-    Restricted = 0,
-    Relaxed = 1
 }
 
 
@@ -158,10 +153,10 @@ export enum XmlTypeCode {
 }
 
 
-export type ValidationEventHandler = (sender: unknown, e: ValidationEventArgs) => void;
+export type ValidationEventHandler = (sender: JsValue | null, e: ValidationEventArgs) => void;
 
 
-export type XmlValueGetter = () => unknown | undefined;
+export type XmlValueGetter = () => JsValue | null;
 
 
 export interface IXmlSchemaInfo$instance {
@@ -170,10 +165,10 @@ export interface IXmlSchemaInfo$instance {
     readonly Validity: XmlSchemaValidity;
     readonly IsDefault: boolean;
     readonly IsNil: boolean;
-    readonly MemberType: XmlSchemaSimpleType | undefined;
-    readonly SchemaType: XmlSchemaType | undefined;
-    readonly SchemaElement: XmlSchemaElement | undefined;
-    readonly SchemaAttribute: XmlSchemaAttribute | undefined;
+    readonly MemberType: XmlSchemaSimpleType | null;
+    readonly SchemaType: XmlSchemaType | null;
+    readonly SchemaElement: XmlSchemaElement | null;
+    readonly SchemaAttribute: XmlSchemaAttribute | null;
 }
 
 
@@ -200,7 +195,7 @@ export interface XmlAtomicValue$instance extends XPathItem {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly IsNode: boolean;
-    readonly TypedValue: unknown;
+    readonly TypedValue: JsValue;
     readonly Value: string;
     readonly ValueAsBoolean: boolean;
     readonly ValueAsDateTime: DateTime;
@@ -208,11 +203,11 @@ export interface XmlAtomicValue$instance extends XPathItem {
     readonly ValueAsInt: int;
     readonly ValueAsLong: long;
     readonly ValueType: Type;
-    readonly XmlType: XmlSchemaType | XmlSchemaType | undefined;
+    readonly XmlType: XmlSchemaType | XmlSchemaType | null;
     Clone(): XmlAtomicValue;
     ToString(): string;
-    ValueAs(type: Type, nsResolver: IXmlNamespaceResolver): unknown;
-    ValueAs(returnType: Type): unknown;
+    ValueAs(type: Type, nsResolver: IXmlNamespaceResolver | null): JsValue;
+    ValueAs(returnType: Type): JsValue;
 }
 
 
@@ -238,27 +233,27 @@ export interface XmlSchema$instance extends XmlSchemaObject {
     readonly Elements: XmlSchemaObjectTable;
     FinalDefault: XmlSchemaDerivationMethod;
     readonly Groups: XmlSchemaObjectTable;
-    get Id(): string | undefined;
-    set Id(value: string | undefined);
+    get Id(): string | null;
+    set Id(value: string | null);
     readonly Includes: XmlSchemaObjectCollection;
     readonly IsCompiled: boolean;
     readonly Items: XmlSchemaObjectCollection;
     readonly Notations: XmlSchemaObjectTable;
     readonly SchemaTypes: XmlSchemaObjectTable;
-    get TargetNamespace(): string | undefined;
-    set TargetNamespace(value: string | undefined);
-    get UnhandledAttributes(): XmlAttribute[] | undefined;
-    set UnhandledAttributes(value: XmlAttribute[] | undefined);
-    get Version(): string | undefined;
-    set Version(value: string | undefined);
-    Compile(validationEventHandler: ValidationEventHandler): void;
-    Compile(validationEventHandler: ValidationEventHandler, resolver: XmlResolver): void;
+    get TargetNamespace(): string | null;
+    set TargetNamespace(value: string | null);
+    get UnhandledAttributes(): XmlAttribute[] | null;
+    set UnhandledAttributes(value: XmlAttribute[] | null);
+    get Version(): string | null;
+    set Version(value: string | null);
+    Compile(validationEventHandler: ValidationEventHandler | null): void;
+    Compile(validationEventHandler: ValidationEventHandler | null, resolver: XmlResolver | null): void;
     Write(stream: Stream): void;
-    Write(stream: Stream, namespaceManager: XmlNamespaceManager): void;
+    Write(stream: Stream, namespaceManager: XmlNamespaceManager | null): void;
     Write(writer: TextWriter): void;
-    Write(writer: TextWriter, namespaceManager: XmlNamespaceManager): void;
+    Write(writer: TextWriter, namespaceManager: XmlNamespaceManager | null): void;
     Write(writer: XmlWriter): void;
-    Write(writer: XmlWriter, namespaceManager: XmlNamespaceManager): void;
+    Write(writer: XmlWriter, namespaceManager: XmlNamespaceManager | null): void;
 }
 
 
@@ -266,9 +261,9 @@ export const XmlSchema: {
     new(): XmlSchema;
     readonly Namespace: string;
     readonly InstanceNamespace: string;
-    Read(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema | undefined;
-    Read(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema | undefined;
-    Read(reader: XmlReader, validationEventHandler: ValidationEventHandler): XmlSchema | undefined;
+    Read(stream: Stream, validationEventHandler: ValidationEventHandler | null): XmlSchema | null;
+    Read(reader: TextReader, validationEventHandler: ValidationEventHandler | null): XmlSchema | null;
+    Read(reader: XmlReader, validationEventHandler: ValidationEventHandler | null): XmlSchema | null;
 };
 
 
@@ -291,12 +286,12 @@ export type XmlSchemaAll = XmlSchemaAll$instance;
 export interface XmlSchemaAnnotated$instance extends XmlSchemaObject {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnnotated: never;
 
-    get Annotation(): XmlSchemaAnnotation | undefined;
-    set Annotation(value: XmlSchemaAnnotation | undefined);
-    get Id(): string | undefined;
-    set Id(value: string | undefined);
-    get UnhandledAttributes(): XmlAttribute[] | undefined;
-    set UnhandledAttributes(value: XmlAttribute[] | undefined);
+    get Annotation(): XmlSchemaAnnotation | null;
+    set Annotation(value: XmlSchemaAnnotation | null);
+    get Id(): string | null;
+    set Id(value: string | null);
+    get UnhandledAttributes(): XmlAttribute[] | null;
+    set UnhandledAttributes(value: XmlAttribute[] | null);
 }
 
 
@@ -310,11 +305,11 @@ export type XmlSchemaAnnotated = XmlSchemaAnnotated$instance;
 export interface XmlSchemaAnnotation$instance extends XmlSchemaObject {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnnotation: never;
 
-    get Id(): string | undefined;
-    set Id(value: string | undefined);
+    get Id(): string | null;
+    set Id(value: string | null);
     readonly Items: XmlSchemaObjectCollection;
-    get UnhandledAttributes(): XmlAttribute[] | undefined;
-    set UnhandledAttributes(value: XmlAttribute[] | undefined);
+    get UnhandledAttributes(): XmlAttribute[] | null;
+    set UnhandledAttributes(value: XmlAttribute[] | null);
 }
 
 
@@ -328,8 +323,8 @@ export type XmlSchemaAnnotation = XmlSchemaAnnotation$instance;
 export interface XmlSchemaAny$instance extends XmlSchemaParticle {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAny: never;
 
-    get Namespace(): string | undefined;
-    set Namespace(value: string | undefined);
+    get Namespace(): string | null;
+    set Namespace(value: string | null);
     ProcessContents: XmlSchemaContentProcessing;
 }
 
@@ -344,8 +339,8 @@ export type XmlSchemaAny = XmlSchemaAny$instance;
 export interface XmlSchemaAnyAttribute$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAnyAttribute: never;
 
-    get Namespace(): string | undefined;
-    set Namespace(value: string | undefined);
+    get Namespace(): string | null;
+    set Namespace(value: string | null);
     ProcessContents: XmlSchemaContentProcessing;
 }
 
@@ -360,10 +355,10 @@ export type XmlSchemaAnyAttribute = XmlSchemaAnyAttribute$instance;
 export interface XmlSchemaAppInfo$instance extends XmlSchemaObject {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAppInfo: never;
 
-    get Markup(): (XmlNode | undefined)[] | undefined;
-    set Markup(value: (XmlNode | undefined)[] | undefined);
-    get Source(): string | undefined;
-    set Source(value: string | undefined);
+    get Markup(): (XmlNode | null)[] | null;
+    set Markup(value: (XmlNode | null)[] | null);
+    get Source(): string | null;
+    set Source(value: string | null);
 }
 
 
@@ -377,19 +372,19 @@ export type XmlSchemaAppInfo = XmlSchemaAppInfo$instance;
 export interface XmlSchemaAttribute$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttribute: never;
 
-    readonly AttributeSchemaType: XmlSchemaSimpleType | undefined;
-    readonly AttributeType: unknown | undefined;
-    get DefaultValue(): string | undefined;
-    set DefaultValue(value: string | undefined);
-    get FixedValue(): string | undefined;
-    set FixedValue(value: string | undefined);
+    readonly AttributeSchemaType: XmlSchemaSimpleType | null;
+    readonly AttributeType: JsValue | null;
+    get DefaultValue(): string | null;
+    set DefaultValue(value: string | null);
+    get FixedValue(): string | null;
+    set FixedValue(value: string | null);
     Form: XmlSchemaForm;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
     readonly QualifiedName: XmlQualifiedName;
     RefName: XmlQualifiedName;
-    get SchemaType(): XmlSchemaSimpleType | undefined;
-    set SchemaType(value: XmlSchemaSimpleType | undefined);
+    get SchemaType(): XmlSchemaSimpleType | null;
+    set SchemaType(value: XmlSchemaSimpleType | null);
     SchemaTypeName: XmlQualifiedName;
     Use: XmlSchemaUse;
 }
@@ -405,13 +400,13 @@ export type XmlSchemaAttribute = XmlSchemaAttribute$instance;
 export interface XmlSchemaAttributeGroup$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttributeGroup: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
     readonly QualifiedName: XmlQualifiedName;
-    readonly RedefinedAttributeGroup: XmlSchemaAttributeGroup | undefined;
+    readonly RedefinedAttributeGroup: XmlSchemaAttributeGroup | null;
 }
 
 
@@ -458,14 +453,14 @@ export interface XmlSchemaCollection$instance {
 
     readonly Count: int;
     readonly NameTable: XmlNameTable;
-    Add(ns: string, uri: string): XmlSchema | undefined;
-    Add(ns: string, reader: XmlReader): XmlSchema | undefined;
-    Add(ns: string, reader: XmlReader, resolver: XmlResolver): XmlSchema | undefined;
-    Add(schema: XmlSchema): XmlSchema | undefined;
-    Add(schema: XmlSchema, resolver: XmlResolver): XmlSchema | undefined;
+    Add(ns: string | null, uri: string): XmlSchema | null;
+    Add(ns: string | null, reader: XmlReader): XmlSchema | null;
+    Add(ns: string | null, reader: XmlReader, resolver: XmlResolver | null): XmlSchema | null;
+    Add(schema: XmlSchema): XmlSchema | null;
+    Add(schema: XmlSchema, resolver: XmlResolver | null): XmlSchema | null;
     Add(schema: XmlSchemaCollection): void;
     Contains(schema: XmlSchema): boolean;
-    Contains(ns: string): boolean;
+    Contains(ns: string | null): boolean;
     CopyTo(array: XmlSchema[], index: int): void;
     GetEnumerator(): XmlSchemaCollectionEnumerator;
 }
@@ -482,7 +477,7 @@ export interface __XmlSchemaCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaCollection$views & { readonly [ns: string]: XmlSchema | undefined; };
+export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaCollection$views & { readonly [ns: string]: XmlSchema | null; };
 
 
 export interface XmlSchemaCollectionEnumerator$instance {
@@ -524,8 +519,8 @@ export type XmlSchemaCompilationSettings = XmlSchemaCompilationSettings$instance
 export interface XmlSchemaComplexContent$instance extends XmlSchemaContentModel {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContent: never;
 
-    get Content(): XmlSchemaContent | undefined;
-    set Content(value: XmlSchemaContent | undefined);
+    get Content(): XmlSchemaContent | null;
+    set Content(value: XmlSchemaContent | null);
     IsMixed: boolean;
 }
 
@@ -540,12 +535,12 @@ export type XmlSchemaComplexContent = XmlSchemaComplexContent$instance;
 export interface XmlSchemaComplexContentExtension$instance extends XmlSchemaContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContentExtension: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
     BaseTypeName: XmlQualifiedName;
-    get Particle(): XmlSchemaParticle | undefined;
-    set Particle(value: XmlSchemaParticle | undefined);
+    get Particle(): XmlSchemaParticle | null;
+    set Particle(value: XmlSchemaParticle | null);
 }
 
 
@@ -559,12 +554,12 @@ export type XmlSchemaComplexContentExtension = XmlSchemaComplexContentExtension$
 export interface XmlSchemaComplexContentRestriction$instance extends XmlSchemaContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexContentRestriction: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
     BaseTypeName: XmlQualifiedName;
-    get Particle(): XmlSchemaParticle | undefined;
-    set Particle(value: XmlSchemaParticle | undefined);
+    get Particle(): XmlSchemaParticle | null;
+    set Particle(value: XmlSchemaParticle | null);
 }
 
 
@@ -578,21 +573,21 @@ export type XmlSchemaComplexContentRestriction = XmlSchemaComplexContentRestrict
 export interface XmlSchemaComplexType$instance extends XmlSchemaType {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaComplexType: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
     readonly AttributeUses: XmlSchemaObjectTable;
-    readonly AttributeWildcard: XmlSchemaAnyAttribute | undefined;
+    readonly AttributeWildcard: XmlSchemaAnyAttribute | null;
     Block: XmlSchemaDerivationMethod;
     readonly BlockResolved: XmlSchemaDerivationMethod;
-    get ContentModel(): XmlSchemaContentModel | undefined;
-    set ContentModel(value: XmlSchemaContentModel | undefined);
+    get ContentModel(): XmlSchemaContentModel | null;
+    set ContentModel(value: XmlSchemaContentModel | null);
     readonly ContentType: XmlSchemaContentType;
     readonly ContentTypeParticle: XmlSchemaParticle;
     IsAbstract: boolean;
     IsMixed: boolean;
-    get Particle(): XmlSchemaParticle | undefined;
-    set Particle(value: XmlSchemaParticle | undefined);
+    get Particle(): XmlSchemaParticle | null;
+    set Particle(value: XmlSchemaParticle | null);
 }
 
 
@@ -618,8 +613,8 @@ export type XmlSchemaContent = XmlSchemaContent$instance;
 export interface XmlSchemaContentModel$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaContentModel: never;
 
-    get Content(): XmlSchemaContent | undefined;
-    set Content(value: XmlSchemaContent | undefined);
+    get Content(): XmlSchemaContent | null;
+    set Content(value: XmlSchemaContent | null);
 }
 
 
@@ -636,10 +631,10 @@ export interface XmlSchemaDatatype$instance {
     readonly TypeCode: XmlTypeCode;
     readonly ValueType: Type;
     readonly Variety: XmlSchemaDatatypeVariety;
-    ChangeType(value: unknown, targetType: Type): unknown;
-    ChangeType(value: unknown, targetType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    ChangeType(value: JsValue, targetType: Type): JsValue;
+    ChangeType(value: JsValue, targetType: Type, namespaceResolver: IXmlNamespaceResolver): JsValue;
     IsDerivedFrom(datatype: XmlSchemaDatatype): boolean;
-    ParseValue(s: string, nameTable: XmlNameTable, nsmgr: IXmlNamespaceResolver): unknown;
+    ParseValue(s: string, nameTable: XmlNameTable | null, nsmgr: IXmlNamespaceResolver | null): JsValue;
 }
 
 
@@ -652,12 +647,12 @@ export type XmlSchemaDatatype = XmlSchemaDatatype$instance;
 export interface XmlSchemaDocumentation$instance extends XmlSchemaObject {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaDocumentation: never;
 
-    get Language(): string | undefined;
-    set Language(value: string | undefined);
-    get Markup(): (XmlNode | undefined)[] | undefined;
-    set Markup(value: (XmlNode | undefined)[] | undefined);
-    get Source(): string | undefined;
-    set Source(value: string | undefined);
+    get Language(): string | null;
+    set Language(value: string | null);
+    get Markup(): (XmlNode | null)[] | null;
+    set Markup(value: (XmlNode | null)[] | null);
+    get Source(): string | null;
+    set Source(value: string | null);
 }
 
 
@@ -674,23 +669,23 @@ export interface XmlSchemaElement$instance extends XmlSchemaParticle {
     Block: XmlSchemaDerivationMethod;
     readonly BlockResolved: XmlSchemaDerivationMethod;
     readonly Constraints: XmlSchemaObjectCollection;
-    get DefaultValue(): string | undefined;
-    set DefaultValue(value: string | undefined);
-    readonly ElementSchemaType: XmlSchemaType | undefined;
-    readonly ElementType: unknown | undefined;
+    get DefaultValue(): string | null;
+    set DefaultValue(value: string | null);
+    readonly ElementSchemaType: XmlSchemaType | null;
+    readonly ElementType: JsValue | null;
     Final: XmlSchemaDerivationMethod;
     readonly FinalResolved: XmlSchemaDerivationMethod;
-    get FixedValue(): string | undefined;
-    set FixedValue(value: string | undefined);
+    get FixedValue(): string | null;
+    set FixedValue(value: string | null);
     Form: XmlSchemaForm;
     IsAbstract: boolean;
     IsNillable: boolean;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
     readonly QualifiedName: XmlQualifiedName;
     RefName: XmlQualifiedName;
-    get SchemaType(): XmlSchemaType | undefined;
-    set SchemaType(value: XmlSchemaType | undefined);
+    get SchemaType(): XmlSchemaType | null;
+    set SchemaType(value: XmlSchemaType | null);
     SchemaTypeName: XmlQualifiedName;
     SubstitutionGroup: XmlQualifiedName;
 }
@@ -724,17 +719,17 @@ export interface XmlSchemaException$instance extends SystemException {
     readonly LineNumber: int;
     readonly LinePosition: int;
     readonly Message: string;
-    readonly SourceSchemaObject: XmlSchemaObject | undefined;
-    readonly SourceUri: string | undefined;
+    readonly SourceSchemaObject: XmlSchemaObject | null;
+    readonly SourceUri: string | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const XmlSchemaException: {
     new(): XmlSchemaException;
-    new(message: string): XmlSchemaException;
-    new(message: string, innerException: Exception): XmlSchemaException;
-    new(message: string, innerException: Exception, lineNumber: int, linePosition: int): XmlSchemaException;
+    new(message: string | null): XmlSchemaException;
+    new(message: string | null, innerException: Exception | null): XmlSchemaException;
+    new(message: string | null, innerException: Exception | null, lineNumber: int, linePosition: int): XmlSchemaException;
 };
 
 
@@ -748,14 +743,14 @@ export type XmlSchemaException = XmlSchemaException$instance & __XmlSchemaExcept
 export interface XmlSchemaExternal$instance extends XmlSchemaObject {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaExternal: never;
 
-    get Id(): string | undefined;
-    set Id(value: string | undefined);
-    get Schema(): XmlSchema | undefined;
-    set Schema(value: XmlSchema | undefined);
-    get SchemaLocation(): string | undefined;
-    set SchemaLocation(value: string | undefined);
-    get UnhandledAttributes(): XmlAttribute[] | undefined;
-    set UnhandledAttributes(value: XmlAttribute[] | undefined);
+    get Id(): string | null;
+    set Id(value: string | null);
+    get Schema(): XmlSchema | null;
+    set Schema(value: XmlSchema | null);
+    get SchemaLocation(): string | null;
+    set SchemaLocation(value: string | null);
+    get UnhandledAttributes(): XmlAttribute[] | null;
+    set UnhandledAttributes(value: XmlAttribute[] | null);
 }
 
 
@@ -769,8 +764,8 @@ export interface XmlSchemaFacet$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaFacet: never;
 
     IsFixed: boolean;
-    get Value(): string | undefined;
-    set Value(value: string | undefined);
+    get Value(): string | null;
+    set Value(value: string | null);
 }
 
 
@@ -796,10 +791,10 @@ export type XmlSchemaFractionDigitsFacet = XmlSchemaFractionDigitsFacet$instance
 export interface XmlSchemaGroup$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaGroup: never;
 
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
-    get Particle(): XmlSchemaGroupBase | undefined;
-    set Particle(value: XmlSchemaGroupBase | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
+    get Particle(): XmlSchemaGroupBase | null;
+    set Particle(value: XmlSchemaGroupBase | null);
     readonly QualifiedName: XmlQualifiedName;
 }
 
@@ -827,7 +822,7 @@ export type XmlSchemaGroupBase = XmlSchemaGroupBase$instance;
 export interface XmlSchemaGroupRef$instance extends XmlSchemaParticle {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaGroupRef: never;
 
-    readonly Particle: XmlSchemaGroupBase | undefined;
+    readonly Particle: XmlSchemaGroupBase | null;
     RefName: XmlQualifiedName;
 }
 
@@ -843,11 +838,11 @@ export interface XmlSchemaIdentityConstraint$instance extends XmlSchemaAnnotated
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaIdentityConstraint: never;
 
     readonly Fields: XmlSchemaObjectCollection;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
     readonly QualifiedName: XmlQualifiedName;
-    get Selector(): XmlSchemaXPath | undefined;
-    set Selector(value: XmlSchemaXPath | undefined);
+    get Selector(): XmlSchemaXPath | null;
+    set Selector(value: XmlSchemaXPath | null);
 }
 
 
@@ -861,10 +856,10 @@ export type XmlSchemaIdentityConstraint = XmlSchemaIdentityConstraint$instance;
 export interface XmlSchemaImport$instance extends XmlSchemaExternal {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaImport: never;
 
-    get Annotation(): XmlSchemaAnnotation | undefined;
-    set Annotation(value: XmlSchemaAnnotation | undefined);
-    get Namespace(): string | undefined;
-    set Namespace(value: string | undefined);
+    get Annotation(): XmlSchemaAnnotation | null;
+    set Annotation(value: XmlSchemaAnnotation | null);
+    get Namespace(): string | null;
+    set Namespace(value: string | null);
 }
 
 
@@ -878,8 +873,8 @@ export type XmlSchemaImport = XmlSchemaImport$instance;
 export interface XmlSchemaInclude$instance extends XmlSchemaExternal {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaInclude: never;
 
-    get Annotation(): XmlSchemaAnnotation | undefined;
-    set Annotation(value: XmlSchemaAnnotation | undefined);
+    get Annotation(): XmlSchemaAnnotation | null;
+    set Annotation(value: XmlSchemaAnnotation | null);
 }
 
 
@@ -907,6 +902,12 @@ export const XmlSchemaInference: {
 
 export type XmlSchemaInference = XmlSchemaInference$instance;
 
+export enum XmlSchemaInference_InferenceOption {
+    Restricted = 0,
+    Relaxed = 1
+}
+
+
 export interface XmlSchemaInferenceException$instance extends XmlSchemaException$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaInferenceException: never;
 
@@ -919,8 +920,8 @@ export interface XmlSchemaInferenceException$instance extends XmlSchemaException
 export const XmlSchemaInferenceException: {
     new(): XmlSchemaInferenceException;
     new(message: string): XmlSchemaInferenceException;
-    new(message: string, innerException: Exception): XmlSchemaInferenceException;
-    new(message: string, innerException: Exception, lineNumber: int, linePosition: int): XmlSchemaInferenceException;
+    new(message: string, innerException: Exception | null): XmlSchemaInferenceException;
+    new(message: string, innerException: Exception | null, lineNumber: int, linePosition: int): XmlSchemaInferenceException;
 };
 
 
@@ -939,14 +940,14 @@ export interface XmlSchemaInfo$instance {
     ContentType: XmlSchemaContentType;
     IsDefault: boolean;
     IsNil: boolean;
-    get MemberType(): XmlSchemaSimpleType | undefined;
-    set MemberType(value: XmlSchemaSimpleType | undefined);
-    get SchemaAttribute(): XmlSchemaAttribute | undefined;
-    set SchemaAttribute(value: XmlSchemaAttribute | undefined);
-    get SchemaElement(): XmlSchemaElement | undefined;
-    set SchemaElement(value: XmlSchemaElement | undefined);
-    get SchemaType(): XmlSchemaType | undefined;
-    set SchemaType(value: XmlSchemaType | undefined);
+    get MemberType(): XmlSchemaSimpleType | null;
+    set MemberType(value: XmlSchemaSimpleType | null);
+    get SchemaAttribute(): XmlSchemaAttribute | null;
+    set SchemaAttribute(value: XmlSchemaAttribute | null);
+    get SchemaElement(): XmlSchemaElement | null;
+    set SchemaElement(value: XmlSchemaElement | null);
+    get SchemaType(): XmlSchemaType | null;
+    set SchemaType(value: XmlSchemaType | null);
     Validity: XmlSchemaValidity;
 }
 
@@ -1084,12 +1085,12 @@ export type XmlSchemaMinLengthFacet = XmlSchemaMinLengthFacet$instance;
 export interface XmlSchemaNotation$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaNotation: never;
 
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
-    get Public(): string | undefined;
-    set Public(value: string | undefined);
-    get System(): string | undefined;
-    set System(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
+    get Public(): string | null;
+    set Public(value: string | null);
+    get System(): string | null;
+    set System(value: string | null);
 }
 
 
@@ -1118,10 +1119,10 @@ export interface XmlSchemaObject$instance {
     LineNumber: int;
     LinePosition: int;
     Namespaces: XmlSerializerNamespaces;
-    get Parent(): XmlSchemaObject | undefined;
-    set Parent(value: XmlSchemaObject | undefined);
-    get SourceUri(): string | undefined;
-    set SourceUri(value: string | undefined);
+    get Parent(): XmlSchemaObject | null;
+    set Parent(value: XmlSchemaObject | null);
+    get SourceUri(): string | null;
+    set SourceUri(value: string | null);
 }
 
 
@@ -1146,16 +1147,16 @@ export interface XmlSchemaObjectCollection$instance extends CollectionBase {
     IndexOf(item: XmlSchemaObject): int;
     Insert(index: int, item: XmlSchemaObject): void;
     OnClear(): void;
-    OnInsert(index: int, item: unknown): void;
-    OnRemove(index: int, item: unknown): void;
-    OnSet(index: int, oldValue: unknown, newValue: unknown): void;
+    OnInsert(index: int, item: JsValue | null): void;
+    OnRemove(index: int, item: JsValue | null): void;
+    OnSet(index: int, oldValue: JsValue | null, newValue: JsValue | null): void;
     Remove(item: XmlSchemaObject): void;
 }
 
 
 export const XmlSchemaObjectCollection: {
     new(): XmlSchemaObjectCollection;
-    new(parent: XmlSchemaObject): XmlSchemaObjectCollection;
+    new(parent: XmlSchemaObject | null): XmlSchemaObjectCollection;
 };
 
 
@@ -1194,7 +1195,7 @@ export interface XmlSchemaObjectTable$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaObjectTable: never;
 
     readonly Count: int;
-    readonly Item: XmlSchemaObject | undefined;
+    readonly Item: XmlSchemaObject | null;
     readonly Names: ICollection;
     readonly Values: ICollection;
     Contains(name: XmlQualifiedName): boolean;
@@ -1212,11 +1213,11 @@ export interface XmlSchemaParticle$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaParticle: never;
 
     MaxOccurs: decimal;
-    get MaxOccursString(): string | undefined;
-    set MaxOccursString(value: string | undefined);
+    get MaxOccursString(): string | null;
+    set MaxOccursString(value: string | null);
     MinOccurs: decimal;
-    get MinOccursString(): string | undefined;
-    set MinOccursString(value: string | undefined);
+    get MinOccursString(): string | null;
+    set MinOccursString(value: string | null);
 }
 
 
@@ -1280,20 +1281,20 @@ export interface XmlSchemaSet$instance {
     readonly GlobalTypes: XmlSchemaObjectTable;
     readonly IsCompiled: boolean;
     readonly NameTable: XmlNameTable;
-    XmlResolver: XmlResolver | undefined;
-    Add(targetNamespace: string, schemaUri: string): XmlSchema | undefined;
-    Add(targetNamespace: string, schemaDocument: XmlReader): XmlSchema | undefined;
+    XmlResolver: XmlResolver | null;
+    Add(targetNamespace: string | null, schemaUri: string): XmlSchema | null;
+    Add(targetNamespace: string | null, schemaDocument: XmlReader): XmlSchema | null;
     Add(schemas: XmlSchemaSet): void;
-    Add(schema: XmlSchema): XmlSchema | undefined;
+    Add(schema: XmlSchema): XmlSchema | null;
     Compile(): void;
-    Contains(targetNamespace: string): boolean;
+    Contains(targetNamespace: string | null): boolean;
     Contains(schema: XmlSchema): boolean;
     CopyTo(schemas: XmlSchema[], index: int): void;
-    Remove(schema: XmlSchema): XmlSchema | undefined;
+    Remove(schema: XmlSchema): XmlSchema | null;
     RemoveRecursive(schemaToRemove: XmlSchema): boolean;
     Reprocess(schema: XmlSchema): XmlSchema;
     Schemas(): ICollection;
-    Schemas(targetNamespace: string): ICollection;
+    Schemas(targetNamespace: string | null): ICollection;
 }
 
 
@@ -1308,8 +1309,8 @@ export type XmlSchemaSet = XmlSchemaSet$instance;
 export interface XmlSchemaSimpleContent$instance extends XmlSchemaContentModel {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContent: never;
 
-    get Content(): XmlSchemaContent | undefined;
-    set Content(value: XmlSchemaContent | undefined);
+    get Content(): XmlSchemaContent | null;
+    set Content(value: XmlSchemaContent | null);
 }
 
 
@@ -1323,8 +1324,8 @@ export type XmlSchemaSimpleContent = XmlSchemaSimpleContent$instance;
 export interface XmlSchemaSimpleContentExtension$instance extends XmlSchemaContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContentExtension: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
     BaseTypeName: XmlQualifiedName;
 }
@@ -1340,11 +1341,11 @@ export type XmlSchemaSimpleContentExtension = XmlSchemaSimpleContentExtension$in
 export interface XmlSchemaSimpleContentRestriction$instance extends XmlSchemaContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleContentRestriction: never;
 
-    get AnyAttribute(): XmlSchemaAnyAttribute | undefined;
-    set AnyAttribute(value: XmlSchemaAnyAttribute | undefined);
+    get AnyAttribute(): XmlSchemaAnyAttribute | null;
+    set AnyAttribute(value: XmlSchemaAnyAttribute | null);
     readonly Attributes: XmlSchemaObjectCollection;
-    get BaseType(): XmlSchemaSimpleType | undefined;
-    set BaseType(value: XmlSchemaSimpleType | undefined);
+    get BaseType(): XmlSchemaSimpleType | null;
+    set BaseType(value: XmlSchemaSimpleType | null);
     BaseTypeName: XmlQualifiedName;
     readonly Facets: XmlSchemaObjectCollection;
 }
@@ -1360,8 +1361,8 @@ export type XmlSchemaSimpleContentRestriction = XmlSchemaSimpleContentRestrictio
 export interface XmlSchemaSimpleType$instance extends XmlSchemaType {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleType: never;
 
-    get Content(): XmlSchemaSimpleTypeContent | undefined;
-    set Content(value: XmlSchemaSimpleTypeContent | undefined);
+    get Content(): XmlSchemaSimpleTypeContent | null;
+    set Content(value: XmlSchemaSimpleTypeContent | null);
 }
 
 
@@ -1387,10 +1388,10 @@ export type XmlSchemaSimpleTypeContent = XmlSchemaSimpleTypeContent$instance;
 export interface XmlSchemaSimpleTypeList$instance extends XmlSchemaSimpleTypeContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeList: never;
 
-    get BaseItemType(): XmlSchemaSimpleType | undefined;
-    set BaseItemType(value: XmlSchemaSimpleType | undefined);
-    get ItemType(): XmlSchemaSimpleType | undefined;
-    set ItemType(value: XmlSchemaSimpleType | undefined);
+    get BaseItemType(): XmlSchemaSimpleType | null;
+    set BaseItemType(value: XmlSchemaSimpleType | null);
+    get ItemType(): XmlSchemaSimpleType | null;
+    set ItemType(value: XmlSchemaSimpleType | null);
     ItemTypeName: XmlQualifiedName;
 }
 
@@ -1405,8 +1406,8 @@ export type XmlSchemaSimpleTypeList = XmlSchemaSimpleTypeList$instance;
 export interface XmlSchemaSimpleTypeRestriction$instance extends XmlSchemaSimpleTypeContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeRestriction: never;
 
-    get BaseType(): XmlSchemaSimpleType | undefined;
-    set BaseType(value: XmlSchemaSimpleType | undefined);
+    get BaseType(): XmlSchemaSimpleType | null;
+    set BaseType(value: XmlSchemaSimpleType | null);
     BaseTypeName: XmlQualifiedName;
     readonly Facets: XmlSchemaObjectCollection;
 }
@@ -1422,10 +1423,10 @@ export type XmlSchemaSimpleTypeRestriction = XmlSchemaSimpleTypeRestriction$inst
 export interface XmlSchemaSimpleTypeUnion$instance extends XmlSchemaSimpleTypeContent {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaSimpleTypeUnion: never;
 
-    readonly BaseMemberTypes: XmlSchemaSimpleType[] | undefined;
+    readonly BaseMemberTypes: XmlSchemaSimpleType[] | null;
     readonly BaseTypes: XmlSchemaObjectCollection;
-    get MemberTypes(): XmlQualifiedName[] | undefined;
-    set MemberTypes(value: XmlQualifiedName[] | undefined);
+    get MemberTypes(): XmlQualifiedName[] | null;
+    set MemberTypes(value: XmlQualifiedName[] | null);
 }
 
 
@@ -1452,15 +1453,15 @@ export type XmlSchemaTotalDigitsFacet = XmlSchemaTotalDigitsFacet$instance;
 export interface XmlSchemaType$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaType: never;
 
-    readonly BaseSchemaType: unknown | undefined;
-    readonly BaseXmlSchemaType: XmlSchemaType | undefined;
-    readonly Datatype: XmlSchemaDatatype | undefined;
+    readonly BaseSchemaType: JsValue | null;
+    readonly BaseXmlSchemaType: XmlSchemaType | null;
+    readonly Datatype: XmlSchemaDatatype | null;
     readonly DerivedBy: XmlSchemaDerivationMethod;
     Final: XmlSchemaDerivationMethod;
     readonly FinalResolved: XmlSchemaDerivationMethod;
     IsMixed: boolean;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
     readonly QualifiedName: XmlQualifiedName;
     readonly TypeCode: XmlTypeCode;
 }
@@ -1468,11 +1469,11 @@ export interface XmlSchemaType$instance extends XmlSchemaAnnotated {
 
 export const XmlSchemaType: {
     new(): XmlSchemaType;
-    GetBuiltInComplexType(typeCode: XmlTypeCode): XmlSchemaComplexType | undefined;
-    GetBuiltInComplexType(qualifiedName: XmlQualifiedName): XmlSchemaComplexType | undefined;
+    GetBuiltInComplexType(typeCode: XmlTypeCode): XmlSchemaComplexType | null;
+    GetBuiltInComplexType(qualifiedName: XmlQualifiedName): XmlSchemaComplexType | null;
     GetBuiltInSimpleType(typeCode: XmlTypeCode): XmlSchemaSimpleType;
-    GetBuiltInSimpleType(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType | undefined;
-    IsDerivedFrom(derivedType: XmlSchemaType, baseType: XmlSchemaType, except: XmlSchemaDerivationMethod): boolean;
+    GetBuiltInSimpleType(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType | null;
+    IsDerivedFrom(derivedType: XmlSchemaType | null, baseType: XmlSchemaType | null, except: XmlSchemaDerivationMethod): boolean;
 };
 
 
@@ -1496,16 +1497,16 @@ export interface XmlSchemaValidationException$instance extends XmlSchemaExceptio
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly SourceObject: unknown | undefined;
+    readonly SourceObject: JsValue | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const XmlSchemaValidationException: {
     new(): XmlSchemaValidationException;
-    new(message: string): XmlSchemaValidationException;
-    new(message: string, innerException: Exception): XmlSchemaValidationException;
-    new(message: string, innerException: Exception, lineNumber: int, linePosition: int): XmlSchemaValidationException;
+    new(message: string | null): XmlSchemaValidationException;
+    new(message: string | null, innerException: Exception | null): XmlSchemaValidationException;
+    new(message: string | null, innerException: Exception | null, lineNumber: int, linePosition: int): XmlSchemaValidationException;
 };
 
 
@@ -1520,10 +1521,10 @@ export interface XmlSchemaValidator$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaValidator: never;
 
     LineInfoProvider: IXmlLineInfo;
-    get SourceUri(): Uri | undefined;
-    set SourceUri(value: Uri | undefined);
-    ValidationEventSender: unknown;
-    XmlResolver: XmlResolver | undefined;
+    get SourceUri(): Uri | null;
+    set SourceUri(value: Uri | null);
+    ValidationEventSender: JsValue;
+    XmlResolver: XmlResolver | null;
     AddSchema(schema: XmlSchema): void;
     EndValidation(): void;
     GetExpectedAttributes(): XmlSchemaAttribute[];
@@ -1531,14 +1532,14 @@ export interface XmlSchemaValidator$instance {
     GetUnspecifiedDefaultAttributes(defaultAttributes: ArrayList): void;
     Initialize(): void;
     Initialize(partialValidationType: XmlSchemaObject): void;
-    SkipToEndElement(schemaInfo: XmlSchemaInfo): void;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo): unknown | undefined;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo): unknown | undefined;
-    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo): void;
-    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo, xsiType: string, xsiNil: string, xsiSchemaLocation: string, xsiNoNamespaceSchemaLocation: string): void;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo): unknown | undefined;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo, typedValue: unknown): unknown | undefined;
-    ValidateEndOfAttributes(schemaInfo: XmlSchemaInfo): void;
+    SkipToEndElement(schemaInfo: XmlSchemaInfo | null): void;
+    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo | null): JsValue | null;
+    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo | null): JsValue | null;
+    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo | null): void;
+    ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo | null, xsiType: string | null, xsiNil: string | null, xsiSchemaLocation: string | null, xsiNoNamespaceSchemaLocation: string | null): void;
+    ValidateEndElement(schemaInfo: XmlSchemaInfo | null): JsValue | null;
+    ValidateEndElement(schemaInfo: XmlSchemaInfo | null, typedValue: JsValue): JsValue | null;
+    ValidateEndOfAttributes(schemaInfo: XmlSchemaInfo | null): void;
     ValidateText(elementValue: string): void;
     ValidateText(elementValue: XmlValueGetter): void;
     ValidateWhitespace(elementValue: string): void;
@@ -1569,8 +1570,8 @@ export type XmlSchemaWhiteSpaceFacet = XmlSchemaWhiteSpaceFacet$instance;
 export interface XmlSchemaXPath$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaXPath: never;
 
-    get XPath(): string | undefined;
-    set XPath(value: string | undefined);
+    get XPath(): string | null;
+    set XPath(value: string | null);
 }
 
 
@@ -1582,14 +1583,14 @@ export const XmlSchemaXPath: {
 export type XmlSchemaXPath = XmlSchemaXPath$instance;
 
 export abstract class Extensions$instance {
-    static GetSchemaInfo(source: XAttribute): IXmlSchemaInfo | undefined;
-    static GetSchemaInfo(source: XElement): IXmlSchemaInfo | undefined;
-    static Validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static Validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static Validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static Validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static Validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static Validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static GetSchemaInfo(source: XAttribute): IXmlSchemaInfo | null;
+    static GetSchemaInfo(source: XElement): IXmlSchemaInfo | null;
+    static Validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null, addSchemaInfo: boolean): void;
+    static Validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null): void;
+    static Validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null, addSchemaInfo: boolean): void;
+    static Validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null): void;
+    static Validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null, addSchemaInfo: boolean): void;
+    static Validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler | null): void;
 }
 
 

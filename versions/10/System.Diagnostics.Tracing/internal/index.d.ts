@@ -2,11 +2,9 @@
 // Namespace: System.Diagnostics.Tracing
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IDictionary_2, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -16,7 +14,7 @@ import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Byte, DateTime, Double, Enum, EventArgs, EventHandler_1, Exception, Func_1, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Byte, DateTime, Double, Enum, EventArgs, EventHandler_1, Exception, Func_1, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum EventActivityOptions {
     None = 0,
@@ -125,19 +123,6 @@ export enum EventTask {
 }
 
 
-export interface EventSource_EventSourcePrimitive$instance {
-    readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventSourcePrimitive: never;
-
-}
-
-
-export const EventSource_EventSourcePrimitive: {
-    new(): EventSource_EventSourcePrimitive;
-};
-
-
-export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
-
 export interface EventSourceOptions$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceOptions: never;
 
@@ -165,7 +150,7 @@ export interface DiagnosticCounter$instance extends System_Internal.IDisposable$
     DisplayUnits: string;
     readonly EventSource: EventSource;
     readonly Name: string;
-    AddMetadata(key: string, value: string): void;
+    AddMetadata(key: string, value: string | null): void;
     Dispose(): void;
 }
 
@@ -189,8 +174,8 @@ export interface EventAttribute$instance extends Attribute {
     readonly EventId: int;
     Keywords: EventKeywords;
     Level: EventLevel;
-    get Message(): string | undefined;
-    set Message(value: string | undefined);
+    get Message(): string | null;
+    set Message(value: string | null);
     Opcode: EventOpcode;
     Tags: EventTags;
     Task: EventTask;
@@ -208,8 +193,8 @@ export type EventAttribute = EventAttribute$instance;
 export interface EventCommandEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventCommandEventArgs: never;
 
-    get Arguments(): IDictionary_2<System_Internal.String, string | undefined> | undefined;
-    set Arguments(value: IDictionary_2<System_Internal.String, string | undefined> | undefined);
+    get Arguments(): IDictionary_2<System_Internal.String, string | null> | null;
+    set Arguments(value: IDictionary_2<System_Internal.String, string | null> | null);
     Command: EventCommand;
     DisableEvent(eventId: int): boolean;
     EnableEvent(eventId: int): boolean;
@@ -248,8 +233,8 @@ export type EventCounter = EventCounter$instance & __EventCounter$views;
 export interface EventDataAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventDataAttribute: never;
 
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
 }
 
 
@@ -297,7 +282,7 @@ export interface EventListener$instance extends System_Internal.IDisposable$inst
     Dispose(): void;
     EnableEvents(eventSource: EventSource, level: EventLevel): void;
     EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords): void;
-    EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
+    EnableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<System_Internal.String, string | null> | null): void;
     OnEventSourceCreated(eventSource: EventSource): void;
     OnEventWritten(eventData: EventWrittenEventArgs): void;
 }
@@ -320,39 +305,39 @@ export interface EventSource$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly ConstructionException: Exception | undefined;
+    readonly ConstructionException: Exception | null;
     readonly Guid: Guid;
     readonly Name: string;
     readonly Settings: EventSourceSettings;
     Dispose(): void;
     Dispose(disposing: boolean): void;
     Finalize(): void;
-    GetTrait(key: string): string | undefined;
+    GetTrait(key: string): string | null;
     IsEnabled(): boolean;
     IsEnabled(level: EventLevel, keywords: EventKeywords): boolean;
     IsEnabled(level: EventLevel, keywords: EventKeywords, channel: EventChannel): boolean;
     OnEventCommand(command: EventCommandEventArgs): void;
     ToString(): string;
-    Write(eventName: string): void;
-    Write(eventName: string, options: EventSourceOptions): void;
-    Write<T>(eventName: string, data: T): void;
-    Write<T>(eventName: string, options: EventSourceOptions, data: T): void;
-    Write<T>(eventName: string, options: EventSourceOptions, data: T): void;
-    Write<T>(eventName: string, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
+    Write(eventName: string | null): void;
+    Write(eventName: string | null, options: EventSourceOptions): void;
+    Write<T>(eventName: string | null, data: T): void;
+    Write<T>(eventName: string | null, options: EventSourceOptions, data: T): void;
+    Write<T>(eventName: string | null, options: EventSourceOptions, data: T): void;
+    Write<T>(eventName: string | null, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
 }
 
 
 export const EventSource: {
     new(eventSourceName: string): EventSource;
     new(eventSourceName: string, config: EventSourceSettings): EventSource;
-    new(eventSourceName: string, config: EventSourceSettings, traits: string[]): EventSource;
+    new(eventSourceName: string, config: EventSourceSettings, traits: string[] | null): EventSource;
     readonly CurrentThreadActivityId: Guid;
-    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string | undefined;
-    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string | undefined;
+    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string | null, flags: EventManifestOptions): string | null;
+    GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string | null): string | null;
     GetGuid(eventSourceType: Type): Guid;
     GetName(eventSourceType: Type): string;
     GetSources(): IEnumerable_1<EventSource>;
-    SendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, System_Internal.String>): void;
+    SendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, string | null> | null): void;
     SetCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: Guid): void;
     SetCurrentThreadActivityId(activityId: Guid): void;
 };
@@ -365,15 +350,43 @@ export interface __EventSource$views {
 export type EventSource = EventSource$instance & __EventSource$views;
 
 
+export interface EventSource_EventData$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventData: never;
+
+    DataPointer: nint;
+    Size: int;
+}
+
+
+export const EventSource_EventData: {
+    new(): EventSource_EventData;
+};
+
+
+export type EventSource_EventData = EventSource_EventData$instance;
+
+export interface EventSource_EventSourcePrimitive$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventSourcePrimitive: never;
+
+}
+
+
+export const EventSource_EventSourcePrimitive: {
+    new(): EventSource_EventSourcePrimitive;
+};
+
+
+export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
+
 export interface EventSourceAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceAttribute: never;
 
-    get Guid(): string | undefined;
-    set Guid(value: string | undefined);
-    get LocalizationResources(): string | undefined;
-    set LocalizationResources(value: string | undefined);
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Guid(): string | null;
+    set Guid(value: string | null);
+    get LocalizationResources(): string | null;
+    set LocalizationResources(value: string | null);
+    get Name(): string | null;
+    set Name(value: string | null);
 }
 
 
@@ -387,8 +400,8 @@ export type EventSourceAttribute = EventSourceAttribute$instance;
 export interface EventSourceCreatedEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceCreatedEventArgs: never;
 
-    get EventSource(): EventSource | undefined;
-    set EventSource(value: EventSource | undefined);
+    get EventSource(): EventSource | null;
+    set EventSource(value: EventSource | null);
 }
 
 
@@ -409,8 +422,8 @@ export interface EventSourceException$instance extends Exception, System_Runtime
 
 export const EventSourceException: {
     new(): EventSourceException;
-    new(message: string): EventSourceException;
-    new(message: string, innerException: Exception): EventSourceException;
+    new(message: string | null): EventSourceException;
+    new(message: string | null, innerException: Exception | null): EventSourceException;
 };
 
 
@@ -427,19 +440,19 @@ export interface EventWrittenEventArgs$instance extends EventArgs {
     readonly ActivityId: Guid;
     readonly Channel: EventChannel;
     readonly EventId: int;
-    get EventName(): string | undefined;
-    set EventName(value: string | undefined);
+    get EventName(): string | null;
+    set EventName(value: string | null);
     readonly EventSource: EventSource;
     Keywords: EventKeywords;
     Level: EventLevel;
-    get Message(): string | undefined;
-    set Message(value: string | undefined);
+    get Message(): string | null;
+    set Message(value: string | null);
     Opcode: EventOpcode;
     OSThreadId: long;
-    get Payload(): ReadOnlyCollection_1<unknown | undefined> | undefined;
-    set Payload(value: ReadOnlyCollection_1<unknown | undefined> | undefined);
-    get PayloadNames(): ReadOnlyCollection_1<System_Internal.String> | undefined;
-    set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String> | undefined);
+    get Payload(): ReadOnlyCollection_1<JsValue | null> | null;
+    set Payload(value: ReadOnlyCollection_1<JsValue | null> | null);
+    get PayloadNames(): ReadOnlyCollection_1<System_Internal.String> | null;
+    set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String> | null);
     readonly RelatedActivityId: Guid;
     Tags: EventTags;
     readonly Task: EventTask;

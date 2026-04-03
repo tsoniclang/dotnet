@@ -2,8 +2,9 @@
 // Namespace: System.Runtime.Remoting
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -12,12 +13,12 @@ import type { Boolean as ClrBoolean, Int32, MarshalByRefObject, Object as ClrObj
 export interface ObjectHandle$instance extends MarshalByRefObject {
     readonly __tsonic_type_System_Runtime_Remoting_ObjectHandle: never;
 
-    Unwrap(): unknown | undefined;
+    Unwrap(): JsValue | null;
 }
 
 
 export const ObjectHandle: {
-    new(o: unknown): ObjectHandle;
+    new(o: JsValue | null): ObjectHandle;
 };
 
 

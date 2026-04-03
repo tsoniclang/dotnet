@@ -2,8 +2,9 @@
 // Namespace: Microsoft.Win32
 // Assembly: Microsoft.Win32.Registry
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { SafeRegistryHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -73,8 +74,8 @@ export interface RegistryKey$instance extends MarshalByRefObject, System_Interna
     CreateSubKey(subkey: string): RegistryKey;
     CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey;
     CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions): RegistryKey;
-    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions, registrySecurity: RegistrySecurity): RegistryKey;
-    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registrySecurity: RegistrySecurity): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registryOptions: RegistryOptions, registrySecurity: RegistrySecurity | null): RegistryKey;
+    CreateSubKey(subkey: string, permissionCheck: RegistryKeyPermissionCheck, registrySecurity: RegistrySecurity | null): RegistryKey;
     CreateSubKey(subkey: string, writable: boolean): RegistryKey;
     CreateSubKey(subkey: string, writable: boolean, options: RegistryOptions): RegistryKey;
     DeleteSubKey(subkey: string): void;
@@ -88,19 +89,19 @@ export interface RegistryKey$instance extends MarshalByRefObject, System_Interna
     GetAccessControl(): RegistrySecurity;
     GetAccessControl(includeSections: AccessControlSections): RegistrySecurity;
     GetSubKeyNames(): string[];
-    GetValue(name: string): unknown | undefined;
-    GetValue(name: string, defaultValue: unknown): unknown | undefined;
-    GetValue(name: string, defaultValue: unknown, options: RegistryValueOptions): unknown | undefined;
-    GetValueKind(name: string): RegistryValueKind;
+    GetValue(name: string | null): JsValue | null;
+    GetValue(name: string | null, defaultValue: JsValue | null): JsValue | null;
+    GetValue(name: string | null, defaultValue: JsValue | null, options: RegistryValueOptions): JsValue | null;
+    GetValueKind(name: string | null): RegistryValueKind;
     GetValueNames(): string[];
-    OpenSubKey(name: string): RegistryKey | undefined;
-    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | undefined;
-    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck, rights: RegistryRights): RegistryKey | undefined;
-    OpenSubKey(name: string, writable: boolean): RegistryKey | undefined;
-    OpenSubKey(name: string, rights: RegistryRights): RegistryKey | undefined;
+    OpenSubKey(name: string): RegistryKey | null;
+    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | null;
+    OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck, rights: RegistryRights): RegistryKey | null;
+    OpenSubKey(name: string, writable: boolean): RegistryKey | null;
+    OpenSubKey(name: string, rights: RegistryRights): RegistryKey | null;
     SetAccessControl(registrySecurity: RegistrySecurity): void;
-    SetValue(name: string, value: unknown): void;
-    SetValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
+    SetValue(name: string | null, value: JsValue): void;
+    SetValue(name: string | null, value: JsValue, valueKind: RegistryValueKind): void;
     ToString(): string;
 }
 
@@ -128,9 +129,9 @@ export abstract class Registry$instance {
     static readonly LocalMachine: RegistryKey;
     static readonly PerformanceData: RegistryKey;
     static readonly Users: RegistryKey;
-    static GetValue(keyName: string, valueName: string, defaultValue: unknown): unknown | undefined;
-    static SetValue(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
-    static SetValue(keyName: string, valueName: string, value: unknown): void;
+    static GetValue(keyName: string, valueName: string | null, defaultValue: JsValue | null): JsValue | null;
+    static SetValue(keyName: string, valueName: string | null, value: JsValue, valueKind: RegistryValueKind): void;
+    static SetValue(keyName: string, valueName: string | null, value: JsValue): void;
 }
 
 

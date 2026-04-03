@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.InteropServices.ObjectiveC
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
@@ -15,18 +13,6 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, RuntimeMethodHandle, Span_1, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
-
-export enum ObjectiveCMarshal_MessageSendFunction {
-    MsgSend = 0,
-    MsgSendFpret = 1,
-    MsgSendStret = 2,
-    MsgSendSuper = 3,
-    MsgSendSuperStret = 4
-}
-
-
-export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception: Exception, lastMethod: RuntimeMethodHandle, context: nint) => unknown;
-
 
 export interface ObjectiveCTrackedTypeAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_InteropServices_ObjectiveC_ObjectiveCTrackedTypeAttribute: never;
@@ -42,12 +28,24 @@ export const ObjectiveCTrackedTypeAttribute: {
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: unknown, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
-    static Initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
+    static CreateReferenceTrackingHandle(obj: JsValue, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
+    static Initialize(beginEndCallback: fnptr<[], void>, isReferencedCallback: fnptr<[nint], int>, trackedObjectEnteredFinalization: fnptr<[nint], void>, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
     static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
-    static SetMessageSendPendingException(exception: Exception): void;
+    static SetMessageSendPendingException(exception: Exception | null): void;
 }
 
 
 export type ObjectiveCMarshal = ObjectiveCMarshal$instance;
+
+export enum ObjectiveCMarshal_MessageSendFunction {
+    MsgSend = 0,
+    MsgSendFpret = 1,
+    MsgSendStret = 2,
+    MsgSendSuper = 3,
+    MsgSendSuperStret = 4
+}
+
+
+export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception: Exception, lastMethod: RuntimeMethodHandle, context: nint) => fnptr<[nint], void>;
+
 

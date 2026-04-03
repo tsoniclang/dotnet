@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.InteropServices.ComTypes
 // Assembly: System.Private.CoreLib, System.Runtime.InteropServices
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -224,11 +222,11 @@ export type IAdviseSink = IAdviseSink$instance;
 export interface IBindCtx$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IBindCtx: never;
 
-    EnumObjectParam(ppenum: IEnumString): void;
-    GetObjectParam(pszKey: string, ppunk: unknown): void;
-    GetRunningObjectTable(pprot: IRunningObjectTable): void;
-    RegisterObjectBound(punk: unknown): void;
-    RegisterObjectParam(pszKey: string, punk: unknown): void;
+    EnumObjectParam(ppenum: IEnumString | null): void;
+    GetObjectParam(pszKey: string, ppunk: JsValue | null): void;
+    GetRunningObjectTable(pprot: IRunningObjectTable | null): void;
+    RegisterObjectBound(punk: JsValue): void;
+    RegisterObjectParam(pszKey: string, punk: JsValue): void;
     ReleaseBoundObjects(): void;
     RevokeObjectParam(pszKey: string): int;
     SetBindOptions(pbindopts: BIND_OPTS): void;
@@ -240,7 +238,7 @@ export type IBindCtx = IBindCtx$instance;
 export interface IConnectionPoint$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IConnectionPoint: never;
 
-    Advise(pUnkSink: unknown, pdwCookie: int): void;
+    Advise(pUnkSink: JsValue, pdwCookie: int): void;
     EnumConnections(ppEnum: IEnumConnections): void;
     GetConnectionInterface(pIID: Guid): void;
     GetConnectionPointContainer(ppCPC: IConnectionPointContainer): void;
@@ -254,7 +252,7 @@ export interface IConnectionPointContainer$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IConnectionPointContainer: never;
 
     EnumConnectionPoints(ppEnum: IEnumConnectionPoints): void;
-    FindConnectionPoint(riid: Guid, ppCP: IConnectionPoint): void;
+    FindConnectionPoint(riid: Guid, ppCP: IConnectionPoint | null): void;
 }
 
 
@@ -265,7 +263,7 @@ export interface IDataObject$instance {
 
     DAdvise(pFormatetc: FORMATETC, advf: ADVF, adviseSink: IAdviseSink, connection: int): int;
     DUnadvise(connection: int): void;
-    EnumDAdvise(enumAdvise: IEnumSTATDATA): int;
+    EnumDAdvise(enumAdvise: IEnumSTATDATA | null): int;
     EnumFormatEtc(direction: DATADIR): IEnumFORMATETC;
     GetCanonicalFormatEtc(formatIn: FORMATETC, formatOut: FORMATETC): int;
     GetData(format: FORMATETC, medium: STGMEDIUM): void;
@@ -352,7 +350,7 @@ export interface IEnumVARIANT$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IEnumVARIANT: never;
 
     Clone(): IEnumVARIANT;
-    Next(celt: int, rgVar: unknown[], pceltFetched: nint): int;
+    Next(celt: int, rgVar: (JsValue | null)[], pceltFetched: nint): int;
     Reset(): int;
     Skip(celt: int): int;
 }
@@ -363,23 +361,23 @@ export type IEnumVARIANT = IEnumVARIANT$instance;
 export interface IMoniker$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IMoniker: never;
 
-    BindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: Guid, ppvResult: unknown): void;
-    CommonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker): void;
-    ComposeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker): void;
-    Enum(fForward: boolean, ppenumMoniker: IEnumMoniker): void;
+    BindToObject(pbc: IBindCtx, pmkToLeft: IMoniker | null, riidResult: Guid, ppvResult: JsValue): void;
+    CommonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker | null): void;
+    ComposeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker | null): void;
+    Enum(fForward: boolean, ppenumMoniker: IEnumMoniker | null): void;
     GetClassID(pClassID: Guid): void;
-    GetDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: string): void;
+    GetDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker | null, ppszDisplayName: string): void;
     GetSizeMax(pcbSize: long): void;
-    GetTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker, pFileTime: FILETIME): void;
+    GetTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker | null, pFileTime: FILETIME): void;
     Hash(pdwHash: int): void;
     Inverse(ppmk: IMoniker): void;
     IsDirty(): int;
     IsEqual(pmkOtherMoniker: IMoniker): int;
-    IsRunning(pbc: IBindCtx, pmkToLeft: IMoniker, pmkNewlyRunning: IMoniker): int;
+    IsRunning(pbc: IBindCtx, pmkToLeft: IMoniker | null, pmkNewlyRunning: IMoniker | null): int;
     IsSystemMoniker(pdwMksys: int): int;
     Load(pStm: IStream): void;
     ParseDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, pszDisplayName: string, pchEaten: int, ppmkOut: IMoniker): void;
-    Reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: IMoniker, ppmkReduced: IMoniker): void;
+    Reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: IMoniker | null, ppmkReduced: IMoniker | null): void;
     Save(pStm: IStream, fClearDirty: boolean): void;
 }
 
@@ -393,7 +391,7 @@ export interface IPersistFile$instance {
     GetCurFile(ppszFileName: string): void;
     IsDirty(): int;
     Load(pszFileName: string, dwMode: int): void;
-    Save(pszFileName: string, fRemember: boolean): void;
+    Save(pszFileName: string | null, fRemember: boolean): void;
     SaveCompleted(pszFileName: string): void;
 }
 
@@ -404,11 +402,11 @@ export interface IRunningObjectTable$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_IRunningObjectTable: never;
 
     EnumRunning(ppenumMoniker: IEnumMoniker): void;
-    GetObject(pmkObjectName: IMoniker, ppunkObject: unknown): int;
+    GetObject(pmkObjectName: IMoniker, ppunkObject: JsValue): int;
     GetTimeOfLastChange(pmkObjectName: IMoniker, pfiletime: FILETIME): int;
     IsRunning(pmkObjectName: IMoniker): int;
     NoteChangeTime(dwRegister: int, pfiletime: FILETIME): void;
-    Register(grfFlags: int, punkObject: unknown, pmkObjectName: IMoniker): int;
+    Register(grfFlags: int, punkObject: JsValue, pmkObjectName: IMoniker): int;
     Revoke(dwRegister: int): void;
 }
 
@@ -446,20 +444,20 @@ export interface ITypeInfo$instance {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo: never;
 
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
-    CreateInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
+    CreateInstance(pUnkOuter: JsValue | null, riid: Guid, ppvObj: JsValue): void;
     GetContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
     GetDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
     GetDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
     GetFuncDesc(index: int, ppFuncDesc: nint): void;
     GetIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
     GetImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
-    GetMops(memid: int, pBstrMops: string): void;
+    GetMops(memid: int, pBstrMops: string | null): void;
     GetNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
     GetRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;
     GetRefTypeOfImplType(index: int, href: int): void;
     GetTypeAttr(ppTypeAttr: nint): void;
     GetTypeComp(ppTComp: ITypeComp): void;
-    Invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
+    Invoke(pvInstance: JsValue, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
     ReleaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -470,29 +468,29 @@ export interface ITypeInfo2$instance extends ITypeInfo {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo2: never;
 
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
-    CreateInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
+    CreateInstance(pUnkOuter: JsValue | null, riid: Guid, ppvObj: JsValue): void;
     GetAllFuncCustData(index: int, pCustData: nint): void;
     GetAllParamCustData(indexFunc: int, indexParam: int, pCustData: nint): void;
     GetContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
-    GetCustData(guid: Guid, pVarVal: unknown): void;
+    GetCustData(guid: Guid, pVarVal: JsValue): void;
     GetDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
     GetDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
     GetDocumentation2(memid: int, pbstrHelpString: string, pdwHelpStringContext: int, pbstrHelpStringDll: string): void;
-    GetFuncCustData(index: int, guid: Guid, pVarVal: unknown): void;
+    GetFuncCustData(index: int, guid: Guid, pVarVal: JsValue): void;
     GetFuncDesc(index: int, ppFuncDesc: nint): void;
     GetFuncIndexOfMemId(memid: int, invKind: INVOKEKIND, pFuncIndex: int): void;
     GetIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
     GetImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
-    GetMops(memid: int, pBstrMops: string): void;
+    GetMops(memid: int, pBstrMops: string | null): void;
     GetNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
-    GetParamCustData(indexFunc: int, indexParam: int, guid: Guid, pVarVal: unknown): void;
+    GetParamCustData(indexFunc: int, indexParam: int, guid: Guid, pVarVal: JsValue): void;
     GetRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;
     GetRefTypeOfImplType(index: int, href: int): void;
     GetTypeAttr(ppTypeAttr: nint): void;
     GetTypeComp(ppTComp: ITypeComp): void;
     GetTypeFlags(pTypeFlags: int): void;
     GetTypeKind(pTypeKind: TYPEKIND): void;
-    Invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
+    Invoke(pvInstance: JsValue, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
     ReleaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -523,7 +521,7 @@ export interface ITypeLib2$instance extends ITypeLib {
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeLib2: never;
 
     FindName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
-    GetCustData(guid: Guid, pVarVal: unknown): void;
+    GetCustData(guid: Guid, pVarVal: JsValue): void;
     GetDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
     GetDocumentation2(index: int, pbstrHelpString: string, pdwHelpStringContext: int, pbstrHelpStringDll: string): void;
     GetLibAttr(ppTLibAttr: nint): void;
@@ -578,7 +576,7 @@ export type BINDPTR = BINDPTR$instance;
 export interface CONNECTDATA$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_CONNECTDATA: never;
 
-    pUnk: unknown;
+    pUnk: JsValue;
     dwCookie: int;
 }
 
@@ -793,7 +791,7 @@ export interface STGMEDIUM$instance {
 
     tymed: TYMED;
     unionmember: nint;
-    pUnkForRelease: unknown | undefined;
+    pUnkForRelease: JsValue | null;
 }
 
 

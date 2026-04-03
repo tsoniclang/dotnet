@@ -61,7 +61,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -992,7 +995,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IBinaryNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -1011,7 +1017,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -1049,7 +1058,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -1068,7 +1080,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -1087,7 +1102,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::Epsilon:TSelf",
@@ -1106,7 +1124,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NaN:TSelf",
@@ -1125,7 +1146,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NegativeInfinity:TSelf",
@@ -1144,7 +1168,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NegativeZero:TSelf",
@@ -1163,7 +1190,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::PositiveInfinity:TSelf",
@@ -1182,7 +1212,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
@@ -1201,7 +1234,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -1220,7 +1256,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -1239,7 +1278,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.ISignedNumber\u00601::NegativeOne:TSelf",
@@ -1258,7 +1300,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.ISignedNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -2174,7 +2219,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IBinaryNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -2193,7 +2241,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -2231,7 +2282,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -2250,7 +2304,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -2269,7 +2326,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -2637,6 +2697,26 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::IsCanonical(TSelf):System.Boolean",
+          "clrName": "IsCanonical",
+          "metadataToken": 100675934,
+          "canonicalSignature": "(TSelf):System.Boolean",
+          "normalizedSignature": "IsCanonical|(TSelf):System.Boolean|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Numerics.INumberBase\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider):TSelf",
           "clrName": "Parse",
           "metadataToken": 100675956,
@@ -2937,7 +3017,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IBinaryNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -2956,7 +3039,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -2994,7 +3080,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -3013,7 +3102,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -3032,7 +3124,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -3741,7 +3836,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -3760,7 +3858,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -3779,7 +3880,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -3798,7 +3902,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -3836,7 +3943,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -3855,7 +3965,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -3874,7 +3987,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -4733,7 +4849,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -4752,7 +4871,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -4771,7 +4893,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -4790,7 +4915,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -4828,7 +4956,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -4847,7 +4978,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -4866,7 +5000,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.ISignedNumber\u00601::NegativeOne:TSelf",
@@ -4885,7 +5022,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.ISignedNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -5448,7 +5588,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -5467,7 +5610,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -5486,7 +5632,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -5505,7 +5654,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -5543,7 +5695,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -5562,7 +5717,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -5581,7 +5739,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -6511,6 +6672,26 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.INumber\u00601::Sign(TSelf):System.Int32",
+          "clrName": "Sign",
+          "metadataToken": 100675926,
+          "canonicalSignature": "(TSelf):System.Int32",
+          "normalizedSignature": "Sign|(TSelf):System.Int32|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Numerics.INumber\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IComparable::CompareTo(System.Object):System.Int32",
           "clrName": "CompareTo",
           "metadataToken": 100668510,
@@ -6569,7 +6750,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NaN:TSelf",
@@ -6588,7 +6772,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NegativeInfinity:TSelf",
@@ -6607,7 +6794,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::NegativeZero:TSelf",
@@ -6626,7 +6816,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointIeee754\u00601::PositiveInfinity:TSelf",
@@ -6645,7 +6838,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointIeee754\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
@@ -6664,7 +6860,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -6683,7 +6882,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -6702,7 +6904,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -6721,7 +6926,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -6759,7 +6967,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -6778,7 +6989,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -6797,7 +7011,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.ISignedNumber\u00601::NegativeOne:TSelf",
@@ -6816,7 +7033,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.ISignedNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -7406,7 +7626,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -7425,7 +7648,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -7444,7 +7670,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -7463,7 +7692,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -7501,7 +7733,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -7520,7 +7755,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -7539,7 +7777,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -8169,7 +8410,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -8188,7 +8432,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -8207,7 +8454,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -8226,7 +8476,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -8264,7 +8517,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -8283,7 +8539,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -8302,7 +8561,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -8342,7 +8604,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMinMaxValue\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMinMaxValue\u00601::MaxValue:TSelf",
@@ -8361,7 +8626,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMinMaxValue\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -8424,7 +8692,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -8714,6 +8985,26 @@
           "isSealed": false,
           "visibility": "Public",
           "declaringClrType": "System.IComparable",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable\u00601::CompareTo(T):System.Int32",
+          "clrName": "CompareTo",
+          "metadataToken": 100668511,
+          "canonicalSignature": "(T):System.Int32",
+          "normalizedSignature": "CompareTo|(T):System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IComparable\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
@@ -9118,7 +9409,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -9156,7 +9450,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -9175,7 +9472,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -9194,7 +9494,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -9594,6 +9897,26 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
+          "clrName": "Equals",
+          "metadataToken": 100668531,
+          "canonicalSignature": "(T):System.Boolean",
+          "normalizedSignature": "Equals|(T):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.IEquatable\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable::TryFormat(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean",
           "clrName": "TryFormat",
           "metadataToken": 100669347,
@@ -9750,7 +10073,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -9788,7 +10114,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -9807,7 +10136,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -9826,7 +10158,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -10409,7 +10744,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -10447,7 +10785,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -10466,7 +10807,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -10485,7 +10829,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -11115,7 +11462,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -11134,7 +11484,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -11153,7 +11506,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -11172,7 +11528,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -11210,7 +11569,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -11229,7 +11591,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -11248,7 +11613,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -11833,7 +12201,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.ISignedNumber\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -11852,7 +12223,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -11890,7 +12264,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -11909,7 +12286,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -11928,7 +12308,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -12560,7 +12943,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Pi:TSelf",
@@ -12579,7 +12965,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::Tau:TSelf",
@@ -12598,7 +12987,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IFloatingPointConstants\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::One:TSelf",
@@ -12617,7 +13009,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -12655,7 +13050,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -12674,7 +13072,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -12693,7 +13094,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -13298,7 +13702,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.INumberBase\u00601::Radix:System.Int32",
@@ -13336,7 +13743,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.INumberBase\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IAdditiveIdentity\u00602::AdditiveIdentity:TResult",
@@ -13355,7 +13765,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IAdditiveIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IMultiplicativeIdentity\u00602::MultiplicativeIdentity:TResult",
@@ -13374,7 +13787,10 @@
           "isOverride": true,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -23177,7 +23593,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.Vector\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector\u00601::Count:System.Int32",
@@ -23215,7 +23634,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.Vector\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector\u00601::IsSupported:System.Boolean",
@@ -23253,7 +23675,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.Vector\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector\u00601::Zero:Vector_1",
@@ -23272,7 +23697,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Numerics.Vector\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector\u00601::Item[System.Int32]:T",

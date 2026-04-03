@@ -2,11 +2,9 @@
 // Namespace: System.Reflection.PortableExecutable
 // Assembly: System.Reflection.Metadata
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -382,7 +380,7 @@ export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 export interface ManagedPEBuilder$instance extends PEBuilder {
     readonly __tsonic_type_System_Reflection_PortableExecutable_ManagedPEBuilder: never;
 
-    CreateSections(): ImmutableArray_1<unknown>;
+    CreateSections(): ImmutableArray_1<PEBuilder_Section>;
     GetDirectories(): PEDirectoriesBuilder;
     SerializeSection(name: string, location: SectionLocation): BlobBuilder;
     Sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
@@ -390,7 +388,7 @@ export interface ManagedPEBuilder$instance extends PEBuilder {
 
 
 export const ManagedPEBuilder: {
-    new(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): ManagedPEBuilder;
+    new(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder | null, managedResources: BlobBuilder | null, nativeResources: ResourceSectionBuilder | null, debugDirectoryBuilder: DebugDirectoryBuilder | null, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId> | null): ManagedPEBuilder;
     readonly ManagedResourcesDataAlignment: int;
     readonly MappedFieldDataAlignment: int;
 };
@@ -404,18 +402,33 @@ export interface PEBuilder$instance {
     readonly Header: PEHeaderBuilder;
     readonly IdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
     readonly IsDeterministic: boolean;
-    CreateSections(): ImmutableArray_1<unknown>;
+    CreateSections(): ImmutableArray_1<PEBuilder_Section>;
     GetDirectories(): PEDirectoriesBuilder;
     Serialize(builder: BlobBuilder): BlobContentId;
     SerializeSection(name: string, location: SectionLocation): BlobBuilder;
 }
 
 
-export const PEBuilder: (abstract new(header: PEHeaderBuilder, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>) => PEBuilder) & {
+export const PEBuilder: (abstract new(header: PEHeaderBuilder, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId> | null) => PEBuilder) & {
 };
 
 
 export type PEBuilder = PEBuilder$instance;
+
+export interface PEBuilder_Section$instance {
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEBuilder_Section: never;
+
+    readonly Name: string;
+    readonly Characteristics: SectionCharacteristics;
+}
+
+
+export const PEBuilder_Section: {
+    new(name: string, characteristics: SectionCharacteristics): PEBuilder_Section;
+};
+
+
+export type PEBuilder_Section = PEBuilder_Section$instance;
 
 export interface PEDirectoriesBuilder$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_PEDirectoriesBuilder: never;
@@ -539,7 +552,7 @@ export interface PEHeaders$instance {
 
     readonly CoffHeader: CoffHeader;
     readonly CoffHeaderStartOffset: int;
-    readonly CorHeader: CorHeader | undefined;
+    readonly CorHeader: CorHeader | null;
     readonly CorHeaderStartOffset: int;
     readonly IsCoffOnly: boolean;
     readonly IsConsoleApplication: boolean;
@@ -547,7 +560,7 @@ export interface PEHeaders$instance {
     readonly IsExe: boolean;
     readonly MetadataSize: int;
     readonly MetadataStartOffset: int;
-    readonly PEHeader: PEHeader | undefined;
+    readonly PEHeader: PEHeader | null;
     readonly PEHeaderStartOffset: int;
     readonly SectionHeaders: ImmutableArray_1<SectionHeader>;
     GetContainingSectionIndex(relativeVirtualAddress: int): int;
@@ -582,7 +595,7 @@ export interface PEReader$instance extends System_Internal.IDisposable$instance 
     ReadDebugDirectory(): ImmutableArray_1<DebugDirectoryEntry>;
     ReadEmbeddedPortablePdbDebugDirectoryData(entry: DebugDirectoryEntry): MetadataReaderProvider;
     ReadPdbChecksumDebugDirectoryData(entry: DebugDirectoryEntry): PdbChecksumDebugDirectoryData;
-    TryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<System_Internal.String, Stream>, pdbReaderProvider: MetadataReaderProvider, pdbPath: string): boolean;
+    TryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<System_Internal.String, Stream | null>, pdbReaderProvider: MetadataReaderProvider | null, pdbPath: string | null): boolean;
 }
 
 

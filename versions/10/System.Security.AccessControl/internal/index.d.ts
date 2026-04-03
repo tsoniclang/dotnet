@@ -2,22 +2,20 @@
 // Namespace: System.Security.AccessControl
 // Assembly: Microsoft.Win32.Registry, System.IO.FileSystem.AccessControl, System.Security.AccessControl, System.Threading.AccessControl
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
-import type { MethodBase } from "../../System.Reflection/internal/index.js";
+import type { MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import type { SafeHandle } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { IdentityReference, SecurityIdentifier } from "../../System.Security.Principal/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Enum, Exception, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AccessControlActions {
     None = 0,
@@ -266,7 +264,7 @@ export const AccessRule: (abstract new(identity: IdentityReference, accessMask: 
 
 export type AccessRule = AccessRule$instance;
 
-export interface AccessRule_1$instance<T extends unknown> extends AccessRule {
+export interface AccessRule_1$instance<T extends NonNullable<JsValue>> extends AccessRule {
     readonly __tsonic_type_System_Security_AccessControl_AccessRule_1: never;
 
     readonly Rights: T;
@@ -274,10 +272,10 @@ export interface AccessRule_1$instance<T extends unknown> extends AccessRule {
 
 
 export const AccessRule_1: {
-    new<T extends unknown>(identity: IdentityReference, rights: T, type: AccessControlType): AccessRule_1<T>;
-    new<T extends unknown>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
-    new<T extends unknown>(identity: string, rights: T, type: AccessControlType): AccessRule_1<T>;
-    new<T extends unknown>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: string, rights: T, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
 };
 
 
@@ -318,7 +316,7 @@ export const AuditRule: (abstract new(identity: IdentityReference, accessMask: i
 
 export type AuditRule = AuditRule$instance;
 
-export interface AuditRule_1$instance<T extends unknown> extends AuditRule {
+export interface AuditRule_1$instance<T extends NonNullable<JsValue>> extends AuditRule {
     readonly __tsonic_type_System_Security_AccessControl_AuditRule_1: never;
 
     readonly Rights: T;
@@ -326,10 +324,10 @@ export interface AuditRule_1$instance<T extends unknown> extends AuditRule {
 
 
 export const AuditRule_1: {
-    new<T extends unknown>(identity: IdentityReference, rights: T, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends unknown>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends unknown>(identity: string, rights: T, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends unknown>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: string, rights: T, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<JsValue>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
 };
 
 
@@ -357,7 +355,7 @@ export interface AuthorizationRuleCollection$instance extends ReadOnlyCollection
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    AddRule(rule: AuthorizationRule): void;
+    AddRule(rule: AuthorizationRule | null): void;
     CopyTo(rules: AuthorizationRule[], index: int): void;
 }
 
@@ -372,7 +370,7 @@ export interface __AuthorizationRuleCollection$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views & { readonly [index: number]: AuthorizationRule | undefined; };
+export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views & { readonly [index: number]: AuthorizationRule | null; };
 
 
 export interface CommonAce$instance extends QualifiedAce {
@@ -384,7 +382,7 @@ export interface CommonAce$instance extends QualifiedAce {
 
 
 export const CommonAce: {
-    new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]): CommonAce;
+    new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[] | null): CommonAce;
     MaxOpaqueLength(isCallback: boolean): int;
 };
 
@@ -441,18 +439,18 @@ export interface CommonSecurityDescriptor$instance extends GenericSecurityDescri
     readonly __tsonic_type_System_Security_AccessControl_CommonSecurityDescriptor: never;
 
     readonly ControlFlags: ControlFlags;
-    get DiscretionaryAcl(): DiscretionaryAcl | undefined;
-    set DiscretionaryAcl(value: DiscretionaryAcl | undefined);
-    get Group(): SecurityIdentifier | undefined;
-    set Group(value: SecurityIdentifier | undefined);
+    get DiscretionaryAcl(): DiscretionaryAcl | null;
+    set DiscretionaryAcl(value: DiscretionaryAcl | null);
+    get Group(): SecurityIdentifier | null;
+    set Group(value: SecurityIdentifier | null);
     readonly IsContainer: boolean;
     readonly IsDiscretionaryAclCanonical: boolean;
     readonly IsDS: boolean;
     readonly IsSystemAclCanonical: boolean;
-    get Owner(): SecurityIdentifier | undefined;
-    set Owner(value: SecurityIdentifier | undefined);
-    get SystemAcl(): SystemAcl | undefined;
-    set SystemAcl(value: SystemAcl | undefined);
+    get Owner(): SecurityIdentifier | null;
+    set Owner(value: SecurityIdentifier | null);
+    get SystemAcl(): SystemAcl | null;
+    set SystemAcl(value: SystemAcl | null);
     AddDiscretionaryAcl(revision: byte, trusted: int): void;
     AddSystemAcl(revision: byte, trusted: int): void;
     PurgeAccessControl(sid: SecurityIdentifier): void;
@@ -464,7 +462,7 @@ export interface CommonSecurityDescriptor$instance extends GenericSecurityDescri
 
 export const CommonSecurityDescriptor: {
     new(isContainer: boolean, isDS: boolean, binaryForm: byte[], offset: int): CommonSecurityDescriptor;
-    new(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: SystemAcl, discretionaryAcl: DiscretionaryAcl): CommonSecurityDescriptor;
+    new(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier | null, group: SecurityIdentifier | null, systemAcl: SystemAcl | null, discretionaryAcl: DiscretionaryAcl | null): CommonSecurityDescriptor;
     new(isContainer: boolean, isDS: boolean, rawSecurityDescriptor: RawSecurityDescriptor): CommonSecurityDescriptor;
     new(isContainer: boolean, isDS: boolean, sddlForm: string): CommonSecurityDescriptor;
 };
@@ -494,13 +492,13 @@ export interface CustomAce$instance extends GenericAce {
     readonly BinaryLength: int;
     readonly OpaqueLength: int;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
-    GetOpaque(): byte[] | undefined;
-    SetOpaque(opaque: byte[]): void;
+    GetOpaque(): byte[] | null;
+    SetOpaque(opaque: byte[] | null): void;
 }
 
 
 export const CustomAce: {
-    new(type: AceType, flags: AceFlags, opaque: byte[]): CustomAce;
+    new(type: AceType, flags: AceFlags, opaque: byte[] | null): CustomAce;
     readonly MaxOpaqueLength: int;
 };
 
@@ -565,7 +563,7 @@ export interface DiscretionaryAcl$instance extends CommonAcl$instance {
 export const DiscretionaryAcl: {
     new(isContainer: boolean, isDS: boolean, revision: byte, capacity: int): DiscretionaryAcl;
     new(isContainer: boolean, isDS: boolean, capacity: int): DiscretionaryAcl;
-    new(isContainer: boolean, isDS: boolean, rawAcl: RawAcl): DiscretionaryAcl;
+    new(isContainer: boolean, isDS: boolean, rawAcl: RawAcl | null): DiscretionaryAcl;
 };
 
 
@@ -722,7 +720,7 @@ export interface GenericAce$instance {
     readonly IsInherited: boolean;
     readonly PropagationFlags: PropagationFlags;
     Copy(): GenericAce;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetHashCode(): int;
 }
@@ -745,7 +743,7 @@ export interface GenericAcl$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
     readonly Revision: byte;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     CopyTo(array: GenericAce[], index: int): void;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetEnumerator(): AceEnumerator;
@@ -772,10 +770,10 @@ export interface GenericSecurityDescriptor$instance {
 
     readonly BinaryLength: int;
     readonly ControlFlags: ControlFlags;
-    get Group(): SecurityIdentifier | undefined;
-    set Group(value: SecurityIdentifier | undefined);
-    get Owner(): SecurityIdentifier | undefined;
-    set Owner(value: SecurityIdentifier | undefined);
+    get Group(): SecurityIdentifier | null;
+    set Group(value: SecurityIdentifier | null);
+    get Owner(): SecurityIdentifier | null;
+    set Owner(value: SecurityIdentifier | null);
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetSddlForm(includeSections: AccessControlSections): string;
 }
@@ -871,11 +869,14 @@ export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
 }
 
 
-export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceType: ResourceType) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => NativeObjectSecurity) & {
+export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceType: ResourceType) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & {
 };
 
 
 export type NativeObjectSecurity = NativeObjectSecurity$instance;
+
+export type NativeObjectSecurity_ExceptionFromErrorCode = (errorCode: int, name: string | null, handle: SafeHandle | null, context: JsValue | null) => Exception | null;
+
 
 export interface ObjectAccessRule$instance extends AccessRule {
     readonly __tsonic_type_System_Security_AccessControl_ObjectAccessRule: never;
@@ -904,7 +905,7 @@ export interface ObjectAce$instance extends QualifiedAce {
 
 
 export const ObjectAce: {
-    new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[]): ObjectAce;
+    new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[] | null): ObjectAce;
     MaxOpaqueLength(isCallback: boolean): int;
 };
 
@@ -938,8 +939,8 @@ export interface ObjectSecurity$instance {
     readonly AuditRuleType: Type;
     AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
     AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    GetGroup(targetType: Type): IdentityReference | undefined;
-    GetOwner(targetType: Type): IdentityReference | undefined;
+    GetGroup(targetType: Type): IdentityReference | null;
+    GetOwner(targetType: Type): IdentityReference | null;
     GetSecurityDescriptorBinaryForm(): byte[];
     GetSecurityDescriptorSddlForm(includeSections: AccessControlSections): string;
     ModifyAccess(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
@@ -969,7 +970,7 @@ export const ObjectSecurity: (abstract new() => ObjectSecurity) & (abstract new(
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
+export interface ObjectSecurity_1$instance<T extends NonNullable<JsValue>> extends NativeObjectSecurity {
     readonly __tsonic_type_System_Security_AccessControl_ObjectSecurity_1: never;
 
     readonly AccessRightType: Type;
@@ -994,7 +995,7 @@ export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObje
 }
 
 
-export const ObjectSecurity_1: (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends unknown>(isContainer: boolean, resourceType: ResourceType, name: string, includeSections: AccessControlSections, exceptionFromErrorCode: unknown, exceptionContext: unknown) => ObjectSecurity_1<T>) & {
+export const ObjectSecurity_1: (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => ObjectSecurity_1<T>) & {
 };
 
 
@@ -1005,15 +1006,15 @@ export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessEx
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly PrivilegeName: string | undefined;
+    readonly PrivilegeName: string | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const PrivilegeNotHeldException: {
     new(): PrivilegeNotHeldException;
-    new(privilege: string): PrivilegeNotHeldException;
-    new(privilege: string, inner: Exception): PrivilegeNotHeldException;
+    new(privilege: string | null): PrivilegeNotHeldException;
+    new(privilege: string | null, inner: Exception | null): PrivilegeNotHeldException;
 };
 
 
@@ -1030,8 +1031,8 @@ export interface QualifiedAce$instance extends KnownAce {
     readonly AceQualifier: AceQualifier;
     readonly IsCallback: boolean;
     readonly OpaqueLength: int;
-    GetOpaque(): byte[] | undefined;
-    SetOpaque(opaque: byte[]): void;
+    GetOpaque(): byte[] | null;
+    SetOpaque(opaque: byte[] | null): void;
 }
 
 
@@ -1074,22 +1075,22 @@ export interface RawSecurityDescriptor$instance extends GenericSecurityDescripto
     readonly __tsonic_type_System_Security_AccessControl_RawSecurityDescriptor: never;
 
     readonly ControlFlags: ControlFlags;
-    get DiscretionaryAcl(): RawAcl | undefined;
-    set DiscretionaryAcl(value: RawAcl | undefined);
-    get Group(): SecurityIdentifier | undefined;
-    set Group(value: SecurityIdentifier | undefined);
-    get Owner(): SecurityIdentifier | undefined;
-    set Owner(value: SecurityIdentifier | undefined);
+    get DiscretionaryAcl(): RawAcl | null;
+    set DiscretionaryAcl(value: RawAcl | null);
+    get Group(): SecurityIdentifier | null;
+    set Group(value: SecurityIdentifier | null);
+    get Owner(): SecurityIdentifier | null;
+    set Owner(value: SecurityIdentifier | null);
     ResourceManagerControl: byte;
-    get SystemAcl(): RawAcl | undefined;
-    set SystemAcl(value: RawAcl | undefined);
+    get SystemAcl(): RawAcl | null;
+    set SystemAcl(value: RawAcl | null);
     SetFlags(flags: ControlFlags): void;
 }
 
 
 export const RawSecurityDescriptor: {
     new(binaryForm: byte[], offset: int): RawSecurityDescriptor;
-    new(flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: RawAcl, discretionaryAcl: RawAcl): RawSecurityDescriptor;
+    new(flags: ControlFlags, owner: SecurityIdentifier | null, group: SecurityIdentifier | null, systemAcl: RawAcl | null, discretionaryAcl: RawAcl | null): RawSecurityDescriptor;
     new(sddlForm: string): RawSecurityDescriptor;
 };
 

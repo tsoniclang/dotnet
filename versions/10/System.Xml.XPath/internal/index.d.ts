@@ -2,8 +2,9 @@
 // Namespace: System.Xml.XPath
 // Assembly: System.Private.Xml, System.Private.Xml.Linq, System.Xml.XPath.XDocument
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IDictionary_2, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -118,8 +119,8 @@ export interface XPathException$instance extends SystemException {
 
 export const XPathException: {
     new(): XPathException;
-    new(message: string): XPathException;
-    new(message: string, innerException: Exception): XPathException;
+    new(message: string | null): XPathException;
+    new(message: string | null, innerException: Exception | null): XPathException;
 };
 
 
@@ -135,16 +136,16 @@ export interface XPathExpression$instance {
 
     readonly Expression: string;
     readonly ReturnType: XPathResultType;
-    AddSort(expr: unknown, comparer: IComparer): void;
-    AddSort(expr: unknown, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
+    AddSort(expr: JsValue, comparer: IComparer): void;
+    AddSort(expr: JsValue, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
     Clone(): XPathExpression;
     SetContext(nsManager: XmlNamespaceManager): void;
-    SetContext(nsResolver: IXmlNamespaceResolver): void;
+    SetContext(nsResolver: IXmlNamespaceResolver | null): void;
 }
 
 
 export const XPathExpression: {
-    Compile(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
+    Compile(xpath: string, nsResolver: IXmlNamespaceResolver | null): XPathExpression;
     Compile(xpath: string): XPathExpression;
 };
 
@@ -155,7 +156,7 @@ export interface XPathItem$instance {
     readonly __tsonic_type_System_Xml_XPath_XPathItem: never;
 
     readonly IsNode: boolean;
-    readonly TypedValue: unknown;
+    readonly TypedValue: JsValue;
     readonly Value: string;
     readonly ValueAsBoolean: boolean;
     readonly ValueAsDateTime: DateTime;
@@ -163,9 +164,9 @@ export interface XPathItem$instance {
     readonly ValueAsInt: int;
     readonly ValueAsLong: long;
     readonly ValueType: Type;
-    readonly XmlType: XmlSchemaType | XmlSchemaType | undefined;
-    ValueAs(returnType: Type): unknown;
-    ValueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
+    readonly XmlType: XmlSchemaType | XmlSchemaType | null;
+    ValueAs(returnType: Type): JsValue;
+    ValueAs(returnType: Type, nsResolver: IXmlNamespaceResolver | null): JsValue;
 }
 
 
@@ -196,9 +197,9 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     readonly NodeType: XPathNodeType;
     OuterXml: string;
     readonly Prefix: string;
-    readonly SchemaInfo: IXmlSchemaInfo | undefined;
-    readonly TypedValue: unknown;
-    readonly UnderlyingObject: unknown | undefined;
+    readonly SchemaInfo: IXmlSchemaInfo | null;
+    readonly TypedValue: JsValue;
+    readonly UnderlyingObject: JsValue | null;
     readonly ValueAsBoolean: boolean;
     readonly ValueAsDateTime: DateTime;
     readonly ValueAsDouble: double;
@@ -206,25 +207,25 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     readonly ValueAsLong: long;
     readonly ValueType: Type;
     readonly XmlLang: string;
-    readonly XmlType: XmlSchemaType | undefined;
+    readonly XmlType: XmlSchemaType | null;
     AppendChild(): XmlWriter;
     AppendChild(newChild: string): void;
     AppendChild(newChild: XmlReader): void;
     AppendChild(newChild: XPathNavigator): void;
-    AppendChildElement(prefix: string, localName: string, namespaceURI: string, value: string): void;
+    AppendChildElement(prefix: string | null, localName: string, namespaceURI: string | null, value: string | null): void;
     CheckValidity(schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): boolean;
     Clone(): XPathNavigator;
-    ComparePosition(nav: XPathNavigator): XmlNodeOrder;
+    ComparePosition(nav: XPathNavigator | null): XmlNodeOrder;
     Compile(xpath: string): XPathExpression;
-    CreateAttribute(prefix: string, localName: string, namespaceURI: string, value: string): void;
+    CreateAttribute(prefix: string | null, localName: string, namespaceURI: string | null, value: string | null): void;
     CreateAttributes(): XmlWriter;
     CreateNavigator(): XPathNavigator;
     DeleteRange(lastSiblingToDelete: XPathNavigator): void;
     DeleteSelf(): void;
-    Evaluate(xpath: string): unknown;
-    Evaluate(xpath: string, resolver: IXmlNamespaceResolver): unknown;
-    Evaluate(expr: XPathExpression): unknown;
-    Evaluate(expr: XPathExpression, context: XPathNodeIterator): unknown;
+    Evaluate(xpath: string): JsValue;
+    Evaluate(xpath: string, resolver: IXmlNamespaceResolver | null): JsValue;
+    Evaluate(expr: XPathExpression): JsValue;
+    Evaluate(expr: XPathExpression, context: XPathNodeIterator | null): JsValue;
     GetAttribute(localName: string, namespaceURI: string): string;
     GetNamespace(name: string): string;
     GetNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
@@ -236,12 +237,12 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     InsertBefore(newSibling: string): void;
     InsertBefore(newSibling: XmlReader): void;
     InsertBefore(newSibling: XPathNavigator): void;
-    InsertElementAfter(prefix: string, localName: string, namespaceURI: string, value: string): void;
-    InsertElementBefore(prefix: string, localName: string, namespaceURI: string, value: string): void;
-    IsDescendant(nav: XPathNavigator): boolean;
+    InsertElementAfter(prefix: string | null, localName: string, namespaceURI: string | null, value: string | null): void;
+    InsertElementBefore(prefix: string | null, localName: string, namespaceURI: string | null, value: string | null): void;
+    IsDescendant(nav: XPathNavigator | null): boolean;
     IsSamePosition(other: XPathNavigator): boolean;
-    LookupNamespace(prefix: string): string | undefined;
-    LookupPrefix(namespaceURI: string): string | undefined;
+    LookupNamespace(prefix: string): string | null;
+    LookupPrefix(namespaceURI: string): string | null;
     Matches(expr: XPathExpression): boolean;
     Matches(xpath: string): boolean;
     MoveTo(other: XPathNavigator): boolean;
@@ -254,9 +255,9 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     MoveToFirstNamespace(namespaceScope: XPathNamespaceScope): boolean;
     MoveToFirstNamespace(): boolean;
     MoveToFollowing(localName: string, namespaceURI: string): boolean;
-    MoveToFollowing(localName: string, namespaceURI: string, end: XPathNavigator): boolean;
+    MoveToFollowing(localName: string, namespaceURI: string, end: XPathNavigator | null): boolean;
     MoveToFollowing(type: XPathNodeType): boolean;
-    MoveToFollowing(type: XPathNodeType, end: XPathNavigator): boolean;
+    MoveToFollowing(type: XPathNodeType, end: XPathNavigator | null): boolean;
     MoveToId(id: string): boolean;
     MoveToNamespace(name: string): boolean;
     MoveToNext(): boolean;
@@ -272,14 +273,14 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     PrependChild(newChild: string): void;
     PrependChild(newChild: XmlReader): void;
     PrependChild(newChild: XPathNavigator): void;
-    PrependChildElement(prefix: string, localName: string, namespaceURI: string, value: string): void;
+    PrependChildElement(prefix: string | null, localName: string, namespaceURI: string | null, value: string | null): void;
     ReadSubtree(): XmlReader;
     ReplaceRange(lastSiblingToReplace: XPathNavigator): XmlWriter;
     ReplaceSelf(newNode: string): void;
     ReplaceSelf(newNode: XmlReader): void;
     ReplaceSelf(newNode: XPathNavigator): void;
     Select(xpath: string): XPathNodeIterator;
-    Select(xpath: string, resolver: IXmlNamespaceResolver): XPathNodeIterator;
+    Select(xpath: string, resolver: IXmlNamespaceResolver | null): XPathNodeIterator;
     Select(expr: XPathExpression): XPathNodeIterator;
     SelectAncestors(type: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
     SelectAncestors(name: string, namespaceURI: string, matchSelf: boolean): XPathNodeIterator;
@@ -287,14 +288,14 @@ export interface XPathNavigator$instance extends XPathItem, System_Xml_Internal.
     SelectChildren(name: string, namespaceURI: string): XPathNodeIterator;
     SelectDescendants(type: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
     SelectDescendants(name: string, namespaceURI: string, matchSelf: boolean): XPathNodeIterator;
-    SelectSingleNode(xpath: string): XPathNavigator | undefined;
-    SelectSingleNode(xpath: string, resolver: IXmlNamespaceResolver): XPathNavigator | undefined;
-    SelectSingleNode(expression: XPathExpression): XPathNavigator | undefined;
-    SetTypedValue(typedValue: unknown): void;
+    SelectSingleNode(xpath: string): XPathNavigator | null;
+    SelectSingleNode(xpath: string, resolver: IXmlNamespaceResolver | null): XPathNavigator | null;
+    SelectSingleNode(expression: XPathExpression): XPathNavigator | null;
+    SetTypedValue(typedValue: JsValue): void;
     SetValue(value: string): void;
     ToString(): string;
-    ValueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
-    ValueAs(returnType: Type): unknown;
+    ValueAs(returnType: Type, nsResolver: IXmlNamespaceResolver | null): JsValue;
+    ValueAs(returnType: Type): JsValue;
     WriteSubtree(writer: XmlWriter): void;
 }
 
@@ -320,7 +321,7 @@ export interface XPathNodeIterator$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Count: int;
-    readonly Current: XPathNavigator | undefined;
+    readonly Current: XPathNavigator | null;
     readonly CurrentPosition: int;
     Clone(): XPathNodeIterator;
     GetEnumerator(): IEnumerator;
@@ -341,13 +342,13 @@ export type XPathNodeIterator = XPathNodeIterator$instance & __XPathNodeIterator
 
 
 export abstract class Extensions$instance {
-    static CreateNavigator(node: XNode, nameTable: XmlNameTable): XPathNavigator;
+    static CreateNavigator(node: XNode, nameTable: XmlNameTable | null): XPathNavigator;
     static CreateNavigator(node: XNode): XPathNavigator;
-    static XPathEvaluate(node: XNode, expression: string, resolver: IXmlNamespaceResolver): unknown;
-    static XPathEvaluate(node: XNode, expression: string): unknown;
-    static XPathSelectElement(node: XNode, expression: string, resolver: IXmlNamespaceResolver): XElement | undefined;
-    static XPathSelectElement(node: XNode, expression: string): XElement | undefined;
-    static XPathSelectElements(node: XNode, expression: string, resolver: IXmlNamespaceResolver): IEnumerable_1<XElement>;
+    static XPathEvaluate(node: XNode, expression: string, resolver: IXmlNamespaceResolver | null): JsValue;
+    static XPathEvaluate(node: XNode, expression: string): JsValue;
+    static XPathSelectElement(node: XNode, expression: string, resolver: IXmlNamespaceResolver | null): XElement | null;
+    static XPathSelectElement(node: XNode, expression: string): XElement | null;
+    static XPathSelectElements(node: XNode, expression: string, resolver: IXmlNamespaceResolver | null): IEnumerable_1<XElement>;
     static XPathSelectElements(node: XNode, expression: string): IEnumerable_1<XElement>;
 }
 

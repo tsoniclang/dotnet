@@ -324,224 +324,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-      "clrName": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-      "assemblyName": "System.Collections.Concurrent",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 3,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "typeParameters": [
-        "TKey",
-        "TValue",
-        "TAlternateKey"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::ContainsKey(TAlternateKey):System.Boolean",
-          "clrName": "ContainsKey",
-          "metadataToken": 100663563,
-          "canonicalSignature": "(TAlternateKey):System.Boolean",
-          "normalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryAdd(TAlternateKey,TValue):System.Boolean",
-          "clrName": "TryAdd",
-          "metadataToken": 100663564,
-          "canonicalSignature": "(TAlternateKey,TValue):System.Boolean",
-          "normalizedSignature": "TryAdd|(TAlternateKey,TValue):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
-          "metadataToken": 100663566,
-          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
-          "normalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
-          "metadataToken": 100663567,
-          "canonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
-          "normalizedSignature": "TryGetValue|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            },
-            {
-              "index": 2,
-              "modifier": "out"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TValue\u0026):System.Boolean",
-          "clrName": "TryRemove",
-          "metadataToken": 100663568,
-          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
-          "normalizedSignature": "TryRemove|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
-          "clrName": "TryRemove",
-          "metadataToken": 100663569,
-          "canonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
-          "normalizedSignature": "TryRemove|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 1,
-              "modifier": "out"
-            },
-            {
-              "index": 2,
-              "modifier": "out"
-            }
-          ]
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::Dictionary:ConcurrentDictionary_2",
-          "clrName": "Dictionary",
-          "metadataToken": 385876045,
-          "canonicalSignature": ":ConcurrentDictionary_2",
-          "normalizedSignature": "Dictionary|:ConcurrentDictionary_2|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent"
-        },
-        {
-          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::Item[TAlternateKey]:TValue",
-          "clrName": "Item",
-          "metadataToken": 385876046,
-          "canonicalSignature": "[TAlternateKey]:TValue",
-          "normalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": true,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Concurrent"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601",
       "clrName": "System.Collections.Concurrent.BlockingCollection\u00601",
       "assemblyName": "System.Collections.Concurrent",
@@ -3360,6 +3142,224 @@
           "declaringAssemblyName": "System.Collections.Concurrent"
         }
       ]
+    },
+    {
+      "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+      "clrName": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+      "assemblyName": "System.Collections.Concurrent",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 3,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "typeParameters": [
+        "TKey",
+        "TValue",
+        "TAlternateKey"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::ContainsKey(TAlternateKey):System.Boolean",
+          "clrName": "ContainsKey",
+          "metadataToken": 100663563,
+          "canonicalSignature": "(TAlternateKey):System.Boolean",
+          "normalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryAdd(TAlternateKey,TValue):System.Boolean",
+          "clrName": "TryAdd",
+          "metadataToken": 100663564,
+          "canonicalSignature": "(TAlternateKey,TValue):System.Boolean",
+          "normalizedSignature": "TryAdd|(TAlternateKey,TValue):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
+          "clrName": "TryGetValue",
+          "metadataToken": 100663566,
+          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
+          "normalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
+          "clrName": "TryGetValue",
+          "metadataToken": 100663567,
+          "canonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
+          "normalizedSignature": "TryGetValue|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            },
+            {
+              "index": 2,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TValue\u0026):System.Boolean",
+          "clrName": "TryRemove",
+          "metadataToken": 100663568,
+          "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
+          "normalizedSignature": "TryRemove|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
+          "clrName": "TryRemove",
+          "metadataToken": 100663569,
+          "canonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
+          "normalizedSignature": "TryRemove|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 1,
+              "modifier": "out"
+            },
+            {
+              "index": 2,
+              "modifier": "out"
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::Dictionary:ConcurrentDictionary_2",
+          "clrName": "Dictionary",
+          "metadataToken": 385876045,
+          "canonicalSignature": ":ConcurrentDictionary_2",
+          "normalizedSignature": "Dictionary|:ConcurrentDictionary_2|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent"
+        },
+        {
+          "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::Item[TAlternateKey]:TValue",
+          "clrName": "Item",
+          "metadataToken": 385876046,
+          "canonicalSignature": "[TAlternateKey]:TValue",
+          "normalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": true,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601",
+          "declaringAssemblyName": "System.Collections.Concurrent"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Collections.Concurrent.ConcurrentQueue\u00601",

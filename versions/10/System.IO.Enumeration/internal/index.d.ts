@@ -2,11 +2,9 @@
 // Namespace: System.IO.Enumeration
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -21,12 +19,6 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Char, DateTimeOffset, Delegate, IAsyncResult, ICloneable, IDisposable, Int32, Int64, IntPtr, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
-
-export type FileSystemEnumerable_1_FindPredicate<TResult> = (entry: FileSystemEntry) => boolean;
-
-
-export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEntry) => TResult;
-
 
 export interface FileSystemEntry$instance {
     readonly __tsonic_type_System_IO_Enumeration_FileSystemEntry: never;
@@ -61,16 +53,16 @@ export interface FileSystemEnumerable_1$instance<TResult> {
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    get ShouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | undefined);
-    get ShouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    set ShouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | undefined);
+    get ShouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | null;
+    set ShouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | null);
+    get ShouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | null;
+    set ShouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult> | null);
     GetEnumerator(): IEnumerator_1<TResult>;
 }
 
 
 export const FileSystemEnumerable_1: {
-    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions): FileSystemEnumerable_1<TResult>;
+    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions | null): FileSystemEnumerable_1<TResult>;
 };
 
 
@@ -80,6 +72,12 @@ export interface __FileSystemEnumerable_1$views<TResult> {
 }
 
 export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
+
+
+export type FileSystemEnumerable_1_FindPredicate<TResult> = (entry: FileSystemEntry) => boolean;
+
+
+export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEntry) => TResult;
 
 
 export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
@@ -103,7 +101,7 @@ export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinali
 }
 
 
-export const FileSystemEnumerator_1: (abstract new<TResult>(directory: string, options: EnumerationOptions) => FileSystemEnumerator_1<TResult>) & {
+export const FileSystemEnumerator_1: (abstract new<TResult>(directory: string, options: EnumerationOptions | null) => FileSystemEnumerator_1<TResult>) & {
 };
 
 
@@ -118,7 +116,7 @@ export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TR
 export abstract class FileSystemName$instance {
     static MatchesSimpleExpression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
     static MatchesWin32Expression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
-    static TranslateWin32Expression(expression: string): string;
+    static TranslateWin32Expression(expression: string | null): string;
 }
 
 

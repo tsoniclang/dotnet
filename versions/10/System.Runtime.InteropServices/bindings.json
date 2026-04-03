@@ -4716,107 +4716,6 @@
       ]
     },
     {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
-      "clrName": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch::GetInstance(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T",
-          "clrName": "GetInstance",
-          "metadataToken": 100694508,
-          "canonicalSignature": "(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T",
-          "normalizedSignature": "GetInstance|(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T|static=true",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 1,
-          "parameterCount": 1,
-          "isStatic": true,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch::VtableSystem.IntPtr",
-          "clrName": "Vtable",
-          "metadataToken": 67113517,
-          "normalizedSignature": "Vtable|System.IntPtr|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
-      "clrName": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry::IIDSystem.Guid",
-          "clrName": "IID",
-          "metadataToken": 67113515,
-          "normalizedSignature": "IID|System.Guid|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry::VtableSystem.IntPtr",
-          "clrName": "Vtable",
-          "metadataToken": 67113516,
-          "normalizedSignature": "Vtable|System.IntPtr|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CULong",
       "clrName": "System.Runtime.InteropServices.CULong",
       "assemblyName": "System.Private.CoreLib",
@@ -12810,6 +12709,107 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
+      "clrName": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch::GetInstance(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T",
+          "clrName": "GetInstance",
+          "metadataToken": 100694508,
+          "canonicalSignature": "(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T",
+          "normalizedSignature": "GetInstance|(System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch*):T|static=true",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 1,
+          "parameterCount": 1,
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch::VtableSystem.IntPtr",
+          "clrName": "Vtable",
+          "metadataToken": 67113517,
+          "normalizedSignature": "Vtable|System.IntPtr|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceDispatch",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
+      "clrName": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry::IIDSystem.Guid",
+          "clrName": "IID",
+          "metadataToken": 67113515,
+          "normalizedSignature": "IID|System.Guid|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry::VtableSystem.IntPtr",
+          "clrName": "Vtable",
+          "metadataToken": 67113516,
+          "normalizedSignature": "Vtable|System.IntPtr|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CriticalHandle",

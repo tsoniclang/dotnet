@@ -1104,7 +1104,10 @@
           "isLiteral": false,
           "visibility": "Public",
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "field"
+          }
         }
       ],
       "events": [],
@@ -2784,7 +2787,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],
@@ -3231,7 +3237,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::MaxBufferSize:System.Int32",

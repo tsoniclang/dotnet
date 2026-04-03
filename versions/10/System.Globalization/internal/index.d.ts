@@ -2,11 +2,9 @@
 // Namespace: System.Globalization
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -173,7 +171,7 @@ export interface Calendar$instance extends System_Internal.ICloneable$instance {
     AddSeconds(time: DateTime, seconds: int): DateTime;
     AddWeeks(time: DateTime, weeks: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): unknown;
+    Clone(): JsValue;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -252,14 +250,14 @@ export interface CompareInfo$instance extends System_Runtime_Serialization_Inter
     readonly LCID: int;
     readonly Name: string;
     readonly Version: SortVersion;
-    Compare(string1: string, string2: string): int;
-    Compare(string1: string, string2: string, options: CompareOptions): int;
-    Compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int): int;
-    Compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
-    Compare(string1: string, offset1: int, string2: string, offset2: int): int;
-    Compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
+    Compare(string1: string | null, string2: string | null): int;
+    Compare(string1: string | null, string2: string | null, options: CompareOptions): int;
+    Compare(string1: string | null, offset1: int, length1: int, string2: string | null, offset2: int, length2: int): int;
+    Compare(string1: string | null, offset1: int, string2: string | null, offset2: int, options: CompareOptions): int;
+    Compare(string1: string | null, offset1: int, string2: string | null, offset2: int): int;
+    Compare(string1: string | null, offset1: int, length1: int, string2: string | null, offset2: int, length2: int, options: CompareOptions): int;
     Compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
     GetHashCode(source: string, options: CompareOptions): int;
     GetHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
@@ -356,10 +354,10 @@ export interface CultureInfo$instance extends System_Internal.ICloneable$instanc
     readonly TwoLetterISOLanguageName: string;
     readonly UseUserOverride: boolean;
     ClearCachedData(): void;
-    Clone(): unknown;
-    Equals(value: unknown): boolean;
+    Clone(): JsValue;
+    Equals(value: JsValue | null): boolean;
     GetConsoleFallbackUICulture(): CultureInfo;
-    GetFormat(formatType: Type): unknown | undefined;
+    GetFormat(formatType: Type | null): JsValue | null;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -373,10 +371,10 @@ export const CultureInfo: {
     CurrentCulture: CultureInfo;
     CurrentUICulture: CultureInfo;
     readonly InstalledUICulture: CultureInfo;
-    get DefaultThreadCurrentCulture(): CultureInfo | undefined;
-    set DefaultThreadCurrentCulture(value: CultureInfo | undefined);
-    get DefaultThreadCurrentUICulture(): CultureInfo | undefined;
-    set DefaultThreadCurrentUICulture(value: CultureInfo | undefined);
+    get DefaultThreadCurrentCulture(): CultureInfo | null;
+    set DefaultThreadCurrentCulture(value: CultureInfo | null);
+    get DefaultThreadCurrentUICulture(): CultureInfo | null;
+    set DefaultThreadCurrentUICulture(value: CultureInfo | null);
     readonly InvariantCulture: CultureInfo;
     CreateSpecificCulture(name: string): CultureInfo;
     GetCultureInfo(culture: int): CultureInfo;
@@ -403,7 +401,7 @@ export interface CultureNotFoundException$instance extends ArgumentException {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly InvalidCultureId: Nullable_1<System_Internal.Int32>;
-    readonly InvalidCultureName: string | undefined;
+    readonly InvalidCultureName: string | null;
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -411,13 +409,13 @@ export interface CultureNotFoundException$instance extends ArgumentException {
 
 export const CultureNotFoundException: {
     new(): CultureNotFoundException;
-    new(message: string): CultureNotFoundException;
-    new(paramName: string, message: string): CultureNotFoundException;
-    new(message: string, innerException: Exception): CultureNotFoundException;
-    new(paramName: string, invalidCultureName: string, message: string): CultureNotFoundException;
-    new(message: string, invalidCultureName: string, innerException: Exception): CultureNotFoundException;
-    new(message: string, invalidCultureId: int, innerException: Exception): CultureNotFoundException;
-    new(paramName: string, invalidCultureId: int, message: string): CultureNotFoundException;
+    new(message: string | null): CultureNotFoundException;
+    new(paramName: string | null, message: string | null): CultureNotFoundException;
+    new(message: string | null, innerException: Exception | null): CultureNotFoundException;
+    new(paramName: string | null, invalidCultureName: string | null, message: string | null): CultureNotFoundException;
+    new(message: string | null, invalidCultureName: string | null, innerException: Exception | null): CultureNotFoundException;
+    new(message: string | null, invalidCultureId: int, innerException: Exception | null): CultureNotFoundException;
+    new(paramName: string | null, invalidCultureId: int, message: string | null): CultureNotFoundException;
 };
 
 
@@ -460,7 +458,7 @@ export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$
     TimeSeparator: string;
     readonly UniversalSortableDateTimePattern: string;
     YearMonthPattern: string;
-    Clone(): unknown;
+    Clone(): JsValue;
     GetAbbreviatedDayName(dayofweek: DayOfWeek): string;
     GetAbbreviatedEraName(era: int): string;
     GetAbbreviatedMonthName(month: int): string;
@@ -469,7 +467,7 @@ export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$
     GetDayName(dayofweek: DayOfWeek): string;
     GetEra(eraName: string): int;
     GetEraName(era: int): string;
-    GetFormat(formatType: Type): unknown | undefined;
+    GetFormat(formatType: Type | null): JsValue | null;
     GetMonthName(month: int): string;
     GetShortestDayName(dayOfWeek: DayOfWeek): string;
     SetAllDateTimePatterns(patterns: string[], format: char): void;
@@ -480,7 +478,7 @@ export const DateTimeFormatInfo: {
     new(): DateTimeFormatInfo;
     readonly InvariantInfo: DateTimeFormatInfo;
     readonly CurrentInfo: DateTimeFormatInfo;
-    GetInstance(provider: IFormatProvider): DateTimeFormatInfo;
+    GetInstance(provider: IFormatProvider | null): DateTimeFormatInfo;
     ReadOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
 };
 
@@ -719,7 +717,7 @@ export interface IdnMapping$instance {
 
     AllowUnassigned: boolean;
     UseStd3AsciiRules: boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetAscii(unicode: string): string;
     GetAscii(unicode: string, index: int): string;
     GetAscii(unicode: string, index: int, count: int): string;
@@ -977,8 +975,8 @@ export interface NumberFormatInfo$instance extends System_Internal.ICloneable$in
     PerMilleSymbol: string;
     PositiveInfinitySymbol: string;
     PositiveSign: string;
-    Clone(): unknown;
-    GetFormat(formatType: Type): unknown | undefined;
+    Clone(): JsValue;
+    GetFormat(formatType: Type | null): JsValue | null;
 }
 
 
@@ -986,7 +984,7 @@ export const NumberFormatInfo: {
     new(): NumberFormatInfo;
     readonly InvariantInfo: NumberFormatInfo;
     readonly CurrentInfo: NumberFormatInfo;
-    GetInstance(formatProvider: IFormatProvider): NumberFormatInfo;
+    GetInstance(formatProvider: IFormatProvider | null): NumberFormatInfo;
     ReadOnly(nfi: NumberFormatInfo): NumberFormatInfo;
 };
 
@@ -1066,7 +1064,7 @@ export interface RegionInfo$instance {
     readonly ThreeLetterISORegionName: string;
     readonly ThreeLetterWindowsRegionName: string;
     readonly TwoLetterISORegionName: string;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1086,7 +1084,7 @@ export interface SortKey$instance {
 
     readonly KeyData: byte[];
     readonly OriginalString: string;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1106,8 +1104,8 @@ export interface SortVersion$instance {
 
     readonly FullVersion: int;
     readonly SortId: Guid;
-    Equals(obj: unknown): boolean;
-    Equals(other: SortVersion): boolean;
+    Equals(obj: JsValue | null): boolean;
+    Equals(other: SortVersion | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1132,7 +1130,7 @@ export interface StringInfo$instance {
 
     readonly LengthInTextElements: int;
     String: string;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
     SubstringByTextElements(startingTextElement: int): string;
     SubstringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
@@ -1236,7 +1234,7 @@ export interface TextElementEnumerator$instance {
 
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
-    readonly Current: unknown;
+    readonly Current: JsValue;
     readonly ElementIndex: int;
     GetTextElement(): string;
     MoveNext(): boolean;
@@ -1270,8 +1268,8 @@ export interface TextInfo$instance extends System_Internal.ICloneable$instance, 
     ListSeparator: string;
     readonly MacCodePage: int;
     readonly OEMCodePage: int;
-    Clone(): unknown;
-    Equals(obj: unknown): boolean;
+    Clone(): JsValue;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
     ToLower(c: char): char;
     ToLower(str: string): string;

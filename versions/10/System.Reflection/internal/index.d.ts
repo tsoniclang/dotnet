@@ -2,11 +2,9 @@
 // Namespace: System.Reflection
 // Assembly: System.ObjectModel, System.Private.CoreLib, System.Reflection.DispatchProxy, System.Reflection.Metadata, System.Reflection.TypeExtensions
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IEnumerable_1, IList_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -370,20 +368,20 @@ export enum TypeAttributes {
 }
 
 
-export type MemberFilter = (m: MemberInfo, filterCriteria: unknown) => boolean;
+export type MemberFilter = (m: MemberInfo, filterCriteria: JsValue | null) => boolean;
 
 
-export type ModuleResolveEventHandler = (sender: unknown, e: ResolveEventArgs) => Module;
+export type ModuleResolveEventHandler = (sender: JsValue, e: ResolveEventArgs) => Module;
 
 
-export type TypeFilter = (m: Type, filterCriteria: unknown) => boolean;
+export type TypeFilter = (m: Type, filterCriteria: JsValue | null) => boolean;
 
 
 export interface ICustomAttributeProvider$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
@@ -403,17 +401,17 @@ export interface IReflect$instance {
     readonly __tsonic_iface_System_Reflection_IReflect: never;
 
     readonly UnderlyingSystemType: Type;
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
+    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | null;
     GetFields(bindingAttr: BindingFlags): FieldInfo[];
     GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     GetMembers(bindingAttr: BindingFlags): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
+    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder | null, types: Type[], modifiers: ParameterModifier[] | null): MethodInfo | null;
+    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | null;
     GetMethods(bindingAttr: BindingFlags): MethodInfo[];
     GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
+    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[], modifiers: ParameterModifier[] | null): PropertyInfo | null;
+    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): JsValue | null;
 }
 
 
@@ -437,7 +435,7 @@ export interface CustomAttributeNamedArgument$instance {
     readonly MemberInfo: MemberInfo;
     readonly MemberName: string;
     readonly TypedValue: CustomAttributeTypedArgument;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: CustomAttributeNamedArgument): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -445,7 +443,7 @@ export interface CustomAttributeNamedArgument$instance {
 
 
 export const CustomAttributeNamedArgument: {
-    new(memberInfo: MemberInfo, value: unknown): CustomAttributeNamedArgument;
+    new(memberInfo: MemberInfo, value: JsValue | null): CustomAttributeNamedArgument;
     new(memberInfo: MemberInfo, typedArgument: CustomAttributeTypedArgument): CustomAttributeNamedArgument;
 };
 
@@ -466,8 +464,8 @@ export interface CustomAttributeTypedArgument$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly ArgumentType: Type;
-    readonly Value: unknown | undefined;
-    Equals(obj: unknown): boolean;
+    readonly Value: JsValue | null;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: CustomAttributeTypedArgument): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -475,8 +473,8 @@ export interface CustomAttributeTypedArgument$instance {
 
 
 export const CustomAttributeTypedArgument: {
-    new(argumentType: Type, value: unknown): CustomAttributeTypedArgument;
-    new(value: unknown): CustomAttributeTypedArgument;
+    new(argumentType: Type, value: JsValue | null): CustomAttributeTypedArgument;
+    new(value: JsValue): CustomAttributeTypedArgument;
 };
 
 
@@ -530,8 +528,8 @@ export interface AmbiguousMatchException$instance extends SystemException, Syste
 
 export const AmbiguousMatchException: {
     new(): AmbiguousMatchException;
-    new(message: string): AmbiguousMatchException;
-    new(message: string, inner: Exception): AmbiguousMatchException;
+    new(message: string | null): AmbiguousMatchException;
+    new(message: string | null, inner: Exception | null): AmbiguousMatchException;
 };
 
 
@@ -548,13 +546,13 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly CodeBase: string | undefined;
+    readonly CodeBase: string | null;
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
     readonly DefinedTypes: IEnumerable_1<TypeInfo>;
-    readonly EntryPoint: MethodInfo | undefined;
+    readonly EntryPoint: MethodInfo | null;
     readonly EscapedCodeBase: string;
     readonly ExportedTypes: IEnumerable_1<Type>;
-    readonly FullName: string | undefined;
+    readonly FullName: string | null;
     readonly GlobalAssemblyCache: boolean;
     readonly HostContext: long;
     readonly ImageRuntimeVersion: string;
@@ -566,26 +564,26 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     readonly Modules: IEnumerable_1<Module>;
     readonly ReflectionOnly: boolean;
     readonly SecurityRuleSet: SecurityRuleSet;
-    CreateInstance(typeName: string): unknown | undefined;
-    CreateInstance(typeName: string, ignoreCase: boolean): unknown | undefined;
-    CreateInstance(typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
-    Equals(o: unknown): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    CreateInstance(typeName: string): JsValue | null;
+    CreateInstance(typeName: string, ignoreCase: boolean): JsValue | null;
+    CreateInstance(typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: JsValue[] | null, culture: CultureInfo | null, activationAttributes: JsValue[] | null): JsValue | null;
+    Equals(o: JsValue | null): boolean;
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetExportedTypes(): Type[];
-    GetFile(name: string): FileStream | undefined;
+    GetFile(name: string): FileStream | null;
     GetFiles(): FileStream[];
     GetFiles(getResourceModules: boolean): FileStream[];
     GetForwardedTypes(): Type[];
     GetHashCode(): int;
     GetLoadedModules(): Module[];
     GetLoadedModules(getResourceModules: boolean): Module[];
-    GetManifestResourceInfo(resourceName: string): ManifestResourceInfo | undefined;
+    GetManifestResourceInfo(resourceName: string): ManifestResourceInfo | null;
     GetManifestResourceNames(): string[];
-    GetManifestResourceStream(name: string): Stream | undefined;
-    GetManifestResourceStream(type: Type, name: string): Stream | undefined;
-    GetModule(name: string): Module | undefined;
+    GetManifestResourceStream(name: string): Stream | null;
+    GetManifestResourceStream(type: Type, name: string): Stream | null;
+    GetModule(name: string): Module | null;
     GetModules(): Module[];
     GetModules(getResourceModules: boolean): Module[];
     GetName(): AssemblyName;
@@ -593,37 +591,37 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetReferencedAssemblies(): AssemblyName[];
     GetSatelliteAssembly(culture: CultureInfo): Assembly;
-    GetSatelliteAssembly(culture: CultureInfo, version: Version): Assembly;
-    GetType(name: string): Type | undefined;
-    GetType(name: string, throwOnError: boolean): Type | undefined;
-    GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
+    GetSatelliteAssembly(culture: CultureInfo, version: Version | null): Assembly;
+    GetType(name: string): Type | null;
+    GetType(name: string, throwOnError: boolean): Type | null;
+    GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
     GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
-    LoadModule(moduleName: string, rawModule: byte[]): Module;
-    LoadModule(moduleName: string, rawModule: byte[], rawSymbolStore: byte[]): Module;
+    LoadModule(moduleName: string, rawModule: byte[] | null): Module;
+    LoadModule(moduleName: string, rawModule: byte[] | null, rawSymbolStore: byte[] | null): Module;
     ToString(): string;
 }
 
 
 export const Assembly: (abstract new() => Assembly) & {
-    CreateQualifiedName(assemblyName: string, typeName: string): string;
-    GetAssembly(type: Type): Assembly | undefined;
+    CreateQualifiedName(assemblyName: string | null, typeName: string | null): string;
+    GetAssembly(type: Type): Assembly | null;
     GetCallingAssembly(): Assembly;
-    GetEntryAssembly(): Assembly | undefined;
+    GetEntryAssembly(): Assembly | null;
     GetExecutingAssembly(): Assembly;
-    Load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
+    Load(rawAssembly: byte[], rawSymbolStore: byte[] | null): Assembly;
     Load(rawAssembly: byte[]): Assembly;
     Load(assemblyRef: AssemblyName): Assembly;
     Load(assemblyString: string): Assembly;
     LoadFile(path: string): Assembly;
-    LoadFrom(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
+    LoadFrom(assemblyFile: string, hashValue: byte[] | null, hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
     LoadFrom(assemblyFile: string): Assembly;
-    LoadWithPartialName(partialName: string): Assembly | undefined;
+    LoadWithPartialName(partialName: string): Assembly | null;
     ReflectionOnlyLoad(rawAssembly: byte[]): Assembly;
     ReflectionOnlyLoad(assemblyString: string): Assembly;
     ReflectionOnlyLoadFrom(assemblyFile: string): Assembly;
-    SetEntryAssembly(assembly: Assembly): void;
+    SetEntryAssembly(assembly: Assembly | null): void;
     UnsafeLoadFrom(assemblyFile: string): Assembly;
 };
 
@@ -826,12 +824,12 @@ export interface AssemblyMetadataAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Reflection_AssemblyMetadataAttribute: never;
 
     readonly Key: string;
-    readonly Value: string | undefined;
+    readonly Value: string | null;
 }
 
 
 export const AssemblyMetadataAttribute: {
-    new(key: string, value: string): AssemblyMetadataAttribute;
+    new(key: string, value: string | null): AssemblyMetadataAttribute;
 };
 
 
@@ -844,32 +842,32 @@ export interface AssemblyName$instance extends System_Internal.ICloneable$instan
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get CodeBase(): string | undefined;
-    set CodeBase(value: string | undefined);
+    get CodeBase(): string | null;
+    set CodeBase(value: string | null);
     ContentType: AssemblyContentType;
-    get CultureInfo(): CultureInfo | undefined;
-    set CultureInfo(value: CultureInfo | undefined);
-    get CultureName(): string | undefined;
-    set CultureName(value: string | undefined);
-    readonly EscapedCodeBase: string | undefined;
+    get CultureInfo(): CultureInfo | null;
+    set CultureInfo(value: CultureInfo | null);
+    get CultureName(): string | null;
+    set CultureName(value: string | null);
+    readonly EscapedCodeBase: string | null;
     Flags: AssemblyNameFlags;
     readonly FullName: string;
     HashAlgorithm: AssemblyHashAlgorithm_Assemblies;
-    get KeyPair(): StrongNameKeyPair | undefined;
-    set KeyPair(value: StrongNameKeyPair | undefined);
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get KeyPair(): StrongNameKeyPair | null;
+    set KeyPair(value: StrongNameKeyPair | null);
+    get Name(): string | null;
+    set Name(value: string | null);
     ProcessorArchitecture: ProcessorArchitecture;
-    get Version(): Version | undefined;
-    set Version(value: Version | undefined);
+    get Version(): Version | null;
+    set Version(value: Version | null);
     VersionCompatibility: AssemblyVersionCompatibility;
-    Clone(): unknown;
+    Clone(): JsValue;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    GetPublicKey(): byte[] | undefined;
-    GetPublicKeyToken(): byte[] | undefined;
-    OnDeserialization(sender: unknown): void;
-    SetPublicKey(publicKey: byte[]): void;
-    SetPublicKeyToken(publicKeyToken: byte[]): void;
+    GetPublicKey(): byte[] | null;
+    GetPublicKeyToken(): byte[] | null;
+    OnDeserialization(sender: JsValue | null): void;
+    SetPublicKey(publicKey: byte[] | null): void;
+    SetPublicKeyToken(publicKeyToken: byte[] | null): void;
     ToString(): string;
 }
 
@@ -878,7 +876,7 @@ export const AssemblyName: {
     new(assemblyName: string): AssemblyName;
     new(): AssemblyName;
     GetAssemblyName(assemblyFile: string): AssemblyName;
-    ReferenceMatchesDefinition(reference: AssemblyName, definition: AssemblyName): boolean;
+    ReferenceMatchesDefinition(reference: AssemblyName | null, definition: AssemblyName | null): boolean;
 };
 
 
@@ -979,12 +977,12 @@ export type AssemblyVersionAttribute = AssemblyVersionAttribute$instance;
 export interface Binder$instance {
     readonly __tsonic_type_System_Reflection_Binder: never;
 
-    BindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: unknown, culture: CultureInfo): FieldInfo;
-    BindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, names: string[], state: unknown): MethodBase;
-    ChangeType(value: unknown, type: Type, culture: CultureInfo): unknown;
-    ReorderArgumentArray(args: unknown[], state: unknown): void;
-    SelectMethod(bindingAttr: BindingFlags, match: MethodBase[], types: Type[], modifiers: ParameterModifier[]): MethodBase | undefined;
-    SelectProperty(bindingAttr: BindingFlags, match: PropertyInfo[], returnType: Type, indexes: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    BindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: JsValue, culture: CultureInfo | null): FieldInfo;
+    BindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: (JsValue | null)[], modifiers: ParameterModifier[] | null, culture: CultureInfo | null, names: string[] | null, state: JsValue | null): MethodBase;
+    ChangeType(value: JsValue, type: Type, culture: CultureInfo | null): JsValue;
+    ReorderArgumentArray(args: (JsValue | null)[], state: JsValue): void;
+    SelectMethod(bindingAttr: BindingFlags, match: MethodBase[], types: Type[], modifiers: ParameterModifier[] | null): MethodBase | null;
+    SelectProperty(bindingAttr: BindingFlags, match: PropertyInfo[], returnType: Type | null, indexes: Type[] | null, modifiers: ParameterModifier[] | null): PropertyInfo | null;
 }
 
 
@@ -1000,12 +998,12 @@ export interface ConstructorInfo$instance extends MethodBase$instance, ICustomAt
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     readonly MemberType: MemberTypes;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
-    Invoke(parameters: unknown[]): unknown;
-    Invoke(invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
-    Invoke(obj: unknown, parameters: unknown[]): unknown | undefined;
-    Invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown | undefined;
+    Invoke(parameters: (JsValue | null)[] | null): JsValue;
+    Invoke(invokeAttr: BindingFlags, binder: Binder | null, parameters: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue;
+    Invoke(obj: JsValue | null, parameters: (JsValue | null)[] | null): JsValue | null;
+    Invoke(obj: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
 }
 
 
@@ -1025,12 +1023,12 @@ export type ConstructorInfo = ConstructorInfo$instance & __ConstructorInfo$views
 export interface ConstructorInvoker$instance {
     readonly __tsonic_type_System_Reflection_ConstructorInvoker: never;
 
-    Invoke(): unknown;
-    Invoke(arg1: unknown): unknown;
-    Invoke(arg1: unknown, arg2: unknown): unknown;
-    Invoke(arg1: unknown, arg2: unknown, arg3: unknown): unknown;
-    Invoke(arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown;
-    Invoke(arguments: Span_1<unknown>): unknown;
+    Invoke(): JsValue;
+    Invoke(arg1: JsValue | null): JsValue;
+    Invoke(arg1: JsValue | null, arg2: JsValue | null): JsValue;
+    Invoke(arg1: JsValue | null, arg2: JsValue | null, arg3: JsValue | null): JsValue;
+    Invoke(arg1: JsValue | null, arg2: JsValue | null, arg3: JsValue | null, arg4: JsValue | null): JsValue;
+    Invoke(arguments: Span_1<JsValue>): JsValue;
 }
 
 
@@ -1072,8 +1070,8 @@ export interface CustomAttributeFormatException$instance extends FormatException
 
 export const CustomAttributeFormatException: {
     new(): CustomAttributeFormatException;
-    new(message: string): CustomAttributeFormatException;
-    new(message: string, inner: Exception): CustomAttributeFormatException;
+    new(message: string | null): CustomAttributeFormatException;
+    new(message: string | null, inner: Exception | null): CustomAttributeFormatException;
 };
 
 
@@ -1101,13 +1099,13 @@ export type DefaultMemberAttribute = DefaultMemberAttribute$instance;
 export interface DispatchProxy$instance {
     readonly __tsonic_type_System_Reflection_DispatchProxy: never;
 
-    Invoke(targetMethod: MethodInfo, args: unknown[]): unknown | undefined;
+    Invoke(targetMethod: MethodInfo | null, args: (JsValue | null)[] | null): JsValue | null;
 }
 
 
 export const DispatchProxy: (abstract new() => DispatchProxy) & {
     Create<T, TProxy extends DispatchProxy>(): T;
-    Create(interfaceType: Type, proxyType: Type): unknown;
+    Create(interfaceType: Type, proxyType: Type): JsValue;
 };
 
 
@@ -1118,26 +1116,26 @@ export interface EventInfo$instance extends MemberInfo$instance, ICustomAttribut
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    readonly AddMethod: MethodInfo | undefined;
+    readonly AddMethod: MethodInfo | null;
     readonly Attributes: EventAttributes;
-    readonly EventHandlerType: Type | undefined;
+    readonly EventHandlerType: Type | null;
     readonly IsMulticast: boolean;
     readonly IsSpecialName: boolean;
     readonly MemberType: MemberTypes;
-    readonly RaiseMethod: MethodInfo | undefined;
-    readonly RemoveMethod: MethodInfo | undefined;
-    AddEventHandler(target: unknown, handler: Function): void;
-    Equals(obj: unknown): boolean;
-    GetAddMethod(): MethodInfo | undefined;
-    GetAddMethod(nonPublic: boolean): MethodInfo | undefined;
+    readonly RaiseMethod: MethodInfo | null;
+    readonly RemoveMethod: MethodInfo | null;
+    AddEventHandler(target: JsValue | null, handler: Function | null): void;
+    Equals(obj: JsValue | null): boolean;
+    GetAddMethod(): MethodInfo | null;
+    GetAddMethod(nonPublic: boolean): MethodInfo | null;
     GetHashCode(): int;
     GetOtherMethods(): MethodInfo[];
     GetOtherMethods(nonPublic: boolean): MethodInfo[];
-    GetRaiseMethod(): MethodInfo | undefined;
-    GetRaiseMethod(nonPublic: boolean): MethodInfo | undefined;
-    GetRemoveMethod(): MethodInfo | undefined;
-    GetRemoveMethod(nonPublic: boolean): MethodInfo | undefined;
-    RemoveEventHandler(target: unknown, handler: Function): void;
+    GetRaiseMethod(): MethodInfo | null;
+    GetRaiseMethod(nonPublic: boolean): MethodInfo | null;
+    GetRemoveMethod(): MethodInfo | null;
+    GetRemoveMethod(nonPublic: boolean): MethodInfo | null;
+    RemoveEventHandler(target: JsValue | null, handler: Function | null): void;
 }
 
 
@@ -1155,7 +1153,7 @@ export type EventInfo = EventInfo$instance & __EventInfo$views;
 export interface ExceptionHandlingClause$instance {
     readonly __tsonic_type_System_Reflection_ExceptionHandlingClause: never;
 
-    readonly CatchType: Type | undefined;
+    readonly CatchType: Type | null;
     readonly FilterOffset: int;
     readonly Flags: ExceptionHandlingClauseOptions;
     readonly HandlerLength: int;
@@ -1196,17 +1194,17 @@ export interface FieldInfo$instance extends MemberInfo$instance, ICustomAttribut
     readonly IsSpecialName: boolean;
     readonly IsStatic: boolean;
     readonly MemberType: MemberTypes;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
     GetModifiedFieldType(): Type;
     GetOptionalCustomModifiers(): Type[];
-    GetRawConstantValue(): unknown | undefined;
+    GetRawConstantValue(): JsValue | null;
     GetRequiredCustomModifiers(): Type[];
-    GetValue(obj: unknown): unknown | undefined;
-    GetValueDirect(obj: TypedReference): unknown | undefined;
-    SetValue(obj: unknown, value: unknown): void;
-    SetValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
-    SetValueDirect(obj: TypedReference, value: unknown): void;
+    GetValue(obj: JsValue | null): JsValue | null;
+    GetValueDirect(obj: TypedReference): JsValue | null;
+    SetValue(obj: JsValue | null, value: JsValue | null): void;
+    SetValue(obj: JsValue | null, value: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, culture: CultureInfo | null): void;
+    SetValueDirect(obj: TypedReference, value: JsValue): void;
 }
 
 
@@ -1233,8 +1231,8 @@ export interface InvalidFilterCriteriaException$instance extends ApplicationExce
 
 export const InvalidFilterCriteriaException: {
     new(): InvalidFilterCriteriaException;
-    new(message: string): InvalidFilterCriteriaException;
-    new(message: string, inner: Exception): InvalidFilterCriteriaException;
+    new(message: string | null): InvalidFilterCriteriaException;
+    new(message: string | null, inner: Exception | null): InvalidFilterCriteriaException;
 };
 
 
@@ -1264,14 +1262,14 @@ export type LocalVariableInfo = LocalVariableInfo$instance;
 export interface ManifestResourceInfo$instance {
     readonly __tsonic_type_System_Reflection_ManifestResourceInfo: never;
 
-    readonly FileName: string | undefined;
-    readonly ReferencedAssembly: Assembly | undefined;
+    readonly FileName: string | null;
+    readonly ReferencedAssembly: Assembly | null;
     readonly ResourceLocation: ResourceLocation;
 }
 
 
 export const ManifestResourceInfo: {
-    new(containingAssembly: Assembly, containingFileName: string, resourceLocation: ResourceLocation): ManifestResourceInfo;
+    new(containingAssembly: Assembly | null, containingFileName: string | null, resourceLocation: ResourceLocation): ManifestResourceInfo;
 };
 
 
@@ -1283,16 +1281,16 @@ export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
-    readonly DeclaringType: Type | undefined;
+    readonly DeclaringType: Type | null;
     readonly IsCollectible: boolean;
     readonly MemberType: MemberTypes;
     readonly MetadataToken: int;
     readonly Module: Module;
     readonly Name: string;
-    readonly ReflectedType: Type | undefined;
-    Equals(obj: unknown): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    readonly ReflectedType: Type | null;
+    Equals(obj: JsValue | null): boolean;
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetHashCode(): int;
     HasSameMetadataDefinitionAs(other: MemberInfo): boolean;
@@ -1340,21 +1338,21 @@ export interface MethodBase$instance extends MemberInfo$instance, ICustomAttribu
     readonly IsVirtual: boolean;
     readonly MethodHandle: RuntimeMethodHandle;
     readonly MethodImplementationFlags: MethodImplAttributes;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetGenericArguments(): Type[];
     GetHashCode(): int;
-    GetMethodBody(): MethodBody | undefined;
+    GetMethodBody(): MethodBody | null;
     GetMethodImplementationFlags(): MethodImplAttributes;
     GetParameters(): ParameterInfo[];
-    Invoke(obj: unknown, parameters: unknown[]): unknown | undefined;
-    Invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown | undefined;
+    Invoke(obj: JsValue | null, parameters: (JsValue | null)[] | null): JsValue | null;
+    Invoke(obj: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
 }
 
 
 export const MethodBase: (abstract new() => MethodBase) & {
-    GetCurrentMethod(): MethodBase | undefined;
-    GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase | undefined;
-    GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase | undefined;
+    GetCurrentMethod(): MethodBase | null;
+    GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase | null;
+    GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase | null;
 };
 
 
@@ -1373,7 +1371,7 @@ export interface MethodBody$instance {
     readonly LocalSignatureMetadataToken: int;
     readonly LocalVariables: IList_1<LocalVariableInfo>;
     readonly MaxStackSize: int;
-    GetILAsByteArray(): byte[] | undefined;
+    GetILAsByteArray(): byte[] | null;
 }
 
 
@@ -1393,10 +1391,10 @@ export interface MethodInfo$instance extends MethodBase$instance, ICustomAttribu
     readonly ReturnType: Type;
     readonly ReturnTypeCustomAttributes: ICustomAttributeProvider;
     CreateDelegate(delegateType: Type): Function;
-    CreateDelegate(delegateType: Type, target: unknown): Function;
+    CreateDelegate(delegateType: Type, target: JsValue | null): Function;
     CreateDelegate<T extends Function>(): T;
-    CreateDelegate<T extends Function>(target: unknown): T;
-    Equals(obj: unknown): boolean;
+    CreateDelegate<T extends Function>(target: JsValue | null): T;
+    Equals(obj: JsValue | null): boolean;
     GetBaseDefinition(): MethodInfo;
     GetGenericArguments(): Type[];
     GetGenericMethodDefinition(): MethodInfo;
@@ -1419,12 +1417,12 @@ export type MethodInfo = MethodInfo$instance & __MethodInfo$views;
 export interface MethodInvoker$instance {
     readonly __tsonic_type_System_Reflection_MethodInvoker: never;
 
-    Invoke(obj: unknown): unknown | undefined;
-    Invoke(obj: unknown, arg1: unknown): unknown | undefined;
-    Invoke(obj: unknown, arg1: unknown, arg2: unknown): unknown | undefined;
-    Invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown): unknown | undefined;
-    Invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown | undefined;
-    Invoke(obj: unknown, arguments: Span_1<unknown>): unknown | undefined;
+    Invoke(obj: JsValue | null): JsValue | null;
+    Invoke(obj: JsValue | null, arg1: JsValue | null): JsValue | null;
+    Invoke(obj: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): JsValue | null;
+    Invoke(obj: JsValue | null, arg1: JsValue | null, arg2: JsValue | null, arg3: JsValue | null): JsValue | null;
+    Invoke(obj: JsValue | null, arg1: JsValue | null, arg2: JsValue | null, arg3: JsValue | null, arg4: JsValue | null): JsValue | null;
+    Invoke(obj: JsValue | null, arguments: Span_1<JsValue>): JsValue | null;
 }
 
 
@@ -1470,41 +1468,41 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
     readonly ModuleVersionId: Guid;
     readonly Name: string;
     readonly ScopeName: string;
-    Equals(o: unknown): boolean;
-    FindTypes(filter: TypeFilter, filterCriteria: unknown): Type[];
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    Equals(o: JsValue | null): boolean;
+    FindTypes(filter: TypeFilter | null, filterCriteria: JsValue | null): Type[];
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
-    GetField(name: string): FieldInfo | undefined;
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
+    GetField(name: string): FieldInfo | null;
+    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | null;
     GetFields(): FieldInfo[];
     GetFields(bindingFlags: BindingFlags): FieldInfo[];
     GetHashCode(): int;
-    GetMethod(name: string): MethodInfo | undefined;
-    GetMethod(name: string, types: Type[]): MethodInfo | undefined;
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    GetMethod(name: string): MethodInfo | null;
+    GetMethod(name: string, types: Type[]): MethodInfo | null;
+    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | null): MethodInfo | null;
+    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
     GetMethods(): MethodInfo[];
     GetMethods(bindingFlags: BindingFlags): MethodInfo[];
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetPEKind(peKind: PortableExecutableKinds, machine: ImageFileMachine): void;
-    GetType(className: string): Type | undefined;
-    GetType(className: string, ignoreCase: boolean): Type | undefined;
-    GetType(className: string, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
+    GetType(className: string): Type | null;
+    GetType(className: string, ignoreCase: boolean): Type | null;
+    GetType(className: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
     GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     IsResource(): boolean;
-    ResolveField(metadataToken: int): FieldInfo | undefined;
-    ResolveField(metadataToken: int, genericTypeArguments: Type[], genericMethodArguments: Type[]): FieldInfo | undefined;
-    ResolveMember(metadataToken: int): MemberInfo | undefined;
-    ResolveMember(metadataToken: int, genericTypeArguments: Type[], genericMethodArguments: Type[]): MemberInfo | undefined;
-    ResolveMethod(metadataToken: int): MethodBase | undefined;
-    ResolveMethod(metadataToken: int, genericTypeArguments: Type[], genericMethodArguments: Type[]): MethodBase | undefined;
+    ResolveField(metadataToken: int): FieldInfo | null;
+    ResolveField(metadataToken: int, genericTypeArguments: Type[] | null, genericMethodArguments: Type[] | null): FieldInfo | null;
+    ResolveMember(metadataToken: int): MemberInfo | null;
+    ResolveMember(metadataToken: int, genericTypeArguments: Type[] | null, genericMethodArguments: Type[] | null): MemberInfo | null;
+    ResolveMethod(metadataToken: int): MethodBase | null;
+    ResolveMethod(metadataToken: int, genericTypeArguments: Type[] | null, genericMethodArguments: Type[] | null): MethodBase | null;
     ResolveSignature(metadataToken: int): byte[];
     ResolveString(metadataToken: int): string;
     ResolveType(metadataToken: int): Type;
-    ResolveType(metadataToken: int, genericTypeArguments: Type[], genericMethodArguments: Type[]): Type;
+    ResolveType(metadataToken: int, genericTypeArguments: Type[] | null, genericMethodArguments: Type[] | null): Type;
     ToString(): string;
 }
 
@@ -1526,7 +1524,7 @@ export type Module = Module$instance & __Module$views;
 export interface NullabilityInfo$instance {
     readonly __tsonic_type_System_Reflection_NullabilityInfo: never;
 
-    readonly ElementType: NullabilityInfo | undefined;
+    readonly ElementType: NullabilityInfo | null;
     readonly GenericTypeArguments: NullabilityInfo[];
     ReadState: NullabilityState;
     readonly Type: Type;
@@ -1577,8 +1575,8 @@ export interface ObfuscationAttribute$instance extends Attribute {
 
     ApplyToMembers: boolean;
     Exclude: boolean;
-    get Feature(): string | undefined;
-    set Feature(value: string | undefined);
+    get Feature(): string | null;
+    set Feature(value: string | null);
     StripAfterObfuscation: boolean;
 }
 
@@ -1598,7 +1596,7 @@ export interface ParameterInfo$instance extends ICustomAttributeProvider$instanc
 
     readonly Attributes: ParameterAttributes;
     readonly CustomAttributes: IEnumerable_1<CustomAttributeData>;
-    readonly DefaultValue: unknown | undefined;
+    readonly DefaultValue: JsValue | null;
     readonly HasDefaultValue: boolean;
     readonly IsIn: boolean;
     readonly IsLcid: boolean;
@@ -1607,16 +1605,16 @@ export interface ParameterInfo$instance extends ICustomAttributeProvider$instanc
     readonly IsRetval: boolean;
     readonly Member: MemberInfo;
     readonly MetadataToken: int;
-    readonly Name: string | undefined;
+    readonly Name: string | null;
     readonly ParameterType: Type;
     readonly Position: int;
-    readonly RawDefaultValue: unknown | undefined;
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    readonly RawDefaultValue: JsValue | null;
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetModifiedParameterType(): Type;
     GetOptionalCustomModifiers(): Type[];
-    GetRealObject(context: StreamingContext): unknown;
+    GetRealObject(context: StreamingContext): JsValue;
     GetRequiredCustomModifiers(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     ToString(): string;
@@ -1640,14 +1638,14 @@ export interface Pointer$instance extends System_Runtime_Serialization_Internal.
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
 
 export const Pointer: {
-    Box(ptr: ptr<void>, type: Type): unknown;
-    Unbox(ptr: unknown): ptr<void>;
+    Box(ptr: ptr<void>, type: Type): JsValue;
+    Unbox(ptr: JsValue): ptr<void>;
 };
 
 
@@ -1666,31 +1664,31 @@ export interface PropertyInfo$instance extends MemberInfo$instance, ICustomAttri
     readonly Attributes: PropertyAttributes;
     readonly CanRead: boolean;
     readonly CanWrite: boolean;
-    readonly GetMethod: MethodInfo | undefined;
+    readonly GetMethod: MethodInfo | null;
     readonly IsSpecialName: boolean;
     readonly MemberType: MemberTypes;
     readonly PropertyType: Type;
-    readonly SetMethod: MethodInfo | undefined;
-    Equals(obj: unknown): boolean;
+    readonly SetMethod: MethodInfo | null;
+    Equals(obj: JsValue | null): boolean;
     GetAccessors(): MethodInfo[];
     GetAccessors(nonPublic: boolean): MethodInfo[];
-    GetConstantValue(): unknown | undefined;
-    GetGetMethod(): MethodInfo | undefined;
-    GetGetMethod(nonPublic: boolean): MethodInfo | undefined;
+    GetConstantValue(): JsValue | null;
+    GetGetMethod(): MethodInfo | null;
+    GetGetMethod(nonPublic: boolean): MethodInfo | null;
     GetHashCode(): int;
     GetIndexParameters(): ParameterInfo[];
     GetModifiedPropertyType(): Type;
     GetOptionalCustomModifiers(): Type[];
-    GetRawConstantValue(): unknown | undefined;
+    GetRawConstantValue(): JsValue | null;
     GetRequiredCustomModifiers(): Type[];
-    GetSetMethod(): MethodInfo | undefined;
-    GetSetMethod(nonPublic: boolean): MethodInfo | undefined;
-    GetValue(obj: unknown): unknown | undefined;
-    GetValue(obj: unknown, index: unknown[]): unknown | undefined;
-    GetValue(obj: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): unknown | undefined;
-    SetValue(obj: unknown, value: unknown): void;
-    SetValue(obj: unknown, value: unknown, index: unknown[]): void;
-    SetValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): void;
+    GetSetMethod(): MethodInfo | null;
+    GetSetMethod(nonPublic: boolean): MethodInfo | null;
+    GetValue(obj: JsValue | null): JsValue | null;
+    GetValue(obj: JsValue | null, index: (JsValue | null)[] | null): JsValue | null;
+    GetValue(obj: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, index: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
+    SetValue(obj: JsValue | null, value: JsValue | null): void;
+    SetValue(obj: JsValue | null, value: JsValue | null, index: (JsValue | null)[] | null): void;
+    SetValue(obj: JsValue | null, value: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, index: (JsValue | null)[] | null, culture: CultureInfo | null): void;
 }
 
 
@@ -1708,7 +1706,7 @@ export type PropertyInfo = PropertyInfo$instance & __PropertyInfo$views;
 export interface ReflectionContext$instance {
     readonly __tsonic_type_System_Reflection_ReflectionContext: never;
 
-    GetTypeForObject(value: unknown): TypeInfo;
+    GetTypeForObject(value: JsValue): TypeInfo;
     MapAssembly(assembly: Assembly): Assembly;
     MapType(type: TypeInfo): TypeInfo;
 }
@@ -1725,17 +1723,17 @@ export interface ReflectionTypeLoadException$instance extends SystemException {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly LoaderExceptions: (Exception | undefined)[];
+    readonly LoaderExceptions: (Exception | null)[];
     readonly Message: string;
-    readonly Types: (Type | undefined)[];
+    readonly Types: (Type | null)[];
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
 }
 
 
 export const ReflectionTypeLoadException: {
-    new(classes: Type[], exceptions: Exception[]): ReflectionTypeLoadException;
-    new(classes: Type[], exceptions: Exception[], message: string): ReflectionTypeLoadException;
+    new(classes: (Type | null)[] | null, exceptions: (Exception | null)[] | null): ReflectionTypeLoadException;
+    new(classes: (Type | null)[] | null, exceptions: (Exception | null)[] | null, message: string | null): ReflectionTypeLoadException;
 };
 
 
@@ -1781,8 +1779,8 @@ export interface TargetException$instance extends ApplicationException, System_R
 
 export const TargetException: {
     new(): TargetException;
-    new(message: string): TargetException;
-    new(message: string, inner: Exception): TargetException;
+    new(message: string | null): TargetException;
+    new(message: string | null, inner: Exception | null): TargetException;
 };
 
 
@@ -1802,8 +1800,8 @@ export interface TargetInvocationException$instance extends ApplicationException
 
 
 export const TargetInvocationException: {
-    new(inner: Exception): TargetInvocationException;
-    new(message: string, inner: Exception): TargetInvocationException;
+    new(inner: Exception | null): TargetInvocationException;
+    new(message: string | null, inner: Exception | null): TargetInvocationException;
 };
 
 
@@ -1824,8 +1822,8 @@ export interface TargetParameterCountException$instance extends ApplicationExcep
 
 export const TargetParameterCountException: {
     new(): TargetParameterCountException;
-    new(message: string): TargetParameterCountException;
-    new(message: string, inner: Exception): TargetParameterCountException;
+    new(message: string | null): TargetParameterCountException;
+    new(message: string | null, inner: Exception | null): TargetParameterCountException;
 };
 
 
@@ -1844,9 +1842,9 @@ export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableT
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
 
     readonly Assembly: Assembly;
-    readonly AssemblyQualifiedName: string | undefined;
-    readonly BaseType: Type | undefined;
-    readonly FullName: string | undefined;
+    readonly AssemblyQualifiedName: string | null;
+    readonly BaseType: Type | null;
+    readonly FullName: string | null;
     readonly GUID: Guid;
     readonly IsByRefLike: boolean;
     readonly IsCollectible: boolean;
@@ -1861,30 +1859,30 @@ export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableT
     readonly MetadataToken: int;
     readonly Module: Module;
     readonly Name: string;
-    readonly Namespace: string | undefined;
+    readonly Namespace: string | null;
     readonly TypeHandle: RuntimeTypeHandle;
     readonly UnderlyingSystemType: Type;
     GetArrayRank(): int;
     GetAttributeFlagsImpl(): TypeAttributes;
-    GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
+    GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | null): ConstructorInfo | null;
     GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
     GetConstructors(): ConstructorInfo[];
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetElementType(): Type | undefined;
-    GetEvent(name: string, bindingAttr: BindingFlags): EventInfo | undefined;
-    GetEvent(name: string): EventInfo | undefined;
+    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
+    GetElementType(): Type | null;
+    GetEvent(name: string, bindingAttr: BindingFlags): EventInfo | null;
+    GetEvent(name: string): EventInfo | null;
     GetEvents(): EventInfo[];
     GetEvents(bindingAttr: BindingFlags): EventInfo[];
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    GetField(name: string): FieldInfo | undefined;
+    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | null;
+    GetField(name: string): FieldInfo | null;
     GetFields(bindingAttr: BindingFlags): FieldInfo[];
     GetFields(): FieldInfo[];
     GetFunctionPointerCallingConventions(): Type[];
     GetFunctionPointerParameterTypes(): Type[];
     GetFunctionPointerReturnType(): Type;
-    GetInterface(name: string, ignoreCase: boolean): Type | undefined;
-    GetInterface(name: string): Type | undefined;
+    GetInterface(name: string, ignoreCase: boolean): Type | null;
+    GetInterface(name: string): Type | null;
     GetInterfaceMap(interfaceType: Type): InterfaceMapping;
     GetInterfaces(): Type[];
     GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
@@ -1893,24 +1891,24 @@ export interface TypeDelegator$instance extends TypeInfo$instance, IReflectableT
     GetMembers(bindingAttr: BindingFlags): MemberInfo[];
     GetMembers(): MemberInfo[];
     GetMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
-    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
-    GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
+    GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
     GetMethods(bindingAttr: BindingFlags): MethodInfo[];
     GetMethods(): MethodInfo[];
-    GetNestedType(name: string, bindingAttr: BindingFlags): Type | undefined;
-    GetNestedType(name: string): Type | undefined;
+    GetNestedType(name: string, bindingAttr: BindingFlags): Type | null;
+    GetNestedType(name: string): Type | null;
     GetNestedTypes(bindingAttr: BindingFlags): Type[];
     GetNestedTypes(): Type[];
     GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
     GetProperties(): PropertyInfo[];
-    GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[] | null, modifiers: ParameterModifier[] | null): PropertyInfo | null;
     HasElementTypeImpl(): boolean;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): JsValue | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null): JsValue | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
     IsArrayImpl(): boolean;
-    IsAssignableFrom(typeInfo: TypeInfo): boolean;
-    IsAssignableFrom(c: Type): boolean;
+    IsAssignableFrom(typeInfo: TypeInfo | null): boolean;
+    IsAssignableFrom(c: Type | null): boolean;
     IsByRefImpl(): boolean;
     IsCOMObjectImpl(): boolean;
     IsDefined(attributeType: Type, inherit: boolean): boolean;
@@ -1951,14 +1949,14 @@ export interface TypeInfo$instance extends Type, ICustomAttributeProvider$instan
     readonly GenericTypeParameters: Type[];
     readonly ImplementedInterfaces: IEnumerable_1<Type>;
     AsType(): Type;
-    GetDeclaredEvent(name: string): EventInfo | undefined;
-    GetDeclaredField(name: string): FieldInfo | undefined;
-    GetDeclaredMethod(name: string): MethodInfo | undefined;
+    GetDeclaredEvent(name: string): EventInfo | null;
+    GetDeclaredField(name: string): FieldInfo | null;
+    GetDeclaredMethod(name: string): MethodInfo | null;
     GetDeclaredMethods(name: string): IEnumerable_1<MethodInfo>;
-    GetDeclaredNestedType(name: string): TypeInfo | undefined;
-    GetDeclaredProperty(name: string): PropertyInfo | undefined;
-    IsAssignableFrom(typeInfo: TypeInfo): boolean;
-    IsAssignableFrom(c: Type): boolean;
+    GetDeclaredNestedType(name: string): TypeInfo | null;
+    GetDeclaredProperty(name: string): PropertyInfo | null;
+    IsAssignableFrom(typeInfo: TypeInfo | null): boolean;
+    IsAssignableFrom(c: Type | null): boolean;
 }
 
 
@@ -1985,18 +1983,18 @@ export abstract class AssemblyExtensions$instance {
 export type AssemblyExtensions = AssemblyExtensions$instance;
 
 export abstract class CustomAttributeExtensions$instance {
-    static GetCustomAttribute(element: Assembly, attributeType: Type): Attribute | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: Assembly): T | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: MemberInfo, inherit: boolean): T | undefined;
-    static GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute | undefined;
-    static GetCustomAttribute(element: MemberInfo, attributeType: Type): Attribute | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: MemberInfo): T | undefined;
-    static GetCustomAttribute(element: Module, attributeType: Type): Attribute | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: Module): T | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo, inherit: boolean): T | undefined;
-    static GetCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute | undefined;
-    static GetCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute | undefined;
-    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo): T | undefined;
+    static GetCustomAttribute(element: Assembly, attributeType: Type): Attribute | null;
+    static GetCustomAttribute<T extends Attribute>(element: Assembly): T | null;
+    static GetCustomAttribute<T extends Attribute>(element: MemberInfo, inherit: boolean): T | null;
+    static GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute | null;
+    static GetCustomAttribute(element: MemberInfo, attributeType: Type): Attribute | null;
+    static GetCustomAttribute<T extends Attribute>(element: MemberInfo): T | null;
+    static GetCustomAttribute(element: Module, attributeType: Type): Attribute | null;
+    static GetCustomAttribute<T extends Attribute>(element: Module): T | null;
+    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo, inherit: boolean): T | null;
+    static GetCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute | null;
+    static GetCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute | null;
+    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo): T | null;
     static GetCustomAttributes(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
     static GetCustomAttributes<T extends Attribute>(element: Assembly): IEnumerable_1<T>;
     static GetCustomAttributes(element: Assembly): IEnumerable_1<Attribute>;
@@ -2027,12 +2025,12 @@ export abstract class CustomAttributeExtensions$instance {
 export type CustomAttributeExtensions = CustomAttributeExtensions$instance;
 
 export abstract class EventInfoExtensions$instance {
-    static GetAddMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | undefined;
-    static GetAddMethod(eventInfo: EventInfo): MethodInfo | undefined;
-    static GetRaiseMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | undefined;
-    static GetRaiseMethod(eventInfo: EventInfo): MethodInfo | undefined;
-    static GetRemoveMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | undefined;
-    static GetRemoveMethod(eventInfo: EventInfo): MethodInfo | undefined;
+    static GetAddMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | null;
+    static GetAddMethod(eventInfo: EventInfo): MethodInfo | null;
+    static GetRaiseMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | null;
+    static GetRaiseMethod(eventInfo: EventInfo): MethodInfo | null;
+    static GetRemoveMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo | null;
+    static GetRemoveMethod(eventInfo: EventInfo): MethodInfo | null;
 }
 
 
@@ -2071,10 +2069,10 @@ export type ModuleExtensions = ModuleExtensions$instance;
 export abstract class PropertyInfoExtensions$instance {
     static GetAccessors(property: PropertyInfo, nonPublic: boolean): MethodInfo[];
     static GetAccessors(property: PropertyInfo): MethodInfo[];
-    static GetGetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo | undefined;
-    static GetGetMethod(property: PropertyInfo): MethodInfo | undefined;
-    static GetSetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo | undefined;
-    static GetSetMethod(property: PropertyInfo): MethodInfo | undefined;
+    static GetGetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo | null;
+    static GetGetMethod(property: PropertyInfo): MethodInfo | null;
+    static GetSetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo | null;
+    static GetSetMethod(property: PropertyInfo): MethodInfo | null;
 }
 
 
@@ -2082,32 +2080,32 @@ export type PropertyInfoExtensions = PropertyInfoExtensions$instance;
 
 export abstract class RuntimeReflectionExtensions$instance {
     static GetMethodInfo(del: Function): MethodInfo;
-    static GetRuntimeBaseDefinition(method: MethodInfo): MethodInfo | undefined;
-    static GetRuntimeEvent(type: Type, name: string): EventInfo | undefined;
+    static GetRuntimeBaseDefinition(method: MethodInfo): MethodInfo | null;
+    static GetRuntimeEvent(type: Type, name: string): EventInfo | null;
     static GetRuntimeEvents(type: Type): IEnumerable_1<EventInfo>;
-    static GetRuntimeField(type: Type, name: string): FieldInfo | undefined;
+    static GetRuntimeField(type: Type, name: string): FieldInfo | null;
     static GetRuntimeFields(type: Type): IEnumerable_1<FieldInfo>;
     static GetRuntimeInterfaceMap(typeInfo: TypeInfo, interfaceType: Type): InterfaceMapping;
-    static GetRuntimeMethod(type: Type, name: string, parameters: Type[]): MethodInfo | undefined;
+    static GetRuntimeMethod(type: Type, name: string, parameters: Type[]): MethodInfo | null;
     static GetRuntimeMethods(type: Type): IEnumerable_1<MethodInfo>;
     static GetRuntimeProperties(type: Type): IEnumerable_1<PropertyInfo>;
-    static GetRuntimeProperty(type: Type, name: string): PropertyInfo | undefined;
+    static GetRuntimeProperty(type: Type, name: string): PropertyInfo | null;
 }
 
 
 export type RuntimeReflectionExtensions = RuntimeReflectionExtensions$instance;
 
 export abstract class TypeExtensions$instance {
-    static GetConstructor(type: Type, types: Type[]): ConstructorInfo | undefined;
+    static GetConstructor(type: Type, types: Type[]): ConstructorInfo | null;
     static GetConstructors(type: Type, bindingAttr: BindingFlags): ConstructorInfo[];
     static GetConstructors(type: Type): ConstructorInfo[];
     static GetDefaultMembers(type: Type): MemberInfo[];
-    static GetEvent(type: Type, name: string, bindingAttr: BindingFlags): EventInfo | undefined;
-    static GetEvent(type: Type, name: string): EventInfo | undefined;
+    static GetEvent(type: Type, name: string, bindingAttr: BindingFlags): EventInfo | null;
+    static GetEvent(type: Type, name: string): EventInfo | null;
     static GetEvents(type: Type, bindingAttr: BindingFlags): EventInfo[];
     static GetEvents(type: Type): EventInfo[];
-    static GetField(type: Type, name: string, bindingAttr: BindingFlags): FieldInfo | undefined;
-    static GetField(type: Type, name: string): FieldInfo | undefined;
+    static GetField(type: Type, name: string, bindingAttr: BindingFlags): FieldInfo | null;
+    static GetField(type: Type, name: string): FieldInfo | null;
     static GetFields(type: Type, bindingAttr: BindingFlags): FieldInfo[];
     static GetFields(type: Type): FieldInfo[];
     static GetGenericArguments(type: Type): Type[];
@@ -2116,21 +2114,21 @@ export abstract class TypeExtensions$instance {
     static GetMember(type: Type, name: string): MemberInfo[];
     static GetMembers(type: Type, bindingAttr: BindingFlags): MemberInfo[];
     static GetMembers(type: Type): MemberInfo[];
-    static GetMethod(type: Type, name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
-    static GetMethod(type: Type, name: string, types: Type[]): MethodInfo | undefined;
-    static GetMethod(type: Type, name: string): MethodInfo | undefined;
+    static GetMethod(type: Type, name: string, bindingAttr: BindingFlags): MethodInfo | null;
+    static GetMethod(type: Type, name: string, types: Type[]): MethodInfo | null;
+    static GetMethod(type: Type, name: string): MethodInfo | null;
     static GetMethods(type: Type, bindingAttr: BindingFlags): MethodInfo[];
     static GetMethods(type: Type): MethodInfo[];
-    static GetNestedType(type: Type, name: string, bindingAttr: BindingFlags): Type | undefined;
+    static GetNestedType(type: Type, name: string, bindingAttr: BindingFlags): Type | null;
     static GetNestedTypes(type: Type, bindingAttr: BindingFlags): Type[];
     static GetProperties(type: Type, bindingAttr: BindingFlags): PropertyInfo[];
     static GetProperties(type: Type): PropertyInfo[];
-    static GetProperty(type: Type, name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    static GetProperty(type: Type, name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
-    static GetProperty(type: Type, name: string, returnType: Type): PropertyInfo | undefined;
-    static GetProperty(type: Type, name: string): PropertyInfo | undefined;
-    static IsAssignableFrom(type: Type, c: Type): boolean;
-    static IsInstanceOfType(type: Type, o: unknown): boolean;
+    static GetProperty(type: Type, name: string, bindingAttr: BindingFlags): PropertyInfo | null;
+    static GetProperty(type: Type, name: string, returnType: Type | null, types: Type[]): PropertyInfo | null;
+    static GetProperty(type: Type, name: string, returnType: Type | null): PropertyInfo | null;
+    static GetProperty(type: Type, name: string): PropertyInfo | null;
+    static IsAssignableFrom(type: Type, c: Type | null): boolean;
+    static IsInstanceOfType(type: Type, o: JsValue | null): boolean;
 }
 
 

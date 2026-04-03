@@ -5,268 +5,6 @@
   ],
   "types": [
     {
-      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-      "assemblyName": "System.Runtime.InteropServices.JavaScript",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "typeParameters": [
-        "T"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
-          "clrName": "Invoke",
-          "metadataToken": 100663533,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
-          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100663534,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 4,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "metadataToken": 100663535,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            }
-          ]
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100663532,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-      "assemblyName": "System.Runtime.InteropServices.JavaScript",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "typeParameters": [
-        "T"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
-          "clrName": "Invoke",
-          "metadataToken": 100663529,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
-          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            },
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100663530,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 4,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            },
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "metadataToken": 100663531,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false,
-          "parameterModifiers": [
-            {
-              "index": 0,
-              "modifier": "ref"
-            },
-            {
-              "index": 1,
-              "modifier": "out"
-            }
-          ]
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100663528,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
-        }
-      ]
-    },
-    {
       "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
       "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
       "assemblyName": "System.Runtime.InteropServices.JavaScript",
@@ -2653,6 +2391,268 @@
       "fields": [],
       "events": [],
       "constructors": []
+    },
+    {
+      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+      "assemblyName": "System.Runtime.InteropServices.JavaScript",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "typeParameters": [
+        "T"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
+          "clrName": "Invoke",
+          "metadataToken": 100663533,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
+          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100663534,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "metadataToken": 100663535,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100663532,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+      "assemblyName": "System.Runtime.InteropServices.JavaScript",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "typeParameters": [
+        "T"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
+          "clrName": "Invoke",
+          "metadataToken": 100663529,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
+          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            },
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100663530,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            },
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "metadataToken": 100663531,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false,
+          "parameterModifiers": [
+            {
+              "index": 0,
+              "modifier": "ref"
+            },
+            {
+              "index": 1,
+              "modifier": "out"
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100663528,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+        }
+      ]
     },
     {
       "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSException",

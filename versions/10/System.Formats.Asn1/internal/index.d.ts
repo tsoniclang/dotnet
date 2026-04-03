@@ -2,11 +2,9 @@
 // Namespace: System.Formats.Asn1
 // Assembly: System.Formats.Asn1
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { BitArray, IDictionary } from "../../System.Collections/internal/index.js";
@@ -90,7 +88,7 @@ export interface Asn1Tag$instance {
     CalculateEncodedSize(): int;
     Encode(destination: Span_1<System_Internal.Byte>): int;
     Equals(other: Asn1Tag): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
     HasSameClassAndValue(other: Asn1Tag): boolean;
     ToString(): string;
@@ -144,27 +142,6 @@ export const AsnReaderOptions: {
 
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
-export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$instance {
-    readonly __tsonic_type_System_Formats_Asn1_AsnWriter_Scope: never;
-
-    readonly __tsonic_iface_System_IDisposable: never;
-
-    Dispose(): void;
-}
-
-
-export const AsnWriter_Scope: {
-    new(): AsnWriter_Scope;
-};
-
-
-export interface __AsnWriter_Scope$views {
-    As_IDisposable(): System_Internal.IDisposable$instance;
-}
-
-export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views;
-
-
 export interface AsnContentException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Formats_Asn1_AsnContentException: never;
 
@@ -175,8 +152,8 @@ export interface AsnContentException$instance extends Exception, System_Runtime_
 
 export const AsnContentException: {
     new(): AsnContentException;
-    new(message: string): AsnContentException;
-    new(message: string, inner: Exception): AsnContentException;
+    new(message: string | null): AsnContentException;
+    new(message: string | null, inner: Exception | null): AsnContentException;
 };
 
 
@@ -292,6 +269,22 @@ export const AsnWriter: {
 
 
 export type AsnWriter = AsnWriter$instance;
+
+export interface AsnWriter_Scope$instance extends IDisposable {
+    readonly __tsonic_type_System_Formats_Asn1_AsnWriter_Scope: never;
+
+    readonly __tsonic_iface_System_IDisposable: never;
+
+    Dispose(): void;
+}
+
+
+export const AsnWriter_Scope: {
+    new(): AsnWriter_Scope;
+};
+
+
+export type AsnWriter_Scope = AsnWriter_Scope$instance;
 
 export abstract class AsnDecoder$instance {
     static DecodeLength(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int): Nullable_1<System_Internal.Int32>;

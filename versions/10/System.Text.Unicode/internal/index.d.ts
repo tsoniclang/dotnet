@@ -2,42 +2,14 @@
 // Namespace: System.Text.Unicode
 // Assembly: System.Private.CoreLib, System.Text.Encodings.Web
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { OperationStatus } from "../../System.Buffers/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
-
-export interface Utf8_TryWriteInterpolatedStringHandler$instance {
-    readonly __tsonic_type_System_Text_Unicode_Utf8_TryWriteInterpolatedStringHandler: never;
-
-    AppendFormatted<T>(value: T): boolean;
-    AppendFormatted<T>(value: T, format: string): boolean;
-    AppendFormatted<T>(value: T, alignment: int): boolean;
-    AppendFormatted<T>(value: T, alignment: int, format: string): boolean;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): boolean;
-    AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string): boolean;
-    AppendFormatted(value: string): boolean;
-    AppendFormatted(value: string, alignment?: int, format?: string): boolean;
-    AppendFormatted(value: unknown, alignment?: int, format?: string): boolean;
-    AppendLiteral(value: string): boolean;
-}
-
-
-export const Utf8_TryWriteInterpolatedStringHandler: {
-    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, provider: IFormatProvider, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
-};
-
-
-export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedStringHandler$instance;
 
 export interface UnicodeRange$instance {
     readonly __tsonic_type_System_Text_Unicode_UnicodeRange: never;
@@ -227,10 +199,36 @@ export abstract class Utf8$instance {
     static FromUtf16(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, charsRead: int, bytesWritten: int, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
     static IsValid(value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     static ToUtf16(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, bytesRead: int, charsWritten: int, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
-    static TryWrite(destination: Span_1<System_Internal.Byte>, provider: IFormatProvider, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
+    static TryWrite(destination: Span_1<System_Internal.Byte>, provider: IFormatProvider | null, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
     static TryWrite(destination: Span_1<System_Internal.Byte>, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
 }
 
 
 export type Utf8 = Utf8$instance;
+
+export interface Utf8_TryWriteInterpolatedStringHandler$instance {
+    readonly __tsonic_type_System_Text_Unicode_Utf8_TryWriteInterpolatedStringHandler: never;
+
+    AppendFormatted<T>(value: T): boolean;
+    AppendFormatted<T>(value: T, format: string | null): boolean;
+    AppendFormatted<T>(value: T, alignment: int): boolean;
+    AppendFormatted<T>(value: T, alignment: int, format: string | null): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(value: string | null): boolean;
+    AppendFormatted(value: string | null, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): boolean;
+    AppendLiteral(value: string): boolean;
+}
+
+
+export const Utf8_TryWriteInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, provider: IFormatProvider | null, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
+};
+
+
+export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedStringHandler$instance;
 

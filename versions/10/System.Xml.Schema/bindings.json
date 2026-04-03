@@ -530,82 +530,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-      "clrName": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-      "assemblyName": "System.Private.Xml",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::value__System.Int32",
-          "clrName": "value__",
-          "metadataToken": 67114528,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-          "declaringAssemblyName": "System.Private.Xml"
-        },
-        {
-          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::RestrictedSystem.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-          "clrName": "Restricted",
-          "metadataToken": 67114529,
-          "normalizedSignature": "Restricted|System.Xml.Schema.XmlSchemaInference\u002BInferenceOption|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-          "declaringAssemblyName": "System.Private.Xml"
-        },
-        {
-          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::RelaxedSystem.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-          "clrName": "Relaxed",
-          "metadataToken": 67114530,
-          "normalizedSignature": "Relaxed|System.Xml.Schema.XmlSchemaInference\u002BInferenceOption|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
-          "declaringAssemblyName": "System.Private.Xml"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaUse",
       "clrName": "System.Xml.Schema.XmlSchemaUse",
       "assemblyName": "System.Private.Xml",
@@ -6909,6 +6833,82 @@
           "declaringAssemblyName": "System.Private.Xml"
         }
       ]
+    },
+    {
+      "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+      "clrName": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+      "assemblyName": "System.Private.Xml",
+      "metadataToken": 0,
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.Enum",
+        "clrName": "System.Enum"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.IComparable",
+          "clrName": "System.IComparable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+          "clrName": "System.ISpanFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IFormattable",
+          "clrName": "System.IFormattable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IConvertible",
+          "clrName": "System.IConvertible"
+        }
+      ],
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::value__System.Int32",
+          "clrName": "value__",
+          "metadataToken": 67114528,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+          "declaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::RestrictedSystem.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+          "clrName": "Restricted",
+          "metadataToken": 67114529,
+          "normalizedSignature": "Restricted|System.Xml.Schema.XmlSchemaInference\u002BInferenceOption|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+          "declaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::RelaxedSystem.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+          "clrName": "Relaxed",
+          "metadataToken": 67114530,
+          "normalizedSignature": "Relaxed|System.Xml.Schema.XmlSchemaInference\u002BInferenceOption|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Xml.Schema.XmlSchemaInference\u002BInferenceOption",
+          "declaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInferenceException",

@@ -2,8 +2,9 @@
 // Namespace: System.IO.Pipes
 // Assembly: System.IO.Pipes, System.IO.Pipes.AccessControl
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { SafePipeHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -178,7 +179,7 @@ export interface NamedPipeServerStream$instance extends PipeStream$instance, Sys
 
     readonly InBufferSize: int;
     readonly OutBufferSize: int;
-    BeginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
+    BeginWaitForConnection(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
     Disconnect(): void;
     EndWaitForConnection(asyncResult: IAsyncResult): void;
     Finalize(): void;
@@ -290,8 +291,8 @@ export interface PipeStream$instance extends Stream, System_Internal.IAsyncDispo
     ReadMode: PipeTransmissionMode;
     readonly SafePipeHandle: SafePipeHandle;
     readonly TransmissionMode: PipeTransmissionMode;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
     CheckPipePropertyOperations(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -331,14 +332,14 @@ export type PipeStream = PipeStream$instance & __PipeStream$views;
 
 
 export abstract class AnonymousPipeServerStreamAcl$instance {
-    static Create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity): AnonymousPipeServerStream;
+    static Create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity | null): AnonymousPipeServerStream;
 }
 
 
 export type AnonymousPipeServerStreamAcl = AnonymousPipeServerStreamAcl$instance;
 
 export abstract class NamedPipeServerStreamAcl$instance {
-    static Create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
+    static Create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity | null, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
 }
 
 

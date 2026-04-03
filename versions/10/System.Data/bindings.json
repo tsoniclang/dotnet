@@ -12998,7 +12998,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Data.DataRowComparer\u00601",
-          "declaringAssemblyName": "System.Data.Common"
+          "declaringAssemblyName": "System.Data.Common",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         }
       ],
       "fields": [],

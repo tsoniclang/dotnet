@@ -2,8 +2,9 @@
 // Namespace: System.Security.Principal
 // Assembly: System.Private.CoreLib, System.Security.Claims, System.Security.Principal.Windows
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { SafeAccessTokenHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -178,8 +179,8 @@ export enum WindowsBuiltInRole {
 export interface IIdentity$instance {
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
-    readonly Name: string | undefined;
-    readonly AuthenticationType: string | undefined;
+    readonly Name: string | null;
+    readonly AuthenticationType: string | null;
     readonly IsAuthenticated: boolean;
 }
 
@@ -189,7 +190,7 @@ export type IIdentity = IIdentity$instance;
 export interface IPrincipal$instance {
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
-    readonly Identity: IIdentity | undefined;
+    readonly Identity: IIdentity | null;
     IsInRole(role: string): boolean;
 }
 
@@ -201,10 +202,10 @@ export interface GenericIdentity$instance extends ClaimsIdentity {
 
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
-    readonly AuthenticationType: string | string | undefined;
+    readonly AuthenticationType: string | string | null;
     readonly Claims: IEnumerable_1<Claim>;
     readonly IsAuthenticated: boolean;
-    readonly Name: string | string | undefined;
+    readonly Name: string | string | null;
     Clone(): ClaimsIdentity;
 }
 
@@ -227,13 +228,13 @@ export interface GenericPrincipal$instance extends ClaimsPrincipal {
 
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
-    readonly Identity: IIdentity | IIdentity | undefined;
-    IsInRole(role: string): boolean;
+    readonly Identity: IIdentity | IIdentity | null;
+    IsInRole(role: string | null): boolean;
 }
 
 
 export const GenericPrincipal: {
-    new(identity: IIdentity, roles: string[]): GenericPrincipal;
+    new(identity: IIdentity, roles: string[] | null): GenericPrincipal;
 };
 
 
@@ -256,8 +257,8 @@ export interface IdentityNotMappedException$instance extends SystemException {
 
 export const IdentityNotMappedException: {
     new(): IdentityNotMappedException;
-    new(message: string): IdentityNotMappedException;
-    new(message: string, inner: Exception): IdentityNotMappedException;
+    new(message: string | null): IdentityNotMappedException;
+    new(message: string | null, inner: Exception | null): IdentityNotMappedException;
 };
 
 
@@ -272,7 +273,7 @@ export interface IdentityReference$instance {
     readonly __tsonic_type_System_Security_Principal_IdentityReference: never;
 
     readonly Value: string;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     GetHashCode(): int;
     IsValidTargetType(targetType: Type): boolean;
     ToString(): string;
@@ -324,7 +325,7 @@ export interface NTAccount$instance extends IdentityReference {
     readonly __tsonic_type_System_Security_Principal_NTAccount: never;
 
     readonly Value: string;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     GetHashCode(): int;
     IsValidTargetType(targetType: Type): boolean;
     ToString(): string;
@@ -340,16 +341,16 @@ export const NTAccount: {
 
 export type NTAccount = NTAccount$instance;
 
-export interface SecurityIdentifier$instance extends IdentityReference, System_Internal.IComparable_1$instance<SecurityIdentifier> {
+export interface SecurityIdentifier$instance extends IdentityReference {
     readonly __tsonic_type_System_Security_Principal_SecurityIdentifier: never;
 
     readonly __tsonic_iface_System_IComparable_1: never;
 
-    readonly AccountDomainSid: SecurityIdentifier | undefined;
+    readonly AccountDomainSid: SecurityIdentifier | null;
     readonly BinaryLength: int;
     readonly Value: string;
-    CompareTo(sid: SecurityIdentifier): int;
-    Equals(o: unknown): boolean;
+    CompareTo(sid: SecurityIdentifier | null): int;
+    Equals(o: JsValue | null): boolean;
     Equals(sid: SecurityIdentifier): boolean;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetHashCode(): int;
@@ -365,7 +366,7 @@ export interface SecurityIdentifier$instance extends IdentityReference, System_I
 export const SecurityIdentifier: {
     new(binaryForm: byte[], offset: int): SecurityIdentifier;
     new(binaryForm: nint): SecurityIdentifier;
-    new(sidType: WellKnownSidType, domainSid: SecurityIdentifier): SecurityIdentifier;
+    new(sidType: WellKnownSidType, domainSid: SecurityIdentifier | null): SecurityIdentifier;
     new(sddlForm: string): SecurityIdentifier;
     readonly MaxBinaryLength: int;
     readonly MinBinaryLength: int;
@@ -376,7 +377,7 @@ export interface __SecurityIdentifier$views {
     As_IComparable_1(): System_Internal.IComparable_1$instance<SecurityIdentifier>;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: unknown): int;
+    CompareTo(obj: JsValue): int;
 }
 
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
@@ -391,19 +392,19 @@ export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     readonly AccessToken: SafeAccessTokenHandle;
-    readonly AuthenticationType: string | undefined;
+    readonly AuthenticationType: string | null;
     readonly Claims: IEnumerable_1<Claim>;
     readonly DeviceClaims: IEnumerable_1<Claim>;
-    readonly Groups: IdentityReferenceCollection | undefined;
+    readonly Groups: IdentityReferenceCollection | null;
     readonly ImpersonationLevel: TokenImpersonationLevel;
     readonly IsAnonymous: boolean;
     readonly IsAuthenticated: boolean;
     readonly IsGuest: boolean;
     readonly IsSystem: boolean;
-    readonly Name: string | string | undefined;
-    readonly Owner: SecurityIdentifier | undefined;
+    readonly Name: string | string | null;
+    readonly Owner: SecurityIdentifier | null;
     readonly Token: nint;
-    readonly User: SecurityIdentifier | undefined;
+    readonly User: SecurityIdentifier | null;
     readonly UserClaims: IEnumerable_1<Claim>;
     Clone(): ClaimsIdentity;
     Dispose(): void;
@@ -421,7 +422,7 @@ export const WindowsIdentity: {
     readonly DefaultIssuer: string;
     GetAnonymous(): WindowsIdentity;
     GetCurrent(): WindowsIdentity;
-    GetCurrent(ifImpersonating: boolean): WindowsIdentity | undefined;
+    GetCurrent(ifImpersonating: boolean): WindowsIdentity | null;
     GetCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
     RunImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
     RunImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
@@ -446,7 +447,7 @@ export interface WindowsPrincipal$instance extends ClaimsPrincipal {
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly DeviceClaims: IEnumerable_1<Claim>;
-    readonly Identity: IIdentity | IIdentity | undefined;
+    readonly Identity: IIdentity | IIdentity | null;
     readonly UserClaims: IEnumerable_1<Claim>;
     IsInRole(rid: int): boolean;
     IsInRole(sid: SecurityIdentifier): boolean;

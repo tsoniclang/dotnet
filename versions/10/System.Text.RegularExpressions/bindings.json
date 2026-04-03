@@ -729,408 +729,6 @@
       ]
     },
     {
-      "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-      "clrName": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-      "assemblyName": "System.Text.RegularExpressions",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
-          "typeArguments": [
-            "ValueMatch"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::GetEnumerator():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "clrName": "GetEnumerator",
-          "metadataToken": 100663719,
-          "canonicalSignature": "():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "normalizedSignature": "GetEnumerator|():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100663720,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
-          "clrName": "Reset",
-          "metadataToken": 100703848,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100668530,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100703846,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::Current:System.Text.RegularExpressions.ValueMatch",
-          "clrName": "Current",
-          "metadataToken": 385876087,
-          "canonicalSignature": ":System.Text.RegularExpressions.ValueMatch",
-          "normalizedSignature": "Current|:System.Text.RegularExpressions.ValueMatch|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
-          "clrName": "Current",
-          "metadataToken": 385881426,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Current|:T|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
-          "clrName": "Current",
-          "metadataToken": 385881267,
-          "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.IEnumerator",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-      "clrName": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-      "assemblyName": "System.Text.RegularExpressions",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
-          "typeArguments": [
-            "Range"
-          ]
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::GetEnumerator():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "clrName": "GetEnumerator",
-          "metadataToken": 100663726,
-          "canonicalSignature": "():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "normalizedSignature": "GetEnumerator|():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100663727,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
-          "clrName": "Reset",
-          "metadataToken": 100703848,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100668530,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
-          "metadataToken": 100703846,
-          "canonicalSignature": "():System.Boolean",
-          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Collections.IEnumerator"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::Current:System.Range",
-          "clrName": "Current",
-          "metadataToken": 385876089,
-          "canonicalSignature": ":System.Range",
-          "normalizedSignature": "Current|:System.Range|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
-          "clrName": "Current",
-          "metadataToken": 385881426,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Current|:T|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringClrType": "System.Collections.Generic.IEnumerator\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
-          "clrName": "Current",
-          "metadataToken": 385881267,
-          "canonicalSignature": ":System.Object",
-          "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "sourceInterface": "System.Collections.IEnumerator",
-          "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.ValueMatch",
       "clrName": "System.Text.RegularExpressions.ValueMatch",
       "assemblyName": "System.Text.RegularExpressions",
@@ -5856,6 +5454,204 @@
           "declaringAssemblyName": "System.Text.RegularExpressions"
         }
       ]
+    },
+    {
+      "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+      "clrName": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+      "assemblyName": "System.Text.RegularExpressions",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
+          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "typeArguments": [
+            "ValueMatch"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
+          "clrName": "System.Collections.IEnumerator"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::GetEnumerator():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "clrName": "GetEnumerator",
+          "metadataToken": 100663719,
+          "canonicalSignature": "():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "normalizedSignature": "GetEnumerator|():System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::MoveNext():System.Boolean",
+          "clrName": "MoveNext",
+          "metadataToken": 100663720,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::Current:System.Text.RegularExpressions.ValueMatch",
+          "clrName": "Current",
+          "metadataToken": 385876087,
+          "canonicalSignature": ":System.Text.RegularExpressions.ValueMatch",
+          "normalizedSignature": "Current|:System.Text.RegularExpressions.ValueMatch|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+      "clrName": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+      "assemblyName": "System.Text.RegularExpressions",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
+          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "typeArguments": [
+            "Range"
+          ]
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
+          "clrName": "System.Collections.IEnumerator"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.IDisposable",
+          "clrName": "System.IDisposable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::GetEnumerator():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "clrName": "GetEnumerator",
+          "metadataToken": 100663726,
+          "canonicalSignature": "():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "normalizedSignature": "GetEnumerator|():System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::MoveNext():System.Boolean",
+          "clrName": "MoveNext",
+          "metadataToken": 100663727,
+          "canonicalSignature": "():System.Boolean",
+          "normalizedSignature": "MoveNext|():System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::Current:System.Range",
+          "clrName": "Current",
+          "metadataToken": 385876089,
+          "canonicalSignature": ":System.Range",
+          "normalizedSignature": "Current|:System.Range|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexCompilationInfo",

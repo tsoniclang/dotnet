@@ -2,11 +2,9 @@
 // Namespace: System.Collections
 // Assembly: System.Collections, System.Collections.NonGeneric, System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
@@ -19,7 +17,7 @@ export interface ICollection$instance extends IEnumerable {
     readonly __tsonic_iface_System_Collections_ICollection: never;
 
     readonly Count: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly IsSynchronized: boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
@@ -31,7 +29,7 @@ export type ICollection = ICollection$instance;
 export interface IComparer$instance {
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
-    Compare(x: unknown, y: unknown): int;
+    Compare(x: JsValue | null, y: JsValue | null): int;
 }
 
 
@@ -40,22 +38,22 @@ export type IComparer = IComparer$instance;
 export interface IDictionary$instance extends ICollection, IEnumerable {
     readonly __tsonic_iface_System_Collections_IDictionary: never;
 
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
     readonly Values: ICollection;
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly IsSynchronized: boolean;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IDictionaryEnumerator;
     GetEnumerator(): IEnumerator;
-    Remove(key: unknown): void;
+    Remove(key: JsValue): void;
 }
 
 
@@ -64,10 +62,10 @@ export type IDictionary = IDictionary$instance;
 export interface IDictionaryEnumerator$instance extends IEnumerator {
     readonly __tsonic_iface_System_Collections_IDictionaryEnumerator: never;
 
-    readonly Key: unknown;
-    readonly Value: unknown | undefined;
+    readonly Key: JsValue;
+    readonly Value: JsValue | null;
     readonly Entry: DictionaryEntry;
-    readonly Current: unknown;
+    readonly Current: JsValue;
     MoveNext(): boolean;
     Reset(): void;
 }
@@ -87,7 +85,7 @@ export type IEnumerable = IEnumerable$instance;
 export interface IEnumerator$instance {
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
-    readonly Current: unknown;
+    readonly Current: JsValue;
     MoveNext(): boolean;
     Reset(): void;
 }
@@ -98,8 +96,8 @@ export type IEnumerator = IEnumerator$instance;
 export interface IEqualityComparer$instance {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
-    Equals(x: unknown, y: unknown): boolean;
-    GetHashCode(obj: unknown): int;
+    Equals(x: JsValue | null, y: JsValue | null): boolean;
+    GetHashCode(obj: JsValue): int;
 }
 
 
@@ -108,7 +106,7 @@ export type IEqualityComparer = IEqualityComparer$instance;
 export interface IHashCodeProvider$instance {
     readonly __tsonic_iface_System_Collections_IHashCodeProvider: never;
 
-    GetHashCode(obj: unknown): int;
+    GetHashCode(obj: JsValue): int;
 }
 
 
@@ -120,25 +118,25 @@ export interface IList$instance extends ICollection, IEnumerable {
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly IsSynchronized: boolean;
-    Add(value: unknown): int;
+    Add(value: JsValue | null): int;
     Clear(): void;
-    Contains(value: unknown): boolean;
+    Contains(value: JsValue | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
-    Insert(index: int, value: unknown): void;
-    Remove(value: unknown): void;
+    Insert(index: int, value: JsValue | null): void;
+    Remove(value: JsValue | null): void;
     RemoveAt(index: int): void;
 }
 
 
-export type IList = IList$instance & { [index: number]: unknown; };
+export type IList = IList$instance & { [index: number]: JsValue; };
 
 export interface IStructuralComparable$instance {
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
 
-    CompareTo(other: unknown, comparer: IComparer): int;
+    CompareTo(other: JsValue | null, comparer: IComparer): int;
 }
 
 
@@ -147,7 +145,7 @@ export type IStructuralComparable = IStructuralComparable$instance;
 export interface IStructuralEquatable$instance {
     readonly __tsonic_iface_System_Collections_IStructuralEquatable: never;
 
-    Equals(other: unknown, comparer: IEqualityComparer): boolean;
+    Equals(other: JsValue | null, comparer: IEqualityComparer): boolean;
     GetHashCode(comparer: IEqualityComparer): int;
 }
 
@@ -157,16 +155,16 @@ export type IStructuralEquatable = IStructuralEquatable$instance;
 export interface DictionaryEntry$instance {
     readonly __tsonic_type_System_Collections_DictionaryEntry: never;
 
-    Key: unknown;
-    get Value(): unknown | undefined;
-    set Value(value: unknown | undefined);
-    Deconstruct(key: unknown, value: unknown): void;
+    Key: JsValue;
+    get Value(): JsValue | null;
+    set Value(value: JsValue | null);
+    Deconstruct(key: JsValue, value: JsValue | null): void;
     ToString(): string;
 }
 
 
 export const DictionaryEntry: {
-    new(key: unknown, value: unknown): DictionaryEntry;
+    new(key: JsValue, value: JsValue | null): DictionaryEntry;
 };
 
 
@@ -185,39 +183,39 @@ export interface ArrayList$instance extends System_Internal.ICloneable$instance 
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    Add(value: unknown): int;
+    readonly SyncRoot: JsValue;
+    Add(value: JsValue | null): int;
     AddRange(c: ICollection): void;
-    BinarySearch(index: int, count: int, value: unknown, comparer: IComparer): int;
-    BinarySearch(value: unknown): int;
-    BinarySearch(value: unknown, comparer: IComparer): int;
+    BinarySearch(index: int, count: int, value: JsValue | null, comparer: IComparer | null): int;
+    BinarySearch(value: JsValue | null): int;
+    BinarySearch(value: JsValue | null, comparer: IComparer | null): int;
     Clear(): void;
-    Clone(): unknown;
-    Contains(item: unknown): boolean;
+    Clone(): JsValue;
+    Contains(item: JsValue | null): boolean;
     CopyTo(array: ClrArray): void;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(index: int, array: ClrArray, arrayIndex: int, count: int): void;
     GetEnumerator(): IEnumerator;
     GetEnumerator(index: int, count: int): IEnumerator;
     GetRange(index: int, count: int): ArrayList;
-    IndexOf(value: unknown): int;
-    IndexOf(value: unknown, startIndex: int): int;
-    IndexOf(value: unknown, startIndex: int, count: int): int;
-    Insert(index: int, value: unknown): void;
+    IndexOf(value: JsValue | null): int;
+    IndexOf(value: JsValue | null, startIndex: int): int;
+    IndexOf(value: JsValue | null, startIndex: int, count: int): int;
+    Insert(index: int, value: JsValue | null): void;
     InsertRange(index: int, c: ICollection): void;
-    LastIndexOf(value: unknown): int;
-    LastIndexOf(value: unknown, startIndex: int): int;
-    LastIndexOf(value: unknown, startIndex: int, count: int): int;
-    Remove(obj: unknown): void;
+    LastIndexOf(value: JsValue | null): int;
+    LastIndexOf(value: JsValue | null, startIndex: int): int;
+    LastIndexOf(value: JsValue | null, startIndex: int, count: int): int;
+    Remove(obj: JsValue | null): void;
     RemoveAt(index: int): void;
     RemoveRange(index: int, count: int): void;
     Reverse(): void;
     Reverse(index: int, count: int): void;
     SetRange(index: int, c: ICollection): void;
     Sort(): void;
-    Sort(comparer: IComparer): void;
-    Sort(index: int, count: int, comparer: IComparer): void;
-    ToArray(): (unknown | undefined)[];
+    Sort(comparer: IComparer | null): void;
+    Sort(index: int, count: int, comparer: IComparer | null): void;
+    ToArray(): (JsValue | null)[];
     ToArray(type: Type): ClrArray;
     TrimToSize(): void;
 }
@@ -232,7 +230,7 @@ export const ArrayList: {
     FixedSize(list: IList): IList;
     ReadOnly(list: ArrayList): ArrayList;
     ReadOnly(list: IList): IList;
-    Repeat(value: unknown, count: int): ArrayList;
+    Repeat(value: JsValue | null, count: int): ArrayList;
     Synchronized(list: ArrayList): ArrayList;
     Synchronized(list: IList): IList;
 };
@@ -245,7 +243,7 @@ export interface __ArrayList$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
-export type ArrayList = ArrayList$instance & __ArrayList$views & { [index: number]: unknown; };
+export type ArrayList = ArrayList$instance & __ArrayList$views & { [index: number]: JsValue; };
 
 
 export interface BitArray$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
@@ -260,9 +258,9 @@ export interface BitArray$instance extends System_Internal.ICloneable$instance, 
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     Length: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     And(value: BitArray): BitArray;
-    Clone(): unknown;
+    Clone(): JsValue;
     CopyTo(array: ClrArray, index: int): void;
     Get(index: int): boolean;
     GetEnumerator(): IEnumerator;
@@ -303,7 +301,7 @@ export interface CaseInsensitiveComparer$instance {
 
     readonly __tsonic_iface_System_Collections_IComparer: never;
 
-    Compare(a: unknown, b: unknown): int;
+    Compare(a: JsValue | null, b: JsValue | null): int;
 }
 
 
@@ -327,7 +325,7 @@ export interface CaseInsensitiveHashCodeProvider$instance {
 
     readonly __tsonic_iface_System_Collections_IHashCodeProvider: never;
 
-    GetHashCode(obj: unknown): int;
+    GetHashCode(obj: JsValue): int;
     GetHashCode(): int;
 }
 
@@ -360,13 +358,13 @@ export interface CollectionBase$instance {
     GetEnumerator(): IEnumerator;
     OnClear(): void;
     OnClearComplete(): void;
-    OnInsert(index: int, value: unknown): void;
-    OnInsertComplete(index: int, value: unknown): void;
-    OnRemove(index: int, value: unknown): void;
-    OnRemoveComplete(index: int, value: unknown): void;
-    OnSet(index: int, oldValue: unknown, newValue: unknown): void;
-    OnSetComplete(index: int, oldValue: unknown, newValue: unknown): void;
-    OnValidate(value: unknown): void;
+    OnInsert(index: int, value: JsValue | null): void;
+    OnInsertComplete(index: int, value: JsValue | null): void;
+    OnRemove(index: int, value: JsValue | null): void;
+    OnRemoveComplete(index: int, value: JsValue | null): void;
+    OnSet(index: int, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnSetComplete(index: int, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnValidate(value: JsValue): void;
     RemoveAt(index: int): void;
 }
 
@@ -390,7 +388,7 @@ export interface Comparer$instance extends System_Runtime_Serialization_Internal
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Compare(a: unknown, b: unknown): int;
+    Compare(a: JsValue | null, b: JsValue | null): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -423,14 +421,14 @@ export interface DictionaryBase$instance {
     GetEnumerator(): IDictionaryEnumerator;
     OnClear(): void;
     OnClearComplete(): void;
-    OnGet(key: unknown, currentValue: unknown): unknown | undefined;
-    OnInsert(key: unknown, value: unknown): void;
-    OnInsertComplete(key: unknown, value: unknown): void;
-    OnRemove(key: unknown, value: unknown): void;
-    OnRemoveComplete(key: unknown, value: unknown): void;
-    OnSet(key: unknown, oldValue: unknown, newValue: unknown): void;
-    OnSetComplete(key: unknown, oldValue: unknown, newValue: unknown): void;
-    OnValidate(key: unknown, value: unknown): void;
+    OnGet(key: JsValue, currentValue: JsValue | null): JsValue | null;
+    OnInsert(key: JsValue, value: JsValue | null): void;
+    OnInsertComplete(key: JsValue, value: JsValue | null): void;
+    OnRemove(key: JsValue, value: JsValue | null): void;
+    OnRemoveComplete(key: JsValue, value: JsValue | null): void;
+    OnSet(key: JsValue, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnSetComplete(key: JsValue, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnValidate(key: JsValue, value: JsValue | null): void;
 }
 
 
@@ -461,24 +459,24 @@ export interface Hashtable$instance extends System_Internal.ICloneable$instance,
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Clone(): unknown;
-    Contains(key: unknown): boolean;
-    ContainsKey(key: unknown): boolean;
-    ContainsValue(value: unknown): boolean;
+    Clone(): JsValue;
+    Contains(key: JsValue): boolean;
+    ContainsKey(key: JsValue): boolean;
+    ContainsValue(value: JsValue | null): boolean;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     GetEnumerator(): IDictionaryEnumerator;
-    GetHash(key: unknown): int;
+    GetHash(key: JsValue): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    KeyEquals(item: unknown, key: unknown): boolean;
-    OnDeserialization(sender: unknown): void;
-    Remove(key: unknown): void;
+    KeyEquals(item: JsValue | null, key: JsValue): boolean;
+    OnDeserialization(sender: JsValue | null): void;
+    Remove(key: JsValue): void;
 }
 
 
@@ -486,18 +484,18 @@ export const Hashtable: {
     new(): Hashtable;
     new(capacity: int): Hashtable;
     new(capacity: int, loadFactor: float): Hashtable;
-    new(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
-    new(hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
-    new(equalityComparer: IEqualityComparer): Hashtable;
-    new(capacity: int, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
-    new(capacity: int, equalityComparer: IEqualityComparer): Hashtable;
+    new(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer | null): Hashtable;
+    new(hcp: IHashCodeProvider | null, comparer: IComparer | null): Hashtable;
+    new(equalityComparer: IEqualityComparer | null): Hashtable;
+    new(capacity: int, hcp: IHashCodeProvider | null, comparer: IComparer | null): Hashtable;
+    new(capacity: int, equalityComparer: IEqualityComparer | null): Hashtable;
     new(d: IDictionary): Hashtable;
     new(d: IDictionary, loadFactor: float): Hashtable;
-    new(d: IDictionary, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
-    new(d: IDictionary, equalityComparer: IEqualityComparer): Hashtable;
-    new(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
-    new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
-    new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
+    new(d: IDictionary, hcp: IHashCodeProvider | null, comparer: IComparer | null): Hashtable;
+    new(d: IDictionary, equalityComparer: IEqualityComparer | null): Hashtable;
+    new(capacity: int, loadFactor: float, hcp: IHashCodeProvider | null, comparer: IComparer | null): Hashtable;
+    new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider | null, comparer: IComparer | null): Hashtable;
+    new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer | null): Hashtable;
     Synchronized(table: Hashtable): Hashtable;
 };
 
@@ -525,17 +523,17 @@ export interface ListDictionaryInternal$instance {
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IDictionaryEnumerator;
-    Remove(key: unknown): void;
+    Remove(key: JsValue): void;
 }
 
 
@@ -562,16 +560,16 @@ export interface Queue$instance extends System_Internal.ICloneable$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     Clear(): void;
-    Clone(): unknown;
-    Contains(obj: unknown): boolean;
+    Clone(): JsValue;
+    Contains(obj: JsValue | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    Dequeue(): unknown | undefined;
-    Enqueue(obj: unknown): void;
+    Dequeue(): JsValue | null;
+    Enqueue(obj: JsValue | null): void;
     GetEnumerator(): IEnumerator;
-    Peek(): unknown | undefined;
-    ToArray(): (unknown | undefined)[];
+    Peek(): JsValue | null;
+    ToArray(): (JsValue | null)[];
     TrimToSize(): void;
 }
 
@@ -630,28 +628,28 @@ export interface SortedList$instance extends System_Internal.ICloneable$instance
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Clone(): unknown;
-    Contains(key: unknown): boolean;
-    ContainsKey(key: unknown): boolean;
-    ContainsValue(value: unknown): boolean;
+    Clone(): JsValue;
+    Contains(key: JsValue): boolean;
+    ContainsKey(key: JsValue): boolean;
+    ContainsValue(value: JsValue | null): boolean;
     CopyTo(array: ClrArray, arrayIndex: int): void;
-    GetByIndex(index: int): unknown | undefined;
+    GetByIndex(index: int): JsValue | null;
     GetEnumerator(): IDictionaryEnumerator;
-    GetKey(index: int): unknown;
+    GetKey(index: int): JsValue;
     GetKeyList(): IList;
     GetValueList(): IList;
-    IndexOfKey(key: unknown): int;
-    IndexOfValue(value: unknown): int;
-    Remove(key: unknown): void;
+    IndexOfKey(key: JsValue): int;
+    IndexOfValue(value: JsValue | null): int;
+    Remove(key: JsValue): void;
     RemoveAt(index: int): void;
-    SetByIndex(index: int, value: unknown): void;
+    SetByIndex(index: int, value: JsValue | null): void;
     TrimToSize(): void;
 }
 
@@ -659,10 +657,10 @@ export interface SortedList$instance extends System_Internal.ICloneable$instance
 export const SortedList: {
     new(): SortedList;
     new(initialCapacity: int): SortedList;
-    new(comparer: IComparer): SortedList;
-    new(comparer: IComparer, capacity: int): SortedList;
+    new(comparer: IComparer | null): SortedList;
+    new(comparer: IComparer | null, capacity: int): SortedList;
     new(d: IDictionary): SortedList;
-    new(d: IDictionary, comparer: IComparer): SortedList;
+    new(d: IDictionary, comparer: IComparer | null): SortedList;
     Synchronized(list: SortedList): SortedList;
 };
 
@@ -686,16 +684,16 @@ export interface Stack$instance extends System_Internal.ICloneable$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     Clear(): void;
-    Clone(): unknown;
-    Contains(obj: unknown): boolean;
+    Clone(): JsValue;
+    Contains(obj: JsValue | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
-    Peek(): unknown | undefined;
-    Pop(): unknown | undefined;
-    Push(obj: unknown): void;
-    ToArray(): (unknown | undefined)[];
+    Peek(): JsValue | null;
+    Pop(): JsValue | null;
+    Push(obj: JsValue | null): void;
+    ToArray(): (JsValue | null)[];
 }
 
 

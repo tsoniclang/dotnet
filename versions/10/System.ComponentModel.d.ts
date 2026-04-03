@@ -92,6 +92,7 @@ export { StringConverter as StringConverter } from './System.ComponentModel/inte
 export { TimeOnlyConverter as TimeOnlyConverter } from './System.ComponentModel/internal/index.js';
 export { TimeSpanConverter as TimeSpanConverter } from './System.ComponentModel/internal/index.js';
 export { TypeConverter as TypeConverter } from './System.ComponentModel/internal/index.js';
+export { TypeConverter_SimplePropertyDescriptor as TypeConverter_SimplePropertyDescriptor } from './System.ComponentModel/internal/index.js';
 export { TypeConverter_StandardValuesCollection as TypeConverter_StandardValuesCollection } from './System.ComponentModel/internal/index.js';
 export { TypeListConverter as TypeListConverter } from './System.ComponentModel/internal/index.js';
 export { UInt128Converter as UInt128Converter } from './System.ComponentModel/internal/index.js';

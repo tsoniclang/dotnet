@@ -2,11 +2,9 @@
 // Namespace: System.Text.RegularExpressions
 // Assembly: System.Text.RegularExpressions
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -74,60 +72,6 @@ export enum RegexParseError {
 export type MatchEvaluator = (match: Match) => string;
 
 
-export interface Regex_ValueMatchEnumerator$instance {
-    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueMatchEnumerator: never;
-
-    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
-    readonly __tsonic_iface_System_Collections_IEnumerator: never;
-    readonly __tsonic_iface_System_IDisposable: never;
-
-    readonly Current: ValueMatch;
-    GetEnumerator(): Regex_ValueMatchEnumerator;
-    MoveNext(): boolean;
-    Reset(): void;
-}
-
-
-export const Regex_ValueMatchEnumerator: {
-    new(): Regex_ValueMatchEnumerator;
-};
-
-
-export interface __Regex_ValueMatchEnumerator$views {
-    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<ValueMatch>;
-    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
-}
-
-export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance & __Regex_ValueMatchEnumerator$views;
-
-
-export interface Regex_ValueSplitEnumerator$instance {
-    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueSplitEnumerator: never;
-
-    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
-    readonly __tsonic_iface_System_Collections_IEnumerator: never;
-    readonly __tsonic_iface_System_IDisposable: never;
-
-    readonly Current: Range;
-    GetEnumerator(): Regex_ValueSplitEnumerator;
-    MoveNext(): boolean;
-    Reset(): void;
-}
-
-
-export const Regex_ValueSplitEnumerator: {
-    new(): Regex_ValueSplitEnumerator;
-};
-
-
-export interface __Regex_ValueSplitEnumerator$views {
-    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<Range>;
-    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
-}
-
-export type Regex_ValueSplitEnumerator = Regex_ValueSplitEnumerator$instance & __Regex_ValueSplitEnumerator$views;
-
-
 export interface ValueMatch$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_ValueMatch: never;
 
@@ -175,7 +119,7 @@ export interface CaptureCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Capture[], arrayIndex: int): void;
     GetEnumerator(): IEnumerator;
@@ -253,7 +197,7 @@ export interface GroupCollection$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     readonly Keys: IEnumerable_1<System_Internal.String>;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: IEnumerable_1<Group>;
     ContainsKey(key: string): boolean;
     CopyTo(array: ClrArray, arrayIndex: int): void;
@@ -261,7 +205,7 @@ export interface GroupCollection$instance {
     get_Item(groupnum: int): Group;
     get_Item(groupname: string): Group;
     GetEnumerator(): IEnumerator;
-    TryGetValue(key: string, value: Group): boolean;
+    TryGetValue(key: string, value: Group | null): boolean;
 }
 
 
@@ -314,7 +258,7 @@ export interface MatchCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Match[], arrayIndex: int): void;
     GetEnumerator(): IEnumerator;
@@ -386,8 +330,8 @@ export const Regex: {
     new(pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex;
     readonly InfiniteMatchTimeout: TimeSpan;
     CacheSize: int;
-    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
-    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
+    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[] | null, resourceFile: string | null): void;
+    CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[] | null): void;
     CompileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
     Count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
     Count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): int;
@@ -434,6 +378,46 @@ export interface __Regex$views {
 
 export type Regex = Regex$instance & __Regex$views;
 
+
+export interface Regex_ValueMatchEnumerator$instance extends IEnumerator_1<ValueMatch>, IEnumerator, IDisposable {
+    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueMatchEnumerator: never;
+
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
+    readonly Current: ValueMatch;
+    GetEnumerator(): Regex_ValueMatchEnumerator;
+    MoveNext(): boolean;
+}
+
+
+export const Regex_ValueMatchEnumerator: {
+    new(): Regex_ValueMatchEnumerator;
+};
+
+
+export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance;
+
+export interface Regex_ValueSplitEnumerator$instance extends IEnumerator_1<Range>, IEnumerator, IDisposable {
+    readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueSplitEnumerator: never;
+
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
+    readonly __tsonic_iface_System_IDisposable: never;
+
+    readonly Current: Range;
+    GetEnumerator(): Regex_ValueSplitEnumerator;
+    MoveNext(): boolean;
+}
+
+
+export const Regex_ValueSplitEnumerator: {
+    new(): Regex_ValueSplitEnumerator;
+};
+
+
+export type Regex_ValueSplitEnumerator = Regex_ValueSplitEnumerator$instance;
 
 export interface RegexCompilationInfo$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_RegexCompilationInfo: never;

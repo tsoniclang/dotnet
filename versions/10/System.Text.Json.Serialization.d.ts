@@ -65,7 +65,7 @@ export type JsonStringEnumConverter<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.JsonStringEnumConverter :
-  [T1] extends [number & unknown] ? Internal.JsonStringEnumConverter_1<T1> : never;
+  [T1] extends [number & NonNullable<JsValue>] ? Internal.JsonStringEnumConverter_1<T1> : never;
 
 export type ReferenceHandler<
   T1 = __,

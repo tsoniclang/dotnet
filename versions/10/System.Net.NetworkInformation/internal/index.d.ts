@@ -2,11 +2,9 @@
 // Namespace: System.Net.NetworkInformation
 // Assembly: System.Net.NetworkInformation, System.Net.Ping, System.Net.Primitives
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -168,13 +166,13 @@ export enum TcpState {
 }
 
 
-export type NetworkAddressChangedEventHandler = (sender: unknown, e: EventArgs) => void;
+export type NetworkAddressChangedEventHandler = (sender: JsValue | null, e: EventArgs) => void;
 
 
-export type NetworkAvailabilityChangedEventHandler = (sender: unknown, e: NetworkAvailabilityEventArgs) => void;
+export type NetworkAvailabilityChangedEventHandler = (sender: JsValue | null, e: NetworkAvailabilityEventArgs) => void;
 
 
-export type PingCompletedEventHandler = (sender: unknown, e: PingCompletedEventArgs) => void;
+export type PingCompletedEventHandler = (sender: JsValue, e: PingCompletedEventArgs) => void;
 
 
 export interface GatewayIPAddressInformation$instance {
@@ -388,7 +386,7 @@ export interface IPGlobalProperties$instance {
     readonly HostName: string;
     readonly IsWinsProxy: boolean;
     readonly NodeType: NetBiosNodeType;
-    BeginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
+    BeginGetUnicastAddresses(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
     EndGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
     GetActiveTcpConnections(): TcpConnectionInformation[];
     GetActiveTcpListeners(): IPEndPoint[];
@@ -683,7 +681,7 @@ export type NetworkInterface = NetworkInterface$instance;
 export interface PhysicalAddress$instance {
     readonly __tsonic_type_System_Net_NetworkInformation_PhysicalAddress: never;
 
-    Equals(comparand: unknown): boolean;
+    Equals(comparand: JsValue | null): boolean;
     GetAddressBytes(): byte[];
     GetHashCode(): int;
     ToString(): string;
@@ -694,9 +692,9 @@ export const PhysicalAddress: {
     new(address: byte[]): PhysicalAddress;
     readonly None: PhysicalAddress;
     Parse(address: ReadOnlySpan_1<System_Internal.Char>): PhysicalAddress;
-    Parse(address: string): PhysicalAddress;
-    TryParse(address: ReadOnlySpan_1<System_Internal.Char>, value: PhysicalAddress): boolean;
-    TryParse(address: string, value: PhysicalAddress): boolean;
+    Parse(address: string | null): PhysicalAddress;
+    TryParse(address: ReadOnlySpan_1<System_Internal.Char>, value: PhysicalAddress | null): boolean;
+    TryParse(address: string | null, value: PhysicalAddress | null): boolean;
 };
 
 
@@ -716,18 +714,18 @@ export interface Ping$instance extends Component {
     Send(address: IPAddress, timeout: int): PingReply;
     Send(hostNameOrAddress: string, timeout: int, buffer: byte[]): PingReply;
     Send(address: IPAddress, timeout: int, buffer: byte[]): PingReply;
-    Send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): PingReply;
-    Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): PingReply;
-    Send(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
-    Send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
-    SendAsync(hostNameOrAddress: string, userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown): void;
-    SendAsync(address: IPAddress, userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
+    Send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
+    Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
+    Send(address: IPAddress, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
+    Send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
+    SendAsync(hostNameOrAddress: string, userToken: JsValue | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, userToken: JsValue | null): void;
+    SendAsync(address: IPAddress, userToken: JsValue | null): void;
+    SendAsync(address: IPAddress, timeout: int, userToken: JsValue | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: JsValue | null): void;
+    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: JsValue | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null, userToken: JsValue | null): void;
+    SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null, userToken: JsValue | null): void;
     SendAsyncCancel(): void;
     SendPingAsync(address: IPAddress): Task_1<PingReply>;
     SendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
@@ -735,10 +733,10 @@ export interface Ping$instance extends Component {
     SendPingAsync(hostNameOrAddress: string, timeout: int): Task_1<PingReply>;
     SendPingAsync(address: IPAddress, timeout: int, buffer: byte[]): Task_1<PingReply>;
     SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[]): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions, cancellationToken?: CancellationToken): Task_1<PingReply>;
+    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
+    SendPingAsync(address: IPAddress, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null, cancellationToken?: CancellationToken): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null, cancellationToken?: CancellationToken): Task_1<PingReply>;
 }
 
 
@@ -758,7 +756,7 @@ export type Ping = Ping$instance & __Ping$views;
 export interface PingCompletedEventArgs$instance extends AsyncCompletedEventArgs {
     readonly __tsonic_type_System_Net_NetworkInformation_PingCompletedEventArgs: never;
 
-    readonly Reply: PingReply | undefined;
+    readonly Reply: PingReply | null;
 }
 
 
@@ -777,8 +775,8 @@ export interface PingException$instance extends InvalidOperationException, Syste
 
 
 export const PingException: {
-    new(message: string): PingException;
-    new(message: string, innerException: Exception): PingException;
+    new(message: string | null): PingException;
+    new(message: string | null, innerException: Exception | null): PingException;
 };
 
 
@@ -810,7 +808,7 @@ export interface PingReply$instance {
 
     readonly Address: IPAddress;
     readonly Buffer: byte[];
-    readonly Options: PingOptions | undefined;
+    readonly Options: PingOptions | null;
     readonly RoundtripTime: long;
     readonly Status: IPStatus;
 }

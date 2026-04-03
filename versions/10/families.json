@@ -76,6 +76,55 @@
     "maxArity": 1,
     "isDelegate": false
   },
+  "System.Collections.Frozen.FrozenSet": {
+    "stem": "FrozenSet",
+    "namespace": "System.Collections.Frozen",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableHashSet": {
+    "stem": "ImmutableHashSet",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableArray": {
+    "stem": "ImmutableArray",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableList": {
+    "stem": "ImmutableList",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableQueue": {
+    "stem": "ImmutableQueue",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableSortedSet": {
+    "stem": "ImmutableSortedSet",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Collections.Immutable.ImmutableStack": {
+    "stem": "ImmutableStack",
+    "namespace": "System.Collections.Immutable",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
   "System.Collections.ObjectModel.ReadOnlyCollection": {
     "stem": "ReadOnlyCollection",
     "namespace": "System.Collections.ObjectModel",
@@ -181,6 +230,13 @@
     "maxArity": 1,
     "isDelegate": false
   },
+  "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable": {
+    "stem": "ConfiguredValueTaskAwaitable",
+    "namespace": "System.Runtime.CompilerServices",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
   "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder": {
     "stem": "PoolingAsyncValueTaskMethodBuilder",
     "namespace": "System.Runtime.CompilerServices",
@@ -190,6 +246,13 @@
   },
   "System.Runtime.CompilerServices.TaskAwaiter": {
     "stem": "TaskAwaiter",
+    "namespace": "System.Runtime.CompilerServices",
+    "minArity": 0,
+    "maxArity": 1,
+    "isDelegate": false
+  },
+  "System.Runtime.CompilerServices.ConfiguredTaskAwaitable": {
+    "stem": "ConfiguredTaskAwaitable",
     "namespace": "System.Runtime.CompilerServices",
     "minArity": 0,
     "maxArity": 1,
@@ -207,13 +270,6 @@
     "namespace": "System.Runtime.InteropServices",
     "minArity": 0,
     "maxArity": 1,
-    "isDelegate": false
-  },
-  "System.Runtime.InteropServices.JavaScript.JSType\u002BFunction": {
-    "stem": "JSType_Function",
-    "namespace": "System.Runtime.InteropServices.JavaScript",
-    "minArity": 0,
-    "maxArity": 4,
     "isDelegate": false
   },
   "System.Runtime.InteropServices.Swift.SwiftSelf": {
