@@ -2,8 +2,9 @@
 // Namespace: System.Runtime.Loader
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -12,32 +13,11 @@ import type { Assembly, AssemblyName } from "../../System.Reflection/internal/in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {
-    readonly __tsonic_type_System_Runtime_Loader_AssemblyLoadContext_ContextualReflectionScope: never;
-
-    readonly __tsonic_iface_System_IDisposable: never;
-
-    Dispose(): void;
-}
-
-
-export const AssemblyLoadContext_ContextualReflectionScope: {
-    new(): AssemblyLoadContext_ContextualReflectionScope;
-};
-
-
-export interface __AssemblyLoadContext_ContextualReflectionScope$views {
-    As_IDisposable(): System_Internal.IDisposable$instance;
-}
-
-export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_ContextualReflectionScope$instance & __AssemblyLoadContext_ContextualReflectionScope$views;
-
-
 export interface AssemblyDependencyResolver$instance {
     readonly __tsonic_type_System_Runtime_Loader_AssemblyDependencyResolver: never;
 
-    ResolveAssemblyToPath(assemblyName: AssemblyName): string | undefined;
-    ResolveUnmanagedDllToPath(unmanagedDllName: string): string | undefined;
+    ResolveAssemblyToPath(assemblyName: AssemblyName): string | null;
+    ResolveUnmanagedDllToPath(unmanagedDllName: string): string | null;
 }
 
 
@@ -53,33 +33,49 @@ export interface AssemblyLoadContext$instance {
 
     readonly Assemblies: IEnumerable_1<Assembly>;
     readonly IsCollectible: boolean;
-    readonly Name: string | undefined;
+    readonly Name: string | null;
     EnterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
     Finalize(): void;
-    Load(assemblyName: AssemblyName): Assembly | undefined;
+    Load(assemblyName: AssemblyName): Assembly | null;
     LoadFromAssemblyName(assemblyName: AssemblyName): Assembly;
     LoadFromAssemblyPath(assemblyPath: string): Assembly;
-    LoadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
+    LoadFromNativeImagePath(nativeImagePath: string, assemblyPath: string | null): Assembly;
     LoadFromStream(assembly: Stream): Assembly;
-    LoadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
+    LoadFromStream(assembly: Stream, assemblySymbols: Stream | null): Assembly;
     LoadUnmanagedDll(unmanagedDllName: string): nint;
     SetProfileOptimizationRoot(directoryPath: string): void;
-    StartProfileOptimization(profile: string): void;
+    StartProfileOptimization(profile: string | null): void;
     ToString(): string;
     Unload(): void;
 }
 
 
 export const AssemblyLoadContext: {
-    new(name: string, isCollectible: boolean): AssemblyLoadContext;
+    new(name: string | null, isCollectible: boolean): AssemblyLoadContext;
     readonly Default: AssemblyLoadContext;
     readonly All: IEnumerable_1<AssemblyLoadContext>;
-    readonly CurrentContextualReflectionContext: AssemblyLoadContext | undefined;
-    EnterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
+    readonly CurrentContextualReflectionContext: AssemblyLoadContext | null;
+    EnterContextualReflection(activating: Assembly | null): AssemblyLoadContext_ContextualReflectionScope;
     GetAssemblyName(assemblyPath: string): AssemblyName;
-    GetLoadContext(assembly: Assembly): AssemblyLoadContext | undefined;
+    GetLoadContext(assembly: Assembly): AssemblyLoadContext | null;
 };
 
 
 export type AssemblyLoadContext = AssemblyLoadContext$instance;
+
+export interface AssemblyLoadContext_ContextualReflectionScope$instance extends IDisposable {
+    readonly __tsonic_type_System_Runtime_Loader_AssemblyLoadContext_ContextualReflectionScope: never;
+
+    readonly __tsonic_iface_System_IDisposable: never;
+
+    Dispose(): void;
+}
+
+
+export const AssemblyLoadContext_ContextualReflectionScope: {
+    new(): AssemblyLoadContext_ContextualReflectionScope;
+};
+
+
+export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_ContextualReflectionScope$instance;
 

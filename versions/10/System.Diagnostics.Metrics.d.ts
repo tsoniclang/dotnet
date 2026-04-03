@@ -41,7 +41,7 @@ export type Instrument<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.Instrument :
-  [T1] extends [unknown] ? Internal.Instrument_1<T1> : never;
+  [T1] extends [NonNullable<JsValue>] ? Internal.Instrument_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Diagnostics_Metrics as ExtensionMethods } from './__internal/extensions/index.js';

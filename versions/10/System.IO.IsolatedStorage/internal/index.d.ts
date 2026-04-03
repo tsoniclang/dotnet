@@ -2,8 +2,9 @@
 // Namespace: System.IO.IsolatedStorage
 // Assembly: System.IO.IsolatedStorage
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { SafeFileHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -32,7 +33,7 @@ export enum IsolatedStorageScope {
 export interface INormalizeForIsolatedStorage$instance {
     readonly __tsonic_iface_System_IO_IsolatedStorage_INormalizeForIsolatedStorage: never;
 
-    Normalize(): unknown;
+    Normalize(): JsValue;
 }
 
 
@@ -41,11 +42,11 @@ export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance
 export interface IsolatedStorage$instance extends MarshalByRefObject {
     readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorage: never;
 
-    readonly ApplicationIdentity: unknown;
-    readonly AssemblyIdentity: unknown;
+    readonly ApplicationIdentity: JsValue;
+    readonly AssemblyIdentity: JsValue;
     readonly AvailableFreeSpace: long;
     readonly CurrentSize: ulong;
-    readonly DomainIdentity: unknown;
+    readonly DomainIdentity: JsValue;
     readonly MaximumSize: ulong;
     readonly Quota: long;
     Scope: IsolatedStorageScope;
@@ -73,8 +74,8 @@ export interface IsolatedStorageException$instance extends Exception, System_Run
 
 export const IsolatedStorageException: {
     new(): IsolatedStorageException;
-    new(message: string): IsolatedStorageException;
-    new(message: string, inner: Exception): IsolatedStorageException;
+    new(message: string | null): IsolatedStorageException;
+    new(message: string | null, inner: Exception | null): IsolatedStorageException;
 };
 
 
@@ -128,10 +129,10 @@ export const IsolatedStorageFile: {
     GetMachineStoreForApplication(): IsolatedStorageFile;
     GetMachineStoreForAssembly(): IsolatedStorageFile;
     GetMachineStoreForDomain(): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, domainIdentity: JsValue | null, assemblyIdentity: JsValue | null): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, applicationIdentity: JsValue | null): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, domainEvidenceType: Type | null, assemblyEvidenceType: Type | null): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, applicationEvidenceType: Type | null): IsolatedStorageFile;
     GetUserStoreForApplication(): IsolatedStorageFile;
     GetUserStoreForAssembly(): IsolatedStorageFile;
     GetUserStoreForDomain(): IsolatedStorageFile;
@@ -161,8 +162,8 @@ export interface IsolatedStorageFileStream$instance extends FileStream {
     readonly Length: long;
     Position: long;
     readonly SafeFileHandle: SafeFileHandle;
-    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
-    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
+    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
+    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -195,13 +196,13 @@ export interface IsolatedStorageFileStream$instance extends FileStream {
 
 export const IsolatedStorageFileStream: {
     new(path: string, mode: FileMode): IsolatedStorageFileStream;
-    new(path: string, mode: FileMode, isf: IsolatedStorageFile): IsolatedStorageFileStream;
+    new(path: string, mode: FileMode, isf: IsolatedStorageFile | null): IsolatedStorageFileStream;
     new(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
-    new(path: string, mode: FileMode, access: FileAccess, isf: IsolatedStorageFile): IsolatedStorageFileStream;
+    new(path: string, mode: FileMode, access: FileAccess, isf: IsolatedStorageFile | null): IsolatedStorageFileStream;
     new(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
-    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, isf: IsolatedStorageFile): IsolatedStorageFileStream;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, isf: IsolatedStorageFile | null): IsolatedStorageFileStream;
     new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int): IsolatedStorageFileStream;
-    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, isf: IsolatedStorageFile): IsolatedStorageFileStream;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, isf: IsolatedStorageFile | null): IsolatedStorageFileStream;
 };
 
 

@@ -2,11 +2,9 @@
 // Namespace: System.Reflection.Metadata.Ecma335
 // Assembly: System.Reflection.Metadata
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IEnumerable_1, IReadOnlyList_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -227,7 +225,7 @@ export interface EditAndContinueLogEntry$instance {
 
     readonly Handle: EntityHandle;
     readonly Operation: EditAndContinueOperation;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: EditAndContinueLogEntry): boolean;
     GetHashCode(): int;
 }
@@ -321,7 +319,7 @@ export interface InstructionEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_InstructionEncoder: never;
 
     readonly CodeBuilder: BlobBuilder;
-    readonly ControlFlowBuilder: ControlFlowBuilder | undefined;
+    readonly ControlFlowBuilder: ControlFlowBuilder | null;
     readonly Offset: int;
     Branch(code: ILOpCode, label: LabelHandle): void;
     Call(methodHandle: EntityHandle): void;
@@ -350,7 +348,7 @@ export interface InstructionEncoder$instance {
 
 
 export const InstructionEncoder: {
-    new(codeBuilder: BlobBuilder, controlFlowBuilder: ControlFlowBuilder): InstructionEncoder;
+    new(codeBuilder: BlobBuilder, controlFlowBuilder: ControlFlowBuilder | null): InstructionEncoder;
 };
 
 
@@ -364,7 +362,7 @@ export interface LabelHandle$instance {
     readonly Id: int;
     readonly IsNil: boolean;
     Equals(other: LabelHandle): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -622,9 +620,9 @@ export interface ScalarEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ScalarEncoder: never;
 
     readonly Builder: BlobBuilder;
-    Constant(value: unknown): void;
+    Constant(value: JsValue | null): void;
     NullArray(): void;
-    SystemType(serializedTypeName: string): void;
+    SystemType(serializedTypeName: string | null): void;
 }
 
 
@@ -752,7 +750,7 @@ export interface MetadataAggregator$instance {
 
 export const MetadataAggregator: {
     new(baseReader: MetadataReader, deltaReaders: IReadOnlyList_1<MetadataReader>): MetadataAggregator;
-    new(baseTableRowCounts: IReadOnlyList_1<System_Internal.Int32>, baseHeapSizes: IReadOnlyList_1<System_Internal.Int32>, deltaReaders: IReadOnlyList_1<MetadataReader>): MetadataAggregator;
+    new(baseTableRowCounts: IReadOnlyList_1<System_Internal.Int32> | null, baseHeapSizes: IReadOnlyList_1<System_Internal.Int32> | null, deltaReaders: IReadOnlyList_1<MetadataReader> | null): MetadataAggregator;
 };
 
 
@@ -764,7 +762,7 @@ export interface MetadataBuilder$instance {
     AddAssembly(name: StringHandle, version: Version, culture: StringHandle, publicKey: BlobHandle, flags: AssemblyFlags, hashAlgorithm: AssemblyHashAlgorithm): AssemblyDefinitionHandle;
     AddAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     AddAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
-    AddConstant(parent: EntityHandle, value: unknown): ConstantHandle;
+    AddConstant(parent: EntityHandle, value: JsValue | null): ConstantHandle;
     AddCustomAttribute(parent: EntityHandle, constructor: EntityHandle, value: BlobHandle): CustomAttributeHandle;
     AddCustomDebugInformation(parent: EntityHandle, kind: GuidHandle, value: BlobHandle): CustomDebugInformationHandle;
     AddDeclarativeSecurityAttribute(parent: EntityHandle, action: DeclarativeSecurityAction, permissionSet: BlobHandle): DeclarativeSecurityAttributeHandle;
@@ -810,7 +808,7 @@ export interface MetadataBuilder$instance {
     GetOrAddBlob(value: ImmutableArray_1<System_Internal.Byte>): BlobHandle;
     GetOrAddBlobUTF16(value: string): BlobHandle;
     GetOrAddBlobUTF8(value: string, allowUnpairedSurrogates?: boolean): BlobHandle;
-    GetOrAddConstantBlob(value: unknown): BlobHandle;
+    GetOrAddConstantBlob(value: JsValue | null): BlobHandle;
     GetOrAddDocumentName(value: string): BlobHandle;
     GetOrAddGuid(guid: Guid): GuidHandle;
     GetOrAddString(value: string): StringHandle;
@@ -842,7 +840,7 @@ export interface MetadataRootBuilder$instance {
 
 
 export const MetadataRootBuilder: {
-    new(tablesAndHeaps: MetadataBuilder, metadataVersion: string, suppressValidation: boolean): MetadataRootBuilder;
+    new(tablesAndHeaps: MetadataBuilder, metadataVersion: string | null, suppressValidation: boolean): MetadataRootBuilder;
 };
 
 
@@ -875,7 +873,7 @@ export interface PortablePdbBuilder$instance {
 
 
 export const PortablePdbBuilder: {
-    new(tablesAndHeaps: MetadataBuilder, typeSystemRowCounts: ImmutableArray_1<System_Internal.Int32>, entryPoint: MethodDefinitionHandle, idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): PortablePdbBuilder;
+    new(tablesAndHeaps: MetadataBuilder, typeSystemRowCounts: ImmutableArray_1<System_Internal.Int32>, entryPoint: MethodDefinitionHandle, idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId> | null): PortablePdbBuilder;
 };
 
 

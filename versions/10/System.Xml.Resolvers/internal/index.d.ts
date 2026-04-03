@@ -2,8 +2,9 @@
 // Namespace: System.Xml.Resolvers
 // Assembly: System.Private.Xml
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IEnumerable_1, IEqualityComparer_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -32,20 +33,20 @@ export interface XmlPreloadedResolver$instance extends XmlResolver {
     Add(uri: Uri, value: byte[], offset: int, count: int): void;
     Add(uri: Uri, value: Stream): void;
     Add(uri: Uri, value: string): void;
-    GetEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
-    GetEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): JsValue | null;
+    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<JsValue>;
     Remove(uri: Uri): void;
-    ResolveUri(baseUri: Uri, relativeUri: string): Uri;
-    SupportsType(absoluteUri: Uri, type: Type): boolean;
+    ResolveUri(baseUri: Uri | null, relativeUri: string | null): Uri;
+    SupportsType(absoluteUri: Uri, type: Type | null): boolean;
 }
 
 
 export const XmlPreloadedResolver: {
     new(): XmlPreloadedResolver;
     new(preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri>): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | null): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | null, preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | null, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri> | null): XmlPreloadedResolver;
 };
 
 

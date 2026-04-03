@@ -2,8 +2,9 @@
 // Namespace: System.Runtime.Serialization.Formatters.Binary
 // Assembly: System.Runtime.Serialization.Formatters
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { Stream } from "../../System.IO/internal/index.js";
@@ -19,21 +20,21 @@ export interface BinaryFormatter$instance extends System_Runtime_Serialization_I
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
 
     AssemblyFormat: FormatterAssemblyStyle;
-    get Binder(): SerializationBinder | undefined;
-    set Binder(value: SerializationBinder | undefined);
+    get Binder(): SerializationBinder | null;
+    set Binder(value: SerializationBinder | null);
     Context: StreamingContext;
     FilterLevel: TypeFilterLevel;
-    get SurrogateSelector(): ISurrogateSelector | undefined;
-    set SurrogateSelector(value: ISurrogateSelector | undefined);
+    get SurrogateSelector(): ISurrogateSelector | null;
+    set SurrogateSelector(value: ISurrogateSelector | null);
     TypeFormat: FormatterTypeStyle;
-    Deserialize(serializationStream: Stream): unknown;
-    Serialize(serializationStream: Stream, graph: unknown): void;
+    Deserialize(serializationStream: Stream): JsValue;
+    Serialize(serializationStream: Stream, graph: JsValue): void;
 }
 
 
 export const BinaryFormatter: {
     new(): BinaryFormatter;
-    new(selector: ISurrogateSelector, context: StreamingContext): BinaryFormatter;
+    new(selector: ISurrogateSelector | null, context: StreamingContext): BinaryFormatter;
 };
 
 

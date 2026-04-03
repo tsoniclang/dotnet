@@ -2,11 +2,9 @@
 // Namespace: System.Resources
 // Assembly: System.Private.CoreLib, System.Resources.Writer
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -42,9 +40,9 @@ export type IResourceReader = IResourceReader$instance;
 export interface IResourceWriter$instance extends IDisposable {
     readonly __tsonic_iface_System_Resources_IResourceWriter: never;
 
-    AddResource(name: string, value: byte[]): void;
-    AddResource(name: string, value: unknown): void;
-    AddResource(name: string, value: string): void;
+    AddResource(name: string, value: byte[] | null): void;
+    AddResource(name: string, value: JsValue | null): void;
+    AddResource(name: string, value: string | null): void;
     Close(): void;
     Dispose(): void;
 }
@@ -64,8 +62,8 @@ export interface MissingManifestResourceException$instance extends SystemExcepti
 
 export const MissingManifestResourceException: {
     new(): MissingManifestResourceException;
-    new(message: string): MissingManifestResourceException;
-    new(message: string, inner: Exception): MissingManifestResourceException;
+    new(message: string | null): MissingManifestResourceException;
+    new(message: string | null, inner: Exception | null): MissingManifestResourceException;
 };
 
 
@@ -81,15 +79,15 @@ export interface MissingSatelliteAssemblyException$instance extends SystemExcept
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly CultureName: string | undefined;
+    readonly CultureName: string | null;
 }
 
 
 export const MissingSatelliteAssemblyException: {
     new(): MissingSatelliteAssemblyException;
-    new(message: string): MissingSatelliteAssemblyException;
-    new(message: string, cultureName: string): MissingSatelliteAssemblyException;
-    new(message: string, inner: Exception): MissingSatelliteAssemblyException;
+    new(message: string | null): MissingSatelliteAssemblyException;
+    new(message: string | null, cultureName: string | null): MissingSatelliteAssemblyException;
+    new(message: string | null, inner: Exception | null): MissingSatelliteAssemblyException;
 };
 
 
@@ -122,28 +120,28 @@ export interface ResourceManager$instance {
     readonly BaseName: string;
     IgnoreCase: boolean;
     readonly ResourceSetType: Type;
-    GetObject(name: string): unknown | undefined;
-    GetObject(name: string, culture: CultureInfo): unknown | undefined;
+    GetObject(name: string): JsValue | null;
+    GetObject(name: string, culture: CultureInfo | null): JsValue | null;
     GetResourceFileName(culture: CultureInfo): string;
-    GetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | undefined;
-    GetStream(name: string): UnmanagedMemoryStream | undefined;
-    GetStream(name: string, culture: CultureInfo): UnmanagedMemoryStream | undefined;
-    GetString(name: string): string | undefined;
-    GetString(name: string, culture: CultureInfo): string | undefined;
-    InternalGetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | undefined;
+    GetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | null;
+    GetStream(name: string): UnmanagedMemoryStream | null;
+    GetStream(name: string, culture: CultureInfo | null): UnmanagedMemoryStream | null;
+    GetString(name: string): string | null;
+    GetString(name: string, culture: CultureInfo | null): string | null;
+    InternalGetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | null;
     ReleaseAllResources(): void;
 }
 
 
 export const ResourceManager: {
     new(baseName: string, assembly: Assembly): ResourceManager;
-    new(baseName: string, assembly: Assembly, usingResourceSet: Type): ResourceManager;
+    new(baseName: string, assembly: Assembly, usingResourceSet: Type | null): ResourceManager;
     new(resourceSource: Type): ResourceManager;
     readonly MagicNumber: int;
     readonly HeaderVersionNumber: int;
-    CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
+    CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type | null): ResourceManager;
     GetNeutralResourcesLanguage(a: Assembly): CultureInfo;
-    GetSatelliteContractVersion(a: Assembly): Version | undefined;
+    GetSatelliteContractVersion(a: Assembly): Version | null;
 };
 
 
@@ -190,10 +188,10 @@ export interface ResourceSet$instance {
     GetDefaultReader(): Type;
     GetDefaultWriter(): Type;
     GetEnumerator(): IDictionaryEnumerator;
-    GetObject(name: string): unknown | undefined;
-    GetObject(name: string, ignoreCase: boolean): unknown | undefined;
-    GetString(name: string): string | undefined;
-    GetString(name: string, ignoreCase: boolean): string | undefined;
+    GetObject(name: string): JsValue | null;
+    GetObject(name: string, ignoreCase: boolean): JsValue | null;
+    GetString(name: string): string | null;
+    GetString(name: string, ignoreCase: boolean): string | null;
     ReadResources(): void;
 }
 
@@ -219,13 +217,13 @@ export interface ResourceWriter$instance {
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Resources_IResourceWriter: never;
 
-    get TypeNameConverter(): Func_2<Type, System_Internal.String> | undefined;
-    set TypeNameConverter(value: Func_2<Type, System_Internal.String> | undefined);
-    AddResource(name: string, value: Stream): void;
-    AddResource(name: string, value: string): void;
-    AddResource(name: string, value: unknown): void;
-    AddResource(name: string, value: Stream, closeAfterWrite?: boolean): void;
-    AddResource(name: string, value: byte[]): void;
+    get TypeNameConverter(): Func_2<Type, System_Internal.String> | null;
+    set TypeNameConverter(value: Func_2<Type, System_Internal.String> | null);
+    AddResource(name: string, value: Stream | null): void;
+    AddResource(name: string, value: string | null): void;
+    AddResource(name: string, value: JsValue | null): void;
+    AddResource(name: string, value: Stream | null, closeAfterWrite?: boolean): void;
+    AddResource(name: string, value: byte[] | null): void;
     AddResourceData(name: string, typeName: string, serializedData: byte[]): void;
     Close(): void;
     Dispose(): void;

@@ -7,11 +7,11 @@ import * as Internal from './System.Security.AccessControl/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
-import type { MethodBase } from './System.Reflection/internal/index.js';
+import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { SafeHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IdentityReference, SecurityIdentifier } from './System.Security.Principal/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Enum, Exception, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from './System/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { RegistryAccessRule as RegistryAccessRule } from './System.Security.AccessControl/internal/index.js';
@@ -51,6 +51,7 @@ export { GenericSecurityDescriptor as GenericSecurityDescriptor } from './System
 export { InheritanceFlags as InheritanceFlags } from './System.Security.AccessControl/internal/index.js';
 export { KnownAce as KnownAce } from './System.Security.AccessControl/internal/index.js';
 export { NativeObjectSecurity as NativeObjectSecurity } from './System.Security.AccessControl/internal/index.js';
+export type NativeObjectSecurity_ExceptionFromErrorCode = Internal.NativeObjectSecurity_ExceptionFromErrorCode;
 export { ObjectAccessRule as ObjectAccessRule } from './System.Security.AccessControl/internal/index.js';
 export { ObjectAce as ObjectAce } from './System.Security.AccessControl/internal/index.js';
 export { ObjectAceFlags as ObjectAceFlags } from './System.Security.AccessControl/internal/index.js';
@@ -89,17 +90,17 @@ export type AccessRule<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.AccessRule :
-  [T1] extends [unknown] ? Internal.AccessRule_1<T1> : never;
+  [T1] extends [NonNullable<JsValue>] ? Internal.AccessRule_1<T1> : never;
 
 export type AuditRule<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.AuditRule :
-  [T1] extends [unknown] ? Internal.AuditRule_1<T1> : never;
+  [T1] extends [NonNullable<JsValue>] ? Internal.AuditRule_1<T1> : never;
 
 export type ObjectSecurity<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.ObjectSecurity :
-  [T1] extends [unknown] ? Internal.ObjectSecurity_1<T1> : never;
+  [T1] extends [NonNullable<JsValue>] ? Internal.ObjectSecurity_1<T1> : never;
 

@@ -2,11 +2,9 @@
 // Namespace: System.Net.Security
 // Assembly: System.Net.Primitives, System.Net.Security
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IBufferWriter_1 } from "../../System.Buffers/internal/index.js";
@@ -417,16 +415,16 @@ export enum TlsCipherSuite {
 }
 
 
-export type LocalCertificateSelectionCallback = (sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[]) => X509Certificate | undefined;
+export type LocalCertificateSelectionCallback = (sender: JsValue, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate | null, acceptableIssuers: string[]) => X509Certificate | null;
 
 
-export type RemoteCertificateValidationCallback = (sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors) => boolean;
+export type RemoteCertificateValidationCallback = (sender: JsValue, certificate: X509Certificate | null, chain: X509Chain | null, sslPolicyErrors: SslPolicyErrors) => boolean;
 
 
-export type ServerCertificateSelectionCallback = (sender: unknown, hostName: string) => X509Certificate;
+export type ServerCertificateSelectionCallback = (sender: JsValue, hostName: string | null) => X509Certificate;
 
 
-export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken) => ValueTask_1<SslServerAuthenticationOptions>;
+export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: JsValue | null, cancellationToken: CancellationToken) => ValueTask_1<SslServerAuthenticationOptions>;
 
 
 export interface SslApplicationProtocol$instance {
@@ -436,7 +434,7 @@ export interface SslApplicationProtocol$instance {
 
     readonly Protocol: ReadOnlyMemory_1<System_Internal.Byte>;
     Equals(other: SslApplicationProtocol): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -534,11 +532,11 @@ export interface NegotiateAuthentication$instance extends System_Internal.IDispo
     readonly Package: string;
     readonly ProtectionLevel: ProtectionLevel;
     readonly RemoteIdentity: IIdentity;
-    readonly TargetName: string | undefined;
+    readonly TargetName: string | null;
     ComputeIntegrityCheck(message: ReadOnlySpan_1<System_Internal.Byte>, signatureWriter: IBufferWriter_1<System_Internal.Byte>): void;
     Dispose(): void;
-    GetOutgoingBlob(incomingBlob: ReadOnlySpan_1<System_Internal.Byte>, statusCode: NegotiateAuthenticationStatusCode): byte[] | undefined;
-    GetOutgoingBlob(incomingBlob: string, statusCode: NegotiateAuthenticationStatusCode): string | undefined;
+    GetOutgoingBlob(incomingBlob: ReadOnlySpan_1<System_Internal.Byte>, statusCode: NegotiateAuthenticationStatusCode): byte[] | null;
+    GetOutgoingBlob(incomingBlob: string | null, statusCode: NegotiateAuthenticationStatusCode): string | null;
     Unwrap(input: ReadOnlySpan_1<System_Internal.Byte>, outputWriter: IBufferWriter_1<System_Internal.Byte>, wasEncrypted: boolean): NegotiateAuthenticationStatusCode;
     UnwrapInPlace(input: Span_1<System_Internal.Byte>, unwrappedOffset: int, unwrappedLength: int, wasEncrypted: boolean): NegotiateAuthenticationStatusCode;
     VerifyIntegrityCheck(message: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
@@ -563,14 +561,14 @@ export interface NegotiateAuthenticationClientOptions$instance {
     readonly __tsonic_type_System_Net_Security_NegotiateAuthenticationClientOptions: never;
 
     AllowedImpersonationLevel: TokenImpersonationLevel;
-    get Binding(): ChannelBinding | undefined;
-    set Binding(value: ChannelBinding | undefined);
+    get Binding(): ChannelBinding | null;
+    set Binding(value: ChannelBinding | null);
     Credential: NetworkCredential;
     Package: string;
     RequiredProtectionLevel: ProtectionLevel;
     RequireMutualAuthentication: boolean;
-    get TargetName(): string | undefined;
-    set TargetName(value: string | undefined);
+    get TargetName(): string | null;
+    set TargetName(value: string | null);
 }
 
 
@@ -584,12 +582,12 @@ export type NegotiateAuthenticationClientOptions = NegotiateAuthenticationClient
 export interface NegotiateAuthenticationServerOptions$instance {
     readonly __tsonic_type_System_Net_Security_NegotiateAuthenticationServerOptions: never;
 
-    get Binding(): ChannelBinding | undefined;
-    set Binding(value: ChannelBinding | undefined);
+    get Binding(): ChannelBinding | null;
+    set Binding(value: ChannelBinding | null);
     Credential: NetworkCredential;
     Package: string;
-    get Policy(): ExtendedProtectionPolicy | undefined;
-    set Policy(value: ExtendedProtectionPolicy | undefined);
+    get Policy(): ExtendedProtectionPolicy | null;
+    set Policy(value: ExtendedProtectionPolicy | null);
     RequiredImpersonationLevel: TokenImpersonationLevel;
     RequiredProtectionLevel: ProtectionLevel;
 }
@@ -625,33 +623,33 @@ export interface NegotiateStream$instance extends AuthenticatedStream$instance {
     WriteTimeout: int;
     AuthenticateAsClient(): void;
     AuthenticateAsClient(credential: NetworkCredential, targetName: string): void;
-    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string): void;
+    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string): void;
     AuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
+    AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
     AuthenticateAsClientAsync(): Task;
     AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string): Task;
     AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
+    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string): Task;
+    AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
     AuthenticateAsServer(): void;
-    AuthenticateAsServer(policy: ExtendedProtectionPolicy): void;
+    AuthenticateAsServer(policy: ExtendedProtectionPolicy | null): void;
     AuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
-    AuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
+    AuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
     AuthenticateAsServerAsync(): Task;
-    AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy): Task;
+    AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy | null): Task;
     AuthenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
-    AuthenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
-    BeginAuthenticateAsClient(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    AuthenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
+    BeginAuthenticateAsClient(asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy | null, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -712,25 +710,25 @@ export interface SslClientAuthenticationOptions$instance {
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
     AllowTlsResume: boolean;
-    get ApplicationProtocols(): List_1<SslApplicationProtocol> | undefined;
-    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | undefined);
-    get CertificateChainPolicy(): X509ChainPolicy | undefined;
-    set CertificateChainPolicy(value: X509ChainPolicy | undefined);
+    get ApplicationProtocols(): List_1<SslApplicationProtocol> | null;
+    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | null);
+    get CertificateChainPolicy(): X509ChainPolicy | null;
+    set CertificateChainPolicy(value: X509ChainPolicy | null);
     CertificateRevocationCheckMode: X509RevocationMode;
-    get CipherSuitesPolicy(): CipherSuitesPolicy | undefined;
-    set CipherSuitesPolicy(value: CipherSuitesPolicy | undefined);
-    get ClientCertificateContext(): SslStreamCertificateContext | undefined;
-    set ClientCertificateContext(value: SslStreamCertificateContext | undefined);
-    get ClientCertificates(): X509CertificateCollection | undefined;
-    set ClientCertificates(value: X509CertificateCollection | undefined);
+    get CipherSuitesPolicy(): CipherSuitesPolicy | null;
+    set CipherSuitesPolicy(value: CipherSuitesPolicy | null);
+    get ClientCertificateContext(): SslStreamCertificateContext | null;
+    set ClientCertificateContext(value: SslStreamCertificateContext | null);
+    get ClientCertificates(): X509CertificateCollection | null;
+    set ClientCertificates(value: X509CertificateCollection | null);
     EnabledSslProtocols: SslProtocols;
     EncryptionPolicy: EncryptionPolicy;
-    get LocalCertificateSelectionCallback(): LocalCertificateSelectionCallback | undefined;
-    set LocalCertificateSelectionCallback(value: LocalCertificateSelectionCallback | undefined);
-    get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
-    get TargetHost(): string | undefined;
-    set TargetHost(value: string | undefined);
+    get LocalCertificateSelectionCallback(): LocalCertificateSelectionCallback | null;
+    set LocalCertificateSelectionCallback(value: LocalCertificateSelectionCallback | null);
+    get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | null;
+    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | null);
+    get TargetHost(): string | null;
+    set TargetHost(value: string | null);
 }
 
 
@@ -748,24 +746,24 @@ export interface SslServerAuthenticationOptions$instance {
     AllowRsaPkcs1Padding: boolean;
     AllowRsaPssPadding: boolean;
     AllowTlsResume: boolean;
-    get ApplicationProtocols(): List_1<SslApplicationProtocol> | undefined;
-    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | undefined);
-    get CertificateChainPolicy(): X509ChainPolicy | undefined;
-    set CertificateChainPolicy(value: X509ChainPolicy | undefined);
+    get ApplicationProtocols(): List_1<SslApplicationProtocol> | null;
+    set ApplicationProtocols(value: List_1<SslApplicationProtocol> | null);
+    get CertificateChainPolicy(): X509ChainPolicy | null;
+    set CertificateChainPolicy(value: X509ChainPolicy | null);
     CertificateRevocationCheckMode: X509RevocationMode;
-    get CipherSuitesPolicy(): CipherSuitesPolicy | undefined;
-    set CipherSuitesPolicy(value: CipherSuitesPolicy | undefined);
+    get CipherSuitesPolicy(): CipherSuitesPolicy | null;
+    set CipherSuitesPolicy(value: CipherSuitesPolicy | null);
     ClientCertificateRequired: boolean;
     EnabledSslProtocols: SslProtocols;
     EncryptionPolicy: EncryptionPolicy;
-    get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | undefined;
-    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | undefined);
-    get ServerCertificate(): X509Certificate | undefined;
-    set ServerCertificate(value: X509Certificate | undefined);
-    get ServerCertificateContext(): SslStreamCertificateContext | undefined;
-    set ServerCertificateContext(value: SslStreamCertificateContext | undefined);
-    get ServerCertificateSelectionCallback(): ServerCertificateSelectionCallback | undefined;
-    set ServerCertificateSelectionCallback(value: ServerCertificateSelectionCallback | undefined);
+    get RemoteCertificateValidationCallback(): RemoteCertificateValidationCallback | null;
+    set RemoteCertificateValidationCallback(value: RemoteCertificateValidationCallback | null);
+    get ServerCertificate(): X509Certificate | null;
+    set ServerCertificate(value: X509Certificate | null);
+    get ServerCertificateContext(): SslStreamCertificateContext | null;
+    set ServerCertificateContext(value: SslStreamCertificateContext | null);
+    get ServerCertificateSelectionCallback(): ServerCertificateSelectionCallback | null;
+    set ServerCertificateSelectionCallback(value: ServerCertificateSelectionCallback | null);
 }
 
 
@@ -799,23 +797,23 @@ export interface SslStream$instance extends AuthenticatedStream$instance {
     readonly KeyExchangeAlgorithm: ExchangeAlgorithmType;
     readonly KeyExchangeStrength: int;
     readonly Length: long;
-    readonly LocalCertificate: X509Certificate | undefined;
+    readonly LocalCertificate: X509Certificate | null;
     readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
     readonly NegotiatedCipherSuite: TlsCipherSuite;
     Position: long;
     ReadTimeout: int;
-    readonly RemoteCertificate: X509Certificate | undefined;
+    readonly RemoteCertificate: X509Certificate | null;
     readonly SslProtocol: SslProtocols;
     readonly TargetHostName: string;
     readonly TransportContext: TransportContext;
     WriteTimeout: int;
     AuthenticateAsClient(targetHost: string): void;
-    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): void;
-    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
+    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean): void;
+    AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
     AuthenticateAsClient(sslClientAuthenticationOptions: SslClientAuthenticationOptions): void;
     AuthenticateAsClientAsync(targetHost: string): Task;
-    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
+    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean): Task;
+    AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
     AuthenticateAsClientAsync(sslClientAuthenticationOptions: SslClientAuthenticationOptions, cancellationToken?: CancellationToken): Task;
     AuthenticateAsServer(serverCertificate: X509Certificate): void;
     AuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): void;
@@ -825,15 +823,15 @@ export interface SslStream$instance extends AuthenticatedStream$instance {
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(sslServerAuthenticationOptions: SslServerAuthenticationOptions, cancellationToken?: CancellationToken): Task;
-    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown, cancellationToken?: CancellationToken): Task;
-    BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: JsValue | null, cancellationToken?: CancellationToken): Task;
+    BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -868,9 +866,9 @@ export interface SslStream$instance extends AuthenticatedStream$instance {
 export const SslStream: {
     new(innerStream: Stream): SslStream;
     new(innerStream: Stream, leaveInnerStreamOpen: boolean): SslStream;
-    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback): SslStream;
-    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback): SslStream;
-    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback, encryptionPolicy: EncryptionPolicy): SslStream;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback | null): SslStream;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback | null, userCertificateSelectionCallback: LocalCertificateSelectionCallback | null): SslStream;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback | null, userCertificateSelectionCallback: LocalCertificateSelectionCallback | null, encryptionPolicy: EncryptionPolicy): SslStream;
 };
 
 
@@ -891,8 +889,8 @@ export interface SslStreamCertificateContext$instance {
 
 
 export const SslStreamCertificateContext: {
-    Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
-    Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
+    Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection | null, offline?: boolean, trust?: SslCertificateTrust | null): SslStreamCertificateContext;
+    Create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection | null, offline: boolean): SslStreamCertificateContext;
 };
 
 

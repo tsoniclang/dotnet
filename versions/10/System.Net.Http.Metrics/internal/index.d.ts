@@ -2,8 +2,9 @@
 // Namespace: System.Net.Http.Metrics
 // Assembly: System.Net.Http
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { HttpRequestMessage, HttpResponseMessage } from "../../System.Net.Http/internal/index.js";
@@ -13,10 +14,10 @@ import type { Action_1, Boolean as ClrBoolean, Exception, Int32, Object as ClrOb
 export interface HttpMetricsEnrichmentContext$instance {
     readonly __tsonic_type_System_Net_Http_Metrics_HttpMetricsEnrichmentContext: never;
 
-    readonly Exception: Exception | undefined;
+    readonly Exception: Exception | null;
     readonly Request: HttpRequestMessage;
-    readonly Response: HttpResponseMessage | undefined;
-    AddCustomTag(name: string, value: unknown): void;
+    readonly Response: HttpResponseMessage | null;
+    AddCustomTag(name: string, value: JsValue | null): void;
 }
 
 

@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.InteropServices.Java
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { GCHandle } from "../../System.Runtime.InteropServices/internal/index.js";
@@ -61,10 +59,10 @@ export const StronglyConnectedComponent: {
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
+    static CreateReferenceTrackingHandle(obj: JsValue, context: ptr<void>): GCHandle;
     static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
     static GetContext(obj: GCHandle): ptr<void>;
-    static Initialize(markCrossReferences: unknown): void;
+    static Initialize(markCrossReferences: fnptr<[ptr<MarkCrossReferencesArgs>], void>): void;
 }
 
 

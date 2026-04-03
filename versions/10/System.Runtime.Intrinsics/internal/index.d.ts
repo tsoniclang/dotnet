@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.Intrinsics
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Numerics_Internal from "../../System.Numerics/internal/index.js";
@@ -28,7 +26,7 @@ export interface Vector128_1$instance<T> extends IAdditionOperators_3<Vector128_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Vector128_1<T>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -37,12 +35,12 @@ export interface Vector128_1$instance<T> extends IAdditionOperators_3<Vector128_
 
 export const Vector128_1: {
     new<T>(): Vector128_1<T>;
-    readonly AllBitsSet: unknown;
+    readonly AllBitsSet: <T>() => Vector128_1<T>;
     readonly Count: int;
-    readonly Indices: unknown;
+    readonly Indices: <T>() => Vector128_1<T>;
     readonly IsSupported: boolean;
-    readonly One: unknown;
-    readonly Zero: unknown;
+    readonly One: <T>() => Vector128_1<T>;
+    readonly Zero: <T>() => Vector128_1<T>;
 };
 
 
@@ -70,7 +68,7 @@ export interface Vector256_1$instance<T> extends IAdditionOperators_3<Vector256_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Vector256_1<T>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -79,12 +77,12 @@ export interface Vector256_1$instance<T> extends IAdditionOperators_3<Vector256_
 
 export const Vector256_1: {
     new<T>(): Vector256_1<T>;
-    readonly AllBitsSet: unknown;
+    readonly AllBitsSet: <T>() => Vector256_1<T>;
     readonly Count: int;
-    readonly Indices: unknown;
+    readonly Indices: <T>() => Vector256_1<T>;
     readonly IsSupported: boolean;
-    readonly One: unknown;
-    readonly Zero: unknown;
+    readonly One: <T>() => Vector256_1<T>;
+    readonly Zero: <T>() => Vector256_1<T>;
 };
 
 
@@ -112,7 +110,7 @@ export interface Vector512_1$instance<T> extends IAdditionOperators_3<Vector512_
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Vector512_1<T>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -121,12 +119,12 @@ export interface Vector512_1$instance<T> extends IAdditionOperators_3<Vector512_
 
 export const Vector512_1: {
     new<T>(): Vector512_1<T>;
-    readonly AllBitsSet: unknown;
+    readonly AllBitsSet: <T>() => Vector512_1<T>;
     readonly Count: int;
-    readonly Indices: unknown;
+    readonly Indices: <T>() => Vector512_1<T>;
     readonly IsSupported: boolean;
-    readonly One: unknown;
-    readonly Zero: unknown;
+    readonly One: <T>() => Vector512_1<T>;
+    readonly Zero: <T>() => Vector512_1<T>;
 };
 
 
@@ -154,7 +152,7 @@ export interface Vector64_1$instance<T> extends IAdditionOperators_3<Vector64_1<
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Vector64_1<T>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -163,12 +161,12 @@ export interface Vector64_1$instance<T> extends IAdditionOperators_3<Vector64_1<
 
 export const Vector64_1: {
     new<T>(): Vector64_1<T>;
-    readonly AllBitsSet: unknown;
+    readonly AllBitsSet: <T>() => Vector64_1<T>;
     readonly Count: int;
-    readonly Indices: unknown;
+    readonly Indices: <T>() => Vector64_1<T>;
     readonly IsSupported: boolean;
-    readonly One: unknown;
-    readonly Zero: unknown;
+    readonly One: <T>() => Vector64_1<T>;
+    readonly Zero: <T>() => Vector64_1<T>;
 };
 
 

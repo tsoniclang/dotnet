@@ -2,11 +2,9 @@
 // Namespace: System.Collections.Concurrent
 // Assembly: System.Collections.Concurrent, System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -27,7 +25,7 @@ export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
 
     readonly Count: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly IsSynchronized: boolean;
     CopyTo(array: T[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -41,27 +39,6 @@ export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1
 
 
 export type IProducerConsumerCollection_1<T> = IProducerConsumerCollection_1$instance<T>;
-
-export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
-    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2_AlternateLookup_1: never;
-
-    readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
-    Item: TValue;
-    ContainsKey(key: TAlternateKey): boolean;
-    TryAdd(key: TAlternateKey, value: TValue): boolean;
-    TryGetValue(key: TAlternateKey, value: TValue): boolean;
-    TryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
-    TryRemove(key: TAlternateKey, value: TValue): boolean;
-    TryRemove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
-}
-
-
-export const ConcurrentDictionary_2_AlternateLookup_1: {
-    new<TKey, TValue, TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
-};
-
-
-export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
     readonly __tsonic_type_System_Collections_Concurrent_BlockingCollection_1: never;
@@ -105,16 +82,16 @@ export const BlockingCollection_1: {
     new<T>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1<T>;
     AddToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
     AddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, cancellationToken: CancellationToken): int;
+    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null): int;
     TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
     TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
     TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
     TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, timeout: TimeSpan): int;
+    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null): int;
 };
 
 
@@ -209,10 +186,10 @@ export const ConcurrentDictionary_2: {
     new<TKey, TValue>(): ConcurrentDictionary_2<TKey, TValue>;
     new<TKey, TValue>(concurrencyLevel: int, capacity: int): ConcurrentDictionary_2<TKey, TValue>;
     new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
 };
 
 
@@ -229,6 +206,27 @@ export interface __ConcurrentDictionary_2$views<TKey, TValue> {
 
 export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instance<TKey, TValue> & __ConcurrentDictionary_2$views<TKey, TValue>;
 
+
+export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+    readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2_AlternateLookup_1: never;
+
+    readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
+    Item: TValue;
+    ContainsKey(key: TAlternateKey): boolean;
+    TryAdd(key: TAlternateKey, value: TValue): boolean;
+    TryGetValue(key: TAlternateKey, value: TValue): boolean;
+    TryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
+    TryRemove(key: TAlternateKey, value: TValue): boolean;
+    TryRemove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
+}
+
+
+export const ConcurrentDictionary_2_AlternateLookup_1: {
+    new<TKey, TValue, TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+};
+
+
+export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
 export interface ConcurrentQueue_1$instance<T> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentQueue_1: never;

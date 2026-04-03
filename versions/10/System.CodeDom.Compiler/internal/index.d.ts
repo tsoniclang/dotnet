@@ -2,8 +2,9 @@
 // Namespace: System.CodeDom.Compiler
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_IO_Internal from "../../System.IO/internal/index.js";
@@ -17,13 +18,13 @@ import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDis
 export interface GeneratedCodeAttribute$instance extends Attribute {
     readonly __tsonic_type_System_CodeDom_Compiler_GeneratedCodeAttribute: never;
 
-    readonly Tool: string | undefined;
-    readonly Version: string | undefined;
+    readonly Tool: string | null;
+    readonly Version: string | null;
 }
 
 
 export const GeneratedCodeAttribute: {
-    new(tool: string, version: string): GeneratedCodeAttribute;
+    new(tool: string | null, version: string | null): GeneratedCodeAttribute;
 };
 
 
@@ -46,62 +47,62 @@ export interface IndentedTextWriter$instance extends TextWriter {
     FlushAsync(cancellationToken: CancellationToken): Task;
     OutputTabs(): void;
     OutputTabsAsync(): Task;
-    Write(s: string): void;
+    Write(s: string | null): void;
     Write(value: boolean): void;
     Write(value: char): void;
-    Write(buffer: char[]): void;
+    Write(buffer: char[] | null): void;
     Write(buffer: char[], index: int, count: int): void;
     Write(value: double): void;
     Write(value: float): void;
     Write(value: int): void;
     Write(value: long): void;
-    Write(value: unknown): void;
-    Write(format: string, arg0: unknown): void;
-    Write(format: string, arg0: unknown, arg1: unknown): void;
-    Write(format: string, ...arg: unknown[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
+    Write(value: JsValue | null): void;
+    Write(format: string, arg0: JsValue | null): void;
+    Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
+    Write(format: string, ...arg: (JsValue | null)[]): void;
+    Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     Write(value: uint): void;
     Write(value: ulong): void;
     Write(value: decimal): void;
-    Write(value: StringBuilder): void;
-    Write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    Write(value: StringBuilder | null): void;
+    Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
     WriteAsync(value: char): Task;
     WriteAsync(buffer: char[], index: int, count: int): Task;
-    WriteAsync(value: string): Task;
+    WriteAsync(value: string | null): Task;
     WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
-    WriteAsync(buffer: char[]): Task;
-    WriteLine(s: string): void;
+    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    WriteAsync(buffer: char[] | null): Task;
+    WriteLine(s: string | null): void;
     WriteLine(): void;
     WriteLine(value: boolean): void;
     WriteLine(value: char): void;
-    WriteLine(buffer: char[]): void;
+    WriteLine(buffer: char[] | null): void;
     WriteLine(buffer: char[], index: int, count: int): void;
     WriteLine(value: double): void;
     WriteLine(value: float): void;
     WriteLine(value: int): void;
     WriteLine(value: long): void;
-    WriteLine(value: unknown): void;
-    WriteLine(format: string, arg0: unknown): void;
-    WriteLine(format: string, arg0: unknown, arg1: unknown): void;
-    WriteLine(format: string, ...arg: unknown[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
+    WriteLine(value: JsValue | null): void;
+    WriteLine(format: string, arg0: JsValue | null): void;
+    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
+    WriteLine(format: string, ...arg: (JsValue | null)[]): void;
+    WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
     WriteLine(value: uint): void;
     WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteLine(value: ulong): void;
     WriteLine(value: decimal): void;
-    WriteLine(value: StringBuilder): void;
-    WriteLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    WriteLine(value: StringBuilder | null): void;
+    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
     WriteLineAsync(): Task;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(buffer: char[], index: int, count: int): Task;
-    WriteLineAsync(value: string): Task;
+    WriteLineAsync(value: string | null): Task;
     WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(buffer: char[]): Task;
-    WriteLineNoTabs(s: string): void;
-    WriteLineNoTabsAsync(s: string): Task;
+    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    WriteLineAsync(buffer: char[] | null): Task;
+    WriteLineNoTabs(s: string | null): void;
+    WriteLineNoTabsAsync(s: string | null): Task;
 }
 
 

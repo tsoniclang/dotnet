@@ -16,6 +16,7 @@ import type { Action_2, Boolean as ClrBoolean, Byte, Enum, Func_2, Guid, ICompar
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ManagedPEBuilder as ManagedPEBuilder } from './System.Reflection.PortableExecutable/internal/index.js';
 export { PEBuilder as PEBuilder } from './System.Reflection.PortableExecutable/internal/index.js';
+export { PEBuilder_Section as PEBuilder_Section } from './System.Reflection.PortableExecutable/internal/index.js';
 export { DebugDirectoryBuilder as DebugDirectoryBuilder } from './System.Reflection.PortableExecutable/internal/index.js';
 export { PdbChecksumDebugDirectoryData as PdbChecksumDebugDirectoryData } from './System.Reflection.PortableExecutable/internal/index.js';
 export { PEDirectoriesBuilder as PEDirectoriesBuilder } from './System.Reflection.PortableExecutable/internal/index.js';

@@ -2,8 +2,9 @@
 // Namespace: System.Threading.Tasks.Sources
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -29,7 +30,7 @@ export interface IValueTaskSource$instance {
 
     GetResult(token: short): void;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<unknown>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
 }
 
 
@@ -40,7 +41,7 @@ export interface IValueTaskSource_1$instance<TResult> {
 
     GetResult(token: short): TResult;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<unknown>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
 }
 
 
@@ -53,7 +54,7 @@ export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
     readonly Version: short;
     GetResult(token: short): TResult;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<unknown>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
     Reset(): void;
     SetException(error: Exception): void;
     SetResult(result: TResult): void;

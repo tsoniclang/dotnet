@@ -2,8 +2,9 @@
 // Namespace: System.Collections.Specialized
 // Assembly: System.Collections.NonGeneric, System.Collections.Specialized, System.ObjectModel
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -23,7 +24,7 @@ export enum NotifyCollectionChangedAction {
 }
 
 
-export type NotifyCollectionChangedEventHandler = (sender: unknown, e: NotifyCollectionChangedEventArgs) => void;
+export type NotifyCollectionChangedEventHandler = (sender: JsValue | null, e: NotifyCollectionChangedEventArgs) => void;
 
 
 export interface INotifyCollectionChanged$instance {
@@ -42,21 +43,21 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly IsSynchronized: boolean;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown | undefined;
-    get_Item(key: unknown): unknown | undefined;
+    get_Item(index: int): JsValue | null;
+    get_Item(key: JsValue): JsValue | null;
     GetEnumerator(): IDictionaryEnumerator;
     GetEnumerator(): IEnumerator;
-    Insert(index: int, key: unknown, value: unknown): void;
-    Remove(key: unknown): void;
+    Insert(index: int, key: JsValue, value: JsValue | null): void;
+    Remove(key: JsValue): void;
     RemoveAt(index: int): void;
-    set_Item(index: int, value: unknown | undefined): void;
-    set_Item(key: unknown, value: unknown | undefined): void;
+    set_Item(index: int, value: JsValue | null): void;
+    set_Item(key: JsValue, value: JsValue | null): void;
     GetEnumerator2(): IEnumerator;
 }
 
@@ -69,7 +70,7 @@ export interface BitVector32$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Data: int;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     Equals(other: BitVector32): boolean;
     get_Item(bit: int): boolean;
     get_Item(section: BitVector32_Section): int;
@@ -101,14 +102,14 @@ export interface __BitVector32$views {
 export type BitVector32 = BitVector32$instance & __BitVector32$views;
 
 
-export interface BitVector32_Section$instance {
+export interface BitVector32_Section$instance extends IEquatable_1<BitVector32_Section> {
     readonly __tsonic_type_System_Collections_Specialized_BitVector32_Section: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Mask: short;
     readonly Offset: short;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     Equals(obj: BitVector32_Section): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -121,15 +122,7 @@ export const BitVector32_Section: {
 };
 
 
-export interface __BitVector32_Section$views {
-    As_IEquatable_1(): System_Internal.IEquatable_1$instance<BitVector32_Section>;
-
-    // Structural method bridges for numeric interface constraints
-    Equals(other: BitVector32_Section): boolean;
-}
-
-export type BitVector32_Section = BitVector32_Section$instance & __BitVector32_Section$views;
-
+export type BitVector32_Section = BitVector32_Section$instance;
 
 export interface CollectionsUtil$instance {
     readonly __tsonic_type_System_Collections_Specialized_CollectionsUtil: never;
@@ -159,17 +152,17 @@ export interface HybridDictionary$instance {
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IDictionaryEnumerator;
-    Remove(key: unknown): void;
+    Remove(key: JsValue): void;
 }
 
 
@@ -201,23 +194,23 @@ export interface ListDictionary$instance {
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    get Item(): unknown | undefined;
-    set Item(value: unknown | undefined);
+    get Item(): JsValue | null;
+    set Item(value: JsValue | null);
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IDictionaryEnumerator;
-    Remove(key: unknown): void;
+    Remove(key: JsValue): void;
 }
 
 
 export const ListDictionary: {
     new(): ListDictionary;
-    new(comparer: IComparer): ListDictionary;
+    new(comparer: IComparer | null): ListDictionary;
 };
 
 
@@ -233,9 +226,9 @@ export type ListDictionary = ListDictionary$instance & __ListDictionary$views;
 export interface ListDictionary_DictionaryNode$instance {
     readonly __tsonic_type_System_Collections_Specialized_ListDictionary_DictionaryNode: never;
 
-    key: unknown;
-    value: unknown | undefined;
-    next: ListDictionary_DictionaryNode | undefined;
+    key: JsValue;
+    value: JsValue | null;
+    next: ListDictionary_DictionaryNode | null;
 }
 
 
@@ -258,11 +251,11 @@ export interface NameObjectCollectionBase$instance extends System_Runtime_Serial
     readonly Keys: NameObjectCollectionBase_KeysCollection;
     GetEnumerator(): IEnumerator;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    OnDeserialization(sender: unknown): void;
+    OnDeserialization(sender: JsValue | null): void;
 }
 
 
-export const NameObjectCollectionBase: (abstract new() => NameObjectCollectionBase) & (abstract new(equalityComparer: IEqualityComparer) => NameObjectCollectionBase) & (abstract new(capacity: int, equalityComparer: IEqualityComparer) => NameObjectCollectionBase) & (abstract new(hashProvider: IHashCodeProvider, comparer: IComparer) => NameObjectCollectionBase) & (abstract new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer) => NameObjectCollectionBase) & (abstract new(capacity: int) => NameObjectCollectionBase) & (abstract new(info: SerializationInfo, context: StreamingContext) => NameObjectCollectionBase) & {
+export const NameObjectCollectionBase: (abstract new() => NameObjectCollectionBase) & (abstract new(equalityComparer: IEqualityComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int, equalityComparer: IEqualityComparer | null) => NameObjectCollectionBase) & (abstract new(hashProvider: IHashCodeProvider | null, comparer: IComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int, hashProvider: IHashCodeProvider | null, comparer: IComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int) => NameObjectCollectionBase) & (abstract new(info: SerializationInfo, context: StreamingContext) => NameObjectCollectionBase) & {
 };
 
 
@@ -276,14 +269,14 @@ export interface __NameObjectCollectionBase$views {
 export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __NameObjectCollectionBase$views;
 
 
-export interface NameObjectCollectionBase_KeysCollection$instance {
+export interface NameObjectCollectionBase_KeysCollection$instance extends ICollection, IEnumerable {
     readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase_KeysCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    Get(index: int): string | undefined;
+    Get(index: int): string | null;
     GetEnumerator(): IEnumerator;
 }
 
@@ -292,13 +285,7 @@ export const NameObjectCollectionBase_KeysCollection: {
 };
 
 
-export interface __NameObjectCollectionBase_KeysCollection$views {
-    As_ICollection(): System_Collections_Internal.ICollection$instance;
-    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
-}
-
-export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & __NameObjectCollectionBase_KeysCollection$views & { readonly [index: number]: string | undefined; };
-
+export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & { readonly [index: number]: string | null; };
 
 export interface NameValueCollection$instance extends NameObjectCollectionBase$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Collections_Specialized_NameValueCollection: never;
@@ -308,34 +295,34 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly AllKeys: (string | undefined)[] | string[];
+    readonly AllKeys: (string | null)[] | string[];
     Add(c: NameValueCollection): void;
-    Add(name: string, value: string): void;
+    Add(name: string | null, value: string | null): void;
     Clear(): void;
     CopyTo(dest: ClrArray, index: int): void;
-    Get(name: string): string | undefined;
-    Get(index: int): string | undefined;
-    get_Item(name: string): string | undefined;
-    get_Item(index: int): string | undefined;
-    GetKey(index: int): string | undefined;
-    GetValues(name: string): string[] | undefined;
-    GetValues(index: int): string[] | undefined;
+    Get(name: string | null): string | null;
+    Get(index: int): string | null;
+    get_Item(name: string | null): string | null;
+    get_Item(index: int): string | null;
+    GetKey(index: int): string | null;
+    GetValues(name: string | null): string[] | null;
+    GetValues(index: int): string[] | null;
     HasKeys(): boolean;
-    Remove(name: string): void;
-    Set(name: string, value: string): void;
-    set_Item(name: string, value: string | undefined): void;
+    Remove(name: string | null): void;
+    Set(name: string | null, value: string | null): void;
+    set_Item(name: string | null, value: string | null): void;
 }
 
 
 export const NameValueCollection: {
     new(): NameValueCollection;
     new(col: NameValueCollection): NameValueCollection;
-    new(hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection;
+    new(hashProvider: IHashCodeProvider | null, comparer: IComparer | null): NameValueCollection;
     new(capacity: int): NameValueCollection;
-    new(equalityComparer: IEqualityComparer): NameValueCollection;
-    new(capacity: int, equalityComparer: IEqualityComparer): NameValueCollection;
+    new(equalityComparer: IEqualityComparer | null): NameValueCollection;
+    new(capacity: int, equalityComparer: IEqualityComparer | null): NameValueCollection;
     new(capacity: int, col: NameValueCollection): NameValueCollection;
-    new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection;
+    new(capacity: int, hashProvider: IHashCodeProvider | null, comparer: IComparer | null): NameValueCollection;
 };
 
 
@@ -353,25 +340,25 @@ export interface NotifyCollectionChangedEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Collections_Specialized_NotifyCollectionChangedEventArgs: never;
 
     readonly Action: NotifyCollectionChangedAction;
-    readonly NewItems: IList | undefined;
+    readonly NewItems: IList | null;
     readonly NewStartingIndex: int;
-    readonly OldItems: IList | undefined;
+    readonly OldItems: IList | null;
     readonly OldStartingIndex: int;
 }
 
 
 export const NotifyCollectionChangedEventArgs: {
     new(action: NotifyCollectionChangedAction): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItem: unknown): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItem: unknown, index: int): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItems: IList): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItems: IList, startingIndex: int): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown, index: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItem: JsValue | null): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItem: JsValue | null, index: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItems: IList | null): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItems: IList | null, startingIndex: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, newItem: JsValue | null, oldItem: JsValue | null): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, newItem: JsValue | null, oldItem: JsValue | null, index: int): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList, startingIndex: int): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItem: unknown, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, changedItems: IList, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItem: JsValue | null, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, changedItems: IList | null, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
 };
 
 
@@ -391,29 +378,29 @@ export interface OrderedDictionary$instance extends System_Runtime_Serialization
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection;
     readonly Values: ICollection;
-    Add(key: unknown, value: unknown): void;
+    Add(key: JsValue, value: JsValue | null): void;
     AsReadOnly(): OrderedDictionary;
     Clear(): void;
-    Contains(key: unknown): boolean;
+    Contains(key: JsValue): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): unknown | undefined;
-    get_Item(key: unknown): unknown | undefined;
+    get_Item(index: int): JsValue | null;
+    get_Item(key: JsValue): JsValue | null;
     GetEnumerator(): IDictionaryEnumerator;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    Insert(index: int, key: unknown, value: unknown): void;
-    OnDeserialization(sender: unknown): void;
-    Remove(key: unknown): void;
+    Insert(index: int, key: JsValue, value: JsValue | null): void;
+    OnDeserialization(sender: JsValue | null): void;
+    Remove(key: JsValue): void;
     RemoveAt(index: int): void;
-    set_Item(index: int, value: unknown | undefined): void;
-    set_Item(key: unknown, value: unknown | undefined): void;
+    set_Item(index: int, value: JsValue | null): void;
+    set_Item(key: JsValue, value: JsValue | null): void;
 }
 
 
 export const OrderedDictionary: {
     new(): OrderedDictionary;
     new(capacity: int): OrderedDictionary;
-    new(comparer: IEqualityComparer): OrderedDictionary;
-    new(capacity: int, comparer: IEqualityComparer): OrderedDictionary;
+    new(comparer: IEqualityComparer | null): OrderedDictionary;
+    new(capacity: int, comparer: IEqualityComparer | null): OrderedDictionary;
 };
 
 
@@ -439,16 +426,16 @@ export interface StringCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    Add(value: string): int;
-    AddRange(value: string[]): void;
+    readonly SyncRoot: JsValue;
+    Add(value: string | null): int;
+    AddRange(value: (string | null)[]): void;
     Clear(): void;
-    Contains(value: string): boolean;
-    CopyTo(array: string[], index: int): void;
+    Contains(value: string | null): boolean;
+    CopyTo(array: (string | null)[], index: int): void;
     GetEnumerator(): StringEnumerator;
-    IndexOf(value: string): int;
-    Insert(index: int, value: string): void;
-    Remove(value: string): void;
+    IndexOf(value: string | null): int;
+    Insert(index: int, value: string | null): void;
+    Remove(value: string | null): void;
     RemoveAt(index: int): void;
 }
 
@@ -475,12 +462,12 @@ export interface StringDictionary$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
     readonly Keys: ICollection;
-    readonly SyncRoot: unknown;
+    readonly SyncRoot: JsValue;
     readonly Values: ICollection;
-    Add(key: string, value: string): void;
+    Add(key: string, value: string | null): void;
     Clear(): void;
     ContainsKey(key: string): boolean;
-    ContainsValue(value: string): boolean;
+    ContainsValue(value: string | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
     Remove(key: string): void;
@@ -496,13 +483,13 @@ export interface __StringDictionary$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type StringDictionary = StringDictionary$instance & __StringDictionary$views & { [key: string]: string | undefined; };
+export type StringDictionary = StringDictionary$instance & __StringDictionary$views & { [key: string]: string | null; };
 
 
 export interface StringEnumerator$instance {
     readonly __tsonic_type_System_Collections_Specialized_StringEnumerator: never;
 
-    readonly Current: string | undefined;
+    readonly Current: string | null;
     MoveNext(): boolean;
     Reset(): void;
 }

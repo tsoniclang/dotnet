@@ -2,11 +2,9 @@
 // Namespace: System.Security
 // Assembly: System.Private.CoreLib, System.Runtime.InteropServices
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -43,9 +41,9 @@ export interface IPermission$instance extends ISecurityEncodable {
     Copy(): IPermission;
     Demand(): void;
     FromXml(e: SecurityElement): void;
-    Intersect(target: IPermission): IPermission | undefined;
-    IsSubsetOf(target: IPermission): boolean;
-    ToXml(): SecurityElement | undefined;
+    Intersect(target: IPermission | null): IPermission | null;
+    IsSubsetOf(target: IPermission | null): boolean;
+    ToXml(): SecurityElement | null;
 }
 
 
@@ -57,7 +55,7 @@ export interface ISecurityEncodable$instance {
     readonly __tsonic_iface_System_Security_ISecurityEncodable: never;
 
     FromXml(e: SecurityElement): void;
-    ToXml(): SecurityElement | undefined;
+    ToXml(): SecurityElement | null;
 }
 
 
@@ -98,40 +96,40 @@ export interface PermissionSet$instance extends System_Runtime_Serialization_Int
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: unknown;
-    AddPermission(perm: IPermission): IPermission | undefined;
-    AddPermissionImpl(perm: IPermission): IPermission | undefined;
+    readonly SyncRoot: JsValue;
+    AddPermission(perm: IPermission | null): IPermission | null;
+    AddPermissionImpl(perm: IPermission | null): IPermission | null;
     Assert(): void;
     ContainsNonCodeAccessPermissions(): boolean;
     Copy(): PermissionSet;
     CopyTo(array: ClrArray, index: int): void;
     Demand(): void;
     Deny(): void;
-    Equals(o: unknown): boolean;
+    Equals(o: JsValue | null): boolean;
     FromXml(et: SecurityElement): void;
     GetEnumerator(): IEnumerator;
     GetEnumeratorImpl(): IEnumerator;
     GetHashCode(): int;
-    GetPermission(permClass: Type): IPermission | undefined;
-    GetPermissionImpl(permClass: Type): IPermission | undefined;
-    Intersect(other: PermissionSet): PermissionSet | undefined;
+    GetPermission(permClass: Type | null): IPermission | null;
+    GetPermissionImpl(permClass: Type | null): IPermission | null;
+    Intersect(other: PermissionSet | null): PermissionSet | null;
     IsEmpty(): boolean;
-    IsSubsetOf(target: PermissionSet): boolean;
+    IsSubsetOf(target: PermissionSet | null): boolean;
     IsUnrestricted(): boolean;
     PermitOnly(): void;
-    RemovePermission(permClass: Type): IPermission | undefined;
-    RemovePermissionImpl(permClass: Type): IPermission | undefined;
-    SetPermission(perm: IPermission): IPermission | undefined;
-    SetPermissionImpl(perm: IPermission): IPermission | undefined;
+    RemovePermission(permClass: Type | null): IPermission | null;
+    RemovePermissionImpl(permClass: Type | null): IPermission | null;
+    SetPermission(perm: IPermission | null): IPermission | null;
+    SetPermissionImpl(perm: IPermission | null): IPermission | null;
     ToString(): string;
-    ToXml(): SecurityElement | undefined;
-    Union(other: PermissionSet): PermissionSet | undefined;
+    ToXml(): SecurityElement | null;
+    Union(other: PermissionSet | null): PermissionSet | null;
 }
 
 
 export const PermissionSet: {
     new(state: PermissionState): PermissionSet;
-    new(permSet: PermissionSet): PermissionSet;
+    new(permSet: PermissionSet | null): PermissionSet;
     ConvertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
     RevertAssert(): void;
 };
@@ -197,33 +195,33 @@ export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 export interface SecurityElement$instance {
     readonly __tsonic_type_System_Security_SecurityElement: never;
 
-    get Attributes(): Hashtable | undefined;
-    set Attributes(value: Hashtable | undefined);
-    get Children(): ArrayList | undefined;
-    set Children(value: ArrayList | undefined);
+    get Attributes(): Hashtable | null;
+    set Attributes(value: Hashtable | null);
+    get Children(): ArrayList | null;
+    set Children(value: ArrayList | null);
     Tag: string;
-    get Text(): string | undefined;
-    set Text(value: string | undefined);
+    get Text(): string | null;
+    set Text(value: string | null);
     AddAttribute(name: string, value: string): void;
     AddChild(child: SecurityElement): void;
-    Attribute(name: string): string | undefined;
+    Attribute(name: string): string | null;
     Copy(): SecurityElement;
-    Equal(other: SecurityElement): boolean;
-    SearchForChildByTag(tag: string): SecurityElement | undefined;
-    SearchForTextOfTag(tag: string): string | undefined;
+    Equal(other: SecurityElement | null): boolean;
+    SearchForChildByTag(tag: string): SecurityElement | null;
+    SearchForTextOfTag(tag: string): string | null;
     ToString(): string;
 }
 
 
 export const SecurityElement: {
     new(tag: string): SecurityElement;
-    new(tag: string, text: string): SecurityElement;
-    Escape(str: string): string | undefined;
-    FromString(xml: string): SecurityElement | undefined;
-    IsValidAttributeName(name: string): boolean;
-    IsValidAttributeValue(value: string): boolean;
-    IsValidTag(tag: string): boolean;
-    IsValidText(text: string): boolean;
+    new(tag: string, text: string | null): SecurityElement;
+    Escape(str: string | null): string | null;
+    FromString(xml: string): SecurityElement | null;
+    IsValidAttributeName(name: string | null): boolean;
+    IsValidAttributeValue(value: string | null): boolean;
+    IsValidTag(tag: string | null): boolean;
+    IsValidText(text: string | null): boolean;
 };
 
 
@@ -234,26 +232,26 @@ export interface SecurityException$instance extends SystemException {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get Demanded(): unknown | undefined;
-    set Demanded(value: unknown | undefined);
-    get DenySetInstance(): unknown | undefined;
-    set DenySetInstance(value: unknown | undefined);
-    get FailedAssemblyInfo(): AssemblyName | undefined;
-    set FailedAssemblyInfo(value: AssemblyName | undefined);
-    get GrantedSet(): string | undefined;
-    set GrantedSet(value: string | undefined);
-    get Method(): MethodInfo | undefined;
-    set Method(value: MethodInfo | undefined);
-    get PermissionState(): string | undefined;
-    set PermissionState(value: string | undefined);
-    get PermissionType(): Type | undefined;
-    set PermissionType(value: Type | undefined);
-    get PermitOnlySetInstance(): unknown | undefined;
-    set PermitOnlySetInstance(value: unknown | undefined);
-    get RefusedSet(): string | undefined;
-    set RefusedSet(value: string | undefined);
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    get Demanded(): JsValue | null;
+    set Demanded(value: JsValue | null);
+    get DenySetInstance(): JsValue | null;
+    set DenySetInstance(value: JsValue | null);
+    get FailedAssemblyInfo(): AssemblyName | null;
+    set FailedAssemblyInfo(value: AssemblyName | null);
+    get GrantedSet(): string | null;
+    set GrantedSet(value: string | null);
+    get Method(): MethodInfo | null;
+    set Method(value: MethodInfo | null);
+    get PermissionState(): string | null;
+    set PermissionState(value: string | null);
+    get PermissionType(): Type | null;
+    set PermissionType(value: Type | null);
+    get PermitOnlySetInstance(): JsValue | null;
+    set PermitOnlySetInstance(value: JsValue | null);
+    get RefusedSet(): string | null;
+    set RefusedSet(value: string | null);
+    get Url(): string | null;
+    set Url(value: string | null);
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
 }
@@ -261,10 +259,10 @@ export interface SecurityException$instance extends SystemException {
 
 export const SecurityException: {
     new(): SecurityException;
-    new(message: string): SecurityException;
-    new(message: string, inner: Exception): SecurityException;
-    new(message: string, type: Type): SecurityException;
-    new(message: string, type: Type, state: string): SecurityException;
+    new(message: string | null): SecurityException;
+    new(message: string | null, inner: Exception | null): SecurityException;
+    new(message: string | null, type: Type | null): SecurityException;
+    new(message: string | null, type: Type | null, state: string | null): SecurityException;
 };
 
 
@@ -365,8 +363,8 @@ export interface VerificationException$instance extends SystemException, System_
 
 export const VerificationException: {
     new(): VerificationException;
-    new(message: string): VerificationException;
-    new(message: string, innerException: Exception): VerificationException;
+    new(message: string | null): VerificationException;
+    new(message: string | null, innerException: Exception | null): VerificationException;
 };
 
 

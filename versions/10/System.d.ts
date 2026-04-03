@@ -366,7 +366,7 @@ export type Nullable<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.Nullable :
-  [T1] extends [unknown] ? Internal.Nullable_1<T1> : never;
+  [T1] extends [Internal.NonNullable<JsValue>] ? Internal.Nullable_1<T1> : never;
 
 export type Tuple<
   T1 = __,
@@ -406,7 +406,7 @@ export type ValueTuple<
   [T6] extends [__] ? Internal.ValueTuple_5<T1, T2, T3, T4, T5> :
   [T7] extends [__] ? Internal.ValueTuple_6<T1, T2, T3, T4, T5, T6> :
   [T8] extends [__] ? Internal.ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> :
-  [T8] extends [unknown] ? Internal.ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, T8> : never;
+  [T8] extends [Internal.NonNullable<JsValue>] ? Internal.ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, T8> : never;
 
 export type WeakReference<
   T1 = __,

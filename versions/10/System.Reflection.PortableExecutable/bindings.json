@@ -3852,6 +3852,64 @@
       ]
     },
     {
+      "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder\u002BSection",
+      "clrName": "System.Reflection.PortableExecutable.PEBuilder\u002BSection",
+      "assemblyName": "System.Reflection.Metadata",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Protected",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder\u002BSection::NameSystem.String",
+          "clrName": "Name",
+          "metadataToken": 67109108,
+          "normalizedSignature": "Name|System.String|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": true,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder\u002BSection",
+          "declaringAssemblyName": "System.Reflection.Metadata"
+        },
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder\u002BSection::CharacteristicsSystem.Reflection.PortableExecutable.SectionCharacteristics",
+          "clrName": "Characteristics",
+          "metadataToken": 67109109,
+          "normalizedSignature": "Characteristics|System.Reflection.PortableExecutable.SectionCharacteristics|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": true,
+          "isLiteral": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder\u002BSection",
+          "declaringAssemblyName": "System.Reflection.Metadata"
+        }
+      ],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder\u002BSection::.ctor(System.String,System.Reflection.PortableExecutable.SectionCharacteristics):void",
+          "metadataToken": 100663640,
+          "canonicalSignature": "(System.String,System.Reflection.PortableExecutable.SectionCharacteristics):void",
+          "normalizedSignature": "constructor|(System.String,System.Reflection.PortableExecutable.SectionCharacteristics):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Reflection.PortableExecutable.PEBuilder\u002BSection",
+          "declaringAssemblyName": "System.Reflection.Metadata"
+        }
+      ]
+    },
+    {
       "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEDirectoriesBuilder",
       "clrName": "System.Reflection.PortableExecutable.PEDirectoriesBuilder",
       "assemblyName": "System.Reflection.Metadata",

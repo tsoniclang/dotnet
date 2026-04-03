@@ -2,11 +2,9 @@
 // Namespace: Microsoft.VisualBasic
 // Assembly: Microsoft.VisualBasic.Core
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -240,12 +238,12 @@ export interface Collection$instance {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    Add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
+    Add(Item: JsValue, Key?: string, Before?: JsValue, After?: JsValue): void;
     Clear(): void;
     Contains(Key: string): boolean;
-    get_Item(Index: int): unknown;
-    get_Item(Key: string): unknown;
-    get_Item(Index: unknown): unknown;
+    get_Item(Index: int): JsValue;
+    get_Item(Key: string): JsValue;
+    get_Item(Index: JsValue): JsValue;
     GetEnumerator(): IEnumerator;
     Remove(Key: string): void;
     Remove(Index: int): void;
@@ -430,8 +428,8 @@ export interface Conversion$instance {
 
 
 export const Conversion: {
-    CTypeDynamic(Expression: unknown, TargetType: Type): unknown;
-    CTypeDynamic<TargetType>(Expression: unknown): TargetType;
+    CTypeDynamic(Expression: JsValue, TargetType: Type): JsValue;
+    CTypeDynamic<TargetType>(Expression: JsValue): TargetType;
     ErrorToString(): string;
     ErrorToString(ErrorNumber: int): string;
     Fix(Number: decimal): decimal;
@@ -439,13 +437,13 @@ export const Conversion: {
     Fix(Number: short): short;
     Fix(Number: int): int;
     Fix(Number: long): long;
-    Fix(Number: unknown): unknown;
+    Fix(Number: JsValue): JsValue;
     Fix(Number: float): float;
     Hex(Number: byte): string;
     Hex(Number: short): string;
     Hex(Number: int): string;
     Hex(Number: long): string;
-    Hex(Number: unknown): string;
+    Hex(Number: JsValue): string;
     Hex(Number: sbyte): string;
     Hex(Number: ushort): string;
     Hex(Number: uint): string;
@@ -455,20 +453,20 @@ export const Conversion: {
     Int(Number: short): short;
     Int(Number: int): int;
     Int(Number: long): long;
-    Int(Number: unknown): unknown;
+    Int(Number: JsValue): JsValue;
     Int(Number: float): float;
     Oct(Number: byte): string;
     Oct(Number: short): string;
     Oct(Number: int): string;
     Oct(Number: long): string;
-    Oct(Number: unknown): string;
+    Oct(Number: JsValue): string;
     Oct(Number: sbyte): string;
     Oct(Number: ushort): string;
     Oct(Number: uint): string;
     Oct(Number: ulong): string;
-    Str(Number: unknown): string;
+    Str(Number: JsValue): string;
     Val(Expression: char): int;
-    Val(Expression: unknown): double;
+    Val(Expression: JsValue): double;
     Val(InputStr: string): double;
 };
 
@@ -489,11 +487,11 @@ export const DateAndTime: {
     DateString: string;
     readonly Timer: double;
     DateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
-    DateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
+    DateAdd(Interval: string, Number: double, DateValue: JsValue): DateTime;
     DateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    DateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    DateDiff(Interval: string, Date1: JsValue, Date2: JsValue, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
     DatePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
-    DatePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
+    DatePart(Interval: string, DateValue: JsValue, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
     DateSerial(Year: int, Month: int, Day: int): DateTime;
     DateValue(StringDate: string): DateTime;
     Day(DateValue: DateTime): int;
@@ -524,7 +522,7 @@ export interface ErrObject$instance {
     Source: string;
     Clear(): void;
     GetException(): Exception;
-    Raise(Number: int, Source?: unknown, Description?: unknown, HelpFile?: unknown, HelpContext?: unknown): void;
+    Raise(Number: int, Source?: JsValue, Description?: JsValue, HelpFile?: JsValue, HelpContext?: JsValue): void;
 }
 
 
@@ -565,8 +563,8 @@ export const FileSystem: {
     FileGet(FileNumber: int, Value: long, RecordNumber?: long): void;
     FileGet(FileNumber: int, Value: float, RecordNumber?: long): void;
     FileGet(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    FileGet(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    FileGetObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FileGet(FileNumber: int, Value: NonNullable<JsValue>, RecordNumber?: long): void;
+    FileGetObject(FileNumber: int, Value: JsValue, RecordNumber?: long): void;
     FileLen(PathName: string): long;
     FileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
     FilePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
@@ -581,9 +579,9 @@ export const FileSystem: {
     FilePut(FileNumber: int, Value: long, RecordNumber?: long): void;
     FilePut(FileNumber: int, Value: float, RecordNumber?: long): void;
     FilePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    FilePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    FilePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
-    FilePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    FilePut(FileNumber: int, Value: NonNullable<JsValue>, RecordNumber?: long): void;
+    FilePut(FileNumber: JsValue, Value: JsValue, RecordNumber?: JsValue): void;
+    FilePutObject(FileNumber: int, Value: JsValue, RecordNumber?: long): void;
     FileWidth(FileNumber: int, RecordWidth: int): void;
     FreeFile(): int;
     GetAttr(PathName: string): FileAttribute;
@@ -596,7 +594,7 @@ export const FileSystem: {
     Input(FileNumber: int, Value: short): void;
     Input(FileNumber: int, Value: int): void;
     Input(FileNumber: int, Value: long): void;
-    Input(FileNumber: int, Value: unknown): void;
+    Input(FileNumber: int, Value: JsValue): void;
     Input(FileNumber: int, Value: float): void;
     Input(FileNumber: int, Value: string): void;
     InputString(FileNumber: int, CharCount: int): string;
@@ -608,8 +606,8 @@ export const FileSystem: {
     Lock(FileNumber: int): void;
     LOF(FileNumber: int): long;
     MkDir(Path: string): void;
-    Print(FileNumber: int, ...Output: unknown[]): void;
-    PrintLine(FileNumber: int, ...Output: unknown[]): void;
+    Print(FileNumber: int, ...Output: JsValue[]): void;
+    PrintLine(FileNumber: int, ...Output: JsValue[]): void;
     Rename(OldPath: string, NewPath: string): void;
     Reset(): void;
     RmDir(Path: string): void;
@@ -622,8 +620,8 @@ export const FileSystem: {
     Unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
     Unlock(FileNumber: int, Record: long): void;
     Unlock(FileNumber: int): void;
-    Write(FileNumber: int, ...Output: unknown[]): void;
-    WriteLine(FileNumber: int, ...Output: unknown[]): void;
+    Write(FileNumber: int, ...Output: JsValue[]): void;
+    WriteLine(FileNumber: int, ...Output: JsValue[]): void;
 };
 
 
@@ -676,20 +674,20 @@ export interface Information$instance {
 export const Information: {
     Erl(): int;
     Err(): ErrObject;
-    IsArray(VarName: unknown): boolean;
-    IsDate(Expression: unknown): boolean;
-    IsDBNull(Expression: unknown): boolean;
-    IsError(Expression: unknown): boolean;
-    IsNothing(Expression: unknown): boolean;
-    IsNumeric(Expression: unknown): boolean;
-    IsReference(Expression: unknown): boolean;
+    IsArray(VarName: JsValue): boolean;
+    IsDate(Expression: JsValue): boolean;
+    IsDBNull(Expression: JsValue): boolean;
+    IsError(Expression: JsValue): boolean;
+    IsNothing(Expression: JsValue): boolean;
+    IsNumeric(Expression: JsValue): boolean;
+    IsReference(Expression: JsValue): boolean;
     LBound(Array: ClrArray, Rank?: int): int;
     QBColor(Color: int): int;
     RGB(Red: int, Green: int, Blue: int): int;
     SystemTypeName(VbName: string): string;
-    TypeName(VarName: unknown): string;
+    TypeName(VarName: JsValue): string;
     UBound(Array: ClrArray, Rank?: int): int;
-    VarType(VarName: unknown): VariantType;
+    VarType(VarName: JsValue): VariantType;
     VbTypeName(UrtName: string): string;
 };
 
@@ -706,23 +704,23 @@ export const Interaction: {
     AppActivate(ProcessId: int): void;
     AppActivate(Title: string): void;
     Beep(): void;
-    CallByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, ...Args: unknown[]): unknown;
-    Choose(Index: double, ...Choice: unknown[]): unknown;
+    CallByName(ObjectRef: JsValue, ProcName: string, UseCallType: CallType, ...Args: JsValue[]): JsValue;
+    Choose(Index: double, ...Choice: JsValue[]): JsValue;
     Command(): string;
-    CreateObject(ProgId: string, ServerName?: string): unknown;
+    CreateObject(ProgId: string, ServerName?: string): JsValue;
     DeleteSetting(AppName: string, Section?: string, Key?: string): void;
     Environ(Expression: int): string;
     Environ(Expression: string): string;
     GetAllSettings(AppName: string, Section: string): Array<Array<string>>;
-    GetObject(PathName?: string, Class?: string): unknown;
+    GetObject(PathName?: string, Class?: string): JsValue;
     GetSetting(AppName: string, Section: string, Key: string, Default?: string): string;
-    IIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
+    IIf(Expression: boolean, TruePart: JsValue, FalsePart: JsValue): JsValue;
     InputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
-    MsgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
+    MsgBox(Prompt: JsValue, Buttons?: MsgBoxStyle, Title?: JsValue): MsgBoxResult;
     Partition(Number: long, Start: long, Stop: long, Interval: long): string;
     SaveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
     Shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
-    Switch(...VarExpr: unknown[]): unknown;
+    Switch(...VarExpr: JsValue[]): JsValue;
 };
 
 
@@ -758,18 +756,18 @@ export const Strings: {
     AscW(String: string): int;
     Chr(CharCode: int): char;
     ChrW(CharCode: int): char;
-    Filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    Filter(Source: JsValue[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
     Filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    Format(Expression: unknown, Style?: string): string;
-    FormatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    Format(Expression: JsValue, Style?: string): string;
+    FormatCurrency(Expression: JsValue, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
     FormatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
-    FormatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    FormatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    FormatNumber(Expression: JsValue, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    FormatPercent(Expression: JsValue, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
     GetChar(str: string, Index: int): char;
     InStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
     InStr(String1: string, String2: string, Compare?: CompareMethod): int;
     InStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
-    Join(SourceArray: unknown[], Delimiter?: string): string;
+    Join(SourceArray: JsValue[], Delimiter?: string): string;
     Join(SourceArray: string[], Delimiter?: string): string;
     LCase(Value: char): char;
     LCase(Value: string): string;
@@ -783,7 +781,7 @@ export const Strings: {
     Len(Expression: short): int;
     Len(Expression: int): int;
     Len(Expression: long): int;
-    Len(Expression: unknown): int;
+    Len(Expression: JsValue): int;
     Len(Expression: sbyte): int;
     Len(Expression: float): int;
     Len(Expression: string): int;
@@ -803,7 +801,7 @@ export const Strings: {
     StrComp(String1: string, String2: string, Compare?: CompareMethod): int;
     StrConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
     StrDup(Number: int, Character: char): string;
-    StrDup(Number: int, Character: unknown): unknown;
+    StrDup(Number: int, Character: JsValue): JsValue;
     StrDup(Number: int, Character: string): string;
     StrReverse(Expression: string): string;
     Trim(str: string): string;

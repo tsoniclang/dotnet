@@ -544,322 +544,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-      "clrName": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 2,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "typeParameters": [
-        "TKey",
-        "TValue"
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::Invoke(TKey):TValue",
-          "clrName": "Invoke",
-          "metadataToken": 100695954,
-          "canonicalSignature": "(TKey):TValue",
-          "normalizedSignature": "Invoke|(TKey):TValue|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::BeginInvoke(TKey,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100695955,
-          "canonicalSignature": "(TKey,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(TKey,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::EndInvoke(System.IAsyncResult):TValue",
-          "clrName": "EndInvoke",
-          "metadataToken": 100695956,
-          "canonicalSignature": "(System.IAsyncResult):TValue",
-          "normalizedSignature": "EndInvoke|(System.IAsyncResult):TValue|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100695953,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-      "clrName": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::Invoke(System.Object,System.Boolean):System.Void",
-          "clrName": "Invoke",
-          "metadataToken": 100695696,
-          "canonicalSignature": "(System.Object,System.Boolean):System.Void",
-          "normalizedSignature": "Invoke|(System.Object,System.Boolean):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 2,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::BeginInvoke(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100695697,
-          "canonicalSignature": "(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 4,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "metadataToken": 100695698,
-          "canonicalSignature": "(System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100695695,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-      "clrName": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Delegate",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::Invoke(System.Object):System.Void",
-          "clrName": "Invoke",
-          "metadataToken": 100695692,
-          "canonicalSignature": "(System.Object):System.Void",
-          "normalizedSignature": "Invoke|(System.Object):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::BeginInvoke(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "metadataToken": 100695693,
-          "canonicalSignature": "(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "metadataToken": 100695694,
-          "canonicalSignature": "(System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100695691,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
       "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IAsyncStateMachine",
       "clrName": "System.Runtime.CompilerServices.IAsyncStateMachine",
       "assemblyName": "System.Private.CoreLib",
@@ -2577,6 +2261,122 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+      "clrName": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion",
+          "clrName": "System.Runtime.CompilerServices.ICriticalNotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
+          "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IConfiguredTaskAwaiter",
+          "clrName": "System.Runtime.CompilerServices.IConfiguredTaskAwaiter"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::OnCompleted(System.Action):System.Void",
+          "clrName": "OnCompleted",
+          "metadataToken": 100696224,
+          "canonicalSignature": "(System.Action):System.Void",
+          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
+          "clrName": "UnsafeOnCompleted",
+          "metadataToken": 100696225,
+          "canonicalSignature": "(System.Action):System.Void",
+          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::GetResult():System.Void",
+          "clrName": "GetResult",
+          "metadataToken": 100696226,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "GetResult|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::IsCompleted:System.Boolean",
+          "clrName": "IsCompleted",
+          "metadataToken": 385879810,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
       "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601",
       "clrName": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601",
       "assemblyName": "System.Private.CoreLib",
@@ -2713,48 +2513,6 @@
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696054,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696053,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
         }
       ],
       "properties": [
@@ -2775,164 +2533,6 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u00601\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-      "clrName": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "clrName": "System.Runtime.CompilerServices.ICriticalNotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
-          "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IConfiguredTaskAwaiter",
-          "clrName": "System.Runtime.CompilerServices.IConfiguredTaskAwaiter"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696224,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696225,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::GetResult():System.Void",
-          "clrName": "GetResult",
-          "metadataToken": 100696226,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "GetResult|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696054,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696053,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter::IsCompleted:System.Boolean",
-          "clrName": "IsCompleted",
-          "metadataToken": 385879810,
-          "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
@@ -2978,6 +2578,122 @@
         }
       ],
       "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+      "clrName": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion",
+          "clrName": "System.Runtime.CompilerServices.ICriticalNotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
+          "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter",
+          "clrName": "System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::GetResult():System.Void",
+          "clrName": "GetResult",
+          "metadataToken": 100695997,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "GetResult|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::OnCompleted(System.Action):System.Void",
+          "clrName": "OnCompleted",
+          "metadataToken": 100695998,
+          "canonicalSignature": "(System.Action):System.Void",
+          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
+          "clrName": "UnsafeOnCompleted",
+          "metadataToken": 100695999,
+          "canonicalSignature": "(System.Action):System.Void",
+          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::IsCompleted:System.Boolean",
+          "clrName": "IsCompleted",
+          "metadataToken": 385879768,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
       "fields": [],
       "events": [],
       "constructors": []
@@ -3050,6 +2766,10 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
           "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter",
+          "clrName": "System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter"
         }
       ],
       "typeParameters": [
@@ -3115,48 +2835,6 @@
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696054,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696053,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
         }
       ],
       "properties": [
@@ -3177,160 +2855,6 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u00601\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-      "clrName": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "clrName": "System.Runtime.CompilerServices.ICriticalNotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
-          "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::GetResult():System.Void",
-          "clrName": "GetResult",
-          "metadataToken": 100695997,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "GetResult|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100695998,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100695999,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696054,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696053,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter::IsCompleted:System.Boolean",
-          "clrName": "IsCompleted",
-          "metadataToken": 385879768,
-          "canonicalSignature": ":System.Boolean",
-          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
@@ -5140,6 +4664,10 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion",
           "clrName": "System.Runtime.CompilerServices.INotifyCompletion"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter",
+          "clrName": "System.Runtime.CompilerServices.IStateMachineBoxAwareAwaiter"
         }
       ],
       "methods": [
@@ -5202,48 +4730,6 @@
           "declaringClrType": "System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action):System.Void",
-          "clrName": "UnsafeOnCompleted",
-          "metadataToken": 100696054,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.ICriticalNotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.INotifyCompletion::OnCompleted(System.Action):System.Void",
-          "clrName": "OnCompleted",
-          "metadataToken": 100696053,
-          "canonicalSignature": "(System.Action):System.Void",
-          "normalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Runtime.CompilerServices.INotifyCompletion",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.Runtime.CompilerServices.INotifyCompletion"
         }
       ],
       "properties": [
@@ -6811,6 +6297,114 @@
           "parameterCount": 0,
           "visibility": "Public",
           "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
+      "clrName": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 2,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "typeParameters": [
+        "TKey",
+        "TValue"
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::Invoke(TKey):TValue",
+          "clrName": "Invoke",
+          "metadataToken": 100695954,
+          "canonicalSignature": "(TKey):TValue",
+          "normalizedSignature": "Invoke|(TKey):TValue|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::BeginInvoke(TKey,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100695955,
+          "canonicalSignature": "(TKey,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(TKey,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::EndInvoke(System.IAsyncResult):TValue",
+          "clrName": "EndInvoke",
+          "metadataToken": 100695956,
+          "canonicalSignature": "(System.IAsyncResult):TValue",
+          "normalizedSignature": "EndInvoke|(System.IAsyncResult):TValue|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100695953,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.ConditionalWeakTable\u00602\u002BCreateValueCallback",
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ]
@@ -12381,6 +11975,214 @@
       "fields": [],
       "events": [],
       "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+      "clrName": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::Invoke(System.Object,System.Boolean):System.Void",
+          "clrName": "Invoke",
+          "metadataToken": 100695696,
+          "canonicalSignature": "(System.Object,System.Boolean):System.Void",
+          "normalizedSignature": "Invoke|(System.Object,System.Boolean):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 2,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::BeginInvoke(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100695697,
+          "canonicalSignature": "(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 4,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::EndInvoke(System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "metadataToken": 100695698,
+          "canonicalSignature": "(System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100695695,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+      "clrName": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Delegate",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.MulticastDelegate",
+        "clrName": "System.MulticastDelegate"
+      },
+      "interfaces": [
+        {
+          "stableId": "System.Private.CoreLib:System.ICloneable",
+          "clrName": "System.ICloneable"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
+          "clrName": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::Invoke(System.Object):System.Void",
+          "clrName": "Invoke",
+          "metadataToken": 100695692,
+          "canonicalSignature": "(System.Object):System.Void",
+          "normalizedSignature": "Invoke|(System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::BeginInvoke(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "metadataToken": 100695693,
+          "canonicalSignature": "(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 3,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::EndInvoke(System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "metadataToken": 100695694,
+          "canonicalSignature": "(System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 1,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100695691,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "visibility": "Public",
+          "declaringClrType": "System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ]
     },
     {
       "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps",

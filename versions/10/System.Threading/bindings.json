@@ -2543,48 +2543,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Private.CoreLib:System.Threading.Lock\u002BScope",
-      "clrName": "System.Threading.Lock\u002BScope",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Threading.Lock\u002BScope::Dispose():System.Void",
-          "clrName": "Dispose",
-          "metadataToken": 100679410,
-          "canonicalSignature": "():System.Void",
-          "normalizedSignature": "Dispose|():System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "declaringClrType": "System.Threading.Lock\u002BScope",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Threading:System.Threading.LockCookie",
       "clrName": "System.Threading.LockCookie",
       "assemblyName": "System.Threading",
@@ -5932,6 +5890,48 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Threading.Lock\u002BScope",
+      "clrName": "System.Threading.Lock\u002BScope",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [
+        {
+          "stableId": "System.Private.CoreLib:System.Threading.Lock\u002BScope::Dispose():System.Void",
+          "clrName": "Dispose",
+          "metadataToken": 100679410,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Dispose|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Threading.Lock\u002BScope",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Threading.LockRecursionException",

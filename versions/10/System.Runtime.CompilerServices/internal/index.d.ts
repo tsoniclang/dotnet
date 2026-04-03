@@ -2,11 +2,9 @@
 // Namespace: System.Runtime.CompilerServices
 // Assembly: System.Linq.Expressions, System.Private.CoreLib, System.Runtime.CompilerServices.VisualC, System.Runtime.InteropServices
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -68,15 +66,6 @@ export enum UnsafeAccessorKind {
 }
 
 
-export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = (key: TKey) => TValue;
-
-
-export type RuntimeHelpers_CleanupCode = (userData: unknown, exceptionThrown: boolean) => void;
-
-
-export type RuntimeHelpers_TryCode = (userData: unknown) => void;
-
-
 export interface IAsyncStateMachine$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never;
 
@@ -115,13 +104,13 @@ export interface IRuntimeVariables$instance {
 }
 
 
-export type IRuntimeVariables = IRuntimeVariables$instance & { [index: number]: unknown | undefined; };
+export type IRuntimeVariables = IRuntimeVariables$instance & { [index: number]: JsValue | null; };
 
 export interface IStrongBox$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
 
-    get Value(): unknown | undefined;
-    set Value(value: unknown | undefined);
+    get Value(): JsValue | null;
+    set Value(value: JsValue | null);
 }
 
 
@@ -134,7 +123,7 @@ export interface ITuple$instance {
 }
 
 
-export type ITuple = ITuple$instance & { readonly [index: number]: unknown | undefined; };
+export type ITuple = ITuple$instance & { readonly [index: number]: JsValue | null; };
 
 export interface AsyncIteratorMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncIteratorMethodBuilder: never;
@@ -318,47 +307,7 @@ export const ConfiguredTaskAwaitable: {
 
 export type ConfiguredTaskAwaitable = ConfiguredTaskAwaitable$instance;
 
-export interface ConfiguredTaskAwaitable_1$instance<TResult> {
-    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1: never;
-
-    GetAwaiter(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
-}
-
-
-export const ConfiguredTaskAwaitable_1: {
-    new<TResult>(): ConfiguredTaskAwaitable_1<TResult>;
-};
-
-
-export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
-
-export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
-    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: never;
-
-    readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
-    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
-    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
-
-    readonly IsCompleted: boolean;
-    GetResult(): TResult;
-    OnCompleted(continuation: Action): void;
-    UnsafeOnCompleted(continuation: Action): void;
-}
-
-
-export const ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: {
-    new<TResult>(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
-};
-
-
-export interface __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult> {
-    As_INotifyCompletion(): INotifyCompletion$instance;
-}
-
-export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> & __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult>;
-
-
-export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion, INotifyCompletion {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
@@ -377,12 +326,42 @@ export const ConfiguredTaskAwaitable_ConfiguredTaskAwaiter: {
 };
 
 
-export interface __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views {
-    As_INotifyCompletion(): INotifyCompletion$instance;
+export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance;
+
+export interface ConfiguredTaskAwaitable_1$instance<TResult> {
+    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1: never;
+
+    GetAwaiter(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
 }
 
-export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance & __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views;
 
+export const ConfiguredTaskAwaitable_1: {
+    new<TResult>(): ConfiguredTaskAwaitable_1<TResult>;
+};
+
+
+export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
+
+export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, INotifyCompletion {
+    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: never;
+
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+
+    readonly IsCompleted: boolean;
+    GetResult(): TResult;
+    OnCompleted(continuation: Action): void;
+    UnsafeOnCompleted(continuation: Action): void;
+}
+
+
+export const ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: {
+    new<TResult>(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
+};
+
+
+export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult>;
 
 export interface ConfiguredValueTaskAwaitable$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable: never;
@@ -398,6 +377,27 @@ export const ConfiguredValueTaskAwaitable: {
 
 export type ConfiguredValueTaskAwaitable = ConfiguredValueTaskAwaitable$instance;
 
+export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion, INotifyCompletion {
+    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: never;
+
+    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IStateMachineBoxAwareAwaiter: never;
+
+    readonly IsCompleted: boolean;
+    GetResult(): void;
+    OnCompleted(continuation: Action): void;
+    UnsafeOnCompleted(continuation: Action): void;
+}
+
+
+export const ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: {
+    new(): ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter;
+};
+
+
+export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance;
+
 export interface ConfiguredValueTaskAwaitable_1$instance<TResult> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_1: never;
 
@@ -412,11 +412,12 @@ export const ConfiguredValueTaskAwaitable_1: {
 
 export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
-export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion, INotifyCompletion {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IStateMachineBoxAwareAwaiter: never;
 
     readonly IsCompleted: boolean;
     GetResult(): TResult;
@@ -430,51 +431,21 @@ export const ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter: {
 };
 
 
-export interface __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult> {
-    As_INotifyCompletion(): INotifyCompletion$instance;
-}
-
-export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> = ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> & __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult>;
-
-
-export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
-    readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: never;
-
-    readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
-    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
-
-    readonly IsCompleted: boolean;
-    GetResult(): void;
-    OnCompleted(continuation: Action): void;
-    UnsafeOnCompleted(continuation: Action): void;
-}
-
-
-export const ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: {
-    new(): ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter;
-};
-
-
-export interface __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views {
-    As_INotifyCompletion(): INotifyCompletion$instance;
-}
-
-export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance & __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views;
-
+export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> = ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult>;
 
 export interface DefaultInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler: never;
 
     readonly Text: ReadOnlySpan_1<System_Internal.Char>;
     AppendFormatted<T>(value: T): void;
-    AppendFormatted<T>(value: T, format: string): void;
+    AppendFormatted<T>(value: T, format: string | null): void;
     AppendFormatted<T>(value: T, alignment: int): void;
-    AppendFormatted<T>(value: T, alignment: int, format: string): void;
+    AppendFormatted<T>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): void;
-    AppendFormatted(value: string): void;
-    AppendFormatted(value: string, alignment?: int, format?: string): void;
-    AppendFormatted(value: unknown, alignment?: int, format?: string): void;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: string | null): void;
+    AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): void;
     AppendLiteral(value: string): void;
     Clear(): void;
     ToString(): string;
@@ -484,8 +455,8 @@ export interface DefaultInterpolatedStringHandler$instance {
 
 export const DefaultInterpolatedStringHandler: {
     new(literalLength: int, formattedCount: int): DefaultInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, provider: IFormatProvider): DefaultInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider | null): DefaultInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider | null, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
 };
 
 
@@ -842,11 +813,12 @@ export const YieldAwaitable: {
 
 export type YieldAwaitable = YieldAwaitable$instance;
 
-export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion, INotifyCompletion {
     readonly __tsonic_type_System_Runtime_CompilerServices_YieldAwaitable_YieldAwaiter: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_IStateMachineBoxAwareAwaiter: never;
 
     readonly IsCompleted: boolean;
     GetResult(): void;
@@ -860,12 +832,7 @@ export const YieldAwaitable_YieldAwaiter: {
 };
 
 
-export interface __YieldAwaitable_YieldAwaiter$views {
-    As_INotifyCompletion(): INotifyCompletion$instance;
-}
-
-export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance & __YieldAwaitable_YieldAwaiter$views;
-
+export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance;
 
 export interface AccessedThroughPropertyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_AccessedThroughPropertyAttribute: never;
@@ -1068,7 +1035,7 @@ export type CallerMemberNameAttribute = CallerMemberNameAttribute$instance;
 export interface CallSite$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_CallSite: never;
 
-    readonly Binder: CallSiteBinder | undefined;
+    readonly Binder: CallSiteBinder | null;
 }
 
 
@@ -1096,8 +1063,8 @@ export type CallSite_1<T> = CallSite_1$instance<T>;
 export interface CallSiteBinder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_CallSiteBinder: never;
 
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    BindDelegate<T>(site: CallSite_1<T>, args: unknown[]): T | undefined;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    BindDelegate<T>(site: CallSite_1<T>, args: JsValue[]): T | null;
 }
 
 
@@ -1111,13 +1078,13 @@ export type CallSiteBinder = CallSiteBinder$instance;
 export interface Closure$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_Closure: never;
 
-    readonly Constants: unknown[];
-    readonly Locals: unknown[] | undefined;
+    readonly Constants: JsValue[];
+    readonly Locals: JsValue[] | null;
 }
 
 
 export const Closure: {
-    new(constants: unknown[], locals: unknown[]): Closure;
+    new(constants: JsValue[], locals: JsValue[] | null): Closure;
 };
 
 
@@ -1243,6 +1210,9 @@ export interface __ConditionalWeakTable_2$views<TKey, TValue> {
 export type ConditionalWeakTable_2<TKey, TValue> = ConditionalWeakTable_2$instance<TKey, TValue> & __ConditionalWeakTable_2$views<TKey, TValue>;
 
 
+export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = (key: TKey) => TValue;
+
+
 export interface CppInlineNamespaceAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_CppInlineNamespaceAttribute: never;
 
@@ -1272,7 +1242,7 @@ export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttrib
 export interface CustomConstantAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
 
-    readonly Value: unknown;
+    readonly Value: JsValue | JsValue | null;
 }
 
 
@@ -1285,7 +1255,7 @@ export type CustomConstantAttribute = CustomConstantAttribute$instance;
 export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_DateTimeConstantAttribute: never;
 
-    readonly Value: unknown;
+    readonly Value: JsValue | JsValue | null;
 }
 
 
@@ -1492,7 +1462,7 @@ export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_IDispatchConstantAttribute: never;
 
-    readonly Value: unknown;
+    readonly Value: JsValue | JsValue | null;
 }
 
 
@@ -1628,7 +1598,7 @@ export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instan
 export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_IUnknownConstantAttribute: never;
 
-    readonly Value: unknown;
+    readonly Value: JsValue | JsValue | null;
 }
 
 
@@ -1842,13 +1812,13 @@ export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instanc
 export interface ReferenceAssemblyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_ReferenceAssemblyAttribute: never;
 
-    readonly Description: string | undefined;
+    readonly Description: string | null;
 }
 
 
 export const ReferenceAssemblyAttribute: {
     new(): ReferenceAssemblyAttribute;
-    new(description: string): ReferenceAssemblyAttribute;
+    new(description: string | null): ReferenceAssemblyAttribute;
 };
 
 
@@ -1939,13 +1909,13 @@ export interface RuntimeWrappedException$instance extends Exception {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly WrappedException: unknown;
+    readonly WrappedException: JsValue;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const RuntimeWrappedException: {
-    new(thrownObject: unknown): RuntimeWrappedException;
+    new(thrownObject: JsValue): RuntimeWrappedException;
 };
 
 
@@ -2076,17 +2046,17 @@ export interface SwitchExpressionException$instance extends InvalidOperationExce
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Message: string;
-    readonly UnmatchedValue: unknown | undefined;
+    readonly UnmatchedValue: JsValue | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const SwitchExpressionException: {
     new(): SwitchExpressionException;
-    new(innerException: Exception): SwitchExpressionException;
-    new(unmatchedValue: unknown): SwitchExpressionException;
-    new(message: string): SwitchExpressionException;
-    new(message: string, innerException: Exception): SwitchExpressionException;
+    new(innerException: Exception | null): SwitchExpressionException;
+    new(unmatchedValue: JsValue | null): SwitchExpressionException;
+    new(message: string | null): SwitchExpressionException;
+    new(message: string | null, innerException: Exception | null): SwitchExpressionException;
 };
 
 
@@ -2100,12 +2070,12 @@ export type SwitchExpressionException = SwitchExpressionException$instance & __S
 export interface TupleElementNamesAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_TupleElementNamesAttribute: never;
 
-    readonly TransformNames: IList_1<string | undefined>;
+    readonly TransformNames: IList_1<string | null>;
 }
 
 
 export const TupleElementNamesAttribute: {
-    new(transformNames: string[]): TupleElementNamesAttribute;
+    new(transformNames: (string | null)[]): TupleElementNamesAttribute;
 };
 
 
@@ -2143,8 +2113,8 @@ export interface UnsafeAccessorAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_CompilerServices_UnsafeAccessorAttribute: never;
 
     readonly Kind: UnsafeAccessorKind;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
+    get Name(): string | null;
+    set Name(value: string | null);
 }
 
 
@@ -2207,13 +2177,13 @@ export type CallSiteHelpers = CallSiteHelpers$instance;
 
 export abstract class CallSiteOps$instance {
     static AddRule<T>(site: CallSite_1<T>, rule: T): void;
-    static Bind<T>(binder: CallSiteBinder, site: CallSite_1<T>, args: unknown[]): T;
+    static Bind<T>(binder: CallSiteBinder, site: CallSite_1<T>, args: JsValue[]): T;
     static ClearMatch(site: CallSite): void;
     static CreateMatchmaker<T>(site: CallSite_1<T>): CallSite_1<T>;
     static GetCachedRules<T>(cache: RuleCache_1<T>): T[];
     static GetMatch(site: CallSite): boolean;
     static GetRuleCache<T>(site: CallSite_1<T>): RuleCache_1<T>;
-    static GetRules<T>(site: CallSite_1<T>): T[] | undefined;
+    static GetRules<T>(site: CallSite_1<T>): T[] | null;
     static MoveRule<T>(cache: RuleCache_1<T>, rule: T, i: int): void;
     static SetNotMatched(site: CallSite): boolean;
     static UpdateRules<T>(this_: CallSite_1<T>, matched: int): void;
@@ -2229,15 +2199,15 @@ export abstract class CompilerMarshalOverride$instance {
 export type CompilerMarshalOverride = CompilerMarshalOverride$instance;
 
 export abstract class ContractHelper$instance {
-    static RaiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string, conditionText: string, innerException: Exception): string | undefined;
-    static TriggerFailure(kind: ContractFailureKind, displayMessage: string, userMessage: string, conditionText: string, innerException: Exception): void;
+    static RaiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string | null, conditionText: string | null, innerException: Exception | null): string | null;
+    static TriggerFailure(kind: ContractFailureKind, displayMessage: string | null, userMessage: string | null, conditionText: string | null, innerException: Exception | null): void;
 }
 
 
 export type ContractHelper = ContractHelper$instance;
 
 export abstract class FormattableStringFactory$instance {
-    static Create(format: string, ...arguments: unknown[]): FormattableString;
+    static Create(format: string, ...arguments: (JsValue | null)[]): FormattableString;
 }
 
 
@@ -2341,22 +2311,22 @@ export type RuntimeFeature = RuntimeFeature$instance;
 export abstract class RuntimeHelpers$instance {
     static readonly OffsetToStringData: int;
     static AllocateTypeAssociatedMemory(type: Type, size: int): nint;
-    static Box(target: byte, type: RuntimeTypeHandle): unknown | undefined;
+    static Box(target: byte, type: RuntimeTypeHandle): JsValue | null;
     static CreateSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
     static EnsureSufficientExecutionStack(): void;
-    static Equals(o1: unknown, o2: unknown): boolean;
-    static ExecuteCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown): void;
-    static GetHashCode(o: unknown): int;
-    static GetObjectValue(obj: unknown): unknown | undefined;
+    static Equals(o1: JsValue | null, o2: JsValue | null): boolean;
+    static ExecuteCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: JsValue | null): void;
+    static GetHashCode(o: JsValue | null): int;
+    static GetObjectValue(obj: JsValue | null): JsValue | null;
     static GetSubArray<T>(array: T[], range: Range): T[];
-    static GetUninitializedObject(type: Type): unknown;
+    static GetUninitializedObject(type: Type): JsValue;
     static InitializeArray(array: ClrArray, fldHandle: RuntimeFieldHandle): void;
     static IsReferenceOrContainsReferences<T>(): boolean;
     static PrepareConstrainedRegions(): void;
     static PrepareConstrainedRegionsNoOP(): void;
     static PrepareContractedDelegate(d: Function): void;
     static PrepareDelegate(d: Function): void;
-    static PrepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
+    static PrepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[] | null): void;
     static PrepareMethod(method: RuntimeMethodHandle): void;
     static ProbeForSufficientStack(): void;
     static RunClassConstructor(type: RuntimeTypeHandle): void;
@@ -2368,16 +2338,22 @@ export abstract class RuntimeHelpers$instance {
 
 export type RuntimeHelpers = RuntimeHelpers$instance;
 
+export type RuntimeHelpers_CleanupCode = (userData: JsValue | null, exceptionThrown: boolean) => void;
+
+
+export type RuntimeHelpers_TryCode = (userData: JsValue | null) => void;
+
+
 export abstract class RuntimeOps$instance {
     static CreateRuntimeVariables(): IRuntimeVariables;
-    static CreateRuntimeVariables(data: unknown[], indexes: long[]): IRuntimeVariables;
-    static ExpandoCheckVersion(expando: ExpandoObject, version: unknown): boolean;
-    static ExpandoPromoteClass(expando: ExpandoObject, oldClass: unknown, newClass: unknown): void;
-    static ExpandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean): boolean;
-    static ExpandoTryGetValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean, value: unknown): boolean;
-    static ExpandoTrySetValue(expando: ExpandoObject, indexClass: unknown, index: int, value: unknown, name: string, ignoreCase: boolean): unknown | undefined;
+    static CreateRuntimeVariables(data: JsValue[], indexes: long[]): IRuntimeVariables;
+    static ExpandoCheckVersion(expando: ExpandoObject, version: JsValue | null): boolean;
+    static ExpandoPromoteClass(expando: ExpandoObject, oldClass: JsValue, newClass: JsValue): void;
+    static ExpandoTryDeleteValue(expando: ExpandoObject, indexClass: JsValue | null, index: int, name: string, ignoreCase: boolean): boolean;
+    static ExpandoTryGetValue(expando: ExpandoObject, indexClass: JsValue | null, index: int, name: string, ignoreCase: boolean, value: JsValue | null): boolean;
+    static ExpandoTrySetValue(expando: ExpandoObject, indexClass: JsValue | null, index: int, value: JsValue | null, name: string, ignoreCase: boolean): JsValue | null;
     static MergeRuntimeVariables(first: IRuntimeVariables, second: IRuntimeVariables, indexes: int[]): IRuntimeVariables;
-    static Quote(expression: Expression, hoistedLocals: unknown, locals: unknown[]): Expression | undefined;
+    static Quote(expression: Expression | null, hoistedLocals: JsValue, locals: JsValue[]): Expression | null;
 }
 
 
@@ -2391,7 +2367,7 @@ export abstract class Unsafe$instance {
     static AddByteOffset<T>(source: T, byteOffset: nint): T;
     static AddByteOffset<T>(source: T, byteOffset: nuint): T;
     static AreSame<T>(left: T, right: T): boolean;
-    static As<T>(o: unknown): T;
+    static As<T>(o: JsValue | null): T;
     static As<TFrom, TTo>(source: TFrom): TTo;
     static AsPointer<T>(value: T): ptr<void>;
     static AsRef<T>(source: ptr<void>): T;
@@ -2425,7 +2401,7 @@ export abstract class Unsafe$instance {
     static Subtract<T>(source: T, elementOffset: nuint): T;
     static SubtractByteOffset<T>(source: T, byteOffset: nint): T;
     static SubtractByteOffset<T>(source: T, byteOffset: nuint): T;
-    static Unbox<T extends unknown>(box: unknown): T;
+    static Unbox<T extends NonNullable<JsValue>>(box: JsValue): T;
     static Write<T>(destination: ptr<void>, value: T): void;
     static WriteUnaligned<T>(destination: byte, value: T): void;
     static WriteUnaligned<T>(destination: ptr<void>, value: T): void;

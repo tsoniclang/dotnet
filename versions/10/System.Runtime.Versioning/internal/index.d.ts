@@ -2,8 +2,9 @@
 // Namespace: System.Runtime.Versioning
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -51,8 +52,8 @@ export interface FrameworkName$instance {
     readonly Identifier: string;
     readonly Profile: string;
     readonly Version: Version;
-    Equals(obj: unknown): boolean;
-    Equals(other: FrameworkName): boolean;
+    Equals(obj: JsValue | null): boolean;
+    Equals(other: FrameworkName | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -60,7 +61,7 @@ export interface FrameworkName$instance {
 
 export const FrameworkName: {
     new(identifier: string, version: Version): FrameworkName;
-    new(identifier: string, version: Version, profile: string): FrameworkName;
+    new(identifier: string, version: Version, profile: string | null): FrameworkName;
     new(frameworkName: string): FrameworkName;
 };
 
@@ -78,15 +79,15 @@ export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
     readonly __tsonic_type_System_Runtime_Versioning_ObsoletedOSPlatformAttribute: never;
 
-    readonly Message: string | undefined;
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    readonly Message: string | null;
+    get Url(): string | null;
+    set Url(value: string | null);
 }
 
 
 export const ObsoletedOSPlatformAttribute: {
     new(platformName: string): ObsoletedOSPlatformAttribute;
-    new(platformName: string, message: string): ObsoletedOSPlatformAttribute;
+    new(platformName: string, message: string | null): ObsoletedOSPlatformAttribute;
 };
 
 
@@ -108,15 +109,15 @@ export type OSPlatformAttribute = OSPlatformAttribute$instance;
 export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_Versioning_RequiresPreviewFeaturesAttribute: never;
 
-    readonly Message: string | undefined;
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    readonly Message: string | null;
+    get Url(): string | null;
+    set Url(value: string | null);
 }
 
 
 export const RequiresPreviewFeaturesAttribute: {
     new(): RequiresPreviewFeaturesAttribute;
-    new(message: string): RequiresPreviewFeaturesAttribute;
+    new(message: string | null): RequiresPreviewFeaturesAttribute;
 };
 
 
@@ -181,8 +182,8 @@ export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribut
 export interface TargetFrameworkAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Runtime_Versioning_TargetFrameworkAttribute: never;
 
-    get FrameworkDisplayName(): string | undefined;
-    set FrameworkDisplayName(value: string | undefined);
+    get FrameworkDisplayName(): string | null;
+    set FrameworkDisplayName(value: string | null);
     readonly FrameworkName: string;
 }
 
@@ -210,13 +211,13 @@ export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
     readonly __tsonic_type_System_Runtime_Versioning_UnsupportedOSPlatformAttribute: never;
 
-    readonly Message: string | undefined;
+    readonly Message: string | null;
 }
 
 
 export const UnsupportedOSPlatformAttribute: {
     new(platformName: string): UnsupportedOSPlatformAttribute;
-    new(platformName: string, message: string): UnsupportedOSPlatformAttribute;
+    new(platformName: string, message: string | null): UnsupportedOSPlatformAttribute;
 };
 
 
@@ -236,8 +237,8 @@ export const UnsupportedOSPlatformGuardAttribute: {
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static MakeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope, type: Type): string;
-    static MakeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope): string;
+    static MakeVersionSafeName(name: string | null, from: ResourceScope, to: ResourceScope, type: Type | null): string;
+    static MakeVersionSafeName(name: string | null, from: ResourceScope, to: ResourceScope): string;
 }
 
 

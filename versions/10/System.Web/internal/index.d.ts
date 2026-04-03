@@ -2,8 +2,9 @@
 // Namespace: System.Web
 // Assembly: System.Web.HttpUtility
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { NameValueCollection } from "../../System.Collections.Specialized/internal/index.js";
@@ -15,7 +16,7 @@ import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as
 export interface IHtmlString$instance {
     readonly __tsonic_iface_System_Web_IHtmlString: never;
 
-    ToHtmlString(): string | undefined;
+    ToHtmlString(): string | null;
 }
 
 
@@ -29,36 +30,36 @@ export interface HttpUtility$instance {
 
 export const HttpUtility: {
     new(): HttpUtility;
-    HtmlAttributeEncode(s: string, output: TextWriter): void;
-    HtmlAttributeEncode(s: string): string | undefined;
-    HtmlDecode(s: string, output: TextWriter): void;
-    HtmlDecode(s: string): string | undefined;
-    HtmlEncode(value: unknown): string | undefined;
-    HtmlEncode(s: string, output: TextWriter): void;
-    HtmlEncode(s: string): string | undefined;
-    JavaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
-    JavaScriptStringEncode(value: string): string;
+    HtmlAttributeEncode(s: string | null, output: TextWriter): void;
+    HtmlAttributeEncode(s: string | null): string | null;
+    HtmlDecode(s: string | null, output: TextWriter): void;
+    HtmlDecode(s: string | null): string | null;
+    HtmlEncode(value: JsValue | null): string | null;
+    HtmlEncode(s: string | null, output: TextWriter): void;
+    HtmlEncode(s: string | null): string | null;
+    JavaScriptStringEncode(value: string | null, addDoubleQuotes: boolean): string;
+    JavaScriptStringEncode(value: string | null): string;
     ParseQueryString(query: string, encoding: Encoding): NameValueCollection;
     ParseQueryString(query: string): NameValueCollection;
-    UrlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string | undefined;
-    UrlDecode(bytes: byte[], e: Encoding): string | undefined;
-    UrlDecode(str: string, e: Encoding): string | undefined;
-    UrlDecode(str: string): string | undefined;
-    UrlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
-    UrlDecodeToBytes(bytes: byte[]): byte[] | undefined;
-    UrlDecodeToBytes(str: string, e: Encoding): byte[] | undefined;
-    UrlDecodeToBytes(str: string): byte[] | undefined;
-    UrlEncode(bytes: byte[], offset: int, count: int): string | undefined;
-    UrlEncode(bytes: byte[]): string | undefined;
-    UrlEncode(str: string, e: Encoding): string | undefined;
-    UrlEncode(str: string): string | undefined;
-    UrlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[] | undefined;
-    UrlEncodeToBytes(bytes: byte[]): byte[] | undefined;
-    UrlEncodeToBytes(str: string, e: Encoding): byte[] | undefined;
-    UrlEncodeToBytes(str: string): byte[] | undefined;
-    UrlEncodeUnicode(str: string): string | undefined;
-    UrlEncodeUnicodeToBytes(str: string): byte[] | undefined;
-    UrlPathEncode(str: string): string | undefined;
+    UrlDecode(bytes: byte[] | null, offset: int, count: int, e: Encoding): string | null;
+    UrlDecode(bytes: byte[] | null, e: Encoding): string | null;
+    UrlDecode(str: string | null, e: Encoding): string | null;
+    UrlDecode(str: string | null): string | null;
+    UrlDecodeToBytes(bytes: byte[] | null, offset: int, count: int): byte[] | null;
+    UrlDecodeToBytes(bytes: byte[] | null): byte[] | null;
+    UrlDecodeToBytes(str: string | null, e: Encoding): byte[] | null;
+    UrlDecodeToBytes(str: string | null): byte[] | null;
+    UrlEncode(bytes: byte[] | null, offset: int, count: int): string | null;
+    UrlEncode(bytes: byte[] | null): string | null;
+    UrlEncode(str: string | null, e: Encoding): string | null;
+    UrlEncode(str: string | null): string | null;
+    UrlEncodeToBytes(bytes: byte[] | null, offset: int, count: int): byte[] | null;
+    UrlEncodeToBytes(bytes: byte[] | null): byte[] | null;
+    UrlEncodeToBytes(str: string | null, e: Encoding): byte[] | null;
+    UrlEncodeToBytes(str: string | null): byte[] | null;
+    UrlEncodeUnicode(str: string | null): string | null;
+    UrlEncodeUnicodeToBytes(str: string | null): byte[] | null;
+    UrlPathEncode(str: string | null): string | null;
 };
 
 

@@ -64,6 +64,8 @@ export { XmlSchemas as XmlSchemas } from './System.Xml.Serialization/internal/in
 export { XmlSchemaEnumerator as XmlSchemaEnumerator } from './System.Xml.Serialization/internal/index.js';
 export { XmlSerializationGeneratedCode as XmlSerializationGeneratedCode } from './System.Xml.Serialization/internal/index.js';
 export { XmlSerializationReader as XmlSerializationReader } from './System.Xml.Serialization/internal/index.js';
+export { XmlSerializationReader_Fixup as XmlSerializationReader_Fixup } from './System.Xml.Serialization/internal/index.js';
+export { XmlSerializationReader_CollectionFixup as XmlSerializationReader_CollectionFixup } from './System.Xml.Serialization/internal/index.js';
 export type XmlSerializationFixupCallback = Internal.XmlSerializationFixupCallback;
 export type XmlSerializationCollectionFixupCallback = Internal.XmlSerializationCollectionFixupCallback;
 export type XmlSerializationReadCallback = Internal.XmlSerializationReadCallback;

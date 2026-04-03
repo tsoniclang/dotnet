@@ -2,8 +2,9 @@
 // Namespace: System.Timers
 // Assembly: System.ComponentModel.TypeConverter
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
@@ -14,7 +15,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MarshalByRefObject, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
 
-export type ElapsedEventHandler = (sender: unknown, e: ElapsedEventArgs) => void;
+export type ElapsedEventHandler = (sender: JsValue | null, e: ElapsedEventArgs) => void;
 
 
 export interface ElapsedEventArgs$instance extends EventArgs {
@@ -41,10 +42,10 @@ export interface Timer$instance extends Component, System_ComponentModel_Interna
     AutoReset: boolean;
     Enabled: boolean;
     Interval: double;
-    get Site(): ISite | undefined;
-    set Site(value: ISite | undefined);
-    get SynchronizingObject(): ISynchronizeInvoke | undefined;
-    set SynchronizingObject(value: ISynchronizeInvoke | undefined);
+    get Site(): ISite | null;
+    set Site(value: ISite | null);
+    get SynchronizingObject(): ISynchronizeInvoke | null;
+    set SynchronizingObject(value: ISynchronizeInvoke | null);
     BeginInit(): void;
     Close(): void;
     Dispose(disposing: boolean): void;

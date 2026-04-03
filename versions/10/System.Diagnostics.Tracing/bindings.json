@@ -1337,27 +1337,6 @@
       "constructors": []
     },
     {
-      "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource\u002BEventSourcePrimitive",
-      "clrName": "System.Diagnostics.Tracing.EventSource\u002BEventSourcePrimitive",
-      "assemblyName": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
-      },
-      "methods": [],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions",
       "clrName": "System.Diagnostics.Tracing.EventSourceOptions",
       "assemblyName": "System.Private.CoreLib",
@@ -3653,6 +3632,87 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         }
       ]
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource\u002BEventData",
+      "clrName": "System.Diagnostics.Tracing.EventSource\u002BEventData",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "ProtectedInternal",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [],
+      "properties": [
+        {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource\u002BEventData::DataPointer:System.IntPtr",
+          "clrName": "DataPointer",
+          "metadataToken": 385880977,
+          "canonicalSignature": ":System.IntPtr",
+          "normalizedSignature": "DataPointer|:System.IntPtr|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Diagnostics.Tracing.EventSource\u002BEventData",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource\u002BEventData::Size:System.Int32",
+          "clrName": "Size",
+          "metadataToken": 385880978,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "Size|:System.Int32|static=false|accessor=getset",
+          "emitScope": "ClassSurface",
+          "provenance": "Original",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Diagnostics.Tracing.EventSource\u002BEventData",
+          "declaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "fields": [],
+      "events": [],
+      "constructors": []
+    },
+    {
+      "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource\u002BEventSourcePrimitive",
+      "clrName": "System.Diagnostics.Tracing.EventSource\u002BEventSourcePrimitive",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "baseType": {
+        "stableId": "System.Private.CoreLib:System.ValueType",
+        "clrName": "System.ValueType"
+      },
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute",

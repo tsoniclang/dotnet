@@ -2,8 +2,9 @@
 // Namespace: System.Security.Authentication.ExtendedProtection
 // Assembly: System.ComponentModel.TypeConverter, System.Net.Primitives, System.Net.Security
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as Microsoft_Win32_SafeHandles_Internal from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -63,8 +64,8 @@ export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serial
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly CustomChannelBinding: ChannelBinding | undefined;
-    readonly CustomServiceNames: ServiceNameCollection | undefined;
+    readonly CustomChannelBinding: ChannelBinding | null;
+    readonly CustomServiceNames: ServiceNameCollection | null;
     readonly PolicyEnforcement: PolicyEnforcement;
     readonly ProtectionScenario: ProtectionScenario;
     ToString(): string;
@@ -72,8 +73,8 @@ export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serial
 
 
 export const ExtendedProtectionPolicy: {
-    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection): ExtendedProtectionPolicy;
-    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection | null): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection | null): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
     readonly OSSupportsExtendedProtection: boolean;
@@ -90,10 +91,10 @@ export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __Ext
 export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ExtendedProtectionPolicyTypeConverter: never;
 
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
 }
 
 
@@ -110,7 +111,7 @@ export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    Contains(searchServiceName: string): boolean;
+    Contains(searchServiceName: string | null): boolean;
     Merge(serviceName: string): ServiceNameCollection;
     Merge(serviceNames: IEnumerable): ServiceNameCollection;
 }

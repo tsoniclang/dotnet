@@ -5171,7 +5171,10 @@
           "isOverride": false,
           "visibility": "Public",
           "declaringClrType": "System.Threading.Tasks.Task\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "emitSemantics": {
+            "callableStaticAccessorKind": "property"
+          }
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::IsCompleted:System.Boolean",

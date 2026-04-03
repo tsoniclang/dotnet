@@ -2,8 +2,9 @@
 // Namespace: System.Formats.Tar
 // Assembly: System.Formats.Tar
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { IEnumerable_1, IReadOnlyDictionary_2, KeyValuePair_2 } from "../../System.Collections.Generic/internal/index.js";
@@ -111,8 +112,8 @@ export interface TarEntry$instance {
 
     readonly Checksum: int;
     readonly DataOffset: long;
-    get DataStream(): Stream | undefined;
-    set DataStream(value: Stream | undefined);
+    get DataStream(): Stream | null;
+    set DataStream(value: Stream | null);
     readonly EntryType: TarEntryType;
     readonly Format: TarEntryFormat;
     Gid: int;
@@ -142,7 +143,7 @@ export interface TarReader$instance extends System_Internal.IAsyncDisposable$ins
 
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    GetNextEntry(copyData?: boolean): TarEntry | undefined;
+    GetNextEntry(copyData?: boolean): TarEntry | null;
     GetNextEntryAsync(copyData?: boolean, cancellationToken?: CancellationToken): ValueTask_1<TarEntry>;
 }
 
@@ -169,9 +170,9 @@ export interface TarWriter$instance extends System_Internal.IAsyncDisposable$ins
     readonly Format: TarEntryFormat;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    WriteEntry(fileName: string, entryName: string): void;
+    WriteEntry(fileName: string, entryName: string | null): void;
     WriteEntry(entry: TarEntry): void;
-    WriteEntryAsync(fileName: string, entryName: string, cancellationToken?: CancellationToken): Task;
+    WriteEntryAsync(fileName: string, entryName: string | null, cancellationToken?: CancellationToken): Task;
     WriteEntryAsync(entry: TarEntry, cancellationToken?: CancellationToken): Task;
 }
 

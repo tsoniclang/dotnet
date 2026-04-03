@@ -2,11 +2,9 @@
 // Namespace: System.Diagnostics.Contracts
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -86,16 +84,16 @@ export interface ContractException$instance extends Exception {
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly Condition: string | undefined;
+    readonly Condition: string | null;
     readonly Failure: string;
     readonly Kind: ContractFailureKind;
-    readonly UserMessage: string | undefined;
+    readonly UserMessage: string | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const ContractException: {
-    new(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception): ContractException;
+    new(kind: ContractFailureKind, failure: string | null, userMessage: string | null, condition: string | null, innerException: Exception | null): ContractException;
 };
 
 
@@ -109,11 +107,11 @@ export type ContractException = ContractException$instance & __ContractException
 export interface ContractFailedEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractFailedEventArgs: never;
 
-    readonly Condition: string | undefined;
+    readonly Condition: string | null;
     readonly FailureKind: ContractFailureKind;
     readonly Handled: boolean;
-    readonly Message: string | undefined;
-    readonly OriginalException: Exception | undefined;
+    readonly Message: string | null;
+    readonly OriginalException: Exception | null;
     readonly Unwind: boolean;
     SetHandled(): void;
     SetUnwind(): void;
@@ -121,7 +119,7 @@ export interface ContractFailedEventArgs$instance extends EventArgs {
 
 
 export const ContractFailedEventArgs: {
-    new(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception): ContractFailedEventArgs;
+    new(failureKind: ContractFailureKind, message: string | null, condition: string | null, originalException: Exception | null): ContractFailedEventArgs;
 };
 
 
@@ -146,7 +144,7 @@ export interface ContractOptionAttribute$instance extends Attribute {
     readonly Category: string;
     readonly Enabled: boolean;
     readonly Setting: string;
-    readonly Value: string | undefined;
+    readonly Value: string | null;
 }
 
 
@@ -226,23 +224,23 @@ export const PureAttribute: {
 export type PureAttribute = PureAttribute$instance;
 
 export abstract class Contract$instance {
-    static Assert(condition: boolean, userMessage: string): void;
+    static Assert(condition: boolean, userMessage: string | null): void;
     static Assert(condition: boolean): void;
-    static Assume(condition: boolean, userMessage: string): void;
+    static Assume(condition: boolean, userMessage: string | null): void;
     static Assume(condition: boolean): void;
     static EndContractBlock(): void;
-    static Ensures(condition: boolean, userMessage: string): void;
+    static Ensures(condition: boolean, userMessage: string | null): void;
     static Ensures(condition: boolean): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
+    static EnsuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string | null): void;
     static EnsuresOnThrow<TException extends Exception>(condition: boolean): void;
     static Exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static Exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
     static ForAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static ForAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
-    static Invariant(condition: boolean, userMessage: string): void;
+    static Invariant(condition: boolean, userMessage: string | null): void;
     static Invariant(condition: boolean): void;
     static OldValue<T>(value: T): T;
-    static Requires(condition: boolean, userMessage: string): void;
+    static Requires(condition: boolean, userMessage: string | null): void;
     static Requires(condition: boolean): void;
     static Result<T>(): T;
     static ValueAtReturn<T>(value: T): T;

@@ -14,8 +14,20 @@ import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int
 // Public API exports (curated - no internal $instance/$views leakage)
 export { FrozenDictionary$instance as FrozenDictionary_0 } from './System.Collections.Frozen/internal/index.js';
 export { FrozenDictionary_2 as FrozenDictionary } from './System.Collections.Frozen/internal/index.js';
-export { FrozenSet$instance as FrozenSet_0 } from './System.Collections.Frozen/internal/index.js';
-export { FrozenSet_1 as FrozenSet } from './System.Collections.Frozen/internal/index.js';
+
+// Multi-arity family value exports (arity-0 constructors/static namespaces)
+export const FrozenSet: typeof Internal.FrozenSet$instance;
+
+// Multi-arity family sentinel (detects unspecified type parameters)
+declare const __unspecified: unique symbol;
+export type __ = typeof __unspecified;
+
+export type FrozenSet<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.FrozenSet :
+  Internal.FrozenSet_1<T1>;
+
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Collections_Frozen as ExtensionMethods } from './__internal/extensions/index.js';
 

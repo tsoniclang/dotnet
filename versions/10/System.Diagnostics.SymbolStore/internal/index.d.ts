@@ -2,8 +2,9 @@
 // Namespace: System.Diagnostics.SymbolStore
 // Assembly: System.Diagnostics.StackTrace, System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { FieldAttributes, ParameterAttributes } from "../../System.Reflection/internal/index.js";
@@ -27,7 +28,7 @@ export enum SymAddressKind {
 export interface ISymbolBinder$instance {
     readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolBinder: never;
 
-    GetReader(importer: int, filename: string, searchPath: string): ISymbolReader | undefined;
+    GetReader(importer: int, filename: string, searchPath: string): ISymbolReader | null;
 }
 
 
@@ -36,7 +37,7 @@ export type ISymbolBinder = ISymbolBinder$instance;
 export interface ISymbolBinder1$instance {
     readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolBinder1: never;
 
-    GetReader(importer: nint, filename: string, searchPath: string): ISymbolReader | undefined;
+    GetReader(importer: nint, filename: string, searchPath: string): ISymbolReader | null;
 }
 
 
@@ -81,8 +82,8 @@ export interface ISymbolMethod$instance {
     GetParameters(): ISymbolVariable[];
     GetRanges(document: ISymbolDocument, line: int, column: int): int[];
     GetScope(offset: int): ISymbolScope;
-    GetSequencePoints(offsets: int[], documents: ISymbolDocument[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
-    GetSourceStartEnd(docs: ISymbolDocument[], lines: int[], columns: int[]): boolean;
+    GetSequencePoints(offsets: int[] | null, documents: ISymbolDocument[] | null, lines: int[] | null, columns: int[] | null, endLines: int[] | null, endColumns: int[] | null): void;
+    GetSourceStartEnd(docs: ISymbolDocument[] | null, lines: int[] | null, columns: int[] | null): boolean;
 }
 
 
@@ -103,11 +104,11 @@ export interface ISymbolReader$instance {
     readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolReader: never;
 
     readonly UserEntryPoint: SymbolToken;
-    GetDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | undefined;
+    GetDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | null;
     GetDocuments(): ISymbolDocument[];
     GetGlobalVariables(): ISymbolVariable[];
-    GetMethod(method: SymbolToken, version: int): ISymbolMethod | undefined;
-    GetMethod(method: SymbolToken): ISymbolMethod | undefined;
+    GetMethod(method: SymbolToken, version: int): ISymbolMethod | null;
+    GetMethod(method: SymbolToken): ISymbolMethod | null;
     GetMethodFromDocumentPosition(document: ISymbolDocument, line: int, column: int): ISymbolMethod;
     GetNamespaces(): ISymbolNamespace[];
     GetSymAttribute(parent: SymbolToken, name: string): byte[];
@@ -136,7 +137,7 @@ export interface ISymbolVariable$instance {
     readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolVariable: never;
 
     readonly Name: string;
-    readonly Attributes: unknown;
+    readonly Attributes: JsValue;
     readonly AddressKind: SymAddressKind;
     readonly AddressField1: int;
     readonly AddressField2: int;
@@ -178,7 +179,7 @@ export interface SymbolToken$instance {
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(obj: SymbolToken): boolean;
     GetHashCode(): int;
     GetToken(): int;

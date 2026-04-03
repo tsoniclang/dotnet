@@ -2,11 +2,9 @@
 // Namespace: System.Dynamic
 // Assembly: System.Linq.Expressions
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -46,9 +44,9 @@ export interface BinaryOperationBinder$instance extends DynamicMetaObjectBinder 
     readonly Operation: ExpressionType;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject): DynamicMetaObject;
-    FallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -68,9 +66,9 @@ export interface BindingRestrictions$instance {
 
 export const BindingRestrictions: {
     readonly Empty: BindingRestrictions;
-    Combine(contributingObjects: IList_1<DynamicMetaObject>): BindingRestrictions;
+    Combine(contributingObjects: IList_1<DynamicMetaObject> | null): BindingRestrictions;
     GetExpressionRestriction(expression: Expression): BindingRestrictions;
-    GetInstanceRestriction(expression: Expression, instance: unknown): BindingRestrictions;
+    GetInstanceRestriction(expression: Expression, instance: JsValue | null): BindingRestrictions;
     GetTypeRestriction(expression: Expression, type: Type): BindingRestrictions;
 };
 
@@ -82,7 +80,7 @@ export interface CallInfo$instance {
 
     readonly ArgumentCount: int;
     readonly ArgumentNames: ReadOnlyCollection_1<System_Internal.String>;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
 }
 
@@ -101,10 +99,10 @@ export interface ConvertBinder$instance extends DynamicMetaObjectBinder {
     readonly Explicit: boolean;
     readonly ReturnType: Type;
     readonly Type: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(target: DynamicMetaObject, args: DynamicMetaObject[] | null): DynamicMetaObject;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackConvert(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackConvert(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackConvert(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -120,9 +118,9 @@ export interface CreateInstanceBinder$instance extends DynamicMetaObjectBinder {
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -138,9 +136,9 @@ export interface DeleteIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -156,10 +154,10 @@ export interface DeleteMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly IgnoreCase: boolean;
     readonly Name: string;
     readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(target: DynamicMetaObject, args: DynamicMetaObject[] | null): DynamicMetaObject;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackDeleteMember(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackDeleteMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackDeleteMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -176,8 +174,8 @@ export interface DynamicMetaObject$instance {
     readonly HasValue: boolean;
     readonly LimitType: Type;
     readonly Restrictions: BindingRestrictions;
-    readonly RuntimeType: Type | undefined;
-    readonly Value: unknown | undefined;
+    readonly RuntimeType: Type | null;
+    readonly Value: JsValue | null;
     BindBinaryOperation(binder: BinaryOperationBinder, arg: DynamicMetaObject): DynamicMetaObject;
     BindConvert(binder: ConvertBinder): DynamicMetaObject;
     BindCreateInstance(binder: CreateInstanceBinder, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -196,9 +194,9 @@ export interface DynamicMetaObject$instance {
 
 export const DynamicMetaObject: {
     new(expression: Expression, restrictions: BindingRestrictions): DynamicMetaObject;
-    new(expression: Expression, restrictions: BindingRestrictions, value: unknown): DynamicMetaObject;
+    new(expression: Expression, restrictions: BindingRestrictions, value: JsValue): DynamicMetaObject;
     readonly EmptyMetaObjects: DynamicMetaObject[];
-    Create(value: unknown, expression: Expression): DynamicMetaObject;
+    Create(value: JsValue, expression: Expression): DynamicMetaObject;
 };
 
 
@@ -208,9 +206,9 @@ export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
     readonly __tsonic_type_System_Dynamic_DynamicMetaObjectBinder: never;
 
     readonly ReturnType: Type;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Defer(target: DynamicMetaObject, ...args: DynamicMetaObject[]): DynamicMetaObject;
+    Defer(target: DynamicMetaObject, ...args: DynamicMetaObject[] | null): DynamicMetaObject;
     Defer(...args: DynamicMetaObject[]): DynamicMetaObject;
     GetUpdateExpression(type: Type): Expression;
 }
@@ -229,18 +227,18 @@ export interface DynamicObject$instance extends IDynamicMetaObjectProvider$insta
 
     GetDynamicMemberNames(): IEnumerable_1<System_Internal.String>;
     GetMetaObject(parameter: Expression): DynamicMetaObject;
-    TryBinaryOperation(binder: BinaryOperationBinder, arg: unknown, result: unknown): boolean;
-    TryConvert(binder: ConvertBinder, result: unknown): boolean;
-    TryCreateInstance(binder: CreateInstanceBinder, args: unknown[], result: unknown): boolean;
-    TryDeleteIndex(binder: DeleteIndexBinder, indexes: unknown[]): boolean;
+    TryBinaryOperation(binder: BinaryOperationBinder, arg: JsValue, result: JsValue | null): boolean;
+    TryConvert(binder: ConvertBinder, result: JsValue | null): boolean;
+    TryCreateInstance(binder: CreateInstanceBinder, args: (JsValue | null)[] | null, result: JsValue | null): boolean;
+    TryDeleteIndex(binder: DeleteIndexBinder, indexes: JsValue[]): boolean;
     TryDeleteMember(binder: DeleteMemberBinder): boolean;
-    TryGetIndex(binder: GetIndexBinder, indexes: unknown[], result: unknown): boolean;
-    TryGetMember(binder: GetMemberBinder, result: unknown): boolean;
-    TryInvoke(binder: InvokeBinder, args: unknown[], result: unknown): boolean;
-    TryInvokeMember(binder: InvokeMemberBinder, args: unknown[], result: unknown): boolean;
-    TrySetIndex(binder: SetIndexBinder, indexes: unknown[], value: unknown): boolean;
-    TrySetMember(binder: SetMemberBinder, value: unknown): boolean;
-    TryUnaryOperation(binder: UnaryOperationBinder, result: unknown): boolean;
+    TryGetIndex(binder: GetIndexBinder, indexes: JsValue[], result: JsValue | null): boolean;
+    TryGetMember(binder: GetMemberBinder, result: JsValue | null): boolean;
+    TryInvoke(binder: InvokeBinder, args: (JsValue | null)[] | null, result: JsValue | null): boolean;
+    TryInvokeMember(binder: InvokeMemberBinder, args: (JsValue | null)[] | null, result: JsValue | null): boolean;
+    TrySetIndex(binder: SetIndexBinder, indexes: JsValue[], value: JsValue | null): boolean;
+    TrySetMember(binder: SetMemberBinder, value: JsValue | null): boolean;
+    TryUnaryOperation(binder: UnaryOperationBinder, result: JsValue | null): boolean;
 }
 
 
@@ -255,7 +253,7 @@ export interface __DynamicObject$views {
 export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
-export interface ExpandoObject$instance extends INotifyPropertyChanged, System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>, System_ComponentModel_Internal.INotifyPropertyChanged$instance, IDynamicMetaObjectProvider$instance {
+export interface ExpandoObject$instance extends INotifyPropertyChanged, System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, JsValue>, System_ComponentModel_Internal.INotifyPropertyChanged$instance, IDynamicMetaObjectProvider$instance {
     readonly __tsonic_type_System_Dynamic_ExpandoObject: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -275,9 +273,9 @@ export const ExpandoObject: {
 
 export interface __ExpandoObject$views {
     As_IDynamicMetaObjectProvider(): IDynamicMetaObjectProvider$instance;
-    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
-    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>;
-    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, JsValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
@@ -290,9 +288,9 @@ export interface GetIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -308,10 +306,10 @@ export interface GetMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly IgnoreCase: boolean;
     readonly Name: string;
     readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(target: DynamicMetaObject, args: DynamicMetaObject[] | null): DynamicMetaObject;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackGetMember(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackGetMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackGetMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -327,9 +325,9 @@ export interface InvokeBinder$instance extends DynamicMetaObjectBinder {
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -347,10 +345,10 @@ export interface InvokeMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly Name: string;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
     FallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -366,9 +364,9 @@ export interface SetIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly CallInfo: CallInfo;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject): DynamicMetaObject;
-    FallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -385,9 +383,9 @@ export interface SetMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly Name: string;
     readonly ReturnType: Type;
     Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject): DynamicMetaObject;
-    FallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 
@@ -402,10 +400,10 @@ export interface UnaryOperationBinder$instance extends DynamicMetaObjectBinder {
 
     readonly Operation: ExpressionType;
     readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    Bind(target: DynamicMetaObject, args: DynamicMetaObject[] | null): DynamicMetaObject;
+    Bind(args: JsValue[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     FallbackUnaryOperation(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackUnaryOperation(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    FallbackUnaryOperation(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject | null): DynamicMetaObject;
 }
 
 

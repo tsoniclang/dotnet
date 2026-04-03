@@ -2,8 +2,9 @@
 // Namespace: System.Text.Json.Schema
 // Assembly: System.Text.Json
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { JsonNode } from "../../System.Text.Json.Nodes/internal/index.js";
@@ -15,9 +16,9 @@ import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnl
 export interface JsonSchemaExporterContext$instance {
     readonly __tsonic_type_System_Text_Json_Schema_JsonSchemaExporterContext: never;
 
-    readonly BaseTypeInfo: JsonTypeInfo | undefined;
+    readonly BaseTypeInfo: JsonTypeInfo | null;
     readonly Path: ReadOnlySpan_1<System_Internal.String>;
-    readonly PropertyInfo: JsonPropertyInfo | undefined;
+    readonly PropertyInfo: JsonPropertyInfo | null;
     readonly TypeInfo: JsonTypeInfo;
 }
 
@@ -32,8 +33,8 @@ export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 export interface JsonSchemaExporterOptions$instance {
     readonly __tsonic_type_System_Text_Json_Schema_JsonSchemaExporterOptions: never;
 
-    get TransformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
-    set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined);
+    get TransformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | null;
+    set TransformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | null);
     TreatNullObliviousAsNonNullable: boolean;
 }
 
@@ -47,8 +48,8 @@ export const JsonSchemaExporterOptions: {
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static GetJsonSchemaAsNode(options: JsonSerializerOptions, type: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
-    static GetJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static GetJsonSchemaAsNode(options: JsonSerializerOptions, type: Type, exporterOptions?: JsonSchemaExporterOptions | null): JsonNode;
+    static GetJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions | null): JsonNode;
 }
 
 

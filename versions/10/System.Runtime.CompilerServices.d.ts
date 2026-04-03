@@ -60,9 +60,7 @@ export { CompilerGlobalScopeAttribute as CompilerGlobalScopeAttribute } from './
 export { ConditionalWeakTable_2 as ConditionalWeakTable } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredAsyncDisposable as ConfiguredAsyncDisposable } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredCancelableAsyncEnumerable_1 as ConfiguredCancelableAsyncEnumerable } from './System.Runtime.CompilerServices/internal/index.js';
-export { ConfiguredValueTaskAwaitable as ConfiguredValueTaskAwaitable_0 } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter as ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
-export { ConfiguredValueTaskAwaitable_1 as ConfiguredValueTaskAwaitable } from './System.Runtime.CompilerServices/internal/index.js';
 export { ContractHelper$instance as ContractHelper } from './System.Runtime.CompilerServices/internal/index.js';
 export { CreateNewOnMetadataUpdateAttribute as CreateNewOnMetadataUpdateAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { CustomConstantAttribute as CustomConstantAttribute } from './System.Runtime.CompilerServices/internal/index.js';
@@ -140,9 +138,7 @@ export { StrongBox_1 as StrongBox } from './System.Runtime.CompilerServices/inte
 export type IStrongBox = Internal.IStrongBox;
 export { SuppressIldasmAttribute as SuppressIldasmAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { SwitchExpressionException as SwitchExpressionException } from './System.Runtime.CompilerServices/internal/index.js';
-export { ConfiguredTaskAwaitable as ConfiguredTaskAwaitable_0 } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredTaskAwaitable_ConfiguredTaskAwaiter as ConfiguredTaskAwaitable_ConfiguredTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
-export { ConfiguredTaskAwaitable_1 as ConfiguredTaskAwaitable } from './System.Runtime.CompilerServices/internal/index.js';
 export { TupleElementNamesAttribute as TupleElementNamesAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { TypeForwardedFromAttribute as TypeForwardedFromAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { TypeForwardedToAttribute as TypeForwardedToAttribute } from './System.Runtime.CompilerServices/internal/index.js';
@@ -176,6 +172,8 @@ export { IUnknownConstantAttribute as IUnknownConstantAttribute } from './System
 export const AsyncTaskMethodBuilder: typeof Internal.AsyncTaskMethodBuilder;
 export const AsyncValueTaskMethodBuilder: typeof Internal.AsyncValueTaskMethodBuilder;
 export const CallSite: typeof Internal.CallSite;
+export const ConfiguredTaskAwaitable: typeof Internal.ConfiguredTaskAwaitable;
+export const ConfiguredValueTaskAwaitable: typeof Internal.ConfiguredValueTaskAwaitable;
 export const PoolingAsyncValueTaskMethodBuilder: typeof Internal.PoolingAsyncValueTaskMethodBuilder;
 export const TaskAwaiter: typeof Internal.TaskAwaiter;
 export const ValueTaskAwaiter: typeof Internal.ValueTaskAwaiter;
@@ -201,6 +199,18 @@ export type CallSite<
 > =
   [T1] extends [__] ? Internal.CallSite :
   Internal.CallSite_1<T1>;
+
+export type ConfiguredTaskAwaitable<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ConfiguredTaskAwaitable :
+  Internal.ConfiguredTaskAwaitable_1<T1>;
+
+export type ConfiguredValueTaskAwaitable<
+  T1 = __,
+> =
+  [T1] extends [__] ? Internal.ConfiguredValueTaskAwaitable :
+  Internal.ConfiguredValueTaskAwaitable_1<T1>;
 
 export type PoolingAsyncValueTaskMethodBuilder<
   T1 = __,

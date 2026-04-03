@@ -2,8 +2,9 @@
 // Namespace: System.IO.MemoryMappedFiles
 // Assembly: System.IO.MemoryMappedFiles
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { SafeFileHandle, SafeMemoryMappedFileHandle, SafeMemoryMappedViewHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -66,16 +67,16 @@ export interface MemoryMappedFile$instance {
 
 
 export const MemoryMappedFile: {
-    CreateFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    CreateFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long): MemoryMappedFile;
-    CreateFromFile(path: string, mode: FileMode, mapName: string): MemoryMappedFile;
+    CreateFromFile(fileHandle: SafeFileHandle, mapName: string | null, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    CreateFromFile(fileStream: FileStream, mapName: string | null, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string | null, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string | null, capacity: long): MemoryMappedFile;
+    CreateFromFile(path: string, mode: FileMode, mapName: string | null): MemoryMappedFile;
     CreateFromFile(path: string, mode: FileMode): MemoryMappedFile;
     CreateFromFile(path: string): MemoryMappedFile;
-    CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
-    CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    CreateNew(mapName: string, capacity: long): MemoryMappedFile;
+    CreateNew(mapName: string | null, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
+    CreateNew(mapName: string | null, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    CreateNew(mapName: string | null, capacity: long): MemoryMappedFile;
     CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
     CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
     CreateOrOpen(mapName: string, capacity: long): MemoryMappedFile;

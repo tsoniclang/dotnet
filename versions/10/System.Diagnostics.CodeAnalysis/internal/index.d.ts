@@ -2,8 +2,9 @@
 // Namespace: System.Diagnostics.CodeAnalysis
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -59,10 +60,10 @@ export type AllowNullAttribute = AllowNullAttribute$instance;
 export interface ConstantExpectedAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ConstantExpectedAttribute: never;
 
-    get Max(): unknown | undefined;
-    set Max(value: unknown | undefined);
-    get Min(): unknown | undefined;
-    set Min(value: unknown | undefined);
+    get Max(): JsValue | null;
+    set Max(value: JsValue | null);
+    get Min(): JsValue | null;
+    set Min(value: JsValue | null);
 }
 
 
@@ -130,13 +131,13 @@ export type DynamicallyAccessedMembersAttribute = DynamicallyAccessedMembersAttr
 export interface DynamicDependencyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DynamicDependencyAttribute: never;
 
-    readonly AssemblyName: string | undefined;
-    get Condition(): string | undefined;
-    set Condition(value: string | undefined);
-    readonly MemberSignature: string | undefined;
+    readonly AssemblyName: string | null;
+    get Condition(): string | null;
+    set Condition(value: string | null);
+    readonly MemberSignature: string | null;
     readonly MemberTypes: DynamicallyAccessedMemberTypes;
-    readonly Type: Type | undefined;
-    readonly TypeName: string | undefined;
+    readonly Type: Type | null;
+    readonly TypeName: string | null;
 }
 
 
@@ -154,8 +155,8 @@ export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 export interface ExcludeFromCodeCoverageAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ExcludeFromCodeCoverageAttribute: never;
 
-    get Justification(): string | undefined;
-    set Justification(value: string | undefined);
+    get Justification(): string | null;
+    set Justification(value: string | null);
 }
 
 
@@ -170,10 +171,10 @@ export interface ExperimentalAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ExperimentalAttribute: never;
 
     readonly DiagnosticId: string;
-    get Message(): string | undefined;
-    set Message(value: string | undefined);
-    get UrlFormat(): string | undefined;
-    set UrlFormat(value: string | undefined);
+    get Message(): string | null;
+    set Message(value: string | null);
+    get UrlFormat(): string | null;
+    set UrlFormat(value: string | null);
 }
 
 
@@ -314,9 +315,9 @@ export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 export interface RequiresAssemblyFilesAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_RequiresAssemblyFilesAttribute: never;
 
-    readonly Message: string | undefined;
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    readonly Message: string | null;
+    get Url(): string | null;
+    set Url(value: string | null);
 }
 
 
@@ -333,8 +334,8 @@ export interface RequiresDynamicCodeAttribute$instance extends Attribute {
 
     ExcludeStatics: boolean;
     readonly Message: string;
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    get Url(): string | null;
+    set Url(value: string | null);
 }
 
 
@@ -350,8 +351,8 @@ export interface RequiresUnreferencedCodeAttribute$instance extends Attribute {
 
     ExcludeStatics: boolean;
     readonly Message: string;
-    get Url(): string | undefined;
-    set Url(value: string | undefined);
+    get Url(): string | null;
+    set Url(value: string | null);
 }
 
 
@@ -378,14 +379,14 @@ export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance
 export interface StringSyntaxAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_StringSyntaxAttribute: never;
 
-    readonly Arguments: (unknown | undefined)[];
+    readonly Arguments: (JsValue | null)[];
     readonly Syntax: string;
 }
 
 
 export const StringSyntaxAttribute: {
     new(syntax: string): StringSyntaxAttribute;
-    new(syntax: string, arguments: unknown[]): StringSyntaxAttribute;
+    new(syntax: string, arguments: (JsValue | null)[]): StringSyntaxAttribute;
     readonly CompositeFormat: string;
     readonly DateOnlyFormat: string;
     readonly DateTimeFormat: string;
@@ -408,14 +409,14 @@ export interface SuppressMessageAttribute$instance extends Attribute {
 
     readonly Category: string;
     readonly CheckId: string;
-    get Justification(): string | undefined;
-    set Justification(value: string | undefined);
-    get MessageId(): string | undefined;
-    set MessageId(value: string | undefined);
-    get Scope(): string | undefined;
-    set Scope(value: string | undefined);
-    get Target(): string | undefined;
-    set Target(value: string | undefined);
+    get Justification(): string | null;
+    set Justification(value: string | null);
+    get MessageId(): string | null;
+    set MessageId(value: string | null);
+    get Scope(): string | null;
+    set Scope(value: string | null);
+    get Target(): string | null;
+    set Target(value: string | null);
 }
 
 
@@ -431,14 +432,14 @@ export interface UnconditionalSuppressMessageAttribute$instance extends Attribut
 
     readonly Category: string;
     readonly CheckId: string;
-    get Justification(): string | undefined;
-    set Justification(value: string | undefined);
-    get MessageId(): string | undefined;
-    set MessageId(value: string | undefined);
-    get Scope(): string | undefined;
-    set Scope(value: string | undefined);
-    get Target(): string | undefined;
-    set Target(value: string | undefined);
+    get Justification(): string | null;
+    set Justification(value: string | null);
+    get MessageId(): string | null;
+    set MessageId(value: string | null);
+    get Scope(): string | null;
+    set Scope(value: string | null);
+    get Target(): string | null;
+    set Target(value: string | null);
 }
 
 

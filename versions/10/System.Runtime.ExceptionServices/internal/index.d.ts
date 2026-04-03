@@ -2,8 +2,9 @@
 // Namespace: System.Runtime.ExceptionServices
 // Assembly: System.Private.CoreLib
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -55,7 +56,7 @@ export const HandleProcessCorruptedStateExceptionsAttribute: {
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;
 
 export abstract class ExceptionHandling$instance {
-    static RaiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
+    static RaiseAppDomainUnhandledExceptionEvent(exception: JsValue): void;
     static SetUnhandledExceptionHandler(handler: Func_2<Exception, System_Internal.Boolean>): void;
 }
 

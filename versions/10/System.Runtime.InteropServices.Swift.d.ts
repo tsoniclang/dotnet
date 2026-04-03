@@ -23,5 +23,5 @@ export type SwiftSelf<
   T1 = __,
 > =
   [T1] extends [__] ? Internal.SwiftSelf :
-  [T1] extends [unknown] ? Internal.SwiftSelf_1<T1> : never;
+  [T1] extends [NonNullable<JsValue>] ? Internal.SwiftSelf_1<T1> : never;
 

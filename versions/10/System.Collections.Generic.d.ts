@@ -7,7 +7,7 @@ import * as Internal from './System.Collections.Generic/internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { ReadOnlyCollection_1, ReadOnlyDictionary_2, ReadOnlySet_1 } from './System.Collections.ObjectModel/internal/index.js';
-import type { DictionaryEntry, ICollection as ICollection_Imported, IComparer as IComparer_Imported, IDictionary as IDictionary_Imported, IDictionaryEnumerator, IEnumerable as IEnumerable_Imported, IEnumerator as IEnumerator_Imported, IEqualityComparer as IEqualityComparer_Imported, IList as IList_Imported } from './System.Collections/internal/index.js';
+import type { ICollection as ICollection_Imported, IComparer as IComparer_Imported, IDictionary as IDictionary_Imported, IDictionaryEnumerator, IEnumerable as IEnumerable_Imported, IEnumerator as IEnumerator_Imported, IEqualityComparer as IEqualityComparer_Imported, IList as IList_Imported } from './System.Collections/internal/index.js';
 import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';

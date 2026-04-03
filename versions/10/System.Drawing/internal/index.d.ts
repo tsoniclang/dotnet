@@ -2,8 +2,9 @@
 // Namespace: System.Drawing
 // Assembly: System.ComponentModel.TypeConverter, System.Drawing.Primitives
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import type { ICollection, IDictionary } from "../../System.Collections/internal/index.js";
@@ -207,7 +208,7 @@ export interface Color$instance {
     readonly IsSystemColor: boolean;
     readonly Name: string;
     readonly R: byte;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Color): boolean;
     GetBrightness(): float;
     GetHashCode(): int;
@@ -391,7 +392,7 @@ export interface Point$instance {
     readonly IsEmpty: boolean;
     X: int;
     Y: int;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Point): boolean;
     GetHashCode(): int;
     Offset(dx: int, dy: int): void;
@@ -431,7 +432,7 @@ export interface PointF$instance {
     readonly IsEmpty: boolean;
     X: float;
     Y: float;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: PointF): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -479,7 +480,7 @@ export interface Rectangle$instance {
     Contains(x: int, y: int): boolean;
     Contains(pt: Point): boolean;
     Contains(rect: Rectangle): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Rectangle): boolean;
     GetHashCode(): int;
     Inflate(width: int, height: int): void;
@@ -535,7 +536,7 @@ export interface RectangleF$instance {
     Contains(x: float, y: float): boolean;
     Contains(pt: PointF): boolean;
     Contains(rect: RectangleF): boolean;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: RectangleF): boolean;
     GetHashCode(): int;
     Inflate(x: float, y: float): void;
@@ -579,7 +580,7 @@ export interface Size$instance {
     Height: int;
     readonly IsEmpty: boolean;
     Width: int;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: Size): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -616,7 +617,7 @@ export interface SizeF$instance {
     Height: float;
     readonly IsEmpty: boolean;
     Width: float;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(other: SizeF): boolean;
     GetHashCode(): int;
     ToPointF(): PointF;
@@ -650,17 +651,17 @@ export type SizeF = SizeF$instance & __SizeF$views;
 export interface ColorConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Drawing_ColorConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    ConvertFrom(value: unknown): unknown | undefined;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
-    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection | undefined;
-    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
+    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
+    GetStandardValues(): ICollection | null;
+    GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesSupported(): boolean;
 }
 
@@ -675,22 +676,22 @@ export type ColorConverter = ColorConverter$instance;
 export interface PointConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Drawing_PointConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    ConvertFrom(value: unknown): unknown | undefined;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | undefined;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
+    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue;
+    CreateInstance(propertyValues: IDictionary): JsValue | null;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
     GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
 
@@ -705,22 +706,22 @@ export type PointConverter = PointConverter$instance;
 export interface RectangleConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Drawing_RectangleConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    ConvertFrom(value: unknown): unknown | undefined;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | undefined;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
+    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue;
+    CreateInstance(propertyValues: IDictionary): JsValue | null;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
     GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
 
@@ -735,22 +736,22 @@ export type RectangleConverter = RectangleConverter$instance;
 export interface SizeConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Drawing_SizeConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    ConvertFrom(value: unknown): unknown | undefined;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | undefined;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
+    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue;
+    CreateInstance(propertyValues: IDictionary): JsValue | null;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
     GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
 
@@ -765,22 +766,22 @@ export type SizeConverter = SizeConverter$instance;
 export interface SizeFConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_Drawing_SizeFConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    CanConvertTo(destinationType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
-    ConvertFrom(value: unknown): unknown | undefined;
-    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown | undefined;
-    ConvertTo(value: unknown, destinationType: Type): unknown | undefined;
-    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | undefined;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
+    CanConvertTo(destinationType: Type | null): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
+    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue;
+    CreateInstance(propertyValues: IDictionary): JsValue | null;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
     GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | undefined;
-    GetProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection | undefined;
-    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
 

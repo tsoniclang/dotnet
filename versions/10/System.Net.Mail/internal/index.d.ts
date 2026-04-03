@@ -2,11 +2,9 @@
 // Namespace: System.Net.Mail
 // Assembly: System.Net.Mail
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -88,7 +86,7 @@ export enum SmtpStatusCode {
 }
 
 
-export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
+export type SendCompletedEventHandler = (sender: JsValue, e: AsyncCompletedEventArgs) => void;
 
 
 export interface AlternateView$instance extends AttachmentBase$instance {
@@ -96,8 +94,8 @@ export interface AlternateView$instance extends AttachmentBase$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    get BaseUri(): Uri | undefined;
-    set BaseUri(value: Uri | undefined);
+    get BaseUri(): Uri | null;
+    set BaseUri(value: Uri | null);
     readonly LinkedResources: LinkedResourceCollection;
     Dispose(disposing: boolean): void;
     Dispose(): void;
@@ -106,13 +104,13 @@ export interface AlternateView$instance extends AttachmentBase$instance {
 
 export const AlternateView: {
     new(fileName: string): AlternateView;
-    new(fileName: string, mediaType: string): AlternateView;
-    new(fileName: string, contentType: ContentType): AlternateView;
+    new(fileName: string, mediaType: string | null): AlternateView;
+    new(fileName: string, contentType: ContentType | null): AlternateView;
     new(contentStream: Stream): AlternateView;
-    new(contentStream: Stream, mediaType: string): AlternateView;
-    new(contentStream: Stream, contentType: ContentType): AlternateView;
-    CreateAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
-    CreateAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    new(contentStream: Stream, mediaType: string | null): AlternateView;
+    new(contentStream: Stream, contentType: ContentType | null): AlternateView;
+    CreateAlternateViewFromString(content: string, contentType: ContentType | null): AlternateView;
+    CreateAlternateViewFromString(content: string, contentEncoding: Encoding | null, mediaType: string | null): AlternateView;
     CreateAlternateViewFromString(content: string): AlternateView;
 };
 
@@ -168,24 +166,24 @@ export interface Attachment$instance extends AttachmentBase$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly ContentDisposition: ContentDisposition | undefined;
-    get Name(): string | undefined;
-    set Name(value: string | undefined);
-    get NameEncoding(): Encoding | undefined;
-    set NameEncoding(value: Encoding | undefined);
+    readonly ContentDisposition: ContentDisposition | null;
+    get Name(): string | null;
+    set Name(value: string | null);
+    get NameEncoding(): Encoding | null;
+    set NameEncoding(value: Encoding | null);
 }
 
 
 export const Attachment: {
     new(fileName: string): Attachment;
-    new(fileName: string, mediaType: string): Attachment;
+    new(fileName: string, mediaType: string | null): Attachment;
     new(fileName: string, contentType: ContentType): Attachment;
-    new(contentStream: Stream, name: string): Attachment;
-    new(contentStream: Stream, name: string, mediaType: string): Attachment;
+    new(contentStream: Stream, name: string | null): Attachment;
+    new(contentStream: Stream, name: string | null, mediaType: string | null): Attachment;
     new(contentStream: Stream, contentType: ContentType): Attachment;
     CreateAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    CreateAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    CreateAttachmentFromString(content: string, name: string): Attachment;
+    CreateAttachmentFromString(content: string, name: string | null, contentEncoding: Encoding | null, mediaType: string | null): Attachment;
+    CreateAttachmentFromString(content: string, name: string | null): Attachment;
 };
 
 
@@ -210,7 +208,7 @@ export interface AttachmentBase$instance {
 }
 
 
-export const AttachmentBase: (abstract new(fileName: string) => AttachmentBase) & (abstract new(fileName: string, mediaType: string) => AttachmentBase) & (abstract new(fileName: string, contentType: ContentType) => AttachmentBase) & (abstract new(contentStream: Stream) => AttachmentBase) & (abstract new(contentStream: Stream, mediaType: string) => AttachmentBase) & (abstract new(contentStream: Stream, contentType: ContentType) => AttachmentBase) & {
+export const AttachmentBase: (abstract new(fileName: string) => AttachmentBase) & (abstract new(fileName: string, mediaType: string | null) => AttachmentBase) & (abstract new(fileName: string, contentType: ContentType | null) => AttachmentBase) & (abstract new(contentStream: Stream) => AttachmentBase) & (abstract new(contentStream: Stream, mediaType: string | null) => AttachmentBase) & (abstract new(contentStream: Stream, contentType: ContentType | null) => AttachmentBase) & {
 };
 
 
@@ -265,20 +263,20 @@ export interface LinkedResource$instance extends AttachmentBase$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    get ContentLink(): Uri | undefined;
-    set ContentLink(value: Uri | undefined);
+    get ContentLink(): Uri | null;
+    set ContentLink(value: Uri | null);
 }
 
 
 export const LinkedResource: {
     new(fileName: string): LinkedResource;
-    new(fileName: string, mediaType: string): LinkedResource;
-    new(fileName: string, contentType: ContentType): LinkedResource;
+    new(fileName: string, mediaType: string | null): LinkedResource;
+    new(fileName: string, contentType: ContentType | null): LinkedResource;
     new(contentStream: Stream): LinkedResource;
-    new(contentStream: Stream, mediaType: string): LinkedResource;
-    new(contentStream: Stream, contentType: ContentType): LinkedResource;
-    CreateLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
-    CreateLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    new(contentStream: Stream, mediaType: string | null): LinkedResource;
+    new(contentStream: Stream, contentType: ContentType | null): LinkedResource;
+    CreateLinkedResourceFromString(content: string, contentType: ContentType | null): LinkedResource;
+    CreateLinkedResourceFromString(content: string, contentEncoding: Encoding | null, mediaType: string | null): LinkedResource;
     CreateLinkedResourceFromString(content: string): LinkedResource;
 };
 
@@ -336,7 +334,7 @@ export interface MailAddress$instance {
     readonly DisplayName: string;
     readonly Host: string;
     readonly User: string;
-    Equals(value: unknown): boolean;
+    Equals(value: JsValue | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -344,11 +342,11 @@ export interface MailAddress$instance {
 
 export const MailAddress: {
     new(address: string): MailAddress;
-    new(address: string, displayName: string): MailAddress;
-    new(address: string, displayName: string, displayNameEncoding: Encoding): MailAddress;
-    TryCreate(address: string, result: MailAddress): boolean;
-    TryCreate(address: string, displayName: string, result: MailAddress): boolean;
-    TryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: MailAddress): boolean;
+    new(address: string, displayName: string | null): MailAddress;
+    new(address: string, displayName: string | null, displayNameEncoding: Encoding | null): MailAddress;
+    TryCreate(address: string | null, result: MailAddress | null): boolean;
+    TryCreate(address: string | null, displayName: string | null, result: MailAddress | null): boolean;
+    TryCreate(address: string | null, displayName: string | null, displayNameEncoding: Encoding | null, result: MailAddress | null): boolean;
 };
 
 
@@ -401,26 +399,26 @@ export interface MailMessage$instance {
     readonly Attachments: AttachmentCollection;
     readonly Bcc: MailAddressCollection;
     Body: string;
-    get BodyEncoding(): Encoding | undefined;
-    set BodyEncoding(value: Encoding | undefined);
+    get BodyEncoding(): Encoding | null;
+    set BodyEncoding(value: Encoding | null);
     BodyTransferEncoding: TransferEncoding;
     readonly CC: MailAddressCollection;
     DeliveryNotificationOptions: DeliveryNotificationOptions;
-    get From(): MailAddress | undefined;
-    set From(value: MailAddress | undefined);
+    get From(): MailAddress | null;
+    set From(value: MailAddress | null);
     readonly Headers: NameValueCollection;
-    get HeadersEncoding(): Encoding | undefined;
-    set HeadersEncoding(value: Encoding | undefined);
+    get HeadersEncoding(): Encoding | null;
+    set HeadersEncoding(value: Encoding | null);
     IsBodyHtml: boolean;
     Priority: MailPriority;
-    get ReplyTo(): MailAddress | undefined;
-    set ReplyTo(value: MailAddress | undefined);
+    get ReplyTo(): MailAddress | null;
+    set ReplyTo(value: MailAddress | null);
     readonly ReplyToList: MailAddressCollection;
-    get Sender(): MailAddress | undefined;
-    set Sender(value: MailAddress | undefined);
+    get Sender(): MailAddress | null;
+    set Sender(value: MailAddress | null);
     Subject: string;
-    get SubjectEncoding(): Encoding | undefined;
-    set SubjectEncoding(value: Encoding | undefined);
+    get SubjectEncoding(): Encoding | null;
+    set SubjectEncoding(value: Encoding | null);
     readonly To: MailAddressCollection;
     Dispose(): void;
     Dispose(disposing: boolean): void;
@@ -430,7 +428,7 @@ export interface MailMessage$instance {
 export const MailMessage: {
     new(): MailMessage;
     new(from: string, to: string): MailMessage;
-    new(from: string, to: string, subject: string, body: string): MailMessage;
+    new(from: string, to: string, subject: string | null, body: string | null): MailMessage;
     new(from: MailAddress, to: MailAddress): MailMessage;
 };
 
@@ -448,39 +446,39 @@ export interface SmtpClient$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ClientCertificates: X509CertificateCollection;
-    get Credentials(): ICredentialsByHost | undefined;
-    set Credentials(value: ICredentialsByHost | undefined);
+    get Credentials(): ICredentialsByHost | null;
+    set Credentials(value: ICredentialsByHost | null);
     DeliveryFormat: SmtpDeliveryFormat;
     DeliveryMethod: SmtpDeliveryMethod;
     EnableSsl: boolean;
-    get Host(): string | undefined;
-    set Host(value: string | undefined);
-    get PickupDirectoryLocation(): string | undefined;
-    set PickupDirectoryLocation(value: string | undefined);
+    get Host(): string | null;
+    set Host(value: string | null);
+    get PickupDirectoryLocation(): string | null;
+    set PickupDirectoryLocation(value: string | null);
     Port: int;
     readonly ServicePoint: ServicePoint;
-    get TargetName(): string | undefined;
-    set TargetName(value: string | undefined);
+    get TargetName(): string | null;
+    set TargetName(value: string | null);
     Timeout: int;
     UseDefaultCredentials: boolean;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    Send(from: string, recipients: string, subject: string, body: string): void;
+    Send(from: string, recipients: string, subject: string | null, body: string | null): void;
     Send(message: MailMessage): void;
-    SendAsync(from: string, recipients: string, subject: string, body: string, userToken: unknown): void;
-    SendAsync(message: MailMessage, userToken: unknown): void;
+    SendAsync(from: string, recipients: string, subject: string | null, body: string | null, userToken: JsValue | null): void;
+    SendAsync(message: MailMessage, userToken: JsValue | null): void;
     SendAsyncCancel(): void;
-    SendMailAsync(from: string, recipients: string, subject: string, body: string): Task;
+    SendMailAsync(from: string, recipients: string, subject: string | null, body: string | null): Task;
     SendMailAsync(message: MailMessage): Task;
-    SendMailAsync(from: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
+    SendMailAsync(from: string, recipients: string, subject: string | null, body: string | null, cancellationToken: CancellationToken): Task;
     SendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
 }
 
 
 export const SmtpClient: {
     new(): SmtpClient;
-    new(host: string): SmtpClient;
-    new(host: string, port: int): SmtpClient;
+    new(host: string | null): SmtpClient;
+    new(host: string | null, port: int): SmtpClient;
 };
 
 
@@ -503,10 +501,10 @@ export interface SmtpException$instance extends Exception {
 
 export const SmtpException: {
     new(statusCode: SmtpStatusCode): SmtpException;
-    new(statusCode: SmtpStatusCode, message: string): SmtpException;
+    new(statusCode: SmtpStatusCode, message: string | null): SmtpException;
     new(): SmtpException;
-    new(message: string): SmtpException;
-    new(message: string, innerException: Exception): SmtpException;
+    new(message: string | null): SmtpException;
+    new(message: string | null, innerException: Exception | null): SmtpException;
 };
 
 
@@ -522,18 +520,18 @@ export interface SmtpFailedRecipientException$instance extends SmtpException$ins
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly FailedRecipient: string | undefined;
+    readonly FailedRecipient: string | null;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
 
 
 export const SmtpFailedRecipientException: {
     new(): SmtpFailedRecipientException;
-    new(message: string): SmtpFailedRecipientException;
-    new(message: string, innerException: Exception): SmtpFailedRecipientException;
-    new(statusCode: SmtpStatusCode, failedRecipient: string): SmtpFailedRecipientException;
-    new(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string): SmtpFailedRecipientException;
-    new(message: string, failedRecipient: string, innerException: Exception): SmtpFailedRecipientException;
+    new(message: string | null): SmtpFailedRecipientException;
+    new(message: string | null, innerException: Exception | null): SmtpFailedRecipientException;
+    new(statusCode: SmtpStatusCode, failedRecipient: string | null): SmtpFailedRecipientException;
+    new(statusCode: SmtpStatusCode, failedRecipient: string | null, serverResponse: string | null): SmtpFailedRecipientException;
+    new(message: string | null, failedRecipient: string | null, innerException: Exception | null): SmtpFailedRecipientException;
 };
 
 
@@ -556,9 +554,9 @@ export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipi
 
 export const SmtpFailedRecipientsException: {
     new(): SmtpFailedRecipientsException;
-    new(message: string): SmtpFailedRecipientsException;
-    new(message: string, innerException: Exception): SmtpFailedRecipientsException;
-    new(message: string, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException;
+    new(message: string | null): SmtpFailedRecipientsException;
+    new(message: string | null, innerException: Exception | null): SmtpFailedRecipientsException;
+    new(message: string | null, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException;
 };
 
 

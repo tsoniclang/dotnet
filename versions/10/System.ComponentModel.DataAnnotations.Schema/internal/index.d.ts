@@ -2,8 +2,9 @@
 // Namespace: System.ComponentModel.DataAnnotations.Schema
 // Assembly: System.ComponentModel.Annotations
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -19,10 +20,10 @@ export enum DatabaseGeneratedOption {
 export interface ColumnAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ColumnAttribute: never;
 
-    readonly Name: string | undefined;
+    readonly Name: string | null;
     Order: int;
-    get TypeName(): string | undefined;
-    set TypeName(value: string | undefined);
+    get TypeName(): string | null;
+    set TypeName(value: string | null);
 }
 
 
@@ -106,8 +107,8 @@ export interface TableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_TableAttribute: never;
 
     readonly Name: string;
-    get Schema(): string | undefined;
-    set Schema(value: string | undefined);
+    get Schema(): string | null;
+    set Schema(value: string | null);
 }
 
 

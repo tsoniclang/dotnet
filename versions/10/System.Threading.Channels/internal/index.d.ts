@@ -2,11 +2,9 @@
 // Namespace: System.Threading.Channels
 // Assembly: System.Threading.Channels
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IAsyncEnumerable_1, IComparer_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -78,9 +76,9 @@ export interface ChannelClosedException$instance extends InvalidOperationExcepti
 
 export const ChannelClosedException: {
     new(): ChannelClosedException;
-    new(message: string): ChannelClosedException;
-    new(innerException: Exception): ChannelClosedException;
-    new(message: string, innerException: Exception): ChannelClosedException;
+    new(message: string | null): ChannelClosedException;
+    new(innerException: Exception | null): ChannelClosedException;
+    new(message: string | null, innerException: Exception | null): ChannelClosedException;
 };
 
 
@@ -130,8 +128,8 @@ export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 export interface ChannelWriter_1$instance<T> {
     readonly __tsonic_type_System_Threading_Channels_ChannelWriter_1: never;
 
-    Complete(error?: Exception): void;
-    TryComplete(error?: Exception): boolean;
+    Complete(error?: Exception | null): void;
+    TryComplete(error?: Exception | null): boolean;
     TryWrite(item: T): boolean;
     WaitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
     WriteAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
@@ -160,8 +158,8 @@ export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
     readonly __tsonic_type_System_Threading_Channels_UnboundedPrioritizedChannelOptions_1: never;
 
-    get Comparer(): IComparer_1<T> | undefined;
-    set Comparer(value: IComparer_1<T> | undefined);
+    get Comparer(): IComparer_1<T> | null;
+    set Comparer(value: IComparer_1<T> | null);
 }
 
 
@@ -174,7 +172,7 @@ export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChanne
 
 export abstract class Channel$instance {
     static CreateBounded<T>(capacity: int): Channel_1<T>;
-    static CreateBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
+    static CreateBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T> | null): Channel_1<T>;
     static CreateBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
     static CreateUnbounded<T>(): Channel_1<T>;
     static CreateUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;

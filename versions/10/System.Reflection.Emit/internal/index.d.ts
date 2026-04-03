@@ -2,11 +2,9 @@
 // Namespace: System.Reflection.Emit
 // Assembly: System.Private.CoreLib, System.Reflection.Emit
 
-// Primitive type aliases from @tsonic/core
-import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+// Core type aliases from @tsonic/core
+import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
-// Import support types from @tsonic/core
-import type { ptr } from "@tsonic/core/types.js";
 
 // Import types from other namespaces
 import type { IEnumerable_1, IList_1 } from "../../System.Collections.Generic/internal/index.js";
@@ -135,7 +133,7 @@ export interface Label$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: int;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(obj: Label): boolean;
     GetHashCode(): int;
 }
@@ -163,17 +161,17 @@ export interface OpCode$instance {
 
     readonly EvaluationStackDelta: int;
     readonly FlowControl: FlowControl;
-    readonly Name: string | undefined;
+    readonly Name: string | null;
     readonly OpCodeType: OpCodeType;
     readonly OperandType: OperandType;
     readonly Size: int;
     readonly StackBehaviourPop: StackBehaviour;
     readonly StackBehaviourPush: StackBehaviour;
     readonly Value: short;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     Equals(obj: OpCode): boolean;
     GetHashCode(): int;
-    ToString(): string | undefined;
+    ToString(): string | null;
 }
 
 
@@ -198,22 +196,22 @@ export interface AssemblyBuilder$instance extends Assembly, System_Reflection_In
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly CodeBase: string | undefined;
-    readonly EntryPoint: MethodInfo | undefined;
+    readonly CodeBase: string | null;
+    readonly EntryPoint: MethodInfo | null;
     readonly IsDynamic: boolean;
     readonly Location: string;
     DefineDynamicModule(name: string): ModuleBuilder;
     DefineDynamicModuleCore(name: string): ModuleBuilder;
-    GetDynamicModule(name: string): ModuleBuilder | undefined;
-    GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
+    GetDynamicModule(name: string): ModuleBuilder | null;
+    GetDynamicModuleCore(name: string): ModuleBuilder | null;
     GetExportedTypes(): Type[];
     GetFile(name: string): FileStream;
     GetFiles(getResourceModules: boolean): FileStream[];
     GetFiles(): FileStream[];
-    GetManifestResourceInfo(resourceName: string): ManifestResourceInfo | undefined;
+    GetManifestResourceInfo(resourceName: string): ManifestResourceInfo | null;
     GetManifestResourceNames(): string[];
-    GetManifestResourceStream(name: string): Stream | undefined;
-    GetManifestResourceStream(type: Type, name: string): Stream | undefined;
+    GetManifestResourceStream(name: string): Stream | null;
+    GetManifestResourceStream(type: Type, name: string): Stream | null;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -221,7 +219,7 @@ export interface AssemblyBuilder$instance extends Assembly, System_Reflection_In
 
 
 export const AssemblyBuilder: (abstract new() => AssemblyBuilder) & {
-    DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
+    DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder> | null): AssemblyBuilder;
     DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 };
 
@@ -272,10 +270,10 @@ export interface CustomAttributeBuilder$instance {
 
 
 export const CustomAttributeBuilder: {
-    new(con: ConstructorInfo, constructorArgs: unknown[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedProperties: PropertyInfo[], propertyValues: (JsValue | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedFields: FieldInfo[], fieldValues: (JsValue | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedProperties: PropertyInfo[], propertyValues: (JsValue | null)[], namedFields: FieldInfo[], fieldValues: (JsValue | null)[]): CustomAttributeBuilder;
 };
 
 
@@ -293,11 +291,11 @@ export interface DynamicILInfo$instance {
     GetTokenFor(type: RuntimeTypeHandle): int;
     GetTokenFor(literal: string): int;
     GetTokenFor(signature: byte[]): int;
-    SetCode(code: byte[], maxStackSize: int): void;
+    SetCode(code: byte[] | null, maxStackSize: int): void;
     SetCode(code: ptr<byte>, codeSize: int, maxStackSize: int): void;
-    SetExceptions(exceptions: byte[]): void;
+    SetExceptions(exceptions: byte[] | null): void;
     SetExceptions(exceptions: ptr<byte>, exceptionsSize: int): void;
-    SetLocalSignature(localSignature: byte[]): void;
+    SetLocalSignature(localSignature: byte[] | null): void;
     SetLocalSignature(localSignature: ptr<byte>, signatureSize: int): void;
 }
 
@@ -315,7 +313,7 @@ export interface DynamicMethod$instance extends MethodInfo {
 
     readonly Attributes: MethodAttributes;
     readonly CallingConvention: CallingConventions;
-    readonly DeclaringType: Type | undefined;
+    readonly DeclaringType: Type | null;
     InitLocals: boolean;
     readonly IsSecurityCritical: boolean;
     readonly IsSecuritySafeCritical: boolean;
@@ -323,39 +321,39 @@ export interface DynamicMethod$instance extends MethodInfo {
     readonly MethodHandle: RuntimeMethodHandle;
     readonly Module: Module;
     readonly Name: string;
-    readonly ReflectedType: Type | undefined;
+    readonly ReflectedType: Type | null;
     readonly ReturnParameter: ParameterInfo;
     readonly ReturnType: Type;
     readonly ReturnTypeCustomAttributes: ICustomAttributeProvider;
     CreateDelegate(delegateType: Type): Function;
-    CreateDelegate(delegateType: Type, target: unknown): Function;
+    CreateDelegate(delegateType: Type, target: JsValue | null): Function;
     CreateDelegate<T extends Function>(): T;
-    CreateDelegate<T extends Function>(target: unknown): T;
-    DefineParameter(position: int, attributes: ParameterAttributes, parameterName: string): ParameterBuilder | undefined;
+    CreateDelegate<T extends Function>(target: JsValue | null): T;
+    DefineParameter(position: int, attributes: ParameterAttributes, parameterName: string | null): ParameterBuilder | null;
     GetBaseDefinition(): MethodInfo;
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetCustomAttributes(inherit: boolean): unknown[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
+    GetCustomAttributes(inherit: boolean): JsValue[];
     GetDynamicILInfo(): DynamicILInfo;
     GetILGenerator(streamSize: int): ILGenerator;
     GetILGenerator(): ILGenerator;
     GetMethodImplementationFlags(): MethodImplAttributes;
     GetParameters(): ParameterInfo[];
-    Invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown | undefined;
-    Invoke(obj: unknown, parameters: unknown[]): unknown | undefined;
+    Invoke(obj: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
+    Invoke(obj: JsValue | null, parameters: (JsValue | null)[] | null): JsValue | null;
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     ToString(): string;
 }
 
 
 export const DynamicMethod: {
-    new(name: string, returnType: Type, parameterTypes: Type[]): DynamicMethod;
-    new(name: string, returnType: Type, parameterTypes: Type[], restrictedSkipVisibility: boolean): DynamicMethod;
-    new(name: string, returnType: Type, parameterTypes: Type[], m: Module): DynamicMethod;
-    new(name: string, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean): DynamicMethod;
-    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean): DynamicMethod;
-    new(name: string, returnType: Type, parameterTypes: Type[], owner: Type): DynamicMethod;
-    new(name: string, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean): DynamicMethod;
-    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null, restrictedSkipVisibility: boolean): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null, m: Module): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null, m: Module, skipVisibility: boolean): DynamicMethod;
+    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, m: Module, skipVisibility: boolean): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null, owner: Type): DynamicMethod;
+    new(name: string, returnType: Type | null, parameterTypes: Type[] | null, owner: Type, skipVisibility: boolean): DynamicMethod;
+    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, owner: Type, skipVisibility: boolean): DynamicMethod;
 };
 
 
@@ -378,8 +376,8 @@ export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Intern
     CreateType(): Type;
     CreateTypeInfo(): TypeInfo;
     CreateTypeInfoCore(): TypeInfo;
-    DefineLiteral(literalName: string, literalValue: unknown): FieldBuilder;
-    DefineLiteralCore(literalName: string, literalValue: unknown): FieldBuilder;
+    DefineLiteral(literalName: string, literalValue: JsValue | null): FieldBuilder;
+    DefineLiteralCore(literalName: string, literalValue: JsValue | null): FieldBuilder;
     MakeArrayType(): Type;
     MakeArrayType(rank: int): Type;
     MakeByRefType(): Type;
@@ -431,8 +429,8 @@ export interface FieldBuilder$instance extends FieldInfo, System_Reflection_Inte
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    SetConstant(defaultValue: unknown): void;
-    SetConstantCore(defaultValue: unknown): void;
+    SetConstant(defaultValue: JsValue | null): void;
+    SetConstantCore(defaultValue: JsValue | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -459,15 +457,15 @@ export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_R
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
 
-    SetBaseTypeConstraint(baseTypeConstraint: Type): void;
-    SetBaseTypeConstraintCore(baseTypeConstraint: Type): void;
+    SetBaseTypeConstraint(baseTypeConstraint: Type | null): void;
+    SetBaseTypeConstraintCore(baseTypeConstraint: Type | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
     SetGenericParameterAttributes(genericParameterAttributes: GenericParameterAttributes): void;
     SetGenericParameterAttributesCore(genericParameterAttributes: GenericParameterAttributes): void;
-    SetInterfaceConstraints(...interfaceConstraints: Type[]): void;
-    SetInterfaceConstraintsCore(...interfaceConstraints: Type[]): void;
+    SetInterfaceConstraints(...interfaceConstraints: Type[] | null): void;
+    SetInterfaceConstraintsCore(...interfaceConstraints: Type[] | null): void;
 }
 
 
@@ -488,7 +486,7 @@ export interface ILGenerator$instance {
     readonly __tsonic_type_System_Reflection_Emit_ILGenerator: never;
 
     readonly ILOffset: int;
-    BeginCatchBlock(exceptionType: Type): void;
+    BeginCatchBlock(exceptionType: Type | null): void;
     BeginExceptFilterBlock(): void;
     BeginExceptionBlock(): Label;
     BeginFaultBlock(): void;
@@ -514,9 +512,9 @@ export interface ILGenerator$instance {
     Emit(opcode: OpCode, str: string): void;
     Emit(opcode: OpCode, local: LocalBuilder): void;
     Emit(opcode: OpCode, arg: sbyte): void;
-    EmitCall(opcode: OpCode, methodInfo: MethodInfo, optionalParameterTypes: Type[]): void;
-    EmitCalli(opcode: OpCode, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], optionalParameterTypes: Type[]): void;
-    EmitCalli(opcode: OpCode, unmanagedCallConv: CallingConvention, returnType: Type, parameterTypes: Type[]): void;
+    EmitCall(opcode: OpCode, methodInfo: MethodInfo, optionalParameterTypes: Type[] | null): void;
+    EmitCalli(opcode: OpCode, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, optionalParameterTypes: Type[] | null): void;
+    EmitCalli(opcode: OpCode, unmanagedCallConv: CallingConvention, returnType: Type | null, parameterTypes: Type[] | null): void;
     EmitWriteLine(value: string): void;
     EmitWriteLine(localBuilder: LocalBuilder): void;
     EmitWriteLine(fld: FieldInfo): void;
@@ -560,8 +558,8 @@ export interface MethodBuilder$instance extends MethodInfo, System_Reflection_In
     InitLocalsCore: boolean;
     DefineGenericParameters(...names: string[]): GenericTypeParameterBuilder[];
     DefineGenericParametersCore(...names: string[]): GenericTypeParameterBuilder[];
-    DefineParameter(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
-    DefineParameterCore(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
+    DefineParameter(position: int, attributes: ParameterAttributes, strParamName: string | null): ParameterBuilder;
+    DefineParameterCore(position: int, attributes: ParameterAttributes, strParamName: string | null): ParameterBuilder;
     GetILGenerator(): ILGenerator;
     GetILGenerator(size: int): ILGenerator;
     GetILGeneratorCore(size: int): ILGenerator;
@@ -571,9 +569,9 @@ export interface MethodBuilder$instance extends MethodInfo, System_Reflection_In
     SetImplementationFlags(attributes: MethodImplAttributes): void;
     SetImplementationFlagsCore(attributes: MethodImplAttributes): void;
     SetParameters(...parameterTypes: Type[]): void;
-    SetReturnType(returnType: Type): void;
-    SetSignature(returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): void;
-    SetSignatureCore(returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): void;
+    SetReturnType(returnType: Type | null): void;
+    SetSignature(returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): void;
+    SetSignatureCore(returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): void;
 }
 
 
@@ -601,27 +599,27 @@ export interface ModuleBuilder$instance extends Module, System_Reflection_Intern
     DefineDocumentCore(url: string, language?: Guid): ISymbolDocumentWriter;
     DefineEnum(name: string, visibility: TypeAttributes, underlyingType: Type): EnumBuilder;
     DefineEnumCore(name: string, visibility: TypeAttributes, underlyingType: Type): EnumBuilder;
-    DefineGlobalMethod(name: string, attributes: MethodAttributes, returnType: Type, parameterTypes: Type[]): MethodBuilder;
-    DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodBuilder;
-    DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): MethodBuilder;
-    DefineGlobalMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): MethodBuilder;
+    DefineGlobalMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
+    DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
+    DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): MethodBuilder;
+    DefineGlobalMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): MethodBuilder;
     DefineInitializedData(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
     DefineInitializedDataCore(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
-    DefinePInvokeMethod(name: string, dllName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethod(name: string, dllName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
     DefineType(name: string): TypeBuilder;
     DefineType(name: string, attr: TypeAttributes): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[]): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type, typesize: int): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type, packsize: PackingSize): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type, packingSize: PackingSize, typesize: int): TypeBuilder;
-    DefineTypeCore(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[], packingSize: PackingSize, typesize: int): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, typesize: int): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, packsize: PackingSize): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, packingSize: PackingSize, typesize: int): TypeBuilder;
+    DefineTypeCore(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null, packingSize: PackingSize, typesize: int): TypeBuilder;
     DefineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
-    GetArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
-    GetArrayMethodCore(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
+    GetArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodInfo;
+    GetArrayMethodCore(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodInfo;
     GetFieldMetadataToken(field: FieldInfo): int;
     GetMethodMetadataToken(method: MethodInfo): int;
     GetMethodMetadataToken(constructor: ConstructorInfo): int;
@@ -892,9 +890,9 @@ export interface ParameterBuilder$instance {
     readonly IsIn: boolean;
     readonly IsOptional: boolean;
     readonly IsOut: boolean;
-    readonly Name: string | undefined;
+    readonly Name: string | null;
     readonly Position: int;
-    SetConstant(defaultValue: unknown): void;
+    SetConstant(defaultValue: JsValue | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -913,12 +911,12 @@ export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$insta
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly FullName: string | undefined;
+    readonly FullName: string | null;
     readonly ManifestModule: Module;
     DefineDynamicModuleCore(name: string): ModuleBuilder;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder): MetadataBuilder;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder, pdbBuilder: MetadataBuilder): MetadataBuilder;
-    GetDynamicModuleCore(name: string): ModuleBuilder | undefined;
+    GetDynamicModuleCore(name: string): ModuleBuilder | null;
     GetName(copiedName: boolean): AssemblyName;
     GetName(): AssemblyName;
     Save(stream: Stream): void;
@@ -928,7 +926,7 @@ export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$insta
 
 
 export const PersistedAssemblyBuilder: {
-    new(name: AssemblyName, coreAssembly: Assembly, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): PersistedAssemblyBuilder;
+    new(name: AssemblyName, coreAssembly: Assembly, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder> | null): PersistedAssemblyBuilder;
 };
 
 
@@ -947,8 +945,8 @@ export interface PropertyBuilder$instance extends PropertyInfo, System_Reflectio
 
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     AddOtherMethodCore(mdBuilder: MethodBuilder): void;
-    SetConstant(defaultValue: unknown): void;
-    SetConstantCore(defaultValue: unknown): void;
+    SetConstant(defaultValue: JsValue | null): void;
+    SetConstantCore(defaultValue: JsValue | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -975,10 +973,10 @@ export interface SignatureHelper$instance {
 
     AddArgument(clsArgument: Type): void;
     AddArgument(argument: Type, pinned: boolean): void;
-    AddArgument(argument: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[]): void;
-    AddArguments(arguments: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): void;
+    AddArgument(argument: Type, requiredCustomModifiers: Type[] | null, optionalCustomModifiers: Type[] | null): void;
+    AddArguments(arguments: Type[] | null, requiredCustomModifiers: Type[][] | null, optionalCustomModifiers: Type[][] | null): void;
     AddSentinel(): void;
-    Equals(obj: unknown): boolean;
+    Equals(obj: JsValue | null): boolean;
     GetHashCode(): int;
     GetSignature(): byte[];
     ToString(): string;
@@ -986,15 +984,15 @@ export interface SignatureHelper$instance {
 
 
 export const SignatureHelper: {
-    GetFieldSigHelper(mod: Module): SignatureHelper;
+    GetFieldSigHelper(mod: Module | null): SignatureHelper;
     GetLocalVarSigHelper(): SignatureHelper;
-    GetLocalVarSigHelper(mod: Module): SignatureHelper;
-    GetMethodSigHelper(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    GetMethodSigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    GetMethodSigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
-    GetPropertySigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    GetPropertySigHelper(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    GetPropertySigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    GetLocalVarSigHelper(mod: Module | null): SignatureHelper;
+    GetMethodSigHelper(callingConvention: CallingConventions, returnType: Type | null): SignatureHelper;
+    GetMethodSigHelper(mod: Module | null, callingConvention: CallingConventions, returnType: Type | null): SignatureHelper;
+    GetMethodSigHelper(mod: Module | null, returnType: Type | null, parameterTypes: Type[] | null): SignatureHelper;
+    GetPropertySigHelper(mod: Module | null, callingConvention: CallingConventions, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): SignatureHelper;
+    GetPropertySigHelper(mod: Module | null, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): SignatureHelper;
+    GetPropertySigHelper(mod: Module | null, returnType: Type | null, parameterTypes: Type[] | null): SignatureHelper;
 };
 
 
@@ -1016,45 +1014,45 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     CreateType(): Type;
     CreateTypeInfo(): TypeInfo;
     CreateTypeInfoCore(): TypeInfo;
-    DefineConstructor(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[]): ConstructorBuilder;
-    DefineConstructor(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): ConstructorBuilder;
-    DefineConstructorCore(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): ConstructorBuilder;
+    DefineConstructor(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[] | null): ConstructorBuilder;
+    DefineConstructor(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[] | null, requiredCustomModifiers: Type[][] | null, optionalCustomModifiers: Type[][] | null): ConstructorBuilder;
+    DefineConstructorCore(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[] | null, requiredCustomModifiers: Type[][] | null, optionalCustomModifiers: Type[][] | null): ConstructorBuilder;
     DefineDefaultConstructor(attributes: MethodAttributes): ConstructorBuilder;
     DefineDefaultConstructorCore(attributes: MethodAttributes): ConstructorBuilder;
     DefineEvent(name: string, attributes: EventAttributes, eventtype: Type): EventBuilder;
     DefineEventCore(name: string, attributes: EventAttributes, eventtype: Type): EventBuilder;
     DefineField(fieldName: string, type: Type, attributes: FieldAttributes): FieldBuilder;
-    DefineField(fieldName: string, type: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[], attributes: FieldAttributes): FieldBuilder;
-    DefineFieldCore(fieldName: string, type: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[], attributes: FieldAttributes): FieldBuilder;
+    DefineField(fieldName: string, type: Type, requiredCustomModifiers: Type[] | null, optionalCustomModifiers: Type[] | null, attributes: FieldAttributes): FieldBuilder;
+    DefineFieldCore(fieldName: string, type: Type, requiredCustomModifiers: Type[] | null, optionalCustomModifiers: Type[] | null, attributes: FieldAttributes): FieldBuilder;
     DefineGenericParameters(...names: string[]): GenericTypeParameterBuilder[];
     DefineGenericParametersCore(...names: string[]): GenericTypeParameterBuilder[];
     DefineInitializedData(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
     DefineInitializedDataCore(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
     DefineMethod(name: string, attributes: MethodAttributes): MethodBuilder;
     DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions): MethodBuilder;
-    DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodBuilder;
-    DefineMethod(name: string, attributes: MethodAttributes, returnType: Type, parameterTypes: Type[]): MethodBuilder;
-    DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): MethodBuilder;
-    DefineMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): MethodBuilder;
+    DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
+    DefineMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
+    DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): MethodBuilder;
+    DefineMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): MethodBuilder;
     DefineMethodOverride(methodInfoBody: MethodInfo, methodInfoDeclaration: MethodInfo): void;
     DefineMethodOverrideCore(methodInfoBody: MethodInfo, methodInfoDeclaration: MethodInfo): void;
     DefineNestedType(name: string): TypeBuilder;
     DefineNestedType(name: string, attr: TypeAttributes): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[]): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type, typeSize: int): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type, packSize: PackingSize): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type, packSize: PackingSize, typeSize: int): TypeBuilder;
-    DefineNestedTypeCore(name: string, attr: TypeAttributes, parent: Type, interfaces: Type[], packSize: PackingSize, typeSize: int): TypeBuilder;
-    DefinePInvokeMethod(name: string, dllName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][], nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type, parameterTypes: Type[]): PropertyBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): PropertyBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): PropertyBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): PropertyBuilder;
-    DefinePropertyCore(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): PropertyBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null): TypeBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null): TypeBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, typeSize: int): TypeBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, packSize: PackingSize): TypeBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, packSize: PackingSize, typeSize: int): TypeBuilder;
+    DefineNestedTypeCore(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null, packSize: PackingSize, typeSize: int): TypeBuilder;
+    DefinePInvokeMethod(name: string, dllName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, parameterTypes: Type[] | null): PropertyBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): PropertyBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
+    DefinePropertyCore(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
     DefineTypeInitializer(): ConstructorBuilder;
     DefineTypeInitializerCore(): ConstructorBuilder;
     DefineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
@@ -1069,8 +1067,8 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
-    SetParent(parent: Type): void;
-    SetParentCore(parent: Type): void;
+    SetParent(parent: Type | null): void;
+    SetParentCore(parent: Type | null): void;
 }
 
 
