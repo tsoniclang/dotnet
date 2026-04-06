@@ -1210,6 +1210,8 @@ interface __TsonicExtMethods_System_Linq {
   OrderBy<TSource, TKey>(this: System_Collections_Generic.IAsyncEnumerable_1<TSource>, keySelector: System.Func_3<TSource, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedAsyncEnumerable_1<TSource>>;
   OrderBy<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System_Linq_Expressions.Expression_1<System.Func_2<TSource, TKey>>): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
   OrderBy<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System_Linq_Expressions.Expression_1<System.Func_2<TSource, TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
+  OrderBy<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
+  OrderBy<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
   OrderBy<TSource, TKey>(this: System_Linq.ParallelQuery_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.OrderedParallelQuery_1<TSource>>;
   OrderBy<TSource, TKey>(this: System_Linq.ParallelQuery_1<TSource>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.OrderedParallelQuery_1<TSource>>;
   OrderBy<TSource, TKey>(this: System_Collections_Generic.IEnumerable_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
@@ -1218,6 +1220,8 @@ interface __TsonicExtMethods_System_Linq {
   OrderByDescending<TSource, TKey>(this: System_Collections_Generic.IAsyncEnumerable_1<TSource>, keySelector: System.Func_3<TSource, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<TKey>>, comparer?: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedAsyncEnumerable_1<TSource>>;
   OrderByDescending<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System_Linq_Expressions.Expression_1<System.Func_2<TSource, TKey>>): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
   OrderByDescending<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System_Linq_Expressions.Expression_1<System.Func_2<TSource, TKey>>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
+  OrderByDescending<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
+  OrderByDescending<TSource, TKey>(this: System_Linq.IQueryable_1<TSource>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.IOrderedQueryable_1<TSource>>;
   OrderByDescending<TSource, TKey>(this: System_Linq.ParallelQuery_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.OrderedParallelQuery_1<TSource>>;
   OrderByDescending<TSource, TKey>(this: System_Linq.ParallelQuery_1<TSource>, keySelector: System.Func_2<TSource, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey> | null): Rewrap<this, System_Linq.OrderedParallelQuery_1<TSource>>;
   OrderByDescending<TSource, TKey>(this: System_Collections_Generic.IEnumerable_1<TSource>, keySelector: System.Func_2<TSource, TKey>): Rewrap<this, System_Linq.IOrderedEnumerable_1<TSource>>;
@@ -1494,6 +1498,7 @@ interface __TsonicExtMethods_System_Linq {
   Where<TSource>(this: System_Collections_Generic.IAsyncEnumerable_1<TSource>, predicate: System.Func_3<TSource, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<TSource>>;
   Where<TSource>(this: System_Collections_Generic.IAsyncEnumerable_1<TSource>, predicate: System.Func_4<TSource, System_Internal.Int32, System_Threading.CancellationToken, System_Threading_Tasks.ValueTask_1<System_Internal.Boolean>>): Rewrap<this, System_Collections_Generic.IAsyncEnumerable_1<TSource>>;
   Where<TSource>(this: System_Linq.IQueryable_1<TSource>, predicate: System_Linq_Expressions.Expression_1<System.Func_2<TSource, System_Internal.Boolean>>): Rewrap<this, System_Linq.IQueryable_1<TSource>>;
+  Where<TSource>(this: System_Linq.IQueryable_1<TSource>, predicate: System.Func_2<TSource, System_Internal.Boolean>): Rewrap<this, System_Linq.IQueryable_1<TSource>>;
   Where<TSource>(this: System_Linq.ParallelQuery_1<TSource>, predicate: System.Func_2<TSource, System_Internal.Boolean>): Rewrap<this, System_Linq.ParallelQuery_1<TSource>>;
   Where<TSource>(this: System_Linq.ParallelQuery_1<TSource>, predicate: System.Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): Rewrap<this, System_Linq.ParallelQuery_1<TSource>>;
   Where<TSource>(this: System_Collections_Generic.IEnumerable_1<TSource>, predicate: System.Func_2<TSource, System_Internal.Boolean>): Rewrap<this, System_Collections_Generic.IEnumerable_1<TSource>>;
@@ -2350,4 +2355,3 @@ export type ExtensionMethods_System_Xml_XPath<TShape> =
   TShape extends null | undefined ? TShape
   : TShape extends void ? void
   : TShape & __TsonicWithExt<TShape, "System.Xml.XPath", __TsonicExtApplier_System_Xml_XPath> & __TsonicExtMethods_System_Xml_XPath;
-
