@@ -1,143 +1,115 @@
 # @tsonic/dotnet
 
-TypeScript type definitions for .NET 10 BCL (Base Class Library).
+TypeScript declarations and CLR binding metadata for the .NET 10 base class library.
 
-## Versioning
+`@tsonic/dotnet` is a generated binding package. It gives Tsonic projects an
+importable TypeScript surface for `Microsoft.NETCore.App` assemblies while the
+compiled program still targets the real .NET runtime assemblies.
 
-This repo is versioned by **.NET major**:
-
-- **.NET 10** → `versions/10/` → npm: `@tsonic/dotnet@10.x`
-
-When publishing, run: `npm publish versions/10 --access public`
-
-## Features
-
-- ✅ **Complete .NET 10 BCL coverage** - 130 namespaces, 4,296 types, 50,675 members
-- ✅ **camelCase members** - TypeScript-friendly naming conventions
-- ✅ **Friendly generic aliases** - Use `List<T>` instead of `List_1<T>`
-- ✅ **Primitive aliases** - `int`, `long`, `decimal`, etc. via `@tsonic/core`
-- ✅ **Full type safety** - Zero TypeScript errors
-
-## Installation
+## Install
 
 ```bash
 npm install @tsonic/dotnet @tsonic/core
 ```
 
-## Usage
+## Use with Tsonic
 
-### Collections
+Default CLR workspaces include the BCL binding package in the normal compiler
+setup. Import CLR namespaces explicitly:
 
-```typescript
-import type { List, Dictionary, HashSet } from "@tsonic/dotnet/System.Collections.Generic.js";
-import type { int, decimal } from "@tsonic/core/types.js";
-
-const ages: List<int> = null!;
-const prices: Dictionary<string, decimal> = null!;
-const uniqueIds: HashSet<int> = null!;
-```
-
-### Async Programming
-
-```typescript
-import type { Task } from "@tsonic/dotnet/System.Threading.Tasks.js";
+```ts
+import { Console } from "@tsonic/dotnet/System.js";
+import { List } from "@tsonic/dotnet/System.Collections.Generic.js";
 import type { int } from "@tsonic/core/types.js";
 
-const asyncResult: Task<int> = null!;
+export function main(): void {
+  const values = new List<int>();
+  values.Add(42);
+  Console.WriteLine(values.Count.ToString());
+}
 ```
 
-### Core Types
+## Package shape
 
-```typescript
-import type { Nullable, Action, Func } from "@tsonic/dotnet/System.js";
+The package exposes one ESM facade per CLR namespace plus compiler metadata:
+
+```text
+@tsonic/dotnet/
+  System.d.ts
+  System.js
+  System/
+    bindings.json
+    internal/index.d.ts
+  System.Collections.Generic.d.ts
+  System.Collections.Generic.js
+  System.Collections.Generic/
+    bindings.json
+    internal/index.d.ts
+  __internal/extensions/index.d.ts
+  families.json
+```
+
+- `<Namespace>.d.ts` is the public import facade.
+- `<Namespace>.js` is an ESM stub for package resolution.
+- `<Namespace>/internal/index.d.ts` contains the full generated declaration surface.
+- `<Namespace>/bindings.json` carries CLR identity, overload, receiver, extension,
+  nullable, and generic metadata for the Tsonic compiler.
+- `__internal/extensions/index.d.ts` contains generated extension-method wrapper
+  types used for C#-style `using` semantics.
+- `families.json` records multi-arity type families such as `Func`, `Action`, and
+  `ValueTuple`.
+
+## Type model
+
+- CLR type and member names are emitted with CLR-faithful casing.
+- CLR primitives use `@tsonic/core/types.js` aliases such as `int`, `long`,
+  `double`, `bool`, and `char`.
+- Generic CLR names keep their arity-safe declarations, with facade aliases for
+  common families.
+- Delegates emit callable TypeScript types.
+- `Task` and `ValueTask` are thenable in TypeScript positions.
+- Extension methods are available through generated `ExtensionMethods` helpers.
+
+Example extension-method wrapper:
+
+```ts
+import type { ExtensionMethods as Linq } from "@tsonic/dotnet/System.Linq.js";
+import type { IEnumerable } from "@tsonic/dotnet/System.Collections.Generic.js";
 import type { int } from "@tsonic/core/types.js";
 
-const optional: Nullable<int> = null!;
-const callback: Action<int> = null!;
-const converter: Func<int, string> = null!;
+type LinqEnumerable<T> = Linq<IEnumerable<T>>;
+
+declare const values: LinqEnumerable<int>;
+const positive = values.Where((value) => value > 0);
 ```
 
-### LINQ
+## Versioning
 
-```typescript
-import type { IEnumerable, IQueryable } from "@tsonic/dotnet/System.Linq.js";
-import type { int } from "@tsonic/core/types.js";
+This repo is versioned by .NET major:
 
-const sequence: IEnumerable<int> = null!;
-```
-
-## Package Structure
-
-- **130 namespaces** - All major .NET namespaces
-- **Flat ESM modules** - Clean import paths
-- **Metadata sidecars** - `metadata.json` files for CLR-specific info
-- **Support types** - Unsafe markers (`ptr<T>`) and primitives imported from `@tsonic/core`
-
-## Naming Conventions
-
-- **Types**: PascalCase (matches .NET)
-- **Members**: camelCase (TypeScript convention)
-- **Generics**: Friendly aliases (`List<T>` vs `List_1<T>`)
-
-## Examples
-
-### File I/O
-
-```typescript
-import type { Stream, FileStream } from "@tsonic/dotnet/System.IO.js";
-```
-
-### Networking
-
-```typescript
-import type { HttpClient } from "@tsonic/dotnet/System.Net.Http.js";
-import type { IPAddress, Socket } from "@tsonic/dotnet/System.Net.js";
-```
-
-### Serialization
-
-```typescript
-import type { JsonSerializer } from "@tsonic/dotnet/System.Text.Json.js";
-```
+- .NET 10 declarations live under `versions/10/`.
+- The npm package is published as `@tsonic/dotnet@10.x`.
 
 ## Development
 
-### Regenerating Types
-
-To regenerate TypeScript declarations from .NET assemblies:
+Regenerate the .NET 10 package from a sibling `tsbindgen` checkout:
 
 ```bash
-./__build/scripts/generate.sh
+npm install
+npm run generate:10
 ```
 
-**Prerequisites:**
-- .NET 10 SDK installed
-- `tsbindgen` repository cloned at `../tsbindgen` (sibling directory)
+The generation script requires:
 
-The script will:
-1. Clean existing namespace directories
-2. Build tsbindgen
-3. Generate fresh TypeScript declarations
+- .NET 10 SDK/runtime
+- `../tsbindgen`
+- a `Microsoft.NETCore.App` runtime directory selected by `DOTNET_HOME` and
+  `DOTNET_VERSION`
 
-**Environment variables:**
-- `DOTNET_VERSION` - .NET runtime version (default: `10.0.1`)
-- `DOTNET_HOME` - .NET installation directory (default: `$HOME/.dotnet`)
+Example for a system install:
 
-### Package Structure
-
-```
-@tsonic/dotnet/
-├── families.json                      # Multi-arity family index
-├── __internal/extensions/index.d.ts   # Extension method buckets
-├── System.d.ts                        # Facade (public API)
-├── System.js                          # Runtime stub (throws)
-├── System/
-│   ├── bindings.json
-│   └── internal/
-│       ├── index.d.ts
-│       └── metadata.json
-├── ... (more namespaces)
-└── __build/scripts/generate.sh        # Type regeneration script
+```bash
+DOTNET_HOME=/usr/lib/dotnet DOTNET_VERSION=10.0.5 npm run generate:10
 ```
 
 ## License
